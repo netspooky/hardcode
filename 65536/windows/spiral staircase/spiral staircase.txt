@@ -1,0 +1,20 @@
+
+
+	"spiral staircase" 64k intro by kaleido
+
+	conqui		code
+	mnemonix	code and music
+
+	tested on celeron 400 with tnt2 m64 graphics adapter
+	developed on athlon 1000 with gf2mx graphics adapter
+
+	we didn't feel like bug fixing anything at the moment
+	maybe somewhere in the future.
+
+	second place at woest'02
+
+	for the sake of clarity:
+	requires msvcr70.dll
+	don't start complaining that using dll's in 64k intros is lame
+	if you do, you don't have ANY idea about what you are saying !
+	

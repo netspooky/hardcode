@@ -1,0 +1,15 @@
+Hello and thank you for all the great comments !
+As promised, I updated the archive with below :
+ - Girlbasic2k.asm is the source code ;
+ - Basic1771b.com is record footprint 
+    (previous record was Erik T. Mueller in 1974 with MINOL) ;
+ - Girlbasic2k_blue.com has blue background, no heart cursor and no "girl" mention ; 
+ - Girlbasic2k_blue.asm is the afferent source code.
+Respect to everybody.
+
+22:45 02/07/2015 fixed wrongful IF clause interpretation in
+Girlbasic2k.asm and Girlbasic2k_blue.asm (was working correctly already in
+Basic1771b). See IfClauseFix.png in archive to see how stement should be.
+
+For any other bug reports please mail me at olivier.poudade_free.fr.
+Thank you in adavance. 

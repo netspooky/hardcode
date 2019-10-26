@@ -1,0 +1,77 @@
+
+
+                          s.P.I.N.N.I.N.G.  k.I.D.S
+
+                                 a.D.  1.9.9.9
+
+                                     -----
+
+
+                                b.R.I.N.G  y.A
+
+
+-   --   ---  ---- --------------------------------------- ----  ---   --    -
+
+                           - T - A - I - N - T -
+
+-   --   ---  ---- --------------------------------------- ----  ---   --    -
+
+
+                    a  64 kb intro eradicated at TRIP '99
+
+
+
+
+
+Code: Pan, Neurotix, CAPo, TheGlide.
+Music: DiXan.
+Graphic: Rio.
+
+Some technical stuff:
+This intro features a revolutionary raytracing engine called Estica, which can
+trace equations up to fourth degree with full soft shadows, nested reflections,
+different materials and volumetric lights. It also features a dynamic resolution
+adjustment to ensure the frame rate to be constant and to improve rendering
+quality on hi class processors as well.
+The sound engine, called Rynchomatic, is a reduced and optimized version of the
+original sample generator by Neurotix/Parenthesis, and features a quality sample
+rendering with synchronized filter sweep, overdrive, rezo and LFO filters.
+This intro is intended to run on a Pentium 200 processor with linear frame buffer.
+
+Legal stuff:
+We know you know what is to be known...
+For the party version in previous packages (sk-taint.exe) we used Pascal's MXMPlay (Thanx) and Tran's PMODEW & PMWLITE (Thanx).
+For the party version in this package (sk-tntg1) we used Pascal's MXMPlay (Thanx) and Tran's PMODEW (Thanx) and Markus Oberhumer & Laszlo Molnar UPX (Thanx).
+For final release (sk-tnts1) we used FreddyV's Useless Player (Thanx) and Markus Oberhumer & Laszlo Molnar UPX (Thanx).
+
+For all main-coding, ray-coding, bugfixing, compiling and packaging we used Pan (Yeah, I thank myself).
+
+Scenish stuff:
+Dixan wishes to greet the following people:
+Boozers from ASM and TP (Antibyte,Acryl,Alex,Boheme,Psycho,Carnifex,Duncan,Grendel,
+UncleX,General Lee,Kalms,Tudor and the others),Deacon and the guys of the Copenaghen
+bus trip,Nabo and the Vicenza guys, everybody from Hungarian demoscene,the great
+MinMax from Abort organizing and everybody who ever download his tunes from
+games.eden.it/musicplanet.
+
+Rio
+All the brothers in booze met at ASM and the ppl on #TheScene.
+Don't let me bore you, you know who you are.
+
+Pan
+See above (i'm too lazy). Just add some italian second-time sceners (like
+me), #scene.si and #coders. See ya on irc (if i'm alive).
+
+14-03-1999 => This infofile has been written, but the engine still produces some
+              weird black spots centered in the light glows. We have to make the
+              MXM play something too. Keyframing and synchronizing are still to come.
+              The nice thing is that the advertizing poster is ready. (And kickin'
+              too. NdRio)
+
+28-03-1999 => We just won.
+
+04-05-1999 => Taint Candidate Release 1 is going to be released, but since those
+              guys at scene.org called "release" the PARTY version without
+              infofile, i have to call this file another way...
+              i'm going to call this shit "sk-tntr1.zip"
+

@@ -1,0 +1,6 @@
+tr.asm           : tasm 4.1 sourcefile
+tr.com           : transformers (final)
+                 : extra credits: frag/fsqrt (optimization)
+                 :                rudi (sound)
+tr2.com          : transformers old executable (no sound)
+tr3.com(optional): kinda looks like organic liquid of some sort

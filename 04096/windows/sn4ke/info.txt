@@ -1,0 +1,16 @@
+SN4KE
+
+* * * *
+
+My 2nd 4k bytes game!
+Using OpenGL again... :D
+
+* * * *
+
+Press Left or Right key and get the blue spheres!
+Don't touch the red bombs...
+
+* * * *
+
+coded by hole / n.h.k.
+February 2013 on TokyoDemoFest

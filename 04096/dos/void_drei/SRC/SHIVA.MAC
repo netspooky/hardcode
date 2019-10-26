@@ -1,0 +1,372 @@
+prepareblitter MACRO
+     xor eax, eax
+     mov al, vmode
+     mov ebx, [eax*4+flipfunctions]
+     mov flipfunction, ebx
+endm
+
+initfont MACRO
+
+     mov dl, 255
+;     xor ecx, ecx
+     lea esi, [font_buf]
+     lea edi, [softfont]
+     push edi
+     @letterloop:
+          mov cl, 32
+          @yfloop:
+              test cl, 011b
+              jnz @noload
+              lodsb
+              @noload:
+              push eax
+              mov ch, 8
+              @xfloop:
+                 add al, al
+                 jnc @nopixel
+                     ;dec dword ptr [edi]
+                     mov dword ptr [edi], 03f3f3f3fh
+                 @nopixel:
+                 add edi, 4
+              dec ch
+              jnz @xfloop
+              pop eax
+              add edi, 32
+          loop @yfloop
+          add edi, 32*64
+     dec dl
+     jnz @letterloop
+     pop edi
+
+     mov cl, 8
+     @blurallloop:
+          push edi
+          mov ebx, 32*32*256*2
+          @blurloop:
+               mov al, [edi-64]
+               add al, [edi-1]
+               add al, [edi+1]
+               add al, [edi+64]
+               shr al, 2
+               stosb               
+          dec ebx
+          jnz @blurloop
+          pop edi
+     loop @blurallloop
+ENDM
+
+;al = letter, edi = dest
+writeletter MACRO
+     movzx eax, al
+     shl eax, 12
+     lea esi, [softfont+eax-4-32*8]
+     mov bl, 32+16
+     @ywlloop:
+         mov ecx, 32+8
+         @copyloopwl:
+              lodsb
+              shl al, 2
+              mov bh, 4
+              @comploop:
+                 push eax
+                 mov ah, [edi]
+                 sub ah, al
+                 ;sub ah, [edi]
+                 db 0d6h
+                 not al
+                 and al, ah
+                 stosb 
+                 pop eax
+              dec bh
+              jnz @comploop
+         loop @copyloopwl
+         add esi, 32-8
+         add edi, (320-(32+8))*4
+     dec bl
+     jnz @ywlloop
+ENDM
+
+writestring MACRO
+     db 0beh
+     textline:
+     dd offset @nullstring
+
+     xor edx, edx
+     lodsb
+     mov ecx, eax
+    imul eax, -30*2
+     lea edi, [ebp+(320*(120-24))*4+160*4+eax]
+     @letterloop2:
+         inc edx
+         lodsb
+
+         pushad
+         add edx, globalt
+         movzx ebx, byte ptr [noisemap+edx*2]
+         and bl, 01111b
+         add edi, ebx
+
+         movzx ebx, byte ptr [noisemap+edx*2+1]
+         and bl, 0111b
+
+        imul ebx, 320*4
+         add edi, ebx
+          writeletter
+         popad
+         add edi, 30*4
+     dec cl
+     jnz @letterloop2
+ENDM
+
+runscript MACRO
+        mov esi, scriptptr
+        @runagain:
+        mov ebx, nextt
+        cmp globalt, ebx
+        jna @norun
+           xor eax, eax
+           lodsb
+           cmp al, 255
+           jz  @exit
+           add ebx, eax
+           mov nextt, ebx
+           cmp al, 254
+           jz @norun
+;           xor eax, eax
+           lodsw
+           mov bl, ah
+           and ah, 00111111b
+           lea edi, [eax+baseoffset]
+           xor eax, eax
+           test bl,  010000000b
+           jz @no_rel
+                lodsw
+                lea eax, [eax+baseoffset]
+                stosd
+                jmp @runagain
+           @no_rel:
+           test bl, 001000000b
+           jz @no_byte
+                lodsb
+                stosd
+                jmp @runagain
+           @no_byte:
+                lodsb
+                shl eax, 18
+                lea eax, [eax+texturebase]
+                stosd
+                jmp @runagain
+        @norun:
+        mov scriptptr, esi
+ENDM
+
+makeshademap MACRO
+        lea edi, [shademap]
+;        mov ecx, 0ffffh
+	dec cx
+        @loopme:
+             mov al, cl
+             not al
+             sub al, ch
+             jnc @noclamplo
+                 xor al, al
+             @noclamplo:
+             stosb
+        loop @loopme        
+ENDM
+
+;esi = source1 edi = source2&dest eax = weight
+xfade MACRO
+     shl eax, 8
+     mov ebx, eax
+     not bh
+     mov ecx, 320*240*4
+     lea edx, [shademap]
+     @xfadeloop:
+          mov bl, [edi]
+          ;lodsb
+          mov al, bl
+          not al
+
+          mov al, [edx+eax]
+          add al, [edx+ebx]
+          mov [edi], al
+          inc edi
+     dec ecx
+     jnz @xfadeloop
+ENDM
+
+makematrix MACRO
+     ;shift the buffer forward
+     lea esi, [matrixbuffer+(127*3*3*8-4)]
+     lea edi, [esi+3*3*8]
+     mov ecx, 127*3*3*2
+     std
+     rep movsd
+     cld
+     ;copy old matrix to buffer
+     lea esi, [matrix]
+     push esi
+     lea edi, [esi+3*3*8]
+     mov cl, 3*3*2
+     rep movsd
+     pop edi
+     ;generate matrix
+     ;mov esi, 0
+     db 0beh
+     rotspeed:
+     dd 0
+     makerotmat
+ENDM
+
+makealltextures MACRO
+;        mov ecx, nr_textures
+	mov cl, nr_textures
+        lea edi, [textures]
+        lea esi, [testtextdesc]
+;        mov ebx, ebp
+        @nexttexture:
+        call precalc_dot
+        pushad
+        call synthtexture
+        popad
+        xor eax, eax
+        lodsb
+       imul eax, 9
+        add esi, eax
+        lodsw
+        add edi, 256*256*4
+        loop @nexttexture
+ENDM
+
+;edi = dest, ebx=grid function
+rendergrid MACRO
+     ;clear top
+     mov ecx, 320*30
+     xor eax, eax
+     rep stosd
+
+     lea esi, [grid]
+     pushad
+     mov cl, (180/8)+1
+     @ygridloop:
+         mov ch, (320/8)+1
+         @xgridloop:
+             call ebx
+             mov al, 3
+             @shiftmedumb:
+                  shl dword ptr [esi], 2
+                  add esi, 4
+             dec al
+             jnz @shiftmedumb
+         dec ch
+         jnz @xgridloop         
+     loop @ygridloop
+     popad
+
+     mov cl, (180/8)
+     @ygridloopdraw:
+         mov ch, (320/8)
+         @xgridloopdraw:
+             push edi
+             call drawblock
+             pop edi
+             add edi, 8*4
+             add esi, 12
+         dec ch
+         jnz @xgridloopdraw
+         add esi, 12
+         add edi, 320*4*7  
+     loop @ygridloopdraw
+
+     mov ecx, 34*320
+     xor eax, eax
+     rep stosd
+ENDM
+
+;edi=target esi=(value!) rotation speed
+makerotmat MACRO
+    mov al, 2
+    @preploop:
+       fild globalt
+       push esi
+       fimul dword ptr [esp]
+       pop esi
+       fidiv i_255
+       fsincos
+	fxch st(1)
+    dec al
+    jnz @preploop
+
+    ;sy cy sx cx
+    fldz
+    fstp qword ptr [edi+8*1] 
+    fst qword ptr [edi+8*2]
+    fxch st(1)
+    ;cy sy sx cx
+    fst qword ptr [edi+8*0] ;first row
+
+    fxch st(3)
+    ;cx sy sx cy
+    fst qword ptr [edi+8*4]   
+    fxch st(2)
+    ;sx sy cx cy
+    fst qword ptr [edi+8*7]
+    fld st(0)
+    ;sx sx sy cx cy
+    fmul st(0), st(2)
+    fstp qword ptr [edi+8*3]
+    fld st(2)
+    ;cx sx sy cx cy
+    fmul st(0), st(4)
+    fstp qword ptr [edi+8*8]
+    ;sx sy cx cy
+    fchs
+    fmulp st(3), st(0)
+    ;sy cx cy*sx
+    fchs
+    fmulp st(1), st(0)
+    fstp qword ptr [edi+8*6]
+    fstp qword ptr [edi+8*5]
+
+ENDM
+
+makenoise MACRO
+        mov eax, 01234h
+        mov ecx, 1024*1024
+        lea edi, [noisemap]
+        @bigloop:
+                mov dl, 4
+                @randloop:
+                        mov ebx, eax           
+                        shr ebx, 3
+                        xor ebx, eax
+                        shr ebx, 1
+                        rcr eax, 1
+                dec dl
+                jnz @randloop
+                stosb
+        loop @bigloop
+ENDM
+
+initfastperlin MACRO
+;     xor ecx, ecx
+     lea esi, [@nrbase1]
+     @initloop:
+         push ecx
+         fild dword ptr [esp]
+         pop ecx
+         fidiv word ptr [esi]
+         fldpi
+         fmulp st(1), st(0)
+         fcos
+         fild word ptr [esi+2]
+         fmul st(1), st(0)
+         fxch st(1)
+         fsubp st(1), st(0)
+         fistp dword ptr costab[ecx*4]
+     inc cl
+     jnz @initloop
+ENDM
+
+

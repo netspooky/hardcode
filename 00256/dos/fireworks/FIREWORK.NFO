@@ -1,0 +1,41 @@
+Fireworks 256byte intro
+coded by Picard / Hydrogen
+released at SCEneST/Rage'98
+
+Hardware requirements:
+  - 486DX
+  - 400Kb dosmem
+  - VGA
+
+About:
+  A small 4096 point particale system with fullscreen blur. There is
+  two retrace delays in the loop so max speed is 35fps. This is still too
+  fast for the explosions, but the blur speed is fixed, and lower fps is ugly.
+  I wanted to make a 3D 4Kb intro. No success. I could list all type
+  of reasons (exams,work,...) By the way there are great coding compos
+  on the net (too much time invested in these compos)
+    http://home.pages.de/~hugi-compo
+    http://www.cyty.com/robocom
+
+Warning:
+  Including this demo on a profit oriented cd rom is forbidden without our
+  written permission!
+
+Disclaimer:
+  WE DO NOT TAKE ANY RESPONSIBLES ABOUT DAMAGES THAT THIS SOFTWARE CAN COUSE
+  YOUR HARDWARE!
+
+Hydrogen group:
+  This group is dying. Only one "active" member left. Not a single demo or
+  intro yet. Our exmusician Trajic gone for many years, he was the most
+  produtcive member.
+
+Actual member(s):
+  - Picard        picard@telnet.hu
+
+Honorary members:
+  - Cyd           cyd@telnet.hu
+  - dLux          dlux@dlux.rulez.org
+  - Guybrush      korn@eik.bme.hu
+
+(c) 1998 by Hydrogen

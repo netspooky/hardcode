@@ -1,0 +1,20 @@
+----------------------
+PERSPECTIVE PERCEPTION
+a text mode intro by Komojo
+----------------------
+
+Here is a text-mode intro I made for TMDC 16. It's a (very) short tribute to
+M.C. Escher. I managed to fit everything into 22 kilobytes this time.
+
+This only has about half of what I originally wanted, and I will probably make a
+more polished version some time in the future. I might even change the name,
+since I came up with that at the last minute and I'm not sure if I like it. This
+demo is pretty short, but I made some improvements to the visual quality since
+my last demo, and I (finally) updated my music synthesizer to be in stereo.
+
+I had fun making this, and I look forward to seeing more text mode demos!
+
+Credits:
+- Art, music and code by Komojo (komojo@gmail.com)
+- 3D models created with Blender
+- Compressed with Crinkler

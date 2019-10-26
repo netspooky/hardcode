@@ -1,0 +1,78 @@
+4K Merel
+--------
+
+a little babytro to announce the birth of our beautiful daughter Merel.
+My deepest love to Kaatje for doing the hard work of this amazing release.
+
+
+Credits for the intro:
+----------------------
+Code: Seven/Fulcrum
+Music: Coplan/Fulcrum (thanks man!)
+
+Requirements:
+-------------
+- Windows XP
+- a Pixel Shaders 3 compatible graphics card with lots of shaders (Raymarching,
+  you know). It runs at 20 FPS (with a 12 FPS dip somewhere) on a 3-years old
+  Geforce 8800 GTX with 128 shader pipelines, so most(*) modern mid-range card
+  should run it quite fluently. It's also tested on a 8600 GT laptop card, but
+  it ran in the single digit FPS.
+  (*)Psycho/Loonies was so kind to test it on ATI cards, it runs fine on a HD 5000
+  series card with Cat10.6, but the 4000 series has rendering artifacts, even
+  though AMD's GPU ShaderAnalyzer says the shaders are OK :( The waves on the water
+  look stretched and there are holes in thin leaves.
+- a soundcard would be nice.
+- 4K diskspace.
+- about one and a half minute of your time.
+
+There are three versions included, for widescreen (16*10) aspect ratio screens and
+for standard (4*3) screens (or for widescreens who do aspect-ratio correct scaling,
+since the intro runs at 1024*768 internally anyways). The last version is for ATI
+HD 4000 cards (such as the one in the compo machine, sigh). It has fatter (uglier)
+leaves, since the HD 4000 seems to have precision issues and punch holes in them.
+It's more precise but slower. If the intro doesn't run at all on hardware that should
+be able to run it, and you're willing to run a debug version to gather debug info,
+let me know on Pouet and I'll try to fix it, time permitting. Same for weird gfx
+modes or such.
+
+Thanks to:
+----------
+- Psycho/Loonies for helping with last-minute ATI compatibility debugging.
+- Iq, for his nice raymarching tutorial
+- FRequency, for their 1K "To the Road of Ribbon", the first raymarching
+  intro I could wrap my head around.
+- Auld for his port of FRequencys 1K, and his blog with great ideas
+  and useful explanations: http://sizecoding.blogspot.com
+- Youth Uprising for releasing the source of Muon Baryon
+- SystemK for their useful 4K Procedural GFX Monitor
+- Blueberry/Loonies and Mentor/TBC for their essential Crinkler tool.
+- Gopher and pOwl /Alcatraz for their 4Klang software synth.
+- the In4K site at http://in4k.untergrund.net for being a great resource
+  for the (re)starting 4K coder
+- and Pouet.net for the interesting technical discussions.
+
+Rambling...
+-----------
+So, ignoring one 4K Gfx entry, this is my first 4K intro in almost 10 years... 
+Things sure changed since then: no more hand-coded assembler, VESA2 video modes,
+adlib music, apack,... But most changes are for the better.
+I know I'm late to the raymarching party, and I wish I had tried my hand at it
+a year ago. Still, I think there is room left for a small innovation here and
+there. I'm quite happy with how the intro turned out (including primary colors and
+saccharin music, yes. Goes with the subject). I was planning to do something
+very simple to get back into 4K coding, but then you want to make it look just a
+tiny bit better... It might be possible to shrink it by maybe a few tens
+of bytes more, but I really don't have the time/motivation. Yes, a baby takes away
+lots of time and ability to concentrate :) Also, congrats to MBB and Petra with their
+bundle of joy, and to Jef/RBBS and Tineke as well.
+
+Last-minute note: it's really a pain to get this running reasonly well on the compo
+machine. This is a remote entry, and I have only nvidia cards at home. D.Fox from the
+compocrew has been amazingly helpful running debug versions and mailing photos of the
+screen back etc, but it's just very hard and tiring to get it looking correct on the
+ATI HD 4870. If anyone wants to make a video to put on youtube, could you *please*
+make it on nvidia or ATI 5000 series with up-to-date drivers? Thanks!
+
+Greets,
+Seven

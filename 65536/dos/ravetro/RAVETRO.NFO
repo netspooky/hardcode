@@ -1,0 +1,138 @@
+
+                 ³                            ravetro (c) 1996 b˜team dezign ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+         creditz ³ main code -> blala                                        ³
+        ÄÄÄÄÄÄÄÄÄ³ pmode/player -> robymus                                   ³
+                 ³ gfx/dzign -> blala                                        ³
+                 ³ muzak -> tif/silicon brain                                ³
+                 ³ font -> dj/2dash                                          ³
+                 ³ moral support -> lorenzo/darkside (and lotza otherz.. :)  ³
+                 ³ byteam logo -> planb                                      ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+    requirements ³ 386+ vga                                                  ³
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ gus for sounds                                            ³
+                 ³ a fast machine is really recommended because the correct  ³
+                 ³ timing is very important in this production! also the gus ³
+                 ³ is highly recommended..                                   ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+ troubleshooting ³ load ems (tested with emm386), kill tsrs, kill windoze,   ³
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ buy a new machine, etc, etc.. you know it already.. :)    ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+       copyright ³ this material is not freeware. you are allowed to copy it ³
+      ÄÄÄÄÄÄÄÄÄÄÄ³ without restrictions for noncommercial use. no payment of ³
+                 ³ any kind may be charged for this product or any combina-  ³
+                 ³ tion of products and services including this product      ³
+                 ³ without our authorization and official written lisence.   ³
+                 ³ this program or the data files contained therein may not  ³
+                 ³ be altered or modified without our written permission.    ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+      disclaimer ³ you take full responsibility for the operation of this    ³
+     ÄÄÄÄÄÄÄÄÄÄÄÄ³ software and any consequences thereof. we the creators    ³
+                 ³ can not accept liability for damages or failures arising  ³
+                 ³ from the use of this software.                            ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+      memberlist ³ blala .................................... code/gfx/dzign ³
+     ÄÄÄÄÄÄÄÄÄÄÄÄ³ digital pain ................................ muzak/dzign ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+  party releases ³ Ÿunny covox           [demo]        varparty ii  [aug'94] ³
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ beetle's dance        [zak]         theparty iv  [dec'94] ³
+                 ³ incompatibility       [64k]    #1   cache'95     [mar'95] ³
+                 ³ composed by a minute  [zak]    #1   cache'95     [mar'95] ³
+                 ³ d‚zign suxx           [lamer]  #1   scenest 1    [apr'95] ³
+                 ³ local bus             [lamer]  #2   scenest 1    [apr'95] ³
+                 ³ singularity           [zak]    #3   scenest 1    [apr'95] ³
+                 ³ protected news        [zak]         scenest 1    [apr'95] ³
+                 ³ complexity            [4k]     #7   assembly'95  [aug'95] ³
+                 ³ preview               [64k]    #2   cache'96s    [mar'96] ³
+                 ³ caleidoscope          [4k]     #3   scenest 2    [apr'96] ³
+                 ³ city                  [trace]       scenest 2    [apr'96] ³
+                 ³ white dove            [zak]         flag'96      [jul'96] ³
+                 ³ adamantium            [4k]     #7   flag'96      [jul'96] ³
+                 ³ countach              [4k]     #2   assembly'96  [aug'96] ³
+                 ³ pocsolya              [64k]    #10  assembly'96  [aug'96] ³
+                 ³ methodology           [4k]     #5   antiq'96     [aug'96] ³
+                 ³ anima                 [4k]     #6   antiq'96     [aug'96] ³
+                 ³ bubbles               [4k]     #2   pieslice'96  [oct'96] ³
+                 ³ ravetro               [64k]     ?   cache'96a    [nov'96] ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+   not party rel ³ incomsrc.zip          [source]                   [apr'95] ³
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ kintro.zip            [bbsaddy+src]              [jul'95] ³
+                 ³ megant.zip            [zaks]                     [jul'95] ³
+                 ³ bct.com               [bbsaddy]                  [jul'95] ³
+                 ³ cmplxsrc.zip          [source]                   [aug'95] ³
+                 ³ bubblsrc.zip          [source]                   [oct'96] ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+         history ³ nov'93   byteam founded by robymus/blala/megant           ³
+        ÄÄÄÄÄÄÄÄÄ³ jul'94   leon sky joined as a graphic artist              ³
+                 ³ jan'95   plan-b joined as a graphic artist                ³
+                 ³ feb'95   zts joined as a musician                         ³
+                 ³          hal joined as a cool guy :)                      ³
+                 ³ may'95   senator joined as a doom champion :))            ³
+                 ³ feb'96   dave joined as a coder                           ³
+                 ³ mar'96   megant/senator/plan-b/leon sky left byteam       ³
+                 ³ apr'96   leon sky's last byteam release :)                ³
+                 ³ jun'96   trapeer joined as a 3d graphic artist            ³
+                 ³ aug'96   robymus/hal left byteam (lack of interest)       ³
+                 ³          trapeer kicked out :))                           ³
+                 ³ sep'96   zts/dave left byteam too..                       ³
+                 ³          byteam has renaissance now :)                    ³
+                 ³ oct'96   digital pain of dinasty joined as a musician     ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+         distros ³ a.c.e          gandalf    +33.1.45887548   28k8    france ³
+        ÄÄÄÄÄÄÄÄÄ³ scenet         melan      +36.1.2285921    28k8   hungary ³
+                 ³ x-press        sinus      +49.30.40632377  28k8   germany ³
+                 ³ koalaland      stofi      +36.23.354776    28k8   hungary ³
+                 ³ the bodycount  toci       +36.1.1696539    14k4   hungary ³
+                 ³ free zone      mayweed    +33.1.69342267   28k8    france ³
+                 ³ splatterpunk   teasy      +49.23782627     28k8   germany ³
+                 ³ doomsday       darkhalf   +36.1.3260171    14k4   hungary ³
+                 ³ countzero      yitzhaq    +47.55.122962    28k8    norway ³
+                 ³ the pound      mater      +385.1.215132    14k4   croatia ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+      contacting ³ email                 blala@eotvos.isk.huninet.hu (blala) ³
+     ÄÄÄÄÄÄÄÄÄÄÄÄ³             robymus@kalmar2.kalmar.hu (robymus/happening) ³
+                 ³ snailmail         k“m–ves bal zs (blala/byteam^happening) ³
+                 ³                                sz zhalombatta, labda u. 6 ³
+                 ³                                              2440 hungary ³
+                 ³ phone                      +36.23.358331 (voice or modem) ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+    group greets ³ abaddon.japotek.astroidea.murmidones.impulse.dolops.funk! ³
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ majic 12.silicon brain.absolute!.mortal team.pulse.profik ³
+                 ³ gollum.mandula.unique pc.remal.darkside.dentrifice.axioma ³
+                 ³ agressive giants.happening.neutron.nosasoft.exhumers.coma ³
+                 ³ golden chipmunk software empire.enlightenment.nooon.xtacy ³
+                 ³ yodel.valhalla.digital development.controlled dreams.jamm ³
+                 ³ capan¤a.exact.breeze.the mad team.brainlez coders.idgames ³
+                 ³ psychic link.symphaty.skraappa skruuppi.complex.diffusion ³
+                 ³ doomsday productions.dubius.cubicteam&seen.coral.realtech ³
+                 ³ oxygene.dinasty.etc..                                     ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+ personal greets ³ melan.reptile.o-man.snowman.kal.ren‚.periwinkle.pellicius ³
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³ ionic.tomcat.ervin.tyrant.eft.rendall.lorenzo.chipie.toci ³
+                 ³ madic.juliska.xanadu.albino.asyntote.cutnpaste.alma.galet ³
+                 ³ titus.tif.stephen(tm).mallory.pnis.fanthomas.bigf00t.rack ³
+                 ³ zak.darkhalf.elijah.maxwood.petroff.tigris.ruszi.exosworm ³
+                 ³ stofi.gandalf.john zer0.leon king.raud.pit.czirba.vadmacs ³
+                 ³ megant.plan-b.senator.koala kabala.victor.tomcat2.lacoste ³
+                 ³ tshell.ward.netie.mrz.boldi.pti.myrel.fefe.profi1.robymus ³
+                 ³ profi2.t‚em.drno.weed.caveman.ritus.murphy.logten.yitzhaq ³
+                 ³ teasy.sinus.zts.dave.hal.trapeer.digital pain.olver lance ³
+                 ³ rapier.mater.teasy.mayweed.kaos.and all i forgot.. sorry! ³
+                 ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+         closing ³ musician(s) (maybe graphicians too:) wanted!!             ³
+        ÄÄÄÄÄÄÄÄÄ³                                                           ³
+                 ³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ³
+                 ³                                                           ³

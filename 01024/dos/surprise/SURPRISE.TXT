@@ -1,0 +1,12 @@
+Het is een simpel ideetje :
+
+Een paar punten die cirkel vormige bewegingen maken zijn de startpositie
+voor pixels die volgens de zwaartekracht wet naar beneden vallen.
+Het effect moet dus op een beetje op vuurwerk lijken, of zo iets.
+
+Ook komt er bij de vallende puntjes een tekst te voorschijn : Takeover'98.
+Als de pixels OP de letter zitten krijgen ze een oranje kleur. Dus verschijnt
+de tekst in een oranje kleur.
+
+                                        Rob en Ile
+                                        16 Mei 1998

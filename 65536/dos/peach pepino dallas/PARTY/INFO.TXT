@@ -1,0 +1,23 @@
+"peach pepino dallas"
+(party version)
+sublogic and blocc at compusphere invite.
+
+done entirely after the compo deadline.
+
+raytracer done by flex.
+csg and general code done by kravitz.
+music done by jus and poison.
+picture and font from JoLLy ApoLLo done by tmk
+(who is currently chasing japanse girls in tokyo ;)).
+
+wants vbe 2.0 with 640*480*32,24,16 support.
+gus is nice if you like sound. (mxmplay by pascal).
+p2 with lots of mhz prefered, mmx is required.
+32mb ram seems to be enough.
+
+windows version with proper sound support might follow soon.
+
+
+special thanks to the guy with the zip-drive, and
+dan and anton for lending us their machines for a
+few! hours.

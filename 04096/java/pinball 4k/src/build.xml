@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Pinball 4K" default="compile" basedir=".">
+
+    <description>
+        Ant build script for Pinball 4K
+    </description>
+
+    <!-- Global properties for this script -->
+    <property environment="env" />
+    <property name="j4k.root" location="${basedir}" />
+    <property name="j4k.src" location="${j4k.root}/src" />
+    <property name="j4k.bin" location="${j4k.root}/bin" />
+    
+    <target name="run" description="run Pinball4K">
+        <java classname="a" classpath="${j4k.bin}" dir="${j4k.bin}" fork="true" failonerror="true" maxmemory="128m">
+        </java>    
+    </target>
+    
+    <target name="run editor" description="run Pinball4K Editor">
+        <java classname="trb.pinball4k.editor.Editor" classpath="${j4k.bin}" dir="${j4k.bin}" fork="true" failonerror="true" maxmemory="128m">
+        </java>    
+    </target>
+    
+    <target name="init">
+        <echo>${ant.version}</echo>
+        <!-- Creates a time stamp -->
+        <tstamp>
+            <format property="timestamp" pattern="yyyyMMddHHmmss" />
+        </tstamp>
+        <!-- Create the classes directory structure -->
+        <mkdir dir="${j4k.bin}" />
+    </target>
+
+    <target name="compile" depends="init" description="compiles all source files">
+        <!-- Compile the java code from ${j4k.src} into ${bin} -->
+        <javac destdir="${j4k.bin}" debug="off" deprecation="off" target="1.5">
+            <src path="${j4k.src}" />
+            <include name="**/*.java" />
+        </javac>
+        <copy file="${j4k.root}/a" tofile="${j4k.bin}/a"/>
+    </target>
+
+    <target name="clean" description="deletes classes and archive directories">
+        <!-- Delete the output directory trees -->
+        <delete includeemptydirs="true">
+    	    <fileset dir="${j4k.bin}" includes="**/*.class"/>
+    	</delete>
+    </target>
+	
+    <target name="build" depends="clean, jar" description="cleans and jars"/>
+
+    <target name="jar" depends="compile" description="generate the jar file">
+        <zip destfile="${j4k.bin}/Pinball.jar" compress="yes">
+            <fileset dir="${j4k.bin}">
+                <include name="a.class" />
+            </fileset>
+            <fileset dir="${j4k.root}">
+                <include name="a" />
+            </fileset>
+        </zip>
+    </target>
+
+</project>

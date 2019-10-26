@@ -1,0 +1,25 @@
+
+SYSTEM = LINUX
+
+CFLAGS = -Wall -pedantic -ansi -O3 -funroll-loops -fomit-frame-pointer -mpentium -s
+#CFLAGS = -Wall -ansi -pedantic -g
+# -fprofile-arcs -ftest-coverage
+CC = gcc -D$(SYSTEM)
+#LIBS = -lpthread
+
+FXMP_OBJS = fxmp.o freq.o ticker.o load_xm.o drv_dsp.o drv_seq.o
+
+player: player.o fxmp.a fxmp.h
+	$(CC) $(CFLAGS) player.c fxmp.a -o player $(LIBS)
+#	strip player
+
+fxmp.a: $(FXMP_OBJS)
+	ar rcv fxmp.a $(FXMP_OBJS)
+	ranlib fxmp.a
+
+clean:
+	rm -f *.o fxmp.a player
+
+pack:
+	rm -f fxmp.tar.bz2
+	tar vfcI fxmp.tar.bz2 *

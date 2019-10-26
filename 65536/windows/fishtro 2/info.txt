@@ -1,0 +1,53 @@
+Fishtro 2
+
+Version 1.0
+
+Credits:
+Code: Adrian Boeing (Error64)
+Music: Purple Motion / Future Crew
+Sound System: MiniFMOD
+Fish model found on the internet
+
+Requirements:
+Software:
+ .Win32
+ .DirectX 8.1
+Video:
+ For shaders:
+ .Pixel Shader 1.3
+ .Vertex Shader 1.1
+
+Recommended:
+1024x768x32 Fullscreen
+2.0 Ghz CPU
+Geforce 4 or above
+
+Comments:
+Created on a Athlon 1800+ with a Geforce 4 Ti. Should work with radeons, but apparently slower.
+If anything bad happens to you while watching this, then its not my fault.
+
+The intro is a tribute to Future Crews original Fishtro 
+FC was a group that inspired me, and a whole generation of sceners. Thank you.
+
+Created for Buenzli 12, and to invite you to SYLAN - New and Improved
+13-14 December 2003, Fremantle Passenger Terminal, Perth, Western Australia
+www.sylan.org
+
+This is a wake up call to all the australian scene.
+
+Jari Cederberg, I have no idea who you are. 
+I hope you aren't still taking drugs. =)
+
+Enjoy!
+
+Releases:
+Feb00:Hello World . 256k Intro . 1st Coven 2000
+Apr00:Fuzzy!      .    Demo    . 22nd MS2K
+Feb01:Blue        .    Demo    . 3rd  Coven 2001
+Feb01:Mist Garden . 256k Intro . 1st  Coven 2001
+Aug01:Robo        .  64k Intro . ?? Caos Constructions
+Aug03:Fishtro2    .  64k Intro . ?? Buenzli 12
+Expect more soon.
+
+Thanks to people who have helped in the past, and this intro:
+Brothomstates, Zage, krei, Fractoid, m27, h0l, Mick Rippon, Boom Boom, Unlock, Reaper, Gwala, Evil One, Franciso Rivas and Graham Aldridge.

@@ -1,0 +1,21 @@
+Toby Opferman
+http://www.opferman.com
+11-99
+
+
+A N N O Y
+
+This program is called annoy.  I hope the colors burn your eyes out.
+Written quickly, it's really a piece of shit :-)  Run in full screen
+DOS BOX because it does some text display shit at the end and like,
+if you have not made the DOS Box full screen you'll miss it since
+when windows gets out of GFX mode it puts it back into a box and it's
+updating of that window is slow.
+
+The Demo Ends on it's own, so don't be hitting keys you'll only fuck
+yourself.
+
+Anyway, Long Live Etch-
+
+
+

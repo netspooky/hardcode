@@ -1,0 +1,28 @@
+#include <cmath>
+
+gm² - Einer muss in Führung gehen. - http://www.gm-squared.de
+______________________________________________________________:-:
+
+
+  CMath 4       :-: Ein Intro in 4kb
+
+  Code          :-: TGGC
+
+  Packer        :-: Dropper V2 (http://gem.intro.hu/)
+
+  Grüsse 	:-: BlueCobold, mcdeck, matt|6s, pro, rapso, Sgt. Nukem, TomasRiker
+                    kolrabi, mit dem ich grad chatte, obwohl er hier irgendwo rumsitzt
+                    scalar, der wieder mich grad vor den Drogen beschützt
+                    die restlichen Leute aus #gamedev.ger und #cpp
+                    Maximus007 und Ifrit666
+
+  ausserdem     :-: alle die das hier besser können
+                    alle Programmierer
+                    und die ZFX-Member
+
+  Dieses Intro wurde auf WinXP getestet und für lauffähig befunden.
+
+  Die Zahlen in den Filenamen geben die verwendete Auflösung an, bitte je nach 
+  verfügbarem TFT etc. wählen. Im "compatible" Ordner sind die nicht gepackte
+  Files für Win2k o.ä.
+		

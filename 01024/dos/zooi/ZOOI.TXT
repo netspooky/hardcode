@@ -1,0 +1,33 @@
+After NOT finishing my 3dfx-hardware-demo, and my last-minute 4kb
+intro, I was pretty disappointed. I had to release SOMETHING, so here it is.
+My contribution for the Takeover'98 Surprise compo:
+
+The ultimate...  'Zooi'..				By Cypher / iMAGE!
+-------------------------
+
+Description of the parts:
+
+1) Background:
+	Simple cos/sin plasma (70 bytes)
+2) Landscape:
+	Voxel landscape, madelbrot used as heightmap
+3) Fractal:
+	Rotating fractal (Mandelbrot took 180 bytes, rotating +/- 100?)
+4)  Thingy:
+	SMOOTH-Scrolling pink thingy.. (Should actually be noise)
+
+Various:
+--------
+
+* Cosinus and sinus table took 20 bytes for calculating!
+* Palette was made using the cosinus tables..
+* Voxel was actually FyR's code, but was incredibly modified (for size AND
+   for speed reasons).
+* Intro runs smoothly on my dual P-II 266, so, I guess that should be no
+   problem.
+
+
+Thanks to The Russian for helping me with some OBVIOUS size-optimizations!
+
+En dat was 't....
+

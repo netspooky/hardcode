@@ -1,0 +1,28 @@
+
+   ___     ___     ___     ___     ___     ___     ___     ___     ___     ___
+__/   \___/   \___/   \___/   \___/   \___/   \___/   \___/   \___/   \___/   \_
+
+     __.*^^*.__.*^^*.__.*^^*.__.*^^*.____.*^^*.__.*^^*.__.*^^*.__.*^^*.__
+
+  --wbcbz7->mikrowave->pc256b->cc2o17<-12.o8.0x7e1
+
+  [320x200 15bpp vbe 1.2++] (sorry for no vga version :)
+
+  just a bit of hicolor sizecoding experiment. don't trust screenshots :)
+
+    mw.com       - compo version (15bpp, 64kb banks)
+    mw_4kbnk.com - 4kb bank version (for currus logic/etc)
+
+    mw_16bpp.com - 16bpp version for nvidia =) above 256b since i used some
+                   "code as fpconst data" tricks and decided to not alter intro
+                   flow just because of few code changes. so i've got a four
+                   bytes trail :)
+
+  by the way, exit works ok, just do "mode co80" after pressing escape ;)
+
+ lazygreets:
+  .sensenstahl.hellmood.scali.trixter.viler.g0blinish.baze.baudsurfer.gargaj.
+   .kuemmel.rrrola.tomcat.digimind.orby.po1.phoenix.noby.visy.preacher.pirx.
+     .urs.optimus.frag.homecoded.rudi.branch.mikron.lft.and.all.sizecoders.
+
+  watch the intro! :) 

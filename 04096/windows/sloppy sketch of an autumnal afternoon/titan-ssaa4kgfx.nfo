@@ -1,0 +1,63 @@
+          .  .     ..         ..                    
+               :  .      ..         . .             
+              .   .    :.....  ..   ..              
+             . .   .  .:  . ...: .   .. .           
+         ..  . .  .  :.:. . .,:: .  .:.             
+          . :. :..:.,::.,:. ...,..   :.   .         
+              :.:.:.:.... ,. .::.:;..:. :   .       
+         .    .,:.;:;.. ; ....,.t: ;,,:,:...        
+      .    :.., ,,t .. ..;.  .;, ti:. ....,. :      
+            ::..i,L  .. ;:  : :..j.:::  :           
+     .   ...;;...:it  ..t : :.,  ;;.::,:: .    .    
+           ,: ,::,L;;.:tGj;,t,,..,f, , . .        . 
+      .  .:.. ..:  LfitLt.    :   t::   ::;.:. ...  
+          :,;t,.,..jGGf: . : .:  :GG,   i   :.      
+       :. :..,;,..jLLKE.:.... : ,ELij, :; :.        
+      .     ..;iijj,tEWEi, .:,tjDL. .jtt,i..        
+     .  .    .::Li:;j:GKEL,itLGLi    . ;  .         
+              .;:. ,,.iLEELjLf;.     . :. .: .      
+      ..      ;;. ..: .tDEDGj;.   .      . .        
+         ...  i:  :::  ;DEEL,        . :... .       
+         ... ::..: .,.  EEEE          : .: :        
+         . :.  .....:. ,EEKL           . .          
+              . ..:  ..,GEEL;                       
+           .  :.....  :iGEEG,                       
+               :. . ..:jLEEGt,...                   
+        ......:::::::,ifGEGDLi,:::....   .          
+. ......:::::,,,:;;,,;fDDDDDDfi,,::.... ...         
+..:::::::;,;;ii;;itttfGDDEEEEDti;::,.::... .        
+..:.:::,:;,,i;iijjffGEEEKKKKEDLt;i,:,:..::..:.... ..
+..:.:::::,:,,,,,iitjLDDEKKKEEDDffjti,,::::::::... ..
+...:......::::,,,ii;ttfGDLGGLLfii;i,,:,::.::.,;...:.
+..........:..:,:,,:;,i;tiitjfjjjj;;:.:.,::...;:, .::
+                   ...,::::::,...                   
+                        ....                        
+                                                    
+                   Titan presents                   
+     ,========================================,     
+     | Sloppy Sketch of an Autumnal Afternoon |     
+     '========================================'     
+               code and idea by Mindo               
+                                                    
+                        2010                        
+                                                    
+         uses Crinkler (http://crinkler.net)        
+         by Mentor/TBC and Blueberry/Loonies        
+                                                    
+                       ------                       
+                                                    
+                                    for Lenka       
+
+
+NOTES
+
+This procedural image is composed mostly of lines.
+And there is an issue with that: line width is
+always 1, so the picture looks different in every
+resolution. The best thing to do is just run
+the native version. Other versions are provided
+only for convenience.
+
+07.03.2012 
+Released at Revision 2012 - Ranked 3rd in the
+4k executable Graphics compo.

@@ -1,0 +1,18 @@
+ This is just a simple 256-bytes intro, made by Spyko 
+in 1996. I suppose you can code it even smaller, but I 
+did it only for fun and therefore didn't bother about 
+that last optimizing. On some computers their is a bug 
+which makes the screen flicker heavily, but who cares?
+I included the source so that you can do what you want 
+with it, but as usual: DONT claim that you are the author
+of it  (it is anyway not very much to be the author of)!
+
+e-mail:   
+    spyko@geocities.com
+    (or: spykoo@hotmail.com)
+
+also visit my coding page at:   
+    http://hem1.passagen.se/spyko
+
+
+PS:   I lied, the intro is only 255 bytes

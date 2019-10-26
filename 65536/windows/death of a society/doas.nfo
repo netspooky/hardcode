@@ -1,0 +1,47 @@
+         - dEATH oF a sOCIETY -
+
+well, nufan and me  decided to take part in
+the  64k-competition 2 weeks ago.  we never 
+did code together before, but it worked out
+quite well. we  hope you enjoy  this little 
+hack we have hopefully released at 
+
+		THE PARTY 2k,
+     held 27th till 29th of December 2ooo 
+		Aars, Denmark
+
+At least we enjoyed coding although this intro
+is rather a quick hack. Some effects need a
+very high fillrate (and I mean _very_), sorry
+bout that, but we didn't wanna leave that
+oversampling stuff out. Don't know if you can
+expect a final version yet, this one here is
+quite buggy and was finished (?) shortly before
+deadline (as usual).
+
+We had the opportunity to test it on GeForce,
+GeForce2, TNT and TNT2 chipsets and things
+worked fine in every case, although some parts
+were slow on the older cards. As you know, 
+Matrox and ATI seem to be not able to develop
+good OpenGL drivers as well as 3dfx, so I
+don't know if it works on those 3d-cards. As
+long as you stay with NVidia chipsets and new
+detonator drivers, there shouldn't be any
+problems at all.
+
+we would also like to thank:
+ 
+  - elitegroup for the mxm-player
+  - the guys who made the UPX exe-packer
+  - probably shiva^kolor for the wavelet stuff
+    (did we use it in the end???)
+  - the rest of the scene. you may feel greeted
+  - mindflower / freestyle for doing such a
+    nice piece of music
+  - tomic for doing some graphics shortly before
+    deadline.
+
+signoff,
+  delta9^ex-TUM^team23
+  nufan^skp

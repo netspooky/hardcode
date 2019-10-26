@@ -1,0 +1,78 @@
+
+
+                   .-/-'  e p s i l o n  '-\-.
+                  (                           )
+                 -   :    - -  b y  - -    :   -
+                  (                           )
+                   '-\-.  m e r c u r y  .-/-'
+
+
+    -  las psykon manx abductee urs cupe jco red mouldycat  -
+
+
+          Invitation for Revision 2012 - The Easterparty
+
+
+  Revision 2012 - 6th to 9th April, E WERK Saarbrücken, Germany
+
+  Get the latest infos on http://www.revision-party.net !
+
+
+  Based on an all new framework - complete with new rendering,
+  cinema grade post-processing and our new synthesizer.
+  Using the official revision logo by h2o/rebels.
+  Compressed with the mighty kkrunchy by ryg/farbrausch.
+
+
+  Hardware requirements are insane:
+    - Dualcore 2GHz required, Quadcore 2GHz recommended
+    - 2GB RAM required
+    - Windows Vista or newer
+    - faaaaaast graphics card: NV GTS 450 or AMD HD 6550 minimum,
+      NV GTX 560 TI or faster recommended
+    - latest drivers
+    - OpenGL 3.3 driver support required
+
+
+  <3 <3 <3 Final-Version! <3 <3 <3
+
+  All shader compilers suck.
+
+
+  Tested on:
+
+   30-60fps:
+    NV GTX 580 / driver 290.53 BETA
+    NV GTX 560 TI / driver 285.62
+
+   ~20fps:
+    NV GTS 450 / driver 285.62
+    NV GTS 450 / driver 280.26
+    AMD HD 6670 / driver 11.12
+
+   ~15fps:
+    AMD HD 6550D / driver version unknown
+    NV Quadro FX 5600 / driver 276.42
+
+   ~10fps:
+    NV Quadro FX 3800M / driver 280.26
+    NV Quadro NVS 3100M / driver 275.33
+
+
+  Special thanks and greetings to:
+    angua (elite patient girlfriend <3)
+    XT95/frequency (elite flame raymarching)
+    prog/never (elite shader fixing)
+    verschdl/never (elite hosting)
+    dfox/tum (elite motivating)
+    kb/farbrausch (elite -
+                   for being the guy responsible in case we fail)
+    bjoern (elite ati hardware buying)
+    saga_musix/nuance (elite vst consulting)
+
+
+  Aus Liebe.
+
+                               mercury / 2011,2012
+
+

@@ -1,0 +1,131 @@
+
+                                  l i f e        
+
+                                64 kb intro
+                     presented at BCN Party '01 (spain)
+                                                                                
+                                                                                
+                    ,g##Bp,      ggp                                            
+                   ,M#####Ba     Q#B                                            
+                   Q##" \M#"     Q#B     ,__ ,__,      _gg__                    
+                   ##@ _____     Q#B     l## ]##9     d#####a                   
+                   ##@ [###D     Q#B     l## ]##9    ;##"_M#@                   
+                   ##@ [###D     Q#B     l## ]##9    [######B                   
+                   Q##a__W#D     Q#B     l##,/##9    [##_ __                    
+                   `#######@     Q#B     !######9     ###d##@                   
+                    `4###*"      *#B      9##^##*     `@##@"                    
+ 
+
+
+ .help
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+ life_d_g : dos   gus
+ life_d_s : dos   sb/gus/speaker...
+ life_w_6 : win   16 bpp
+ life_w_5 : win   15 bpp
+ life_l   : lnx
+
+
+
+ .requirements
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+              dos                  windows            linux
+
+ sound : sb, gus, speaker...      directsound           ?
+ video : 640x480x16 vesa 2.0      directx               ?
+ ram   : 11 megabytes             ?                     ?
+ os    : 6.2 (no emm386)          95, 98, nt...         ?
+
+
+
+
+ .thanks
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+ enlar/rgba     : linux port
+ mxm player     : niklas beisert
+ usm player     : freddy vetele
+ mfmod player   : firelight multimedia
+ pmode          : charles scheffold & thomas pytel
+ upx            : markus oberhumer & laszlo molnar
+
+
+
+ .iq
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+ tralal , tralalito... hola people, aqu¡ estoy denuevo... ya echaba de menos
+ escribir un nfo. la verdad es que me encanta.
+
+ esta vez no tengo mucho que comentar, porque la intro la ha hecho pr ctica-
+ mente murci... excepto el ya tan conocido algoritmo "vida". ah!, bueno, que
+ se me olvidaba! la m£sica la he hecho yo! :) juas juas. es mi primer m¢dulo
+ que sale a la luz... y menos mal, porque... bueno, es  el primero que  hago
+ pensado  para una  intro (y espero que el £ltimo), y claro... yo en 27kb no
+ puedo hacer maravillas. lo m¡o son las pijadas de pianos, flautas, coros  y
+ eso, aunque nunca  he hecho nada  decente.  mas no  me rindo! claro, que si
+ hubiera invertido todo ese tiempo en vez de en modulos en c¢digo... en fin.
+ y  por cierto,  ¨qu‚ co¤o hago yo contandoos estas cosas?  jo!  ¨por qu‚ me
+ dej is?
+
+ bueno.  m s cosillas. tambi‚n me las he visto y deseado para bajar la intro
+ de los 92 kbytes originales hasta los 64. los objetos 3d estaban guardado a
+ pelo!, y en floats! si es que este murci...  jeje. adem s, hemos comprobado
+ que no generar las cosas es mucho m s aburrido. hay! qu‚ tiempos...
+
+ pues nada.  s¢lo queda comentar que una de las cosas guays de esta intro es
+ que funciona tanto en dos (watcom) como en windows (vc). el port se hace en
+ 3 minutos como mucho. basta con un "make"!. di que es una tonter¡a, pero...
+ vaya,  dejadnos ser un poco felices...  la intro la hab¡a empezado a montar
+ murci en windows.  cuando estaba semi acabada decidimos que  la siguiese yo
+ para meterle la  m£sica y  ponerle la sincronizaci¢n.  ten¡amos un  sistema
+ de intros montado tal que se supon¡a que nos abstra¡a del so (video, sound,
+ memoria, teclado, salidas extra¤as...).  aun as¡ no  confi bamos demasiado,
+ no s‚ por qu‚.  sin embargo, y para mi sorpresa,  en apenas unos minutillos
+ la  intro funcionaba perfectamente en  dos  (tengo que decir que adem s iba
+ m s suave que en windows...).  ­milagro! est bamos m s  felices que un ni¤o
+ con un caramelo; o mejor dicho, que un coder con una intro nueva. ya ta.
+
+ todo eso. por lo dem s, hoy tengo poco que contar. no soltar‚ chapadas esta
+ vez.
+
+
+ agosto 2002::
+
+ casi un a¤o despu‚s de presentarla, la life sigue a£n "viva", haciendo honor
+ a su nombre. enlar, my gran amigo, la ha portado a linux. por otra parte, la
+ versi¢n windows que compil¢ murci ni se sabe donde est , de modo que hoy  me
+ he dedicado a portarla  a windows (directx7). adem s he detectado  un  error
+ con los  colores (ddx pone a veces un modo de 15bpp aunque se le pida uno de
+ 16), de modo que he hecho dos versiones de la intro  para windows. as¡  que,
+ tras juntar las dos versiones de dos (gus y sb), las dos de windows (15bpp y
+ 16bpp) y la de linux, sale por fin a la luz esta mini intro.
+
+
+ .murci
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+
+ .enlar
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+
+ .greets
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+ fuzzion, centosis, rgba, network, elerium core, niako, hansa, ozone, tlotb,
+ concept, solstice, anaconda, k5

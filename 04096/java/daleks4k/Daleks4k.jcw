@@ -1,0 +1,16 @@
+<?xml?>
+<workspace>
+	<settings>
+		<label>Daleks4k</label>
+	</settings>
+	<users>
+		<user>
+			<path>Daleks4k.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>Daleks4k.jcp</path>
+		</project>
+	</projects>
+</workspace>

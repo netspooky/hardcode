@@ -1,0 +1,16 @@
+Co to - praca na compo gamedev.pl, maj 2008, intro 4k
+
+
+	W celu nauki/przygotowania wykorzysta³em kody niejakiego RGBA
+	(http://rgba.scenesp.org/iq/demoscene/codes/isystem1k4k/isystem1k4k.htm)
+	oraz kod intra pod tytu³em Eclipse,
+	nie s¹ z nich jednak przekopiowane ¿adne fragmenty poza nag³ówkiem wav ;p.
+
+
+Dlaczego zosta³o 600 bajtów wolnego miejsca?
+Ano dlatego, ¿e planowa³em w to wcisn¹æ lepszy dŸwiêk,
+ale niestety nie starczy³o czasu (nie tego z compo, raczej wolnego :P).
+
+
+Wersja compo (4k) - linkowana przy u¿yciu clinkera.
+Wersja safe - niczym nie pakowana, build niemal standardowy z VS.

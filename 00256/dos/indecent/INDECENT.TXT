@@ -1,0 +1,105 @@
+-------------------------------------------------------------------------------
+                The LAAL Software Engineers present
+-------------------------------------------------------------------------------
+                        -=  INDECENT  =-                        Version 1.9 '95
+-------------------------------------------------------------------------------
+
+        A 256 levels, 256 colours, 256 bytes, 256 testers, ... space odyssey
+           presented to the first rec.games.programmer 256 bytes compo.
+
+-------------------------------------------------------------------------------
+
+                        -=  THE CAST  =-
+
+Programmed by:          . Daniel Navarro Medrano
+                        . Luis Fernando Fernandez
+
+Alpha Tester:           . Bill Clinton (tm)
+Beta Tester:            . Boris Yeltsin (Copyright)
+Guitars and Sound FX:   . Nacho "Les Paul" Martinez
+Graphics:               . Alvaro "El Mamon" Ojopi
+IPX & Novell interface: . Gonzalo "Juez" Garzon
+Mode-7 routines:        . Roberto "GUS" Goose
+Super NES version:      . Francisco "Black Hole"
+Spectrum version:       . Eduardo "Manostijeras" Sinclair
+FHC Sales Manager:      . Enrique "The Timun" Borreda
+
+And thanks to other FHC members. Ah! and watch this note:
+
+ZX Spectrum & Super NES versions available in early spring'98, like Windows'95
+
+-------------------------------------------------------------------------------
+  Programmers E-mail: A910505@ZIPI.FI.UPM.ES
+-------------------------------------------------------------------------------
+
+To enjoy this mega-ultra-better-than-Doom(tm) game, you need at least:
+
+. Colour VGA, SVGA recomended for hardware conflicts (not with this game)
+. 386 or better (486 or higher highly recomended)
+. One PC speaker (We hope you have at least four for Quadraphonic Sound (tm))
+. 256 memory free bytes (Plus 56kbytes to load COMMAND.COM)
+. One cluster free on disk and one free FAT entry
+
+-------------------------------------------------------------------------------
+
+The Story so far: Go throught the Altamira (tm) caverns, flying on one of the
+        most powerful killing-machines to the date (USS Enterprise) to finaly
+        find death with the higher score possible. Touch once the walls or the
+        yellow super-explosive mines to easily end the game (It's Game Over).
+
+        Good luck, Luke Skywalker (tm).
+
+-------------------------------------------------------------------------------
+
+Instructions:
+
+. Usage: INDECENT [level]
+  To choose a level, type its ASCII code: "INDECENT A" warps to level 65!
+. Cursor UP    : moves the ship up
+. Cursor DOWN  : moves the ship down
+. Pause key    : Pauses the game (any key continues)
+. Esc key      : Returns to OS when you die
+. Ctrl-Alt-Del : Aborts the game inmediatly (hmmm...)
+. You can use any other keyboard scheme to control the USS Enterprise (tm),
+  and if it moves, please contact +34-1-850-87-48 (Hot SEX line)
+
+-------------------------------------------------------------------------------
+
+Technical reference:
+
+. 256 colours graphics,  with awesome (hand-drawed) landscapes
+. 1 bit QSound System and Dolby Surround (tm)
+. Digitized reactor engine of an russian space shuttle
+. Hundreds of different amazing levels
+. Floating Point Fractal Generated Terrains FPFGT (tm)
+. Guraud shaded textured 2D mountains
+. Super smooth scrolling with multiple levels of parallax
+. Stars background scanned from pictures of the VOYAGER IV
+. Rendered Mines sprites in Sillicon Graphics Stations
+. Space ship graphic based on USS Enterprise -Start Trek (tm)-
+. Controlled game speed up to 35 images per second (if u've a fast machine)
+. User friendly graphics interface (Keyboard controlled)
+. If you have a Pentium(tm), don't worry, we have designed a path 4 the bug
+. One of the most playable games at the moment (DOOM?, who needs it?)
+. Score bar with full information for the pilot
+. We use our own keyboard rutines OOKR(tm)
+
+-------------------------------------------------------------------------------
+
+        Coded 100% in sunny Spain, the country of the best weather, the best
+        girls and, of course, the best game coders ;-) ... (ho, ho, ho!)
+
+-------------------------------------------------------------------------------
+
+Source code available in file INDECENT.ASM for switching parameters like:
+
+        - Number of parallax planes to be actived at the moment
+        - Number of images per second, to adjust the dificulty
+        - Exact model of the USS Enterprise series
+        - Change the original SoundTrack and atmospheric background
+
+but if your objetive is to comprehend the program to improve it, then ...
+
+                   ... Good luck, Luke Skywalker.
+
+-------------------------------------------------------------------------------

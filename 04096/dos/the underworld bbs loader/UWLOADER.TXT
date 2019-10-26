@@ -1,0 +1,73 @@
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş The Underwírld BBS Loader şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+   This is an offcial HaRDCoDE production.
+    
+     Code: Air Richter [HDC]
+     Art:  Pinball Wizard
+   
+   Included with this zip file are the loader (compressed with LZExe 
+   0.91) and the FULL assembly source code.  The modules are as follows:
+   
+     LOADER.ASM    - Main Module / Contains: Main Procedure, Flame Code
+     STARS.ASM     - Star Scroller Code (Take a guess!)
+     TEXT.ASM      - Text Module / Contains: Font Shader, Text String 
+                       Processor and Displayer
+     SCALE.ASM     - Bitmap Stuff / Contains: Moon Display Routine, Text 
+                       Display Routines (x scale)          
+     LOADER.INC    - Global variable/procedure declarations
+     CMDS.INC      - Some op/hex codes for certain assembly commands
+     VIDEO.INC     - Video port/register constant declarations
+     VIDEO.MAC     - Simplified port access macros  
+     MOON1.IMG     - Pinball Wizard's wonderful moon (in asm binary 
+                       format)
+     T.BAT         - T [asmfile] same as -> TASM [asmfile] /m2 /ml /zi
+     DEBUG.BAT     - Links everything together using TLINK
+     FILE_ID.DIZ   - Hmm.. Dunno myself.. :)
+                                                       
+                            şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+   
+   Some notes about the loader / source code:
+
+     1) The source code is 100% assembly and uses TASM's wonderful IDEAL 
+        mode (how could anyone live without it?).  So, if you don't have 
+        TASM, then I guess you're screwed.
+
+     2) I worked on this thing for about a span of two months (yep, a 
+        really long time for a small loader), but I do have other pro- 
+        jects, including school and Extended MikMod (XMM).
+
+     3) I programmed it on a 386DX/25 and have also tested it on Rao's 
+        486DX2/66 (Whoa! And I thought it ran nice on my machine! ;)
+                        
+     4) No, Pinball Wizard is not a member of HaRDCoDE.
+
+     5) I have no clue why, but for some odd reason, I have to run 
+        debug.bat twice to get the loader to it's smallest possible
+        pre-compressed size.         
+
+                            şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+   
+   Well, here's a HaRDCoDE memberlist (to the best of my memory offhand, 
+   so sorry if I left anyone out!):
+   
+     Red Penguin   - Organizer/Music/Graphics
+     Rao           - PC Coder
+     Air Richter   - PC Coder (Me!)
+     MikMak        - PC Coder/MikMod Sound System
+     ShadowHunter  - Musician
+     MASTERWho     - Musician
+     Roger Wilco   - Artist
+     Poskgubbe     - PC Coder
+     Vortech       - Musician
+     Kerhop        - Coder
+     Vassago       - Musician
+
+                            şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+   Finally, some super-elite greets go out to the following:
+ 
+       JMagic                               Hadji
+       Pel                                  Krystall
+       Martial Artist                       Psyched
+     
+           And Everyone in HaRDCoDE, Of Course!

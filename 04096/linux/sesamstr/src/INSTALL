@@ -1,0 +1,4 @@
+just type 'make' and hope it works.
+required is a working /dev/dsp and svgalib
+
+yes you need root permissions.

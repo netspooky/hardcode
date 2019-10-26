@@ -1,0 +1,14 @@
+-safe-
+1thread
+51handles
+0%-3%CPU usage
+5840K memory
+1271byte on disk
+-crinklered-
+1thread
+33handles
+40%-50%CPU usage
+112,212k memory
+725byte on disk
+-bat-
+666bytes on disk

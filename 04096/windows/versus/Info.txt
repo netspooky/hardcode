@@ -1,0 +1,26 @@
+Versus by Seven/Fulcrum
+-----------------------
+fulcrum.antisoc.net
+
+Placed 5th out of 12 at Breakpoint 2008
+
+It's been a very long time since I last made a 4K (think VESA video, DOS protected mode and adlib sound), so this 4K procedural gfx thingie was the perfect occasion to dip my toes in the Windows-4K waters: no music or animation etc needed. My assembler knowledge was very rusty as well, but in the end I didn't really need to do byte-hunting (lack of time was a bigger problem than lack of diskspace). Anyway, it was fun and I'm quite satisfied with the result. Hope you like it too!
+
+
+The intro was written for BP08, which had a HD widescreen. The Widescreen exe is the version run at the compo, the letterboxed version is intended for 4:3 monitors but is otherwise identical. There's no loading bar since the rules at BreakPoint disallowed it, be patient as the rendering can take several minutes on slow computers. No shaders or whatever advanced stuff is used, it's pure software rendering to a full-screen texture.
+
+The picture is build up using:
+- a mandelbrot fractal with pickover stalks for the sky.
+- a mandelbrot fractal with binary decomposition showing embossed marmer tiles.
+- 6 different flame fractals for the red and blue pieces on the chessboard
+- gaussian noise, glare, and various cheap lighting tricks.
+
+ 
+Much thanks to :
+- The In4K website for all info and especially the great examples to bring DOS-dinosaurs such as me up to speed.
+- Auld and Northern Dragons for releasing OpenGL 4K source code which helped me a lot.
+- Blueberry/Loonies and Mentor/TBC for the amazing Crinkler! Extra thanks to Blueberry for troubleshooting my OpenGL-doesn't-want-to-be-imported-by-numerals problem on-site at Breakpoint.
+- Yncke for giving some much-needed color and compositing advise.
+- Kaatje for her help and support when I'm on a coding-binge again.
+
+

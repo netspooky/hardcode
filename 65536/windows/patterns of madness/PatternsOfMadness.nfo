@@ -1,0 +1,96 @@
+----------------------------------------
+   .-----.       .-----.         .----. 
+   | .-. |  .-----.--. |    .---.| .--' 
+   | '-' |---..---'--' |-. .-.   \ '--. 
+   | ,-, |.--''---.  .-' | | ||\  |.--' 
+   | | | |'--.--. ||\ \| | | || | |'--. 
+   '-' '-'.--'--' |' '-' | | |'-' |---' 
+        | '--.----'    | '-' |----'     
+        '----'         '-----'          
+----------------------------------------
+ P A T T E R N S   O F   M A D N E S S
+----------------------------------------
+
+Your friendly neighborhood one man army
+Nightlord brings you a pc demo this time.
+
+All code, design and music by Nightlord
+
+Requires an OK dx10 card and Windows 7 
+or Vista.
+
+This is my first PC demo product. I am 
+extra glad that I managed to fit this 
+into 64K. 
+
+Some of you might know me from the C64
+scene and the Mighty group GLANCE :) No
+I have not quit the C64 scene. I just
+felt like trying my hands on a PC demo
+
+This demo was created in about 4 weeks
+(roughly 100 - 120 hrs of work). The 
+original goal was to release this in 
+the awesome 7d9 party in Istanbul, a few
+weeks ago. Unfortunately, I could only 
+release a very rough and way-above-64K 
+version there. Well, better late than
+never :)
+
+It was quite an educating experience. A
+big STL/boost fanatic like me ended up
+even implementing the trigonometric 
+functions etc. (Thanks Taylor series!)
+That shaved that last few K of standart
+library code off of my exe.
+
+A huge greets go to Wisdom/Crescent for
+opening my eyes to the option of writing
+my own soft synth. Had it not been for him
+I would have been desperately trying to 
+make a small enough mod music still :)
+
+Another special greet flies to Sensei/
+Realtime, for introducing me to shaders
+more than 3 years ago. Also a big greet
+to Deniz Piri for introducing me to boost
+libraries long time ago.
+
+Yet another special greets fly to Spaztica
+for bringing me cigkofte (an authentic
+very spicy Turkish meatballs) while I was
+working hard on the demo at 7d9 party. 
+Unfortunately there isn't really a way to 
+perfectly translate why this gesture was
+so kind and cool without going into 
+excessive cultural detail. But thanks so
+much Spaz :)
+
+Finally greets to fellow Glance members
+for still not beating me with a stick, 
+for not completing the Glance demo so far.
+We will strike very hard very soon.
+
+And some greets to people who inspired 
+me in the PC scene. ASD, is the first
+group that showed me that you can make
+stunning pc demos and not be Scandinavian
+or German :) Greets to Farbrausch for
+Debris. Like every self respecting coder
+I have been wanting to make my version
+of exploding stuff since Debris :)
+
+Finally I would like to humbly dedicate
+this demo to a dear friend. Here is a 
+guy that has incredible talent, and yet
+infinite humility. One of the biggest
+reasons I was inspired to make a demo
+on PC: Spritus / Resident. Dude you
+rock!!!
+
+And huge RESPECT to 7dx organising team.
+For reanimating/keeping the scene alive
+in Turkey.
+
+Nightlord signs off.
+---

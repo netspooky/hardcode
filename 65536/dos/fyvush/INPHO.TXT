@@ -1,0 +1,160 @@
+
+            ÜÛÛßßßÛ                                        ÜÛß         7.8.94
+           ŞÛÛ                                             ÛÛ
+          ŞÛÛ        İ    Şİ ŞÛÛ   ŞÛ  ŞÛ    ŞÛÛİ ÜÛÛßßÛÜ  ÛÛÜÜÜÜÜ
+          ŞÛÛÜÛß   ÜÛİ    Ûİ ŞÛİ  ÜÛİ  ÛÛ    ŞÛÛİ ßÛÜÜÜÜÜ  ÛÛß   ŞÛ
+          ÛÛÛß    ÛÛß    ŞÛİ ÛÛİÜÛÛß   ÛÛİ   ŞÛÛİ  Ü ßßßÛÛ ÛÛ     Ûİ
+          ÛÛİ    ŞÛÛÜ   ÜÛÛİ ÛÛÛÛß      ÛÛÜ  ŞÛÛİ ŞÛÜ  ÜÛÛ ÛÛİ   ŞÛ
+          ßß       ßßßßßßÛÛİ ßßß          ßßßßßß   ßßßßßß  ßßß    ßß
+     ù --ÄÄÄÄÄÄÄŞÜ ÄÄÄÄÄ ÛÛ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                 ßÛÛÜÜÜÛÛß
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ Copyright (C) Jamm 1994 ÄÄÄÄÄ
+
+   If there's something you would like to know about JAMM or FYVUSH, check
+   out the following...
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍ THIS PRODUCT ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                                                                             ³
+³ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄ FILES IN THE PACKAGE: ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ³
+³ ³ This intro may be distributed freely as long as all of the original   ³   ³
+³ ³ files are present in  unmodified form  and no charge is taken.  BBS   ³   ³
+³ ³ advertisements however may be added. The original files are:          ³   ³
+³ ³                                                                       ³   ³
+³ ³        FYVUSH.EXE             ..the intro file                        ³   ³
+³ ³        INPHO.TXT              ..this infofile                         ³   ³
+³ ³        JAMMDIST.LST           ..a full list of Jamm distribution sites³   ³
+³ ³        FILE_ID.DIZ            ..the BBS file description              ³   ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ³
+³                                                                             ³
+³ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄ HARDWARE REQUIREMENTS: ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿   ³
+³ ³ an 386 machine, 100% compatible VGA card (rather fast). GUS optional  ³   ³
+³ ³ (but that doesn't mean you shouldn't purchase!).  About 550 kilos of  ³   ³
+³ ³ conventional memory. (GUS:256kb)                                      ³   ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ   ³
+³                                                                             ³
+³ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ CREDIZ: ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                     ³
+³ ³       Hell raiser cube: RUBBER SQUARE               ³                     ³
+³ ³         All other code: GALVADOS                    ³                     ³
+³ ³               Graphics: CRIMAN                      ³                     ³
+³ ³                  Music: MORDICUS                    ³                     ³
+³ ³                 Design: CRIMAN                      ³                     ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                     ³
+³                                                                             ³
+³ ÚÄÄÄÄÄÄÄÄÄ SOME WORDS ABOUT THIS INTRO: ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ³
+³ ³ This thingy is fully  coded in assembler, how else.  The tune was made  ³ ³
+³ ³ in ProTracker For GUS 0.85  and all piccys are drawn with Deluxe Paint  ³ ³
+³ ³ 2.0 enhanched.                                                          ³ ³
+³ ³ This is practically the first product that we really gave our best to.  ³ ³
+³ ³ As before,  we made the whole  thing to look nice on 386/40Mhz even it  ³ ³
+³ ³ doesn't run 60 frames/sec  all the time  with  this setup. However, it  ³ ³
+³ ³ still should look quite smooth. On machines slower than 386/40Mhz most  ³ ³
+³ ³ of the effects will look pretty awful. Especially if the VGA is a slow  ³ ³
+³ ³ one. If you don't have GUS, bad luck.                                   ³ ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ³
+³                                                                             ³
+³ ÚÄÄÄÄÄÄÄÄÄ CODERS' COMMENTS: ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ³
+³ ³ Galvados: I'd  really like to thank  Rubber Square  for  doing  so many ³ ³
+³ ³           wonderful things for the intro,  like playing Master of Orion ³ ³
+³ ³           and Slicks,  sleeping,  coding everything that is NOT related ³ ³
+³ ³           to this product. Thanks, I couldn't have made it without you! ³ ³
+³ ³           Raster interrupt is only used  in the hellraiser cube,  so if ³ ³
+³ ³           your machine is slow,  this intro  will look like  pure shit. ³ ³
+³ ³           The code  demands a lot from  your VGA too.  If you have some
+              cool  card like  Trident,  this  intro  will  look  extremely
+              shitty. One reason,  is that when I have to clear the screen,
+              I clear the whole screen,  even if I only  had to  clear some
+              parts of it.  You may say,  why such waste,  but why not.  It
+              takes  so little  rastertime on  ET4000 or similar.  But with
+              Trident, this whole screen clear takes quite a lot.. But hey!
+              That's not my problem.. <grin>
+³ ³                                                                         ³ ³
+³ ³  Rubberı: Emm„„ jaksa kirjottaa, ny m„„ meen pelaan Orionia.            ³ ³
+³ ³                                                                         ³ ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ³
+³                                                                             ³
+³ ÚÄÄÄÄÄÄÄÄÄ ARTISTS' COMMENTS: ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ³
+³ ³ Mordicus: These  info  files  really  suck.  I just made that annoying  ³ ³
+³ ³           chippie,  which  was  my  part  in  this  intro. (Pascallako  ³ ³
+³ ³           istutte, kun infoi luette?) I hope that this tune is not too  ³ ³
+³ ³           heavy (for U jury).                                           ³ ³
+³ ³                                                                         ³ ³
+³ ³   Criman: As I finally got to make  the design all by my self,  I hope  ³ ³
+³ ³           you find it smooth.  The Hellraiser cube faces  might not be  ³ ³
+³ ³           exactly identical with the original piece but it is the best  ³ ³
+³ ³           I could do with the kind of film quality I had available :(.  ³ ³
+³ ³           BTW. Among the screen design I planned more than half of the  ³ ³
+³ ³           effects. Rubberı  could've  done a lot more  to this product  ³ ³
+³ ³           than he did.                                                  ³ ³
+³ ³                                                                         ³ ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ³
+³                                                                             ³
+³ ÚÄÄÄÄÄÄÄÄÄ ANY PROBLEMS RUNNING ?????????: ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ³
+³ ³ If you have the required amount of free memory and an sufficient piece  ³ ³
+³ ³ of hardware  and the product still hangs up  or doesn't work properly,  ³ ³
+³ ³ try to  run it with the minimum  configuration. If                      ³ ³
+³ ³ it still wont work, the error is propably on the machine. If you think  ³ ³
+³ ³ it isn't,  the best you can do  is to tell us what the problem is  and  ³ ³
+³ ³ who knows, we just might be able to fix it.                             ³ ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ The following part of this file is updated 2.8 1994.
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍ JAMM ÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                                                                             ³
+³ ÚÄÄÄÄÄÄÄ MEMBERS: ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿            ³
+³ ³ Jamm currently has the following members:                    ³            ³
+³ ³     GALVADOS        Janne Hellsten          code             ³            ³
+³ ³     RUBBER SQUARE   Atte Kotiranta          code             ³            ³
+³ ³     CRIMAN          Sami Nieminen           graphics/design  ³            ³
+³ ³     MORDICUS        Mikko Tanni             music            ³            ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ            ³
+³ We aren't particulary looking for new members of any kind, but if you think ³
+³ that you extremely talented, you might as well go for it.                   ³
+³                                                                             ³
+³ ÚÄÄÄÄÄÄ GREETINGS: ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿           ³
+³ ³ The members of Jamm would like to greet the following groups: ³           ³
+³ ³             Jeskola! Productions                              ³           ³
+³ ³             Complex                                           ³           ³
+³ ³             dECNiTE   [Amiga]                                 ³           ³
+³ ³             Gollum                                            ³           ³
+³ ³             Inapt                                             ³           ³
+³ ³             Supreme                                           ³           ³
+³ ³             Deus                                              ³           ³
+³ ³             Blank                                             ³           ³
+³ ³                                                               ³           ³
+³ ³                                                               ³           ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ           ³
+³                                                                             ³
+³ Have anything to say? if so, then write to                                 ³
+³                                                                             ³
+³ ÚÄÄÄÄÄÄ CONTACT INFORMATION: ÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                     ³
+³ ³ You can send some mail to       ³  ..or fax to      ³                     ³
+³ ³   Sami Nieminen                 ³                   ³                     ³
+³ ³   S„rkilammintie 109            ³  +358-16-56625    ³                     ³
+³ ³   31600 Jokioinen               ³                   ³                     ³
+³ ³   FINLAND                       ³                   ³                     ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                     ³
+³ Bullshit letters currently accepted.                                        ³
+³                                                                             ³
+³ ÚÄÄÄÄÄÄÄÄÄ HOW TO GET TO BE A JAMM DISTRO: ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿ ³
+³ ³ We are lookin for distribution sites / HQ:s  from all countries, so if  ³ ³
+³ ³ your board  fills the following requirements,  contact us. (if you are  ³ ³
+³ ³ interested, that is, of course)                                         ³ ³
+³ ³                                                                         ³ ³
+³ ³             -Speeds at least 9600 bps                                   ³ ³
+³ ³             -Your BBS is open 24H                                       ³ ³
+³ ³             -Your BBS has always lots of                                ³ ³
+³ ³              cool new stuff                                             ³ ³
+³ ³             -You have the latest Jamm                                   ³ ³
+³ ³              releases immediately                                       ³ ³
+³ ³             -Completely demo orientated                                 ³ ³
+³ ³                                                                         ³ ³
+³ ³ Send us as much info of your BBS as you can and we'll decide  wether    ³ ³
+³ ³ your board does any good  to us  or not.  (It is not said that we'll    ³ ³
+³ ³ accept it. Even if the BBS fills the requirements.) If your board is    ³ ³
+³ ³ widely known and / or otherwise popular one, it will propably get to    ³ ³
+³ ³ be our distribution site.                                               ³ ³
+³ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ³
+³ The list of our current distribution sites is in the JAMMDIST.LST file.     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ[CRM]ÄÄÄÄÄÄÄÄÄÄÙ

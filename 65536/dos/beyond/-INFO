@@ -1,0 +1,63 @@
+
+
+                                 b e y o n d
+
+                   64k intro by the Code & Light Sorcerers
+                      presented at the Antiq'98 party
+
+
+        c r e d i t s .
+
+        gekko ................................................... code
+        beatmaster ............................................. music
+        ezah,xtro,hp,zooo,atex ............................... support
+
+
+        h a r d w a r e .
+
+        pentium 100 ...................................... pentium 200
+        16 MB RAM .......................................... 16 MB RAM
+        VGA ............................................ VESA SVGA 3.0
+        no sound ............................................ GUS 512k
+
+
+        c o m m a n d l i n e .
+
+        /n .................................................. no sound
+        /2x0 ............................... manual GUS port selection
+
+
+        k e y s .
+
+        - ............................................. step backwards
+        + ............................................... step forward
+        s ....................................... save .tga screenshot
+        esc ..................................................... exit
+
+
+        n o t e s .
+
+        The  intro uses Pascal's mxm player and Tran's pmode extender.
+        It doesn't run under Windows due to the music system. For best
+        video  performance  use  UNIVBE/SDD  5.3  or  later. The video
+        engine  supports  the VESA 3.0 standard. The music system only
+        supports  GUS.  Due  to  the  size  of the module, 512k of GUS
+        memory is required.
+
+        By the way, the hidden parameters of our Rage'98 intro LSD: /d
+        debugmode  /@ textures /# music. These work with this intro as
+        well.
+
+
+        l i c e n s e .
+
+        This  software is freeware under the following conditions: you
+        are allowed to spread it only in its original form and you may
+        not  use  it  for  commercial purposes. You use it at your own
+        risk,  we  can  not be held liable for anything. By using this
+        software you indicate that you have accepted this licence.
+
+
+        (C) CLS, 21.08.1998
+        Made in Hungary.
+

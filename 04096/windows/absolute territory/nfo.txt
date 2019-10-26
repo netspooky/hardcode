@@ -1,0 +1,53 @@
+Absolute Territory by Prismbeings
+       Zettai Ryōiki—絶対領域 
+
+Filesize: ca. 4093 bytes
+Release party: Revision 2017
+
+Initial concept originated after
+Assembly 2016. Actual work started
+Two weeks before deadline.
+
+Dedicated to the talent and memory
+of Mika Vainio, who passed away
+on Wednesday 12.04.2017.
+
+The following tools were used:
+4klang 3.1.1 by Alcatraz
+Crinkler 2.0 by Loonies and TBC
+Shader Minifier by LLB
+
+Code, visuals and music by:
+Klaus Strobo of Prismbeings
+
+Lots of love to msqrt for sub-
+jecting himself to my novice
+questions and issues.
+
+SALUTATIONS to
+
+ adapt
+ alcatraz
+ aspekt
+ calodox
+ collapse
+ conspiracy
+ dead roman
+ drift
+ ekspert
+ faemiyah
+ fit
+ hackers
+ ivory
+ logicoma
+ mercury
+ oo
+ paraguay
+ peisik
+ quadtrip
+ still
+ supadupa
+ tda
+ traction
+ trbl
+ 0x4015

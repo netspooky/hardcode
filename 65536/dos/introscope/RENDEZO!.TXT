@@ -1,0 +1,7 @@
+Hi!
+
+Az intro indit sa el”tt k‚rn‚nk egy
+RESET-et, ‚s _CSAK_ HIMEM.SYS (+ GUS)
+indit s t.
+
+(Igy tal n nem fagy)

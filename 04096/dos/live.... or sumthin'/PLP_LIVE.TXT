@@ -1,0 +1,46 @@
+.... [ live.... or sumthin' ] ...............................................
+
+ description: our humble contribution to the "one-rotating-3d-scene-and-
+            : some-muzak-but-nothing-else" -demoscene. this time packed
+            : to 4kb's so you don't have to waste your valuable hd-space.
+
+        code: kimmy
+       muzak: kimmy
+         gfx: kimmy & tommy
+
+    requires: 486dx (fpu required)
+            : at least 256kb's of basemem
+            : vlb/pci vga-adapter
+            : an open mind
+            : a few beers + some nachos & hot salsa
+
+    supports: general midi
+            : software gmidi emulators (tested with megaem)
+            : windows (both full-screen and windowed sessions)
+            : free speech
+            : legalizing of cannabis
+
+     fact #1: the music was composed using a keyboard drawn to a piece of
+            : paper...... it sounds like it too......
+
+     fact #2: there really is 1692 faces & 1128 verteces in da scene.
+
+     fact #3: well-commented sources will be released after i comment them.
+            : the packer and it's sources are also going to be released.
+
+     contact: kimmy <kimmy@iki.fi>
+            : tommy <tommi.makela@tulli.fi>
+
+       legal: you may run, copy, debug, disassembly, modify, sell and fuck
+            : this software as long as you drink beer while doing it.
+
+   copyright: pulp productions 1997.
+
+.... [ about the sources ] ..................................................
+
+      update: as i promised, here are the sources for this lousy piece of
+            : s*it! i got kind of sick of this all, so not all of the
+            : routines are commented..... have phun anyway....
+
+.... [ eof ] ................................................................
+

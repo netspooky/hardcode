@@ -1,0 +1,20 @@
+you get:
+	a 64kb intro for scene event 2002 held in harridslev, denmark.
+
+from who:
+	main code and ideas: rasmus 
+	samplepacker       : daniel 
+	music              : marek  
+	1bit gfx           : peter  
+	textures           : søren
+	
+contact:
+	bypass - www.bypass.scene.org
+	rasmus - www.daimi.au.dk/~kaae
+
+expect:
+	a final version with non-cripled sound in a not-so-distant future
+	
+legal:
+	this application does not live up to the ISO DCS-1337 (DUTCH COLOR SCHEME) standard.
+	

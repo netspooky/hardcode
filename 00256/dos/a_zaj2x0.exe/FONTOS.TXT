@@ -1,0 +1,6 @@
+A program futtatasa elott inicializald a GRAVIS hangkartyadat az ULTRAINIT.EXE
+programmal,mert ha nem igy cselekszel lemaradsz az audio elmenyrol !!!!
+Sajnos 256 byte-on nem tudtam megoldani az I/O port felismereset, igy 6 ku-
+lonbozo file szuletett.Altalaban a $220 porton van a GUS,tehat a a_zaj220.com
+kell neked.
+Az IWINIT nem jo !! ULTRAINIT kell !

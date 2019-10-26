@@ -1,0 +1,19 @@
+This corner is made for the hardcore size-optimizers.
+
+I suppose these mandelbrot-drawers are the shortest in the whole world,
+although i'm sure they can be optimizing more.
+IMHO the crappy version is near to the perfection but the normal version
+is far not as good.
+
+So if you could do with them anything (for example if you kill the mem-var
+from "normal", that would cause several bytes loss, etc.), but the same
+features (switch back to textmode, same looks, same or not much
+slower speed (faster allowed :)), etc.) then please send it to :
+    b.armpit@freemail.c3.hu
+    컴컴컴컴컴컴컴컴컴컴컴�
+Sorry for the lack of comments and the chaotic style, maybe you would do
+better if you would make a totally new with some ideas from them.
+
+Even if you know an other one which is smaller than these, email me too!
+
+And finally look the "Chicklet.com" with a hexaeditor or with dump mode! :)

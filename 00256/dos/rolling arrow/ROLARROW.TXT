@@ -1,0 +1,59 @@
+Rolling Arrow, #coders fire effect compo entry
+By CodeIt / Vision 17.5.1996
+
+
+Requirements
+------------
+
+   - IMB PC compatible computer
+   - VGA display adapter
+   - 386+ processor (coded with 386DX25/nocache)
+   - MS-DOS
+   - 64+ Kb of free lower memory
+   
+
+Short Technical Description
+---------------------------
+
+   The fire effect itself is a modified old:
+   
+      color[x][y] = (color[x][y] +
+                     color[x-1][y+1] +
+                     color[x][y+1] +
+                     color[x+1][y+1]) / 4
+                     
+   There are two modifications:
+   
+      - Random +-1 change to X-coordinate when calculating new color
+      - Value N is subtracted from new color to make flames smaller
+        (N is 4 for this executable), underflow is taken care of
+        
+   This means that we need one relatively "random" bit to update each
+   pixel in the buffer. To make this fast and with minimum number of
+   bytes, I used the executable code itself as a "random" value
+   string.
+
+   The background picture which is "in fire", is updated for each
+   frame and it presents a rolling upwards pointing arrow. The arrow
+   was probably one of the easiest figures that could be drawn in the
+   buffer. Width of each line of the arrow is scaled using scaling
+   values 0-1 to make it "roll". Scaling value changes linearly, not
+   according to sin-function because I run out of bytes.
+   
+   Palette is constructed using colors:
+   
+      0 - 31         black -> red
+      32 - 63        red -> yellow
+      
+   I also used memory buffer to calculate updates and just copied it
+   to the video memory. I could have made the effect much smaller if I
+   had used only video memory but it didn't look good on slow machines
+   (like my 386).
+
+   There you go... Source code includes some comments too.
+                                                          
+
+                                 Johannes Lehtinen
+                                 CodeIt / Vision
+                                 johannes.lehtinen@hut.fi
+

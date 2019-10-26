@@ -1,0 +1,16 @@
+files.nfo - this file list [UPDATED]
+FILE_ID.DIZ - description text file [UPDATED]
+CFUL112.COM - VESA mode 112H (intel) [UPDATED]
+CFUL121.COM - VESA mode 121H (ATI) [UPDATED]
+CFULSAFE.COM - automatic video mode selection with clean exit [UPDATED]
+CFUL.ASM - Source code with greetings to sizecoder heros :) [UPDATED]
+CFUL112F.COM - VESA mode 112H with page flipping (intel)
+CFUL121F.COM - VESA mode 121H with page flipping (ATI)
+CFULFLIP.COM - automatic video mode selection with clean exit and page flipping
+CFUL1608.jpg - 640x480 screenshot frame #08
+CFUL1618.jpg - 640x480 screenshot frame #18
+CFUL1632.jpg - 640x480 screenshot frame #32
+CFUL1638.jpg - 640x480 screenshot frame #38
+CFULANIM.GIF - Screenshot for Pouet
+CFULFLIP.ASM - Source code with page flipping for fast computers
+HEX2.jpg - this scene was my inspiration, rendered by my Pentrace

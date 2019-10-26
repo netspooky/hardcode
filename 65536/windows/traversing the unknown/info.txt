@@ -1,0 +1,22 @@
+
+Traversing The Unknown, by inque 
+(more or less final version)
+
+:: release info :: ----------------------------
+
+a 64k demo released at Evoke 2011.
+
+almost completely made live at the party place.
+
+due to time constraints we entered the compo 
+with a very rough version. this "final" version
+has a bit more polish.
+
+:: credits :: ---------------------------------
+
+code/visuals -- glow
+soundtrack/direction/visuals -- izard
+
+:: cya :: -------------------------------------
+
+www.inque.org

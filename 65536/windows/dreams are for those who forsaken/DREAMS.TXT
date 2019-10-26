@@ -1,0 +1,59 @@
+
+ "dreams are those who forsaken", by replay
+
+
+ presented at tp2k - back to the roots - on 27th to 29th of december.
+
+
+ it was produced on a p200mmx, so if you have a similar machine, this could
+ work. on the other hand; when i was finnished with the intro, i purchased
+ a new computer, so now i can watch it run smooth.
+ all you need should be some portion of mmx, sound and a graphicscard which
+ support 400x300 (which i've found more common than i thought). if your
+ graphicscard doesn't support 400x300 you will still be able to watch it
+ in a window. watching in a window. please minimize your desktop resulotion.
+ if your card do support 400x300, but still want to see this intro, in a
+ window; then you can press SPACE to switch mode. you may also switch back
+ by pressing the very same key - SPACE.
+
+
+ i would like to say hello to people who might read this, but i do not think
+ i will. this is because i usually forget people and groups, and therefor
+ they get to annoy me on irc because they get disappointed. it is really nice
+ to be greeted by people, but still, you should not beg for it. so now, i
+ will not greet anyone.
+ on the other hand, i would like to say thanks to some special people:
+
+         "tack s† mycket"
+
+ and that's about it.
+
+
+ if you ever find these 40960 bytes amusing or annoying, or have any comment
+ what so ever about it; do not hesitate to give me a call at +46704145664,
+ or send me an email to whisker@home.se. please choose email before phone.
+ if you do call and do not have anything special to say, or can not speak
+ so that i will understand; then do not get disappointed if you find me rude.
+ if you do not think you fit that description being a pointless person, and
+ still find me rude, then please do not harass me, but send an email instead.
+
+
+ one might wonder why this intro is 40960 instead of 65536 which is the limit
+ for the competition in which this intro competed. this is why:
+
+     last year, i made an amiga intro for tp 1999. the intro ended up being
+     about 64k. i entered the intro, and felt good. later at the party, i
+     was woken up by people saying that the intro was too big. soon it hit me
+     the party usually helds 40k amiga intro compos.
+     oh darn, i said to myself. and entered it as a demo.
+     anyway. this year i thought, funny as i am, that i would make the pc
+     intro 40k instead. so i did.
+
+ reason enough? i don't know. it was just some stupid idea.
+
+
+ thank you for now. i hope you will like this little intro, which i hope will
+ please someone.
+
+
+ .whisker of replay.

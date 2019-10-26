@@ -1,0 +1,153 @@
+
+                     *%S$S@s,
+                    *,`øüÈT' .Ò,                         dSs
+             ,sS$S%s,`T$Kn,_ `$$b,               _.ÖÒ.g$$$
+   ,Ögy·,.  d$$¼øüT$$b T$$$$P',$$$$,      .s@P',sS$¼üøøÈT$$$$
+  d$$$P¼T$$S$$'    l$$; S$$',d$P'`$$,    d$$' d$$$'      `S$$
+ d$$$'   `ÈT¼'     ;$$l l$l $$l   `$$,   $$l l$$$l        l$$
+ $$$l             ,$$$; S$S T$S,   `$$,  `$S ;$$$$,      ,$$$
+ T$$$,          ,d$$$P d$$$b,`ÈT    `$$bg$$b,`ÈY$$b,,d$$$$
+  `T$$b,_      `üÈýø` `øüÈü`         `T$$$$$$P   `øüÈT$$$TÈü`
+    `øýÊý`                             `ÈTP¼'       .  . ...F . l . o . w...
+
+
+                        mindflow                    .analogue
+                        .64kb                       .sept/oct.1997
+                                                    .update.1998
+
+ .code.design.raytracer     .music              .music_player
+ @hugo.habets               @jeroen.tel         @desmond.germans
+ [Hugo]                     [WAVE]              [simm]
+
+ .mindflow ascii (above)
+ [kenetic]
+
+ [mindflow needs]                                   showed@bizarre.97
+ .16Mb of memory                                    present@lowres.97
+ .fast CPU (32-bit)                                 released@takeover.98
+ .FPU
+ .vga 8bpp (8 bits-per-pixel, 320x200x8bpp is standard vga)
+
+ [mindflow recommends]
+ .P166 or better
+ .GUS for sound
+ .VESA LFB 320x200x24bpp, 32bpp or 15bpp
+ .dos
+
+ [data file]
+ .the data file is not necessairy, meaning this intro fully respects
+  the rules of the 64kb competition of bizarre'97 (no writing to disk)
+ .on a p166, the precalcing of the datafile + the running time of
+  the show is less than 8 minutes, again meaning the intro fully
+  respects the rules of bizarre'97.
+ .without the data-file, mindflow will start with rendering.
+  this can take a few minutes. the raytracer is size optimised,
+  not speed, it's quite slow.
+ .the size of the data file is this big because all data is in 24bpp
+  format, meaning one pixel takes 3 bytes. for example the first 16 frames
+  of animation mindflow starts with is 320x200x3x16 = 3072000 bytes
+ .the size of the data file should be 7372288 bytes.
+ .cdrom creators, please include the datafile on the cdrom
+
+ [video]
+ .resolution is 320x200
+ .all screens are calculated in 24bpp, 24bpp is the best videomode
+  for this intro
+ .when 24bpp is not supported, mindflow looks for 32bpp,
+  15bpp and finally 8bpp.
+   .32bpp still gives every color detail, no remapping
+   .15bpp requires remapping (slows down the framerate) but still gives
+    a fairly good result
+   .8bpp also requires remapping and the color output is very low!
+ .if you only get 8bpp, please load univbe (try the latest version)
+ .in 32bpp and 24bpp modes, anti-aliassing is optional
+ .24bpp, 32bpp and 15bpp modes require LFB (linear frame buffer)
+
+ [parameters]
+ /0       start mindflow without music
+ /1       start mindflow with GUS music (default port 0x220)
+ /8       force 8bpp output (should always work)
+ /aa      anti-alias 24bpp or 32bpp output
+ /210
+ ..
+ /260     change default gus port
+
+ [note]
+ .when this intro was almost finished, we remembered an excellent demo
+  on the Amiga also called Mindflow. we did not intentionally steal the
+  mindflow name, hope everybody is okay with this.
+
+ [contact]
+ Hugo:  hugo.habets@tip.nl or hugo@av.crl.sony.co.jp (until June '98).
+ WAVE:  mon@xs4all.nl (Maniacs of Noise)
+
+ [bizarre, lowres, takeover?]
+ at first this intro was supposed to be released at the bizarre'97
+ party. the intro was delivered to the organisers well before the
+ deadline. unfortunately the bizarre organisers had some trouble
+ with the video-projector and in the chaos they forgot to play mindflow
+ in the 64kb compo. it got worse when people weren't able to vote for
+ the 64kb compo on the voting network. because the biz'97 organisers
+ themselves thought mindflow should have won the compo, they, on their
+ own initiative, took the intro from the network and so mindflow wasn't
+ released at all. thank god for honoust party organisers.
+ lowres'97 was the first demoparty held after biz'97 in the netherlands,
+ but after seeing the party (sorry guys, you know it wasn't any good) and
+ hearing there even weren't any prizes, again Mindflow didn't get to be
+ released. after hanging around a while, we decided to change the mindflow
+ music and update the effects a bit.
+ next try, takeover'98. since Mindflow already is a pretty famous intro
+ in the dutch demoscene, we hope people won't have their judgment ready
+ again (like simstim).
+
+ [stash and mindflow]
+ the excellent intro "stash" by the black lotus might be compared to this
+ intro when it comes to prerendering time. just to avoid unnecessairy
+ discussions, mindflow was made months before stash and the method of
+ prerendering mindflow uses is very different from stash. jace/tbl saw
+ mindflow at bizarre'97 and got a mindflow version at lowres'97. we talked
+ about stuffing megabytes of graphics into a 64kb intro (actually, jace
+ wanted to put the mindflow raytracer in stash at first but nix didn't
+ like the idea) and we found out we both use very different methods. both
+ of us on our own initiative without influence of eachother decided
+ to use this huge prerendering time so please don't start a "where is
+ this world going to" discussion or worse, a stupid "mindflow stole the
+ idea from stash" or "stash stole the idea from mindflow" discussion. yeah.
+
+ [hello]
+ desmond (attentie: c op perron 1), tuukka (megazone hero), (wazige) joris,
+ cis (zullen we vaag doen met joris?), shigep (watashi-wa Hugo desu),
+ milla, miyuki and other cute girls who have a name starting with 'm',
+ pappa ron (quote: "tu es un enfant terrible"), zes plus zes,
+ maastrichtse+gemertse+kobus altos inclusief mijn geflipte broer,
+ trekpik (okee, patrick), botte gozers als Jace/TBL, kwats (quad power),
+ Teramoto-kun and Fukuda-kun at namco co. (techno drive rules hard),
+ all my coworkers at sony including the ones that left for canada (hehe),
+ manga mathijs, xander "magic boy" koninkx (limburgse vlaai?) en zo..
+
+ [dutch translation]
+ 1 mind [maInd] <zn> . mening; speak one's .. - zijn mening geven;
+   be of the same .. - dezelfde mening hebben.
+ 2 mind [maInd] <ww> . oppassen, letten op; I wouldn't .. - ik zou
+   er niets om geven; zie ook care.
+ 3 mind [maInd] <zn> . geest; to put a .. at rest - iemand geruststellen;
+   zie ook ghost, spirit.
+
+ 1 flow [flou] <zn> . stroming; go with the .. - ga met de stroming
+   mee, laat je meevoeren.
+ 2 flow [flou] <ww> . vloeien; thoughts .. from my mind - gedachten
+   vloeien uit mijn geest.
+
+ 1 coyote ['koiout, kor'outi] . prairiewolf.
+ 2 coyote ['koiout, kor'outi] . aanbidder van acme producten; houdt van
+   rare vogels, vooral als ze mooie kleuren hebben (e.g. road runner).
+
+ [symbolic for the art people]
+ weird, art can seem to be much better when you understand what the artist
+ means. like orange refering to salvador dali and stuff.
+ indeed, the mindflow 64kb intro also has a subject. try to figure it out.
+ a fungus spreading spores.. those swimming ahum.. balls at the end and
+ the big blue egg.. much symbolic stuff.. got it yet?
+ [evolution, reproduction, birth, life, mindflow, innocense]
+
+ [hugo.says.bye]

@@ -1,0 +1,134 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ "THE SMALL ONE" copyright by "GREEN APPLE!"  ³
+³ written in 1994 for the great Assembly'94    ³
+ÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+ÚÄÄÄÄÄÄÄÄ¿
+³Credits ³
+ÁÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Code/Grafix : Cyder & JUR /Green Apple
+
+ÚÄÄÄÄÄÄÄÄ¿
+³Contents³
+ÁÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+- Some crappy old effects
+- bad design (you found it ? we miss it !)
+- some gfx
+- no sound (not allowed)
+- knowledge of some books about hardware
+- some fine utils (Borland-Pascal editor, TASM & TLINK)
+randomly smashed together and the result packed with COMPACK and
+surprised that we don't steped over the 4096 bytes border.
+
+ÚÄÄÄÄÄÄ¿
+³Result³
+ÁÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Nothing special, but ever tried to put it in 4096 Bytes??
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³Requirments  ³
+ÁÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ÍÍÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+processor   ³ 386 - we use the 386 commands to short the code
+memory      ³ you need arround 300 - 350 KB. That's amazing for a 4KB intro
+            ³ isn't it ? =)
+HD          ³ 4 KB is minimum, ok ? or you use your floppy
+graphiccard ³ VGA
+keyboard    ³ You should have a <ESC>-key to smash if you are bored - some
+            ³ others are required to start the Intro - means you need :
+            ³ "S","M","A","L","O","N","E",Return,<ESC> - not many, aren't they ?
+            ³ Uh I forgot, to find the hidden part maybe you need some other
+            ³ keys - btw) you have to type a text while running ...
+monitor     ³ that's your thing, ok ?
+MHz         ³ not to slow ok ? we code it on a 386DX/25 (works fine !).
+            ³ But speed depends mostly on your graphic card.
+soundcard   ³ sound not allowed, so there's no requirement
+ÍÍÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+No V86-mode allowed - means no EMM386/WINSLOW or something like this !
+BTW) Thx to all people help us to fix problems with "smartdrv required ;)"
+
+anything else ?
+Think - all what you need to run your computer !
+You know useless things like AUTOEXEC.BAT, CONFIG.SYS, COMMAND.COM ...etc.
+
+ÚÄÄÄÄÄÄÄ
+³Greetings
+ÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Cyder:
+       on Internet (coolest thing in the world...) :
+
+              Torben Thellefsen (Work not to much - Your OS/2 player ready ;) ?
+
+              Christopher Taschner (big 'hello' waves to america
+                                    keep pardying :)
+          
+		at Potsdam/Berlin - no greets, only game lamers :(
+
+                to be continued ...
+
+ÚÄÄÄÄÄÄ
+³ Thanx
+ÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Cyder:
+
+     Draeden of VLA - for his great MODplayer discription
+
+     Dennis         - for betatesting my MODplayer on SB 2.0
+
+     Jan            - for betatesting this piece of art ;)
+
+     Craig	    - hope continue working together on the SB-DOC 
+		      version 1/2/3 ;)
+
+     my sister/mother/father - for being so nice
+
+     all people helped me with my SoundBlaster discription
+
+     Creative Labs  - for being so lame
+
+     Microsoft      - for writing WINSLOW
+
+     Internet       - for being so cheap for me as a student :)
+
+     TVstations     - for every 20 min advertisment :(
+
+JUR:
+
+     Michiel O.     - can't await to see your tracker.
+
+     Daredevil      - is it realmode, protected mode or whatever? It works,
+                      so I don't care ;)
+
+     The Faker      - tschuldigung, is nun doch kein Textsucher fr ZIP-files
+                      geworden ;)  Bist du jetzt sehr entt„uscht ??
+
+     Progrex        - Thanx for releasing REALMEM.ZIP
+
+     Chicken        - Thanx for your help !
+
+     Allan          - Thx for COMPACK !
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³Error codes of our Intro³
+ÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+We had not enough space in our intro to put the full errormessage into the
+code. Therefore we use errorcodes :
+
+error 1: 386 processor (or above) required !
+error 2: V86-mode (realmode emulation) not allowed !
+         Remove TSR/DRV like EMM386 - easiest way is to boot with no
+         autoexec.bat. Config.sys only with "HIMEM.SYS"
+error 3: VGA-card required !
+error 4: not enough memory ! Hey come on - your system works fine with free
+         base memory below 350 KB ?
+
+Signed, Cyder & JUR   /Green Apple

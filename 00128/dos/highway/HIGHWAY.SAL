@@ -1,0 +1,101 @@
+; Highway by Solar Designer \\ BPC 
+
+Program Highway
+.186
+
+MinY =   136       ; Only MaxY-MinY is used in this simplified version
+MaxY =   199       ; Also, MaxY-MinY should be equal to 63 in this version
+PosY =   16        ; Position at which the road is motionless
+MinW =   32        ; Road width at top
+MaxW =   MinW+256  ; Road width at bottom, should be MinW+256 in this version
+CosMax = 79h
+
+mov  al,13h        ; Hope noone will run it with invalid drive as the
+int  10h           ; second command line parameter ;)
+
+push 0A000h        ; Set up both ES and DS to point to the video memory
+pop  es            ; The shifts array at 0A000h:0FA00h is assumed to be
+push es            ; zeroed out when setting the video mode
+pop  ds
+mov  di,Shifts-(MaxY-MinY)*320    ; DI will point to the shifts array after
+                                  ; the loop below
+
+mov  ch,78h        ; Initialize the sine generator, value in CL is not
+                   ; important, BX is assumed to contain zero here
+$Do
+   pusha
+
+   mov  bx,Shifts+2*(MaxY-MinY)   ; DS:BX -> shifts array end
+   $Do
+; Set SI to current road width divided by -2
+      lea  si,[bx-(Shifts + 2*(MaxY-MinY) + MinW/2)]
+
+      mov  bp,160                 ; Screen center
+      add  bp,ds:[bx]             ; ...add current shift
+      sub  bp,ds:[Shifts+2*PosY]  ; ...subtract motionless position shift
+      lea  cx,[si+bp]             ; Current road left edge's position
+      xchg ax,si
+      lea  si,[di+bp]             ; Current mark's memory offset
+      sub  bp,ax                  ; Current road right edge's position
+      imul ax,-2                  ; Real current road width
+      push ax
+
+      mov  al,7                   ; Draw the background's left
+      rep  stosb
+
+      pop  cx
+      inc  ax
+      rep  stosb                  ; Draw one horizontal line of the road
+
+      mov  cx,320
+      sub  cx,bp
+      dec  ax
+      inc  dx
+      test dl,8                   ; Are we drawing a mark?
+      $If <>0
+         mov  ds:[si],al          ; Draw it
+      $EndIf
+      rep  stosb                  ; Draw the background's right
+
+      sub  bl,2                   ; Move to the next horizontal line
+   $EndDo =0
+
+   mov  si,Shifts + 2             ; DI already points to the shifts array
+   mov  cl,MaxY-MinY
+   rep  movsw                     ; Move the road's shifts
+
+   popa
+
+   dec  dx                        ; Move the marks
+   push dx
+
+   mov  ax,-39                    ; Calculate a new shift
+   imul cx                        ; I use a modification of sine generator
+   add  bx,dx                     ; by Wally/RAGE here
+   add  cx,bx
+   mov  ax,cx
+   sar  ax,8+2
+   sub  ax,CosMax shr 2           ; Make it always negative
+   mov  word ptr ds:[Shifts+2*(MaxY-MinY)],ax
+
+   mov  dx,3DAh                   ; Wait for vertical retrace to make the
+   $Do                            ; intro run at a reasonable speed on
+      in   al,dx                  ; fast video cards
+      test al,8
+   $EndDo <>0
+
+   pop  dx
+
+   in   al,60h                    ; Read a scan code
+   cbw                            ; Zero out AH for use by INT 10h below
+   dec  ax                        ; Exit on Escape
+$EndDo =0
+
+mov  al,3                         ; Restore the text mode
+int  10h
+
+retn                              ; Exit
+
+db   'Solar!'                     ;-)
+
+Shifts = 320*200

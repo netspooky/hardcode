@@ -1,0 +1,10 @@
+Name:        Strawberry
+Type:        4K procedural graphics
+Code by:     Stan/Rebels
+Packed by:   Crinkler
+
+Uses DirectX (d3dx9_32.dll). 
+It is not present by default on Windows 7 so program will probably not work.
+Blame Microsoft for that :)
+You can press space to move scene a little.
+Renders very slow so please be patient.

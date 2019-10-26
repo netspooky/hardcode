@@ -1,0 +1,40 @@
+
+                            -=[ M U R E L ]=-
+
+                                   BY
+
+                                PHENoMENA
+
+PRODUCT
+
+This intro was made during 48 intensive hours at "Icing '95" (held 15-18 of
+June). Scout, GurgL and PleTrex attended - the other PHA members were too busy
+(or lazy) to come. (Rolemaster couldn't attend since he had to go to some
+sort of training camp and prepare himself for an international programming
+contest.) The intro won the 64KB-compo...
+
+REQUIREMENTS
+
+You won't even be able to start this if you don't have a GUS, further you'll
+need at least a 386SX with a standard VGA card. The intro won't run under any
+386 memory managers like EMM386 and QEMM.
+
+ABOUT THE GROUP
+
+Phenomena (PC) was restarted about a year ago by The Big A, and PleTrex joined
+after a month.
+Most of the original members (at least the coders) had quit the demo
+business completely, so there was a need for new members.
+
+MEMBERSLIST - ACTIVE ON PC
+
+Rolemaster    - Henrik Sj”berg        - 0278/15857    CODER
+GurgL         - Kalle Widell          - 0271/12045    CODER
+Scout         - Mikael Kalms          - 026/123912    CODER
+PleTrex       - Peter L Eriksson      - 026/195271    CODER
+Celebrandil   - M†rten Bj”rkman       - 08/156421     CODER
+Necromancer   - Daniel Lindblom       - 0278/16862    MUSIC
+Radix         - B....                                 MUSIC
+The Big A     - Jocke Berggren        - 023/39393     ORGANIZER
+CoYoTE        - Johan Skantz          - 026/195596    BBS (WHQ 026/196363)
+

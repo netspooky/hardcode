@@ -1,0 +1,112 @@
+
+   ___   __  _  _ _   ___  ___ ___     ___   __  ____ ____    ___  ____  ___
+  Ş°°°_ Ş°°_Ş° Ş°Ş°  Ş°°°_Ş°°°Ş°°°_   Ş°°°_ Ş°°_Ş°°°°Ş°°°°   Ş°°°_Ş°°°° Ş°°°
+  Ş±_Ş±Ş± Ş±Ş± Ş±Ş±  Ş± Ş±Ş±_ Ş±_Ş±   Ş± Ş±Ş±_Ş±  _Ş±  _Ş±     _Ş±Ş±__ Ş±__
+  Ş²²²_Ş² Ş²Ş² Ş²Ş²  Ş² Ş²Ş²² Ş²²²_   Ş² Ş²Ş²²²² Ş²²  Ş²²     Ş²² Ş²²²_Ş²²²_
+  Ş±_Ş±Ş±_Ş±Ş±_Ş±Ş±__Ş±_Ş±Ş±__Ş± Ş±   Ş±_Ş±Ş± Ş±Ş±___Ş±___   Ş±___ __Ş±Ş±_Ş±
+  Ş°°°  Ş°°  Ş°° Ş°°°Ş°°° Ş°°°Ş° Ş°   Ş°°° Ş° Ş°Ş°°°°Ş°°°°   Ş°°°°Ş°°°  Ş°°
+   v1.2                                                       by Klorf 1999
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+³ Requirementz ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ş 80386 CPU or later
+ş VGA video card
+ş DOS 1.0 or later
+ş 256 bytes of conventional memory =:-----O
+ş You must make sure that your computer meets above requirements - program
+  does not have any check-it-out -routines
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+³ Featurez ³
+ÀÄÄÄÄÄÄÄÄÄÄÙ
+
+ş Cool VGA graphics. If you are a Windows lamer, you must run Boulder under
+  the DOS prompt in the full-screen mode (video mode 3) to see the graphics
+ş The guy you are controlling looks almost same as the one in the original BD
+ş Random levels with 512 rocks and 100 gems
+ş Every level is possible to solve
+ş The behavior of rocks and gems is just like in original Boulder Dash
+ş You can even push rocks
+ş You will die when a rock or a gem falls on your head
+ş New level is automaticly generated when all gems are collected
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+³ Instructionz ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ş Collect all gems and avoid the falling things (they falls really fast)
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+³ Controlz ³
+ÀÄÄÄÄÄÄÄÄÄÄÙ
+
+ş 2 ......... down
+  4 ......... left
+  6 ......... right
+  8 ......... up
+  ESC ....... quit
+  Any Key ... very strange behavior, usually like ESC - don't touch
+
+ş Its easier to use number pad so keep NumLock on
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+³ Tipz And Trickz ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+The levels in the game are quite hard. They are huge and full of rocks so some
+good advices might be welcomed...
+
+ş The screen borders won't hold you, so if you walk through the right border
+  you will find yourself from the left side of screen but you are a one line
+  lower. But if you walk trough the upper border you will not appear on the
+  bottom of the screen - in fact your guy will be somewhere in the depths of
+  the video memory, but you are still able to walk past the rocks on the top
+  line of screen. If you hold down the 'up' key for very very long time you
+  will finally appear in the bottom of the level.
+ş The borders won't hold rocks and gems either so be careful!
+ş Just remember that rocks falls down. Sounds stupid, huh :-). But the point
+  is that the falling rocks often blocks your way down. So good method to
+  solve the level is to find a good path to the bottom of the level and start
+  collecting there. A very cool way to use this method is to completely clear
+  a few bottom lines from sand and then continue clearing just by holding down
+  the 'left' key. When the left border is reached you appear on the right side
+  but a one line upper.
+ş Avoid dropping gems under the bottom line of the screen. They will not
+  disappear - you still have to collect them to complete the level. Finding
+  them may be nasty. Check out the next tip...
+ş Every rock or gem dropped on the line 56 (which is six lines under the
+  bottom of the screen) decreases the number of the remaining gems by one.
+ş Try to figure out the behavior of 'any keys'. They can help you out from
+  bad situations
+
+
+ÚÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+³ Bugz ³
+ÀÄÄÄÄÄÄÙ
+
+Does this look like a Microsoft product to you?!? Hell no!
+
+
+ÚÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+³ Licenz ³
+ÀÄÄÄÄÄÄÄÄÙ
+
+ş Do what you like, but never say this is yours
+ş And of course I will not take any responsibility of anything. You use this
+  program at your own risk
+ş No financial profit can be made with this program
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+
+Ari Jouppi (Klorf)
+
+arppa@hotmail.com
+
+http://members.tripod.com/Klorf

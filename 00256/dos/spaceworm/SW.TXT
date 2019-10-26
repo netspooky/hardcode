@@ -1,0 +1,104 @@
+
+                         .-------------.
+                         |  SpaceWORM  |
+                         `-------------'
+
+                 "Even in space, worms are brown."
+                                            -Me
+
+Introduction
+------------
+
+  SpaceWORM was developed for the 256 byte game challange posted to the
+  Internet in the rec.games.programmer group.  It was my intention to
+  develop a fun game to play, not simply a minimal "game" in 256 bytes.
+
+
+System Requirements
+-------------------
+
+  SpaceWORM requires an IBM PC (or compatible) running DOS and a CGA or
+  better color screen.  This program will run on an 8088, but a 286 or 
+  better processor is best.
+
+
+Running SpaceWORM
+-----------------
+
+  SpaceWORM has one optional command line parameter.  If you wish to run
+  SpaceWORM with sound effects, at the DOS prompt simply type:  SW  and
+  press the enter key.  If you wish to run SpaceWORM in quiet mode, at the
+  DOS prompt simply type:  SW Q  and press the enter key.  In either case,
+  after pressing the enter key, you will hear a confirmation beep and be
+  immediately be placed in control of SpaceWORM.
+
+
+Controlling SpaceWORM
+---------------------
+
+  SpaceWORM is controlled by use of the left and right shift keys.  The
+  speed of SpaceWORM automatically increases as time passes.
+
+
+Scoring Points
+--------------
+
+  The object of the game is to control SpaceWORM so that it collects as many
+  gold diamonds as possible.  One point is awarded for each gold diamond
+  that the SpaceWORM eats.
+
+  Your current score is always displayed in the upper left corner of your
+  screen.
+
+
+Ending the Game
+---------------
+
+  The game ends when the SpaceWORM collides with an asteroid.  Asteroids are
+  displayed as large white blocks.
+
+  When the game ends, the screen will clear and your final score will be
+  displayed.
+
+
+Features
+--------
+
+  * Speed (level of difficulty) increases as time passes
+  * Full scoring capability, score always displayed
+  * Sound effects that play in the background
+  * Two color background stars add depth to the playing field
+  * Smooth keyboard control via the shift keys
+  * Auto speed adjust for different CPUs 
+  * Quiet operation (no sounds to alert your boss)
+  * Very playable (fun)
+  * Well behaved program with clean exit to DOS
+  * Source code available
+  * Entire game is only 256 bytes!
+
+
+Source Code
+-----------
+
+  Fully commented source code will be sent (via e-mail) to anyone who
+  e-mails me to tell me how great my game is!
+
+
+----------- cut here ------------------- sw.uue ------------------
+begin 640 sw.com
+ML$".P+ #S1"T ;40S1"X!P[-$":@%P"Z* :H 70&@/I-?0%"J )T!?[*=0%"
+MB!88 >B< $+HF #H7@#H>@#0^H#3 ,T0]\4# '4-N 0)LP[-$.1A)/SF8??%
+M 0!T!^A7 +#;S1"Q![K: ^RH"'7[[*@(=/OB\;@*#LT01??%_P%U"OX.9@%U
+M!/X&9@'KA;@# ,T0Y&$D_.9A,]*T LT0LPI)N   ,]+W\U)!"\!U]E@%, [-
+M$.+XP^1 0#/%LT[V\XK4MABT LT00;,'N"X)P[0"S1"T",T0N0$ / 1U$O\&
+?HP& /ET ('4.Y&$, ^9A0#S;=0-8ZY:XVPFS!LT0PQ"T
+ 
+end
+----------- cut here ------------------- sw.uue ------------------
+
+The text file you are reading (SW.TXT) and the attached SW.COM file are 
+copyright 1995 by David S. Issel.  
+
+SpaceWORM may be freely distributed as long as proper credit is given.
+
+Dave :-)

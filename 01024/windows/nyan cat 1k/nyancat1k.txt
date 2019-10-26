@@ -1,0 +1,53 @@
+Nyan Cat 1k by snq/aardbei
+
+
+Just in time for Aardbei's 13th birthday, here's an oldschool 1k intro!
+No hardware acceleration or shaders; instead you get sprites, 8 bit sound and a
+parallax starfield, pretty much like when we first got started. Seemed fitting.
+
+
+As it turns out, stuffing an animated cat into 1024 bytes isn't all that easy.
+They are known for being hard to generate using code...
+However, as it usually goes, things have ways of solving themselves, and finally
+I was absolutely stuck at 1025 bytes. I was about to remove a sprinkle or 2 or 3
+in order to hopefully get better compression, but then I found some more usable
+space in the PE header, so after manually moving 2 pieces of data there, it was
+now 1019 bytes. It's not like anything magic is going to happen in 5 bytes so I
+used them for some user friendliness, namely a Sleep(1) in the main loop, and
+a bit lower audio volume. Still 1 byte left now, but I guess that's okay...
+
+The release version has been tested on Windows 7 x64 and Vista x86.
+It will not run on XP, amongst others because I use GetTickCount64 which XP
+doesn't have. Saved me 2 cdqs ;) The safe versions should run on XP though.
+It was made for a 16:10 aspect ratio, run the nowidescreen version for 4:3.
+
+
+Difference between the release and safe version are:
+- Window class name moved to PE header.
+- The only float const used in the intro is also stored in the header.
+- No window message checking.
+- Use GetTickCount64() to save me from having to cdq before dividing.
+  In true oldschool fashion, the intro uses mostly int math, the fpu is only used
+  to calculate the note frequencies, a total of 3 instructions (fild,fmul,fistp).
+- Rls doesn't use waveOutPrepareHeader, instead I just set the WHDR_PREPARED flag
+  in the header. This seems to work fine on Vista and win 7 but not on XP.
+Apparently all this stuff together saved me 48 bytes.
+
+
+The more you know:
+- Nyan Cat himself consists of 6 sprites, the body/head, feet, and 4 tails, a
+  total of 848 bytes of uncompressed data.
+- The sprinkles cost ~10 bytes compressed.
+- The softsynth is 74 bytes of uncompressed code, plus 4 bytes of float data,
+  plus 48 bytes of notes (2 channels).
+- Adding volume envelopes made it sound a lot better so I decided to keep it
+  even if it cost ~15 bytes compressed.
+- On top of the softsynth itself, another 71 bytes are needed to actually get
+  the sound to your speakers. Fortunately that bit compressed reasonably well,
+  ~38 bytes with wave headers and all.
+- The sample rate is 65536 Hz because that compressed better than 44100.
+- The intro was done in VC++ 2010, but the code consists of 100% inline asm ;)
+
+
+So there you go, enjoy!
+And happy birthday to us. Ja-rig lalala.

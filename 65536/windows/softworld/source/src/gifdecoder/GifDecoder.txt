@@ -1,0 +1,107 @@
+
+
++-----------------------------------------------------------+
+|                                                           |
+| Documentation for CGifDecoder class                       |
+|                                                           |
+|   WRITTEN BY:  Yaztromo the Wizard                        |
+|                (yaztromo@digital.squares.net)             |
+|                                                           |
+|   This is the GIF image loader module for C++ program.    |
+|   CGifDecoder read GIF87a image from MEMORY, and decode   |
+|     into raw 24 bit RGB image.                            |
+|                                                           |
+|   YOU MUST USE THIS CLASS AT YOUR OWN RISK!               |
+|                                                           |
+|   NOTE:                                                   |
+|     a) Can read animated gif file, but will only decode   |
+|          first one frame.                                 |
+|     b) Error assertion is humble. Decoding result of      |
+|          corrupted gif image is undefined.                |
+|                                                           |
++-----------------------------------------------------------+
+
+Member functions
+
+    long CGifDecoder::Open(unsigned char* src, long len)
+        This function reads gif header, calculate decoded image size,
+          and initialize all required resources.
+
+        [return value]  Buffer size needed to store raw RGB image. (bytes)
+        [src]           Source gif image, perhaps loaded from a file.
+        [len]           gif image size (bytes).
+
+    int  CGifDecoder::Decode( unsigned char* dest = 0x0 )
+        This function decode gif image ( assigned by CGifDecoder::Open )
+          into raw RGB image.
+        If dest is set, decoded image is stored into the memory pointed by dest.
+          If dest is null, destination buffer is allocated by CGifDecoder.
+
+        [return value]  Is TRUE if decoding process completed successfully.
+        [dest]          Destination buffer for decoded image.
+
+    unsigned char* CGifDecoder::GetImageBuffer(void)
+        This function can't be called unless CGifDecoder::Decode was already called.
+        [return value]  Pointer which indicates raw RGB image.
+
+    long CGifDecoder::GetWidth(void)
+        This function can't be called unless CGifDecoder::Open was already called.
+        [return value]  Image width ( pixel ).
+
+    long CGifDecoder::GetHeight(void)
+        This function can't be called unless CGifDecoder::Open was already called.
+        [return value]  Image height ( pixel ).
+
+    void CGifDecoder::Close(void)
+        This function clean up all resources allocated by CGifDecoder::Open.
+          If destination buffer was allocated by CGifDecoder, this function also
+          releases that buffer.
+
+Byte ordering of raw RGB image
+
+    One pixel consists of 3 bytes, unsigned char blue and green and red.
+      First byte is blue, next is green, last is red.
+      These sets of 3 bytes are ordered by left to right, top to bottom.
+    So, first 3 bytes indicates top-left corner pixel, and last 3 bytes are
+      right-bottom pixel. Of course, total buffer size is (width x height x 3).
+
+Sample Program for CGifDecoder:
+
+//Read gif file and write decoded RGB image to file.
+#include <stdio.h>
+#include <GifDecoder.h>
+
+int main(int argc, char* argv[]){
+	FILE* file;
+	long i, j;
+	unsigned char* buffer;
+	CGifDecoder decoder;
+	if( argc != 2 ){
+		printf("Usage:\n");
+		printf("  %s gif_filename\n", argv[0]);
+		return -1;
+	}
+	if( file = fopen(argv[1], "rb") ){
+		//	read gif file
+		fseek(file, 0, 0x2);
+		i = ftell(file);
+		buffer = new unsigned char[i];
+		fseek(file, 0, 0x0);
+		fread(buffer, i, 1, file);
+		fclose(file);
+		//	decode and write to file
+		j = decoder.Open(buffer, i);
+		decoder.Decode();
+		file = fopen("tmp.dat", "wb");
+		fwrite(decoder.GetImageBuffer(), j, 1, file);
+		fclose(file);
+		decoder.Close();
+		delete[] buffer;
+	}
+	else{
+		printf("File open error: %s\n", argv[1]);
+		exit(1);
+	}
+	return 0;
+}
+

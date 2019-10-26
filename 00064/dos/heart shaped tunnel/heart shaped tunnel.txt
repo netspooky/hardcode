@@ -1,0 +1,44 @@
+heart shaped tunnel
+--------
+
+64b prod
+
+Intro "80b heart shaped tunnel" some time ago inspired me to learn assemble and
+to try myself in tiny-intro-codeing. Thank you lgdt!
+
+This intro is effort to make this prod a little better. Now it fits in 64b,
+still having esc support.
+
+You really should check lgdt`s prods in data directory. ( "cd data" =) )
+
+Compiled with FASM.
+
+Great hello from Russia.
+
+P.S. Even my "non codeing" friends admire lgdt`s algorithm.
+
+--------
+Thanks to these people ( in alphabetical order ), who gave warm welcome to
+intro "Is It Wrong To Be Half":
+	Broderick
+	gr
+	grafXnixdorf
+	Graga
+	highlife
+	ikstar
+	Intrinsic
+	Jet Set Willy
+	linde
+	MadenMann
+	Optimus
+	p01
+	Pirx
+	Preacher
+	psonice
+	Rrrola
+	Skate
+	solO2
+	src
+	Thygrion
+	venire
+	wie8

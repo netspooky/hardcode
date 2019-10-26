@@ -1,0 +1,59 @@
+                                       _ _._                   _._ _
+                                          |/-------------------\|
+                                          |                     |
+         ___      ___       _____         |   _____             |
+        /  /_____/  /____ _\\_   \_ _ ____: _/    /   - - - - - |
+      _/   _    / _//   /    /    / _/    | \     \_  B B B B B |
+      \____/___/__\_____\ __\_____\ \_____|__\_____/  M M M M M |
+  __  __ -  _____ --- _ --- ____ - __  ---:  _____ -            |
+._\_\/_/_ _\\_   \_ _\/_____\   \ / //____:_\\_   \_  B B B B B |
+|   \/  (_   /    //   (\   _    \  _/    |   /    /  P P P P P |
+|___||___/__\_____\ ____/___\_____\ \_____|_ /_____\  S S S S S |
+- ----------------------------------------:------- -  - - - - - |
+   ___          ________  _________   ____|   ___       ___     |
+ _/  //______ _\\_     /_\\_      /__\\_   \_/  //_____/  //____|___
+_)  _       /    /    /    /     /     /    /___      /___         /
+\   \      /    /    /    /_____/     _    /   /     /   /       _/ _
+/__________\___    __\_______\ _ _____\____\_________\___________\  /
+- -diP---------\___\------------------bM--|---------------------|-\/
+                                       _ _|_                   _|__ _
+   ausflug intro | breakpoint 2oo4!       :/-------------------\:
+
+
+	a-move	............................... a-move (at) gmx (dot) de
+
+	marek  ............................... marek (at)  dyce (dot) de
+
+	pandur  ............................. tom (at) drastic (dot) net
+
+   	supah ........................... dscheibe (at) freenet (dot) de
+
+
+	blabla as usual,
+
+	runs on everything capable of drawing hardware accelerated
+	triangles and linear fog. the music is using pre-rendered
+	synthesizer generated samples played back via a slightly
+	modified version of minifmod by firelight. the 3d was done
+	in 3dsmax and exported into a custom fileformat. it contains
+	50 different cameras, 650 small meshes (where some of them may
+	be instances of others) and one single omni-directional light-
+	source which results in approx 701 nodes in complete. the
+	compressed size for the scene is about 35kb, another 17kb for the
+	module/synthesizer/minifmod and 12kb are taken by the 3dengine
+	aswell as synchronization scripts and stuff.
+	
+	this intro was started 48 hours before the party. the music was
+	done in about one week of composing and a lot of struggle with
+	the	synth to create the patches.
+	
+	this is simply some information about this release nothing more.
+
+	love & respect. w3rd.
+  _                                                                _
+-\//-------------------------------------------------------------\\/-
+             nfo by dipswitch // blackmaiden ^ sac ^ dcs
+- ----------------------------------------------------------------- -
+
+
+

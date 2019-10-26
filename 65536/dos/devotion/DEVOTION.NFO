@@ -1,0 +1,41 @@
+Needed to run
+	Pentium or higher PC
+	12 Mb free intern memory
+	And a VGA Card 
+
+For optimal results	
+	Pentium or higher PC
+	12 Mb free internal memory
+	And a very fast VGA card with software or hardware VBE2.0
+	in 320*200*24bits or 320*200*32bits
+        MPU401 or compatible soundcard (Wavetables/synthesizer)
+
+Used during development
+	686 150+ 32Mb memory
+	K6 200 16 Mb memory
+	Korg X5 Synthesizer
+	
+Two versions
+	There are two versions of Devotion
+	the first version is for highend PC and the other is for the very- 
+	super-deluxe-high-end-supercomputers. The only difference between 
+	these two versions is the vector engine.
+ 
+Resolution supported
+	320*200*32bits	(vbe20 needed for this resolution)
+	320*200*24bits	(vbe20 needed for this resolution)
+	640*400*8bits	(failsafe mode I, vbe20 needed for this resolution)
+	320*200*8bits	(failsafe mode II, VGA card needed for this mode)
+	
+	The failsafemodes are fake truecolor modes using a X and a Y divisor 
+        of two. And you won't miss much, cause of the FakeColorEmulator
+	
+Intel & AMDK6-Bug
+        There is an known K6 bug alse for some intels. It seemes like the K6
+        is optimised for multiplation and divisors. And not for the simple
+        look and move work. 
+	The first two parts will be extremely slow and you will miss the
+	effect produced by me. This bug doesn't occur always. The vector
+        engine doesnot have this bug.
+        I've mannaged to remove this bug but not for all computers for some
+        strange reason it still is very slow on some computers.

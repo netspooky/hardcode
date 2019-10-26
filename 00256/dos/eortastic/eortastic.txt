@@ -1,0 +1,16 @@
+Eortastic by Optimus
+--------------------
+
+The story in a nutshell.
+
+I had some old code. Line routine that fits in less than 256. Based on a very small bresenham code in C(provided too for reference). What to do with that?
+
+Thought of EOR polygon fillers in C64, where you can have polygons without the fuzz of doing all the steps, like sorting, scanline conversion, etc. If I could modify my line routine to draw what's needed and then run an EOR filler all over the screen, voila. Well, the bad thing was it was hard to handle for special cases.
+
+So, it failed.Or my plans to produce something more interesting (a polygon mountain,some curvy things,etc). But then I experimented and retrieved funny patterns.
+
+It's a polygonal mess. Two parts. And there is a bonus version too with more noise as you run (three or more parts). Sorry, couldn't fit the last one in 256 and I prefered the clean version for compo and the bonus version for the kicks.
+
+Optimus
+optimus6128@yahoo.gr
+http://optimus.untergrund.net

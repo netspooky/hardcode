@@ -1,0 +1,14 @@
+Assembly 2015 4k intro
+Cube Demolition by lucid
+
+Code by ltipl (@IRCNet)
+Programmed in C++, glsl, and logo
+Packed with Crinkler
+Uses OpenGL for graphics, and Direct3D for some math
+Requires d3dx9_43.dll (provided for convenience)
+General midi for sounds :P
+
+Thanks to everybody at Boozembly 2015,
+and to everybody at other Pasila parties as well!
+It was a great weekend, see you again!
+.-------------.---------.----------------.-----------.

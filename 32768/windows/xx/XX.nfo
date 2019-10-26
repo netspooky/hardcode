@@ -1,0 +1,103 @@
+                                  ___
+  ___ ___ _____ ___  /\_ __ ____ _\ _\_____
+ /_  \ _ \_ __/_  /_/ \  \ \  __/_ \\__   _\
+/ \  / /  /__  / /  /  \  \ \ \_  \ __ \  \/
+\___/_/__//___/____/    \___/\____/__\__\__\
+ \__\_\\_\\___\\__/ 2015 \_/\/___//_//_//__/
+!NE7 ----------- /________\ -------------- >>
+   :....................................:
+   :.... NAME: XX                   ....:
+   :.... DATE: 14/11/2015           ....:
+   :.... PARTY: Syntax              ....:
+   :....................................:
+   :.... CODE: Drift                ....:
+   :.... MUSIC: Drift               ....:
+   :.... GRAPHICS: Drift            ....:
+   :....................................:
+
+Tested on Win7 64bit and Win10.
+Shaders theoretically conform to openGL standard.
+Developed on nvidia but tested and seems to work
+okay on ATI/AMD cards?
+
+Requires OpenGL 3.3 or higher.
+Recommended running fullscreen with Vsync on.
+Resolution around 720p seems best for older or lower
+spec cards. Newer and more powerful cards should
+handle higher resolutions 1080p+ easily.
+
+Greetings to:
+Defame,   Digital Access,   Desire,   Nerve Artgroup
+Disaster Area, Mercury, TRSI, Epoch, Razor 1911, TBC
+Fairlight,  Loonies,  Inque,  Elude,  Excess, Cocoon
+Rift,  Smash Designs, Conspiracy,  Farbrausch, Still
+ASD, Brainstorm, Fit, Alcatraz, RGBA, Youth Uprising
+
+This was made with the help from the following 
+software, tools, people, ideas, inspiration...
+
+Raymarching is based on the technique described in
+the "Enhanced Sphere Tracing" paper from the awesome
+guys at Mercury demo group. FXAA is used thanks to 
+Timothy Lottes/Nvidia. Tone-mapping as described by 
+John Hable in his GDC presentation on HDR lighting.
+SSAO based on the old, cheap, depth only method as
+used in Crysis 1.
+
+Thanks to Unc/Quite for his explanation of SDF
+techniques used in the insane Cdak 4k intro.
+
+Thanks to Cupe/Mercury for his seminars on SDF's.
+
+Thanks to IQ/RGBA for all the information on his
+website, and for making ShaderToy. Thanks to all the 
+amazing people who contribute on ShaderToy.
+
+BRDF (GGX/Trowbridge-Reitz/Schlick) based on Epic
+Games Siggraph presentation.
+
+Disney's BRDF explorer was used.
+
+Shaders crunched with Shader Minifier by
+LLB/Ctrl-Alt-Test
+
+Music was made using 4klang by Gopher and pOWL from
+Alcatraz.
+
+Compression is done with the Kkrunchy packer by
+Ryg/Farbrausch.
+
+Part of the resolution selector code was shared by
+by Gargaj/Conspiracy.
+
+This may be boring or redundant information to some
+folks but I feel that it is important to give credit
+and share information. I could never make demos 
+without everything that has been shared by talented 
+people. Thanks to all the awesome people who make 
+amazing demos which inspire me to try and make my own.
+
+Please contact me to talk about demos or collaborate:
+jeffsymons101@gmail.com
+
+or for anything related to ONSLAUGHT, please contact:
+jazzcat6581@yahoo.com.au (C64, PC, Amiga)
+
+<< --------------------------------------- >>
+
+PC section memberstatus:
+
+Anthrium - (Music)
+Algorithm - (Code)
+CONS - (Music) 
+DJB - (Music)
+Drift - (Code, Music)
+Jazzcat - (Org)
+Neurosis - (Design)
+N3XU5 - (Design)
+SoNiC - (Music)
+Squeakyneb - (Code)
+
+<< --------------------------------------- >>
+    Celebrating 20 years - 1995 - 2015
+<< --------------------------------------- >>

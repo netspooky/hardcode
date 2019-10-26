@@ -1,0 +1,48 @@
+
+
+        Lost the original infofile and file_id.diz.
+
+
+
+        This version contains few minor (or not so) bugs.
+                There will be some computers which refuse to work with this.
+                This may hang in the start to divide by zero error,
+                or in the end for unknown error.
+                Anyway that never happend to me.
+
+
+        Sound Blaster only audio.
+        Hires/lores videomodes (320x240, 640x480).
+
+        parameters :
+                        -l try to use 320x240 videomode.
+                                pseudo fast mode.
+
+                        -8 force eight bit (grayscale) videomode.
+                                pretty fast mode.                                
+
+                for example : petrifie -l8
+                                starts intro in 320x240 greyscale.
+
+        Lores is more than four times faster.
+        So use it if you dont have atleast Pentium III.
+
+
+        pyy                        
+        virne
+        loke
+        mr.garvin
+        damaq
+                + jope, kurkku
+
+
+        digisnap rxm play by digisnap
+        pmodew by thomas of pythel
+
+        
+
+        virne@sci.fi
+                       
+
+
+

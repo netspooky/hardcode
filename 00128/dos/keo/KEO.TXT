@@ -1,0 +1,16 @@
+
+Keo.com: gumps submit to the 128 bytes #Asm compo.
+
+I think this looks rather nice even though it is only
+128 bytes. Of course I don't know what the other compos
+are like.. yet.. But, I think this was nicer than my 256
+bytes compo :)
+I made keo.com on a pretty short time, but then it was
+210 bytes, heh. So more than half the job was to shrink
+it down to 128 bytes. Hard for me, but I managed :)
+The palette changer is very dirty & non good, but of course
+it works.
+
+mail: ifar@iname.com
+homepage: don't remember the url.. uuh
+-gump

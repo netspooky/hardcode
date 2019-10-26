@@ -1,0 +1,59 @@
+-----------------------------------------------------------------------------
+           €ﬂ\  €ﬂ›     €ﬂ› €ﬂ\ €\\     Digital Entropy BBStro v1.1
+           € ﬁ  ﬁ-      €   € € €ﬁﬁ  -              by
+           €‹€  €‹€  ‹  €‹€ €‹€ € ﬁ          The Unlord/Xylem
+-----------------------------------------------------------------------------
+
+-Why?
+        This little program (1996 bytes!) was made by specific request of
+Loki/Xylem the awesome SysOp of Digital Entropy BBS.  Late last January when
+he had first hatched the idea of setting up a demo oriented board he asked
+me if I'd be interested in writing the much needed loader for the BBS. I told
+him that (of coz) I'd be glad to make such a program for him and did a
+minimal amount of work on it.  Them my hard drive took a turn for the worse
+and I ended up hacking an older version of it that I'd given him.  Needless
+to say, that was just the beginning of my problems.  Loki, getting impatient,
+put the board up w/o a loader.  I did a little work on it every once in a
+while when he pestered me but I had a job and a girlfriend so I found lots of
+ways to spend my time that wasn't doing the loader.  However, come August, I
+stopped work and my girlfriend moved so the loader got finished.
+
+-What?
+        A lot of time went into this loader mainly because I wouldn't settle
+for having it anything but 1996 bytes (thanks PSI).  It includes some of the
+following:
+
+        * a random number generator
+        * 464 byte "DE" grafic (optomized to the max)
+        * a fixed point math fade in (all the colors get there at once)
+        * 1023 stars in the 2-d starfield
+        * 1920 dots per frame!
+        * 371 bytes of encrypted text
+
+The loader is primarly optomized for size although I tried to make it as fast
+as I could.  No postcompilers or compression utilities were used to get it
+this small.  Just one 20k asm file compiled under tasm 3.1 and tlink 5.1.  I
+had not planned on releasing the source but if anyone has any questions about
+it I would be glad to answer them.  I can be reached at regge@erols.com or
+better yet just call the board and post on the coding message sub.  Oh yeah,
+I'd almost forgotten, there are two hidden parts in the loader.  Just to make
+it easy I'll tell ya all about them here:
+
+        * debug mode- if you type "de/d" or "de d" the loader will run with
+                      a vertical retrace cpu tester so you can see how much
+                      of the processor these routines use.
+        * extra info- if you use the dos command "type" on the file instead
+                      of it spitting out garbage it will actually tell you
+                      some useful version info.
+
+That's about it.  Loki has already informed me that my mission isn't over by
+a long shot.  He wants me to make him a second loader that has some music in
+it from our awesome musician Zoner, so keep a look out for xlm_de2.zip.
+
+-Who?
+        Xylem is a Northern Virginia demo group.  For more info check the
+xylem11.nfo that came with this archive!
+
+                                                       Signed,
+                                                       The Unlord/Xylem
+

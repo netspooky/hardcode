@@ -1,0 +1,31 @@
+"Konami/Raze"
+By PlayPsyCo
+Released at The Gathering 2008
+
+the without whoom department:
+  datsua ^ code
+kaktusen ^ music
+stgenius ^ modelling
+
+the hardware checklist:
+[y] CPU
+[y] FPU
+[y] GPU
+[y] MMU
+[y] SPU
+
+-[info]--------------------------------------------------------------
+
+Hastily coded under the strong influence of "the deadline drug".
+
+-[hardware]----------------------------------------------------------
+* Tested on GeForce 7900
+
+-[bugs]--------------------------------------------------------------
+* does not run under MS VISTA as far as we know!
+* only grayscale rendering on ATI (that's party coding for you?!?!11one1eleven)
+* one of the shaders relink(or something like that) during a transition on NVIDIA and freeze the display for ca 200 ms
+* the shadow mapping technique does not always give the best texel usage
+
+-[special greetings]-------------------------------------------------
+* Color intoxication for the eXelent v2 and kkrunchy

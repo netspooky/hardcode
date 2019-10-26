@@ -1,0 +1,3213 @@
+{$A+,B-,D-,E-,F+,G+,I-,L-,N-,O-,P-,Q-,R-,S-,T-,V+,X+,Y-}
+{$M 16384,0,655360}
+USES DataFile,WavMid,MainDefs;
+
+{$L BHelp.OBJ}
+PROCeDURe DoubleHelp(Sou,Temp:Pointer);EXTERNAL;
+PROCEDURE PutSprHelp; EXTERNAL;
+PROCEDURE PutBSprHelp; EXTERNAL;
+PROCEDURE Scrp2Screen; EXTERNAL;
+PROCEDURE NewParticle(_X,_Y,_XSp,_YSp,_Live:LongInt;R,G,B:Word);EXTERNAL;
+PROCEDURE TurnSprHelp(SprIn,DatOut:Pointer;_Sin,_Cos:LongInt);EXTERNAL;
+FUNCTION GetVek(XX1,YY1,XX2,YY2:LongInt):LongInt;EXTERNAL;
+PROCEDURE DrawBackHelp; EXTERNAL;
+FUNCTION GetFix(L:LongInt):LongInt;EXTERNAL;
+FUNCTION ToFix(L:LongInt):LongInt;EXTERNAL;
+PROCEDURE FillBack(Dest:tScreenFull;Col:Word);EXTERNAL;
+
+PROCEDURE Fill(VAR What:TscreenFull);
+BEGIN
+{  FillChar(What,64000,0);}
+  FillBack(What,0);
+END;
+
+function JoyPos(axisnum : byte) : word;
+var count : word;
+begin
+  asm
+    mov word ptr count, 0
+    mov dx, JOYSTICKPORT   { Write dummy byte to joystick port }
+
+@joystickloop2:
+    inc count              { Add one to count }
+    cmp count, $FFFF       { Check for time out }
+    je @done
+    in al, dx              { Get joystick port value }
+    and al, axisnum        { Test the appropriate bit }
+    jne @joystickloop2
+
+    mov word ptr count, 0
+
+    out dx, al
+@joystickloop:
+    inc count              { Add one to count }
+    cmp count, $FFFF       { Check for time out }
+    je @done
+    in al, dx              { Get joystick port value }
+    and al, axisnum        { Test the appropriate bit }
+    jne @joystickloop
+    @done:
+  end;
+  JoyPos := count;
+end;
+
+function JoyButt(buttonnum : byte) : boolean;
+begin
+  JoyButt := (Port[JOYSTICKPORT] and buttonnum) = 0;
+end;
+
+FUNCTION Random_(N:Integer):Integer;
+BEGIN
+  Random_:=Random(N);
+END;
+
+PROCEDURE Random2(N:Integer);
+BEGIN
+  Rand:=Random(N);
+END;
+
+FUNCTION FConR(S:Real):LongInt;
+BEGIN
+  IF Abs(S)<FixGrenz THEN FConR:=Round(S*FixGen)
+                     ELSE FConR:=2147483000;
+END;
+
+{FUNCTION ToFix(L:LongInt):LongInt;
+BEGIN
+  ToFix:=L*FixGen;
+END;}
+
+{FUNCTION GetFix(L:LongInt):LongInt;
+BEGIN
+  GetFix:=L DIV FixGen;
+END;}
+
+FUNCTION ToStr(I:LongInt):STRING;
+VAR St:STRING;
+BEGIN
+  Str(I,St);
+  ToStr:=St;
+END;
+
+{FUNCTION FixMul(W1,W2:LongInt):LongInt;
+BEGIN
+  FixMul:=W1*W2 DIV FixGen;
+END;}
+
+PROCEDURE Setpalette(VAR Pal:Pal_Array);  {Eine bergebene Palette setzen}
+ASSEMBLER;
+ASM
+  les di,Pal
+  mov cx,768
+  mov dx,$3c8
+  xor al,al
+  out dx,al
+  inc dx
+@SetLoop:
+  mov al,es:[di]
+  inc di
+  out dx,al
+  loop @SetLoop
+END;
+
+procedure init(index:Word);assembler;
+asm
+mov ax,index
+int 10h;
+end;
+
+
+PROCEDURE NullCut(VAR P:LongInt);
+BEGIN
+  IF P<0 THEN P:=0;
+END;
+PROCEDURE MinCutW(VAR P:Integer;G:Integer);
+BEGIN
+  IF P<G THEN P:=G;
+END;
+PROCEDURE MaxCutW(VAR P:Integer;G:Integer);
+BEGIN
+  IF P>G THEN P:=G;
+END;
+PROCEDURE MinCut(VAR P:LongInt;G:LongInt);
+BEGIN
+  IF P<G THEN P:=G;
+END;
+PROCEDURE MaxCut(VAR P:LongInt;G:LongInt);
+BEGIN
+  IF P>G THEN P:=G;
+END;
+PROCEDURE RangeIt(VAR P:LongInt;Min,Max:LongInt);
+BEGIN
+  MinCut(P,Min);
+  MaxCut(P,Max);
+END;
+PROCEDURE RangeItW(VAR P:Integer;Min,Max:Integer);
+BEGIN
+  MinCutW(P,Min);
+  MaxCutW(P,Max);
+END;
+
+FUNCTION DirFak(Dir:Word):Integer;
+BEGIN
+  IF Dir=2 THEN DirFak:=-1 ELSE DirFak:=1;
+END;
+
+PROCEDURE IncR(VAR R1:Real;R2:Real);
+BEGIN
+  R1:=R1+R2;
+END;
+
+PROCEDURE _Scrp2Screen;
+BEGIN
+  CSource:=Scrp;
+  CDest:=Screen;
+ASM
+{  mov dx,3dah
+@wait1:
+  in al,dx
+  test al,08h
+  jnz @wait1
+@wait2:
+  in al,dx
+  test al,08h
+  jz @wait2}
+
+  call Scrp2Screen;
+END;
+END;
+
+PROCEDURE ReNewPlayer;
+VAR K,M:Word;
+BEGIN
+WITH Pl[1] DO BEGIN
+    Gl[0].XX:=PlStX;
+    Gl[0].YY:=PlStY;
+    FOR K:=1 TO Sprs DO
+      FOR M:=1 TO 2 DO
+        Spr[K,M]:=PlSpr[1][K,M];
+    Power:=StPlayerPower;
+    FOR K:=1 TO Weapons DO HasWeap[K]:=0;
+    Weapon:=0;
+    Energy:=StandardEnergy;
+    Dead:=False;
+    Ak:=1;
+    AkCnt:=0;
+    Dir:=1;
+    Reload:=200;
+    Wink:=0;
+    WW:=0;
+    WS:=0;
+{    Pl[I].Streck:=1;}
+    FOR K:=0 TO 6 DO WITH Gl[K] DO BEGIN
+      XX:=Gl[0].XX;
+      YY:=Gl[0].YY;
+      NoBlockFlag:=False;
+      XS:=0;
+      YS:=0;
+    END;
+  END;
+END;
+
+FUNCTION GetCorrSpr(N:Word):Word;
+ASSEMBLER;
+ASM
+  mov ax,1
+  mov dx,N
+  cmp dx,1
+  jne @NextTry
+    mov ax,2
+    jmp @SetIt
+@NextTry:
+  cmp dx,4
+  jnl @NextTry2
+    mov ax,4
+    jmp @SetIt
+@NextTry2:
+  cmp dx,6
+  jnl @SetIt
+  mov ax,3
+@SetIt:
+END;
+
+PROCEDURE SetWeapOrNext(We:Word);
+BEGIN
+  WHILE (We<>0)AND((We>Weapons)OR(Pl[1].HasWeap[We]=0)) DO BEGIN
+    Inc(We);
+    IF We>Weapons THEN We:=0;
+  END;
+  Pl[1].Weapon:=We;
+END;
+
+PROCEDURE DoBurnStuff;
+VAR S,D:Word;
+BEGIN
+IF BPos=0 THEN BPos:=BurnParts ELSE Dec(BPos);
+IF BPos=0 THEN BEGIN
+  S:=0;
+  D:=0;
+  FillChar(BSpr[0].Dat^,400,0);
+END ELSE BEGIN
+  S:=BPos-1;
+  D:=BPos;
+  Move(BSpr[S].Dat^,BSpr[D].Dat^,400);
+END;
+ASM
+  mov ax,D
+  mov bx,_tSpriteSize
+  mul bx
+  mov si,Offset BSpr
+  add si,ax
+
+  les di,[si+12]
+
+  mov ax,S
+  cmp ax,BurnStop
+  jnl @NoRandom
+    mov cx,50
+    @RanLoop:
+      mov ax,10
+      pusha
+      push ax
+      call random2
+      popa
+      mov ax,Rand
+      add ax,8
+      mov bx,20
+      mul bx
+      mov bx,ax
+      mov ax,12
+      pusha
+      push ax
+      call random2
+      popa
+      mov ax,rand
+      add ax,4
+      add bx,ax
+      mov ax,64
+      pusha
+      push ax
+      call random2
+      popa
+      mov ax,rand
+      mov es:[di+bx],al
+    loop @RanLoop
+  @NoRandom:
+
+
+  mov bx,20+1
+  mov cx,18
+  @YLoop:
+    push bx
+    push cx
+    mov cx,18
+    @XLoop:
+      xor dx,dx
+      xor ax,ax
+      mov dl,es:[di+bx]
+      mov ax,dx
+      mov dl,es:[di+bx+19]
+      add ax,dx
+      mov dl,es:[di+bx+20]
+      add ax,dx
+      mov dl,es:[di+bx+21]
+      add ax,dx
+      shr ax,2
+      or ax,ax
+      jz @NoSub
+      dec ax
+@NoSub:
+      mov es:[di+bx],al
+      inc bx
+    loop @XLoop
+    pop cx
+    pop bx
+    add bx,20
+  loop @YLoop
+
+END;
+END;
+
+PROCEDURE CreateSprite(VAR Burn:tSprite;_X,_Y:Integer);
+BEGIN
+  WITH Burn DO BEGIN
+    XSize:=_X;
+    YSize:=_Y;
+    XMid:=XSize DIV 2;
+    YMid:=YSize DIV 2;
+    GetMem(Dat,XSize*YSize);
+    FillChar(Dat^,XSize*YSize,0);
+  END;
+END;
+
+PROCEDURE CreateObj(X,Y,_XS,_YS:LongInt;_Typ:Word;P1,P2,P3,P4,P5:LongInt);
+BEGIN
+  IF Objekte<MaxObjekte THEN BEGIN
+    Inc(Objekte);
+    WITH Objekt[Objekte]^ DO BEGIN
+      XX:=X;
+      YY:=Y;
+      XS:=_XS;
+      YS:=_YS;
+      Par[1]:=P1;
+      Par[2]:=P2;
+      Par[3]:=P3;
+      Par[4]:=P4;
+      Par[5]:=P5;
+      Typ:=_Typ;
+      Spr:=@ObjSpr[Typ];
+    END;
+  END;
+END;
+
+PROCEDURE DelObj(N:Integer);
+BEGIN
+  IF(N<1)OR(N>Objekte)THEN Exit;
+  IF Objekte>1 THEN BEGIN
+    Objekt[N]^:=Objekt[Objekte]^;
+    Dec(Objekte);
+  END ELSE BEGIN
+    Objekte:=0;
+  END;
+END;
+
+PROCEDURE SubEn(PlNr:Word;Amount:LongInt);FAR;
+VAR I,K,M,L,W:LongInt;
+BEGIN
+  WITH Pl[PlNr] DO WITH Gl[0] DO IF Energy>0 THEN BEGIN
+    Dec(Energy,Amount);
+    NullCut(Energy);
+    IF(PlNr=1)AND(Energy=0)AND(PlDead=-1)THEN BEGIN
+        playmidi(@MidDead,1);{}
+        PlDead:=PlDeadCnt;
+        DBool:=False;
+        Dec(Leben);
+    END;
+  END;
+END;
+
+FUNCTION Blocked(PlNr,X1,X2,Y1,Y2:Integer;CheckObjects,IsObject:Boolean):Boolean;
+VAR O,W,CX1,CX2,CY1,CY2,RX1,RX2,RY1,RY2,I,K,M,N,X,Y,XL,YL,Sp,P,G,Mu:Integer;
+    Spr_:^tSprite;
+BEGIN
+  X1:=X1+BlockKulanz;
+  X2:=X2-BlockKulanz;
+  Y1:=Y1+BlockKulanz;
+  Y2:=Y2-BlockKulanz;
+{  RangeIt(X1,0,Lev.LXS*20-1);
+  RangeIt(X2,0,Lev.LXS*20-1);
+  RangeIt(Y1,0,Lev.LYS*20-1);
+  RangeIt(Y2,0,Lev.LYS*20-1);}
+  IF X1<0 THEN X1:=0; IF X1>Lev.LXS*20-1 THEN X1:=Lev.LXS*20-1;
+  IF X2<0 THEN X2:=0; IF X2>Lev.LXS*20-1 THEN X2:=Lev.LXS*20-1;
+  IF Y1<0 THEN Y1:=0; IF Y1>Lev.LYS*20-1 THEN Y1:=Lev.LYS*20-1;
+  IF Y2<0 THEN Y2:=0; IF Y2>Lev.LYS*20-1 THEN Y2:=Lev.LYS*20-1;
+  Blocked:=True;
+  RX1:=X1 DIV 20;
+  RX2:=X2 DIV 20;
+  RY1:=Y1 DIV 20;
+  RY2:=Y2 DIV 20;
+
+  FOR K:=RY1 TO RY2 DO BEGIN
+    YL:=K*Lev.LXS;
+    FOR I:=RX1 TO RX2 DO BEGIN
+      SP:=Lev.LevD^[YL+I];
+      IF NOT (SP IN [0..3,7..9,22..27]) THEN BEGIN
+        CX1:=X1-I*20;IF CX1<0 THEN CX1:=0;{NullCut(CX1);}
+        CX2:=X2-I*20;IF CX2>19 THEN CX2:=19;{MaxCut(CX2,19);}
+        CY1:=Y1-K*20;IF CY1<0 THEN CY1:=0;{NullCut(CY1);}
+        CY2:=Y2-K*20;IF CY2>19 THEN CY2:=19;{MaxCut(CY2,19);}
+        W:=CY1*20;
+        FOR N:=CY1 TO CY2 DO BEGIN
+          FOR M:=CX1 TO CX2 DO BEGIN
+            IF(LSpr[SP].Dat^[W+M]<>0)THEN BEGIN
+              IF(SP=30)AND(IsObject=False)THEN SubEn(PlNr,Pl[PlNr].Energy);
+              Exit;
+            END;
+          END;
+          Inc(W,20);
+        END;{}
+      END;
+    END;
+  END;
+  IF CheckObjects THEN BEGIN
+    FOR O:=1 TO Objekte DO IF(IsObject=False)OR(O<>PlNr) THEN
+     WITH Objekt[O]^ DO IF(NOT(Typ IN [{2,}4..7,14,16,20,26..33]))THEN BEGIN
+      IF(GetFix(XX)+Spr^.XMid-1>=X1)AND(GetFix(XX)-Spr^.XMid<=X2)AND
+        (GetFix(YY)+Spr^.YMid-1>=Y1)AND(GetFix(YY)-Spr^.YMid<=Y2)
+      THEN BEGIN
+        RX1:=-GetFix(XX)-Spr^.XMid-X1;IF RX1<0 THEN RX1:=0;
+        RX2:=Spr^.XSize-1-(GetFix(XX)+Spr^.XMid-X2);IF RX2<0 THEN RX2:=0;
+        RY1:=-GetFix(YY)-Spr^.YMid-Y1;IF RY1<0 THEN RY1:=0;
+        RY2:=Spr^.YSize-1-(GetFix(YY)+Spr^.YMid-Y2);IF RY2<0 THEN RY2:=0;
+
+        FOR K:=RY1 TO RY2 DO BEGIN
+          W:=K*Spr^.XSize;
+          FOR I:=RX1 TO RX2 DO BEGIN
+            IF Spr^.Dat^[W+I]<>0 THEN BEGIN
+              IF((IsObject=False)OR(NOT(Objekt[PlNr]^.Typ IN [14]))) THEN BEGIN
+                IF(Typ IN [9,10]) THEN Par[5]:=10;
+                IF(Typ IN [15]) THEN Par[5]:=10;
+              END;
+              IF Typ IN [15] THEN BEGIN
+                IF IsObject THEN Par[3]:=0
+                            ELSE Par[3]:=1;
+                Par[4]:=PlNr;
+              END;
+              {Box aufpunchen}
+              IF(Typ IN [11])AND((IsObject=False)AND(PlNr=1))AND(Pl[1].Ak=2)THEN Par[5]:=1;
+              {Sachen einsammeln}
+              IF(Typ IN [12,13,18,21,22])THEN BEGIN
+                IF((IsObject=False)AND(PlNr=1)AND(Pl[1].Dead=False))THEN Par[5]:=1;
+              END
+              ELSE Exit;
+            END;
+          END;
+        END;
+      END;
+    END;
+  END;
+  Blocked:=False;
+END;
+
+FUNCTION CanJump(PlN:Word):Boolean;
+BEGIN
+WITH Pl[PlN] DO WITH Gl[0] DO
+  CanJump:=Blocked(0,GetFix(XX)-Spr[1,1]^.XMid+1,GetFix(XX)+Spr[1,1]^.XMid-1,
+                 GetFix(YY),GetFix(YY+FConR(Streck*StandardStanH2)),True,False)
+END;
+
+PROCEDURE LoadSpFromMem(VAR Spr:tSprite);
+BEGIN
+  LoadMem(@Spr,4);
+  Spr.Dat:=AktMemPoi;
+  Spr.XMid:=Spr.XSize DIV 2;
+  Spr.YMid:=Spr.YSize DIV 2;
+  Inc(MemInd,Spr.XSize*Spr.YSize);
+END;
+
+PROCEDURE LoadLevel_NOW(Poi:Pointer);
+VAR
+    I,K,M,P:Integer;
+    A,B,BI,BC:Byte;
+    R:Real;
+
+{FUNCTION GetBit:Byte;
+BEGIN
+  Inc(BI);
+  IF Bi=8 THEN BEGIN
+    LoadMem(@BC,1);
+    BI:=0;
+  END;
+  GetBit:=(BC AND (1 SHL BI))SHR BI;
+END;
+
+PROCEDURE GetByte(VAR B:Byte);
+VAR I:Word;
+BEGIN
+  B:=0;
+  FOR I:=0 TO 5 DO
+    B:=B OR (GetBit SHL I);
+END;}
+
+BEGIN
+  InitMemLoad(Poi);
+  WITH Lev DO IF(LXS+LYS)<>0 THEN BEGIN
+    FreeMem(LevD,LXS*LYS);
+  END;
+  LoadMem(@Lev,SizeOf(Lev));
+  GetMem(Lev.LevD,Lev.LXS*Lev.LYS);
+{  BI:=7;}
+  P:=0;
+  WHILE P<Lev.LXS*Lev.LYS DO BEGIN
+    LoadMem(@A,1);
+    LoadMem(@B,1);
+{    GetByte(A);
+    GetByte(B);}
+{    A:=1;
+    GetByte(B);
+    IF(B SHR 4) AND 3=3 THEN BEGIN
+      A:=B AND (1+2+4+8);
+      GetByte(B);
+    END;}
+    FillChar(Lev.LevD^[P],A,B);
+    Inc(P,A);
+  END;
+  LoadMem(@M,4);
+  Objekte:=M;
+  FOR I:=1 TO Objekte DO BEGIN
+    WITH Objekt[I]^ DO BEGIN
+      FillChar(Objekt[I]^,SizeOf(tObjekt),0);
+      LoadMem(@B,1);
+      Typ:=B;
+      LoadMem(@R,SizeOf(Real));
+      XX:=FConR(R);
+      LoadMem(@R,SizeOf(Real));
+      YY:=FConR(R);
+      LoadMem(@B,1);
+      Par[1]:=B;
+    END;
+
+    Objekt[I]^.Spr:=@ObjSpr[Objekt[I]^.Typ];
+    WITH Objekt[I]^ DO
+    IF Typ IN [9,10,15] THEN BEGIN
+      Par[1]:=XX;
+      Par[2]:=YY;
+    END;
+    WITH Objekt[I]^ DO
+    IF Typ=16 THEN BEGIN
+      PlStX:=XX;
+      PlStY:=YY;
+    END;
+    WITH Objekt[I]^ DO
+    IF Typ IN [26..33] THEN BEGIN
+      Par[3]:=0;
+      Par[4]:=EnemyDefault[Typ-25,1];
+    END;
+  END;
+  Particles:=0;
+  Players:=1;
+END;
+
+PROCEDURE PartMix(VAR Col1:Byte;R,G,B:word;MixA:Integer);
+VAR MixAA:Integer;
+    Temp:Byte;
+BEGIN
+  Temp:=Col1;
+  MixAA:=31-MixA;
+  Col1:=RGBTab^[(CoolPal[0,Col1]*MixA+R*MixAA)SHR 5,
+                (CoolPal[1,Col1]*MixA+G*MixAA)SHR 5,
+                (CoolPal[2,Col1]*MixA+B*MixAA)SHR 5];
+END;
+
+PROCEDURE CalcBTab(Col:Word);
+BEGIN
+  FOR I:=0 TO 31 DO BEGIN
+    BTab[I]:=Col;
+    PartMix(BTab[I],31,31,31,31-I);
+  END;
+END;
+
+FUNCTION GetNearest(R,G,B:Integer):Byte;ASSEMBLER;
+ASM
+    mov di,768
+    mov cx,1
+    @ILoop:
+      mov ax,cx
+      mov bx,3
+      mul bx
+      mov bx,ax
+      xor dx,dx
+      push cx
+      xor cx,cx
+
+      mov ax,R
+      mov dl,byte ptr [Palette+bx]
+      sub ax,dx
+      jns @NoCorrR
+      neg ax
+      @NoCorrR:
+      add cx,ax
+
+      mov ax,G
+      mov dl,byte ptr [Palette+bx+1]
+      sub ax,dx
+      jns @NoCorrG
+      neg ax
+      @NoCorrG:
+      add cx,ax
+
+      mov ax,B
+      mov dl,byte ptr [Palette+bx+2]
+      sub ax,dx
+      jns @NoCorrB
+      neg ax
+      @NoCorrB:
+      add cx,ax
+
+      cmp cx,di
+      jnl @NoNew
+        mov di,cx
+        pop cx
+        mov si,cx
+        jmp @DoneNew
+      @NoNew:
+      pop cx
+      @DoneNew:
+
+      inc cx
+      cmp cx,255
+    jne @ILoop
+    mov ax,si
+END;
+
+PROCEDURE StartLevel(Le:Word);
+CONST Fak=25;
+VAR BCol:Word;
+    Level:Pointer;
+BEGIN
+  BCol:=125;
+  CASE Le OF
+    0:Level:=@IntroLev;
+    1:BEGIN Level:=@Level1; END;
+    2:BEGIN Level:=@Level2; END;
+    3:BEGIN Level:=@Level3;BCol:=20;END;
+{    4:Level:=@LevelS;}
+  END;
+  AktLevel:=Le;
+  CalcBTab(BCol);
+  Particles:=0;
+  LoadLevel_NOW(Level);
+  Players:=1;
+  Pl[1].Streck:=0.8;
+  ReNewPlayer;
+  IF Le=0 THEN playmidi(@MidIntro,0.4){}
+          ELSE playmidi(@MidIngame,0.4);{}
+END;
+
+PROCEDURE InitTemp(XS,YS:Integer);
+BEGIN
+  WITH TempSpr^ DO BEGIN
+    IF TempInit THEN FreeMem(Dat,XSize*YSize);
+    XSize:=XS;
+    YSize:=YS;
+    XMid:=XSize DIV 2;
+    YMid:=YSize DIV 2;
+    GetMem(Dat,XSize*YSize);
+    TempInit:=True;
+  END;
+END;
+
+PROCEDURE FreeSprite(VAR Spr:tSprite);
+BEGIN
+  WITH Spr DO BEGIN
+    FreeMem(Dat,XSize*YSize);
+  END;
+END;
+
+PROCEDURE CreateMotion(VAR Motion:tMotion;_Len,_Speed:LongInt);
+BEGIN
+  WITH Motion DO BEGIN
+    Len:=_Len;
+    Speed:=_Speed;
+    GetMem(Dat,Len*SizeOf(tMotionPart));
+  END;
+END;
+
+PROCEDURE DelMotion(VAR Motion:tMotion);
+BEGIN
+  WITH Motion DO BEGIN
+    FreeMem(Dat,Len*SizeOf(tMotionPart));
+  END;
+END;
+
+PROCEDURE SaveMotion(VAR Motion:tMotion;FName:STRING);
+VAR F:FILE;
+    I,K,M:Integer;
+BEGIN
+  Assign(F,FName);
+  ReWrite(F,1);
+  WITH Motion DO BEGIN
+    BlockWrite(F,Motion,8);
+    FOR I:=1 TO Len DO
+      BlockWrite(F,Motion.Dat^[I],SizeOf(tMotionPart));
+  END;
+  Close(F);
+END;
+
+PROCEDURE LoadMotion(VAR Motion:tMotion;FName:STRING);
+VAR F:FILE;
+    I,K,M:Integer;
+    L,S:LongInt;
+BEGIN
+  Assign(F,FName);
+  ReSet(F,1);
+  WITH Motion DO BEGIN
+    BlockRead(F,L,4);
+    BlockRead(F,S,4);
+    IF Dat<>NIL THEN DelMotion(Motion);
+    CreateMotion(Motion,L,S);
+    FOR I:=1 TO Len DO
+      BlockRead(F,Motion.Dat^[I],SizeOf(tMotionPart));
+  END;
+  Close(F);
+END;
+
+PROCEDURE P_CalcParticles;
+VAR I,K,M:Integer;
+BEGIN
+  M:=0;
+  WHILE M<Particles DO BEGIN
+    Inc(M);
+    Dec(Particle^[M].Live);
+    IF Particle^[M].Live<=0 THEN BEGIN
+      Particle^[M]:=Particle^[Particles];
+      Dec(Particles);
+      Dec(M);
+    END ELSE BEGIN
+      Particle^[M].XSp:=Particle^[M].XSp*PartAcc DIV 100;
+      Particle^[M].YSp:=Particle^[M].YSp*PartAcc DIV 100+PartFall;
+      Inc(Particle^[M].X,Particle^[M].XSp);
+      Inc(Particle^[M].Y,Particle^[M].YSp);
+    END;
+  END;
+END;
+
+PROCEDURE PDrawHelp;ASSEMBLER;
+ASM
+  pusha
+{Scrp}
+  push bx
+  push di
+{R,G,B}
+  push word ptr es:[si+20]
+  push word ptr es:[si+22]
+  push word ptr es:[si+24]
+{Proz}
+  push ax
+  call PartMix
+  popa
+  push word ptr [Particle+2]
+  pop es
+END;
+
+PROCEDURE P_DrawParticles;ASSEMBLER;
+ASM
+    les si,Particle
+    mov cx,Particles
+    @PartLoop:
+      cmp cx,0
+      je @End
+      dec cx
+      push cx
+      add si,_tPartSize
+
+      mov dx,es:[si+6]
+      mov ax,es:[si+4]
+      mov bx,SGen
+      idiv bx
+      sub ax,WinY
+      cmp ax,0
+      jle @OutOfRange
+      cmp ax,199
+      jnl @OutOfRange
+      mov bx,320
+      mul bx
+      mov di,ax
+
+      mov dx,es:[si+2]
+      mov ax,es:[si]
+      mov bx,SGen
+      idiv bx
+      sub ax,WinX
+      cmp ax,0
+      jle @OutOfRange
+      cmp ax,319
+      jnl @OutOfRange
+
+      add di,ax
+
+      add di,word ptr [Scrp]
+      mov bx,word ptr [Scrp+2]
+
+      mov ax,8
+      call PDrawHelp
+      dec di
+      mov ax,14
+      call PDrawHelp
+      add di,2
+      call PDrawHelp
+      sub di,321
+      call PDrawHelp
+      add di,640
+      call PDrawHelp
+
+      @OutOfRange:
+
+      pop cx
+    jmp @PartLoop
+@End:
+
+END;
+
+PROCEDURE DelPlayer(N:Integer);
+BEGIN
+  Pl[N]:=Pl[Players];
+  Dec(Players);
+END;
+
+FUNCTION CreatePlayer(_Typ:Integer;X,Y,E,FO:LongInt):Boolean;
+VAR I,K,M:LongInt;
+BEGIN
+  CreatePlayer:=False;
+  IF Players<MaxPlayers THEN BEGIN
+    CreatePlayer:=True;
+    Inc(Players);
+    WITH Pl[Players] DO BEGIN
+      Gl[0].XX:=X;
+      Gl[0].YY:=Y;
+      GL[0].XS:=0;
+      GL[0].YS:=0;
+      Weapon:=0;
+      FromObj:=FO;
+      Energy:=E;
+      StartEn:=EnemyDefault[_Typ,1];
+      Power:=EnemyDefault[_Typ,2];
+      Ak:=1;
+      WW:=0;
+      Wink:=0;
+      WS:=0;
+      Dead:=False;
+      AkCnt:=0;
+      Dir:=1;
+      Reload:=200;
+      Streck:=0.6;
+      IF _Typ=3 tHEN Streck:=0.5;
+      IF _Typ=4 THEN BEGIN
+        Streck:=1;
+        PlayMidi(@MidBoss,0.4);
+      END;
+      FOR K:=1 TO 6 DO WITH Gl[K] DO BEGIN
+        XX:=Gl[0].XX;
+        YY:=Gl[0].YY;
+        NoBlockFlag:=False;
+        XS:=0;
+        YS:=0;
+      END;
+      FOR K:=1 TO Sprs DO
+        FOR M:=1 TO 2 DO
+           Spr[K,M]:=PlSpr[_Typ+1][K,M];
+    END;
+  END;
+END;
+
+PROCEDURE CalcDeath(PlNr:Integer;PlBool:Boolean);
+VAR S,M,L,W:LongInt;
+    I,K:Integer;
+BEGIN
+  WITH Pl[PlNr] DO WITH Gl[0] DO IF Energy=0 THEN BEGIN
+    IF(PlNr<>1)OR(PlBool)THEN BEGIN
+      FOR I:=1 TO 6 DO WITH Pl[PlNr] DO BEGIN
+        L:=Round(Sqrt(Sqr(GetFix(Gl[I].XX-Gl[0].XX))+Sqr(GetFix(Gl[I].YY-Gl[0].YY))));
+        MinCut(L,1);
+        K:=70+Random(20);
+        CreateObj(Gl[I].XX,Gl[I].YY,
+                  Gl[0].XS+GetFix(Gl[I].XX-Gl[0].XX)*3*FixGen DIV L,
+                  Gl[0].YS+GetFix(Gl[I].YY-Gl[0].YY)*3*FixGen DIV L,20,
+                  K,I,K,0,0);
+        Objekt[Objekte]^.Spr:=@(Pl[PlNr].Spr[GetCorrSpr(I),Dir]^);
+      END;
+      M:=300;
+      FOR I:=1 TO M DO BEGIN
+        W:=(I-1)*360 DIV M;
+        L:=Random(50);
+        NewParticle(GetFix(XX*SGen),GetFix(YY*SGen),
+                   Round(Sin(W*0.0174)*L)*SGen DIV 10,
+                   Round(Cos(W*0.0174)*L)*SGen DIV 10
+                   ,Random(80),31,0,0);
+      END;
+      CreateObj(Gl[0].XX,Gl[0].YY,0,0,7,0,0,Gl[0].YY,0,0);
+      Dead:=True;
+      IF PlNr<>1 THEN BEGIN
+        IF (Objekt[Pl[PlNr].FromObj]^.Typ=4+25)
+          THEN IF(PlDead<>-1)
+            THEN Objekt[Pl[PlNr].FromObj]^.Par[3]:=0
+            ELSE BEGIN
+              WinCnt:=100;
+              FpSDiv:=40;
+              FOR S:=0 TO 2 DO
+                AddSFX(118,34+Random(5),127,10,1);
+            END;
+        DelPlayer(PlNr);
+      END;
+   END;
+  END;
+END;
+
+
+FUNCTION MyArcTan(X,Y:Integer):Integer;
+VAR ArcT:Integer;
+BEGIN
+  IF X<>0 THEN ArcT:=Round(ArcTan(Y/X)/0.0174) ELSE
+    IF Y<0 THEN ArcT:=270 ELSE ArcT:=90;
+  IF(X<0)AND(Y>0)THEN ArcT:=180+ArcT;
+  IF(X<0)AND(Y<=0)THEN ArcT:=ArcT+180;
+  IF(X>0)AND(Y<=0)THEN ArcT:=360+ArcT;
+  MyArcTan:=(ArcT) MOD 360;
+END;
+
+FUNCTION CalcArgs(VAR X,Y,W,WW:Integer;Spr:tSprite;Rel:Word):Boolean;
+VAR MixAA,I,K,M,YC,XC,XA:LongInt;
+BEGIN
+  CalcArgs:=False;
+  WITH Spr DO BEGIN
+    IF Rel=1 THEN BEGIN
+      X:=X-WinX-XMid;
+      Y:=Y-WinY-YMid;
+    END;
+    IF(X>319)OR(X+XSize<=0)OR(Y>199)OR(Y+YSize<=0) THEN Exit;
+
+    XA:=XSize;
+    IF Y<0 THEN BEGIN W:=0;     WW:=-Y*XSize; YC:=YSize+Y; END
+           ELSE BEGIN W:=Y*320; WW:=0;        YC:=YSize;   END;
+    IF X<0 THEN BEGIN Inc(WW,-X); XC:=XSize+X; END
+           ELSE BEGIN Inc(W,X);   XC:=XSize;   END;
+    IF X+XSize-1>=320 THEN Inc(XC,320-(X+XSize));
+    IF Y+YSize-1>=200 THEN Inc(YC,200-(Y+YSize));
+
+    CSource:=@(Dat^[WW]);
+    CDest:=@(Scrp^[W]);
+    WArg3:=XA;
+    IArg1:=XC;
+    IArg2:=YC;
+  END;
+  CalcArgs:=True;
+END;
+
+PROCEDURE PutSpr(X,Y:Integer;Spr:tSprite;Rel:Word;MixA:Integer);
+VAR MixAA,I,K,M,W,WW,YC,XC,XA:Integer;
+    B,BB:Byte;
+BEGIN
+  IF MixA=0 THEN Exit;
+  MixAA:=31-MixA;
+  WITH Spr DO BEGIN
+    IF NOT CalcArgs(X,Y,W,WW,Spr,Rel) THEN Exit;
+{    IF MNr<>-1 THEN CSource:=@(Muster[MNr]^[WW]);}
+
+    IF MixA=31 THEN BEGIN
+                 PutSprHelp;
+               END ELSE BEGIN
+                 FOR K:=0 TO IArg2-1 DO BEGIN
+                   FOR I:=0 TO IArg1-1 DO BEGIN
+                     B:=Dat^[WW+I];
+                     IF B<>0 THEN BEGIN
+                       BB:=Scrp^[W+I];
+                       ASM
+                         xor bh,bh
+                         xor si,si
+                         xor cx,cx
+
+@AddLoop:
+                         mov bl,B
+                         xor ah,ah
+                         mov al,byte ptr [CoolPal+bx]
+                         mov dx ,MixA
+                         imul dx
+                         mov si,ax
+
+                         mov bl,BB
+                         mov dx,MixAA
+                         xor ah,ah
+                         mov al,byte ptr [CoolPal+bx]
+                         imul dx
+                         add si,ax
+
+                         shr si,5
+                         shl cx,5
+                         add cx,si
+
+                         inc bh
+                         cmp bh,3
+                         jne @AddLoop
+
+                         les di,rgbtab
+                         add di,cx
+                         mov al,es:[di]
+
+                         les di,Scrp
+                         add di,W
+                         add di,I
+                         mov es:[di],al
+                       END;
+                     END;
+                   END;
+                   Inc(W,320);
+                   Inc(WW,WArg3);
+                 END;
+               END;
+
+  END;
+END;
+
+PROCEDURE PutBSpr(X,Y:Integer;Spr:tSprite);
+VAR W,WW:Integer;
+BEGIN
+  WITH Spr DO BEGIN
+    IF NOT CalcArgs(X,Y,W,WW,Spr,1) THEN Exit;
+    PutBSprHelp; {ASM}
+  END;
+END;
+
+PROCEDURE PutTSpr(X,Y:LongInt;Spr:tSprite;W:Integer;MixA:Integer);
+VAR K,M,N:LongInt;
+BEGIN
+  W:=W MOD 360;
+  Move(Spr,DaTemp,12); {Header}
+  TurnSprHelp(@(Spr),@(DaTemp.Dat^),Sinus[W],Sinus[W+90]);{}
+  PutSpr(X,Y,DaTemp,1,MixA);
+END;
+
+PROCEDURE Mirror;
+VAR I,K,M:Integer;
+BEGIN
+WITH TempSpr^ DO BEGIN
+  FOR I:=0 TO XSize-1 DO
+    FOR K:=0 TO YMid-1 DO BEGIN
+      M:=Dat^[K*XSize+I];
+      Dat^[K*XSize+I]:=Dat^[(YSize-1-K)*XSize+I];
+      Dat^[(YSize-1-K)*XSize+I]:=M;
+    END;
+END;
+{Exit;
+  ASM
+    les di,TempSpr
+
+    xor cx,cx
+    mov bl,es:[di]{XSize}
+{    mov bh,es:[di+4] {YSize}
+{    mov si,es:[di+12] {YMid}
+{    dec si
+
+    les di,es:[di+16] {Dat}
+{    @YLoop:
+      mov cl,bl
+      @XLoop:
+        pusha
+
+        xor ah,ah
+        mov al,bh
+        sub ax,si
+        dec ax
+
+        mov dl,bl
+        imul dl
+
+        xor dh,dh
+        mov dl,cl
+        add ax,dx
+
+        mov dx,ax  {1 Pixel}
+
+{        mov ax,si
+        mov si,dx
+
+        mov dl,bl
+        imul dl
+
+        xor dh,dh
+        mov dl,cl
+        dec dl
+        add ax,dx
+
+        mov bx,ax
+
+        add si,di
+
+        mov al,es:[si]
+        mov ah,es:[di+bx]
+        mov es:[si],ah
+        mov es:[di+bx],al
+
+        popa
+      loop @XLoop
+      dec si
+      cmp si,0
+    jnl @YLoop
+  END;}
+END;
+
+PROCEDURE Mirror2;
+VAR I,K,M:Integer;
+BEGIN
+WITH TempSpr^ DO BEGIN
+  FOR I:=0 TO XMid-1 DO
+    FOR K:=0 TO YSize-1 DO BEGIN
+      M:=Dat^[K*XSize+I];
+      Dat^[K*XSize+I]:=Dat^[K*XSize+XSize-1-I];
+      Dat^[K*XSize+XSize-1-I]:=M;
+    END;
+END;
+END;
+
+PROCEDURE MyTimer;INTERRUPT;
+VAR I:LongInt;
+BEGIN
+  Port[$20]:=$20;
+  IF InTimer THEN Exit;
+  InTimer:=True;
+  IF(MusOn)AND(MusicOn)THEN BEGIN
+    MusTick:=MusTick+1;
+    IF MusTick>=KritWert THEN BEGIN
+      MusTick:=MusTick-KritWert;
+        MidMyInt08;
+    END;
+  END;
+  Inc(OrigTick);
+  ASM pushf;call oldInt8; END;
+  Intimer:=FalsE;
+END;
+
+PROCEDURE CopySpr(VAR Spr1,Spr2:tSprite);
+BEGIN
+  Move(Spr1,Spr2,12);
+  Spr2.Dat:=Spr1.Dat;
+END;
+
+PROCEDURE MakeMirror(VAR Spr1,Spr2:tSprite;MirrTyp:Boolean);
+BEGIN
+  InitTemp(Spr1.XSize,Spr1.YSize);
+  Move(Spr1.Dat^,TempSpr^.Dat^,Spr1.XSize*Spr1.YSize);
+  IF MirrTyp THEN Mirror ELSE Mirror2;
+  GetMem(Spr2.Dat,Spr1.XSize*Spr1.YSize);
+  Move(Spr1,Spr2,12);
+  Move(TempSpr^.Dat^,Spr2.Dat^,Spr1.XSize*Spr1.YSize);
+END;
+
+PROCEDURE Load2Sprite(ST:STRING;VAR Sprite:tSprite);
+TYPE tVersion=ARRAY[1..4]OF Char;
+CONST AktVersion:tVersion='IMG2';
+TYPE tHeader=RECORD
+              Version:tVersion;
+              XSize,YSize:LongInt;
+            END;
+VAR I,K,M:LongInt;
+    Header:tHeader;
+    F:FILE;
+BEGIN
+  Assign(F,ST);
+  ReSet(F,1);
+  BlockRead(F,Header,SizeOf(THeader));
+  WITH Sprite DO BEGIN
+    XSize:=Header.XSize;
+    YSize:=Header.YSize;
+    XMid:=XSize DIV 2;
+    YMid:=YSize DIV 2;
+    GetMem(Dat,XSize*YSize);
+    BlockRead(F,Dat^,XSize*YSize);
+  END;
+  Close(F);
+END;
+
+PROCEDURE RotSpriteTo(VAR Sou,Des:tSprite);
+VAR I,K,M:LongInt;
+BEGIN
+  GetMem(Des.Dat,Sou.XSize*Sou.YSize);
+  Move(Sou,Des,12);
+  FOR K:=0 TO 19 DO
+    FOR I:=0 TO 19 DO
+      Des.Dat^[I*20+19-K]:=Sou.Dat^[K*20+I];
+END;
+
+PROCEDURE MirrorSpr(VAR Sou,Des:tSprite);
+VAR I,K,M:LongInt;
+BEGIN
+  GetMem(Des.Dat,Sou.XSize*Sou.YSize);
+  Move(Sou,Des,12);
+WITH Sou DO
+  FOR I:=0 TO XSize-1 DO
+    FOR K:=0 TO YSize-1 DO BEGIN
+      Des.Dat^[K*20+I]:=Sou.Dat^[K*20+19-I];
+    END;
+END;
+
+PROCEDURE Obj2Weap(Ob,We:LongInt);
+BEGIN
+  CopySpr(ObjSpr[Ob],WeapSpr[We,1]); MakeMirror(WeapSpr[We,1],WeapSpr[We,2],True);
+END;
+
+PROCEDURE SetXY(XY:Word;Deep:Word);ASSEMBLER;
+ASM
+    les di,Scrp
+    mov bx,XY
+    cmp deep,0
+    je  @Ende
+    cmp byte ptr es:[bx],0
+    jne @Ende
+
+    dec deep
+    inc byte ptr es:[bx]
+    mov dh,-1
+    @YLoop:
+      mov dl,-1
+      @XLoop:
+        pusha
+        add bl,dl
+        add bh,dh
+        push bx
+        push 3
+        call random_
+        pop bx
+        or al,al
+        jnz @DontCall
+          push bx
+          push deep
+          call SetXY
+        @DontCall:
+        popa
+        inc dl
+        cmp dl,2
+      jne @XLoop
+
+      inc dh
+      cmp dh,2
+    jne @YLoop
+
+    inc deep
+@Ende:
+END;
+
+PROCEDURE CreateBackGround;ASSEMBLER;
+ASM
+  les di,BackLayer
+  xor ax,ax
+  stosb
+  mov cx,65535
+  rep stosb
+
+  mov cx,61
+  @MLoop:
+    push cx
+    les di,Scrp
+    xor ax,ax
+    stosb
+    mov cx,65535
+    rep stosb
+
+    mov cx,16
+    @KLoop:
+      push cx
+        push 256
+        call random_
+        push ax
+        push 256
+        call random_
+        pop bx
+        mov bh,al
+        push bx
+        push 50
+        call random_
+        pop bx
+        xor ah,ah
+
+        push bx
+        push ax
+        call SetXY
+
+
+      pop cx
+    loop @KLoop
+
+    xor cx,cx
+    push ds
+    les di,BackLayer
+    lds si,Scrp
+    @ConvLoop:
+      cmp byte ptr es:[di],31
+      jnl @Enough
+        mov al,ds:[si]
+        add es:[di],al
+      @Enough:
+      inc di
+      inc si
+
+      inc cx
+      or cx,cx
+    jnz @ConvLoop
+
+    pop ds
+
+    pop cx
+  loop @MLoop
+END;
+
+PROCEDURE SmoothSprite(VAR Sprite:tSprite);
+VAR Temp:^tSprDat;
+    R,G,B,A,I,K,M,X,Y,C:Integer;
+
+PROCEDURE AddRGB(X,Y:Integer);
+VAR By:Word;
+BEGIN
+  WITH Sprite DO
+    IF(X>=0)AND(X<XSize)AND(Y>=0)AND(Y<YSize) THEN
+     IF Temp^[Y*XSize+X]<>0 THEN BEGIN
+      Inc(A);
+      By:=Temp^[Y*XSize+X];
+      Inc(R,Palette[By,0]);
+      Inc(G,Palette[By,1]);
+      Inc(B,Palette[By,2]);
+    END;
+END;
+
+BEGIN
+  WITH Sprite DO BEGIN
+    GetMem(Temp,XSize*YSize);
+    Move(Dat^,Temp^,XSize*YSize);
+    FOR K:=0 TO YSize-1 DO
+      FOR I:=0 TO XSize-1 DO
+        BEGIN
+          R:=0;G:=0;B:=0;A:=0;
+          FOR Y:=-1 TO 1 DO
+            FOR X:=-1 TO 1 DO BEGIN
+              IF(X=0)AND(Y=0)THEN M:=6 ELSE M:=1;
+              FOR C:=1 TO M DO AddRGB(I+X,K+Y);
+            END;
+          IF A<>0 THEN
+            Dat^[K*XSize+I]:=GetNearest(R DIV A,G DIV A,B DIV A)
+              ELSE
+            Dat^[K*XSize+I]:=0;{}
+        END;
+    FreeMem(Temp,XSize*YSize);
+  END;
+END;
+
+PROCEDURE DoubleSprite(Sprite:Pointer);
+VAR Temp:^tSprDat;
+BEGIN
+  GetMem(Temp,tSprite(Sprite^).XSize*tSprite(Sprite^).YSize*4);
+  DoubleHelp(Sprite,Temp);
+END;
+
+PROCEDURE Initialize;
+VAR C,O,I,K,M,N:Integer;
+    B:Byte;
+    F:FILE;
+    Conv:ARRAY[0..255]OF Byte;
+    Imp1,Imp2:Real;
+    Ch:Char;
+    Pref:STRING;
+BEGIN
+  Randomize;
+  New(Scrp);
+  New(RGBTab);
+  New(BackLayer);
+  New(DaTemp.Dat);
+  New(TempSpr);
+  New(Particle);
+  New(CMix);
+  Lev.LXS:=0;
+  Lev.LYS:=0;
+  Screen:=PTR($A000,0);
+  Move(@PaletteDAT^,Palette,768);
+  FOR I:=1 TO Sprs DO
+   FOR M:=1 TO 2 DO
+      FOR N:=1 TO MaxPlSpr DO
+        New(PlSpr[N][I,M]);
+  FOR I:=0 TO BurnParts DO
+    CreateSprite(BSpr[I],20,20);
+  FOR I:=1 TO MaxObjekte DO
+    New(Objekt[I]);
+
+  InitMemLoad(@PlDat);
+  FOR M:=1 TO MaxPlSpr DO BEGIN
+    FOR I:=1 TO 4 DO BEGIN
+      LoadSpFromMem(PlSpr[M][I,1]^);
+      IF M=5 THEN BEGIN
+        DoubleSprite(PlSpr[M][I,1]);
+        SmoothSprite(PlSpr[M][I,1]^);
+      END;
+      MakeMirror(PlSpr[M][I,1]^,PlSpr[M][I,2]^,I=4);
+    END;
+  END;
+
+
+  InitMemLoad(@ObjDat);
+  FOR I:=1 TO ObjSprs DO BEGIN
+    IF I IN [1,3..6,8,16,17,19,20,22..24,26..30]
+      THEN MakeMirror(PlSpr[1][1,1]^,ObjSpr[I],True)
+      ELSE BEGIN
+    LoadSpFromMem(ObjSpr[I]);
+    END;
+  END;
+
+{  MakeMirror(ObjSpr[4],ObjSpr[5],False);}
+
+  {Bazzooka}
+{  CopySpr(ObjSpr[12],WeapSpr[1,1]); MakeMirror(WeapSpr[1,1],WeapSpr[1,2],True);}
+  Obj2Weap(12,1);
+  {MiniGun}
+{  CopySpr(ObjSpr[13],WeapSpr[2,1]); MakeMirror(WeapSpr[2,1],WeapSpr[2,2],True);}
+  Obj2Weap(13,2);
+  {BallBlaster}
+{  CopySpr(ObjSpr[21],WeapSpr[3,1]); MakeMirror(WeapSpr[3,1],WeapSpr[3,2],True);}
+  Obj2Weap(21,3);
+
+{  K:=0;}
+  InitMemLoad(@BackGroundDat);
+  FOR I:=1 TO LevSprs DO BEGIN
+    IF I IN [11,15,19,36] THEN BEGIN
+      FOR M:=I TO I+2 DO
+        RotSpriteTo(LSpr[M-1],LSpr[M]);
+      Inc(I,2);
+    END ELSE
+   IF I IN [2,5,26,32..33] THEN BEGIN
+      MirrorSpr(LSpr[I-1],LSpr[I]);
+    END ELSE IF I IN [1..38] THEN BEGIN
+      LoadSpFromMem(LSpr[I]);
+    END;
+  END;
+
+  FOR I:=25 TO 27 DO CopySpr(LSpr[I],LSpr[I+14]);
+{  MirrorSpr(LSpr[32],LSpr[33]);}
+
+{  LoadPalette(Palette);}
+
+{  FOR I:=0 TO 255 DO
+    FOR K:=0 TO 2 DO CoolPal[K,I]:=Palette[I,K] SHr 1;}
+  ASM
+    xor cx,cx
+    @CopyLoop:
+      mov ax,cx
+      mov bx,3
+      mul bx
+      mov di,ax
+
+      mov dx,3
+      xor bx,bx
+      mov bl,cl
+      @DreiLoop:
+        mov al,byte ptr [Palette+di]
+        shr al,1
+        mov byte ptr [CoolPal+bx],al
+        inc bh
+        inc di
+        dec dx
+      jnz @DreiLoop
+
+      inc cx
+      cmp cx,256
+    jl @CopyLoop
+  END;
+  LoadFont;
+  ASM
+    les di,RGBTab
+    xor bx,bx
+    xor cx,cx
+    xor dx,dx
+    @copyloop:
+      push es
+      pusha
+      shl bx,1
+      push bx
+      shl cx,1
+      push cx
+      shl dx,1
+      push dx
+      call getnearest
+      mov [b],al
+      popa
+      pop es
+      mov al,[b]
+      stosb
+      inc dx
+      cmp dx,32
+      jl @CopyLoop
+      xor dx,dx
+      inc cx
+      cmp cx,32
+      jl @CopyLoop
+      xor cx,cx
+      inc bx
+      cmp bx,32
+      jne @CopyLoop;
+
+
+
+
+    mov si,0
+    xor bx,bx
+    xor cx,cx
+    xor dx,dx
+    @BColLoop:
+      pusha
+      push bx
+      push cx
+      push dx
+      call GetNearest
+      mov [b],al
+      popa
+      mov al,[b]
+      mov byte ptr [BCol+si],al
+      add bx,4
+      cmp bx,63
+      jl  @BColEnd
+      mov bx,63
+      add cx,4
+      cmp cx,63
+      jl @BColEnd
+      mov cx,63
+      add dx,4
+      cmp dx,63
+      jl @BColEnd
+      mov dx,63
+    @BColEnd:
+      inc si
+      cmp si,64
+    jne @BColLoop;
+  END;
+  FOR I:=0 TO 63 DO BEGIN
+    Imp1:=Sin(I/63*90*0.0174);
+    Imp2:=1-Imp1;
+    FOR K:=0 TO 255 DO BEGIN
+      CMix^[I,K]:=GetNearest(
+                           Round(Imp1*Palette[BCol[I],0]+Imp2*Palette[K,0]),
+                           Round(Imp1*Palette[BCol[I],1]+Imp2*Palette[K,1]),
+                           Round(Imp1*Palette[BCol[I],2]+Imp2*Palette[K,2]));
+    END;
+  END;
+  FillChar(ObjSpr[6].Dat^,20*20,0);
+  CreateBackGround;
+END;
+
+PROCEDURE CalcPlayer(PlNr:LongInt;HBorder:LongInt);
+VAR Sp,TX,TY,GH,XN,YN,AX,AY,NW,I,K,M,XV,YV,AN:LongInt;
+    IgnoreBlock:Boolean;
+    NA,OA,A,B:Real;
+
+FUNCTION TestBlock(TX,TY:LongInt):Boolean;
+BEGIN
+Tx:=GetFix(Tx);
+Ty:=GetFix(TY);
+WITH Pl[PlNr] DO
+  TestBlock:=Blocked(PlNr,TX-Spr[1,1]^.XMid,TX+Spr[1,1]^.XMid,TY-Spr[1,1]^.YMid,TY+Spr[1,1]^.YMid,
+                                    True,False);
+END;
+
+BEGIN
+  WITH Pl[PlNr] DO BEGIN
+    IF Ak<>0 THEN AN:=Ak-1 ELSE AN:=0;
+    IF Ak=1 THEN WS:=WS*TurnBre*TurnBre+(WW-180)/40
+            ELSE BEGIN
+              NW:=AMotion[AN].Dat^[AMotion[AN].Len-AkCnt DIV AMotion[AN].Speed].Rot;
+              WS:=WS*TurnBre*TurnBre+(((Trunc(WW)-NW+360)MOD 360)-180)/30;
+            END;
+    IncR(WW,WS);
+    WHILE WW<0 DO IncR(WW,360);
+    WHILE WW>359 DO IncR(WW,-360);
+    Wink:=Round(WW);
+    FOR I:=0 TO 6 DO WITH GL[I] DO BEGIN
+      IF Intro>1550 THEN BEGIN
+        Inc(XS,(LongInt(Random(3))-1)*MaxRan);
+        Inc(YS,(LongInt(Random(3))-1)*MaxRan);
+      END;
+      IF I<>0 THEN BEGIN
+
+        IF (Ak<>1)THEN BEGIN
+          AX:=Trunc(Streck*AMotion[AN].Dat^[AMotion[AN].Len-AkCnt DIV AMotion[AN].Speed].Gl[I,1]);
+          AY:=Trunc(Streck*AMotion[AN].Dat^[AMotion[AN].Len-AkCnt DIV AMotion[AN].Speed].Gl[I,2]);
+        END ELSE BEGIN
+          IF(Abs(Gl[6].XS)>WalkGrenz) THEN BEGIN
+            AX:=Trunc(Streck*AMotion[5].Dat^[(Tick DIV WSpeed)MOD AMotion[5].Len+1].Gl[I,1]);
+            AY:=Trunc(Streck*AMotion[5].Dat^[(Tick DIV WSpeed)MOD AMotion[5].Len+1].Gl[I,2]);
+          END ELSE BEGIN
+            AX:=Trunc(Streck*Ver[I,1]);
+            AY:=Trunc(Streck*Ver[I,2]);
+          END;
+        END;
+        XN:=(AX*Sinus[Wink+90]-AY*Sinus[Wink]) DIV Gen;
+        YN:=(AY*Sinus[Wink+90]+AX*Sinus[Wink]) DIV Gen;
+
+
+        XS:=XS*MaxBre DIV FixGen+(Gl[0].XX+DirFak(Dir)*ToFix(XN)-XX) DIV 30;
+        YS:=YS*MaxBre DIV FixGen+(Gl[0].YY+ToFix(YN)-YY) DIV 30;{30}
+
+      END ELSE BEGIN
+        XS:=XS*MaxBre DIV FixGen;
+        IF HBorder<>_NoSpecialH_ THEN BEGIN
+          IF YY<HBorder THEN YS:=YS*MaxBre DIV FixGen+FallSpeed
+                        ELSE YS:=YS*MaxBre DIV FixGen-FallSpeed;
+        END ELSE BEGIN
+          SP:=GetCorrSpr(I);
+          IF Blocked(PlNr,GetFix(XX)-Spr[SP,1]^.XMid+1,GetFix(XX)+Spr[SP,1]^.XMid-1,
+                     GetFix(YY),GetFix(YY+FConR(Streck*StandardStanH)),True,False)
+            THEN YS:=YS*MaxBre DIV FixGen-FallSpeed
+            ELSE YS:=YS*MaxBre DIV FixGen+FallSpeed;
+        END;
+      END;
+      RangeIt(XS,-MaxSp,MaxSp);
+      RangeIt(YS,-MaxUpSp,MaxDownSp);
+
+      OA:=Sqr(((Gl[0].XX-XX)DIV FixGen)/Streck)+Sqr(((Gl[0].YY-YY)DIV FixGen)/Streck);
+
+      IF(NoBlockFlag)OR(NOT TestBlock(XX+XS,YY+YS))
+        THEN BEGIN
+          Inc(XX,XS);
+          Inc(YY,YS);
+        END ELSE IF OA>MaxGLoss THEN BEGIN
+          NoBlockFlag:=True;
+          Inc(XX,XS);
+          Inc(YY,YS);
+        END ELSE BEGIN
+          IF(NOT NoBlockFlag)AND
+            TestBlock(XX,YY+YS)
+            THEN BEGIN
+              IF(NOT TestBlock(XX+SlideA,YY+YS)) THEN Inc(XS,SlideA) ELSE
+              IF(NOT TestBlock(XX-SlideA,YY+YS)) THEN Dec(XS,SlideA) ELSE
+                YS:=-MaxRef*YS DIV FixGen
+            END ELSE Inc(YY,YS);
+          IF(NOT NoBlockFlag)AND
+            TestBlock(XX+XS,YY)
+            THEN XS:=-MaxRef*XS DIV FixGen
+            ELSE Inc(XX,XS);
+      END;
+      IF (NoBlockFlag)AND(NOT TestBlock(XX,YY))
+        THEN NoBlockFlag:=False;
+      WITH Spr[GetCorrSpr(I),Dir]^ DO BEGIN
+        RangeIt(XX,FConR(XMid),FConR(Lev.LXS*20-XMid-1));
+        RangeIt(YY,FConR(YMid),FConR(Lev.LYS*20-YMid-1));
+      END;
+    END;
+  END;
+END;
+
+FUNCTION ClosestPlayer(_X,_Y:LongInt):LongInt;
+VAR K,B:LongInt;
+    A,I:Real;
+BEGIN
+  A:=MaxLongInt;
+  B:=1;
+  FOR K:=2 TO Players DO BEGIN
+    I:=GetVek(Pl[K].Gl[0].XX,Pl[K].Gl[0].YY,_X,_Y);
+    IF I<A THEN BEGIN
+      A:=I;
+      B:=K;
+    END;
+  END;
+  ClosestPlayer:=B;
+END;
+
+PROCEDURE CalcObjekte(CX,CY:LongInt);
+VAR W,N,NX,NY,L:LOngInt;
+    I,K,M,O:Integer;
+    DelO:Boolean;
+    TX,TY:LongInt;
+
+FUNCTION TestBlock(TX,TY:LongInt):Boolean;
+BEGIN
+TX:=GetFix(TX);
+TY:=GetFix(TY);
+WITH Objekt[O]^ DO
+  TestBlock:=Blocked(O,TX-Spr^.XMid,TX+Spr^.XMid,TY-Spr^.YMid,TY+Spr^.YMid,True,True);
+END;
+
+BEGIN
+  FOR O:=1 TO Objekte DO WITH Objekt[O]^ DO BEGIN
+
+   IF Typ IN [6] THEN BEGIN
+     XS:=XS*MaxKHBre DIV FixGen;
+     YS:=YS*MaxKBre DIV FixGen;
+     Inc(XX,XS);
+     Inc(YY,YS);
+   END;
+   IF Typ IN [{2,}14,20,25] THEN BEGIN
+    IF NOT (Typ IN [14,25]) THEN BEGIN
+      XS:=XS*MaxKHBre DIV FixGen;
+      YS:=YS*MaxKBre DIV FixGen+KFallSpeed;
+    END;
+
+    RangeIt(XS,-MaxSp,MaxSp);
+    RangeIt(YS,-MaxUpSp,MaxDownSp);
+
+    IF(NOT TestBlock(XX+XS,YY+YS))
+      THEN BEGIN
+        Inc(XX,XS);
+        Inc(YY,YS);                  {Ball}
+      END ELSE IF(Typ IN [14,25]){OR((Typ=2)AND(Par[5]<>0))}THEN Par[1]:=0
+       ELSe BEGIN
+        IF(TestBlock(XX+XS,YY))
+          THEN BEGIN
+            IF Abs(XS)>SFXPoch THEN AddSFX(115,44,64,1,10);
+            XS:=-ObjRef*XS DIV FixGen;
+          END ELSE Inc(XX,XS);
+        IF(TestBlock(XX,YY+YS))
+          THEN BEGIN
+            IF Abs(YS)>SFXPoch THEN AddSFX(115,44,64,1,10);
+            YS:=-ObjRef*YS DIV FixGen;
+          END ELSE Inc(YY,YS);
+    END;
+    MaxCut(YY,FConR(Lev.LYS*20-Spr^.YMid-1));
+   END;
+  END;
+  O:=1;
+  WHILE (O<=Objekte)AND(O>0)DO WITH Objekt[O]^ DO BEGIN
+    DelO:=False;
+    IF Typ=25 THEN BEGIN
+      M:=ClosestPlayer(XX,YY);
+      IF M<>1 THEN BEGIN
+        IF Pl[M].Gl[0].XX<XX THEN Dec(XS,RocketAcc) ELSE Inc(XS,RocketAcc);
+        IF Pl[M].Gl[0].YY-7*FixGen<YY THEN Dec(YS,RocketAcc) ELSE Inc(YS,RocketAcc);
+      END;
+    END;
+    CASE Typ OF
+      2,6,14,25:BEGIN
+          IF Par[1]<>_Unlimited THEN BEGIN
+            IF Par[1]>0 THEN Dec(Par[1])
+                        ELSE BEGIN
+                               M:=0;
+                               IF Typ IN [25] THEN BEGIN
+                                 M:=100;
+                                 FOR I:=1 TO M DO BEGIN
+                                   W:=Random(360);
+                                   L:=10+Random(20);
+                                   K:=Random(20)+40;
+                                   CreateObj(XX,YY,
+                                     Round(Sin(W*0.0174)*(L)*FixGen/10),Round(Cos(W*0.0174)*(L)*FixGen/10),6,
+                                      K,K,1,1,0);
+                                 END;
+                               END;
+                               IF Typ=14 THEN M:=3;
+                               FOR I:=1 TO M DO
+                                 NewParticle(Trunc(GetFix(XX)*SGen),Trunc(GetFix(YY)*SGen),
+                                 (Trunc(GetFix(XS)*20)+LongInt(Random(100))-50)*SGen DIV 30,
+                                 (Trunc(GetFix(YS)*20)+LongInt(Random(100))-80)*SGen DIV 30
+                                 ,Random(30),31,25,0);
+                               DelO:=True;
+                             END;
+          END;
+        END;
+      4:IF(Abs(XX-CX)<HReactRange)AND(Abs(YY-CY)<VReactRange)THEN BEGIN
+          W:=(Par[1]*10+Random(30)+360-15)MOD 360;
+          M:=30+Random(20);
+          N:=Random(5);
+          L:=(Random(FixGen*2));
+          Inc(Par[2]);
+          CreateObj(XX+N*Sinus[W] DIV Gen*FixGen,YY+N*Sinus[W+90] DIV Gen*FixGen,
+                    L*Sinus[W] DIV Gen,L*Sinus[W+90] DIV Gen,
+                    6,M,M,1,0,0);
+        END;
+      7:BEGIN
+          Inc(YY,-FixGen);
+          IF GetFix(YY)<-20 THEN DelO:=True;
+        END;
+      9,10:BEGIN
+          CASE Typ OF
+            9:M:=-10;
+            10:M:=-3;
+          END;
+
+          IF Par[5]<>0 THEN BEGIN
+            IF(GetFix(Par[2]-YY)>M)THEN Inc(YY,FixGen);
+            Dec(Par[5]);
+          END ELSE BEGIN
+            IF(YY>Par[2]) THEN Inc(YY,-FixGen);
+          END;
+        END;
+      11:BEGIN {Box}
+           IF Par[5]<>0 THEN BEGIN
+                               FOR I:=1 TO 100 DO
+                                 NewParticle(Trunc(GetFix(XX)*SGen),Trunc(GetFix(YY)*SGen),
+                                 (Trunc(GetFix(XS)*30)+LongInt(Random(100))-50)*SGen DIV 15,
+                                 (Trunc(GetFix(YS)*30)+LongInt(Random(100))-80)*SGen DIV 15
+                                 ,Random(30),31,31,31);
+             AddSFX(10,74,96,100,100);
+             IF Par[1]=3 THEN N:=21 ELSE N:=Par[1]+11;
+             CreateObj(XX,YY,0,0,N,
+                       0,0,0,20,0);
+             DelO:=True;
+           END;
+         END;
+      12,13:IF Par[4]=0 THEN IF Par[5]<>0 THEN BEGIN
+           Inc(Pl[1].HasWeap[Typ-11],SammelAnz[Typ-11]);
+           SetWeapOrNext(Typ-11);
+           DelO:=True;
+         END ELSE ELSE Dec(Par[4]);
+      15:BEGIN
+          IF Par[5]<>0 THEN BEGIN
+            IF(Par[2]-YY>-10*FixGen)THEN Inc(YY,FixGen)
+            ELSE IF Par[5]=10 THEN BEGIN
+              CASE Par[3] OF
+                0:Inc(Objekt[Par[4]]^.YS,-100*SGen*FixGen);
+                1:Inc(Pl[Par[4]].Gl[0].YS,-100*SGen*FixGen);
+              END;
+              Par[5]:=1;
+            END;
+            Dec(Par[5]);
+          END ELSE BEGIN
+            IF(YY>Par[2]) THEN
+              Inc(YY,-FixGen);
+          END;
+        END;
+      18:IF Par[5]<>0 THEN BEGIN {MediKit}
+           Inc(Pl[1].Energy,MediEnergy);
+           IF Pl[1].Energy>StandardEnergy THEN Pl[1].Energy:=StandardEnergy;
+           DelO:=True;
+         END;
+      20:BEGIN
+          IF Par[1]<>_Unlimited THEN BEGIN
+            IF Par[1]>0 THEN Dec(Par[1])
+                        ELSE BEGIN
+                               DelObj(O);
+                               Dec(O);
+                             END;
+          END;
+        END;
+      21:IF Par[4]=0 THEN IF Par[5]<>0 THEN BEGIN
+           Inc(Pl[1].HasWeap[3],SammelAnz[3]);
+           SetWeapOrNext(3);
+           DelO:=True;
+         END ELSE ELSE Dec(Par[4]);
+      22:IF Par[5]<>0 THEN BEGIN
+           NextLevel:=Par[1];
+           DelO:=True;
+         END;
+    END;
+
+    IF DelO THEN DelObj(O) ELSE Inc(O);
+  END;
+END;
+
+FUNCTION InRange(XX1,YY1,XX2,YY2,Range:LongInt):Boolean;
+BEGIN
+  InRange:= GetVek(XX1,YY1,XX2,YY2)<Range;
+END;
+
+FUNCTION KloppIt2(VAR XX1,YY1,XX2,YY2,XS1,YS1,XS2,YS2:LongInt;Range:LongInt):Boolean;
+VAR I,K:LongInt;
+    Wink2,Wink,Gamma,Gamma2:Integer;
+    L,LL:LongInt;
+BEGIN
+  KloppIt2:=False;
+  IF InRange(XX1,YY1,XX2,YY2,Range) THEN BEGIN
+    KloppIt2:=True;
+
+            Wink:=360-MyArcTan(XX1-XX2,YY1-YY2);
+            Wink2:=360-MyArcTan(XX2-XX1,YY2-YY1);
+
+            Gamma:=(MyArcTan(YS1,XS1)-2*Wink+270+360*2) MOD 360;
+            Gamma2:=(MyArcTan(YS2,XS2)-2*Wink2+270+360*2) MOD 360;
+
+            L:=Round(Sqrt(XS1*XS1+YS1*YS1));
+            LL:=Round(Sqrt(XS2*XS2+YS2*YS2));
+
+            XS1:=(-Sinus[Gamma+90]*L+Sinus[Wink+90]*LL) DIV Gen;
+            YS1:=(-Sinus[Gamma]*L-Sinus[Wink]*LL) DIV Gen;
+
+            XS2:=(-Sinus[Gamma2+90]*LL+Sinus[Wink2+90]*L) DIV Gen;
+            YS2:=(-Sinus[Gamma2]*LL-Sinus[Wink2]*L) DIV Gen;
+  END;
+END;
+
+
+PROCEDURE KloppPlayers; {NO SPEEDBUG !}
+VAR X,Y,E,G,I,K,M,P,A,B,C,D:LongInt;
+    PS,PE,Sp1,Sp2:LongInt;
+BEGIN
+  IF Pl[1].Dead THEN Exit;
+   M:=1;
+   FOR E:=0 TO 6 DO BEGIN
+    X:=Trunc(Pl[M].Gl[E].XX);
+    Y:=Trunc(Pl[M].Gl[E].YY);
+    FOR P:=2 TO Players DO IF(P<>M)THEN BEGIN
+      FOR G:=0 TO 6 DO WITH Pl[P].Gl[G] DO
+        IF KloppIT2(Pl[M].Gl[E].XX,Pl[M].Gl[E].YY,XX,YY,Pl[M].Gl[E].XS,Pl[M].Gl[E].YS,XS,YS,Range)
+        THEN BEGIN
+          AddSFX(118,54+Random(5),127,10,1);
+{          Sp1:=Sqr(GetFix(Pl[M].Gl[E].XS))+Sqr(GetFix(Pl[M].Gl[E].YS));
+          Sp2:=Sqr(GetFix(XS))+Sqr(GetFix(YS));}
+          Sp1:=GetVek(Pl[M].Gl[E].XS,Pl[M].Gl[E].YS,0,0);
+          Sp2:=GetVek(XS,YS,0,0);
+
+          IF SP1>SP2 THEN BEGIN
+            A:=M;B:=E;C:=P;D:=Sp1 DIV 6;
+          END ELSE BEGIN
+            A:=P;B:=E;C:=M;D:=Sp2 DIV 6;
+          END;
+          IF Pl[C].Ak<>1 THEN BEGIN
+            SubEn(A,Pl[C].Power);
+            FOR I:=1 TO D DO
+              NewParticle(GetFix(Pl[A].Gl[B].XX)*SGen,GetFix(Pl[A].Gl[B].YY)*SGen,
+                          GetFix(Pl[A].Gl[B].XS)*SGen+Random(200)-100,
+                          GetFix(Pl[A].Gl[B].YS)*SGen+Random(200)-100
+                          ,30+Random(40),31,0,0);
+          END;
+        END;
+    END;
+   END;
+{  END;}
+END;
+
+PROCEDURE KloppObjekte; {Yes SpeedBug}
+VAR R,M:LongInt;
+    I,O,K:Word;
+BEGIN
+  O:=1;
+  WHILE O<=Objekte DO WITH Objekt[O]^ DO
+   BEGIN
+    FOR I:=1 TO Players DO IF(Abs(XX-Pl[I].Gl[0].XX)<XDont)AND(Abs(YY-Pl[I].Gl[0].YY)<YDont) THEN
+                             {Nur wenn in Reichweite}
+      FOR K:=0 TO 6 DO
+        IF ((NOT (Typ IN [14,25]))OR(I<>Par[4]))AND
+          (Typ IN [{2,}6,14,25])
+{Player Kloppen}
+          AND InRange(XX,YY,Pl[I].Gl[K].XX,Pl[I].Gl[K].YY,Sqr(Spr^.XMid)+Sqr(Pl[I].Spr[GetCorrSpr(K),1]^.XMid))
+          THEN BEGIN
+            IF (NOT (Typ IN [6]))THEN
+              KloppIt2(XX,YY,Pl[I].Gl[K].XX,Pl[I].Gl[K].YY,
+                      XS,YS,Pl[I].Gl[K].XS,Pl[I].Gl[K].YS,Sqr(Spr^.XMid)+Sqr(Pl[I].Spr[GetCorrSpr(K),1]^.XMid));
+            IF Par[4]<>I THEN BEGIN
+              ASM
+                mov ax,O;
+                mov bx,4;
+                mul bx
+                mov bx,ax
+                les di,ds:[offset Objekt+bx]
+
+                mov al,es:[di+16]  {Typ Laden}
+
+                cmp al,2
+                jne @No2
+                  cmp word ptr es:[di+33],0  {Par[5]<>0?}
+                  je @No2
+                  mov bx,3
+                  jmp @CallSubEn
+              @No2:
+                cmp al,6
+                jne @No6
+                mov bx,1
+                jmp @CallSubEn
+              @No6:
+                cmp al,25
+                jne @No25
+                mov bx,3
+                jmp @CallSubEn
+              @No25:
+                cmp al,14
+                jne @FEnd
+                mov bx,2
+              @CallSubEn:
+                mov ax,4
+                mul bx
+                add ax,2
+                mov bx,ax
+
+                mov ax,I
+                push ax
+                xor ax,ax
+                push ax
+                mov ax,word ptr [WeaponDefault+bx]
+                push ax
+                call SubEn
+
+              @FEnd:
+              END;
+
+              WITH Pl[I].Gl[K] DO
+                            NewParticle(GetFix(XX)*SGen,GetFix(YY)*SGen,
+                            GetFix((XS)*SGen DIV 3),GetFix((YS)*SGen DIV 3)
+                            ,30+Random(40),31,0,0);
+
+
+
+              IF Typ IN [14,25] THEN BEGIN
+                Par[1]:=1;
+              END;
+            END;
+        END;
+{    IF NOT (Typ IN [16,26..33]) THEN
+    FOR I:=O+1 TO Objekte DO IF (Objekt[I]^.Typ IN [2]) THEN BEGIN
+      KloppIt2(XX,YY,Objekt[I]^.XX,Objekt[I]^.YY,
+               XS,YS,Objekt[I]^.XS,Objekt[I]^.YS,Sqr(Spr^.XMid)+Sqr(Objekt[I]^.Spr^.XMid)+100);
+    END;} {Ball}
+    Inc(O);
+  END;
+END;
+
+FUNCTION GlRot(X1,Y1,X2,Y2,Gl_:LongInt):LongInt;
+BEGIN
+    GlRot:=MyArcTan(X1-X2,Y2-Y1);
+END;
+
+PROCEDURE DrawPlayer(VAR Pl:tPlayer);
+VAR I,K,M,S,V:LongInt;
+    X,Y:Real;
+
+FUNCTION GetS(Gl_:LongInt):LongInt;
+BEGIN
+  GetS:=GLOff[GL_]+MyArcTan(GetFix(Pl.Gl[GL_].XX)-GetFix(Pl.Gl[0].XX),GetFix(Pl.Gl[0].YY)-GetFix(Pl.Gl[GL_].YY));
+END;
+
+PROCEDURE DrawIt(KT:LongInt);
+BEGIN
+  S:=GetS(KT);
+WITH Pl DO
+  PutTSpr(GetFix(Gl[KT].XX),GetFix(GL[KT].YY),Spr[GetCorrSpr(KT),Dir]^,S,31);{}
+END;
+
+BEGIN
+WITH Pl DO BEGIN
+  S:=GetS(3);
+IF NOT (Weapon IN [0])
+  THEN PutTSpr(GetFix(Gl[3].XX),GetFix(GL[3].YY),WeapSpr[Weapon,Dir],S,31)
+  ELSE DrawIt(3);
+  DrawIt(5);
+  PutTSpr(GetFix(Gl[6].XX),GetFix(GL[6].YY),Spr[1,Dir]^,(360-DirFak(Dir)*Wink+90+GLOff[6]),31);
+  DrawIt(1);
+  DrawIt(2);
+  DrawIt(4);
+END;
+END;
+
+PROCEDURE DrawObjekte;
+VAR X,Y,I,K,M,S:LongInt;
+BEGIN
+  FOR I:=1 TO Objekte DO WITH Objekt[I]^ DO WITH Objekt[I]^.Spr^ DO BEGIN
+    X:=GetFix(XX);
+    Y:=GetFix(YY);
+    CASE Typ OF
+      6:PutBSpr(X,Y,BSpr[BurnIm*(Par[2]-Par[1]) DIV Par[2]+BurnStart]);
+      7:BEGIN
+          M:=31-(GetFix(Par[3])-Y) DIV 3;
+          NullCut(M);
+          PutSpr(X,Y,Spr^,1,M);
+        END;
+      20:BEGIN
+           S:=GLOff[Par[2]]+MyArcTan(GetFix(YS),GetFix(XS));
+           PutTSpr(X,Y,Spr^,S,Trunc(Sin((Par[1]*90 DIV Par[3])*0.0174)*31));
+         END;
+      14,25:BEGIN
+           S:=MyArcTan(GetFix(YS),GetFix(XS));
+           PutTSpr(X,Y,Spr^,S,31);
+         END;
+    ELSE
+      IF(NOT (Typ IN [4,5,16,22,26..33])){OR(ShowInfo)}
+        THEN PutSpr(X,Y,Spr^,1,31);
+    END;
+  END;
+END;
+
+PROCEDURE CheckDaDirs;
+VAR K,B,M:LongInt;
+    A,I:Real;
+BEGIN
+  IF Players=1 THEN BEGIN
+    Pl[1].NoDirC:=False;
+    Exit;
+  END;
+  FOR M:=1 TO Players DO BEGIN
+    B:=1;
+    IF M=1 THEN B:=ClosestPlayer(Pl[1].Gl[0].XX,Pl[1].Gl[0].YY);
+    IF InRange(Pl[B].Gl[0].XX,Pl[B].Gl[0].YY,Pl[M].Gl[0].XX,Pl[M].Gl[0].YY,ChangeDirAb) THEN BEGIN
+      IF Pl[B].Gl[0].XX>Pl[M].Gl[0].XX THEN Pl[M].Dir:=1 ELSE Pl[M].Dir:=2;
+      Pl[M].NoDirC:=True;
+    END;
+  END;
+END;
+
+PROCEDURE ControlPlayer(L,R,H,U:Boolean;PNr:Integer);
+BEGIN
+WITH Pl[PNr] DO BEGIN
+  IF L THEN BEGIN
+    IF NOT NoDirC THEN Dir:=2;
+    Inc(Gl[0].XS,-MaxAcc);
+  END;
+  IF R THEN BEGIN
+    IF NOT NoDirC THEN Dir:=1;
+    Inc(Gl[0].XS,MaxAcc);
+  END;
+  IF H THEN BEGIN
+    IF PNr=1 THEN BEGIN
+      IF CanJump(PNr) THEN BEGIN
+        JumpA:=1;
+        AddSFX(120,54,127,30,10);
+      END;
+      IF(JumpA>0)AND(JumpA<PlJumpMax) THEN BEGIN
+        Gl[0].YS:={Gl[0].YS}-PlJumpSpeed;
+        Inc(JumpA);
+      END;
+    END ELSE Gl[0].YS:=-JumpSpeed;
+{    IF JumpA=0 THEN BEGIN
+      IF CanJump(PNr) THEN BEGIN
+        IF PNr=1 THEN AddSFX(120,54,127,30,10);
+        Gl[0].YS:=-JumpSpeed;
+      END;
+    END ELSE}
+  END ELSE JumpA:=0;
+  IF(U)THEN IF CanJump(PNr) THEN BEGIN
+    Inc(Gl[0].YS,MaxAcc*2);
+  END;
+END;
+END;
+
+PROCEDURE CompPlayer(Pla:LongInt);
+VAR I,K,M,C:LongInt;
+    KL,KR,KD,KU,KK,KP:Boolean;
+BEGIN
+  C:=1;
+  KL:=False;KR:=False;KU:=False;KD:=False;KK:=False;KP:=False;
+  IF(Abs(GetFix(Pl[Pla].Gl[0].XX-Pl[C].Gl[0].XX))>C_Abstand*Pl[Pla].Streck*Pl[C].Streck)
+   THEN IF(Random(C_StepInRan)<>0)THEN BEGIN
+     IF Pl[Pla].Gl[0].XX<Pl[C].Gl[0].XX THEN KR:=True
+                                        ELSE KL:=True;
+   END ELSE ELSE IF(Random(C_StepOutRan)=0)THEN BEGIN
+    IF Pl[Pla].Gl[0].XX<Pl[C].Gl[0].XX THEN KL:=True
+                                       ELSE KR:=True;
+  END;
+IF Pl[Pla].AkCnt=0 THEN BEGIN
+  IF InRange(Pl[Pla].Gl[0].XX,Pl[Pla].Gl[0].YY,Pl[C].Gl[0].XX,Pl[C].Gl[0].YY,Round(C_ActAbstand*Pl[Pla].Streck*Pl[C].Streck))
+   THEN IF Pl[Pla].Ak=1 THEN BEGIN
+    FOR I:=2 TO 10 DO IF I<>6 THEN BEGIN
+      M:=400;
+      IF I<4 THEN M:=50;
+      IF Random(M)=0 THEN Pl[Pla].Ak:=I;
+    END;
+  END;
+  WITH Pl[Pla] DO
+    IF Ak<>1 THEN AkCnt:=(AMotion[Ak-1].Len-1)*AMotion[Ak-1].Speed;
+END;
+  IF(Random(C_JumpRan)=0)AND(Pl[Pla].Ak=1)THEN KU:=True;
+  IF Random(C_DuckRan)=0 THEN KD:=True;
+  ControlPlayer(KL,KR,KU,KD,{KP,KK,}Pla);
+END;
+
+PROCEDURE CheckForKrassAction;
+VAR L,W,W_W,XC,YC,I,K,M,DM,OldAk:LongInt;
+BEGIN
+  FOR I:=1 TO Players DO
+    IF Pl[I].Reload<200 THEN Inc(Pl[I].Reload);
+  IF((Key[K_P])OR(J_P))AND(Pl[1].Weapon>0)THEN WITH Pl[1] DO BEGIN
+      Ak:=2;
+      IF Dir=2 THEN DM:=-1 ELSE DM:=1;
+      M:=10+Random(10);
+      W_W:=GLOff[3]+MyArcTan(GetFix(Gl[3].XX)-GetFix(Gl[0].XX),GetFix(Gl[0].YY)-GetFix(Gl[3].YY));
+
+   FOR K:=1 TO 5 DO BEGIN
+      L:=5+Random(5);
+      W:=((W_W-10+LongInt(Random(20)))+360)MOD 360;
+      WITH Pl[1].Gl[3] DO
+      IF(Weapon>0)AND(Weapon<=Weapons)THEN BEGIN
+        IF Reload>=WeaponDefault[Weapon][1] THEN BEGIN
+         IF(Abs(GetFix(XX)-(GetFix(Pl[1].Gl[0].XX)+DirFak(Pl[1].Dir)*
+              Trunc(Streck*AMotion[1].Dat^[AMotion[1].Len-AkCnt DIV AMotion[1].Speed].Gl[3,1])))
+              <15)THEN BEGIN
+          CASE Weapon OF
+            1:BEGIN
+                AddSFX(82,34,127,10,2);
+                CreateObj(XX,YY,
+                        (Sinus[W+90]*L*FixGen DIV Gen),-Sinus[W]*L*FixGen DIV Gen,6,
+                        M,M,1,1,0);
+              END;
+            2:IF K=1 THEN BEGIN
+                AddSFX(127,64,127,1,10);
+                CreateObj(XX+DM*7*FixGen,YY-2*FixGen,
+                        (Sinus[W_W+90]*(L)*FixGen DIV Gen),-Sinus[W_W]*(L)*FixGen DIV Gen,14,
+                        60,60,1,1,0);
+              END;
+            3:IF K=1 THEN BEGIN
+                AddSFX(127,64,127,1,10);
+                CreateObj(XX+DM*4*FixGen,YY,
+                        (Sinus[W_W+90]*(L)*FixGen DIV Gen)*2,-Sinus[W_W]*(L)*FixGen DIV Gen,25,
+                        140,140,1,1,1);
+              END;
+          END;
+          Dec(HasWeap[Weapon]);
+          SetWeapOrNext(Weapon);
+          Reload:=0;
+         END;
+        END;
+      END;
+    END;
+  END;
+  IF(NOT KeyPressed_)AND(NOT J_PK)AND(NOT J_PP)AND(NOT J_PW)THEN Exit;
+  KeyPressed_:=FalsE;
+  IF(KeyPr(57))OR(J_PW) THEN SetWeapOrNext(Pl[1].Weapon+1);
+  WITH Pl[1] DO IF Ak=1 THEN BEGIN
+    OldAk:=Ak;
+    IF(LastKey=K_K)OR(J_PK)THEN BEGIN
+      Ak:=3+Random(2)*8;
+      IF (NoDirC)AND(Random(P_MoveRan)=0) THEN CASE Random(2) OF
+        0:Ak:=4;
+        1:Ak:=5;
+      END;
+    END ELSE
+    IF(LastKey=K_P)OR(J_PP)THEN BEGIN
+      Ak:=2;
+      IF (NoDirC)AND(Random(P_MoveRan)=0) THEN CASE Random(2) OF
+        0:Ak:=8;
+        1:Ak:=10;
+      END;
+    END;
+    IF Ak<>OldAk THEN BEGIN
+      IF AkCnt=0 THEN AkCnt:=(AMotion[Ak-1].Len-1)*AMotion[Ak-1].Speed;
+    END;
+  END;
+END;
+
+PROCEDURE DrawBackGround;
+Const Anz=2;
+VAR W,A,O,C,XD,YD,XM,YM,I,K,M,N:LongInt;
+    Col:Byte;
+    X,Y,OX:ARRAY[0..Anz-1]OF LongInt;
+BEGIN
+  XD:=WinX DIV 20;
+  YD:=WinY DIV 20;
+  XM:=WinX MOD 20;
+  YM:=WinY MOD 20;
+
+{  M:=((WinY DIV 3)MOD 20)*320+(WinX DIV 3)MOD 20;
+  Move(Hint^[M],Scrp^,64000-M);
+  Move(Hint^,Scrp^[64000-M],M);}
+
+  WolX:=-WolCnt DIV 5;
+  WolY:=WolCnt DIV 10{(Sinus[(Tick)MOD 360]*30) DIV Gen};
+{  IF ShowBack THEN}
+  DrawBackHelp{}
+{  ELSE FillBack(Scrp^,125)};
+
+{  M:=2;
+  FOR I:=0 TO Anz-1 DO BEGIN
+    OX[I]:=((WinX DIV M+M*13)MOD 256);
+    Y[I]:=((WinY DIV M+M*27)MOD 256);
+    Y[I]:=Y[I]*256;
+    Inc(M,M);
+  END;
+  FOR K:=0 TO 199 DO BEGIN
+    W:=K*320;
+    FOR M:=0 TO Anz-1 DO X[M]:=OX[M];
+    FOR I:=0 TO 319 DO BEGIN
+      C:=0;
+      FOR M:=0 TO Anz-1 DO Inc(C,BackLayer^[Y[M]+X[M]]);
+      Scrp^[W+I]:=BTab[C DIV Anz];
+      FOR M:=0 TO Anz-1 DO BEGIN
+        Inc(X[M]);
+        IF X[M]=256 THEN X[M]:=0;
+      END;
+    END;
+    FOR M:=0 TO Anz-1 DO BEGIN
+      Inc(Y[M],256);
+      IF Y[M]=65536 THEN Y[M]:=0;
+    END;
+  END;{}
+
+
+{  FillChar(Scrp^,64000,125);
+{  A:=5+(Sinus[(Tick DIV 1)MOD 360]*5) DIV Gen;
+  FillChar(Scrp^,64000,RGBTab^[A+0,A+10,A+14]);}
+{  FOR I:=1 TO Clouds DO BEGIN
+    X:=Wolke[I].X-WinX DIV BackDiv;
+    Y:=Wolke[I].Y-WinY DIV BackDiv;
+    PutSpr(X,Y,LSpr[32],0,31);
+    K:=0;
+    FOR K:=2 TO Wolke[I].L*2 DO
+      PutSpr(X+K*10,Y,LSpr[33],0,31);
+    PutSpr(X+K*10+10,Y,LSpr[33],0,31);
+  END;}
+
+{  CSource:=Hint;
+  CDest:=Scrp;
+  _Scrp2Screen;}
+
+    FOR K:=YD TO YD+10 DO BEGIN
+      FOR I:=XD TO XD+16 DO BEGIN
+        M:=Lev.LevD^[(K)*Lev.LXS+I];
+        IF NOT (M IN [0]) THEN PutSpr((I-XD)*20-XM,(K-YD)*20-YM,LSpr[M],0,31);
+      END;
+    END;
+END;
+
+PROCEDURE CenterWindow;
+VAR I,K,M,X,Y:LOngInt;
+BEGIN
+  WITH Pl[1].Gl[0] DO BEGIN
+    X:=GetFix(XX);
+    Y:=GetFix(YY);
+    IF X-WinX<ScrX1 THEN WinX:=X-ScrX1;
+    IF X-WinX>ScrX2 THEN WinX:=X-ScrX2;
+    IF Y-WinY<ScrY1 THEN WinY:=Y-ScrY1;
+    IF Y-WinY>ScrY2 THEN WinY:=Y-ScrY2;
+
+    RangeItW(WinX,0,Lev.LXS*20-321);
+    RangeItW(WinY,0,Lev.LYS*20-201);
+  END;
+END;
+
+PROCEDURE CalcEnemies;
+VAR I,K,M,O,T,X,Y:LongInt;
+BEGIN
+  FOR O:=1 TO Objekte DO WITH Objekt[O]^ DO IF(Typ IN [26..33])AND(Par[3]=0)THEN BEGIN
+    IF(Abs(Pl[1].Gl[0].XX-XX)<HReactRange)AND(Abs(Pl[1].Gl[0].YY-YY)<VReactRange)
+      THEN BEGIN
+      T:=Typ-25;
+      IF CreatePlayer(T,XX,YY,Par[4],O)
+        THEN Par[3]:=1;
+    END;
+  END;
+  O:=2;
+  WHILE O<=Players DO BEGIN
+    IF((Abs(Pl[1].Gl[0].XX-Pl[O].Gl[0].XX)>=HOutReactRange)OR(Abs(Pl[1].Gl[0].YY-Pl[O].Gl[0].YY)>=VOutReactRange))
+     THEN BEGIN
+      Objekt[Pl[O].FromObj]^.Par[3]:=0;
+      IF (NOT(Objekt[Pl[O].FromObj]^.Typ=4+25)) THEN BEGIN
+        Objekt[Pl[O].FromObj]^.Par[4]:=Pl[O].Energy;
+      END;
+      DelPlayer(O);
+      Dec(O);
+    END;
+    Inc(O);
+  END;
+END;
+
+PROCEDURE Box(X1,Y1,X2,Y2,Col,Back:Word);ASSEMBLER;
+ASM
+    les di,Scrp
+    mov ax,Y1
+    mov bx,320
+    mul bx
+    add ax,X1
+    inc ax
+    add di,ax
+
+    mov cx,X2
+    sub cx,X1
+    dec cx
+
+    push cx
+
+    mov ax,col
+    rep stosb
+
+    pop cx
+
+    les di,Scrp
+    mov ax,Y2
+    mov bx,320
+    mul bx
+    add ax,X1
+    inc ax
+    add di,ax
+
+    mov ax,col
+    rep stosb
+
+    mov cx,Y2
+    sub cx,Y1
+    dec cx
+
+    mov ax,Y1
+    inc ax
+    mov bx,320
+    mul bx
+
+    les di,Scrp
+    add di,ax
+    mov ax,Col
+    mov dx,Back
+
+@DrawLoop:
+    mov bx,X1
+    mov es:[di+bx],al
+    @BackLoop:
+      inc bx
+      mov es:[di+bx],dl
+      cmp bx,X2
+    jl @BackLoop
+    mov es:[di+bx],al
+    add di,320
+    loop @DrawLoop
+
+END;
+
+PROCEDURE DrawBal(X1,Y1,X2,Y2,Nr,Ges:LongInt);
+VAR I,K,M:LongInt;
+    R,G,B:LongInt;
+    C:BytE;
+BEGIN
+  Box(X1,Y1,X2,Y2,9,0);
+  Inc(X1);Dec(X2);
+  Inc(Y1);Dec(Y2);
+  C:=GetNearest(63-(63*Nr) DIV Ges,(63*Nr) DIV Ges,0);
+  M:=(Nr*(X2-X1+1)) DIV Ges;
+  FOR I:=Y1 TO Y2 DO
+    FIllChar(Scrp^[I*320+X1],M,C);
+END;
+
+PROCEDURE DrawStats;
+CONST MaxEnemyStats=4;
+      WeapWahlCol=14;
+      StatX=0;
+      StatY=160;
+      SoCol=7;
+
+VAR C,I,K,M,N,X,Y:LongInt;
+BEGIN
+  DrawBal(StatX+0,StatY+23,StatX+80,StatY+33,Pl[1].Energy,StandardEnergy);
+  WITH Pl[1] DO BEGIN
+    IF Weapon<>0 THEN
+      BufText(StatX+84,StatY+22,ToStr(HasWeap[Weapon]));
+    I:=SoCol;
+    IF Weapon=0 THEN I:=WeapWahlCol;
+    Box(StatX,StatY+0,StatX+21,StatY+21,I,8);
+    PutSpr(StatX+1,StatY+1,Pl[1].Spr[4,1]^,0,31);
+    K:=0;
+    FOR M:=1 TO Weapons DO BEGIN
+      IF(HasWeap[M]<>0)THEN BEGIN
+        C:=SoCol;
+        IF Weapon=M THEN C:=WeapWahlCol;
+        Box(StatX+K*25+25,StatY+0,StatX+K*25+46,StatY+21,C,8);
+        PutSpr(StatX+K*25+26,StatY+1,WeapSpr[M,1],0,31);
+        Inc(K);
+      END;
+    END;
+  END;
+  FOR K:=2 TO Players DO IF Objekt[Pl[K].FromObj]^.Typ=29 THEN BEGIN
+    M:=Pl[K].Spr[2,2]^.XSize;
+    N:=Pl[K].Spr[2,2]^.YSize;
+    X:=318-M;
+    Y:=StatY+20-N;
+    Box(X,Y,X+M+1,Y+N+1,15,7);
+    PutSpr(X+4,Y+4,Pl[K].Spr[2,2]^,0,31);
+    DrawBal(X-80+M,StatY+23,X+M,StatY+33,Pl[K].Energy,Pl[K].StartEn);
+  END;
+END;
+
+PROCEDURE Fade(R,G,B,MixA:LongInt);
+VAR BB,I,K,M,MixAA:LongInt;
+    FPal:PAL_ARRAY;
+BEGIN
+  FOR I:=0 TO 255 DO BEGIN
+      FPal[I,0]:=Palette[I,0]+((R-Palette[I,0])*MixA)DIV 63;
+      FPal[I,1]:=Palette[I,1]+((G-Palette[I,1])*MixA)DIV 63;
+      FPal[I,2]:=Palette[I,2]+((B-Palette[I,2])*MixA)DIV 63;
+  END;
+  SetPalette(FPal);
+END;
+
+PROCEDURE WaitTicks(Ticks:LongInt);
+VAR OTick,NTick:LongInt;
+BEGIN
+  OTick:=OrigTick DIV (FpSDiv);
+  REPEAT
+    NTick:=OrigTick DIV (FpSDiv);
+  UNTIL(NTick-Otick>Ticks)OR(KeyPr(1));
+END;
+
+PROCEDURE FadeOut;
+VAR OTick,NTick,I,K,M:LongInt;
+BEGIN
+      K:=0;
+      OTick:=OrigTick DIV (FpSDiv);
+      REPEAT
+        NTick:=OrigTick DIV (FpSDiv);
+        FOR I:=1 TO NTick-OTick DO IF K<63 THEN Inc(K);
+        Fade(0,0,0,K);
+        OTick:=NTick;
+      UNTIL K=63;
+END;
+
+PROCEDURE BufT(Y:LongInt;St:String);
+BEGIN
+  BufText(159-Length(St)*4,Y,St);
+END;
+
+PROCEDURE DrawAndWait(Y:LongInt;St:STRING;WaitC:LongInt);
+BEGIN
+  BufT(Y,St);
+  _Scrp2Screen;
+  WaitTicks(WaitC);
+END;
+
+PROCEDURE SetFade(Sp,Pos:Integer);
+BEGIN
+  FadeOn:=True;
+  FadeSpeed:=Sp;
+  FadePos:=Pos*FadeMul;
+END;
+
+PROCEDURE CalcJoy;
+VAR JX,JY:Word;
+BEGIN
+  J_PP:=False;
+  J_PK:=False;
+  J_PU:=False;
+  J_PW:=False;
+  IF NOT JoyOn THEN BEGIN
+    J_U:=False;
+    J_D:=False;
+    J_L:=False;
+    J_R:=False;
+    J_W:=False;
+    Exit;
+  END;
+  IF NOT JoyOn THEN Exit;
+  IF JoyButt(JoyButt1) THEN BEGIN
+    IF NOT J_P THEN J_PP:=True;
+    J_P:=True;
+  END ELSE J_P:=False;
+  IF JoyButt(JoyButt2) THEN BEGIN
+    IF NOT J_K THEN J_PK:=True;
+    J_K:=True;
+  END ELSE J_K:=False;
+  IF JoyButt(JoyButt3) THEN BEGIN
+    IF NOT J_W THEN J_PW:=True;
+    J_W:=True;
+  END ELSE J_W:=False;
+  JX:=JoyPos(JoyX);
+  JY:=JoyPos(JoyY);
+
+  J_L:=JX<(JMidX-JMinX)*(16-JActP) SHR 4;
+  J_R:=JX>JMidX+(JMaxX-JMidX)*JActP SHR 4;
+  J_D:=JY>JMidY+(JMaxY-JMidY)*JActP SHR 4;
+  IF JY<(JMidY-JMinY)*(16-JUActP) SHR 4 THEN BEGIN
+    IF(NOT J_U)OR(J_UC=0)THEN J_PU:=True;
+    J_U:=True;
+    J_UC:=(J_UC+1)MOD 10;
+  END ELSE BEGIN J_U:=False;J_UC:=0; END;
+
+END;
+
+PROCEDURE Game;
+VAR Ch:Char;
+    OTick,NTick,I,K,M:LongInt;
+    Yes,No:Boolean;
+
+PROCEDURE ReStartGame;
+BEGIN
+  WinCnt:=-1;
+  Pl[1].Leben:=StandardLeben;
+  WinX:=0;
+  WinY:=0;
+  PlDead:=-1;
+  Tick:=OrigTick DIV FpSDiv;
+  OTick:=Tick;
+  SetFade(0,63);
+  Intro:=0;
+{  Intro:=620;}
+{  IF NOT IntroOn THEN BEGIN
+    FadeOn:=True;
+    FadeSpeed:=-30;
+    FadePos:=63*FadeMul;
+    Intro:=10000;
+  END;{}
+  NextLevel:=-1;
+{  Intro:=630;}
+END;
+
+BEGIN
+  ReStartGame;
+{  Intro:=640;}
+REPEAT
+  REPEAT
+    PutOnScreen:=True;
+    Tick:=OrigTick DIV (FpSDiv);
+    NTick:=Tick;
+
+    CalcSFX(NTick-OTick);
+    IF Intro=1940 THEN NextLevel:=1;
+    IF(PlDead=-1)OR(PlDeadCnt-PlDead>PlDeadFreeze)THEN
+    FOR I:=1 TO NTick-OTick DO BEGIN
+      IF Intro=1940 THEN NextLevel:=1;
+      Inc(WolCnt);
+      IF WinCnt>0 THEN Dec(WinCnt);
+{      IF WinCnt=95 THEN FpSDiv:=30;
+      IF WinCnt=30 THEN FpSDiv:=15;}
+      IF Intro<IntroEnd THEN Inc(Intro);
+      IF FadeON THEN BEGIN
+        Inc(FadePos,FadeSpeed);
+        IF FadePos<0 THEN BEGIN FadePos:=0;FadeOn:=False; END;
+        IF FadePos>63*FadeMul THEN BEGIN FadePos:=63*FadeMul;FadeOn:=False; END;
+      END;
+      CheckDaDirs;
+      P_CalcParticles;
+      CalcEnemies;
+      FOR K:=1 TO Players DO BEGIN
+        Pl[K].NoDirC:=FalsE;
+        CalcPlayer(K,_NoSpecialH_);
+      END;
+      FOR K:=1 TO Players DO WITH Pl[K] DO
+        IF WW<360 THEN WW:=WW+1
+                  ELSE WW:=0;
+      KloppPlayers;
+      KloppObjekte;
+      K:=2;
+      WHILE K<=Players DO BEGIN
+        IF Pl[K].Energy=0 THEN BEGIN
+          CalcDeath(K,False);
+          Dec(K);
+        END;
+        Inc(K);
+      END;
+      CheckDaDirs;
+      FOR K:=1 TO Players DO WITH Pl[K] DO BEGIN
+        IF(AkCnt>0)THEN Dec(AkCnt);
+        IF AkCnt=0 THEN Ak:=1;
+      END;
+
+      CalcJoy;
+
+      IF(Intro>1250)AND(Intro<{1330}1815) THEN BEGIN
+        IF Intro={1290}1775 THEN BEGIN
+          ControlPlayer(False,True,True,False,1);{}
+          Pl[1].WS:=45;
+        END ELSE
+        ControlPlayer(False,True,False,False,1);{}
+      END ELSE IF Intro>1950 THEN BEGIN
+        ControlPlayer(Key[K_L] OR J_L,Key[K_R] OR J_R,Key[K_U] OR J_U,Key[K_D] OR J_D,1);{}
+      END;
+
+      FOR K:=2 TO Players DO CompPlayer(K);{}
+      CheckForKrassAction;
+
+      CalcObjekte(Pl[1].Gl[0].XX,Pl[1].Gl[0].YY);
+      DoBurnStuff;
+      IF(Intro=20)OR(Intro=330)OR(Intro=650)THEN SetFade(-20,63);
+      IF(Intro=250)OR(Intro=580)OR(Intro=1890)THEN SetFade(20,0);
+    END;
+    IF PlDead<>-1 THEN BEGIN
+      FOR I:=1 TO NTick-OTick DO IF PlDead>=0 THEN BEGIN
+        Dec(PlDead);
+        IF PlDeadCnt-PlDead>PlDeadFreeze THEN BEGIN
+           IF PlDead=PlDeadCnt-PlDeadFreeze-2 THEN
+             CalcDeath(1,True);
+        END;
+        IF PlDead=-1 THEN BEGIN
+          Pl[1].Gl[0].XX:=-10000;
+          ReNewPlayer;
+          Dec(PlDead);
+          CalcEnemies;
+          Inc(PlDead);
+          PutOnScreen:=False;
+          Fill(Screen^);
+          playmidi(@MidIngame,0.4);{}
+          SetFade(-30,63);
+        END;
+      END;
+    END;
+    IF PlDead=-1 THEN CenterWindow;
+    IF(Intro>=650)AND(Intro<1400)THEN
+      WinX:=Trunc(WinX*(Intro-650)/(1400-650));
+{    IF(Intro>=650)AND(Intro<1100)THEN
+      WinX:=Trunc(WinX*(Intro-650)/(1100-650));}
+
+    DrawBackGround;
+    FOR K:=1 TO Players DO IF Pl[K].Dead=False THEN DrawPlayer(Pl[K]);
+    DrawObjekte;
+    P_DrawParticles;
+    IF Intro>1940 THEN
+      DrawStats;
+
+{    IF KeyPr(15) THEN ShowBack:=NOT ShowBack;
+    IF KeyPr(58) THEN ShowInfo:=NOT ShowInfo;
+{    IF KeyPr(88) THEN SubEn(1,StandardEnergy);}
+{    IF ShowInfo THEN
+      BufText(0,151,'FpS: '+ToStr(Frames));
+{    IF KeyPr(15) THEN ShowInfo:=NOT ShowInfo;
+{    IF ShowInfo THEN BEGIN
+{      BufText(0,151,'FpS: '+ToStr(Frames));}
+{      ASM
+        mov ax,sp
+        mov [WArg1],ax
+      END;
+      BufText(160,119,'MidTem : '+ToStr(MidiTempo));
+      BufText(80,119,'Part : '+ToStr(Particles));
+
+      BufText(0,135,'St: '+ToStr(WArg1));
+      BufText(80,151,'Mem: '+ToStr(MemAvail));
+{      BufText(80,135,'Chan: '+ToStr(HChan));}
+{      BufText(200,135,'Ak2: '+ToStr(Pl[2].Ak));
+{      BufText(200,151,'SFX: '+ToStr(GetActSFX));}
+{      BufText(0,167,'Pl1 Energy: '+ToStr(Pl[1].Energy));
+      BufText(160,167,'Pl2 Energy: '+ToStr(Pl[2].Energy));
+      BufText(0,183,'Act: '+ToStr(Players));
+      BufText(100,183,'Objs: '+ToStr(Objekte));
+      BufText(200,183,'Part: '+ToStr(Particles));
+    eND;{}
+    IF(PlDead<>-1)AND(PlDead<PlDeadFade) THEN BEGIN
+      IF PlDead>PlDeadFadeEnd
+        THEN Fade(0,0,0,63-((PlDead-PlDeadFadeEnd)*63) DIV (PlDeadFade-PlDeadFadeEnd))
+        ELSE WITH Pl[1] DO BEGIN
+               Fill(Screen^);
+               Fill(Scrp^);
+               SetPalette(Palette);
+               DrawAndWait(90,'-= Dead =-',70);
+               NextLevel:=AktLevel;
+               IF Leben>=0 THEN BEGIN
+                 PutSpr(120,110,Pl[1].Spr[2,1]^,0,31);
+                 DrawAndWait(115,'   x  '+ToStr(Leben),100);
+                 PlDead:=0;
+               END ELSE BEGIN
+                 playmidi(@MidOver,1);{}
+                 DrawAndWait(110,'GAME OVER',350);
+                 ReStartGame;
+                 Intro:=0;
+                 NextLevel:=0;
+               END;
+               FadeOut;
+               NTick:=OrigTick DIV (FpSDiv)-1;
+               PutOnScreen:=False;
+             END;
+    END;
+    IF WinCnt=0 THEN BEGIN
+      FpSDiv:=15;
+      playmidi(@MidWon,1);{}
+      DrawAndWait(50,'-= You have won =-',150);
+      DrawAndWait(80,'Now the world is safe again',150);
+      DrawAndWait(96,'Guess that''s what you expected',100);
+      DrawAndWait(112,'Easy, wasn''t it ?',0);
+      DrawAndWait(150,'< THE END >',200);
+      FadeOut;
+      ReStartGame;
+      Intro:=0;
+      NextLevel:=0;
+    END;
+    IF NextLevel<>-1 THEN BEGIN
+      IF NextLevel>1 THEN BEGIN
+        playmidi(@MidWon,1);{}
+        DrawAndWait(90,'-= Level Completed =-',600);
+        FadeOut;
+      END;
+      NTick:=OrigTick DIV (FpSDiv)-1;
+      Fill(Screen^);
+      Fill(Scrp^);
+      PutOnScreen:=False;
+      StartLevel(NextLevel);
+      SetFade(-30,63);
+      IF NextLevel=0 THEN SetFade(0,63);
+      NextLevel:=-1;
+    END;
+    IF Intro<300 THEN BEGIN
+      Fill(Scrp^);
+      BufT(90,'- Tod allen Remakes -');
+    END ELSE
+    IF Intro<620 THEN BEGIN
+      Fill(Scrp^);
+      BufT(85,     'be creative');
+      BufT(93,'-=                 =-');
+      BufT(101,   'use your mind');
+    END;
+    IF(Intro>650)AND(Intro<950) THEN BEGIN
+      BufT(80,'-= John Trapolka Memorial Krew =-');
+      BufT(100,'AND');
+      BufT(120,'-= Creative Mind =-');
+    END;
+    IF(Intro>1050)AND(Intro<1350) THEN BEGIN
+      BufT(76, 'Code - Pap');
+      BufT(92,'Music - Starbuck');
+      BufT(108,'GFX - Kellersound,Melog');
+    END;
+    IF(Intro>1400)AND(Intro<1600) THEN BEGIN
+      BufT(92,#3+' Dedicated to Julia '+#3);
+    END;
+    IF(Intro>1700)AND(Intro<1935) THEN BEGIN
+      BufT(92,'Prepare to Play !');
+    END;
+    IF FadeOn THEN Fade(0,0,0,FadePos DIV FadeMul);
+    IF PutOnScreen THEN _Scrp2Screen;
+{    FrameRate;}
+    OTick:=NTick;
+    IF(Intro<1940)AND(KeyPr(1))THEN Intro:=1940;
+  UNTIL KeyPr(1);
+  NTick:=OrigTick DIV (FpSDiv);
+  DrawAndWait(90,'Quit (Y/N) ?',10);
+  REPEAT
+    Yes:=KeyPr(21) OR KeyPr(44);
+    No:=KeyPr(49) OR KeyPr(1);
+  UNTIL Yes OR NO;
+  Inc(OTick,OrigTick DIV (FpSDiv)-NTick);
+UNTIL Yes;
+END;
+
+PROCEDURE UnLoadGame;
+VAR I,K,M:LongInt;
+BEGIN
+{  FOR I:=1 TO Motions DO BEGIN
+    IF AMotion[I].Dat<>NIL THEN DelMotion(AMotion[I]);
+  END;}
+  RestoreTimer;
+  Init(3);
+  DoneKeyBoard;
+END;
+
+PROCEDURE StartUpGame;
+VAR C,I,K,M,N:LongInt;
+    B:Byte;
+BEGIN
+  ResetGM;
+  InitKeyBoard;
+  Init(19);
+  SetPalette(Palette);
+  FOR I:=0 TO 359+320 DO Sinus[I]:=Round(Sin(I*0.0174)*Gen);
+  InitMemLoad(@MotionDat);
+  FOR I:=1 TO Motions DO BEGIN
+    LoadMem(@AMotion[I],8);
+    AMotion[I].Dat:=AktMemPoi;
+    Inc(MemInd,AMotion[I].Len*SizeOf(TMotionPart));
+  END;
+  Particles:=0;
+  Tick:=0;
+  OrigTick:=0;
+  InTimer:=False;
+  InstallTimer(@MyTimer,FpS);
+  StartLevel(0)
+END;
+
+{
+PROCEDURE MotionInsertFrame(VAR Motion:tMotion);
+VAR TempMotion:tMotion;
+    I,K,M:LongInt;
+BEGIN
+  WITH Motion DO BEGIN
+    IF Len>=MaxParts THEN Exit;
+    CreateMotion(TempMotion,Len,Speed);
+    FOR I:=1 TO Len DO Move(Dat^[I],TempMotion.Dat^[I],SizeOf(tMotionPart));
+    DelMotion(Motion);
+    CreateMotion(Motion,TempMotion.Len+1,TempMotion.Speed);
+    FOR I:=1 TO Len-1 DO Move(TempMotion.Dat^[I],Dat^[I],SizeOf(tMotionPart));
+    Move(TempMotion.Dat^[Len-1],Dat^[Len],SizeOf(tMotionPart));
+    DelMotion(TempMotion);
+  END;
+END;
+
+PROCEDURE MotionDelFrame(VAR Motion:tMotion);
+VAR TempMotion:tMotion;
+    I,K,M:LongInt;
+BEGIN
+  WITH Motion DO BEGIN
+    IF Len<=1 THEN Exit;
+    CreateMotion(TempMotion,Len,Speed);
+    FOR I:=1 TO Len DO Move(Dat^[I],TempMotion.Dat^[I],SizeOf(tMotionPart));
+    DelMotion(Motion);
+    CreateMotion(Motion,TempMotion.Len-1,TempMotion.Speed);
+    FOR I:=1 TO Len DO Move(TempMotion.Dat^[I],Dat^[I],SizeOf(tMotionPart));
+    DelMotion(TempMotion);
+  END;
+END;
+
+PROCEDURE ResetPlayerMotion(Motion:tMotion);
+VAR I:LongInt;
+BEGIN
+  WITH Pl[1] DO BEGIN
+    Ak:=0;
+    AkCnt:=Motion.Speed*(Motion.Len-1)-1;
+    Dir:=1;
+    Wink:=0;
+    FOR I:=0 TO 6 DO WITH Gl[I] DO BEGIN
+      XS:=0;
+      YS:=0;
+      XX:=160+Motion.Dat^[1].Gl[I,1];
+      YY:=100+Motion.Dat^[1].Gl[I,2];
+    END;
+  END;
+END;
+
+PROCEDURE TestMotion(Motion:tMotion);
+VAR I,K,M,OldTick,ATick:LongInt;
+BEGIN
+  WITH Motion DO BEGIN
+    CreateMotion(AMotion[0],Len,Speed);
+    FOR I:=1 TO Len DO Move(Dat^[I],AMotion[0].Dat^[I],SizeOf(tMotionPart));
+  END;
+  ResetPlayerMotion(Motion);
+  Tick:=OrigTick DIV 5;
+  Atick:=Tick;
+  WITH Pl[1] DO BEGIN
+    REPEAT
+      OldTick:=ATick;
+      Tick:=OrigTick DIV 5;
+      ATick:=Tick;
+      FillChar(Scrp^,64000,0);
+      FOR I:=1 TO ATick-OldTick DO BEGIN
+        CalcPlayer(1,100*FixGen);
+        ControlPlayer(Pl[1],False,False,False,False,False,False,1);
+        IF Ak<>0 THEN BEGIN
+          ResetPlayerMotion(Motion);
+          Ak:=0;
+          AkCnt:=Motion.Speed*(Motion.Len-1)-1;
+        END;
+      END;
+      DrawPlayer(Pl[1]);
+      Move(Scrp^,Screen^,64000);
+    UNTIL (KeyPr(1))OR(KeyPr(28));
+  END;
+  DelMotion(AMotion[0]);
+END;
+
+PROCEDURE DrawDir;
+VAR SR:SearchRec;
+    I,K,M:LongInt;
+BEGIN
+  FindFirst('*.Mot',ANYFILE,SR);
+  I:=3;
+  K:=0;
+  WHILE(DosError=0)AND(K<>4) DO BEGIN
+    GotoXY(K*15+1,I);
+    Write(SR.Name);
+    Inc(I);
+    IF I=23 THEN BEGIN
+      I:=3;
+      Inc(K);
+    END;
+    FindNext(SR);
+  END;
+  GotoXY(1,1);
+END;
+
+
+PROCEDURE SaveDaMotion(VAR Motion:tMotion);
+VAR FName:STRING;
+BEGIN
+  TextMode(3);
+  ChDir('DATA');
+  DoneKeyBoard;
+  DrawDir;
+  REPEAT
+    WriteLn('<- SAVE Motion ->');
+    Write('Filename (8Bst ohne .mot) : ');
+    ReadLn(FName);
+  UNTIL (Pos('.',FName)=0)AND(Length(FName)>0)AND(Length(FName)<9);
+  SaveMotion(Motion,FName+'.mot');
+  InitKeyBoard;
+  Init(19);
+  SetPalette(Palette);
+  ChDir('..');
+END;
+
+PROCEDURE LoadDaMotion(VAR Motion:tMotion);
+VAR FName:STRING;
+BEGIN
+  TextMode(3);
+  ChDir('DATA');
+  DoneKeyBoard;
+  DrawDir;
+  REPEAT
+    WriteLn('<- LOAD Motion ->');
+    Write('Filename (8Bst ohne .mot) : ');
+    ReadLn(FName);
+  UNTIL (Pos('.',FName)=0)AND(Length(FName)>0)AND(Length(FName)<9);
+  LoadMotion(Motion,FName+'.mot');
+  InitKeyBoard;
+  Init(19);
+  SetPalette(Palette);
+  ChDir('..');
+END;
+
+PROCEDURE Editor;
+VAR Motion:tMotion;
+    AkGl,AkMot,I,K,M,AX,AY,XN,YN:LongInt;
+    OldTick,ATick:LongInt;
+BEGIN
+  Motion.Dat:=NIL;
+  LoadMotion(Motion,'DATA\'+DefMotLoad+'.MOT');
+  AkMot:=1;
+  AkGl:=1;
+  Tick:=OrigTick DIV 5;
+  ATick:=Tick;
+  WITH Motion DO
+  REPEAT
+    OldTick:=ATick;
+    Tick:=OrigTick DIV 5;
+    ATick:=Tick;
+    FillChar(Scrp^,64000,0);
+    FOR I:=1 TO 6 DO BEGIN
+      AX:=Dat^[AkMot].Gl[I,1];
+      AY:=Dat^[AkMot].Gl[I,2];
+      XN:=(AX*Sinus[Dat^[AkMot].Rot+90]-AY*Sinus[Dat^[AkMot].Rot]) DIV Gen;
+      YN:=(AY*Sinus[Dat^[AkMot].Rot+90]+AX*Sinus[Dat^[AkMot].Rot]) DIV Gen;
+      IF I=6 THEN M:=(360+90-Dat^[AkMot].Rot)MOD 360
+             ELSE M:=GlRot(XN,YN,Dat^[AkMot].Gl[0,1],Dat^[AkMot].Gl[0,2],I);
+      PutTSpr(160+XN,100+YN,Pl[1].Spr[GetCorrSpr(I),1]^,M+GLOff[I],31);
+    END;
+    AX:=Dat^[AkMot].Gl[AkGl,1];
+    AY:=Dat^[AkMot].Gl[AkGl,2];
+    XN:=(AX*Sinus[Dat^[AkMot].Rot+90]-AY*Sinus[Dat^[AkMot].Rot]) DIV Gen;
+    YN:=(AY*Sinus[Dat^[AkMot].Rot+90]+AX*Sinus[Dat^[AkMot].Rot]) DIV Gen;
+    FillChar(Scrp^[(100+YN-1)*320+160+XN-1],3,15);
+    FOR I:=-1 TO 1 DO BEGIN
+      Scrp^[(100+YN+I)*320+160+XN-1]:=15;
+      Scrp^[(100+YN+I)*320+160+XN+1]:=15;
+    END;
+    FillChar(Scrp^[(100+YN+1)*320+160+XN-1],3,15);
+
+    BufText(0,0,'Frame '+ToStr(AkMot)+'/'+ToStr(Len)+'          Speed '+ToStr(Speed));
+    BufText(0,160,'PgDn       F2                              PgUp');
+    BufText(0,180,'Prev       Save                              Next');
+    Move(Scrp^,Screen^,64000);
+    FOR I:=1 TO ATick-OldTick DO BEGIN
+      IF KeyPr(15) THEN IF AkGl=6 THEN AkGl:=1 ELSE Inc(AkGl);
+      IF KeyPr(82) THEN MotionInsertFrame(Motion);
+      IF KeyPr(83) THEN MotionDelFrame(Motion);
+      IF(KeyPr(73))AND(AkMot<Len)THEN Inc(AkMot);
+      IF(KeyPr(81))AND(AkMot>1)THEN Dec(AkMot);
+      IF(KeyPr(28))THEN TestMotion(Motion);
+      IF(KeyPr(60))THEN SaveDaMotion(Motion);
+      IF(KeyPr(61))THEN LoadDaMotion(Motion);
+      IF Key[72] THEN Dec(Dat^[AkMot].Gl[AkGl,2]);
+      IF Key[80] THEN Inc(Dat^[AkMot].Gl[AkGl,2]);
+      IF Key[75] THEN Dec(Dat^[AkMot].Gl[AkGl,1]);
+      IF Key[77] THEN Inc(Dat^[AkMot].Gl[AkGl,1]);
+      IF Key[78] THEN IF Speed+MotionSpeedStep<MaxMotionSpeed THEN Inc(Speed,MotionSpeedStep) ELSE Speed:=MaxMotionSpeed;
+      IF Key[74] THEN IF Speed-MotionSpeedStep>MinMotionSpeed THEN Dec(Speed,MotionSpeedStep) ELSE Speed:=MinMotionSpeed;
+      IF Key[53] THEN IF Dat^[AkMot].Rot<360 THEN Inc(Dat^[AkMot].Rot) ELSE Dat^[AkMot].Rot:=0;
+      IF Key[55] THEN IF Dat^[AkMot].Rot>0 THEN Dec(Dat^[AkMot].Rot) ELSE Dat^[AkMot].Rot:=359;
+    END;
+    IF AkMot<1 THEN AkMot:=1;
+    IF AkMot>Len THEN AkMot:=LEn;
+  UNTIL KeyPr(1);
+END;
+
+PROCEDURE StartEditor;
+BEGIN
+  StartUpGame;
+  Editor;
+  UnloadGame;
+END;
+
+PROCEDURE TestSound;
+VAR SNr,SNote,SLen,I,K,M:LongInt;
+    NStep:LongInt;
+    Ch:Char;
+BEGIN
+  TextBackGround(0);
+  TextColor(15);
+  ClrScr;
+  SNr:=0;
+  SNote:=64;
+  SLen:=100;
+  NStep:=10;
+  REPEAT
+    GotoXY(1,2);
+    ClrEol;
+    Write('(',SNr,') ','  Note : ',SNote,'  Length : ',SLen);
+    Ch:=UpCase(ReadKey);
+    CASE Ch OF
+      'Q':IF SNr<127 THEN Inc(SNr) ELSE SNr:=0;
+      'A':IF SNr>0 THEN Dec(SNr) ELSE SNr:=127;
+      'W':IF SNote+NStep<=127 THEN Inc(SNote,NStep);
+      'S':IF SNote-NStep>=0 THEN Dec(SNote,NStep);
+      #13:BEGIN
+            GotoXY(1,3);
+            ClrEol;
+            Write('Playing ... ');
+            SetProgram(1,SNr);
+            SetNoteOn(1,SNote,127);
+            Delay(500);
+            SetNoteOff(1,SNote,0);
+            WriteLn('Done');
+          END;
+    END;
+  UNTIL Ch=#27;
+END;}
+
+FUNCTION ReadKey:Byte;ASSEMBLER;
+ASM
+    mov ah,01
+    int $21
+END;
+
+
+BEGIN
+  TempInit:=False;
+
+  WriteLn;
+  WriteLn('-[   Keys : Move = Cursors , Punch = Q , Kick = W , Change Weapon = SPACE   ]-');
+  WriteLn;
+
+  Write('Loading ... ');
+  Initialize;
+  WriteLn('OK');
+
+  JoyOn:=False;
+  IF JoyPos(JoyX)<>$FFFF THEN BEGIN
+    Write('Joypad (Y/N) ? ');
+    Cha:=ReadKey;
+    WriteLn;
+    IF Cha=121 THEN BEGIN
+      JoyOn:=True;
+      WriteLn('Center & press Button');
+      REPEAT UNTIL JoyButt(JoyButt1);
+      ASM
+        push JoyX
+        call JoyPos
+        mov [JMinX],ax
+        mov [JMidX],ax
+        mov [JMaxX],ax
+        push JoyY
+        call JoyPos
+        mov [JMinY],ax
+        mov [JMidY],ax
+        mov [JMaxY],ax
+      END;
+      WriteLn('Move around & press Button');
+      ASM
+        @ButtWait:
+          push JoyButt1
+          call JoyButt
+          cmp al,0
+          jne @ButtWait
+
+        @CalibLoop:
+          push JoyX
+          call JoyPos
+          cmp ax,JMinX
+          jnl @NoMinX
+          mov [JMinX],ax
+        @NoMinX:
+          cmp ax,JMaxX
+          jle @NoMaxX
+          mov [JMaxX],ax
+        @NoMaxX:
+
+          push JoyY
+          call JoyPos
+          cmp ax,JMinY
+          jnl @NoMinY
+          mov [JMinY],ax
+        @NoMinY:
+          cmp ax,JMaxY
+          jle @NoMaxY
+          mov [JMaxY],ax
+        @NoMaxY:
+          push JoyButt1
+          call JoyButt
+          cmp al,0
+          je @CalibLoop
+      END;
+    END;
+  END ELSE WriteLn('No Joypad');
+
+  Write('Enter Midiport 3x0h (Enter=330h,ESC=NoSound)');
+  Cha:=ReadKey;
+  MusicOn:=False;
+  IF Cha=13 THEN Cha:=51;
+  IF(Cha>=48)AND(Cha<=57)THEN BEGIN
+    GMPort:=$301+(Cha-48)*16;
+    MusicOn:=True;
+  END;
+  Mustick:=0;
+  Mustick:=0;
+
+  StartUpGame;
+  Game;
+  UnloadGame;
+
+
+
+
+{REPEAT
+  ClrScr;
+  WriteLn('1 - Start Game ('+ToStr(I)+' left)  <ENTER>');
+  WriteLn('2 - Motion Editor');
+  WriteLn('3 - TestSound');
+  WriteLn('4 - Set Midi Port 330 (',GMPort=$331,')');
+  WriteLn('5 - Set Midi Port 300 (',GMPort=$301,')');
+  WriteLn('6 - Set FpSDiv (',FpSDiv,')');
+  WriteLn('7 - Music (',MusicOn,')');
+  Ch:=UpCase(ReadKey);
+  CASE Ch OF
+    #13,'1':BEGIN
+              StartUpGame;
+              Game;
+              UnloadGame;
+            END;
+    '2':StartEditor;
+    '3':TestSound;
+    '4':GMPort:=$331;
+    '5':GMPort:=$301;
+    '6':BEGIN
+          Write('Enter FpSDiv : ');
+          ReadLn(FpSDiv);
+        END;
+    '7':MusicOn:=NOT MusicOn;
+  END;
+UNTIL Ch=#27;}
+
+  closemidi;
+{  WriteLn('Intro : ',Intro);}
+END.

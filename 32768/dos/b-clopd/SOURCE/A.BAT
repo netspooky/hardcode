@@ -1,0 +1,2 @@
+tasm bhelp.asm
+exit

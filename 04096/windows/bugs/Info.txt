@@ -1,0 +1,38 @@
+ - B U G S - 
+
+
+A co-op 4k intro by Alien Prophets / mainloop
+
+ - R e q u i r e m e n t s -
+
+	Opengl 
+	Win2000 or WinXP (Bugs on Win98, -> thats why it's called BUGS :) )
+	TNT2 class card (or preferable better)
+	A sound card supported by windows (wave out)
+	Processor min. 300 MHz
+
+First shown at TRSAC August 2002
+
+
+ - C R E D I T S -
+	
+	Init code and basic .mod player 	: 	Jar / Alien Prophets
+	"Soft synth", Effects and optimizing 	: 	Master S / mainloop
+	Sound track				: 	Toxic Child / mainloop
+
+
+ - G R E E T I N G S -
+
+	All a TRSAC (hope this is good enough)
+
+	
+ - C O N T A C T -
+	
+	
+	Alien Prophets 	: 	www.alienprophets.dk
+	mainloop	: 	www.mainloop.dk
+
+
+
+
+ 		

@@ -1,0 +1,7 @@
+title: "camp logrus"
+size: 65503
+code: tree
+music: lesnik
+info: 320x200_32/24bpp + GUS
+
+that`s all folks!

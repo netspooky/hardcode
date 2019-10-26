@@ -1,0 +1,7 @@
+SETKA - Silnie Erotyczne Takty Koprocesora Arytmetycznego
+(Intensely Erotic Tacts Of Arithmetic Coprocessor)
+256 bytes intro
+---------------------------------------------------------
+coded by Pirx
+assembled with TASM 4.1
+July 2004, Belzyce - Poland

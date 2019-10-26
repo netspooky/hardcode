@@ -1,0 +1,12 @@
+1+2-3
+3.14*0.1/(0.45-0.1)
+atan(sin(1.5)/cos(-1.5))
+sinh(0.123)*cosh(0.9321)/atanh(-0.4)
+pow(2.0, log2(128.5))
+exp(log(15.))
+sqrt(pow(cos(0.72), 2.0) + pow(sin(0.72), 2.0))
+mod(12, 5)
+0xabc&0xffff^1234
+dot(vec3(1,0,2), vec3(3,4,5))
+gl_MaxTextureImageUnits
+

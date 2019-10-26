@@ -1,0 +1,29 @@
+#ifdef 64k_intro
+                       ; ---=== ^ Quick Lunch! ^===---
+
+#ifdef credits
+.code  ;-  the imp 
+.code  ;-  zcb
+.musak ;-  the imp ()
+.gfx   ;-  the x-man
+#endif
+
+#ifdef info-'n-stuff
+;--------------------
+;- this intro requires 570k conventional memory.
+;- supports gus and sb. ultrasnd or blaster environment string must be ok...
+;  or nosound.
+;- demo looping: command line switch -l,/l,-loop,/loop etc.
+#endif
+
+#ifdef greets-regards-and-all-of-that
+;------------------------------------
+;z13 / extatic
+;tsd / haven
+;megavision / haven
+;nallephu / haven
+;texas ranger
+;wurr
+#endif
+
+#endif

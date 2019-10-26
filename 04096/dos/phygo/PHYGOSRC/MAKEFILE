@@ -1,0 +1,4 @@
+all: demo.com
+
+demo.com: *.asm
+	nasm demo.asm -o demo.com

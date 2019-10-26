@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>API8</title>
+    <meta name="author" content="@AaBnssr">
+
+    <style>
+      @font-face {font-family: Topaz; src: url('topaz.woff2') format('woff2');}
+      html {
+        height: 100%;
+      }
+      body {
+        height: 100%;
+        margin: 0; padding: 0;
+        display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center;
+        text-align: center;
+        font: 24px Topaz;
+        background: #fff;
+      }
+      body > div {
+        width: 800px; height: 800px;
+        position:relative;
+      }
+      #canvas {
+        position: absolute; top:0; left:0;
+      }
+      #oscillo {
+        position: absolute; top:0; left:0;
+      }
+      #overlay {
+        position: absolute; top: 0; left: 0;
+        width: 100%; height: 100%;
+        color: rgba(0,0,0,0.5);
+        line-height: 1.5;
+        display: flex; flex-direction: column; justify-content: center; align-items: center; align-content: center;
+      }
+      h1 {
+        font-size: 128px;
+      }
+      h2 {
+        font-size: 64px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <canvas id="oscillo" width="800" height="800"></canvas>
+      <canvas id="canvas" width="800" height="800"></canvas>
+      <div id="overlay"></div>
+    </div>
+    <script src="api8.min.js"></script>
+  </body>
+</html>

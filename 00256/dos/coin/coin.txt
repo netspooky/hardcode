@@ -1,0 +1,2 @@
+move the coin/circle thing around with the mouse, click or press a button to exit, 
+it wraps around the sides of the screen, and spins :D

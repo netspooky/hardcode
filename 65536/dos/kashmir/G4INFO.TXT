@@ -1,0 +1,6 @@
+
+compo:  64kb na PC
+tytul:   "Kashmir"
+grupa: antidothum
+autorzy: code: yuda, music: beeper
+

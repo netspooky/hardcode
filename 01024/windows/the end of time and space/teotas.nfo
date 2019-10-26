@@ -1,0 +1,24 @@
+"The end of time and space" by kronik
+
+1k intro for Assembly Summer 2013
+
+Length: 1m 29s
+
+Requirements:
+  Windows XP or higher
+  Shader Model 3.0 capable video card
+  DirectX Runtime June 2010
+
+Tools used:
+  NASM
+  1kPack
+  Shader Minifier
+
+Thanks:
+  hitchhikr/Neural for developing and sharing his 1k framework and 1kPack tool
+  LLB/Ctrl-Alt-Test for developing and sharing the Shader Minifier
+  Tom Lowe (Tglad) for the Mandelbox fractal
+  iq/rgba for his great tutorials
+  and a big big thanx goes to Truck and the party organizers for helping me with remote submission :)
+
+Contact: kronikdsc@gmail.com

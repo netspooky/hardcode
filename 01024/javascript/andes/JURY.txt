@@ -1,0 +1,12 @@
+
+       Dear members of the jury,
+
+  ANDES was tested on the following
+
+ 1.5Ghz ASUS EEE with nVidia ION
+  3.5Ghz i7 with AMD Radeon HD6670
+
+   Opera 15, Chrome 28 and Firefox 22
+
+
+  Prefer Opera or Chrome in fullscreen

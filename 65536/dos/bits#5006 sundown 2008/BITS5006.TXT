@@ -1,0 +1,23 @@
+HiSt of BITS presents...
+
+BITS#5006 Sundown 2008
+
+Demo written 100% in assembler
+for PC MS-DOS operating systems.
+
+Some nice effects and AdLib rythms.
+
+ .--------------------------.
+ |S                         |
+ |U             /~~~\      2|
+ |N   /~~~\    |/~~~\|     0|
+ |D  |\___/|D  |\   /|     0|
+ |O  |     |    \~~~/      8|
+ |W   \___/      ~~~        |
+ |N                         |
+ |                          |
+ |.         :  '        BITS|
+ '--------------------------'
+
+WWW: http://bits.atari.org
+e-mail: h.samso@gmail.com

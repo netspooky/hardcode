@@ -1,0 +1,34 @@
+
+; Text to show in the intro. May use entire characterset.
+; 254 is a carriage return. 255 is a clearscreen command
+; and 0 represents the end of the text.
+
+Label Text1 Byte
+     DB   '                                 -= OutLaW TRiaD =-',254
+     DB   254
+     DB   '                              - Vulture / Main Coder -',254
+     DB   '                                 - Troop / Sysop -',254
+     DB   '                                 - DaZl / Artist -',254
+     DB   '                                - Xplorer / Artist -',254
+     DB   254
+     DB   '                                  BaSeD IN HoLLAnd',255
+
+     DB   '                           -= OuTLaW TRiaD DisTRo SiTEs =-',254
+     DB   254
+     DB   '                            BLueNoSe    +31 (0)345-619401',254
+     DB   '                           FiReHouSe    +31 (0)528-274176',254
+     DB   '                           The FoRCe    +31 (0)36-5346967',254
+     DB   "                           BuGs'R'Us    +31 (0)252-686092",254
+     DB   '                           The 7 AnGeLZ +31 (0)71-5128377',254
+     DB   '                           MaGiCWaRE    +39  6-52355532',254
+     DB   '                           ShOCkWaVe    +27  (011)888-6345',255
+
+     DB   254
+     DB   '                              - CHeCK OuR DisTRo SiTEs -',254
+     DB   254
+     DB   '                                 - AnD ThE INTeRNeT -',254
+     DB   254
+     DB   '                               - FoR aLL oUR ReLeaSeS -',254
+     DB   254
+     DB   '                                     - AnD MoRE! -',254
+     DB   0

@@ -1,0 +1,16 @@
+.:: remedy 2004
+.:: wild (phpdemo)
+.:: . . . . . . . . . . . . . . . 
+.:: the-second-all-at-the-party-mega-php-demo-vote-for-it
+.:: cnackers and even
+.:: . . . . . . . . . . . . . . .
+.:: http://emelie.uk.even.se/kalaspuff/phpdemo/
+.::
+.:: .info
+.::   the webserver should have writeaccess to the
+.::   directory where the phpdemo is installed, since
+.::   the fire-effect reads and writes there.
+.::
+.::   minimum: good internetconnection, nice computer
+.::   recommended: great internetconnection, übercomputer
+.::

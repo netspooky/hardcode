@@ -1,0 +1,23 @@
+
+#
+# ÄÄÄ void three extender ÄÄÄ (c) 2k-1 by franky@scene.at ÄÄÄ
+#
+
+stub.com	:       stub.obj
+
+#	/t  = link .com file
+#	/3  = enable 32-bit
+#	/x  = suppress .map file
+
+	@tlink /t /3 /x stub.obj
+
+	@if exist stub.obj del stub.obj
+
+stub.obj	:	stub.asm
+
+#	/l  = listing
+#	/p  = check pm overrides
+#	/m2 = 2 passes ( -> smaller code, sometimes ... )
+
+	@tasm /m2 /p /l stub.asm
+

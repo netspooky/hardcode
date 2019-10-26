@@ -1,0 +1,19 @@
+Return Of The Copper Tapes
+--------
+
+#X+1
+
+A 128b prod by lord Kelvin.
+
+I`ve seen an image of such effect in my previous demo.
+But that was just an image. An now...
+
+Thanks goes to:
+ BiTL, interrupts were evil, really
+ Optimus, yes it`s possible
+ All those, who were not afraid to thumbdown Copper Tapes.=)
+ Of course, anes and pirx, for thumbups
+
+Compiled with FASM.
+
+Great hello from Russia.

@@ -1,0 +1,64 @@
+
+€€€€≤‹‹‹
+€€ﬂﬂﬂﬂﬂﬂﬂﬂ   ‹ﬂﬂﬂﬂ‹                        ‹ﬂﬂﬂﬂ‹
+‹‹‹€€€ﬂﬂﬂ€≤≤€€ ‹‹‹€€€  ﬂ€≤≤€€ ‹‹‹€€€ﬂﬂﬂ€€€€€ ‹‹‹€€€ﬂﬂﬂ€€€€€ ‹‹‹€€€ﬂﬂﬂ€≤≤€
+∞€€€€€ ƒ ≤≤€€€ €€€€€€ ƒ ≤≤€€€ €€€€€€ ƒ €€€€€ ∞€€€€€‹‹‹€€€€€ ∞€€€€€ ƒ ≤≤€€
+±€€€€€› ﬁ≤≤≤€€ ±€€€€€› ﬁ≤≤≤€€ ±€€€€€›    ﬂﬂﬂ ±€€€€€›        ±€€€€€›  ≤≤≤€
+≤≤€€€€€ €€≤≤≤€ ≤≤€€€€€ €€≤≤≤€ ≤≤€€€€€        ≤≤€€€€€ €€€€€€ ≤≤€€€€€ﬂﬂ€≤≤‹
+ ﬂﬂﬂﬂ€€€€€ﬂﬂﬂ   ﬂﬂﬂﬂ€€€€€ﬂﬂﬂ   ﬂﬂﬂﬂ€€ ∞∞∞∞∞∞  ﬂﬂﬂﬂ€€€€€ﬂﬂﬂ   ﬂﬂﬂﬂ€€ €€€€€ ∞∞∞
+€€€€‹‹‹‹‹‹‹€≤˛          ﬂﬂﬂ‹‹‹‹‹ﬂﬂﬂﬂ                 ﬂﬂﬂ‹‹‹‹‹ﬂﬂﬂﬂ   €€ﬂﬂ
+€€≤€€€≤ﬂﬂﬂﬂ                                                              ·ÔÁ
+ ﬂﬂﬂﬂ
+                                outer world +
+                               k o r o z o n e
+
+                                    .oOo.
+
+                        michal 'jam' nostitz-jackowski
+                            p r o g r a m m i n g
+
+                        remigiusz 'traymuss' trzcionka
+                              c o m p o s i n g
+
+                          dawid 'tehation' trzcionka
+                           v i r t u a l i z i n g
+
+                             dawid 'dejvi' smigla
+                               p a i n t i n g
+
+                                    .oOo.
+
+          pentium . 32mb . svga . not accelerated . gus/sb . dos/win
+
+                                    .oOo.
+
+                                thanks goes to
+                           niklas beisert - mxmplay
+                              freddyv - usmplay
+                         firelight multimedia - fmod
+                              olegpro - 32lite
+                            markus oberhumer - upx
+
+                                    .oOo.
+
+  this is final version of outer world. some bugs are fixed, some parts are
+  slightly improved. for 'outer_sb' version i recommend to use oversampling
+                          for better sound quality.
+
+   sorry for slow raytracing.  it's true raytracing with no fakes like grid
+    interpolation or sth. raytracing engine is coded on my pentium 120 and
+  i am not able to use mmx/3dnow! also raytracing engine doesn't use bounding
+                       boxes or other speed up methods.
+
+   intro should work on any configuration but if you have problems with dos
+ versions i recommend to try to run it in minimal config (himem.sys only with
+                             sound card drivers)
+
+                                    .oOo.
+
+                             visit our homepage!
+                     <http://www.jam.krz.prv.pl/korozone>
+                    <http://republika.pl/jam_krz/korozone>
+
+                       to contact with us send email at
+                           <jam_krz@poczta.onet.pl>

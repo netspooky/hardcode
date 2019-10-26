@@ -1,0 +1,9 @@
+Import(['pkgconfig', 'env'])
+
+organica_src = Split("""
+    organica.c
+    """)
+
+if pkgconfig.get_uname() == 'Darwin': organica_src.append("SDLMain.m")
+
+test = env.Program('organica', organica_src)

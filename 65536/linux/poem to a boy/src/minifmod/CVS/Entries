@@ -1,0 +1,21 @@
+/makefile.win32/1.1.1.1/Wed Mar 13 21:51:30 2002//
+/mixer_fpu_ramp_asm.asm/1.1.1.1/Wed Mar 13 21:51:30 2002//
+/fmusic.c/1.4/Tue Mar 26 14:40:17 2002//
+/minifmod.h/1.2/Tue Mar 26 14:45:26 2002//
+/mixer.h/1.2/Tue Mar 26 14:47:17 2002//
+/mixer_clipcopy.c/1.2/Tue Mar 26 14:50:03 2002//
+/mixer_clipcopy.h/1.2/Tue Mar 26 14:50:07 2002//
+/mixer_fpu_ramp.c/1.2/Tue Mar 26 14:48:15 2002//
+/mixer_fpu_ramp.h/1.2/Tue Mar 26 14:48:33 2002//
+/music.h/1.2/Tue Mar 26 14:40:02 2002//
+/music_formatxm.c/1.2/Tue Mar 26 14:53:00 2002//
+/music_formatxm.h/1.2/Tue Mar 26 14:41:15 2002//
+/sound.h/1.3/Tue Mar 26 14:07:29 2002//
+/system_file.c/1.2/Tue Mar 26 14:48:53 2002//
+/system_file.h/1.2/Tue Mar 26 14:40:44 2002//
+/system_memory.h/1.2/Tue Mar 26 14:08:00 2002//
+/xmeffects.h/1.2/Tue Mar 26 14:49:41 2002//
+/genasminc.c/1.2/Tue Mar 26 15:49:26 2002//
+/makefile.linux/1.4/Tue Mar 26 18:11:24 2002//
+/fsound.c/1.6/Fri Mar 29 13:47:20 2002//
+D

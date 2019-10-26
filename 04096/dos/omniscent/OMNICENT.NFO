@@ -1,0 +1,141 @@
+
+                       ----====> Omniscent <====----
+
+General
+-------
+
+   Omniscent was done by Pinker of SANCTION for the Mekka '97. The song
+   was written by Nyphton.
+
+   Special thanks in alphabetical order :
+
+     - Andreas Mautsch     (beta testing)
+     - Axel Scheel Meyer   (MACM sources, nice IRC chat's)
+     - Christian Cohnen    (for his help on perspective texture mapping and
+	   						designing world and script)
+     - Funk                (forgive me the idea trying a 4K Descent)
+     - Stephanie Schepers  (moral and food support ;-) )
+
+       and all other SANCTION dudes for supporting this product !
+
+   Credits  :
+
+     - Coding : Pinker
+     - Music  : Nyphton
+
+
+Demo controls
+-------------
+
+   <Esc> stops the intro.
+
+
+System requirements
+-------------------
+
+   WARNING ! Omniscent uses an extremly aggressive memory management,
+   so give at least 300 Kb of free and fresh conventional memory to it !
+   Furthermore it writes data to the General Midi Port at 330h-331h.
+   On some older SCSI Controllers this may result in data loss on your SCSI
+   hard drives. There should be no probs running it with Win95, though :-)
+   Your computer needs at least 100Mhz pentium horse power.
+
+
+Sound
+-----
+
+   Omniscent will run one every General Midi compatible Soundcard.
+   The file snc_omni.com try's to find a GM-Port at 330h and will use
+   "nosound" if there is none. If your GM-Port is at 300h use the second
+   version: snc_o300.com.
+
+"normal" GUS:
+
+   Run the latest Version of Megaem (option -m100 will increase volume)
+
+GUS PNP:
+
+   Do not use the ROM-patches of the GUS-PNP, they will sound awful.
+   The best solution will be to use the old Megaem 3.06, because
+   it will use the normal patch bank.
+   Only if you have no other choice, you should try the internal ROM
+   by using megaem 3.10+ or iwsbos(/mpu401)
+
+MPU-401 compatible cards (e.g. WAVETABLE DAUGHTER BOARDS):
+
+   We have tested it with a Roland and a Yamaha board.
+   There may be the slight possibility that you won't be able to hear
+   any music.
+   In this case use a configuration with EMM386.EXE.
+
+SB AWE 32:
+
+   Someone from Creative Labe told me that you have to run the
+   GM-emulation tool twice, but I have not tested it.
+
+
+Technical stuff
+---------------
+
+Memory:
+
+   The intro uses 272K conventional DOS memory. It will run with or without
+   any memory managers (also under Windows 95 and OS/2).
+
+GFX:
+
+   15 different textures (3 animated, 1 transparent) of size 64 x 64 are
+   used. They are all calculated. The star is the only GFX stored in the
+   4K ( 25 bytes :) ). We use the scaled system font for the text.
+
+packer:
+
+   A LZSS77 dictionary packer combined with a dynamic multi-precision
+   arithmetic coder is used. The complete decoder is 133 bytes
+   (plus 30 bytes for copying etc.). The performance is equal to
+   RAR and ARJ. The unpacked size of the intro is 4782 bytes.
+   It is packed down to 3933 bytes.
+
+world:
+
+   The world consists of 144 Descent-Level cubes with 367 faces and 362
+   points. The level is based on the original Descent shareware level.
+
+song:
+
+   The song has four channels and 17 patterns with length 64, two are
+   played twice.
+
+camera & script:
+
+   The camera model is 3-axes and focal distance which builds up the world
+   matrix. Rotations are done over the local axis of the camera. The camera
+   is driven by a 125 bytes long script. We perform real 3D clipping at the
+   z-planes of the frustum to avoid overflow.
+
+rasterizer:
+
+   The rasterizer can draw any convex n-poly. It performs perspective
+   texture mapping (scanline subdivision) with gouraud shading.
+   Subpixeling/-texeling is used to improve quality.
+
+
+Greetz
+------
+
+#include <include/greets.lst>
+
+
+Attention
+---------
+
+Because of some guy in the organizer stuff of Mekka97 who seemed
+to have a temporary brain elapse, you'll find a 800k partyversion of
+the intro.
+Please delete this file immediately, it was spread by the organizers
+of Mekka97 and contains Megaem and Large.bnk.
+This version was intended to be used during the compo, but not
+as release version !
+So please stick to this one and spread it.
+
+

@@ -1,0 +1,3 @@
+release version showed no cubes. was below 4k
+debug version showed cubes. it was not below 4k
+so therefor.. a witch!

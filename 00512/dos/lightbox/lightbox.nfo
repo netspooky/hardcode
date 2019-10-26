@@ -1,0 +1,16 @@
+Lightbox 512b for MS-DOS
+October 2014
+
+This is a few light spinning in a cube room. I must admit that the .gif concept
+was much better because of more colours and faster framerate, but it basically
+looks the same.
+
+It was originally supposed to be 256b, but I was a bit over once I had the room
+rendered, so I just padded it out to 512b with some spinning lights to complete
+the scene. There is a tiny bit of space left in which I considered trying some
+palette tricks to create multi-coloured lights, but now I'm just out of time.
+
+Thanks to Harekiet for providing last minute palette code :)
+
+Find me on #asm on EFnet
+dila

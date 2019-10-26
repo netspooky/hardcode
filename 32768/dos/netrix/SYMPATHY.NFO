@@ -1,0 +1,384 @@
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±± Ü  ±±±±±±±±±±±±±±±±±±±±±±±
+úúÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÛÛÜ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄúú
+  .           ú.                   ú   ø               ÛÛÛÛ    ú    ø         .
+        ú       þ        ÜþÜ                     ø     ÛÛÛÛ              °
+    ú     ø    Ü ßÜþßþßþß   ßÜþßßßßßßßßßßßßßßßßßßßß ßßßÛ²²Û ÛÜ ßßßßßßßßß ² ßßßß
+             ÜÛÛ                     ø     ú           ÛÛ²Û ÛÛÛÜ  ø    ÜÛÛ .
+  ÛÛÛßßßÛÛÜ ÛÛÛÛ  ßßß ßßßßßßßßÛÛÜ ÜÛÛÛßßßÛÜ ß ßßßßÛÛÛÜ ÛÛÛÛ ÛÛÛÛ  ÜÜÜ ÛÛÛÛ  ßßß
+ Û²²Û ° ÛÛÛ Û²²Û  ÛÛÛ ÛÛÛ ÛÛÛ Û²Û Û²²Û ÜÜÛß ÛÛÛ ° ÛÛÛÛ ÛÛÛÛ Û²²Û  ÛÛÛ Û²²Û  ÛÛÛ
+ ÛÛÛÛ   ßßß ÛÛ²Û  Û²Û Û²Û Û²Û Û²Û ÛÛ²Û      Û²Û ± ÛÛ²Û ÛÛ²Û ÛÛ²Û  ÛÛÛ ÛÛ²Û  Û²Û
+  ßßßßßßÛÛÜ ÛÛÛÛ  Û±Û Û±Û Û²Û Û±Û ÛÛÛÛ ø    Û±Û ÜÜÛ²²Û ÛÛÛÛ ÛÛÛÛ ßÛÛÛ ÛÛÛÛ  Û±Û
+ ÛÛÛÛ ° ÛÛÛ ÛÛ²Û  Û°Û Û±Û Û±Û Û°Û ÛÛÛÛ   .  Û°Û   Û±±Û ÛÛ²Û ÛÛÛÛ  ÛÛÛ ÛÛÛÛ  Û°Û
+ Û²²Û ± ÛÛÛ Û²±Û  ÛÛÛ Û°Û Û°Û Û°Û ÛÛÛÛ      ÛÛÛ ° Û°°Û Û²±Û ÛÛÛÛ  ÛÛÛ ÛÛÛÛ  ÛÛÛ
+ ßÛÛÛÜÜÜÛÛß ßÛÛÛÜÜÜÜÜ ÛÛß ÛÛß ÛÛß ÛÛÛß   ø  ÛÛß ° ÛÛÛß ÛÛÛß ÛÛÛß  ÛÛÛ ßÛÛÛÜÜÜÜÜ
+                  ÜÜÜ                                          .  ÛÛÛ       ÜÜÜ
+  . ø         ÜÛ  Û²Û   °      ßßßßß ±ßß þ ßßßßßß ÜÜÜÜ   ßß Ü      ßÛ   ÜÛ  Û²Û
+       ú    ÜÛÛÛ  Û±Û   °                                     Û  ø    ÜÛÛÛ  Û±Û
+    ú       Û²²Û  Û°Û    ²   ‘ wHäRä FRiänDSHip h’S ’ n’Mä ‘   ±   .  Û²²Û  Û°Û
+       .    ÛÛ²Û  ÛÛÛ     ß                                     °     ÛÛ²Û  ÛÛÛ
+            ßÛÛÛÜÜÛÛß       ß ÜÜ   ÜÜÜÜ° þ   ÜÜÜ ß±ÜÜÜÜÜ  þ     °     ßÛÛÛÜÜÛÛß
+V0.9d      ø              ø
+úúÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄiNFo-FiLeÄÄúú
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ú ú -Ä-Ä-ÄÄÄÄÄÄ-ÄÄ-ÄÄÄÄÄúÄ/\/Äú SMP-NETX.ZIP úÄ\/\ÄúÄÄ-ÄÄÄÄ-ÄÄÄ-Ä-Ä-Ä-- ú ú±±±
+±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ú úù-ù--ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---ù-ùú ú±±±±ú úù-ù--ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---ù-ùú ú±±±
+±± CODED BY [Excess & Striker      ]°°±± RELEASE DATE  [30.03.97]            °°±
+±± GFX BY   [TeASy                 ]°°±± RELEASE PLAZE [Mekka&Symposium '97] °°±
+±± SOUND BY [TeASy                 ]°°±± DiSK[S]       [01/01]               °°±
+±±ú úù-ù--ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---ù-ùú ú°°±±ú úù-ù--ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---ù-ùú ú°°±
+±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±± ú úù-ù--ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---ù-ùú ú ±±±±±±±±
+±±±±±±±± [ ] Squeeker  [X] SB/AdLib  [ ] SB Pro   [ ] GUS    [ ] Midi   °°±±±±±±
+±±±±±±±± [ ] Ansi      [ ] CGA       [ ] EGA      [X] VGA    [ ] SVGA+  °°±±±±±±
+±±±±±±±± [ ] PACK      [ ] DEMo      [ ] INTRo    [ ] TXT    [X] SoUND  °°±±±±±±
+±±±±±±±± [X] GAME      [ ] Dos       [ ] OS/2     [ ] WiN 95 [ ] WiN NT °°±±±±±±
+±±±±±±±± ú úù-ù--ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---ù-ùú ú °°±±±±±±
+±±±±±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±± ú ú -Ä-Ä-ÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄúÄ/\/Äú CoMMeNT úÄ\/\ÄúÄÄÄÄÄ-ÄÄÄÄ-ÄÄÄ-Ä-Ä-- ú ú ±±±±
+±±±                                                                         °°±±
+±±±  Hiho friends arround..                                                 °°±±
+±±±                                                                         °°±±
+±±±  We hope you will enjoy this little piece of code like we have had      °°±±                                                                         °°±±
+±±±  while coding it for you. Sorry, but it was not able to check all       ±±                                                                         °°±±
+±±±                                                                         °°±±
+±±±  we license the organizers of the party to put this production on any   °°±±
+±±±  CD-ROM or digital media.                                               °°±±
+±±±                                                                         °°±±
+±±± ú ú -Ä-Ä-ÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄúÄ/\/Äú CoMMeNT úÄ\/\ÄúÄÄÄÄÄ-ÄÄÄÄ-ÄÄÄ-Ä-Ä-- ú ú °°±±
+±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±ú ú -Ä-Ä-ÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄúÄ/\/Äú MeMBeRs úÄ\/\ÄúÄÄÄÄÄ-ÄÄÄÄ-ÄÄÄ-Ä-Ä-- ú ú±±±±±
+±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±ÚúùÄùÄÄÄùÄÍÍÍ/.\ÍÍÍÄùú ORGANIZE úùÄÍÍÍ/.\ÍÍÍÄùÄÄÄùÄù¿±±±±±±±±±±±±±±±
+±±±±±±±±±±±±ú                                                   ù°°±±±±±±±±±±±±±
+±±±±±±±±±±±±ÀÄùÄÄ ÄÍÍÄ  ù  .  TeASy  ì  NiGHTMARe úùÄÍÍÍÄù ÄÍÍÄ Ù°°±±±±±±±±±±±±±
+±±±±±±±±±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±ÚúùÄùÄÄÄùÄÍÍÍ/.\ÍÍÍÄùú  DeMo-CoDEr úùÄÍÍÍ/.\ÍÍÍÄùÄÄÄùÄùú¿±±±±±±±±±±±±±
+±±±±±±±±±±ù                                                       ú°°±±±±±±±±±±±
+±±±±±±±±±±ÀÄùÍÄ ù SoMeBoDy  ì  ExCESs  ì  TeASy  ì  STriKEr ù ÄùÄùÙ°°±±±±±±±±±±±
+±±±±±±±±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±Ú úùÄùÄÄÄùÄÍÍÍ/.\ÍÍÍÄùú BBS-CoDEr úùÄÍÍÍ/.\ÍÍÍÄùÄÄÄùÄùú ¿±±±±±±±±±±±±±
+±±±±±±±±±±ú                                                       ú°°±±±±±±±±±±±
+±±±±±±±±±±ÀÄùÄÄ ÄÍÍÄ  ù ùÄùÄÄ  .  FAsTJaCk  ÄÍÍÄ . ÄÄÄùÍÄùù ùÄÄÍÄùÙ°°±±±±±±±±±±±
+±±±±±±±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±Ú úùÄùÄÄÄùÄÍÍÍ/.\ÍÍÍÄùú MuSiCiAn úùÄÍÍÍ/.\ÍÍÍÄùÄÄÄùÄùúÍÄ¿±±±±±±±±±±±±±
+±±±±±±±±±±ù                                                       ù°°±±±±±±±±±±±
+±±±±±±±±±±ÀÄùÍÄù NiGHTMaRe  ì  ANDy  ì  TeASy ì  Mindflower ÄÄùÄùÄÙ°°±±±±±±±±±±±
+±±±±±±±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±Ú úùÄùÄÄÄùÄÍÍÍ/.\ÍÍÍÄùú GrAPHiciAN úùÄÍÍ/.\ÍÍÍÄùÄÄÄùÄùú ¿±±±±±±±±±±±±±
+±±±±±±±±±±ú                                                       ù°°±±±±±±±±±±±
+±±±±±±±±±±ÀÄùÄ CoUGAr  ì  THe D0N ArTWoRx  ì  TeASy  ì  LoGiX ÄùÄùÙ°°±±±±±±±±±±±
+±±±±±±±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±ÚúùÄùÄÄÄùÄÍÍÍÍÍ/.\ÍÍÍÍÍÄùú MoDEMTrADEr/MaiLSwAPPEr úùÄÍÍÍÍÍ/.\ÍÍÍÍÍÄùÄÄÄùÄùú¿°±
+±ù                                                                           ú°±
+±ÀùÍùÄÄùÄÄ   NiGHTMaRe  ì  AcCESs  ì  TeASy  ì  Andy  ì  SoMeBODy úùÄÍÄùÄ úùÄÙ°±
+±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±ÚúùÄùÄÄÄùÄÍÍÍ/.\ÍÍÍÄùú SySOPs úùÄÍÍÍ/.\ÍÍÍÄùÄÄÄùÄùú¿±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±ù                                                  ù°°±±±±±±±±±±±±
+±±±±±±±±±±±±±±À ùÄù ÄùÄÄÄ TeASy  ì  PaNTHEr  ì  AcCESs ÄúùÄÍÄùÍÄùÙ°°±±±±±±±±±±±±
+±±±±±±±±±±±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ú ú-Ä-Ä-ÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄúÄ/\/Äú SyMPaTHy '96 úÄ\/\ÄúÄÄÄÄÄ-ÄÄÄÄ-ÄÄÄ-Ä-Ä--ú ú±±±±
+±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ú ú -Ä-Ä-ÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄúÄ/\/Äú GrOUp-NeWs úÄ\/\ÄúÄÄÄÄÄ-ÄÄÄÄ-ÄÄÄ-Ä-Ä-- ú ú±±±±
+±±                                                                          °°±±
+±±                   # We welcome Mindflower in our team!                               °°±±
+±±                                                                          °°±±
+±±ú ú -Ä-Ä-ÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄúÄ/\/Äú GrOUp-NeWs úÄ\/\ÄúÄÄÄÄÄ-ÄÄÄÄ-ÄÄÄ-Ä-Ä-- ú ú°°±±
+±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ú ú -Ä-Ä-ÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄúÄ/\/Äú The CLub NeWs úÄ\/\ÄúÄÄÄÄÄÄÄÄ-ÄÄÄ-Ä-Ä-- ú ú±±±±
+±±                                                                          °°±±
+±±                                                                          °°±±
+±±         01.11.1996                  "The Club" official born date        °°±±           
+±±                                                                          °°±±
+±±         Nov.  1996                        Splatterpunk become WHQ        °°±±
+±±         Dez.  1996                 Dark Angel become Host Germany        °°±±
+±±         Jan.  1997        The Next Generation become Host Hungary        °°±±
+±±         Jan.  1997                The Look BBS become Host Poland        °°±±
+±±         Feb.  1997                 Hyperbbs become Host Singapure        °°±±
+±±         Feb.  1997                  Count Zero become Host Norway        °°±±
+±±         Mar.  1997            Trail Blazer become Host Yugoslavia        °°±±
+±±         Mar.  1997                   Skateshop become Host Canada        °°±±
+±±         Mar.  1997           Mysterious Art become Host Argentina        °°±±
+±±         Mar.  1997      The incredible machine become Host Canada        °°±±
+±±                                                                          °°±±
+±± If ya are interested to join this scene network please ask ya local host °°±±
+±±                                                                          °°±±
+±±ú ú -Ä-Ä-ÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄúÄ/\/Äú The CLub NeWs úÄ\/\ÄúÄÄÄÄÄÄÄÄ-ÄÄÄ-Ä-Ä-- ú ú°°±±
+±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±  úùÄùÄÄÄùÄÍÍÍ/.\ÍÍÍÄùú ThE HQs & Memberboards úùÄÍÍÍ/.\ÍÍÍÄùÄÄÄùÄùú      ±±±±
+±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÄØÍÍÍÄÄÄ--ù-ùú úù-ù-ÄÄØÄÄ--ù-ùù-ùÄØÄ  ùù-   úù-ù-ÄÄÄØÄ ÄØÄ  úùÄØÄÄÄÄÄÍÍÍØÄ±±±±
+±± ú    Splatterpunk    .   TeASy   ú +49-NEW-NODES   .12H   Germany WHQ  ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍÄÄØÍÄ ÄÍØÍÄ  úùÄÄÍØÄ°°±±
+±± ú     Downstairs     .   Zteel   ú +45-9818-8132   .24H   Denmark HQ   ú °°±±
+±±ÄØÍÍÍÄÄÄ--ù-ùú úù-ù-ÄÄØÄÄ--ù-ùù-ùÄØÄ  ùù-   úù-ù-ÄÄÄØÄ ÄØÄ úùÄØÄ ÄÄÄÄÍÍÍØÄ°°±±
+±± ú     Count zero     ú  Yitzhaq  ú +47-5512-2962   .24H   Norway HQ    ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍ ÄØÍÄ ÄÍØÍÄ  úùÄÄÍØÄ°°±±
+±± :     The Scenet     :  Melan    ú +36-1-2285921   :24H   Hungary HQ   . °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍÄÄØÍÄ  ÄÍØÍÄ úùÄÄÍØÄ°°±±
+±± ú     Rage BBS       . S. Keyby  ú +39-6-52310645  .24H   Italy HQ     ú °°±±
+±±ÄØÍÍÍÄÄÄ--ù-ùú úù-ù-ÄÄØÄÄ--ù-ùù-ùÄØÄ  ùù-   úù-ù-ÄÄÄØÄ ÄØÄ  úùÄØÄÄÄÄÄÍÍÍØÄ°°±±
+±± ú      Look BBS      ú  Sir Fux  ú +48-94415621    .12H   Poland HQ    ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍÄÄØÍÄ ÄÍØÍÄ  úùÄÄÍØÄ°°±±
+±± :       SL1210       :  Ch:ilm   ú +31-43-4083796  :24H   Dutch HQ     : °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍ ÄØÍÄ  ÄÍØÍÄ úùÄÄÍØÄ°°±±
+±± ú      Hyperbbs      ú Lee C.Pin   +65-567-4879    .24H   Singapure HQ ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍ ÄØÍÄ  ÄÍØÍÄ úùÄÄÍØÄ°°±±
+±± : Mysterious Art I   :   Murk    ú +54-1-794-6797  :24H   Argentina HQ : °°±±
+±±ÄØÍÍÍÄÄÄ--ù-ùú úù-ù-ÄÄØÄÄ--ù-ùù-ùÄØÄ  ùù-   úù-ù-ÄÄÄØÄ ÄØÄ ú ùÄØÄÄÄÄÄÍÍÍØÄ°°±±
+±± : Mysterious Art II  :  Ethnic   ú +54-1-452-0152  :24H   Argentina HQ : °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍÄÄØÍÄ ÄÍØÍÄ  úùÄÄÍØÄ°°±±
+±± ú     The Asylum     .   Sike    ú +32-59-324094   .24H   Belgium HQ   ú °°±±
+±±ÄØÍÍÍÄÄÄ--ù-ùú úù-ù-ÄÄØÄÄ--ù-ùù-ùÄØÄ  ùù-   úù-ù-ÄÄÄØÄ ÄØÄ úùÄØÄ ÄÄÄÄÍÍÍØÄ°°±±
+±± :       A.C.E        :  Gandalf  ú +33-145887548   :24H   France HQ    : °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍÄÄØÍÄ ÄÍØÍÄ  úùÄÄÍØÄ°°±±
+±± ú      Sirius-B      ú Aphex Twin  +351-96-683875  .24H   Portugal HQ  ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍ ÄØÍÄ ÄÍØÍÄ  úùÄÄÍØÄ°°±±
+±± ú     Dark Angle     ú Panther   ú +49-2331-973717 .10H   Memberboard  ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÄ ÄØÍÄ  ÄÍØÍÄ úùÄÄÍØÄ°°±±
+±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±± úùÄùÄÄÄùÄÍÍÍ/.\ÍÍÍÄùú  Distros úùÄÍÍÍ/.\ÍÍÍÄùÄÄÄùÄùú ±±±±±±±±±±±±±±
+±±±±±±±±±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ÄØÍÍÍÄÄÄ--ù-ùú úù-ù-ÄÄØÄÄ--ù-ùù-ùÄØÄ  ùù-   úù-ù-ÄÄÄØÄ  ÄØÄ úùÄØÄÄÄÄÄÍÍÍØÄ±±±±
+±± ú   Artifical Dope   .  Lizard   ú +49-231-417584  .24H  28.8 ú Distro ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍÄ ÄØÍÄ ÄÍØÍÄ úùÄÄÍØÄ°°±±
+±± ú      X-Press       ú  Sinus    ú +49-30-40632377 .24H  28.8 ú Distro ú °°±±
+±±ÄØÍÍÍÄÄÄ--ù-ùú úù-ù-ÄÄØÄÄ--ù-ùù-ùÄØÄ  ùù-   úù-ù-ÄÄÄØÄ  ÄØÄ úùÄØÄÄÄÄÄÍÍÍØÄ°°±±
+±± ú     Dreamhold      ú  Demolux  ú +49-xx-xxxxxx   .24H  28.8 ú Distro ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍÄ ÄØÍÄ ÄÍØÍÄ úùÄÄÍØÄ°°±±
+±± ú      .mYSTic.      ú  Universe ú +49-69-514523   .24H  33.6 ú Distro ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍÄ ÄØÍÄ ÄÍØÍÄ úùÄÄÍØÄ°°±±
+±± :       Magic       :   Jockey   ú +49-don'tknow   :24H  28.8 ú Distro : °°±±
+±±ÄØÍÍÍÄÄÄ--ù-ùú úù-ù-ÄÄØÄÄ--ù-ùù-ùÄØÄ  ùù-   úù-ù-ÄÄÄØÄ  ÄØÄ úùÄØÄÄÄÄÄÍÍÍØÄ°°±±
+±± ú    Goodline BBS    ú  PsoftD   ú +36-96-364135   .24H  28.8 ú Distro ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍÄ ÄØÍÄ ÄÍØÍÄ úùÄÄÍØÄ°°±±
+±± ú The Next Generation.   (TR)    ú +36-96-414576   .24H  28.8 ú Distro ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍÄ ÄØÍÄ ÄÍØÍÄ úùÄÄÍØÄ°°±±
+±± ú    The Invaders    ú  Spookie ú  +33-0490312244  .24H  28.8 ú Distro ú °°±±
+±±ÄØÍÍÍÄÄÄ ù-  ÍÄ ÄÍ-ù-ÍØÄ-ù-úùÄÄÍÍÍØÍÍÍÄÄÄ--ù-ùúúùÄÄÍØÍÄ ÄØÍÄ ÄÍØÍÄ úùÄÄÍØÄ°°±±
+±± :      Szene 96      :   Yogi    ú      - - -      :24H  DSpD ú CDDiST : °°±±
+±±ÄØÍÍÍÄÄÄ--ù-ùú úù-ù-ÄÄØÄÄ--ù-ùù-ùÄØÄ  ùù-   úù-ù-ÄÄÄØÄ  ÄØÄ úùÄØÄÄÄÄÄÍÍÍØÄ°°±±
+±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±úÄ\/\Äú* Sysop should give us an answer to stay inúÄ\/\Ä±±±±±±±±±±±±±
+±±±±±±±±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±ú ú -Ä-Ä-ÄÄÄ-ÄÄÄ-ÄÄÄÄÄúÄ/\/Äú cOMPo HisToRy úÄ\/\ÄúÄÄÄÄÄ-ÄÄÄ-ÄÄÄ-Ä-Ä-- ú ú±±±±
+±±                                                                          °°±±
+±± TP6:       PC-DEMo cOMPo       "Natural"                     Place: 22   °°±±
+±±            GRaPHiC cOMPo       "Diogeues"                    Place: 37   °°±±
+±±                                                                          °°±±
+±± Comanet:   Music Compo         "Wat denn das?"               Place: 2    °°±±
+±±                                                                          °°±±
+±± Scenus'97  64KIntro Compo      "Plastic Noises(Preview)"     Place: 2    °°±±
+±±            M-channel Compo     "Show ya how 2 Dance"         Place: 5    °°±±
+±±            M-channel Compo     "Floodland"                   Place: 12   °°±±
+±±                                                                          °°±±
+±±ú ú -Ä-Ä-ÄÄÄ-ÄÄÄ-ÄÄÄÄÄúÄ/\/Äú cOMPo HisToRy úÄ\/\ÄúÄÄÄÄÄ-ÄÄÄ-ÄÄÄ-Ä-Ä-- ú ú°°±±
+±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±If ya like to contact us for joining Sympathy, simply send something   ±±±±±
+±±±±of ya work to our organizers via email or snailmail.                   °°±±±
+±±±±We always like to get some more friends and contacts (mailswapping :)  °°±±±
+±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±TeASy/Sympathy         : If ya wanna join our Szenenet "The.CLuB" than ±±±±±
+±±±±Ilja Roese             : please call his board for apply!              °°±±±
+±±±±Eichendorffstr. 20     : He looks out for more cool/fast friends for   °°±±±
+±±±±58730 Fr”ndenberg      : mailswapping!! 100% answer to everyone!       °°±±±
+±±±±Germany                : (No handle on envelope please!)               °°±±±
+±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±Nightmare/Sympathy     : He looks out for more hot/fast friends for    ±±±±±
+±±±±Manfred Fischer        : mailswapping. Contact him also for joining us °°±±±
+±±±±Fssener Str. 15a      : (No handle on envelope please!)               °°±±±
+±±±±87471 Durach           :                                               °°±±±
+±±±±Germany                :                                               °°±±±
+±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±Somebody/Sympathy      : He really likes to get some more contacts for ±±±±±
+±±±±Wolfram Wiesemann      : hot mailswapping (only Coding orientated).    °°±±±
+±±±±Kopernikusstrasse 15   : (No handle on envelope please!)               °°±±±
+±±±±65193 Wiesbaden        :                                               °°±±±
+±±±±Germany                :                                               °°±±±
+±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±Andy/Sympathy          : He really likes to get some more contacts for ±±±±±
+±±±±Andreas Dubois         : hot mailswapping (only Music orientated).     °°±±±
+±±±±Starenweg 9            : (No handle on envelope please!)               °°±±±
+±±±±89584 Ehingen          :                                               °°±±±
+±±±±Germany                :                                               °°±±±
+±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±email is the fastest way to get in touch with us...±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±þúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþ°°±±±±±±±±±±±±
+±±±±±±±±±±±±±±±þ  TeASy:            teasy@vegadome.ping.de        °°±±±±±±±±±±±±
+±±±±±±±±±±±±±±±ú  Nightmare:        101471.435@compuserve.com     °°±±±±±±±±±±±±
+±±±±±±±±±±±±±±±   Panther:          Panther@MAGIC.TOPNET.SUB.DE   °°±±±±±±±±±±±±
+±±±±±±±±±±±±±±±   Andy:             McAndy1@aol.com              þ°°±±±±±±±±±±±±
+±±±±±±±±±±±±±±±   Visionmike:       visionmike.vegadome.ping.de  ú°°±±±±±±±±±±±±
+±±±±±±±±±±±±±±±þúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþúþ°°±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±ÚúùÄùÄÄÄùÄÍÍÍ/.\ÍÍÍÄùú . HoMePaGe  úùÄÍÍÍ/.\ÍÍÍÄùÄÄÄùÄùú¿±±±±±±±±±±±
+±±±±±±±±±±±±ù                                                       .°°±±±±±±±±±
+±±±±±±±±±±±±.       http://members.aol.com/mcandy1/dusk.htm         ú°°±±±±±±±±±
+±±±±±±±±±±±±ù                                                       ú°°±±±±±±±±±
+±±±±±±±±±±±±ÀÄùÍÄ ù ÄÍÄùÄ ÄÍÍÄ  Managed by AnDy!  Äùù  ÄÄÄùÄù ù ÄùÄùÙ°°±±±±±±±±±
+±±±±±±±±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±         úú--ÄÄ[þ]Ä---úú  oUR GrOUp GrEETiNGs  úú--ÄÄ[þ]Ä---úú        ±±±±±±
+±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±± Abaddon - Absence - Acme - Amabee - anarchy - Arkham - Atlantic      ±±±±±±
+±±±± Autumn - BCI -  Beyond - Blasphemy - Bottom - Byteam - Byteland      °°±±±±
+±±±± Camorra - Capacala - Capella - Cobra Creations - Color - Consub      °°±±±±
+±±±± Contact - Coral - Crusaders - Cryonics - Cubic Team - Cultrax        °°±±±±
+±±±± Death - Decline - Dementia - Demolition - Demonic Productions        °°±±±±
+±±±± Devain - Dilemma - Dimension -  Distortion - Division 3o3 - Dolphin  °°±±±±
+±±±± Dupe - Eclipse - Elysium - Emporer - Enigma - Escape - Esteem        °°±±±±
+±±±± Exmortis - Exobit - Explizit - Extreme -Fascination - Fatal Justice  °°±±±±
+±±±± Fedcon - Fortress - Fresstyle - Fudge - Funk - Garbage - gasp inc    °°±±±±
+±±±± Grinders - Gollum - Gore Design - Guild - Hatha - Hellcore           °°±±±±
+±±±± Hemoroids - Himbeereis - Hypervibe - Hypnotize - ICT - Impact Studios°°±±±±
+±±±± Imphobia - Implant - Index - Interamnia - Intricate Design           °°±±±±
+±±±± Inzane PC - Jinx - Just for fun - Kaoz - Keen Like Frogs             °°±±±±
+±±±± Legend Design - Light Society - Lkcc - Loom - M&M - Maak - Mist      °°±±±±
+±±±± Mistery - Moon Hunters - N-Factor - Nail Design - Neutrom            °°±±±±
+±±±± No Comment - Nonsensial PC - Obfuscation - Ooze! - Orange - Pain     °°±±±±
+±±±± Paranoia - Pc Adventure - Phn - Picasso Point - Plasm - Progyon      °°±±±±
+±±±± Project Gabbangelion - Proxima - Pulp - Pulse - PWP - Ram Jam PC     °°±±±±
+±±±± Relentless - Ribbon - Ritual - Scorpio Division - Seen - SHC         °°±±±±
+±±±± Slaughter House - Spirit of Crime - Spirit New Style - Substance     °°±±±±
+±±±± Surprise Productions - Synthetic Minds - SzPoNt - Talent - TasTe     °°±±±±
+±±±± Taquart - The Black Fate - The Don Artworx - The Grid - Thitanium    °°±±±±
+±±±± TNG Team - Trash - T-Matic - UNk - Urinate! - Vos - Vandals (Finland)°°±±±±
+±±±± Vandals (Portugal) - Vision - Voodoo - Warm inside - Weird Magic     °°±±±±
+±±±± X-Treme - Yes - Yoe - Zyklop                                         °°±±±±
+±±±±                                                                      °°±±±±
+±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±    Yep... Teasy wants to send some hihos to following friends and    ±±±±±±
+±±±±                    partners in the scene (No Order!):                °°±±±±
+±±±±                                                                      °°±±±±
+±±±± Cybereagle^Esteem - CSSk d'unforgiven^Gasp inc - Demolux^No Comment  °°±±±±
+±±±± Vampire^Blasphemy - Ch:ilm^Explizit - Quick^Warm inside - Weed^Coral °°±±±±
+±±±± Jasper^Substance - Jochija^Shc - Interceptor^Shc - Outcast^NC        °°±±±±
+±±±± Java^Cyronics - Pyromania^Beyond - Brace^Consub - Maf^Camorra        °°±±±±
+±±±± Yitzhaq^Maak^Dr. Dyregod & Ko - (TR)^Contract^TNG Team - Sir Fux     °°±±±±
+±±±± Saffron^Dolphin - Hugo^Spirit New Style - Papst - Jupp               °°±±±±
+±±±± Seppe^Hatha^Weird Magic - Mr Logic^Weird Magic - Fugaz^Byteland      °°±±±±
+±±±± Magnum - Insane^Who Knows? - Yogi^Zyklop - Brach^Absence             °°±±±±
+±±±± Scoundrel^Emperor - PsoftD^Emperor - Snibble^Da Cheez Brigade        °°±±±±
+±±±± Lizard^Spirit of Crime - Cmos^Spirit of Crime - Velvet^Amable        °°±±±±
+±±±± McFLy^Thitanium - St Stofi - Blala^Byteam - Avran^Exmortis           °°±±±±
+±±±± Dead Kennedy^Escape - JE-Man^Finesse - Sinus^Funk - Execom^Realtech  °°±±±±
+±±±± Time Rider^The Realtime Crew - Underexposure^???                     °°±±±±
+±±±± Atomant^Picasso Point - Orthodox^Red Power - Solon^Fudge - Crunch^Yoe°°±±±±
+±±±± DJ Dasch^Black Fate - Saurax^T-Matic - Incarnate^Guild               °°±±±±
+±±±± Genma^Demolition - Viznut^PwP - Kenet^Ribbon - Cortex^Index          °°±±±±
+±±±± Maniac^Vandals - Super Keyby^Ritual - Zteel^Diffusion - Hando^CraCk  °°±±±±
+±±±± Melan^Astroidea - Gandalf^Pulse - Shadow^Scorpio Division            °°±±±±
+±±±± Camel^Intricate Design - Jea^Project Gabbangelion - Robius^Byteam    °°±±±±
+±±±± Assassin^Dimension - Baldrick^Jinx - EHA^SBR - Universe^Infinite     °°±±±±
+±±±± Splash - Manix - Shaman - Interceptor - Kezoomer^The Lost Souls      °°±±±±
+±±±± Hybris^Beam - Statix^Psychic Link - Choodak^Autumn - Mrock^Hellcore  °°±±±±
+±±±± Boo^Talent - Trinity^SHC - Gonzo - HaTHa - Oma^X-Treme               °°±±±±
+±±±± Aphex Twin^Vandals (Portugal) - Cyborg^Mistery - DarkTower^PLASM     °°±±±±
+±±±± Sike^Trash^Garbage - Ethnic^Fedcon Group - Aragon^Vision - Spookie   °°±±±±
+±±±± Reejii^Synthetic Minds and all Sympathy members and friends/contacts °°±±±±
+±±±± I forgot here Sorry!                                                 °°±±±±
+±±±±                                                                      °°±±±±
+±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±± PaNThER sends personal greets to following guys (No oRDEr)...        ±±±±±±
+±±±± Lizard^Spirit of Crime - Cmos^Spirit of Crime - Outcast^No Comment   °°±±±±
+±±±± GoD^No Comment - Demolux^No Comment - SCHAMANE^Soc^Pain^Dh - Scorpion°°±±±±
+±±±± Angel of Paradies - Papst - Oni^X-Treme - Slider^SCG - Guybrush      °°±±±±
+±±±± All Sympathy Members - Cenobite^Spirit of Crime - Tiger^Pain - T4000 °°±±±±
+±±±± Ignaz - Crusader^Vos - Universe - Sinus^Funk! - PussyLover^Fact      °°±±±±
+±±±± Interceptor - Mirco - Micro - Julie - Firefox - Copkiller! - Ray     °°±±±±
+±±±± Case/Chiba-City BBS - Jocky/Magic BBS - Judge - Stardust^BCI -Slash  °°±±±±
+±±±± Turso/Paisly-Park BBS -  All Members of SHC & Net !!! - Jackman - Eha°°±±±±
+±±±± Jack^Danielz - Merlin/Ex-Space BBS - Trinity^Shc - Joshia^Shc -Shaman°°±±±±
+±±±± Bukaroo - Edda - Macgyer - DjDASCH -Timo/Ex-Xover BBS - Dodger^Soc   °°±±±±
+±±±± All Coma Net Dudes !!! - Donald/Substrade BBS - Manix - Splash       °°±±±±
+±±±± And all other friends i've forgotten !!!                             °°±±±±
+±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±± Excess greets: to all Sympathy members, Striker, Gott, Bob Rooney,   ±±±±±±
+±±±±                Batman, Ranger, Corpse, Schlingel, TJ, Tommy,         °°±±±±
+±±±±                Interceptor, Timo, Ice and all ITA's,TC-Net- & Magic  °°±±±±
+±±±±                BBS guys...                                           °°±±±±
+±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±± Somebody prays every night for the following people (no real order)  ±±±±±±
+±±±±                                                                      °°±±±±
+±±±± The whole 'magic' Sympathy crew - Bandee^Abaddon - Robo^Absence      °°±±±±
+±±±± Cortez^Absence^Bottom - Warlock^Absence - Akira^Pulse - Ax'Hell      °°±±±±
+±±±± Baloo^Loop - Goofy^Loop - Flap^Capacala - Case^Obfuscation           °°±±±±
+±±±± Civax^Moon Hunters - Draco^Division 303 - Dose^Iteramnia             °°±±±±
+±±±± Light Show^Eclipse - Exodus^Elysium - Darius^Enigma^Ooze             °°±±±±
+±±±± Voyager^Enigma^Ooze - BumbleBee^Enigma^Ooze - Hellfire^FJ^Death      °°±±±±
+±±±± Insanity^FJ^Death - Trader^Pulp - Flex^Relentless - Sleve^Fortress   °°±±±±
+±±±± Fortune^Fascination - Flynn^Gore Design - Ravemax^Himbeereis         °°±±±±
+±±±± Tooly^Hibeereis - Chronos^Himbeereis - Golem^Himbeereis - Razz^Inzane°°±±±±
+±±±± Izax Da Grin - Exocet^JFF - Faxe^Kaoz Team - Eartoaster^Consub       °°±±±±
+±±±± Medicus^K.L.F - Kwasior^Slaughter House - Braker^LKCC - Samael^Mist  °°±±±±
+±±±± Moses^Light Society - Kim Asmussen^Consub - Raptor^nearly^all        °°±±±±
+±±±± Sine^Nonsensial PC - Exl^Ram Jam - Submissive^Cubic Team & Seen      °°±±±±
+±±±± Shade^Dilemma - Stephan Kraus - Yarpen^Substance - Delta^Neutron     °°±±±±
+±±±± Torture - T. Hilden - Underexposure - Pro^Urinate! - Toaster^Atlantic°°±±±±
+±±±± The Don^TDA - Speedy^Funk and of course all the nice guys I forgot   °°±±±±
+±±±± (big sorry, please give me a message !!)                             °°±±±±
+±±±±                                                                      °°±±±±
+±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±± Access would like to send hihos to following contacts and friends:   ±±±±±±
+±±±±                                                                      °°±±±±
+±±±± sinus^funk - blade^phat - cosmic^rr - cirion^mean scheme^post morten °°±±±±
+±±±± poti^bm^phat^xps-stingray^simple - universe^infinity - gandalf^pulse °°±±±± 
+±±±± distance^orange - kimble - yogi^zyklop - lizard^spirit of crime      °°±±±±
+±±±± xtec^jak^tud^pot^vdo - tim - peter - my girlfriend andrea            °°±±±±
+±±±± and all members of sympathy                                          °°±±±±
+±±±±                                                                      °°±±±±
+±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±  We are looking for distribution sites all over the world, to spread  °°±±±
+±±±±  and handle all of our productions. To become one of our glory HQs or °°±±±
+±±±±    distro sites please send a short email with ya bbs-stats to Teasy  °°±±±
+±±±±         Please note that we only accept 100% Demo orientated BBS      °°±±±
+±±±±±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±

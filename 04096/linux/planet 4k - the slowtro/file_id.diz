@@ -1,0 +1,17 @@
+DIM4 presents..
+
+--- PLANET 4K - the slowtro ---
+
+the harder was not to find the name of the intro.
+It was coded under linux and had an initial support for sound. The sound was a pain for the ears and the compo machine didn't want to play it (some kind of censorship, or may be a user protection). 
+
+
+how to run it ?
+---------------
+-you need a linux, kernel 2.4 should do, 2.6 too, may be 2.2.
+-you need framebuffer support
+-you need to be root (yes, it is dirty, no doubt about it)
+-I recommand a knoppix to launch the intro, it is faily siiimple solution
+
+code : dZeus
+additionnal design : MyselF

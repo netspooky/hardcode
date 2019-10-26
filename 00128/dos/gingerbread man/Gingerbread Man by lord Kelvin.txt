@@ -1,0 +1,11 @@
+Smooth Mandelbrod
+--------
+
+A 128b prod by lord Kelvin.
+
+And here comes my second release. I think it's much more nice, than Smooth Mandelprod.=)
+Now I brought to you fractal called Gingerbread Man. When I saw this fractal for the first time I was really shocked...
+
+Compiled with FASM.
+
+Hello from Russia.=)

@@ -1,0 +1,8 @@
+party   : demo/fuckJS 2o14
+prod    : collapsing crystal cave world // the glassic intro
+code    : sensenstahl
+type    : intro / dos / 256b
+tool    : fasm
+message : Stirring up a JavaScipt nest with a DOS prod is fun!
+          B(r)owser approves! Bien du plaisir au visionnage :)
+          

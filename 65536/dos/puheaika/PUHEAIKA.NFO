@@ -1,0 +1,32 @@
+
+                            P U H E A I K A .
+                            -----------------
+                            *Asm99 64Kbintro*
+                            -----------------
+                            Dazed Productions
+                            -----------------
+
+
+Credits:
+--------
+Code&Design: Iustus (Taneli Riihonen)
+      Music: Wayout (Juho Hietala)
+
+
+Contact:
+--------
+      Email: tanelir@lyseolukio2.kajaani.fi
+        www: http://dzd.cjb.net
+
+Other:
+------
+    This intro is finished in hurry at partyplace. Only SB-support
+available. If no soundcard is found (no 'BLASTER' variable) intro will
+use nosound mode.
+    Used videomode is 320x200x16bit without LFB, so at least VBE1.2 required.
+If this mode is not found intro uses vgamode with RGB-223 palette.
+    Intro should work under win9x-dosshell, but please, run this one
+at real DOS! Also DOS32-extender is needed to execute.
+    Requires a fast (pII or better) computer.
+    
+

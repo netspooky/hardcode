@@ -1,0 +1,75 @@
+
+
+                  D E S I R E    presents    B O M B S C U B E
+
+                  A   64 k   demo   for   S U N D O W N   2012
+			   
+                      _.,=adEBNMRh,_
+               ,dRXEMSVP*"^'      "*$bq,_
+               $^  "*YWb,_              ^*Bhg,_
+              d'        ^*TBh,_              "*$Abg,_
+             ,K              "*YMg,_               ^*KQh,_
+             S`                   ^*TRq,_               "*8Qbm,_
+            ql                         "*YEb,_                ^*#Qb,_
+            @                               ^*T$h,_                "*@#bm,_
+           d'                                    "*YDg,_     _,gdNSF*^   dP
+          ,G                                          ^*GbdMWP*"        ,V
+                                                       B'               E
+         ¶#MW%e                              _d$Ng,   d'               4'
+         'B,  ¶b                   _jM@$QZb,cQ"  )@
+  ,edRB$b,l@   Wk,yGR$KM&$b,     ,dP"     Wl ]bsd%UR8BG6&$@DSyG#ZKM&$b$
+,dP      "T%L  'MGF      "*¶R_   Tg    "*4Zk,#I  YP   W"    7P      "*¶R
+4M   gd@    ^   ¶@   d@b   dQ$#@Z@R3L_    "*GMj  'W      ,gd$   d@b   9Q$#%b
+W#,  `M          Wb  `*  _4P   `Qk  *#N8L   `H5   @b   'QR7YK   `*  _4F"   Qk
+`6@L             dML            '@          ,BK   'M    ¶B  *b,            '#L
+  ^QBb,_     _,4&M°¶@=,_       _dGL       _gQKM    GL    @k  'Mg,_         _dG,
+    ]WBN5W$2#MNP"   "*G3WRM8&B5P"`Y@QNW3Z5P" ¶#$W8BRM3XZN87    "*GW[ hft ]W5P"`
+    _                                           ,               _
+   j*                                          dP              ,7
+   ^Qg,          J,                            X               W
+      "Sh_       B@,    L                     f'
+Zl              d'`M,  dQ  E!         dP                       Ml
+KAnmesg, .gemanq[  `N,jP$, GAxsnaq,   `Ymng, ,goawnmn N|    iR Wbmawse, ,eanmqr
+GL    J@ QL    )B   `W' TS CL    JD       )D G(       6L    )Z #!    l@ Gl  JP
+`YomazP' `TencsF'       `R,`TauemF' sauvnmP' `Ywnacsm `TmeaPVM `VnamoF' "Yed@mea
+              J'     "YM YG
+             ,P          `M  ,            X'          _,gXP
+                          N, Gh_         ,P       _,s#F^
+                               ^@g,      W    _,m6P^
+                                  "Bw,_ J'_,sEF"
+                                     "T$#QP^
+                                        "
+
+                                  C R E D I T S
+
+                          C O D I N G   -   S U B I
+                            M U S I C   -   S U B I
+              T E T R I S   L O G O S   -   S U B I
+      
+
+
+        Uses 4Klang softsynth (http://4klang.untergrund.net/) by Dominik
+                ´Gopher´ Ries and Paul ´pOWL´ Kraus of Alcatraz.
+
+      Uses Crinkler EXE compressor (http://www.crinkler.net/) by Rune L. H.
+       Stubbe (Mentor/TBC) and Aske Simon Christensen (Blueberry/Loonies).
+
+
+
+This is the 95% party version, please look out for the 100%!  I just had to
+sleep before the party... I can't do coding deathmarches any more, too old! ^_^
+
+Current issues:
+
+- Does NOT run properly on ATI/AMD graphics cards (none available to test with!).
+- Only 720 (no time to optimise for 1080)
+- Doesn't change the res.
+- Doesn't really end properly.  :)
+
+Sorry to Mary for using up our evenings coding this thing!
+
+Thanks to Hammerfist for the cool ASCII above!  Sorry I didn't get to use
+any of the shapes you made, they will be in the 100% version!
+
+Ramon B5 wanted a mention.  :)
+				  

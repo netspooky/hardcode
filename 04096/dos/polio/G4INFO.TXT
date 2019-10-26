@@ -1,0 +1,5 @@
+  title: Polio
+   type: 4k intro
+  group: Neurogen
+authors: magnum . pasp . led . plug
+   note: gus + himem.sys required!

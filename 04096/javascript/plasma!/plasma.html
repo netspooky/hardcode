@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Plasma!</title>
+<style>
+body { padding : 0px;	margin : 0px; }
+table {	width : 100%; height : 100%; margin : 0px; padding : 0px;	border-collapse : collapse; }	
+#d23 { position : absolute; top : 95%; right : 5%; color : #000000; font-size: 8pt;}
+a { color : #000000; }
+</style>
+<script>
+/* getElementById shortcut */
+$ 	  = function(el) { return document.getElementById(el); }
+/* random shortcut */
+rnd   = function(mx) { return Math.round(Math.random() * mx); }	
+/* Convert to hex string for css */
+toHex = function(v) {	var res = Number(v).toString(16); return res.length == 1 ? '0'+res : res; }	
+</script>
+<script src="plasma.js"></script>
+
+<script>
+var plasma;
+
+init  = function() { plasma = new Plasma(); plasma.init($('body')); setInterval('plasma.seed()', 10000); run(); }
+run		= function() { plasma.render(); setTimeout(run, 50); }
+
+
+</script>
+</head>
+<body id='body' onload="init()">
+<div id='d23'>d23 (c)2008<br/>
+<a href='javascript:plasma.seed()'>reseed</a>
+<a href='plasma499b.html'>499 byte version</a>
+</div>
+</body>
+</html>

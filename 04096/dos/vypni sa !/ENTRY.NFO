@@ -1,0 +1,4 @@
+"vypni sa !" by silique
+cpu:   MMX
+mem:   min 450kB conv.
+gr.:   VESA1.2 640x480x15b/640x480x16b 

@@ -1,0 +1,46 @@
+
+   Here is my entry in the 256 byte game contest.  It's called
+Thorn, and it requires a 286 with VGA to run.
+
+   All you need to do is clear the board until only one thorn remains. If
+you're an expert, you can finish with the last pin in the middle of the
+board, on square 16. 
+
+   First, choose a starting square by entering its number.  Single digit
+numbers need leading zeros, such as 07.  Then choose an empty square to
+jump to.  Don't ever hit ENTER, just type the two numbers.  Squares that are
+black and white are empty, and colored squares are occupied by thorns. You
+can only jump 2 squares horizontally or vertically and there must be a pin
+on the square jumped over.
+
+   Here's an example:
+
+		     06  07  08  09  10  11  12
+		    +---+---+---+---+---+---+---+
+		    | o	|   |   | o | o |   |	|
+		    +---+---+---+---+---+---+---+
+
+   You can take the thorn from square 09 and place it to square 11.  When
+you do this jump, the result will look like this:
+
+		     06  07  08  09  10  11  12
+		    +---+---+---+---+---+---+---+
+		    | o	|   |   |   |   | o |	|
+		    +---+---+---+---+---+---+---+
+
+
+   Notice that the the pins in 09 and 10 both went away, and a pin was
+moved into 11.  Also notice that in this example you can't move from
+square 06 horizontally.
+
+   Press ESC to exit Thorn.
+
+   Notice that a test for jumping across the sides of the board isn't
+implemented, due to size limitations.  And remember to put leading zeros
+in front of single digit numbers.
+
+Have fun!
+
+- Rodrigo (s5001pap@sun10.vsz.bme.hu)
+
+------------------------------------------------------------------------------

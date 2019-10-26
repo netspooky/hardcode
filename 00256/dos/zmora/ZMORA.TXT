@@ -1,0 +1,7 @@
+ZMORA - Zaawansowana Magia Obejmuje Rozumienie Asemblera
+(The Advanced Magic Includes Understanding Of Assembler)
+256 bytes intro
+--------------------------------------------------------
+coded by Pirx / IND
+assembled with NASM 2.09.03
+November 2010

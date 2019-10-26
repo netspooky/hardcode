@@ -1,0 +1,97 @@
+--- COMMAND da BONGA ---
+--- PARTY VERSION (Extended version coming up next) ---
+
+if you ever played command & conquer you will immediately be able to use 
+command da bonga. 
+
+we can't grant for a correct sound under windows. 
+
+--- RECOMMENDED ---
+-mouse (else the programm terminates)
+ (ibm compatible!)
+-P75+
+-DOS 5.0+
+-Adlib for music, SB for Fx
+-VGA adapter :-)
+
+
+
+--- MOUSE-FUNTIONS ---
+- you can easily reach each place of the battlefield by pressing the 
+  right mouse button over the radar.
+
+- you can select units (enemies only if no one of yours is selected)
+
+- you can select an area with units, by pressing the left mouse button,
+  hold it down and drawing then an outline around your desired soldiers. 
+  if you stop pressing the left mouse button all your units inside 
+  the rectangle will be selected.
+
+- you can give the attack-, move- or patrol-order to your units if you have 
+  them selected. the cursor changes in order to show you the best possible
+  action. the patrol order can be given by selecting an unit, pressing the 
+  red button on the sidebar and clicking on a suitable place on the 
+  battlescreen. the unit will patrol between the current position and 
+  the selected point until you stop it or an enemy causes a battle
+  interruption. you also can use 'p' for patrol-mode.
+  is an enemy near, the soldiers interrupt trying to defend theirself. 
+  note, that the route will not automatically retaken afterwards.
+
+- you can unselect all units by pressing the right mouse button.
+
+- you may assign seperate groups (platoons) and recall these troops. 
+  clicking with the right mousebutton on one of the "G 1"-"G 5" - buttons 
+  puts all selected units into this particular group. If a button is in use,
+  it will change its text color from green to brown. you'll see.
+  In case you want to free a group just click somewhere else and press
+  the right mouse button again with nothing selected. the group will
+  be dissolved and the button's color will than changed back.
+
+
+It's just that simple.
+
+
+- you can open the options-menu by clicking on "options". how expected.
+  from there you'll reach the game's load/save functions.
+
+
+--- KEYS IN GAME ----
+'x' spreads your units (good for discovering the map)
+'s' stops your units 
+'e' selects all units on the visible screen
+'a' selects all your units
+'p' patrol-mode
+
+
+--- SCORE ----
+		enemy lost	one of you lost
+EASY		100		- 50
+MEDIUM		200		-100
+TERROR		300		-150
+
+
+--- CRATES ---
+one crate is ALWAYS anywhere on the map. it contains a nice surprise and stays
+for a while. then it apears on another position with another thing inside...
+
+
+--- HIGHSCORE ---
+you could reset the highscore by pressing "r" while watching the highscore.
+but why?
+
+--- COMMAND LINE PARAMETERS ---
+use the -m option for mute gaming.
+
+
+HAVE A LOT OF FUN
+2nd moon
+
+
+
+
+
+
+
+
+
+lleh ot setag eht era swodniw

@@ -1,0 +1,16 @@
+* Carnegiea gigantea *
+
+released at Buenzli 14 / 4k 30 seconds single picture compo
+
+100% software rendering using a few polys with 9 samples per pixel 
+for your viewing pleasure - enjoy
+
+code: neospark
+
+big thanks to: toxie for motivating me to do this and 
+               frenetic for sharing his invaluable knowledge
+               gem for Dropper 2.0
+               and the authors of 20to4 
+               
+
+

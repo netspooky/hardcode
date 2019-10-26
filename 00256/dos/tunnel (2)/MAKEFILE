@@ -1,0 +1,8 @@
+
+tunnel.exe :  tunnel.obj
+            tlink tunnel.obj /t
+            del tunnel.obj
+            del tunnel.map
+
+tunnel.obj :  tunnel.asm
+            tasm tunnel.asm /m2

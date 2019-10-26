@@ -1,0 +1,192 @@
+2000-09-30  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* src/test.cpp (main): small change to make sure the compo version
+	doesn't loop endlessly at the end.
+
+2000-09-28  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* GNU-Linux/Makefile (VERSION): 1.0.8
+
+	* src/test.cpp: again some scripting, fixed some stuff in
+	rexim.lbm and added some tiles (bright/dark plane) to tiles.lbm. 
+
+	* src/tiles.h: created last animation.
+
+2000-09-27  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* GNU-Linux/Makefile (VERSION): 1.0.2
+
+	* src/test.cpp: Done a lot of scripting of the intro, most of it
+	is in place now. Also added another animation (only 1 more
+	required). 
+
+	so.. the only things left on the todo list are:
+	
+	- 1 more animation.
+	- some transitions.
+	- hack ddraw_8bit.c and x11_8bit.c to update a rectangle and not
+	  the whole buffer.
+
+	* GNU-Linux/Makefile (VERSION): 1.0.1
+
+	* src/*h: 
+	* src/test.cpp: everything else converted to 8bit, lots of stuff
+	fixed all over the place. 
+
+2000-09-26  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* GNU-Linux/Makefile (VERSION): 1.0.0-pre1
+
+	* src/blob.h: 
+	* src/polar.h: 
+	* src/jeeves64.h:
+	* src/typeface64.h:
+	* src/test.cpp: removed TinyPTC and replaced it with my own
+	TinyPTC 8bit remix :). 8bit should be a lot faster. Converted some
+	effects to 8bit (blob + polar/zon + typefaces + some jeeves
+	things), lots still to be done (plasma, zoem (eeeeek)).
+
+2000-09-24  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* GNU-Linux/Makefile (VERSION): 0.9.21
+
+	* src/test.cpp: 
+	* src/tiles.h: animated some things.
+
+2000-09-22  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* GNU-Linux/Makefile (VERSION): 0.9.20
+
+	* src/test.cpp (main): 
+	* src/plasma.h: 
+	* src/polar.h: 
+	* src/blob.h: changed/tweaked/fixed/designed lots of stuff.
+
+	* src/plasma.h: renamed from Buzz.h
+	* src/zoem.h: renamed from Scale.h
+	also converted most filenames back to their original
+	lowercase. (living on a vfat filesystem is not healthy).
+
+	* src/fxmp/drv_dsp.h: 
+	* src/fxmp/drv_dsp.c: finally fixed the waveOutGetPosition() code
+	in windows version of fxmp - it should work properly now on most
+	cards, although I now fear that not all soundcard drivers properly
+	support waveOutGetPosition() - that's the impression I got off
+	usenet anyway - needs some more research some day.
+
+2000-09-18  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* src/fxmp/Drv_dsp.c (dsp_soundout): small changes/fixes to the
+	win32 waveOut stuff. the get_bytes() / LATENCY stuff is working
+	properly with GDI/Windowed but is about a quarter of a pattern off
+	in ddraw/fullscreen mode. *sigh*.
+
+	* GNU-Linux/Makefile (VERSION): 0.9.18
+
+	* src/Scale.h (class Zzzoem): feedback zoom thingy.
+
+	* GNU-Linux/Makefile (VERSION): 0.9.17
+
+	* src/Test.cpp (class fx_eachframe): designed the small print, and
+	added some more useless info to msg[][].
+
+	* src/Jeeves64.h (vierkant): introduced vierkant, which is used in
+	the design of the small print.
+
+2000-09-17  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* src/Test.cpp (class fx_*): moved all effect initializations and
+	most of their parameters and to seperate classes to ease scripting
+	of the intro.
+
+	* src/Transition.h: Started working on some transitions, no decent
+	results yet. tr_h_cheapstretch() and tr_v_cheapstretch() however
+	work properly.
+
+2000-09-11  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* src/Voxel.h (class Voxel): small fixes/alterations.
+
+	* src/typeface64.h (Anim, Tile): added and modified some stuff to
+	support tiles. In the current sources the tiles + palette are in
+	stc/tmp.d/tiles.jtf.h and stc/tmp.d/tiles.act.h. The animations
+	and background maps are in src/Tiles.h.
+
+2000-09-10  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* src/Voxel.h (class Voxel): started voxel experiments.
+
+	* src/tinyptc-x11/x11.c (ptc_update): replaced ``ptc_close();
+	exit(0);'' which happens when a key is pressed with a return 0, so
+	I can do some cleanup before quitting.
+
+	* src/tinyptc-x11/x11.c (ptc_close): commented out an
+	XDestroyImage() call to prevent a segfault on my system. i need to
+	run this stuff on some other systems to determine if my X is
+	fucked or tinyptc-x11 is doing something wrong.
+
+2000-09-07  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* src/typeface64.h: newline support introduced for Outp() and
+	Outp2x(). (newline support will not be done for the regular
+	Out() as I expect it to be more useful for writing raw data tiles
+	than actual fonts).
+
+	* src/Buzz.h (class Plasma): improved the plasma a lot.
+
+2000-09-06  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* GNU-Linux/Makefile (VERSION): 0.9.12
+
+	* src/Buzz.h (zeshoekbehang): zeshoeken. look in the source for
+	more info.
+
+2000-08-29  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* src/Buzz.h (class Plasma ): wee. a crappy plasma. but this may
+	look nice with some kind of realtime photoshop-like filter ;)
+
+2000-08-27  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* tools/bin2h.cpp: v0.5, look in the source for details.
+
+	* GNU-Linux/Makefile (crlf): introduced `make crlf' which uses
+	hany's dos 2 unix converter to convert all source files to unix
+	format, and all textfiles to dos format.
+
+2000-08-14  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* src/test.cpp: added LinuxThreads support, which seems to work
+	fine now. This also includes setting the priorities of the threads
+	properly (it tries to get -20 in the hopes that a super user is
+	running it :).
+
+	* GNU-Linux/Makefile: elaborate makefile, 'cause beating autoconf
+	into using my weird directory structure might be fairly
+	complicated. (I don't want to mess up the src/ tree with platform
+	specific make- or projectfiles).
+	
+	* src/fxmp/drv_dsp.c: changed some stuff to make things work on an
+	SB Live! (tested on linux-2.4.0-test6).
+
+	* src/tinyptc-x11/*: linux support.
+
+2000-??-??  Kuno Woudt  <warp-tmt@dds.nl>
+
+	* src/typeface64.h: introduced typeface.h containing font writer
+	functions similar to Out() functions in Jeeves. Currently supports
+	writing mono coloured fonts to the pel buffers introduced
+	below. This includes an Outp() for proportional fonts, and even an
+	Outp2x() which is an Outp() which doubles the size of the font
+	(useful with the tDR font retro_5.jtf).
+
+	* src/jeeves64.h: introduced jeeves64.h containing a Buffer class
+	similar to the Buffer<> in Jeeves. Currently supports boxed pel
+	Buffers, and not much else. Have a look at the header files for
+	info on using it.
+
+	* src/fxmp/fxmp.c: changed to loop modules.
+
+	* src/tinyptc/*:
+	* src/fxmp/*: successfully ported fxmp to win32 and integrated it 
+	into gaffer's tinyptc to create Jeeves64 :)

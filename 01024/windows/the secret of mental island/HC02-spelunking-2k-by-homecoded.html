@@ -1,0 +1,221 @@
+<canvas id="V"></canvas>
+<script>
+    /**
+     * HC-02 Spelunking 2K
+     *
+     * for Outline 2015
+     *
+     * For minification:
+     *
+     * - Copy the code from second script tag and run it though
+     *    - Closure Compiler (on advanced settings [http://closure-compiler.appspot.com])
+     *    - Uglify (https://marijnhaverbeke.nl/uglifyjs)
+     *    - jsexe (options "-cb -mn -bn -ps" [http://www.pouet.net/prod.php?which=59298])
+     * - code compresses down to 2030 Bytes
+     */
+    V = document.getElementById('V');
+    C = V.getContext('2d');
+</script>
+<script>
+    with (V.style) {
+        width = innerWidth + 'px';
+        height = innerHeight + 'px';
+        position = 'absolute';
+        top = left = '0'+'px';
+        background = '#000';
+    }
+    V.width = innerWidth;
+    V.height = innerHeight;
+
+    var
+    // canvas
+            oAnimationCanvas = V.cloneNode(),
+            oAnimationContext = oAnimationCanvas.getContext('2d'),
+            oTextCanvas = V.cloneNode(),
+            oTextContext = oTextCanvas.getContext('2d'),
+            iWidth = oAnimationCanvas.width = 400,
+            iHeight = oAnimationCanvas.height = 300,
+            iTextWidth = oTextCanvas.width = 1200,
+            iTextHeight = oTextCanvas.height = 700,
+            aCanvasData = oAnimationContext.createImageData(iWidth, iHeight),
+    // animation
+            fAnimation,
+            iFrame = 0,
+    // world
+            iWorldWidth = 4024, // x
+            iWorldDepth = 1024, // y
+            x, y,
+    // tracer
+            iEyeBaseZ = 50,
+            fStretchX = 2,
+            fStretchY = 4,
+            iMaxStep = 45,
+    // music
+            t2 = 0,
+            mSound,
+            fBeat,
+    // poem in the end
+            sPoem = "I worked on this intro, day and night,0a surely brave and noble fight,0its code just needs one kilobyte,0but with no fitting compo in sight:00I release it here at Outline 4K,0to bring some JavaScript love to the tray.0I just added a text overlay,0worth about another 1K.00Sharing paves a loving road,0on github you will find the code.",
+            oSpeechUtterance = new SpeechSynthesisUtterance(),
+            iPoetLineId = 0,
+            fPoemOverlayAlpha = 0,
+            aPoetLines,
+            iAfterFrames = 0;
+
+    // setup speechutterance
+    oSpeechUtterance['lang'] = 'en-EN';
+    oSpeechUtterance['rate'] = 0.4;
+
+    // music at odd sample frequency, which saves some conversion (gives us 120 BPM, so it syncs with the time)
+    // 24985 Hz
+    for (mSound = 'RIFF_oO_WAVEfmt ' + atob('EAAAAAEAAQCZYQAAmWEAAAEACABkYXRh'); ++t2 < 4e6;) {
+        t = t2 / 1e5;
+        mSound += String.fromCharCode
+                (255 & (.6 *
+                        (127 & (100 * Math.sin(4 * Math.PI * t * [294, 220, 196, 123, 131, 165]["54525453"[7 &  t * 2]])
+                                * (.1+(1 & t / 8 ? Math.tan(Math.PI * t * 4) : Math.tan(Math.PI * t / 16)/4)) | (1024*("44434442"[7&t*2])) * t))
+                        +  Math.sin(32 * Math.PI * t * [294, 220, 196, 123, 131, 165]["3210512453241232"[15 & 4 * t]])
+                        * (20 + 20 * Math.sin(256 * t)) * (30 & t / 2 ? 1 : 0) + 100
+                        ));
+    }
+    (mSound = new Audio('data:audio/wav;base64,' + btoa(mSound))).play();
+
+    // animation
+    function render() {
+        iFrame++;
+        // get the current time from audio object so re really get the synching right
+        fAnimation = (mSound.currentTime/2);
+        fBeat = mSound.currentTime + 1;
+
+        // start-y and end-y values are set to get the black bars
+        // we also alternate the start value each frame to get the dithering look
+        for (y = iHeight/6 + (1 & iFrame); y < iHeight - iHeight/6; y+=2) {
+            // we also alternate x start, so we only paint a quater of the image plus getting a nice shader-like effect
+            for (x = 0 + 1 & iFrame >> 1; x < iWidth; x+=2) {
+                var fVecX = (x - iWidth / 2) * fStretchX,
+                        fVecY = (y - iHeight / (2 + Math.sin(fAnimation)/2)) * fStretchY,
+                        fLength = Math.sqrt(fVecX * fVecX + fVecY * fVecY + iEyeBaseZ * iEyeBaseZ),
+                        fStepX = (fVecX / fLength) * fLength / Math.abs(iEyeBaseZ),
+                        fStepY = (fVecY / fLength) * fLength/Math.abs(iEyeBaseZ),
+                        fStepZ = (iEyeBaseZ / fLength) * 6,
+                        // rotation around x and z
+                        fStepRotX = fStepX * Math.sin(fAnimation / 5) + fStepZ * Math.sin(fAnimation / 5 + Math.PI/2+ fBeat*(1&fBeat>>6)),
+                        fStepRotZ = fStepZ * Math.sin(fAnimation / 5) - fStepX * Math.sin(fAnimation / 5 + Math.PI/2),
+                        fX = x * fStretchX + 1000 + 500 * Math.sin(fAnimation / 16),
+                        fY = y * fStretchY + 4000 + 2000 * Math.sin(fAnimation / 8),
+                        fStartZ = 512 + fAnimation * 800,
+                        fZ = fStartZ,
+                        // number of steps for the raymarcher
+                        iNumStep = 0,
+                        // index in the image data array
+                        iIndex = (x + (iHeight - y) * iWidth) * 4,
+                        // start value for the ray-step increase (the ray-mach step length is variable)
+                        fStepFactor = 1
+                        ;
+                for (; iNumStep++ < iMaxStep;) {
+                    fX += fStepFactor * fStepRotX;
+                    fY += fStepFactor * fStepY;
+                    fZ += fStepFactor * fStepRotZ;
+                    fStepFactor+=1.5 + Math.random()/2;
+
+                    if (    (fY > 9000|| fY < 0
+                            || ((fX)&4096&&(fX + (1&fBeat>>5)*(fY/2*(3&fBeat)) )&2048&&fZ&1024)
+                            || fY < (1e3 * Math.sin(3*Math.PI * fX / iWorldWidth)
+                            + 1e3 * Math.sin(Math.PI * fZ / iWorldDepth))
+                            )
+                            )
+                        break;
+
+                }
+
+                aCanvasData.data[iIndex++] = 127 + 127 * Math.sin((fAnimation/2) + (fX+fZ+fY) / 6000);
+                aCanvasData.data[iIndex++] = 127 + 127 * Math.sin((fAnimation/2) + (fX+fZ+fY) / 8000);
+                aCanvasData.data[iIndex++] = 127 + 127 * Math.sin((fAnimation/2) + (fX+fZ+fY) / 10000);
+                aCanvasData.data[iIndex++] = 255 - 255 * (iNumStep*iNumStep) / (iMaxStep*iMaxStep*((1+(7&fBeat)*(1&fBeat>>5))))
+            }
+        }
+
+        // draw raymarched image
+        oAnimationContext.putImageData(aCanvasData, 0, 0);
+        oTextContext.clearRect(0,0,iTextWidth, iTextHeight);
+        C.clearRect(0,0,innerWidth,innerHeight);
+        C.drawImage(oAnimationCanvas, 0, 0, iWidth, iHeight, 0, 0, innerWidth, innerHeight);
+
+        // draw the text overlay
+        oTextContext.fillStyle = '#FFF';
+        if (fBeat < 16) {}
+        else if (fBeat < 32) {
+            oTextContext.font = '80px arial';
+            oTextContext.fillText('S  P  E  L  U  N  K  I  N  G', 150 + Math.sin(Math.PI * (fBeat%16)/16) * 20, 530);
+            oTextContext.font = '20px arial';
+            oTextContext.fillText('T H I S  I S', 450 + Math.cos(Math.PI * (fBeat%16)/16) * 20, 450);
+        }
+        else if (fBeat < 48) {
+            oTextContext.font = '80px arial';
+            oTextContext.fillText('homecoded // DESiRE', 150 + Math.sin(Math.PI * (fBeat%16)/16) * 20, 530);
+            oTextContext.font = '20px arial';
+            oTextContext.fillText('A JavaScript canvas intro in 2K by', 450 + Math.cos(Math.PI * (fBeat%16)/16) * 20, 450);
+        }
+        else if (fBeat < 64) {}
+        else if (fBeat < 80) {
+            oTextContext.font = '80px arial';
+            oTextContext.fillText('G R E E T I N G S', 150 + Math.sin(Math.PI * (fBeat%16)/16) * 20, 530);
+            oTextContext.font = '20px arial';
+            oTextContext.fillText('HellMood, Dascon, Triace, Soundy, Hammerfist, No-XS, guyfrost, Crayfish77', 450 + Math.cos(Math.PI * (fBeat%16)/16) * 20, 450);
+        }
+        else if (fBeat < 96) {
+            oTextContext.font = '80px arial';
+            oTextContext.fillText('R E S P E C T S', 150 + Math.sin(Math.PI * (fBeat%16)/16) * 20, 530);
+            oTextContext.font = '20px arial';
+            oTextContext.fillText('sensenstahl, p01, aemkai, cb, siorki', 350 + Math.cos(Math.PI * (fBeat%16)/16) * 20, 450);
+        }
+        else if (fBeat < 112) {
+            oTextContext.font = '80px arial';
+            oTextContext.fillText('A D M I R A T I O N ', 150 + Math.sin(Math.PI * (fBeat%16)/16) * 20, 530);
+            oTextContext.font = '20px arial';
+            oTextContext.fillText('adinpsz, ASD, cocoon, Conspiracy, The Deadliners, Fairlight', 450 + Math.cos(Math.PI * (fBeat%16)/16) * 20, 450);
+        }
+        else if (fBeat < 144) {}
+        else if (fBeat < 160) {
+            oTextContext.font = '80px arial';
+            oTextContext.fillText('O U T L I N E  2 0 1 5', 150 + Math.sin(Math.PI * (fBeat%16)/16) * 20, 530);
+            oTextContext.font = '20px arial';
+            oTextContext.fillText('Thank you!', 350 + Math.cos(Math.PI * (fBeat%16)/16) * 20, 450);
+        }
+        else {
+            iAfterFrames++;
+            // show poem after 50 frames after music stops
+            if (iAfterFrames > 50) {
+               aPoetLines = sPoem.split(0);
+                for (i = 0; i < aPoetLines.length; i++) {
+                    oTextContext.font = '20px arial';
+                    oTextContext.fillText(aPoetLines[i], 100, 190 + i * 30);
+                }
+                oTextContext.fillText('https://github.com/homecoded/demo', 750, 440);
+                oTextContext.font = '80px arial';
+                oTextContext.fillText('T H E  E N D', 620, 520);
+
+                if (iPoetLineId == 0) {
+                    oSpeechUtterance.text = aPoetLines[iPoetLineId++];
+                    speechSynthesis.speak(oSpeechUtterance)
+                    oSpeechUtterance.addEventListener('end', function () {
+                        if (iPoetLineId < aPoetLines.length) {
+                            // this is a fix for some users who have a Brittish utterance installed
+                            // there, 1K is pronounced as "One Kelvin"
+                            // by replacing with "1 kay" we can fix the issue
+                            oSpeechUtterance.text = aPoetLines[iPoetLineId++].replace('1K', '1 kay').replace('4K', '4 kay');
+                            speechSynthesis.speak(oSpeechUtterance)
+                        }
+                    });
+                }
+                fPoemOverlayAlpha = Math.min(.5, fPoemOverlayAlpha +.01);
+            }
+        }
+        C.globalAlpha = (fBeat < 161) ? Math.sin(Math.PI * (fBeat%16)/16)/2 : fPoemOverlayAlpha;
+        C.drawImage(oTextCanvas, 0, 0, iTextWidth, iTextHeight, 0, 0, innerWidth, innerHeight);
+        C.globalAlpha = 1;
+        requestAnimationFrame(render);
+    }
+    render();
+</script>
+

@@ -1,0 +1,269 @@
+	Howdy all, the Friendly Neighborhood Roach here with an interesting tutorial that will help you get your apps top notch. In the realm of getting your OpenGL programs to look better, a big problem we all run into is aliasing. That is, the square edged "jaggies" that exist on diagonal lines in relation to the square pixels that exist on your screen. Ie, Bad Mojo. The answer, termed Anti-Aliasing, is used to smudge those "jaggies" in order to create a smoother edge for objects. One process used to achieve anti-aliasing is called "Multisampling." The idea is that for each pixel, we sample the pixels around it to determine if this edge needs to be anti-aliased, basically, we discard the jaggies by "smudging" the pixel itself.
+
+Fullscreen AntiAliasing is something that non-realtime rendering programs have always had an advantage in. However, with current hardware, we're able to pull off the same effect real time. The ARB_MULTISAMPLE extension allows us to do this. Essentially, each pixel is sampled by it's neighbors to find out the optimal antialias to perform. This comes at a cost however, and can slow down performance. 	
+		
+
+	Vid_mem = sizeof(Front_buffer) + sizeof(Back_buffer) + num_samples
+		* (sizeof(Front_buffer) +sizeof(ZS_buffer))
+
+		
+	For more specific information on anti-aliasing, as well as the information I'm about to present, please check out the following links:
+
+GDC2002 -- OpenGL Multisample
+OpenGL Pixel Formats and Multisample Antialiasing
+
+With that being said, a brief overview of how our process is going to work. Unlike other extensions, which relate to OpenGL rendering, the ARB_MULTISAMPLE extension must be dealt with during the creation of your rendering window. Our process shall go as follows:
+
+   1. Create our Window as normal
+   2. Query the possible Multisample pixel values (InitMultisample)
+   3. If Multisampling is available, destroy this Window and recreate it with our NEW pixelFormat
+   4. For parts we want to antialias, simply call glEnable(GL_ARB_MULTISAMPLE);
+
+Let's start off from the top, and talk about our source file arbMultiSample.cpp. We start off with the standard includes for gl.h & glu.h, as well as windows.h, we'll talk about arb_multisample.h later. 	
+		
+
+#include <windows.h>
+#include <gl/gl.h>
+#include <gl/glu.h>
+#include "arb_multisample.h"
+
+		
+	The two lines below define our access points into the WGL string listing. We'll use these in accessing the pixel format attributes to test for our sample format. The other two variables are used other places in the program to access our data. 	
+		
+
+// Declarations We'll Use
+#define WGL_SAMPLE_BUFFERS_ARB	0x2041
+#define WGL_SAMPLES_ARB		0x2042
+
+bool	arbMultisampleSupported	= false;
+int	arbMultisampleFormat	= 0;
+
+		
+	The next function we're going to talk about is WGLisExtensionSupported, which will be used to query the WGL extensions listing to verify if a given format is supported on the system. We'll provide the description of the code as we walk through it, because it's easier to do that then all the html back and forth jumping....
+
+NOTE: The code below was rewritten by Henry Goffin. His update adds: Better parsing of the supported GL Extensions and fixes a problem with the fallback code if the first check was to fail. 	
+		
+
+bool WGLisExtensionSupported(const char *extension)
+{
+	const size_t extlen = strlen(extension);
+	const char *supported = NULL;
+
+	// Try To Use wglGetExtensionStringARB On Current DC, If Possible
+	PROC wglGetExtString = wglGetProcAddress("wglGetExtensionsStringARB");
+
+	if (wglGetExtString)
+		supported = ((char*(__stdcall*)(HDC))wglGetExtString)(wglGetCurrentDC());
+
+	// If That Failed, Try Standard Opengl Extensions String
+	if (supported == NULL)
+		supported = (char*)glGetString(GL_EXTENSIONS);
+
+	// If That Failed Too, Must Be No Extensions Supported
+	if (supported == NULL)
+		return false;
+
+	// Begin Examination At Start Of String, Increment By 1 On False Match
+	for (const char* p = supported; ; p++)
+	{
+		// Advance p Up To The Next Possible Match
+		p = strstr(p, extension);
+
+		if (p == NULL)
+			return false;						// No Match
+
+		// Make Sure That Match Is At The Start Of The String Or That
+		// The Previous Char Is A Space, Or Else We Could Accidentally
+		// Match "wglFunkywglExtension" With "wglExtension"
+
+		// Also, Make Sure That The Following Character Is Space Or NULL
+		// Or Else "wglExtensionTwo" Might Match "wglExtension"
+		if ((p==supported || p[-1]==' ') && (p[extlen]=='\0' || p[extlen]==' '))
+			return true;						// Match
+	}
+}
+
+		
+	The next function is the gist of the program itself. Basically, we're going to query if our arb extention is supported on the system. From there, we'll move on to querying our device context to find out the scope of our multisample. Again... let's just jump into the code. 	
+		
+
+bool InitMultisample(HINSTANCE hInstance,HWND hWnd,PIXELFORMATDESCRIPTOR pfd)
+{  
+	// See If The String Exists In WGL!
+	if (!WGLisExtensionSupported("WGL_ARB_multisample"))
+	{
+		arbMultisampleSupported=false;
+		return false;
+	}
+
+	// Get Our Pixel Format
+	PFNWGLCHOOSEPIXELFORMATARBPROC wglChoosePixelFormatARB =
+		(PFNWGLCHOOSEPIXELFORMATARBPROC)wglGetProcAddress("wglChoosePixelFormatARB");
+
+	if (!wglChoosePixelFormatARB)
+	{
+		// We Didn't Find Support For Multisampling, Set Our Flag And Exit Out.
+		arbMultisampleSupported=false;
+		return false;
+	}
+
+	// Get Our Current Device Context. We Need This In Order To Ask The OpenGL Window What Attributes We Have
+	HDC hDC = GetDC(hWnd);
+
+	int pixelFormat;
+	bool valid;
+	UINT numFormats;
+	float fAttributes[] = {0,0};
+
+	// These Attributes Are The Bits We Want To Test For In Our Sample
+	// Everything Is Pretty Standard, The Only One We Want To 
+	// Really Focus On Is The SAMPLE BUFFERS ARB And WGL SAMPLES
+	// These Two Are Going To Do The Main Testing For Whether Or Not
+	// We Support Multisampling On This Hardware
+	int iAttributes[] = { WGL_DRAW_TO_WINDOW_ARB,GL_TRUE,
+		WGL_SUPPORT_OPENGL_ARB,GL_TRUE,
+		WGL_ACCELERATION_ARB,WGL_FULL_ACCELERATION_ARB,
+		WGL_COLOR_BITS_ARB,24,
+		WGL_ALPHA_BITS_ARB,8,
+		WGL_DEPTH_BITS_ARB,16,
+		WGL_STENCIL_BITS_ARB,0,
+		WGL_DOUBLE_BUFFER_ARB,GL_TRUE,
+		WGL_SAMPLE_BUFFERS_ARB,GL_TRUE,
+		WGL_SAMPLES_ARB, 4 ,						// Check For 4x Multisampling
+		0,0};
+
+	// First We Check To See If We Can Get A Pixel Format For 4 Samples
+	valid = wglChoosePixelFormatARB(hDC,iAttributes,fAttributes,1,&pixelFormat,&numFormats);
+ 
+	// if We Returned True, And Our Format Count Is Greater Than 1
+	if (valid && numFormats >= 1)
+	{
+		arbMultisampleSupported	= true;
+		arbMultisampleFormat	= pixelFormat;	
+		return arbMultisampleSupported;
+	}
+
+	// Our Pixel Format With 4 Samples Failed, Test For 2 Samples
+	iAttributes[19] = 2;
+	valid = wglChoosePixelFormatARB(hDC,iAttributes,fAttributes,1,&pixelFormat,&numFormats);
+	if (valid && numFormats >= 1)
+	{
+		arbMultisampleSupported	= true;
+		arbMultisampleFormat	= pixelFormat;	 
+		return arbMultisampleSupported;
+	}
+	  
+	// Return The Valid Format
+	return  arbMultisampleSupported;
+}
+
+		
+	Now that we've gotten our query code done, we have to modify how our window creation works. First, we have to include our arb_multisample.h file, along with moving the destroywindow and createwindow prototypes up to the top of the file. 	
+		
+
+#include <windows.h>								// Header File For The Windows Library
+#include <gl/gl.h>								// Header File For The OpenGL32 Library
+#include <gl/glu.h>								// Header File For The GLu32 Library
+#include "NeHeGL.h"	// Header File For The NeHeGL Basecode
+
+// ROACH
+#include "ARB_MULTISAMPLE.h"
+
+BOOL DestroyWindowGL (GL_Window* window);
+BOOL CreateWindowGL (GL_Window* window);
+// ENDROACH
+
+		
+	This next bit needs to be added inside the CreateWindowGL function, the original code is left, with where you need to make modifications. Basically, we're doing a bit of overkill to get the job done. We can't request the pixel format (to query the multisampling) until we've created a window. But we can't create a FSAA screen, unless we know the pixel format will support it. Kinda the chicken and the egg thing. So, what I've done, is a little 2 pass system; We create the window, query the pixelFormat, then destroy/remake the window if multisampling is supported. Kinda nifty... 	
+		
+
+	window->hDC = GetDC (window->hWnd);					// Grab A Device Context For This Window
+	if (window->hDC == 0)							// Did We Get A Device Context?
+	{
+		// Failed
+		DestroyWindow (window->hWnd);					// Destroy The Window
+		window->hWnd = 0;						// Zero The Window Handle
+		return FALSE;							// Return False
+	}
+
+// ROACH
+	// Our First Pass, Multisampling Hasn't Been Created Yet, So We Create A Window Normally
+	// If It Is Supported, Then We're On Our Second Pass
+	// That Means We Want To Use Our Pixel Format For Sampling
+	// So Set PixelFormat To arbMultiSampleformat Instead
+	if(!arbMultisampleSupported)
+	{
+		PixelFormat = ChoosePixelFormat (window->hDC, &pfd);		// Find A Compatible Pixel Format
+		if (PixelFormat == 0)						// Did We Find A Compatible Format?
+		{
+			// Failed
+			ReleaseDC (window->hWnd, window->hDC);			// Release Our Device Context
+			window->hDC = 0;					// Zero The Device Context
+			DestroyWindow (window->hWnd);				// Destroy The Window
+			window->hWnd = 0;					// Zero The Window Handle
+			return FALSE;						// Return False
+		}
+	}
+	else
+	{
+		PixelFormat = arbMultisampleFormat;
+	}
+//ENDROACH
+
+	if (SetPixelFormat (window->hDC, PixelFormat, &pfd) == FALSE)		// Try To Set The Pixel Format
+	{
+		// Failed
+		ReleaseDC (window->hWnd, window->hDC);				// Release Our Device Context
+		window->hDC = 0;						// Zero The Device Context
+		DestroyWindow (window->hWnd);					// Destroy The Window
+		window->hWnd = 0;						// Zero The Window Handle
+		return FALSE;							// Return False
+	}
+
+		
+	Now, the window has been created, so we have a valid handle to query for Multisample support. If we find it's supported, we destroy this window, and call CreateWindowGL again, but with the new pixel format. 	
+		
+
+	// Make The Rendering Context Our Current Rendering Context
+	if (wglMakeCurrent (window->hDC, window->hRC) == FALSE)
+	{
+		// Failed
+		wglDeleteContext (window->hRC);					// Delete The Rendering Context
+		window->hRC = 0;						// Zero The Rendering Context
+		ReleaseDC (window->hWnd, window->hDC);				// Release Our Device Context
+		window->hDC = 0;						// Zero The Device Context
+		DestroyWindow (window->hWnd);					// Destroy The Window
+		window->hWnd = 0;						// Zero The Window Handle
+		return FALSE;							// Return False
+	}
+
+	
+// ROACH
+	// Now That Our Window Is Created, We Want To Query What Samples Are Available
+	// We Call Our InitMultiSample Window
+	// if We Return A Valid Context, We Want To Destroy Our Current Window
+	// And Create A New One Using The Multisample Interface.
+	if(!arbMultisampleSupported && CHECK_FOR_MULTISAMPLE)
+	{
+		if(InitMultisample(window->init.application->hInstance,window->hWnd,pfd))
+		{
+			DestroyWindowGL (window);
+			return CreateWindowGL(window);
+		}
+	}
+// ENDROACH
+
+	ShowWindow (window->hWnd, SW_NORMAL);					// Make The Window Visible
+	window->isVisible = TRUE;				
+
+		
+	OK, so setup is now complete! We've setup our screen to allow proper depth for multi sampling. Now comes the fun part, actually doing it! Luckily, ARB decided to make multisampling dynamic, so that allows us to turn it on and off with a glEnable / glDisable call. 	
+		
+
+glEnable(GL_MULTISAMPLE_ARB);
+
+// Render The Scene
+
+glDisable(GL_MULTISAMPLE_ARB);
+
+	

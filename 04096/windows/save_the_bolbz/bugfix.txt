@@ -1,0 +1,3 @@
+
+this is v1.000001, hopefully at least one bug (out of many) fixed.
+please send (detailed) bugreports to blala@cs.elte.hu >> thx.

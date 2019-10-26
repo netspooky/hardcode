@@ -1,0 +1,4 @@
+<body onload="function j(){d+=e*f;r=640;g=r/2;for(p=0;p<r;p++){t.fillStyle=l[p>>5&3];t.fillRect(0,p,r,p+1)}for(k=0;k<m.PI*2;k+=e){t.strokeStyle=b[m.ceil(k*2)%4];t.beginPath();t.moveTo(g,g);t.lineTo(g+m.cos(k)*g*(1+m.sin(k*6+d))*m.sin(d/7),g+m.sin(k)*g*(1+m.sin(k*6+d))*m.sin(d/7));t.stroke()}}t=c.getContext('2d');m=Math;f=32;d=e=.007;b=['#CC9966','#CC6666','#CC3366','#CC0066'];l=['Brown','Sienna','#8b4513','#d2691e'];setInterval(j,f)">
+<canvas id="c" height=480 width=640></canvas>
+
+

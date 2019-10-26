@@ -1,0 +1,6 @@
+Entry name: ASTRA
+Author: p01 / ribbon
+Category: 1k
+Platform: JavaScript
+Description: ASTRA: a JavaScript odyssey in 1002 bytes
+

@@ -1,0 +1,2 @@
+@ECHO OFF
+MODP i RUBERT 

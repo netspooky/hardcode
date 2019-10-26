@@ -1,0 +1,79 @@
+
+				    ÜÜßÜ
+	 Ûİ   ÜÛ      ÛÛ     Ûİ     İ Ü Û      Şİ    ÜÛİ  Û      ÜÛİ
+	Ş İ  ŞİÛ     Û Şİ    ÛÛ    ŞİŞ  İ      Şİ  ÜÛ Şİ  Û      Û Şİ
+       Şİ Û Şİ İ   ÜÛÜ  Û    Û Û   Şİ ßß       ÛİŞÛ    Û  Û     Û   Şİ
+  ÜÜ   Û  ÛŞİ Şİ  Şİ  ßßßÜ   Û Şİ  Şİ          ÛÛßßÜÜ  Şİ Û    ŞÛÜÜÜÜÛ
+ Ş  Û Ûİ  Ûİ  Şİ Şİ      Şİ  Ûİ Şİ Şİ         ÜÛ     ßßßÛŞÛ   Şİ      Û
+ Û ÜİÜÛ   ß   Şİ ß        Û  Ûİ  Û ŞÜ        ŞİÛ        ÛŞÛ   Û        Û    ÜÜ
+ Şİ  Û        Ûİ  Ü       ŞÜ Şİ   Û Û   ÜÛßßÜ  Û        ŞÛÛ  Û          Û  Û  İ
+  ßÜÛß        Û  Û ßßÜ     ß Şİ   ŞÜÛ  Û    Şİ Û         Ûİ        ÜÜÜ   Û ßß Ş
+	      Û Ş  İ  Û Üßßİ Şİ    ŞÛİÛ  İ   ÛŞÛ         Şİ       Şİ  ßİ  ßßÛÜİ
+	      Şİ ÛÜİ  Û Şİ Ş Şİ     ÛİÛ  ŞÜÜÜİŞİ         ŞÜ        ÛÜß Ş
+	       Şİ    Û   ŞÜÜ Üİ        Ûİ     Şİ         ŞÛ      ÜÜÜÜ Üİ
+		ßÜ  Üİ      ßß          ßÛÜÜÜÜÜİ         ŞÛÛßßßßß    ßß
+		  ßß
+			ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ byúrúoúd
+
+  úintroductionú
+
+	Mandala took part in the Scenest'96 4k intro competition in Hungary.
+	Big surprise, the code is optimized for size not for speed, and
+	maybe the syncronising is inaccurate on faster machines due to this.
+
+	Thanks to Richard Hughes for showing to me what a mandala looks like,
+	Kenneth Aastroem for the cloudgenerator, which inspired me to write
+	my own in 4k, and VLad DRacl for being my English teacher.
+
+  úrequirementsú
+
+	You will need at least a 386 based machine with a coprocessor and VGA
+	to run this 4k intro. About 530k base memory is needed for launching,
+	no high memory is used. It should work fine with just about every
+	memory config.
+
+  úcontactú
+
+	We are looking for new members. If you feel that you have enough
+	talent to join send some of your samples of your work to me or VLad.
+
+	rod
+
+	s5001pap@sun10.vsz.bme.hu
+
+	G bor Papp
+	Margit u. 2/c 2.lh.
+	1223 Budapest
+	Hungary
+
+	phone: (+361)-22-82-603
+
+
+	VLad
+
+	tdparson@mtu.edu
+	Todd Parsons
+	701 Quincy, C-2
+	Hancock, MI, USA  49930
+
+	phone: (906) 482-6108
+
+
+  úcopyright licenseú
+
+	This material is not freeware. You are allowed to copy it without
+	restrictions for non-commercial use.
+	No payment of any kind may be charged for this product or any
+	combination of products or services including this product without
+	our authorization and official written license.
+	Commercial use, especially the industrial manufacturing on any data
+	storage media and their distribution without the expressed permission
+	of the producer, is strictly prohibited.
+	This program or the data files contained therein may not be altered
+	or modified without the permission of the author.
+	You take full responsibility for the operation of this software and
+	any consequences thereof. We the creators can not accept liability
+	for damages or failures arising from the use of this software.
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ

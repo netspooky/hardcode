@@ -1,0 +1,41 @@
+unit 286 Copy 
+.386
+
+assume ds:@code,cs:@code
+NoJumps 
+
+Procedure Far CopyArea x, y, w, h, S, T
+   Store ds 
+
+   imul si,y,320 
+   add  si,x
+   mov  di,si 
+   mov  ds,S
+   mov  es,T
+   mov  ax,w
+   mov  bx,ax
+   shr  bx,2
+   sub  ax,320 
+   mov  dx,h 
+   cld 
+
+   $Do 
+      mov  cx,bx
+      rep  movsd 
+      test al,10b
+      $If <>0
+         movsw
+      $EndIf
+      test al,1
+      $If <>0
+         movsb
+      $EndIf       
+  
+      sub  si,ax 
+      sub  di,ax 
+   
+      dec  dx 
+   $EndDo =0
+   
+   Restore 
+EndProc

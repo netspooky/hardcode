@@ -1,0 +1,38 @@
+
+
+ void_drei (pci sb fixed)
+
+ intro
+   1st place @ mekka/symposium 2k-1. we are too tired to write any sensible
+   stuff now. so please excuse very bad quality of this info file. it is even
+   possible that the included source-code is corrupted. but as most of the
+   sceners think our code suxx anyway, and asm sucks, it might be no problem
+   for you. we are very glad about that. 
+
+ featuring
+   real-time graphics code
+   real-time sound code
+   precalculated speech synthesis + vocoder
+
+ credits
+   odd gfx code        shiva^kolor ( marketsm@fmi.uni-passau.de )
+   even sound code     franky^kolor ( franky@scene.at )
+   com packer (624)    kimmy^pulp
+
+ special thanks
+   masamichi kirikae   designer of voice spectra vocoder,
+                       gave me cool tips & techical info!
+   acoustical society
+    of america         for sending me a copy of
+                       dennis h. klatt's article about
+                       speech analysis & synthesis
+   danko,
+   magic^singularity
+   wilfried welti      for more general tips
+
+   submissive^cubic    mental support ;-)  (your intro rocks)
+
+ greetings
+   kolor, smash designs, teklords, riot, quad, the black lotus, haujobb,
+   amable, matrix, singularity, purge, black maiden, hugi ...
+

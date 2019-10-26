@@ -1,0 +1,64 @@
+
+              _._________ .______    .________  .______/\_
+               |    ____/_|  ___/____|  _____/__|   ___  /_
+               |   __    /|  \      /_   ___   /_    _    /
+               |   \   .:\|   \__  .:/   \_   .:/    |  .:\
+               |____\     \_________/__________/_____|_____\
+               -//---\_____\------------------------lm!--//-->
+
+
+                                kindercrasher
+
+
+                   [www.rgba.org] rgba by kinderproduction a 
+
+    [www.inspire-demoscene.org] 2008 Event Demoscene Inspire at presented   
+                       
+
+
+ .usual.as.words.some.
+
+   few months ago i decided not to make more 4k intros. so here we are again
+   with a new one. this time i had josss as coworker, it was a pleasure. and
+   yes, finally i made a 4k with good mzk!
+
+   oh yes before anyone points it out, i know i'm not the first using random
+   walks of spheres with ao. apparently i failed again on being the first :(
+   [http://toxi.co.uk/blog/2006/12/point-cloud-experiments-with-sunflow.htm]
+
+   the ft idea comes from my chats with simon geilfus, using spheres to make
+   anything comes from maali. josss made the mzk as said, and the ao and dof 
+   were there for free anyway, so i just had to put the pieces together with
+   a bit of the usual hardcoding. therefore big greets to the three of them.
+
+   now, don't ask how i manage to make all the text align so nicely - i have
+   no clue, it just happens :s
+
+
+ .notes.technical.
+
+   this one works with just pixel shaders 2. now, one thing is "to work" and 
+   another one to run smoothly. my ati radeon9800 is quite under the limit of
+   what i would recomend (hey, but it's a four years old card, so..). any non
+   crapy card should do it, really. the code is pretty simple too, if it does
+   not work, please blame your opengl implementator, thanks very much.
+
+
+ .heros.and.friends.our.to.greetings.
+
+   asd   auld  bixo  calodox   collapse   conspiracy  [d]vision   farbrausch    
+   fairlight   fuzzion   kakiarts   loonies  necrostudio   nocturns  plastic   
+   rebels    skim    software failure    speckdrumm     spontz   stravaganza     
+   tbc   timescratchers    traction    xplsv    zona neutra     and forgoten
+
+
+
+ .credits.mandatory.the.
+
+   crinklering               ::  mentor+blueberry  ::  [ www.crinkler.net  ]
+   madtracking               ::       JosSs        ::  [ josss.scenesp.org ]
+   coding, choreographing    ::        iq          ::  [ www.rgba.org/iq   ]
+
+
+
+

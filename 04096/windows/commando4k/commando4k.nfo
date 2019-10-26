@@ -1,0 +1,17 @@
+commando4k musicdisk - released at Function'15
+
+- music and c64 driver by Rob Hubbard
+- keyboard 1-3: select subtune
+- keyboard ESC: exit
+- packed commando size: 2115 bytes
+- packed 6502 emu size:  789 bytes
+- packed 6581 emu size:  506 bytes
+- packed winmain0 size:  206 bytes
+- the visualiser only works in 80 column mode
+- using crinkler 2.0 by Mentor and Blueberry
+- the halfrate version updates at half rate :)
+- d/r exponential is approximated due to size
+- sid clock is ever so slightly higher than pal
+
+reptile/astroidea
+vrbalazs@gmail.com

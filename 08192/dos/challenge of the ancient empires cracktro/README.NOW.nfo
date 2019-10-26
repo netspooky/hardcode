@@ -1,0 +1,18 @@
+
+CHALLENGE of the ANCIENT EMPIRES!
+==============================================================
+Release notes
+
+
+  This is a preaty good GAME as educational software goes.  Nice VGA and
+SoundBlaster support.  It didn't have any type of protection, but the install
+program that comes with it would only install from drives A: or B:.  There
+were hidden files on both disks, but these files were used only be the install
+program.  I have written a new INSTALL.BAT file that will install CAE in at
+directory of any drive.  I suggest using it instead, but if you want to
+recreate the original disks, just unzip to floppies and RENAME the install
+program back to INSTALL.EXE (no you don't need to rehide the files)
+
+                - Buckaroo Banzai
+                  10/22/90
+

@@ -1,0 +1,50 @@
+Ray4k
+
+Version 1.0
+
+Credits: 
+code&music: e64 
+(some code based from fractoid)
+(music based from b00mer)
+
+Requirements:
+party-version:
+ .win32
+ .gdi
+compatible-version:
+ .sdl
+
+Recommended:
+multi processor 2ghz+
+512mb ram
+Windows XP
+
+Minimum:
+any version of windows that supports GDI32, and probably any x86 cpu with a fpu.
+
+(developed on a Athlon MP 2000+)
+
+Comments:
+The party-version is the sub 4k version of this intro, and is size optimized in such a way that performance is severly degraded. For this reason, you should always run the compatible version : it is identical, except it is performance optimized and can take advantage of multiple processors.
+
+The intro was originaly based on my old software synth and fractoids very old raytracer. I modified his raytracer to support metaballs, and then found everything was too big. So both the raytracer and the synth were re-written from scratch. And now it all fits.
+
+The melody comes from an old mod from b00mer.
+
+Enjoy!
+
+Past Releases:
+Feb00:Hello World . 256k Intro . 1st Coven 2000
+Apr00:Fuzzy!      .    Demo    . 22nd MS2K
+Feb01:Blue        .    Demo    . 3rd  Coven 2001
+Feb01:Mist Garden . 256k Intro . 1st  Coven 2001
+Aug01:Robo        .  64k Intro . ?? Caos Constructions
+Aug03:Fishtro2    .  64k Intro . 4th Buenzli 12
+Dec05:nullarbor2k6.64k Invitro . 2nd au Xmas Compo 2005
+Feb06:Retro4k     .   4k Intro . 2nd nullarbor 2006
+Feb06:No Time     .  Slideshow . 3rd nullarbor 2006
+Dec06:nullarbor2k7.64k Invitro . 4th au Xmas Compo 2006
+Mar07:Ray4k       .   4k Intro . ?? nullarbor 2007
+
+See you at the next nullarbor!
+http://www.notrees.org/

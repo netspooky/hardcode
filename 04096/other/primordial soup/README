@@ -1,0 +1,22 @@
+Primordial Soup
+
+Synth & music:    Juippi
+Everything else:  Trilkk
+
+FreeBSD-ia32 intro for Revision 2017 pc 4k intro compo. Actually released in
+Assembly 2017 combined 4k intro compo, because our portable SDD did not work
+in the Revision compo PC for whichever reason.
+
+Should work with Nvidia cards. Or any other cards with OpenGL 4.5 support that
+have drivers with GL4.5 support for FreeBSD. Good luck finding those. Ports
+exist for other operating systems, but they're not 4k.
+
+The .wav file in the rel/ folder is there because the synth only runs on ia32,
+so non-compo builds will just load it.
+
+Extra-special thanks to las/Mercury and Revision compo crew in general for
+deleting the release back at the party.
+
+Greets to: Blobtrox, Ctrl-Alt-Test, Desire, Epoch, Fit, Forsaken,
+           G-INcorporated, Hedelmae, Ivory Labs, Lonely Coders, Luminaire,
+           Peisik, Royal Elite Ninjas, TDA, Tekotuotanto, Traction

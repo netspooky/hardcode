@@ -1,0 +1,22 @@
+Here's the synth source.
+
+When I was saying how a windows port is soon, I forgot to realise that I don't have a windows box.  I'm
+currently installing vmware for that (although someone suggested I use wine, which is a good idea).  I
+also know fuck-all about windows..  it's Audio.h/cpp that need rewriting for windows support.
+
+I'm now rewriting the synth to use the FFT algorithm rather than band-limited wavetables, which means I
+could generate pretty much any wave shape and play it back at any frequency.  Dunno when I'll finish 
+that one.
+
+"test_mprx.h" is the data from the recorded song I did with linux renoise.  Note the record button.  I
+should write a tutorial on how to use this, but I can't be arsed :-D
+
+Feel free to make the drums louder.  Or write a proper feedback-based drum synth (have a look at 
+render_function in Generator.cpp for this).
+
+If you do add anything, please email me your shit!  This is now licensed under GPL3.
+
+enjoy.
+
+meaty / Approximate.  giles@spacepigs.com
+

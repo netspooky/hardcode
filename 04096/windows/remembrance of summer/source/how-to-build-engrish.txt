@@ -1,0 +1,39 @@
+﻿Requirements :
+    . Visual C++ 2005 Express Edition
+      http://msdn.microsoft.com/vstudio/express/visualc/
+
+    . Microsoft Platform SDK
+      http://msdn.microsoft.com/vstudio/express/visualc/usingpsdk/
+
+    . Crinkler v0.4a
+      http://www.crinkler.net/
+
+
+How to build (with Visual C++ 2005 Express Edition) :
+    . Copy "crinkler.exe" as "source/crinkler/crinkler.exe"
+
+    . If you installed Visual C++ 2005 Express Edition or Platform SDK to
+      non-default folder, open a batch file "source/crinkler/run-crinkler.bat"
+      and change environment variable "PSDKDIR", "VCDIR".
+
+    . Open "source/RemembranceOfSummer.vcproj", select 
+      "Build - Configuration manager" and "Final".
+      (If you are testing, select "Release")
+
+    . Select "Build - Build Solution" to build a executable file.
+
+    . Select "Debug - Run without Debug".
+
+
+About code :
+    . Very fundamental C++ code.
+
+    . There is no effort to make smaller code. I completely depend
+      on crinkler.
+
+    . Music is also able to compile by yourself. Run a batch file
+      "source/media/compile-music.bat", then music source file
+      "source/media/nada.ppk" will be compiled and you will get a
+      output file "source/media/sequence.bin.h". Then copy this
+      file as "source/src/sequence.bin.h", and rebuild.
+

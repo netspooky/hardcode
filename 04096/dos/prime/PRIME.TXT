@@ -1,0 +1,96 @@
+
+PrImE
+-----------
+
+General Information
+
+  This is a fuckin' lame non final version of Prime. (Whoever wants
+  to know: A hardisk crash delayd me severly...) 
+  You can see this at mainly these points:
+  - One big bug. If the 3d Objects appear displaced, try a clean
+    (realy clean!) boot. Might fix it.
+  - There is still plenty of space left for the not yet done muzak.
+    Simply imagine some kewl tune in the background.
+  - Some obvious size optimisations were left out. (Should only 
+    worry coders :)
+  - The 3d Logo still represents my former group, Videopolis.
+  - No hardware check upon startup. If you see a blank screen, this
+    might very well be caused by a missing copro. (486SX, sorry!)
+  But now to the oh-so-boring hardware requirements:
+  - 486DX processor (50++ Mhz recomended)
+  - 386 with copro 387 should work, but is definitifly NOT recomended.
+  - VGA of coz (straight 13h 320x200x256)
+  - Something like 400k of base memory (null sheen)
+  - TSR free memory (works with, too, but may crash)
+  - Keyboard... okay, I'm losing it...
+
+
+Credits (or was it bucks?) and Copyright
+
+  - Code: Shiva of Virtual-X-Perience
+  - Additional code snippets: Siriuz of V-X-P (Palette) 
+                              G.O.D of Abandon (INT grabbing)
+                              Temmi Remel (or so) (Mandelbrot)
+
+  THIS INTRO IS COPYRIGHT BY SHIVA, AKA SEBASTIAN MARKETSMUELLER.
+  YOU ARE NOT ALLOWED TO DISTRIBUTE THIS PROGRAM VIA OTHER MEANS
+  THAN PRIVATE SWAPPING OR BBS. ESPECIALLY DISTRIBUTION OF THIS
+  INTRO ON CD-ROM IS PROHIBITED.
+
+Disclaimer
+
+  I ASSUME NO RESPONSIBILITY OR WARRANTY FOR THIS PROGRAM. 
+  I CANNOT BE HELD RESPONSIBLE FOR ANY DAMAGES DONE TO EITHER
+  SOFTWARE OR HARDWARE BY THIS PROGRAM. 
+  RUN AT YOUR OWN RISK!
+
+Greetings
+
+  Single persons:
+  - Mustermann
+  - Siriuz
+  - Jumping Cookie
+  - Nitron
+  - The Ink
+  - Bash
+  Non personal known, but cool:
+  - G.O.D (yer Intro taught me a lot!)
+  - Denthor (who didn't learn from him?)
+  - Tran (best docs ever!)
+  - Elliot (Lion was neat)
+  - All Thunders 'round the world
+  Groups I admire:
+  - Wild Light (Drift rulez!)
+  - Dust (Gave me quite a kick)
+  - FC (everybody greets em')
+  - Amable (party organizers)
+  - Borland (Delphi sucks!)
+
+Some tech stuff and general blather
+
+  Now, folks, before I forgett to mention it: This Intro is called Prime
+  coz of two reasons:
+  - It's my first Intro (actually even my first release) ever
+  - It's prime code (nuff said) (-:
+  Tch. Then, for everybody lame: This intro was first released at the
+  Mekka 96 Party in Germany (which you didn't attend) where it scored
+  xxth at the compo. 
+  The 3d code was quite tricky to do, and is a mixture between Goraude
+  and Phong shading. Maybe I should credit Elliot/Epsilon for the
+  tunnel. I first saw it in his cool Lion Intro.
+  As you might guess the 3d uses floating point. It's much more size
+  coherent than the fixed stuff.
+  
+
+Bye! Shiva.
+
+
+Call my EGG BBS at +49-9964-755 (wait till 1.5.1996 till calling..)
+Call Link SR and logon as VX to get the current Vitrtual-X-Perience
+WHQ number at +49-9421-913141.
+
+Snail Mail: Sebastian Marketsmueller
+            Pilgramsberg 10
+            94372 Rattiszell
+            Germany
+ 

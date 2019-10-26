@@ -1,0 +1,21 @@
+
+                          TOP SPEED - 2k game
+
+   This game was written by Akos Fekete for the 4th #ASM Compo.
+
+   The compo rules don't allow to handle any highscore table, but this
+   program consists a  simple 'best score' saving method. If you would
+   like  to use it, then  you should start the  game with a parameter.
+
+   e.g.: TS.COM         -> doesn't save
+         TS.COM BEST    -> saves the new record when you quit
+
+   You can use these keys during the game:
+
+   <esc>    : quit
+   <space>  : start
+   <arrows> : moving
+
+   requirements: - 486DX or better computer,
+                 - Adlib compatible soundcard,
+                 - DOS or DOS-BOX

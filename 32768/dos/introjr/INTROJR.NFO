@@ -1,0 +1,62 @@
+INTROjr -- A 2013 Hornet Production
+Code: Trixter
+Graphics and Music: Phoenix
+
+Shameless plug: Go to www.mindcandydvd.com and buy MindCandy Volume 3! Please!
+
+This program requires a real IBM PCjr with at least one memory expansion (and
+memory driver loaded such as JRCONFIG.SYS) to run properly.  Any other
+scenario, such as a Tandy 1000 or DOSBox, will likely not work.  A Tandy 1000
+will run the program but every other scanline will be blank.  It's also
+possible the raster bars won't display properly (or at all).
+
+If possible, view this demo via the PCjr's composite video output, as all
+colors and effects were calibrated for that as the output device.
+
+INTROjr competed at @party 2013 in June 2013 and won second place in the
+oldskool demo competition.  Ironically, this is the very first pure 100% Hornet
+demoscene production that is ACTUALLY A DEMO.  We used to run archives, produce
+a weekly magazine, and produce DVDs and Blu-rays.  Now, after 20 years, an
+actual production.  Go figure, eh?
+
+Tools used:
+
+- IBM PCjr + jrIDE
+- Turbo Pascal 7 (intro is 80% pascal and 20% assembler)
+- Photoshop
+- Deflemask
+
+Misc. notes:
+
+This demo was a proof-of-concept framework to see how many full-framerate
+effects were possible on a PCjr.  The music replay routine, raster bars, and
+scroller all run in one frame.  The music takes between 2 and 6 scanlines,
+and the raster bars and scroller take roughly 50 scanlines each.  These run
+via an emulated vertical retrace interrupt that fires shortly after the last
+visible scanline has been drawn to give maximum time to the scroll routine,
+which finishes right as the first visible scanline is being drawn.  Then, the
+raster bars draw, then the music is updated.  The non-realtime effects in the
+lower window use whatever CPU time is left, so they are running at roughly
+half normal speed.
+
+The raster bars have some graphic corruption in them because the interrupt
+fires only after the CPU is done executing the last instruction and that time
+is variable.  It is unknown if the PCjr can be put into a mode where all
+interrupts are off for cycle-exact effects, because the PCjr needs to refresh
+DRAM so it doesn't lose its contents.  PCjr also uses the NMI differently
+than the PC.  These are unknown variables; you're welcome to explore them!
+
+Composite color output was always the output target, because this was written
+to compete at a compo and the only way to hook a PCjr up to a projector is
+via the composite output.  It looks ok on an RGB monitor, but it looks much
+better via the composite output.
+
+I could have spent a few more days trying to get the memory usage of this
+down so that it could work on a stock unexpanded PCjr, but the effects would
+have been so slow that it would not have been fun.  Besides, if you have a
+PCjr, you more than likely have at least one memory expansion, and one is all
+you need to run this program.  If I ever do a stock PCjr demo, it will be a
+trackmo because booting directly from the disk is the only way I'd have
+enough memory to do anything.  I'm not that crazy yet.
+
+--trixter, 20130704

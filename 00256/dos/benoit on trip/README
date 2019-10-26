@@ -1,0 +1,17 @@
+
+ --- Benoit On Trip ---
+
+A 256byte intro by jazzkutya for
+   
+ ---FUNCTION 2011---
+
+Note to organizers: the intro speeds up
+the DOS/BIOS system clock (IRQ0/INT8)
+and leaves it that way.
+
+Thanks fly out to
+ - Blala
+ - Gargaj
+ - and ADT for the name
+
+Nasm source is included.

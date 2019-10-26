@@ -1,0 +1,20 @@
+
+GAIA
+
+by Bitpopler
+
+shown on Breakpoint 06
+
+Graphics: LuNAtiC
+The (little) rest: ddeml
+
+Thanks to CRINKLER, its really a 4k.
+
+you need at least pixel shader 2.0 and DirectX april 2005 (d3dx9_25.dll)
+
+This demo consist of SEVERAL THOUSAND LINES OF CODE (commented out),
+4 pixel shader, 1 vertex shader, 3d perlin noise, LOD plants, terrain engine, medicore synth.
+
+have fun
+
+www.bitpopler.de

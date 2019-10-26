@@ -1,0 +1,146 @@
+             ÖÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ·
+     ÚÂÂÂÄÄÄÄ¶ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»ÇÄÄÄÄÂÂÂ¿
+   ÚÄÁÁÁÁÄ¿  ºº                    PHANTOM                 ÄÍ»ºº  ÚÄÁÁÁÁÄ¿
+   ³100000³  ºº                                              ³ºº  ³010010³
+   ³010000³  ºº                     IMAGE                     ºº  ³001010³
+   ³000000³  ºº                                               ºº  ³010100³
+   ³001101³  ºº                                               ºº  ³100000³
+   ³010000³  ºº           [ For fun, not for fame ]           ºº  ³001010³
+   ³010000³  ºÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼º  ³011001³
+   ³001100³  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³001010³
+   ³011000³  ÇÄ  About this release  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³011000³
+   ³000000³  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³000100³
+   ³001101³  º <CHICKEN.GEL> @ <SCENEST-RAGE'98> in <4K>       º  ³000000³
+   ³001001³  º                                                 º  ³001101³
+   ³001100³  ºThis is our first release under the label Phantomº  ³010010³
+   ³000101³  ºImage. Originally it was made for the SCEneST '98º  ³001010³
+   ³000100³  ºwhich was delayed, but finally it will be hold   º  ³000001³
+   ³000100³  ºtogether with Rage'98. This 4K was done mostly inº  ³000001³
+   ³010000³  º6 days, but we spent another two debugging one   º  ³001101³
+   ³011010³  ºvery lame, but also tricky bug. We wanted to     º  ³000000³
+   ³000000³  º"design" it but after the "duck-part" we ran out º  ³010100³
+   ³000110³  ºof patience, maybe next time.                    º  ³001011³
+   ³000000³  ºIt still contains lotsa bugs, but who cares??    º  ³001010³
+   ³010000³  ºThere are no 3D effects 'cause we didn't rewrite º  ³000000³
+   ³011010³  ºour engine to full assembly, but soon we'll      º  ³011001³
+   ³001111³  ºstart rewriting it.                              º  ³001100³
+   ³000100³  º                                                 º  ³000001³
+   ³000000³  ºSome greets must be done here:                   º  ³001110³
+   ³011001³  º- K!O: for his water examples                    º  ³011010³
+   ³001000³  º- PLaSH/AzurE: for his bump examples             º  ³000111³
+   ³000101³  ºbut Merlin re-coded these effects de-optimizing  º  ³000000³
+   ³000000³  ºthem :)                                          º  ³011001³
+   ³001000³  º- Brian/AxiomA: for the background of the water  º  ³000101³
+   ³001001³  ºeven if we had to optimize it and remove some    º  ³000101³
+   ³000100³  ºbugs                                             º  ³010110³
+   ³000100³  º- Laszlo Jozsef: for the music player. We had to º  ³001100³
+   ³000101³  ºport it to pure assembly and ran into a strange  º  ³000111³
+   ³001111³  ºbug, and we still don't understand why does it   º  ³000000³
+   ³000000³  ºrun fine in Pascal without correcting that bug.  º  ³001010³
+   ³011000³  ºHe made the music also, big thanx to him.        º  ³000010³
+   ³000000³  º                                                 º  ³001010³
+   ³001001³  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³011010³
+   ³001111³  ÇÄ  History  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³010100³
+   ³000000³  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³000000³
+   ³011001³  ºWe formed our group at 1 April in 1998 (what a   º  ³001010³
+   ³001000³  ºday :). We are also in a group called Merlin     º  ³001010³
+   ³001001³  ºSoftware (which was also formed by us back in 94)º  ³010010³
+   ³011000³  ºbut since the members are very inactive, we      º  ³001100³
+   ³000000³  ºdecided to start a fresh group with fresh membersº  ³000100³
+   ³000110³  ºto make fresh productions :). Merlin was thinkingº  ³001000³
+   ³001001³  ºabout the name and considering our lazyness he   º  ³000010³
+   ³001101³  ºwanted a name about something what is alive and  º  ³001010³
+   ³000101³  ºdead at the same time: a ghost. So this is how   º  ³000100³
+   ³000000³  ºthe name Phantom Image was born, it has nothing  º  ³001110³
+   ³000010³  ºto do with the ex-Phantom Dezign which was a veryº  ³001100³
+   ³011010³  ºcool Hungarian group.                            º  ³000000³
+   ³011001³  º                                                 º  ³000100³
+   ³000000³  ºWe live in Romania, but we are Hungarian, there'sº  ³000100³
+   ³000100³  ºa big Hungarian minority.                        º  ³000110³
+   ³001111³  ºFor now, the memberlist consist only of two guys:º  ³000100³
+   ³011010³  º(alphabetical order of nicknames)                º  ³000100³
+   ³001111³  º                                                 º  ³000100³
+   ³001111³  ºMerlin        Minier Zsolt        coder          º  ³001100³
+   ³010000³  ºRau           Balazs Miklos       coder          º  ³010101³
+   ³000000³  º                                                 º  ³000010³
+   ³011101³  ºOf course, everybody is designer, occasional grfxº  ³000100³
+   ³001000³  ºartist or musician, but we listed our main jobs. º  ³001000³
+   ³000001³  º                                                 º  ³000100³
+   ³011001³  ºAs almost every group, we also need new members, º  ³000011³
+   ³000000³  ºespecially graphics artists and musicians, but   º  ³000100³
+   ³011001³  ºcoders are also welcome. So, contact one of our  º  ³000100³
+   ³010000³  ºmembers for joining, but beware, you'll have to  º  ³000001³
+   ³000000³  ºwork hard (instead of us :).                     º  ³000000³
+   ³011101³  º                                                 º  ³000010³
+   ³010100³  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³000000³
+   ³001001³  ÇÄ  Releases  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³000101³
+   ³011001³  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³000010³
+   ³000101³  ºCHICKEN.GEL    ³SCENEST'98³4K INTRO ³pi_chgel.zipº  ³000000³
+   ³000000³  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³000000³
+   ³001000³  º                                                 º  ³000100³
+   ³000101³  º Not much, but we've just started.               º  ³000001³
+   ³010100³  º                                                 º  ³000010³
+   ³000101³  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³000100³
+   ³000000³  ÇÄ  Contacts  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³001000³
+   ³011000³  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³001000³
+   ³010000³  ºWe don't know too many sceners so contacting is  º  ³001010³
+   ³000000³  ºwelcomed, 100% answer guaranteed, even 4 the goodº  ³000001³
+   ³001001³  ºold snail-mails. So here are our adresses:       º  ³000010³
+   ³000000³  º                                                 º  ³000100³
+   ³011101³  º  Rau       [mbalazs@kabelkon.ro]                º  ³001100³
+   ³001001³  º            [rau@stones.com]                     º  ³001001³
+   ³001101³  º  <especially system-coding, even os-s>          º  ³001100³
+   ³001101³  º  Balazs Miklos                                  º  ³001111³
+   ³000000³  º  4200 Gheorgheni                                º  ³000100³
+   ³000110³  º  cart. Bucin                                    º  ³001100³
+   ³001001³  º  Bl. 17 Sc. A Ap. 7                             º  ³001010³
+   ³001101³  º  jud. Harghita                                  º  ³001100³
+   ³001101³  º  ROMANIA                                        º  ³001010³
+   ³000000³  º                                                 º  ³000000³
+   ³011001³  º  Merlin    [merlin_pi@stones.com]               º  ³001010³
+   ³001000³  º  <especially demo-coding, effects>              º  ³001110³
+   ³000101³  º  Minier Zsolt                                   º  ³001001³
+   ³000000³  º  4200 Gheorgheni                                º  ³001100³
+   ³010100³  º  cart. Florilor                                 º  ³000110³
+   ³000101³  º  bl 43. sc. E ap. 16                            º  ³001100³
+   ³011000³  º  jud. Harghita                                  º  ³000101³
+   ³011001³  º  ROMANIA                                        º  ³001010³
+   ³000000³  º                                                 º  ³001100³
+   ³010000³  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³000100³
+   ³000110³  ÇÄ  Greetings  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³001111³
+   ³000000³  ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶  ³001010³
+   ³011001³  ºSo here comes the usual greetings part:          º  ³000101³
+   ³001000³  º-Credo/SCS*TRC: for the cool letters             º  ³010100³
+   ³000000³  º-Blala/Byteam: we hope you'll come to Dracula'98,º  ³001101³
+   ³011000³  º and good luck with your new intro               º  ³001010³
+   ³010001³  º-A'rpi/ESP-Team: for the mega-cool BAssPasC whichº  ³001000³
+   ³000001³  º we used to write this intro                     º  ³000110³
+   ³000011³  ºand some friends in our country:                 º  ³010101³
+   ³000101³  ºeverybody at demo@list.sfos.ro, but especially   º  ³100000³
+   ³000000³  ºMaple Leaf (and all of Plastic Surgery),         º  ³001010³
+   ³011001³  ºAmorroxic (and all of Hipnotica),                º  ³001010³
+   ³011001³  ºJourgensen (and all of PRSC),                    º  ³001010³
+   ³011101³  ºPuthreGuy (and all of General Failure),          º  ³010100³
+   ³001001³  ºStorm (and all of X-playin' Crew),               º  ³000001³
+   ³011001³  ºand of course all of Brain Damage.               º  ³001010³
+   ³000000³  º                                                 º  ³000100³
+   ³001000³  º and all we forgot.                              º  ³000000³
+   ³000000³  º                                                 º  ³000100³
+   ³011000³  º and ofcourse:                                   º  ³010100³
+   ³001000³  º   WILD LIGHT                                    º  ³001001³
+   ³001001³  º   ECLIPSE                                       º  ³001010³
+   ³011001³  º   LEGEND DESIGN                                 º  ³001110³
+   ³000000³  º   ORANGE                                        º  ³010101³
+   ³011000³  º   VALHALLA                                      º  ³001010³
+   ³001000³  º   EMF                                           º  ³011001³
+   ³001001³  º   YODEL                                         º  ³000000³
+   ³011001³  º   OBSESSION                                     º  ³001010³
+   ³000000³  º   URINATE                                       º  ³000110³
+   ³011000³  º   ASTROIDEA                                     º  ³000110³
+   ÀÄÂÂÂÂÄÙ  º   LOGIC DESIGN                                  º  ÀÄÂÂÂÂÄÙ
+     ÀÁÁÁÄÄÄÄ¶   LITHIUM                                       ÇÄÄÄÄÁÁÁÙ
+             º                                                 º
+             º and everyone in the universe.                   º
+             ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶
+             ÇÄ  Finnish Him  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶
+             ÓÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ½

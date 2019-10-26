@@ -1,0 +1,124 @@
+
+           млллллллллллл                           ллллл
+          олллл                                    ллллл
+           плллллллллллллм    ллллл        ллллл   ллллллллллллллллл
+                    плллллн   ллллл        ллллл   ллллл
+          мллллллм   оллллл   ллллл        ллллл   ллллл    мллллллм
+         олллллпллн   ллллл   ллллл        ллллл   ллллл   оллплллллн
+         лллллн       ллллл   ллллл        ллллл   ллллл       оллллл
+         ллллл        ллллл   ллллл        ллллл   ллллл        ллллл
+         ллллл        ллллл   ллллл        ллллл   ллллл        ллллл
+         лллллн      оллллл   лллллн      оллллл   лллллн      оллллл
+         олллллм    млллллн   олллллм    млллллн   олллллм    млллллн
+          пллллллллллллллп     пллллллллллллллп     пллллллллллллллп
+            пппппппппппп         пппппппппппп         пппппппппппп
+
+           mrock of hellcore strikes again with a 4kb introduction
+
+
+
+          t      e      c      h      n      i      c      a      l
+кФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФП
+
+       Requires HIMEM.SYS alone and about 2mb of free memory.
+       If  your  card  doesn't support mode 320x200x32k, a version using
+     mode  640x480x32k  is  included  also  (both  without  using  lfb).
+     (There  is also a version using fake hicolor vga mode included, but
+     it  didn't  fit into 4kb, so don't bother me. It wasn't supposed to
+     be  released,  but  i  decided  to do that, since it's a chance for
+     people without cool graphics cards;)
+
+
+
+          g      r      e      e      t      i      n      g      s
+кФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФП
+
+      As it's a single-person production, some personal greets from me:
+
+        ae . Aktin . BlackHack . Bloo . Carson . Cash . Cheo . Forcer
+      Ghenesis . Holy Drake . Insane . Jim Goer . Jilt . LSD . Orbital
+        Raistlin . Rav . Revisq . Sepul . Spookie . Toaster . Unreal
+                        Yarpen . Yez . Yitzhaq . Yuda
+
+                             and those I forgot.
+
+                   Also thanx to Kimmy/Pulp for Six-2-Four
+
+
+
+                 m      e      m      b      e      r      s
+кФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФП
+
+   handle             real name                born          responsibility
+
+   Mrock              Marcin Rociek            1978          code & gfx
+   Rage               Grzegorz Piszczek        1978          inet coord
+   Cash               Tomasz Kusmierski        1978          swapping
+   Forcer             Michal Rytel             1978          gfx art
+   Insane             Tomasz Tulicki           1978          gfx art
+   Orbital            Michal Karczewski        1980          gfx art
+
+
+
+             r      e      l      e      a      s      e      s
+кФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФП
+
+   name                  date    filename      type  party            place
+
+   Ripple Viewer         Nov'96  riplview.zip  intr  --               -
+   Chaos Board           Dec'96  chaossrc.zip  src   --               -
+   Burning Chrome        Dec'96  burning.zip   demo  --               -
+   Extremal Shock        Feb'97  hc_shock.zip  4kb   General Probe 3  1st
+   Falling               Feb'97  hc_fall.zip   64kb  General Probe 3  ?
+   Beatmapping           Feb'97  hc_bm.zip     demo  General Probe 3  ?
+   Extremal Shock srcs   Feb'97  hc_shsrc.zip  src   --               -
+   Ghreath               Jul'97  hc_great.zip  4kb   Intel Outside 4  2nd
+   Wintermuted           Jul'97  hc_wmute.zip  demo  Intel Outside 4  5th
+   Deal                  Aug'97  hc_deal.zip   4kb   Gravity 97       1st
+   Trzecie Tysiaclecie   Aug'97  hc_tt.zip     64kb  Gravity 97       7th
+   Syrius Orbitter       Aug'97  hc_so.zip     demo  Gravity 97       7th
+   Ghreath sources       Sep'97  hc_ghsrc.zip  src   --               -
+   Sut                   Dec'97  hc_sut.zip    4kb   Astrosyn 97      1st
+   Narcotic Nap          Dec'97  hc_nap.zip    demo  Astrosyn 97      3rd
+
+
+
+                 d      i      s      t      r      o      s
+кФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФП
+
+                    whq: http://www.tl.krakow.pl/hellcore
+
+   country     name              number              type        sysop
+
+   Belgium     Insanity          +32-2-4525221       HQ          Sacats
+   France      A.C.E             +33-(0)145887548    HQ          Gandalf
+   Norway      Countzero         +47-22519749        HQ          Yitzhaq
+   Poland      CHLIPek BBS       +48-32-1302307      distro      Chlipek
+   Poland      Dark Storm        +48-52-613738       HQ          Rem
+   Poland      Moon              +48-52-897456       distro      Simon King
+   Poland      Bizarre           +48-65-267696       distro      Franz
+   Poland      Cyberland         +48-91-4860254      distro      Demon
+   Poland      The Look          +48-94-415621       distro      Sir Fux
+   Germany     Splatter Punk     +49-2378-2627       HQ          Teasy
+   Germany     Metal Grave       +49-761-806736      distro      Qualle
+
+
+
+                 c      o      n      t      a      c      t
+кФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФФП
+
+   e-mail:
+
+     Mrock: mrock@tl.krakow.pl        <- NOTE! IT'S BEEN CHANGED A LITTLE!
+     Rage: rage@chaos.tl.krakow.pl
+     Cash: cashmsc@polbox.com
+
+   snail-mail:
+
+   Mrock: Marcin Rociek, Siercza 11, 32-020 Wieliczka, Poland
+   Cash: Tomasz Kusmierski, ul.Bytnara 14/49, 02-645 Warszawa, Poland
+   Forcer: Michal Rytel, 35 Seaside ave 21, Stamford CT 06902, USA
+   Insane: Tomasz Tulicki, ul. Zbylitowskich 180, 33-113 Zglobice, Tarnow, PL
+   Orbital: Michal Karczewski, ul.Zakole 12L/1, 10-699 Olsztyn, Poland
+
+mr

@@ -1,0 +1,27 @@
+
+    p a r a g o n
+
+    s t a t i o n   a l b e r t   h o f f m a n
+
+
+
+
+    code : cyberpig
+    sound : duke
+    graphics : duke & mazor
+    (uses midas)
+    runs fine on 486-33    
+
+
+
+    duke@triplex.fipnet.fi       .duke
+    tyrvaine@hytti.uku.fi        .sparklite
+
+    soon available: cyberpig@downtown.fipnet.fi
+
+
+
+    r . d . j .
+
+    lyhyt mutta paksu ... a paragon 1996 extend position
+               

@@ -1,0 +1,137 @@
+00000100  3F                aas
+00000101  80C013            add al,0x13
+00000104  CD10              int 0x10
+00000106  6800A0            push word 0xa000
+00000109  00C6              add dh,al
+0000010B  8EE2              mov fs,dx
+0000010D  00C6              add dh,al
+0000010F  8EEA              mov gs,dx
+00000111  00C6              add dh,al
+00000113  8EDA              mov ds,dx
+00000115  07                pop es
+00000116  BD2702            mov bp,0x227
+00000119  BAC803            mov dx,0x3c8
+0000011C  D6                salc
+0000011D  EE                out dx,al
+0000011E  42                inc dx
+0000011F  0DC3C3            or ax,0xc3c3
+00000122  50                push ax
+00000123  EE                out dx,al
+00000124  00E0              add al,ah
+00000126  D0E8              shr al,1
+00000128  EE                out dx,al
+00000129  00E0              add al,ah
+0000012B  C0E802            shr al,0x2
+0000012E  EE                out dx,al
+0000012F  58                pop ax
+00000130  40                inc ax
+00000131  75EC              jnz 0x11f
+00000133  DBE3              fninit
+00000135  D9EE              fldz
+00000137  D9EE              fldz
+00000139  D9EE              fldz
+0000013B  4D                dec bp
+0000013C  4D                dec bp
+0000013D  DB5204            fist dword [bp+si+0x4]
+00000140  DB5208            fist dword [bp+si+0x8]
+00000143  57                push di
+00000144  E88100            call word 0x1c8
+00000147  8922              mov [bp+si],sp
+00000149  DF02              fild word [bp+si]
+0000014B  36DE7406          fidiv word [ss:si+0x6]
+0000014F  D9FB              fsincos
+00000151  DF05              fild word [di]
+00000153  D8C9              fmul st1
+00000155  DF05              fild word [di]
+00000157  D8CB              fmul st3
+00000159  AF                scasw
+0000015A  DF05              fild word [di]
+0000015C  D8CB              fmul st3
+0000015E  DEC1              faddp st1
+00000160  DF05              fild word [di]
+00000162  D8CC              fmul st4
+00000164  DEE2              fsubrp st2
+00000166  AF                scasw
+00000167  DF05              fild word [di]
+00000169  D9C9              fxch st1
+0000016B  36DE04            fiadd word [ss:si]
+0000016E  36DE04            fiadd word [ss:si]
+00000171  36DE7C08          fidivr word [ss:si+0x8]
+00000175  DCC9              fmul to st1
+00000177  DECA              fmulp st2
+00000179  DF1A              fistp word [bp+si]
+0000017B  691A4001          imul bx,[bp+si],word 0x140
+0000017F  DF1A              fistp word [bp+si]
+00000181  7020              jo 0x1a3
+00000183  031A              add bx,[bp+si]
+00000185  81C3A07D          add bx,0x7da0
+00000189  8A4503            mov al,[di+0x3]
+0000018C  0480              add al,0x80
+0000018E  C0E803            shr al,0x3
+00000191  640007            add [fs:bx],al
+00000194  7303              jnc 0x199
+00000196  642807            sub [fs:bx],al
+00000199  341F              xor al,0x1f
+0000019B  650007            add [gs:bx],al
+0000019E  7303              jnc 0x1a3
+000001A0  652807            sub [gs:bx],al
+000001A3  83EF02            sub di,byte +0x2
+000001A6  75A9              jnz 0x151
+000001A8  DED9              fcompp
+000001AA  B2F0              mov dl,0xf0
+000001AC  658A05            mov al,[gs:di]
+000001AF  65D02D            shr byte [gs:di],1
+000001B2  642215            and dl,[fs:di]
+000001B5  64D02D            shr byte [fs:di],1
+000001B8  C0E804            shr al,0x4
+000001BB  00D0              add al,dl
+000001BD  AA                stosb
+000001BE  E2EA              loop 0x1aa
+000001C0  E460              in al,0x60
+000001C2  FEC8              dec al
+000001C4  0F857BFF          jnz word 0x143
+000001C8  B505              mov ch,0x5
+000001CA  69DC0005          imul bx,sp,word 0x500
+000001CE  0F8461FF          jz word 0x133
+000001D2  60                pushaw
+000001D3  B90200            mov cx,0x2
+000001D6  D9C1              fld st1
+000001D8  DE0B              fimul word [bp+di]
+000001DA  C10B04            ror word [bp+di],0x4
+000001DD  DE03              fiadd word [bp+di]
+000001DF  C10B04            ror word [bp+di],0x4
+000001E2  36DE7401          fidiv word [ss:si+0x1]
+000001E6  D9FE              fsin
+000001E8  E2EC              loop 0x1d6
+000001EA  D8CC              fmul st4
+000001EC  DEC1              faddp st1
+000001EE  DDC3              ffree st3
+000001F0  B102              mov cl,0x2
+000001F2  D9C0              fld st0
+000001F4  D9E0              fchs
+000001F6  83C504            add bp,byte +0x4
+000001F9  D9C1              fld st1
+000001FB  D802              fadd dword [bp+si]
+000001FD  D9C2              fld st2
+000001FF  D822              fsub dword [bp+si]
+00000201  D9E1              fabs
+00000203  DEC1              faddp st1
+00000205  36D84CFD          fmul dword [ss:si-0x3]
+00000209  D912              fst dword [bp+si]
+0000020B  E2E9              loop 0x1f6
+0000020D  DCC1              fadd to st1
+0000020F  DEE2              fsubrp st2
+00000211  DEF9              fdivp st1
+00000213  D8C0              fadd st0
+00000215  36DE0C            fimul word [ss:si]
+00000218  36DE24            fisub word [ss:si]
+0000021B  DF1F              fistp word [bx]
+0000021D  61                popaw
+0000021E  43                inc bx
+0000021F  43                inc bx
+00000220  E2B0              loop 0x1d2
+00000222  C3                ret
+00000223  06                push es
+00000224  5C                pop sp
+00000225  FC                cld
+00000226  BB                db 0xbb

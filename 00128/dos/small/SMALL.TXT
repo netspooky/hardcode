@@ -1,0 +1,48 @@
+
+                           €ﬂﬂﬂﬂ ‹‹ ‹‹ ‹‹‹ ‹   ‹
+                           ﬂﬂﬂﬂ€ € ﬂ € €‹€ ›   ›
+                           ﬂﬂﬂﬂﬂ ﬂ   ﬂ ﬂ ﬂ ﬂﬂﬂ ﬂﬂﬂ
+
+                - by Clueless / Nuclear Meltdown Productions -
+
+            - a 96 byte (!) 4k intro from the NAiD '96 demoparty -
+
+Credits
+-------
+Code & Design:  Clueless
+Design:         Joe Snow
+
+Contact Info
+------------
+See accompanying group information file, NMINFO13.TXT.
+
+Info
+----
+This intro was made for fun to show off my technical skill.  No wait,
+that's not it.  It was made for fun to have something to enter in another
+competition at NAID '96.  Yeah, that's it.  =)
+
+Oh well, hopefully I'll be able to claim the smallest entry of any
+competition at the entire party.
+
+Oh, and Joe Snow had the idea to make it exactly 96 bytes (I had to add
+a couple NOPs to reach that).
+
+Greets
+------
+- Wally/TLOTB
+- everyone at NAiD '96 (Vector, Atomic Dreamer, Kain, etc)
+- Apraxia
+- Hornet
+
+Clueless' Tip of the Day
+------------------------
+People posting on the comp.sys.ibm.pc.demos newsgroup should settle down.
+
+Thanks for downloading this file, I hope it provided you with some sort
+of mild entertainment.  Drop me some email if you get a chance
+(see NMINFO13.TXT).
+
+cya l8r
+
+                                        - Clueless '96

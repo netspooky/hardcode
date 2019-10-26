@@ -1,0 +1,9 @@
+"Fake Plasmalines" by Delax
+http://www.sundancerinc.de
+
+Delax/ Sundancer Inc.
+delax@sundancerinc.de
+Browser Independant Fake Plasma forming some vertical lines.
+It works in NS4/6, Mozilla, IE (tested) and should work with
+Opera as well (not tested). Although NS4 is so damn slow it may
+cough up sometimes.

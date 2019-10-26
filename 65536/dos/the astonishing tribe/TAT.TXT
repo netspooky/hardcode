@@ -1,0 +1,64 @@
+
+  ---------------------------------------------------------------------------
+
+                                at the party vi
+
+                           pc 64kB intro competition
+
+       -      -     -    -   -  - - -yodel- - -  -   -    -     -      -
+
+                                   gives you
+
+                             the astonishing tribe
+        
+  ---------------------------------------------------------------------------
+
+          snooky writing some words:
+
+          welcome back! quite some time since we made a production
+        for the demo scene now. we planned to release something at
+        tg96, but that production wasn't finished, and it is resting
+        in a safe subdirectory at my harddrive, in exactly the same
+        state as i left it in april.
+
+          but now, we're back in business. we realized that intros
+        are what we do best, so we made another one. this time powered
+        with math co-processor instructions, but still the same good
+        old real mode. i havn't got a clue what's happened to the
+        intro/demo development the last six months (i'm doing my
+        military services right now..) but i think the effects included
+        in this production looks quite good.
+          you could say that this entire intro is based on one single
+        effect: a sub-pixel incorrect, z buffered, phong interpolating,
+        bump- and texture mapping, floyd/steinberg dither illuminated,
+        true perspective polygon filler. it uses vast amounts of our
+        beloved base memory and cpu time, but it looks quite good!
+
+          and now, the hardware department.
+          you will need the following to execute "tat":
+
+                a 386+ system
+                a 287+ math co-processor
+                600+ kB of base memory
+                a vga adapter with 256+ kB of video memory
+
+          and one of the following to hear the impressive soundtrack:
+
+                a built in pc speaker
+                a soundblaster (1.5/2.0/pro/pro2/16/32)
+                a gravis ultrasound
+
+          the intro has been tested on the following configurations:
+
+                486dx2-80, tseng et4000w32p, gus
+                p133, tseng et6000, sb16
+                p133, tseng et4000w32p, sb16
+                p166, matrox millennium, cba
+                
+          successfully...
+
+
+          and now, nothing left, but to wish You a happy new year!
+
+                                                         /// Snooky / Yodel
+  ---------------------------------------------------------------------------

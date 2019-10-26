@@ -1,0 +1,24 @@
+  odin's vrede v1.0, intro by proxima for 64k introcompo at party remedy'95
+in stockholm during the weekend 6-8. october 1995.
+
+  lack of inspiration, lack of time, lack of ideas. this intro lacks.
+sorry. but we hope you will enjoy it anyways. it's just a release.
+
+  proxima has increased again, yitzhaq joined. sysop, pr.
+
+  call our whq, countzero: +47 5512 2962
+                    email: calvin@vestnett.no    (calvin)
+               snail-mail: oyvind neuman         (twaddler)
+                           fagerbakken 10
+                           n-5082 eidsv†gneset
+                           norway
+
+  quick credits:
+           code.................twaddler
+           music..................balrog
+           graphics...............sunday
+           player.........beta/adrenalin
+           player modified........calvin
+
+THIS IS THE GUS-VERSION! THE RELEASE VERSION SHOULD USE THE MIDAS SOUND SYSTEM
+AND SHOULD SUPPORT SB, SBPRO AND PAS, AS WELL AS THE GUS CARD!

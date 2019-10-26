@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="shift_jis"?>
+<VisualStudioPropertySheet
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="nuno_demo"
+	OutputDirectory="..\FromPlane2Color"
+	>
+	<Tool
+		Name="VCCLCompilerTool"
+		Optimization="1"
+		InlineFunctionExpansion="2"
+		EnableIntrinsicFunctions="true"
+		FavorSizeOrSpeed="2"
+		OmitFramePointers="false"
+		AdditionalIncludeDirectories="..\..\..\demo2008;..\..\..\gpuppur\include;..\..\common"
+		PreprocessorDefinitions="DEMO_MODE;NDEBUG"
+		StringPooling="true"
+		ExceptionHandling="0"
+		BufferSecurityCheck="false"
+		EnableEnhancedInstructionSet="2"
+		FloatingPointModel="2"
+		RuntimeTypeInfo="false"
+		UsePrecompiledHeader="2"
+		PrecompiledHeaderThrough="stdafx.h"
+		AssemblerOutput="2"
+		CallingConvention="1"
+	/>
+	<Tool
+		Name="VCLinkerTool"
+		AdditionalOptions="/CRINKLER /COMPMODE:SLOW /REPORT:..\report.html"
+		AdditionalDependencies="winmm.lib"
+		OutputFile="$(OutDir)\$(ProjectName)_$(ConfigurationName).exe"
+		GenerateManifest="false"
+		IgnoreAllDefaultLibraries="true"
+		SubSystem="2"
+		OptimizeReferences="2"
+		EnableCOMDATFolding="2"
+		TargetMachine="1"
+	/>
+</VisualStudioPropertySheet>

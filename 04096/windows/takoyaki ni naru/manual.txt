@@ -1,0 +1,68 @@
+                          __
+  ______  ______  ______ /  |___  __ ___
+ /    ':|/    ':|/    ':|   | ':|/  | ':|
+|   |   |___|   |   '   |      _|       |   :: standard weeaboo trash ::
+|______/    |__/|___|__/|___|   |______/
+                        __  |__/                               ___ 
+                       /  |___  ______  __  ______  ______  __| ':| ______
+                      |     ':|/    ':|/__|/   ___|/    ':|/     '|/    ':|
+   :: since 2017 ::   |   |   |   '  _| ':|   | ':|   '   |   |   |   '___|
+                      |______/|___|__/|__/|______/|___|__/|______/|______/
+
+
+        o---------------------------------------------------o
+        |                                                   |
+        |   date: .................................. 2017   |
+        |   type: .............................. 4k intro   |
+        |   platform: ........................ Windows PC   |
+        |   media: ................................. HTTP   |
+        |                                                   |
+        o----o----------------------------------------------o
+                         |
+                         |
+  o----------------------o----------------------------o
+  |                                                   |
+  |    Release notes:                                 |
+  |                                                   |
+  |    On a  mission for  making the world a softer   |
+  |    and cuter place, one more or less irrelevant   |
+  |    production at a time!                          |
+  |                                                   |
+  |    Takoyaki Ni Naru  was released at the summer   |
+  |    edition  of  the   bi-annual   gathering  of   |
+  |    certain Finnish demogroups at Tampere, semi-   |
+  |    formally known as "E3 Hervanta".               |
+  |                                                   |
+  o----------------------------------------------o----o
+                                                 |
+                                                 |
+        o----------------------------o----------------------o
+        |                                                   |
+        |     Credits:                                      |
+        |                                                   |
+        |     Lily ........ Graphic program, Supervisor     |
+        |                                                   |
+        |     Niu-kame ............ Main program, Music     |
+        |                                                   |
+        |     Konata .................... Manual layout     |
+        |                                                   |
+        |     Memetech ........... Cultural councelling     |
+        |                                                   |
+        |     uses the FXAA implementation from             |
+        |         https://github.com/mattdesl/glsl-fxaa     |
+        |                                                   |
+        o----o----------------------------------------------o
+                         |
+                         |
+  o----------------------o----------------------------o
+  |                                                   |
+  |    Greetings:                                     |
+  |                                                   |
+  |    FMS_Cat, Tomohiro, 0x4015, YET11, Limp Ninja   |
+  |    System K,  MetroGirl, I-Saint, Setsuko, Nikq   |
+  |    Eddietree,  Nonoil, Gorakubu, 301,  Vaahtera   |
+  |    Poo-Brain,  LNX, Conspiracy, Mercury, Fizzer   |
+  |    Ivory Labs, Quadtrip,  Digital Sounds System   |
+  |    Peisik,  Paraguay,  Peisik,  Epoch, Logicoma   |
+  |                                                   |
+  o---------------------------------------------------o

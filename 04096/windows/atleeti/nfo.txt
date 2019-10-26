@@ -1,0 +1,35 @@
+
+                    Atleeti 4K intro for Assembly 2010
+                                 by Archee
+
+Fully procedural animation. 
+A simplified physical simulation of a humanoid body and a ball.
+
+A lot of changes have taken place sincs Darwinism 4K: the motion is 
+this time continuous, and rigid body physics is used, unlike soft
+body in Dariwnism. Rendering and music entirily rewritten to make space.
+The AI bends the joints of the humanoid body to make it move.
+The physics simulation runs 4200 times realtime using multi-core, 
+which allows the Genethic Algorhitm to test enough moves realtime.
+Written in neat C++, -of corse, keeping in mind, how the compiler works-,
+with only few assembly hacks. Then crinklered.
+It may slow down after a while if watching with only 2 cores.
+The little precalc is for the music. 
+
+All the above didnt leave enough space for proper gfx and music.
+Here is how many bytes I usually spend on music:
+
+   2007 Sumotori:      ~26000 bytes XM
+   2008 h4vok:         ~700 bytes generated
+   2008 Photon Race2:  ~500 bytes midi
+   2010 Darwinism:     ~400 bytes midi
+   2010 UFOnaut:       ~273 bytes generated
+
+If you think,the anim is stored, run one of the randomizer.exe.
+
+Credits:
+  - Crinkler
+  - The melody comes from the famous song, which I can hear from the 
+    street all the time: "Olééé ole-ole-oléééé, we are the champs..."
+
+Archee

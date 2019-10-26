@@ -1,0 +1,14 @@
+ElEssDee
+256b intro (in 192 bytes)
+Requires 80386+80387
+
+This intro was actually made by
+accident, while I was playing
+with making electric fields (thus
+the name). However, I have noticed
+that it starts to make some
+interesting patterns if you let it
+run for a few minutes.
+
+written by tm__ (icq#38852795)
+April 7th, 2004

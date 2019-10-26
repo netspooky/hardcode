@@ -1,0 +1,46 @@
+	  The revised version.
+	  I thought that the MOD player is smart enough not to start
+	playing if there's no SoundBlaster. I had to correct this,and
+	now I hope will work on every machine.
+
+	  This demo requires a DX2-66 minimum (but not tested).The dream 
+	configuration is P-90 with PCI card.It is _ADVISABLE_ that you
+	should not run this demo from Win95 or Win3;because of the timer 
+	interferences, as my demo requires for some effects an enormous
+	60 FPS(frames per second), this speed can't be achieved in
+	a multitasking environment like Win95 or its ancestor,Win3.
+	I also _ADVISE_ that you don't run it under any DOS emulators
+	for OS/2,UNIX or APPLE.It'll simply won't work !
+
+	  Be sure that the DMA of your soundcard is 1, or you might not 
+	hear music.I didn't test it on a computer without soundcard and 
+	I think it might hang your computer just before exit.
+
+	  This demo proves my skill in creating even this kind of demo-
+	the 64k-and was written in about 3 weeks in august 1997.
+
+	  You are free to use and spread this demo any way you like as
+	long as you don't charge money for it . My only request is to 	
+	distribute the executable along with file,"amorphis.nfo".
+
+	  I tested it and worked fine and smooth on my computer but 
+	I don't guarantee functionality on any particular hardware 
+	and configuration. Also, don't blame me if my demo burns 
+	your computer : USE IT AT YOUR OWN RISK !
+
+	  From now on, I am available for commercial demos.Send your
+	request on e-mail pp709@cs.utt.ro or voice 041-623755 . You 
+	should think about the type of the demo(executable/animation),
+	some content guidelines, the size, the time length and other 
+	things that might strike your mind.Of course,the price is 
+	proportional to the amount of work :-)(I am smart,don't I ?)
+
+	  In AUTUMN, I will bring you the Pascal & Asm source code 
+	of this demo(please don't fire me for using Pascal rather 
+	than C;I have _very_ strong reasons !).The package will also
+	contain the technical detail over some effects in the demo,
+	the math behind it(for the begginers) and some thoughts about
+	modern art.It will be available in the FTP site linked to 
+	WWW.UTT.RO. Check this out,it really worth downloading !
+
+	  Hope to hear you soon !

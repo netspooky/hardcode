@@ -1,0 +1,27 @@
+
+._:=======:[ llaih by rAum/Black Sun and dextero/Black Sun ]:========
+|
+[_Idea/Code/Gfx: rAum      ]
+[_Code/Gfx:	 dextero   ]
+[_Msx:	         Voyager   ]
+[_Synth used:    PuovaHard ]
+
+
+You need to change resolution by hand, sorry :(
+
+
+Story:
+It's my and dextero's first intro (new sceners! :)). We developed 90%
+of this intro at WeCan party but we failed due to deadline and lack of
+glsl knowledge.
+Read name of prod backwards ;)
+
+
+Hardware requirements: pretty good gfx - ray marching is slow
+		       and generated code might be too long for some cards (intel).
+
+
+Special greets for Nitro, maq, Eliot, cahir, Reg, LovelyHannibal, IQ and many others.
+And of course many thanks for creators of Crinkler and PuovaHard :)
+
+

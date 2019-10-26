@@ -1,0 +1,8 @@
+hello,
+
+please run this intro in a CLEAN DOS BOOT. If you run this intro after
+showing other demos / programs on the pc the music will simply screw up.
+
+thanks.
+
+macaw.

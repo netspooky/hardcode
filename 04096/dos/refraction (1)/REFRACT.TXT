@@ -1,0 +1,208 @@
+
+ _ G. O. D. ________________________________________________________ 1995. ___
+I            __   __  __  __   __   __ ___  __  ___ _  _                      I
+`\          j__) j__ j__ j__) j__j j    j   j  j  j j\ j                    /'
+  `\        f \. f__ f   f \. f  f f__  f  _f_ f__f f `f                  /'
+    `\__________________________________________________ A b a d d o N _/'
+     I#I                                                               I#I
+     I#I                                                               I#I
+     I#I                                                               I#I
+     I#I                      R E F R A C T I O N                      I#I
+   _____                     ~~~~~~~~~~~~~~~~~~~~~                     _____
+ /'_ o o:                       - by G.O.D. -                         ;o o _`\
+( ( `\___|                                                           |___/' ) )
+`\`\ I#I                                                               I#I /'/'
+  `\`I#I                                                               I#I'/'
+    `I#I     REQUIREMENTS:                                            ,I#I'
+     I#I`\                                                           / I#I
+     I#I) )    386 or a greater processor. (recommended 486DX4)     ( (I#I
+     I#/'/'    VGA or MCGA compatible video card.                    `\`\I
+     /'/'      256kb of free base memory.                              I\`\
+   /'/'I                                                               I#`\`\
+  ( (I#I                                                               I#I ) )
+   `\I#I     COPYRIGHT AND DISCLAIMER:                                 I#I/'/'
+     I#I`\                                                             I#I/'
+     I#I`\`\   Refraction  is  my  contribution  to  the  PC-X        ,I#I
+     I#I  ) )  4kb  intro  competition.   It's  not  freeware.       / I#I
+     I#I /'/'  You are allowed to copy it without restrictions      ( (I#I
+     I#/'/'    for non-commercial use.                               `\`\I
+     /'/'                                                              I\`\
+   /'/'I       No  payment of any kind may be charged for this         I#`\`\
+  ( (I#I       product  or  any  combination  of  products  or         I#I ) )
+   `\I#I       services  including  this  product  without  my         I#I/'/'
+     I#I`\     authorization and official written license.             I#I/'
+     I#I`\`\                                                          ,I#I
+     I#I  ) )  Commercial   use,   especially  the  industrial       / I#I
+     I#I /'/'  manufacturing  on any  data  storage  media and      ( (I#I
+     I#/'/'    their  distribution   without   the   expressed       `\`\I
+     /'/'      permission  of  the   producer,   is   strictly         I\`\
+   /'/'I       prohibited.                                             I#`\`\
+  ( (I#I                                                               I#I ) )
+   `\I#I       The program or this text file may not be altered        I#I/'/'
+     I#I`\     or modified without the permission of the author.       I#I/'
+     I#I`\`\                                                          ,I#I
+     I#I  ) )  You take full responsibility for the operation of     / I#I
+     I#I /'/'  this software and any consequences thereof. I the    ( (I#I
+     I#/'/'    creator can not  accept liability  for damages or     `\`\I
+     /'/'      failures arising from the use of this software.         I\`\
+   /'/'I                                                               I#`\`\
+  ( (I#I                                                               I#I ) )
+   `\I#I     ARCHIVE FILES:                                            I#I/'/'
+     I#I`\                                                             I#I/'
+     I#I`\`\   The files included in REFRACT.ZIP                      ,I#I
+     I#I  ) )  should be as follows :                                / I#I
+     I#I /'/'                                                       ( (I#I
+     I#/'/'    REFRACT.COM   4096 bytes  the executable program      `\`\I
+     /'/'      REFRACT.ASM  60000 bytes  the source of the program     I\`\
+   /'/'I       REFRACT.TXT  16384 bytes  this textfile                 I#`\`\
+  ( (I#I       FILE_ID.DIZ    256 bytes  tile description for BBS      I#I ) )
+   `\I#I                                                               I#I/'/'
+     I#I`\     Any other files found in this archive could be          I#I/'
+     I#I`\`\   deleted. If the COM file changed its size, you         ,I#I
+     I#I  ) )  should run your virus-killer.                         / I#I
+     I#I /'/'                                                       ( (I#I
+     I#/'/'                                                          `\`\I
+     /'/'    THIS LITTLE THINGY CONTAINS:                              I\`\
+   /'/'I                                                               I#`\`\
+  ( (I#I       A 128x128 Mandelbrot zoomer.                            I#I ) )
+   `\I#I       Something like a broken screen.                         I#I/'/'
+     I#I`\     The finish of a chess party from 1951.                  I#I/'
+     I#I`\`\   ( To make something  like this in a 4k                 ,I#I
+     I#I  ) )    intro  was Ervin's  idea and I  feel                / I#I
+     I#I /'/'    myself ashamed to stole it from him. )             ( (I#I
+     I#/'/'                                                          `\`\I
+     /'/'      This intro was coded on an AMD386DX40 with              I\`\
+   /'/'I       4Mb and a Tseng ET4000.                                 I#`\`\
+  ( (I#I       Tested on lots of machines. If you find some            I#I ) )
+   `\I#I       crashes  or  hangups,  please  contact  me.             I#I/'/'
+     I#I`\                                                             I#I/'
+     I#I`\`\                                                          ,I#I
+     I#I  ) )ABOUT THE SOURCE:                                       / I#I
+     I#I /'/'                                                       ( (I#I
+     I#/'/'    I released it because I think there are some          `\`\I
+     /'/'      coders who are starting now, and they can               I\`\
+   /'/'I       learn from that. The source is also under               I#`\`\
+  ( (I#I       the copyright, so DO NOT MODIFY OR SELL IT.             I#I ) )
+   `\I#I                                                               I#I/'/'
+     I#I`\                                                             I#I/'
+     I#I`\`\ BEST REGARDS TO:                                         ,I#I
+     I#I  ) )                                                        / I#I
+     I#I /'/'  @                    Jeskola!Prod.    Xograpy        ( (I#I
+     I#/'/'    Acme                 Legend Design    Absolute!       `\`\I
+     /'/'      Analogue             Logic Design     Astroidea         I\`\
+   /'/'I       Cascada VR Section   Nooon            Biohazard         I#`\`\
+  ( (I#I       Complex Media Labs.  Orange           Byteam            I#I ) )
+   `\I#I       Dust                 Prime            Demons            I#I/'/'
+     I#I`\     EMF                  Tran             Impulse           I#I/'
+     I#I`\`\   Flatline Prod.       Triton           gRiF             ,I#I
+     I#I  ) )  Future Crew 252.     Sahara Surfers   Majic 12        / I#I
+     I#I /'/'  Gollum               Sonic PC         Murmidones     ( (I#I
+     I#/'/'    Iguana               Surprise!Prod    Remal           `\`\I
+     /'/'      Impact Studios       Twilight Zone    Shock!            I\`\
+   /'/'I       Imphobia             Valhalla         Therapy           I#`\`\
+  ( (I#I       Inertia              VLA                                I#I ) )
+   `\I#I                                                               I#I/'/'
+     I#I`\                                                             I#I/'
+     I#I`\`\ ABADDON SITES:                                           ,I#I
+     I#I  ) )                                                        / I#I
+     I#I /'/'  THE BLACK ABYSS                                      ( (I#I
+     I#/'/'    HUNGARIAN SITE                                        `\`\I
+     /'/'                                                              I\`\
+   /'/'I       SysOp: The Kreator & CyberDancer/Shock!                 I#`\`\
+  ( (I#I                                                               I#I ) )
+   `\I#I       +36-76-485-719                                          I#I/'/'
+     I#I`\                                                             I#I/'
+     I#I`\`\                                                          ,I#I
+     I#I  ) )  EXPERIMENTAL CONNECTION                               / I#I
+     I#I /'/'  HUNGARIAN SITE                                       ( (I#I
+     I#/'/'                                                          `\`\I
+     /'/'      SysOp: Atx/Shock!                                       I\`\
+   /'/'I                                                               I#`\`\
+  ( (I#I       Open: 22-08 CET                                         I#I ) )
+   `\I#I       14.4-16.8                                               I#I/'/'
+     I#I`\     +36-1-275-7049                                          I#I/'
+     I#I`\`\                                                          ,I#I
+     I#I  ) )                                                        / I#I
+     I#I /'/'  ECLIPSE                                              ( (I#I
+     I#/'/'    CROATIAN HEADQUARTERS                                 `\`\I
+     /'/'                                                              I\`\
+   /'/'I       SysOp: GENii/ZigZag                                     I#`\`\
+  ( (I#I                                                               I#I ) )
+   `\I#I       Open: 16-08 CET, 24h on weekends                        I#I/'/'
+     I#I`\     14K4bps                                                 I#I/'
+     I#I`\`\   +385-51-242-472                                        ,I#I
+     I#I  ) )                                                        / I#I
+     I#I /'/'                                                       ( (I#I
+     I#/'/'    EVOLUTION                                             `\`\I
+     /'/'      SWEDISH HEADQUARTERS                                    I\`\
+   /'/'I                                                               I#`\`\
+  ( (I#I       SysOp: Thor/Creation                                    I#I ) )
+   `\I#I                                                               I#I/'/'
+     I#I`\     Remote Access 2.02+                                     I#I/'
+     I#I`\`\   2400-21600 bps                                         ,I#I
+     I#I  ) )  dgi: 68:460/20 - gsn: 864:46/2                        / I#I
+     I#I /'/'  +46-8-50022544                                       ( (I#I
+     I#/'/'                                                          `\`\I
+     /'/'                                                              I\`\
+   /'/'I       POINTBREAK                                              I#`\`\
+  ( (I#I       BELGIAN SITE                                            I#I ) )
+   `\I#I                                                               I#I/'/'
+     I#I`\     SysOp: Lord Cyrix                                       I#I/'
+     I#I`\`\                                                          ,I#I
+     I#I  ) )  28.8 US Robotics                                      / I#I
+     I#I /'/'  6 nodes ringdown                                     ( (I#I
+     I#/'/'    +32-11-436925                                         `\`\I
+     /'/'                                                              I\`\
+   /'/'I                                                               I#`\`\
+  ( (I#I       You can also find some of the newest stuff on           I#I ) )
+   `\I#I       ftp.szif.hu                                             I#I/'/'
+     I#I`\     /pub/demos/alpha/1995                                   I#I/'
+     I#I`\`\                                                          ,I#I
+     I#I  ) )                                                        / I#I
+     I#I /'/'CONTACT:                                               ( (I#I
+     I#/'/'                                                          `\`\I
+     /'/'      e-mail: god@sch.bme.hu                                  I\`\
+   /'/'I       snail-mail: Taletovics David                            I#`\`\
+  ( (I#I                   XI. Irinyi J.u. 42. (Room 1201)             I#I ) )
+   `\I#I                   Budapest                                    I#I/'/'
+     I#I`\                 H-1117.                                     I#I/'
+     I#I`\`\               ( in school time )                         ,I#I
+     I#I  ) )                                                        / I#I
+     I#I /'/'              or Taletovics David                      ( (I#I
+     I#/'/'                Deri F.stny. 4.                           `\`\I
+     /'/'                  Baja                                        I\`\
+   /'/'I                   H-6500                                      I#`\`\
+  ( (I#I                   ( in summer time )                          I#I ) )
+   `\I#I                                                               I#I/'/'
+     I#I`\                                                             I#I/'
+     I#I`\`\                                                          ,I#I
+     I#I  ) )                                                        / I#I
+     I#I /'/'                                                       ( (I#I
+     I#/'/'                                                          `\`\I
+     /'/'                                                              I\`\
+   /'/'I                                                               I#`\`\
+  ( (I#I___                                                            I#I ) )
+   `\I#I__/                                                            I#I/'/'
+     I#I                                                            ___I#I/'
+     I#I                                                            \__I#I
+     I#I                                                               I#I
+     I#I                         ____________                          I#I
+ ___/I#I\ _______________________`\________/'________________________ /I#I\___
+i/'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`\____/'~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`\i
+I     ,$$$$$$$,                      `\/'                  $$$$.      $$$     I
+I    ,$$$' `$$$,                                           $$$$$.     $$$     I
+I    $$$'   `$$$                                           $$$`$$.    $$$     I
+I    $$$     $$$  $$$$$.  ,$$$$$.  $$$$$.  $$$$$.  ,$$$$.  $$$ `$$.   $$$     I
+I    $$$     $$$  $$  $$  $$   $$  $$  $$  $$  $$  $$  $$  $$$  `$$.  $$$     I
+I    $$$$$$$$$$$  $$$$$'  $$   $$  $$  $$  $$  $$  $$  $$  $$$   `$$. $$$     I
+I    $$$$$$$$$$$  $$  $$  $$$$$$$  $$  $$  $$  $$  $$  $$  $$$    `$$.$$$     I
+I    $$$     $$$  $$  $$  $$   $$  $$  $$  $$  $$  $$  $$  $$$     `$$$$$     I
+I    $$$     $$$  $$$$$'  $$   $$  $$$$$'  $$$$$'  `$$$$'  $$$      `$$$$     I
+I_____________________________________________________________________________I
+`~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~'
+                                                                                                                          
+                                                                                                                          
+                                                                                                                          
+                                                                                                                         
+                                                                                                                         
+                                                                                                                         

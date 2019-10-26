@@ -1,0 +1,6 @@
+Entry name: BLCK4777
+Author: p01 / ribbon
+Category: 1k
+Platform: JavaScript
+Description: BLCK4777: a JavaScript explosion of light and triangles in 1023 bytes
+

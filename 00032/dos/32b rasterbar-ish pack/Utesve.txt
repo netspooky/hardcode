@@ -1,0 +1,22 @@
+Utesve - a 32-byte DOS intro from the Puppy Farm
+
+Source:
+
+
+00000000 B013             mov	al,13h
+00000002 CD10             int	10h
+00000004 C537             lds	si,[bx]
+00000006 1E               push	ds
+00000007 07               pop	es
+00000008 31D2             xor	dx,dx
+0000000A AA               stosb	
+0000000B 40               inc	ax
+0000000C C700B957         mov	word [bx+si],57B9h
+00000010 014B04           add	[bp+di+04h],cx
+00000013 32EF             xor	ch,bh
+00000015 F6DF             neg	bh
+00000017 B90547           mov	cx,4705h
+0000001A 75EA             jnz	000000006h
+0000001C 41               inc	cx
+0000001D 75EB             jnz	00000000Ah
+0000001F E7               db	0E7h

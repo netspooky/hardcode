@@ -1,0 +1,11 @@
+YAZB255
+-------
+
+I was bored, then I watched all 256b intros from Pirx's collection (Too much for one day! And I had to reboot Win98 at least 30 times!!!) and then got inspired into coding a tiny intro again. At the beginning I thought "I have coded a 32b, 64b and 256b but never a 128b!", so this started as an attempt to make something in 128b. Although it reached 256b ;P
+
+My idea was another zoomblur (I hadn't done one before in tiny space) and reusing some old pallete generating code from Kefrens256 for showing off two blended zoomblur buffers. I'd like to do diferrent sine bobs and not the same ring, but I was too lazy and that was the best I could do for this night. Still looks not bad. I had a long time (since kefrens256) to code something colorfull that doesn't use typical palletes.
+
+Optimus/Dirty Minds^Nasty Bugs^Anubis
+
+p.s. So,. I still have to code one 128b just for the records
+p.p.s. And I also have to start with fuckin FPU oneday

@@ -1,0 +1,68 @@
+
+  ‹€€€€€‹ ‹€€€€€‹ ‹€€€€€‹ €€  ‹€€ ‹€€€€€€ €€   €€
+  €€‹‹‹‹  €€   €€ €€‹‹‹€€ €€‹€€ﬂ  €€‹‹‹‹  €€‹ ‹€€        <- silly name
+   ﬂﬂﬂﬂ€€ €€   €€ €€ﬂﬂﬂ€€ €€ﬂ€€‹  €€ﬂﬂﬂﬂ   ﬂ€€€ﬂ
+  ﬂ€€€€€ﬂ €€   €€ €€   €€ €€  ﬂ€€ ﬂ€€€€€€   ﬁ€› v2.0
+
+  ƒÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕƒ
+
+
+    Well here's my entry for the 256 byte game competition.  Since space
+  was _very_ limited I had to assume a few things about your system:
+
+	Numlock is ON
+	System Timer is running at 18.2 ticks per second
+	VGA (320x200x256) is supported
+
+
+ƒÕÕÕÕÕÕƒ
+CONTROLS
+ƒÕÕÕÕÕÕƒ
+
+	up		'8'
+	down		'2'
+	left		'4'
+	right		'6'
+	quit		Just hit something (like the wall ...)
+
+	Don't press any other key ... unless of course you you want to see
+	wierd things happen!
+
+
+ƒÕÕÕÕÕÕƒ
+GAMEPLAY
+ƒÕÕÕÕÕÕƒ
+
+	- There are walls surrounding you (poor snakey is trapped!)
+
+	- The game will end once you collect 31 pieces of candy (at which
+	  point snakey will be 512 sections long filling 1/8 of the play
+	  field)
+
+	- Snakey doesn't backup very well (ex. don't press down while
+	  you're travelling up!)
+
+
+ƒÕÕÕÕÕÕƒ
+CREDITS!
+ƒÕÕÕÕÕÕƒ
+
+	Design			Silent Avenger
+	Coding			Silent Avenger
+	Grafix			Silent Avenger
+	Beta Testing		Silent Avenger
+
+	Hmmm, I guess I did everything!
+
+
+ƒÕÕÕÕÕÕƒ
+ GREETZ
+ƒÕÕÕÕÕÕƒ
+
+	All the dudes who entered this compo
+	All assembly coderz (woowoo!)
+	Steve, who dreamed this crazy contest up!
+
+
+  Silent Avenger [TCS]
+  dcronin@gpu.srv.ualberta.ca

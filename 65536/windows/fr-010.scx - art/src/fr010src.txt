@@ -1,0 +1,30 @@
+Hello.
+
+Here are some annotations for the source of FR-010.scx: Art (bugfixed)
+
+All source code in this directory (this means: all files with an extension of
+.c,.cpp,.asm,.h and .hpp) is (C) Farbrausch/Scoopex 2000-2001. You may use,
+modify and distribute any of these sources at will, as long as this copyright
+notice is part of any source distribution package you may build. If you use
+these sources or parts of these sources in binary form, some credits would be
+cool. If you use these sources to create rip-offs of the original intro, feel
+free to get beaten up by a person of your own wish. Make at least a hardware
+accel version of it. thanks. :)
+
+Oh, and don't try to earn any money using these sources, that's mean and the
+only persons profiting from this would be our lawyers, as commercial use of
+any kind is of course forbidden.
+
+You will need Microsoft Visual C/C++ 6.0 or higher and NASM/Win32 0.98 or
+higher to compile the project. Then, a working .exe should fall out of the
+linker, if not, you've certainly done something wrong. Please DON'T contact us
+in this case :)
+
+And yes, we omitted the sound system source. Reason: we're evil bastards. And
+Linux sucks, too. :)
+
+In any case, feel free to learn from these sources, or maybe bash us for our
+bad coding style or for the fact that we actually read from VRAM or anything.
+
+  kb
+  f-r quality assurance and tired senseless texts writer

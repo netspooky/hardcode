@@ -1,0 +1,3 @@
+We know that 64k is 65536 Bytes.
+We just don't care.
+mostly_harmless@kuhlmeyer.net

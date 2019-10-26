@@ -1,0 +1,31 @@
+.-----------------------------.
+|        Night Flight         |
+| A Text Mode Demo for TMDC15 |
+|         by Komojo           |
+|      komojo@gmail.com       |
+'-----------------------------'
+
+...because I can't think of a better title.
+
+This demo is mainly an experiment to see what I can do with a new rendering
+technique and 3D texture-mapped polygons.  There isn't much of a theme other
+than "things that look cool in this art style."
+
+Here is a reenactment of how I made this demo:
+
+"Hey, I've got an idea!  Why don't I make a demo with animated 3D characters!
+Hmmm...not enough time to learn how to make and export the models.
+Why don't I just hard-code everything one vertex at a time?  It's a terribly
+nerdy way to make a demo, but it works.
+
+Uh oh, the C runtime libraries are taking up too much space!  I should try to
+avoid using any library functions.
+Hmmm...I just spent a whole day trying to do that and it isn't working.  I can't
+get the file size under 64k if I use the library functions...unless I take out
+the audio.  What now?  Do I keep trying to replace the library functions?  Do I
+not worry about the file size since it isn't a requirement anyway?  Or do I come
+up with a whole new soundtrack at the last minute?"
+
+Clearly the third option is the most fun, so that's what I decided to do.
+
+I did all the code, graphics and music myself.  The exe is compressed with UPX.

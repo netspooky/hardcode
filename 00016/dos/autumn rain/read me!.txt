@@ -1,0 +1,20 @@
+my second released demo "autumn rain"
+
+inspired by "glitchy rainbow" from Suborg
+http://www.pouet.net/prod.php?which=61976
+
+
+i aimed for the smallest bytesize while
+having a screen filling animation effect
+
+you can watch a video of me, coding and 
+executing the program with "debug" on 
+MS Dos 6.22 running on Oracle Virtual Box 4.3
+
+http://www.youtube.com/watch?v=HHmZdPIu0zk
+
+it has also been tested vor DOSBox 0.74
+... it works ;) animation is way faster
+
+contact me on facebook if you like
+https://www.facebook.com/mood.hell

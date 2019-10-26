@@ -1,0 +1,74 @@
+Psycho Scroller by PsychoMan / Craw Productions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Requirements:   - Computer with monitor
+                - DOS 1.0 or higher (NOT Win95 DOS-box)
+                - One cluster of free disk space
+                - At least 256 bytes of free conventional memory
+
+Features:       - Incredible unidirectional 1-level parallax scrolling
+                - Extra-long scroll text with greets and credits section
+                - Full framerate, even on a 286!
+
+Credits:
+
+        Concept         - PsychoMan
+        Art/Design      - PsychoMan
+        Code            - PsychoMan
+        Scroll Text     - PsychoMan
+
+Greets:
+
+        Matju           - For telling me that my first entry sucked
+        Mordred         - For greeting me in "Inter Stellar Phenomenon" :)
+
+Disclaimer:
+
+        Run this demo at your own risk!  I will not be responsible for
+        any damage caused to your hardware or software as a result of
+        running this demo.
+
+        This demo may not be exchanged for money, goods, or services
+        without permission from the author.
+
+        This demo does not contain any animations.  All effects were
+        calculated in real time by your computer while you watched.
+
+About this demo:
+
+        It was July 25th, the deadline day for the TechsTronics 256-byte
+        demo compo, and I had to come up with a second entry FAST!
+        So, there I was at work, when the software I was using crashed.
+        With nothing to do, I decided to throw something together.
+        A few minutes later, I had "Psycho Scroller".  And that's it.
+
+Troubleshooting:
+
+        "Hey, all it says is "Psycho Scroller by PsychoMan"!
+         There isn't even any scrolling!"
+        OR
+        "Hey, it just hangs my machine!"
+
+        DO NOT run this demo in a Win95 DOS-box.  It requires the vertical
+        retrace to time itself properly and it will NOT run at the proper
+        speed without it.
+
+About the author:
+
+        PsychoMan is a member of the super-duo known as Craw Productions.
+        This was my second lame attempt at a demo under 256 bytes.
+
+        If you want to give me feedback about this demo or just say hi, you
+        can contact me by e-mail to manttila@undergrad.math.uwaterloo.ca.
+
+        If you want to know more about my not-so-personal life and my other
+        interests (like I have any other interests), feel free to visit my
+        web page at http://www.undergrad.math.uwaterloo.ca/~manttila/
+
+About Craw Productions:
+
+        This is not an official Craw Productions release, merely one of
+        PsychoMan's many small side projects.
+
+        However, if you want to know more about Craw Productions, please
+        visit our newly-renovated web site at http://www.magi.com/~craw/
+        or e-mail to craw@magi.com.

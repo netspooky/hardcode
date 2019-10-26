@@ -1,0 +1,14 @@
+Name:        Light Rythm
+Compo:       4K intro
+Music by:    pOWL/Alcatraz
+Code by:     Stan/Rebels
+Assistance:	 gopher/Alcatraz
+Released at: Evoke 2010
+Packed by:   Crinkler
+
+We even found some space for a second hihat this time!
+
+Needs d3dx9_32.dll
+
+
+Stan

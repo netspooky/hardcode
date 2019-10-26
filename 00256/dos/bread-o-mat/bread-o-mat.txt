@@ -1,0 +1,14 @@
+-- 254byte info --
+Bread-O-Mat
+a 256 byte "mini-intro"
+
+assembly by biff <biff@kakiarts.de> (TASM 5)
+
+I know, it is slow like hell. 
+But, hey, it's my first 256byte intro
+using fpu instructions.
+
+http://www.kakiarts.de
+
+-- 254byte info --
+

@@ -1,0 +1,35 @@
+
+wrecked angle, by inque
+
+:: release info :: ----------------------------
+
+made for (and at) Outline 2008. most of the work
+was done in 3 days. (including a full day at 
+outline) it was the first time we used our own 
+softsynth, pandora, together with our custom 
+64k-demosystem, nerve.
+
+:: reqs :: ------------------------------------
+
+uses pixelshader 3.0. requires direct3d 9.0.
+you'll need d3dx9_32.dll, which is included
+in the latest DirectX runtimes.
+
+should run on most modern videocards, although
+it's completely unoptimized.
+
+:: credits :: ---------------------------------
+
+code/visuals/additional direction -- glow
+soundtrack/direction -- izard
+
+:: greetz :: ----------------------------------
+
+we say hi to:
+
+asd, farbrausch, conspiracy, still, limp ninja,
+lineout
+
+:: cya :: -------------------------------------
+
+www.inque.org

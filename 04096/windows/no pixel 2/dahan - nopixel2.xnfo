@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xnfo standard="1.1" version="1" mode="complete" author="sanx(at)fxteam(dot)net">
+<demo>
+	<name>Nopixel2</name>
+	<authors>
+		<group>dahan</group>
+	</authors>
+	<category type="intro;4k">Intro 4K</category>
+	<support>
+		<configuration>
+			<plateform type="win32">Dos</plateform>
+		</configuration>
+	</support>
+	<archive>
+		<file>dahan - nopixel2.zip</file>
+	</archive>
+	<runs>
+		<run>nopixel2.exe</run>
+	</runs>
+</demo>
+</xnfo>

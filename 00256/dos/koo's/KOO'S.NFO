@@ -1,0 +1,29 @@
+
+KOo'S.COM v167 (C) *PaN!* 1994,1995,1996,2005
+---------------------------------------------
+
+VERSIONS
+  KOo'S.COM (v385) has been worked out in one day, somewhere in 1994, for the 
+  first official koo's meeting (my former group, who was then merged with 
+  Spinning Bugs to create the "Spinning Kids"). 
+  Can't remember the exact day, but it was cold, so it must have been winter.
+  The main purpose in its size was due to the fact that it was distributed in
+  printed hexadecimal format.
+
+  Anyway, the original version was blue, but it was a waste of space.
+  In 1995-09-03, after 24 hours of work, the file became 190 bytes, but win95 is
+  not very happy about this (I think it's due to the fact I'm assuming a
+  nondocumented dos register initialization).
+
+  In 1996/04/13 I ate more bytes, bringing the BW version to 183, and finally 
+  in 1996/06/18 the final version was done: 176 bytes for the red version, and
+  167 bytes for the black and white.
+
+GREETINGS
+
+  The long time dead demo.ita fidonet area, the spinning kids, and everyone I
+  met on irc and at demoparties during these years.
+  And Pellicus, who remembered me that once I did some 256-bytes, and helped me
+  to notice that the pouet link was wrong.
+
+2005-10-25

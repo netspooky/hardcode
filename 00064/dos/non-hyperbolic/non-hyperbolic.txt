@@ -1,0 +1,11 @@
+non-hyperbolic
+--------
+
+A 64b prod by lord Kelvin.
+
+Today I`ve found an intro, that I had created in may of 2006. (It`s in a bonus folder)
+So I decided to add "missing bytes". Here`s the result. Enjoy.
+
+Compiled with FASM.
+
+Great hello from Russia.

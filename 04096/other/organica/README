@@ -1,0 +1,73 @@
+==============================================================================
+
+Organica - 4k intro for Assembly 2007
+
+==============================================================================
+
+	Credits
+
+Juippi:
+	- music
+
+Warma:
+	- interference effect base
+	- orbit fractals
+
+Trilkk:
+	- everything else
+
+==============================================================================
+
+	Thanks
+
+TheFlash:
+	- windows port
+
+==============================================================================
+
+	Notes
+
+The intro is licensed for anyone to use for any purpose. Specifically, under
+BSD licence. Details here: http://eu.conecta.it/paper/BSD_licence.html
+
+Compo version is programmed to work in FreeBSD. The intro is portable, but the
+other versions might not be anywhere near 4 kilobytes. Supported platforms
+provided in the distribution package include:
+	freebsd-i386 (compo platform)
+	linux-ia32
+	linux-amd64
+	linux-ppc32
+	osx-ppc32
+	osx-ppc64
+	windows-ia32
+If you can provide us with another kind of binary, please do. It will get
+included in the package.
+
+If you want to compile the intro yourself, please use SCons build system,
+the compilation scripts compile.pl and compile.sh are made for searching gcc
+flags to make the intro smaller and quickly build and pack it (respectively).
+They only work in any reliable manner on FreeBSD 6.2-RELEASE i386.
+
+4k intros made by FIT/Bandwagon, specifically some additional reference
+material by Marq have been used for ideas on how to make the intro smaller.
+However, the actual implementation borrows no code. Big thanks anyway!
+
+==============================================================================
+
+	Troubleshooting
+
+In BSD and Linux, the intro does not link or check it's dependencies
+compile-time, rather it dynamically loads all symbols on the fly. Thus, if the
+intro segfaults on startup, check that at least following libraries are
+installed:
+
+	libGL
+	libGLU
+	libglut
+	libSDL
+
+In release builds the dynamic loader prints symbol addresses, so if they
+are missing for a particular library, it isn't found on your system and
+you should make sure it's installed.
+
+==============================================================================

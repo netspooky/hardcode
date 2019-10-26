@@ -1,0 +1,7 @@
+motion.com : motion.obj
+         tlink motion.obj /t
+         del   motion.obj
+         del   motion.map
+
+motion.obj :  motion.asm
+         tasm motion.asm /m3

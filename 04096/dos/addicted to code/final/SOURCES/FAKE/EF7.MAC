@@ -1,0 +1,114 @@
+Effect7Prepare	MACRO
+	mov	edi,ds:[TabPtr]
+	add	edi,Colbuffers
+CBuf1Y:
+	xor	dx,dx	
+CBuf1X:
+	mov	al,1
+	cmp	dx,100
+	jl	CBuf1a
+	cmp	dx,164
+	jl	CBuf1b
+	mov	al,127
+	jmp	CBuf1a
+CBuf1b:
+	mov	ax,dx
+	sub	ax,100
+	add	ax,ax
+	inc	ax
+CBuf1a:
+	mov	[edi],al
+	inc	di
+	inc	dx
+	cmp	dx,320
+	jnz	CBuf1X
+	cmp	di,64000
+	jb	CBuf1Y
+
+;-------------------------------------------------
+	mov	edi,ds:[TabPtr]
+	lea	ebx,[edi+(Textures+texture2)];
+	shr	ebx,1
+
+	mov	edx,20000h
+	add	edi,edx
+Picture1X:
+	mov	ax,dx
+	mov	bx,dx
+	shr	al,3
+	shr	ah,3
+	sub	bl,ah
+	add	bh,al
+	add	bl,20
+	mov	ax,[ebx+ebx]
+	lstosw
+	inc	dl
+	jnz	Picture1X
+	add	edi,64*2
+	inc	dh
+	cmp	dh,200
+	jnz	Picture1X
+
+	xor	dx,dx
+	call	Fade_tab7F
+ENDM
+
+
+Effect7	MACRO
+	mov	cx,ds:[FrameCount]
+	shr	cx,3
+	mov	ch,cl
+	mov	edi,ds:[TabPtr]
+	lea	ebx,[edi+Patterns+Pattern2]
+	add	edi,Buffer3
+Effect1A:
+	add	bx,cx	
+	mov	al,[ebx]
+	sub	bx,cx
+	sub	bx,cx
+	add	bx,5600
+	add	al,[ebx]
+	add	bx,cx
+	sub	bx,5600
+	neg	bx
+	add	bx,cx
+	add	al,[ebx]
+	sub	bx,cx
+	neg	bx
+	mov	[edi],al
+	inc	bx
+	inc	di
+	jnz	Effect1A
+;-----------------------------------------------
+	mov	edi,ds:[TabPtr]
+	lea	ebx,[edi+Buffer3]
+	lea	eax,[edi+Textures+texture4]
+	shr	eax,1
+	shr	edi,1
+WaterY:
+	add	di,100
+	xor	bl,bl
+WaterX:
+	mov	al,[ebx]
+	mov	ah,al
+	sub	al,[ebx+1]
+	sub	ah,[ebx+256]
+	add	al,bl
+	add	ah,bh
+	mov	ax,[eax+eax]
+	mov	[edi+edi],ax
+	inc	di
+	inc	bl
+	cmp	bl,220
+	jnz	WaterX
+	inc	bh
+	cmp	bh,200-32
+	jnz	WaterY
+;-------------------------------------------------
+;-------------------------------------------------
+;-------------------------------------------------
+	xor	edx,edx
+	call	Fade_Tab0	
+
+	call	AddScreens
+ENDM

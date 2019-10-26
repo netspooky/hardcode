@@ -1,0 +1,342 @@
+          ЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬ
+        ЬЫЯЬЬЯЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЯЬЬЯЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЯЬЬЬЯЫЫЫЫЫЫЫЫЫЬ
+        Ы ЫЫЫЫ ЫЯЯЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫ ЫЯЯЫЫЫЫЫЫ
+        Ы ЫЫЫЫ ЬЫЫЬЯЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫ ЬЫЫЬЯЫЫЫЫ
+       ЬЫ ЫЫЫЫ ЯЫЫЯЬЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫ ЯЫЫЯЬЫЫЫЫЬ     tm
+  ЬЫЫЯЯЯЯЬЫЫЫЫ ЯЬЬЯЫЫЫЯЯЯЯЯЯЫЯЯ ЫЫЫЫЬЯЯЯЯЫЫЫЫЫЯЯЯЯЯЯЯЫЫ ЫЫЫЫЫ ЯЬЬЯЫЫЫЯЯЯЯЯЯЫЫЬ
+ ЫЫЯЬЫЫЫЫЫЫЫЫЫ ЫЫЫЫ ЯЬЫЫЫЫЫЫЬЫЫ ЫЫЫЫЫЫЫЫЫЬЯЫЯЬЫЫЫЫЫЫЫЬЯ ЫЫЫЫЫ ЫЫЫЫ ЯЬЫЫЫЫЫЫЬЯЫЫ
+ Ы ЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫ ЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫ Ы
+ Ы ЫЫЫЫЫ ЫЫЫЫЫ ЫЫЫЫ ЫЫЫЫЫ ЫЫЫЫЫ ЫЫЫЫЫ ЫЫЫЫЫ ЫЫЫЫЫ ЫЫЫЫЫ ЫЫЫЫЫ ЫЫЫЫ ЫЫЫЫЫЫЫЫ  ЫЫ
+ Ы ЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫ ЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫ Ы
+ ЫЫЬЯЫЫЫЫЫЫЫЯЬЬЯЫЫЯЬЬЯЫЫЫЫЫЫЯЫЫ ЬЯЫЫЫЫЫЫЫЯЬЫЬЯЫЫЫЫЫЫЫЯЬЬЯЫЫЫЯЬЯЫЫЯЬЬЯЫЫЫЫЫЫЯЬЫЫ
+  ЯЫЫЬЬЬЬЬЬЬЫЫЫЫЬЬЫЫЫЫЬЬЬЬЬЬЫЬЬЫЫЫЬЬЬЬЬЬЬЫЫЫЫЫЬЬЬЬЬЬЬЫЫЫЫЬЬЬЫЫЫЬЬЫЫЫЫЬЬЬЬЬЬЫЫЯ
+        ЯЫЫЫЫЫЫЫЫЫЫЯЯЫЫЫЫЫЫЫЫЯЯЫЫЫЫЫЫЫЫЫЯЯЫЫЫЫЫЫЫЫЫЫЯЯЫЫЫЫЫЫЫЫЫЯЯЫЫЫЫЫЫЯ
+          ЫЫЫЫЯЯЯЯЬЫЫЬЯЫЯЯЯЯЬЫЫЬЯЫЫЯЯЯЯЬЫЫЬЯЫЫЫЯЯЯЯЬЫЫЬ ЫЫЯЯЯЯЬЫЫЬЯЫЫЫ
+          ЫЫЭЬЫЫЫЫЫЫЫЫЭЬЫЫЫЫЫЫЫЫЭЭЬЫЫЫЫЫЫЫЫЭЫЯЬЫЫЫЫЫЫЫЫЭЭЬЫЫЫЫЫЫЫЫЭЫЫЫ
+          ЫЫЭЫЫЫЫюЯЫЫЫ ЫЫЫЫюЯЫЫЫЭЭЫЫЫЫюЯЫЫЫЫЮЭЫЫЫЫюЯЫЫЫ ЭЫЫЫЫюЯЫЫЫЮЫЫЫ
+          ЫЫЭЫЫЫЭЬЬЬЯЯ ЫЫЫЭЫЭЫЫЫЫ ЫЫЫЭЫЯЬЫЫЫЮЭЫЫЫЭЫЫЬЯЯЮЭЫЫЫЭЬЬЬЯЯЮЫЫЫ
+          ЫЫЭЫЫЫЭЫЫЫЫЭЭЫЫЫЭЫЭЫЫЫЫ ЫЫЫЭЬЫЫЫЫЭЫЭЫЫЫЭЫЫЫЫЫЫЭЫЫЫЭЫЫЫЫЭЫЫЫЫ
+          ЫЫЫЮЫЫЫЯЯЯЬЬЫЮЫЫЫЮЭЫЫЫЫЮЮЫЫЫЫЫЫЫЯЬЫЫЮЫЫЫЮЫЫЫЫЫЫЮЫЫЫЯЯЯЬЬЫЫЫЫ
+          ЫЫЫЮЫЫЫЮЫЫЫЫЫЮЫЫЫЮЭЫЫЫЫЮЮЫЫЫЯЫЫЫЫЬЯЫЮЫЫЫЮЫЯЬЬЯЫЮЫЫЫЮЫЯЬЬЮЫЫЫ
+          ЫЫЭЫЫЫЫЮЫЫЫЫЭЫЫЫЫЭЬЫЫЫЫ ЫЫЫЫюЫЫЫЫЫЭЭЫЫЫЫЬюЫЫЫЫ ЫЫЫЫюЬЫЫЫЮЫЫЫ
+          ЫЫЭЫЫЫЯЮЫЫЫЫЭЫЫЫЯЫЫЫЫЫЭЭЫЫЫЯЬЬЯЫЫЫЫ ЫЫЫЫЫЫЫЫЫЭЭЫЫЫЯЫЫЫЫЫЭЫЫЫ
+          ЫЫЫЬЬЬЫЫЫЫЫЫЫЬЬЬЫЬЬЯЫЯtcpЬЬЫЫЫЫЬЯЯЬЫЬЬЬЬЬЯЫЫЯЬЫЬЬЬЫЬЯЫЫЯЬЫЫЫ
+           ЯЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЬЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЬЬЫЫЫЫЫЫЫЫЫЬЬЫЫЫЯ
+
+                             iNFORMATiON FiLE v2.0
+
+                          'WhEREvER YOU ArE: vOTE US!'
+
+
+
+                     ЬЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЬ
+                    ІЫ  Ы ЫЬ  ЬЫ  Ь ЫЬЬ  ЬЬЫ  Ь Ы  Ь Ы  Ы ЫІ
+                   ±ІЫ  Ы ЫЫ  ЫЫ  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы Ы  Ы ЫІ±
+                  °±ІЫ  Ы ЫЫ  ЫЫ  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы Ы  Ы ЫІ±°
+                  °±ІЫ  Ы ЫЫ  ЫЫ  ЫЬЫЫЫ  ЫЫЫ  Ы Ы  Ы Ы  Ы ЫІ±°
+                  °±ІЫ  Ь ЫЫ  ЫЫЬЬЬ ЫЫЫ  ЫЫЫ  Ы Ы  ЯЬЫЫ  ЫЫІ±°
+                  °±ІЫ  Ы ЫЫ  ЫЫ  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы ЫЫ  ЫЫІ±°
+                  °±ІЫ  Ы ЫЫ  ЫЫ  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы ЫЫ  ЫЫІ±°
+                  °±ІЫ  Ы ЫЫ  ЫЫ  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы ЫЫ  ЫЫІ±°
+                  °±ІЫ  Ы ЫЫ  ЫЫ  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы ЫЫ  ЫЫІ±°
+    °°°°°°°°°°°°°°°±ІЫ  Ы ЫЫ  ЫЫ  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы ЫЫ  ЫЫІ±°°°°°°°°°°°°°°°
+   ±±±±±±±±±±±±±±±±±ІЫ  Ы ЫЫ  ЫЫ  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы ЫЫ  ЫЫІ±±±±±±±±±±±±±±±±±
+  ІІІІІІІІІІІІІІІІІІІЫ  Ы ЫЯ  ЯЫ  Я ЫЫЫ  ЫЫЫ  Я Ы  Ы ЫЫ  ЫЫІІІІІІІІІІІІІІІІІІІ
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+
+  Yes, yes, a really interesting chapter...read it!
+  Diabolic Force [D4Z] was  founded in September 1995.  It's a compound of the
+  members of  .NiTEMARE.  and   .ELECTRONiC RAG.  , which don't exist anymore.
+  Since then,  D4Z released  lots of  quality modules  by  The ACiD God,  some
+  intros and other stuff.  And of course 'Hardcore',  our megademo,  which has
+  been our biggest project so far. See D4Z_REL.TXT for more info.
+  In the meantime  Kurdy left  the crew,  therefore Shadow Bandit  joined as a
+  coder.  TiMWAGUS is no longer  active member,  but supports  D4Z with useful
+  stuff and other help.  Cati H. Bonnie,  being creative  supporter for a long
+  time,  has officially joined  the D4Z management.  So D4Z is  now starring 8
+  members and we're satisfied with it.
+
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+  ЯЫЬЬ                                                                    ЬЬЫЯ
+     ЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ
+
+
+                    ЬЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЬ
+                   ІЫ  Ь Ь Ы  ЬЬЫ  Ь Ь Ы  Ь Ы  ЬЬЫ  Ь Ы  Ь ЫІ
+                  ±ІЫ  Ы Ы Ы  ЫЫЫ  Ы Ы Ы  Ы Ы  ЫЫЫ  Ы Ы  Ы ЫІ±
+                 °±ІЫ  Ы Ы Ы  ЫЫЫ  Ы Ы Ы  Ы Ы  ЫЫЫ  Ы Ы  Ы ЫІ±°
+                 °±ІЫ  Ы Ы Ы  ЫЫЫ  Ы Ы Ы  Ы Ы  ЫЫЫ  Ы Ы  ЫЬЫІ±°
+                 °±ІЫ  Ы Ы Ы  ЫЫЫ  Ы Ы Ы  Ы Ы  ЫЫЫ  ЯЬЫЬЬЬ ЫІ±°
+                 °±ІЫ  Ы Ы Ы  ЬЫЫ  Ы Ы Ы  ЬЯЫ  ЬЫЫ  Ы Ы  Ы ЫІ±°
+                 °±ІЫ  Ы Ы Ы  ЫЫЫ  Ы Ы Ы  Ы Ы  ЫЫЫ  Ы Ы  Ы ЫІ±°
+                 °±ІЫ  Ы Ы Ы  ЫЫЫ  Ы Ы Ы  Ы Ы  ЫЫЫ  Ы Ы  Ы ЫІ±°
+                 °±ІЫ  Ы Ы Ы  ЫЫЫ  Ы Ы Ы  Ы Ы  ЫЫЫ  Ы Ы  Ы ЫІ±°
+    °°°°°°°°°°°°°°±ІЫ  Ы Ы Ы  ЫЫЫ  Ы Ы Ы  Ы Ы  ЫЫЫ  Ы Ы  Ы ЫІ±°°°°°°°°°°°°°°
+   ±±±±±±±±±±±±±±±±ІЫ  Ы Ы Ы  ЫЫЫ  Ы Ы Ы  Ы Ы  ЫЫЫ  Ы Ы  Ы ЫІ±±±±±±±±±±±±±±±±
+  ІІІІІІІІІІІІІІІІІІЫ  Ы Ы Ы  ЯЯЫ  Ы Ы Ы  Я Ы  ЯЯЫ  Ы Ы  Я ЫІІІІІІІІІІІІІІІІІІ
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+
+                 T.C.P..................code, organising, GFX
+                 The ACiD God...........mucke
+                 Magic van Lam..........ideas, dezign, GFX
+                 Charly.................sysop, main organising, PR
+                 Banana Joe.............GFX
+                 SchnuFFl...............dezign, music
+                 Shadow Bandit..........code
+                 Cati H. Bonnie.........management, creative support
+
+
+                            - Independant members -
+                 HonK...................hardware support
+
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+  ЯЫЬЬ                                                                    ЬЬЫЯ
+     ЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ
+
+
+                        ЬЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЬ
+                       ІЫ  Ь Ы  Ь Ы  Ь Ы  Ь Ы  ЬЯЫ  Ь ЫІ
+                      ±ІЫ  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы ЫІ±
+                     °±ІЫ  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы ЫІ±°
+                     °±ІЫ  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы Ы  ЫЬЫІ±°
+                     °±ІЫ  Ы Ы  Ы Ы  Ы Ы  ЯЬЫ  Ы ЫЬЬЬ ЫІ±°
+                     °±ІЫ  ЬЯЫ  Ы Ы  Ь Ы  Ы Ы  Ы Ы  Ы ЫІ±°
+                     °±ІЫ  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы ЫІ±°
+                     °±ІЫ  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы ЫІ±°
+                     °±ІЫ  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы ЫІ±°
+    °°°°°°°°°°°°°°°°°°±ІЫ  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы ЫІ±°°°°°°°°°°°°°°°°°°°
+   ±±±±±±±±±±±±±±±±±±±±ІЫ  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы Ы  Ы ЫІ±±±±±±±±±±±±±±±±±±±±±
+  ІІІІІІІІІІІІІІІІІІІІІІЫ  Я Ы  Я Ы  Ы Ы  Ы Ы  ЯЬЫ  Я ЫІІІІІІІІІІІІІІІІІІІІІІІ
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+
+  Name of da Box       Number              Status      SysOp
+  ъщщ--ъ---Д--ДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД--Д----щ-щ-ъ
+  Diabolic Force WHQ   ++49 NOT4 YOU         WHQ       Charly
+
+  EKTO TRAKKS          ++49 9504 678         EHQ       MaGUS/SDi & e605/SDi
+
+  Turtle Town          ++49 0209 518025   Dist-Site    Johnny Walker
+                                 518062
+  ъщщ--ъ---Д--ДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДД--Д----щ-щ-ъ
+
+                  Ya can also get our demos from these sites:
+               ъщщ--ъ---Д--ДДДДДДДДДДДДДДДДДДДДДДДДД--Д----щ-щ-ъ
+                            ftp.cdrom.com/pub/demos
+
+                                      or
+
+                            x2ftp.oulu.fi/pub/demos
+               ъщщ--ъ---Д--ДДДДДДДДДДДДДДДДДДДДДДДДД--Д----щ-щ-ъ
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+  ЯЫЬЬ                                                                    ЬЬЫЯ
+     ЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ
+
+
+                     ЬЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЬ
+                    ІЫЫЬ  ЬЫ  Ь ЫЬ  ЬЫ  ЬЯЫЬ  ЬЫ  ЬЯЫ  Ь ЫЫІ
+                   ±ІЫЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы Ы  Ы ЫЫІ±
+                  °±ІЫЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы Ы  Ы ЫЫІ±°
+                  °±ІЫЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы Ы  ЫЫЫЫІ±°
+                  °±ІЫ Ы  ЫЫ  Ы ЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы Ы  Ы ЬЫІ±°
+                  °±ІЫ Ы  ЫЫ  Ы ЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы Ы  Ы ЫЫІ±°
+                  °±ІЫ Ы  ЫЫ  Ы ЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы Ы  Ы ЫЫІ±°
+                  °±ІЫ Ы  ЫЫ  Ы ЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы Ы  Ы ЫЫІ±°
+                  °±ІЫ Ы  ЫЫ  Ы ЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы Ы  Ы ЫЫІ±°
+    °°°°°°°°°°°°°°°±ІЫ Ы  ЫЫ  Ы ЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы Ы  Ы ЫЫІ±°°°°°°°°°°°°°°°
+   ±±±±±±±±±±±±±±±±±ІЫ Ы  ЫЫ  Ы ЫЫ  ЫЫ  Ы ЫЫ  ЫЫ  Ы Ы  Ы ЫЫІ±±±±±±±±±±±±±±±±±
+  ІІІІІІІІІІІІІІІІІІІЫ Я  ЫЫ  Я ЫЯ  ЯЫ  Ы ЫЯ  ЯЫ  Ы Ы  Я ЫЫІІІІІІІІІІІІІІІІІІІ
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+
+           - Sorry, we don't need any new members at the moment... -
+
+                  If you want to become distro-site or HQ
+
+                                   - or -
+
+            you REALLY think that you MUST join us for some reason
+            run D4Z_APP.EXE (included in most of our releases) and
+            send us the application form. Thank you.
+
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+  ЯЫЬЬ                                                                    ЬЬЫЯ
+     ЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ
+
+
+                    ЬЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЬ
+                   ІЫ  Ь Ы  Ь Ы  ЬЯЫЬЬ  ЬЬЫ  Ь Ы  Ь ЫЬЬ  ЬЬЫІ
+                  ±ІЫ  Ы Ы  Ы Ы  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы ЫЫЫ  ЫЫЫІ±
+                 °±ІЫ  Ы Ы  Ы Ы  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы ЫЫЫ  ЫЫЫІ±°
+                 °±ІЫ  ЫЫЫ  Ы Ы  Ы ЫЫЫ  ЫЫЫ  Ы Ы  ЫЫЫЫЫ  ЫЫЫІ±°
+                 °±ІЫ  ЫЫЫ  Ы Ы  Ы ЫЫЫ  ЫЫЫ  Ы Ы  ЫЫЫЫЫ  ЫЫЫІ±°
+                 °±ІЫ  ЫЫЫ  Ы Ы  Ы ЫЫЫ  ЫЫЫ  Ь Ы  ЫЫЫЫЫ  ЫЫЫІ±°
+                 °±ІЫ  ЫЫЫ  Ы Ы  Ы ЫЫЫ  ЫЫЫ  Ы Ы  ЫЫЫЫЫ  ЫЫЫІ±°
+                 °±ІЫ  ЫЫЫ  Ы Ы  Ы ЫЫЫ  ЫЫЫ  Ы Ы  ЫЫЫЫЫ  ЫЫЫІ±°
+                 °±ІЫ  ЫЫЫ  Ы Ы  Ы ЫЫЫ  ЫЫЫ  Ы Ы  ЫЫЫЫЫ  ЫЫЫІ±°
+    °°°°°°°°°°°°°°±ІЫ  Ы Ы  Ы Ы  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы ЫЫЫ  ЫЫЫІ±°°°°°°°°°°°°°°
+   ±±±±±±±±±±±±±±±±ІЫ  Ы Ы  Ы Ы  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Ы ЫЫЫ  ЫЫЫІ±±±±±±±±±±±±±±±±
+  ІІІІІІІІІІІІІІІІІІЫ  Я Ы  Я Ы  Ы ЫЫЫ  ЫЫЫ  Ы Ы  Я ЫЫЫ  ЫЫЫІІІІІІІІІІІІІІІІІІ
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+
+  Contact Diabolic Force via one of the following ways:
+
+  Snail mail:
+
+   (T.C.P.)                    (Magic van Lam)              (Shadow Bandit)
+   Johannes Spohr              Sven Gramatke                Michael Horstmann
+   B„renbergstr. 2             Gartenstr. 44                Mastweg 14
+   34466 Wolfhagen             73326 Deggingen              58640 Iserlohn
+   GERMANY                     GERMANY                      GERMANY
+
+
+  Phone:
+
+   T.C.P.        - (+49) 05692/4395
+   Magic van Lam - (+49) 07334/3637
+   Shadow Bandit - (+49) 02371/42923
+
+
+  e-mail:
+
+   T.C.P.     - jspohr@t-online.de
+   Charly     - charly_hanku@ayn.fido.de
+   Banana Joe - dobberma@ai-lab.fh-furtwangen.de
+
+
+  WWW:
+
+   http://home.t-online.de/jspohr/d4z_home.htm  (not online yet)
+
+
+  FIDO-Net:
+
+   T.C.P. - Johannes Spohr 2:2494/105  (not checked regularly)
+
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+  ЯЫЬЬ                                                                    ЬЬЫЯ
+     ЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ
+
+
+                           ЬЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЬ
+                          ІЫ  Ь Ы  Ы Ы  ЫЫЫ  ЬЬЫ  Ь ЫІ
+                         ±ІЫ  Ы Ы  Ы Ы  ЫЫЫ  ЫЫЫ  Ы ЫІ±
+                        °±ІЫ  Ы Ы  Ы Ы  ЫЫЫ  ЫЫЫ  Ы ЫІ±°
+                        °±ІЫ  Ы Ы  Ы Ы  ЫЫЫ  ЫЫЫ  ЫЬЫІ±°
+                        °±ІЫ  ЯЬЫ  Ы Ы  ЫЫЫ  ЫЫЫЬЬЬ ЫІ±°
+                        °±ІЫ  Ы Ы  Ы Ы  ЫЫЫ  ЬЫЫ  Ы ЫІ±°
+                        °±ІЫ  Ы Ы  Ы Ы  ЫЫЫ  ЫЫЫ  Ы ЫІ±°
+                        °±ІЫ  Ы Ы  Ы Ы  ЫЫЫ  ЫЫЫ  Ы ЫІ±°
+                        °±ІЫ  Ы Ы  Ы Ы  ЫЫЫ  ЫЫЫ  Ы ЫІ±°
+    °°°°°°°°°°°°°°°°°°°°°±ІЫ  Ы Ы  Ы Ы  ЫЫЫ  ЫЫЫ  Ы ЫІ±°°°°°°°°°°°°°°°°°°°°°
+   ±±±±±±±±±±±±±±±±±±±±±±±ІЫ  Ы Ы  Ы Ы  ЫЫЫ  ЫЫЫ  Ы ЫІ±±±±±±±±±±±±±±±±±±±±±±±
+  ІІІІІІІІІІІІІІІІІІІІІІІІІЫ  Ы Ы  Я Ы  ЯЯЫ  ЯЯЫ  Я ЫІІІІІІІІІІІІІІІІІІІІІІІІІ
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+
+  a. All of our productions are under international copyright by Diabolic
+     Force. All rights reserved.
+  b. Our productions are NOT freeware. You are allowed to copy them without
+     restrictions for non-commercial use.
+  c. No payment of any kind may be charged for our productions.
+     This means that you aren't allowed to put them on commercial CD-ROMs,
+     commercial bulletin board systems, commercial FTP-sites and any other
+     place where software is exchanged for money.
+  d. Commercial use, especially the industrial manufacturing on any data
+     storage media and their distribution without the expressed permission of
+     Diabolic Force, is strictly prohibited.
+  e. You take full responsibility for the operation of our productions and
+     any consequences thereof. We the creators can not accept liability for
+     damages or failures arising from the use of our productions.
+  f. We ain't no fuckin pirate group, so leave us alone with illegal stuph.
+
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+  ЯЫЬЬ                                                                    ЬЬЫЯ
+     ЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ
+
+
+               ЬЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЬ
+              ІЫ  Ь ЫЫ  Ь Ы  ЬЬЫ  ЬЬЫЬЬ  ЬЬЫЬ  ЬЫ  ЬЯЫ  Ь ЫЫ  Ь ЫІ
+             ±ІЫ  Ы ЫЫ  Ы Ы  ЫЫЫ  ЫЫЫЫЫ  ЫЫЫЫ  ЫЫ  Ы Ы  Ы ЫЫ  Ы ЫІ±
+            °±ІЫ  Ы ЫЫ  Ы Ы  ЫЫЫ  ЫЫЫЫЫ  ЫЫЫЫ  ЫЫ  Ы Ы  Ы ЫЫ  Ы ЫІ±°
+            °±ІЫ  ЫЫЫЫ  Ы Ы  ЫЫЫ  ЫЫЫЫЫ  ЫЫЫЫ  ЫЫ  Ы Ы  ЫЫЫЫ  ЫЬЫІ±°
+            °±ІЫ  Ы ЬЫ  ЯЬЫ  ЫЫЫ  ЫЫЫЫЫ  ЫЫЫЫ  ЫЫ  Ы Ы  Ы ЬЫЬЬЬ ЫІ±°
+            °±ІЫ  Ы ЫЫ  Ы Ы  ЬЫЫ  ЬЫЫЫЫ  ЫЫЫЫ  ЫЫ  Ы Ы  Ы ЫЫ  Ы ЫІ±°
+            °±ІЫ  Ы ЫЫ  Ы Ы  ЫЫЫ  ЫЫЫЫЫ  ЫЫЫЫ  ЫЫ  Ы Ы  Ы ЫЫ  Ы ЫІ±°
+            °±ІЫ  Ы ЫЫ  Ы Ы  ЫЫЫ  ЫЫЫЫЫ  ЫЫЫЫ  ЫЫ  Ы Ы  Ы ЫЫ  Ы ЫІ±°
+            °±ІЫ  Ы ЫЫ  Ы Ы  ЫЫЫ  ЫЫЫЫЫ  ЫЫЫЫ  ЫЫ  Ы Ы  Ы ЫЫ  Ы ЫІ±°
+    °°°°°°°°°±ІЫ  Ы ЫЫ  Ы Ы  ЫЫЫ  ЫЫЫЫЫ  ЫЫЫЫ  ЫЫ  Ы Ы  Ы ЫЫ  Ы ЫІ±°°°°°°°°°
+   ±±±±±±±±±±±ІЫ  Ы ЫЫ  Ы Ы  ЫЫЫ  ЫЫЫЫЫ  ЫЫЫЫ  ЫЫ  Ы Ы  Ы ЫЫ  Ы ЫІ±±±±±±±±±±±
+  ІІІІІІІІІІІІІЫ  Я ЫЫ  Ы Ы  ЯЯЫ  ЯЯЫЫЫ  ЫЫЫЯ  ЯЫ  Ы Ы  Я ЫЫ  Я ЫІІІІІІІІІІІІІ
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+
+                                  - Groups -
+
+    amable                  knockout                  sahara surfers
+     avena                   legend design             $een
+      cubic team              lego                      smash design
+       delusion                malfunction               suspect d.i.
+        energetic               members of mayday         the nonsens workers
+         escape                  obnoxious                 valhalla
+          fischbratkueche         phantasm                  zyklop
+           funk                    polka brothers
+            keen like frogs         pure energy
+
+
+                                 - Personal -
+
+
+    T.C.P. wishes to say hello to
+
+      2pac, dj shooter, cati h., mon cherЎ (babe!), gunnar, bonsai,
+      rainer zufall, onkel joe, leo, e605, quaker, skater, mergi, wile-e,
+      underexposure, n' lars, midnight, yogi, johnny walker, prof.x, iceman,
+      pascal, brummi, info-n„gel, barth, travelling mad, hans-j”rg, bitbreaker,
+      the acid god, darth, grawallo, pickel, sven, schnuffl, charly, banana,
+      michi and the rest of the diabolic posse
+      Fuckings to Trepaan: Don't watch their intro 'Bill G Force 2' if you
+      don't want to re-install your Windows which gets fucked up by them!!!
+      I just can't laugh about such lame jokes, boyz!
+
+
+    Cati H. Bonnie gives Bussies to
+
+      Pam, Copperkaul, T.C.P., Swennie, Sweet Mogwai (bebe!), Antinsche,
+      T.A.G., Hermann Neumann, Halbklingone Jan "Pilz" Aische, Zwoi Jimmy,
+      2PAC, Patric S., Terry F., Betor, Brent S., NЃбchen, Benjamin Socrates,
+      Mr. Matrize, s'Nise, Cubby, Oma, Beate-Sch„rie, Isaac N., Albert E.,
+      Stephen H., Carsten M., Haimon, Tobi Nervens„ge, The Lone Gunmen,
+      5*David (C./D./H./L./W.), Meine 5 Toscana Frauen, Mami
+
+
+    The Acid God :
+
+      Nina S.(my b„jbe!), Tobi, Tobi, Tobi, e605, de Rollhockey-Proffi,
+      fette Sau, Strickm„n (cati h.), d'Ivan, Horstm„n, ™lsh„user, K„teken,
+      's Lisa, Travelling Mad, alle Koksnegermucken-fans, Mighty Ducks of
+      Altenhasungen, T.C.P., annere fette Sau, Soundrunner, Mind-Surfer,
+      Frank, Zwenn, Schnuffl, Charly, Helmut, Jimm Bimm, Darth, Michi
+
+
+    Magic van Lam :
+ 
+      Z-UP (Und? Klapt die Sache mit dem Farradey?), Unti (Kill deinen
+      scheiss Hund), YOGI, D4Z-Members ("Nun fickt euch mal nicht so in's
+      Knie."), The Prodigy (Wie klapt es mit den Pillen?), Ruby Baby, 
+      Steffi (Noch so ein Ding und Du lernst mich kennen), Das Rote Kreuz
+      (schiebt euch euren Kursus in den Arsch ihr Ficker!!!!).
+      Bill Gates	- betrachte dich schon als tod du ARSCH!!!
+      Alle Nazis	- und eines Tages t”te ich euch doch !!!!!
+      Psychik Link	- Macht weiter so...
+      Nicht zu vergessen die Hardware Brothers Maddog & Banditos.
+
+
+    Shadow Bandit's greetZ jumP tO:
+
+    R.I.P., Fireball (sch”n mit ner' GUS,gell?), YOGi, Midnight (ich glaube 
+    ein schlimmer Virus hat Deine Sources gel”scht vor dem Demo-Release :),
+    Buster (immer diese Geisterfahrer...), DJ Coyote, Black PantheR, Das Rote 
+    Kreuz (ich kann Magic NUR zustimmen (so ein Scheiб' hat die Welt noch 
+    nich' gesehn')...), INDI-Soft (komm' zurЃck in die Scene, weil besser ist 
+    das), Billy Gates (du lebst immer gef„hrlicher...) und alle D4Z-Members.
+ 
+ юЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫю
+ ю DiABOLiC FORCE 1997 - 2 YEARS'O SEX'N CRiME'N SHiTTY RELEASES - (W) T.C.P. ю
+ юЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫю

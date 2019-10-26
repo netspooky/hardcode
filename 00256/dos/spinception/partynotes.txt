@@ -1,0 +1,17 @@
+"Spinception" by HellMood ^ DESiRE
+256b entry for Function 2016
+
+uses VESA Mode 0x103
+800 x 600 in 256 colors
+
+quit with ESC
+(returns to textmode)
+
+youtube preview:
+https://youtu.be/pVfsIUZNf6A
+
+video download:
+https://drive.google.com/open?id=0BwHoYivk_PQfMHpRWW1laG5qcE0
+
+Thanks for allowing remotes
+and happy partying \o/

@@ -1,0 +1,11 @@
+in utero
+s/n
+
+tuba radix ekoli
+
+released at Edison 2012, Stockholm, Sweden
+
+note:
+Due to some code flaw in the reverb it consumes more cpu cycles than it should, therefore it might be a good idea to precalculate the music by setting the flag in the options menu.
+
+Now it also works on ATI!

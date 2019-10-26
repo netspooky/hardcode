@@ -1,0 +1,73 @@
+             SHELLS1, by Tamas Kaproncai (TomCat of Abaddon)
+                  Ray-tracing intro and bench-mark test
+                               10-29-1995
+
+Usage
+=====
+SHELLS1 [/N]
+/N: do not waiting for the vertical retrace before writing
+    to the screen.
+
+Configuration
+=============
+Memory: more than 600K
+EMS dirver: no please!
+FPU: needed!
+CPU: 386,486,Pentium...
+VGA: with 256 or 16M colors
+
+Technical details
+=================
+The method: Z-buffered backward ray-tracing
+Used VGA resolutions: 320*160*16M, 640*160*16M, 320*480*256
+True color supported on: VESA boards and TSENG ET4000/W32
+Virtual screen size: 320*160 pixels
+Traced area: 160*102 pixels
+Frames: 240
+Objects: 1 sphere / each frame
+Lights: 1
+No: shadow, transmission, reflection, refraction calculations
+Phong highlight calculated by: the logarithmic instructions of the FPU
+The memory model: Flat Real Mode
+Code: Pentium optimized
+EXE file packed by: PKLITE + MRLITE
+
+The object
+==========
+came from STANDARD PROCEDURAL DATABASES, by Eric Haines, 3D/Eye, Inc.
+which software package is not copyrighted and can be used freely.
+(Travis, ok?)
+
+Speed
+=====
+It depends on the VGA card and the FPU. The best:
+- you have a Pentium FPU with the highest MHz,
+- your VGA card has vesa mode like 320*200*16M,
+- you switch off the waiting for the vertical retrace.
+
+Note
+====
+A much more slower version of this routine was already shown
+in our 64k intro called Pied at ASM'95 in Helsinki.
+
+Greetings to
+============
+Malcolm Taylor
+Paul S. Heckbert
+Eric Haines
+
+Contact info
+============
+Smail: Kaproncai Tam s
+       Gy”r
+       Bocskai u.6.
+       H-9024
+       HUNGARY
+Email: tomcat@master.fok.hu
+   or: tomcat@rs3.szif.hu
+   or: tomcat@rs1.szif.hu
+
+Sign
+====                                           wWw
+                          Kaproncai Tam s     (o o)
+                       --------------------ooO-(_)-Ooo---

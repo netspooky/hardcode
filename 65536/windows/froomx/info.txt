@@ -1,0 +1,18 @@
+Yeah, well, some time ago I heard about this contest. It sounded way cool and I had big plans.
+What with one thing and another, as is the way with these things, I totally forgot about it
+until like two days before the submission date, and then had stuff to do up until, like, 1am
+on the day submissions were due.
+
+So, you'll all have to wait until the next one for 'signal' (the demo that I would make if I
+had been warned earlier that I was going to be a doofus and forget to remember that I had to
+remember to make a demo, so to speak) to come out, instead I haxed up this smooth, smooth
+fractal zoomer out of a screensaver I wrote a while back but never released. Uses my OpenGL
+library (included in the source code) to make things easier. Uses miniFMOD for sound and UPX
+to make the thingy smaller.
+
+Double click the thingy to run it. Alt+F4 to stop it running.
+
+MANDATORY GOVERNMENT HEALTH WARNING: Listen to the music for more than 30 minutes continuously
+and you will go insane. No clinical trials were needed for this announcement, it's self evident.
+
+-fractoid

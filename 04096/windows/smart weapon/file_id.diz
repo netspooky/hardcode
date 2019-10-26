@@ -1,0 +1,8 @@
+Title:                Smart weapon
+Type:                 4k procedural graphics
+Created by:           Stepanov Andrey, 2008 ( ICQ: 129179794, e-mail: andrewstepanov@mail.ru )
+3D Graphics software: Open GL 2.0
+Packed by:            Crinkler 1.1  (c) Aske Simon Christensen & Rune Stubbe.
+Tested on:            Windows XP, ATI Radeon 2600 HD. Seems to work on modern NVidia cards too.
+
+Image raytraced by shader.

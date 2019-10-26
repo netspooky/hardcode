@@ -1,0 +1,23 @@
+Lotheon - a 32-byte DOS intro from the Puppy Farm
+
+Source:
+
+
+00000000 B013             mov	al,13h
+00000002 CD10             int	10h
+00000004 C537             lds	si,[bx]
+00000006 1E               push	ds
+00000007 F8               clc	
+00000008 3119             xor	[bx+di],bx
+0000000A 09408A           or	[bx+si-76h],ax
+0000000D 07               pop	es
+0000000E B95701           mov	cx,0157h
+00000011 4B               dec	bx
+00000012 04D0             add	al,0D0h
+00000014 0A403F           or	al,[bx+si+3Fh]
+00000017 2405             and	al,05h
+00000019 DB               db	0DBh
+0000001A 75EA             jnz	000000006h
+0000001C 41               inc	cx
+0000001D EB90             jmp	0FFFFFFAFh
+0000001F 90               nop	

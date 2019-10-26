@@ -1,0 +1,24 @@
+1K mandelflow
+
+Requires PS3.0 compatible card. 1024x768
+And some luck.
+
+
+The mandelbrot set is taken as inspiration for what I believe is a new style of fractal.
+Here the equation for mandelbrot set is smoothly altered each frame. It is blended with
+a julia equation, itself smoothly varying each frame.
+
+Colours are chosen to emphasise the flow, like liquid, and the fractal itself reveals 
+4 unique forms, each coloured differently. One form is the mandelbrot set itself, 
+seen in yellows. Stamen, seen in blue, cube, in green and triform, in red.
+
+
+No zooming and no rotation takes place, though the camera pans a little for interest.
+Although the main forms repeat, each time they are seen, they are slightly different.
+
+One drawback is that there was no room for timers, so different cards will see different 
+speeds of flow. Top end cards will run too fast I am sure for which I apologise. I will 
+release a properly timed version in >1k later.
+
+
+- Taj  

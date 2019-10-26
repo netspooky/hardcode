@@ -1,0 +1,7 @@
+main by lucid
+Released at Assembly 2017
+code ltipl (@IRCNet)
+
+Programmed in C++, glsl, and logo
+Uses OpenGL for graphics, and Direct3D for some math
+Requires d3dx9_43.dll (provided for convenience)

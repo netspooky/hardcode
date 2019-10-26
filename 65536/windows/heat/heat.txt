@@ -1,0 +1,47 @@
+
+
+
+
+                                 H   E   A   T
+
+                    a small OpenGL sixtyfour kilobytes intro
+                                  to Flag'2000
+
+
+
+                                    starring
+
+                      NAP - OpenGL engine, texturegenerator
+                       objectgenerators, and all the rest
+
+                        SED - soundtrack, a bit of idea
+
+                              EZAH - DILEMMA logo
+
+                       BRIX - timer routine, help in code
+
+
+
+                               with the help of
+
+                     Elitegroup - mxm player for DirectSound
+                            based on Pascal's MxmPlay
+
+                           MicroSoft - Visual C/C++
+
+               Jacob Navia, C.W. Fraser, Dave Hanson - Lcc linker
+
+                 Laszlo Molnar & Markus Oberhumer - UPX packer
+
+
+
+                                 sorry&hurry
+
+                      linking time was very short for me
+
+
+
+
+                     copyright (c) MM - Dilemma - Hungary
+
+

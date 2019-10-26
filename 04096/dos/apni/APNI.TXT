@@ -1,0 +1,75 @@
+Ohno! another Pentium needed Intro in other words an APNI AAAAAAAAAAHHHHHH!!!!
+
+FyR/iMAGE! presents APNI
+
+Why can't I get a decent framerate?
+ - All routines, well most routines, are optimised in size, so I didn't
+   care 4 an extra mul
+ - If there is time, and a little size left, I will speedopti it a little.
+   There was some time left, but I still didnït speedopti it :)
+ - the texturemapper has 2 div's a line. If I removed those 
+   two divs I couldn't call it apni, or could I.
+ 
+ 
+What 4Kb I thought it was a 64Kb...
+ - Well coding is an art. This is only my 3rd 4Kb (my first two
+   werenït finished in time), so I have a little experience with 4Kb
+   coding. (drinking, cause I have everything to thank to my bottle
+   of wodka :)
+   
+side-effects
+ - materialmaking
+ - materialmorphing
+ - timer
+ - texturemapping
+ - normalvectorcalculation
+ - object manipulating (morphing)
+ - object creating (sphere/torus)
+ - sort
+ - hide face
+ - 2dbump
+ - rough area creater
+ - mirror mirror on the wall
+ - a little mars engine
+ - Watery calculations
+ - Fontripping functions :)
+ - Special phong palette compressor
+ - Cossin
+ - Height calculation
+ - Roundtexture (Smooth)
+ - a really great Random generator (Creditz go to Cypher/iMG)
+ - Lightsourcetexture creator
+ - SQR :)))
+ - heightmap to bitmap
+ - usetimerformovement dubbellepunt
+ - radix sort
+ - The standard _add_perspect/_rotate/ _drawobject
+ - Waitvr :)))
+ - and the usual segment editing algorithm
+ - Shadow calculation
+ - The vector engine only uses registers :) (And it is not speed optied)
+
+Well some creditz must go to some other people. Were it is so I credz them.
+The Mars engine is a very old engine used in a preview intro of the demo
+BlackIce/SuccesS Iïve size-optied it a little (...) And add some shadows.
+So D-Byte Youïve helped me a Megabit.
+
+Also thanks Cypher for his great random function.
+
+
+Greetz...
+
+Greetz go to people who helped me to become the thing Iïm now.
+
+ Garfield    for his rich support and not knowing what he did
+ Zero Dream  for supporting Garfield :)
+ Cypher      for making coding interesting
+ Quicksilver for still managing iMAGE!
+ I67         for being amazed
+ all coders  for inspiering me especially
+        Nix/TBL The Counselor/SpiritNS
+ A.Houben    for making me dance
+ Suykerpot   for having Gulpener !!!
+
+All this was done in a moment of 8 months. I wish I wasn't paid per Kb but
+per hour :))

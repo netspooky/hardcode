@@ -1,0 +1,44 @@
+DUCK.3JS, the famous DUCK.3DS reimplemented in JavaScript.
+
+There are  2 files,  duck.html is the  4k version with  some triangles
+removed,  duck_hq.html is the  "full" version  with (nearly)  the same
+vertices as duck.3ds
+
+
+This demo uses a canvas. It was tested under Opera 9.63 and Firefox 3.
+Safari was not tested, but should also work.
+
+       DUE TO MISSING CANVAS SUPPORT IN IE, IT WILL NOT WORK IN
+			  INTERNET EXPLORER!
+
+Sorry about that, I might hack up an IE compatible version soon.
+
+Some technical information for those interested:
+
+The  triangles are drawn  using a  canvas path.  So we  draw triangles
+directly and not pixel per pixel.
+
+This  also  means we  cannot  use  a  Z-buffer. Therefore,  the  pixel
+painters algorithm is used: for  every frame, all triangles are sorted
+according to  their Z  coordinate, and drawn  in that  order (farthest
+first). To minimize  artifacts and to speed up drawing  a bit, we also
+perform back-face culling.  There is also a single  point light source
+to lighten the triangles.
+
+To keep the data small, the following methods are used:
+
+- Only one side of the duck is stored
+
+- Only one byte per coordinate is stored
+
+- Furthermore,  both  code  and  vertex  data is  LZW  compressed  and
+  uncompressed by JS before starting.
+
+
+
+Don't let duck.3ds die ;-)
+
+Joghurt^Wurst signing off                                   2009-01-10
+ 
+If  you want  to reach  me, an  email to  joghurt@wur.st might  do the
+trick.

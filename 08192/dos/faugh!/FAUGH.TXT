@@ -1,0 +1,24 @@
+
+     .o. FAUGH! An 8k intro for Enlight'96 by Agent Orange // t-REX .o.
+
+   ÄÄ- ÄÄÄÄÄ-Ä-ÄÄ-ÄÄÄÄÄÄÄÄÄÄÄÄÄ- ÄÄÄÄÄÄÄ-ÄÄÄÄ-ÄÄÄÄÄÄÄÄÄÄÄÄ-ÄÄ-Ä- ÄÄÄÄ-ÄÄÄ
+
+   This is our first contribution for demo-party Enlight'96 that will be
+ held in St.Petersburg tomorrow. :) This intro  was coded  in two  weeks
+ before the party, so don't judge us too hard.
+
+   Requirements:
+
+      - a 386 processor;
+      - 100% compatible VGA card;
+
+   Optional:
+
+      - SB card for Adlib music
+
+   We're also releasing *FULL* sources of this intro! Everything's for your
+ pleasure! If you want sources, unpack included SOURCES.ZIP & enjoy.
+
+   Greetings goes to all Russian scene & nearly to everybody at Enlight'96!
+
+                                23.08.96, three hours before leaving Moscow.

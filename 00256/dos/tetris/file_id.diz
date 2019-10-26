@@ -1,0 +1,30 @@
+   _________  _______  ________  ______    __  _______
+  /__   ___/ / _____/ /__  ___/ / ____ \  / / / _____/
+     / /    / /____     / /    / /___/ / / / / /____
+    / /    / _____/    / /    / __   _/ / / /____  /
+   / /    / /____     / /    / /  \ \  / / _____/ /
+  /_/    /______/    /_/    /_/   /_/ /_/ /______/
+
+
+  256 byte tetris game by megasys 
+  <megasys@intro.hu>
+
+  Released at Flag2oo2 party (Hungary)
+  http://flag2002.demoscene.hu
+
+
+  .--[ controls ]---------------------------.
+  |                                         |
+  |     j -- move left                      |
+  |     k -- rotate                         |
+  |     l -- move right                     |
+  |                                         |
+  '_________________________________________'
+
+
+  Requirements:
+
+  - CAPS-LOCK must be turned off.
+  - Win9x or Win2k fullscreen text mode
+  - VGA compatible video at ~70Hz
+

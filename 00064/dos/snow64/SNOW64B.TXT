@@ -1,0 +1,25 @@
+        _________ _______ ________
+       _\       /_       \    ___ \____
+       \_       _/   ____ \     __/    |
+    ____/       \____\___________\     |__
+   _\  /_________\    |     |__       _| /
+  |________    |______| tAP | /_______\  |
+    |     /____|      |_____|chz/l0p     |
+   _|                                    |_
+  _\  Snow64                              /_
+ |    (Wet snow falling down.)              |
+ |                                          |
+ |    A 64 byte intro by mados/TAP          |
+ |    (Germany). Done for the X-Mas '01     |
+ |    compo at http://www.256b.com/.        |
+ |                                          |
+ |    This piece was coded for the 64b      |
+ |    compo at 0a000h demoparty but not     |
+ |    used. I tried to extend the code      |
+ |    to fit 256b but everything I do       |
+ |    looked crappy. So this is a 64b       |
+ |    entry in a 256b compo.                |
+ |                                          |
+ |    http://www.tap-home.de/               |
+ |    mailto:mados@tap-home.de              |
+ /__________________________________________\

@@ -1,0 +1,7 @@
+Direct3D version of Alienation / Aardbei, originally ranked 6th in the
+introcompetition at the party 1998...
+
+Some params: "-window" for windowed mode
+             "-32b"    for 32 bit video/textures
+
+This version done by rob.

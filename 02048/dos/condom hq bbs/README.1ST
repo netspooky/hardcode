@@ -1,0 +1,14 @@
+                          --------------------------
+                          Condom HQ BBS Intro source
+                          --------------------------
+
+File             Description
+------------------------------------------------------------
+CONDOM.ASM       source file of CONDOM.COM, public domain.
+CONDOM.COM       the Intro.
+MAKE.BAT         a simple make file.
+README.1ST       this file...
+README.DOC       some docs about the Intro.
+
+For more info read README.DOC.
+

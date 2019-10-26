@@ -1,0 +1,222 @@
+<!DOCTYPE HTML><html><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <title>WebGL Boilerplate</title><style>body{background-color: #000000;margin: 0px;overflow: hidden;}</style> </head>
+ <body><canvas></canvas><div id="info"></div><script id="vs" type="x-shader/vertex">attribute vec3 position;void main(){gl_Position=vec4( position,1.0);}</script><script id="fs" type="x-shader/fragment">
+#ifdef GL_ES
+//[epsilon+=3] is [ollj]s 3rd webgl RayMarching attempt, and his 5th in total. no audio!
+//[wave2] for all the waveforms, just to show nicely bend reflections.
+//RayMarching in glsl webgl with AmbientOcclusion,one source of SoftShadows and reflections.
+//mostly demonstrating [incremental epsilon] for a longer distance, dynamic detail, more reflections of more shadows.
+//original code by :
+//http://github.com/nical/GLSL-Raymarching/
+//based on
+//https://github.com/paulirish/webgl-boilerplate
+//and extended by [Ollj] learned and used a lot from [hg_sdf] and [InigoQuilez], collected and inspired code.
+//the whole thing is under CC license for non-commercial use only.
+precision highp float;
+#endif
+uniform float time;
+//#define time time
+uniform vec2 resolution;
+uniform vec4 mouse;
+uniform sampler2D tex0;
+uniform sampler2D tex1;
+#define skyColor       vec3(.2,.4,1.)
+#define shadowColor    vec3(.1,.2,.4)
+#define groundColor    vec3(.6,1.,.7)
+#define buildingsColor vec3(.8,.7,.3)
+#define redColor       vec3(1.,.1,.6)
+#define fovyCoefficient 1.
+#define shadowHardness 3.
+#define PI 3.14159265  
+#define PIB PI*.5
+#define SKY_MTL 0
+#define GROUND_MTL 1
+#define BUILDINGS_MTL 2
+#define RED_MTL 3
+float CubeDistance2 (in vec3 point, in vec3 size){return length(max(abs(point)-size,0.));}
+float sdHexPrism(vec3 p,vec2 h){vec3 q=abs(p);return max(q.z-h.y,max(q.x*.866025+q.y*.5,q.y)-h.x);}
+vec3 DistanceRepetition(in vec3 point, in vec3 repetition ){
+    vec3 q = mod(point, repetition)-.5*repetition;return q;}
+float CubeRepetition(in vec3 point, in vec3 repetition ){
+  point.x+=sin(point.y*.11+time*5.);
+  point.z+=cos(point.y*.11);
+  vec3 q = mod(point,repetition)
+  -0.5*repetition;q.y = point.y;
+  return sdHexPrism(q.zxy,vec2(10.,50));
+  return CubeDistance2 ( q, vec3 (10., 50.+sin(time)*15.,10.));}
+float PlaneDistance(in vec3 point,in vec3 normal,in float pDistance){return dot(point-(normal * pDistance), normal);}
+float modA(float x){return mod(time*.1+x+55.,230.)-55.;}
+float fSphere       (vec3 p,float r){return length(p)-r;}
+float SphereDistance(vec3 point, vec3 center, float radius){
+  point.z = modA(point.z);point.x = modA(point.x);
+  return fSphere(point-center,radius);}
+float RedDistance(in vec3 position){return SphereDistance(position,vec3(0.,66.,0.),30.);}
+float BuildingsDistance(in vec3 position){
+  return min(CubeRepetition(position                                ,vec3(80.,0., 90.)),
+	         CubeRepetition(position+vec3(350.,sin(time)*30.,0.) ,vec3(90.,0.,100.)));}
+float GroundDistance(in vec3 position){return PlaneDistance(position,vec3(0.,1.,0.),0.);}
+float SoftShadow( in vec3 landPoint, in vec3 lightVector, float mint, float maxt, float iterations ){
+    float penumbraFactor=1.0;vec3 sphereNormal;float t=mint;
+    for(int s=0;s<20;++s){if(t > maxt) break;
+        float nextDist = min(
+            BuildingsDistance(landPoint + lightVector * t )
+            , RedDistance(landPoint + lightVector * t ));
+        if( nextDist < 0.001 ){return 0.0;}
+        penumbraFactor = min( penumbraFactor, iterations * nextDist / t );
+        t += nextDist;}return penumbraFactor;}
+void applyFog( in float distance, inout vec3 rgb ){
+    //float fogAmount = (1.0 - clamp(distance*0.0015,0.0,1.0) );
+    //float fogAmount = exp( -distance* 0.006 );
+    //vec3 fogColor = vec3(0.9,0.95,1);
+    //if(fogAmount<.6)rgb= vec3(1.,1.,0.);
+    //else rgb=clamp(rgb,0.,1.);
+    //rgb=mix(skyColor,rgb,fogAmount);
+}
+vec3  mad3(vec3  b,vec3  c,vec3  d){return (b*c)+d;}
+float mad (float b,float c,float d){return (b*c)+d;}
+float df(in vec3 position, out int mtl){
+    float radial=length(vec2(position.x,position.z));
+	float radialSine=sin(radial*.05-time*2.)*5.;
+    float gndDistance=position.y-radialSine+6.;
+    float bldDistance=BuildingsDistance(position);
+    float redDistance=RedDistance      (position);
+                       float closest=gndDistance;mtl=   GROUND_MTL;
+    if (bldDistance<closest){closest=bldDistance;mtl=BUILDINGS_MTL;}
+    if (redDistance<closest){closest=redDistance;mtl=      RED_MTL;}
+    return closest;}
+vec3 MaterialColor(int mtl){
+    if(mtl==      SKY_MTL) return skyColor;
+    if(mtl==BUILDINGS_MTL) return buildingsColor;
+    if(mtl==   GROUND_MTL) return groundColor;
+    if(mtl==      RED_MTL) return redColor;
+    return vec3(1.0,1.0,1.0);}
+float AmbientOcclusion (vec3 p,vec3 n,float d,float s){float r=1.;int t;
+  for(int i=0;i<5;++i){if(--s<0.)break;r-=(s*d-(df(p+n*s*d,t)))/pow(2.,s);}return r;}
+
+vec3 ComputeNormal(vec3 pos, int material,float eps){int d;float e=.1;
+  return vec3(df(vec3(pos.x+e,pos.y  ,pos.z  ),d)-df(vec3(pos.x-e,pos.y  ,pos.z  ),d)
+             ,df(vec3(pos.x  ,pos.y+e,pos.z  ),d)-df(vec3(pos.x  ,pos.y-e,pos.z  ),d)
+             ,df(vec3(pos.x  ,pos.y  ,pos.z+e),d)-df(vec3(pos.x  ,pos.y  ,pos.z-e),d));}
+vec3 RayMarch(in vec3 position, in vec3 direction, out int mtl){
+  vec3 hitColor;
+  vec3 r;
+  float sg=1.;
+  float nextDistance= 1.;
+  int shadowReflections=4000000;//large numbers matter a lot less with incremental epsilon.
+  float maxDist =100000000.;
+  float maxSteps=100000.;
+  int hardLimit =2000;
+  float eps     =.01;
+  for(int ever=3;ever!=0;++ever){//the ride (n)ever ends!
+    nextDistance=df(position,mtl);
+	position+=direction*nextDistance;
+    if(nextDistance<eps){
+      vec3 n=ComputeNormal(position,mtl,eps);n=normalize(n);
+      vec3 col=MaterialColor(mtl);
+	  position+=n;
+      if(shadowReflections>0){
+		vec3 lightpos = vec3(250.0*sin(time*.005), 400.0 + 40.0 *cos(time*.002), 250.0*cos(time*.005));
+        lightpos=lightpos-position;vec3 lightVector=normalize(lightpos);float lightdist=length(lightpos);
+		float shadow = SoftShadow(position, lightVector, 0.3, lightdist,shadowHardness);
+        if(mtl==BUILDINGS_MTL){col=mix(shadowColor,col,clamp(position.y/7.0,0.0,1.0));}
+		float attenuation=clamp(dot(n,lightVector),0.0,1.0);
+		shadow=min(shadow,attenuation);col=mix(shadowColor,col,shadow);
+        float AO=AmbientOcclusion(position,n, 1.0, 7.0);col=mix(shadowColor,col,AO);shadowReflections--;}
+      float refl=0.4;
+      if (mtl==GROUND_MTL)refl=0.2;
+      r=mix(col,r,1.0-sg);
+      sg=sg*refl;if(sg<0.01){return r;}
+      direction=direction-(n*2.0*(dot(direction,n)));
+    }hardLimit--;
+    eps=mad(nextDistance,.0001,eps*1.02);
+    maxSteps-=eps;
+    maxDist -=eps/nextDistance;	
+    if(maxSteps<0.||maxDist<0.||hardLimit<0){
+	  if (direction.y<0.)return mix(groundColor,r,1.-sg);
+                         return mix(skyColor   ,r,1.-sg);}}return vec3(3,3,3);}
+void FishEyeCamera( vec2 screenPos, float ratio, float fovy, out vec3 position, out vec3 direction ){
+    screenPos *= vec2(ratio,fovy);
+	float height=cos(time/5.);
+	direction=cross(vec3(screenPos,3.0),vec3(0,1,0));
+	direction=normalize(direction);
+    direction=vec3( sin(screenPos.y+PIB)*sin(screenPos.x)
+                  ,-cos(screenPos.y+PIB)-height*.5-.4+sin(time/20.)*0.2-0.1
+                  ,-sin(screenPos.y+PIB)*cos(screenPos.x));
+	position=vec3(sin(time/ 6.)*100.+20.,
+	              height       *205.+206.,
+	              sin(time/14.)*135.+cos(time/13.)*135.)+1.0;
+	direction=normalize(direction);
+}
+void main(void){vec2 screenPos;float ratio=resolution.x/resolution.y;
+    screenPos.x=gl_FragCoord.x/resolution.x-0.5;
+    screenPos.y=gl_FragCoord.y/resolution.y-0.5;
+    vec3 d=vec3(1.0,0.,0.);vec4 CamRotation;vec3 p;
+    FishEyeCamera(screenPos,ratio,fovyCoefficient,p,d);
+    int m;
+	vec3 r=RayMarch(p,d,m);
+	gl_FragColor = vec4(r.x,r.y,r.z,1.0);
+    if(m==SKY_MTL&&d.y<0.){m = GROUND_MTL;gl_FragColor=vec4(1.,0.,0.,1.);}}
+		</script><script> 
+/**Provide requestAnimationFrame in a cross browser way. paulirish.com/2011/requestanimationframe-for-smart-animating**/
+			window.requestAnimationFrame=window.requestAnimationFrame||(function(){
+				return window.webkitRequestAnimationFrame||
+				       window.mozRequestAnimationFrame||
+				       window.oRequestAnimationFrame||
+				       window.msRequestAnimationFrame||
+				       function(callback,element){window.setTimeout(callback,50/3);};})();
+			var c,gl,b,v,f,p,pos, 
+			parameters={start_time  :new Date().getTime(), 
+			            time        :0,
+			            screenWidth :0, 
+			            screenHeight:0};init();animate();
+			function init(){
+			  v=document.getElementById('vs').textContent;
+			  f=document.getElementById('fs').textContent;
+			  c=document.querySelector('canvas');
+			  // Initialise WebGL
+			  try{gl=c.getContext('experimental-webgl');}catch(error){}
+ 			  if(!gl){throw "cannot create webgl context";}
+			  b = gl.createBuffer();
+			  gl.bindBuffer( gl.ARRAY_BUFFER,b );
+			  gl.bufferData( gl.ARRAY_BUFFER,new Float32Array([-1.0,-1.0,1.0,-1.0,-1.0,1.0,1.0,-1.0,1.0,1.0,-1.0,1.0]), gl.STATIC_DRAW );
+			  p=createProgram(v,f);
+			  onWindowResize();
+			  window.addEventListener('resize',onWindowResize,false);}
+			function createProgram(v,f){ 
+			  var p=gl.createProgram();
+			  var vs=createShader(v,gl.VERTEX_SHADER);
+			  var fs=createShader('#ifdef GL_ES\nprecision highp float;\n#endif\n\n'+f,gl.FRAGMENT_SHADER);
+			  if(vs==null||fs==null)return null;
+			  gl.attachShader(p,vs);gl.attachShader(p,fs);
+			  gl.deleteShader(  vs);gl.deleteShader(  fs);gl.linkProgram(p);
+			  if(!gl.getProgramParameter(p,gl.LINK_STATUS)){
+				alert( "ERROR:\n" +
+				"VALIDATE_STATUS: " + gl.getProgramParameter(p,gl.VALIDATE_STATUS ) + "\n" +
+				"ERROR: " + gl.getError() + "\n\n" +
+				"- Vertex Shader -\n" +v +"\n\n" +
+				"- Fragment Shader -\n" +f );
+				return null;}return p;}
+			function createShader(src,type){
+			  var s=gl.createShader(type);gl.shaderSource(s,src);gl.compileShader(s);
+			  if(!gl.getShaderParameter(s,gl.COMPILE_STATUS)){
+			    alert((type==gl.VERTEX_SHADER ? "VERTEX" : "FRAGMENT" )+" SHADER:\n"+gl.getShaderInfoLog(s));
+				return null;}return s;}
+			function onWindowResize(event){
+			  c.width =window.innerWidth;
+			  c.height=window.innerHeight;
+			  parameters.screenWidth =c.width;
+			  parameters.screenHeight=c.height;gl.viewport(0,0,c.width,c.height);}
+			function animate(){requestAnimationFrame(animate);render();}
+			function render(){
+				if (!p)return;
+				parameters.time = new Date().getTime() - parameters.start_time;
+				gl.clear( gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT );
+				gl.useProgram(p);
+				gl.uniform1f(gl.getUniformLocation(p,'time'      ),parameters.time/1000);
+				gl.uniform2f(gl.getUniformLocation(p,'resolution'),parameters.screenWidth,parameters.screenHeight);
+				gl.bindBuffer(gl.ARRAY_BUFFER,b);
+				gl.vertexAttribPointer(pos,2,gl.FLOAT,false,0,0);
+				gl.enableVertexAttribArray(pos);
+				gl.drawArrays(gl.TRIANGLES,0,6);
+				gl.disableVertexAttribArray(pos);}
+</script></body></html>

@@ -1,0 +1,21 @@
+SNAKE v1.1
+==========
+This program is Freeware. Use it for whatever you want.
+Tell me if you do so. Please distribute all this files:
+
+        Snake.zip -> ZIP file with all the files.
+                Snake.exe -> Executable file (C version).
+                Snake.c -> Code of C version (commented).
+                Snake.asm -> Code of ASM version (unmodified since V1.0).
+                Bmp2res.exe -> Screen creator (C version).
+                Bmp2res.c -> Code of C version (commented).
+                Bmp2res.asm -> Code of ASM version (unmodified since V1.0).
+                File_ID.diz -> This file.
+                Pant??.res -> File with the ??st level.
+
+Credits:
+        Programmed by Gerard Monells
+        Chico_GMB@hotmail.com
+
+NOTE:   ASM versions are not commented; C versions does the same
+        practically in the same way (C versions are commented)

@@ -1,0 +1,30 @@
+[how to run]
+put into DosBox Config
+[autoexec]
+# Lines in this section will be run at startup.
+# You can put your MOUNT lines here.
+
+
+boot c:\demo\bs.ima
+
+where c:\demo\bs.ima is path to .ima file
+
+or download PCEm v9 from http://pcem-emulator.co.uk/
+
+mount image to A: launch and have fun;)
+
+[Installation]
+ copy makeboot.exe and bootsect.bin at floppy, start msdos and run makeboot.exe bootsect.bin
+
+[compile]
+
+nasmw -f bin bs.asm -o bootsect.bin
+or
+fasm ch.asm
+
+
+have fun!
+
+greetz to sensenstahl, wbc, HellMood, Baudsurfer and to all tiny coderzzz. maybe you?
+
+fuckings to AAA, lvd,AlCo,Rindex and to other jerks

@@ -1,0 +1,6 @@
+"Fraktal1" by uzec
+
+184 bytes
+by uzec
+uzec@gmx.de
+tested in IE5 and IE6, doesn´t work with Netscape.

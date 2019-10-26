@@ -1,0 +1,1 @@
+Please run the intro with an ATI graphics adapter.

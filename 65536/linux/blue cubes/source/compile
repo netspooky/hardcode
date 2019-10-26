@@ -1,0 +1,6 @@
+#!/bin/bash
+PR="bluecubes"
+
+./makedata.pl &&\
+  gcc -std=c99 -pedantic "$PR.c" `sdl-config --cflags` -lm -lGL -lGLU `sdl-config --libs` -o "$PR" &&\
+  upx --best -q $PR

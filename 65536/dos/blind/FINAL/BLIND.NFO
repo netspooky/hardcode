@@ -1,0 +1,73 @@
+                   
+                    6 4 k  i n t r o  b y  e u f r o s y n e              
+                   ÄÒ         Ä·   Ä·                     ÄÒ
+                    ÇÄÄÄÄÄÄ·   º   Ä·   ÄÒÄÄÄÄÄÄ·   ÖÄÄÄÄÄÄ¶
+                   ÄÐÄÄÄÄÄÄ½  ÄÐÄ  ÄÐÄ  ÄÐÄ    ÄÐÄ  ÓÄÄÄÄÄÄÐÄ
+                        t h e  f i n a l  v e r s i o n    
+                    f i r s t  a t  a s s e m b l y  1 9 9 6
+         
+
+        credits       code by suckho, graphics & audio by duke, player
+                      by cubic team, pmode by tran
+
+        instructions  start the intro by typing blind. esc is escape.
+                      spacebar is fast forward. other keys do nothing. 
+                      no hidden parts exist.
+        
+        info          should work fine under qemm, himem, msdos7, etc.
+                      uses gravis ultrasound for audio. sound blaster
+                      supported only due to the competition rules. music 
+                      is not the same on sb and gus. pentium or fast 486 
+                      with gus recomended. 386 with vga and no soundcard 
+                      required. 100% of the intro is coded with tasm. no
+                      pascal, c, etc. code exists. 
+        
+        bug           there is problem with palette when running on 486.
+                      i haven't found out what's the problem, because it's
+                      very hard without 486. blind works fine on 386 and 
+                      pentium machines. if you think you know what the 
+                      problem is, please tell me. i just can't understand.
+
+        progs used    borland turbo assembler, deluxe paint, fast tracker
+                      image alchemy, borland turbo pascal, pmode by tran
+                      mxmplay by cubic, pklite
+
+        license       you can spread this intro freely. you can add this 
+                      intro on any CD-ROM, but please inform us. you must 
+                      not modify anything in this intro or any files you
+                      got with it. we are not responsible for any damage 
+                      this intro may cause. 
+
+        prize money   we should have got $1600 for the 1st prize of the
+                      64kb intro compo, but due to the very professional 
+                      party organizing once again, we haven't got any 
+                      money yet. now it has been almost five months since 
+                      assembly 96. that's why there are those X's in the 
+                      greetings list. there used to read something like
+                      "assembly organizers". 
+        
+        productions   disco volante - 64kb intro at juhla pi [FRS_DVOL.ZIP]
+                      tone - demo at party 6 [FRS_TONE.ZIP]
+
+        contacts      gaia +358-17-2624311  [eufrosyne whq]
+
+                      saku tiainen [suckho]   tomi korkalainen [duke]
+                      kellotarhantie 5        kirkkotie 21
+                      70460 kuopio            72100 karttula
+                      finland                 finland                    
+                      
+                      email: duke@triplex.fipnet.fi [duke]
+      
+        thanks        tran [pmode], cubic [mxmplay]
+        
+        greetings     rommel, kraku, pacman, pode, mazor, trevize,  
+                      mare, dr.voice, yucca, noize, cyberpig, damaq,
+                      dice, sparklite, vitulla p„„h„n filmcrew, xt,
+                      all paragon members, all mass members, doomsday,
+                      XXXXXXXX XXXXXXXXXX, all we forgot and especially 
+                      everyone who voted us at assembly'96
+
+        no thanks     assembly organizers (give us our money!)
+
+        end words     jiihaa.                          5.1.1997   Suckho
+

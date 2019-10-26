@@ -1,0 +1,8 @@
+aero grimo
+--
+64b by lord Kelvin
+
+intro.
+
+FASM
+rus-hello.

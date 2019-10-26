@@ -1,0 +1,46 @@
+
+                    ÚÄÂÄÄÄ            ÚÄ¿     ÂÄ¿
+                    ³ ÃÄÚÄÂÄÚÄÂÄ¿ÚÄÂÄ¿´ ÃÚÄÂÄ¿³ ³ÚÄÂÄÄ¿
+                    ³ ³ ³ ³ ÚÄ´ ³³ ³  ³ ³ÚÄ´ ³³ ³ÀÄÁÂÄ¿
+                    ÀÄÙ ÀÄÙ ÀÄÁÄÁÀÄÁÄÙÀÄÁÀÄÁÄÁÀÄÙÀÄÄÁÄÙ
+                             - by schwartz -
+
+
+                               DISTRIBUTION
+
+        Fractals is my contribution to the Assembly '94 4kb intro
+        competition. You can copy it as long as the files included
+        remain unchanged and no fee is charged. If you're planning to
+        distribute it as shareware, on a commercial shareware-cd, for
+        example, please contact me. This product can be released on the
+        Assembly '94 -cd if a fair royalty based on the votings is paid
+        to the author.
+        
+
+                               REQUIREMENTS
+
+        Fractals will only run on a 386 or greater, hower it requires
+        under 200kb of base memory memory. A vga is also required. It
+        won't need any memory managers.
+
+                                   BUGS
+
+        The desert scrolly might be a bit jerky on a slower video card
+        because the hardware scrolly that worked on my cirrus svga
+        didn't work on the compo machine, and I had to change it to a
+        stupid videomem->videomem copy.
+
+
+                                CONTACT ME
+
+        Currently I don't have a group, so if you're needing a coder,
+        you can contact by email at:
+
+                              schwartz@cute.fi
+
+        or by snailmail at:
+                        Mikko Reinikainen
+                        Penkaskuja 11
+                        03100 NUMMELA
+                        FINLAND
+

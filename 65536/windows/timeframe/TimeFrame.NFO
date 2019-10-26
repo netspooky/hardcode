@@ -1,0 +1,40 @@
+    __________  _______
+----\      / / /      /--- - 
+    / ____/ / /__  __/
+   / /_  / /____/ /
+  / __/ /      / /
+-=\_\===\______\_\===2002==-
+
+ TimeFrame by Fairlight
+PC 64k for Assembly 2002
+
+      ____________
+_____/  #Credits  \____________
+                              `  
+      Smash - Code
+    Suicide - 3d Art  
+  Andromeda - Music
+  Pantaloon - Additional fx code
+    Seffren - Texture generator
+     Barock - Font 
+
+Needs opengl, fast cpu, fast gpu
+
+When we say long precalc, we 
+really mean it.
+
+Wait for the non-slow, non-buggy 
+final version. We are kindof 
+close to the byte limit and time
+limit to fix it now, sorry..
+
+Thanks to
+- aln (2d graphics we didnt have
+bytes for, will use next time)
+- firelight (minifmod)
+- upx 
+
+
+
+email bugs/comments to 
+smaash@yahoo.com.

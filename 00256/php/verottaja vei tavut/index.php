@@ -1,0 +1,1 @@
+<meta http-equiv="refresh"content="1;url=?y=<?php echo($y=$_GET['y']+.2).'"><pre>';for($i=0;$i++<39;){for($o=160;$o--;){echo floor(pow(40-$i,2)/200+$y+$o/(.25-$i))%2?'X':'.';}echo'<br>';}?>Pants^2 greets TVT,PWP,ISO,WAMMA,ASPEKT,MAWI&FLO!enecsb652php nioj

@@ -1,0 +1,9 @@
+Name:        Bloodsucker
+Compo:       4K procedural graphics
+Code by:     Stan/Rebels
+Released at: Breakpoint 2010
+Packed by:   Crinkler
+
+Requires DirectX 9 with d3dx9_32.dll installed. You can press space to rotate scene a 
+little but this is VERY slow.
+Big thanks for Gopher/Alcatraz for his help with Windows 7.

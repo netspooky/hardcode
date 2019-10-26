@@ -1,0 +1,129 @@
+                         :                                          :
+      ___/\_____________/|__/\______/\                  for you!   /|
+      \_/  \_    ______/ \_____  FB\  \ _____  _______  __________/ |
+        \   /  | \_   /  |/   /    /   \\__  \/ ___   \/ ___\_   /  |
+         \_/   |_//  /   / __/  __/     \/  _ \  \/  _ \  \  /  /   |
+          /    |  \___  /  \    \_   |   \   \    \_  \    \_\___   |
+         /     |  /  /      \    /   _    \_  \    /   \    //  /   |
+         \     |  \    /\___|\  /\___|\    /__|\__/\___|\__/ \    /\|
+   -======\  __|===\  /==:====\/=======\  /==[FiREBiRD/PNX]===\  /==:=====-
+           \/       \/                  \/                     \/
+
+ÚÄ³Ä³Äù                                ú                                úÄ³Ä³Ä¿
+³ ³ ú                Pac-In-Time (c)ÿMindScape [+6] Trainer               ú ³ ³
+ÀÄ³Ä³Äú                                ú                                úÄ³Ä³ÄÙ
+
+-/[Release team: Jimmy Jamez, Martial Artist           [01] Number of disks ]\-
+-/[Game type: Arcade                                [01/16/95] Release date ]\-
+    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+-/[Release notes:
+
+       TYRANNY'95 is really pleased to present a PAC-in-Time +6 Trainer.
+       Here are some notes from a TRN cracker - Martial Artist:
+
+                                                                  -JJ
+
+Well its been a long time, but I am back with a new trainer.  This time for
+a semi ok game called 'Pac In Time'.  This game is actually Fury of the
+Furries with new characters, or so it seems.  Anyhow, enjoy!
+By The Way.. I just got a job making video games for the Atari Jaguar, just
+thought I would mention that :)
+Thanx to Evil Current for being forced to send this to me :()
+
+Instructions:
+Unzip the trainer in your 'Pac In Time' directory (PAC)
+type PACTRN to run the trainer.
+
+Keys for use while playing the game:
+F1 - Toggle on and off Infinite Lives.
+F2 - Toggle on and off Timer.
+F3 - Add a life  (you will not notice it has added a life till you die,
+                  the game does not update the lives while in play.)
+F4 - Give yerself some more Time.
+F5 - Give yerself all the Weapons.. (you wont see them at first, but they
+                                     are there.)
+F6 - Finish the level, and go to the next (level skip.)
+
+Technical Information: (for you tech junkies)
+The datasegment we want is located at the games interrupt 9 segment, offset
+FDCD hex.  Lives lie at DS:1F08 (byte), Time lies at DS:B8FC (word),
+Weapons lie at DS:b814 (4 words) 0100 = you got it - 0000 = you dont,
+DS:55A0 hold the level that you will be warped to - DS:1FCA placing a 6 at this
+location enables the level warp to take place.
+For infinite lives and time: The codesegment we want lies at the games
+interrupt 9 segment.  CS:2B8B holds the time decrement (4 bytes : FF 0E FC B8)
+CS:6C8A holds the lives decrement (4 bytes : FF 0E 08 1F).
+
+Loader Information:
+The loader was programmed in 100% asm (turbo assembler of cauz).
+The logo was made with 3d Studio, the font is from Deluxe Paint.
+The Waterfall is a 64k Fractal, the fractal is generated real time when you
+run the intro.  The waterfall effect is done by having a small window pan
+along the 64k fractal map, adding some funky scaling routines, we get the
+desired results.  THERE IS NO COLOR CYCLING.  The Music was given to me by
+Hoson about 2 years ago, and the music player was made by Chicken/ECR (k-'lite)
+
+Personal Greetings:
+Briarios, Cyber Angel, Jimmy Jamez, Dual, Eagle 1, Tonedef, Antibyte - Erik -
+The Faker / S!P, Pixel / FC, Darkshade, Antitrack, Aslan, Chuckb, Dynabyte,
+Guildmaster, Steam - Pitbull - Necros - Oman / Legend Design, Zig Zag, G-Man,
+Chaos 9 (sorry bout my dog chewing up yer living room :(), Wolverine, Wayward,
+Red Wizard, Mat, Retrospec, G00seman, CHICKEN/ECR, Porter, CP, Kruey, Squiz
+Lenin, Rebel, Pudding, Byte, xmole, asclep, Almighty...
+and the rest (just too many... as IRC is too big)
+
+Hasta Putos.. Martial Artist (MArtist on IRC)
+
+                                    - / \ -
+
+       Millennium Matrix is now 6 blazing 28.8 nodes and soon will be
+       upgraded to 8! Call now - 718-982-5453!
+
+       To inquire about joining Tyranny call 718-934-0558 and apply for an
+       account. Make sure to leave your VOICE number & name so we can get
+       back to you.
+
+                                    - / \ -
+
+             -/[Greets to: PHOENIX ş D0D ş RAZOR/ROM 1911 ş PARADOX
+  A big 'fuck you' to all miserable loosers that would bust their competitors.
+        -CA
+
+    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ[ M E M B E R S ]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+
+                      CYBER ANGEL - JIMMY JAMEZ - KIDCAPRI
+
+    ABBOT DERVISH - BEN JAMMIN - BLACK DRAGON - BUCKAROO BANZAI - THE CURVE
+    THE COMANCHE - CYBERBEAST - DEMONFIRE - GRIFTER - JOKER - LORD JECKSOM
+    MARTIAL ARTIST - NIVEK OGRE - RESCUE RAIDER - ROYCE - STARPECKER - WASTE
+
+    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ[ T R A D E R S ]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+
+                             BLUE SKY - INSECTOR-X
+
+       CALIGULA - DEATH INCARNATE - EVIL CURRENT - HACKMASTER - MR MAHEM
+                      SPHINX - THE UNFORGIVEN - VAN DAMME
+
+    ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ[ B O A R D S ]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+
+         Millenium Matrix     ú TU/DI/CA      ú  6 nodes  ú  World HQ
+         The S.i.L.o.         ú The Comanche  ú  6 nodes  ú  USHQ
+         Dimention XXX        ú Dr. Anarchy   ú 10 nodes  ú  Courier HQ
+         Silverado            ú Blue Sky      ú  4 nodes  ú  Europe HQ
+         ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         Source Of Reality    ú Cyber Angel   ú  2 nodes  ú  Apply Site
+         Ambient House        ú J-Jamez & AD  ú  2 nodes  ú  Russia HQ
+         Land Of Raindeer     ú Insector-X    ú  2 nodes  ú  Finland HQ
+         Hangar 18            ú Royce         ú  3 nodes  ú  Member BBS
+         Gotham City          ú Joker         ú  2 nodes  ú  Member BBS
+         Last Rights          ú Nivek Ogre    ú  2 nodes  ú  Member BBS
+         Necropolis           ú Cyberbeast    ú  1 nodes  ú  Member BBS
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         The Graveyard        ú Tombstone     ú  1 nodes  ú  Dist. Site
+         Someware In Time     ú Wayne Campbellú  1 nodes  ú  Dist. Site
+         The Traders Alliance ú Sphinx        ú  1 nodes  ú  Dist. Site
+     =====================================================================
+     Best of the two worlds!

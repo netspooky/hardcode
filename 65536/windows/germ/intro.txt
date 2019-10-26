@@ -1,0 +1,15 @@
+******************
+*    A  T  D     *
+******************
+*    G E R M     * 
+******************
+*  64 kilobytes  *
+*     intro      *
+******************
+* msx: slash/atd *
+* code: r/atd 	 *
+******************
+*sorry about this*
+*uses tools by fr*
+*exe packer&synth*
+******************

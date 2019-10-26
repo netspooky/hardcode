@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Glenz1k final</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <script>
+var a = document.body;
+var b = document.getElementsByTagName('canvas')[0];
+
+function getContext(s) {
+  try {
+    return b.getContext(s); 
+  } catch(e) {
+    return null;
+  }
+}
+
+function c() {
+  return getContext('2d');
+}
+
+function d() {
+  return getContext('webgl') || getContext('experimental-webgl') ||
+   getContext('webkit-3d') || getContext('moz-webgl');
+}
+
+document.body.clientWidth; // fix bug in webkit: http://qfox.nl/weblog/218
+    </script>
+
+    <script>
+
+W = b.width = innerWidth-24;
+H = b.height = W/2;
+M = H/2;
+m = 0.5;
+X = c();
+X.translate(H,M);
+_ = Math;
+C = _.cos;
+S = _.sin;
+D = 2*_.PI/3;
+A = B = G = 0;
+
+function V(a,d) {
+  return [m*(a[0]+d[0]), m*(a[1]+d[1]), m*(a[2]+d[2])]
+}
+
+function T(a,d) {
+  return [a[0]*C(d)+a[2]*S(d), a[1], a[2]*C(d)-a[0]*S(d)]
+}
+
+function F(a,d,e,f,g) {
+  if (a > 1) {
+    var h = V(e,f), k = V(f,g), n = V(g,e);
+    F(a-1,1,h,k,n);
+    F(a-1,d,e,h,n);
+    F(a-1,d,f,k,h);
+    F(a-1,d,g,n,k);
+  }
+  if (a == 1) {
+    F(0,d,T(e,G+e[1]), T(f,G+f[1]), T(g,G+g[1]));
+  }
+  if (a < 1) { 
+    x.push([e[2]+f[2]+g[2],d,M*e[0],M*e[1],M*f[0],M*f[1],M*g[0],M*g[1]]);
+  }
+}
+
+function L() {
+  X.fillStyle="rgba(0,0,0,.1)";
+  X.fillRect(-H,-M,W,H);
+  x = [];
+  s = S(B);
+  c = C(B);
+  d = [0,s,-c];
+  e = [C(A),S(A)*c-m*s,m*c+S(A)*s];
+  f = [C(A+D),S(A+D)*c-m*s,m*c+S(A+D)*s];
+  g = [C(A-D),S(A-D)*c-m*s,m*c+S(A-D)*s];
+  F(5,0,e,f,g);
+  F(5,0,f,d,g);
+  F(5,0,g,d,e);
+  F(5,0,d,f,e);
+  x.sort(function(a,b){return a[0]-b[0]});
+  K=4*A.toFixed(0);
+  for(i=0;i<1024;i++) {
+    p=x[i];
+    X.beginPath();
+    X.fillStyle=p[1]?"hsla("+K+",90%,50%,.7)":"hsla(0,0%,99%,1)";
+    X.moveTo(p[2],p[3]);
+    X.lineTo(p[4],p[5]);
+    X.lineTo(p[6],p[7]);
+    X.fill();
+  }
+  A+=11e-3;
+  B+=7e-3;
+  G+=5e-3;
+}
+setInterval("L()",16);
+    </script>
+  </body>
+</html>

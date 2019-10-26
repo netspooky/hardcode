@@ -1,0 +1,51 @@
+うろつき, a 1k intro for linux by Ye Olde Laptops Posse
+	code: w23 (me@w23.ru)
+	palette model: korvin
+	additional testing: decelas
+
+created somewhere in the middle of august 2011
+"partyversion" released 28.08.2011 @ Hackday17*, Novosibirsk, Russia
+was unfinished atm (just shader, 854 bytes) and didn't have any audio
+--
+* - Hackday is not a demoscene event.
+
+was somewhat completed 10.09.2011
+
+REQUIREMENTS:
+	- oldskool 2004-like GPU
+	- at least 32-bit x86 cpu with fpu unit
+	- Linux w/ X11+OpenGL+SDL
+
+KNOWN ISSUES (LOL LINUX!!1) with workarounds!
+
+1) [WORKAROUND] Ubuntu (x86_64?) doesn't have a proper symlink for the libSDL.so, so for the
+	time being you have the following options:
+	a. make it yourself (/usr/lib32/libSDL.so should point to libSDL-1.2.so)
+	b. use LD_PRELOAD=/usr/lib32/libSDL-1.2.so (it will complain a bit, but 
+		nonetheless run properly)
+	c. use the fix_ubuntu scripts: fix_ubuntu.sh urotsuki_<moderes> 
+
+2) [SEEMS FIXED] Ubuntu's default /usr/lib32/libGL.so symlinks to Mesa's libGL.so, which is 
+	in no way correct one if you're using proprietary drivers. In this case use
+	LD_LIBRARY_PATH=/usr/lib32/nvidia-current or whatever (fglrx?).
+	Gentoo, for example, always symlinks to a correct OpenGL implementation.
+	There are fix_ubuntu_nvidia scripts for your convenience.
+
+3) Mesa (opensource drivers) and (Nvidia) proprietary drivers produce 
+	slightly different colors for yet unknown reason.
+
+4) AMD/ATI's fglrx was not tested. If you're "happy" enough to run some,
+	please try this	baby and tell me@w23.ru about your experience. Thanks.
+
+5) No other distros except Ubuntu and Gentoo have been tested. I'll be happy 
+	to help in case you have any issues.
+
+
+PS
+
+and yeah, plasma effect is old and lame, but we're also lame, and our laptops
+are old enough for their GPUs not to be able to do branching in shaders.
+
+:(
+
+next time we'll come up with something less retarded

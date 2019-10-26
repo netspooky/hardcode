@@ -1,0 +1,46 @@
+
+
+                              A Little Shady
+
+                                by Loonies
+
+                         Released at Assembly 2004
+
+Credits
+=======
+
+Main Code: Psycho
+Music and Music Code: Booster
+Add. Design: Farfar
+
+
+Compatibility
+=============
+Radeon 9500+ or Geforce FX5200++ and graphics drivers supporting the OpenGL Shading 
+Language (GLSL) required.
+By now it is only working with ATI's drivers (tested with Catalyst 4.7 and 4.8beta) while
+the NVidia drivers still seem too buggy regarding GLSL to work. It will run, but as some of 
+the shaders cannot compile (internal compiler error) most parts will have lots of stuff missing.
+
+The intro was originally planned for breakpoint but failed to enter the compo because of a last minute 
+catalyst driver update, so it became this improved version for Assembly instead. Assembly has 
+the same problematic driver version rules (latest version when the party *takes place* instead 
+of latest version a week before) and the same bad timing considering ATI's release dates ;) 
+(catalyst 4.8 is expected just around the time of Assembly).
+
+It seems there are some problems with midi sound hw latency on some hardware, especially 
+laptops, which can be quite annoying considering the amount of instrument timing.
+
+Optimized with the 20to4 beta and packed by manual cab dropping meaning that the .bat versions 
+are only working on (the right versions of) WinXP. The .bat versions will write to %temp%.
+
+ALittleShady_compo.bat - version following the compo rules, ie. no credits and 640x480
+ALittleShady.bat - normal 4k version - 800x600
+ALittleShady.exe - compatibility version without (some of) the dirty tricks
+
+
+Additional info
+===============
+http://www.loonies.dk
+
+

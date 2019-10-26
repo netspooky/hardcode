@@ -1,0 +1,22 @@
+
+      Just a few words... Works with clean-boot, also tested with
+      other configurations like with QEMM and it worked fine. I
+      recommend fast (66 MHz) 486 with PCI VGA-adapter. Requires VGA
+      and at least 80486 processor as you probably knew. This isn't
+      designed for 386 computers, because competition computer was 
+      486 with new features.
+
+
+      Thanx to TaskMaster/Gollum for loaning his computer at
+      the party place.
+
+
+      Would you like to contact me?
+
+                Samppa Mattila
+                Poiklumantie 26 as. 27
+                FIN-20760 PIISPANRISTI
+                FINLANDE
+
+
+                *  Bittibuumi  -  Copyright (C) 1995 Rubicon  *

@@ -1,0 +1,23 @@
+#
+tempo 500
+pehmoilu 0
+
+playlist
+   0  0  1
+   0  0  0
+end
+
+pattern 0
+  si  C4    80
+  si  C#4    80
+  si  C4    80
+  si  C#4    80
+  
+end
+
+pattern 1
+  no  C5   100
+  no  C5   100
+  no  C5   100
+  no  C5   100
+end

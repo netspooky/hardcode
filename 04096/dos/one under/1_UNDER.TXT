@@ -1,0 +1,16 @@
+Information file for "One Under"
+
+
+This production will require the following
+        
+        - free conventional memory: 610kb
+        - boot information: CLEAN boot
+
+Clean boot means that you should boot your machine with out any other drivers
+than HIMEM.SYS, so your config.sys will look like this:
+
+CONFIG.SYS:
+device=c:\dos\himem.sys
+dos=high
+
+and your AUTOEXEC.BAT is empty or you can load your favourite mouse driver.

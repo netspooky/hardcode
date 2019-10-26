@@ -1,0 +1,106 @@
+þþþþþþþþþþþþþþþึฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟþþþþþþþþþþþþþþþþþþþþþþþ
+ึฤฤฤฤฤฤฤฤฤฤฤฤฤฤบ COLOUR OF THOUGHT 64k - AM DEMO GROUPณฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ
+บ              ศออออออออออออออออออออออออออออออออออออออพ                      ณ
+บ                                                                            ณ
+บ After the release of  Frosty, RubiXcom decided he should release something ณ
+บ as well.  Here is our second rushed  Happy New Year production - Colour of ณ
+บ Thought.                                                                   ณ
+บ                                                                            ณ
+บ This intro features a slightly extended 3D system than the one featured in ณ
+บ Transmission.  This is our first demo  in HiColour  and I ho pe everything ณ
+บ works well. :)  For  that to  occur you need  at least a Vesa 1.2  with  a ณ
+บ 320x200 16 bit colour mode!  Get Univbe  as a  last resort, i f you see no ณ
+บ graphics. I realise that some crap cards refuse to support lowres hicolour ณ
+บ modes but there wasn't much time to include support for other modes. Sorry.ณ
+บ                                                                            ณ
+บ Please use  at least a  486 to run  the demo.  I haven't tried  it under a ณ
+บ lesser  system  but I guess it will crash horribly as there is no floating ณ
+บ math  emulator in the code! Use  a Pentium  like a  166MMX which is what I ณ
+บ used to code this thing.  On this  computer (at least)  everything runs OK ณ
+บ so if in doubt go buy faster hardware. :)                                  ณ
+บ                                                                            ณ
+บ To enjoy NOR's techno  soundtrack you need to have  at least a GUS classic ณ
+บ and an ULTRASND string setup correctly. The demo uses MXMPlayer from Cubic ณ
+บ Team and it seems to work on my old GUS just fine.                         ณ
+บ                                                                            ณ
+บ In the complete testing phase  (about 5 minutes)  I haven't seen this code ณ
+บ crush. I also tried  the demo under Win95 and  it works fine so I guess it ณ
+บ should work fine with WinNT and Win98.                                     ณ
+บ                                                                            ณ
+บ I would  like to  thank,  NOR  for his  suggestions  and  some  help  with ณ
+บ sychnronising this production.                                             ณ
+บ                                                                            ณ
+บ                                                      -- Enjoy. RubiXcom/AM ณ
+บ                                                                            ณ
+þออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออþ
+บ ึฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ                                                 ณ
+บ บ AM PRODUCTIONS SO FAR. ณ                                                 ณ
+บ ศออออออออออออออออออออออออพ                                                 ณ
+บ                                                                            ณ
+บ AM_INF18.ZIP   -- (Sep,1996)  -- pure basic demo with lots of nice effects.ณ
+บ                                                                            ณ
+บ AM_FUZZY.ZIP   -- (Dec,1997)  -- an ASM and C demo with more effects       ณ
+บ                                  plus a small pure Basic intro.            ณ
+บ                                                                            ณ
+บ AM_WAVE.ZIP    -- (Jul,1998)  -- 4k, second at Coven '98 coded by NOR.     ณ
+บ                                                                            ณ
+บ AM_TRANS.ZIP   -- (Jul,1998)  -- Transmission a C demo third at Coven '98  ณ
+บ                                  coded by RubiXcom with music by NOR.      ณ
+บ                                                                            ณ
+บ AM_FROST.ZIP   -- (Dec,1998)  -- Frosty 4k an intro coded by NOR featuring ณ
+บ                                  music also by him.                        ณ
+บ                                                                            ณ
+þออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออþ
+บ ึฤฤฤฤฤฤฤฤฟ                                                                 ณ
+บ บ OTHER. ณ                                                                 ณ
+บ ศออออออออพ                                                                 ณ
+บ                                                                            ณ
+บ Our happy new year greetings go to: Phorte, Black Fox, Spoony, Raster,     ณ
+บ            Jestyr, Clef, Factory, Magnesium, Shock, Gyr, Dark Fiber, MZ,   ณ
+บ            Higher Being, Baldric and all other Oz sceners including the    ณ
+บ            once who's names escape us right now.                           ณ
+บ                                                                            ณ
+บ The AM web site is still up but it may be moving soon.                     ณ
+บ Try http://i.am/rbx/ if you can't find it at it's old location. Check the  ณ
+บ site for our upcomming releases as well as a musicdisk by NOR which should ณ
+บ be out hopefully very soon.                                                ณ
+บ                                                                            ณ
+บ Email RubiXcom (RubiXcom@mailexcite.com) with any bug reports and we may   ณ
+บ consider re-releasing the intro if some significant changes are made.      ณ
+บ                                                                            ณ
+บ                H A P P Y  N E W  Y E A R  E V E R Y O N E !                ณ
+บ                                                                            ณ
+ศอออออออออออออออออออออออออออออออออออออออออออออออThrอ31thอDecemberอ1998อออออออพ
+þþþþþþþþþþþþþþþึฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþ
+ึฤฤฤฤฤฤฤฤฤฤฤฤฤฤบ RERELEASE INFORMATION. ณฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ
+บ              ศออออออออออออออออออออออออพ                                    ณ
+บ Due to popular demand, the demo now contains a colour intesity parameter.  ณ
+บ                                                                            ณ
+บ Usage: AM_COT I[intesity value 1-100]                                      ณ
+บ        the default intesity is set to 60.                                  ณ
+บ                                                                            ณ
+ศอออออออออออออออออออออออออออออออออออออออออออออออออMonอ4thอJanuaryอ1999อออออออพ
+þþþþþþþþþþþþþþþึฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþ
+ึฤฤฤฤฤฤฤฤฤฤฤฤฤฤบ WINDOWS VERSION INFORMATION. ณฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ
+บ              ศออออออออออออออออออออออออออออออพ                              ณ
+บ                                                                            ณ
+บ This was meant to be released a year after the release of the original DOS ณ
+บ version but due to problems with the operation of the sound system DLL and ณ
+บ my unique brand of lazines,  this hasn't happened.  Now, finally two month ณ
+บ too late, here it is, the Windows 95 version of COT.  As this version uses ณ
+บ window's  graphics  drivers,  most anyone with Win95 can view the demo and ณ
+บ hear the sound.                                                            ณ
+บ                                                                            ณ
+บ If  there are  any problems try to  fiddle around with  the options on the ณ
+บ setup window.  The fullscreen  mode is not avalible on most cards so if in ณ
+บ doubt  switch that off.  As for the  sound system,  it hasn't given me any ณ
+บ trouble when tested under typical hardware setup. If it stuffs up it could ณ
+บ only mean you got bad sound driver support for your card,  the only way to ณ
+บ fix this is either to get a new card or download new drivers.              ณ
+บ                                                                            ณ
+บ In my opinion, the DOS version is  faster and sounds  better but since the ณ
+บ Windows  version uses  24bbp colour  (unless you are using a 16bbp desktop ณ
+บ setting), it looks better. :-)                                             ณ
+บ                                                             -- RubiXcom/AM ณ
+บ                                                                            ณ
+ศอออออออออออออออออออออออออออออออออออออออออออออออออSunอ27thอFebruaryอ2000อออออพ

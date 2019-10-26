@@ -1,0 +1,12 @@
+Name:    Sconycom
+Compo:   4K intro
+Code by: Stan/Rebels
+
+Requires d3dx9_32.dll to run. Not tested on any computer other my own. Yes, that's horrible.
+Precalc time approximately 20 seconds. 
+
+It supposed to be 1k intro but I have no time to finish it because 2010 is coming.
+Snowman tells you "Stop COding New Year is COMing!".
+Happy new year and all the best!
+
+Stan

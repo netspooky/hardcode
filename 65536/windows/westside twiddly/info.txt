@@ -1,0 +1,105 @@
+
+  aardbei 64k intro 2002
+   - westside twiddly -
+
+
+
+ * credits:
+
+ system code, effect code and glueing
+ rob/aardbei
+
+ textures, glueing and design
+ oyiseer/aardbei
+
+ music
+ steffo/cryonics
+
+
+
+ * note:
+
+ released on march 31st at MekkaSymposium 2002.
+
+ this intro was made for fun. we hope you enjoy it as much as we did while producing it. produced 
+ during autumn and winter 2001/2002. due to work and studies no time for earlier release. glued 
+ together in the middle of februari 2002 at oyiseer's place in örebro, sweden.
+
+ intro textures produced with ATS coded by rob/aardbei.
+
+ music produced with realtime softsynth coded by steffo, zyrax, gnilk. YOU RULE!
+
+
+
+ * parameters
+
+ if, for some reason, the intro doesn't work, you can try these parameters:
+
+  -t16b         : use 16 bit textures instead of 32 bit
+  -v16b         : use 16 bit video mode instead of 32 bit
+  -window       : run the intro in windowed mode
+  -notnl        : don't use hardware tnl options
+  -waitretrace  : wait for vertical retrace every frame (only nice for really fast computers)
+
+
+ if you would like the intro to be loaded faster/slower (or just want to see the textures), try these:
+
+  -savegfx      : saves/load all textures to/from harddisk
+  -precalcmusic : precalculates music, loads slower, but runs smoother (you need more than 128 mb ram)
+
+
+
+ * personal messages
+
+ from rob:
+
+ to oyiseer:
+ really want to thank you for the great hospitality during my time in sweden. thanks for 
+ showing örebro to me and for cooking all the nice food (elk, elk!). respect for the textures you made
+ and the ideas you had. one thing though... dont ever drink 1 bottle of wine and 2 glasses of whiskey 
+ in 15 minutes again: i really don't feel comfortable in a pub when a guy is touching my ass all the
+ time ;)
+
+ to okkie:
+ thank you for arranging a trip to mekka! i hope we don't break our ankles ;) 
+
+ to ile:
+ thank you for being our taalnazi (and tony ;)
+
+
+ from oyiseer:
+
+ to rob:
+ BIG RESPECT! Really nice that you came over here, i will for sure remember this for a long time.
+ and i will try to not touch you at the ass next time ;)
+
+ to all my non-sceners friends (you know who you are):
+ I LOVE YOU ALL!
+
+ charlie:
+ you are so cute and friendly to me. ;)
+
+
+ from both:
+
+ to steffo:
+ special thanks for taking your time producing such nice track, WE LOVE YOU!
+
+ to oxygener and flow:
+ thank you for giving it a try with the music. to bad it didn't fit with the intro.
+
+ to distance:
+ ? ;)
+
+
+
+ * contact
+
+ rob_aardbei@hotmail.com or
+ oyise@aardbei.com
+
+
+
+ * end
+
+ thank you and goodbye.

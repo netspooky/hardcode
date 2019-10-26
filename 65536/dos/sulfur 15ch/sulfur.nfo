@@ -1,0 +1,61 @@
+              +++++++++++++++++++++++++++++++++++++++++++++++
+              +                 OPTIK                       +
+              +               SULFUR 15CH                   +
+              +           64K intro at FIASKO 99            +
+              +                                             +
+              +++++++++++++++++++++++++++++++++++++++++++++++
+
+Hi people,
+this intro was coded and music composed in 18 days. Some 3D code
+was finished before that. I used a very powerful and useful
+EOS extender from ECLIPSE with great Diamond player. Because
+Fiasko organization allowed me WEOS.EXE, you need it in PATH,
+sorry for that I need it because of 64k limit.
+After party version will be all in one exe in non 64k.
+I'm not good coder, and I need a more time to learn about democoding.
+
+intro at least requires:
+ .32-bit CPU
+ .4Mb memory 
+ .fast FPU
+ .VGA
+ .No sound
+ .OS type MS-DOS or WINDOWS 3.x,9x,NT (whow!)
+
+intro recommended:
+ .Pentium 100
+ .VGA
+ .some sound card (see below)
+ .OS type MS-DOS
+
+I test it on P90 and K6-300 in DOS and WINDOWS 95 and it worked good.
+In Win worked with music!!
+
+sound card: Thanks EOS it work with:
+         þ Sound Blaster
+         þ Sound Blaster Pro
+         þ Sound Blaster 16 Asp
+         þ Sound Blaster AWE32
+         þ Gravis Ultrasound
+         þ Gravis Ultrasound Max
+         þ Gravis Ultrasound Ace
+         þ Gravis Ultrasound Pnp
+         þ Windows Sound System
+
+If environment variables (BLASTER or GRAVIS)
+is not properly set the sound card will not be detected.
+
+thanx: Eclipse
+       UPX team: Markus Oberhumer & Lazslo Mollnar    
+       vyhen.site people
+       
+hello: eL,movSD,Pipkasoft,Caitiff,.............. 
+
+contact:
+      kubelim@feld.cvut.cz
+      http://www.mujweb.cz/www/optik
+      in WWW are sources for this shit (after FIASKO)
+
+OPTIK 1999 peace
+      
+

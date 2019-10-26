@@ -1,0 +1,22 @@
+
+ - Ghoul Style.
+ - 64k's.
+ - Una semana.
+ - Nada esta generado, todo esta dentro (perreria).
+ - Ambientada con Slip K NOt, Sepultura, Rammstein, Marilyn Manson.
+ - Codigo Astharoth
+ - Musica Estrayk
+ - Rutinas tomadas del Xsystem (Sistema de sonido, graficos,etc)
+ - Xsystem es de TLOTB
+ - En Xsystem han currado: Astharoth, Hgh y Cranky.
+ - Saludos especiales para el Wally/TLOTB que esta muy lejos.
+ - Otros saludos para mis compañeros de trabajo en Panda Software por aguantar mi codigo
+ - Saludos extra98 eurosuper para:
+
+   Unknown, Fuzzion, Aardbei, Haujob, Polka Brothers, Halcyon, Stravaganza, Concept
+   Software Failure, Iguana, NecroStudios, Wildbits, Tpolm....
+
+
+   Para explicarse el porque de esta produccion, ver el codigo fuente adjunto.
+
+   Sacabo! Astharoth at party place. :)

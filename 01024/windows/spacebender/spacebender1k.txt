@@ -1,0 +1,24 @@
+Spacebender by snq/aardbei
+1k Windows intro
+
+Put your bass on 11 and enjoy :)
+For optimal experience, sit close to your screen and don't quit until you feel sick.
+
+All versions have been tested on Windows 7 and 8 with a Radeon 6870.
+Safe versions should work on Vista and XP too but you won't get your money back if they don't.
+Compo versions music will skip if your framerate drops too much.
+
+Requirements:
+ Shader model 3.0
+ d3dx9_30.dll, which everybody who ever watched a 1k intro should have.
+
+Stats (1280x720 compo version):
+ Code 296 bytes
+ Data 413 bytes
+ Overhead 297 bytes
+
+
+Compo versions are packed with a hex edited version of Crinkler 1.4.
+Safe versions are packed with regular Crinkler 1.4, and don't use any of my hacky tricks ;)
+
+Contact: n111co at hotmail dot com

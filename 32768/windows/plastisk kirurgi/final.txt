@@ -1,0 +1,23 @@
+this is a final version of our oldschool intro.
+ . ..plastisk kirurgi by yaphan...
+
+in the previous intro you had to have a card
+that supported a 320x200 resolution. some of you dont have such card.
+so...
+
+the final version features:
+- a menu where you can choose between windowed/fullscreen mode,
+  320x200 and 640x480 resolution. must be still 32bit.
+
+- windowed mode and 640x480 resolution(a wrapped 320x200 mode)
+  (for those of you who didnt get the party version to work)
+- fixed memory bugs
+
+(if intro not work.. screw this shit) there are some bugs there, I know.
+
+forgot to mention Spaceballs in our greets. you rule!
+
+personal greetings to guru, tham, tripex, caviller, snillfisk
+and those of you who deserves it ;)
+
+.activator

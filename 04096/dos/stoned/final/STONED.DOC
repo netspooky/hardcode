@@ -1,0 +1,205 @@
+
+            ÛÛ    Û                                  Û
+           ÛÛßÛ   Û                                 ŞÛ
+          ŞÛİ    ŞÛÛÛ                               ÛÛ
+          ÛÛÛ    ÛÛß   ÜÜÛÛÜ    ÛÛ        ÜÜÜ       ÛÛ
+           ÛÛİ    Û   ÜÛß ÛÛİ  ŞÛÛÛÛÜ    ÛßßÛİ   ÜÜÛÛİ
+            ÛÛÜ   Û   ÛÛ  ŞÛÛ  ŞÛ  ßÛÛ  Ûß  Ûİ  Ûß ßÛ   Sourcecode
+             ÛÛİ  ÛÛ ŞÛ    ÛÛİ  Û   ŞÛ ŞÛ  ÛÛ  Û    Ûİ        Release
+              ÛÛ  ÛÛ ŞÛ     ÛÛ  ÛÛ  ŞÛİŞÛÜÛÛ  ŞÛ   ŞÛİ
+          Ü   ÛÛ  ŞÛ ŞÛ     ÛÛ  ŞÛİ  Ûİ Û     ŞÛİ  ŞÛİ
+           ÛÜ Ûİ  ŞÛ  ÛÛÜ  ÜÛÛ   Ûİ  Û  ÛÛ  Ü  ÛÛÜ  Ûİ
+            ÛÛÛ    ÛÛ  ÛÛÛÛßß    Û  Ûß   ÛÛÛ    ßÛÛÛÛÛ
+                    ÛÜ             ŞÛ
+                                   ß   (C)opyright 1994, 1995 by Markus Stein
+                                                           alias Stone / Dust
+
+ş FILES IN THE PACKAGE şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+          STONEDSC.ZIP  - The original archive of this package
+
+          STONED.ASM    - The sourcecode (what this release is all about)
+          STONED.COM    - Executable version of the intro
+          STONED.DOC    - This small documentation file
+          MAKE.BAT      - Makefile for 'Stoned'
+          POSTPROC.COM  - Postprocessor
+          STONEDSC.TXT  - FTP Sites File Description
+          FILE_ID.DIZ   - BBS File Description
+
+  - do only copy the original archive if you want to give it to somebody else
+  - it is forbidden to include this into commercial freeware/shareware collec-
+    tions without a special agreement with the author
+  - you cannot charge anything for copying it
+  - you are using this at your own risk!
+
+
+ş GENERAL COMMENTS ON THE SOURCECODE şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+    I agree that the documentation of the sourcecode is not really too good,
+  but you should eventually be able to understand at least most parts of it.
+  I have put in more comments where I thought they could be useful. This is
+  mostly the case for those parts of the program which I had to code a little
+  bit 'dirty' because of the size limit.
+    You will see that I really like using self-modifying and self-generating
+  code to speed things up, so some parts may seem chaotic or confusing. They
+  mostly are.
+    As for the effects themselves there is to say that text zoomer, the
+  fractal rotator and the tube are all taken from our demo 'Untitled' and have
+  only been rewritten to squeeze into the 4096 bytes. Both the fractal
+  generator and the plasma clouds generator are not really well coded - they
+  just work.
+    I use some special way to get rid of a lot of zeros at the end of the .com
+  file: by using a postprocessor (that's 'POSTPROC.COM'). See my articles in
+  the Imphobia diskmagazine issue VIII for an explanation on how it works and
+  why it is needed at all cut off the zeros. I do have my own executables
+  packer by now so that I don't need 'PKLITE.EXE' and 'POSTPROC.COM' anymore -
+  and it does about 200 bytes better for small files like this one.
+    In that Imphobia issue, I did also write about those Taylor's series I use
+  to calculate my fixed-point sine and cosine lookup tables.
+    In the end I had a few bytes left, so I copied a small copyright note
+  ('STONED.END') to the end of the file after it had been packed - if somebody
+  ever saw it. It was also nice to make it fit the 4096 byte exactly.
+    As you might notice, I use a Flat Real Mode implementation to solve my
+  memory problems. I support both a clean boot configuration and one having
+  HIMEM.SYS installed but little else. Adopting this method is not really
+  recommended, though.
+    Concerning the code, special thanks must go to Daniel Berger (Yaka/XGY)
+  for telling me the basic idea behind the water ripples effect at some German
+  demogroups meeting in spring '94 and for his fractal generator code.
+
+
+ş BRIEF DESCRIPTION OF THE EFFECTS şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+    I will not go too much into detail here, but in order to be able to under-
+  stand an effect you mostly have to know the basic idea(s) behind it. Maybe
+  you could even try to code it yourself without using my code at all... ;-)
+
+  - Zoomer/Rotator: This is only one routine which can both zoom and rotate.
+  I use self-modifying code here and have a routine which displays one line
+  read from a picture at variable offsets. This is generated at startup.
+  Later on I do only change the offsets inside that loop once per screen and
+  use it to display the whole screen. So I do not have to do the texture map
+  interpolations for each line but only once. This makes it fast, but the
+  disadvantage is that it looks quite crappy if you rotate a picture and zoom
+  close to it.
+
+  - Tube: The tube uses texture mapping and is circular, so I do pregenerate
+  code to display texture mapped circles, i.e. little programs which read a
+  line from a picture and display it in the shape of a circle. There is one
+  program for each possible size of a circle. The perspective and the shading
+  are calculated in advance. The shading is based upon a linear palette: to
+  get a darker color, I substract a constant from each pixel (this is not nice
+  shading but looks OK here). To get the movement, there is a table which
+  contains the centers of each circle of each size (that's why the movement is
+  not perspectivically correct and thus looks weird). To draw the tube, I draw
+  'lines' of circles from the center of the current's center to the center of
+  the next circle all with the same texture - from the back to the front. The
+  window on the screen is so small because I have to clip the parts of the
+  circles on the outside of the window since the little programs can only
+  display whole circles and don't clip automatically to a given window.
+
+  - Water Ripples: To have a water drop, you need to know the distance of each
+  pixel on the screen to the center of the drop as well as the angle of each
+  pixel to the center of the drop. The calculations are not in any way correct
+  because I don't really calculate a refraction although it looks like one.
+  A sinewave is supposed to be the ripples; from the distance map you can read
+  how high each pixel on the screen is. Depending on the height you read a
+  pixel from the original picture which must be located on the straight line
+  from the center of the drop to each pixel on the screen. That's what you
+  need the map with the angles for: to determine the direction of that line.
+  To speed it up, I store an angle/height offsets array as a lookup table. The
+  loop is unrolled in the beginning and does both the calculation and display-
+  ing of a whole line.
+
+    Well, have fun reading the sourcecode!
+    And remember to give credits if you happen to use any of this in your own
+  production.
+
+
+ş HOW TO GET IT TO RUN şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+  In order to get it going, you'll need the following:
+
+  ù A normal 386 without Coprocessor
+  ù A standard VGA card
+  ù About 3MB of XMS and 512KB of Base Memory (a PC/AT with 4MB of RAM)
+  ù A clean boot configuration. You can also have one that does only use
+    HIMEM.SYS, but you cannot use more than 192KB of XMS which means that
+    you e.g. should not use disk caches like SMARTDRV.EXE
+  ù A really small amount of diskspace
+
+
+ş TROUBLESHOOTING şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+    If it doesn't run (i.e. you start it and are back to DOS immediately)
+  you have (or don't have) one or more of the following:
+
+  ù A 386 or higher processor
+  ù Not enough XMS memory (your PC/AT needs 4MB altogether)
+  ù Not enough Base Memory (you need 512KB)
+  ù The wrong configuration: remember to have a clean boot (press F5 while
+    booting if you have MS-DOS 6.0 or higher), or a HIMEM-configuration. If
+    you use an Expanded Memory Manager such as EMM386 or QEMM it won't run!
+  ù Not enough patience to wait for the start-up message to disappear!
+
+    If it hangs during execution or afterwards, you have the wrong configura-
+  tion. The long delay in the beginning is because of precalculations.
+
+
+ş CONTACT şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄ
+
+  Snail Mail:                  Markus Stein
+                               Nahestr. 51
+                               53840 Troisdorf
+                               Germany
+
+  E-Mail (preferred):          uzs1d1@ibm.rhrz.uni-bonn.de
+                               steinm@olymp.informatik.uni-bonn.de
+
+
+  Please note that you will probably get no reply if you
+    - are a (co)Sysop wanting to ask if your board could be a Dust distro site
+    - ask questions regarding the understanding of this sourcecode and/or
+      Assembler
+    - want to know about future plans or other Dust activities and productions
+
+  Otherwise you are of course welcome to write! Mail IS appreciated!
+
+
+  For Group Contacts write to: Sascha Asbach
+                               Ziethenstr. 9
+                               53842 Troisdorf
+                               Germany
+
+
+    Please do _not_ send mail to our Fidonet address (2.2444.2000) and please
+  do _not_ leave mail on Crusader BBS but send it via Internet. If you have
+  written via Fidonet before or left messages on the BBS it's very likely
+  that we never got to read them. Please re-send them on Internet or ask the
+  Sysop to forward it on Internet if you don't have Internet access!
+
+
+ş BBS şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄ
+
+    Call Crusader BBS Dust WHQ for the very latest LEGAL releases... one of
+  the fastest systems in Germany... 999MB newfiles every single month!
+
+                 Line #01         +49-2306-850263 (USR 33k6)
+                 Line #02         +49-2306-80937  (Zyxel 19k2)
+                 Line #03         +49-2306-81337  (Zyxel 19k2)
+                 Line #04         +49-2306-80837  (Zyxel 19k2)
+                 Line #05         +49-2306-982011 (ISDN ELINK)
+                 Line #06         +49-2306-982015 (ISDN TELES)
+                 Line #07         +49-2306-850606 (USR 33k6)
+                 Line #08         +49-2306-850707 (USR 33k6)
+                 Line #09         +49-2306-983010 (ISDN TELES)
+                 Line #10         +49-2306-983011 (ISDN TELES)
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ

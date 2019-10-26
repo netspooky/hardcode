@@ -1,0 +1,65 @@
+
+                  EUS3.EXE info file
+                **********************
+
+Hello everybody - Cranky at the keyboard.
+
+This 2684-byte piece of sh** is my contribution to the 4K
+intro compo in the Euskal Party III. It got the 3rd place
+(of course, we were three contestants in total) :-)
+
+It was coded in nearly 1 hour (I was not thinking of
+presenting anything, but some wires became crossed inside
+my head just 60 minutes before the deadline). I started to
+make something to see if it could be mercy to be called a
+4K intro, and after some ugly effects I got the vertical
+lines background you can see in there. I didn't like it,
+but since there was no time I took it as the starting
+point. The rest was done by mounting some effects I'd done 
+before. It's compacted with COMPACK (since the font itself
+is 4096 bytes long, it could never be a 4K intro if it was
+not compacted). The file size is distributed as follows:
+
+* EXE Header: 48 bytes
+* Initialization: 209 bytes (including ground texture)
+* Transparent text scroller: 147 bytes
+* Parallax: 143 bytes
+* Ending code: 41 bytes
+* Misc routines (LCG, Fade, VR, Palette rotation, background): 212 bytes
+* Palette: 768 bytes
+* Font: 4096 bytes (a total waste, I know, but I had no time to shorten it)
+* Initialized variables: 6 bytes
+* Text: 50 bytes
+
+* Total: 5720 bytes
+* COMPACK reduces it to: 2684 bytes
+
+Note that if I could have enough time to shrink the font
+size, the code size would have been short enough to fit
+into MUCH less than 4K (5720 - 4096 = 1624, plus just the
+necessary from the font, it could be less than 2K).
+
+Now I'm not going to shrink it, since I want to reflect
+exactly what was presented in the Party (except a little
+bugfix).
+
+
+THE CREDITS:
+
+Code: Cranky / TLOTB
+Graphics: Programmed
+Font: Ripped
+
+Thanks to: Dr. Maniac / CyberTouch for the palette.
+
+GREETINGS:
+
+To all that lame ducks that try to rip something from this
+shitty intro. (Sorry, I feel cranky tonight).
+
+
+GOODBYE:
+
+C U
+
+EOF:

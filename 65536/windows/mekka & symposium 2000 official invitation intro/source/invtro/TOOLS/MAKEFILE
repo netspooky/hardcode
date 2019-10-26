@@ -1,0 +1,52 @@
+# whatever.
+
+msobjs     = ms.obj ../synth.obj savexi.obj
+
+asmopts    = -f win32
+ccopts     = /s /6r /fp6 /fpi87 /otexan /bt=nt /zq /d2
+
+.silent
+.erase
+
+.asm.obj
+  echo $@
+  nasmw $(asmopts) $<
+  wdis -l -e -p $@
+
+.cpp.obj
+  echo $@
+  wpp386 $(ccopts) $?
+  wdis -l -e -p $@
+
+.c.obj
+  echo $@
+  wcc386 $(ccopts) $<
+  wdis -l -e -p $@
+
+all: xm2mxm.exe ms.exe
+
+
+ms.exe: $(msobjs) $(lib)
+  echo $@
+  %write temp.lnk NAME     $@
+  %write temp.lnk system   nt
+  %write temp.lnk OPTION   { quiet el map version=4.0 osname='Windows 95' stack=4M}
+  %write temp.lnk FILE     {$(msobjs)}
+  %write temp.lnk LIBRARY  { dsound.lib }
+  wlink @temp.lnk
+  del temp.lnk > nul
+
+synth.obj: synth.asm ../data/ms2000.pv2
+  echo $@
+  nasmw $(asmopts) ../synth.asm
+
+xm2mxm.exe: xm2mxm.cpp
+  echo $@
+  wcl386 /d2 /"debug all" /zp1 /zq xm2mxm.cpp
+
+clean : .symbolic
+  del /e /f /q *.obj *.bak *.lst *.map *.mxm *.pk *.err *.upx *.lnk ??.wav ??.xi
+
+cleanall: .symbolic clean
+  del /e /f /q *.exe
+

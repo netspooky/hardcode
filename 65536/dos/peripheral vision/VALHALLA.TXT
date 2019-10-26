@@ -1,0 +1,90 @@
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Hope you enjoyed seeing our little intro, we are very sorry that we could not
+show you all that we wanted to - due to size restrictions and lack of time -
+Hopefully, you'll see them in our next production :)
+
+Everything in the demo is done realtime, this means as the demo runs, almost
+everything on screen is calculated - it is not an animation.
+Because of this, we ask for fairly hefty hardware requirements, I'd suggest
+not running this intro unless you have at least a 486 (although it will run
+on a 386)
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Credits for the intro :
+
+Part                Code                Gfx                 Music
+-----------------------------------------------------------------------------
+Start text          xToto / Sandman     HSI                 Oxide
+Mandelbrot          Sandman             -                   Oxide
+Tmapped cubes       Sandman             Sandman             Oxide
+Plane               Sandman             Sandman             Oxide
+Grand Canyon        Sandman             Sandman / HSI       Oxide
+Lightsourced Voxel  xToto               -                   Oxide
+Credits / Greets    xToto               HSI / xToto         Oxide
+
+Intro put together by Sandman & xToto
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Valhalla Memberlist
+
+Handle        Location      Tasks
+
+Sandman       England       Coding, Gfx, PR and Organising
+Implode       England       Coding, Music
+xToto         Germany       Coding
+Oxide         Spain         Music
+Dambuster     England       Raytrace Artist
+Muffin        England       Technical director
+
+Also our subdivision - HaRDWiReD SYSTeMS iNC.
+
+Vision FX     England       Gfx, Graphic Design
+Jon           England       Gfx, Graphic Design
+The Edge      England       Design
+
+* We are looking for more members, so if you are interested - contact us with 
+  some samples of your work.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+If you require a cheap commercial presentation, please contact us, giving us
+a rough outline of what you require, any size limitations and hardware
+limitations, and how soon you want it completed. 
+The contact addreses are given below :
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Contacting us via Email - by far the best way :
+
+Sandman       psjones@freenet.fsu.edu or psj93el@mail.soton.ac.uk
+Implode       ndg93@ecs.soton.ac.uk        
+xToto         gloth@uni-muenster.de
+Oxide         bedias@ccaix3.unican.es
+Vision FX     i.j.woodall@wlv.ac.uk
+
+or on IRC #coders - talk to Valhalla, xToto, Oxide or Implode
+
+Telephone :
+
+Sandman (Pete)   +44 (0)803 858080 (holidays) or +44 (0)703 559510 (term time)
+Implode (Nigel)  +44 (0)534 80137 (holidays) or +44 (0)703 512596 (term time)
+xToto (Tobias)   +49 (0)5908 588 (holidays) or +49 (0)2533 7111 (term time)
+Oxide (Saul)     +34 (0)942 502179
+Vision FX (Ian)  +44 (0)384 252029 (after 18:00 GMT)
+
+Snail Mail (last resort :)
+
+(Sandman)           (Implode)           (xToto)
+PS Jones            ND Gay              T Gloth
+78 Windmill Close   Bramble Bank        Falkenstr. 2
+Brixham             Le Vieux Beaumont   49835 Lohne
+South Devon         St. Peter
+ENGLAND             Jersey C.I.         Germany
+TQ5 9SQ             JE3 7EA
+
+Or take a look at our World Head Quarters - the Sound and Vision BBS
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 

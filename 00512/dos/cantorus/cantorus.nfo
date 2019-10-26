@@ -1,0 +1,12 @@
+----------------------------------------------------------
+Cantorus, a not-quite 256 bytes effect for Main party 2007
+Rouquemoute/Titan, 3/10/2007
+----------------------------------------------------------
+
+My First effect! Done almost entirely at the party.
+There is room for optimization, but since it was for a 4k-compo,
+377 bytes were good enough :)
+
+Uses a Cellular Automaton to generate the beat pattern.
+
+Compile with FASM

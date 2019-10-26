@@ -1,0 +1,42 @@
+..............: a a r d b e i :.................
+
+...: different noise plus a lost seastar :......
+
+released at Dreamhack 2000 :....................
+
+system code plus end effect: rob :..............
+effects plus design: snq :......................
+backgrounds plus design: oyiseer :..............
+music: oxygener :...............................
+
+................................................
+parameters for you:
+
+-win (windowed)
+-d16 (16 bit display)
+-t16 (16 bit textures)
+-nosound (dah!)
+
+................................................
+system requirements:
+
+it runs perfectly smooth on a p2-450 with tnt2,
+however it is possible to run it smooth on a
+p2-300 with a tnt if you use the -d16 option.
+note that some video cards may not support the
+512x384x32b mode (the viper2 for example). in
+that case you should also use the -d16 option.
+i don't think there is any modern card out there
+that doesn't support that 512x384x16b.
+
+................................................
+additional greets:
+
+we had space for only 10 greets in the intro :)
+but hereby we would also like to greet tpolm,
+array and replay.. and of course every group we
+are forgetting now.. i am kinda fucked in the
+head atm due to excessive glueing and coding, so
+don't blame me.
+
+................................................

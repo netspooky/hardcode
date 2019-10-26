@@ -1,0 +1,28 @@
+^Credits
+
+Oh well, here they are... hold the right mouse button to keep this
+page ;)
+
+torus/cubic team: \
+-3d engine (the neat window you're not looking at in this very moment)
+
+kb/smash designs: \
+-DirectSound code, Player, Sample synthesis, Music and final touches.
+
+ryg/witchcraft: \
+-Base system, Intro sequence, Reader/GUI, additional slave work.
+
+raw style/lego, chaotic/padua: \
+-Original texts, design idea (Amiga Workbench ;), beta testing ;)
+
+chaos/feb: \
+-provided us with these nice Amiga fonts.
+
+~Thanks
+
+to all those who helped during development (especially yoda/smash designs
+for beta testing, constructive criticism and moral support), to the
+SCALA family & #kotraum posse, to our friends, to those who deserve it
+and those we forget.
+
+...und an das LICHT im TRIEBWERK.

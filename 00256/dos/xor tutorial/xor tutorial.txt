@@ -1,0 +1,11 @@
+xor tutorial
+--------
+
+A 256b prod by lord Kelvin.
+
+It's a joke. Nothing more.
+Just so you know.
+
+Compiled with FASM.
+
+Great hello from Russia.=)

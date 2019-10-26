@@ -1,0 +1,16 @@
+Torus & Torus
+--------
+
+#8
+
+A 128b prod by lord Kelvin.
+
+Prod, that draws two some torus-like shapes.
+Featuring:
+	Non-black background. (In dosbox - black background, I don't know why)
+		&
+	Resolution higher than mode usual. (Now we have 640 x 480)	
+
+Compiled with FASM.
+
+Great hello from Russia.=)

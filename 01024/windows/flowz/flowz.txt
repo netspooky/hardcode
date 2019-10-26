@@ -1,0 +1,9 @@
+Flowz
+-----
+
+This is actually my 1st OpenGL intro, using auld's framework.
+
+I hope the flower star movement doesn't go extremely fast in modern uberfast gfx cards. I originally timed it well to be independent of rendering speed, though at the end I had to remove those bits to gain the remaining bytes :P
+
+http://optimus6128.blogspot.com
+optimus6128@yahoo.gr

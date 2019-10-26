@@ -1,0 +1,24 @@
+we can 2012 maq/flo
+pi 
+
+this little demo is 
+my tribute to creat
+ors of the 2c5-spac
+eship-gun-p416 mode
+l which I imported 
+from the golly.sour
+ceforge.net <- this
+is really cool soft
+ware, remember to t
+ry it. I also used 
+(1) crinkler and (2
+) iq's 4k starting 
+projects (thanks pe
+ople).
+
+This intro requires
+ OpenGL4.3 compute 
+shader capability a
+nd nvidia hardware.
+
+

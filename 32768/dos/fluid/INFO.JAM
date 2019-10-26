@@ -1,0 +1,91 @@
+           Ä ÄÄ ÄÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄ Ä
+ Ä ÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄ Ä
+
+ This file contains information about who we are and why??
+ So if you have any intrest, just read this doc.
+
+ This product can be distributed freely as long as no payment is taken.
+ All the files in the following list must be present in the archive and
+ none of them shall be modified in any way.
+
+ Files in the package:
+   FLUID.EXE
+   FILE_ID.DIZ
+   INFO.JAM
+
+
+ Jam members are:
+
+        GALVADOS        Janne Hellsten          coder
+        RUBBER SQUARE   Atte Kotiranta          coder
+        CRIMAN          Sami Nieminen           graphics/design
+        MORDICUS        Mikko Tanni             music
+
+ Ä ÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄ Ä
+        ABOUT THIS INTRO
+        ----------------
+ This intro requires a 80386 machine, 100% compatible VGA card and
+ Gravis Ultrasound with 256kb RAM to hear the music. Altough the intro uses
+ some 386 instructions, it still runs in real-mode. Intro should run
+ perfectly whether there's QEMM/EMM installed or not, albeit a little slower.
+ Nor does it require more than 117kb of conventional memory.
+
+ The intro should run quite well for the beginning on slow machines also,
+ but the plasma for example might be rather slow.
+ (of course, even if you have a fast 386/486, Trident would do the thing)
+ We use 386/40Mhz & Tseng ET4000 for coding and the whole thing ran
+ 60 framez a sec.
+
+ The GUS player is based on the player by Robban of Cascada.
+ Greets to him for releasing it. (It's quite difficult to make your own
+ soundsystem  since our main coder has no GUS !)
+ The reason why there's no SB/SB Pro support is due to the fact, that it slows
+ everything down by zillion times especially on slower machines.
+
+ The tune has been originally made with Amiga & Protracker, then
+ moved to PC and slightly adjusted with Fast tracker. Why all the trouble?
+ Because at the time the intro was made there were no reasonable trackers
+ available for GUS. :(
+
+ credits for this intro are as follows:
+
+        main coding             GALVADOS
+        additional coding       RUBBER SQUARE
+        music                   MORDICUS
+        graphics                CRIMAN
+        design                  CRIMAN
+
+ This intro is our first one and it ain't any particular piece of art.
+ We simply wanted to acknowledge our existance, so don't take this
+ too seriously.
+
+ For this intro didn't give you much of an idea what we can do you
+ will see another product 'soon' (I hope). It will include all
+ kinds of (new?) effects and it will propably be bigger than this one.
+
+ Our forth coming products, as well as this little intro, will be found
+ from our distribution site, BUBIBOX, in the same day and later somewhere
+ from internet also.
+
+ BUBIBOX SBBS   +358-14-720223 (24h)    ---> 16800 bps
+
+ You may and you should call Bubibox though you wouldn't be interested
+ in our stuff. You can surely find lots of files of your interest and
+ specially messages if that's what you like.
+
+ If tou want to contact us you can call BUBIBOX and leave a message to
+ Janne Hellsten.
+
+  ³ You can also throw some mail to ³  ..or fax to      ³
+  ³   Sami Nieminen                 ³                   ³
+  ³   S„rkilammintie 109            ³  +358-16-56625    ³
+  ³   Jokioinen 31600               ³                   ³
+  ³   FINLAND                       ³                   ³
+
+ ..if you send mail you should include a return stamp and we'll try to
+   answer you back.
+   If you have anything to say don't hesitate to contact.
+
+ Ä ÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄ Ä
+
+                 Guess thats all for now.          [CRIMAN]

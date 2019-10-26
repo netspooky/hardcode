@@ -1,0 +1,24 @@
+Name: klava
+Compo: 4k procedural graphics
+File: klava_party.zip
+Authors : unc, Ized
+
+
+greetings to:
+smoothstep
+pow
+mix
+abs
+sin
+cos
+length
+dot
+clamp
+sqrt
+step
+fract
+distance
+max
+min
+texture2D
+gl_Position&gl_FragColor

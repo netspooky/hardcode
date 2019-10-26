@@ -1,0 +1,5 @@
+Re-release of an old production I wrote back in 1998, this is the windows version, just cleaned up, etc.
+
+Mainly written so can view it on modern machines, since the old version was DOS only and wasn't very compatible with multi-tasking systems.
+
+All code, texture generation is done by Rajesh Singh (sh0ck).

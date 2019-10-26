@@ -1,0 +1,140 @@
+
+
+
+ ù JiZZ
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  a 64K intro for Wired'97 by The Black Lotus
+
+
+
+
+ ù credits
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  Jace        code, design, gfx, .jpg (JacePeG) cruncher
+  Probe       music, .mp4 cruncher
+  Nix         vector engine, blobs
+  Ballein     vesa stuff
+  Sjaak/TRP   freaky "jizz" logo
+
+
+
+
+ ù required
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  cpu   - everything from 486/DX will run, P166 or faster recommended
+  sound - gus with 1MB or silence
+  video - runs best in 320*200 15 or 16 bit color with LFB
+          there seem to be some emulation things in there too,
+          like if you ain't got 320*200 hicolor, it will fake
+          the shit on 640*400 or 640*480 in 256 colors
+
+
+
+
+
+ ù bla
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  hi! this intro is the result of 3 weeks freaking like hell.
+  I wanna say big (BIG!) thanks to Probe for his excellent music,
+  the guy is a freak! he managed to put 950Kb of music into 20K!
+  sorry for some slow routines, everything is optimized for size
+  and screen quality - not for speed.
+
+  there is a way to get the intro writing all the gfx and music to
+  disk. maybe we'll reveal the key within a few weeks, maybe not :)
+
+  and of course millions (3mb) of tnx to:
+
+   - MuX for letting me abuse his 166mmx for the whole fucking party,
+
+   - Compile for letting me rape his extremely cool 15" monitor.
+
+
+
+
+
+
+ ù bla2
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  ThismaterialisnotfreewareYouareallowedtocopyandspreaditwit
+  houtrestrictionsonlyfornon-commercialuse,andonlyinit'scomp
+  leteandoriginalformNopaymentofanykindmaybechargedforthispr
+  oductoranycombinationofproductsorservicesincludingthisprod
+  uctwithoutourauthorizationandofficialwrittenlicenseCommerc
+  ialuse,especiallytheindustrialmanufacturingonanydatastorag
+  emediaandtheirdistributionwithouttheexpressedpermissionoft
+  heproducer,isstrictlyprohibitedMuxligthierzwaartemaffenThi
+  sprogramorthedatafilescontainedthereinmaynotbealteredormod
+  ifiedwithoutthepermissionoftheauthorYoutakefullresponsibil
+  ityfortheoperationofthissoftwareandanyconsequencesthereofW
+  e,thecreators,cannotacceptliabilityfordamagesorfailuresari
+  singfromtheuseofthissoftwaretrepanatingcrystalscoreisalsof
+  orbiddenandimpulsetrackerrulez. really!
+
+
+
+
+ ù bla3
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  Lenz/Trepaan                brotha!! your head doesn't shine anymore in
+                              the dark, after Wired I'll shave you again ok?
+                              als je volgende keer weer onverwacht blijft
+                              slapen (in mijn bed) wil je dan OF de lakens
+                              verschonen OF niet naast elmo jizzen!!
+  Sick Sjaak/Trepaan          cool roommate!! btw TNX!! for making up the
+                              ridiculous title for this intro :-) bij de
+                              volgende homeparty luiden we een nieuwe compo
+                              in: wie het hardste vanaf jouw balkon die
+                              caf‚baas op z'n glimmende hoofd kan tossen!
+  Probe                       heeej dude!! satisfied about the intro?
+                              I really hope you can deliver more music
+                              like this in the future pal!!
+  FrNzL                       bot joch!!! without you this intro would
+                              never been possible (remember the 40 blikken
+                              Dr. Foots!?!). wanneer kom je hier nou wonen!?
+  Mux/Chese Team              Bot joch... ik ben je extreem dankbaar!
+        ø                     roulante partytrip, extreem roulante PC!!!
+                              nu maar hopen dat die boodschappenkar er
+                              nog staat, anders wordt het een zwaaaare
+                              tocht naar huis :-)
+  Compile                     jouw msg was denk ik de druppel.. het heeft
+                              gewerkt!! ;-) helaas ben je nu wel een
+                              broodje kwijt.. GEH!
+                              btw: big BIG *BIIIG* tnx for that supreme
+                              monitor!!!
+  Kork/Trepaan                als je nog weet wie het waren gaan we komend
+                              weekend weer Arnhem in, stampen we die gasten
+                              met 40 harde kale gabbaz de grond in.
+  Danny, Lowlife and NiX      engelse freaks! jullie hebben een botte
+                              partie gemist :-) we komen binnenkort een
+                              keer naar engeland met een posse freaks.
+  Ballein                     gewoon WEER een party missen eh?? suxx!! :-)
+  áoor                        kijk, *JIJ* begrijpt tenminste hoe het hoort.
+  CNCD                        glad u weren't present. you might have
+                              done lame by cheating the voting - AGAIN
+  Orange                      u cooperated with cncd? dhuuh, I liked your
+                              style without them better.
+  Simm/Analogue               binnenkort organizeren sick en ik nog eens
+                              een feest waarbij ECHT IEDEREEN kan ;-)
+  Contrast                    although Sick made up the title, you too are
+                              quite origininal - featuring a fucking mental
+                              disturbed JIZZING CLOWN in your hotel room!!
+
+
+
+ ù bla4
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  Sjaak³Lenz³FrNzL³Mux³Menno³Desmond³Martyn³Neliz³Kork³Statix³Optix³Roy
+  Badbives³Compile³Retrox³Hugo³Steven³Victor³die Clochard³Peric³Harlekijn
+  Scout³Richard³Lida³El Sjorro³alle Botte Freaks op #nlcoders³en op #tbl
+
+
+
+
+ ù mazzel
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  Jace / tBL
+
+
+
+

@@ -1,0 +1,52 @@
+
+
+=====================================================================
+
+                       Panta Rhei
+                 floppy at Revision 2011
+                      maq / g / def  
+
+=====================================================================
+
+You may make it look and sound different by using:
+
+   ./FLP-PR.EXE RE FORCEX FORCEY
+
+where (ranges):  
+
+   RE ( 1000 -- 1999 )  - analog for Reynolds number of the fluid flow 
+
+   FORCEX (-1000000 -- 100000) - gravity acceleration X
+
+   FORCEY (-1000000 -- 100000) - gravity acceleration Y
+
+=====================================================================
+
+Details:
+
+RE says how much viscous the flow is (the higher Re the less 
+viscous -- less hooney like -- the flow is). FORCEX/Y (float values) 
+sais how strong is the gravity field which accelerates the flow (for 
+example,  use higher force for highly viscous fluids to see any flow). 
+By using different combinations of those you may put the solution
+into different regimes of the fluid flow (steady, unsteady etc.) and
+listen to different tune as it is generated using the flow data.
+
+The default intro runs at: 
+
+./FLP-PR.exe 1980 140 0
+
+btw. you may send interesting combinations to me: maq@ift.uni.wroc.pl
+
+=====================================================================
+
+  kisses to Ania, Acryl, Mae and Traymuss for testing & comments.
+      thanx to iq for wonderful webpage & intro templates
+                             and
+    thanx to Aln! for *last minute* debugging of the intro!
+
+=====================================================================
+
+                (crinkler made it possible)
+                       
+

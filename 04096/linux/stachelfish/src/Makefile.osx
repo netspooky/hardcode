@@ -1,0 +1,18 @@
+#! /usr/bin/make
+
+include Makefile.common
+
+.PHONY: small
+
+CFLAGS += -Oz
+LDFLAGS += -framework SDL -framework Foundation -framework Carbon -framework AppKit -framework OpenGL
+
+small: $(EXEC)
+	strip $(EXEC)
+	rm -f $(EXEC).lzma
+	lzma --best --keep $(EXEC)
+	cat lzunpack.header $(EXEC).lzma > $(EXEC).tiny
+	ls -l $(EXEC).tiny
+
+$(EXEC): opengl.o
+	$(CC) $(CFLAGS) opengl.o SDLMain.m -o $(EXEC) $(LDFLAGS) $(LIB)

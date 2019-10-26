@@ -1,0 +1,30 @@
+Chute by Nature at GREP White 2009
+Windows 32-bit 64k Intro
+
+Yomat  - Code, gfx, design
+Pezac  - Sound engine, additional code
+Pipe   - Texture packing code
+D Vibe - Music
+Rex    - Ideas, feedback, testing
+
+DirectX 9.0c "March 2008" or later (d3dx9_37.dll).
+Hardware: For ATI the lower bound are decent cards with 
+SM 2.0 and recent drivers. As for Nvida, you will
+probably need GeForce 6 or later.
+
+Additional Credits:
+ryg/farbrausch - kkrunchy
+internet - textures
+
+Misc:
+If you get sound problems or image stuttering, try the
+other executable.
+
+Mind that this production is not perfectly deterministic 
+and each run will be slightly different, possibly 
+aesthetically impaired or improved.
+
+Olle/Traktor ruelz!
+
+
+

@@ -1,0 +1,25 @@
+BITS5005
+
+"Recursive Triangle Fill"
+
+FUNCTION 2009
+256Bytes Intro
+
++------------------------------+
+|    #........o..........      |
+|    ##......oo.....x...       |
+|    ###....ooo....xxx.        |
+|    ####..oooo...xxxxx        |
+|    #####..ooo..xxxxxxx       |
+|    ######..oo.xxxxxxxxx *    |
+|       /   ..o....     ***    |
+|      ///   .....    *****    |
+|     /////   ...   *******    |
+|    ///////   .  *********    |
++------------------------------+
+
+h.samso@gmail.com
+thebitsclub.tripod.com
+
+H.S.J.(c)Copyright.
+All Rights Reserved.

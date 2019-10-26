@@ -1,0 +1,130 @@
+³
+³ ReliQ
+³
+³ a 4k intro presented at Mekka/Symposium '97
+³
+
+
+ø General Information
+
+Okay, so starfields suck. But music in a 4k intro is, although not novel,
+something very rare. To hear it, though, you need a General MIDI compatible
+sound card (either native or via driver). Use MegaEm or IWSBOS with your GUS.
+ReliQ should work without a sound card, but you won't hear any music. Duh. 
+
+I coded this thing on a Cyrix 6x86 P166+ system, so ReliQ should work fine
+if you have an equivalent system. It does not, however, work fine on a
+Am486DX2/66 with an ISA VGA card. Trust me, I tried it. What is this world
+coming to? A couple of years ago exactly the same effects would have run
+smoothly on a 386SX16.
+
+Which brings me to why we chose the name ReliQ. Well, it _remotely_ reminds
+you of relic, now doesn't it? And relic is something very old. Do the
+routines in this intro strike you as being particularly innovative? No, in
+fact they remind you of a Z80? There you go: An old name for old routines.
+
+Not everything is that old, though: The comet Hale-Bopp is a very recent
+discovery. In fact it is the first comet to appear like a wireframe object.
+(Does anyone know the 3D-coordinates of the verticies of a Buckyball?)
+The reason why we inserted the hail to Hale-Bopp was that we wanted something
+like "in the blender" used in tpolm's demo Empire (okay, so we rip). Our
+dad came up with "hail, Hale-Bopp" which is great, because the comet's
+closest approach to Earth is on April 1, 1997 and that is nearly the
+release date of ReliQ.
+
+A last warning: I would reboot after running ReliQ. This is advisable since
+I don't reset the frequency of the timer (due to space consideration). Your
+system should run normally except for Floppy Disk I/O. You won't be able to
+write or read from a floppy or stiffy.
+
+So plug in your hifi, load your MIDI drivers, switch off the lights and enter
+the realm of the old: ReliQ.
+
+
+
+ø Aim Of This Info File
+
+To be bigger than the executable itself. To do that, I had to insert this
+sentence. Talk about recursion. Does this sentence remind you of Hale-Bopp?
+My favorite dependant clause: If I had completed this sentence.
+
+
+
+ø Credits
+
+The essential production of ReliQ boils down to the following people
+
+  ù Music: Hilander/SLi
+  ù Code: MLF/SLi
+  ù FILE_ID.DIZ: Avenger & Poti / Black Maiden (thanx, guys)
+
+Special thanx must go to the following people for helping me during the
+development of ReliQ:
+
+  ù Bartman/Abyss
+    for letting me use his computer at Mekka/Symposium '97 to tune ReliQ
+    for use with a GUS PnP.
+  ù Eartoaster/ConSub aka Henning Glawe
+    for supplying me with sample code of whatever my heart desired and 
+    letting me use his toaster at the Mekka/Symposium '97
+  ù Tumblin/Bodies In Motion aka Terry Sznober
+    for making his BitmapScaler source available to the general public
+  ù Glenn Miyashiro, Jerzy Tarasiuk, Mika Rasanen, Todd Zimnoch and
+    Eric Nadeau 
+    for instantly replying to my plea for help concerning COM file segments
+  ù Ville Nummela and Francis Reynders
+    for helping me out with plasma routines, although, of course, I didn't
+    use them in the end
+
+
+
+ø Contacting SLi
+
+SLi is an acronym for Sentient Lifeforms. Currently, we only have two
+members:
+
+  ù Hilander aka Sven Flegel responsible for music
+  ù MLF aka Michael Flegel who should be doing the coding
+
+We are desperately seeking a graphician. If you happen to stumble across
+one, please drop us a line:
+
+  ù Snail Mail
+    Michael and Sven Flegel
+    Am Ehrenmal 2
+    21516 Schulendorf
+    Germany
+
+  ù email
+    flegel@physnet.uni-hamburg.de
+
+  ù internet
+    www.physnet.uni-hamburg.de/home/vms/flegel
+
+Please tell anybody who will listen about our website. It's been in existance
+for quite some time now, but I don't have the feeling that anybody ever
+visits it. So check it out and let me know what I can do to improve it.
+
+
+
+ø Of Interest
+
+ReliQ was coded in 100% pure assembler. The source code totals about 120k.
+In this included is the entire music. You can aquire the source code at our
+web site mentioned above.
+
+Not once, in the entire source code for ReliQ, did I use the mnemonic 'or'.
+
+
+
+ø Disclaimer
+
+I am not responsible for any damage this product may cause your computer,
+your helth, your dog's health or any part of your anatomy. (I do take
+liability for any damage done to your cat though.)
+
+
+
+hail, Hale-Bopp
+
+   MLF, March 28, 1997

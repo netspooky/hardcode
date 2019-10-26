@@ -1,0 +1,40 @@
+
+In order to give you entire satisfaction of ASP!R!NE productions, we have
+tested the demonstration on several configuration...
+
+	CPU informations, Memory size, video hardware, audio hardware 
+	Result of the test.
+
+        AMD-K6/200, 64Mb, TsengLabs ET6000 4Mb, Gravis Ultrasound MAX 512k.
+        passed: ok.
+
+        AMD-K6/200, 64Mb, S3/Virge 2Mb, Sound Blaster 16.
+        passed: ok (silent mode).
+
+        i80486-DX2/66, 8Mb, CirrusLogic 1Mb, SoundBlasterPro 2.03.
+        passed: ok (silent mode).
+
+        i80486-DX/33, 3Mb, Trident VGA 512k, Internal Speaker.
+        passed. ok (silent mode).
+
+        iP5-MMX/150, 32Mb, CirrusLogic 2Mb, WindowsSoundSystem.
+        passed: ok (silent mode).
+
+        iP5/100, 8Mb, S3Trio, SoundBlaster16 clone.
+        passed: ok (silent mode).
+
+        iP5-II/266, 32Mb, Unknown, SoundBlaster16 clone.
+        passed: ok (silent mode).
+
+        Commodore 64, 64k, VIC, SID.
+        passed: ko.
+
+It is said that this intro also works using xdosemu under Linux.
+
+If you haven't been able to run this family entertainment software then feel
+free to send your bug reports with a complete description of your hardware to
+the following eMail address: bgates@microsoft.com
+
+Thanks.
+
+	the whole ASPiRiNE staff, for your optimal pleasure.

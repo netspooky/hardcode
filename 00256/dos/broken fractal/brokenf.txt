@@ -1,0 +1,12 @@
+Broken Fractal
+Trixter / Hornet
+20160109
+Based on a very, very old concept by Keith Graham.
+This implementation is also necrocode, but I optimized it
+at the partyplace to be under 256b.
+
+Displays a single somewhat broken fractal image.
+Hit any key to exit.
+Works on 8088 + CGA if you want to wait 10+ minutes for the image.
+
+No source until I can clean this up and maybe animate it, sorry.

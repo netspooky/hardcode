@@ -1,0 +1,51 @@
+[8m !!!! please cat this file in your terminal !!! (B[m
+ ///// Welcome to a sizecoding demo by /////
+
+      ▂▄▄▄▄▄▄▄▂
+   ▗▄▀    ░█████▄▖
+  ▟▘        ▒█████▙
+ ▐           ▒█████▌   [1mｓｕｒｉｃｒａｓｉａ(B[m
+ ▌   ▁▁▁    ▁░▓█████
+ ▌ ▞     ▚ ▌  ▜█▌ ▐█ ██    ██ ██▙  ██ █████
+ ▐▐  ▞ ▚  ▌▌   ▜▌ ▐▌ ██    ██ ███▙ ██ ██
+  ▜  ▌ ▐  ▌▌ ▗  ▘ ▐  ██    ██ ██▜█▙██ █████
+  ▐  ▚ ▞  ▌▌ ▐▙   ▐  ██    ██ ██ ▜███ ██
+   ▚ ▁▁▁ ▞▀▌▁▐ ▚▁▁▐  █████ ██ ██  ▜██ █████
+
+      Connecting your world, whenever!™
+  _________________________________________
+ |                                         |
+ | [1m"ultra.VIOLET: Advanced Mach-10 Racing"(B[m |
+ |       An audio demo in 256 bytes        |
+ |            for x86-64 linux             |
+ |_________________________________________|
+
+       [4mcode and music by blackle mori(B[m
+
+ ///// A Note: /////////////////////////////
+
+ Holy shit this nfo file is already bigger
+ than the demo! what the fuck!!! Last time I
+ tried this I couldn't get my program less
+ than 2k! but I kept trying and here we are!
+
+ I actually have 17 bytes leftover after
+ optimizing, so I used them as a little
+ watermark "tag" type thing of my username.
+ Try using `hexdump -C` to see the text that
+ I hid inside this demo! {^wvw^}
+
+ ///// Dependencies: ///////////////////////
+
+  - linux
+  - aplay (if you run ubuntu or debian this
+            should already be installed)
+
+ ///// Instructions: ///////////////////////
+
+ Execute from your terminal, it plays on a
+ loop until you ctrl+c! Also, set your comp
+ volume to ~30% because it runs loud!
+
+ ///// Please Enjoy! ///////////////////////
+

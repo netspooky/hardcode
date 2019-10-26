@@ -1,0 +1,9 @@
+FAJASTATAH - A 254 byte fire-routine
+------------------------------------
+
+This is my entry in the 256-byte fire-routine. (Hurra!)
+
+- Neon / Spetsnaz^Condenz -
+- geir5@kihdata.kih.no) -
+(This email-address will change during the summer! :( )
+ - _neon_ on irc (#coders) -

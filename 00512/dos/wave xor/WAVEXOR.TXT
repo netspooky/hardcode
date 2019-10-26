@@ -1,0 +1,6 @@
+       512b intro "WAVE XOR" for BF`99
+
+    coded by GraX of Russian Kulubussian
+
+-----------------------------------------------
+this easy intro was made in TP7 in 30 minuts :)

@@ -1,0 +1,41 @@
+ 
+a 4k-intro in textmode(tm) for Linux (i?86). 
+
+ Coded by Juippi <juoheikk@niksula.hut.fi> 
+ Bumpmap-effect by Trilkk, fractal-math by Warma
+
+ Run in a text console, not in an Xterm (colours won't work). MMX-support and 
+OSS-compatible /dev/dsp (for sound) required.
+
+ XXXX is a small shell script that starts the intro. You shouldn't run XXXX directly, 
+as you won't be able to quit the intro by pressing esc then (it's required by the
+compo rules), and it might also leave your terminal a bit messed up (althought it
+shouldn't, unless you press ctrl-c during the intro).
+
+ An 80x50 console is _strongly_ recommended. However, the intro can also be run
+in a 25-line console, althought it will look even uglier. There's also a nosound-mode,
+which is not recommended, but it's there because of the compo rules. 
+
+ When run without arguments, the intro will run with sound and assume an 80x50-console.
+With one argument (any), it will run in 80x50 -mode without sound. Two arguments
+mean 80x25 and sound, and three 80x25 without sound. So, for example
+'XXXX fap fap' will run the intro in 80x25 -mode with sound.
+
+
+
+ .
+
+
+ .
+
+
+
+ .
+
+
+ thanx&greets: milk boy, saara-- (for letting us test this with their 
+machine), anakin, juhoh
+
+
+
+vittu meni aika tiukalle taas asdf

@@ -1,0 +1,39 @@
+halcyon(+)hplus
+
+
+
+
+intro         blitz
+              ren
+              shrine
+              ember
+              placidity
+              croaker
+              (www.halcyon.scene.org)
+
+              brothomstates
+              (www.bstates.scene.org)
+
+player        digisnap / matrix
+
+
+released at the party 1998 in aars, denmark.
+optimal performance achieved with a fast cpu like p2-300mhz and a fast
+video card. gus support is available but highly unrecommended due to
+the bugs in module player's gus code. nosound is supported.
+
+
+greetings go out to >>
+
+
+bstates, bca, wog, miksu for apartment support, shrine's dad for poster
+support, distance, chill and all the other people who are important to us.
+
+
+final notice
+
+use -vx parameter to force a videomode (if possible), where x can be
+
+   0 - 320x240x32   1 - 320x240x24   2 - 640x480x32   3 - 640x480x24
+   4 - 320x240x15   5 - 640x480x16   6 - 320x200x08
+

@@ -1,0 +1,89 @@
+
+---------------------------------------------------
+---------------DaShoota 32k Level 2----------------
+---------------------------------------------------
+
+                   Version 1.3
+
+---------------------------------------------------
+
+
+Update 6.10.2004
+
+- Grafikfehler Gegnerschüsse beseitigt
+
+- Gameover Screen etwas verkürzt
+
+- einige andere Fehler behoben
+
+- Taste "F12" ist das sofortige Verlassen des Spiels
+
+- jeder level hat einen anderen farbverlauf im hintergrund
+ 
+--------------------------------------------------
+
+
+ faaaaaaassst Update 5.10.2004
+
+
+                   Version 1.2
+---------------------------------------------------
+                   änderungen:
+
+- grafikfehler der grünen bonusraketen behoben
+
+- 1 zusätzliche bonuswaffe eingebaut:
+      violette rakete  lol
+
+- gegner-stärke richtet sich jetzt nach spiel-
+  level, nicht mehr nach schussart
+
+- neue gegner, bzw formationen, partikel etc..
+
+- wenn man eine pille einsammelt, und das
+  upgrade klappt, erscheint die 2. bonuswaffe
+
+- wenn man >30 pillen eingesammelt hat 
+  ...so ab level 4 etwa...
+  hat man die 2. bonuswaffe als kontinuierlichen schuss
+
+- der musiktimer, den ich im menu vergessen hatte
+  auszuschalten,is jetz weg ;)
+
+- eine schnellere hintergrundmusik eingefügt
+
+- den musik-wiederholen-bug geschickt umgangen...
+  das level is einfach kürzer als das musikstück :P
+
+- den scrollspeed erhöht...weil langsam war langweilig ;)
+
+- 4 überflüssige tiles entfernt..
+  dafür eine aber 3. scrollebene eingefügt
+
+- auswertung nach dem gameoverscreen hinzugefügt
+
+--------------------------------------------------
+
+also, viel spass  xperience
+
+--------------------------------------------------
+
+kontakt:
+
+http://www.geocities.com/xperience2003
+
+bluegates@web.de
+
+--------------------------------------------------
+
+ps: "DaShoota 32k - Last Fight"
+    is schon in arbeit:
+
+    -noch mehr gegner
+    -noch mehr waffen
+    -noch mehr grafik
+    -und mehr action
+ 
+                in 32 kilobyte ;)
+
+

@@ -1,0 +1,106 @@
+For Sundown 2014 I had planned on doing an impressive 8088 4.77MHz PC speaker
+related project but I was rapidly running out of time and couldn't concentrate
+on it properly with all the noise in the hall. However, I still wanted to
+submit *something*.
+
+I got my XT set up and it's nice to have some little animation or picture
+running on the screen for passers-by to look at. I decided to knock up some
+kind of quick little display hack to keep the machine busy, but what? Where
+could I find a little animation program, ideally x86 16-bit real mode DOS?
+Inspiration hit: I searched pouet for the best rated demos under 64 bytes
+(extreme sizecoding is usually 16-bit real mode DOS because doing anything with
+32-bits, protected mode or Windows costs a lot of bytes).
+
+Most of the effects (I discovered later) are too slow to run at 4.77MHz
+(extreme sizecoded effects are often "de-optimized" to save bytes at the
+cost of requiring a modern machine to run at a decent speed) or use FPU
+instructions but the top hit, D¡rojed by Rrrola
+(www.pouet.net/prod.php?which=28913 - itself a port of the 64-byte demo
+Lochfrass by T$) turned out to be perfect for what I wanted. It's a 32-byter,
+and requires VGA (mode 13h, as usual for extreme sizecoding). It also uses one
+286+ instruction (imul rw,imm).
+
+After fixing those two issues I had a nice "attract screen" in 42 bytes (the
+"press esc to exit" functionality was the first to go, since I was running
+it from the keyboard port anyway (using the hack I described at
+http://www.reenigne.org/blog/i-bought-an-xt) and always do a hard reset to load
+a new program when I'm doing that. I also changed a "add cl,[bx-321]" to "add
+cl,[bx-81]" to reflect the reduced stride, which saved another byte.
+
+I was chatting to another CRTC member (doz) about it over lunch on Saturday
+and he suggested that I should enter it as a prod (he has been trying to get
+me to enter something the past 3 Sundowns). I told him I would, but only if
+I could get it back under 32 bytes. The challenge was on!
+
+One problem with using the keyboard port to run extreme sizecoded programs
+is that the initial register values aren't as useful as the ones DOS
+provides for a .com program. Of course, I wrote the bootloader so I could
+put whatever initial register values I wanted in there. Doz (correctly)
+pointed out that that would be cheating. He then suggested I actually make
+it a proper .com file so that other people can run it too. Of course! How
+did I miss this obvious idea? So I did exactly that. That got it to 34
+bytes. Two to go!
+
+The first one was related to my changing "imul bx,0xe5" to an 8088-compatible
+sequence:
+  mov ax,0xe5
+  imul bx
+  mov bx,ax
+I realized I could replace the third instruction with "xchg ax,bx".
+
+A neat trick that sizecoders have is to put:
+  lds bx,[bx]
+at the start of the program. The initial value of bx is 0 and the bytes at the
+start of the program segment are:
+  int 0x20
+  dw 0x9fff  ; top segment of conventional RAM
+So that two byte instruction puts 0x20cd in BX and 0x9fff in DS which is almost
+perfect for writing to video memory. My first attempt to "CGA-ise" this code
+replaced the byte in the PSP before the lds instruction:
+  mov [bx+3],0xb7
+The final byte was saved by realizing that the intial value of BX doesn't
+matter, so I could replace the mov/lds sequence with the more mundane but
+shorter:
+  mov bx,0xb800
+  mov ds,bx
+
+At that point it was about 5 minutes before the deadline so I started the
+submission process, but unfortunately I had a last second bug! Since the 8088's
+imul instruction stomps ah, the "increment [bx] only if carry set" instruction:
+ adc [bx],ah
+became an "always add something to [bx]" instruction, which ruined the effect.
+
+I found and fixed the bug (by using ch there instead of ah) pretty quickly but
+my process for testing .com files on the XT is cumbersome: I use DOSBox to
+create/modify a disk image to contain the program I want to test. Then I send
+the "write_image.bin" program and the disk image over the serial port.
+write_image writes the image to disk and boots to it. This all takes a few
+minutes.
+
+I was also trying to test it on DOSBox but failing - my usual go-to DOSBox is
+the one with the debugger, but that emits a debug message whenver a program
+writes to ROM-mapped space (which this demo does a lot, unfortunately) so it's
+too slow and for some reason was not going into graphics mode. Going back to
+the standard DOSBox fixed both of those problems and I got the fixed version
+submitted in the nick of time. We ended up using DOSBox to display it on the
+big screen rather than trying to move the XT to the projector or stringing up a
+long composite connection - we also used the default 3000 cycles rather than XT
+speed (which is a bit on the slow side for a compo presentation) but since I
+described it as "an 8088/CGA port of D¡rojed" rather than "a 4.77MHz 8088/CGA
+port" I think that's allowable.
+
+The effect looks a little different on the XT than on DOSBox because of memory
+layout differences - on DOSBox the pattern just goes up from the bottom, on the
+XT it comes down from the top as well. It looks different again on DOSBox with
+machine=vgaonly (comes down from the top corners).
+
+Videos:
+https://www.youtube.com/watch?v=OCH8A4tn5nE is the live video from the party.
+https://www.youtube.com/watch?v=Ys6koiu1lF0 is a capture from DOSBox with
+machine=vgaonly which keeps going until the image becomes stable.
+
+D¡rojed CGA came 3rd in the Oldskool demo competition at Sundown 2014.
+
+Greetz to: pup, megmeg, doz, rc55, psonice, Deltafire, tunk, Alegend45, joey,
+Topy44, stavs, kabuto, m0d, Trixter, Scali, VileRancour, gasman, danbee, ne7,
+rrrola, T$ and anyone I forgot.

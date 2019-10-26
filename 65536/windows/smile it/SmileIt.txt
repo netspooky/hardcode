@@ -1,0 +1,22 @@
+
+
+Smile It ;) by Condense
+(c) CONDENSE 2001 (http://condense.planet-d.net)
+
+
+music, ideas, concept ... Med (medcg@hotmail.com)
+code, import tools ...... No Recess (norecess@planet-d.net)
+condense logo ........... AK^Mandarine (alexkidd@noos.fr)
+
+description :
+a demo in 64kb using OpenGL as rasterizer,
+first showed at Vip#3 intro-compo
+
+greetings :
+(nono) skiz0, ElYeti, typlan, reunz, the rest of demoscene
+(med)  smash, bacter, nagz, rr, made, jylam, yogin, 
+       cassios, eclipse, rez, lunix, epitaman, mcs,
+       keio, #traxfr, #trax.
+
+
+EOF. (LOL)

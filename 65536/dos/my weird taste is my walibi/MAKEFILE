@@ -1,0 +1,12 @@
+
+#
+#	Makefile for "My Weird Taste Is My Walibi"
+#	An Aspirine 64k Intro - Wired 1998 - Wasmes - Belgium
+#
+
+ASPIRINE = a_bunch_of_mates.exe
+SWITCHES =  --cool-people --night-coding-sessions --fresh --groovy-ascii-dezign
+LIBS = tacopizza.lib cocacola.lib burgers.lib i_am_fat_now.lib
+
+intro.exe: brioche.asm trax.asm alnajjir.mod gedeon.txt alphatrion.fun desnos.net
+        $(ASPIRINE) $(SWITCHES) -o $@ $< $(LIBS)

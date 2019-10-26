@@ -1,0 +1,112 @@
+Fiasko'99 special contribution
+in category
+64 kB intro
+
+  IúNúTúRúOúTúAúTúIúOúN
+          by
+    Carlos /Downtown
+
+-8<----------------------------
+Organiz tor–m Fiaska'99
+şToto intro nen¡ TO Introtation, kter‚
+ se pou¨tˆlo na minul‚m Fiasku ('98).
+şM  dvˆ verze podle jazyka (‡esky nebo anglicky).
+ Pokud by to bylo mo‘n‚, chtˆl bych, aby
+ ‡esk  verze byla ta, kter  by se pou¨tˆla na Fiasku'99 a 
+ anglick  verze byla ta, kter  by se pozdˆji distribuovala,
+ byla na serveru V˜hnˆ, ke sta‘en¡ na internetu atd.
+şChod¡ to i pod Windows, ale m  to rad¨i DOS.
+şSta‡¡ mu nˆco m lo p©es 64kB voln‚ konven‡n¡ pamˆti, nemˆl by b˜t probl‚m
+şPracuje v x-m¢du 256x256 p©i 256ti barv ch.
+şVhodnou zvukovou kartou by byl jak˜koliv SoundBlaster (kromˆ
+ nejnovˆj¨¡ch druh–, kter‚ se star˜m Sounblasterem nejsou
+ kompatibiln¡). Nebo taky jak koliv "SB-compatible" karta.
+ Pod GUSem to jde p©ehr t jen, kdy‘ emuluje SoundBlaster :-)
+ Digit ln¡ samply by mˆla zvl dnout ka‘d  karta kompatibiln¡ s Adlibem.
+ Zat¡m to chodilo pod ka‘d˜m Soundblasterem, na kterym jsem
+ to zkou¨el, tak‘e by s t¡m nemˆly bejt probl‚my.
+şP©ehr v  zdigitalizovanou i MIDI hudbu (form t XMS), pou‘¡v  FM synt‚zu
+ i DMA p©enosy. Zvukovku hled  na portu 220h, kdy‘ neuspˆje, tak na 240h 
+ a potom na 230h a kdy‘ neuspˆje, pak digitalizovan˜ zvuk nep©ehr v .
+
+Pokud v m pom–‘ou n sleduj¡c¡ £daje..
+şPro 386ku a v˜¨
+şnaps no v Pascalu v realn‚m re‘imu
+şzdroj k m  470 kB a 7780 © dek!
+şzpakov no WW (p–vodn¡ velikost 112757 byt–)
+şpou‘¡v  intern¡ p©ehr va‡ form tu XMS (nˆco jako MIDI)
+
+şNenechte se t¡m znechutit :-(
+->8----------------------------
+
+
+NOTES:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ş General:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+-"Introtation" was a name of intro that competed at 8th September 1998
+ at Fiasko'98 party and it occupied the last position (5th of 5).
+ It was designed to slow computers (about 33 or 40MHz) and 'cause it
+ wasn't synchronized with timer it "jetted" on the fast compo computer 
+ after it was executed very quickly and has disposed in few seconds.
+ I fel (and still feel) shame about it and therefore I decided to
+ make a second version, that may proof what intended the intro to show :-[
+-This intro is úNOTú the '98 version of Introtation.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ş GFX:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+-The intro uses special x-mode resolution 256x256 in 256 colors.
+ Every proper VGA card should handle to set this resolution (I think).
+-As everything in video memory is done in one 64kB segment, there is
+ no need of VESA BIOS 2.0 or above.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ş SFX:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ There are two players in the intro:
+ -simply VOC player that uses DMA transfers to play digitized samples
+ -MaDoKaN's XMS player that uses FM synthesis
+ INTROTATION supports:
+ -any SoundBlaster card with Digital Sound Processor (DSP), version 1.00+
+  including AWE series and any SB_compatible card.
+ -those sound cards that emulates the SoundBlasters (GUS etc.)
+ -INTROTATION is attempting to find SoundBlaster on ports 220 or 240 (hexa)
+  to play digitized sounds. If it didn't succeed, it simply doesn't play them.
+ -XMS player also supports Windows Sound System, but never mind
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ş Memory:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ INTROTATION allocates:
+ -a 65280 (0FF00h) bytes long buffer for the virtual screen
+ -a 1314 (522h) bytes long buffer for XMS module header
+ -nothing else, all other data are stored in data (or code) segment
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ş Languages:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ There are two versions of the INTROTATION according to language:
+ -the Czech language version   (intro_cz.exe)
+ -the English language version (intro_us.exe)
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ş Other:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ -It was made in BP7.0, (real mode target) :-(...
+ -...and packed with WW.
+ -optimized for 80386 or higher
+ -Thanks MaDoKaN for his player!
+ -Support Czech and Slovak demoscene!
+ -and mainly:
+  DON'T GET DISTTRACT BY MY HORRIBLE INTRO! ;-)
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ş Disclaimer:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ -Non-profitable spreading is allowed
+ -Profitable copying/publishing/spreading any way is strictly forbidden
+ -Use at your own risk and responsibility.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ş Contacts:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ Carlos
+  web:     http://www.vosji.cz/~seidl.b.98.ps/index.htm
+  e-mail:  carlos2@email.cz
+ Downtown
+  web:     http://www.ms.mff.cuni.cz/~shrb5163/index.html.cz#downtown
+  e-mail:  dement@email.cz

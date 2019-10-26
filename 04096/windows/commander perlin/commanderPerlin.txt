@@ -1,0 +1,14 @@
+ADAPT @ ASM 2014
+Commander Perlin
+4K
+---deepr----mistral---
+After years in apogee,
+Commander Perlin goes
+to challenge the ray
+marched worlds.
+
+This intro is a story
+of what happens there.
+----------------------
+crinkler, c, glsl,
+shader minifier

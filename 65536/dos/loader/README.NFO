@@ -1,0 +1,5 @@
+This is the revised version of the loader, in this one I solved the problem 
+of that error message you were getting ("Null pointer assignment"). I found
+out that it was one of the pointer variables I hadn't allocated memory for.
+<< DO NOT INCLUDE THIS NFO IN THE SHIVER ARCHIVE >>
+

@@ -1,0 +1,2 @@
+asm:	tasm !.! /m9
+	tlink ! /3/t/x

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DemoJS submission template</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <script>
+var a = document.body;
+var b = document.getElementsByTagName('canvas')[0];
+
+function getContext(s) {
+  try {
+    return b.getContext(s); 
+  } catch(e) {
+    return null;
+  }
+}
+
+function c() {
+  return getContext('2d');
+}
+
+function d() {
+  return getContext('webgl') || getContext('experimental-webgl') || getContext('webkit-3d') || getContext('moz-webgl');
+}
+
+document.body.clientWidth; // fix bug in webkit: http://qfox.nl/weblog/218
+    </script>
+
+    <script>
+S("onmousemove","D(event)");S("onmousedown","k = 1;D(event)");S("onmouseup","k = 0");d=document;h=d.getElementsByTagName("head")[0];f=d.createElement("link");f.type="image";f.rel="icon";h.appendChild(f);n=b.getContext("2d");t=[];q=["#000","#777","#801","#F00","#fA2","#AD3","#0AF","#FFF","#ccc","#FDA","#FAA","#FE2","#8F8","#ADF"];W=300;S("width",W);S("height",W);S("style","border:#000 1px solid");w=10;v=W/w;V=v-1;k=0;E();function E(){c=q[0];for(i=0;i<v;i++){t[i]=[];for(j=0;j<v;j++)t[i][j]=i<2?c:q[7]}y=0;for(i=1;i in q;t[0][i++]=q[y],t[1][i++]=q[7+y++],t[V][0]=q[3]);}function S(a,e){b.setAttribute(a,e)}function P(a){for(z=0;z<W;z+=w)if(a<z+w)return z}function I(){for(i=0;i<v;i++)for(j=0;j<v;n.fillRect(P(i*w),P(j*w),w,w),j++)n.fillStyle=t[i][j]}function R(){n.translate(-20,0);I();f.href=b.toDataURL();n.translate(20,0);I();setTimeout(R,1)}function D(a){if(k){x=P(a.pageX-b.offsetLeft)/w;y=P(a.pageY-b.offsetTop)/w;if(x==V&&!y)return E();x<2?(t[0][V]=t[1][V]=c=t[x][y],k=0):t[x][y]=c}}R();
+
+    // RULES (thx to @kuvos for inspiration)
+    //  1. Submissions may be up to 1k (1024 bytes). Fill those damn bytes.
+    //  2. Submissions must consist of only js.
+    //  3. Any and all externals are strictly forbidden.
+    //  4. Must work on the last version of Mozilla Firefox and Google Chrome (more support appreciated of course :)
+    //  5. It should look roughly similar under both browsers.
+    //  6. As you might have seen, you get canvas object and context creation for FREE!
+    //  7. Your demo must work in this shim, tell us if there are problems with context creation.
+    //  8. GO MAD, audio, eval and WebGL allowed!
+    </script>
+  </body>
+</html>

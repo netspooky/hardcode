@@ -1,0 +1,5 @@
+"The Bouncer" by Sid
+
+This little code makes the char bounce all across your screen.
+Nothing spectacular, don't resize too wild, it will make it go
+crazy ;)

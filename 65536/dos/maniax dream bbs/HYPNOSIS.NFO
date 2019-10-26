@@ -1,0 +1,298 @@
+ÉÍÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍÍ»
+º                                                                            º
+³           ş The HYPNOSIS Demo & Game Projects Information File ş           ³
+³                                                                            ³
+³         Version 1.4, Written by Vivian/HYPNOSIS, 24 February 1995.         ³
+³                                                                            ³
+³        This file contains information about HYPNOSIS, our demos and        ³
+³            games and includes instructions on how to contact us.           ³
+º                                                                            º
+ÈÍÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍÍ¼
+
+
+                                    Contents
+                                   ÍÍÍÄÄÄÄÍÍÍ
+
+         1: Opening words
+         2: Files in the package
+         3: Demos and games for commercial purposes
+         4: The distribution and use of our demos
+         5: Current members and their functions
+         6: List of all HYPNOSIS releases                       (CHANGED)
+         7: A brief history of HYPNOSIS
+         8: How to contact HYPNOSIS                             (CHANGED)
+         9: How to become an HYPNOSIS distribution site
+        10: Acknowledgements
+        11: A word of thanks
+        12: Final words
+
+
+                                1: Opening words
+                               ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+    Welcome to the HYPNOSIS information file version 1.4. This textfile has
+    been written to inform people about HYPNOSIS, our productions, and gives
+    a brief history of the group.
+
+    If you are interested in us making a demo or game for you, don't hesitate
+    to contact us. Please read the information in chapter 3 of this file.
+
+    This file will be updated as things change. Please make sure that you
+    always have an updated version of this file, in order to prevent any
+    mail from getting lost, and to avoid misunderstanding.
+
+
+                            2: Files in the package
+                           ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+    This information package contains the following files:
+
+    HYPNOSIS.NFO    The HYPNOSIS information file
+    HYP-SITE.NFO    The HYPNOSIS distribution site file
+    DISTSITE.HYP    The HYPNOSIS application file
+
+
+                   3: Demos and games for commercial purposes
+                  ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+    If you find our intros and demos interesting and would like us to make
+    something for commercial purposes, do not hesitate to contact us.
+
+    When contacting us, please include a short explanation of the kind of
+    production you had in mind. It would help us with the evaluation of
+    the size of the project.
+
+    Would you be so kind as to include the following information:
+
+        - What kinds of effects would you be interested in.
+        - Should there be any colorful logos, pictures etc.
+        - If the demo should have sound, which sound cards
+          would you like it to support, and what type of
+          music should be played.
+        - How big should the demo be in kilobytes and how
+          long should the demo be in minutes approximately.
+        - Where will the demo be used, and what will it be
+          used for.
+        - How soon would you like the demo to be finished.
+        - Approximately how much would you be willing to
+          pay for the demo.
+
+    All our productions are realtime calculations and not animations.
+    This means that the speed of the demo depends a lot on the speed
+    of the processor, of the video card, and of the sound card.
+
+    You should also bear in mind that we do not make demos for Microsoft
+    Windows, or any other GUI operating system. All our productions are
+    meant for the IBM PC and compatibles and should be running under
+    MS-DOS or PC-DOS.
+
+    You can find our contact information in chapter 8 of this file.
+
+
+                    4: The distribution and use of our demos
+                   ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+    All HYPNOSIS productions, except those created for commercial purposes,
+    are freeware. You are allowed to copy and distribute them free of charge
+    as long as they are distributed unmodified, with their full documentation
+    and files. Any copying and/or distributing for money and/or donations is
+    strictly prohibited.
+
+    All HYPNOSIS productions cannot be used for commercial purposes without
+    written permission of HYPNOSIS. If you are a Public Domain, ShareWare or
+    FreeWare distributor, please contact us before adding our products to
+    your collection.
+
+
+                     5: Current members and their functions
+                    ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ Alias       Real name            Born       Function(s)                   ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ Vivian      Martijn Wilhelm      19/02/73   Public Relations, Programming ³
+ ³ Pete        Pieter Hilkemeijer   03/11/71   Programming                   ³
+ ³ Progress    Richard Keizer       08/12/74   Programming                   ³
+ ³ Cyborg      Berend Seegers       13/01/73   Programming                   ³
+ ³ Juice       Kim Jansen           29/11/77   Programming                   ³
+ ³ Contrast    Menno Seegers        13/09/75   Graphics                      ³
+ ³ Facet       Martijn van Meel                Graphics                      ³
+ ³ Juno        Bas van der Veldt    07/10/76   Music                         ³
+ ³ Nao         Michiel Krop         04/06/74   Music                         ³
+ ³ Valos       Paul Valentijn       05/07/75   SysOp WHQ                     ³
+ ³ Ice Cold    Richard Lamse                   External Event Organising     ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+                        6: List of all HYPNOSIS releases
+                       ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ Filename      Size    Released  Short description of the production       ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ HYP-YEAR.ZIP  193 Kb  01-01-94  A Year of Agony, released at the PARTY 93 ³
+ ³                                 Requirements: 386+, VGA                   ³
+ ³                                                                           ³
+ ³ WATERY  .ZIP   42 Kb  01-01-94  Watery picture, released at the PARTY 93  ³
+ ³                                 Requirements: VGA, LBM viewer (CSHOW)     ³
+ ³                                                                           ³
+ ³ BZR2_HYP.ZIP  330 Kb  24-04-94  The BiZaRRe 94 Party Invitation Intro II  ³
+ ³                                 Requirements: 386+, VGA, GUS              ³
+ ³                                                                           ³
+ ³ SPACETRP.ZIP  254 Kb  08-06-94  SpaceTrip module, released at BiZaRRe 94  ³
+ ³                                 Requirements: MOD player (IPLAY)          ³
+ ³                                                                           ³
+ ³ AMAZONE .ZIP   17 Kb  08-06-94  Amazone picture, released at BiZaRRe 94   ³
+ ³                                 Requirements: VGA, LBM viewer (CSHOW)     ³
+ ³                                                                           ³
+ ³ BUS-HYP .ZIP  145 Kb  28-09-94  PARTY 94 Bustrip Invitation Intro         ³
+ ³                                 Requirements: 386+, VGA, GUS              ³
+ ³                                                                           ³
+ ³ HYP-PTG .ZIP  174 Kb  01-12-94  PENTAGRAM Intro, Source Code Included     ³
+ ³                                 Requirements: 386+, VGA, Adlib            ³
+ ³                                                                           ³
+ ³ HYP-MD  .ZIP   44 Kb  24-02-95  Maniax Dream BBS Intro                    ³
+ ³                                 Requirements: 386+, VGA, GUS              ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+  You should be able to get the above productions at our distribution site(s).
+
+
+                         7: A brief history of HYPNOSIS
+                        ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+ 1989
+
+    - In a time when Future Brain Inc, Control Software and Trsi were
+      ruling the swapping/cracking scene, a group called Resist was
+      born. The group was founded by Progress, Arachnatron and Cyborg.
+    - After getting bored with the cracking/swapping scene Resist became
+      a demo group. We were one of the first back then making VGA intros
+      with smooth scrollers.
+
+ 1990
+
+    - TCS (True Coders Society) was founded by Vivian and Tranquilizer.
+      The group made a small intro with panning blocks, scrollers, etc.
+      to announce the new born group.
+    - Resist made a Christmas demo containing a sinus scroll, and the
+      first ever real snow flakes.
+
+ 1991
+
+    - At the end of this year, Resist and TCS joined and became ExTaCY.
+    - The group was mainly occupied with the board scene and we tried
+      to make sure that all the new 'warez' could be downloaded at our
+      distribution sites. It was in that period that we learnt about
+      real demos and started to make new contacts in the demo scene.
+
+ 1992
+
+    - ExTaCY and The Untouchables joined and became ExTaCY/Tu. The group
+      released a small demo to announce the merge between the groups and
+      released several small BBS intros for The Drool Zone, Mystery, and
+      made a Christmas vector demo with a sine-plasma-scroll, lots of
+      vectors and fireworks.
+
+ 1993
+
+    - Some members left ExTaCY/Tu after a disagreement on future policies
+      of the group, and we decided to change the name back to ExTaCY.
+    - ExTaCY decided to stop trading, gave up the boards and started to
+      work on a demo under a new name, HYPNOSIS.
+    - HYPNOSIS worked on a demo called 'A Year of Agony'. We had decided
+      to release it at the Party 93. It really had been a Year of Agony
+      for us with many disappointments and setbacks but we continued to
+      work on 'A Year of Agony'. Unfortunately, just two weeks before the
+      Party 93, Prime, Excalibur, Acute and Sourcerer decided to leave
+      the group to start their own group called Inertia. Now we were stuck
+      without a player and could not release the demo with any sound.
+
+ 1994
+
+    - After releasing 'A Year of Agony' we decided to work on a music
+      system for our future productions. For now, it only plays through
+      the Gravis UltraSound, but we hope to add support for other cards
+      soon.
+    - We heard that some people in the board scene were organizing a
+      PC only party and we decided to make a party invitation intro
+      for it.
+    - In december HYPNOSIS will ofcourse be travelling to the PARTY 94.
+      Because of this, we have organised a bustrip and have released a
+      bustrip invitation intro.
+    - We released the source code for the Pentagram Intro in december.
+      Hope you enjoy it...
+
+ 1995                         A look at the future
+
+    - We hope to add SoundBlaster and SoundBlaster Pro support to the new
+      player this year and we will be doing a few intro's, perhaps even a
+      demo. Also, there might be a little co-operation between us and a
+      well known dutch group, so keep those eyes peeled...
+    - We hope to finish two or three games this year and these will be our
+      first commercial projects. If anyone wants to publish these games,
+      please contact us.
+
+
+                           8: How to contact HYPNOSIS
+                          ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+    Our snail mail address is:                    Our WHQ mail address is:
+    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ                    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    Martijn Wilhelm                               Maniax Dream
+    a.k.a. Vivian/HYPNOSIS                 Phone: +31-(0)2979-72019 USR.DS
+    Deventerstraat 150                                (0)2979-83175 V.FAST
+    7321 CE  APELDOORN                                (0)2979-74711 V.FAST
+    The Netherlands
+
+    You can leave mail for HYPNOSIS on our WHQ, or contact us through demo
+    networks etc.
+
+    Or just contact us VOICE on +31-(0)55-671540. If no answer, just leave
+    a message on the TAM (Telephone Answering Machine).
+
+    A FAX is available on the same number. (Auto Select FAX/VOICE/TAM)
+
+    CompuServe will be available again soon, and we should be getting a
+    GSM account any day now...
+
+    Last, but certainly not least you can contact us through Internet.
+    Send E-Mail to :
+                        Vivian  : 9214227@hsu1.hvu.nl
+                        Valos   : 9212207@hsu1.hvu.nl
+                        Pete    : ux006850@tfarn.nl
+
+
+                 9: How to become an HYPNOSIS distribution site
+                ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+    To become an official HYPNOSIS distribution site, read the information in
+    the accompaning file, HYP-SITE.NFO. If you agree to the rules set out in
+    that document, please fill in the application and send it to Valos at
+    his E-Mail address or directly to the WHQ.
+
+
+                              10: Acknowledgements
+                             ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+    All mentioned Trademarks and Copyrights are acknowledged to their
+    respective owners.
+
+
+                              11: A word of thanks
+                             ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+    Thanks must go to Future Crew for the concept of this information file.
+
+
+                                12: Final words
+                               ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+
+    Thank you for reading this file. All of us at HYPNOSIS hope to hear from
+    you soon.
+
+    Signed,
+    Vivian/HYPNOSIS
+
+ ÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍ
+

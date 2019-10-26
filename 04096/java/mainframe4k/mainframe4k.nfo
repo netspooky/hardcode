@@ -1,0 +1,29 @@
+/**
+ * Yep. here it is. the source code for a simple java 4k I wrote for the
+ * demoparty "Mainframe". It competed in the 4k compo, and also in the "GNU demo
+ * award" where it's source code was judged. So that is why I have tried to
+ * comment this code a little :)
+ *
+ * <p>
+ * And yes... The song used in this intro (it is made by zantac btw,
+ * http://www.zantac.tk) has been used before... BUT I could
+ * not make it fit in less than 4k then, so it's ok anyway ;)
+ *
+ * <p>
+ * Also this intro uses sun-classes for audioplayer (notice the
+ * "import sun.audio.*" above). these are not standard so it is possible that
+ * this intro does not work with your java-version
+ *
+ * <p>
+ * It does however work with
+ * <li>Internet Explorer 3 and up
+ * <li>Netscape version ????
+ *
+ * <p>
+ * OH! the compo version was compiled with
+ * <a href="http://www.microsoft.com/java">Microsofts java compiler</a> and
+ * then obfuscated with <a href="http://www.retrologic.com">Retroguard</a>
+ *
+ * <p>
+ * Hello to everyone I know. (what? I'm lazy... ;))
+ */

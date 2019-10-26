@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DemoJS submission template</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <script src="orangejoy.js"></script>
+    <script>
+var a = document.body;
+var b = document.getElementsByTagName('canvas')[0];
+
+function getContext(s) {
+  try {
+    return b.getContext(s); 
+  } catch(e) {
+    return null;
+  }
+}
+
+function c() {
+  return getContext('2d');
+}
+
+function d() {
+  return getContext('webgl') || getContext('experimental-webgl') || getContext('webkit-3d') || getContext('moz-webgl');
+}
+
+document.body.clientWidth; // fix bug in webkit: http://qfox.nl/weblog/218
+    </script>
+
+    <script>
+g=d();function G(q,a,b,c,d){i=0;for(k in g)if(i++==q)return d?g[k](a,b,c,d):g[k](a,b,c)}H="precision highp float;varying vec2 q;";G(136,0,0,b.width=1900,b.height=1111);G(6,34962,G(26));G(15,34962,new Float32Array([-1,-1,-1,1,1,-1,1,1]),35044);P=G(28);function C(t,s){S=G(30,t);G(95,S,s);G(23,S);G(4,P,S);}C(35633,H+"attribute vec2 v;void main(){gl_Position=vec4(v,1,1);q=v;}");C(35632,H+"uniform float t;vec4 Z(vec2 P,float t){P.x+=sin(P.x)*.2;float W=P.y/t/.1,B,g,R,T=cos(t);vec2 J=vec2(T,sin(t*.7));vec4 c=mix(vec4(.8,.5,.01,abs(cos(P.y*T))),vec4(1,.3,.21,1),J.x*J.y+(P.x-W)*sin(t*3.9)*.2);R=length(J);c.y*=.8+.5*R-cos(R);B=P.x/P.y+(sin(5.0+t+W-P.x)*.5+R)*sin(W*12.0);if(step(mod(B,.3),.25)<.4){g=(c.x+c.y+c.z)*.5;c=mix(smoothstep(.0,1.0,abs(T))*c,vec4(g,c.y,g,g),.2);}c.yz*=1.0-abs(P.y);return c;}void main(){gl_FragColor=(Z(q/pow(abs(q.y),1.1),t)+Z(-q,t*1.7))*(.7+.3*sin(t+q.y*800.0))*sqrt(length(q));}");G(87,P);G(125,P);G(48);t=.0;G(135,0,2,5126);u=G(74,P,"t");setInterval(function(){t+=.01;G(106,u,t);G(45,5,0,4)},16)
+    // insert your entry here
+
+    // RULES (thx to @kuvos for inspiration)
+    //  1. Submissions may be up to 1k (1024 bytes). Fill those damn bytes.
+    //  2. Submissions must consist of only js.
+    //  3. Any and all externals are strictly forbidden.
+    //  4. Must work on the last version of Mozilla Firefox and Google Chrome (more support appreciated of course :)
+    //  5. It should look roughly similar under both browsers.
+    //  6. As you might have seen, you get canvas object and context creation for FREE!
+    //  7. Your demo must work in this shim, tell us if there are problems with context creation.
+    //  8. GO MAD, audio, eval and WebGL allowed!
+    //doit();
+    </script>
+  </body>
+</html>

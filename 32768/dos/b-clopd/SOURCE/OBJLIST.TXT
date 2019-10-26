@@ -1,0 +1,118 @@
+1 - Ball - Generator
+Par1 = Freq Counter
+
+2 - Kugel
+Par1 = Live
+Par2 = StartLive
+Par5 = FromPlayer
+
+3 - Ball - Generator
+Par1 = Freq Counter
+
+4 - Fire - Generator
+Par1 = Freq Counter
+
+5 - Fire - Generator
+Par1 = Freq Counter
+
+6 - Fire
+Par1 = Live
+Par2 = StartLive
+Par3 = Refire 1=On 0=Off
+Par4 = Owner
+
+7 - Engel
+Par3 = StartY
+
+9 - Pad
+Par1 = Orig X Pos
+Par2 = Orig Y Pos
+Par5 = StandOn
+
+10 - Bridge
+Par1 = Orig X Pos
+Par2 = Orig Y Pos
+Par5 = StandOn
+
+11 - Box
+Par1 = CreateObj (siehe BOX)
+Par5 = Punched
+
+12 - FireWerfer
+Par5 = Sammel by Pl1
+
+13 - Minigun
+Par5 = Sammel by Pl1
+
+14 - MinigunShot
+Par1 = Live
+Par5 = Crash
+
+15 - Bumper
+Par1 = Orig X Pos
+Par2 = Orig Y Pos
+Par3 = StandTyp (Player=1/Object=0)
+Par4 = StandNr
+Par5 = StandOn
+
+16 - Player - Start - Position
+
+17 - KluKlux - Enemy
+Par3 = Vorhanden (0 = Nicht Da ; 1 = Da)
+Par4 = Energy
+
+18 - Medikit
+
+19 - SpiderMan - Enemy
+Par3 = Vorhanden (0 = Nicht Da ; 1 = Da)
+Par4 = Energy
+
+20 - Kîrperteil - Death
+Par1 = Live
+Par2 = KîrperteilNr
+Par3 = StartLive
+
+21 - Ball Blaster
+Par5 = Sammel by Pl1
+
+22 - LevelEnde
+Par5 = BerÅhrt
+
+23 - Leben
+
+24 - Alex - Kidd - Boss
+
+25 - Rocket
+
+26 - Enemy 1
+Par3 = Vorhanden (0 = Nicht Da ; 1 = Da)
+Par4 = Energy
+27 - Enemy 2
+Par3 = Vorhanden (0 = Nicht Da ; 1 = Da)
+Par4 = Energy
+28 - Enemy 3
+Par3 = Vorhanden (0 = Nicht Da ; 1 = Da)
+Par4 = Energy
+29 - Enemy 4
+Par3 = Vorhanden (0 = Nicht Da ; 1 = Da)
+Par4 = Energy
+30 - Enemy 5
+Par3 = Vorhanden (0 = Nicht Da ; 1 = Da)
+Par4 = Energy
+31 - Enemy 6
+Par3 = Vorhanden (0 = Nicht Da ; 1 = Da)
+Par4 = Energy
+32 - Enemy 7
+Par3 = Vorhanden (0 = Nicht Da ; 1 = Da)
+Par4 = Energy
+33 - Enemy 8
+Par3 = Vorhanden (0 = Nicht Da ; 1 = Da)
+Par4 = Energy
+
+---- Box ----
+1 : FireWerfer
+2 : MiniGun
+
+
+---- Enemies ----
+1 : KluKluxMan

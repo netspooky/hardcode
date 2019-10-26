@@ -1,0 +1,25 @@
+  Origami	-	Entry for 64k introcompo at Assembly 2005
+
+Graphics code and intro structure:	Trilkk (Tatu Kilappa) <trilkk@iki.fi>
+Software synthetizer and music:		Juippi (Juho Heikkinen)
+Fold effect, fractal code and misc:	Warma (Vantte Kilappa)
+
+Greets in the intro.
+
+Proved to work with a ~1500Mhz Athlon with a GeForce3. Your mileage may vary.
+If this package contained no source code, there should be another that does.
+Failing that, you can contact the authors.
+
+The intro compiles on all major platforms including Windows, Linux and
+FreeBSD. There are some endianness bugs, that cause loss of sound and
+introduce some glitches on little-endian machines such as... anything besides
+x86 and alpha.
+
+The precalc time _is_ humongous. Please wait.
+
+Thank you.
+
+...
+
+Voi "&%#WY"%¤Y"W%¤W%¤5we4y kun meni taas tiukalle. 7min deadlineen ja pitihän
+sitä paikata myöhemmin.

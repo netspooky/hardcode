@@ -1,0 +1,16 @@
+//
+// Ich habe es wenigstens versucht
+// 256b/256b
+// Only HTML, no JavaScript, Flash, VBscript, etc.
+// 09.02.02 - 02:56am
+// Stupid german comments:
+//
+// Ich liebe das Wildmag und da dachte ich mir, daß ich hier einfach mitmachen müsste,
+// aber 256b sind doch weniger als man so denkt, gut ich hätte einen JavaScript ASCII-
+// Bilder-Generator Ding machen können, nur ist das nicht sehr innovativ und ich denke
+// das es so etwas in jedem Fall schon gibt. So belege ich zwar den letzen Platz, aber
+// mitmachen und Spaß haben ist alles (Das ständige 'Notepad > mist, 266b > Notepad > 
+// 215b, da passt noch was rein > Notepad' macht schon Spaß)
+// Ich bin gespannt was die anderen aus 256b rausgeholt haben.
+// 
+// Bis zum nächsten mal (wer weiß mit wie viel bytes dann :0) ...

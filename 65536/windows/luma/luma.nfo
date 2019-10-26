@@ -1,0 +1,37 @@
+.--.     .--.  _ _ __ __ __   _ ___ _ 
+|  |     |  | | V | _| _\  ||| | _\| |
+|  |_____|  | |   | _|  / < || |  / .'
+|           | |_|_|__||_\__|___||_\_|
+| .:-----.  | 
+|  :_____:  | - -- ---=-=-==-=========
+|         .:|     At PAYBACK 2014
+`---.   .---' =========-==-=-=--- -- -
+    |   |            presents
+ .--'   `--.
+ |       .:|     .:    Luma    :.
+ `--.   .--'      a PC 64k intro
+    | .:|
+    `---'     - -- ---=-=-==-=========
+ 
+  After all these years, we finally
+  decided to do something else than
+  raymarching. :)
+  
+  Credits:
+   code: 
+     cupe, urs, abductee, 
+     las, red (no specific order)
+   music:
+     red
+   camera:
+     psykon
+
+ - -- ---=-==-===========-==-=--- -- - 
+ 
+  Requriments:
+   * OpenGL 4.2,  
+   * Nvidia GTX 560 or better
+     (sorry, not tested on AMD)
+
+ - -- ---=-==-===========-==-=--- -- -
+

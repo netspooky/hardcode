@@ -1,0 +1,39 @@
+
+
+
+                                       42
+                                    An intro
+                                for Assembly'94
+
+                              (C) 1994 by Halcyon
+
+
+
+        42 is our contribution to Assembly'94 introcompetition. It's our
+        first intro, so we don't expect anything. We have been making 42
+        about one or two months, 'coz we are so lazy and we have couple
+        of another projects too. Well, you can read more about Halcyon
+        from HALCYON!.NFO, which came with this package.
+
+        42 requires atleast 386sx and 100% compatible VGA to work. It
+        doesn't require lots of memory (200kb or something) and it can
+        be run with any memory managers (atleast QEMM, HIMEM or EMM386).
+        You might be wondering why we support only GUS altought we are
+        using DSMI. The reason is that DSMI is so big, that with all
+        soundcards and module formats it uses 38kb!! (And that's packed)
+        But with GUS and AMF it uses around 14kb (packed), so as you can
+        see, DSMI is quite useless in 64kb intros! If you are wondering
+        why this intro is SOOOOOO SLOW, consider that it has been compiled
+        with BorlandPascal70.. Oh yes, this intro supports
+                               >>DOLBY STEREO<<
+                             (atleast I think so)
+
+        If we win some money with this intro, we'll give them to charity!
+        (yeah, sure!)
+
+        Well, I think this is about as much bullshit as anybody can take,
+        so I finish this text now..
+
+
+
+                                                     -\> Blitz / Halcyon</-

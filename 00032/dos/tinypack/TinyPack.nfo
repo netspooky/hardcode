@@ -1,0 +1,25 @@
+As software is getting biger,
+craPack gets smaller.
+
+New generation of craPack is here:
+TinyPack (255 craps in 24 bytes).
+Enjoy it.
+
+
+
+
+File list:
+
+
+tinyPack.com		24bytes
+
+bonus\TinyExit.com	28bytes	;self exitable version of TinyPack
+bonus\Clicky.com	23bytes ;static version, with you can click thru
+bonus\ClkExit.com	27bytes ;same as above, but selfexitable
+
+bonus\craPack\		history
+
+                
+
+by VAK
+19.03.2005

@@ -1,0 +1,48 @@
+Loonies present a Windows 4k intro:
+
+Traskogen - TRSAC 2011 Invitation
+
+Mostly made at Outline and Solskogen 2011 ;)
+
+Credits:
+Blueberry: Synth, Additional Mentorizing
+Maytz: Music
+Psycho: The rest
+
+Requirements:
+DirectX 11 graphics card - most should do.
+
+Technical:
+-Font build of primitives (2-5 per character) for ray marching.
+-CPU code assembling primitive lists for the gpu.
+-Scene ray marched by compute shader in 16x16 pixel tiles, first building
+a list of active primitives for each tile in shared mem for later raymarching pr pixel.
+-Oneshot mode of the raymarcher spawning particles to the particle buffer
+instead of writing pixels on screen buffer.
+-Small and simple particle system (fixed size particles, gravities/groundcollision/turbulence)
+-Single pass DOF filter - 30 taps.
+
+(And no... compute shaders using shared onchip memory are not 
+easily portable to dx10, and without the tile optimization 
+it is way to slow to raymarch that many objects... ;)
+
+
+
+
+
+Autumn time is TRSAC time!
+
+We are once again having TRSAC, and entirely in keeping with
+the usual way of things, it is in the same location as last 
+year: sunny Århus, Venice of the eastern seaboard, shining 
+beacon of culture and all-round nice place.
+
+Same as last year, the party is being held in the third weekend
+of October, which is to say the 21nd to 23th.
+
+If you have any queries, contact us at trsac@trsac.dk. We had
+a blast last time, so please - join us for some party fun once
+again, at the most bestest and most friendliest chilled-out 
+party that used to uses ducks for prizes! 
+
+Read more at www.trsac.dk

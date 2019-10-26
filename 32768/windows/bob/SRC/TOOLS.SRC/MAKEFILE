@@ -1,0 +1,12 @@
+# make file for tools.src/*.
+# 2001 - Kuno Woudt <warp-tmt@dds.nl>
+
+                 CC = gcc
+             CFLAGS = -ansi -pedantic -Wall -g
+
+             target = lbm2raw bin2h fontripper spriteripper
+
+all: $(target)
+
+clean:
+	$(RM) $(target)

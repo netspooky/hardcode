@@ -1,0 +1,27 @@
+supports
+-sb1.0
+-gus
+
+if you have weird irq's try using autodetect for the irq, dma, port
+mambojambo stuff...
+
+if you have a gus just select gus, pick auto-detect on the rest and pray.
+
+if it actually works youll be given a sigh of a cute man and an elefant.
+if its stuck its because of the sound.
+
+music and elefant sprites by traven/syndrome (traven@planet-d.net)
+cute green-haired guy by iceball
+idea and tomato on the green-haired guy's face by psychic symphony
+
+we are arf!studios friendly (www.arfstudios.org or arf!studios...)
+
+this was released at takeover '99 party.
+
+sorry about not greeting anyone but it just didnt fitted in the intro.
+next time. you know i love you all.. :)
+
+its useless to say i expect another last place with this intro (im kind of
+growing a collection in here) so please dont vote for me.
+
+ec97104@fe.up.pt - psychic "demojournal sucks!" symphony

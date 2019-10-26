@@ -1,0 +1,44 @@
+
+-------------------------------------------
+Mandelbulb Project Artifact 1 (aka Jeffery)
+-------------------------------------------
+
+This was an attempt at a 256 byte demo for Syntax 2010, which I started 
+a week before the party - having not coded x86 asm for 15 years, and having
+never coded FPU asm at all.  So yeah, I didn't really understand what I was
+getting myself into.  But still, I'm pretty dissapointed that it didn't get
+quite down to 256b for the party - this was, in fact, completed a couple of
+days later.  
+
+In any case, I was going to not compete with it at all, and leave it for beach
+party, but it was pointed out to me that shit's illegal.  Honestly, it's pretty
+terrible, but like I said, this is my first try - maybe one day I will reach
+the lofty heights of the rest of the scene.  At least, maybe I'll laern to use
+colour.
+
+I included the original source/binary so you can see the difference.  There is
+one algorythmic comprimise that I thought was a good idea at 4am, which is that
+I changed the limit from 16 to 8, because I already had 8 in bx, but not 16.
+This saved 2 bytes :).
+
+The actual effect itself is a pretty naieve implemntation of a mandelbulb 
+renderer.  The most expensive part of the code is actually the rotation
+matrix stuff, sadly - i hear there is a faster way to do this, but damned if 
+I know what that way is.....
+
+Also better bounding on the speed.  Your milage will vary heavily.  But that's
+what happens when you partycode...
+
+Email me at jaymz@ninjit.su or duck@chickenandduck.net - I'm curious to hear if
+people enjoyed this, or if they think it's the worst thing in the world.
+Alternatly, break my daily work monotony with msn/gtak at
+jaymz@artificial-stupidity.net
+
+Source is included for those who are curious.  The final will almost certantly 
+include better colour, and be slightly faster.
+
+Respect to everyone I've ever met in the scene.  I love you all.
+
+ 	-- A Life in Hell/Warriors of the Wasteland/Unreal
+	14-November-2010
+

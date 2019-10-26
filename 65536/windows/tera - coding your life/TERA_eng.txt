@@ -1,0 +1,75 @@
+!=======================================================!
+|                                                       |
+|               S  y  s  t  e  m    K                   |
+|                                                       |
+|                     T E R A                           |
+|               - coding your life. -                   |
+|           a  demo  in  less  than  64KB               |
+!=======================================================!
+From Kyoto and Tokyo, Japan
+
+First presented at :
+  2chParty'06 : http://2chparty.net
+
+Party version :
+  released on Mar./31/2006
+
+----------
+System requirements :
+- Pentium compatible CPU at higher than 1Ghz.
+- Any video card with OpenGL v1.2.1 support.
+  (Radeon9000, GeForceFx5200 and higher)
+- 256MB of RAM
+- any sound card
+- Windows XP or 2K
+
+Recomended system :
+- Windows XP
+- P4-3Ghz(Prescott) or AthlonXP2500+ and higher
+- Radeon9600XT or GeForceFX5600 and higher with latest driver.
+
+----------
+We greet those who producing demo/intro(s) especially:
+301
+aardbei
+AND
+Andromeda Software Development
+Brain Control
+Conspiracy
+daisy
+eldorado
+Exceed
+Farbrausch
+Fairlight
+ka-i
+Kakiarts Technologies
+MFX
+miURA
+mocodeng
+n.h.k.
+RGBA
+Umlaut Design(*1)
+S.o.k.A.
+Stravaganza
+Spontz(*1)
+tbc
+t-Rex
+TOBY/WAZA
+Traction
+The Black Lotus
+VIEP
+volvox
+(*1) We're sorry but we are unable to type umlaut-marked characters.
+
+
+We hope you'll enjoy our 3rd 64k made with MOE(our demomaker).
+#############################################################
+
+Created by System K :
+  kioku@Tokyo...gfx
+  sincl@Kyoto...music
+  c.r.v@Kyoto...code
+
+Contacts :
+  site : http://www.sys-k.net/
+  mail : kioku@sys-k.net

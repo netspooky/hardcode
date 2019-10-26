@@ -1,0 +1,21 @@
+      __________________________ 
+     /                          \
+    < fr-078: Sweet night dreams >
+     \__________________________/ 
+
+           Code: BeRo
+          Synth: BeRo
+          Music: BeRo
+            GFX: BeRo
+
+  Minimum requirements: 
+
+   - NVIDIA Geforce GTX 970 or better NVIDIA graphics card
+   - 8GB RAM
+   - SandyBridge, IvyBridge, Haswell or Broadwell DualCore 
+     or better or similar CPU from AMD.
+
+
+
+
+

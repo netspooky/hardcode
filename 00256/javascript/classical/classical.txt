@@ -1,0 +1,32 @@
+256 byte competition
+
+
+entry name: classical
+author: Karl Prosser (Karl/Godcentric .. Klumsy/Surprise ! Prodcutions)
+email: karl@godcentric.com	
+url: www.godcentric.com
+
+requires IE..(and some speakers)
+dunno which version, probably 4 upwards..
+
+161 byte html file, and 94 byte midi..
+
+
+comments:
+the html doesn't even have any script and is not a wonderpeice at all..
+with 161 bytes i couldn't do much really.. i just wanted something thatwould
+fill the screen, and have a consistant feel. My goal was to create something
+that had a demo feel and demostyle to a point, and we as a bit of uniqueness
+also my goal was to create something with music.. when i started i figured 
+i'd give myself
+156 bytes for the html and 100 bytes for the midi.
+i got pretty close.. i made the midi in modplugtracker, then exported it to a midi
+and in another program stripped out the addition 2 channels not used and renamed Track 1
+to A and track 2 to B to get a few more bytes down.. the song only contains 9 notes (and
+an addition note to make sure IE doesn't cut short the pattern).
+
+so the theme is CLASSICAL..
+the message (the 5 webdings) represents the Holy Spirit Blowing, and Jesus loving the 
+world.
+
+Karl

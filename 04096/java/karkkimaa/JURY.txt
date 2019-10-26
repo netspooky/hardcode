@@ -1,0 +1,4 @@
+This entry can be run on either Vista or XP machine, both should work equally well.
+Run Karkkimaa_1280x720_fullscreen.jar by double clicking it or with command "java -jar Karkkimaa_1280x720_fullscreen.jar".
+It takes a while (less than 30 seconds) before anything happens, be patient.
+Press mouse to exit, no keyboard support this time.

@@ -1,0 +1,21 @@
+
+ "Saving Tomatoes: D.R.T."
+ 
+ A 4k intro for Revision 2015 by T$
+ 
+ Requires DirectX9c (including the D3DX library, stored on disk as d3dx9_43.dll) and
+ a 3D graphic accelerator featuring VS 2.0, PS 2.0
+
+ Running time: 1:01
+
+ Files included:
+
+* Ts4krv15_1920x1080.exe (Compo)
+* Ts4krv15_1280x720.exe
+* Ts4krv15_640x480.exe
+* Ts4krv15_1920x1080_windowed.exe
+* Ts4krv15_960x540_windowed.exe
+
+ Color modes used:
+ Display format : X8R8G8B8
+ Z-/Stencilbuffer format: D24S8

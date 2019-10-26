@@ -1,0 +1,20 @@
+prod:    tremulo
+type:    128 byte intro
+author:  doktorenko
+date:    07-12-2011
+
+Monochromatic wobbling blob effect.
+
+The effect is due to the periodicity
+of a pseudo-random number generator.
+
+It's necessary to watch at quite high speed to appreciate it.
+
+If dosbox is too slow please use a real dos installation,
+
+I have tested it on freedos successfully (turion 1600Mhz)
+
+tremulo.com
+tremulo2.com	;faster effect, not faster algorithm
+relief1.com		;high-relief effect
+relief2.com		;possibly faster on dosbox

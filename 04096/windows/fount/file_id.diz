@@ -1,0 +1,36 @@
+Team:   Rafineria Gang 42  (RG42)
+Party:  SceneCON'03
+Compo:  4K INTRO
+Title:  FOUNT
+---------------------------------
+
+Coder:  Bred
+Music:	Vincenzo
+Requires:
+	DirectX 8.1 
+	Windows XP 
+	(not tested on other Windows)
+
+
+
+Playing time: ~2min
+
+This is intro (com) prepared with dropper, so writes c:\e.exe to your disk and runs it.
+Check your write and run permission on c:\,please.
+The intro plays a mod file from memory.
+You can terminate intro with esc.
+If you see the mouse cursor on screen then move your mouse and the corsor go to hide.
+
+
+Tools witch i used for intro:
+nasm 0.98.35 (this version support -O options)
+alink 1.6
+apack 0.99b
+dropper
+ultraedit 10.x
+
+
+
+	
+
+

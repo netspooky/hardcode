@@ -1,0 +1,21 @@
+------------------------------------------------------------------------------
+ADDlib intro 64k by ADDICT.
+
+CODE: MX
+ MSX: RTS
+ GFX: MANTRA
+
+To see something you need:
+
+- Pentium     (better have p2 or p3 ;)
+- 32Mb of RAM (better have 64Mb)
+- GFX card witch OpenGL support (ie. RIVA TNT, TNT2 , GeForce, Savage 2000 etc.);
+  [tested on Detonators 5.22 from NVIDIA]
+  - extensions: GL_ARB_multitexture
+                GL_EXT_compiled_vertex_array
+- Soundcard !
+
+
+- any problems ? mailto:the_ad@wsi.edi.pl
+------------------------------------------------------------------------------
+

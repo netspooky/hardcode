@@ -1,0 +1,16 @@
+
+---------(Proyecto Euler)-(K5)
+
+tipo de produccion      : 4kb intro
+nombre de la produccion : Outside Signal
+grupo/autor             : Infinite Darkness
+party                   : Euskal 7
+puesto                  : 4
+fecha                   : Julio 1999
+comentario              : PC-DOS
+
+http://www.proyectoeuler.org
+k5@ideafix.org
+
+-----------------------------
+

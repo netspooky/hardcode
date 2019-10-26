@@ -1,0 +1,107 @@
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º     °°°°°°°° °°°°°°°° °°    °° °°°°°°°°  °°°°°  °°    °° °°°°°°  °°°°°°    º
+º        °°    °°       °°   °°     °°    °°   °° °°°°  °°   °°   °°         º
+º        ±±    ±±±±±±±  ±±±±±       ±±    ±±   ±± ±± ±± ±±   ±±   ±±         º
+º        ±±    ±±       ±±   ±±     ±±    ±±   ±± ±±  ±±±±   ±±   ±±         º
+º        ²²    ²²²²²²²² ²²    ²²    ²²     ²²²²²  ²²   ²²² ²²²²²²  ²²²²²²    º
+º                                                                            º
+º                          P  R  E  S  E  N  T  S                            º
+º                                                                            º
+º           ²²²²²²²     ²²²²   ²²    ²² ²²²²²²² ²² ²²²²²²²  ²²²²²²²          º
+º           ²²    ²²   ²²  ²²  ²²    ²² ²²      ²² ²²    ²² ²²               º
+º           ²²²²²²²   ²²    ²² ²²    ²² ²²²²²²  ²² ²²²²²²²  ²²²²²²           º
+º           ²²    ²²  ²²²²²²²²  ²²  ²²  ²²      ²² ²²    ²² ²²               º
+º           ²²    ²²  ²²    ²²    ²²    ²²      ²² ²²    ²² ²²²²²²²          º
+º                                                                            º
+º        # C O D E R S  2 5 6  b y t e  f i r e  c o m p o  e n t r y        º
+º                                                                            º
+º                               b y  r a v e n                               º
+º                                                                         rv º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+°°° REQUIREMENTS
+°°°°°°±±±±±±²²²²²
+
+    486DX 33Mhz  - will run on a 286, but would be pathetic...
+    VGA video card
+    about 128k base mem.
+
+    I Recommend:
+    486DXı 66Mhz
+    Local Bus VGA video card
+
+
+°°° ABOUT
+°°°°±±±±±²²²²
+
+This little fire demo was produced for the #coders 256 byte fire compo.
+It was created in a hurry after I saw Gaffer was running this compo through
+the csipd newsgroup. Several of my old routines were thrown together, tidied
+up and optimized (*cough* *cough*), to form what you see in this package.
+No doubt you will have seen these little tricks before in about 1000 other
+demos, but hey - I like the idea of cramming as many effects as I can into
+256 bytes.
+Feel free to _borrow_ my ideas and code for this thing, but just remember to
+mention me in any credits or greetings for the production you use my stuff in.
+This demo is the first release from tektonic and look out for more stuff in
+the future - when I get around to coding more!
+
+-raven
+
+
+°°° GROUP MEMBERS
+°°°°°°±±±±±±²²²²²²
+Name: Andrew Nicolle
+Handle: raven
+Age: 19
+Tasks: code
+Email: 9405934s@lux.levels.unisa.edu.au (until Nov '97)
+Notes: studying 3rd yr Computer Systems Engineering
+
+Hmmmm.... tektonic seems to be lacking a few members.
+Maybe YOU can do something about that. I'm looking for _Australian_ coders,
+musicians, and gfx artists who know what they are doing, and are willing to
+be a part of tektonic so we can be a greater part of the Australian demo
+scene. If you think you've got what it takes, send me an email and we'll
+discuss you becoming a part of the group.
+BTW: Bonus pts if you live in South Australia!
+
+
+°°° GREETINGS
+°°°°±±±±±²²²²
+raven greets the following k00l ppl:
+
+Adam Seychell
+Black Artist / Heretics
+Chowderhead / PoP
+Denthor / Asphyxia
+FireLight
+Gaffer/PRoMETHEUS
+Jedi / Oxygen
+JsNo / SuperReal & Hornet
+Kiwidog / Hornet, Terraformer
+MZ / PoP
+NetSlider
+Random / Xtatic
+Thynne
+Tumblin / Bodies in Motion
+Trixter / Hornet
+and all other scene ppl
+
+
+°°° FUTURE PLANS
+°°°°°°±±±±±±²²²²²
+
+All of the stuff I have planned revolves around protected mode coding in asm.
+I use DOS32 by Adam Seychell, since it seems to be one of the best dos-
+extenders around and is very easy to use.
+Things that are currently well under development include a protected mode mod
+player, a 3d-engine with full lightsource shading and texture mapping, and a
+few others which I won't mention until they are ready to release.
+
+Cya
+-raven
+
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º tektonic '96 º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼

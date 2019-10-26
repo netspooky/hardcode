@@ -1,0 +1,15 @@
+
+            +---------------------------------------------------------+
+            | Introkreatywne Niskopoziomowe Doznania                  |
+            |                     _       _      ...                  |
+    _       |                    |_|___ _| |     fmul    dword [BX+8] |
+ /(/~\)     | presents           | |   | . |     frndint              |
+ \\>-<_____/)                    |_|_|_|___|     fld     ST4          |
+  \/v\.----'|                                    fmul    dword [BX]   |
+   ) (      | Intra - Nasza Demoscena            fld     ST2          |
+   VWV      |         Intros - Our Demoscene     fadd    ST1          |
+   |Y\      |                                    fcos                 |
+   ||))     | 256 bytes intro                    fxch    ST3          |
+   |//      |                                    ...                  |
+   \|       | Tigrou & Pirx :: February 2009     NASM 2.05.01         |
+   |/       +---------------------------------------------------------+

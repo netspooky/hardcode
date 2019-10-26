@@ -1,0 +1,35 @@
+
+ impact 3 - the armageddon (c) mewlers 1999
+ the third and last part of the famous impact (tm) series
+ a 64k intro from elevator '99
+
+ code: pentium
+ graphics: vga
+ music: gus
+ the rest: honeybunny, rainmaker and 216
+
+
+ some words about i3:
+
+ At the beginning there is a effect that simulates gravity and/or a birth
+ of a galaxy. It has 32768 stars and they all gravitate each other. That
+ means about one billion calculations per frame.
+
+ Each star pulls itself towards each of the others using correct newtonian
+ mathematics. Having 32768*32768/2 "strings" is still not a problem because
+ they get evaluated at the same time due to the brilliant large matrix
+ multiplication routine based in fourier transformation. The same trick can
+ be applied also in factorizing very large numbers in O(log n) time.
+ (this is why usa is starting to let people use "strong" encryption soon)
+
+ The antialiased planet consists of about 32768 polys. You might see some
+ interpolation errors but they come from inaccurate perspective correction
+ (This is because we use highly optimized algorithms and sometimes the
+ quality suffers).
+
+
+
+ Greetings:
+ A-men, Byterapers, Coral, Council 4, Halcyon, mfx, Tpolm,
+
+

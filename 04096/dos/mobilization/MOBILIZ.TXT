@@ -1,0 +1,106 @@
+
+                        M O B I L I Z A T I O N   
+                          
+                            by Jani Honkanen
+
+      This 4kb intro came 3rd in the Assembly '96 4kb intro competition
+
+Hardware requirements:
+- 386 with 387 or 486DX+ (NOT 486sx)
+- 100% VGA compatible video card
+- about 500kb of free base memory
+
+You can contact me via e-mail at:
+jani.honkanen@solutions.fi
+
+If that doesn't work, you can contact me at the MBnet BBS by the name Jani
+Honkanen. This is a lot slower way though, because I don't visit that BBS
+very often.
+
+NOTE! If you are interested in DEVELOPING A 3D GAME OF HIGH QUALITY
+      with me (and a couple of other guys), read the paragraph below (after
+      the copyright license)
+      
+
+
+                        COPYRIGHT LICENSE
+                        
+                        
+  This material is not freeware. You are allowed to copy it without 
+  restrictions for non-commercial use.
+  
+  No payment of any kind may be charged for this product or any combination
+  of products or services including this product without my authorization
+  and official written license.
+  
+  Commercial use, especially the industrial manufacturing on any data
+  storage media and their distribution without the expressed permission of
+  the producer, is strictly prohibited.
+  
+  This program or the data files contained therein may not be altered or
+  modified without the permission of the author.
+  
+  You take full responsibility for the operation of this software and any
+  consequences thereof. I the creator can not accept liability for damages
+  or failures arising from the use of this software.  
+                        
+                      
+                      
+                      MY CURRENT GAME PROJECT
+
+  I am currently developing a high-quality 3d game, which I temporarily call
+the "Strike". I have been in it for over a year now and it is progressing
+slowly but securily. The trouble is that it is progressing a bit TOO slowly
+and I need a couple of more people to assist. I'm on solo right now and I
+thought that a group of say 2 coders and 1 graphician or 3 coders and 2
+graphicians would be adequate.
+  The current status of the game is as follows: the game operating system is
+about complete (the best game operating system that I've ever heard of), a
+few dozen intermediate-quality textures have been drawn, a few music tunes
+(of which only one or two are of usable quality) have been composed, a half-
+completed superior 3d graphics engine, a 3d map/object editor and lots of
+small things have been done.
+  The reason why the graphics or musics aren't of too high quality is that
+I'm a coder - not an artist. This is obviously another reason for the need
+of a graphician. As I mentioned, the 3d engine is superior. That's because
+I don't use traditional painter's algorithms, z-buffers or BSPs, but instead
+I invented a completely new way of representing space volumes. That easily
+enables full moving vehicles and at least the 3 even more revolutionary
+features that I have discovered so far. Additionally, my techique is in a
+typical case faster than BSP. We will discuss about those 3 features and
+other aspects of the game when you are closer to joining the group.
+  If you think that you are a good coder or a good graphics artist, you may
+contact me at the e-mail address mentioned above (jani.honkanen@solutions.fi).
+One requirement for joining is that you live in Finland and you should have
+an e-mail address or at least you should get one, if you join. If you aren't
+sure of whether your skills are adequate or not, it doesn't hurt contacting
+me and finding it out. If you are a coder, you should be familiar with
+assembly language programming and should be able to code 3d-things. A
+graphics artist should be good in drawing textures and designing 3d-objects.
+  For coders I would like to say that don't be afraid of getting only the
+dirty jobs. I know how it feels to be hesitating whether to join a group or
+not scared by the fact that you might end up coding the most boring pieces
+of the game. I want to fix that problem and there are still some goodies
+left in this game, for example the whole artificial intelligence. We will
+share the rest of the coding so that all the coders will get quite equal
+amounts of interesting and boring parts of the code. Of course it will be
+notified if you have a different understanding on what's boring and what
+isn't.
+  The graphics artists' work is mostly drawing textures, backgrounds and
+designing 3d objects. You don't have to be the best artist in the Finland
+to have a good chance of being able to join. Actually, the game graphics
+artists are a bit rare and I'm happy if I manage to get a single good artist
+into the group.
+  After all, you shouldn't be afraid of contacting me if you have some
+intention of joining. You won't lose anything by trying, but you can gain
+a lot by succeeding. This game will really rock, as you will realize when
+we start discussing about the game features. All I need is some more
+developers to finish it with me.
+  If you decide to contact me, just send me e-mail and tell me, whether you
+are a coder or an artist and that you wish to consider joining. You may
+start telling me about yourself and send me some of your productions or you
+can leave the questions for me to ask. If you haven't made any such product-
+ions, you should try to find some other way to let me check out your skills.
+
+
+

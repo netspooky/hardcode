@@ -1,0 +1,9 @@
+Terve,
+ajakaa
+TO_RUN_FULL_SCREEN_PRESS_X_AND_WAIT.htm
+
+
+kyseisen häksin kautta se pakottaa ajamaan windo.htm kokoruudulla. window.htm sisältää intron ikkunassa.
+ruudulla näkyy hetken aikaa roskakirjaimia jotka aiheutuvat pakkauksesta, odottakaa muutama sekuntti ja intro alkaa.
+
+käyttäkää chromea jos vain mahdollista.

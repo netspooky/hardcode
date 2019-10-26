@@ -1,0 +1,40 @@
+	Revised version.I fixed some memory allocation, as it hanged if
+	it cannot alloc memory.Also I speed up the scroller and add a
+	higher timer frequency.
+	As you already realized, this is ICEd demo from Karg(hey,that's me:-).
+	So : what is this demo good for (you'll ask) ? This demo was made as a 
+	present for a dear IRC friend- Julie. The demo contains some new ideas 
+        of mine and also concludes my 5 years apprenticeship in computer 
+        graphix. The demo has 3 (three) frames : first, the greetings(spinning
+        cube + fractal background + text); then an almost real raytracing;
+        and finally a pixel shattered effect applied to a picture.
+
+	This demo REQUIES minimum a 486DX-2 66Mhz and a 256k VGA card.I
+	tested on this configuration and it worked pretty good (except
+	the raytrace part which is - by definition - slow ). The 'dream'
+	configuration would be a Pentium 90Mhz with a PCI VGA card (this
+	is my developing environment). Also REQUIRES minimum 580k base
+	memory free. Also, it is ADVISABLE that you didn't run it under
+	Win31 or Win95 environment or any DOS emulators under OS/2, Apple 
+	or Unix.
+	Note 1 : I run it from Win95 and it worked ( my computer is K5-90Mhz,
+	SIS PCI VGA card, Creative SoundBlaster and 4X CD-ROM, 1.29Gb Fujitsu 
+	HDD). Also Julie ran it under WIn95 and it worked ( her computer is a 
+	Pentium HP with 4X CD ROM , 28.8k internal modem ). But I do not 
+	guarantee functionality on particular hardware.
+
+	Note 2 : The demo was coded in Pascal and ASM. It was compressed with
+	Pklite ( because I had to e-mail it ;original size is 26k, reduced is 
+	15k) and protected with Guardian Angel. Because of the latest, an 
+	heuristic virus scanner will always report that the demo is infected 
+	( F-Prot says : 'This is an armoured program. Many games and 
+	utilities use this ...').
+	
+	This demo is freeware. Spread it and enjoy it. If you want to modify
+	it , be my guest :-))). I assure you that will be a hell of a job : 
+	it will put you slimy-rotten-rancid-stinky hacker's brain to work.
+	
+	Send your opinions to pp709@cs.utt.ro. If you are a cool gfx artist,
+	a good 3D&animation designer or an inspired musician and you want to
+	join my game project (PIRATES : SURVIVORS) , also feel free to contact 
+	me.

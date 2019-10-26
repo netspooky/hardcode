@@ -1,0 +1,8 @@
+Name:        Army
+Compo:       4K procedural graphics
+Code by:     Stan/Rebels
+Packed by:   Crinkler
+
+Uses OpenGL. You can press space to move scene a little.
+Image is a little bit simple and not polished but this is kind of prod 
+I make for my own fun, not for competition.

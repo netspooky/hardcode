@@ -1,0 +1,282 @@
+;===============================================================================
+;
+;	256 AUTOMATA      
+;	a 
+;	256byte demo
+;	by                
+;	Polaris & BarZoule
+;	of the            
+;	Northern Dragons  
+;	
+;	featuring:
+;	 colors, music, sync, self-exit, exit on [esc]
+;
+;	Lastest version of the source is below, so you can try
+;	to figure out what's going on and maybe learn from it.
+;
+;===============================================================================
+bits 16					
+org 100h                
+                        
+%define b byte          
+%define w word          
+                        
+GD_WIDTH	equ 40      
+GD_HEIGHT 	equ 25      
+GD_SIZE 	equ (GD_WIDTH*GD_HEIGHT-8)  ;//paste it to screen+8, but logically it starts at 0,0
+GD_STEP_X 	equ (3)
+GD_STEP_Y 	equ (GD_WIDTH*3)
+PART_MAX 	equ 6
+COLORIZE	equ 0
+COLORIZE2	equ 1
+
+PENTIUMPRO	equ 0
+
+	
+SECTION .text ;_________________________________________________________________
+;_______________________________________________________________________________
+
+main:
+;set screen mode
+					;mov ax,0h
+	int 10h
+	;15 bytes of code. same as 5 particles.
+	mov di,partD	;assume partD and partP are consecutive
+	mov al,GD_STEP_X
+	mov cl,PART_MAX
+rep	stosb
+	mov al,4*GD_STEP_X+2*GD_STEP_Y	;00FC
+	mov cl,PART_MAX
+rep	stosw	
+	
+	mov ch,02h		;mov cx,512, drives the length of the intro
+mloop:	
+	mov ax,242h		;mov ax,512+64+2, gotta be more than 64 more than CX
+	sub ax,cx
+	shr ax,6		;3	ax = (512-cntz)/64
+	cmp al,PART_MAX	;2	compare low only.
+	jl under5		;2	max of 5 particle at once
+	mov al,PART_MAX	;2	if(PART_NUM>=5)PART_NUM=5;
+under5:
+	push cx
+;updateASM______________________________________________________________________
+	push ax			;got PART_NUM through AX
+
+	mov ch, 4h ;GD_SIZE	;undo last draw (GD_SIZE if 03e0, if we count over 400, it's plenty
+%IF COLORIZE2
+	mov di, grid-1	;grid-1 == col
+	stosb			;al == particle count
+%ELSE
+	mov di, grid	;grid-1 == col
+%ENDIF
+	mov al,-1
+rep	stosb
+
+;//move + draw
+	pop cx			;retrieve PART_NUM to cx
+	stosb
+update:
+	mov si,cx		; cx at this point is 5..1, hence -1 and -2
+	lea di,[partP-2+si]
+	add di,si
+	add si,partD-1
+	
+;//flip dir on borders
+	mov ax,[di]		;partP+[di]
+	mov dl,GD_WIDTH
+	div dl			;ah = ax % W  ; al = ax / W
+	mov dx,ax		;keep a copy
+	or ax, 1818h	;	((24<<8)|24)	;ah|=24 ; al|=24
+	cmp ah,18h
+	je play
+	mov dl,dh		;note to play in dl
+	cmp al,18h
+	jne noplay
+play:
+;//play note
+	movzx ax,dl
+	mov dl,3
+	div dl			;al/=3
+	push cx
+	xchg cx,ax		;not really safe but.. dl should always be multiple of 3 right?
+;playNote_______________________________________________________________________
+	;; takes bx as input
+	;; put mpu into uart mode
+	;; dx = midiport
+	mov dx,331h
+	mov al,3Fh
+	out dx,al
+
+	;;play a test note
+	dec dx
+	mov al,90h
+	out dx,al		; Note on - chanel 0
+	mov ax,0A53Ah	; otherwise get it in CX
+%IF COLORIZE2
+	mov b [col],al	;colorize background, picking an ok col-scheme
+%ENDIF
+gnote:
+	shl ah,1
+	adc al,2
+	loop gnote		; done computing the note
+	out dx,al		; Note number
+	out dx,al		; Velocity
+;_______________________________________________________________________________
+	pop cx
+
+;//bounce
+	neg b [si]		;partD+[si]
+noplay:
+;//move
+	movsx ax, b [si];partD+[si]		;partD is byte   ;movsx as big as mov + cbw
+	add [di],ax		;partP is word
+	;di == partP[cx]
+	;di = &grid[ partP[cx] ]
+	;bx = grid[ partP[cx] ]
+	mov di, [di]
+	add di, grid
+	movzx bx, b [di];bx used in full for storing AL
+	mov ax,cx		;counter is 1..5
+	dec ax
+	cmp bl,bh		;grid+[di]  if <0, nothing plot yet on grid
+	jl  keepdir		;signed compare
+;//collide
+	mov ax, ((-GD_STEP_Y) & 0FFh) | (GD_STEP_Y << 8)
+	mov dl, [si]
+	cmp dl, ah
+	je xax
+	cmp dl, al
+	je xax
+	jmp yax
+midjump:	jmp mloop	;loop mloop toward the end can't jumps that far so we use this to bounce up
+xax:
+	mov ax, ((-GD_STEP_X) & 0FFh) | (GD_STEP_X << 8)
+yax:
+	mov [si],ah
+	mov [partD+bx],al
+	mov al,-2
+keepdir:
+	stosb			;mov BYTE PTR [di],al		;di is gonna be reset after loop, don't care.
+	loop update
+;_______________________________________________________________________________
+;pwait______________;(15b)______________________________________________________
+	xor ah,ah		;2	;seed initial value
+	int 1ah			;2
+	xchg bx,dx		;2
+	inc bx			;add bl,02 takes 3 bytes. two inc takes 2
+	inc bx
+wloop:
+	int 1ah			;2
+	cmp dx,bx		;2
+	jbe wloop		;2
+;_______________________________________________________________________________
+;drawASM________________________________________________________________________
+	;mov cx, GD_SIZE
+	mov ch, 4		;GD_SIZE is 03E0h, couple bytes short of 0400h
+	mov si, grid	;grid is char
+	xor di,di		;mov di,0	;screen offset
+	push es
+	push 0B801h		;+1 to center in screen :D
+	pop es
+fillit:
+	lodsb			;al = *(grid++)
+	cbw				;do we really have to clean it up? yes!
+	cmp al,0		;-1:space  -2:diamond
+	jl  ntbl
+ndm:
+	xchg ax,bx
+	mov al,[partD+bx]
+	shr al,6		;hack, because of the input numbers, gives 0..4
+ntbl:
+	add al,2		;from -2..3 to 0..5
+	mov bx,glyph
+	xlat
+	
+;	About coloring.
+;	removing the coloring removes a whole 12 bytes.
+;	recoloring with a constant color could also save an additional byte
+;	now about coloring separately, in a deicated loop: while it looks
+;	like a good idea, removing the need of division and test, it adds
+;	no less than 26 bytes!!
+
+%IF COLORIZE
+ok:
+	xchg bx,ax
+	mov bh,0Eh		;white on black
+	;this provides some coloring... (just a pale square in the middle)
+	mov ax,di
+	mov dl,GD_WIDTH*2
+	div dl			;ah= ax % dl; al= ax / dl
+	cmp ah,48
+	ja ncol			;need just one compare, since it's shifted AFTER :)
+;	mov bh,7Fh		;white on grey, if on the square
+	mov bh,[col]
+ncol:
+	xchg ax,bx
+	stosw			;mov al only (not ax), to omit coloring
+%ELIF COLORIZE2
+ok:
+;	push ax
+;	mov ax,di
+;	mov dh,GD_WIDTH*2
+;	div dh
+;	sub ah,50
+;	pop ax
+;	lahf
+;	and ah,080h
+;	stosw
+
+	stosb
+	mov ax,di
+;	mov dx,(GD_WIDTH*2)<<8|7Eh
+	mov dl, GD_WIDTH*2
+	div dl
+	cmp ah,50
+	mov al,[col]
+%IF PENTIUMPRO
+	cmovge ax,di	;crashes on DOSBOX
+%ELSE
+	jnge skip		;one byte too large :(
+	mov ax,di
+skip:
+%ENDIF
+	stosb
+%ELSE
+ok:
+	stosb
+	inc di
+%ENDIF
+	loop fillit
+	pop es
+;_______________________________________________________________________________
+	pop cx
+	in al,60h
+	dec al
+	loopnz midjump	;mloop is too far, gotta use a midjump
+;restore screen mode
+	mov ax,3h
+	int 10h
+	ret				;Terminate not so clean, but it's cheap
+;===============================================================================
+;keping data in the same section to prevent byte wasting alignment
+;SECTION .data ;_________________________________________________________________
+
+;super precise order. we shr 6 the input and it gives us the index.
+;only posible with these number, otherwise we'd have to find other masks or something :)
+	;03h -> 10h		00000011
+	;78h -> 1Fh		01111000
+	;88h -> 1Eh		10001000
+	;FDh -> 11h		11111101
+	glyph	db 04,32
+			db 16,31,30,17
+	;padding	dw 444Eh ;last word for ND ;)
+
+
+SECTION .bss ;__________________________________________________________________
+	partD	resb PART_MAX
+	partP	resw PART_MAX
+%IF COLORIZE || COLORIZE2
+	col		resb 1
+%ENDIF
+	grid	resw GD_SIZE
+;===============================================================================

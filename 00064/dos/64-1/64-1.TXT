@@ -1,0 +1,14 @@
+ind presents 64:1 
+
+ .-----   .                .
+ ||       ||   ||        <||
+ ||----   ||   ||  (:)  < ||
+ || _ ||   ----||  (:)    ||
+ || ^ ||       ||         ||
+  -----        --         --
+
+64 bytes procedural graphics
+----------------------------
+coded by Pirx
+assembled with NASM 2.07
+December 2009

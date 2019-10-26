@@ -1,0 +1,9 @@
+Title:                Terrai (unfinished terraiN)
+Created by:           Stepanov Andrey, 2008
+3D Graphics software: Open GL
+Packed by:            Crinkler 1.0a (Jan  7 2007) (c) 2005-2007 Aske Simon Christensen & Rune Stubbe.
+                      Crinkler is included in source code project (as link.exe). I hope, it's creators will forgive me :)
+Tested on:            Windows 2000, Windows XP, seems not to work on Windows Vista
+
+This is my (obviously failed) attempt to create "relaxing" demo :) Music and graphics are really bad... But maybe
+someone will find source code useful. So I release this demo anyway.

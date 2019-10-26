@@ -1,0 +1,1194 @@
+
+                              - ->  T  H  E  <- -
+ _ _ _ __________________________________________
+    \\\\____ \_  _______ \_  | \_  | \____ \____ \_
+        | _| _|  __)_ _| _| \_/ |  |  |  |  | _|  |
+        | \_ \_  |  | \_ \_  |  |  |  |  |  | \_  |                  ....
+   .....|  |  |  |  |  |  |  |  |  |  |  |  |  |  |. . ..............:  :
+ ..:    |___.:|___.:|__|.:|__|.:|___.:|___.:|__|.:|       :   :      :..:
+ :         `--'  `--'  `--'  `--'  `--'  `--'  `--'       :...:        :...
+ :                  _____ ______________________________   ________ _ _ _ :
+ .................  \_  |_\____ \_ \____ \____ \_ _____ \_ \_  ___////    :
+ :...      :     :   |  __/| _| _|  | _|  |  |  | \_  |  |__|  __)_     ..:
+ :  :   ...:     :.  |  |__| \_ \_  | \_  |  |  |  |  |  |  |  |  |   ..:..
+ ...:   :  :......:  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |   :   :
+ :      :     .:...  |___.:|__|.:|__|__|.:|__|.:|___.:|___.:|___.:|   :...:
+ :   ...:.....:   :     `--'  `--'     `--'  `--'  `--'  `--'  `--'iCe :
+ :   :  .:.     ..:..  ................................. .....       ..:
+ :...:..: :. ...:   :. : ..... ......: ..:..:... .:.. .:.: :.:. . . .:
+        :.:     :...:           :...:                 :  :..:
+                                                      :....:
+
+                                                             "Born, Bred, Eaten"
+                                                      Fear Factory - "New Breed"
+
+                    The Bermuda Triangle Proudly Presents...
+
+                                   LIFETRONIC
+                        "Living in an Anti-Matter World"
+
+                      An Old-Style Tribute To Commodore 64
+
+               (We all know that this intro sucks but who cares?)
+
+                  OLD STYLE: THE CHOICE OF THE NEW GENERATION
+
+         If you include this intro on a Cd-Rom you sell or you include
+        in a magazine, you have to send AT LEAST a copy to the authors.
+
+               Please distribute this intro to all your friends.
+
+                Sorry for my poor english but if I wrote this in
+                 my own language you won't be able to read this
+                                    at all.
+
+                Slightly Misquoted From The "DYSLEXIA" NFO where
+                    this was Slightly Misquoted from Necros
+
+                  Code:                                Crusher
+                  Graphics:                              Base8
+                  Music:                                 Dixan
+                  Sound System:        MIDAS by Sahara Surfers
+
+      Warning: With MIDAS 0.40a there are problems if you have an AWE 32
+      with some non-standard settings you will hear absolutely nothing. It
+      happens with my SB 16 that can only play audio in 16 bits Mono with
+      MIDAS. Quite strange... :) If you use a GUS, the tune will be played
+      right but once it reach the loop, it will be stuck on the last note,
+      so you'll hear a constant buzz. :( Sorry but it's MIDAS fault.
+
+Requirements:
+
+                      A Commodore 64 or a 386 [or better]
+                               No FPU is required
+                       200k of free base memory [or more]
+                             Ms-Dos 2.00 [or later]
+                A VGA card with 256k of video memory [or better]
+                        64k of free disk space [or more]
+                            An empty bag [for vomit]
+                             A kleenex [for tears]
+
+                           A Soundcard would be great
+                               [Except AdLib :(]
+
+          IT'S BETTER THAT YOU WATCH THIS INTRO BEFORE YOU HAVE A MEAL
+
+      This demo was intended is to run almost smoothly on a 386/40 :). [It
+      would be nice that there will be the '80386 compo' :))))) Maybe we'll
+      organize it...]. But since I am not a so called "skilled" coder, I
+      got lots of timing problems (Yes, in this intro timing is critical).
+      Since the PC which should run this one on the maxiscreen was a P120,
+      this intro was calibrated for a P120. We are so sorry. If you're
+      afraid, then wait for Lifetronic ][ which (hopefully) wouldn't suffer
+      from these problems.
+
+      This is Crusher's very first release and the very first TBT release.
+      Please don't blame us for the (extremely) low quality of this 64k
+      intro :)
+
+Tested Under:
+
+                           No memory managers at all
+                                 Himem.Sys only
+                           Himem.Sys plus Emm386.Exe
+                                   Qemm v8.0
+
+                            Ms-Dos 6.23b Command.Com
+                                   4Dos v5.52
+
+       THIS BABY WILL NOT WORK PROPERLY UNDER WINDOWS x.xx (any version)
+
+           IT'S UNTESTED UNDER WINDOWS NT, OS/2 AND DOS-EMU FOR LINUX
+
+      Note: With some efforts, this intro may be converted to a X-Windows
+      Application. The first one that will send us a version in binary
+      form for a SUN SPARCstation of this intro will win a free drink ! :)
+
+      TBT is made up of (In Alphabetical Order):
+
+                                Active Members:
+
+                       Alcar       Artist
+                       Bitstorm    Coder
+                       Crusher     Coder
+                       Dixan       Musician
+                       Flagman     Artist
+                       Ice         ASCII
+                       Jazzy       Musician
+                       Jova        Coder
+                       Matley      Musician
+                       Spirit      Coder
+                       Swan        Coder / Artist / ANSI
+                       Tomastik    Musician
+                       Terminator  Coder
+                       ZioBit      Coder
+
+                  Read also TBT.TXT, included in this package.
+
+Little story behind this one...
+
+      [Crusher Speaks]
+    Well, there isn't much to say about this, there's something which has
+    some priority :) I'm a 2d Coder, so don't expect some realtime
+    phong-shaded rotating torus... But there's something joyful... If you
+    listen very carefully to the intro-tune you'll recognize that it has
+    three channels only ! (For you unfortunate human being who hadn't a
+    Commodore 64: The C64 Sound Chip (SID) was capable to mix only three
+    voices, but Commodore got wiser... the Amiga can mix only four voices
+    and if the tune has more than four channels they are emulated via
+    software. The least powerful Gravis card supports Thirty-Two (32)
+    channels by hardware ! ;) Result: C64 was great, the Amiga wasn't as
+    much as the former). However, Dixan did a great job there...
+
+    Midas is great, the only two things that aren't so good are the most
+    important ones... :( The size... about 30k, and it FUCKS VERTICAL
+    RETRACES UP ON MY 386! (But who uses a 386/25 for demo-coding in 1997?
+    As Randy/RJ wrote, the real coder is the one who try to make his/her
+    routines as fast as possible on extremely slow machines. I think that
+    my machine is slow enough to being recognized as a real coder :)))) ) I
+    used the timer synchronization routines incuded with Midas, but it
+    doesn't care much about my efforts... so say good-bye to smooth
+    scrolling on slower machines... With or without them the impressive
+    result was the same. So I took it out !
+
+What you'll find here:
+
+     Actually, besides all those beautiful palette tricks, you'll recognize:
+
+     - Old-Style Original Commodore 64 Loading Sequence
+     - Old-Style Drunk Ant Simulator [Had you ever seen a shadebob ant???
+       :) ]
+     - Old-Style Random Shadebobs
+     - Old-Style Bouncing Shadebobs
+     - Old-Style Bookshelf Simulator
+     - Old-Style Bumpmapping
+     - Old-Style Bouncing Lens Deforming
+     - Old-Style 2x2 Sinus Plasma
+     - Old-Style Mode-x tests of mine based on the C64 Baloon
+     - Old-Style Mode-x tests of mine based on some fractal madness
+
+            and, of course, the MOST OLD-STYLE THING YOU CAN FIND...
+
+               The ORIGINAL COMMODORE 64 DECRUNCHING BARS(tm) :)
+                          (Who needs copper, anyway?)
+
+     If you think that's crap, you must know that if I only wanted to make
+     a masterpiece I could rip at least a routine in every demo I got and
+     put them all together into this one, so it would be not so crappy...
+     Every byte of code you'll see here is made by ME and by ME ONLY. Are
+     you starting to appreciate this work ? No ? Then you're a LAMER!!!! :)
+
+Technical info:
+
+    This intro is coded 48% in asm and 52% in pascal. This one was designed
+    with mode-x in mind but lazyness won the war, except two battles... the
+    one with the scrolling C64 baloon and the one with the scrolling
+    mandelbrot... some parts like line-drawing and vga-register stuff are
+    heavily optimized (those routines ROAR) and the most CPU-Intensive
+    stuff like PhongMap Calculating and 2D Bumpmapping aren't. Facts of
+    life, I say. Facts of life, you agree. If you have access to the source
+    code you'll think that I'm in love with dynamically allocated memory...
+    And you're right, my pascal code is full of New() and Dispose() :) They
+    help to keeping the memory requirements to the minimum [I managed to
+    let it work in less than 200k!]... I like pointers... ;)
+
+Humorous facts:
+
+    The coder was brought into neurology section in an Italian hospital
+    after he was coding the final run of this intro... He started giving
+    signals of mental problems after 8 hours facing the horrible truth of
+    assembly... He lost his mental sanity... He lost his life... TBT lost a
+    coder...
+
+More technical info:
+
+          "The impossible is possible tonight" [The Smashing Pumpkins]
+
+    Maybe we'll release the source code for this intro... until the
+    official release try to bribe a TBT member... for example try to bribe
+    me at...
+
+                            pippo_baudo_@hotmail.com
+
+       But there are lots of ways to contact who made this masterpiece...
+
+                    For example you can mail the Artist at:
+
+                               p.luca@fastnet.it
+
+                          And how about the musician ?
+
+                              dixan@freenet.hut.fi
+
+                        REMEMBER: ITALIANS DO IT BETTER
+
+Thanks and Greets:
+
+    Crusher must thank someone before the real show begins, and exactly:
+
+    Deathstar                - The magical three letters ('t', 'b', 't')
+                               in "Claudia" greets made this entry possible
+                               and also shown that...  ITALIANS DO IT
+                               BETTER! :) [But 'TBT' should be written in
+                               caps...]
+
+    Japotek                  - For being the winner of the Win'95 compo
+                               (and the only group who competed)... ;) And
+                               for the feedback when we showed LifeTronic
+                               before the votation event.
+
+    It-Alien                 - For no apparent reasons. ;)))) I think that
+                               you need a 33.6k modem (which was the prize
+                               in the multichannel music compo) really
+                               badly ;)
+
+    Dr. Kappa / Spyral       - For being a Black Metal listener and for
+                               the moral support during the party. 'In
+                               Death of Gianni Versace' was great, too bad
+                               I'm only a 2d coder :(. I want that phong
+                               shaded mushroom ! ;). I didn't believe you
+                               won the 1997 Spandimerda Award :))).
+
+    Enfis / Medieval         - For all the stuff he did with TBT (sometimes
+                               try to be in a better mood!). Hey, boy, you
+                               have some talent and it can be seen a
+                               kilometer away. Don't waste that !
+
+    Base8 / NM               - Great NM meeting in Milan, wasn't it ? I
+                               hope to see you again as soon as we can. The
+                               photos we took will be sent to you to be
+                               scanned and put in the Demo Gallery ! Sorry
+                               for the mistaken in the credits in the Party
+                               Version :( It's already fixed :), ready to
+                               be distributed...
+
+    Puni / NM                - Same applies as above but me and Ice are
+                               sorry for the failed nocturnal meet. If
+                               Base8 had his cellular phone turned on...
+                               <g>
+
+    Herion / NM              - Cross your fingers about that joining idea.
+                               If you want I will start the NM original
+                               assembler course just for you. Please tell
+                               me.
+
+    Zero Cool / Tequila      - Our Porntro (Genital Hospital, ovvero Duri
+                               a Venire) will rule! [Minchia, sei fuori
+                               quanto me! Magari anche di pi—... BTW I'll
+                               bring to the party site some disks filled
+                               with some artwork for the Porntro... :)
+                               Please copy me those S. Rita S'Accascia CDs
+                               and Tapes ;) People in Milan NEED that for a
+                               better living !]
+
+    Corrosion / Darkage      - Great Mod. Too bad it arrived when I already
+                               got the Dixan's one. But don't worry, it
+                               will be included in LIFETRONIC ][ (Yes,
+                               there will be a sequel).
+
+    Voodoo Chile / Darkage   - For the permission to convert 'In Death Of
+                               Disco' and for suppling the stuff needed for
+                               the conversion.
+
+    Bitstorm / TBT           - For those hints about rotations... ;) Please
+                               don't use Fixed Point in C if you want to
+                               explain something ! Where have gone the good
+                               old (and understandable) floats ?
+
+    Flagman / TBT            - Those pics you drawn were amazing, too bad
+                               that in 320x200 or in 160x100 they look so
+                               awful :( Next time try 640x480... We aren't
+                               in the Amiga scene, so please forget that
+                               ugly 640x512 :)
+
+    Ice / TBT                - For his PC which was identical as the main
+                               one on the party site...
+
+    Jova / TBT               - For revealing me the secrets about his
+                               effects...  And for the great T-Shirt he
+                               worn at the party...
+
+    Matley / TBT             - Like Corrosion, your Mod didn't make its
+                               way. It was blocked by the solid Dixan Mod
+                               which was stuck in the intro. :) But don't
+                               worry, I will use your tune REALLY SOON, in
+                               a thing you'll like for sure.
+
+    ZioBit / TBT             - Thanks for the fake loader idea... ;) I
+                               implemented it as best as I can. Sorry for the
+                               borders :( Maybe in Lifetronic ][... And
+                               thanks again for the laptop.
+
+    Everyone at the TIG 1997 - You are really cool, especially:
+
+                               Manta/E11, Modem/DKG, Froyd/DS, Randy/RJ and
+                               the graphician/coder who got my bumpmapping
+                               source and explanations: Junta, I remember,
+                               but I'm not sure about that. Please contact
+                               me (you know who you are), we in TBT need a
+                               graphician...
+
+  Quotes that emerged during the show:
+
+   Killer Loop [Looking at the RIX decoder source]:
+          "No ! Great ! You swapped the header bytes ! You're great !"
+               [During the fake loading sequence]:
+         -"But it should be typed LOAD"...",8,1 !"
+  [CRUSH]-"And then why it types RUN at the end ?"
+         -"Ok. You're right"
+
+   Pellicus [During the fake loading sequence]:
+          "Incredible, exactly emulated ! But those border bars... are they
+           in video memory ?"
+
+   Enfis [During the fake loading sequence]:
+          "The bars, look at those bars !"
+
+   Randy [After the intro]:
+          "It's some kind of a psychological searching into every sceners'
+          life. However, it's not pure shit."
+
+   Zero Cool [After the intro]:
+          "I looked at the other intros. Yours is definitely better."
+
+   Dr. Kappa [Before the votations]:
+          "I liked it, really. Better than Control Unit's one."
+          "If Giovanni didn't screw up the first version..."
+
+
+                          This intro was supported by:
+
+
+                                All TBT Members
+
+                            All Not Medieval Members
+
+                          All Orgasma Dezigns Members
+
+                           All my Friends in Alghero
+
+                                 Valerio Rondi
+                               [My Demo-Supplier]
+
+                                Confetto Falqui
+                           [Great shitting sessions]
+
+                        ACE Candeggina and ACE Detersivo
+                   [Cleaned the result of shitting sessions]
+
+                                     WC-Net
+             [To boldly go where no WC cleaner operated before...]
+
+                             Mr. Sunlight / Photon
+                   [Thanks for the Confetto Falqui Texture!]
+
+                                    Doom ][
+                 [Better than Quake. What's Quake, anyway ? :)]
+
+                                  Pippo Baudo
+                               [The one and only]
+
+                   The engineers who created the Commodore 64
+              [For making a Great Computer. Better than a Cray !]
+
+                         AMD, Cyrix, Nexgen and Weitek
+                      [Great Processors and Co-Processors]
+
+                                  Yuri Gagarin
+                           [For being the first one]
+
+                         Aldrin, Armstrong and Collins
+                           [For that little step :)]
+
+                                  John Belushi
+                             [Too bad you're dead]
+
+                                  Dan Aykroyd
+                           [The other half of Blues]
+
+                                  Chevy Chase
+
+                                   John Candy
+
+                  And all the rest of Saturday Night Live Show
+
+                                   Militello
+              [For being the home city of our beloved Pippo Baudo]
+
+                                  Monty Phyton
+                                [For president]
+
+                                Rowan Atkinsons
+                            [A myth called Mr. Bean]
+
+                              Beavis and Butthead
+                                 [Metal Rules!]
+
+                                     Gegia
+        [Il mito che faceva la cameriera nei vecchi spots della Lavazza]
+
+                                  Raul Cremona
+     [Con la sola imposizione delle mani vi unger• la giacca e la cravatta]
+
+                                Cipr & Maresco
+                    [The directors of "Lo zio di Brooklyn"]
+
+                                Pappi Corsicato
+
+                                  Woody Allen
+
+                                 John Carpenter
+
+                                Alfred Hitchcock
+
+                                Anthony Perkins
+       [Everyone wants to be Norman Bates at least once in their life :)]
+
+                                 Mariano Laurenti
+             [Il regista di un'infinit… di filmetti trash italiani]
+
+                                Stanley Kubrick
+       [Everyone wants a Full Metal Space Odissey of a Clockwork Orange]
+
+                                Arthur C. Clarke
+
+                                  Isaac Asimov
+
+                                 Enrico Ghezzi
+                          [We want BLOB for a living!]
+
+                                    Inter FC
+
+                                     Macao
+
+                                 Cindy Crawford
+
+                                Claudia Schiffer
+
+            Vittorio Gassman in "Gassman legge l'esame delle urine"
+                                [Tunnel Rules!]
+
+                        TDE [Thompson-Daves-Editor] 4.1
+
+                                    Frontier
+ [Try to land on a large gas giant... I did. If you want the savegame tell me!]
+
+                               Edward D. Wood Jr.
+                      [Plan Nine From Outer Space RULES!]
+
+                             #Gayitalia IRC Channel
+      [Great Floods! If you want to flood a channel give this one a try!]
+
+                              Elvis Aaron Presley
+        [Nothing to say about this one. Everything would be in excess.]
+
+                                  The Beatles
+                           [For being what they were]
+
+                             The Smashing Pumpkins
+                    "Mellon Collie and the Infinite Sadness"
+
+                                   Kaos Lord
+                                "Catch the fear"
+
+                                Cradle of Filth
+                       "The Principle of evil made flesh"
+
+                                    Arcturus
+                            "Aspera hiems symfonia"
+
+                                   Candlemass
+                          "Epicus Doomicus Metallicus"
+
+                                  Fear Factory
+                                "Demanufacture"
+
+                                 The Offspring
+                                    "Smash"
+
+                                     Wotan
+                                 "Thunderstorm"
+
+                                    Obituary
+                                "Cause of death"
+
+                                    Nirvana
+                                   "In utero"
+
+                                   Pearl Jam
+                                     "Ten"
+
+                                  Sonic Youth
+                   "Experimental jet-set, trash and no star"
+
+                                      Korn
+                                "Life is peachy"
+
+                                    Deicide
+                             "Once upon the cross"
+
+                                  Bolt Thrower
+                               "The IVth crusade"
+
+                                   Green Day
+                                    "Dookie"
+
+                                The Cranberries
+                               "No need to argue"
+
+                                  Bad Religion
+
+                                   Metallica
+                                 "Kill'em all"
+
+                                  Iron Maiden
+                                   "Killers"
+
+                                  Soundgarden
+                                 "Superunknown"
+
+                                 Marilyn Manson
+                             "Antichrist superstar"
+
+                                    Prozac +
+
+                                     R.E.M.
+                                 "Out of Time"
+
+                                    Punkreas
+                              "Paranoia e Potere"
+
+                                  Silverchair
+                                  "Frogstomp"
+
+                                   Exploited
+                                "Punks not dead"
+
+                                  Sex Pistols
+                             "Anarchy in the U.K."
+
+                                   Clawfinger
+                                "Use your brain"
+
+                                 Adrenalin O.D.
+                            "Humungusfungousamongus"
+
+                                    Pantera
+                              "Cowboys from hell"
+
+                                  Machine Head
+
+                                  Channel Zero
+
+                              Anti Nowhere League
+                              "We are the league"
+
+                                  Turbominchia
+                              "Nato per trombare"
+
+                                  Foo Fighters
+                           "The colour and the shape"
+
+                                 Faith No More
+                     "King for a day, fool for a lifetime"
+
+                                Nine Inch Nails
+                               "Quake soundtrack"
+
+                               Dark Tranquillity
+                                 "The gallery"
+
+                                     Death
+                                    "Human"
+
+                                   The Clash
+
+                                  Morbid Angel
+                                  "Domination"
+
+                                    Sinister
+                                     "Hate"
+
+                                     Mayhem
+                                  "Deathcrush"
+
+                                Christian Death
+                "Jesus Christ proudly presents Christian Death"
+
+                                   Testament
+                                   "Demonic"
+
+                                   Sepultura
+                                    "Arise"
+
+                                    Manowar
+                               "Hail to England"
+
+                             Red Hot Chili Peppers
+
+                                     Slayer
+                                  "The undead"
+
+                               Frankie Hi-NRG MC
+                                 "Verba Manent"
+
+                                   Pestilence
+                                   "Spheres"
+
+                                  Celtic Frost
+                             "The emperor's return"
+
+                                    Megadeth
+                       "Peace sells... but who's buying?"
+
+                                  Metal Church
+
+                                   Helloween
+
+                                    Kreator
+
+                                The Gravediggers
+
+                                   Possessed
+
+                                     Rancid
+                           "And out came the wolves"
+
+                                     Bjork
+
+                                     No Fx
+
+                               The Dead Kennedys
+
+                                     Fluffy
+
+                                 Gravity Kills
+
+                                   Raw Power
+
+                                     Danzig
+
+                                  Time Machine
+
+                                      Gun
+
+                                Alice in Chains
+
+                                       L7
+
+                                    Ramones
+
+                                     Crass
+
+                                      Beck
+                                 "Mellon Gold"
+
+                             Elio e le storie tese
+                     "Esco dal mio corpo e ho molta paura"
+
+                          Nick Cave and The Bad Seeds
+
+                                 Black Sabbath
+
+                                   Radiohead
+
+                                  Meat Puppets
+
+                                    Bathlord
+
+                                 Mercyful Fate
+                             "Don't break the oath"
+
+                                    Misfits
+                                "Walk among us"
+
+                                 Blessed Death
+                              "Kill or be killed"
+
+                                  Hallow's Eve
+                              "Death and insanity"
+
+                               Type 'O' Negative
+
+                                    Coroner
+                                    "R.I.P."
+
+                                   Gamma Ray
+
+                                   Hammerfall
+                              "Glory to the brave"
+
+                                     Voivod
+
+                                  Stratovarius
+
+                         The Rocky Horror Picture Show
+
+                              2001 A Space Odyssey
+
+                               A Clockwork Orange
+
+                               Full Metal Jacket
+
+                             Jesus Christ Superstar
+
+                                  Space Balls
+                                 [The Film :)]
+
+                                     Psycho
+                                 [The Film :)]
+
+                               Star Wars Trilogy
+
+                                 Alien Trilogy
+
+                                Porky's Trilogy
+
+                                Johnny Mnemonic
+                           [Go, go Cyber-Rangers ;)]
+
+                                 The Terminator
+     ["Fuck You Asshole" - one of the sixteen lines of Terminator's speech]
+
+                          Terminator 2 - Judgement Day
+
+                                 Trainspotting
+
+                                 Kakkientruppen
+
+                                   I Pompieri
+
+                         I Pompieri 2 - Missione Eroica
+
+  La prima notte del Dottor Danieli, industriale col complesso del giocattolo
+
+                           Un vichingo venuto dal sud
+
+          Dottor Costante Nicosia Demoniaco, ovvero Dracula in Brianza
+                                 [Great bell!]
+
+                             Vado a vivere da solo
+                   [Try the WC connected to the Juke-Box! :)]
+
+                         La schiava io ce l'ho e tu no
+
+                                  Il Domestico
+
+                        All'onorevole piacciono le donne
+
+                             All the Z-Movies I saw
+
+                                  Andy Warhol
+                           [4 Marilyns. Marvellous!]
+
+                                   MTV Europe
+                      [For some Metal programs and videos]
+
+                                    Nutella
+                          [Copyright (c) 1900 Ferrero]
+                  -> See also: Che mondo sarebbe senza Nutella? <-
+
+                                      Beer
+             [Those nice 33cl bottles :) Especially... Adelscott!]
+
+                                 Alvaro Vitali
+           [Pierino will always have some room for him in our hearts]
+
+                                   Lino Banfi
+                    [Sembra un cesso... ed in effetti lo Š!]
+
+                                 Lando Buzzanca
+
+                                 Enzo Cannavale
+
+                                Renzo Montagnani
+
+                                Roberto Benigni
+
+                              Gianfranco D'Angelo
+
+                           I Gatti di Vicolo Miracolo
+
+                                    Bombolo
+                            [Me so rotto li cojoni!]
+
+                                 Franco Franchi
+                     [Ciiiiiiicciooooo! A schifiu finisti!]
+
+                                Ciccio Ingrassia
+                              [Esorciccio forever]
+
+                                  Renzo Arbore
+                            [E lo fai con la moka!]
+
+                       "Pizzas: Pugliese, Bologna, Merda"
+                     [An Italian restaurant in Birmingham]
+
+                                 Giorgio Ariani
+
+                                  Lino Toffolo
+                        [The guy who invented red wine]
+
+                                  Tomas Milian
+                            [Merda alla parmigiana]
+
+                                 Nutella spots
+                        [Gi•rgio e la squadra di basket]
+
+                  Il mercatone dell'arredamento di Fizzonasco
+
+                        Zafferano 3 cuochi's spot actors
+
+                         Zafferano Leprotto spot child
+                                [That's 40 now]
+
+                           Non ci credi se non vedi,
+                           non ci vedi se non credi,
+                            euroarredi, euroarredi!
+                        [Copyright (c) 1980 Euroarredi]
+
+                        Vieni in moto o in carrozzella,
+                       ma vieni a Biella, vieni a Biella!
+                         [Copyright (c) 1985 Aiazzone]
+
+                        Birra Moretti, Viva la sincerit…
+                       [Copyright (c) 1993 Birra Moretti]
+
+                              Galleria del mobile
+
+                                 Sergio Baracco
+          [Vi vendo anche mia madre insieme a questo stupendo anello]
+
+                                Roberto da Crema
+                                 [Asma rulez!]
+
+                                  Amerika Star
+
+                                  Monica Sport
+
+                                  Wanna Marchi
+
+                                Stefania Marchi
+
+                     And their brazilian teacher of life...
+  [Please press the numbers slooooowly or the main phone line will collapse!]
+
+                                  Sandra Milo
+                  [Ciiiiiiiro, Ciiiiiiiiro! Dove sei? Oddio!]
+
+                     All sexy shops around the globe like:
+
+                                 - Magic America
+
+                                 - Harem Video
+
+                                 - Privat
+
+                                 - Center Tab—
+
+                                 - Happy Time
+
+                                  Simona Valli
+                      [E i suoi articoli in puro lattce]
+
+                 and everyone who makes trash on Italian TV...
+
+
+
+  But there was something and someone which didn't support this intro much...
+
+
+
+                                   My Parents
+
+                                     Intel
+
+                                      ATM
+
+                                       FS
+
+                              Whirpool Productions
+                            [Especially the singer]
+
+                                   Daft Punk
+
+                                   Albertino
+
+                                    Molella
+
+                                    Fargetta
+
+                                      Nek
+
+                                  Jesus Christ
+          [The original. Piss only on the real one, forget imitations]
+
+                                      Gala
+
+                                     Discos
+           [Detio/DNG was right... Smash them up and show no mercy!]
+
+                                    Prodigy
+
+                                   Underworld
+
+                             The Chemical Brothers
+
+                                     Fluke
+
+                             Future Sound Of London
+
+                                   Kraftwerk
+
+                                    Orbital
+
+                                 Pet Shop Boys
+
+                                   Take That
+
+                                    Boyzone
+
+                                Backstreet Boys
+
+             Fear Factory's shittiest album called "Remanufacture"
+
+                                   The Course
+
+                                Michael Jackson
+                                   [V.M. 18]
+
+                                  Articolo 31
+
+                                   Sottotono
+
+                                  Emilio Fede
+
+                               Silvio Berlusconi
+
+                                 Mike Bongiorno
+
+                                Fabrizio Frizzi
+
+                                 Paolo Bonolis
+
+                        Giampiero "Bisteccone" Galeazzi
+
+                                    AC Milan
+
+                                Gianfranco Fini
+
+                                 Federico Pomi
+   [Con la sola apertura della bocca vi sporcher• le mutande ed i pantaloni!]
+
+                                Franco Petracchi
+
+                                 Umberto Bossi
+
+                                  Mario Gissi
+
+                                 Maria Frisina
+
+                                 Paola Foresti
+
+                                  Enrico Gaeta
+
+                            Carboni Ingegner Roberto
+
+                                   Windows 95
+
+                                  My 386sx/25
+      [Windows 3.1 run also on 286's. On my PC it doesn't work!!!! Shit!]
+
+                           General Protection Faults
+        [On my PC they happen 18.2 times a second during Protected Mode]
+
+                               Gay [male] People
+
+Final notes:
+
+                         Enjoy the show and remember...
+
+                          DEATH IS JUST THE BEGINNING
+
+                    [Scroll down for some other goodies...]
+
+                                  PIPPO BAUDO
+
+                       Join the following newsgroups now!
+
+
+                            alt.sex.oral.pippobaudo
+
+                          comp.compression.pippobaudo
+
+                           alt.sex.wanted.pippobaudo
+
+                               rec.tv.pippobaudo
+
+                           alt.sex.fetish.pippobaudo
+
+                              rec.music.pippobaudo
+
+                           rec.games.doom.pippobaudo
+
+                              soc.italy.pippobaudo
+
+                             bio.anatomy.pippobaudo
+
+                              sci.space.pippobaudo
+
+                            it.comp.demos.pippobaudo
+
+                            comp.os.admin.pippobaudo
+
+                               rec.rpg.pippobaudo
+
+                          comp.prog.68kasm.pippobaudo
+
+                             alt.hackers.pippobaudo
+
+                            soc.religion.pippobaudo
+
+                            alt.satanism.pippobaudo
+
+                             bio.viruses.pippobaudo
+
+                              sci.crypt.pippobaudo
+
+                              alt.warez.pippobaudo
+
+                      comp.graphics.algorithms.pippobaudo
+
+                           k12.netfriends.pippobaudo
+
+                            alt.sex.anal.pippobaudo
+
+                               it.fan.pippobaudo
+
+                              alt.2600.pippobaudo
+
+                             it.comp.asm.pippobaudo
+
+
+
+                             Or send an E-Mail to:
+
+
+
+                              p.baudo@mediaset.it
+
+                              p.baudo@canale5.com
+
+
+
+                          See PIPPO BAUDO on the web!
+
+
+           http://www.mediaset.it/programmi/unavolta/pippobaudo.html
+
+               http://www.canale5.com/stars/pippobaudo/index.html
+
+
+                           Still under construction:
+
+                            http://www.pippobaudo.it
+
+
+
+                      You can grab the PIPPO BAUDO FAQ at:
+
+       ftp://ftp.uunet.fi/pub/usenet/faq/alts/pippobaudo/pippofaq-1.tgz
+
+       ftp://ftp.uunet.fi/pub/usenet/faq/alts/pippobaudo/pippofaq-2.tgz
+
+       ftp://ftp.uunet.fi/pub/usenet/faq/alts/pippobaudo/pippofaq-3.tgz
+
+       ftp://ftp.uunet.fi/pub/usenet/faq/alts/pippobaudo/pippofaq-4.tgz
+
+       ftp://ftp.uunet.fi/pub/usenet/faq/alts/pippobaudo/pippofaq-5.tgz
+
+       ftp://ftp.uunet.fi/pub/usenet/faq/alts/pippobaudo/pippofaq-6.tgz
+
+
+                Mantained by Federico Pomi (fedepo@comm2000.it)
+
+
+
+                    or the Official Pippo Baudo Gallery at:
+
+        ftp://ftp.netcom.com/pub/gallery/pippobaudo/originalgallery.tgz
+
+                [Please note the size of the archive: 24 Megs!]
+
+                  This one is mantained by Federico Pomi, too
+
+
+
+             You can also subscribe to the PIPPO BAUDO mailing list
+
+                 Leave a message to:     listserv@majordomo.rutgers.edu
+
+                 with subject:           subscribe PIPPO BAUDO
+
+                 with message body:      <your E-Mail address>
+
+
+
+                                To unsubscribe:
+
+
+                      You can't. It's evil to unsubscribe.
+
+
+
+                      IRC channel:            #pippobaudo
+                              (on Pisa IRC server)
+
+
+
+                              Telnet yourself at:
+
+
+                                   127.0.0.1
+
+                              Login:    PippoBaudo
+
+                              Password: PippoBaudo
+
+
+                                   218.32.53.2
+
+                              Login:    PippoBaudo
+
+                              Password: PippoBaudo
+
+
+        BTW, the first one who will prove me to hack and fill with porno
+          stuff the Vatican Server will win TWO (2) free drinks... ;)
+
+
+Ending comments plus ending quote:
+
+    Yeah, this one sucks really... no apparent design, no new effects but
+    all that old-style stuff for a tribute to an old-style machine like our
+    beloved C-64. Well, I think that I'm the prophet for a return of
+    old-style in demos. Maybe not this year, nor the next one, but sooner
+    or later IT WILL RETURN [Probably I'll be already out of the scene and
+    remembering the old times, with my wife and my children]. So be
+    prepared... and delete those crappy gouraud fillers :). Everyone wants
+    to see a Lambert-Shaded Texture-Mapped Polygon routine above a voxel
+    running smoothly on a ZX81 before closing the eyes for the last time...
+
+      "All these years they've tried to break you to your knees
+       Anger scours right through your veins
+       Now it's time to put an end to all the lies
+       Now it's time to take control of your life"
+
+                        Fear Factory, "Self Bias Resistor"
+
+                               Desperately yours,
+                                 Crusher / TBT
+
+              "Back off man, I'm a scientist" - Dr. Peter Venkman
+
+                 "ITALIANS DO IT BETTER" - Every italian scener

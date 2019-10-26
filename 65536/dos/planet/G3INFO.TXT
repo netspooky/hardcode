@@ -1,0 +1,16 @@
+code:tree/code brothers^sectorB
+gfx :mom/code brothers
+msx :standhal/sectorB
+
+vesa1.2 : 10Eh 320x200 64k
+
+planet.exe - bank switching (gus/nosound)
+planet_l.exe - linear frame buffering (gus/nosound)
+
+w razie jakichs problemow na sali powinien byc coder (tree).
+dlaczego problemy? bo ja (coder) mam tylko tridenta8900D, ktory
+ledwo co obsluguje tryby VESA. LFB powinien chodzic, ale nie
+zostal nigdzie przetestowany:((.
+
+poza tym moze byc uruchmiany na kazdej maszynie(chyba) w kazdej
+konfiguracji(chyba) z GUSem 0.5mb.

@@ -1,0 +1,56 @@
+þ airscape
+þ nocturnal
+
+þ los info
+
+  the gathering 1900
+  64k intro
+  placed 2nd
+  needs windows and mmx
+
+þ los creditos
+
+  neon þ code
+  walker þ design
+  starfish þ music
+  starfish þ gfx
+
+  minifmod þ player
+  openptc þ framebuffer (final version)
+
+þ los notos
+
+  this is both the party version and the final version of this intro. the
+  party version may not work on all machines, but the final should.
+
+  we did unspeakable things to the music and gfx to make it all fit into
+  64k. so if you think that all the logos are horrible blurry messes, the
+  coders and not the artist is to blame. remember, he probably hates it as
+  much as you do. however, the final version contains high quality graphics
+  and music.
+
+  a big thanks to sokken for lending me headphones when mine broke.
+
+þ los greditos
+
+  alien prophets þ apathy þ aurum þ blasphemy þ blocc þ calamity þ cascada
+  comedy þ contraz þ cryonics þ dance þ ephidrena þ fudge þ goto10 þ inf
+  loop þ k2 þ kvark þ outbreak þ phrenetics þ proxima þ purple þ replay
+  spaceballs þ squirrelz þ sublogic þ system x32 þ tea þ tpolm
+
+þ los disclamerero
+
+  this is copyrighted software. we give it to you for free, but still retain
+  all rights to it. so that means that you are not allowed to make any money
+  from our work, at least not without ok'ing it with us first.
+
+  we also take no responsibility for any kind of damage that might occur
+  when you run this software. just because out computers didn't spontaniously
+  blow up doesn't mean your won't. still, we don't expect this software to
+  do any damage.
+
+þ los advertisomento
+
+  more digital art from your favorite guys!
+
+  þ http://www.neutralzone.org/nocturnal þ

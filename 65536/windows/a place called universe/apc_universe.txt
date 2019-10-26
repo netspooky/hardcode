@@ -1,0 +1,116 @@
+
+ C O N S P I R A C Y
+ 
+    A Place Called Universe 
+
+          product infofile
+
+ 
+ After Project Genesis, we are back with a shorter but
+ hopefully more coherent intro. With the tools done,
+ we managed to finish this roughly in a month.
+
+
+ [ Credits ]
+
+
+         boyc - intro- and tool code
+
+       gargaj - synth code
+
+     innocent - additional music & samples
+
+          mrc - additional effects code
+
+     vincenzo - main music & samples
+
+         zoom - design/graphics/modelling/concept&lyrics
+
+
+ [ System requirements ]
+
+   For an enjoyable show you'll need a 600+ MHz processor,
+   an OpenGL compatible videocard (NVidia preferred),
+   and a directsound compatible soundcard.
+   For ATI users: set the texture quality to maximum.
+
+   If you have a powerful videocard, turning on antialiasing
+   is highly recommended.
+
+
+   There are also some useful command line parameters:
+
+     -windowed    guess what? :)
+     -m0          set resolution to 320x240
+     -m2          set resolution to 800x600
+     -m3          set resolution to 1024x768
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ Some words by zoom:
+
+  I think this intro needs some explanation.
+
+  The concept itself came to my mind during the making
+  of Project Genesis, as I realized that in a weird way we,
+  who make demos/intros(or even games), are "gods".
+
+  No, don't stop reading, this won't be some
+  Elitegroup-style egotrip ;)
+
+  What I mean is that we form scenes, places or even
+  entire worlds from _nothing_. The construction of a universe.
+  And that's a touch of "godly creation".
+
+  So this first, and originally intended interpretation
+  of this intro, is about us and the intro itself,
+  speaking as a person.
+
+
+  However, there is a second meaning,
+  which I realized already after I have written the lyrics.
+  And this goes into higher, philosophical levels.
+  (If you want to enjoy this product as an entertaining piece,
+  stop reading now ;)
+
+  By this interpretation, there are two important things:
+
+    1. The universe consists of many worlds and our
+       "universe" (as we call it) is one of these worlds.
+        So the world is not just infinite by acceptation
+        of space and time, but it's also a part of a universe
+        consisting of an infinite number of dimensions - "worlds".
+
+        (Note: I'm using the word "world" referring to what we
+         call "universe" in the common language, as I don't know
+         how to call the universe in my interpretation.)
+
+    2. In many religions, god is described as
+       "God is everywhere and God is everything".
+       So God IS a world itself.
+       (Don't get me wrong: this is not some religious babble,
+        as I am an atheist myself. It's just an explanation of
+        nature from the perspective of our present world concept.
+        One of many possible.)
+
+  The intro is about an arrogant, selfish god, who thinks he is
+  THE universe, the nonplus ultra, and there is nothing beyond him.
+  Not knowing (or denying) that in fact, he is just one of many.
+
+  (Sidenote: this world may or may not be our world, that's irrelevant.
+   But just think of many people who think that our species is the only
+   intelligent one in our world...)
+
+  So back to the intro, this god is observed by a higher entity,
+  "god's god", who makes his statements in the beginning and
+  in the end about this pitiful being.
+  A place called -selfishly- universe.
+
+
+  Well I think I will stop here,
+  before I get hopelessly entangled or go mad :)
+
+  Thanks for reading and enjoy the intro!
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ (C) Conspiracy 2003.             Signed by zoom - July 1, 2003.

@@ -1,0 +1,19 @@
+#include <cmath>
+
+  http://www.games-net.de/hosted/tggc
+_______________________________________
+
+
+  .cmath11:gfx
+
+  .code:tggc
+
+  .packer:crinkler1.1:(http://www.crinkler.net)
+
+  .greets:asd:calodox:conspiracy:fairlight:farbrausch:fuzzion:kakiarts:
+         :loonies:mercury:nuance:rgba:speckdrumm:still:tbc:tbl:titan:traction:
+         :atla:BlueCobold:mcdeck:matt|6s:pro:rapso:rip:Sgt.Nukem:TomasRiker:
+         :anyone:else:from:#gamedev.ger:#sppro:#cpp:#javacore
+
+
+  .requires:d3dx9_25.dll

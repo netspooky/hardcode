@@ -1,0 +1,22 @@
+first!
+by ExHouse
+
+---
+
+First demo ever by waffle of ExHouse
+12K java applet ascii 80x50 intro
+
+---
+
+Run it in a web browser!
+Sounds didn't work on appletviewer(Linux j2se 1.4.2_04) for some very strange reason!
+
+Requirements:
+- CPU 1GHz+  - Tested with 1.3GHz (Works fine on Linux but MIDI lagged in Windows)
+- MIDI support
+- Java Runtime Enviroment(Definitely works with 1.4)
+
+---
+
+HUGE AMOUNT OF FUCKINGS TO LAMERFEST ORGANIZERS!
+Thank you for your fine alcohol politics and for running my demo so well

@@ -1,0 +1,185 @@
+dnl taken from SDL, audiere.
+
+dnl Process this file with autoconf to produce a configure script.
+AC_INIT(README)
+dnl AM_INIT_AUTOMAKE
+
+AC_CONFIG_SRCDIR(src/sc2.c)
+
+CFLAGS="$CFLAGS -Wall"
+
+VERSION=2.0
+PACKAGE="sc2"
+
+AC_SUBST(VERSION)
+AC_SUBST(PACKAGE)
+
+
+dnl Detect the canonical host and target build environment
+AC_CANONICAL_SYSTEM
+
+dnl Setup for automake
+AM_INIT_AUTOMAKE(sc2, $VERSION)
+
+dnl Check for tools
+
+AC_PROG_CC
+AC_C_INLINE
+AC_PROG_RANLIB
+dnl AM_PROG_LIBTOOL  (really slow with msys)
+
+dnl AC_PATH_PROG(STRIP, strip)
+dnl AC_PATH_PROG(UPX, upx)
+
+
+
+dnl Add compiler-specific optimization flags
+
+dnl See if the user wants aggressive optimizations of the code
+AC_ARG_ENABLE(debug,
+[  --enable-debug          Disable aggressive optimizations [default=no]],
+              , enable_debug=no)
+if test x$enable_debug != xyes; then
+    if test x$ac_cv_prog_gcc = xyes; then
+	CFLAGS="$CFLAGS -s -O2 -pipe -ffast-math -fstrength-reduce -freduce-all-givs -fomit-frame-pointer -fexpensive-optimizations"
+	LIBS="-s -pipe"
+    fi
+    case "$target" in
+        i486-*-*)
+            if test x$ac_cv_prog_gcc = xyes; then
+                CFLAGS="$CFLAGS -march=i486"
+            fi
+            ;;
+        i?86-*-*)
+            if test x$ac_cv_prog_gcc = xyes; then
+                CFLAGS="$CFLAGS -march=pentium -mcpu=pentiumpro"
+            fi
+            ;;
+        *-*-osf*)
+            if test x$ac_cv_prog_gcc != xyes; then
+                CFLAGS="-g3 -fast -arch host"
+            fi
+            ;;
+    esac
+fi
+
+dnl Figure out which math library to use
+case "$target" in
+    *-*-cygwin* | *-*-mingw32*)
+        MATHLIB=""
+        SYS_GL_LIBS="-lopengl32 -lGLU32 -lwinmm -lgdi32"
+	NFLAGS="-f win32 -D__WIN32__"
+        ;;
+    *-*-beos*)
+        MATHLIB=""
+        SYS_GL_LIBS="-lGL -lGLU"
+        ;;
+    *-*-darwin*)
+        MATHLIB=""
+        SYS_GL_LIBS=""
+        ;;
+    *-*-aix*)
+        if test x$ac_cv_prog_gcc = xyes; then
+            CFLAGS="-mthreads"
+	fi
+        SYS_GL_LIBS=""
+        ;;
+    *)
+        MATHLIB="-lm"
+        AC_PATH_X
+        AC_PATH_XTRA
+        if test x$have_x = xyes; then
+            CFLAGS="$CFLAGS $X_CFLAGS"
+            SYS_GL_LIBS="$X_LIBS -lGL -lGLU"
+        else
+            SYS_GL_LIBS="-lGL -lGLU"
+        fi
+	NFLAGS="-f elf -D__LINUX__"
+        ;;
+esac
+AC_SUBST(MATHLIB)
+
+
+dnl Enable/disable various subsystems of the SDL library
+
+AC_ARG_ENABLE(mikmod,
+[  --enable-mikmod         Use mikmod instead of minifmod [default=no]],
+              , enable_mikmod=no)
+if test x$enable_mikmod = xyes; then
+    MUSICDIR="mikmod"
+    MUSICLIB="mikmod/libmikmod.a"
+    CFLAGS="$CFLAGS -I\$(top_srcdir)/src/mikmod"
+    CFLAGS="$CFLAGS -DUSE_MIKMOD"
+else
+    MUSICDIR="minifmod"
+    MUSICLIB="minifmod/libminifmod.a"
+    CFLAGS="$CFLAGS -I\$(top_srcdir)/src/minifmod"
+    LIBS="$LIBS"
+   
+    AC_PATH_PROG(NASM, nasm)
+fi
+
+SDL_VERSION=1.2.7
+AM_PATH_SDL($SDL_VERSION,
+   :,
+   AC_MSG_ERROR([*** SDL version $SDL_VERSION not found!])
+)
+
+CFLAGS="$CFLAGS $SDL_CFLAGS"
+
+
+AC_ARG_ENABLE(sdl,
+[  --enable-sdl            Use SDL (no=custom win32 renderer) [default=yes]],
+              , enable_sdl=yes)
+if test x$enable_sdl = xyes; then
+
+	CFLAGS="$CFLAGS -DUSE_SDL"
+	LIBS="$LIBS $SDL_LIBS"
+fi
+
+dnl Check for OpenGL
+AC_MSG_CHECKING(for OpenGL support)
+have_opengl=no
+AC_TRY_COMPILE([
+ #include "SDL_opengl.h"
+],[
+],[
+have_opengl=yes
+])
+AC_MSG_RESULT($have_opengl)
+if test x$have_opengl = xyes; then
+    LIBS="$LIBS $SYS_GL_LIBS"
+else
+    LIBS="$LIBS"
+fi
+
+AC_SUBST(MUSICDIR)
+AC_SUBST(MUSICLIB)
+
+AC_SUBST(NFLAGS)
+
+dnl Expand the cflags and libraries needed by apps using SDL
+dnl AC_SUBST(CFLAGS)
+AC_SUBST(CFLAGS_SSE)
+AC_SUBST(LIBS)
+
+
+dnl Expand the libraries needed for static and dynamic linking
+dnl AC_SUBST(STATIC_SYSTEM_LIBS)
+dnl AC_SUBST(SHARED_SYSTEM_LIBS)
+dnl AC_SUBST(SYSTEM_LIBS)
+
+CXXFLAGS="$CFLAGS"
+
+# Finally create all the generated files
+dnl Important: Any directory that you want to be in the distcheck should
+dnl            have a file listed here, so that configure generates the
+dnl            subdirectories on the build target.
+AC_OUTPUT([
+Makefile
+src/Makefile
+src/data/Makefile
+src/data/src/Makefile
+src/minifmod/Makefile
+src/mikmod/Makefile
+])

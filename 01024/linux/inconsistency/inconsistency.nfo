@@ -1,0 +1,12 @@
+Inconsistency
+
+
+Linux softaware rendered 1k intro with audio.
+
+On some newer 64 bit ubuntus you need to install ia32-libs.
+Prod uses SDL so make sure you have 32bit SDL installed.
+
+Was in a bit of a hurry so the other resolutions are not all under 1024 bytes.
+
+
+Special thanks to shaiggon and cce, for helping out.

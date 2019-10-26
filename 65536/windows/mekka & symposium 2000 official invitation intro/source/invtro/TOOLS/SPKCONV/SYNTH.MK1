@@ -1,0 +1,14 @@
+!define BLANK ""
+d:\projects\e\synth.obj : d:\projects\e\synth.cpp .AUTODEPEND
+ @d:
+ cd d:\projects\e
+ *wpp386 synth.cpp -i=d:\code\wat11\\h -w4 -e25 -zq -od -d2 -5r -bt=dos -mf
+
+d:\projects\e\synth.exe : d:\projects\e\synth.obj .AUTODEPEND
+ @d:
+ cd d:\projects\e
+ @%write synth.lk1 FIL synth.obj
+ @%append synth.lk1 
+ *wlink name synth d all SYS dos4g op inc op m op maxe=25 op q op symf @synt&
+h.lk1
+

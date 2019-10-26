@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xnfo standard="1.1" version="1" mode="complete" author="sanx(at)fxteam(dot)net">
+<demo>
+	<name>one in half</name>
+	<authors>
+		<group>pipidemic</group>
+	</authors>
+	<category type="intro;64k">Intro 64k</category>
+	<support>
+		<configuration>
+			<plateform type="win32">Windows</plateform>
+		</configuration>
+	</support>
+	<archive>
+		<file>pipidemic-1in05.zip</file>
+	</archive>
+	<screenshots>
+		<screenshot>sshot1.jpg</screenshot>
+		<screenshot>sshot2.jpg</screenshot>
+		<screenshot>sshot3.jpg</screenshot>
+	</screenshots>
+	<compo>
+		<messages>
+			<message to="audience"> size: 37ko
+one intro in an half day.
+This is not serious, but music is
+fully randomly generated. Each time
+you launch this intro you get
+another sequence. Just smousse and
+make demos ;-)
+			</message>
+		</messages>
+	</compo>
+	<runs>
+		<run>oneinhalf.exe</run>
+	</runs>
+</demo>
+</xnfo>

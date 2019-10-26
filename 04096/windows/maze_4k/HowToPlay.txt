@@ -1,0 +1,9 @@
+Guide the marble ball to the rotating star formed exit.
+The skulls are shooting lasers, lasers are bad for you!
+Push balls to block lasers.
+Rotate map with the "a" and "d" keys or "q" and "e" for negative rotation.
+Steer with arrow keys.
+
+You got a life force of 1000, use it wisely!
+It is possible (although very hard) to finish all five levels without spending life force.
+Can you do it?

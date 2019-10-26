@@ -1,0 +1,58 @@
+
+                                                                  DEMOLISHING
+                                                                  THE   SCENE
+                                                                  SINCE  1991
+                             ЫЫЫЫ              ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+ЫЫЫЫЫЫ     ЫЫЫЫЫЫЫЫЫЫ       Ы   ЫЫ    ЫЫЫЫЫЫ     Ы      ЫЫЫЫ   ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+  ЫЫЫЫЫ    Ы   ЫЫЫЫ            ЫЫЫ      ЫЫЫЫЫ    Ы     ЫЫЫ       Ы   ЫЫЫ    ЫЫ
+  Ы ЫЫЫЫЫЫ Ы   ЫЫЫЫ          ЫЫ ЫЫ      Ы ЫЫЫЫ   Ы    ЫЫЫ            ЫЫЫЫЫЫ  Ы
+  Ы  ЫЫЫ ЫЫЫ   ЫЫЫЫ  ЫЫЫ    ЫЫ  ЫЫ      Ы  ЫЫЫЫЫЫЫ   ЫЫЫЫ  ЫЫЫЫ      ЫЫ   ЫЫ
+  Ы   ЫЫ  ЫЫ   ЫЫЫЫ    Ы    ЫЫЫЫЫЫЫ     Ы   ЫЫ  ЫЫ   ЫЫЫЫ ЫЫ  ЫЫ     ЫЫЫЫЫЫ
+  Ы    Ы  ЫЫ   ЫЫЫЫ    Ы   ЫЫ   ЫЫЫЫ    Ы    Ы  ЫЫ    ЫЫЫЫЫ    Ы     ЫЫ
+ ЫЫЫ      ЫЫ   ЫЫЫЫ    Ы   Ы     ЫЫЫЫ   Ы       ЫЫ    ЫЫЫЫЫ      Ы   ЫЫЫ  n8y Ы
+          ЫЫ    ЫЫЫ   ЫЫ ЫЫЫЫ     ЫЫЫЫ  Ы       ЫЫЫ     ЫЫЫЫ   ЫЫ    ЫЫЫЫ    ЫЫ
+         ЫЫЫЫ     ЫЫЫЫ ЫЫ        ЫЫЫЫЫЫЫЫЫ                ЫЫЫЫЫ        ЫЫЫЫЫЫЫЫ
+
+								       presents
+
+                                                C O D E  I S  M Y  P R O N (4k)
+      released @ reViSi0N 22. - 25. april, 2011 (E)werk : saarbrЃcken : germany
+
+C R E D I T S
+code......................................................................CHOCK
+music..............................................................RAUSGRUTSCHT
+
+								                                      A B O U T
+         turns out that ray marching through a transparent noise field is quite
+                        computationally expensive - at least the way I do it...
+      The speech samples are encoded using a (yet?) unfinished speech codec for
+          4k intros. It's VBR with about 500 bits per second. This is not quite
+                                     state of the art, but we're getting there.
+
+R E Q U I R E S
+we have tested this intro successfully on ATI and NVIDIA systems, but in order
+to run fluently (at 60 Hz) you need a top-notch graphics card (as of 2011).
+The intro runs fine on windows 7 64bit but might also run on other windows
+systems.
+The intro uses the same resolution as the desktop, but because the ray marching
+is done on a fixed resolution off-screen surface which is then up-sampled, the
+desktop resolution has hardly any effect on the overall performance.
+We use crinkler for compression - thank you guys for this truly awesome tool.
+
+                                                              G R E E T I N G S
+      abyss - abyss connection - alcatraz - andromeda - atlantis - black maiden
+         black monks - brainstorm - clrsrc - conspiracy - crest - division zero
+     fairlight - fake - farbrausch - ganglion - haujobb - higher lyrics - holon
+	 keyboarders - kewlers - limp ninja - marshals - metalvotze - mercury - mfx
+	   neuro.concept - outracks - padua - plastic - plush - razor 1911 - rebels
+	      rgba - scarab - scoopex - smash designs - speckdrumm - sqny - squoquo
+	  still - stravaganza - synesthetics - tbl - tggc - titan - traction - trsi
+	                                                             unik - vantage
+	  
+R E S P E C T S
+revision - breakpoint - buenzli - the ultimate meeting - evoke - x
+
+                                                                  C O N T A C T
+                                                    mail: info@nuance-family.de
+                                                   web: http://nuance-family.de
+					      facebook: nuance demoscene family

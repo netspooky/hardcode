@@ -1,0 +1,40 @@
+
+          _._________ .______    .________  .______/\_
+           |    ____/_|  ___/____|  _____/__|   ___  /_
+           |   __    /|  \      /_   ___   /_    _    /
+           |   \   .:\|   \__  .:/   \_   .:/    |  .:\
+           |____\     \_________/__________/_____|_____\
+           -//---\_____\------------------------lm!--//-->
+
+
+
+                            eleixane
+
+           executable 4k graphics by rgba [www.rgba.org]
+
+                        for Breakpoint 2008
+
+
+ .greetings
+
+   auld.asd.collapse.conspiracy.[d]vision.farbrausch.fairlight
+   fuzzion.level64.loonies.nocturns.plastic.rebels.skim.stage7
+   software failure.speckdrumm.spontz.still.tbc.traction.xplsv
+
+ .details
+   the reason for the slow rendering time is the 3d model that
+   is raytraced. there wasn't space left for kdtrees; so there
+   is my excuse. the (uber-recycled) 3d model contains far too 
+   many polygons, and it wastes both precious bytes as well as 
+   some rendering seconds. no time to optimize it this time :(
+   multicore machines are supported thou.
+   
+
+ .thanks
+   to stage7 and r3d for moral support
+
+ .credits
+
+   codilustrating :: iq               :: [www.rgba.org/iq]
+   3d modeling    :: marius
+   crinklering    :: mentor+blueberry :: [www.crinkler.net]

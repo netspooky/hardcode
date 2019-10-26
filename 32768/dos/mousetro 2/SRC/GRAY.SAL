@@ -1,0 +1,36 @@
+unit 286 Gray 
+.386
+
+assume ds:@code,cs:@code
+NoJumps 
+
+Extrn C2GC:Byte 
+
+Procedure Far GrayArea x, y, w, h, S, T
+   imul di,y,320 
+   add  di,x 
+   mov  fs,S
+   mov  es,T
+   cld
+   
+   mov  bx,offset C2GC 
+   mov  si,w
+   mov  dx,h
+   mov  bp,320
+   sub  bp,si     
+
+   $Do 
+      mov  cx,si
+      
+      Even 
+      $Do 
+         mov  al,fs:[di] 
+         xlat
+         stosb 
+      $EndDo Loop 
+   
+      add  di,bp 
+   
+      dec  dx 
+   $EndDo =0 
+EndProc

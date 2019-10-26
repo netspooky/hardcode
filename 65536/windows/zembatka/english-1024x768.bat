@@ -1,0 +1,1 @@
+zembatka.exe	-F	-L E	-R	1024	768

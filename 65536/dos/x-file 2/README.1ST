@@ -1,0 +1,23 @@
+
+X-file 2 by Trilogy
+
+    by Juha-Pekka 'J-P' Heikkila
+     + Teemu 'Rock Lobster' Hummer
+    ++ Sami 'Beathawk' Kiviniemi
+
+    intro requires xms memory manager (HIMEM.SYS) to be loaded but
+    the machine must not be in V86 mode(no EMM386 // QEMM etc.)
+    there is to be 410KB free base memory and 2MB free XMS.
+    intro features GUS only music and it can be disabled by
+    entering something on the command-tail(ie. -nosound)
+    intro was tested succesfully using intel 100MHz pentium
+    and AMD 100MHz 80486 prosessors, however it is obvious
+    that some TSR programs are suspected to cause problems.
+    + IRQ5 is quite occupied; never actually did face any
+      problems but if intro is to crash, it might help to
+      check whether some device is using IRQ5.
+
+                                        J-P, the coder.
+                                        kon6juhe@kotakk.fi
+
+

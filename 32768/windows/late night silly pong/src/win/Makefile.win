@@ -1,0 +1,35 @@
+# Project: Projekt1
+# Makefile created by Dev-C++ 4.9.8.0
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = asm_compo11_private.res
+OBJ  = main.o graphics.o $(RES)
+LINKOBJ  = main.o graphics.o $(RES)
+LIBS =  -L"C:/Dev-Cpp/lib" -lmingw32 -lsdlmain -lsdl  
+INCS =  -I"C:/Dev-Cpp/include" 
+CXXINCS =  -I"C:/Dev-Cpp/include/c++"  -I"C:/Dev-Cpp/include/c++/mingw32"  -I"C:/Dev-Cpp/include/c++/backward"  -I"C:/Dev-Cpp/include" 
+BIN  = asm_compo11.exe
+CXXFLAGS = $(CXXINCS)  -w -fexpensive-optimizations -O3
+CFLAGS = $(INCS)  -w -fexpensive-optimizations -O3
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before asm_compo11.exe all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+$(BIN): $(LINKOBJ)
+	$(CPP) $(LINKOBJ) -o "asm_compo11.exe" $(LIBS)
+
+main.o: main.cpp
+	$(CC) -c main.cpp -o main.o $(CFLAGS)
+
+graphics.o: graphics.cpp
+	$(CC) -c graphics.cpp -o graphics.o $(CFLAGS)
+
+asm_compo11_private.res: asm_compo11_private.rc 
+	$(WINDRES) -i asm_compo11_private.rc -I rc -o asm_compo11_private.res -O coff 

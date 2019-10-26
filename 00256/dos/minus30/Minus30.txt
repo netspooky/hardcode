@@ -1,0 +1,19 @@
+Minus30
+
+-a new 256 bytes intro in 226 bytes
+ by
+ MZ1453 / GFBx86
+ 23/10 2003
+
+-This intro shows a Buck Rogers scroll.
+ Usually this kind of scroll is called StarWars(tm)-scroll. 
+ But in fact it was already used in the old Buck Rogers serie
+ way back in the 1930´s!
+
+-GFBx86 division is the new 80x86 PC department of
+ Gunnars Farvebio(tm).
+
+Feel free to complain (and/or your new production) in a gentle way:
+gunslevbrugs@mail.tele.dk
+
+http://home13.inet.tele.dk/gfbtm

@@ -1,0 +1,7 @@
+"Snowflake Generator" by milov
+http://milov.nl/
+
+Generate an infinite variety of random snowflake patterns.
+Press F5 for more.
+Works in Internet Explorer 6 and Mozilla,
+probably also works in IE5 and IE4.

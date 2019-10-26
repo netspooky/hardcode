@@ -1,0 +1,13 @@
+spam.exe: spam.asm ray.inc
+	tasm spam /d_LAME /d_KEY
+	tlink spam
+	pklite spam
+ray.inc: ray.exe
+	go32 ray > ray.inc
+ray.exe: ray.c
+	gcc -o ray ray.c -lm
+	
+clean:
+	del *.obj
+	del *.map
+	del *.exe

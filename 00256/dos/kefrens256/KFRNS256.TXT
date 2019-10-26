@@ -1,0 +1,45 @@
+	Kefrens256, a 256byte intro
+	by Optimus/Dirty Minds/Nasty Bugs
+	Compiled with NASM
+	---------------------------------
+       
+	This is my second intro on X86 asm
+Not what I was thinking of it, I could normally rewrite some things
+gain much more bytes and fix the sine movements to better ones and
+more, to make it looking better, but I am a very newbie and I had to
+stop now and submit my entry, cause my uni exams start in few days
+and I have to get rid of it and start working for my lessons :P
+
+	INFO: 2 Kefren bars with translucency each other and a nice color raster background
+	KEYS: Escape to quit
+
+	WARNING: Don't run under pure windows (Freeze! CLI must be the reason)
+	Run only through DOS box or pure DOS..
+	And prefer pure DOS for that, cause perhaps the sync still fuxx up..
+
+       
+	Mail me at: mkargas@hotmail.com
+	Find me at: http://users.auth.gr/mkargas
+ 
+	Goodies to stare at:
+	http://users.auth.gr/mkargas/grscene
+	http://cpc-demoscene.paraknowya.com
+	http://cfemales.paraknowya.com
+
+
+	   Cu
+
+	      Optimus
+
+P.S. Few Greets: 
+	
+= First to people that helped me to finish this intro:
+  - Baze: Big thanx for the sine generator and all the other explanations :)
+  - emc/Deus: Hi! I got the infos about the ports to do all these hardware tricks from your tutorial in Overflow diskmag!
+	
+= Other people:
+  - shr: Hiya! This is one of my first attempts in tiny intro coding, I know it's very newbie, but I hope you will like it a bit :) I only hope that you find your motivation to be more active in the scene again..
+  - Bad Sector: How are you my friend? Sorry to haven't contacted you through email. I hope I will find time to do something with Nasty Bugs too...
+  - To all the other people of the greek demoscene out there anyways!
+  - www.256b.com and all X86 asm democoders! I am newbie, I am just starting, it is a pain in the ass,.. but it's fun! =)
+  - If I start I will never end. I am bored to write any more greetings... it's over. Some inactivity for 1+ month.. Tomorrow I open my books of modern Algebra again, hehe! :)

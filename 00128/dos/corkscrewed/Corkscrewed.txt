@@ -1,0 +1,35 @@
+"Corkscrewed"
+--------
+
+A 128b prod by lord Kelvin.
+
+This demo has a sad story behind it. I first planned to draw s spiral and then make it whirl, circling palette, this procedure was coded in 31 byte, but soon I understodd, that it was byte-cheaper to redraw screen and incement colors. So, idea that was cooler, wasn't best.
+
+Compiled with FASM.
+
+Great hello from Russia.=)
+
+
+P.S. Palette-cycleing procedure.
+
+all:    mov cx,0x100            ; 31b
+cycle:  mov dx,0x3C7
+        mov ax,cx
+        out dx,al
+        inc dx
+        inc ax
+        out dx,al
+        inc dx
+        in al,dx
+        mov bl,al
+        in al,dx
+        mov bh,al
+        in al,dx
+        push ax
+        mov al,bl
+        out dx,al
+        mov al,bh
+        out dx,al
+        pop ax
+        out dx,al
+        loop cycle

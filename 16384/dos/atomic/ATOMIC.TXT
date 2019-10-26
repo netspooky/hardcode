@@ -1,0 +1,33 @@
+
+                         ATOMIC INTRO BY RAMZAI
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ System requirements:
+
+ Some *fast* pentium, 640Kb RAM, *fast* VGA.
+
+ It is not recommended to run intro under Win`9x, because it slows down
+ everything.
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ This is my first T-Rex release. It is not very cool, there are no
+ superhypercrazymega effects, but i think it looks pretty nice, actually
+ nice for the 1st release :) It is big (8Kb) - its because of the nuclear
+ sign that is precalculated (can you say me a formula for it ? =) Anyway
+ it won't take part in any demoparty 'cause size doesn`t suit.
+ I hope you will like it...
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ Features:
+
+ û Phong shaded nuclear sign
+ û Mesh transformations
+ û Voxel landscape
+ û Texture morphing
+ û Noise =)
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ Greetz go to:
+
+ All T-Rex members, AMGorb/HRG, Sliq and everybody I know.
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ wbw, Ramzai/T-Rex

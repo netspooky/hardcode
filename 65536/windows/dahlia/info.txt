@@ -1,0 +1,33 @@
+
+dahlia, by inque
+
+:: release info
+
+made for (and at) Outline 2007.
+
+:: reqs
+
+uses pixelshader 2.0. requires direct3d 9.0.
+works fine on nvidia geforce 7900gs,
+and ati radeon x1400. not tested on other
+gfx cards, but should run fine. ohw and we
+didn't have time to optimize... <g>
+
+:: credits
+
+visuals/timing/soundtrack -- izard
+code/additional visuals -- glow
+
+:: greetz
+
+we say hi to:
+
+limp ninja
+fmc
+aardbei
+farbrausch
+guideline
+
+:: cya
+
+www.inque.org

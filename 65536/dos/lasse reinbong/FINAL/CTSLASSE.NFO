@@ -1,0 +1,81 @@
+LASSE REINB™NG final version.  (c) 1995/96 cubic team / $eeN
+
+hardware requirements:
+  -486 processor with coprocessor. DX2-66 should be lower limit.
+  -8MB, 4 MB free xms/ems mem.
+
+
+info on the parts:
+
+-blur in and out:
+  128 frames. consumes a lot of memory!
+-some text.
+-stone morf:
+  cool stone routine by submissive. so simple. so fast. so flexible. so cool.
+-some vectors:
+  roto-zoomer
+  face!
+  moving light source (haha!!!!)
+  object morf
+-roto-zoomer excess:
+  4 additive roto-zoomers
+  texture by submissive and scholar
+  output smoothing
+-stone/wood (or what is the material) trefoil knot:
+  roto-zoomer
+-roto-zoom feedback blur with greets
+-wobble toroid threebraid:
+  roto-zoomer
+  30765 faces (960 faces)
+-bitmap part:
+  one routine
+  gouraud shading
+  morfing between parts
+  bumpmapped bitmap
+  NO PRECALCULATION, NO SINETABLES, only one gouraud table
+  3 drops
+  chaos wave wobble (with drop)
+  tunnel morf
+-some vectors:
+  "larotz"-tunnel
+  duck!
+  torus!
+  object morf
+-some text.
+
+hope you like roto-zoomers. ;)
+
+some general info:
+
+most code (70k c++, 70k asm) in watcom c++ 10.0, fast routines
+in tasm 3.1. (i had to help wc 10.0 a lot to make it produce smaller code)
+in the compo version the player was a reduced version of mxmplay 1.15
+(3k uncompressed). the compressed module was 13k in size and had 10 channels.
+the final version uses a slightly reduced version of cubic player's soundsys.
+the dos extender used is pmode/w 1.2. pmode/w light was used for compression.
+
+credits:
+    code: pascal, submissive, scholar
+   music: doj
+  design: pascal, doj, submissive, scholar
+     gfx: ?hook, chaos, pascal
+     sfx: pascal
+ contact: scholar
+
+
+further procductions by cubic team:
+ -VEX intro (asm'94 64k) compo/final
+ -cubic player, 0.9á/0.95/1.0/1.4/1.5TP4/1.6
+ -SPACE01 (asm'95 ani#3/wired'95)
+ -loop01 (asm'95 4k#10) compo/final/bbsaddy
+ -mxmplay 1.0/1.1/1.2
+ -LASSE REINB0NG (tp5 64k#1) compo/final
+
+call our WHQ "DIGITAL NIGHTMARE":
+  +49-5121-39236  zyxel
+  +49-5121-157634 isdn
+
+contact:
+  seap2011@hp00.rz.tu-harburg.de (scholar)
+  bertolt.meyer@isys.net (hook)
+  Niklas Beisert@2:2437/301.44 (pascal@fido)

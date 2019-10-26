@@ -1,0 +1,40 @@
+!-----------------------------------------------------!
+! O O  OOO  O    O  O OO   O  OOO  O  OO  OOO  O  OO  !
+! O O  O    O   O O O O O O O  O  O O O O  O  O O O O !
+! OO   OO   O   OOO O OO  OOO  O  O O OO   O  O O OO  !
+! O O  O    O   O O O O   O O  O  O O O    O  O O O   !
+! O  O OOO  OOO O O O O   O O  O   O  O    O   O  O   !
+!-----------------------------------------------------!
+
+        K‚laipatoptop.
+        Une intro sans 3D mapp‚e toute en fran‡ais
+        par MyOpAtH CrEw.
+        Pr‚sent‚e … la Volcanic III.
+
+
+        Code  : Skyman
+        Zique : CorteX
+
+Quelques pr‚cisions ...
+
+Pourquoi :
+        J'ai d‚cid‚ de coder cette petite intro a deux balles pour la V3
+uniquement par principe, pour pr‚senter. Parce que je rapelle quand-mˆme
+qu'une party, c'est fait pour ‡a.
+
+Comment :
+        L'intro est cod‚e 100% asm sous l'E.O.S. 2.08. Elle a ‚t‚ faite en
+10h environ (j'ai jamais ‚t‚ trŠs rapide...). L'E.O.S. (Eclipse Operating
+System, pour ceux qui ne connaitraient pas encore) est tout simplement
+parfait pour coder asm (et maintenant Watcom avec la 3.00) mais il m'a
+quand-mˆme pos‚ un pb pour l'intro : celui de la taille. En effet, le
+systŠme a lui tout seul fait un peu plus de 18Ko pack‚. En ajoutant … cela
+ma police 32x32, le sprite, le module... on comprend mieux pourquoi l'intro
+est si courte. Car je rappelle qu'il ne s'agit pas d'une intro 100% scŠnes
+3D... Mon code seul (sans l'E.O.S.) fait environ 15Ko non pack‚.
+        Au cas o— vous n'auriez pas pu lire, les vector balls ‚crivent les
+lettres MC (Myopath Crew) et V3 (Volcanic 3)...
+
+                Salut !
+
+                                Skyman / MyOpAtH CrEw 1997.

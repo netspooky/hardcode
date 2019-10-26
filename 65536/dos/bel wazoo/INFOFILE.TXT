@@ -1,0 +1,56 @@
+
+        Bel wazo 64k intro.
+        Released at Dreamhack'98 demoparty held in Sweden early November.
+
+        Code written by Psychic Symphony
+        Music tracked by DJamm
+        Graphics pixeled by Iceball
+
+        Supporting the Arf!Studios cause.
+        Compo version only has GUS support.
+        Other soundboards are supported using external mse files.
+
+        Psychic Symphony is studying civil engineering at portugal and is
+a member of Evolve and ActiveFuel. Supports The Utopians and Arf!Studios.
+And is also editor of weekly demoscene newsletter entitled demojournal.
+
+        Iceball is also studying civil engineering at Portugal altough is
+not interested in beeing in any group.
+
+        DJamm is working on webdesign in France. Composes music for many
+years now and has teamed with Bomb, Nomad and ribbon in the past.
+
+        Intro has been tested on a 486dx2 and worked with small unsyncing
+problems. Pentium recommended for maximum enjoyment.
+        A soundboard would also be nice since the whole code and graphics
+are layed down thinking about the little tune. No sound is available althoug
+not recommended.
+        Works fine with windows95. Windows NT/98 gives problems because of
+32bit hi-processor capabilities not been expected when turbo pascal compiler
+was first created. Sometimes results in a divide by 0 error (202). I am
+keeping an eye-out for new pascal 32-bit compilers.
+        Press any key for the credits screen. Another press for exit.
+
+        Get in touch by email:
+        Psychic Symphony: ec97104@crazy.fe.up.pt
+        Iceball:          iceball_@hotmail.com
+        DJamm: 		  djamm@club-internet.fr	
+
+        For demojournal e-mail: demojournal@hotmail.com
+
+        For more information on Arf!Studios go to: www.altern.org/arfstd
+
+        If you can get irc up and running find us at ircNet channels:
+        Psychic Symphony: #pixel #coders #arfstd #demofr #trax
+        Iceball: #emu
+        DJamm: #demofr #coders #trax
+
+        Psychic Symphony's '5-liner' greets:
+        Nephoo . Shock . Idiotboy . Sulphurik . Programmed . #pixel . Slyde
+        Shodan . Adok . Distance . Screamager . Cremax . Scorpik . Thorsten 
+        Mindwalker . Salami . Codewiz . Euphoria . Wain . Szum . Cyg . Radi
+        Kombat . Melwyn . Mov . Cyberfish . Rod . Virne . Frame . Magnesium
+        Fear . Steffo . Dake . Altern . Chris . Leonel . Bitcoder . D-Viper
+
+        For i-feel-like-writing-a-lot infofile please do read bel_wazo.txt
+and enjoy around 200 lines of greetings. I couldn't bear myself to delete it.

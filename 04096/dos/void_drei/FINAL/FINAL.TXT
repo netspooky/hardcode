@@ -1,0 +1,24 @@
+
+ ##
+
+        hello world!
+
+                this is shiva typing, just feeling the need to say some
+                things about this final version.
+                first, the final is quite a bit larger, as i added or
+                changed the following two things:
+                + speed up some routines that were really too extremly
+                  slow (like unrolling color components).
+                + added two (still quite slow) blitter routines, so
+                  void3 is a bit more "graphics card" friendly.
+                  the 8bit mode looks bad, of course and you do not get
+                  a good impression of the colorful textures.
+                ok, so enjoy...
+                the real source will be released at ms00.
+
+                cya, shiva of kolor
+
+        ps. cool article, adok. hugi rules.
+        pps. unfortunatelly franky left kolor. just to make it official.
+	ppps. we're working on a windows version. pure asm, of course.
+

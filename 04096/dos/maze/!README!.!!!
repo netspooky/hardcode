@@ -1,0 +1,14 @@
+
+	maze.com  - wersja pod LBF ( Vesa 2.0 ) 
+	party.com - to samo co wyzej , tylko bez podpisu 
+	maze_fk   - z podpisem , pod fake-mode
+	party_Fk  - fake-mode bez podpisu
+	
+	!!! KONECZNIE ODPALCIE UNIVBE !!!! 
+	Intro dziala znacznie lepiej w trybie 320x200x65536 niz w fake'u .
+	 
+	WYMAGA himem.sys ( ok 4MB XMS )
+
+	NIE ODPALAC W TRYBIE v86 ( WINDOZE , EMM386 , QEMM etc. )
+
+	I to by bylo na tyle .

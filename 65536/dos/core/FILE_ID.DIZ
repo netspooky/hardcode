@@ -1,0 +1,21 @@
+
+ Core by Chrysalis
+ C3000 64k intro
+
+ code: Nobo, Tbyte
+ music: Pepe
+
+ switches:
+
+ -nosound  force nosound
+ -sb16     force SB16
+ -sb8      force SB 2.0
+ -m11      11kHz mixing rate
+ -m22      22kHz mixing rate
+ -m44      44kHz mixing rate (default)
+ -16bpp    force hicolor
+ -8bpp     force 256 color
+ -vs       vertical sync enable
+
+
+.unfinished version.

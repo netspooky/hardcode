@@ -1,0 +1,15 @@
+
+8th of March 2003
+The source release of "One day miracle" by Fit
+Originally released at Assembly'02
+
+Code - Marq & Pete
+Add. code - Yzi
+Sound - Roz
+Graphics - Marq
+
+Requires at least SDL, GCC & gmake. Edit the Makefile to suit your system.
+The source is a mess, but should compile quite easily with minor modifications
+to include/lib paths. Tested on x86-Linux, IRIX, Cygwin/Windoze 95 and Mac 
+OS X.
+

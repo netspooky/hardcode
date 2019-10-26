@@ -1,0 +1,36 @@
+
+this sucks.
+
+why?
+
+1.  the 3d code is .. *interesting* .. no z sorting, only a strange
+approximation of backface removal.  no surface/vector normals.  no actual
+gouraud shading.  and so on.  but it fits.  that's the main thing.  i'm
+pretty sure it'd be impossible to use this code for a decent object (ie
+a non-cube).
+
+2.  it's all in green.
+
+3.  we had something to do with the production of it.
+
+4.  vic didn't.
+
+5.  we can't code even at the best of times, and this was done in a day
+and a bit.
+
+6.  we're from a coding challenged nation.
+
+7.  it's all in green.
+
+8.  two coders working simultaneously on the same file is not a good way
+to go.
+
+9.  blood alcohol content of 0 throughout the entire production process.
+
+10.  it's all in green.
+
+11.  there are 11 things wrong with it.
+
+
+we, the authors/coders, hereby deny all knowledge of this intro.
+

@@ -1,0 +1,19 @@
+
+Having a bad "real life" recently so decided to do another 1k.
+
+Labyrinth1k.
+
+Greets to say thanks to Baze and Picard for inspiration.
+Greets to Rbraz for testing.
+Greets to Blueberry, Mentor for Crinkler.
+
+Requires: PS3.0 and a Good PS3.0 at that
+----------------------------------------
+640x480 recommended for Nvidia 6XXX series, ati 1600 series
+800x600 recommended for Nvidia 7XXX, ati 1800
+1024x768 for better cards.
+
+If its too slow try the lower res version.
+
+Its glsl + C if you are interested.
+No sound.

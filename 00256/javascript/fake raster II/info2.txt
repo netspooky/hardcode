@@ -1,0 +1,10 @@
+Fake Raster II by MrMessiah
+          -=-
+Requires: IE5/6
+
+Contains much dodgy JScript and
+HTML to shave off precious bytes
+:) 256 is a hard limit...
+Now with bonus scroller :)
+
+Email: MrMessiah@iname.com

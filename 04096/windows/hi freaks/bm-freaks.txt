@@ -1,0 +1,66 @@
+          ______                                     _______:
+        _/   _ /___________/_            _/______    \      |________
+       /     /     _/     /_____/________/     _/____/_    _/      _/
+ .- - -\-----------\    _/    _/   _    \__    \    __/----\_______\_ _ ___/_
+ :_                -\---------\____\_    _/----------\-             \     /_.
+ ./  _____                          `----/-                                 |
+ /  .\    \/------/______\---------/   _____\_   ______/_   _/_______ (lo!) |
+ :_\(_    \/    _/   _    \_______/____\  _  \__/    _/_____/   _    \_     |
+    -/----/_____\____\_    _/       \_    \    \_   _/    _)____/     /     |
+    .                 `----/---------/----------/---------'    `-----//(_ __|_
+ :
+ :                  __/\__                                                  :
+ :                  \ oO /  "hi freaks" by blackmaiden                      :
+ :                  /_--_\  4k intro for 0a000h-party 2003                  :
+ :                    \/                                                    :
+ :                                                                          :
+ :_                                                                         :
+  /-------------------------------------------------------------------------'
+
+-// credits
+
+   pandur        code, 3d        tom(at)drastic.net
+   ave           3d              till.oyen(at)web.de
+   igor          musiccode       igor(at)drastic.net
+   dipswitch     musiccode       dipswitch(at)kaoz.org
+   avatar        3d              avatar(at)lords.com
+
+-// requirements
+
+   - opengl (works "nice" on non-accelerated cards, too)
+   - a cpu
+   - general midi
+     be sure to turn up the general midi output device!
+
+
+-// greetings
+
+   atomkraft // badpeon&chunnie // bypass //
+   whole cologne-scene // c4 // d0n // downlords // farbrausch // freestyle //
+   haujobb // kolor // mindforce // park // phantasy // raketenbrot // salva mea
+   science // speckdrumm // vacuum // everyone i forgot...
+
+   thanks to the authors of the compression tools dropper and apack
+   thanks to macaw for miniglworkspace
+
+-// blah
+
+   the thing is something 2.5 dimensional... i think...
+   the intro is modeled with my blackmaiden 4k editor.
+   the intro is done in plain c, yes.
+   the music is general midi.
+
+   try "compatible" if you experience video-problems
+
+   i need a job!! contact me at tom@drastic.net :)
+
+
+   nfofile logo and file_id.diz by lord chaos / bm
+
+--// end
+
+   __/\__
+   \ oO /  bye freaks!
+   /_--_\
+     \/
+

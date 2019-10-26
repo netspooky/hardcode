@@ -1,0 +1,96 @@
+----------------------------------------------     ----------------------------
+                                             Ü²ÛÛ²Ü             .; , 
+                                  ÜÜ²Û²Ü    ²Û'   ß            -úi'ù       
+                         ²ÛÛÛ²Ü   ß   `Û²    ß²ÛÛ²Ü            xXXXx         
+                         ÞÛ  `Û²  Ü²Û²ÜÛÛ        `Û²          XXXXXXX               
+                         ²Û  ,ÛÛ ÛÛ'  ßÛÛÝ   Û². ÞÛÝ           "XXX"         
+                        ÜÛÛÛÛ²ß   ß²ÛÛ²'²ÛÛ  :ß²Û²ß                          
+             __                        \. \  |  / ,/                _          
+            ß²Û             ÜÛÛÛÛÛÛ²Ü \  `\`\|/'/'  /              Û²        
+    .; ,     ÛÛ            ÞÛ²ß'  `ßÛ² `\Ü²ÛÛÛÛÛ²Ü/'               ÛÛ        
+   -úi'ù     ÛÛ            ²ÛÝ      ÛÛ  ²Ûß' |`ßÛÛÝ ß²Û.Ü²ÛÜÞÛ²Ü   ÛÛ        
+   xXXXx     ÛÛ ÜÜ²ÛÛÛ²Ü   ÛÛ       ÛÛ  ÛÛ   |  ÞÛ²  ÛÛ²ß'ßÛÛ`ßÛ²  ²Û        
+  XXXXXXX    ÛÛÞßß    ß²Û  ÛÛ      ÞÛ²  ÛÛ   :   ÛÛ  ÛÛ'   ÛÝ  ÛÛ   ß        
+   "XXX"     ÛÛ       ÞÛ²  ²ÛÜ_  ,ÜÛÛÝ  ²ÛÝ  .   ÛÛ  ÛÛ    ÛÝ  ÛÛ  ²Û        
+             ÛÛÜ   _,ÜÛÛÝ   ß²ÛÛÛÛÛ²ß   ÞÛÛÜ_  ,ÜÛ²  ÛÛ    ²Ý  ÛÛ            
+------------ Û²ßÛÛÛÛÛÛ²ß ----       ---- ß²ÛÛÛÛÛ²ß - Û² ---  -ÞÛ² -------------
+                                                                             
+                                " das boOm! "
+
+             a 4kb intro (c)opyright 1996 ismo saarelainen (sliver/bc!)
+
+
+
+
+the usual legals:
+-----------------                                
+
+        this material is not freeware. you are allowed to copy it without         
+        restrictions for non-commercial use.                                      
+                                                                          
+        no payment of any kind may be charged for this product or any             
+        combination of products or services including this product without        
+        our authorization and official written license.                           
+                                                                          
+        commercial use, especially the industrial manufacturing on any 
+        data storage media and their distribution without the expressed 
+        permission of the producer, is strictly prohibited.                                  
+                                                                          
+        this program or the data files contained therein may not be altered       
+        or modified without the permission of the author. in this case you
+        can use the source code of this program but you must send greetings
+        and credit the REAL author of it.        
+                                                                          
+        you take full responsibility for the operation of this software and       
+        any consequences thereof. me, the creator, can not accept liability      
+        for damages or failures arising from the use of this software. 
+        you can't even blame god if this screws up. it's all your fault.                    
+
+
+the usual infos:
+----------------
+
+        this little intro was done at 7th/may/1996.. making this thing took
+        about 1 hour. i included the source so you can see how lame i am.
+        little optimizing took from 15 to 20 minutes, it wasn't necessary
+        but i wanted to make this smaller.
+        
+        idea for thiskindashit i got when i was coming back to my home from
+        heap... another animation 4kb intro (i made one for asm'95 too, but
+        it was full textmode+ansi) but this time in graphics.
+        
+        so how to make a vga animation to 4kb? i remembered this "taksi" 
+        4kb intro what i made for asm'95. so i decided to use the same system,
+        this time only asciis and then drawn to vga with some blur and error
+        on it. it look quite nice in my mind and it looks quite cute on my
+        screen. hope someone else likes this too. oh. thanks to heap for 
+        telling me about such a command like "hlt" - i'm a real lame beginner
+        in asm and i didn't know that there was so easy way to make delay..
+        (it made this thing something like 11 bytes smaller ;))
+        
+        greetings to all friends. i don't want to mention any names, you guys
+        must be really shamed now coz you know me :)
+        
+
+the usual contactiliima:
+------------------------                
+        
+        sliver@triplex.fipnet.fi
+        http://spider.compart.fi/~zen
+        #bc!
+        
+        the infinate SNAILmail address for primitive forces only:
+
+                bc!
+                c54 a5
+                00190 helsinki
+                finland
+
+        the tombstone, +358-0-3401608 (data/v34 -> i'm co-operator in here)
+        nuv is just to get all true lamers out.
+
+        the temple, +358-0-653580  (data/v34 - once again i'm co-opping..)
+                    +358-0-6223495 (data/v34)
+        nuv is just to get all true lamers out.
+        
+        that's it. bye.

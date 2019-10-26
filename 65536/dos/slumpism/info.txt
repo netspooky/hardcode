@@ -1,0 +1,45 @@
+
+    The Group Pathos. The Production Slumpism.
+
+    Two members.
+        Geza, coder ............. geza@inf.bme.hu, hg211@ural2.hszk.bme.hu
+        Manka, musician ......................... manka@ond.neptun.vein.hu
+
+    Thanks.
+        Blala .............................................. vazlat.txt :)
+        Charles Scheffold & Thomas Pytel ......................... PMODE/W
+        Pascal ................................................... mxmplay
+        Sahara Surfers ............................................. MIDAS
+        TomCat ................................................ some ideas
+        Markus Oberhumer & Laszlo Molnar ............................. UPX
+
+    Comments.
+        Use -video to select videomode manually.
+            -nosound to disable sound.
+            -h to list options (the final version has more options).
+
+        Realtime raytracing. Nothing is faked. Don't try it on a 486!
+
+    Notes for the DOS version.
+        GUS required for sound in the compo version. The final version
+        supports more soundcards. VESA 2.0 & LFB required for
+        hicolor & truecolor video modes.
+
+    Notes for the Linux-i386 version.
+        It runs under svgalib. Root rights needed. Sorry, no hicolor or
+        truecolor video modes. The videomode with dithering might blink
+        because it's real dithering (the palette is changed in each frame).
+
+        WARNING: the intro runs with the highest possible priority, thus
+        all processes will 'freeze' until the intro finishes! If you
+        don't like this behavior, use the -lowpriority option.
+
+    Notes for the X version.
+        The X version compiled for Linux-i386. Enough CPU power must be
+        given or weird things might happen (intro gets out of sync, etc).
+        This version is portable, so where gcc & X are available,
+        this intro works.
+
+    Developed under Linux.
+
+                                                                1999.07.28

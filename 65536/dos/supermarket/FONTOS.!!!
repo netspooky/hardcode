@@ -1,0 +1,7 @@
+ Az "supermarket" cimu intro vbe2.0+-t igenyel, commandline parameterek:
+
+ ø "dugong.exe 0" eseten 320x200x16bit LFB-t probal hasznalni
+ ø "dugong.exe 1" eseten 320x200x24bit LFB-t
+ ø "dugong.exe 2" eseten 320x200x32bit LFB-t (default)
+
+ Aron / contract

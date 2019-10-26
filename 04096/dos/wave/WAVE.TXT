@@ -1,0 +1,26 @@
+-----.,_,.-'~'-.,_,.-> WAVE <-'~'-.,_,.-'~'-.,_,.-'~'-.,_,.-'~'-.,_,.-'~'-----
+
+This 4k came second at Coven 98, 4k compo. Hope you like it, it took me a
+month to code it. I ran out of space by the end, and there were still some
+more effects which I wanted to put in. You will probably see them in AM's
+future releases. Speaking of releases the AM music disk should be coming
+out in November or early next year.
+
+I wrote this 4k on a Pentium 166 MMX but it runs fine even on a 486 DX.
+
+The first place coders didn't attend the party so I got the prize. :)
+
+Thanx to:  RubiXcom for suggesting some effects.
+           Emergent Software for sponsoring Coven.
+
+Greetz to: MZ - Great party. Hope to see another one in 2000.
+           Phorte - It was nice to meet you.
+           Black Fox - I still think your XM should have won.
+           Shock - nice try with a pure C 4k.
+
+           also; DF, Jestyr, Factory, HB, Clef and other kewl coder dudes.
+
+AM website: http://www.alphalink.com.au/~michg/am/index.htm
+
+                                                       NOR/AM - Mark Glickman
+                                                                   July, 1998

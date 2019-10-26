@@ -1,0 +1,4 @@
+kellerkugel
+pathtracing in 1 kilobyte with importance-sampled lambert diffuse BRDF, mirror reflection, multiple bounces (with colour 'bleeding'), two types of primitive, and a quite-subtle vignet post-process
+code, visuals, design: fizzer
+i used the super-awesome Crinkler

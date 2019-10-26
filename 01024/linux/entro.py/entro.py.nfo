@@ -1,0 +1,41 @@
+                        +------------------+
+                        |     Entro.py     |
+                        | by Exile Studios |
+                        +------------------+
+
+                       A 1k intro with Python
+                Released 6th June 2008 on Icons 2008
+                             4th place
+
+This intro uses pure Python and PyOpenGL. The sound system uses
+Python's ossaudiodev which is Linux and FreeBSD only. The intro
+is packed with zlib which is considered a standard on Linux systems.
+Just run the binary (actually a shell script) and it'll get
+uncompressed on the fly.
+
+This intro was developed and tested on Linux but it is possible that
+it runs on FreeBSD as well. Try it if you're feeling adventurous. I
+take no responsibility if anything bad should happen to your computer
+or other your belongings.
+
+
+Credits:
+Code: gormio
+
+Windows & Mac porting cudos to: agnaL & uhef
+
+Files:
+entro_py_by_exile_studios  - the intro executable
+entro.py                   - the code that is packed to the executable
+entro_windows.py           - windows port
+entro_macos.py             - mac os port
+
+
+
+Note about audio: Python uses OSS for audio and that sucks. It is
+quite possible that it won't get the sound device to it's use as
+there might be e.g. some software mixer on the way. If the intro
+doesn't start and instead throws an exception complaining that it
+couldn't access the sound device, try disabling all audio related
+services such as artsd. For me for example 'killall artsd' does the
+trick.

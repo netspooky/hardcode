@@ -1,0 +1,6 @@
+_______________________________________
+ chekerz -- 384b intro from da hedwund
+ really  sloppy code,  oversized  256b
+ prod modified to meet 384b standards.
+ or something.      2002     code: tmb
+               

@@ -1,0 +1,25 @@
+::
+:: Etram Source Release / Collapse
+::
+:: Another production from shash/Collapse
+::
+:: Ranked 8th/14 at BreakPoint'05 (Bingen)
+::
+
+------------------
+
+Etram - Ugly linux port by slack/NecroStudios
+
+If you want to get a binary under 4k from these sources, drop a copy of sstrip
+in the src/ directory and compile with gcc-3.3. I've just tried it with
+gcc-4.0.3 and got a bigger intro :(
+
+Send any questions and/or suggestions to slack at necrostudios.net
+
+Greets (in no particular order) to: TLOTB, zon@n, dust inc., collapse,
+stravaganza, network, asynkro, fuzzion, rgba, biXo, gum, dreambytes, yomizmo,
+mat!, limp ninja, software failure, xplsv, spöntz, unknown productions, TPM,
+tDR, sector omega, hardnull and you.
+
+
+

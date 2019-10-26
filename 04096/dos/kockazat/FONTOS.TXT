@@ -1,0 +1,3 @@
+Mielott elinditod az introt, nem art ha az ULTRAINIT.EXE-vel inicializalod a
+hangkartyad !!
+21-08-98  Larry/HêV+

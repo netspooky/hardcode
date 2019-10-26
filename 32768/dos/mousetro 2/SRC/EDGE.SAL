@@ -1,0 +1,85 @@
+unit 286 Edge 
+.386
+
+assume ds:@code,cs:@code
+NoJumps 
+
+Extrn C2G:Byte, G2C:Byte, EdgeSqrt:Byte 
+
+Procedure Far EdgeArea x, y, w, h, S, T
+   imul di,y,320 
+   add  di,x 
+   mov  fs,S
+   mov  es,T
+   cld 
+
+   $Do 
+      mov  si,w
+   
+      Even       
+      $Do 
+         mov  bx,offset C2G 
+         xor  ax,ax
+      
+         mov  al,fs:[di-320-1]
+         xlat
+         mov  dx,ax
+         mov  cx,ax
+         neg  cx 
+      
+         mov  al,fs:[di-320]
+         xlat
+         add  dx,ax
+         add  dx,ax
+      
+         mov  al,fs:[di-320+1]
+         xlat
+         add  dx,ax
+         add  cx,ax 
+      
+         mov  al,fs:[di-1]
+         xlat
+         sub  cx,ax 
+         sub  cx,ax 
+      
+         mov  al,fs:[di+1]
+         xlat
+         add  cx,ax
+         add  cx,ax
+      
+         mov  al,fs:[di+320-1]
+         xlat
+         sub  dx,ax
+         sub  cx,ax 
+      
+         mov  al,fs:[di+320]
+         xlat
+         sub  dx,ax
+         sub  dx,ax
+      
+         mov  al,fs:[di+320+1]
+         xlat
+         sub  dx,ax
+         add  ax,cx 
+      
+         sar  ax,2 
+         imul al
+         sar  dx,2             
+         imul dx,dx 
+         add  ax,dx
+         shr  ax,5
+
+         mov  bx,offset EdgeSqrt
+         xlat 
+          
+         stosb
+      
+         dec  si
+      $EndDo =0
+   
+      sub  di,w
+      add  di,320
+   
+      dec  h
+   $EndDo =0 
+EndProc

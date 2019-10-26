@@ -1,0 +1,34 @@
+
+                                   W A L L Y
+                                  ===========
+
+
+    This is my entry in the 256 byte game competition. It's called wally,
+  and is an 'arcanoid' clone (if you remember such an ancient game...).
+  The goal of the game is not to let fall the ball of the screen and hit
+  the as many bricks as you can. Start the game (WALLY.COM) and you'll
+  know what to do...
+
+
+   Controls :
+  ------------
+
+    Use arrow keys (,) to move left and right. Pressing ESC will
+  end the program immediately.
+
+
+   Hardware requirements :
+  -------------------------
+
+    - Processor : min. 80286 (not tested on a 80486, maybe it will be
+       too fast.)
+
+    - Grafix card : VGA.
+
+    - Disk space : 253 bytes.
+
+
+  Have fun !
+
+  Atl‚ta/InTeam ( ATLETA@URSUS.BKE.HU or marail@boss.ttt.bme.hu )
+

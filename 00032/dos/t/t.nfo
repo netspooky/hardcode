@@ -1,0 +1,18 @@
+prod:    t
+type:    32 byte intro
+author:  frag/fsqrt
+date:    05-07-2012
+
+;Dynamic T-square fractal in 32b
+;For this fractal we coverthe plane
+;with squares 2^n x 2^n
+;and count for each pixel how many times
+;it under the border or middle part of these squares.
+;In terms of binary code we need to
+;take x and y, find the pairs of sequental equal (or non-equal) bit pairs
+;at each position, AND it for x and y and count the number or 1's.
+;Enjoy!
+
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

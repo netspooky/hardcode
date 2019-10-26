@@ -1,0 +1,21 @@
+
+Reasons, by Inque 
+
+:: release info :: ----------------------------
+
+a 64k demo released at Evoke 2014
+
+mostly made live at the party. 
+because of reasons.
+
+note that this requires a powerful graphics card 
+and DirectX 10.1
+
+:: credits :: ---------------------------------
+
+code/shaders/visuals/direction -- glow
+visuals/direction/soundtrack -- izard
+
+:: cya :: -------------------------------------
+
+www.inque.org

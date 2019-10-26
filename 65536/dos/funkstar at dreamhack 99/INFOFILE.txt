@@ -1,0 +1,33 @@
+
+ f u n k s t a r  a t  d r e a m h a c k 9 9 (this is dreamhack, huh?)
+
+ sixtyfour kilobytes
+ dreamhack 99 (birdie? birdie 2000? oh ok...)
+
+ a trinity release
+ 
+ no-xs, starfish, superplek
+ music  graphics  code
+  
+ hmm, this intro is not really what i expected it to become.. i had
+ some time shortage..
+
+ uhh..
+
+ have a pentium 166 at least,
+ with a graphics adapter that supports 512*384*8bpp (vesa 2.0),
+ and some sort of soundcard.
+
+ gus-owners and nosound-owners run gus.exe
+
+ if you have another soundcard just unzip others.exe and run that one.
+
+ uhh gus.exe contains tiny gus xm player
+ uhh others.exe contains midas digital audio system
+
+ thanks to the autors, tho the midas version is very unstable ;)
+
+ we used upx to pack this thingy.
+ we used the protected mode extender/stub by taboo productions.
+
+ byah!

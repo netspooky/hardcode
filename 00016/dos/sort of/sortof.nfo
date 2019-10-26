@@ -1,0 +1,28 @@
+     ___________________
+    /  -S-o-r-t-o-f-    \ 
+   / 4 x 16 byte intros  \      A small collection
+   ~~~~~~~~~~~~~~~~~~~~~~~        of 16 byte intros
+   | First Assembler Code|          which are fun
+   +~~~~~~~~~~~~~~~~~~~~~+            ...sort of
+         by Copa
+    copabars@yahoo.co.uk
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sin15.com	: sort of sin wave in 15b
+street16.com	: sort of street from above in 16b
+rz14.com	: sort of rotozoom in 14b
+pan16.com	: sort of 3d with panning in 16b
+sortof.asm      : source for nasm
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+  In 16 bytes no space for exiting on ESC so
+  to exit, use ALT-TAB, then exit using mouse
+
+
+Size Matters...sort of
+
+
+          
+                                                                          
+                                                                          
+                                                                          

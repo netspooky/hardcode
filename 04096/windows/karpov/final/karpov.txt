@@ -1,0 +1,23 @@
+	
+	
+	
+	THIS INTRO REQUIRES A 640*480*32 DESKTOP!
+	
+	this intro won the kasparov-lookalike-contest.
+	it has shorter name and shorter size.
+	ranked 4th at mekka/symposium 2k1.
+	thanks to the audience for their really cewl live-support. you rock.
+	thanks to the organizing for showing it without second keyframe part and bad gamma in the compo.
+	thanks to the organizing for showing it again later (nearly noone recognized it. ;)
+	
+	this is the final, a bit faster and brighter one.
+	it doesn't switch to fullscreen 'cause 640*480 already requires really fast equipment (>700MHz, TNT2).
+	
+	code by pigpen^oCCult in a rush.
+	
+	50 badly keyframed spiders
+	5 textures
+	1392 basic objects at all
+	2 unbelievable fx samples ;) (time was too short)
+	
+	visit www.unterweltherrschaft.de

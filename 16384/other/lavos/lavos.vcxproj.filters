@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\bsd_rand.c" />
+    <ClCompile Include="src\common.cpp" />
+    <ClCompile Include="src\delay.cpp" />
+    <ClCompile Include="src\env_gen.cpp" />
+    <ClCompile Include="src\filter.cpp" />
+    <ClCompile Include="src\image_png.cpp" />
+    <ClCompile Include="src\intro.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\oscillator.cpp" />
+    <ClCompile Include="src\poly_handler.cpp" />
+    <ClCompile Include="src\songdata.cpp" />
+    <ClCompile Include="src\synth.cpp" />
+    <ClCompile Include="src\voice.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\bsd_rand.h" />
+    <ClInclude Include="src\common.hpp" />
+    <ClInclude Include="src\delay.hpp" />
+    <ClInclude Include="src\dnload.h" />
+    <ClInclude Include="src\env_gen.hpp" />
+    <ClInclude Include="src\filter.hpp" />
+    <ClInclude Include="src\image_png.hpp" />
+    <ClInclude Include="src\intro.hpp" />
+    <ClInclude Include="src\MIDI2Freq.h" />
+    <ClInclude Include="src\oscillator.hpp" />
+    <ClInclude Include="src\parameters.h" />
+    <ClInclude Include="src\poly_handler.hpp" />
+    <ClInclude Include="src\synth.hpp" />
+    <ClInclude Include="src\voice.hpp" />
+  </ItemGroup>
+</Project>

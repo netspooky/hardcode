@@ -1,0 +1,76 @@
+       ____________            ______      _____    _              
+        ____  ____/__   __________  /___  ___  /___(_)____________ 
+         __  __/  __ | / /  __ \_  /_  / / /  __/_  /_  __ \_  __ \
+         _  /___  __ |/ // /_/ /  / / /_/ // /_ _  / / /_/ /  / / /__
+         /_____/  _____/ \____//_/  \__,_/ \__/ /_/  \____//_/ /_______
+
+
+      C A T E G O R Y :    4k   i n t r o  (file is 1016 bytes only)
+
+                  v e r s i o n   1.0  [ 22 - mar - 2008 ]
+
+
+
+             .-----------------^[Evolution]^------------------.
+             :                                                :
+             :         ___   l__   .___      .    l_          :
+     ___ _ _ : _      (__(_  l__)  (__)   (__j    l__         : _ _ ___
+     )_)\ _  :                                                :  _ /(_(
+     \_\/_ _ : _  <-------------------------------------->  _ : _ _\/_/
+       Y     :                                                :     Yª
+       !           coding by: ...........................           !
+       :           ...........Thorsten Will  aka  Mr.Vain           :
+       :           ......................................           ú
+       .           Thanks for support and help: .........           .
+                   ...................................Jim   /
+                                   _ _                    //
+             `---------------------^\Y/^----------^[mv°s]^----'
+
+
+                           _   _  __ ___  __
+   _))_  ::.              -   -  -- ---  /\_\
+- /____\ - .: - - -----------------------\/_/--------^\ //^---------<<<<úú---.
+  \(Oo)/  ::                                           \/                    |
+  /\../===+    W e l c o m e / C r e d i t s                 :.              |
+_/__\/__\_                                    __                             |
+\/!!\/!!\/   .--úú>>>>-----^\\ /^------------/\_\----------------^[mv°s]^----'
+ \__/\__/ - -'               \/              \/_/  --- --  -   -
+                                                  »»» »»  »   »
+
+
+This is my contribution to the 4k intro competition at breakpoint 2008 in
+bingen. While coding, drinking, eating and smoking i got the idea for this
+1k (1016 byte) intro, while seeing colored things :D
+
+I have to thanks a lot my friend Jim who is an excellent coder and helped
+me a lot to realize this intro - without his help this intro would not exist!
+
+If you are interested in any democoding, just take a look to the great
+"dbf interactive community" where are a lot of talented and friendly sceners 
+around. www.dbfinteractive.com
+
+
+
+Special thanks to my beloved girlfriend Melanie for moral support! sorry
+for stealing you the sleep (night) - i am very sorry and i love you! <3
+
+
+
+                           _   _  __ ___  __
+   _))_  ::.              -   -  -- ---  /\_\
+- /____\ - .: - - -----------------------\/_/--------^\ //^---------<<<<úú---.
+  \(Oo)/  ::                                           \/                    |
+  /\../===+    R e q u i r e m e n t s / I n s t a l l a t i on    :.        |
+_/__\/__\_                                    __                             |
+\/!!\/!!\/   .--úú>>>>-----^\\ /^------------/\_\----------------^[mv°s]^----'
+ \__/\__/ ---'               \/              \/_/  --- --  -   -
+                                                  »»» »»  »   »
+
+
+This intro should work on any modern PC with a soundcard..
+
+
+  - -------------------------------------------------------------------- -
+       Good luck to all contributors. breakpoint is the place to be ;)
+  - -------------------------------------------------------------------- -
+

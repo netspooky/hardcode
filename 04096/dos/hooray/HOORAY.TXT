@@ -1,0 +1,46 @@
+                                   Hooray
+                              by Neon/Spetsnaz
+                       - a 4k intro from Bush Party 4 -
+
+This intro does only contain one effect, a recursive raytracing routine.
+The routine is very slow, and that makes the intro boring :)
+
+Requirements
+------------
+	- A 386 with a 387 FPU or better (but I've only tested the intro
+	  on Pentiums :)
+	- 2.5 MB free XMS memory
+	- VESA 1.2 with 640x480x16 bit to run HOORAY.EXE
+	- VESA 2.0 with 320x240x16 bit to run COMPO.EXE
+
+Files
+-----
+	COMPO.EXE
+	This is the exe-file from the compo. COMPO.EXE requires
+	VESA 2.0 with 320x240 16 bit support, and bytes per scanline
+	has to be 640 bytes. It was very hard to to get the
+	size below 4k, and COMPO.EXE is exactly 4096 bytes. :)
+
+	HOORAY.EXE
+	This is a nicer version of the 4k intro. This file does only require
+	VESA 1.2 with 640x480 16 bit support. This version does also
+	got error messages. The size is therefore over 4k.
+
+
+Source info
+-----------
+	Total source length:	3336 lines
+	Number of .asm-files:	11
+
+How to get in touch with me
+---------------------------
+	E-mail:
+	geirb@fof.kog.no (only valid to end of August)
+	geir5@tott.hibu.no
+	geir5@sapfo.hibu.no
+	geir5@hibukid1.hibu.no
+
+	Snail-mail:
+	Geir Bjerke
+	Dyrgravvn 23B
+	3600 Kongsberg

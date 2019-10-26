@@ -1,0 +1,48 @@
+
+
+
+
+                               G   L   e   a   m
+
+                      a small OpenGL four kilobytes intro
+                                 to Antiq'2000
+                                  by  DILEMMA
+
+
+
+                                    starring
+
+
+                      NAP - OpenGL engine, texturegenerator
+                        objectgenerators, and all the rest
+
+
+
+                                with the help of
+
+
+                             Borland - Tasm32/Tlink32
+
+                                   Jibz - Apack
+
+                            Gekko/Tonik - Startup code
+
+
+    
+                                  recommended
+
+
+          Windows 95/98/ME - Celeron CPU - 3d card with OpenGL support
+
+
+
+                                     note
+
+
+                  no multitexturing - because of your Voodoo :)
+
+
+
+                      copyright (c) MM - Dilemma - Hungary
+
+

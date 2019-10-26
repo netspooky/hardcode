@@ -1,0 +1,10 @@
+4SUM
+ÄÄÄÄÄÄ
+
+what is it:     256-byte-tro
+Next screen:    <ESC>
+Quit:           <ESC>
+
+This is a combination of four small doovey-lackey-thingy-a-me-jigs put
+together. Not interesting at all.
+

@@ -1,0 +1,28 @@
+
+   EtyyliEfekti                a Coral-CNCD-sYmptom-Inapt production
+                               Released on Assembly 2001
+
+
+  Credits:
+
+    Code
+         Jari Saukkonen     Weed / Coral       jsaukkon@cs.helsinki.fi
+         Toni Aittoniemi    Gimle / sYmptom    toni@staikatech.com
+         Jaakko Väyrynen    hcjake / Inapt     hcjake@iki.fi
+
+    Font
+         Jani Isoranta      Destop / CNCD      jani.isoranta@taikatech.com
+
+    Additional debugging
+         Ilpo Ruotsalainen  LoneWolf           lonewolf@iki.fi
+
+    Music was intercepted from a transmission from planet x15. 
+         
+
+
+   Greets included, batteries not. Tested on radeon & geforce2mx, 
+   w2k and w98. T&L and/or (very) fast cpu recommended. 
+
+
+
+    

@@ -1,0 +1,292 @@
+-|--------------------------------------------------------------------------|-
+ |                        [http://delirium.scene.pl]                        |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ .       ___   ___       ______  _     ______   _    _____    ____  _____   .
+  _______\  \_/  /______/     /_(/_____\     \_(/___/    /____\   \/    /_
+ \\      _   /  _\     /     /      /  /     /     /    /(   /    \/     //
+  /______/___\__\______\_____\\_____\--\_____\_____\_________\\____\_____\  no
+  ®----------------------------------------------------------------------¯
+ . D         E         L         I        R         I         U         M   .
+ |                                                                          |
+ | I         N         F         O        F         I         L         E   |
+ |                                                                          |
+ |                            [ - since 1998 - ]                            |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |      ___          _    ___       .__     ___       ______   ___.___      |
+ |    _/  /_________(/___/  /_______| /_____\  )______\     \__\_.|  /_     |
+ |   \\          //     /\__      /     //   \     /  /     /\   |    //    |
+ |    /---/______\______\/_/______\_____\/_________\--\_____\_________\     |
+ |                                                                          |
+ |                            ..delirium history..                          |
+ |                              ----------------                            |
+ |                                                                          |
+ |  [XI.1998]        - the djl crew was created by spock                    |
+ |  [IV.1999]        - goro (swapper) and simba (musician) joined           |
+ |  [VI.1999]        - spock renamed djl crew to delirium.                  |
+ |  [VIII.1999]      - hash (musician) joined                               |
+ |  [X.1999]         - velder (raytracer), dexter (azki/ansi maker),        |
+ |                     futtota (2d graphician) and wd0r (coder) joined      |
+ |  [II.2000]        - dexter left, wd0r was kicked out, zack (coder)       |
+ |                     joined                                               |
+ |  [III.2000]       - simba and goro left                                  |
+ |  [IV.2000]        - hash was kicked out. futtota left. goro rejoined     |
+ |  [VI.2000]        - genezis (2d graphician), dan hawkins (coder), re     |
+ |                     (musician), chomik (musician), radman (raytracer),   |
+ |                     raven (raytracer) joined. velder was kicked out.     |
+ |  [VII.2000]       - maneo (coder), mime (2d graphician) and sebonis      |
+ |                     (raytracer) joined                                   |
+ |  [VIII.2000]      - sebonis, maneo and hazel (ex. zack) left             |
+ |  [IX.2000]        - dave (coder), with (azki/ansi maker) joined          |
+ |  [X.2000]         - killaman (webmaster), soul rider (coder),            |
+ |                     verdin (coder) and degrysin (raytracer) joined       |
+ |  [XI.2000]        - fiodor (raytracer) joined                            |
+ |  [XII.2000]       - verdin left the scene, ufok (coder), kbi (ftp admin) |
+ |                     and bamboos (2d graphician) joined                   |
+ |  [II.2001]        - frey (2d graphician) joined                          |
+ |  [IV.2001]        - ayla (stuff spreader), mastiff (coder), neo          |
+ |                     (2d graphician) and stilgar (musician) joined        |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                    _______  ___            _________                     |
+ |                ____\     /_/  /___________/     /  /_______              |
+ |               \\   /      /  _\     /\   /\     \__       //             |
+ |                /--/_______\__\______\/___/\______\/_______\              |
+ |                                                                          |
+ |                           ..news from delirium..                         |
+ |                             ------------------                           |
+ |                                                                          |
+ |  - kbi left snailmail swapping, he will spread our stuff through the net |
+ |  - fiasko party in czech republik is over and we have couple of good     |
+ |    news: degrysin won in raytrace compo, neo was second in pixel compo   |
+ |    and stilgar was 3rd in chip compo and 4th in module compo.            |
+ |  - ayla joined as a stuff spreader - welcome in delirium crew!           |
+ |  - finally! our site is working, but it's still with temporary design    |
+ |  - amber.bti.pl was turned into ftp.interror.org                         |
+ |  - according  to  the  3rd  issue  of  planet  chartsmag: mime was 18th  |
+ |    (graphician  charts),  degrysin  was  11th  (raytracer charts), frey  |
+ |    was 1st, with was 2nd and goro was 6th (all in swapper charts), frey  |
+ |    was  3rd  and  goro  was  11th (both in editor charts), with was 6th  |
+ |    (ascii/ansi artist charts) and he was also 2nd (paper artist charts)  |
+ |  - frey was 28th on mekka-symposium 2001 graphics compo                  |
+ |  - mastiff, neo and stilgar joined our crew! welcome in the group! =]    |
+ |  - our graphician - mime, drawed some graphics for the forthcomming      |
+ |    dragon issue 6 (a polish diskmag)                                     |
+ |                                                                          |
+ |                             ..work in progress..                         |
+ |                               ----------------                           |
+ |                                                                          |
+ |  - beyond the unknown - a musicdisk with jungle/d'n'b styles             |
+ |  - one step out - a demo                                                 |
+ |  - photogenetik - second demo                                            |
+ |  - and many other projects... =]                                         |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+  ___  _____  ___       ____  _____   ___       ___        ______  ___      |
+ _\  \/    /_/  /_______\   \/    /__/  /______/  /________\     \/  /______|
+\\   \/     /  _\     /\    \/     /\  _      /  _\     /  /     /\__      //
+ /____\_____\__\______\/_____\_____\___\______\__\______\--\_____\/_/______\.
+ .                                                                          |
+ |                             ..delirium members..                         |
+ |                               ----------------                           |
+ |                                                                          |
+ |            goro ----------------------------- organizer  (poland)        |
+ |            spock -------------------- founder, musician  (poland)        |
+ |            chomik ---------------------------- musician  (poland)        |
+ |            re -------------------------------- musician  (poland)        |
+ |            stilgar --------------------------- musician  (poland)        |
+ |            genezis --------------- musician, graphician  (finland)       |
+ | inactive!  frey ---------------------------- graphician  (poland)        |
+ |            mime ---------------------------- graphician  (poland)        |
+ |            neo ----------------------------- graphician  (poland)        |
+ |            bamboos ------------------ graphician, coder  (poland)        |
+ |            dan hawkins -------------------------- coder  (poland)        |
+ | inactive!  dave --------------------------------- coder  (spain)         |
+ |            mastiff ------------------------------ coder  (poland)        |
+ |            soul rider -------------- coorganizer, coder  (poland)        |
+ |            ufok --------------------------------- coder  (poland)        |
+ |            degrysin ------------------------- raytracer  (poland)        |
+ |            fiodor --------------------------- raytracer  (poland)        |
+ |            radman --------------------------- raytracer  (poland)        |
+ | inactive!  raven ---------------------------- raytracer  (poland)        |
+ |            killaman ------------------------- webmaster  (russia)        |
+ |            ayla ------------------------ stuff spreader  (poland)        |
+ |            kbi -------------- ftp admin, stuff spreader  (poland)        |
+ |            with ------ ascii/ansi maker, stuff spreader  (poland)        |
+ |                                                                          |
+ |        we are looking for more talented graphicians 2d and coders!       |
+ |          we also continue our search for a good object modelers!         |
+ |            contact one of the organizers for more information!           |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |              ________  ______     ___          ___   ___                 |
+ |          ____\      /__\     \____\  )_________\  \_/  /______           |
+ |          \  //______\  /     /     \   /\      _   /\__      //          |
+ |          /____\    /---\_____\/________\/______/___\/_/______\           |
+ |                                                                          |
+ |                             ..delirium prods..                           |
+ |                               --------------                             |
+ | -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  |
+ | name                    | kind   | author     | released         | place |
+ | -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  |
+ | trip into the sheet  | msx     | spock        | gravity'1999     |   -   |
+ | as for as (...)      | msx     | re           | legend#3         |   5th |
+ | walking on the moon  | msx     | chomik       | legend#3         |   6th |
+ | tragicomedy          | msx     | spock        | legend#3         |   9th |
+ | thai's revange       | msx     | chomik       | horizon'2000     |   -   |
+ | delirium borntro     | demo    | delirium     | assembly'2000    |   -   |
+ | heaven               | gfx     | mime         | assembly'2000    |  13th |
+ | mushrom              | ray     | radman       | assembly'2000    |   -   |
+ | untitled compo track | msx     | chomik       | assembly'2000    |   -   |
+ | syntetic jazz        | msx     | spock        | ltp'2000         |   -   |
+ | mc planeta           | ray     | degrysin     | satellite'2000   |   7th |
+ | sour field           | msx     | spock        | satellite'2000   |   -   |
+ | above                | gfx     | mime         | satellite'2000   |  11th |
+ | freedom!             | ray     | degrysin     | dialogos'2000    |   3th |
+ | mr bober             | ray     | degrysin     | trsac'2000       |   5th |
+ | sweet strawberry     | gfx     | bamboos      | performance'2001 |   7th |
+ | child of universe    | gfx     | bamboos      | performance'2001 |   8th |
+ | klimat zlej mysli    | ray     | fiodor       | performance'2001 |   9th |
+ | fabryka              | ray     | fiodor       | performance'2001 |  10th |
+ | past                 | msxdisk | delirium     | anniversary'2001 |   n/a |
+ | soft asylum          | slide   | dlr & nms    | anniversary'2001 |   n/a |
+ | tool                 | ray     | degrysin     | anniversary'2001 |   3rd |
+ | industrial           | ray     | degrysin     | anniversary'2001 |   7th |
+ | evol                 | gfx     | mime         | anniversary'2001 |   4th |
+ | valentine card       | gfx     | bamboos      | anniversary'2001 |   9th |
+ | planet               | gfx     | bamboos      | anniversary'2001 |  11th |
+ | madafaka             | gfx     | degrysin     | anniversary'2001 |   6th |
+ | legend               | ansi    | with         | anniversary'2001 |   7th |
+ | noches logo          | ansi    | with         | anniversary'2001 |   8th |
+ | spiral               | ascii   | with         | anniversary'2001 |   3rd |
+ | flood                | ascii   | with         | anniversary'2001 |   4th |
+ | planet               | gfx     | frey         | mekkasymp.'2001  |  28th |
+ | husk                 | ray     | degrysin     | fiasko'2001      |   1st |
+ | ties blood           | gfx     | neo          | fiasko'2001      |   2nd |
+ | levitathion          | chipmsx | stilgar      | fiasko'2001      |   3rd |
+ | dreamers world       | msx     | stilgar      | fiasko'2001      |   4th |
+ | -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --  |
+ |                 for other releases check our distro sites!               |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |            ___    _    ___       .__    ______     ___      ___          |
+ |     _______\  \__(/___/  /_______| /____\     \____\  )____/  /_____     |
+ |    \\      _   /     /\__      /     // /     /     \    //\_      /     |
+ |     /______/___\_____\/_/______\_____\--\_____\/_________\/_/______\     |
+ |                                                                          |
+ |                           ..delirium distros..                           |
+ |                             ----------------                             |
+ |                                                                          |
+ | check our web page at:  http://delirium.scene.pl                         |
+ | nodelay (newsletter):   http://nodelay.scene.pl                          |
+ | official polish distro: ftp://toya.scene.pl/pub/distro/delirium          |
+ |                         ftp://ftp.interror.org/pub/scene/distro/delirium |
+ | official world distro:  ftp://ftp.scene.org/pub/demos/groups/delirium    |
+ | snail distro:           aneta tomaszewska (ayla)                         |
+ |                         sciegiennego 3b/9                                |
+ |                         66-4oo gorzow, poland                            |
+ |                                                                          |
+ |                         grzegorz gajewski (with)                         |
+ |                         bohaterow westerplatte 14/16                     |
+ |                         38-4oo krosno, poland                            |
+ |                                                                          |
+ |                         wojtek niewiadomski (goro)                       |
+ |                         ul.turkusowa 9/12                                |
+ |                         97-4oo belchatow, poland                         |
+ |                                                                          |
+ |   we are looking for more distro sites all over the world! contact us    |
+ |                          for more information!                           |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |      ___         ___       ______  .__         ___    ___      .__       |
+ |    _/ _/_________\  )______\    /__| /_________\  \__/ _/______| //__    |
+ |    \  \     /     \   /\   /     /      //     _   /\  \     /      /    |
+ |    /__/_____\/________\/--/______\______\/_____/___\___/_____\______\    |
+ |                                                                          |
+ |                               ..contact..                                |
+ |                                 -------                                  |
+ |                                                                          |
+ |                   - organizing, join, support, info -                    |
+ |                          goro - goro@poland.com                          |
+ |                    soul rider - sr_wpt@poczta.onet.pl                    |
+ |                                                                          |
+ |                            - www, ftp, info -                            |
+ |                           kbi - kbi@go2.pl                               |
+ |                      killaman - killaman@scene.org.ru                    |
+ |                                                                          |
+ |                                 - info -                                 |
+ |                          ayla - aylaat@poland.com                        |
+ |                       bamboos - bamboos@scene.pl                         |
+ |                        chomik - bzz_chk@poczta.onet.pl                   |
+ |                   dan hawkins - danhawk@scene.pl                         |
+ |                          dave - david.palomar@campus.uab.es              |
+ |                      degrysin - zielu@us.edu.pl                          |
+ |                        fiodor - malyfiodor@poczta.onet.pl                |
+ |                          frey - frey_ad@poczta.onet.pl                   |
+ |                       genezis - genezis@softhome.net                     |
+ |                       mastiff - mastiff@klub.chip.pl                     |
+ |                          mime - mime@kki.net.pl                          |
+ |                           neo - neograf@wp.pl                            |
+ |                        radman - radman99@poczta.onet.pl                  |
+ |                         raven - raven000@go2.pl                          |
+ |                         spock - spock@scene.pl                           |
+ |                       stilgar - stilgarscene@interia.pl                  |
+ |                          ufok - ufo@esko.com.pl                          |
+ |                          with - with@go2.pl                              |
+ |                                                                          |
+ |                             - msx swapping -                             |
+ |                        michal malolepszy (chomik)                        |
+ |                            ul.sw.barbary4/4o                             |
+ |                         97-4oo belchatow, poland                         |
+ |                                                                          |
+ |                            lukasz hoksa (re)                             |
+ |                            ul.sielecka 41/82                             |
+ |                         412oo sosnowiec, poland                          |
+ |                                                                          |
+ |                        boguslaw litwinski (spock)                        |
+ |                            ul. przewiezlika 2                            |
+ |                        42-674 zbroslawice, poland                        |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |          ___        ______  ___       ___       .__    ___               |
+ |        _/ _/________\     \/  /______/  /_______| /___/  /_______        |
+ |        \  \_     /  /     /  _\     /  _\     /     //\__       /        |
+ |        /___/_____\--\_____\\_\______\__\______\_____\ /_/_______\        |
+ |                                                                          |
+ |                                 ..greets..                               |
+ |                                   ------                                 |
+ |                                                                          |
+ |   addict. aion. altair. anadune. anakata. anduril. apc. black rainbow.   |
+ |    clasp. cloud#9. crux. cryogen. demolition. deusexmachina. dimness.    |
+ |    energy. giraffe. grinders. hubris. hypnotize. ipc. k!aa. korozone.    |
+ | legacy. ls9. metaphor. mindstorm. mo'playaz. nahkolor. nemesis. paradox  |
+ |  team. park. platoon. procreation. royal core. secular. spiral. spirit.  |
+ |     sunflower. suspend. tempo. the grid. thelo0p. tokyodawn records.     |
+ |           trinity. ultimaa. veezya. whelpz. wizz.arts. zone51.           |
+ |                                                                          |
+ |                                                                          |
+ |                                                                          |
+ |                        ___          ______        ___                    |
+ |                      _/  /__________\    /________\  \_                  |
+ |                      \  _\     /\   /     /       _   /                  |
+ |                      /__\______\/--/______\/______/___\                  |
+ :                                                                          :
+                                     ..end..                                .
+ .                                     ---
+               ascii by noches/whelpz^mimic . noches@poczta.onet.pl
+                     text by goro/delirium . goro@poland.com
+ .               and soul rider/delirium . sr_wpt@poczta.onet.pl            .
+
+
+
+
+

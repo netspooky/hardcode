@@ -1,0 +1,27 @@
+
+ -------- Quantum Core by KK/DMA --------
+
+
+Idea/Code/Gfx/Msx/Synth		KK
+
+
+Hardware requirements:	SM 3.0 and A LOT of pixel power
+			GTX 280 or higher strongly recommended
+			if you have something lower, consider
+			running demo in reduced resolution
+			(or waiting for capture)
+
+
+Special thanks go to Marta, for her patience and support.
+
+Many thanks to Mentor and all the people involved in making of Crinkler.
+
+
+
+Greetings to all the people at the Riverwash 2k10 party and beyond.
+
+
+
+
+Have fun,
+KK

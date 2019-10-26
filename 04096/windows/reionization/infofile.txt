@@ -1,0 +1,47 @@
+_________________________________________________________________
+Reionization by
+
+  :: mfx
+
+_________________________________________________________________
+Released at
+
+  :: Assembly 2012 4k intro competition.
+
+_________________________________________________________________
+Credits
+
+  :: JuhoAP (Music)
+  :: pommak (Code)
+
+_________________________________________________________________
+Huge props to
+
+  :: Gopher & Powl / Alcatraz for 4klang.
+  :: Blueberry & Mentor for Crinkler.
+  :: Rale for 4k framework.
+
+_________________________________________________________________
+Requirements
+
+  :: Very fast GPU, preferably desktop.
+  :: GTX670 or ATI equivalent recommended.
+  :: 720p capable display (sorry, no 1080p).
+  :: Only 16:9 aspect ratio is supported because of lack of time.
+  :: Might be slightly slower on nvidia, don't know why.
+
+_________________________________________________________________
+Greetings
+
+  :: Quite
+  :: Satori
+  :: Traction
+  :: Fairlight
+  :: Andromeda Software Development
+  :: Matt Current
+  :: Cubicle
+  :: Ananasmurska
+  :: Sqny
+  :: Accession
+  :: Flo
+  :: HBC

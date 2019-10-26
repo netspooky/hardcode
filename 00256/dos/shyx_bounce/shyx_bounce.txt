@@ -1,0 +1,15 @@
+        ==== Bouncing ball in 256 bytes, by shyx ====
+
+Hello, every one!
+
+This is the first 256 byte demo I write myself. Hope you like it.
+It runs quite well on my Celeron 400MHz, but it will be a bit too
+fast on some new PCs.
+
+It draws a ball bouncing on a horizontal plane. The soft shadow of
+the ball should look quite nice. 320x200 mode might be a bit ugly,
+since the ball looks elliptical. Also I have run out of bytes to 
+terminate the program, so you had better run it under Windows, and 
+close the window after you have had enough.
+
+shihaixia98@mails.tsinghua.edu.cn

@@ -1,0 +1,23 @@
+
+flo - kaikki/everything
+
+                    stream 2003 intro kompo
+
+once again flo production that's created in
+a great hurry, so you should not expect too
+much quality. expect quantity.
+software synthetizer has some strange bugs, 
+but deadline is today, so maybe i'll fix it
+and release a final version later. 
+i really wont fix it today. booz calling me
+also some syncs and design could be nice to
+add to this piece of code. 
+
+works atleast with these combinations
+      - winxp xp2000+ ati mobile radeon32mt
+                  - winxp geforce 4 ti 4600
+                        - win2k matrox g450
+
+thanks to mov and synteesi (greetings also)
+
+astu/flo    <->    olli.pelkonen@luukku.com

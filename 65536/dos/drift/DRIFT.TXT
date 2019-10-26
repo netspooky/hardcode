@@ -1,0 +1,212 @@
+
+	DRIFT by WILD LIGHT released at the Assembly'95 10-13.08.1995
+
+-----------------------------------------------------------------------------
+	INDEX
+-----------------------------------------------------------------------------
+
+	I    - FILES IN DRIFT.ZIP
+	II   - RIGHTS AND DISCLAIMER
+	III  - HARDWARE REQUIREMENTS
+	IV   - SUPPORT
+	V    - PROBLEMS?
+	VI   - WL'S PERSONAL GREETINGS
+	VII  - HOW TO CONTACT US
+	VIII - DIST.SITE LIST
+
+-----------------------------------------------------------------------------
+  I     FILES IN DRIFT.ZIP
+-----------------------------------------------------------------------------
+
+	DRIFT.EXE       - The intro             (65306 bytes)
+	DRIFT.TXT       - This info text        (6250 bytes)
+	FILE_ID.DIZ     - BBS description       (89 bytes)
+
+-----------------------------------------------------------------------------
+  II    RIGHTS AND DISCLAIMER
+-----------------------------------------------------------------------------
+
+	This material is not freeware. You are allowed to copy it without
+	restrictions for non-commercial use.
+	No payment of any kind may be charged for this product or any
+	combination of products or services including this product without
+	our authorization and official written license.
+	Commercial use, especially the industrial manufacturing on any
+	data storage media and their distribution without the expressed
+	permission of the producer, is strictly prohibited.
+	This program or the data files contained herein may not be altered
+	or modified without the permission of the author.
+	You take full responsibility for the operation of this software
+	and any consequences thereof. We the creators cannot accept
+	liability for damages or failures arising from the use of this
+	software.
+
+-----------------------------------------------------------------------------
+  III   HARDWARE REQUIREMENTS
+-----------------------------------------------------------------------------
+
+	This intro requires at least a 386 processor and 4MB memory.
+	But we recommend 486/66 with a fast graphics card and GUS.
+
+-----------------------------------------------------------------------------
+  IV    SUPPORT
+-----------------------------------------------------------------------------
+
+	The player supports GUS, SB and SBPRO.
+	The intro should work under all memory managers like Himem, Qemm,
+	Emm386 etc.. But if you find any problems try different boot setups.
+
+-----------------------------------------------------------------------------
+  V     PROBLEMS?
+-----------------------------------------------------------------------------
+
+	We haven't found many yet.
+
+	If you select wrong sound card IRQ or the player can't reset
+	sound card properly the intro will "crash" to the beginning.
+	If the screen stays white and the sound won't go on press ESC and
+	try again. If it won't work after few attemptions try another
+	boot setting.
+
+-----------------------------------------------------------------------------
+  VI    WL'S PERSONAL GREETINGS
+-----------------------------------------------------------------------------
+
+	Odd Monk greets:
+	----------------
+	Jep. Greetings go to several people.
+	Jussi "Jussuf" Lepp„nen
+	Jarkko "Pula" Puolakka
+	Jaakko "Lada-Watanen" Hasu
+	Sami "Mouho" Narinen
+	Tuomas "Arkkimopo" Aakala
+	Kalle "Jouko" Hocksell
+	Sami "TERMINAATTORI" Ruokonen
+	Jari "Homer-SIKA!!" Sormunen
+	Teemu "Pelionni" R„ty
+	"LILLE" "Blueball" Kristian Teperi
+	Wille "Seiska" Ruokonen
+	Toni "Lihamylly" Lindroos
+	Antti "Lima" Ma-linen
+	Timo "Negro-Tino" Heikkil„
+	Antti "Mr.Bean" Aakala
+	And all my other friends.
+
+
+	Preacher greets:
+	----------------
+	All those few scene people I happen to know.
+	All my friends, especially those who at least
+	some way try to understand that computer isn't
+	only for playing some stupid games, but for other
+	purposes too; for creating (un)real pieces of art or
+	at least trying to do so. Enormous greets and
+	thanks go to Tiina, who hasn't given up supporting
+	me with whatever I try to do and still hasn't
+	complained much...(Yes, the fact remains...)
+
+
+	Nobody greets:
+	--------------
+	Breeze / Capaccala              Caveman / Coma
+	Kaiowa / Sorrox                 Apathy / Coma
+	Lemody / Chaos                  Crinoid / Inside
+	Betacarotine / HIRMU 'nd every other HIMRU member
+	Lethal / Crypton
+	Zodiak / CDA
+	Purple Motion
+	S-tone
+	Janne Ropponen
+	Tonedeaf / Extreme
+	The guys at EMF with StarTreks
+	Teemu R„ty
+	BlueBall
+	Sami
+	Titan
+	Our sysop Juha Niemi
+	Grendel
+	Apache
+	Assembly organizers and Pekka Aakko
+	Lorenzee
+
+
+	Asmu greets:
+	------------
+	Addict & Doom / @
+	Azure / Prime
+	Apathy / Coma
+	Betacarotine / Jeskola!
+	Breeze / Capacala
+	Jmagic / Complex
+	Matrix / Prime
+	Otto Chrons / Virtual Visions
+	Tonedeaf / Extreme
+	Wog / A-men
+	Welti / Enigma
+	Wode / Crypton
+	#coders
+	Yahoo diskmag staff
+	Titan
+	Jatu
+	Janne Ropponen
+	Markus Kolsi
+	Kari Lipponen
+	Risto Month n
+	Jani Kaila
+	Antti Lipsanen
+	Juha Saarnio
+	All users of WTMIK
+
+	And all I forgot to greet :)
+
+	Vulture greets:
+	---------------
+	Addict / @
+	Wog / A-men
+	Breeze / Capacala
+	Zodiak / Cascada
+	Pan Adol & Lemody / Chaos
+	Apathy / Coma
+	Jmagic / Complex
+	Lethal / Crypton
+	Henchman & Gore / FC
+	Azure / Prime
+	Gimle & Proffa / Symptom
+	Betacarotine / Jeskola!
+	Apache
+	Jatu
+	Titan
+
+	All cool people I forgot and all
+	my friends outside the demo scene
+
+-----------------------------------------------------------------------------
+  VII   HOW TO CONTACT US
+-----------------------------------------------------------------------------
+
+	If you have any reason for contacting us, please do so.
+
+	Modem:
+
+	Hangar BBBS
+	   +358-(9)51-3758236
+	   +358-(9)51-3117053
+
+	Demo networks:
+
+	GSN and DGI.
+	Write to Vulture or Preacher
+
+	Snail-Mail:
+
+	Timo Sihvo
+	Mustakallionkuja 11
+	55610 Imatra
+	Finland
+
+-----------------------------------------------------------------------------
+  VIII  DIST.SITE LIST
+-----------------------------------------------------------------------------
+
+	Pointbreak +32-11.43.69.25   6 Nodes 33.600 Baud V.34+ UsRobotics
+	Sysop: Lord Cyrix

@@ -1,0 +1,167 @@
+@echo off
+echo [0;1;5;42mÿ
+cls
+echo       Welcome to:
+echo              _________
+echo ³---³---³\/³³__³³  ³__³---
+echo ³-  ³³ ³³  ³³   ³  ³\  ³ ³
+echo ³  \õ---³  ³³   ³  ³  \---
+echo.
+echo Slam key...
+copy fjomp.002 e.com >nul
+e
+:card
+cls
+set loop=
+echo 1 Speaker (Mono)
+echo 2 GUS    (Stereo)
+echo 3 SB      (Mono)
+echo 4 SB Pro (Stereo)
+echo.
+echo Pick one:
+e
+if errorlevel==1 goto pcs
+if errorlevel==2 goto gus
+if errorlevel==6 goto hi
+goto nopz
+:nopz
+echo WRONG
+delay 2
+goto card
+:pcs
+echo Spkr. support 4gotten!  :(  Buy GUS!
+delay 4
+cls
+goto hell
+:gus
+echo Wait, Calculating...
+set ca=gu
+%ultradir%\ultrinit >nul
+copy fjomp.001 t.com >nul
+t
+:hell
+echo [44mÿ
+cls
+echo [2;1HNize music, eh? This are an scroll coming up
+beep 19 2
+cls
+echo [3;3HCoded by HeiZahn/rc in a day or so
+beep 19 2
+cls
+echo [4;5HThe music you are hearing I like pretty much, although the musician
+beep 19 2
+cls
+echo [5;7Hsaid it wasn't totally his style.  This is quite
+beep 19 2
+cls
+echo [6;9Ha revolutionary 4K!  Tell me, how many batch-coded intros
+beep 19 2
+cls
+echo [7;11Hhave you seen in 4K?
+beep 19 2
+cls
+echo [8;13HRemember to vote for this, cause it was reallly hard work, and I
+beep 19 2
+cls
+echo [9:15Hthink I deserve it  If you are reading this
+beep 19 2
+cls
+echo [10;17Hof the big-screen at BP ][, your eyes move pretty fast
+beep 19 2
+cls
+echo [11;19HBull
+beep 19 2
+cls
+echo [12;21HPenger
+beep 19 2
+cls
+echo [13;23HG›y
+beep 19 2
+cls
+echo [14;25HFestlig
+beep 19 2
+cls
+echo [15;25HSing
+beep 19 2
+cls
+echo [16;23HStem
+beep 19 2
+cls
+echo [17;21HG†stol
+beep 19 2
+cls
+echo [18;19HI not skriv
+beep 19 2
+cls
+echo [19;17HI am 1som
+beep 19 2
+cls
+echo [20;15HHallo
+beep 19 2
+cls
+echo [21;13HVestland
+beep 19 2
+cls
+echo [22;11HGuri luft
+beep 19 2
+cls
+echo [23;9HVote right
+beep 19 2
+cls
+echo [24;7HVote rECTUMly
+beep 19 2
+cls
+echo [25;5HMeet us
+beep 19 2
+cls
+echo [26;3HU CANT READ THIS
+beep 19 2
+cls
+echo [27;1HA st†r
+beep 19 2
+set loop=%loop%x
+if not %loop% = xxxxxxxx goto hell
+echo [?7h[40m[2J[0;1m
+cls
+goto cr
+:hi
+echo [?7h[40m[2J[0;1;33m
+cls
+echo Hidden part.. gawd, how did u find this?
+delay 5
+echo Hidden part? Really want 1?
+e
+echo 2 bad!
+goto end
+:cr
+echo [25C[34m       Credits:
+echo.
+echo                       Code: Heizahn / rECTUM cAUDA
+echo                      Music: Wishes to remain unknown
+echo                 GFX: If you find any, you get a sjokokjeks
+echo                      Design: Heizahn / rECTUM cAUDA
+delay 10
+cls
+echo                               Greets:
+echo.
+echo                        All in rECTUM cAUDA
+echo                               Gollum
+echo                               Sorrox
+echo                              Darkzone
+echo                                Yeti
+echo                               Proxima
+echo                                 LGM
+echo                              Illuminati
+echo                              Cryogenic
+echo                                T.I.C.
+echo                             Lost Vision
+echo.
+echo               BTW: Source available! Only 100 NOK.
+echo.
+echo    Copyright (c) 1995 rECTUM cAUDA  All blunts preserved!
+if %ca%==gu %ultradir%\ultrinit >nul
+echo.
+echo.
+if exist t.com del t.com
+del e.com
+:end

@@ -1,0 +1,38 @@
+
+  > rubby
+  .
+  > 4k (3.6k even ;)
+  .
+  > win32\opengl
+  .
+  > by wbcbz7
+  .
+  > for cc2o17
+  .
+  > my first try to do something raymarched and postprocessed
+  .
+  > as far as i know, it will even work on winxp+gf9600gso (at least i tried :)
+    but ofcuz it runs soooooo slooooowwww even in 640x360. use your gtx1060+!
+  .
+  > rubby_***x***.exe     - fullscreen
+    rubby_***x***_wnd.exe - ehm, top left window :D
+  .
+  > this piece of three-days-from-scratch code will never been finished without
+    this stuff:
+
+    .leviathan-2.0 by noby - thanks a lot dood, you just opened a 4k world for
+                             me, your recent intros are outstanding! =^_^=
+    .4klang by alcatraz
+    .shader minifier by ctrl-alt-test (a but buggy anyway ;)
+    .crinkler by loonies & tbc
+
+    and greets to all sizecoders all over the world (no matter which size =)
+
+
+
+
+
+
+
+ p.s. why ascii stuff is absent? well, npskw stuck in cave of ordeal while I
+      did this intro, and I didn't recovered him yet (nono, just kidding :)

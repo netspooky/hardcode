@@ -1,0 +1,27 @@
+Cubic Centimeter
+by npli
+
+a 4k intro for Stream 8
+
+Basically thrown together in two days so...
+
+
+Tools:
+--------------------------------
+
+Crinkler:
+Blueberry & Mentor
+http://www.crinkler.net/
+
+4Klang:
+Gopher & pOWL / Alcatraz
+http://4klang.untergrund.net/
+
+OpenGL 1.1
+
+--------------------------------
+
+
+
+
+

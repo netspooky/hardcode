@@ -1,0 +1,33 @@
+Oops, it seems we made a 4k for Kindergarden 2009. It has the
+descriptive name
+
+temp teaser preview
+
+and was brought to you by
+
+Keyboarders and Loonies (see the intro for appropriate misspellings)
+
+Blueberry: Provider of tools
+Spookysys: User of visual tool
+Loaderror: User of musical tool
+Quisten:   Visionary sidekick
+
+
+This intro was coded on an old laptop that could not display the
+visuals.
+
+The music was composed on a netbook with insufficient CPU power to
+play the music. The music is replayed by a buggy synth.
+
+The code is a pick-and-choose mixture of the Haumea and Solskool
+engines.
+
+The project was tentatively dropped due to desire for partying, but
+then revived a few hours after the deadline.
+
+We didn't even bother to remove whitespace from the shader.
+
+But we managed to delay the compo anyway.
+
+
+First place? We'll blame that on the sync...

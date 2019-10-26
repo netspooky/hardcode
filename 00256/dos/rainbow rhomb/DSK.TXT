@@ -1,0 +1,73 @@
+.begin
+
+.dSK! info
+   dSK! is a Spanish demoScene Krew. This is our first production.
+   dSK! was created at the end of 1996... but it has been inactive until
+    now.
+   dSK! is closely related to Mystic Bytes (game producers).
+   dSK! world headquarters (JamQue's house ;) is in Barcelona (SPAIN).
+   dSK! has as primary objective our own enjoyment.
+    Is it clear?
+
+.members
+   At the moment we are the ones that appear here.. but we are open to
+  new incorporations.
+
+   Nick         Real Name               Main Task         Others
+   ''''         '''''''''               '''''''''         ''''''
+   Ufix         Pau Vivancos            Code
+   PasoPutas	Pedro Diaz		Code
+   Sml          David Domingo           Music             dezign
+   dVD          David Corral            Gfx+dezign        Music
+   JamQue       Rafel Perez             Code+Webmaster    3Dgfx
+   AcidBeat     Javier Arreondo         Gfx+Music+dezign        
+
+
+.productions & projects
+
+   Ok.. this two little 256bytes demos are our first production, but we'll
+  release soon an intro or musicdisk (not decided yet!).
+
+   At the moment we're also putting our efforts in making a MegaDemo for the
+  Euskal Party 7 (held in San Sebastian, Spain -July'99).
+
+    c u  there!!
+      
+.contact us
+
+   official dSK! web:   http://www.arrakis.es/~jamque
+
+   emails:
+    Sml          - e6456332@est.fib.upc.es       (music, general)
+    Ufix         - ufix@arrakis.es               (code, general)
+    JamQue       - jamque@arrakis.es             (code, web)
+    dVD          - talcual@redestb.es            (gfx)
+    Acidbeat     - javier@altraforma.com         (gfx, music, design)
+    PasoPutas    - pdiaz@mx3.redestb.es          (code)
+
+   Ufix and Sml are quite active in IRC-Hispano channels (#demos and
+  #programacion_stratos).
+
+.credits
+
+  3 Emeralds and RainBow Rhombs were coded by Ufix.
+
+.greetings
+
+ Ufix's special greetings goto:
+
+  bp/savage     ... thanks for telling me about the 256bytes compo
+                    and for helping me with the code.
+  Sml/dSK!      ... hey! learning asm ?? Good luck!
+  Xphere        ... Level 1 completed... let's start level 2
+  JamQue/dSK!   ... gfx3d, webmaster and coder (having time to do sth ??)
+  dVD/dSK!      ... "dVD se columpia" (dSK News 1-Dec-98) X'DD
+  AcidBeat/dSK! ... Chunda Chunda.. rulz!!
+  wonder/savage ... just keep making such a cool songs
+  Lolaine/MacDG ... hi IRC-Addict! What about a 256b demo for the Mac??
+  Pasoputas/dSK!... realmente las pasaste mu putas :D
+
+   ... and all ASM coders
+
+<תתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתתת  Ufix / dSK! תתתתתתתתתתתתתת>
+<eof> 19-Dec-98 . . . back to coding :)

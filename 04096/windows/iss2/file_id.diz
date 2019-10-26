@@ -1,0 +1,21 @@
++-----------------------------------------------------+
+|       At Breakpoint 2004 - The code inside          |
+|       HARDREAD presents a  4k intro called          |
++---------------------+------------+------------------+
+                      |            |
+                      |            |
+                +---+-+    ISS2    |
+                |   |              +----------------+
+     +----------+   |              |                |
+     |              +--------------+                |
+     |  code:  pohar      pohar@freemail.hu         |
+     |  music: Vincenzo   vincenzo@scenergy.dfmk.hu |
+     |                                              |
++----+----------------------------------------------+-+
+|This 4k intro requires OpenGL, Windows XP, soundcard,|
+|CPU (>1.7GHz) and a 3D video card having the speed of|
+|Gef4 class.                                          |
+|                                                     |
+|(The music is incomplete with older Windows versions |
+|  due to winmm)                                      |
++-----------------------------------------------------+

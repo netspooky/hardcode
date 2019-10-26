@@ -1,0 +1,136 @@
+.scn file:
+----------
+  object tree
+  textures
+  starfield
+  palette
+
+object tree:
+------------
+one of the below
+  -node
+  -object
+  -light source
+
+node:
+-----
+  0 number of nodes
+    number of nodes * ( objecttree )
+    move list
+
+object:
+-------
+  1 filename.dat
+    status list
+    move list
+
+light source:
+-------------
+  2
+    move list
+
+move/status list:
+----------
+  time/sec  movecommand/statuscommand     (time==0 => time=lasttime)
+  time/sec  movecommand/statuscommand
+  ...
+  10000
+
+movecommand:
+------------
+  -pos  x y z
+    position object
+
+  -move dx dy dz
+    move object
+
+  -accel ddx ddy ddz
+    accelerate object
+
+  -smove deltatime/sec  x y z  dx dy dz
+    smooth move:
+      move object from current pos/speed to pos x y z / speed dx dy dz
+
+  -angle x y z
+    set angle
+
+  -rot dx dy dz
+    rotate object
+
+  -aaccel ddx ddy ddz
+    angle acceleration
+
+
+status command:
+---------------
+  -enable
+    makes this object visible
+
+  -disable
+    makes this object invisible
+
+  -setcut cutnum   (objects only)
+    enables spacecut for this object, will be intersected with all objects
+     of the same cutnum
+    cutnum==-1 => disable spacecut
+
+  -setspeed speed  (starfield only)
+    sets the speed of the stars
+
+  -setmaxcol maxcol (starfield only)
+    set the maximum color of the stars
+
+
+textures:
+---------
+  number of textures
+    number of textures * ( texture )
+
+texture:
+--------
+one of the below:
+  -imagemap
+  -plasma
+  -sineplasma
+
+imagemap:
+---------
+  0 filename.tga
+    256 color uncompressed cmap
+
+plasma:
+-------
+  1 xybit xaux yaux cbit roughness seed
+      wid=2^(xybit+xaux), hgt=2^(xybit+yaux), col=2^cbit
+
+sineplasma:
+-----------
+  2 wid hgt col numop numop * (p dp f a w)
+     numop rotating sine waves
+      sine operator:
+        p:phase, dp:change of phase/pixel, f:change of phase/second
+      angle:
+        a:phase, w:change of phase/second
+
+starfield:
+----------
+  status list
+  move list
+
+
+palette:
+--------
+  time/sec palcommand
+  time/sec palcommand
+  ...
+  10000
+
+
+palcommand:
+-----------
+one of the below:
+  -setpali                 basecol colnum  sr sg sb  er eg eb
+    interpolates the colors from color basecol to color basecol+colnum-1
+      from  sr sg sb  to  er eg eb
+  -fadepali deltatime/sec  basecol colnum  sr sg sb  er eg eb
+    crossfade (see setpali)

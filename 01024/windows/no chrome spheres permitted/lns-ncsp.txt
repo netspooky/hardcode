@@ -1,0 +1,76 @@
+
+     __._        _.____   _.____   _.____   _.__    ____._    ____._
+   _/  |/________\|_   \__\|_   \__\|_   \__\|__)__/  _ |/___/  __|/____
+  _)   _/      /   /    /   /    /   /    /      (_   __|  (_____      (_
+  \    \      /        /        /   /     \       /         /   /       /
+  /_____\_____\________\________\___\______\______\_________\___________\
+ - -diP--------------------------------------------------------------uP!- -
+
+
+                    No Chrome Spheres Permitted
+	     	 1kb intro released at The Meltdown 2007
+
+
+A realtime version of the poster
+"Absolutely no chrome spheres over checkerboards permitted in this room"
+http://lemminger.eu/lir/content/cromsfer.gif
+
+
+Credits
+=======
+Code: Psycho
+
+Crinkler used for compression.
+Auld's in4k 1k framework used as a starting point
+
+
+Compatibility
+=============
+This time raytracing (sort of) on pixel shader 2.0 hw :)
+Tested working on R9800, not tested on GeforceFX though.
+(And ofcourse working on 1900/2600/7900/8600)
+
+
+Additional info
+===============
+http://www.loonies.dk
+
+
+Source :)
+======
+Here in a bit condensed form, especially the shader source output from my glsl transformer, no need to read/write it like that..
+
+const static char *vsrc="varying vec3 v;void main(){v=vec3(gl_Vertex.xy,gl_Color.x);gl_Position=gl_Vertex;}";
+const static char *fsrc="varying vec3 v;void main(){vec3 w=normalize(vec3(v.x,v.y*.8-1,2)),p=vec3(sin(v.z*44),sin(v.z*24)+2,sin(v.z*34)-5);float b=dot(w,p),d=b*b-dot(p,p)+1,x=0;if(d>0){p-=w*(b+sqrt(d));x=pow(d,8.);w=reflect(w,p);}if(w.y<0){p-=w*(p.y+1)/w.y;if((.5-fract(p.z))*(.5-fract(p.x))<0)x+=2/length(p);}gl_FragColor=abs(v.y-v.x)>.1&&abs(v.y+v.x)>.1?vec4(x):vec4(1,0,0,0);}";
+const static char* glnames[]={"glCreateShader","glCreateProgram","glShaderSource","glCompileShader","glAttachShader","glLinkProgram","glUseProgram"};
+inline void ShaderSetup() 
+{ static void *gle[7];
+  for (int i=0; i<7; i++) gle[i] = wglGetProcAddress(glnames[i]);
+  int v = ((PFNGLCREATESHADERPROC)(gle[0]))(GL_VERTEX_SHADER);
+  int f = ((PFNGLCREATESHADERPROC)(gle[0]))(GL_FRAGMENT_SHADER);	
+  int p = ((PFNGLCREATEPROGRAMPROC)gle[1])();
+  ((PFNGLSHADERSOURCEPROC)gle[2])(v, 1, (const char**)&vsrc, NULL);
+  ((PFNGLSHADERSOURCEPROC)gle[2])(f, 1, (const char**)&fsrc, NULL);
+  ((PFNGLCOMPILESHADERPROC)gle[3])(v);
+  ((PFNGLCOMPILESHADERPROC)gle[3])(f);
+  ((PFNGLATTACHSHADERPROC)gle[4])(p,v);
+  ((PFNGLATTACHSHADERPROC)gle[4])(p,f);
+  ((PFNGLLINKPROGRAMPROC)gle[5])(p);
+  ((PFNGLUSEPROGRAMPROC) gle[6])(p);
+}
+void WINAPI WinMainCRTStartup()
+{ static PIXELFORMATDESCRIPTOR pfd;
+  pfd.dwFlags = PFD_SUPPORT_OPENGL|PFD_DOUBLEBUFFER;	
+  HDC hDC = GetDC( CreateWindow("edit", 0, WS_POPUP|WS_VISIBLE|WS_MAXIMIZE, 0,0,0,0,0,0,0,0) );
+  SetPixelFormat(hDC, ChoosePixelFormat(hDC, &pfd), &pfd);
+  wglMakeCurrent(hDC, wglCreateContext(hDC));
+  ShaderSetup();
+  ShowCursor(FALSE); 
+  do
+  { glColor3us(GetTickCount(),0,0);
+	glRects(-1,-1,1,1);
+    SwapBuffers(hDC);
+  }
+  while ( !GetAsyncKeyState(VK_ESCAPE) ); 
+}
+

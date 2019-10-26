@@ -1,0 +1,20 @@
+MEUK 4kbyte intro by ritz/revolution.
+
+to hear sound [and probably also to run the intro]
+you need a soundblasterthingy with DMA1 and address 220h.
+if i get a lot of requests, i will release other
+versions with other DMA channels. 
+
+of course it will not run on win2000 or whatever.
+(but there's a very small chance that this will change)
+win98 works fine, though. [at least, it did at my pc]
+
+i would like to thank franky for helping me out with
+soundblaster code, and explaining me the basics of
+realtime sound generating. also thanks to pim1 and dani
+for mental support. then, i would like to thank
+a lot of other people, because either they deserve
+thanks, or maybe they just want to get thanked, and
+who am i to deny them?
+
+email: ritz@cyberjunkie.com

@@ -1,0 +1,9 @@
+"Entropy" by milov
+http://milov.nl/
+
+Non-interactive animation using dashed css borders.
+Works in Internet Explorer 6, maybe also in IE5 and IE4.
+Does not work in Mozilla.
+Alternate viewing modes:
+- look at it from a distance
+- take off your glasses

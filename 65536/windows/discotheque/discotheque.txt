@@ -1,0 +1,19 @@
+
+------------------
+Discotheque by DXM
+------------------
+
+* A fast hacked-together 64k released at Underscore 2k2 in Gothenburg, Sweden.
+
+* Runs @ 0.06kFPS straight through on my GF2MX/MX400, 
+  PII400, 128MB RAM in 800x600 32-bit.
+
+* Requires DX8.1 and a T&L card.
+
+* Code by ector.
+* Music by ector.
+* 3D girls by nishin.
+* 3D scenes by ector.
+* Textures/gfx by ector.
+
+  contact: meloditronic@home.se

@@ -1,0 +1,55 @@
+3
+
+  by
+  
+  cryo & twy
+
+  5th at EvokeZ003 in the 4k intro category
+
+
+  - no 3D hardware accelerator -
+     - no assembly language -
+        - just oldskool -
+
+
+Contents:
+
+  FILE_ID.DIZ  
+    You're reading it
+  3party.com
+    The original win32-party-version
+  3final.com
+    Final win32-version with ESC enabled
+  3linux.bin
+    Linux SDL-version. Slow and big. We will work on it for our next release.
+
+
+Credits:
+
+  code      cryo & twy
+  music     N/A
+  models    N/A
+  graphics  N/A
+  design    haha... :-)
+  
+
+Thanks:
+
+  ASPACK-Software  for ASPACK
+    (http://www.aspack.com/) PS: your buy-page seems broken in Mozilla 1.4a)
+  Markus F.X.J. Oberhumer & László Molnár  for UPX
+    (http://upx.sourceforge.net/)
+  Gaffer  for TinyPTC
+    (http://www.gaffer.org/tinyptc/)
+  Sam Lantinga  for SDL
+    (http://www.libsdl.org/)
+  Wayfinder/Farbrausch  for uploading it in time for the compo
+    (http://w@yfinder.de/)
+  All the EvokeZ003-Organizers  for 31337-organizing
+    (http://www.evoke-net.de/)
+
+
+Contact:
+
+    cryo    -    me@em-motion.com
+    twy     -    rob@superhelden.de

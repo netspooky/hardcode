@@ -1,0 +1,29 @@
+
+
+                     white one
+                a 4k intro by never
+
+
+this intro is dedicated to a friend's lsd trip in which he understood that the universe is white (not black) and one (not zero)... inside an ambulance.
+
+
+the effect is just one shader processing its own output from the last frame. it does about the same thing as a feedback loop created by pointing a video camera at a screen displaying its output as well as some color manipulation. the shader takes 14 parameters that define an effect. we fade between 20 of these effects. since the effects are pixel based, big resolutions look better for most effects. the whole thing is not deterministic (due to timing) and will look slightly different each time you watch it.
+
+
+nvidia only (probably)
+
+
+tools:
+ * 4klang
+ * openmpt
+ * iq's 4k framework
+ * glsl minifier
+ * crinkler
+ * linux, windows, python, emacs, visual studio
+
+
+credits:
+ * music: cleh
+ * code : cupe
+ 
+ * thanks to flo, flo, flo, simon, andi, manx and oma

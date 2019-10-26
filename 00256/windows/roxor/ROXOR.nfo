@@ -1,0 +1,62 @@
+__________________  ____  __________ __________
+\______   \_____  \ \   \/  \_____  \\______   \
+ |       _//   |   \ \     / /   |   \|       _/
+ |    |   /    |    \/     \/    |    |    |   \
+ |____|_  \_______  /___/\  \_______  |____|_  /
+        \/        \/      \_/       \/       \/
+
+                             [use Courier New Font] ^^
+
+ROXOR [<256 bytes Windows XP .exe intro]
+
+Copyright 19/05/08 by zerofun
+
+.code ---> 74 bytes
+.shit ---> 180 bytes
+.exe ----> 254 bytes
+
+The WHOLE point of ROXOR is NOT the shitty XOR texture
+effect, but the nicely hacked .exe format. Yah Mon?!
+ROXOR uses hardcoded API addresses and I have therefore 
+enclosed a file for each Windows XP version. Use the 
+one appropriate for your system. Note that ROXOR has 
+only been tested on Windows XP 5.1.3.0 SP3 (IA32). It
+should all work in THEORY. LOL!!!
+
+Contact me at borncannibal AT hotmail DOT com
+
+Use NASM to assemble ROXOR:
+
+   nasm -f bin -o ROXOR_SP3.exe ROXOR_SP3.asm
+
+USE ROXOR_SP0.exe when you have:
+   Windows XP 5.1.0.0 SP0 (IA32)
+   kernel32.dll, gdi32.dll and user32.dll 5.1.2600.0
+   kernel32.LoadLibraryA: 77E805D8
+   user32.GetDC: 77D45F40
+   gdi32.SetPixel: 77C767C7
+   user32.ReleaseDC: 77D45F4F
+
+USE ROXOR_SP1.exe when you have:
+   Windows XP 5.1.1.0 SP1 (IA32)
+   kernel32.dll, gdi32.dll and user32.dll 5.1.2600.11061
+   kernel32.LoadLibraryA: 77E7D961
+   user32.GetDC: 77D45332
+   gdi32.SetPixel: 77C76C0E
+   user32.ReleaseDC: 77D45341
+
+USE ROXOR_SP2.exe when you have:
+   Windows XP 5.1.2.0 SP2 (IA32)
+   kernel32.dll, gdi32.dll and user32.dll 5.1.2600.21802
+   kernel32.LoadLibraryA: 7C801D77
+   user32.GetDC: 77D48697
+   gdi32.SetPixel: 77F1D3E1
+   user32.ReleaseDC: 77D4866D
+
+USE ROXOR_SP3.exe when you have:
+   Windows XP 5.1.3.0 SP3 (IA32)
+   kernel32.dll, gdi32.dll and user32.dll 5.1.2600.5512
+   kernel32.LoadLibraryA: 7C801D7B
+   user32.GetDC: 7E4186C7
+   gdi32.SetPixel: 77F1B83B
+   user32.ReleaseDC: 7E41869D

@@ -1,0 +1,57 @@
+
+
+   RADIANT   by Juippi/Tempo&Dzd
+
+    
+    a 4k-intro for Assembly99 4k-introcompo
+
+
+ Files:
+  radiantc.com - compo version, doesn't display author
+  radiantr.com - release version, displays author
+  radiant.nfo  - this file
+
+ System requirements:
+
+  A fast (pentium-class) pc
+  about 400k of free base memory
+  A display adapter and monitor capable of using the standard
+  320*200*256 -mode (mode 0x13)
+
+ Recommended
+
+  A really fast pc (at least 233mhz, preferably much more)
+  A sound blaster or compatible (Gus with SBOS is ok)
+   with a correctly set BLASTER -enviroment variable. If the
+   variable isn't found or is set incorrectly, the sound will NOT work!
+   (supports dma 0-3, irq 3,5 and 7 and ports 220-260, at least in theory.
+   dma 1, port 220 and irq:s 3, 5 and 7 tested)
+
+
+ To run the intro in normal mode, just type
+
+  'radiantc' (or radiantr to see the release version (no much difference))
+
+ To run the intro in nosound-mode, type
+
+  'radiantc -mixerdevice=NONE -scanenv=NO -mixing_frec=-1 -syncmode=0x9e'
+
+  (well, actually any command line parameter(s) will make the intro
+  to run in nosound-mode)
+
+ Features:
+
+  - Ultra-cool graphics with many different colors on the screen
+  at the same time
+
+  - A great soundsystem with 256 bit mixing, 65536*oversampling,
+  quadratic spline interpolation and a highly sophisticated lo-fi filter
+  which makes it all sound like 8-bit sawwaves and a generated drumloop
+
+  - Some 3d-effects!
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ Greets go to Iustus, Wayout, Acute and all Tempo members. Special thanks
+ go to Iustus for helping me to debug my sb-routines by testing then with
+ his machine (I have only a GUS myself)

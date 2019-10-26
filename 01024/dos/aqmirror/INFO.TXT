@@ -1,0 +1,16 @@
+AQMIRROR
+BZS/fresh!
+00.08.18
+
+386+
+387+
+VGA 320x200/256 (mode 13h)
+64k free low memory
+
+aqmirror zip:
+aqmirror com  1022  00.08.18  20:48
+file_id  diz   439  00.08.18  23:38
+info     txt   288  00.08.18  23:40
+
+e-mail: bzs@makacs.poliod.hu
+home: http://kac.poliod.hu/~bzs

@@ -1,0 +1,157 @@
+         ÜÜÜÜ   ÜÜ  ÜÜ    ÜÜÜÜÜÜ ÜÜÜÜÜ  ÜÜÜÜ  ÜÜÜ   ÜÜÜÜ     ø o . o  .
+  Ã¿ÚÙ AÛÛßß  ÜÛÛÛÛ ÛÛÛ  ÛÛß    Û ÛÛÛßÛÜßÜ  ßÛ ßÛÛÜ ÜÛß  ø³Ã¿.ø ÂÂ.  o  ø .
+ ÚÙÀ´Ã ÛÛ   ÜÜ Ûß ÛÛ ÛÛ ßßÛÛ   ÛÛÛ ÛÛ  Û Û  ÛÛÛ ÜÛÛÛß  Ú¿.ÃÙÃÅÄÄ´Ä Äø  ø o
+ ÀÄ¿ÀÙ ßÛÛÜÛÛß ÛÛßÛÛÜ ÛÜÛÛÜßÛÛÛÛÛ ÛÛÛÜÛ ÛÛÛÛÛß ÜÛßÛÛÛ ÀÙÀ¿Ã¿ÚÙ øÁÁ ø o  ø ø
+  À¿.øo .ßÛÛß ÛÛ   ÛÛÜ ÛÛßßÜÛÛÛß ÛÛÛÛß Ûß release  ßÛÛÜ  ÀÙÀÅøswissattitudeø
+ ÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ Ä -        GUFFER     - Ä ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                        Copyright (C) 1997 - CALODOX
+
+                         ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+                         .oğo. What's that ? .oğo.
+ÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+
+           It's the contribution of Dake for the graphic-effect            
+           competition at Bunzli 5 party in Berne / Switzerland
+
+           The time for this compo was limited, only 1 minute with
+           one effect was allowed and the maximum size was 64kb.
+
+            The effect is in 100% ASM, the text mode is 80x50.
+
+                      Enjoy, watch it, cry, scream ...
+
+                        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+  .                .oğo. The story behind Guffer .oğo.
+ÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+  .
+
+           Û
+           Ût was first coded in Flat Mode by Nix/Massive but            
+           the thing fucked up on the competition computer which
+           was a Pentium 166. It seems that this Flat Mode isn't
+           really liked by some computers... 8) 
+           
+           Û Û Û
+           ÛÜßÜÛhen there's EMM386. Isn't it ? ;) But now it works
+           even with Windows.. =) 
+  
+           ÜÛÜ
+           ÛÜÛ
+           Û Ûnd here come the big thank to Gargamel / Fake That,
+            who converted it for DOS32 in only 1 hour. And it
+           worked after a lot of debugging and !!! The first 
+           version in Flat Mode had music but...the deadline came 
+           and I was too lazy to add a music player in the code..
+           
+           Û Û
+           ÛÛÛ
+           Û Ûuhh ! On the bigscreen, the text mode didn't look 
+           so bad and the assistance enjoyed the speed of the
+           effect. But Chicken & Eule won the competition with 
+           their "Underwater Love", a nice water effect with
+           moving light and bump.
+           ÜÜÜ
+           ÛÜÜ
+           ÜÜÛo I finish at the 2nd place and I won an ACE-CD #4,
+           hey it was cool, I could choose between a lot of CD's :)).
+           The third was a sort of fire / blur motion effect with 
+           bobs (sorry, can't remember the name of the coder) and 
+           the last one was Zpider with nice shadebobs lines.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+
+                      ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+  .                   .oğo. Hardware Requierements .oğo.
+ÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+  .                          ş What you need ş
+
+                                386sx 16Mhz
+                              VGA video card
+                   500kb base memory, probably need less...
+
+                              ş What is good ş
+
+                                486dx 66Mhz 
+                                 
+                            ş What is the best ş  
+                                               
+                                 a Pentium
+
+                              ş What is bad ş
+
+                                286sx 16Mhz  
+                                
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+
+                          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+  .                       .oğo. CalodoX infos .oğo.
+ÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+
+  .       Calodox [cdx] is a swiss demogroup founded by Fred & Leto
+          on IRC in March 97. 
+
+          Members are :
+
+         -Fred-         ğcodeğgfxğorgğ     -Switzerland-
+         -Leto-         ğcodeğ             -Switzerland-
+         -Dake-         ğcodeğgfxğ         -Switzerland-
+         -Yon-          ğmusicğ            -Switzerland-
+         -Workbench-    ğmusicğ            -Belgium-
+         -Radio24-      ğsysop,courierğ    -Switzerland-
+
+
+
+          Fred ...................... fred.roth@urbanet.ch
+          Leto ...................... jpilet@worldcom.ch
+          Dake ...................... dake@omedia.ch
+          Workbench ................. amarchal@ulg.ac.be
+          Radio24 ................... radio@rhone.ch
+
+          Calodox :
+          http://www.space.ch/scene/calodox
+
+          Member BBS:
+          Pirate        +41-27-9451802    sysop: Radio24
+                   ISDN +41-28-9451804
+
+          We're often on IRC :
+
+          IRC.SPAN.CH     port 6667
+          in the channel  #chscene
+                          #demofr
+                          #pouet
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+
+                           ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+  .                oğo. greetz from "Dake le Romand".oğo.
+ÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+
+               All people of Fake That, Nowadays, Carrots. 
+                      The Buenzli Organisation Team
+                      The people who voted for me ;)
+                    All coders of the fx-competition
+                    Sqrt(-1) for the tunnel algorithm
+            Eclipse / Knights for explanations about ATAN :)
+                               Moa & Pirus  
+
+                   I'm sure that I forget a lot of people, 
+                      Thx to all attenders at the B5!!!
+
+ÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+                             ÄÄÄÄÄÄÄÄÄ----- -
+  .                          .oğo.releases.oğo.
+      
+      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄ¿
+      ³     FiLENAME    ³    DESCRiPTiON          ³ RELEASE DATE ³ SiZE ³
+      ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄ´
+      ³  cdx_hvgt.zip   ³ Heaven'z gate BBS addy  ³  23/Jun/1997 ³  5kb ³
+      ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄ´
+      ³  cdx_guff.zip   ³ Guffer - Bunzli FX comp ³  08/Jul/1997 ³      ³
+      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÙ
+
+ÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+ÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----- -
+
+

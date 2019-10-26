@@ -1,0 +1,119 @@
+            ЫЫЫЫЫЫЫЫЫЫЫЫ     ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫ
+            ЫЫЫЫЫЫЫЫЫЫЫЫ     ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫ
+            ЫЫЫЫ    ЫЫЫЫ     ЫЫЫЫ         ЫЫЫЫ ЫЫЫЫ    ЫЫЫЫ
+            ЫЫЫЫ    ЫЫЫЫ     ЫЫЫЫ         ЫЫЫЫ ЫЫЫЫ    ЫЫЫЫ
+            ЫЫЫЫЫЫЫЫЫЫЫЫ     ЫЫЫЫ         ЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫ
+            ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫ         ЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+            ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫ         ЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+            ЫЫЫЫ        ЫЫЫЫ ЫЫЫЫ         ЫЫЫЫ ЫЫЫЫ         ЫЫЫЫ
+            ЫЫЫЫ        ЫЫЫЫ ЫЫЫЫ         ЫЫЫЫ ЫЫЫЫ         ЫЫЫЫ
+            ЫЫЫЫ        ЫЫЫЫ ЫЫЫЫ         ЫЫЫЫ ЫЫЫЫ         ЫЫЫЫ
+            ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫ         ЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+            ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+            ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+                                  Ъї В В
+                                  ГБїАВЩ
+                                  АДЩ Б
+                 ЫЫЫЫЫЫЫЫЫЫЫЫЫ       ЫЫЫЫЫЫЫ   ЬЬ             ЬЬ
+     ЫЫЫЮЫ ЫЫЫЫЫ Ы    ЯЫЯ   ЯЫ     Ы   ЮЫЭ     ЯЯ             ЯЯ
+     Ы ЫЮЫ ЫЭ ЮЫ Ы  Ы  Ы  Ы  Ы    ЮЭ   ЮЫЭЮЫЫЫЫЮЫЮЫЫЫЫЫЭЫЫЫЫЫЮЫЭЫЫЫЫЫ
+     ЫЭЫЮЫ ЫЭЬЮЫ Ы ЮЫЭ Ы ЮЫЭ Ы    Ы    ЮЫЭЮЫЭ  ЮЫЮЫ Ы ЫЭЫ   ЫЮЫЭЫЫЬЬ
+     ЫЭЫ Ы ЫЭЯЮЫ Ы  Ы  Ы  Ы  Ы   ЮЭ    ЮЫЭЮЫЭ  ЮЫЮЫ   ЫЭЫЯЯЯЫЮЫЭЫЫЬЬЬ
+     ЫЭЫЫЫ ЫЭ ЮЫ Ы    ЬЫЬ   ЬЫ   Ы     ЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЫЫЭ
+                 ЫЫЫЫЫЫЫЫЫЫЫЫЫ         ЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ
+
+
+Ы Ы Ы ЫЯЯ ЫЫЫ ЫЫЫ ЫЯЫ Ы Ы
+ЫЫЫ Ы ЫЫЫ  Ы  Ы Ы ЫЬЯ ЯЬЯ
+Ы Ы Ы ЬЬЫ  Ы  ЫЫЫ Ы Ы  Ы
+
+     Bob was created by Nado, because he wanted a friend to pass
+his summer with. Since he was bored, he decided that he wanted an
+always-happy-friend. In fact, Bob is always smiling and he is
+always happy to say "HI!" to anyone he sees.
+
+ЫЯЫ ЫЫЫ ЫЫЫ Ы Ы Ы ЫЯЫ ЫЫЫ ЫЬЫ ЫЫЫ ЫЭЫ ЫЫЫ
+ЫЬЫ ЫЬ  Ы Ы Ы Ы Ы ЫЬЫ ЫЬ  ЫЫЫ ЫЬ  ЫЮЫ  Ы
+ЫЯЬ ЫЬЬ ЫЫЬ ЫЫЫ Ы ЫЯЬ ЫЬЬ Ы Ы ЫЬЬ Ы Ы  Ы
+
+    This program requires at least a 386. It should work with any version
+of DOS. It only uses it's ninth function, but I don't know what the old
+DOSes looks like, so I can't be sure. I only know that it works fine under
+IBM DOS 5.02 on my 486SX-25.
+
+Ы Ы ЫЫЫ Ы   Ы    Ы ЫЫЫ    Ы   Ы ЫЫЫ ЫЯЫ Ы Ы ЫЯЯ
+ЫЫЫ Ы Ы Ы Ы Ы    Ы  Ы     Ы Ы Ы Ы Ы ЫЬЯ ЫЫ  ЫЫЫ
+Ы Ы ЫЫЫ ЫЫЯЫЫ    Ы  Ы     ЫЫЯЫЫ ЫЫЫ Ы Ы Ы Ы ЬЬЫ
+
+     Whenever you're bored, just type BOB in DOS, press enter and
+talk with the guy on your screen! He's very friendly. But watch
+out! Last time, I talked with him for at least three days without
+noticing that time was passing... Make sure you won't be late in
+anything before starting to talk with Bob!
+
+ЫЯЫ  ЫЫЫ ЫЫЫ Ы Ы    ЫЫЫ ЫЫЫ    ЫЯЫ ЫЫЫ ЫЫЫ Ы   Ы ЫЫЫ Ы Ы
+ЫЬЫЬ Ы Ы Ы   ЫЫ      Ы  Ы Ы    ЫЬЯ ЫЬ  Ы Ы Ы   Ы  Ы  ЫЬЫ
+ЫЬЬЫ ЫЯЫ ЫЫЫ Ы Ы     Ы  ЫЫЫ    Ы Ы ЫЬЬ ЫЯЫ ЫЬЬ Ы  Ы   Ы
+
+     I made this for the 256 bytes demo competition
+on Techstronics, in the month of July of 1996.
+
+     For everyone out there wondering... Bob is in 320x200x256x4
+Mode-X. I made this little program for a 256 bytes competition on
+TechsTronics BBS, in the month of July of 1996. And *NO*, that story
+up there isn't true (duh!)... I let it there because I find it funny :-)
+
+ЫЫЫ ЫЯЫ ЫЫЫ ЫЫЬ Ы ЫЫЫ ЫЯЯ
+Ы   ЫЬЯ ЫЬ  Ы Ы Ы  Ы  ЫЫЫ
+ЫЫЫ Ы Ы ЫЬЬ ЫЫЯ Ы  Ы  ЬЬЫ
+
+    Code.................. Nado / Trimaje
+    Graphics.............. Nado / Trimaje
+    Text.................. Nado / Trimaje
+    ASCIIs................ Nado / Trimaje
+    Music (???)........... Nado / Trimaje
+
+ЫЫЫ ЫЫЫ ЫЫЫ Ы Ы ЫЫЫ Ы ЫЯЯ Ы Ы ЫЫЫ
+Ы   Ы Ы ЫЬЫ ЫЬЫ ЫЬЫ Ы Ы Ы ЫЫЫ  Ы
+ЫЫЫ ЫЫЫ Ы    Ы  ЫЯЬ Ы ЫЬЫ Ы Ы  Ы
+
+    COPYRIGHT 1996 by Eric Nadeau.
+    All rights reserved.
+
+    You can if you want, debug my program, disassemble it, change it,
+destroy it, rip its routines, etc... BUT, you are not aloud to distribute
+a modified or renamed version of the executable AND/OR documentation. If
+you want to include this program with something, you must distribute this
+documentation with it and you aren't aloud to change its name. If you make
+an other version of it, KEEP IT FOR YOURSELF... Unless you have my
+permission.
+
+    BTW, I'M NOT RESPONSIBLE OF WHATEVER THIS PROGRAM OR DOCUMENTATION
+    COULD DO TO YOU, YOUR COMPUTER, YOUR WIFE, YOUR CAT, YOUR HAMSTER,
+    OR ANY OTHER OBJECT(S) OR PERSON(S). USE IT AT YOUR OWN RISKS. IT
+    WORKS JUST PERFECTLY ON MY SYSTEM, BUT THAT DOESN'T MEAN THAT IT
+    WILL ON YOURS.
+
+ЫЭЫ ЫЫЫ ЫЫЫ Ы Ы Ы ЫЭЫ ЫЯЯ
+ЫЮЫ Ы Ы  Ы  ЫЫЫ Ы ЫЮЫ Ы Ы
+Ы Ы ЫЫЫ  Ы  Ы Ы Ы Ы Ы ЫЬЫ
+
+
+
+ЫЯЯ ЫЭЫ ЫЯЬ
+ЫЫ  ЫЮЫ Ы Ы
+ЫЬЬ Ы Ы ЫЬЯ
+
+    My real name is Eric Nadeau. You can contact me if you want...
+
+NetMail: 1:243/68.18
+Internet E-Mail: Eric.Nadeau@otis.erkware.com
+Phone: (819)682-2723
+Mail: Eric Nadeau
+      23 de Bourgogne
+      Aylmer, Qu‚bec
+      J9H 3R6
+      Canada
+
+                                             Nado / Trimaje
+

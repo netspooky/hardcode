@@ -1,0 +1,26 @@
+
+Hello mindenkinek!
+
+K”szi, hogy olvasod ezt a file-t, ez azt jeleni, hogy teccik a m–ven, ha meg
+nem, akkor minek olvasod.
+Az eg‚sz intro kb 2 h‚t alatt k‚szlt el ‚s ebben benne van az effektek
+elk‚sz¡t‚se is, nem csak az ”sszerak s.(Szerintem ez egy j¢ id“)
+(Rem‚lem nem gondolj tok, hogy egy nagyk‚p– ember vagyok (DEEEEEEEEEEE:))
+
+H t akk¢ most k”vetkezzen egy kis greet:
+ Lac nak a 100byte vonalh£z¢‚rt.
+ Annak aki a minifrac-ot ¡rta, az‚rt m‚g leoptimaliz ltam 108b-ra.
+ A Shock Shock ”tlet‚rt amit m r kital ltak m sok.
+ Az ”sszes magyar csapatnak.
+ & Thomas,TGC,TSH,Tim,Trajic,Lucifer,Taylor,Bert,Minstrel <-nekik is.
+
+Az intr¢t a k”vetkez“ g‚peken teszteltem:
+ 486 DX4-120 S3-Trio32 (16000chr/s)
+ 486 DX4-100 Tseng4000 ( 1800chr/s) (: Csak egy "picit" volt lass£ ;)
+ 
+Az intr¢ alatt nyugodtan hallgathatsz rezidens lej tsz¢val zen‚t.(Egyik
+megszak¡t st sem ¡rja  t)
+
+
+                                Morgan of Criminal Gang [1995]
+                                

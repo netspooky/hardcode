@@ -1,0 +1,98 @@
+
+   -- > ALIEN HUNTER 32k < --
+a tribute to transplant amiga-pd
+
+files:
+ alienhunter      ...windowed application
+ alienhunterFS    ...fullscreen application
+ readme           ...you read it
+
+
+about:
+ alienhunter is a multiscrolling arcade shootergame.
+ the player have to "clean" 5 sectors of an alien empire.
+ (each sector include 20 levels)
+ after some levels you will get a "spacecredit"
+ use the spacecredits to improve your ship
+ it's possible to start the game in any sector and you
+ will get some spacecreditz to tuneup your ship
+  
+
+ good luck and have fun =)
+
+
+system requirements:
+ any linux
+ opengl 1.2
+ sdl 1.2
+ 3d hardware accelleration
+
+test on:
+ Arch Linux 64 bit
+ SuseLinux 10.x
+ Ubuntu 9.1
+ Ubuntu Lucid Lynx (10.04)
+ Ubuntu 10.10
+ Ubuntu 11.04 AMD64
+ Debian 5.03
+ OpenSuse 11.x
+drivers:
+ Mesa OpenSource Radeon drivers
+ NVidia drivers
+
+best: 2ghz cpu, nvidia gfx card, 64mb ram
+
+controls:
+ menu:
+ [cursor left] choose your startsector, [Return] execute
+ [escape] for exit game
+
+ shop:
+ [cursorkeys] selection, [Return] execute
+
+ ingame:
+ use [cursorkeys] To move
+ [space] For fire
+ [esc] For exit 
+ [1] to [5] start the orb in different modes
+ [6] reboot/refill the orb-energy
+
+credits:
+ idea         "transplant" amiga pd-game
+ gamecode     by xp^trs
+ libTinyBlit  by xp^trs
+ spotFX       by Dr Petter & PJames.08
+ testers      quickyman^trs and ts-soft
+              big thanx guys =)
+
+---------------------------------------
+licence:
+ alienhunter32kb is freeware
+ you can use/share/copy the game as you want
+ selling or use in any commercial way is forbidden
+ if you want share this game on cover-cd/dvd or gamesites
+ just send me an email
+
+ you use this software at your own risk
+
+---------------------------------------
+32720 bytes include:
+ 10 textures
+ 12 wave samples (around 2mb)
+ 100 handmade levels
+ 50 random-calculated enemys by 5 differrent types
+ 6 easy 3d scenes as levelbackground
+ 1 bigger 3d scene for menu
+ small plotparticle engine
+ small textured particle engine
+ 1 16x16 pixel font (320x48 pixel 24bit crunched to 711 bytes! ;))
+ full frameindependend moving and animation
+ ...and a lot of spaghetti code lololol
+----------------------------------------
+contact:
+ feel free to contact me via email
+ bluegates@web.de
+
+
+
+

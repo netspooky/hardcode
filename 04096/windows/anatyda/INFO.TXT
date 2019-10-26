@@ -1,0 +1,34 @@
+
+
+        Anatyda.
+        4kb intro from the Mekka'99 party.
+        Made in Hungary.
+
+        programmed by Gekko/Astral.
+        gekkouno@hotmail.com
+        astral.scene-hu.com
+
+
+        anatydap.com - party version
+        anatyda.exe - final version
+
+
+        Boom. As far as I know, this is the first real Windows intro. As
+        even  smaller  Windows programs' size are about 100 kilobytes or
+        over,  it seems quite a freaky stuff, don't it?;) It was created
+        in four days, in a real hurry.
+
+        You  should disable the screen saver before launching the intro.
+        For  a  larger  window size you may also want to set the Windows
+        display to 640x480 (with true color or at least hicolor).
+
+        It may happen that I'll put together a DOS version, too. It will
+        be  probably smaller than this, but it will be VESA-addicted and
+        able to run in 640x480 32bits/pixel mode only.
+
+        The  intro  works  in  640x400  true color (32 bits) internally.
+        However, it's not slow at all. It was coded on a p100, actually.
+        The source is in pure assembly and compiled with TASM32. All the
+        effects   are   drawn   with   non-recursive   raytracing.   The
+        blob-plasma effect uses quad adders.
+

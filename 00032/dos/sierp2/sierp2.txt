@@ -1,0 +1,8 @@
+This program displays the well-known Sierpinski triangle. This is done by
+computing Pascal's triangle modulo 2. See
+http://en.wikipedia.org/wiki/Sierpinski_triangle#Properties
+
+This version is an improvement of sierp.com. I know there are smaller
+versions out there but they look different. :)
+
+ruelle, 2010

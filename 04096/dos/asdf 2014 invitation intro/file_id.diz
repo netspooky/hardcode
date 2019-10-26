@@ -1,0 +1,8 @@
+ASDF 2014 invitation intro
+Wlodek Black
+8088/8086 CPU 4.77 MHZ 640K RAM
+MS DOS 6.22
+VGA 256 colors (8-bit color)
+FONT0 - original file of ZX Spectrum font from Art Studio 128K
+file2db - utility for "file" - to "db" text for MASM. Source file to 8 MB.
+MASM, LINK and PKLITE used

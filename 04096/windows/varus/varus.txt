@@ -1,0 +1,40 @@
+                                           __    ____    __       ____     ____
+                                       __ / (_ _\\_  \_ / /____ _\\_  \_ _\\_ /__
+                                      _)_/   /    /   //_//   /    /   /   _/   /
+                                      \ \    \_      /  \    /        /    \    \_
+                                      /__\____/______\ __\___\ _______\ ____\____/
+                                      - -diP--------------------------------dTR- -
+                                                      varus by kolor
+                                                        mekka 2001
+                                                geforce & winmm & opengl
+
+
+
+
+
+
+
+credits
+
+	- gfx : noize ( noize@gmx.net)
+	- music : fontex ( jm@kampsax.dtu.dk )
+	- help with asm & win32-things: pigpen, muhmac, yamato, franky, shiva, quartz
+	- apack exepacker by joerg ibsen
+
+comments
+	
+	- run w2k.com for windows 2000 ( version 5.00.2195 without service packs )
+	- run winme.com for windows millenium edition ( version 4.90.3000 without service packs )
+	- run win98.com for windows 98 ( second edition 4.10.2222a without service packs )
+	- run compatible.exe for other
+	- made in denmark and germany and vice versa
+
+respects
+	
+	amable, black maiden, bypass, cocoon, coma, doomsday, exceed, farbrausch
+	freestyle, fridge, haujobb, matrix, mfx, nomad, suburban, sunflower, tbl, 
+	tokyo dawn records, tpolm
+   
+contact
+
+	www.kaoz.org/kolor

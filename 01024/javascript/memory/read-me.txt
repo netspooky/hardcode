@@ -1,0 +1,24 @@
+**********************
+*       MEMORY       *
+*                    *
+*         by         *
+*                    *
+* Hello / Sector One *
+*                    *
+**********************
+
+Realease for Coding Party : DemoJS
+(c) Hello / Sector One - 2011
+
+Title : Memory
+Dimensions canvas : 640 x 480
+Version : Not Zik
+Compatible mini : 
+ * Mozilla Firefox 3.x
+ * Google chrome 
+
+
+Greetz for all the sceeners... And specials for ATARI
+
+
+

@@ -1,0 +1,8 @@
+system requirements:
+
+i386 compatible processor
+540k of base memory
+4096k of xms memory
+gus with 512k for sound
+vga compatible adapter
+boot dos + himem + gus drivers

@@ -1,0 +1,46 @@
+
+ Prove you  wrong
+
+ Bandwagon presentation 1996
+
+ Required:
+ =========
+  - 386SX-processor
+  - VGA adapter
+  - 390k base memory (about 20k less with GUS)
+
+ Recommended:
+ ============
+  - 486SX-processor
+  - SB or GUS
+
+ Command line parameters:
+ ========================
+   /n            Run with no sound
+   /r:?????      Use SB rate of ?????
+   /g            Don't autodetect GUS. This for people who have GUS and SB
+                 and for some reason really want to use SB.
+
+ About this intro
+ ================
+        I can't really think of anything to fill this space with. Only a few
+  words about the SB support. If the demo is damn slow lower the samplerate.
+  If the sound starts to crack and whiz lower the samplerate. If the demo
+  still sluggs and the sound quality sucks lower it more. At least the
+  GUS-player should work fine with almost any machine. This intro was however
+  not designed for the slowest machines. It does work with a 386SX/20 (I partly
+  wrote the effects with one) but the intro isn't fully enjoyable then.
+  Most of the effects will appear slower and some of them incorrect.
+  I guess most of you would've figured out that yourself too.
+  But that's really all I can think of. If you have some questions, comments
+  or anything don't hesitate to contact us.
+
+          Bye..
+
+ Credits:
+ ========
+  Neckfreak: SB-player, Code
+  Radiance: GUS-player
+  Gspot: Music
+  Scythe: Graphics and font
+ 

@@ -1,0 +1,43 @@
+
+   ษอออหอออป             ษอป                       ษอออออป       ษอป
+   บ   บ   บ             บ บ                       บ ษอป บ       บ บ
+   บ       บ             บ บ                       บ ศอผ บ       บ บ
+   บ ษป ษป บษอปษอปษออออปษผ ศอปษออออปษออออปษอปษอป   บ ษอป บษออออปษผ ศอปษออออป
+   บ บบ บบ บบ บบ บบ ษออผศป ษอผบ ออ บบ ษออผบ บบ บ   บ บ บ บบ ษออผศป ษอผบ ษออผ
+   บ บบ บบ บบ บบ บ  ศออป บ บ  บ ษออผบ บ   บ บบ บ   บ บ บ บบ บ    บ บ    ศออป
+   บ บบ บบ บบ ศผ บษออ  บ บ ศอปบ ศออปบ บ   บ ศผ บ   บ บ บ บบ บ    บ ศอปษออ  บ
+   ศอผศอผศอผศออป บศออออผ ศอออผศออออผศอผ   ศออป บ   ศอผ ศอผศอผ    ศอออผศออออผ
+            ษออผ บ                        ษออผ บ
+            ศออออผ                        ศออออผ
+
+
+				P R E S E N T S
+
+				       a
+
+				   4K INTRO
+
+				    called
+
+				R A D I A N C E
+				~~~~~~~~~~~~~~~
+
+
+Requires:	. 386 or better (Pentium Pro 500Mhz recommended ;)
+		. 128 kb. base memory
+		. 4 kb. disk space
+		. VGA
+		. patience
+
+	This 4k intro was coded by Schedar of MA about one year ago. 
+	Since the text changed in the first and the last part. So 
+	don't wonder if this intro looks an 'old style' one, becoz 
+	it's really old code!
+
+Addresses:
+
+	Zsolt Doma (Schedar)			kos Somogyi (Hawk)
+	Csokonai u. 6/a				Plat nsor 12.
+	8800 Nagykanizsa			8800 Nagykanizsa
+	Hungary					Hungary
+

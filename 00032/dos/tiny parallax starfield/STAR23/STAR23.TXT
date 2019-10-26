@@ -1,0 +1,22 @@
+STAR23.COM
+A slightly tinier version.
+
+While working with os2man to reduce the starfield to 24 bytes, I looked through
+the opcodes to see if there were any convenient byte values that could be
+reused.  I noticed that the 41h which represents "inc cx" could be a reasonable
+substitute port value for the random number generator.  So I changed the
+"in al,40h" to "in al,41h", and changed the destination address of the main
+loop to land on the second byte of the port read instead of the next
+instruction.  This made it possible to remove the explicit "inc cx" (which
+fortunately came immediately before the jump) at the end of the loop and save
+a byte.  I don't remember the exact reason why he stayed with the 24 byte
+version.  It is possible that he preferred the original look, or that I may
+have made an error in the version I sent to him.
+
+With this modification, the starfield looks slightly different.  Most
+noticeable to me is that there are none of the bright yellow and fast stars
+that a value of 14 would create.  There are fewer stars, and not as many are
+getting eaten up at the beginning.  I considered this a lucky side effect, but
+it's subjective, so I suggest watching both versions.
+
+-bigcheese

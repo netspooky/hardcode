@@ -1,0 +1,1 @@
+4kwannabe 1024x 768y -l -w

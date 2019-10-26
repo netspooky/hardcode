@@ -1,0 +1,29 @@
+     _______________________________________________________  
+                                                              
+   |                                                         |
+   |    o00000  00 o00 o0000  00 000  00 00o  00o   o0000    |
+   |   o0    00 0000  o0   00 000  00 000  000  00 o0   00   |
+   |   00    00 00o    o00000 00o  00 00   00   00  o00000   |
+   |   00    00 00    00   00 00   00 00   00   00 00   00   |
+   |   o0    00 00    o0  o00 00   00 00   00   00 o0  o00   |
+   |    o000000 00     o000 0 00   00 00   00   00  o000 0   |    
+   |         00                                              |
+     __00    00_____________________________________________  
+        o0000o
+
+
+      Add some code: malken, Pan, Mogwai, Megasmurf and bobo        
+      Add some music: ierker and mempheria
+      Add some gfx: Groth
+
+      ...and what do we get?
+
+      Granma's Receipe 
+
+      64Kb demo for TG'02
+
+      OpenGL no fancy extensions required
+
+
+
+

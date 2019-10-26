@@ -1,0 +1,15 @@
+			       Fractal Genesis
+			      ~~~~~~~~~~~~~~~~~
+
+Just another nice voxel-based mini-demo. If you (don't) like it, have any
+comments or just want to talk about gfx, fractals or coding, contact me:
+gloth@math.uni-muenster.de.
+
+Fractal genesis was inspired by the mars mini-demo and the book "The science
+of fractal images". It runs on a 386, although a 486 is recommended.
+
+Greetings to (incomplete, but ordered): chuckb, corwin, dynabyte, harmelin,
+hippo, holleka, in31, madmax, martist, occult, rex, siefer, strfx, w.wizard,
+xact, zbs003 ...
+
+				Tobias Gloth (xToto of Aristotoles Designs)

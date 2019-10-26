@@ -1,0 +1,12 @@
+Kilofile 
+by npli
+a 1k entry for Assembly 2009
+
+playtime: ~15s looping.
+
+first prod so don't expect anything.
+
+special thanks to Auld for his small shader framework 
+and to the authors of the crinkler.
+
+

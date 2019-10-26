@@ -1,0 +1,146 @@
+
+                   --=================================--
+                            -= Juggler 2001 =-
+ 
+                      -= Realtime Raytracing in 4K =-
+ 
+                    -= by Han Solo / The COEXiSTENCE =-
+                   --=================================--
+
+                                                   Final Version v1.01 
+
+
+-= Credits =-
+
+ Code ................... Han Solo / The COEXiSTENCE 
+ Music-routine .......... Kimmy / PULP Productions
+ Arithmetic support ..... Sauron
+ Music .................. Skyrunner
+ Packer (aPACK) ......... Joergen Ibsen / Jibz
+
+
+-= Greetings =-
+
+ Iron Eagle, Stingray, InspirE, Blind Enemy, Duke, Thunder, Libertine,
+ Wicked Mystic, Frenetic Plague, doj, Schoolar, Franky, KB, Bugjam,
+ Copyfault, Shark, Dan, Kojote, Matrixcrawler, The Jack, Korellyen,
+ the organizers of Mekka&Symposium, Mat!/Ozone
+ 
+ and to everyone who was, is or will be part of the scene...
+ ...we are family
+
+
+-= What's new in the Final version =-
+
+ More versions for different graphic-modes (now supporting 32bit, 16bit,
+ Fakemode and Grayscale). Unfortunately some VGA-Cards don't support all
+ VESA-Functions I use and the Graphicmode-numbers differ from the ones
+ on NVIDIA-Cards. So I suggest you first try the 320x200x16 version. If
+ this one doesn't work, the others probably also won't and you have to
+ use the 8bit-versions.
+ Furthermore I eliminated a problem when one entered a non-numeric value
+ as the GMidi-Port. Now any such keytroke turns off the musicroutine.
+ That's why there's no 'Nomusic'-version included anymore.
+
+
+-= Technical info =-
+
+ This is real raytracing. The code doesn't contain any polyfillers.
+ We have spheres, one lightsource, shadows, reflections and diffuse
+ reflection. The Juggler himself consists of 80 spheres, he's juggling
+ with 3 spheres and there are 4 senseless spheres around him. That makes
+ a total number of 87 spheres.
+ If you don't know the General-Midi-Port of your Soundcard, try '330h'
+ (press '3') at first. Should this not work, try all the other numbers.
+ The Intro never crashed due to a wrong port, so you don't have to be
+ afraid...
+
+ The ZIP should contain the following versions of the program:
+
+ Juggler_32_200.com   - TrueColor in 320x200
+ Juggler_32_240.com   - TrueColor in 320x240 (same as Juggler_Final.com)
+ Juggler_32_400.com   - TrueColor in 320x400
+
+ Juggler_16_200.com   - HiColor in 320x200
+ Juggler_16_240.com   - HiColor in 320x240
+ Juggler_16_400.com   - HiColor in 320x400
+
+ Juggler_Fakemode.com - Only 256 visible colors, but it looks like 3840
+                        colors. And due to realtime dithering we even
+                        have 27869 (simulated) colors. I'd prefer this
+                        version, if Hi/TrueColor does not work on your
+                        adapter. (Read also the note below).
+ Juggler_8bit         - 256 colors. Looks like crap, but runs on every
+                        VGA-card.
+ Juggler_Grayscale    - No colors, but it looks better than the previous
+                        version.
+ 
+ The following Timedemo-versions can be used to compare the the speed of
+ your computers, since they always calculate the same frames.
+
+ Juggler_Timedemo1.com - Calculates 23 frames and is meant for tests with
+                         deactivated L1-Cache and for Non-Pentiums.
+ Juggler_Timedemo2.com - Calculates 905 frames. For computers < 2 Ghz.
+ Juggler_Timedemo3.com - Calculates 7534 frames. For computers > 2 Ghz.
+
+ 
+ During my tests I discovered, that this Raytracer performs VERY poorly
+ on AMD-Processors.  I think it's because AMD's L1-Cache is much slower
+ that Intel's. If you're interested, try to run the 'Timedemo1'-version
+ with deactivated L1-Cache. Then the AMD-Chips beat the Pentium.
+
+ BTW. you should load a good Midi-Waveset. If you're soundcard came with
+ different ones, I would recommend using the biggest one.
+
+ A note about the Fakemode: in the textfile of the Partyversion I
+ described it as Tran's Fakemode, but now I found out that the real
+ Fakemode was at first invented by Yaka/Xography (Hi, wherever you are.
+ Remember me from The Party 94?) and is a little bit more complex (and
+ better ;) ) than my version here.
+
+
+-= Known problems =-
+
+ This Intro was developed on a Celeron566@850, a TNT2 and a SB64 under
+ Win98SE. It was tested with a TNT, GeForce, SB128 and Asus OnbordSound-
+ there were no problems with this configurations.
+ In fact there ARE problems with Win2k and (I'm really sorry about that)
+ the SB Live: there are no VESA-modes under Win2K, so you have to use
+ the Fakemode-version. The problem with the SB Live is, that some people
+ had no sound with this card. I don't have one, so I couldn't test it a
+ lot. If anyone has suggestions on how to solve this problem, feel free
+ to contact me...
+ 
+ If you use the numpad for entering the GMidi-Port, make sure that
+ NumLock is switched on.
+ 
+ A bug will occur on REALLY fast computers (and also if you terminate
+ the program at a very early stage): the framecounter won't display
+ framerates over 99.99. You'll get the framerate -100 instead (mod 100,
+ to be exact ;) ). Not a very serious bug, I think. Take the 320x400
+ version instead - it's slower...
+
+
+-= Further information about this Intro =-
+
+ The basic idea behind this intro is that I wanted to show the (famous?)
+ Amiga Juggler-Animation by Eric Graham in realtime. In case you don't
+ know the Juggler-Animation, take a look at the website given below.
+
+
+-= Contact and Links =-
+
+ 'aPACK' can be found at http://apack.tsx.org/
+ and the Juggler-Animation at http://members.home.net/erniew/juggler.html
+ The Midi-Soundroutine is included in the Source to 'live.... or sumthin'
+ a 4K by Pulp Productions. Search the web for 'PLP_LVSR.ZIP'.
+ Fakemode-Sources by Yaka/Xography can also be found throughout the net.
+
+ If you have any comments, write to:   hansolo@the-coexistence.de
+ or visit our always unfinished website    www.the-coexistence.de
+
+ For questions about the music write directly to:   skyrun@gmx.de
+
+
+-= Han Solo / TC - Mekka 2001 - Fallingbostel - Germany - 2001-04-14 =-
+Final version v1.01: 2001-05-02

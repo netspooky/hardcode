@@ -1,0 +1,62 @@
+
+              _._________ .______    .________  .______/\_
+               |    ____/_|  ___/____|  _____/__|   ___  /_
+               |   __    /|  \      /_   ___   /_    _    /
+               |   \   .:\|   \__  .:/   \_   .:/    |  .:\
+               |____\     \_________/__________/_____|_____\
+               -//---\_____\------------------------lm!--//-->
+
+
+                                   fruxis
+
+
+             4k executable graphics by rgba [www.rgba.org] 2012
+
+                    for trsac 2012 [http://www.trsac.dk]
+
+
+.story.
+
+   aloha, long time no demo. it's being a while now, three years since the
+   last official release. too bad. or perhaps too good, it all dependes on
+   how you decide to look at it. thing is, in the last months i've started
+   coding again, but i didn't plan of making an actual demo/intro/gfx just
+   yet, as nothing that i have is enough to be worth a comeback. but it is
+   often somebody from the outside that reminds me that it's not about the
+   quality that much, but the fact that you contribute. it had to be a tbc
+   member again, puryx in this case.
+
+   so here it goes a quick production again. i didn't give it all the love
+   it deserverd (see the size, there is enough room to improve work on the
+   composition, materials, lighting etc), and i am sure i could easily get 
+   rid of a couple hundred bytes or so... but who cares, just knowing that
+   rgba will make it again into the projection screen of a demo party like
+   trsac is good enough of a reason to crunch a bit, finish the code, call
+   it a prod, and move to the next project.
+
+
+.code.
+
+   of course, those fruits are pinched spheres, and yes of course, this is
+   raymarching in a distance field again. the difference is that this time
+   i didn't hack the lighing with fake ambient occlusion and cheap shadows
+   or other tricks, but i let the gpu (yep this is my first procedural gfx
+   prod running in the gpu) compute the lighting with a simple pathtracing
+   algotighm. everything else in the code is pretty standard.
+
+
+.greets.
+
+   asd   calodox   collapse  conspiracy  [d]vision  farbrausch
+   fairlight  fuzzion   hornet   loonies
+   northen dragons    plastic     rebels    software failure    speckdrumm
+   spontz   tbc
+
+ .credits.
+
+   iq :: [www.iquilezles.org] :: code/art :: mathepainting
+
+   and
+
+   mentor + blueberry :: [www.crinkler.net] :: bytemagic and codecrunching
+   llb :: [http://www.ctrl-alt-test.fr/?p=358]:: shader minimizing

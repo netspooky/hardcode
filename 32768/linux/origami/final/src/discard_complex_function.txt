@@ -1,0 +1,46 @@
+complex comp_sub(complex comp1, complex comp2) {
+	complex result;
+	result.n = comp1.n - comp2.n;
+	result.i = comp1.i - comp2.i;
+	return result;
+}
+
+complex comp_flip(complex comp) {
+	complex result;
+	result.n = comp.i;
+	result.i = comp.n;
+	return result;
+}
+
+complex comp_pow(complex comp, double power) { // THINKING IS HARD, remind me to shoot myself
+	complex result;
+	double length, kulma;
+	length = sqrt(comp.n*comp.n + comp.i*comp.i);
+	if(length!=0.0) {
+		kulma = asin(comp.i/length)*power;
+		length = pow(length, power);
+		result.n = cos(kulma)*length;
+		result.i = sin(kulma)*length;
+	}
+	return result;
+}
+
+complex comp_mul(complex comp1, complex comp2) {
+	complex result;
+	result.n = comp1.n*comp2.n - comp1.i*comp2.i;
+	result.i = comp1.n*comp2.i + comp2.n*comp1.i;
+	return result;
+}
+
+complex comp_mulf(complex comp, double multiplier) {
+	comp.n *= multiplier;
+	comp.i *= multiplier;
+	return comp;
+}
+
+complex comp_div(complex comp1, complex comp2) {
+	complex z2;
+	z2.n = comp2.n;
+	z2.i = -comp2.i;
+	return comp_mulf(comp_mul(comp1, z2), 1.0/(comp2.n*comp2.n + comp2.i*comp2.i));
+}

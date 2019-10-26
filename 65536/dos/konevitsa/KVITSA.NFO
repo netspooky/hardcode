@@ -1,0 +1,62 @@
+Info:
+
+        Product name: Konevitsa
+
+        Description: Assembly'96 64kb introcompo contribution by Mikki
+
+
+Legal:
+
+        (C)opyright 1996 Mikko Katajamaa
+        You can copy this freely as long as nothing is charged for it.
+        You can't put this into a cd-rom without my premission.
+        I'm not responsible of anything this intro will cause.
+
+                                                                  
+Credits:
+
+        Code,Gfx,Music: Mikko Katajamaa
+
+        Pmode: Thomas Pytel
+
+        Players: Oskari Tammelin (PT4GUS [GUS])
+                 Carlos Hasan (Tiny MOD Player [SB])
+
+
+Notes:
+
+        Requirements:
+                      Minimum:
+                                486
+                                VGA
+                      Should have:
+                                P5
+                                PCI-VGA
+                                GUS
+
+        About music:
+                      To get some sound out of this intro, you need to
+                      have got either Gravis Ultrasound or SoundBlaster.
+                      You MUST also set the environment variable.
+                      (ULTRASND for GUS or BLASTER for SB) If no
+                      environment variable is found the intro will
+                      produce no sound.
+
+                      (Last minute note)
+                      SB support doesn't seem to work with all computers.
+                      Because I couldn't get my hands on one of those
+                      computers, I wasn't able to fix this bug. I'll
+                      try to compile this with another SB player and
+                      release a fixed version soon.
+
+
+Contact:
+
+        Email:        jk36780@uta.fi
+
+        Mail:         Mikko Katajamaa
+                      Harjukatu 2 c
+                      FIN-13210 HML
+                      Finland
+
+

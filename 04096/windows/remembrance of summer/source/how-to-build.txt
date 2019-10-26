@@ -1,0 +1,45 @@
+﻿ビルドに必要なシステム :
+    . Visual C++ 2005 Express Edition
+      http://www.microsoft.com/japan/msdn/vstudio/express/visualc/
+
+    . Microsoft Platform SDK
+      http://www.microsoft.com/japan/msdn/vstudio/express/visualc/usingpsdk/
+
+    . Crinkler v0.4a
+      http://www.crinkler.net/
+
+
+ビルド方法 (Visual C++ 2005 Express Edition) :
+    . crinkler.exe を source/crinkler/crinkler.exe としてコピー
+      (run-crinkler.bat と同じディレクトリにコピーする)
+
+    . Visual C++ 2005 Express Edition, Platform SDK をデフォルトではない
+      ディレクトリにインストールしている場合、source/crinkler/run-crinkler.bat
+      の変数 PSDKDIR, VCDIR を環境に応じて書き換える
+
+    . source/RemembranceOfSummer.vcproj を開いて、メニューの
+      「ビルド--構成マネージャ」で "Final" を選択
+      (ただし、テスト時は "Release" でビルドするのが良い)
+
+    . 「ビルド--ソリューションのビルド」で実行ファイルを生成
+
+    . 「デバッグ--デバッグなしで開始」で実行
+
+
+コードについて :
+    . ほとんどのコードは基本的な C++ の記法で書かれています
+
+    . FPU (x87) 関連だけは簡単なインラインアセンブラになっています
+
+    . コードを縮めるための工夫はあまり無く、Crinkler まかせです
+
+    . 音楽をコンパイルするには、source/media/compile-music.bat を実行
+      します。source/media/nada.ppk がコンパイルされ
+      source/media/sequence.bin.h が出力されますので、これを
+      source/src/sequence.bin.h としてコピーし、リビルドします。
+
+    . 自己主張の激しいタスクバーを静かにする / the best is yet to be
+      http://corvette.blogzine.jp/blog/2006/10/post_b27f.html
+      にならって、IME を無効にしたつもりなのですが、うまく動作してい
+      ない気がするので書き方を間違っている可能性が高いです;;
+

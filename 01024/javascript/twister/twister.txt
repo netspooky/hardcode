@@ -1,0 +1,35 @@
+
+Twister
+SVG 1k intro by Ger
+2008-02-19
+
+Here's the classic twister again, on a new platform, with a new look :)
+
+The 1k is valid SVG according to http://validator.w3.org and is tested to work in FireFox 2, FireFox 3, Opera 9.25, Opera 9.50 beta and Safari 3. (Internet Explorer does not support the SVG standard.) Opera is much faster than others, so please check this in Opera: http://www.opera.com/download
+
+
+==Source code==
+
+What you see is a simple 2.5d twister effect. This could actually be coded to run on classic computers as is.
+
+One point of SVG is scalability, that is not put in use here: if you scale the effect up, the sides are "jaggy" (pixelated). This is a "feature" here, my goal was just to implement this classic scanline effect as is. (Imho, it looks best with 16 pixels wide lines ;)
+
+The file twister_clean.svg is a general purpose object-oriented SVG "demo engine". The rest of the files were hacked a bit to speed things up. Letters denote effects, numbers denote level-of-detail. The first thing to do if you start tweaking the code is to search for VoxelSize and set it up to a good value for your computer/browser (1, 2, 4, 8 or 16; 1 is detailed, 16 is fast).
+
+If you're in for size coding, compare twister_t02.svg with the 1k. I didn't plan to size optimize this, but I thought that some of you would otherwise miss the point. However, I think that we should be going in the direction of finding new demo platforms, integrating videos and demo effects, involving viewers by letting them adjust demo designs - and a bit less of this how-many-k thing ;)
+
+
+==Coding SVG==
+
+SVG is an open standard image (and animated image) format that can host JavaScript code and should be displayable in browsers. As SVG is a W3C standard, it should look the same regardless of the browser. Actually, Internet Explorer 6 and 7 just does not support SVG. (Hopefully, later versions will.) FireFox 2 and Opera 9 supports it properly.
+
+You can edit SVG in any general purpose text editor, such as Microsoft Visual Studio Express :) To debug SVG, install Firebug to Firefox. Opera development console can not debug code yet (as in Opera 9.25). To let Firebug find your code, do not place it in a separate .js file.
+
+SVG Standard is here: http://www.w3.org/TR/2001/REC-SVG-20010904/REC-SVG-20010904.pdf
+JavaScript Standard is here: http://www.ecma-international.org/publications/standards/Ecma-262.htm
+JavaScript for lazy folks: http://www.w3schools.com/js/
+
+
+==Contact==
+
+Ger (Gergely Kutenics) ger at utamon.com

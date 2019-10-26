@@ -1,0 +1,12 @@
+nuluks, aach to je blbost..
+
+4k intro for marast '04 
+
+credits: lx (code), nula (music)
+
+this is win32 party version. final release will include
+both linux and fixed win32 version. there are source code
+included in this package, and you can use it as you want.
+
+                                lx <luks@javie.net>
+

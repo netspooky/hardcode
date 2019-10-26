@@ -1,0 +1,56 @@
+ADAPT
+   4k
+   REM STATE
+   AT THE
+   STREAM
+   2007
+  
+   Requires a display adapter capable of displaying 
+   a 800x600 openGL window in the depth of 32 bits.
+   No shaders used.
+  
+  
+credits
+   code, sound, gfx: deepr
+   code, sound: BassCadet
+
+
+author comments
+   REM STATE is our first approach to the 4k world.
+   Making a Win32 openGL 4k is still a constant fight against bytes.
+   Sound samples are all self generated, as you may hear.
+   Quads only.
+  
+
+thanks to
+   * Mentor/TBC and Blueberry/Loonies, I've got no time to code own Crinkler ;)
+   * auld, great 4k intro site: http://in4k.untergrund.net/
+   * all our friends who tested this intro and gave valuable feedback
+
+   
+hello
+   Instant Ejakulation
+   Atomic Destruction
+   Unknown Artists
+   Portal Process
+   Synesthetics
+   Ananasmurska
+   Byterapers
+   Conspiracy
+   Brainstorm
+   Immersion
+   Dekadence
+   Traction
+   Kewlers
+   Loonies
+   Orange
+   wamma
+   xplsv
+   Still
+   tAAt
+   Rgba
+   JML
+   MFX
+   FIT
+   Flo
+   ASD  

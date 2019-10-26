@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo2", "Demo2.vcproj", "{73E84E82-13C7-467F-9113-7F23B748AC5A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Release Crinkler = Release Crinkler
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{73E84E82-13C7-467F-9113-7F23B748AC5A}.Debug.ActiveCfg = Debug|Win32
+		{73E84E82-13C7-467F-9113-7F23B748AC5A}.Debug.Build.0 = Debug|Win32
+		{73E84E82-13C7-467F-9113-7F23B748AC5A}.Release.ActiveCfg = Release|Win32
+		{73E84E82-13C7-467F-9113-7F23B748AC5A}.Release.Build.0 = Release|Win32
+		{73E84E82-13C7-467F-9113-7F23B748AC5A}.Release Crinkler.ActiveCfg = Release Crinkler|Win32
+		{73E84E82-13C7-467F-9113-7F23B748AC5A}.Release Crinkler.Build.0 = Release Crinkler|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

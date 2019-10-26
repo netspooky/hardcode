@@ -1,0 +1,35 @@
+
+
+helsinki-spielberg
+
+       by 
+
+     tsygä
+
+
+
+
+a four kilobyte portable(*) ravedemo
+
+
+
+
+
+credits in unspecified order:
+  ketjut,poljin,pinna,tarakka,kello,rämpytin,tanko,penkki,pyörä,kumi,apumoottori
+
+
+random typing:  
+  pirtola@cs.helsinki.fi jwuolijo@cs.helsinki.fi
+
+
+
+
+
+(*)portable:
+  yes, this has been verified to run without changes on
+  linux-i386, linux-ppc and solaris-sparc over ssh
+  sparc didn't have sounds (no oss?) and would probably
+  look "acidish" without linux-console emulator:)
+
+  if window size sucks try exporting columns and lines

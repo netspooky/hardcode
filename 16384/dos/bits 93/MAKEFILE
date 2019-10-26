@@ -1,0 +1,22 @@
+
+AS      = tasm
+LNK     = tlink
+AFLAGS  = /m /zi
+LFLAGS  = /v /ex /m /3
+OFILES  = main.obj sine.obj font.obj misc.obj newback.obj pal.obj fish.obj ints.obj
+PROG    = bits93
+
+all :    $(PROG).exe
+
+.asm.obj :
+        $(AS) $(AFLAGS) $*
+
+fish.obj : fish.asm fish.tbl
+sine.obj : sine.asm message
+
+message : text
+            gwbasic convert
+
+$(PROG).exe:  $(OFILES)
+        $(LNK) $(LFLAGS) $(OFILES), $(PROG).exe
+

@@ -1,0 +1,22 @@
+<html><script id="s"type="x-shader/x-fragment">
+#define F float
+#define U uniform F
+#define X vec2
+#define V vec3
+#define W vec4
+#define R return
+#ifdef GL_ES
+precision highp F;
+#endif
+U t,px,cr,br;V C=V(1.,.0,-2.);F L(V p){p+=C;F d=.0,k=3.;for(int n=0;n<4;n++){V c=p-V(sin(k+t*.15),sin(k+t*.17),sin(k+t*.19))*V(.6);d+=1./(.01+dot(c,c));k+=5.;}R(1./d)-.1;}F B(X p,X b){X di=abs(p)-b;F mc=max(di.x,di.y);R min(mc,length(max(di,.0)));}F b(V p,V b){V di=abs
+(p)-b;F mc=max(di.x,max(di.y,di.z));R min(mc,length(max(di,.0)));}F M(V p){F d=b(p,V(1.)),s=1.;for(int m=0;m<4;m++){V a=mod(p*s,2.)-1.,r=1.-3.*abs(a);s*=3.;F da=B(r.xy+floor(p.xy*3.),X(1.)),db=B(r.yz,X(1.)),dc=B(r.zx,X(1.)),c=min(da,min(db,dc))/s;d=max(d,-c);}R d;}W I(V p0,V g){W h=W(.0);V p=p0;F m=.001,d=.0;for(int r=0;r<50;r++){h=W(2.,.7,.2,L(p));if(h.w<m)break;d+=h.w*50.;p=p0+d*g;}R W(h.xyz,d);}W J(V p0,V g){W h=W(.0);V p=p0;F m=.001,d=.0;for(int r=0
+;r<50;r++){h=W(1.,1.,1.,max(M(mod(p,V(1.))),1.3-b(p+C,V(.1))));if(h.w<m&&h.w>.02)break;d+=h.w*50.;p=p0+d*g;}R W(h.xyz,d);}F S(V p,V d){F a=dot(d,d),b=2.*dot(p,d);F D=sqrt(b*b-4.*a*(dot(p,p)-15.)),s=.5/a;R (s*D<0.)?0.:s*min(-b-D,-b+D);}
+void main(){X p=gl_FragCoord.rg;X c=-1.+2.*p/X(800,600);F k1=cos(cr*9.)*cr,k2=sin(k1+cr*7.)*cr;V g=V(c.r,c.g,1.)/64.,o=V(.3+k1,.3+k2,t*.1-5.+k2);F w=t*.1+.3+k1,c1=cos(w),s1=sin(w);g=V(g.x*c1-g.z*s1,g.y,g.x*s1+g.z*c1
+);W h2=J(o,g);W h1=I(o,g);F bd=L(o+g*h2.w);F sd=S(o+C,g);sd=(sd>0.&&sd>h2.w)?0.:max(0.,1.-01.*L(o-g*sd));W h=(h1.w>.0&&h1.w<h2.w)?h1:(h2+max(.0,3.-5.*bd)*W(1.5,.4,.2,.0));gl_FragColor=W((.003*px+.001)*br*h.w*h.xyz+sd,1.);}</script><script id="v"type="x-shader/x-vertex">attribute vec3 p;void main(void){gl_Position=vec4(p,1);}</script><script type="text/javascript">var g=0;function q(i){c=document.getElementById(i),z="",k=c.firstChild;while(k){if(k.nodeType==3
+)z+=k.textContent;k=k.nextSibling;}g.shaderSource(s=g.createShader((c.id=="s")?35632:35633),z);g.compileShader(s);if(!g.getShaderParameter(s,35713))alert(g.getShaderInfoLog(s));g.attachShader(p,s);return s;}l1=0,b1=0,l2=0,b2=0,ca=1,sa=0,px=0,br=0,sc=0,pt=0;function cl(x){return(x<-1)?-1:(x>1)?1:x;}
+function cb(e){b=e.outputBuffer;d1=b.getChannelData(0);d2=b.getChannelData(1);mg=br*Math.min(1,Math.max(0,sc/48000-1)),rc=.5*(1+Math.cos(t*.1)),rs=1-rc
+;for(i=0;i<b.length;++i){pt+=(px-pt)*.0001;c1=.01+.02*pt;w=.001+br*.001;sa+=ca*w;ca-=sa*w;c2=.25-.2*rc;y=sc>>2;y=((y&7384)^(y>>9)^(y>>3))&63;sc++;x=cl(2*(Math.random()-.5)*sa+2*sa-3*sa*sa*sa-sa*y*.01*pt);l1+=b1*c1;b1+=(x-l1-b1*.5)*c1;l2+=b2*c2;b2+=(y-l2-b2*.5)*c2;d1[i]=(l1+rc*b2*pt*pt*pt*.01)*mg;d2[i]=(l1+rs*b2*pt*pt*pt*.01)*mg;}}
+function m(){if(!g){c=document.getElementById("dm");g=c.getContext("experimental-webgl");if(!g)alert("Chrome!");g.w=c.width
+;g.h=c.height;p=g.createProgram();f=q("s"),v=q("v"),r=g.w/g.h;g.linkProgram(p);g.getProgramParameter(p,35714);g.useProgram(p);g.enableVertexAttribArray(g.getAttribLocation(p,"p"));g.bindBuffer(b=34962,a=g.createBuffer());g.bufferData(b,new Float32Array([r,1,0,-r,1,0,r,-1,0,-r,-1,0]),35044);w=new webkitAudioContext();s=w.createJavaScriptNode(16384,0,2);s.onaudioprocess=cb;rb=w.createBuffer(2,rl=48000,rl);d1=rb.getChannelData(0);d2=rb.getChannelData
+(1);for(i=0;i<rl;++i){d1[i]=Math.pow(.99997,i)*Math.random()*.04-.02;d2[i]=Math.pow(.99998,i)*Math.random()*.04-.02;}cv=w.createConvolver();cv.buffer=rb;cv.connect(w.destination);s.connect(cv);st=(new Date()).getTime();}g.uniform1f(g.getUniformLocation(p,"t"),t=((new Date()).getTime()-st)*.001);d=t-66;g.uniform1f(g.getUniformLocation(p,"px"),px=5/(5+Math.pow(d*d,.4)));g.uniform1f(g.getUniformLocation(p,"cr"),cr=.2*Math.pow(px,5)*Math.random());g.uniform1f
+(g.getUniformLocation(p,"br"),br=Math.max(0,Math.min(1,2-.01*t))*Math.min(1,Math.max(0,.04*t))*(1+.2*px*Math.sin(33937*t)));g.viewport(0,0,g.w,g.h);g.clear(16640);g.bindBuffer(b,a);g.vertexAttribPointer(a,3,5126,false,0,0);g.drawArrays(5,0,4);window.webkitRequestAnimationFrame(m);}</script><body bgcolor="0"onload="m()"><center><canvas id="dm"width="800"height="600"></canvas></center></body></html>

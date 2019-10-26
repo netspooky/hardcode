@@ -1,0 +1,22 @@
+ADINPSZ - FABRIK
+a 4k browser intro released at Revision 2012
+invitation intro for DemoJS 2012 - the browser demoparty - Paris 29-30/06/2012
+
+code: cb
+music: wullon
+softsynth: Ferris / Youth Uprising (Sonant), m / Bits'n'Bites + cb (JS port) 
+Special thanks to #ponce, gasman, chaos
+
+http://adinpsz.org
+http://demojs.org
+
+---
+
+intro = fabrik.html + x
+
+- work with Chrome with --allow-file-access-from-files option
+("chrome.exe --allow-file-access-from-files")
+- run demo.html 
+- fullscreen (F11)
+- refresh (F5) 
+- intro should start after ~60seconds

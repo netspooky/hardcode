@@ -1,0 +1,150 @@
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ú     ú     ÛÛÛÜ ÜÛÛÛ  ÜÛÛÛÜ  ÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛ ÜÛÜ ÛÛÛ   ÛÛÛ ÛÛÛßßßßú      |   
+     |     úÛÛÛßÛßÛÛÛúÜÛÛ ÛÛÜ ÛÛ   úß ÛÛ    ß úß  ÛÛÛ   ÛÛÛ ÛÛÛ     ú   --o-- 
+ú  --o--    ÛÛÛ ú ÛÛÛ ÛÛÛÜÛÛÛ ßßßßÛÛÛ ßßßßÛÛÛ ÛÛÛúÛÛÛú  ÛÛÛ ÛÛÛßßß    ú   |   
+   ú |      ÛÛÛ   ÛÛÛ ÛÛÛßÛÛÛ Ü  úÛÛÛ Üú  ÛÛÛ ÛÛÛ  ÛÛÛ ÛÛÛ  ÛÛÛ   ú       ú ú
+ ú     ú    ÛÛÛ  úÛÛÛ ÛÛÛ ÛÛÛ ÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛ ÛÛÛ   ÛÛÛÛÛ   ÛÛÛÜÜÜÜ  ú
+                               A Living Legend
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                                   Presents
+
+                           On The Party 94 (29-12-94)
+
+                             Infinite Space Dreams
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+System requirements:
+
+To watch this demo (relaxed :-)) you need at least the following things:
+
+- A 486DX33 with local-bus. On non local-bus computers or 386 the demo will
+  work but run VERY SLOWLY!. It really doesn't seems to be a good idea to
+  run it on anything slower as 386-40.
+- To hear the music you need a Gravis UltraSound or Soundblaster.
+  We recommend a GUS for a smoother demo and better sound quality.
+- At least 590Kb free conventional memory.
+- At least 2.5Mb free extended (XMS) memory
+- You may not install EMM386, QEMM or whatever protected mode handler!
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+About the demo:
+
+This demo was created in the autumn of 1994, but some routines are even from
+the summer. It was originally ment to be released at the Wired '94 party, but
+because we had a problem with our transport to Belgium we released it at
+The Party 4. We hope you enjoy this production, we tried to get the best out
+of the small size limit of 64Kb and we think it turned out quitte well.
+
+Unfortunately, we cannot assure you everything will work perfect, this is
+because the high quality of the intro requires such a extreme configuration.
+Don't get me wrong: probably everything will work allright, but you never
+know!
+
+If the demo doesn't works or crashes, you can try the following things:
+
+1: Run the demo without sound by starting it like this:
+
+ISD N
+
+2: Use the following CONFIG.SYS:
+
+DEVICE = C:\HIMEM.SYS
+DOS = HIGH
+
+   And use an empty AUTOEXEC.BAT
+
+This will probably solve most problems.
+
+Signed, NiX
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Greetz:
+
+We would like to greet the following groups:
+
+(In random order)
+
+Logic Design, ACME, Ground Zero, Agony, Weird Magic, Nostalgia, Iguana,
+Capacala, EMF, Cascada, Imphobia, Hypnosis, Dust, FC, Jamm, Spirit, Prime,
+Diffusion, GBC, Void, Hazard, Genuine, And a whole bunch we forgot...
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Members List:
+
+At the moment MASSiVE consists of 5 members:
+
+- NiX                   Main Coding / Organizer
+- CONTAGiON             Music / Co-Organizer
+- DiGiT                 Graphics
+- Butterfly             Coding Support / Research
+- ACiD Brain            Graphics / Vector design
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Commercial productions:
+
+MASSiVE also creates commercial demos, if you or your company is interested
+in a demo, don't hesistate to contact us.
+
+A few things you should realise:
+
+- At the moment we're all still going to school, so sometimes we are just
+  to busy to accept.
+
+- Our demo's are real time calculated and are not animations, this means
+  that very complicated effects require a lot of processor/video power, but
+  very less disk space, just look at this really small intro to see what I
+  mean.
+
+So if you're interested: Get in touch with us!
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+How to get in touch with us:
+
+To contact us you can send mail to us at one of our distribution-sites, a list
+is in this file.
+
+You can also get in touch with MASSiVE by sending us
+netmail, you'll have to address it to:
+
+Hendrik van den Boogaard at
+---------------------------
+    Sig: 27:2331/260 [Diabolo BBS Utrecht]
+Hupitel: 97:1000/303 [Diabolo BBS Utrecht]
+Digital: 15:1400/202 [Diabolo BBS Utrecht]
+   Fido: 2:512/64    [Public Board Driebergen]
+    Vir: 9:318/4     [Public Board Driebergen]
+    SBC: 14:1000/653 [Public Board Driebergen]
+    PNN: 13:310/303  [Public Board Driebergen]
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+You can also reach us at the following addres by normal mail:
+
+Jurjen Katsman / NiX
+Koppelweg 93
+3704 GG Zeist
+Holland
+Speech: +31 (0)3404-54544
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                        - Distribution site list -
+
+³BBS Name         ³BBS number              ³Sysop          ³Comments        ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ MASSiVE BBS       +31(0)????-????          Contagion       MASSiVE WHQ (*)
+ GBC II            +31(0)2502-49975         Code Red        MASSiVE EHQ 
+ GBC I             +31(0)2520-25390         Consieler
+ Diabolo Utrecht   +31(0)30-612398          Cor van Essen
+ The Real World    +31(0)53-330190          Da Chief        Ground Zero WHQ
+
+(*) At the moment MASSiVE BBS isn't online yet, as soon as it is, it will
+    become our new WHQ.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+

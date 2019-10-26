@@ -1,0 +1,38 @@
+
+
+  arc by holon
+
+  aka diego on r
+
+  a 4k at breakpoint 09
+
+  -- 
+
+  code    pandur
+  music   kaneel
+
+  synth   gopher^alcatraz
+
+  more info at tom.drastic.net
+
+  --
+
+  done and tested on a nvidia demobox / gf 8800 
+  will be slow on anything less than 8600 (i guess)
+  compo version needs a multicore processor
+  
+  it'll not run on ati (i guess)
+  i'll _try_ to make an ati version
+  
+  --
+  
+
+  thanks to las, cocoon, gargaj, chunna, warp, maria
+
+  special thanks to gopher for essential tipps and letting us test and use his synth 
+  
+  thanks to loonies and TBC for the awesome crinkler
+ 
+
+
+

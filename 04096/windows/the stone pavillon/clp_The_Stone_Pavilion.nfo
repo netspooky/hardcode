@@ -1,0 +1,54 @@
+ﬂ
+ﬂ‹
+€‹ ‹
+ﬂ€€€€‹ﬂ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹‹ﬂ‹‹ﬂ
+                                ﬂ  ﬂ  €
+PRODUCT: The Stone Pavilion
+
+€ﬂ€€€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹ ‹ ‹ﬂ‹
+  
+:: Credits ::
+
+        - shash/Collapse  - code / design / sync / graphics
+        - slack/Collapse  - music / add. sync / add. size optimizations
+        - Merry/Excision  - music
+        
+        - gopher & pOWL      - 4klang
+        - Blueberry & Mentor - crinkler
+        - Ctrl-Alt-Test      - ShaderMinifier
+
+:: Greets ::
+
+     Genshiken, Bixo, Software Failure, Nocturns, Necrostudios, Spontz, 
+    None,  Fuzzion,  Still, Accession,  Min&Merry, iq, unai,  Xernobyl,
+    and all the  people we forgot, or haven't been to a party since the
+    dark ages.
+
+:: Comments ::
+ 
+      shash: So, I've been working on this for a while, and it's 7am in
+    morning after coding all night. Keep that in mind. I would like to
+    thank Min, who answered some questions about path tracing in 4k when
+    I started this project, and iq (and shadertoy), for some of the
+    algorithms used in this 4k: without the insane ammount of shaders he
+    created as a reference, creating this would have been WAY harder.
+    About the 4k, it's basically a raymarcher with distance faded 
+    reflections and one bounce of GI (with only 6 rays over an hemisphere,
+    with a few hacks). As for performance, size restrictions made me undo
+    some optimizations done while prototyping, sorry for that :( Hope you
+    like it, it's been quite an interesting development :)
+      
+      slack: I think shash has done a really amazing job with this one,
+    I hope people like it as much as I do :D. Now, time for another round
+    of optimization. As a wise man once said to me, "we still have ten 
+    bytes, let's add another effect" :D
+      
+        Enjoy more,
+                shash/Collapse
+                slack/Collapse
+                         (04.04.2015)
+ 
+€‹                                                                            €
+€€ ‹                                                                       ﬂ ‹ 
+€€€€€‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€
+                                      ﬂ                              ﬂ

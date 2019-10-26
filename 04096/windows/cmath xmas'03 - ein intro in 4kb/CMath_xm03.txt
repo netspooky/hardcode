@@ -1,0 +1,58 @@
+   _____   _     _   _
+  / ____) | \   / | / \
+ | / ___  |  \_/  |  _/
+ | |(__ | | \   / | /__
+ | \__/ | | |\_/| |
+  \___/_| |_|   |_| 
+
+
+gm² - Einer muss in Führung gehen. - http://www.gm-squared.de
+______________________________________________________________:-:
+
+
+  CMath Xmas'03 :-: Ein Intro in 4kb
+
+  Code          :-: TGGC
+
+  Grüsse 	:-: #gamedev.ger (Selbst schuld, war Eure Idee)
+                    6s (durch euch sind wir "schnell", danke ;)
+                    skp
+                    Poke 53280 (,1 würd ich sagen)
+                    Elite Software (zu lang für 4k...)
+                    SPQR Informatics
+                    Sgt. Nukem und die Anderen vom C++ Board
+                    Ifrit666 und das STS-Team
+                    sonst alle, die programmieren
+                    oder es versuchen
+                    und den Rest bei ZFX ;)
+                    JibZ (Autor von "apack")
+                    neo (Autor von "upec")
+  ausserdem     :-: die es schneller mit A6 können
+                    die es kleiner mit VB können
+                    die es besser mit BB können
+                    die es immer noch nicht kapiert haben
+
+
+  Dieses Intro wurde auf Win2k getestet und für lauffähig befunden. 
+
+  Erforderlich:
+  - möglichst schnelle Grafikkarte vom Typ GF1 aufwärts
+  - DirectX 9
+
+  Bekannte Fehler:
+  Kein Sound, wenn keine Standard Win2k Installation vorhanden.
+
+  Dieses Intro produziert in der ersten Minute bei 100 fps 
+  60 * 100 * 1024 * 768 * 4 Byte Grafik-Daten. Das macht insgesamt
+  18000 Megabyte Daten, was einer Kompressionsrate von 
+  1 : 4608000 entspricht. (exclusive temporäre Daten!) 
+
+
+  Webseiten	
+    gm-squared @ http://www.gm-squared.de
+    my page @ http://tggc.funpic.de
+
+  Dieses Archiv enthält nun auch eine Windows XP Version, sowie eine 
+  Kompatibilitätsversion. Da unter Windows XP die Datei 
+  "Beethovens fünfte Symphonie.rmi" nicht mehr per default installiert
+  wird, liegt diese auch bei.

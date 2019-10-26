@@ -1,0 +1,335 @@
+<html>
+<head><title>JS_Labyrint</title></head>
+<body bgcolor="#000000" text="#00FF00">
+<center>
+<canvas id="can" tabindex="1" width="800" height="800"></canvas>
+<p id="texty"></p>
+</center>
+<script>/*      <--Sokoban--> Graindolium */
+var el=document.getElementById("can"),z=el.getContext("2d");
+var ww=800,hh=800, dw=ww/2, dh=hh/2, rw,rh;
+var n=-1, r,u,g,l,v,k ,x=0,y=0, xw,yh, xp,yp, tt;
+var chS, xx,yy ,cc, niv=0;
+var dtel,ttel=0;
+var co=new Array("#1E1E1E","rgba(220,220,220,.2)","#FF0000","#C896C8","#FFB238","#00C800","#6464C8","#FF0AFF");
+var tmap=new Array(700);
+var map=new Array(25);
+for(u=0;u<25;u++){map[u]=new Array(25);}
+var port=new Array(20),cp;
+for(u=0;u<25;u++){port[u]=new Array(2);}
+var cmur=new Array("1122","2211","1211","2111","1112","1121","1111");
+var dmur=new Array(20),cm;
+for(u=0;u<25;u++){dmur[u]=new Array(3);}
+
+var DATA=new Array(100);
+function LOAD(){
+ var pl="abcdefghijABCDEFGHIJKLMNOPQ".match(/./g),a,da=new Array("fh8bCJ8b4beI81","ghd4M4cec8L8F82","jg4Q4b8hDaea8N82","jha8eEHHI4GK4Oeb4ed42","hh4I4b8H8cDa8deb4I41","hiE4Mbe8bCa8bCD4Gc8b4b82","1b1a8MQ4cHb4hF8c4OCK4O4c8c4b8g4bec4g8b44"/*escargo*/,"jhE8beI4G4bF8H4H8h4e81","1b1a4Q4h8d4cH8dE8b4cK4Gc4c8Ia8dK4c8beb4hd43","jg4Geb4GcHH8bEEa8Q82","1ah4b8beb4GLDb4bF8gC4bF8MQP1","jh4I8b4b8J8eMc8b4HC4Oed41","hjI8dDE8H8cEaeHLICa8Q1","1a1a4c8c4ebC4GMHb4GCQ8ec4HC4IcI8b4bFe4e8c42","ija8d4G4bF8IEbeLL8MEbC4G4b8d0","hj4be8ea8bDMdHIPJ8bE8e41","iiE8cCKCdeCc8dKCOCKCMd0","1a1b8e4KDD4c8cCOCEPI8bD4Ha8IHdNeCdF8c4LDC4c84","jh8IQ8cKCc8bDcJ8bCcF8MQe1"/*teleporteur*/,"gfeM8bfcfdM1","f1a8Icfd8ILKeIcIfM81","1aj8f4GcHfd4d8bE8b4G4ceb4Gdf8c4eH4f8b0","1aj4fd4b8efdDafbC4G4HebEfHI8bE4GcK4f81","ii4c8PfH8b4bF8bfcfQ4cFe4Mf1","j1bEbeI4IbfI4GcHF8Ffa8cfDaf8Jfa8bEMM4HafD4b8e0","hhI8bfbDCdfPKDa8Ieb5","1bja8M8cCcFeCc8cfafaf8F8IQ8b4G4bf4G4b8HH8b4Ofb42","hiIfe8HHHLHFfCd4MQfb3","1b1a4Q4gbfb4e8e4c8HL8bCc4bf4H8IfDafd8H4bf4HIbe8e3","jjd8F8IbfLcf8HdMODdfPCQMc8bfLcfI8Feb3","hhQMdfdfdfLLcfcfcfOeb3","1b1b8Q4dL8bf4dHDb4dfH8Id4eb4G4eb4GK4MdIfb4ebfae4e83","1a1c8i4Hb4b8FfHfa8b4GE8LHEa8FebfN8IQDc8bE4Gf8bfcHN88","hh8be8HbCcfMcfPfMQM3","iiQd8bE4b8M4Hfc8HH8HfafF8beb5"/*mur destructeur*/,"ii8be8dfHf8Mdg8HQ8cfbif86","1c1b8eQ8F8cf8gc4f8bCE8J8bChecf8bgbCE8J8d4f8ef9e0","1a1a4c8gK4c8bCef4b8b4G4c8cf8cf8bh8H4GdCC4Gf8bCdf3","ghfQfeLQ1cfcHMfE5","1b1c8N8ffbh8f1Kib1cf8LF8d4HF8b4d8bf8b4eg4fdOeId4GPfIb4Gd8Mb0","1a1c8gOfH8Id8H8c4d1bgfb4cH8c4KebC4dg1Bb4b8Hbfb4Gf8Qd8g3","j1I8bf8IbDHCd8bh8ICgfgbEbfifIbDPCd8bh8I4Geb4d8c41"/*excellent*/,"1b1d4c8c4fHb4gc8I4df1d8I4Md1K4eHH4MfcgfHQHI1LId4cfQ4gHb4fbeb41","iiO1d8bEbD8IdKfKCP8Hf1cfbCeO5","1c1J8N8b4b8bfhbCc8L8MF8d4Gg8Ia8cCdF8bE8Hbfc8dCC4Ia8IJe8d4b8bfIbC4b8N82","1d1fa8b4e8b4I8gd4b8b4e8b4KCOC4OEMC4b8cj8cj8hf8ceF8bgbibg8b4QCE4fdhfhd4d8Q8d4GCgcgbC4b8Q8d0");
+ for(v=0;v<da.length;v++){
+a=da[v];g=0;
+for(r=0;r<4;r++){for(u=0;u<4;u++){a=a.replace(RegExp(pl[++g+10],"g"),pl[r]+pl[u]) }}
+for(r=0;r<=9;r++){a=a.replace(RegExp(pl[r],"g"),r+",") }
+var b=a.split(/,/g); DATA[++n]=new Array();
+for(r=0;r<b.length;r++){DATA[n]=DATA[n].concat(parseInt(b[r])) }
+ }
+ 
+ niv=parseInt(prompt("LEVEL 0 to " +n,0));
+ Set();
+}
+
+el.onkeypress=function(evt){
+ chS=String.fromCharCode(evt.which);
+ switch(evt.keyCode){
+ case 40:chS="5";break;
+ case 38:chS="8";break;
+ case 37:chS="4";break;
+ case 39:chS="6";break}
+}
+
+function zf(a){z.fillStyle=a}
+function zr(xa,ya,a){z.fillRect(xa,ya,a,a)}
+
+function Set(){
+ niv= niv>n ?0:niv;
+ document.getElementById("texty").innerHTML="-!: LEVEL :!-<br/>" + niv;
+ zf("#000000");
+ zr(0,0,ww);
+ 
+ g=0;
+ for(u=2; u<DATA[niv].length; u++){
+
+v = DATA[niv][u];
+if( v>80 ){
+ l=v-80;
+ for(r=0;r<=l;r++){tmap[++g]=1}
+}else if( v>40 ){
+ l=v-40;
+ for(r=0;r<=l;r++){tmap[++g]=0}
+}else{
+ tmap[++g]=v;
+}
+ }
+ 
+ xw=DATA[niv][0];
+ yh=DATA[niv][1];
+ rw=dw-xw*40/2;
+ rh=dh-yh*40/2;
+ g=cc=cp=cm=0;
+
+ for(u=0;u<yh;u++){for(r=0;r<xw;r++){map[r][u]=0}}
+ for(u=1;u<yh-1;u++){
+ for(r=1;r<xw-1;r++){
+
+map[r][u]=tmap[++g];
+switch(tmap[g]){
+ case 4:
+  map[xp=r][yp=u]=1;
+ break;
+ case 5:
+  map[r][u]=20+cp;
+ port[cp][0]=r;
+port[cp++][1]=u;
+ break;
+ case 3: cc++; break;
+ case 6:case 7:case 8:case 9:case 10:case 11:case 12:
+  map[r][u]=0;
+ dmur[cm][0]=r;
+dmur[cm][1]=u;
+dmur[cm++][2]=tmap[g]-6;
+ break;
+ case 13: map[r][u]=4; break;
+}
+
+ }}
+ 
+}
+
+function xy(a){map[xp+=x][yp+=y]=a}
+function bb(a){return(a>=40 && a<60)||a==2||a==4?"1":"2"}
+
+function dmurset(){
+ for(l=0;l<cm;l++){
+
+v=dmur[l][2];
+if(v!=-1){
+ r=dmur[l][0];
+ u=dmur[l][1];
+ var b=cmur[v].match(/./g);
+ 
+ if(( bb(map[r][u-1])==b[0] || b[0]=="2") &&
+  ( bb(map[r][u+1])==b[1] || b[1]=="2") &&
+  ( bb(map[r-1][u])==b[2] || b[2]=="2") &&
+  ( bb(map[r+1][u])==b[3] || b[3]=="2")){
+  map[r][u]=2; dmur[l][2]=-1;
+ }
+ 
+}
+
+ }
+}
+LOAD();
+setInterval(function(){myTimer()},0);
+function myTimer(){
+ el.focus();
+ 
+ if(cc ==0 && chS !="&"){
+niv++;
+Set();
+ }else{
+
+
+switch(chS){
+case"8":case"z":case"Z":y=-1;x=0;break;
+case"5":case"s":case"S":y= 1;x=0;break;
+case"4":case"q":case"Q":x=-1;y=0;break;
+case"6":case"d":case"D":x= 1;y=0;break;
+case"r":case"R":Set();break}
+
+if( y + x != 0 ){
+ 
+ v = map[xp+x][yp+y];
+ switch(v){
+  case 1:case 3:
+   xy(v);
+  break;
+  case 2:
+   
+   v = map[xp+x+x][yp+y+y];
+   switch(v){
+  case 1:
+   
+   xy(1);
+   map[xp+x][yp+y]=2;
+  break;
+  case 3:
+   
+   xy(1);
+   map[xp+x][yp+y]=4;
+   cc--;
+  break;
+  default:
+   
+   if ( v >=20 && v <40 ){
+  l = v-19;
+  l = l>=cp ? 0:l ;
+  
+  xy(1);
+  if ( map[ port[l][0] ][ port[l][1] ] == l+20 ){
+	   map[ port[l][0] ][ port[l][1] ] = 40+l;
+     dtel=l;ttel=50;
+	  }else{
+	   map[xp+x][yp+y]=v+20;
+  }
+  
+   }
+   
+  break;
+   }
+   
+  break;
+  case 4:
+   
+   v = map[xp+x+x][yp+y+y];
+   switch(v){
+  case 1:
+   
+   xy(3);
+   map[xp+x][yp+y]=2;
+   cc++;
+  break;
+  case 3:
+   
+   xy(3);
+   map[xp+x][yp+y]=4;
+  break;
+  default:
+ 
+   if( v >=20 && v <40 ){
+  l = v-19;
+  l = l>=cp ? 0:l ;
+  
+  xy(3);
+    cc++;
+  if( map[ port[l][0] ][ port[l][1] ] == l+20 ){
+	   map[ port[l][0] ][ port[l][1] ] = 40+l;
+     dtel=l;ttel=50;
+	  }else{
+	   map[xp+x][yp+y]=v+20;
+  }
+  
+   }
+   
+  break;
+   }
+   
+  break;
+default:
+
+ if( v>=40 ){
+  
+  l = v-40;
+  g = map[ xp+x+x ][ yp+y+y ];
+  switch(g){
+    case 1:case 3:
+     
+     xy(l+20);
+   
+   if(g==3){
+    map[xp+x][yp+y]=4;
+    cc--;
+     }else if(g==1){
+    map[xp+x][yp+y]=2;
+     }
+     
+     v=map[xp][yp];
+     y=x=0;
+   break;
+  }
+
+ }
+ 
+ if( v >=20 && v <40 ){
+  l = v-19;
+  l = l>=cp ? 0:l ;
+  
+  if( map[ port[l][0] ][ port[l][1] ] == l+20 ){
+   xp=port[l][0];
+   yp=port[l][1];
+   dtel=l;ttel=50;
+  }else{
+   xy(v);
+  }
+  
+ }
+
+   break;
+  }
+  
+ }
+ 
+ dmurset();
+ }
+ y=x=0;
+ chS="&";
+ 
+ 
+ for(r=0;r<xw;r++){
+ for(u=0;u<yh;u++){
+
+v = map[r][u];
+v = v >=40 ? 7:v >=20 ? 6:v;
+
+switch(v){
+ case 2:
+  zf(co[1]); zr(r*40+rw,u*40+rh, 40);
+  zf(co[2]); zr(r*40+rw+5,u*40+rh+5, 30);
+ break;
+ case 4:
+  zf(co[3]); zr(r*40+rw,u*40+rh, 40);
+  zf(co[5]); zr(r*40+rw+5,u*40+rh+5, 30);
+ break;
+ case 7:
+  zf(co[6]); zr(r*40+rw,u*40+rh, 40);
+  zf(co[7]); zr(r*40+rw+5,u*40+rh+5, 30);
+ break;
+ default:
+  zf(co[v]); zr(r*40+rw,u*40+rh, 40);
+ break;
+}
+
+ }}
+ 
+ zf(co[4]); zr(xp*40+rw,yp*40+rh, 40);
+ 
+ zf(co[2]);
+ for(l=0;l<cm;l++){
+ 
+v=dmur[l][2];
+if(v!=-1){
+ r=dmur[l][0]*40+rw;
+ u=dmur[l][1]*40+rh;
+ zr(r+8,u+8, 24);
+ 
+ var b=cmur[v].match(/./g);
+ if(b[0]=="1")zr(r+16, u , 8);
+ if(b[1]=="1")zr(r+16, u+32, 8);
+ if(b[2]=="1")zr(r,  u+16, 8);
+ if(b[3]=="1")zr(r+32, u+16, 8);
+ 
+}
+
+ }
+ 
+ if(ttel>0){
+r=port[dtel][0];
+u=port[dtel][1];
+l=--ttel/50;
+zf("rgba(250,250,250," +l+ ")");
+zr(r*40+10+rw,u*40+10+rh, 20);
+ }
+ 
+ 
+}
+
+
+</script>
+</body></html>

@@ -1,0 +1,8 @@
+Beambox by lucid feat. Tripper
+
+Music by Tripper
+Code by ltipl
+
+OpenGL 2.0, GLSL 1.2
+
+Released at Revision 2012

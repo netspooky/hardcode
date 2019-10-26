@@ -1,0 +1,54 @@
+ :: Release
+  
+   Catch ya' clean by Bypass.
+   
+   Competed in the 64KB competition at Scene Event 2001, 
+   held in Harridslev - Denmark.
+
+:: Requirements
+   
+   Windows 2000, OpenGL.
+
+   This intro has been tested sucessfully on the following graphics cards:
+        TNT2-PCI, Intel 82815, Geforce 2 MX and Geforce 2 GTS.
+   
+   And the followin CPU's :
+   	Intel Pentium 3 800MHZ, Intel Pentium 3 500MHZ and AMD Athlon 1200mhz.
+   	
+   Maximum viewing pleasure at 800MHZ or greater and Geforce 2-class cards (or greater).
+
+
+:: Commandline parameters
+
+   Write "cyc.exe window" to run the intro in a nice little window.
+
+:: Credits
+   
+   Main code and design ............... : Macaw
+   Add. code .......................... : Supah
+   Music .............................. : P-rat
+   Poster ............................. : Tomic
+   
+
+:: Add. credits
+   
+   Markus Oberhumer and Laszlo molnar . : UPX
+   Firelight Multimedia ............... : MiniFMOD
+   Jar of Alienprophets ............... : 3DS loader
+   
+   
+:: Greetings
+
+   Aardbei, Alienprophets, Blasphemy, Calodox, Exceed, Fairlight, Fudge,
+   Haujobb, Kolor, Kooma, Loonies, Mainloop, Nanv, Mfx, Prone, Purple, Tpolm
+   
+   
+:: Contact
+   
+   Webpage ........... : http://bypass.scene.org
+   Email (Macaw) ..... : rasmus@cromatics.dk
+
+  
+:: Relax
+   
+   See you at Dialogos 2001 (www.dialogos.cc) and TRSAC 2001 (www.trsac.dk).

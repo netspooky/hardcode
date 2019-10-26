@@ -1,0 +1,18 @@
+Neuron
+
+a quickly made 4k intro presented to you by TBC and Loonies
+
+Puryx: Music
+Mentor: Effects, additional engine
+Blueberry: Engine, synth, Tool
+
+Requirements:
+- DirectX runtime (d3dx9_24.dll)
+- Shader model 2.0 or better
+- A powerful CPU
+- Decent fill rate (lots of alpha blending going on)
+
+The intro reads its resolution from the filename,
+so if your preferred resolution is not listed, just
+rename the executable accordingly. The intro assumes
+a 16:9 aspect, so 1280x1024 might look a bit weird...

@@ -1,0 +1,23 @@
+Gliss by Mewler + Lhasa
+
+/// .credits
+------------------
+
+Code - Mewler ( http://twitter.com/Orihaus )
+Music - Lhasa Mencur ( http://soundcloud.com/lhasamencur )
+
+IQ/RGBA, Las/Mercury and the rest of the Pouet Raymarchers!
+
+/// .products we used
+------------------
+
+Crinkler - Mentor/TBC and Blueberry/Loonies
+Shader Minifier - LLB 
+4klang - Gopher and pOWL/Alcatraz. 
+
+/// .???
+------------------
+
+2.65k. To big for 1k, to simple for 4k, it kind of got left. 
+Better than let it rot on my HD, I thought I'd upload it. 
+Because why not.

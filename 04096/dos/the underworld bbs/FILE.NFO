@@ -1,0 +1,72 @@
+               
+               ∞ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€                                
+               ± €€€€€€€€‹ €€€€€€€€€ €€€€€€›€› €€€€€€€€€ €                                
+               ≤ €€€€€€€ € €€€€€€€‹€ €€€€€€€€  €€€€€€€€˛ €                                   
+               € €€€€€€€€ﬂ €€€€€€€ﬂ€ €€€€€€›€› €€€€€€€€€ €                                
+               €‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹∞                                   
+                                                                               
+                                  PrEsEnT
+
+                     -= UnDeWoRlD BbS AdVeRtIsMeNt =-
+            
+  Yeah ! This is the last BBS add-on for the Underworld BBS in Switzlerland.           
+
+ 
+ [=[ Credits ]==============================================================]  
+
+     Code .............................. Dake
+  
+ 
+ [=[ Requirements ]=========================================================]  
+  
+     It needs at least a 386 because the comet effect is quite slow. 
+     A VGA compatible card is needed.
+
+ 
+ [=[ Known Bugs ]===========================================================]  
+
+     On some uncompatible cards and screens (Laptop), the video mode
+     can create some problems because it's not a BIOS mode.
+     If you encounter this problem, I can't do anything for you. :( 
+     Try to launch it on another computer. 
+  
+ 
+ [=[ Technical Informations ]===============================================]  
+
+     Code is 100% ASM. I used A86 v 4.01 to compile it. No 386 
+     instructions. It's like a feedback effect but I added a rotation 
+     so you've a zoom, a fire effect (blur) and a rotation. To make
+     the "crackle" effect in fire, I used random numbers. The video mode 
+     is a tweaked 256x128 described in Imphobia N¯11.
+     
+     I will soon release the source code on my site, FTP and Underworld 
+     off course.
+
+ 
+ [=[ Greetings ]============================================================]  
+  
+                 Synoptic - VLA - Imphobia - Ervin / Abbadon 
+                  The Coexistence and all coders who release
+                             their own sources
+
+ 
+ [=[ Contact ]==============================================================] 
+
+     Don't forget to check out my Web site, you'll find there all my 
+     productions and some good informations :
+
+      http://www.omedia.ch/pages/dake/index.htm (in french)
+      http://www.omedia.ch/pages/dake/idxang.htm (in english) 
+
+     E-Mail : dake@omedia.ch
+
+     If you have questions about the Underworld BBS or messages 
+     for Synoptic, the Sysop :
+
+     E-Mail : synoptic@cryogen.com
+     
+     or call  +41-(0)22-9600621
+              +41-(0)22-9600622     
+              +41-(0)22-9600623     
+
+

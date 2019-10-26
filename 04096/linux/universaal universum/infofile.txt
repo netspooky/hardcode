@@ -1,0 +1,48 @@
+Universaal Universum
+----------
+    by. Laserboy + Hot Multimedia (LHB)
+
+
+First released on assembly 2010
+
+done by. mankeli of LHB
+
+
+some points:
+============
+
+ - running time: about 1 minute (music loops after that)
+ - basic opengl code used, no shaders and stuff. (tested on ati radeon 9600, x600 and intel gma950)
+ - developed on Debian GNU/Linux, should run with any linux distro with basic GNU toolset
+ - some trickery used to omit normal GCC startup and linking (linker code borrowed from
+   Metatunnel by FRequency, but presumably originally coded by parcelshit of fearmoths)
+ - and yes, universaal universum is that shop in tallinn.
+
+thank you's:
+============
+ - marika for supporting me and understanding my weird habits
+ - veezay for some help with music and inspiration for coding the newton-routine
+
+
+we also salute and say hello to these guys:
+===========================================
+pelix, #Pilipuisto, Trilobit, Bilotrip, PWP, FRequency, RGBA, Extend, Beyond Force, Side B
+
+
+
+We hope you enjoy this little presentation.
+
+2010 Laserboy + Hot Multimedia
+
+________                        _____________
+    ___________________________________
+
+            ___   ___   __ _____
+           /  /  /  |__|  \\  _ /_
+Laserboy  /  /_ /   ____   \\  _  |  Hot Multimedia
+         /____//___/|__|\___\\____/|
+         |____||___|/  \|____|____|/
+
+            From Dusk Till Dawn
+    ____________________________________
+________                         _____________

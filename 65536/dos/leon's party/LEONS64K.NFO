@@ -1,0 +1,184 @@
+        ўммм    http://dolOps.scene.hu   ААмммммм     м       АА          мВм
+А  АА    онлн               ммм         млВлп мпллнў пВп  ммм  ў  ммВмм    п  А
+       ўм ллл  пААмВлллмААп  ллл ў  ААўолллноВВўоллм мммллллллмлмлллппВлмА мВ
+ ў  ВмллллВВлА млллп  пллл ўполлВА  м  Влол олл ллллВллВп   пВлнпллВ А ў   пллн
+ мп ллп  плллн лВлн Вм оллнмВмлллА пВп олллнплноВллноллн АА мллВ плллммВллВм лл
+ол ллм АА онлВ олВлм  мВлл   пллВ А    Вмлллм  млллВоВллллллллпп мм пппп лВл Вл
+ Вм пллллмВлллн м ппппппп  АА плллммлллп м ппппппп п лллнмммББмВм оллммВлллнмлл
+ оллммммм пппп лВлллмллллБмммммм пппп мллллллВллллл пВппл ллллллллм пппБпп млн
+  пВлллллллллллллллллВллллллмллллллллллВллллллллллллммммммллВВлллллллл А ллп
+ А  лВппппВппппппВпппппппппппппппппппппБппппппппппВппппппппппппппппВatx%LZВ АА
+     Б    Б         мВм
+                     п     L E O N ' S   P A R T Y   6 4 K I N T R O    
+                     
+
+ў 0. CONTENTS ў
+
+   0...Contents
+   1...What is needed to run the intro ?
+   2...Interesting facts about the intro
+   3...Contacting
+   4...Greetings, thankyous 
+
+
+ў 1. What is needed to run the intro ?? ў
+ 
+ An IBM PC compatible computer with these:  
+   - a 386 processor, but at least a p133 is recommended
+   - Gravis Ultrasound for music
+   - 588 kilobytes of free conventional(base) memory
+   - about 4 megabytes of extended memory(XMS)
+
+ *If you can not get enough conventional memory, try making your c:\config.sys
+ file look like this: 
+  
+  dos=high  
+  DEVICE=c:\dos\himem.sys  <- or DEVICE=c:\windows\himem.sys 
+
+ Also make your c:\autoexec.bat file empty (make a backup copy of it first)! 
+ This way the intro should have everything it needs in terms of memory.
+ 
+
+ў 2. Interesting facts about the intro ў
+
+ We hope you liked it. It looks a bit "oldschool". That's because it was 
+ originally made for scenest'96. Then, as we couldn't finish it (the code
+ was a bit deficient), we decided to release it at rage'96. But at the time
+ of the deadline at Rage'96, the code was still deficient (there were not
+ many improvements). Then there was a little break in the development. 
+ Then in the spring of 98 we decided, it would be a cool idea to finish the
+ intro for Scenest'98! It looked practicable (of course), but it turned out
+ that it is not as easy as it seemed, also Scenest'98 was postponed (to a date,
+ on which I knew I wouldn't be at home), so the "development" stopped.  
+ Then in the spring of 99 we decided, it would be a cool idea to finish the
+ intro for Flag party, or some other party in the summer. So I started coding
+ again. Nothing is impossible for us, there finally was a working version
+ of the intro in March! Then it turned out that there weren't any parties
+ in the summer (though after Jumper, I realized that there had been one), but
+ nothing could have stopped the Machine anymore. The intro was continously 
+ "developed", and finally it is now FINISHED! It might look a bit disgusting
+ first (still, please don't write us any mails that it really does), in
+ that case watch it many times, it is atleast short, and you will get to like
+ it after some time. But beware: I have seen it about 5000 times(literally)
+ now, and I am starting disliking it. So follow the Aurea Mediocritas
+ as our friend Horatius would say.
+ 
+
+ The credits for the intro :
+ code : p.nis
+ music: PTI 
+ 
+ Thanks to Gusplay for the cool remix of PTI's tune.
+ And of course thanks to robban/cascada for Gusplay.
+
+ The reason why it looks so "oldschool" is probably that it is in realmode,
+ no stupid hightech protected mode and such stupid things. So there was
+ a limit to the different table sizes. Well, atleast according to my coding
+ skills.
+ 
+ These were the interesting facts .
+
+
+ў 3. Contacting ў
+ 
+ First of all check out  http://dolOps.scene.hu !
+ If you want to write to us, here are our email addresses:
+ p.nis :  pnis@scene.hu
+ Pti   :  pti@freemail.c3.hu
+
+
+ў 4. Greets, thankyous ў
+
+ Special thanks to Atx for the cool ansi logo - the bottle of sprite is on it's 
+ way, only very slowly:) , sorry...
+ Also thanks to DC-1 for the internet support - Have you seen 
+                                             http://dolOps.scene.hu ?
+ And thanks to the party organizers for organizing a party.
+ 
+ And now the greets!
+ This is just an incomplete list of the groups whose demos or other products we 
+ watched, heard and/or seen many times. Sorry if you are left out, it
+ doesn't mean we don't like/respect/want to send greetings to  you. 
+ 
+   Astroidea
+   Amable
+   Angels
+   Astral
+   Acme
+   Abaddon
+   Byteam
+   Blasphemy
+   Blocc
+   Byterapers
+   Bomb
+   Cascada
+   Capacalla
+   Capanna
+   Camorra
+   Caterpilar
+   Coma
+   Chrome
+   Code and Light Sourcerers
+   Darkside
+   Dinasty
+   Doomsday
+   Enlightenment
+   Emperor
+   Eufrosyne
+   EMF
+   Exceed
+   Exact!
+   Firg
+   Faculty
+   Frame18
+   Faaaaaszom
+   File_id.diz
+   Fudge
+   Future Crew
+   Fresh
+   Funk!
+   Grif
+   Gollum
+   Hirmu
+   Iguana
+   Impact Studio
+   Inquisition
+   Jeskola!Productions
+   Kloon
+   Kolor
+   Legend Design
+   Mfx
+   Majic 12
+   Nooon
+   Orange
+   Phantom Design
+   Psychic Link
+   Pulse
+   Prone
+   Rage
+   Remal
+   Shock!
+   Syndicate
+   Sorcerers
+   Silicon Brain
+   Surprise! Productions
+   Spirit 
+   Spirit NS
+   Scenegirls
+   The Union!
+   TPOLM
+   Triton
+   United Force
+   Ultraforce
+   Urinate!
+   Vista
+   Wild Light
+   Xography
+   Yodel
+
+   Again sorry, if we left you out. Don't be upset, dolOps is not in this
+   list either.
+
+                                                   ўўўўўўўўўўўўўўўўўўўўўўўўўў
+this is the end of this info file . have a look at ў http://dolOps.scene.hu ў
+                                                   ўўўўўўўўўўўўўўўўўўўўўўўўўў

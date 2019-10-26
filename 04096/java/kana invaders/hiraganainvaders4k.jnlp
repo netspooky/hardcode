@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hiragana Invaders -->
+<jnlp
+ spec="1.0+"
+ <!-- codebase="http://www.circuitswamp.org/projects/java4k2006" -->
+ codebase = "file:////C:/User/Java/kanainvaders4k/dist"
+ href="hiraganainvaders4k.jnlp"
+>
+
+<information>
+ <title>Hiragana Invaders</title>
+ <vendor>Alan Waddington</vendor>
+ <homepage href="http://www.circuitswamp.org"/>
+ <description>Hiragana Invaders</description>
+ <icon href="hiraganaicon.gif"/>
+ <icon kind="splash" href="hiraganasplash.gif"/>
+ <offline-allowed/>
+</information>
+
+<resources>
+ <j2se href="http://java.sun.com/products/autodl/j2se" version="1.4.2+"
+       initial-heap-size="64m" max-heap-size="64m"/>
+ <jar href="hiraganainvaders4k.jar"/>
+ </resources>
+
+<application-desc main-class="G"/>
+</jnlp>

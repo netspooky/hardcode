@@ -1,0 +1,11 @@
+
+Nazwa: CONTRAST
+Typ : Intro 64kb
+
+Code : Chemik ,LordB
+Msx  : Kazun
+Gfx  : Pluto
+
+Only GUS or NoSound. Sorx. 320x200x24bpp
+
+(c) Aion Productions 1999

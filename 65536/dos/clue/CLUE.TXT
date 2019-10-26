@@ -1,0 +1,11 @@
+sysreq:
+
+kb: 600k mem / emm386 -al is megy de nem szereti
+VGA
+GUS
+486
+
+nem kell fels“ memo !
+
+
+pasy/fresh

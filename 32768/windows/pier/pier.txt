@@ -1,0 +1,23 @@
+ ____//_/_/_                ____   ___    ____
+))_)____    )             ((   ( ((___)  ))   )
+      ((   (____  _________))   \ ______//   / \  ___    ____  _______
+       >>  __   \/ __  /   __    >  __  /       \/   > <<__  \/  __   >
+      <<___/        ______________   ______<___\_/  <//   __    _____<______
+         <<_____/\____    )      \\___    )    <<    _______________    ) ) )
+                    <<___<          <<___<      \\___>            <<___<_<_<sbx
+
+
+  PIER - a 22k intro for Assembly 2010 64k intro competition
+
+   credits:
+   --------
+
+    fragment            visuals
+    leaphion            music
+
+  Uses kkrunchy and v2 by farbrausch
+	
+  Special thanks to plokk, iguchi, goosta, pil0, cyrus and mse.
+	
+  visit us at: http://www.hedelmae.fi/
+  or write to <nick> @hedelmae.fi

@@ -1,0 +1,35 @@
+4096 bytes is far too much.. it takes hell of a time (more than two
+days) to fill it if you want to be perfectionist. so the code is lousy
+and mostly unoptimized.
+
+it was completely made under linux dosemu where it works just fine. so
+i bet it also runs under dos-based graphical user interfaces such as
+microsoft windows 95/98.
+
+the machine used was a 25 mhz i386 but it is not speed-optimized so i'd
+recommend an i486 for a better framerate.
+
+the music is missing merely because i had no time to make one and it
+wouldn't have been played in the compo anyway. however i'll probably
+release a "second final version" with music in it. just look forward.
+
+there's an ugly bug making the perspective look jumpy, probably causing
+from the fixed-point arithmetic used :) i'll try to fix that too.
+
+the gfx mode is the legendary 13h.. i'll try to add an option for a
+better one soon.
+
+viznut - vheikkil@hytti.uku.fi
+         http://www.hytti.uku.fi/~vheikkil/
+
+ocsa   - http://www.hytti.uku.fi/~vheikkil/ocsa/
+
+pwp    - http://www.hytti.uku.fi/~vheikkil/pwp/
+
+ps. if you ever arrange a 4k compo, allow the use of music! by doing
+this you'll help building a new world in which 4k intros are not deadly
+boring to watch :) thank you
+
+pps. and remember to read the upcoming pwp diskmag! :) (finnish only)
+including a couple of different skenery partyreports, ultra-kool hpacvd
+stuff etc. it'll be net-readable at our www site.

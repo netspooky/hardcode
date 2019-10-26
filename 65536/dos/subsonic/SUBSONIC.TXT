@@ -1,0 +1,73 @@
+[subsonic]
+
+here it is, finnaly
+
+65535 bytes less to fill your disk with porn or games.
+
+acctualy 56219 bytes with pmodew 1.3. we didnt sleep for a week.
+
+i must be seeing things. 45467 bytes on supertiny-dos4gw version.
+
+go ahead. get a sb16. (read sb16 (awe) not any of LIVE(!) pci crap).
+
+sometimes the autodetect detects something that isnt there so next
+time you run the intro you must press something not equal to y to
+enforce a failproof nosound mode thingie.
+
+:: 11 things to hate about the intro ::
+
+  . lead code	 . black.twilight.spinningkids (black_sk@mailcity.com)
+  . backup code  . scale.mango.blasm		  (scale@homemail.com)
+  . sound code	 . klimax.twilight	 (klemen.markovic@193.2.190.2)
+  . softsynth	 . Beta.5C			(www.hut.fi/~ajhuovil)
+  . music tune	 . trope.twilight	       (err #scene.si or sth.)
+  . textures	 . crazy.twilight		   (crazy@193.2.190.6)
+  . idle support . pan.spinningkids		(www.spinningkids.org)
+  . music playah . digisnap.matrix		(geez.. dont remember)
+  . texturegen	 . deadline.quad		    (deadline@quad.nl)
+  . exe packer	 . upx v0.81			       (www.yahoo.com)
+  . vesah lib	 . submissive.cubic		       (www.cubic.org)
+
+we hope we made you like our first 64k intro..
+
+::stats::
+
+::music->size = 3.5 meg (thats why sb16)
+::music->len = ~3 minutes
+::music->sampling = 16bit
+::music->bitrate = 44100Hz
+
+::textures->size = 6291456 bytes
+::textures->quality = 32bpp
+
+::tridee->engine->Init()
+::{
+::  exit();
+::}
+
+dialogos'99
+
+trope on the drumz
+max on the cranky guitar
+black on the tamburine
+back up vocals by klimax and scale
+crazy is our fearless leader
+and zobo along for the ride
+mrm needs a new car.
+
+greetz to the sk posse, quad, tbl, kolor, nostalgia and
+all the people who never greet us. you know who you are.
+
+this has sb support so dont expect a "final" version.
+
+allso a big thanks to salami for supporting the demo scene
+and giving valuable advice / code (starter,malloc) and ofcourse
+to suburban for letting us buy more beer with the 30 DEM
+we would, if it hadnt been for them, spent on the entrance fee.
+
+come to abort99+ held in slovenia.
+
+with lastyears 200+ visitors this year sould be more fun than last year.
+please read enclosed file (abort99.txt) for details and stay tuned.
+
+brought to you personally by the slovenian lovemonkeys.

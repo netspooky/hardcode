@@ -1,0 +1,20 @@
+                              Fade II 
+
+                   A 4K intro by Zien / Nocturnal
+
+               **************************************
+
+
+Windows 95
+**********
+fade2.com will not run correct if you're using Windows 95.
+So if you have to use windows, run fade2_95.com instead of fade2.com.
+
+
+Troubleshooting
+****************
+If you don't get the intro to run, free up some base mem.
+
+
+e-mail:        tomrb@sofus.hiof.no
+home page:     http://www.hiof.no/~tomrb

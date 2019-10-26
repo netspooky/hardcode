@@ -1,0 +1,10 @@
+
+
+	"The Island"
+
+	written by Otto Seiskari
+
+For Linux
+
+Using OpenGL (libGL.so, libGLU.so), SDL (libSDL.so) and GLUT (libglut.so),
+needs 7zip to unpack.

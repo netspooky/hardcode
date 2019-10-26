@@ -1,0 +1,350 @@
+
+
+ şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+         ş INTRODUCING: TRIPLE-S music player (c) '94 Legend Design ş
+ şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+
+
+ şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+   1.0 INTRODUCTION
+         1.1 What is TRIPLE-S
+
+   2.0 USING TRIPLE-S
+         2.1 Command line parameters
+         2.2 The .INI file
+         2.3 In programm hotkeys explained
+         2.4 The file door
+         2.5 The panning door
+         2.6 The DOS-Shell
+         2.7 Special keys all over the player
+
+   3.0 THE CREDITS
+         3.1 Ways to conatct the authors
+         3.2 Credits and acknowledgements   
+         3.3 Diclaimer
+         3.4 Packaging information
+ şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+
+ şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  1.0                           INTRODUCTION
+ şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  Welcome to a new player generation.
+  First introduced by Legend Design '94.
+
+  TRIPLE-S offers all  functions you have probably missed, like shuffle play
+  title introduction play,inbuilt file door with file tagging, mute playing,
+  DOS shell and many, many more !
+  The current version supports GUS card and .MOD format only. Be patient for
+  further improvements. It's still a BETA ( gell D-lusion ;) ) !
+  We are planning to implement all known sound formats, like MTM,FAR ....
+  and the whole others known to mankind. Further versions will also  include
+  sample editing, saving and  modifying. We're always searching for nice id-
+  eas, so, if you think you  might have  nice improvement suggestions, don't 
+  hesitate, contact us. Ways  to do so are described at the end of the docu-
+  ment. 
+  BTW: Please excuse our somewhat poor english, we're just german guys trying
+       our very best, so just forgive and forget ... nobody's perfect ;)
+  Okay now. Let's go on now.
+
+
+ şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  2.0                         USING TRIPLE-S
+ şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+          
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş               
+                       2.1 Command line parameters   
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  As mentioned above, the TRIPLE-Sÿplayer (this version definitivly is a pl-
+  ayer, nothing more nor less ;)) currently supports ONLY the GUS soundboard
+  and MOD  music file format. To enter the player, just type SSS at your DOS 
+  prompt.  Be sure that your  GUS environment variable is set up correctly , 
+  else you'll get some serious problems launching TRIPLE-S ...
+    
+  Okay. You may specify the name of the module you want to listen to, at the
+  DOS prompt by typing:
+    
+      SSS (modulename.[mod]) the .mod extension is not required.
+
+  This throws ya in listening mode with the desired module directly. Be ca-
+  refull to give the whole pathname to the module, otherwise the player gr-
+  eets you with a nice error message.
+  
+  !! Note !! that wildcards are valid and strongly recommended ;)
+  
+  Another nice commandline switch is the "-EX" or "/EX" parameter. This one
+  launches  TRIPLE-S in expert  mode, which means, that  there are no nasty
+  hotkey explenations on the screen,preventing you from enjoying the really
+  nice piccy ;)
+  To start up in expertmode type:
+
+      SSS /EX (modulename.[mod])  or  SSS -EX (modulename.[mod])
+ 
+  We  spoke of a DOS-shell sometime earlier, well, you are able to invoke a
+  forced dosshell with TRIPLE-S,too, thus benefitting from some more memory
+  to use in your DOS application. Just type:
+
+     SSS /X modulename.[mod]      or  SSS -X modulename.[mod]
+
+  Be sure you give the modulename as a parameter, this time, else the play-
+  er will be launched the way  it would without *ANY* command line switch !
+
+  Further you're able to force the music output to a given portnumber (pre-
+  erably your GUS port) by typing:
+
+     SSS /Pxxx modulename.[mod]      or SSS -Pxxx modulename.[mod]
+
+  !! NOTE !! : All described commandline switches may also be given  in the 
+               INI file. Read about that later ...
+
+
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş  
+                           2.2 The SSS.ini file 
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş 
+
+  CmdLine: -ex              ; You may force some  commandline switches exe-
+                            ; cuted every time you launch the player.
+                            ; CmdLine: Ex/P###/X 
+
+  StartUp: filedoor         ; Which screen the player will be started from.
+                            ; StartUp: Main/Help/Filedoor/Panning
+
+  Mod-Path: c:\util\music   ; This is the path to your "main" module direc-
+                            ; tory
+                            ; Mod-Path: c:\mod
+
+  ShellCmd: filename        ; Commandline to execute when jumping  into the
+                            ; DOS-Shell. 
+                            ; Note: This command is executed DIRECTLY after
+                            ; you jump  out to DOS. If you want to run only
+                            ; one program in  the DOS-Shell, then quit back 
+                            ; to the TRIPLE-S specify: 
+                            ; ShellCmd: /C filename  
+                            
+  GUSCheck: On              ; Enable or disable check of the GUS-Port given
+                            ; through the ULTRASND-Variable or the Command-
+                            ; line-Switch P###
+                            ; GUSCheck ON/OFF
+
+  PeakLevel: On             ; Turn on/off the peak levelmeter
+                            ; PeakLevel: ON/OFF
+
+  ShellKeys: On             ; Turn on/off Dos-Shell hotkeys
+                            ; ShellKeys: ON/OFF
+
+  Shell-Statusline: On      ; Turn on/off the status line in the Dos-Shell
+                            ; Shell-Statusline: ON/OFF
+
+  Volume: 63                ; The default main output volume
+                            ; Volume 0..63
+
+  LevelSpeed: 1             ; set speed of updating the peaklevels
+                            ; LevelSpeed: 0..4
+
+
+
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş     
+                    - 2.3 In programm keys explained -
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  Well, by that moment you hopefully reached the player itself !? The scr-
+  een you're facing now is the "main control pannel", nice name ;) (depen-
+  ding on the parameter you gave in the INI file ...)
+  The keys displayed, their function meaning as follows:
+
+   <F1>        : Open the online help door
+   <F2>        : Open mainscreen
+   <F3>        : Open the onlinehelp door
+   <F4>        : Open the file door (explained later ..)
+   <N>/<ENTER> : Play next module in tagged file list (more on this later)
+   <BACKSPACE> : Play previous tagged module
+   <UP>        : Scroll screen up
+   <DOWN>      : Scroll screen down, to get for example module information
+                 or extended help screen topics.
+
+  These are the keys displayed on the main control pannel.Further there are
+  some more "hidden" functions  used for controlling the player... the keys 
+  you need to press are as follows:
+  (available in EVERY menue throughout the player):
+
+   <PgUP/DOWN> : In-/decrease playing pattern
+   <+/->       : In-/decrease main output volume
+   <M>         : Mute play (playing volume is reduced to 25% original)
+   <PAUSE>     : Pause playing,press <P> once more to continue playing
+   <1>-<8>     : Turn ON/OFF played module channels
+                 where 1 = first channel left side
+                       2 = first channel right side
+                       3 = second channel right side
+                       4 = second channel left side ...
+   <D>         : Jump into a DOS-Shell 
+  
+
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş     
+                          - 2.4 The File Door -
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  This is one of the more powerful features TRIPLE-S offers to you !! A qu-
+  ick overview:
+   
+   - Tagging of files for lafter playing
+   - Introduction play
+   - Shuffle play
+   - Supports Harddisks,Floppy drives and CD-ROMS (be sure you have a CD in
+     in your ROM for this version... otherwise the player,  well, just test
+     it ;) ) as well.
+   
+  The hotkeys used here are as follows:
+
+
+   <SPACE>      : Tag/Untag a single file and jump to the next one
+   <T/U>        : Tag/Untag files to play   
+   <P>          : Play chosen MOD or start playing tagged filelist
+   <R>          : Play tagged files in random order (shuffle play)
+   <I>          : Start introduction play. This command plays a 
+                  5 pattern introduction of the desired MOD or a
+                  tagged file list  
+   <ENTER>      : Change dir
+   <HOME>       : Move directory to the top
+   <END>        : Move directory to the end
+   <UP/DOWN>    : Move directory up and down
+   <LEFT/RIGHT> : Change drive to load modules from
+   <F9/F10>     : Change active file mask (currently *.MOD or *.*)
+
+
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+                         - 2.5 The Panning Door -
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  
+  Having arrived here, you may alter the way, each channel is played.  Well
+  kinda difficult to explain.Just to mention, you may choose the balance of
+  each channel. 
+
+  <RIGHT/LEFT>  : Balance choosen channel 
+  <UP/DOWN>     : Choose channel
+
+
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş   
+                           - 2.6 The DOS Shell -
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  
+  As  explained earlier, you're able to reach the DOS-Shell by pressing "D" 
+  in the  player itself. Well, this throws you out into old good DOS. Think 
+  it's just another ordinary Shell ?, Well, it isn't, just press: <ALT> <-> 
+  to get into Tripple S command mode!
+  Now, take a look to the top of the screen:
+
+  <+/->         : Change volume of played module
+  <M>           : Mute playing
+  <P>           : Pause playing  
+  <PgUP/DOWN>   : Change pattern
+
+  Be sure to leave Triple-S command mode by pressing <ALT> <-> again.
+ 
+
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş 
+                 - 2.7 Special keys all over the player -
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+ 
+  Now, let's give it an ending try. Next is an overview of all hotkeys used
+  in any door of the player but the DOS Shell !
+  
+    <F1>         Get a look at the help
+    <F2>         Switch to mainmenu
+    <F3>         Open the panning door
+    <F4>         Open the file door
+    <1-8>        Switch played channels ON/OFF (Be sure a module is played ..)
+    <PgUP/DOWN>  In-/decrease playing pattern
+    <+/->        In-/decrease main output volume
+    <M>          Mute play (playing volume is reduced to 25% original)
+    <PAUSE>      Pause playing
+    <D>          Jump to DOS-Shell
+    <ESC>        End the TRIPLE-S session. Back to DOS
+    
+  For further informations, have a look at the "In programm keys explained"
+  section, explained earlier.
+
+
+ şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+  3.0              CREDITS, HOW TO CONTACT THE AUTHORS
+ şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş 
+                   - 3.1 Ways to contact lEGENd dESiGN -
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+ Feel  free  to contact us, if you're having problems, bug reports  or just
+ anything else.
+ How? Well, that's easy ! Just ring  up one of the following Bulletin Board
+ Systems, or write to the following addresses:
+
+    GOLDEN iMAGE               MAGiCAN                 WONdERLAND
+  lEGENd dESiGN WHQ       lEGENd dESIGN EHQ        lEGENd dESiGN diST
+    Sysop: Brian             Sysop: Byte             Sysop: Pfusuus 
+   +49 6039-46124          +49 421-4841163            +41 6447-3046
+
+ 
+     CAStLE oF iLLUSION              BUSTER BBS           
+  lEGENd dESiGN Private HQ        lEGENd dESiGN diST
+   Sysop: Stainless Steel       Sysop: The Dark Inventor 
+      +49 6102 22480                +32 5377-23285
+
+
+ Or write to (Snail mail is still alive ;) ):
+    
+   Thomas Molitor (Pit Bull)      Michael Diefenthaeler (Brian)
+   Hegelstrasse 42                Taunusstrasse 1
+   63303 Dreieich                 61184 Karben 2 
+   GERMANY                        GERMANY
+   +49 6103-699928
+
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş 
+                    - 3.2 Credits and acknowledgements -
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  All coding done by               PIT BULL
+  GFX done by                      ENDLESS CREATION and PIT BULL
+  REPLAY ROUTINE by                CENTAURI
+  DOCUMENTATION by                 BRIAN
+  BETA TESTING                     BRIAN, MARCO and to all other :)=) thx
+  LAYOUT/dESiGN                    PIT BULL and BRIAN
+
+
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş 
+                            - 3.3 Disclaimer -
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş                               
+                            
+  Any use of TRIPLE-S constitutes your agreement that it is provided "as-is"
+  with no  express or implied  warranty, that you assume full responsibility 
+  for assuring  that it performs acceptably  on your system,  and that in no 
+  event  LEGEND DESiGN and its  members is to be held liable for any damages 
+  arising from use of the program.
+               
+
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş 
+                      - 3.4  Packaging information -
+               şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄùúú úúùÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş 
+
+  These files should be included in your ZIP package:
+  
+    filE NAME     lENGth/b    dESCRiPtiON
+                
+    SSS.EXE     |  41.456  |  The main executable
+    SSS.INI     |   2.080  |  Triple-S ini file
+    SSS.DOC     |  15.176  |  The documentation you're reading right now
+    LEGEND.NFO  |   5.340  |  General information about legend design
+    BBSTRO.EXE  |  17.568  |  BBS-Intro for the Golden Image
+    FILE_ID.DIZ |     437  |  BBS file description
+
+ If one of these files is missing or  the filelength varies from your copy,
+ you shoul take care,for it has most likely been tempered with the original
+ archieve! To obtain a clean  version, just call one of  the listed BBSes !
+
+                                                                    [ld'94]
+
+
+
+                                  <EOT>

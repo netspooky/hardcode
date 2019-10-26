@@ -1,0 +1,172 @@
+ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+บฐฐฑฑฒฒ                     *  LIQUID DREAMS  *                          ฒฒฑฑฐฐบ
+บฐฐฑฑฒฒ                                                                  ฒฒฑฑฐฐบ
+บฐฐฑฑฒฒ     Participator to 4kb intro compo held in ASSEMBLY '94         ฒฒฑฑฐฐบ
+บฐฐฑฑฒฒ                                                                  ฒฒฑฑฐฐบ
+บฐฐฑฑฒฒ                (C)opyright 1994 by Medium / Inapt                ฒฒฑฑฐฐบ
+บฐฐฑฑฒฒ                                                                  ฒฒฑฑฐฐบ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+          This intro is freeware: It can be distributed as long as
+                    no modifications are made to it and
+                            no payment is taken.
+
+This package should contain following files:
+
+      DREAM.EXE      4kb intro executable
+      DREAM.TXT      This text file
+
+
+To run this intro you need IBM PC compatible machine equipped with
+a 80386 processor or better. You also need standard VGA-card.
+
+No sound will be heard whether or not you have a sound card.
+
+
+If you don't want to hear about making this intro or stuff like that, you
+only have 309 more characters to read.
+
+Only one final warning left before you can rush to watch this intro.
+
+WARNING: I AM NOT RESPONSIBLE FOR ANY DAMAGE CAUSED DIRECTLY OR INDIRECTLY
+         BY THIS PROGRAM. IF IT KILLS YOUR HARD DISK OR BETRAYS YOU WITH
+         YOUR GIRL-FRIEND, I AM NOT RESPONSIBLE.
+
+If you still want to watch this intro, you may now proceed.
+
+
+
+You still here? How amazing......
+
+Now standard excuses why this intro sucks: =)
+   *  Most important first: I can't code
+   *  bad timing: two (2) weeks time to make this and same time
+      was cloudberry and haymaking season
+   *  couldn't use debugger in entire time
+   *  on-line help service sucked (a bit at least) (not literally)
+   *  mov es:[di+bx],al didn't work
+   *  run out of beer
+   *  had to organize anti-FC riots  ;-)
+   *  damn firebobs burned whole house (twice)
+   *  had to sleep (just kidding 8b )
+   *  had to eat (just kidding 8b )
+   *  had to organize someone to make this file
+   *  liquid dreams  :P'
+   *  sun spots at bad time
+   *  four-letter word: DOOM
+   *  worst of all: over half of these excuses are true (you pick 'em)
+
+
+
+
+
+
+                ÛÛÛÛÛ Û  Û ÛÛÛÛ ÛÛÛÛÛ Û ÛÛÛÛ    ÛÛÛÛ Û    Û
+                  Û   Û  Û Û  Û   Û   Û Û       Û  Û Û    Û
+                  Û   ÛÛÛÛ Û  Û   Û     ÛÛÛÛ    Û  Û Û    Û
+                  Û   Û  Û ÛÛÛÛ   Û        Û    ÛÛÛÛ Û    Û
+                  Û   Û  Û Û  Û   Û     ÛÛÛÛ    Û  Û ÛÛÛÛ ÛÛÛÛ
+
+                          ÛÛÛ ÛÛÛÛ Û    Û  Û ÛÛÛÛ
+                          Û   Û  Û Û    Û Û  Û
+                          ÛÛ  Û  Û Û    ÛÛ   ÛÛÛÛ
+                          Û   Û  Û Û    Û Û     Û
+                          Û   ÛÛÛÛ ÛÛÛÛ Û  Û ÛÛÛÛ
+
+
+
+
+
+ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+CREDITS:
+-------
+   Coding         -  Medium
+   Texts          -  Slave & anonymous Inapt member (shy or something)
+   Moral support  -  Some members of Inapt
+   Ultimate Goal  -  FC
+
+GREETS:
+------
+   are on the intro
+
+INAPT TEAM:
+----------
+ZAK         Coder
+Aleksi Niemel
+Karjalammentie 16
+99600  Sodankyl
+Finland
+p. +358-(9)693-614155
+
+MeDiuM      Coder
+Antti Marjala
+p. +358-(9)692-43407
+
+SLaVe       Coder
+Juha Litola
+Karhunkierros 36
+99600 Sodankyl
+Finland
+eMail: jlitola@somerbx.nullnet.fi
+
+MadZArt     Organizer, Music
+Tuomas Paavola
+Haastajantie 50 A 3
+99600 Sodankyl
+Finland
+
+ReSonancE   Music
+Hermanni Yli-Tepsa
+PPA 1 Sattanen
+99600 Sodankyl
+Finland
+
+ReTaliAtor  Music
+Petri Alariesto
+Kairatie 52
+96100  Rovaniemi
+Finland
+
+BliND       Graphic artist, Swapper, Keeper of demo library
+Jaakko Kemppainen
+Papintie 3
+99600 Sodankyl
+Finland
+p. +358-(9)693-613047
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            ีอออออออออออออออออออออออออออออออออออออออออออออออออธ
+            ณ LOOK (WATCH) OUT FOR INCOMING INAPT RELEASES!!! ณ
+            ิอออออออออออออออออออออออออออออออออออออออออออออออออพ
+

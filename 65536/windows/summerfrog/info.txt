@@ -1,0 +1,11 @@
+yeah babe!
+
+requires directsound, uses opengl.
+
+-m = nosound
+-16 = 16bit colours
+-w = window mode (could crash, especially with music on)
+-showmethemoney = show fps
+
+can you find the secret part? no.
+

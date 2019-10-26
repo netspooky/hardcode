@@ -1,0 +1,133 @@
+ 
+             
+             OOOOO  
+             OOO
+             OO       
+             o        BD3 -  Boulder Dash in 256 bytes.
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              
+                                    by      
+                                                           o
+                                                          OO
+                            James David Chapman.         OOO      
+                                                       oOOOO
+                            
+
+
+  Hello there, BD3 is my version of the classic game "Boulder Dash" for the
+256k gaming compo.  When I first completed a version of the program I was
+slightly shocked to find that it was twice the required size... I really
+should be getting used to cutting features out by now, but it still hurts!                                          
+                                    
+  The code is not too badly optimised for size, though I am sure there are
+some still bits of waffle lying around.  (Hmmm, that reminds me, I seem to
+have forgotten to eat anything tonight).
+
+                                 
+                                Playing BD3.COM
+                                ~~~~~~~~~~~~~~~
+
+  When you first press a key to begin the level all boulders which are not
+supported by earth will drop to the floor, this is your cue to move around
+the level trying to find your way to the flashing X home square.
+
+  If a boulder falls on your head then you must restart the level by pressing
+the space bar, but if you make it to the home square the next level is
+displayed.  There are 4 levels in the game.
+
+
+     Run in DOS, or a full screen DOS box in windows, on a 286 with colour
+      graphics card or better PC system.
+
+     Use the cursor arrows to move your little yellow smiley face about.
+
+     Avoid boulders dropping on your head.  Aim for the X home square.
+
+     Press the space bar to restart the level if you get yourself stuck
+      in the maze, or squished.
+
+     Press Control-Break to finish the program.   (Yerrk!)
+ 
+
+
+                                The Files
+                                ~~~~~~~~~
+
+  The program "BD3" comes with 3 files in its ZIP file.  BD3.COM is the
+machine code.  BD3.ASM is a complete and highly commented assembly listing,
+and this file is BD3.TXT.
+                                                          
+                                                                
+                                BD3.COM
+                                ~~~~~~~ 
+
+  I have tried to produce a game which was as similar to my memory of Boulder
+Dash as I could within the limits set.  During the development, I have tried
+3 versions of the program.  The first displayed a screen map which was
+compressed into 100 bytes of data at the end of the program.  This allowed for
+a designed map, which recreated the puzzels in the original game, but did not
+really have much long term appeal.
+
+  The second version made version its maps randomly.  This allowed much more
+space for features in the program, but the maps generated were either far too
+easy, or impossible, only 1 in 10 levels was interesting to play.
+
+  This, the final version of the program combines the features of both the
+first and second versions of the game.  The program uses its own code as the
+data from which to build the screen map.  Initially, this produced a pseudo
+random level, however by subtly altering the order and encoding of the machine
+code, the level map could be altered to make the game more interesting.  This
+method also allows for multiple levels, and ensures that the levels are the
+same every time the game is run.
+
+  I am most pleased with the way the boulders move, my original version could
+only make them fall directly downwards, whereas now, they slip off other
+boulders to the sides.  This adds a great deal to the gameplay.  It would have
+been nice to have been able to add in the diamonds too.
+
+  I was most irritated by the fact that there was no room left for me to tidy
+the screen up on exit, and that the only way to end the program is with the
+DOS break function, which is a bit smelly.
+
+
+   
+                                BD3.COM Features 
+                                ~~~~~~~~~~~~~~~~ 
+
+       Coloured sprites.
+       Cursor key input.
+       Boulders fall downwards
+       Boulders fall off boulders to the sides!
+       Boulders change colour when fallen.
+       You turn red, if a boulder squashes your head.
+       Key controlled Man.
+       Spacebar to reset if stuck function. 
+       4 (completeable) levels!       
+                                                      
+ 
+                                Program Licence
+                                ~~~~~~~~~~~~~~~
+
+
+   I place this program into the public domain.  Anyone is free to use,
+  modify, rework, or re-release it, providing you credit me as the original
+  author, and make no financial profit from it.
+
+   In return, you must accept that I will accept no liability for
+  damage caused to you or your equipment by this program.
+
+   As FREEWARE, this program comes with NO WARRANY and NO SUPPORT.  You use
+  this program at your own risk.
+
+
+
+
+  I still think a TETRIS compo is a good idea, maybe sometime in the future...
+
+                                                                                
+ James.           
+
+
+ [James David Chapman jchap@globalnet.co.uk
+ http://www.users.globalnet.co.uk/~jchap/]
+

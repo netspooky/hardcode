@@ -1,0 +1,41 @@
+Cubhnut
+by npli
+
+a pointless 4k intro for Stream Seven.
+
+Fastprod more or less.
+
+
+Requires:
+--------------------------------
+
+d3dx9_42.dll 
+shader model 3.0 
+dual core cpu (recommended)
+
+--------------------------------
+
+
+Tools:
+--------------------------------
+
+Crinkler:
+Blueberry & Mentor
+http://www.crinkler.net/
+
+4Klang:
+Gopher & pOWL / Alcatraz
+http://4klang.untergrund.net/
+
+Nasm:
+http://www.nasm.us/
+
+Directx 9:
+Microsoft
+
+--------------------------------
+
+
+
+
+

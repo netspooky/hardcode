@@ -1,0 +1,24 @@
+<html>
+<script>
+var zip;
+var debug=0;
+var orq = new XMLHttpRequest();
+orq.open("GET", "zomg.dat", true);
+orq.onload = function (oEvent) {
+	big = zip.decompress(orq.responseText);
+	document.write(big);
+	startGL();
+}
+
+var mrq = new XMLHttpRequest();
+mrq.open("GET", "64e.dat", true);
+mrq.onload = function (oEvent) {
+	zip = new LZ77;
+	MusicData = zip.decompress(mrq.responseText);
+	orq.send(null);
+}
+
+var LZ77=function(f){f=f||{};var g=f.msl||5,h=f.rib||96,k=32+h-1,j=function(e,b){for(var a=0,d=0;d<b;d++){var a=a*h,c=e.charCodeAt(d);if(32<=c&&c<=k)a+=c-32;else throw"Inv chr: "+c;}return a};this.decompress=function(e){for(var b="",a=0;a<e.length;){var d=e.charAt(a);if("`"!=d)b+=d,a++;else if("`"!=e.charAt(a+1)){var d=j(e.substr(a+1,2),2),c;c=e.charAt(a+3);c=j(c,1)+g;b+=b.substr(b.length-d-c,c);a+=g-1}else b+="`",a+=2}return b}};
+
+mrq.send(null);
+</script>

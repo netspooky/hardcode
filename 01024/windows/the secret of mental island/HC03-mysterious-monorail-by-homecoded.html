@@ -1,0 +1,469 @@
+<!doctype html>
+<html>
+
+<!-- SCROLL DOWN TO THE SEE THE DEMO-CODE. THIS IS ONLY THE SHIM IN WHICH THE DEMO RUNS. :)
+
+
+
+<!-- note: your demo in this shim runs in an iframe with this content: https://gist.github.com/qfox/3cccc4f36c8319e09bb7 -->
+<!--
+(c) js1k.com 2015
+Note: submissions belong to their respectful owner, do not copy without their consent
+-->
+<head>
+    <meta charset="utf-8">
+    <title>JS1k 2015 - NNNN - TITLE</title>
+    <meta name="author" content="YOU">
+    <link rel="icon" type="image/png" href="http://js1k.com/favicon.png">
+    <link rel="canonical" href="http://js1k.com/2015-hypetrain/demo/NNNN">
+    <link rel="shortlink" href="http://js1k.com/NNNN">
+    <script>
+        // GA
+    </script>
+    <style>
+        /* http://qfox.nl/notes/333 */
+        body, html, iframe {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            width: 100%;
+            height: 100%
+        }
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-top: 50px;
+            box-sizing: border-box
+        }
+
+        header {
+            position: relative;
+            z-index: 1;
+            height: 47px;
+            padding-top: 2px;
+            border-bottom: 1px solid #000;
+            box-shadow: 0 -10px 25px #ccc inset;
+            background-color: #eee
+        }
+
+        aside, div, h1, p {
+            overflow: hidden;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            text-align: center;
+            font-size: 16px;
+            font-weight: inherit;
+            line-height: 22px;
+            padding: 0;
+            margin: 0;
+            cursor: default
+        }
+
+        aside, h1 {
+            display: inline
+        }
+
+        a {
+            color: #000;
+            text-decoration: none;
+            border-bottom: 1px dashed #000
+        }
+
+        a:hover {
+            border-bottom: 1px solid red
+        }
+
+        a[href="0"] {
+            text-decoration: line-through;
+            pointer-events: none;
+            border-bottom: 0;
+            color: #ccc
+        }
+
+        .button {
+            float: left;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            padding: 0;
+            margin: 2px 0 0 10px;
+            border: 1px solid #888;
+            border-color: #ddd #888 #888 #ddd;
+            font-family: sans-serif;
+            font-size: 30px;
+            font-weight: 700;
+            cursor: pointer
+        }
+
+        .button:hover {
+            color: red;
+            border-bottom-color: #888
+        }
+
+        .r {
+            margin-right: 10px
+        }
+
+        time {
+            display: none
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div>
+        <h1>
+            <a href="http://js1k.com/">JS1k</a>
+            <a href="http://js1k.com/2015-hypetrain">2015</a>
+            <strong></strong> demo
+            &mdash;
+            "" by YOU
+        </h1>
+
+        <p>
+            <em>
+                FIRST PART OF YOUR DESC GOES HERE
+            </em>
+        </p>
+        <aside>
+            &mdash;
+            1024 bytes
+            &mdash;
+            <a href="http://js1k.com/2015-hypetrain/details/NNNN">demo details</a>
+            &mdash;
+            <a href="http://js1k.com/2015-hypetrain/demos">list of demos</a>
+            &mdash;
+            <a href="http://js1k.com/1955" title="short link for your mobile devices" rel="nofollow">js1k.com/NNNN</a>
+            <time datetime="NOW" pubdate>NOW</time>
+        </aside>
+    </div>
+
+    <a href="500" class="button p">&Larr;</a>
+    <a href="502" class="button n">&Rarr;</a>
+</header>
+
+<script type="shim">
+      // SHIM (will be ran in the context of the iframe...)
+
+      // unprefix some popular vendor prefixed things (but stick to their original name)
+      iwin.AudioContext = iwin.AudioContext || iwin.webkitAudioContext; // ios8 unmutes audio only during the first user triggered event with sound
+      iwin.requestAnimationFrame = iwin.requestAnimationFrame || iwin.mozRequestAnimationFrame || iwin.webkitRequestAnimationFrame || iwin.msRequestAnimationFrame || function(f){ iwin.setTimeout(f, 1000/30); };
+      canvas.requestPointerLock = canvas.requestPointerLock || canvas.mozRequestPointerLock || canvas.webkitRequestPointerLock;
+      navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
+
+      a = canvas;
+      b = idoc.body;
+
+      if (webgl) iwin.c = canvas.getContext('2d');
+      else iwin.g = (function () {
+        iwin.onorientationchange = iwin.onresize = null;
+        try {
+          var o = { antialias: true, stencil: true };
+          var gl = canvas.getContext('webgl', o) || canvas.getContext('experimental-webgl', o);
+
+          // keep in scope, must not be garbage collected
+          iwin.__glExts =
+            [ 'OES_texture_float', 'OES_texture_float_linear', 'OES_standard_derivatives',
+              'EXT_texture_filter_anisotropic', 'MOZ_EXT_texture_filter_anisotropic', 'WEBKIT_EXT_texture_filter_anisotropic',
+              'WEBGL_compressed_texture_s3tc', 'MOZ_WEBGL_compressed_texture_s3tc', 'WEBKIT_WEBGL_compressed_texture_s3tc'
+            ].map(function(ext) {
+                return gl.getExtension(ext);
+              });
+        } catch (e) {
+          idoc.body.innerHTML = 'WebGL not supported.';
+          iwin.a=iwin.b=iwin.c=iwin.d=null;
+          throw e;
+        }
+
+        return gl;
+      })();
+
+
+</script>
+<script>
+    // submission form configurables:
+
+    // enable canvas shim at all? (2d/3d). other settings are ignored if this is false.
+    var TOKEN_CANVAS_SHIM = true;
+    // true enables webgl shim (exposes `g`), false enables canvas shim (exposes `c`)
+    var TOKEN_WEBGL = false;
+    // px, 0 means always 100%
+    var TOKEN_MAX_WIDTH = 0;
+    // px, 0 means always 100%
+    var TOKEN_MAX_HEIGHT = 0;
+    // only if width<100%
+    var TOKEN_CENTER_CANVAS = true;
+    // "press" reload button on orientation change?
+    var TOKEN_RELOAD_ONORIENTATIONCHANGE = true;
+</script>
+<script type="javascript">
+    /*********************************************
+     *
+     * JS1K 2015
+     * HC-03 Mysterious Monorail
+     *
+     * Released on 03/2015 at JS1K by homecoded
+     * Released under MIT License. Do what you want with it. :)
+     *
+     * Abstract:
+     * Building on the ray marcher from HC-01 Structures I was able to increase on render speed,
+     * style and sound quality. Still, there is a lot room to improve.
+     * Take the code inside this script tag, run it trough
+     * 
+     * - Google Closure Compiler (http://closure-compiler.appspot.com/home - advanced mode),
+     * - Uglify (http://marijnhaverbeke.nl/uglifyjs)
+     * - RegPack (http://siorki.github.io/regPack.html - score=2, gain=1, copies=0, tiebreaker=most copies)
+     *
+     * Features:
+     * 
+     * - Raymarcher has marching stepsof a variable length to cover more ground while keeping computing power low
+     * - Rendering is done in quater images (only one fourth of a frame is actually rendered, which works well on 
+     *   high frame rates and creates an interesting visual appeal)
+     * - landscape is defined by some simple boolean and binary expressions as well as trigonometric functions 
+     * - music has been created using Lazerbeat (http://lazerbahn.com/lazerbeat.html)
+     * 
+     **********************************************/
+    var iCounter = 0,
+        fStartTime,
+        // Running on a small resolution keeps the FPS high and makes the dither-look possible.
+        // Using high resolutions destroys the unique dot-pattern look
+        iWidth = a.width = 500,
+        iHeight = a.height = 400,
+        // this will be the array to write the rendering results into
+        aImageData = c.createImageData(iWidth, iHeight);
+
+    // Create the music, a base64-encoded WAVE-file (44.1kHz, 8Bit, mono)
+    for (sSound = "RIFF_oO_WAVEfmt " + atob("EAAAAAEAAQBErAAARKwAAAEACABkYXRh"), t = 0; 4820000 > ++t;)
+        sSound += String.fromCharCode(
+                // clip values to bytes
+                255 & (
+                        // make it work in Firefox (wave files starting with zero bytes won't be played
+                        1 |
+                                (63 +
+                                        // create a bitmask that will shape the sound of the base synth
+                                        (63 & 63 + 8 * Math.sin(t / 2e5) * t / 2e5) &
+                                        // base synth is a simple sine working at defined frequencies
+                                        100 * Math.sin(4 * Math.PI * [165, 220, 175, 262, 196, 147, 220, 165]
+                                                // use binary operations to select different frequencies
+                                                // and jump around between the notes. This creates the base melody.
+                                                [7 & ((2 * t / 2e5) & (12 * t / 2e5) ^ (8 * t / 2e5))] * t / 2e5)
+                                        // tan creates the flanger/snare effect on every second beat
+                                         * (Math.tan(4 * Math.PI * t / 2e5) / 4) |
+                                        // this defines the note length of the base melody, switching between
+                                        // quater notes and eights.
+                                        ( 2048 * (1 + (1 & t / 4 / 2e5))) * t / 2e5
+                                )
+                        )
+        );
+    (function render(iScreenX, fTime, iScreenY) {
+        !fStartTime && (fStartTime = Date.now() / 1000);
+        // Calculate the current running time. By slowing it down a bit the animation gets a better synchronization
+        // with the music. This could have been also solved via sample rate in the wave-file generation code.
+        fTime = (Date.now() / 1000 - fStartTime) * .885;
+        // count the frames
+        iCounter++;
+        // Just rendering every second pixel saves a lot of calculations.
+        // By altering the start x value by one pixel gives the demo a unique dithering look. This way the demo
+        // always shows parts of the previous screen, creating a motion blur effect.
+        for (// Starting at iHeight/5 creates the upper white wide-screen bar, 1&iCounter alternates the start value
+             iScreenY = (iHeight / 5) + (1 & iCounter);
+             // stop rendering when we reach the lower white wide-screen bar
+             iHeight > iScreenY + (iHeight / 5);
+             // always step 2
+             iScreenY += 2
+        )
+            // Same skipping technique applies to stepping through x-values. With altering the start x value
+            // only every second frame, four render calls are needed now to create a full frame. Again, this
+            // reduces the amount of calculations greatly and increases the motion blur.
+            for (iScreenX = 1 & iCounter / 2;
+                 iWidth > iScreenX;
+                 iScreenX += 2
+            ) {
+                var // start value for the ray vector with some correction on how much of the scene will be
+                    // shown (division decreases the visible area showing only a detail view, this could have also been 
+                    // solved by changing the frequencies and in sine-calls and binary expressions for landscape)
+                    fRayVectorX = (iScreenX - iWidth / 2) / 25,
+                    fRayVectorY = (iScreenY - iHeight / 2) / 12,
+                    // Calculate start time of the screen
+                    fRayZ = 400 * fTime
+                            // Using time variable as a bitmask for screen lines and multplying them
+                            // with a factor will make the use look into future frames for some lines. The line
+                            // setup changes with every beat sometimes creating interesting patterns.
+                            + (fTime & iScreenY >> 4) * 50
+                            // The effect should not always be applied. So use time again to switch the effect on
+                            // and off again.
+                               * (1 & fTime >> 4),
+                    // this simple sin defines the course of the track (road), using the same for x change and y change
+                    fTrackShape = Math.sin(fRayZ / 3000),
+                    fTrackPosX = 10000 * fTrackShape,
+                    fTrackPosY = 10000 * fTrackShape,
+                    // Using more steps in the middle of the screen (center of attention) and less on the sides
+                    // saves computing power and creates a slight fade-out effect on the side of the screen
+                    iMaxRayMarchSteps = Math.max(5, 35 - Math.abs((iScreenX - iWidth / 2) / 10))
+                    ;
+                for (var // Multiplying the screen x coordinates with a constant makes more geometry visible.
+                         // This value could have been factored into the geometry formulas saving more bytes.
+                         fRayX = 2 * iScreenX + 2000 + fTrackPosX,
+                         fRayY = 4 * iScreenY + fTrackPosY,
+                         // set the start value for the step counter of the ray
+                         iRayStep = 0,
+                         // Using a variable step length for the ray marcher.
+                         // The further away from the viewer, the greater the step.
+                         // This way, we can achieve a great view distance with a little number of steps.
+                         iCurrrentRayStepLength = 1,
+                         // By adding a random value to the step increase creates random dot patterns around
+                         // all objects, masking the blocky voxel look coming from huge step sizes.
+                         fRayStepSizeIncrease = 3 + Math.random() / 2
+                     ;
+                     // Stop the calculation when maximum number of steps are reached.
+                     iRayStep++ < iMaxRayMarchSteps;
+                )
+                    if (
+                        // Update the current ray position, this is the actual marching
+                        fRayX += fRayVectorX * iCurrrentRayStepLength,
+                        fRayY += fRayVectorY * iCurrrentRayStepLength,
+                        fRayZ += iCurrrentRayStepLength,
+                        iCurrrentRayStepLength += fRayStepSizeIncrease,
+                        // calculate the position of the monorail track depending on the ray's z-value
+                        fTrackShape = Math.sin(fRayZ / 3000),
+                        fTrackPosX = 2 * iScreenX + 2000 + 10000 * fTrackShape,
+                        fTrackPosY = 4 * iScreenY + 10000 * fTrackShape,
+                        (
+                                // When music is over, pretend we always hit geometry immediately,
+                                // creating a noise screen in the end of the demo as if the camera broke
+                                fTime > 98 ||
+                                        // define the track geometry (this is the thin line in the middle)
+                                        fRayX > fTrackPosX - 20 && fTrackPosX + 20 > fRayX && fTrackPosY - 300 > fRayY ||
+                                        // Definition of the underlying solid rock foundation for the ray.
+                                        // A bitmaks depending ob the current z-value creates the zick-zacked edges.
+                                        // Left zick-zacking fequency is lower, creating a more natural rock-like look.
+                                        fRayX > fTrackPosX - (400 + (255 & fRayZ / 2)) && fTrackPosX + (400 + (255 & fRayZ)) > fRayX && fRayY < fTrackPosY - 400 ||
+                                        // Definition of the tunnels as negated boolean expression, tunnel walls
+                                        // have the same zick-zacking as the monorail foundation rock.
+                                        !(fRayX > fTrackPosX - (400 + (255 & fRayZ / 2)) && fTrackPosX + (400 + (255 & fRayZ)) > fRayX && fRayY > fTrackPosY - 400 && fTrackPosY + 300 > fRayY) &&
+                                        // Using a negated expression with AND increases speed as the following expression is not
+                                        // executed if the previous (tunnel) expressions claimed that the ray is inside a tunnel.
+                                        // There is no landscape geometry inside tunnels.
+                                        !(
+                                            // Define the building like structures.
+                                            // Using time variable as bitmask creates the shape shifting effect in the buildings.
+                                            !((182 & fRayX >> 10 & fRayZ >> 10 & fRayZ >> 11 & fRayY >> (8 + (3 & fTime)))) &&
+                                            // Some chained sine expressions build the round shapes, tentacles and hills in the
+                                            // landscape. This is the last step as it the the most expensive test, hoping
+                                            // that a cheap test will detect a ray-collision with geometry before the expensive
+                                            // test is necessary.
+                                            !(fRayY < 1000 + (5000 + 100 * fTime) * Math.sin((9 + 5 * Math.sin(fTime / 64)) * Math.PI * ((fRayX + fRayZ / 2) / 20000))
+                                                    + (4000 + 3000 * Math.sin(fTime / 4)) * Math.sin(12 * (fRayZ + fRayY / 2) / 20000 * Math.PI) /*+ 1000 * Math.sin(9 * (l + f) / 40000 * Math.PI)*/)
+                                        )
+                                )
+
+                    ) {
+                        break;
+                    }
+                ; // end for
+                // Ray hit some geometry, calculate the alpha from the number of steps needed to hit the
+                // geometry. The further a ray travelled, the lighter the geometry will be depicted.
+                // This creates a cheap fog effect.
+                aImageData.data[4 * (iScreenX + (iHeight - iScreenY) * iWidth) + 3] =
+                        255 - 255 * iRayStep / iMaxRayMarchSteps + 5
+                            // Some noise in the alpha values breaks up the blocky look created by
+                            // the big voxels. After time runs out, the noise is increased making it
+                            // easier to see.
+                                - 20 * Math.random() * ((fTime > 98) ? 3 : 1);
+            }
+        c.putImageData(aImageData, 0, 0);
+        requestAnimationFrame(render);
+    })(new Audio("data:audio/wav;base64," + btoa(sSound)).play());
+    // END
+</script>
+<script>
+    (function () {
+        var doc = document;
+        var header = doc.getElementsByTagName("header")[0];
+        var firstChild = header.firstChild;
+        var p = doc.getElementsByClassName("p")[0];
+        var n = doc.getElementsByClassName("n")[0];
+        header.insertBefore(p, firstChild);
+        header.insertBefore(n, firstChild);
+        header.appendChild(doc.getElementsByTagName("p")[0])
+    })();
+    (function reload(fullscreen) {
+        var doc = document;
+        var header = doc.getElementsByTagName("header")[0];
+        var iframe = doc.createElement("iframe");
+        doc.body.appendChild(iframe);
+        var iwin = iframe.contentWindow;
+        var idoc = iframe.contentDocument;
+        idoc.open();
+        idoc.close();
+        idoc.write("<!doctype html>" + '<html style="margin: 0; padding: 0; border: 0; width: 100%; height: 100%;">' + "<head>" + '<meta charset="utf-8">' + '<body style="margin: 0; padding: 0; border: 0; width: 100%; height: 100%;">' + (TOKEN_CANVAS_SHIM ? '<canvas style="display: block;' +
+                (TOKEN_CENTER_CANVAS ? " margin: auto;" : "") + '"></canvas>' : "") + "");
+        if (TOKEN_CANVAS_SHIM) {
+            var canvas = idoc.getElementsByTagName("canvas")[0];
+            var cs = canvas.style;
+            idoc.body.clientWidth;
+            cs.width = (canvas.width = Math.max(Math.min(TOKEN_MAX_WIDTH || innerWidth, innerWidth), 0) || 0) + "px";
+            cs.height = (canvas.height = Math.max(Math.min(TOKEN_MAX_HEIGHT || innerHeight - 50, innerHeight - 50), 0) || 0) + "px"
+        }
+        if (TOKEN_RELOAD_ONORIENTATIONCHANGE)onorientationchange = reloadClick;
+        iwin.AudioContext = iwin.AudioContext ||
+                iwin.webkitAudioContext;
+        iwin.requestAnimationFrame = iwin.requestAnimationFrame || iwin.mozRequestAnimationFrame || iwin.webkitRequestAnimationFrame || iwin.msRequestAnimationFrame || function (f) {
+            iwin.setTimeout(f, 1E3 / 30)
+        };
+        if (TOKEN_CANVAS_SHIM)canvas.requestPointerLock = canvas.requestPointerLock || canvas.mozRequestPointerLock || canvas.webkitRequestPointerLock;
+        idoc.body.requestPointerLock = idoc.body.requestPointerLock || idoc.body.mozRequestPointerLock || idoc.body.webkitRequestPointerLock;
+        navigator.getUserMedia = navigator.getUserMedia ||
+                navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia;
+        if (TOKEN_CANVAS_SHIM)iwin.a = canvas;
+        iwin.b = idoc.body;
+        if (TOKEN_CANVAS_SHIM) {
+            if (!TOKEN_WEBGL)iwin.c = canvas.getContext("2d");
+            if (TOKEN_WEBGL)iwin.g = function () {
+                iwin.onorientationchange = iwin.onresize = null;
+                try {
+                    var o = {antialias: true, stencil: true};
+                    var gl = canvas.getContext("webgl", o) || canvas.getContext("experimental-webgl", o);
+                    iwin.__glExts = ["OES_texture_float", "OES_texture_float_linear", "OES_standard_derivatives", "EXT_texture_filter_anisotropic",
+                                     "MOZ_EXT_texture_filter_anisotropic", "WEBKIT_EXT_texture_filter_anisotropic", "WEBGL_compressed_texture_s3tc", "MOZ_WEBGL_compressed_texture_s3tc", "WEBKIT_WEBGL_compressed_texture_s3tc"].map(function (ext) {
+                                return gl.getExtension(ext)
+                            })
+                } catch (e) {
+                    idoc.body.innerHTML = "WebGL not supported.";
+                    iwin.a = iwin.b = iwin.c = iwin.d = null;
+                    throw e;
+                }
+                return gl
+            }()
+        }
+        var demo = idoc.createElement("script");
+        demo.textContent = doc.querySelector('script[type="javascript"]').textContent;
+        idoc.body.appendChild(demo);
+        idoc.close();
+        iframe.contentWindow.focus();
+        var firstLine = doc.getElementsByTagName("div")[0];
+
+        function reloadClick(b) {
+            doc.body.removeChild(iframe);
+            r.parentElement.removeChild(r);
+            iframe = null;
+            r = null;
+            idoc = null;
+            header = null;
+            reload(b)
+        }
+
+        window.reload = reloadClick;
+        var r = doc.createElement("div");
+        r.innerHTML = "&#8635;";
+        r.className = "button r";
+        r.title = "restart just the demo (local, without remote fetch)";
+        r.onclick = reloadClick;
+        header.insertBefore(r, firstLine)
+    })();
+</script>
+</body>
+</html>

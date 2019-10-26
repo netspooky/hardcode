@@ -1,0 +1,4 @@
+Entry name   : Megapole
+Entry author : Baudsurfer/Red Sector Inc.
+Entry compo  : 256 Byte Intro
+Entry party  : Function demoparty 2015 

@@ -1,0 +1,14 @@
+jumalauta presents
+
+sky's the Limit
+
+an entry for the ultimate meeting 2006 4k gfx compo
+by sak/jml
+
+platforms: windows, linux x86
+
+thanks to 
+mshnto/jml for the linux 4k template
+noken/jml for the windows 4k template
+akknakk/jml for programming assistance
+ibsen software for apack and wcrt

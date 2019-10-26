@@ -1,0 +1,14 @@
+           ÚÂÂÂÂÄÂÄÂÂÄ¿ÚÄÂÂÂÄ¿  ÚÄ¿ÚÄÂ¿  ÚÂÂÂÄÄÂÄÂÄ¿ÚÂÄÂÂÂÄÄ¿ Ú¿
+           ³ Ã´  ³À´  ³³À´³³À´  À¿³³ ³³  ³³³Ã¿Ú´³³³³Ã´ ³ÃÅ¿ÚÙ ³³
+           ³ ³³³³³Ú´³³ÃÅ¿Ã¿Ã¿³   ÀÙ³³ ³  ³ ³À´³³¿´ ³³³³ ³³³³  Ã´
+           ÀÁÁÁÁÁÁÄÁÁÁÁÁÄÁÄÁÄÙ     ÀÁÄÙ  ÀÄÁÄÁÁÁÁÁÁÙÀÁÁÄÁÁÁÙ  ÀÙ
+
+  The intro automatically detect 32/24/15 bpp modes if you give no parameter
+  at start, but with some card this mayB not works.
+  You have three parameters for your enjoyment :)))))
+
+    These : POISON.EXE 32 --> force 32bpp truecolor mode
+            POISON.EXE 24 --> force 24bpp truecolor mode
+            POISON.EXE 15 --> Checks only for 15bpp mode ...
+
+                                                                     -AbcuG!

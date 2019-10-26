@@ -1,0 +1,20 @@
+bunt4k by rufusul
+
+basic effect coding back in '99
+thought it was time to do something with it just before bp'04
+tried to do fit this into 4k but failed (deadline 10am sux anyway)
+found the nasty cab/cmd trick on some 4k releases
+well now it's less than 4k
+added the vote "effect"
+
+credits:
+wintermute^abyss: the vote letters
+cydo: help and the unused first version of the vote letters
+rest: rufusul (rufusul@rype.de)
+
+oh yes, this intro uses ddraw (7?), code for this is inspired by tinyptc (thx!)
+
+the bunt4k.scr was just a hack of a pingpong loop, lacks a preview mode and
+crashes while computer is locked, but i don't care
+
+.rufusul

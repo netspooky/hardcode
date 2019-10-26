@@ -1,0 +1,36 @@
+
+"Voxel" 4k intro by Fresh!mindworkz, released at NVScene 2008, San Jose, CA.
+
+               Remage / Fresh!mindworkz - remage (at) freshmindworkz.hu
+    Vincenzo / Fresh!mindworkz ^ Rebels - vincenzo (at) freshmindworkz.hu
+
+
+Technical Info:
+
+  Used tools: 
+  Visual C++ 2005 Express Edition, Nasm 2.02, Crinkler 1.1.
+
+  Modul4rSynth is our own softsynth for 4k intros, written in x86 assembly.
+  The VSTi (Windows) version is in beta-test phase, will be released soon.
+
+  We "wasted" more than 2 kbytes for the music & softsynth.
+  Rendering uses hardware instancing, PS 3.0 compatible videocard required.
+
+  Developed on an NVidia DemoBox.
+
+
+Greetings:
+
+  3sc, 3State, Aardbei, Alcatraz, ASD, Astral, Astroidea, BitFellas,
+  Blasphemy, Bomb!, Brainstorm, Calodox, Chrysalis, Cocoon, Conspiracy,
+  Damage, Dilemma, Digital Dynamite, Exceed, Equinox, Fairlight, Farbrausch,
+  Fudge, Greenroom, Haujobb, Hellcore, Holograms, Immersion, Inf, Inquisition,
+  Kakiarts, Kewlers, Mandula, Mfx, Moiré, Nahkolor, Noice, Omnicolour, Orange,
+  Outracks, Paradox, Portal Process, Pulse, Purple, Rebels, Replay, RGBA, S!P,
+  Sunflower, Singular Crew, Synesthetics, The Black Lotus, Titan, Traction,
+  TRSI, Ümlaüt Design, Unique PC, United Force, UKAllstars ...
+
+                                                          ... you inspired us.
+  Additional thanks to Crytek & NVidia.
+
+  2008/08/25

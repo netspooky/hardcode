@@ -1,0 +1,51 @@
+
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫTM
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+ ЫЫЫЫ      ЫЫЫ       ЫЫЫЫ      ЫЫЫЫ      ЫЫЫ        ЫЫ  ЫЫЫЫ  ЫЫЫЫЫЫ
+ ЫЫЫ  ЫЫЫЫ  ЫЫ  ЫЫЫЫ  ЫЫ  ЫЫЫЫ  ЫЫ  ЫЫЫЫ  ЫЫ  ЫЫЫЫЫЫЫЫ  ЫЫЫЫ  ЫЫЫЫЫЫ
+ ЫЫЫ  ЫЫІІІІІІ  ЫІІІ  ІІ  ЫЫІІ  ІІ  ЫЫІІІІІІ  ЫІІІІІІІ  ЫІІЫ  ЫІІЫЫЫ
+ ЫЫЫЫ      ЫЫІ       ЫЫІ        ЫІ  ЫІІЫЫЫЫІ     ЫЫЫЫЫЫ      ЫЫІІЫЫЫ
+ ЫЫЫЫЫЫІІЫ  ЫЫ  ЫІІЫЫЫЫІ  ЫІІЫ  ЫІ  ЫІІЫЫЫЫЫ  ЫІІЫЫЫЫЫЫЫЫ  ЫЫЫЫІІЫЫЫ
+ ЫЫЫ  ЫЫІІ  ІІ  ЫІІІІІІІ  ЫІІІ  ІІ  ЫІІЫ  ЫЫ  ЫІІІІІЫЫЫЫЫ  ІІІІІЫЫЫЫ
+ ЫЫЫЫ      ЫЫІ  ЫІІЫЫЫЫЫ  ЫІІЫ  ЫІІ      ЫЫЫ        ЫЫЫЫЫ  ЫІІЫЫЫЫЫЫ
+ ЫЫЫЫЫЫІІЫЫЫЫІІЫЫІІЫЫЫЫЫЫЫЫІІЫЫЫЫІІЫЫІІЫЫЫЫІІЫЫІІЫЫЫЫЫЫЫЫЫЫЫІІЫЫЫЫЫЫ
+ ЫЫЫЫЫЫЫІІІІІІЫЫЫІІЫЫЫЫЫЫЫЫІІЫЫЫЫІІЫЫЫІІІІІІЫЫЫІІІІІІІІЫЫЫЫЫІІЫЫЫЫЫЫ
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+ ЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫЫ
+ ЫДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДЫ
+ Ы         En fyr de kaldte Spacey tog den ud i det bl†...         Ы
+ ЫДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДДЫ
+ ЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ
+ The Space Invaders are back. Probably a whole army of them has
+ infiltrated your computer by now. To get rid of them type FORMAT C:
+ On the other hand you could just sentence them to death. If that's
+ what you prefer send the Invaders to death by execution. To do that
+ find a file named something like SPACEY.COM which has a size of
+ about 255« bytes. When you have found the file execute it by typing
+ spacey at your dosprompt.
+ ННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННННН
+
+ SPACEY Version 0.9.99.9 was made in 1998 by Kasper Dupont
+ 
+ System requirements:
+ PC 8086 or better
+ 32KB ram or more
+ DOS 1.0 or newer
+ any floppy drive or larger
+ any monitor or better
+ original codepage (865 can be used as well)
+ 2 shift keys
+
+ To install on harddisk:
+ Copy the program file onto your harddisk.
+ If you do not have free space enough: Delete
+ a MicroSoft "program" then you will have space
+ enough for some millions of space invaders.
+
+ GAMEPLAY:
+ To move right press the right shift key.
+ To move left press the left shift key.
+ To fire press both shift keys, but be warned,
+    you only have 42h bullets
+ Leaving the screen means suicide.
+ When somehow have managed to die, press Ctrl+Break to quit.

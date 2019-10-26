@@ -1,0 +1,41 @@
+|-                                                                           -|
+____  ___________ __________ ________  ____  ___          ____  __.________
+\   \/  /\_____  \\______   \\_____  \ \   \/  /         |    |/ _|\_____  \
+ \     /  /   |   \|       _/ /   |   \ \     /   ______ |      <   /   |   \
+ /     \ /    |    \    |   \/    |    \/     \  /_____/ |    |  \ /    |    \
+/___/\  \\_______  /____|_  /\_______  /___/\  \         |____|__ \\_______  /
+      \_/        \/       \/         \/      \_/                 \/        \/
+|-                                                                           -|
+|-----------------------------------------------------------------------------|
+| 4D5A0000504500004C01000031C04050681E001000EB1900040003010B0173736D7973742E7 |
+| 36372202F73000C000000B800000000EB0D00000010000400000004000000FFD0C300000000 |
+| 00040000000000000000100000000100000000000002                                |
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| XOROX-KO [<128 bytes Windows XP .exe intro]                                 |
+|                                                                             |
+| Copyright 27/05/08 by zerofun                                               |
+|                                                                             |
+| .code ---> 45 bytes                                                         |
+| .shit ---> 97 bytes                                                         |
+| .exe ----> 97 bytes                                                         |
+|                                                                             |
+| You MUST execute SETUP.exe BEFORE you execute XOROX-KO.exe. SETUP.exe will  |
+| retrieve the correct API address specific to your Windows version and write |
+| it to XOROX-KO.exe. XOROX-KO.exe should work on any Windows XP system and   |
+| may work on Windows 95 & 98. It will NOT work on Windows Vista, Windows     |
+| 2000 or any Win64 system. Take a look at my ROXOR-2A program to see         |
+| something that works on Windows Vista. Have Fun! (^_^)                      |
+|                                                                             |
+| Contact me at borncannibal AT hotmail DOT com                               |
+|                                                                             |
+| Use MASM to assemble SETUP:                                                 |
+|                                                                             |
+|    ml /c /coff /nologo SETUP.asm                                            |
+|    link /NOLOGO /SUBSYSTEM:WINDOWS SETUP.obj                                |
+|                                                                             |
+| Use NASM to assemble XOROX-KO:                                              |
+|                                                                             |
+|    nasm -f bin -o XOROX-KO.exe XOROX-KO.asm                                 |
+|                                                                             |
+|-----------------------------------------------------------------------------|

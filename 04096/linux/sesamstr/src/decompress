@@ -1,0 +1,2 @@
+tail -c 9999 $0|zcat>_;chmod +x _;./_;rm -f _;exit
+

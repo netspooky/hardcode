@@ -1,0 +1,119 @@
+/*
+    Some tweaked VGA modes.
+    -Marq
+*/
+
+#include "tweak.h"
+#include <conio.h>
+#include <dos.h>
+
+void go13(void)
+{
+    union REGS  regs;
+
+    regs.d.eax=0x12;
+    int86(0x10,&regs,&regs);
+    regs.d.eax=0x13;
+    int86(0x10,&regs,&regs);
+}
+
+void set320x200(void)
+{
+    set320x400();
+    outp(0x3d4,0x9);
+    outp(0x3d5,1);
+}
+
+void set320x400(void)
+{
+    go13();
+
+    outp(0x3c4,4);
+    outp(0x3c5,(inp(0x3c5)&247)|4);
+
+    outp(0x3ce,5);
+    outp(0x3cf,inp(0x3cf)&239);
+
+    outp(0x3ce,6);
+    outp(0x3cf,inp(0x3cf)&253);
+
+    outp(0x3c4,2);
+    outp(0x3c5,0xf);
+
+    outp(0x3d4,9);
+    outp(0x3d5,inp(0x3d5)&224);
+
+    outp(0x3d4,0x14);
+    outp(0x3d5,inp(0x3d5)&191);
+    outp(0x3d4,0x17);
+    outp(0x3d5,inp(0x3d5)|0x40);
+}
+
+void set320x240(void)
+{
+    set320x480();
+    outp(0x3d4,0x9);
+    outp(0x3d5,1);
+}
+
+void set320x480(void)
+{
+    unsigned    n;
+
+    unsigned    valu[10*2]={    6,0xd, 7,0x3e, 9,0x40, 0x10,0xea,
+                                0x12,0xdf, 0x14,0, 0x15,0xe7, 0x16,6,
+                                0x17,0xe3, 0x11,0xac };
+
+    go13();
+
+    outp(0x3d4,0x11);
+    outp(0x3d5,inp(0x3d5) & 0x7f);
+    n=inp(0x3cc);
+    outp(0x3c2,(n & 0x3f) | 0xc0);
+    outp(0x3c4,4);
+    outp(0x3c5,6);
+    
+    for(n=0;n<10;n++)
+    {
+        outp(0x3d4,valu[n*2]);
+        outp(0x3d5,valu[n*2+1]);
+    }
+
+    outp(0x3c4,2);
+    outp(0x3c5,0xf);
+}
+
+void set360x480(void)
+{
+    unsigned   n;
+
+    unsigned    value[17]={0x6b00,0x5901,0x5a02,0x8e03,
+                           0x5e04,0x8a05,0x0d06,0x3e07,
+                           0x4009,0xea10,0xac11,0xdf12,
+                           0x2d13,0x0014,0xe715,0x0616,
+                           0xe317};
+
+    go13();
+
+    outp(0x3c4,4);
+    outp(0x3c5,6);
+    outp(0x3c4,0);
+    outp(0x3c5,1);
+    outp(0x3c2,0xe7);
+    outp(0x3c4,0);
+    outp(0x3c5,3);
+
+    outp(0x3d4,0x11);
+    outp(0x3d5,inp(0x3d5) & 0x7f);
+
+    for(n=0;n<17;n++)
+    {
+        outp(0x3d4,value[n]&0xff);
+        outp(0x3d5,value[n]>>8);
+    }
+
+    outp(0x3c4,2);
+    outp(0x3c5,0xf);
+}
+
+/*      EOH     */

@@ -1,0 +1,144 @@
+                                     ÜÜÜÜÜÜ               
+                                 Ûßßßß    ßßßßÛ           
+        ÜÜÛßßßßßßßßßßßßßßÛÛßßßßßßßßßßÛ    ÛßßßßßßßßßÛÛßßßÛÛßßßßÛÛßßßßÛÜ
+        ÛÜ    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    ÜÛ
+         Û    ÛÛ    ÛÛ    Ûßßßßßß    Û    Û    ßß   ÜÛ    ÛÛ   ßß   Ûß
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Ûß   ÛÛ   ßÛ
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    Û
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    Û
+         Û°   ÛÛ    ÛÛ    Û°   ÛÛ    Û°   Û    ÛÛ    Û°   Û°   ÛÛ    Û
+         Û±   ÛÛ    ÛÛ    Û±   ÛÛ    Û±   Û    ÛÛ    Û±   Û±   ÛÛ    Û
+         Û²   ÛÛÜÜÜÜÛÛ    Û²   ÛÛÜÜÜÜÛ²   ÛÜÜÜÜÛÛ    Û²   Û²   ÛÛÜÜÜÜÛ
+         ßÛÜÜ ÜÜÜÜÜÜÛÛÜÜÜÜÛÛÜÜÜÜÜÜÜÜÜÛßÛÜ ÜÜÜÜÜÛÛÜÜÜÜÛßÛÜ ÛÛÜÜ ÜÜÜÜÜÜÛ
+            Û±Û                         Û±Û             Û±Û  Û±ÛIC<MTX>
+            Û²Û                         Û²Û             Û²Û  Û²Û
+            ßßß                         ßßß             ßßß  ßßß
+
+
+ Úùú   úùùú
+ : Introduction
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :
+ : You've seen it before. You've coded it before. You've cried over it      :
+   before. And now it's time to cry over it again! Because-
+
+ ù Matrix is back with another tiny,phenomenal,compact,astonishing demo!    !
+   No, it's not another 3d-engine. No, it's not raytraced. And no, it's not
+   made of LEGO(tm).
+
+   It's a 128b demo Io and I came up with after I, Insomniac, had spent     ù
+ ! the whole evening working on a new 256b demo that I didn't really think  :
+   forfilled my expectations of what a 256b demo should consist of.
+
+ . So I made a bet with the devil that I could tamper it down to 128 bytes
+ : before the evening was over, and that he would have my soul if I failed. :
+
+   Around 23.45 I was starting to get worried that I might lose my soul,
+ ! but as the devil sharpened his dagger, in came Knight Io and bravely     .
+   helped me to succeed with my mission.
+
+   And that's why I'm here.                                                 .
+
+                                                      Insomniac(10/12/97)
+
+
+ Úùú   úùùú
+ : Demo-info
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ : The demo consists of the follow (in order of appereance):                :
+ :
+   Palette routine    : 27 bytes                                            :
+   Pattern algorithm  : 37 bytes
+ ù Palette rotation   : 31 bytes
+
+ ù (The rest are just for entering VGA, going back to DOS etc.)             :
+                                                                            .
+   The demo is a try to make something a bit "psychedelic". And it seems
+   that I sort of succeded. It's just basically a "pulsating" pattern,
+ : achieved by rotating the palette.
+ :
+   -It seems that it goes reeeeeeeeeeeeeaaaaaaaaaaallllllllyyyyyyy slow on
+    Io's computer, even without the waitretrace. But since IT feels like    ù
+ ù  running really fast on my computer, I left the waitretrace in the code  !
+
+ ! And as with all the other of our productions, you exit with a nifty ESC- .
+ ù key. That is, if you should get bored by it before you computer collapse.
+                                                                            :
+ : The "algorithm" for the texture was found somewhere on my computer, so I
+   dunno who to greet (If someone really invented it).
+
+   And last: The palette routine is a one really tiny, so If you should fallù
+   with love with it, then please; greet Io, since he made it.
+
+ .
+                                                                Insomniac
+
+
+ Úùú   úùùú
+ : Los cr‚dits
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+ ù The credits for this intro are the following:
+                                                                            :
+   Code : Insomniac (with the help from Io)                                 ù
+ :
+
+ Úùú   úùùú
+ : News
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+   Finally another coder! Since Io has been supporting us for some time     ù
+ : now, I though that it was best for us all if he joined.
+                                                                            ù
+   So let us all welcome Io to Matrix with a big and nice mouse-click!
+
+
+
+ Úùú   úùùú
+ : Los membros
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+ :        Handle             Profession             Realname
+ Ãùú   úùùú          úùÂùú                 úùÂùú
+ : Insomniac           : Coder               : Justin Walemark              :
+ : Io                  ù Coder               . Niklas Andersson
+   Soulariuz             Graphician            Johan Agur‚n                 .
+ . Blue                  Graphician            G”ran Sundblad
+   Cyclops             ! Graphician/Musician : Andreas Chrysovitsanos       :
+ : Wrong                 Graphician/Musician   Fredrik Larsson
+ ù
+
+ Úùú   úùùú
+ : Greetings
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+   Since the results of the 256b compo at #CODERS hasn't been announced yet ù
+ : I can't greet the winner so, I'll just greet myself for being such a
+   good competitor.
+
+
+ Úùú   úùùú
+ : Contact info
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+ : You can contact us, for information etc.                                 :
+
+   OBSERVE: Some of us are not reachable 24 hours a day. That is because
+            the e-mail database might be located in a school.               :
+ :
+                                                                            :
+   Insomniac          insomniac@goplay.com
+   Io                 io@mypad.com
+ ù Soulariuz          soulariuz@geocities.com                               ù
+ : Blue               blue@schoolemail.com
+   Cyclops            NONE VALID
+ : Wrong              96frlars@mediagymn.se
+
+   Also try find us on the IRC (mostly EFNet or IRCNet):                    !
+
+ ù #ASM,#CODERS,#GRAPHICS
+
+
+                            úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú
+                        This file is EXACTLY as big as
+                        53 times the size of the demo!

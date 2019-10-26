@@ -1,0 +1,886 @@
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º                       SCOOP Info 2nd of April 1996                          º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+				    °°°°°°°°°
+				 °°°°°°°°°°°°°°°
+			       °°°°°°°°°°°°°°°°°°°
+			      °°°°°°°°°°°°°°°°°°°°°
+			     °°°°°°°°°°°°°°°°°°°°°°°
+			     °°°°°    °°°°°    °°°°°
+			    °°°°°° ÛÛ °°°°° ÛÛ °°°°°°
+				   ÛÛ °°°°° ÛÛ
+			    ÛÛÛÛÛÛÛÛÛ °°°°° ÛÛÛÛÛÛÛÛÛ
+			    ÛÛÛÛÛÛÛÛÛ °°°°° ÛÛÛÛÛÛÛÛÛ
+			     ÛÛÛÛÛÛÛÛ °°Û°° ÛÛÛÛÛÛÛÛ
+			     ÛÛÛÛÛÛÛÛÛ °°° ÛÛÛÛÛÛÛÛÛ
+			      ÛÛÛÛÛÛÛÛÛ   ÛÛÛÛÛÛÛÛÛ
+			       ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+				 ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+				    ÛÛÛÛÛÛÛÛÛ
+
+				      SCOOP
+				   Productions
+
+
+			      Information file #21.
+
+
+		Following subjects are included in this file:
+		0  : What's new in this file?
+		1  : Opening words
+		2  : About SCOOP
+		3  : SCOOP Ten Years (NEW)
+		4  : SCOOP BBS
+		5  : What has happened lately
+		6  : The Gathering 1996
+		7  : Current member status
+		8  : SCOOP growing
+		9  : Demonstrations for commercial purposes
+		10 : Detailed info about our members
+		11 : SCOOP Releases
+		12 : Distribution Sites
+		13 : How to become a distribution site
+		14 : How to get in touch with SCOOP
+		15 : Greetings
+		16 : Final words
+
+
+
+ÉÍÍÍ»
+º 0 º
+ÌÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º What's new in this file?                                                    º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+The updated chapters in this file are the numbers :
+All chapters moved down from chapter 3. Plus additional updates.
+
+Removed chapters in this file :
+
+
+ÉÍÍÍ»
+º 1 º
+ÌÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º Opening words                                                               º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+Welcome to SCOOP Information Package #21 March 1996. This is an update of the
+package #20 December 1995, there's a lot of new stuff, and changes, so
+please take your time to read this file thoroughly.  The main purpose of this
+file is to tell you all about SCOOP and what we are doing, both in the
+DEMOSCENE and the commercial part.  We would like to take this time to tell
+you that you can always contact us at the addresses and EMAILs at the bottom
+of this file, for questions on what, when and how.
+
+
+ÉÍÍÍ»
+º 2 º
+ÌÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º About SCOOP                                                                 º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+As most of you allready know, SCOOP was founded around 1985/86 by Charles
+Deenen. The SCOOP existing today, is not the same SCOOP Charles founded. At
+least not most of the members, the concept I think, is pretty much the same.
+A perfect harmony between techniques and beauty in both vision and audio.
+
+Today SCOOP consists of 9 musicians, 1 designer, 6 graphicians, 11 coders,
+2 comercial developers and 1 Internet/BBS/WWW man. All these persons are
+on 2 different platforms, the PC and the AMIGA. Some of these guys come from
+different platforms and different arenas.  To mention but a few groups:
+SHAPE, LEGION DESIGN, RIFFS, Beyond Force, The Suppliers, Panoramic Design,
+CRYPT and so on...  Almost all the members has been fiddeling around on both
+C64 and AMIGA, and some of us on the Atari ST(e) too.  Today the programmers
+are specialized in Visual Basic, GFA, Turbo Pascal, C/C++ and assembly on the
+IBM/PC, C64, AMIGA and ATARI.
+
+
+ÉÍÍÍ»
+º 3 º
+ÌÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º SCOOP Ten Years                                                             º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+Yes it's true. SCOOP has finally managed to get ten years old. From the
+original foundation, one member is still here, Jeroen Tel.
+This year, 1996, we will try to be a bit special. We have plans for several
+productions, let's just give it as a surprise to the demo scene.
+
+
+ÉÍÍÍ»
+º 4 º
+ÌÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º SCOOP BBS                                                                   º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+Yet again trouble in the old BBS camp. For the time being Alpha+ has moved
+over to another BBS called Scandinavia BBS, and it looks like it's going to
+be our HOME BBS. Anyway, don't despair, if you have an internet connection you
+can still reach us on our WEB side and on our FTP sight.
+WEB : http://www.netpower.no/~mawo/scoop.html or
+FTP : ftp.netpower.no/pub/scoop.
+We'll keep you guys posted on the situation....
+
+
+
+ÉÍÍÍ»
+º 5 º
+ÌÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º What has happened lately                                                    º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+Nothing much really. We've just finished of the main demo for The Gathering
+1996, and will not say anything else about that. We will work on some
+intros and some other nice productions. SURPRISE SURPRISE!
+
+Besides all this, me and some others from Funcom have started an independent
+games developer company called "DiMaga Studios".
+
+
+ÉÍÍÍ»
+º 6 º
+ÌÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º The Gathering 1996                                                          º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+YES, it's true, The Gathering is going to be arranged yet again.
+This time with the original arrangers, Crusaders.
+And as usual it's going to be in Norway easter 1996.
+By the time you read this, The Gathering 1996 Promotion Show is over and done
+with, and Crusaders will start on the planning for the actual happening
+in the easter next year. SCOOP is going to be involved at some stage, what
+we will do has not been defined yet, we'll just have to wait and see.
+If you want more information about The Gathering 1996, you can either
+HTTP to http://www.netpower.no/~mawo/scoop.html or you could FTP to
+ftp.netpower.no/mawo/scoop.
+If you want to have a chat about gathering you could Email us at:
+einar@funcom.com or geir@funcom.com.
+
+
+ÉÍÍÍ»
+º 7 º
+ÌÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º Current member status                                                       º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                            SCOOP Members PC Section  			      ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Name                          Alias                   Status                 ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Einar Ingebrigtsen            Adept                   Coder                  ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Frode Gjerde                  The Plastic Priest      Coder                  ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³John Stian Langvik            Shamen                  Coder                  ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Bent Ivar Helland             Uzul                    Coder                  ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³dne Hetlelid                 Wizdom                  Coder                  ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Morten Salthe                 Jammer                  Coder                  ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Nils Andersen                 Dervish                 Coder                  ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Rune Kvam                     Norx                    Coder                  ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Paer Lindh                    PL                      Coder 		      ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Jeroen Tel                    Wave                    Composer               ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Thomas Egeskov Petersen       Laxity                  Composer               ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Geir Tjelta                   Predator                Composer               ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Svein Fossdal                 WAM                     Composer               ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Sveinung Eie                  The Ancient Mariner     Composer               ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Kjell Inge Alsvik             Byte Prisoner           Designer/Composer      ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Sigurd N. Kristiansen         Sauron                  Graphician             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Andr‚ Nerg†rd                 Andy                    Graphician             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Bj›rn Morten Figved           GrafX                   Graphician             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Ivar Jensen                   AvA                     Graphician             ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Magnus Wooldridge             The Mercenary           Internet/WWW           ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                         SCOOP Members AMIGA Section  			      ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Olav R. Vorren                Shorty                  Coder/composer         ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Jogeir Liljedahl                                      Composer               ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Anders Ormehaug               Tim                     Composer               ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Christian Meland              CAM                     Composer               ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+That gives us a total of 24 members....
+
+
+ÉÍÍÍ»
+º 8 º
+ÌÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º SCOOP Growing                                                               º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+As a surprise, this probably the only month in a year that we have had an
+oposite change in our member list. Five of our guys has been removed for
+several reasons. Mainly because they haven't done anything in quite a
+while..
+
+
+ÉÍÍÍ»
+º 9 º
+ÌÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º Demonstrations for commercial purposes                                      º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+The life of a computer freak is as you probably already know very expensive.
+Consider upgrading your computer every 6th month or so. This could be your
+oportunity to get a demonstration of first class material. Contact us for
+prices and information about it. EMAILs and SNAIL-MAILs below.
+
+
+ÉÍÍÍÍ»
+º 10 º
+ÌÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º Detailed info about our members                                             º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+Name            :       Einar Ingebrigtsen
+Alias           :       Adept
+Email		:	einar@dimaga.com
+Computer(s)     :       I-Pentium-S100: 420 Mb Conner E-IDE HD
+					120 Mb Quantum E-IDE HD
+					Advanced Gravis Ultrasound MAX
+					Roland SCC-1
+					ET4000w32P 64 Bit Graphics Adapter
+					24 Mb RAM
+					Mitsumi E-IDE 4x CD-ROM
+					SyQuest EZ 135
+			Amiga 2000 : SCSI System
+				     8 Mb RAM
+			Amiga 1000 : Extended PHOENIX main board
+				     2 Mb RAM
+				     80 Mb IBM SCSI HD
+			Amiga 500*2: With nothing
+			CBM 64 * 3 : 1581 3.5" Drive
+				     1541II 5.25" Drive
+			Atari 520STFM : With nothing
+			Atari LYNX
+			Super Nintendo PAL
+Occupation      :       Started own Game Company : DiMaga Studios
+Status          :       Coder, Designer and Graphician
+Background      :       Coder on C-64, about 9-10 years.
+			AMIGA and Atari ST(e) for about 2 years.
+Group Status    :       The Suppliers, Errors, 3D, SHAPE, Legion Design
+			RIFFS, Reflex, Whiz Kids.
+
+
+-------------------------------------------------------------------------------
+Name            :       Frode Gjerde
+Alias           :       The Plastic Priest
+Email		:	frodegje@telepost.no
+Computer(s)     :       a486 DX4 100 : 250 Mb Conner HD
+				       520 Mb HD
+				       8 Mb RAM
+				       Soundblaster 16 ASP
+				       14400 fax/modem
+				       SunBall
+Occupation      :       None
+Status          :       Coder, Designer
+Background      :       Programmer on AMIGA and C-64 for about 7 years.
+Group Status    :       CRYPT
+
+
+-------------------------------------------------------------------------------
+Name            :       John Stian Langvik
+Alias           :       Shamen
+Computer(s)     :       a486 DX4 100 : 1270 MB Conner HD
+				       16 Mb RAM
+				       Ultravision Pro Audio Spectrum 16
+                                       Diamond Stealth 64
+Occupation      :       Unemployed
+Status          :       Coder
+Background      :       Coder on the AMIGA
+Group Status    :       CRYPT
+
+
+-------------------------------------------------------------------------------
+Name            :       Bent Ivar Helland
+Alias           :	Uzul
+Email		:	benti-h@hsr.no
+Computer(s)     :       a486 DX2 66 : 250 Mb Conner HD
+				      4 Mb RAM
+				      Soundblaster AWE 32
+				      Cirrus Logic
+Occupation      :       Studying electronics & computers
+Status          :       Coder
+Background      :       Coder on C-64 for about 2.5 years
+Group Status    :       Disksoft, MM, PCCA
+
+
+-------------------------------------------------------------------------------
+Name            :       dne Hetlelid
+Alias           :	Wizdom
+Computer(s)     :       I-Pentium-133 : 32 MB RAM
+					Gravis Ultrasound MAX 1MB
+					Soundblaster AWE 32
+					BUILT-IN MPEG
+					1.2 GB HD
+					MACH 64 - SVGA
+Occupation      :       None
+Status          :       Coder
+Background      :       None particular
+Group Status    :       None
+
+
+-------------------------------------------------------------------------------
+Name            :       Morten Salthe
+Alias           :       Jammer
+Email           :       m-salthe@hsr.no
+Computer(s)     :       I-Pentium-90 : 24 MB RAM
+				       Soundblaster AWE 32
+				       1GB HD
+			i286 - 12  : 40 Mb HD
+			      	     1 Mb RAM
+Occupation      :       Studying Computers at the university
+Status          :       Coder, Designer, Musician
+Background      :       Coder on the C-64 for 5-6 years
+Group Status    :       SHAPE, Panoramic Design, Legion Design
+
+
+-------------------------------------------------------------------------------
+Name            :       Rune Kvam
+Alias           :       Norx
+Email		:	norx@norway.bbs.no
+Computer(s)     :       i486 DX 33 : 420 Mb + 540 Mb Hd
+				     Pioneer SCSI-II 4xSpeed
+				     22 Mb RAM
+				     Gravis Ultrasound 1mb
+				     Cirrus Logic VGA
+				     Conner QIC 80
+			i386 SX 16 : 250 Mb HD
+			i386 SX 16 : 85+45 Mb HD
+Occupation      :       Student
+Status          :       Coder
+Background      :       None
+Group Status    :       None
+
+
+-------------------------------------------------------------------------------
+Name            :       Nils Andersen
+Alias           :	Dervish
+Email		:	nils@hsr.no
+Computer(s)     :       486 DX2 66 : 550 Mb HD
+				     8 Mb RAM
+				     Tseng ET4000 W32
+				     28800 BPS Modem
+				     Soundblaster 16
+				     Gravis Ultrasound ACE
+Occupation      :       Student at university
+Status          :       Coder
+Background      :       None
+Group Status    :       None
+
+
+-------------------------------------------------------------------------------
+Name            :       Kjell Inge Alsvik
+Alias           :       Byte Prisoner
+Computer(s)     :       i486 DX 33 : 420 Mb HD Space
+				     4 Mb RAM
+				     9600 / 19200 BPS Trailblazer Modem
+Occupation      :       Working at a local steel-work
+Status          :       Design, BBS
+Background      :       Designer on the AMIGA
+Group Status    :       CRYPT
+
+
+-------------------------------------------------------------------------------
+Name            :       Geir Tjelta
+Alias           :       The Predator
+Email		:	geirt@funcom.com
+Computer(s)     :       i-PENTIUM-S90 : 1 Gb Quantum HD
+				      	32 Mb RAM
+				      	Roland SCC-1
+				      	Soundblaster 16 ASP
+Occupation      :       Musician at Funcom productions
+Status          :       Coder, Musician
+Background      :       Coder and musician on the C-64 for 6-7 years, and coder
+			on the AMIGA for 1/2 a year
+Group Status    :       The Suppliers, SHAPE, Panoramic Design, Beyond Force,
+			Whiz Kids, Paradize.
+
+
+-------------------------------------------------------------------------------
+Name		:	Jeroen Tel
+Alias		:	Wave
+Email		:	jeroen@funcom.com
+Computer(s)	:	I-Pentium-P5 : 133 Mhz
+				       1 Gb HD
+				       16 Mb RAM
+			I-Pentium-P6 : 166 Mhz
+				       2.9 Gb HD
+				       64 Mb RAM
+				       Gravis Ultrasound MAX 1Mb
+			Roland SC-88
+			Yamaha MU-80
+			Akai S3000++++++
+			+ Alot of studio stuff
+
+			Atari Falcon : With the standard stuff
+				       QBase
+				       Notator Logic
+			C64*8 : 2*1581 Disk Drives
+				+ All you need for a complete C64 audio system
+			AMIGA 500Plus : 80 Mb HARD DISK
+					Sampler
+					10 Mb RAM
+			Call it a day...
+Occupation	:	Freelance audio-artist
+			current project : Pocahontas(Funcom)
+Status		:	Audio-Artist
+Background	:	C-64 Musician for 11 Years, for most of the biggest
+                        game titles.  Amiga musician for 7 years, mostly
+                        recreational, 100s made, few released.  Studio
+                        Engineer, movie music, TV music, Commercials, Radio,
+                        CDs, NES, SNES, GameBoy, Sega Master System, Game Gear
+Group Status	:	Needless to say, SCOOP.
+
+
+-------------------------------------------------------------------------------
+Name		:	Thomas Egeskov Petersen
+Alias		:	Laxity
+Email		:	thomasep@funcom.com
+Computer(s)	:	486 DX2 66 : 420 Mb HD
+				     8 Mb RAM
+				     Soundblaster AWE 32 soundcard
+				     MPU-401
+			Roland SC-55, Sound Canvas
+			Korg M1
+			Roland RD-500
+			Amiga 600 : 20 Mb HD
+			C64 : 1541 Disk Drive
+Occupation	:	Composer at Funcom Productions Norway
+Status		:	Composer
+Background	:	Been in the C64 scene both in DEMO and GAME.
+			And done general composing for no defined platform.
+Group Status	:	WIZAX, ZETREX, 2000A.D., Starion, Bonzai, Vibrants.
+
+
+-------------------------------------------------------------------------------
+Name		:	Jogeir Liljedahl
+Alias		:	None
+Computer(s)	:	I-Pentium-S 75 : 500 MB HD
+					 8 MB RAM
+					 SoundBlaster AWE 32
+					 Roland RAP 10
+Occupation	:	Currently unemployed
+Status		:	Musician
+Background	:	Is a member of Noiseless & Virtual Dreams on the AMIGA
+			Has also been fiddeling around with the C64.
+Group Status	:	Noiseless, SpaceBalls, Virtual Dreams
+
+
+-------------------------------------------------------------------------------
+Name		:	Sveinung Eie
+Alias		:	The Ancient Mariner
+Computer(s)	:	486 DX 33 : 250 Mb HD Space
+				    4 Mb RAM
+				    Soundblaster PRO
+Occupation	:	Student, and making real music. Has recently
+                        released an album.
+Status		:	Musician
+Background	:	Musician on the AMIGA
+Group Status	:	CRYPT
+
+
+-------------------------------------------------------------------------------
+Name            :       Svein Fossdal
+Alias           :       WAM
+Email		:	svein-f@hsr.no
+Computer(s)     :       i486 SX 25: 700 Mb Conner HD
+				    4 Mb RAM
+				    Soundwave 32 audiocard
+				    GUS MAX 2Mb
+Occupation      :       Student
+Status          :       Musician
+Background      :       Making music on the AMIGA
+Group Status    :       None
+
+
+-------------------------------------------------------------------------------
+Name		:	Sigurd N. Kristiansen
+Alias		:	Sauron
+Email		:	sigurdnk@dimaga.com
+Computer(s)	:	AMIGA 4000-040 : 16 Mb RAM
+					 340 Mb HD
+Occupation	:	Started own Game Company : DiMaga Studios
+Background	:	Graphician on the AMIGA Scene
+Group Status	:
+
+
+-------------------------------------------------------------------------------
+Name            :       Andr‚ Nerg†rd
+Alias           :       Andy
+Computer(s)     :       i486 SX 25 : 120 Mb + 170 Mb Hd
+				     4 Mb RAM
+				     Gravis Ultrasound
+				     AVGA 2
+				     CANON BJ-10
+			AMIGA 500 : 1 Mb RAM
+				    1084S Monitor
+Occupation      :       Student
+Status          :       Graphician
+Background      :       Graphician on the AMIGA
+Group Status    :       None
+
+
+-------------------------------------------------------------------------------
+Name            :       Bjornar Bolsoy
+Alias           :
+Computer(s)     :       Amiga 4000-50 68040, with Emplant: 250 Mb WD HD
+							   420 Mb Conner HD
+							   12 Mb RAM
+							   Extended 16Bit Audio
+							   Dual Monitor System
+Occupation      :       Insurance sales-man for VESTA Insurance
+Status          :       Graphician, Designer
+Background      :       Graphician on the AMIGA for some years.
+Group Status    :       None
+
+
+-------------------------------------------------------------------------------
+Name            :       Bjorn Morten Figved
+Alias           :       GrafX
+Email		:	grafx@norway.bbs.no
+Computer(s)     :       a486 DX4 100 : ca. 900 Mb HD Space
+					   12 Mb RAM
+					   Soundblaster Pro 2
+					   Gravis Ultrasound 1Mb
+					   9600 BPS Modem
+					   HP Deskjet 500-C
+					   Canon Laserprinter
+					   Canon ION Camera
+					   Microtech Flatbed Scanner
+					   Cirrus Logic 2Mb
+Occupation      :       None
+Status          :       Graphician, Designer
+Background      :       None
+Group Status    :       None
+
+
+-------------------------------------------------------------------------------
+Name            :       Ivar Jensen
+Alias           :       AVA
+Computer(s)     :       i486 DX 33 : 420 Mb Conner HD
+				     12 Mb RAM
+				     Soundblaster 2.0
+				     Cirrus Logic Gfx. Card
+Occupation      :       Studying economy
+Status          :       Artist, Graphician, Designer
+Background      :       Graphician and designer on the C-64 and the Atari
+Group Status    :       SHAPE, REFLEX, 3D, Legion Design
+
+
+-------------------------------------------------------------------------------
+Name            :       Magnus Wooldridge
+Alias           :       The Mercenary (irc: mawo)
+Email           :       mawo@netpower.no
+Computer(s)     :       i-Pentium-133: 2880 MB SCSI-2 Fast HD
+				       32 MB EDO RAM
+				       Diamond Stealh Video 3200 2MB
+				       2xRascal Interlan 16
+                                       Soundblaster 16
+				       4 modems
+				       SCSI CD-ROM
+Occupation      :       PC/Unix technician
+Status          :       InterNet development + pr.
+Background      :       Hacker
+Group Status    :       None
+
+
+ÉÍÍÍÍ»
+º 11 º
+ÌÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º SCOOP Releases                                                              º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+A little explanation about the chart. "Party" means which party it was
+released on, if any. "Place" means, that if it was in the competition, which
+place it got. The rest you probably figure out yourself.
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                                  SCOOP Releases      			      ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Name                                   Party      Place                  Year³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³X&Renovated                            TG 93      3rd                    1993³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Renovative                             TG 94      Not in compo           1994³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Luminous                               TG 95      2nd                    1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³                                 Intros                                      ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³SCOOP BBS Intro                                                          1994³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³SCOOP ZIP Intro                                                          1994³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Gathering 1995 Invitation Intro                                          1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Elastic(64 Kb)                         TG 95      7th                    1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Psychadelic Mind(64 Kb)                TG 95      4th                    1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³4kb FLIGHT                             TG 95      1st                    1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Shampoo 1(4 Kb)                        TG 95      5th                    1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Gathering 1995 Results Intro                                             1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³ToeTag (Dentro)                                                          1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Gahtering 1996 Invitation Intro                                          1996³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³                                  Music                                      ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³"Guitar Slinger2" - Jogeir Liljedahl   TG 95      9th, 4chn              1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³"One for me" - Jogeir Liljedahl        TG 95      1st, MultiChn.         1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³"Speisa Film" - Geir Tjelta            TG 95      3rd, MultiChn.         1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³"Labyrinth" - Byte Prisoner            TG 95      9th, MultiChn.         1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³"Sting" - WAM                          TG 95      11th, MultiChn.        1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³                                 Graphics                                    ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Digital Photo Scan #1,Playboy Series                                     1994³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Digital Photo Scan #2,Playboy Series                                     1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Digital Photo Scan #3,Playboy Series                                     1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Digital Photo Scan #4,Playboy Series                                     1995³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Rainbow Painter                        TG 95      7th                    1995³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+ÉÍÍÍÍ»
+º 12 º
+ÌÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º Distribution Sites                                                          º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                             SCOOP Distribution Sites 			      ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Site NAME                ³Telephone Number                 ³Country          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³SCOOP on FTP              ftp.netpower.no/pub/scoop                          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³SCOOP on WWW              http://www.netpower.no/~mawo/scoop.html	      ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´ ³Alpha Plus BBS            +47 518-61070                     Norway           ³
+³Scandinavia+ BBS          +47 51-410873                     Norway           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Sidewalk Cafe BBS         +47 355-12227                     Norway           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Count Zero                +47 55-122962                     Norway           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Optical Illusion          +47 551-22892                     Norway           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Discovery BBS             +47 670-77861                     Norway           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Alten BBS                 +47 784-42326                     Norway           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Action BBS                +47 748-07766                     Norway           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Point Break               +321 143-6925                     Belgium          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Bitstream BBS             +358 21-438-324                   Finland          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Portal                    +46 2-619-6363                    Sweden           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Evolution                 +46 8-500-22544                   Sweden           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Shockwave BBS             +27 11-888-6345                   South Africa     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Starport BBS              ftp.mpoli.fi                      INTERNET         ³
+³                          /starport/pub/demos/groups/scoop                   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+ÉÍÍÍÍ»
+º 13 º
+ÌÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º How to become a distribution site					      º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+We are looking for distribution sites all over the world, to spread and handle
+all of our productions. To become one of these sites, you have to follow the
+following simple things :
+
+* You must have all demos/intros released from SCOOP at any given time.
+* You should always have information on your BBS about SCOOP, and what
+  is going on inside the SCOOP CAMP.
+* Your BBS will be a 100% information forum for people that wants to know
+  things about SCOOP, this means that you have to install a conference of
+  some kind, where people can talk and discuss SCOOP related things.
+* Your BBS should be operated on a PC Compatible computer with at least
+  14400 BPS modem, and should be 24h, 365/366 days a year service.
+
+You will in return get alot of free comercials for your BBS in every SCOOP
+release. You will have the chance to get all productions before everyone
+else does.
+
+
+Following is an application form for applying for a Distribution Site.
+
+<---------------------------- Cut Here --------------------------------------->
+
+
+BBS Name 		: _________________________________
+
+BBS Phonenumber(s)	: _________________________________
+			  _________________________________
+			  _________________________________
+
+BBS Modem(s)            : _________________________________
+			  _________________________________
+			  _________________________________
+
+Modem Speed supported   : [ ]1200   [ ]2400   [ ]4800   [ ]9600
+			  [ ]14400  [ ]16800  [ ]19200  [ ]28800
+			  [ ]Other, what : ________________
+
+			  [ ]HST    [ ]V32bis [ ]V42bis
+
+BBS Net address(es)     : _________________________________
+			  _________________________________
+
+List networks you are in: _________________________________
+			  _________________________________
+			  _________________________________
+
+BBS Software            : _________________________________
+
+Number of nodes         : ____
+
+Number of users         : ____
+
+Number of MegaBytes     : ____
+
+SysOp Real Name         : _________________________________
+
+SysOp ALIAS and group   : _________________________________
+
+SysOp voice number      : _________________________________
+
+SysOp E-MAIL address    : _________________________________
+
+SysOp Age               : ____
+
+SysOp Full Mail Address : _________________________________
+			  _________________________________
+			  _________________________________
+			  _________________________________
+
+
+Feel free to fill in any notes :
+__________________________________________________________________
+__________________________________________________________________
+__________________________________________________________________
+__________________________________________________________________
+
+
+<---------------------------- Cut Here --------------------------------------->
+
+
+ÉÍÍÍÍ»
+º 14 º
+ÌÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º Contact SCOOP								      º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+Frode - TPP / SCOOP               	         +47 517-48166
+Bjorn Morten - Grafx / SCOOP	  	         +47 516-70116
+
+SCOOP WHQ CoSYSOP Voice           Cellular phone +47 9010-1121
+SCOOP WHQ CoSYSOP Beeper	                 +47 9668-2693
+
+
+				   E-MAIL:
+		  	       einar@dimaga.com
+			     frodegje@telepost.no
+			       m-salthe@hsr.no
+			         nils@hsr.no
+			        benti-h@hsr.no
+			      norx@norway.bbs.no
+			      jeroen@funcom.com
+			     thomasep@funcom.com
+			      sigurdnk@dimaga.com
+			      grafx@norway.bbs.no
+			       mawo@netpower.no
+
+
+				 Snailmail:
+
+	Einar Ingebrigtsen	Frode Gjerde   		Funcom Productions
+	Schweigaardsgt. 97	Fjelltunvn 15  		co/ Geir Tjelta
+	0656 Oslo		4100 Joerpeland		Langkaia 1
+	Norway			Norway			0150 Oslo
+							Norway
+
+				Svein Fossdal
+				Fjellsvn
+				4100 Joerpeland
+				Norway
+
+
+			    For swapping stuff:
+
+	     	 	      Andr‚ Nerg†rd
+			      Gml. Hestnesvei 46
+			      4370 Egersund
+			      Norway
+
+
+ÉÍÍÍÍ»
+º 15 º
+ÌÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º Greetings                                                                   º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+We'd like to send our best regards to:
+
+GoLLuM, DarkZone, Avalanche, Future Crew, Twilight Zone, PMC, Alive, Shape,
+Noiseless, Panoramic Design, Vibrants, SpaceBalls, Andromeda, PORNOS, Scoopex,
+Crusaders, Cryptoburners, 5 and then some, Bit Killers, Proxima, SORROX,
+Destiny, Penumbra, Endless Pain DC, Maniacs of Noise, Complex, Triton,
+LOOM Syndicate, RealTech, YETI, Follin BROS, Rob Hubbard, Martin Galway,
+all the guys at DiMaga Studios, Funcom, DreamWorks, Shiny, Disney Interactive
+and DMA Design.
+
+
+The greetings above includes the IBM/PC and the AMIGA scene.
+In addition to some of the companies in the game industry.
+Cheers.
+
+
+ÉÍÍÍÍ»
+º 16 º
+ÌÍÍÍÍÊÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º Final words                                                                 º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+First of all, I would like to take the time to thank all the people who have
+been standing by us. Thanx for your support, without the support we probably
+wouldn't exist. Another big thank you goes to Strand Data, for sponsoring our
+group with hardware, big round of applause to you Rudi.
+And a big thanx to Funcom for buying Silicon Graphics machines, and all
+the cool hardware we've used for our demos(Hehe :] ).
+
+The purpose of this text-file, is to let the world know about SCOOP, and
+what we are doing at every given time.
+
+All the text in this file was written by Adept. And might contain some
+information that might be wrong.
+
+Thanx for taking your time to read this...
+
+Adept / SCOOP

@@ -1,0 +1,36 @@
+8888888888 .d88888b.   .d8888b.   .d8888b.  8888888888 .d88888b.  8888888b.  
+888       d88P" "Y88b d88P  Y88b d88P  Y88b 888       d88P" "Y88b 888   Y88b 
+888       888     888 Y88b.      Y88b.      888       888     888 888    888 
+8888888   888     888  "Y888b.    "Y888b.   8888888   888     888 888   d88P 
+888       888     888     "Y88b.     "Y88b. 888       888     888 8888888P"  
+888       888     888       "888       "888 888       888     888 888 T88b   
+888       Y88b. .d88P Y88b  d88P Y88b  d88P 888       Y88b. .d88P 888  T88b  
+888        "Y88888P"   "Y8888P"   "Y8888P"  888        "Y88888P"  888   T88b 
+
+                                               aka "At Least Its An XOR Texture"
+                                                                 by orbitaldecay
+
+A remake of FOSFOR by Pirx/ind for SDL/Linux.  Make sure you check out the
+original prod (its way cooler).  Contained within are two versions:
+
+128 byte version (64 bit)
+--------------------------------------------------------------------------------
+Written and tested on 64 bit Fedora 16.  As-is, this will pretty much *only* run
+on 64 bit Fedora 16 and its derivatives.  This is because the 64 bit Fedora SDL
+library is compiled in such a way that it always loads to the same address, thus
+allowing the SDL function addresses to be hard-coded.  If you're on a different
+distribution that ships similarly compiled SDL libraries, you can simply
+substitute the appropriate function addresses in the code.  Yes, obviously this
+is self-compiling.  No escape support :(
+
+500 byte version (32 bit)
+--------------------------------------------------------------------------------
+This is a cleaner compatability version for everyone else :)  This is an actual
+binary (no self-compilation).  Includes escape support.
+
+Thanks to Pirx, tzaeru, Ye Olde Laptops Posse, and everyone else who has
+inspired and informed me along the way.
+
+                                                          orbitaldecay@gmail.com
+                                                                         01/2012
+

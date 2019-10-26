@@ -1,0 +1,12 @@
+                       Game K.Y.K. (Kill Your Keyboard) With Source
+
+I think it's a smallest computer game in the world. She occupies 37 bytes.
+If You can make it smaler mail to Me:dr_max@mail.ru
+
+Control Keys:
+   Red  player - Right Shift
+   Blye Player - Left Shift
+
+
+                                                               (c)1998 Dr. Max
+

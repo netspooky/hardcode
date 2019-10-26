@@ -1,0 +1,52 @@
+
+          ..eufrosyne ..blind ..64kb intro ..released at assembly'96
+
+
+        credits       coded by suckho, graphics & audio by duke
+
+        instructions  start the intro by typing blind. esc is escape.
+                      spacebar is fast forward. other keys do nothing. 
+                      no hidden parts.
+        
+        info          should work fine under qemm, himem, msdos7, etc.
+                      uses gravis ultrasound for audio. sound blaster
+                      supported only due to the competition rules. music 
+                      is not the same on sb and gus. pentium or fast 486 
+                      with gus recomended. 386 with vga and no soundcard 
+                      required. 100% of the intro is coded with tasm. no
+                      pascal, c, etc code exists. 
+
+        progs used    borland turbo assembler, deluxe paint, fast tracker
+                      image alchemy, borland turbo pascal, pmode by tran
+                      mxmplay by cubic, pklite
+
+        license       you can spread this intro freely. if you are going 
+                      to add this intro on any CD-ROM, please inform us. 
+                      you must not modify anything in this intro. we are 
+                      not responsible for any damage this intro may cause. 
+
+        contacts      gaia +358-17-2624311  [eufrosyne whq]
+
+                      saku tiainen            tomi korkalainen
+                      kellotarhantie 5        kirkkotie 21
+                      70460 kuopio            72100 karttula
+                      finland                 finland                    
+      
+        memberlist    xt  [coder, sysop]
+                      suckho  [coder]
+                      yucca  [musician]
+                      dr.voice  [musician]
+                      trevize  [trader]
+                      noize  [musician]
+                      duke / paragon [musician, graphician]
+
+        thanks        tran [pmode], cubic [mxmplay]
+        
+        greetings     rommel, kraku, pacman, pode, mazor, trevize, xt 
+                      mare, dr.voice, yucca, noize, cyberpig, santac
+                      diezel, vitulla p„„h„n ryhm„, all paragon members
+                      all mass members, assembly oranizers, all we forgot
+                      and everyone who voted us
+
+        end words     jiihaa.   
+                                                      16.08.1996   Suckho

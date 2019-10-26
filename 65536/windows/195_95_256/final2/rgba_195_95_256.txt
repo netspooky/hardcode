@@ -1,0 +1,63 @@
+                                 195/95/256
+                     (final version of a party version)
+
+            original demo by Plastic (http://www.plastic-demo.org)
+
+              squezzed into 64 KB by rgba (http://www.rgba.org)
+
+                      1st place at Euskal Encounter 13
+
+                                     2005
+
+
+ This version  the final version.  We worked hard during more  than a month to optimize
+the music synthetizer,  that was just fucking the Pentium 4 caches,  branch  prediction 
+and all that waste of silicon. We didn't notice the problem until the deadline  because
+we  were basically testing on AMD and MACs.  Now, it  takes  about 3 times less precalc
+time, so hopefully you can watch the intro without going to take a coffe while loading. 
+The precomputation bottleneck is  now on the graphics card,  so you will  need a Radeon 
+9600 at  least to load the intro quickly.  You also need that kind of graphics  card to 
+smoothly see the rendering, anyway. Forget about NV FX5?00...  and even in GeForce 6600 
+it  doesn't  run that smoothly.  We recomend  Radeon 9800 at least.  No floating  point 
+textures,  glsl or frame buffer objects are needed,  so it should run in quite standard
+configurations; just "plain" opengl is used, plus pixel shaders 2.
+
+ We also  improved the sound quality, and also some minor visual details. All this work
+just to make you happy. 
+
+
+ .code
+
+	iq 	[iquilezles@hotmail.com]    [idea, main code, modeling, shading]
+	gortu   [ressl@lonetree.com]        [soft synthetizer]
+	enlar	[enlar@rgba.org]            [compression tips]
+	utopian [utopian@rgba.org]          [additional effects, party coding]
+
+ .3d
+	marius	[marius@rgba.org]           [modeling]
+	r3d	[r3d@wol.es]                [modeling, animation, tips]
+
+ .music
+	jewoll	[jewoll@hotmail.com]        [music re-composition]
+
+ .art
+	plastic                             [original content, art]
+
+
+
+ This intro uses OpenGL, so we easilly ported it to several platforms. It works on the 
+following systems:
+
+
+ Machine        OS           Architecture
+ ----------------------------------------
+ PC             Windows      32 bits
+ PC             Windows      64 bits
+ PC             Linux        32 bits
+ PC             Linux        64 bits
+ Mac            MacOS        32 bits
+ SGI Prism      Linux        64 bits
+ SGI Onyx4      Irix         64 bits
+
+ 
+ 

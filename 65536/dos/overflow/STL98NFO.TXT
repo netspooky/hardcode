@@ -1,0 +1,17 @@
+Satellite'98 PC 64KB Intro Compo
+Title: "OverFlow"
+Lenght: 65300 bytes
+Author: JaM/Korozone
+        Michal Jackowski
+        ul.Platynowa 5
+        42-280 Czestochowa
+        email: jam_krz@friko6.onet.pl
+
+Required: 486+fpu , 8MB RAM , SVGA , GUS
+
+ Gdyby nie chcialo chodzic to najlepiej odpalcie pod czystym DOSem
+ z HIMEM.SYS lecz bez EMM386.EXE. Przy problemach z obrazem najlepiej
+ uruchomic UNIVBE 5.3 lub nowsza (najlepiej dziala z 6.0). Gdyby sie
+ kopala synchra lub wieszalo by sie od razu po starcie to sprobujcie
+ odlaczyc myszke od COMa 1.
+ 

@@ -1,0 +1,29 @@
+#########################################################
+## Filname:             rollback.exe                   ##
+## Size:                16347 bytes                    ##
+## Released at:         TRSAC '08                      ##
+## Compo:               16K executable music           ##
+## Place:               1.st                           ##
+## Music by:            Punqtured / Subcult            ##
+## Synth/Playback by:   Revival (aka. Ralph) / Subcult ##
+#########################################################
+## Song composed using Renoise using only the          ##
+## softsynth as VST instrument.                        ##
+## Song uses 15 instances of the synth to create the   ##
+## various sounds used throughout the song.            ##
+##                                                     ##
+## The synth offers 2 oscillators, each with 5         ##
+## different predefined waveforms. filter-envelope,    ##
+## amp-envelope, 2 LFOs, reverb, chorus, 2-band EQ     ##
+## and limiter. (more will be added soon)              ##
+##                                                     ##
+## The file was packed using Crinkler (thanks to       ##
+## Blueberry & Mentor)                                 ##
+##                                                     ##
+## Partyversion has a tendensy to distort sounds. This ##
+## problem was fixed, but not until after deadline.    ##
+##                                                     ##
+## Due to radical changes to the synth, the song cannot##
+## be re-recorded, without screwing up all instruments ##
+## so you'll have to live with this version.           ##
+#########################################################

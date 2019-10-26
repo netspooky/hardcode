@@ -1,0 +1,27 @@
+<svg viewBox="0 0 175 91">
+<rect width="175" height="7" id="1" fill="red"/>
+<use xlink:href="#1" y="14"/>
+<use xlink:href="#1" y="28"/>
+<use xlink:href="#1" y="42"/>
+<use xlink:href="#1" y="56"/>
+<use xlink:href="#1" y="70"/>
+<use xlink:href="#1" y="84"/>
+<rect width="70" height="49" fill="blue"/>
+<g id="3">
+<g id="4">
+<path d="M5 2l2 5l-5 -3h6l-5 3" id="2" fill="white"/>
+<use xlink:href="#2" x="12"/>
+<use xlink:href="#2" x="24"/>
+<use xlink:href="#2" x="36"/>
+<use xlink:href="#2" x="48"/>
+</g>
+<use xlink:href="#2" x="60"/>
+</g>
+<g id="5">
+<use xlink:href="#4" x="6" y="5"/>
+<use xlink:href="#3" y="10"/>
+</g>
+<use xlink:href="#5" y="10"/>
+<use xlink:href="#5" y="20"/>
+<use xlink:href="#5" y="30"/>
+</svg>

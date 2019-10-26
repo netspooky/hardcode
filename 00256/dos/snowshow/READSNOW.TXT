@@ -1,0 +1,80 @@
+
+           Ped / 7 Gods demo group
+
+                 presents
+
+
+   ##  ##    #   #   #   ##  # #   #   #   #
+  #    # #  # #  #   #  #    # #  # #  #   #
+  ###  # #  # #  # # #  ###  ###  # #  # # #
+    #  # #  # #  # # #    #  # #  # #  # # #
+  ##   # #   #    # #   ##   # #   #    # #
+
+
+    a 256B intro for DemoBit'00 demo party
+ (C) 2000 - Peter Helcmanovsky, hellco@upjs.sk
+       no commercial use w/o permission
+       source only for educational use
+       (why would you rip it ? *grin*)
+
+   dedicated to ELL, who knows why ...
+
+ Firstly, this intro missed the party due to ignorant
+Slovak car drivers, who didn't want to take me to party
+place, thank you all very much. Now I'm releasing it
+"just so" for your enjoyment, so enjoy it. Thanks. :)
+ Anyway, don't forget to check out our winning demo FATE
+from DB'00 party (delivered to party by the rest of our
+crew, who liked to pay to our railways... ;)).
+
+ System req: MS-DOS | Win9x/NT (dos-box) | anything
+else, what is capable to load .COM file, emulate
+MOV ax,13h INT 10h (MS-DOS 320x200x256color mode),
+and will stay alive after full (A000:0000) ->
+(A000:FFFF) memory rewrite. Yeah, and, well, about
+280 bytes of free memory is needed. Quite a problem,
+isn't it ? (if you don't have idea, how much 280
+bytes are ... this PAGE of text has MUCH more...)
+ I quite wonder about the WinNT ability to run this.
+I didn't believe until my friend show me ...
+
+ press some nice key to exit running intro.
+
+ This M$ stuff forced me to almost leave ASCII
+art dead in ".txt" files, so just a very simple
+and ugly "snowshow" title ... (gimme back dos
+fonts, damn, i wanna gfx. characters...)
+
+ What else to write here... yeah, this intro
+sux terribly, no idea, no taste, no chilli,
+just another excellent piece of code... :(
+ And this ugly flashing screen at the beginning
+- I had about 22B left, when I finished second
+round of size optim., so I added that shit, btw
+it is quite short, so why not to show others,
+that I can pack it all in 256B, yeah. superego.
+ When I finished third round of size optim., I was
+finaly capable to add "set_up_text_mode" and
+"get_key_you_pushed" code, and also align some
+code in inner loop. And I just wondered, where's
+the limit ??? (I got about 8B more + 3B for alignment
+when compared to second round result... 11B ! damn)
+ Now you could exit the intro w/o any problems... :)
+
+ Check source for nice random constant, I really
+like it. And for other cool tricks...
+
+ Finaly, I hope, that you haven't saw too many
+snow-shows before ... it would be boring then(?).
+ And I have to give credit to PAVUK. He has stolen
+this effect from Amiga and converted it to ZX Spectrum
+... and we didn't use it in any demo, so I decided
+to reanimate this idea in 256B PC intro ... Who knows,
+where that amiga guy got the idea ... (C64 ? *grin*)
+
+ 7 Gods demo group - http://7gods.rulez.sk
+ please, check our pages for other free production
+ And send me some stupid e-mail, I love to read 'em !
+
+ This software *MUST* be distributed FOR FREE W/O ANY
+CHANGE.

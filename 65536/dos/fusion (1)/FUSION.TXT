@@ -1,0 +1,36 @@
+
+                                 f u s i o n 
+
+                         lowres'97 pc 64kb intro entry
+                               by deadline/efc
+
+
+      system requirements
+
+      minimal system                     recommended system
+
+      80486dx2 / 66mhz                   pentium 166mhz or higher
+      600kb base memory                  600kb base memory
+      3mb xms memory                     3mb xms memory
+      vga graphics adapter               vga graphics adapter
+      60kb free harddisk space           60kb free harddisk space
+                                         gravis ultrasound with 1 mb or more
+
+
+      troubleshooting
+
+      out of memory when initalizing sound system :
+      -- free more base memory. 600kb should do the trick.
+
+      xms initialization failure :
+      -- install himem.sys, or reboot. if the intro exited with an error
+         before, all your xms memory has been reserved by the intro, so
+         i'd reboot if i were you.
+
+      crashes when uploading samples to gus :
+      -- either free more base memory, or check your ultrasnd environment
+         is correct. if you have set this, and don't have a gus, the intro
+         might crash. furthermore, if you do have a gus and the settings
+         are wrong, the same could happen.
+
+

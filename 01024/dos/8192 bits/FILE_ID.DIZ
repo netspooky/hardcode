@@ -1,0 +1,46 @@
+-8192 BiTS-
+
+This intro has been coded for the Undernet #CODERS IRC channel
+
+1k intro compo. -NEXT, Dec'96.. 
+(yeah, it's been roting almost 2 years on my HD, hoped to release it at a party
+but naid'97 or 98 never came)
+
+Coded by 
+	Runtime 
+	Tommy Lacroix
+	runtime@codezign.com
+and 
+	Rv
+	Stephane Hockenhull
+	potam@videotron.ca
+
+Req:
+	486SX-33
+	VGA
+	'bout 256K of ram (never tested)
+
+Feature:
+	VScreen
+	Bump Mapping
+	2 Texture Generators (1 Real-Time)
+	Text Dot-Zoomer
+	2 Palette Generators
+	
+	-sorry, no phong shaded texture mapped 3D world and S3M music :P
+
+Sadly we were about 2 hours too late (time zones... oh well)
+the intro is 75% code and 25% text and 100% rush
+
+some HI!s to:
+	(in ascii order)
+	Ara
+	Blackwind
+	Dac
+	Data
+	Frost
+	Matrix
+	Moa
+	and all ppl who keep the demo-scene alive and non-commercial.
+
+(Hey, this file_id.diz is almost as big as the intro, 95bytes smaller)

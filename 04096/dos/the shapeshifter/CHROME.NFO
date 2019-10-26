@@ -1,0 +1,83 @@
+                                     .             ,.     .,
+                                     ;  .dSb       `$$$$$$$.      .,,. .d
+ ..  `ø$b%c,cc.  `bcc$ø`        .t  $' `$.  .cbd$``""üü??$$$$$$$$üüüü$.
+  `?b.d$$$$$$$$$L   ?$$$:   .     .d$, `   ?$$$$$$$$         $$ ``""    $$$$âü
+,.  ?$$F`  `ü  `?$    $$$$    `"ü?S$$$$bccd$$$    `?;   .    $â    $    $$ø  .
+$F' d$F    F    ;â    $$$$b.  `,   `?$â` ..  `$.  .  ?   t   .$;   .$    $:   %
+ .,d$F    d:    ?    .$$$$$L    b    $   `$   `L   :     $   :$.   `ü    $ .atx
+?$$$F    ,$b%.J'    $Sâü`?$    $   .$    ?.   ?.   ?    $   J$    Jâüü?$$    %
+ $$$:    F  `ø"â    ..    :â    ' .,d$.   `b   :L   :b   $   $â   .$'    $: .lz
+.$$$$c,.     .J     J'    ;'    $   `$;    $.   $.   $b  $ccc$$b%c,.    `?   %
+ø`   `"ü?S$$$$'    .$     ?     $    $$.    .,c$$c%d$$b $      .c$$$$$L.  `.97
+          `?â'     ;$b.   `    .$    `?$$âü``    ``ü$â``b$.  .$âü``   `$.    %
+                     `$$Sb%%%dS$$.                   ?. `$$$âü`          `    .
+                     ,$ü`      `?$c.   .,cdü?b.       $. `            
+                   `ø`          ;$$$$$$â`  ..â'      J$;             
+    the shapeshifter      .     .'    `?b,.       .,c$$'                       
+                                      :$$$$$$$$$$$$âø
+    a 4 kb intro made by chrome.     `ø`    ``øü?$'
+                                               ,J$.
+                                            ``"øø"`"?.
+
+    r e q u i r e m e n t s .
+
+    this  intro requires a pentium processor to run.  due to realtime  sound
+    synthesis a p166 recommended.  for  sound output a  gus is required with
+    proper ultrasnd= variable.  without  soundcard  the intro will not run !
+    sorry,  no bytes  left  for workaround.  also  check the ammount of free
+    memory before executing,  because no error detection performed.   59o kb
+    should be enough.  be aware that the dma buffer is  hardcoded to segment
+    8oooh so you must have that address free, no  bytes left for  allocation
+    routine.  if you do a clean boot  with just  himem installed  everything
+    should work properly. btw; the slowest cpu the intro was tested on was a
+    486dx4-1oo - everything was ok!
+
+
+    c r e d i t s .
+
+    net  .                                    all programming - 8o8 patterns
+    atx  .                                     3o3 patterns - general design
+    enok .                                                  charset - design
+
+    m e m b e r s .
+
+    net  . programmer                           ú                mov eax,cr0 
+    enok . graphics and design                  ú  ez m–v‚szet, nem fotoshop
+    atx  . music, pr, org                       ú            001/048 c-4 050
+    kci  . modelling and design                 ú                opacity map
+    das  . graphics                             ú                 art deluxe
+
+    f a c t s .
+
+    this intro uses realtime sound synthesis, like rebirth338 or rubberduck.
+    three  24 dB  psychoaccoustic lowpass filters generate the sound  of the
+    3o3s and the 8o8. the 8o8 samples are precalculated at startup, using an
+    algorithm based on a program called stomper.  theese algorithms are part
+    of our big project, the chrome-tracker.  it will  have the features like
+    impulse tracker, plus realtime filters, equalizers, tb3o3 and a complete
+    analogue modular synth  emulation with dsp effects.   of course  it will
+    require  a  very  fast processor  for realtime sound output, but it will
+    render the tracks into wav files if you wish.
+
+    a d d i t i o n a l   s u p p o r t .
+
+    ù atx for showing me te capabilities of a juno synth, it helped a lot in
+      coding the realtime filters.
+    ù enok for believing it is possible in 4kb. without his faith this intro
+      would never have done.
+    ù enok and atx for letting me [net] code on their computer.
+    ù my friend csabi for lending me his 486 for final tests.
+    ù the creators of rebirth. the sound of rebirth was the standard for me.
+
+    w a r n i n g .
+
+    including this intro on a profit oriented cdrom is forbidden without our
+    written permission!
+   
+                                           1286 Budapest, p.o.box 8, Hungary
+                                                   email: chrome@cryogen.com
+                                     home: http://www.automex.com/atx/chrome
+
+    made in Hungary.
+    legjobb.
+

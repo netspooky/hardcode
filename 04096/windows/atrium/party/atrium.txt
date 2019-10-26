@@ -1,0 +1,26 @@
+TBC and Loonies
+
+present
+
+a 4k intro for Breakpoint 2008
+
+"Atrium"
+
+Credits:
+
+Mentor: Object generator, synth, rendering
+Puryx: Music
+Blueberry: Object modelling tool
+Lemmus: Modelling, design, direction
+
+Thanks to Maytz/Loonies for help with colours and design.
+
+Requirements: PS/VS 2.0, DirectX end-user runtime February 2005 (d3dx9_24.dll).
+
+We have provided the intro in the following resolutions:
+1920x1080
+1920x1200 (letterboxed)
+1600x1200 (letterboxed)
+1280x720
+1280x1024 (letterboxed)
+1024x768  (letterboxed)

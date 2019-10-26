@@ -1,0 +1,10 @@
+
+   Out of Time
+    by SounDemoN
+     Copyright(c) 1999 Otto J„rvinen
+
+This 1kb demo was made for the official #asm compo. Actually, this "1kb demo"
+is not 1024bytes... because I run out of time...
+  ...And why is demo coding always hurrying in the last minute? WHY??
+
+        SounDemoN

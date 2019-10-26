@@ -1,0 +1,25 @@
+
+ ---------------------------------------------------------------------
+ Last minute notes * Last minute notes *  Last minute notes * Last min
+ ute notes * Last minute notes * Last minute notes * Last minute notes
+ * Last minute notes * Last minutes notes * Last minute notes * Last m
+ ---------------------------------------------------------------------
+
+This BBStro requries a 386 to run properly. Nothing is shown on a 286
+200kb of free memory, GUS for sound output, installed vga 
+
+-TROUBLESHOOTING:
+
+PROBLEM : It just won't run !
+SOLUTION: Buy a better computer !!!
+
+Further it needs a GUS to play sound. Without the proper soundcard in-
+stalled the BBStro still runs, but no music is played.
+PROBLEM : You own an installed GUS, but no sound is played.
+SOLUTION: Check that your "ULTRASND" environment variable is set up
+          correctly1
+
+! Hint Hint Hint Hint Hint Hint Hint Hint Hint Hint Hint Hint Hint Hint !
+ ! Adore the BBStro to the end, cauz if ya don't you'll miss something !
+
+<EOT> 

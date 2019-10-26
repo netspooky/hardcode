@@ -1,0 +1,96 @@
+       
+                   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                   ³           E I G E N            ³
+                   ³                                ³
+                   ³     ÄÄÄ Documentation ÄÄÄ      ³
+                   ³                                ³
+                   ³ (C) July 1998  Dave/PhyMosys   ³
+                   ³    Email: dave@bglinks.com     ³
+                   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+
+        Contents:
+        ş Credits
+        ş Hardware Requirements
+        ş Released Stuff
+        ş Greetz
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ ş Eigen? what does it mean?! ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+This word comes to me when I was studying for an university computer
+science exam... in fact, it's a part of the word EIGENVALUE which speaks
+for itself. eigenvalue stands for the solution of a differential equation
+(a equation which includes its own derivate). I was studying for an hour
+when, suddenly, I got inspired when read Eigenvalue... so I though it
+would be a good idea to use Eigen (it's shorter than Eigenvalue ;) ).
+Navi (and some others asked it), so you now know what it means.
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄ¿
+³ ş Credits ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÙ
+Code:  Dave
+Music: Mercure
+Gfx:   Aktiv
+
+Also, I *must* credit the following people:
+Adam Seychell (DOS32 extender)
+FreddyV/Useless (Useless Sound Player support)
+
+Navi: for his support giving ideas for the code and for sharing ideas
+when coding the intro.
+
+And finally, I'll give lof of thanx to the following 'trackers':
+Gutek: for tracking his tresor music.
+Maza: maybe one of the BEST composer I have ever known. Thanx for
+      your support with the Cosmosis (demo edit). Really cool.
+
+DjBlaze: mmh... 'I Into your dream...', tell me if you have NOT released
+         it... maybe we will use for another demo.
+
+Vim: uh.. nice&weird drums. Much more better 'Postcare.XM'...
+     Thanx for your support.
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ ş HARDWARE REQUIREMENTS ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+This intro requires a fast machine (at least a 486 with fpu), 2 Mb RAM,
+VBE 2.00 support (download UNIVBE of Scitech Software), GUS or SB and
+the proper time to watch it :)
+I said a 486... well, to be honest, I have NOT seen it in a 486,
+however, I've seen it in a Pentium 90 Mhz and I can tell you this was
+incredible slowly B O R I N G ... But in my Pentium 133 Mhz it runs
+fast and very fine. It's NOT my fault... coz I have my P133 for taking
+profit of it... ;)
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ ş RELEASED STUFF ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   Filename        Size   Released   A Short Description
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-
+   MANGA.ZIP      487 kb    8-9-95   The 1st Manga&Anime demo, VGA & SB
+   QUANTUM.ZIP    590 kb  14-11-96   Multi-Part demo, VGA & SB
+   MIND.ZIP       247 kb   10-7-97   Track Demo, VGA & SB
+   DGT2B.ZIP      159 kb    3-5-98   Image proc. Tool, VBE 2.00, 386+
+   EIGEIN.ZIP         kb   24-7-97   64k track intro,VBE 2.00,GUS,SB,486+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄ¿
+³ ş Greetz ³
+ÀÄÄÄÄÄÄÄÄÄÄÙ
+Special greets goes to J&I, maybe one of the BEST coder I know... How
+goes the GMS? heheh, I'm sure you don't have time to code any byte of it..
+.. working is a shit, I know. :)
+
+Axe: for being a beginner coding fx in the entire university...
+
+Gandalf: uf!! for helping me with some network problems when uploading
+         files. Thanx!
+
+Adok / Twinsen / Goblin / Clef / Shock / Biki / Nephoo / Aslan
+Altair / Gaffer / Kneebiter / Action / Kalms / Ravian  / ....
+... have I forgot some1? anyway, greetings to regular ppl in #coders

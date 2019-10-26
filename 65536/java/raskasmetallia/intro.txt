@@ -1,0 +1,96 @@
+             _____ _____ __ __ __ _____ _____ ________.________
+        .====\____|     |  |  |  |     |     |  ____/ |   ____/======.
+        |::::::\__|  |  |  |  '  |  |  |  |__|  ___|  |_  ___|:::::::|
+        |::::::::\|     |  |     '     |     \  |  |  | \ |  |:::::::|
+        |:::::::::|__|__|__|__|__|__|__|__|__/___  |____/__  |:::hJ::|
+        `=======================================\__|======\__|======='
+                                  64 kB Intro
+                 Released at Assembly 03, 7-10 August 2003
+
+   How to start the intro
+   ----------------------
+   On some operating systems (like Windows for example) the intro will start
+   simply by double clicking the file "intro.jar". If this does not work,
+   you can start the intro from command line with the following command:
+
+   java -jar intro.jar
+
+
+
+   Software Requirements
+   ---------------------
+   The intro is a Java application, so you naturally need to have Java
+   installed to run it. The intro requires Java 2 Standard Edition (J2SE)
+   Java Runtime Environment (JRE), version 1.4.2 or higher. You can download
+   J2SE JRE 1.4.2 for Windows, Linux and Solaris from here:
+
+   http://java.sun.com/j2se/1.4.2/download.html
+ 
+
+
+   Hardware Requirements
+   ---------------------
+   Modern CPU (> 1 GHz) and some memory (> 128 MB) are needed to run this
+   intro. If the intro seems to run too slowly, try to run it with a lower
+   resolution.
+
+
+
+   Contact
+   -------
+   You can send your questions, comments, bug reports and feedback
+   regarding this product to:
+
+   aikarele@winning.com
+
+
+
+   Other products
+   --------------
+   You can download our other products from:
+
+   http://www.pouet.net/groups.php?which=1307
+
+
+
+   Copyrights
+   ----------
+
+   This product uses ADPCM codec, which has been ported to Java by Aikarele.
+   Here is the copyright notice of the original codec:
+   -------------------------------------------------------------------------
+   Copyright 1992 by Stichting Mathematisch Centrum, Amsterdam, The
+   Netherlands.
+    
+                           All Rights Reserved
+
+   Permission to use, copy, modify, and distribute this software and its 
+   documentation for any purpose and without fee is hereby granted, 
+   provided that the above copyright notice appear in all copies and that
+   both that copyright notice and this permission notice appear in 
+   supporting documentation, and that the names of Stichting Mathematisch
+   Centrum or CWI not be used in advertising or publicity pertaining to
+   distribution of the software without specific, written prior permission.
+   
+   STICHTING MATHEMATISCH CENTRUM DISCLAIMS ALL WARRANTIES WITH REGARD TO
+   THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND
+   FITNESS, IN NO EVENT SHALL STICHTING MATHEMATISCH CENTRUM BE LIABLE
+   FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+   WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+   ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT
+   OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+   -------------------------------------------------------------------------
+
+   
+   - --.                                                                .
+  .-|-.                                                      .      .:__
+  `-' | ______  ______  ______  ______  ___.____  ______  ___:.    __|  \
+   .--'/      \/      \/      \/      \/   |    |/      \/   |    /  |   \_
+   | _/   |  _/   |___/   |___/   |___/        _/   |___/    |___/   |    /
+   | \_   _  \_____  \_____  \_   ____)   \_/  \_   _  \_    |  \_   '  _/
+   `-.|   |   |   |   |   |   |   |   |    |    |   |   |    '   |      |.-->
+     ||___|___|____   |____   |____   |____|    |____   |____    |______||hJ
+     `-----------.\___|.-.\___|.-.\___|.--.|____|.-.\___|.-.\____|.------'
+                 `-----' `-----' `-----'  `------' `-----' `------'
+
+

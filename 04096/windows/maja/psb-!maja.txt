@@ -1,0 +1,32 @@
+
+psb-!maja.exe 
+4k
+Breakpoint 2008
+
+
+credits:
+code.............................psion'psb 
+code support.....................fei^rr
+
+
+
+                 28
+
+
+Following resources done were used:
+
+1) picture of Aln in ajway.exe by Aln^{Picco,Appendix,Mawi,Whatever} 
+2) http://www.andrzejewicz.com/images/maja.jpg
+3) crinkler: http://www.crinkler.net/
+4) http://in4k.untergrund.net/ (THANKS!)
+5) Some few lines of asm math functions were taken directly from the 4k intro seminar done by  Polaris and s_tec at Block Party 2007
+6) idct algorithm
+7) finally: "Small footprint OpenGL init code made by Rasmus Christian Kaae (kaae@daimi.au.dk)"
+That's *probably* all!
+
+Aln, dziêki za kierownicê :)
+
+---------------------------------------------------------------
+visit: www.riverwash.info 
+for the news about the last one real demoscene party in Poland.
+---------------------------------------------------------------

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style> body {margin: 0}</style>
+    <title></title>
+</head>
+<body>
+<canvas id="myCanvas" width="1270" height="720"></canvas>
+<script>
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+
+    var canvas = document.getElementById('myCanvas');
+    var context = canvas.getContext('2d');
+    for (var j = 40; j < 255; j+=10) {
+for (var i = 0; i < 1000; i+=30) {
+    context.beginPath();
+    context.moveTo(400 % i * j, 250 % j * i);
+    context.lineTo(450 %j, 50 % i);
+    context.lineWidth = 150 % (i / j);
+    context.stroke();
+    context.strokeStyle = 'rgba('+i % 255 +','+j % 255 +','+i*j%255+',.1)';
+    context.stroke();
+    context.lineCap = 'round';
+    context.stroke();
+}
+    }
+
+    var centerX = canvas.width / 2;
+    var centerY = canvas.height / 2;
+    for (i = 0; i < 1000; i+=100) {
+        var radius = i;
+
+        context.beginPath();
+        context.arc(centerX, centerY, radius, 0, 2 * Math.PI, false);
+        context.fillStyle = 'rgba('+j % 255+','+i % 255+',200,.25)';;
+        context.fill();
+        context.lineWidth = 0;
+        context.strokeStyle = '#003300';
+        context.stroke();
+
+    }
+
+for (i = 0; i < 1000; i+=100) {
+    context.beginPath();
+    context.rect(88+i, 88+i, 95+i, 95);
+    context.fillStyle =  'rgba('+i % 255+','+j % 255+',39,.4)';
+    context.fill();
+    context.lineWidth = 4;
+    context.strokeStyle = 'black';
+    context.stroke();
+}
+
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+2014/10/07
+
+ecworld was distributed along with most downloads on Emulation Camp around 1997-1999.
+Babyloon made the software and I created the level. 
+
+
+The music are using HSC-Tracker 1.4 (C)1993/94 by Zwerg Zwack and Chicken
+I don't know who made the music tracks. The filenames for the music tracks are'
+
+	1869CARI.HSC 6,196 bytes
+	1869DANG.HSC 9,652 bytes
+    1869INTR.HSC 11,956 bytes
+    SUMERFUN.HSC 18,868 bytes (main track)
+
+The game unfortunately relies on keyboard repeat delay/rate to act in a way which doesn't seem properly emulated by DosBox?
+- the repeat delay may have been faster in MSDOS 6.22 that what DosBox uses
+- more importantly, on sequences like hold-left,hold-right,release-left, the "right" doesn't get repeated in DosBox.
+It makes EcWorld harder and more frustrating to play that it used to be in MS DOS 6.22.
+I don't know if there&s a DosBox setting for what..
+
+Zoop

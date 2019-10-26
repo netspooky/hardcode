@@ -1,0 +1,46 @@
+                       
+                       4 k  -  S I L Y C O N E
+              ------------------------------------------
+        
+          An 4kb-Intro presented at Hype-97 in Malmoe (Sweden),
+        14-16th Feb. It took 2nd place out of 13 more or less
+        seriously ment compos. This intro is optimized for Size
+        and NOT for speed, therefore it needs a P133 to run
+        at 70 fps (total time 3:35).
+
+                   Code:           Spyko
+                   Graphics:       Graphics? Whats that?
+                   Music:          Sorry, there was no
+                                     space for that. 
+
+
+        What type of computer do you need?
+
+        þ  It will probably run on a 386, but the computer will
+           be completely covered with silicon, so DONT do it!
+           As I said, on a P133 everything runs smooth at 70 fps.
+        þ  The intro needs about 256 kb free memory, it may work
+           with less, but I dont take any responsibility for what
+           happens afterwards.
+           
+        
+        Greetings go to:
+
+        þ  Every cool demo coder, graphician or musician.
+        þ  Everyone who codes assembler. 
+        þ  The ones who organized Hype-97 (although they messed
+             it up a little).
+
+
+
+        Right now Im not a member of any demogroup, but if you feel
+	like contacting me, send mail to one of the addresses below.
+
+        þ  e-mail:  spyko@geocities.com		please try this first
+                    spykoo@hotmail.com     	
+		    nv6cclpe@malmo.mb.se     	until summer-99
+
+        þ  Slowmail:            Petrik Clarberg
+                                Sarvgr„nd 2d
+                                21612 Malm”
+                                SWEDEN

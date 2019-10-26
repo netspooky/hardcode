@@ -1,0 +1,152 @@
+***************************************************************
+                      ACES OVER CASSOVIA
+          2048B long game - entry for #asm size compo
+                     Ped / 7 Gods (C) 2000
+     mailto:ped@7gods.rulez.sk      http://7gods.rulez.sk
+***************************************************************
+
+ requirements: I was lazy to do whatever checks in the game, so
+make sure you give it all, because it may crash your machine if
+not. Anyway, there is not too much space for check-code in 2048
+bytes.
+
+ hardware:
+  386+ processor (well, I would recommend at least P166 !)
+  80387+ coprocessor
+  about 96kB of free conventional memory (problem ?)
+  VGA compatible graphics card supporting mode 320x200x256col.
+
+ system:
+  MS-DOS / Win9x / WinNT / Win2k. WinNT may have problem with
+ "13h" (320x200x256) mode, but it will likely work ok.
+  BIOS INT 10h call supporting ax=1001h function. (changes
+  overscan color and ALSO should wait for vertical retrace)
+  This again may be unsupported by WinNT, and it very likely
+  will NOT work in windowed mode. (use fullscreen always)
+
+ problems:
+* game sprites are flickering (invisible), mostly in upper part
+  of screen.
+   - your computer is too slow for this game. It is possible to
+   fix this with double buffering, but this would require some
+   more memory and more sophisticated and longer code.
+* game is kinda too fast ...
+   - you are trying to run it in window ... go fullscreen!
+   - it may be, that you have a monitor refresh rate too high
+   and the game timing is dependent on that. Anyway, the faster
+   = the better. The worst case may be, that the BIOS call I am
+   using for delaying game does not work with your BIOS as
+   expected...
+* any other problem is very likely a feature or a bug, in the
+  latter case please report it at ped@7gods.rulez.sk.
+
+***************************************************************
+
+ story:
+
+ Year 1914: The first world war has just began and you are the
+  hero in the first air squadron of your army. Several days you
+  had been taking off to shot down enemy balloons photographing
+  your army positions, spying on the other side  and trying new
+  plans of supporting ground attacks from air ...
+
+ But this morning happened something definitely new.
+
+ Your commander got an urgent message about the enemy airplane
+  shooting down your balloons! Your advance in air space has
+  gone within seconds in puff of smoke. But the Generality
+  already got a plan, how to regain the advance.
+
+ Yes, it's you, who will take off with the gun loaded into the
+  air today, with a brand new mission. You should shoot down
+  the enemy airplane! Your fingers are already twitching and
+  eyes are widely openned in awaiting of new adventure in the
+  blue sky. There could be just one best pilot in the world,
+  and you will prove it today that your enemy is not even
+  worth to be called pilot.
+
+ Two heroes, two airplanes, one balloon, and lot of ammunition.
+
+ Only the better one will survive...
+
+***************************************************************
+
+ Controls and other stuff about game:
+
+ ACES OVER CASSOVIA is a game for two players (no computer plr.
+  available, because I'm a lazy  bastard, and the AI would took
+  a serious space of these precious 2048B, and human -vs- human
+  is definitely the BEST fun you could get from computer game).
+
+ Each player has an airplane (red or green). And there's one
+  unindentified balloon in the hot sector. Your commands are
+  clear, shoot down both the enemy airplane and balloon.
+  (for each hit you will be awarded by 1 point).
+
+ The first player capable to collect 15 points is winner of the
+  game.
+
+ Player one controls:
+   Q = turn up (from pilot's view)      X = shoot
+   A = turn down                        C = take off
+
+ Player two controls:
+   Up arrow = turn up                   numpad_plus = shoot
+   Down = turn down                     numpad_enter = take off
+
+ After end of game press any "take off" button to restart game.
+ Press ESC to quit game.
+
+ Crashing into ground or into balloon tower is a suicide
+ (+1pt goes to your opponent, very unpleasant experience)
+ You may also hit yourself with own shot ! (suicide also)
+ Hitting the upper boundary of screen will cause you to fall as
+  if you were trying to climb up too fast.
+ If you are falling, turn into direction you are falling and
+  regain speed, otherwise be prepared to hit the ground.
+ An object flying out of screen to the right/left will appear
+  on the opposite side.
+ I do believe, that rest of rules you will easily figure out by
+  yourself.
+
+ This game is actually not my idea, I played it for hours with
+  my dad at some 8-color-128x100-pixel-resolution-console, when
+  I was younger. I wish I could show you few nasty tricks we
+  learned at that time, but you have to figure out by yourself.
+  I'm not sure, if I did get the game play right in this
+  conversion ... if you are already addicted to it, than I DID.
+ And if you don't like it, than blame ME, the original was
+  perfect (almost outcoming DOOM deathmatch)!
+
+ And to all those asm gurus watching my sources and thinking
+  about shrinking the code a lot ... When I was writing it, I
+  focused much more at readability, than size optimising,
+  because I did know, that I'll fit into 2kB easily. (what
+  a fool I am ... I had hard time to fit in even with APACK)
+  And it was lot faster to write it this way. So I got more
+  time to write this cool TXT file with story, and other things
+ (lately I even changed some parts into longer code for better
+ packing results by APACK packer ! ... sometimes more is less)
+
+***************************************************************
+
+ disclaimer:
+  This software product is distributing as General Public
+ package. I'm not responsible for any damage caused by this
+ product, you are using (holding, ...) it completely at own
+ risk.
+  The product may be redistributed further as long as no profit
+ is involved on any side and the package is unchanged.
+  Any work based on portions of this product must be released
+ under same license and must give me a credit for my work.
+  These license conditions are not detailed and accurate, for
+ more precise license details check any world known GP license
+ applicable in this case and contact me for approving it.
+
+***************************************************************
+
+ This stuff has been produced by cool-mega-ultra-kick-ass ego
+  calling itself Ped (Peter Helcmanovsky) / 7 Gods demo group
+  mailto:ped@7gods.rulez.sk             http://7gods.rulez.sk
+ Mail me, if you got your hands upon this game, I'll love to
+  hear from you. And don't forget to check our WWW pages.

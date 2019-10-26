@@ -1,0 +1,22 @@
+Hi there.
+
+This is my 32K Release for "No Party"
+Its just Qbasic and stuffs.
+Don't blame me for the integrated interpreter..
+And the "music"...
+And no "gfx"...
+
+Well, but the Effects did turn out all right.
+I think.
+
+The files:
+
+Noparty.exe is for Pentium 2's around 233Mhz
+Noparty_fastPC.exe is for Pentium 4's around 2,5-3Ghz or something.
+
+The "effects" are using the CGA display only, since this
+mode is easy to use for some reasons...
+
+ahem.
+
+Exin

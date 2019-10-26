@@ -1,0 +1,86 @@
+             _____ _____ __ __ __ _____ _____ ________.________
+        .====\____|     |  |  |  |     |     |  ____/ |   ____/======.
+        |::::::\__|  |  |  |  '  |  |  |  |__|  ___|  |_  ___|:::::::|
+        |::::::::\|     |  |     '     |     \  |  |  | \ |  |:::::::|
+        |:::::::::|__|__|__|__|__|__|__|__|__/___  |____/__  |:::hJ::|
+        `=======================================\__|======\__|======='
+                                  64 kB Intro
+                 Released at Assembly 02, 1-4 August 2002
+
+   Frequently Asked Questions:
+
+Q: What does the intro require?
+A: The intro requires Java 2 Runtime Environment, Standard Edition Version
+   1.4.0 (or later), which is referred to as JRE 1.4 later in this document.
+   See the links in the end of this document. The intro does NOT require
+   a 3D graphics card or Java 3D. A modern CPU (> 1 GHz) and some memory
+   (> 128 MB) would definitely help. If you have a slow computer, you
+   should watch the intro in windowed mode, since it's much faster.
+
+Q: What operating systems does the intro support?
+A: The intro will (hopefully) work with any operating system which has JRE 1.4
+   installed. Currently JRE 1.4 is available at least for Linux, Windows,
+   Solaris and HP-UX. Beta versions are also available for AIX and OS X.
+   Note: some operating systems do not support the full screen mode, so
+   the intro might automatically start in windowed mode.
+
+Q: How do I start the intro?
+A: Depends on your operating system. On some operating systems (like Windows
+   for example) the intro will start simply by double clicking the file
+   "intro.jar". If this does not work, you can start the intro from command
+   line with the following command:
+   java -jar intro.jar
+
+Q: Can I start the intro with a web browser?
+A: No, the intro is not an applet, it is an application and you can not start
+   it with a web browser. Aikarele might release a Web Start version of
+   the intro later.
+
+Q: What is the soundbank.gm file?
+A: The file is part of the intro and it is used for software sound synthesis.
+   The file is only needed with the Windows JRE.
+
+Q: Why does the music sound so terrible with Windows JRE?
+A: Do you have soundbank.gm in the same directory where the intro is? If not,
+   the intro might use hardware synthesis, which sounds terrible. Sometimes
+   this might also happen if you start the intro by double clicking it. Try to
+   start the intro from command line. If you are able to change the volume of
+   the music from the Windows mixer Wave volume, software synthesis is used
+   and there is nothing technically wrong with the music.
+
+Q: The resolution and colors are weird in full screen mode, what can I do?
+A: This might happen sometimes (JRE 1.4 bug). Try to restart the intro, this
+   normally helps.
+
+Q: Who owns the copyrights to the photos in the intro?
+A: All the photos © Copyright 1975-2002 Aikarele
+
+Q: Does the intro use JPEG image compression? What about the recent patent
+   claims by Forgent Networks Inc.?
+A: The intro does not use JPEG. The image compression algorithms have been 
+   developed by Aikarele and the algorithms are (hopefully) patent free.
+
+Q: How can I send feedback to Aikarele?
+A: You can send your questions, comments and feedback to Aikarele by e-mail:
+   aikarele@winning.com
+
+   JRE 1.4 is available for downloading at the following sites:
+
+   Windows, Linux and Solaris:
+   http://java.sun.com/j2se/1.4/download.html
+
+   HP-UX:
+   http://www.hp.com/products1/unix/java/java2/sdkrte14/downloads/
+
+   AIX:
+   http://www.alphaworks.ibm.com/java/
+
+   OS X: (not available for public at the time of writing)
+   http://www.apple.com/java/
+
+   Java     is a registered trademark of Sun Microsystems, Inc.
+   Windows  is a registered trademark of Microsoft Corporation
+   Linux    is a registered trademark of Linus Torvalds
+   Solaris  is a registered trademark of Sun Microsystems, Inc.
+   AIX      is a registered trademark of IBM Corporation
+   OS X     is a registered trademark of Apple Computer, Inc.

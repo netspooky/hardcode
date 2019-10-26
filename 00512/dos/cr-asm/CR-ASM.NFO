@@ -1,0 +1,183 @@
+                                                                       ____   
+      ,----..  ,-.----.                ,---,       .--.--.           ,'  , `. 
+     /   /   \ \    /  \              '  .' \     /  /    '.      ,-+-,.' _ | 
+    |   :     :;   :    \     ,---,. /  ;    '.  |  :  /`. /   ,-+-. ;   , || 
+    .   |  ;. /|   | .\ :   ,'  .' |:  :       \ ;  |  |--`   ,--.'|'   |  ;| 
+    .   ; /--` .   : |: | ,---.'   ,:  |   /\   \|  :  ;_    |   |  ,', |  ': 
+    ;   | ;    |   |  \ : |   |    ||  :  ' ;.   :\  \    `. |   | /  | |  || 
+    |   : |    |   : .  / :   :  .' |  |  ;/  \   \`----.   \'   | :  | :  |, 
+    .   | '___ ;   | |  \ :   |.'   '  :  | \  \ ,'__ \  \  |;   . |  ; |--'  
+    '   ; : .'||   | ;\  \`---'     |  |  '  '--' /  /`--'  /|   : |  | ,     
+    '   | '/  ::   ' | \.'          |  :  :      '--'.     / |   : '  |/      
+    |   :    / :   : :-'            |  | ,'        `--'---'  ;   | |`-'       
+     \   \ .'  |   |.'              `--''                    |   ;/           
+      `---`    `---'                                         '---'            
+
+                                                Prod:     CR-ASM
+                                                Size:     512b
+                                                Type:     Demotool?
+                                                Platform: MS-DOS (386+)
+                                                Group:    The Cronies
+                                                Date:     July 6, 2015
+                                                Contact:  orbitaldecay@gmail.com
+
+-~=<|$| Introduction |$|>=~-----------------------------------------------------
+
+    This is a self-hosting assembler (i.e. it can assemble it's own source code)
+in 512 bytes! It assembles a Turing-complete subset of the x86 instruction set.
+It accepts the source file via STDIN and writes the machine code to STDOUT. Feel
+free to give it a go:
+
+    cr-asm.com <cr-asm.asm >cr-asm2.com
+
+Notice that cr-asm2.com is identical to cr-asm.com. You can do
+
+    cr-asm2.com <cr-asm.asm >cr-asm3.com
+
+ad infinitum (if you're insane and you get your jollies from that sort of thing)
+
+-~=<|$| Caveats |$|>=~----------------------------------------------------------
+
+    There are some caveats to the CR-ASM assembly language. Obviously, this was
+never intended to be seriously used, but is rather a proof of concept. I'll
+enumerate the short-comings up-front for the sake of fairness:
+    
+    1. As mentioned earlier, it only implements a small subset of the x86
+       instruction set.
+
+    2. It is CaSe-SeNsItIvE. All alphabetic characters must be capitalized.
+    
+    3. It does not tolerate any extraneous white-space (no blank lines, etc.)
+    
+    4. There is no support for comments or labels :( This makes it about as fun
+       to code in as MS-DOS DEBUG.
+    
+    5. There is no support for decimal values. All constants are assumed to be
+       hexadecimal.
+       
+    6. The source file must end with two blank lines (this signals to the parser
+       to exit). I know. It's super lame.
+       
+    7. If there is a syntax error in the source code, CR-ASM typically hangs.
+       Again, super lame, but what do you want out of a 512 byte assembler?
+       
+    8. No support for UNIX style lines. <CR><LF> must immediately follow each
+       instruction (no white-space after the instruction).
+    
+    9. Only registers AX, CX, DX, BX, SP, BP, SI, and DI are supported. No
+       support for segment registers.
+       
+    10. Many of the mnemonics that CR-ASM uses are not the official mnemonics.
+        This was to make parsing the instructions easier.    
+    
+    11. Other snags that I'm not thinking of at the moment.
+       
+-~=<|$| Supported instructions |$|>=~-------------------------------------------
+
+    Each instruction must be entered EXACTLY as described here. No extra
+white-space ANYWHERE! In particular, watch out for white space after the end of
+the instruction.
+
+MOV XX, YYYY
+
+    Move the hexadecimal value YYYY into the register XX. YYYY must be exactly
+    four characters long. Use leading zeros where needed. This is the only form
+    of the MOV instruction that is supported. If you need to move values between
+    registers, use pushes and pops.
+    
+INT YY
+
+    Call interrupt YY where YY is a hexadecimal value that is exactly two
+    characters long.
+    
+PSH XX
+
+    Push the register XX onto the stack. Notice the mnemonic deviates from the
+    official "PUSH".
+    
+POP XX
+
+    Pop the stack and store in register XX.
+    
+INC XX
+
+    Increment register XX.
+    
+DEC XX
+
+    Decrement register XX.
+    
+CMPD
+
+    Double-word compare DS:SI to ES:DI and increment SI and DI. Notice the
+    mnemonic deviates from the official "CMPSD".
+    
+CMPW
+
+    Word compare DS:SI to ES:DI and increment SI and DI. Notice the mnemonic
+    deviates from the official "CMPSW".
+    
+LODW
+
+    Read a word from DS:SI into AX. Notice the mnemonic deviates from the
+    official "LODSW".
+    
+LODB
+
+    Read a byte from DS:SI into AL. Notice the mnemonic deviates from the
+    official "LODSB".
+    
+STOW
+
+    Write a word from AX to ES:DI. Notice the mnemonic deviates from the
+    official "STOSW".
+    
+STOB
+
+    Write a byte from AL to ES:DI. Notice the mnemonic deviates from the
+    official "STOSB".
+    
+JNE YY
+
+    If the zero flag is not set, then add YY to the instruction pointer where
+    YY is a hexadecimal value that is exactly two characters long.
+    
+JMP YYYY
+
+    Add YYYY to the instruction pointer where YYYY is a hexadecimal value that
+    is exactly four characters long.
+    
+CAL YYYY
+
+    Push the current instruction pointer and add YYYY to the instruction
+    pointer where YYYY is a hexadecimal value that is exactly four characters
+    long. Notice the mnemonic deviates from the official "CALL".
+    
+RETN
+
+    Pop the stack and copy the value to the instruction pointer (near return).
+    Notice the mnemonic deviates from the official "RET".
+    
+-~=<|$| Pseudo-instructions |$|>=~----------------------------------------------
+
+    In addition to the aforementioned instructions, CR-ASM supports two commands
+which allow the user to write data directly to the output. Notice these commands
+will write the characters which follow precisely (that includes white-space,
+new-lines, etc.).
+
+DSW XX
+
+    Write the characters XX to the output file.
+    
+DSD XXXX
+
+    Write the characters XXXX to the output file.
+    
+-~=<|$| Bye-bye! |$|>=~---------------------------------------------------------
+
+    Well, that about wraps it up. Thanks for taking the time to check out my
+little labour of love. I'd love to see someone pull this off in 256b. If you do,
+make sure to drop me a line. Greets go out to sensenstahl, jmph, frag,
+g0blinish, Rrrola, YOLP, and all size-coders.
+
+                                                               orbitaldecay 2015

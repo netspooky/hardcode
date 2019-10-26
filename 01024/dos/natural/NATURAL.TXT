@@ -1,0 +1,26 @@
+.MODEL 1Kintro
+.586P
+ORG 100H
+
+Don't_try_to_compile_this:
+  Call 		Initialize_VGA640x480x16
+  Call  	Do_da_intro_"Natural"
+  Call		Enjoy_it_this_oldskool!!!
+  Jmp		@@Greetz
+  Mov		ah,9
+  Mov		dx,Offset Email_me_if_u_like_it!
+  Int		21H
+  Mov		ax,4c00H
+  Int		21H
+
+@@Greetz:
+  Tbyte, blala/elvont^byteam, NeT & Atx/CHROME (thnx for sound-synthesis
+  help), Deadline/Quad, Inopia/Quad, Kendall Bennett/SCiTECH co., Fyr/iMAGE, 
+  Hugo Habets, Jace/TBL, SilentBreed, Zd3n, Kravitz/Sublogic, Magic/E9,
+  Franky^RT (thnx for sound-synthesis help), MrZ/Ai, Reptile/Ai
+  Retn
+
+Email_me_if_u_like_it! 	db 'simlastik@rocketmail.com',13,10
+			db 'simlastik@usa.net','$'
+
+END Don't_try_to_compile_this

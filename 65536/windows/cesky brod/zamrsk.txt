@@ -1,0 +1,37 @@
+100% train coding
+
+100% bzoom
+
+cesky brod - zamrsk / clrsrc
+train demo - coded and tracked during 2hrs in the train from prague to brno
+
+code and visuals by shakul
+music by nula
+moral support by raist
+(also uses minifmod and upx)
+
+bzoom 2006
+
+
+
+
+ http://clrsrc.wz.cz/
+ http://nuane.com/n2/
+
+Command line switches:
+  -window = run in a window
+  -fullscreen = run fullscreen (default)
+
+Requirements:
+  Modern nVidia or ATI graphic card with recent drivers installed.
+
+Notes about compatibility:
+  I used GL_EXT_framebuffer_object extension a lot, because it is the simplest
+  and most efficient way of rendering into an OpenGL texture. Other methods are
+  either slow, cumbersome, or both.
+  However, since this extension is still quite recent (2004), it might still be
+  unsupported by older hardware or outdated drivers.
+  If you suffer from this limitation, please let me know (get the e-mail address
+  from http://nuane.com/).
+
+end

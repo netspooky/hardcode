@@ -1,0 +1,29 @@
+
+                    - f ú a ú m ú o ú u ú s
+                        c ú y ú b ú e ú r
+                      p ú e ú o ú p ú l ú e -
+
+                starring: ice antony shad gandalf
+
+ú technical notes ú ems,dpmi support have been removed for some size
+improvement, thus do only keep himem in your startup-sequence (config.sys)
+It is useless to run this intro on something lower than P75, because of the
+floating point unitú it is also GUS only
+
+A final version with dpmi and sb support will be released.
+
+ú thanks to Galvados/Jamm for the samples hint. We love you.
+
+ú contact ú for any reason 
+
+            general contact:  pulse@ace.epita.fr
+
+     ice - daniel groth - groth_d@epita.fr (0ffh% reply) or at
+         - 21, rue du 14 juillet - 94270 le kremlin bicetre - france
+    shad - 22, avenue du general Leclerc - 94470 BOISSY SAINT LEGER - FRANCE
+  antony - antony squizatto
+         - 3, rue artaud blanval - 63000 clermond ferrand - france
+ gandalf - yvon@sept.fr
+
+
+                      call A.C.E  +33-(0)145887548

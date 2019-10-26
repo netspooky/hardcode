@@ -1,0 +1,9 @@
+Title:      Trill
+Created by: Stepanov Andrey, 2007
+Packed by:  kkrunchy 0.23 alpha 2 >> radical exe packer (c) f. giesen 2003-2006. (farbrausch)
+
+I can say almost no comments for this project - this is the first (and, possibly, the last) 
+attempt to make 64Kb demo, broken by my laziness and good kkrunchy packing ratio.
+I should better create 4Kb demos :)
+
+

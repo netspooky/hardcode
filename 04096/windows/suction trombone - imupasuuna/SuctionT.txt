@@ -1,0 +1,33 @@
+-------------------------------   tAAt  2002   -------------------------------
+
+Suction Trombone - Imupasuuna
+	tAAt 2002
+
+	Invitation to Altparty 2003 party.
+	
+	Alternative Party 2003
+	10th-12th January 2003
+	Gloria Helsinki Finland
+	http://www.altparty.org/
+
+	This 4KB intro requires OpenGL hardware acceleration.
+	And some Win32 OS or whatever (e.g. Win2k works ok).
+	MIDI music is supported. Check that you have selected
+	a preferred MIDI Music Playback device in
+	Settings->Control Panel->Sounds..Props->Audio.
+	Also make sure your MIDI sound isn't muted and that
+	the volume isn't 0% or so.
+
+------------------------------------------------------------------------------
+                         ,xxx,                    .xx,
+     .,.               .x««««««.                 ,«««««,             .,.
+    x«««;,            .«««P~%«««.               ,«««XX««,          ,::««,
+  .,««««;:,         ,;«««P' .%«««,             ,«««P;;X««p,     ..,:::«««,...
+.xxx««««XXXXXXXXXXXX«««««xxxxx««««XXXXXXXXXXXXX««««xxxx«««XXXXXXXXXXXX«««xxxx.
+  .x«««P::~~~~~~~~:X«««P;~~~""T««««""""""""""x««««~'`;;T««««P~~~~~~::;«««x.
+   ««««;:        .««««P;;      ;««««"       ,««««P   `::X««««,      ::;«««
+  :««««;::      ,««««P;;        ;««««.     .««««P     `::X««««,     ::;«««x
+    ~%«««;:.   :««««P;;          %««««.   .««««P       `::Xx«««;      :;lXXxX.
+        `"~     ~~~~''            `~"~     """"          ~~~~~~         `~~~`
+------------------------------------------------------------------------------
+Internet home: http://tAAt.fi  ---  E-mail: tAAt@tAAt.fi  ---  IRCnet: #tAAt

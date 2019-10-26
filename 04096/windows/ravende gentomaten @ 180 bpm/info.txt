@@ -1,0 +1,17 @@
+
+
+     ------ Ravende Gentomaten @ 180 BPS ----------
+
+
+4k Intro coded by T$ for MS 2000
+
+Requires DirectX (DirectSound + DirectDraw 320*200*32)
+
+Use the 640x480 version if your card does not support 320*200 in 32bit
+(like the shitty newer drivers from nVidia)
+
+Contains about 2.5 k of not really finished code,
+due to 512k PE-Alignment.
+
+The intro does not end by itself - just press ALT - F4
+or any other of the common methods of quitting a windowing app.

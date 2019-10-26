@@ -1,0 +1,34 @@
+
+
+                              Mekanik
+              * * * * * * * * * * * * * * * * *
+
+                     1k intro by Loonies
+	
+                   Released at Outline 2009
+
+
+	Credits
+	=====
+	Code..............................Maytz
+	Crinkler.........................Mentor (TBC)
+	
+
+	Why?
+	====
+	Well, why not :)
+	
+	Put together at Breakpoint 09
+	Finetuned back home 
+	Released at Outline
+	What else is there to say?
+
+	
+	Requirements
+	==========
+	PC, Windows, OpenGL 1.1, Cigars?
+	
+	
+	Additional info
+	==========
+	http://www.loonies.dk 

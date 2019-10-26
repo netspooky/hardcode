@@ -1,0 +1,68 @@
+Anderer_Spieler >>> Setzt Flag, das anderer Spieler an der Reihe ist
+Bauernumwandlung >>> Prft, ob eine Bauernumwandlung stattgefunden hat
+Bemerkung_Schlagen >>> Zeigt eine Bemerkung beim Schlagen der Figur des Spielers an
+Bemerkung_zeichnen >>> Zeichnet eine Bemerkung in das Bemerkungsfenster
+Bemerkungen_Fenster_zeichnen >>> Zeigt das Fenster fr Bemerkungen an
+Bildschirm_l”schen >>> L”scht Bildschirm im Textmodus
+Cursor_aus >>> Macht Cursor unsichtbar
+Cursor_weiter >>> Setzt den Cursor ein Zeichen weiter
+Cursor_zeichnen	>>> Aktualisiert Cursor auf dem Bildschirm
+Cursor_Zeile_tiefer >>> Setzt den Cursor eine Zeile tiefer
+Cursor_Zeile_Umbruch >>> Setzt den Cursor auf den Anfang der n„chsten eine Zeile
+Cursor_zurck >>> Setzt den Cursor ein Zeichen zurck
+Dez_zu_Char >>> Wandelt eine 16 Bit Zahl in eine Asciidezimalzahl um
+Ende >>> L”scht Bildschirm, gibt Copyright aus,speichert Optionen und beendet das Programm
+Farbe_w„hlen >>> Zeigt das Fenster zur Auswahl einer Farbe an
+Figur_andere >>> Prft, ob versucht wird eine eigene Figur zu schlagen
+Figur_Bauer >>> Testet, ob die ausgew„hlte Figur ein Bauer ist
+Figur_Bauers >>> Testet, ob die ausgew„hlte Figur ein schwarzer Bauer ist
+Figur_Bauerw >>> Testet, ob die ausgew„hlte Figur ein weisser Bauer ist
+Figur_Dame >>> Testet, ob die ausgew„hlte Figur eine Dame ist
+Figur_dazwischen >>> Prft, ob zwischen zwei Punkten eine Figur steht
+Figur_Ecksprung >>> Prft, ob die Figur einen Ecksprung gemacht hat
+Figur_entfernen >>> Entfernt eine Figur vom Schachbrett
+Figur_Feld_weiter >>> Prft, ob die Figur ein Feld weiter gerckt wurde
+Figur_gerade_ziehen >>> Prft, ob die Figur waagerecht oder senkrecht gezogen wurde
+Figur_K”nig >>> Testet, ob die ausgew„hlte Figur ein K”nig ist
+Figur_L„ufer >>> Testet, ob die ausgew„hlte Figur ein L„ufer ist
+Figur_l”schen >>> L”scht eine Figur
+Figur_schlagen >>> Prft, ob das Schlagen der Figur an Cursorposition erlaubt ist
+Figur_schr„g_ziehen >>> Prft, ob die Figur schr„g gezogen wurde
+Figur_Springer >>> Testet, ob die ausgew„hlte Figur ein Springer ist
+Figur_suchen >>> Sucht die Speicherstelle der Figur, die an einer bestimmten Brettposition steht
+Figur_Turm >>> Testet, ob die ausgew„hlte Figur ein Turm ist
+Figur_weiss >>> Prft, ob eine Figur weiss ist
+Figur_zeichnen >>> Zeichnet eine Figur
+Figuren_zeichnen >>> Zeichnet alle Figuren an ihren Positionen
+Figuren_zurcksetzen >>> Setzt alle Figuren an ihre Startpositionen
+Figurenwert >>> Berechnet den Wert einer Figur
+Geschlagene_Figur_in_Fenster_zeichnen >>> Zeichnet die geschlagene Figur in dem Fenster fr die geschlagenen Figuren
+Geschlagene_Figuren_Fenster_zeichnen >>> Zeichnet die Fenster fr die geschlagenen Figuren
+Info >>> Zeigt das Infofenster an
+Men >>> Zeigt das Hauptmen an und behandelt Tastatureingaben
+Optionen >>> Zeigt das Optionenmen an und behandelt Tastatureingaben
+Optionen_lesen >>> Liest gespeicherte Optionen aus einer Configdatei
+Optionen_speichern >>> Speichert Optionen in eine Configdatei
+Position_umrechnen >>> Rechnet Schachbrettkoordinaten in Bildschirmposition um
+Regeln >>> Gibt die Regeln auf dem Bildschirm aus (mit Scroller)
+Retrace >>> Wartet auf Screenretrace
+Rochade >>> Prft, ob eine Rochade durchgefhrt wurde
+Schachuhr_zeichnen >>> Zeigt die Schachuhren an
+Schachuhr_Zeit_zeichnen >>> Zeigt die Zeit in den Schachuhren an
+Spielende >>> Zeigt das Spielergebnis an und kehrt zum Hauptmen zurck
+Spieler_Name_einlesen >>> Fragt den Namen des Spielers ab
+Spieler_Namen_ausgeben >>> Gibt die Namen der Spieler ber und unter dem Schachbrett aus
+Spieler_Namen_einlesen >>> Fragt die Namen der zwei Spieler ab
+String_einlesen >>> Liest einen String ein
+Zeichen_lesen >>> Liest Zeichen an bestimmter Schachbrettposition
+Zeichenhintergrund_setzen >>> Setzt den Hintergrund einer bestimmten Anzahl von Zeichen auf eine Farbe
+Zeichenhintergrund_setzen2 >>> Setzt den Hintergrund einer bestimmten Anzahl von Zeichen auf eine Farbe
+Zeichenhintergrund_setzen3 >>> Setzt den Hintergrund einer bestimmten Anzahl von Zeichen auf eine Farbe
+Zug_notieren >>> Speichert den aktuellen Zug im Notationsstring
+Zug_notieren_kurze_Rochade >>> Speichert die kurze Rochade im Notationsstring
+Zug_notieren_lange_Rochade >>> Speichert die lange Rochade im Notationsstring
+Zugnotation >>> Zeigt die Zugnotation in einem Fenster an
+Zugnotation_Fenster_zeichnen >>> Zeigt das Zugnotationsfenster an
+Zufallszahl >>> Liefert eine Zufallszahl in einem bestimmten Wertebereich zurck
+Zufallszahl2 >>> Liefert eine Zufallszahl fr Zufallszge zurck (bugbedingt)
+

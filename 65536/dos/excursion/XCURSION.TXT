@@ -1,0 +1,69 @@
+
+    ÛÛÛÛÛÛ² ÛÛ   Û±  ÜÛÛÛÛÜ Û²   Û² ÛÛÛÛÛ²   ÜÛÛÛÜ  ÛÛ²±  ÜÛÛÛÜ  Û²   Û²
+     Û²   ± ÛÛÜ ÜÛ² ÜÛß  ß² Û²   Û²  Û²  Û² Û²   ßÛ  Û²  ÜÛß ßÛÜ ÛÛ²  Û²
+     Û² Û   ßÛÛÜÛÛß Û²      Û²   Û²  Û²  Û² ßÛ²      Û²  Û²   Û² ÛÛÛ² Û²
+- -ÄÄÛÛÛ²ÄÄÄÄÄÛÛÛÄÄÄÛ²ÄÄÄÄÄÄÛ²ÄÄÄÛ²ÄÄÛÛÛÛ²ÄÄÄÄßÛÜÄÄÄÄÛ²ÄÄÛ²ÄÄÄÛ²ÄÛÛßÛ²Û²ÄÄ- -
+     Û² ±   ÜÛÛßÛÛÜ Û²      Û²   Û²  ÛÛ Û²      ßÛÜ  Û²  Û²   Û² Û² ßÛÛ²
+     Û²   ² ÛÛß ßÛ² ßÛÜ  Ü² ßÛÜ ÜÛß  Û² ßÛ² ÛÜ  ÜÛ²  Û²  ßÛÜ ÜÛß Û²  ßÛ²
+    ÛÛÛÛÛ²± Û²   ²±  ßÛÛÛÛß  ßÛÛÛß  Û²±  Û²± ßÛÛÛß  ÛÛ²±  ßÛÛÛß  Û²   Û²
+
+             ù ù The first 64kb intro from Vista Software ù ù
+
+                   ù ù (Released at Abduction '96) ù ù
+
+                        ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                        ³ù                     ù³
+                        ³       CREDITS         ³
+                        ³                       ³
+                        ³ Coding........Teowand ³
+                        ³ Story (??)....Teowand ³
+                        ³ Music.........Exact   ³
+                        ³ 3D Models.....wing    ³
+                        ³               Exact   ³
+                        ³               Teowand ³
+                        ³ù                     ù³
+                        ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+  This   introduction   was   developed   during   about  two  months  before
+Abduction  '96.  The  intro  takes  only  49761 bytes of  disk  space and its
+playing  time is  about 4:55. I  recommend  you  have a 486/66 MHz for smooth
+action. If you have a 286 you can't run this, because 386 or better is needed
+(the code is faster).This intro runs either without sound or with sound using
+Sound Blaster. GUS is not supported, because I don't know anybody who has got
+a GUS, so I weren't able to test the player.  The intro should work with  any
+memory driver (EMM386, QEMM) and  you  should have  at least 500 kilobytes of
+free basememory. If the intro didn't work after all, don't  blame us, because
+you're running it with your own risk.
+
+
+PS. Vista will change its name after Abduction '96. We don't know yet what it
+    will be, so follow the situation . . .
+
+
+Contacting us:
+
+E-Mail: theo@ksilta.edu.ouka.fi (Teowand)
+        theo@freenet.hut.fi
+        poopo@freenet.hut.fi    (Exact)
+        toy@ksilta.edu.ouka.fi  (Toy)
+        xtoy@freenet.hut.fi
+        juusop@hauki.hauaol.fi  (DGp)
+        tomi@sci.fi             (Seos)
+        wing@freenet.hut.fi     (wing)
+        mutant@sci.fi           (Mutant)
+        doomsday@ksilta.edu.ouka.fi (Shodan)
+
+Mail:   Tero Karras
+        Haapanatie 36 C 4
+        90150 Oulu
+        Suomi, Finland
+
+        Jarno Koole
+        Haapanatie 30 b
+        90150 Oulu
+        Finland, Suomi
+
+Phone:  +358-81-330261          (Teowand)
+        +358-81-331331          (Exact)
+

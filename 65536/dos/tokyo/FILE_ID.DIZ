@@ -1,0 +1,12 @@
+ 
+  ...
+    	
+    program   64k intro by PFC
+    uses      VESA20,GUS    
+    begin
+      code   :=  SunmaN;
+      grafix :=  Greendrug;
+      music  :=  Manwe;
+    end.
+                      ...
+

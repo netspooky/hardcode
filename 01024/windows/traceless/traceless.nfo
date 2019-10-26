@@ -1,0 +1,18 @@
+                               traceless
+
+A windows 1k intro by TBC released at the 1k competition at Assembly 2012.
+
+Requirements:
+- Any version of windows xp, vista or 7.
+- A fast DX9 graphics card supporting shader model 3.0.
+- A display supporting 1280x720.
+- DirectX Runtime (February 2005 or newer)
+  http://www.microsoft.com/windows/directx/
+
+Credits:
+- code, cruncher: mentor
+- music: Puryx
+- name dropping: Leia
+
+Special Thanks:
+- Peter Ferrie for some dirty exe header tricks

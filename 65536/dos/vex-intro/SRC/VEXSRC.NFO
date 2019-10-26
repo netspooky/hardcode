@@ -1,0 +1,37 @@
+
+                                VEX-Intro V1.1
+                 (c) '94+'95  Dirk Jagdmann / Niklas Beisert
+
+
+                                  THE SOURCE
+
+
+******************************************************************************
+                                  ATTENTION!
+                           this source is VOTEWARE,
+              you may only use it to the conditions listed below:
+
+  -You may modify it, or use parts of it in your own source as long as
+    this header stays on top of all files containing this source.
+  -You must give proper credit to the author, Niklas Beisert / pascal.
+  -You may not use it in commercial productions without the written
+    permission of the author.
+  -AND MOST IMPORTANT: you have to buy an Assembly '94 CD-ROM
+    by Sound Solutions (if you don't have it already) and vote for VEX-InTrO
+    in the PC-64k-Intro-Compo! (if you have already sent your voting card,
+    buy another one and fill it out CORRECTLY!!!)
+******************************************************************************
+
+
+
+
+This is the source of VEX v1.1, without the sound-system and the overlay
+functions.
+
+To compile VEX you must have Borland C++ 3.1 and TASM 3.1.
+Compile and link MAKESCN.CPP, MAKEDAT.CPP, MERGEPIC.CPP, CONVFNT.CPP
+using the large model and call MAKEVEX.BAT.
+Then use the BC project file VEX.PRJ to compile VEX (change the directories
+to your configuration)
+
+This should be all to have a running version of VEX.

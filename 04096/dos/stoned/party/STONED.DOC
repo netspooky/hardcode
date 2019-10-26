@@ -1,0 +1,97 @@
+
+             ÛÛ    Û                                  Û
+            ÛÛßÛ   Û                                 ŞÛ
+           ŞÛİ    ŞÛÛÛ                               ÛÛ
+           ÛÛÛ    ÛÛß   ÜÜÛÛÜ    ÛÛ        ÜÜÜ       ÛÛ
+            ÛÛİ    Û   ÜÛß ÛÛİ  ŞÛÛÛÛÜ    ÛßßÛİ   ÜÜÛÛİ
+             ÛÛÜ   Û   ÛÛ  ŞÛÛ  ŞÛ  ßÛÛ  Ûß  Ûİ  Ûß ßÛ
+              ÛÛİ  ÛÛ ŞÛ    ÛÛİ  Û   ŞÛ ŞÛ  ÛÛ  Û    Ûİ
+               ÛÛ  ÛÛ ŞÛ     ÛÛ  ÛÛ  ŞÛİŞÛÜÛÛ  ŞÛ   ŞÛİ
+           Ü   ÛÛ  ŞÛ ŞÛ     ÛÛ  ŞÛİ  Ûİ Û     ŞÛİ  ŞÛİ
+            ÛÜ Ûİ  ŞÛ  ÛÛÜ  ÜÛÛ   Ûİ  Û  ÛÛ  Ü  ÛÛÜ  Ûİ
+             ÛÛÛ    ÛÛ  ÛÛÛÛßß    Û  Ûß   ÛÛÛ    ßÛÛÛÛÛ
+                     ÛÜ             ŞÛ
+                                    ß   (C)opyright 1994 by Markus Stein
+
+
+ş ABOUT THE INTRO şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+    This is the  quick reference  for my first 4KB Intro which was coded for
+  the Assembly'94 4KB Intro Competition.
+    It is very likely that we (Dust) will release another version which will
+  have Adlib Sound,  full XMS/HIMEM support and error-messages.  That wasn't
+  possible in this version because of the 4KB limit.  The other intro is not
+  going to be much longer than 5KB, though.
+    There may also the  SOURCE-CODE coming along with that version depending
+  on how many people are interested in it.
+
+    The question what happens during the long time until the intro starts is
+  easy to answer: the fractal is calculated (rotating & zooming is enough
+  real-time calculations) and all tables for execution are set up.
+
+
+
+ş HOW TO GET IT GOING şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+  In order to get it going, you'll need the following:
+
+  ù preferably a 486, but it does also run on a normal 386
+  ù a standard VGA
+  ù about 3MB of XMS and 512KB of Base Memory (a PC with 4MB)
+  ù A clean configuration. You can also have one that does only use 
+    HIMEM.SYS, but you cannot use more than 192KB of XMS -> no smartdrive
+  ù about 4KB of diskspace
+
+
+
+ş TROUBLESHOOTING şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+    If it doesn't run (i.e. you start it and are back to DOS immediately) 
+  you have (or don't have) one or more of the following:
+
+  ù a 386 or higher processor
+  ù not enough XMS memory (your PC needs 4MB altogether)
+  ù not enough Base Memory (you'll need more than 512KB)
+  ù the wrong configuration: remember to have a clean boot (press F5 while
+    booting if you have MS-DOS 6.0 or higher), or a HIMEM-configuration. If
+    you use an Expanded Memory Manager such as EMM386 or QEMM it won't run!
+  ù enough time to wait for the start-up message to disappear
+
+    If  it  hangs  during  execution  or  afterwards,  you  have  the  wrong
+  configuration.
+
+
+
+ş CONTACT şÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  ÄÄÄÄÄÄÄ
+
+  To contact me, write to: Markus Stein (alias Stone/Dust)
+                           Nahestr. 51
+                           53840 Troisdorf
+                           Germany
+              Or FAX me at +49-2241-75688
+
+  Sorry, but right now I don't have E-Mail, but I hope that's going to
+  change soon.
+
+  FIDO 2:2444/2000
+
+  You can also call Crusader BBS Dust WHQ and leave a message:
+
+                  +49-2306-850263 (Zyxel 19k2)
+                           80937  (Zyxel 19k2)
+                           80837  (Zyxel 19k2)
+                           81337  (Zyxel 19k2)
+                           982011 (ISDN 2k Frame)
+                           982015 (ISDN 16k  "  )
+
+
+  Note that the number of Dust Euro HQ has changed. Crystal BBS will be
+  online again Thursday, 11.08.1994. The new one is +49-6734-1839.
+
+
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş STONE/DUST, August 3rd 1994

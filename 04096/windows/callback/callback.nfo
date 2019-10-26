@@ -1,0 +1,30 @@
+
+
+
+           ______________________________________
+         __\                                    /__
+   __ ___|____________  _________  _________  ____|__________     ________  __
+  _) _)      __      |__\___    /__\___    /__)     __      |___ /       /   /
+  |  |       |/______|     /_____|    /______|      |/______|  \/  _____/___/
+  |  |_______|    |_________| |________|   |________|    /__________\    \
+         |                                        |
+         |   a       r       r       a       y    :
+         |                                        .
+         |
+         :    'Callback' by Analog44/Array.
+         .    
+              Uses some insane routines to animate and light up
+              the 32*24 plane, Direct3D8 to render it and UPX to
+              make the file smaller.
+ 
+              Yes. The only thing this intro contains is a 32*24 plane of 
+              polygons. It's just twisted, rotated, f'ed up, etc...
+              Cheap tricks, but results are good. Right?
+
+              Note: Screenmode is taken from the current desktop settings.
+              For maximum visual quality, set your desktop to 32bit colors
+              before running this intro. Don't start from fullscreen
+              DOS-prompt or it will most probably crash.
+              
+              analog44@arraylabs.org
+              http://www.arraylabs.org

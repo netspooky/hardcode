@@ -1,0 +1,41 @@
+# Säännöt
+.SUFFIXES: .nsm
+.c.o:
+	gcc -o $@ -c $< $(CCFLAGS)
+.nsm.o:
+	nasm -o $@ $< $(ASFLAGS)
+
+# Liput
+#CCFLAGSNOASM = -O1 `sdl-config --cflags` -I/usr/include/GL -ffast-math \
+#	-fno-inline -fmove-all-movables  -fno-loop-optimize \
+#	-fexpensive-optimizations -fpeephole2 -fshort-double
+CCFLAGSBASE = $(shell sdl-config --cflags) -I/usr/include/GL -Os -Wall -march=pentium3
+LFLAGS = $(LDFLAGS) $(shell sdl-config --libs) -lGL -lGLU -nostdlib
+SFLAGS = -K .bss -K .text -K .data -R .comment -R .note -R .note.ABI-tag -R .fini -R .gnu.version
+
+# Data
+BINARY = origami_unpacked
+
+# Vaihda näitä
+ASFLAGS = -f elf
+CCFLAGS = $(CCFLAGSBASE) -DFLAG_NOSTDLIB -DFLAG_FULLSCREEN
+OBJ = origami.o origami_start.o
+
+all: origami
+
+.PHONY: clean re
+
+clean:
+	-rm $(OBJ) $(TARGET)
+
+re: clean all
+
+origami: $(BINARY)
+	cp -f unpackhdr $@
+	cat $(BINARY) | gzip -c -9 -n >> $@
+	chmod a+rx $@
+	ls -l $@
+
+$(BINARY): $(OBJ)
+	gcc -o $@ $(OBJ) $(LFLAGS)
+	strip $(SFLAGS) $(BINARY)

@@ -1,0 +1,25 @@
+/////////////////////////////////////////////////////////
+//       Lem32 by emuman MS 2001 combo version         //
+//*****************************************************//
+//  - Just open start.html                             //
+//  - move cursor with cursor keys or mouse            //
+//  - activate with left mouse button or space         //
+//  - levelskip with "n"                               //
+//  - switch to 640x480 for fullscreen with Internet   //
+//    Explorer                                         //
+//  - everybody should understand this game :)         //
+//*****************************************************//
+//                                                     //
+//  - 5 levels in 32K                                  //
+//  - runs with any Java 1.1 complient and Javascript  //
+//    enabled Browser                                  //
+//  - Javascript just used to open lem32.html, so      //
+//    start it directly, if you've disabled Javascript //
+//  - testet with IE 5.x, Netscape 4.7 Win+Linux+Mac   //
+//    and JDK 1.3                                      //
+//  - 100% pure Java                                   //
+//  - no use of java.sun.* packages (more compatible,  //
+//    but no chance for realtime music)                //
+//                                                     //
+///////////// 32k game combo at MS 2001 /////////////////
+

@@ -1,0 +1,19 @@
+
+ .l u x o 4 k
+
+ .rgba & cns - 2007
+
+
+
+ .a < 4096 bytes version of one of the oldest cg shots
+
+ .purpose built for the san francisco demoscene outreach tour 
+  in 2007 [http://demotrip.blogspot.com]
+
+ .big big hugs and a happy birthday to rick sayre / pixar!
+
+
+ 
+ .gfx code : iq               [www.rgba.org/iq]
+ .snd code : gargaj           [umlaut.intro.hu/~gargaj]
+ .crinkler : mentor+blueberry [www.crinkler.net]

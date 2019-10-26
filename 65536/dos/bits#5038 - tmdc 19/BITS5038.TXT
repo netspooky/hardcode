@@ -1,0 +1,22 @@
+           BITS5038           
+           TMDC  19           
+           20161218           
+
+      .---------------.       
+      | .  o  *    .  |.      
+      |   .    O    * ||      
+      |* .    .   .   ||      
+      |     .   *    .||      
+      |   o        .  ||      
+      | .    O   .    ||      
+      |  * .      o   ||      
+      |.    .   o    *||      
+      '---------------'|      
+       '---------------'      
+
+eMail: h.samso@gmail.com      
+WWW: thebitsclub.tripod.com   
+
+Herman Samso J.,              
+20161218(c)Copyright.         
+All Rights Reserved.          

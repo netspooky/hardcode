@@ -1,0 +1,7 @@
+
+"A day at work" 64Kb intro by Movedata
+July 2003
+
+Requires a decent PC with OpenGL support and some sound.
+
+

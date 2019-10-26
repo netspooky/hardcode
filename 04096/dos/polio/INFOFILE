@@ -1,0 +1,47 @@
+
+                                                                .o@OOO@.
+                              OOOOO@ooo.                        OOOOOOOO
+                               OOO""OOOOOOO@ooo.              .oOOOOOOOO
+                                OOo     """"OOOOO@o       .o@OOO""4OOO"'
+                                 OOo         .oOOO"    .o@OO""'
+                                .OOO.    .o@OOO""  .o@OOO"'
+                            .o@OOO""  .o@OOO"'  .o@OO""
+                         .o@OO"'   .o@OO""'  .o@OO"'
+                      .o@OO"'  .o@OOO"'  .o@OOO"'
+                  .o@OOO"'  .o@OOO"'   o@OO""'
+               .o@OOO"'  .o@OO7"'      "OO.
+           o@OOO""'    o@OOO.          "OO.
+    .o@OOOOOOO"'         """OOOOOoooo.   "OO.
+    OOOOOOOO'                  """"OOOOOOOOOO.
+    OOOOOOOO                            """""
+    `"OOOO"'                                          POLIO - 4kb intro
+
+                                                        Neurogen 1999
+
+
+       fx code, optimize                - magnum
+       main code, samples, player, logo - pasp
+       textures                         - led, pasp
+       music                            - plug
+
+       packer                           - kimmy/pulp
+       flatmode                         - herman dullink (raped by pasp)
+
+
+
+                nrn's POLIO formula:      3     fx
+                                      +   3     texures
+                                      +   4     palettes
+                                      +   2     logos
+                                      +   200kB of samples
+                                      +   2 months of coding
+                                   ---------------------------
+                                      =   4089  bytes.... :>
+
+
+
+     -?-
+             himem.sys + ultrinit.exe(or sth) only!
+
+          kill winshit and emm386 or similar memory trashers.
+                                                               -?-

@@ -1,0 +1,125 @@
+             ллллллллл ллллл ллллллллл ллллллллл ллллллллл ллллллллл
+             ппппп ллл ппппп ллллл ппп ппппп ллл ллллл ллл ллллл ппп
+   АБААБББВББлллллллллВлллллВлллллВлллВлллллллллВлллллллллВлллллВлллББВБББААБА
+             ллллл ммм ллллл ллллл ллл ллллл ммм ллллл ллл ллллл ллл
+             ллллллллл ллллл ллллллллл ллллллллл ллллл ллл ллллллллл
+           ьэь Info package -ь- Revision 01 (4th February 1995 AD) ьэь
+
+кФФФФ-Ф--Ф---ФФФ-----Ф--Ф-Ф--Ф---Ф---------- -- - - - ---- ---   --           |
+Г        ьэь Welcome ьэь                                                      |
+Г                                                                             |
+Г      This textfile was written to inform you and give you all what you      Г
+|     need to know about one new demo group called ZigZag. We will update     |
+Г      this file as things are change. Newest version of this textfile can    Г
+|      be found in any our (new) release, or on all our distros/HQs. List     Г
+|      of ZigZag releated boards can be found on the end of this textfile.    Г
+|        -   - -- - - -- - - --- -- ----- --------Ф--Ф--Ф--Ф-ФФФФФ-Ф-ФФФФФФФФФй
+
+кФФФФ-Ф--Ф---ФФФ-----Ф--Ф-Ф--Ф---Ф---------- -- - - - ---- ---   --           |
+Г        ьэь Contents ьэь
+Г                                                                             |
+Г     -1- MemberList                                                          |
+|     -2- How to Become ZZ Member                                             |
+Г     -3- List of ZZ Releated Boards                                          |
+|     -4- How to Become Distro or HQ for ZigZag                               Г
+|     -5- List of Released Products                                           |
+      -6- Contact info                                                        Г
+|        -   - -- - - -- - - --- -- ----- --------Ф--Ф--Ф--Ф-ФФФФФ-Ф-ФФФФФФФФФй
+
+кФФФФ-Ф--Ф---ФФФ-----Ф--Ф-Ф--Ф---Ф---------- -- - - - ---- ---   --           |
+Г        ьэь -1- MemberList ьэь
+Г                                                                             |
+Г   ь Alias ь      ь Real Name ь         ь City/State ь       ь Main job ь
+|     SEXToN         Ivan Juricic          Rijeka/Croatia       Organiser,PR  |
+Г     Helix          Domagoj Pensa         Crikvenica/Croatia   Coder         |
+|     GENii          Luka Pensa            Crikvenica/Croatia   Grafix, SysOp Г
+|                                                               of ZZ WorldHQ |
+|     ROMARiO        Antonio Reis Nakasato R. de Janeiro/Brasil Courier       Г
+      Calvin Klein   Alejandro Demarco     B. Aires/Argentina   Courier       Г
+|        -   - -- - - -- - - --- -- ----- --------Ф--Ф--Ф--Ф-ФФФФФ-Ф-ФФФФФФФФФй
+
+кФФФФ-Ф--Ф---ФФФ-----Ф--Ф-Ф--Ф---Ф---------- -- - - - ---- ---   --           |
+Г        ьэь -2- How to become ZZ member ьэь
+Г                                                                             |
+Г     ZigZag is looking for more members worldwide. If you want to become     |
+|      courier, grafixan, coder or musician (most wanted!), get in touch      |
+Г            with us. We'll tell you what to do next. But, remember:          |
+|                ZigZag IS LOOKING ONLY FOR EXPERTS, NOT LAMERZ!              Г
+|     That's it.... if you feel good enough, wanna have a good time with      |
+|      people from whole world and you are not a racist just contact us,      Г
+                   we'll be happy to welcome you in a group.                  Г
+|        -   - -- - - -- - - --- -- ----- --------Ф--Ф--Ф--Ф-ФФФФФ-Ф-ФФФФФФФФФй
+
+кФФФФ-Ф--Ф---ФФФ-----Ф--Ф-Ф--Ф---Ф---------- -- - - - ---- ---   --           |
+Г        ьэь -3- List of ZZ Releated Boards ьэь                               |
+Г                                                                             |
+Г   ь Name ь           ь Number ь         ь Status ь  ь SysOp ь    ь Nodes ь  Г
+|     ECLiPSE            +385-51-242-472    World HQ    GENii/ZZ       1      |
+Г     Blue Water         +41-81-947-4232    Euro HQ     Thorax         1      Г
+|     Shelter Base       +49-81-413-4445    German HQ   Blade          1      Г
+|        -   - -- - - -- - - --- -- ----- --------Ф--Ф--Ф--Ф-ФФФФФ-Ф-ФФФФФФФФФй
+
+кФФФФ-Ф--Ф---ФФФ-----Ф--Ф-Ф--Ф---Ф---------- -- - - - ---- ---   --           |
+Г        ьэь -4- How to Become Distro or HQ for ZigZag ьэь                    |
+|                                                                             |
+Г      ZigZag is searching for BBSes which wanna to be our distro or HQ.
+Г     If you want to become that you have to call our World HQ (ECLiPSE)      |
+Г     and login as ZZ, password: WANNABE. There, when you logon, try to       |
+Г      page SysOp or leave a comment to him with all informations about       |
+|     your board. We'll check you out and call you back in next 48 hours.
+Г     Your board have to:                                                     |
+Г                  ь work 24/24h per ONE day                                  |
+|                  ь be DEMO/ART releated, not some all-around giga oriented  Г
+Г                  ь have at least 200MB OnLine                               |
+|                  ь be free access board with NO pirated software OnLine     Г
+|                  ь have all ZZ EVER released stuff FREE for DL!             Г
+      ZigZag can guarantee you that your board would be mentioned in every    Г
+      ZZ release, you would be aible to get from GENii ANSi/ASCii for FREE    |
+|     		     (look on some boards how they look like).                Г
+     What we can't guarantee, but it's likely to happen is that your board    Г
+      			     would become more popular.                       Г
+|        -   - -- - - -- - - --- -- ----- --------Ф--Ф--Ф--Ф-ФФФФФ-Ф-ФФФФФФФФФй
+
+кФФФФ-Ф--Ф---ФФФ-----Ф--Ф-Ф--Ф---Ф---------- -- - - - ---- ---   --           |
+Г        ьэь -5- List of Released Products ьэь
+|                                                                             |
+Г     As you already know ZigZag is new group, but it has some releases.      |
+|   Here WOULD NOT be mentioned products released under ex-name of ZigZag
+|     - The Software Zone. Our releases are:                                  |
+         ь GENIIART.ZIP      13477 bytes  27-01-95  GENii's small artpack     Г
+|        ь ECLINTRO.ZIP       5023 bytes  04-02-95  BBStro for ECLiPSE        |
+      Expect more releases soon. All those releases should be FREE DL on      Г
+|    			   all ZigZag releated boards.                        Г
+|        -   - -- - - -- - - --- -- ----- --------Ф--Ф--Ф--Ф-ФФФФФ-Ф-ФФФФФФФФФй
+
+кФФФФ-Ф--Ф---ФФФ-----Ф--Ф-Ф--Ф---Ф---------- -- - - - ---- ---   --           |
+Г        ьэь -6- Contact Info ьэь
+Г                                                                             |
+|     You can get in touch with ZigZag members on several ways. This are
+|          those ways to get in touch and you choose which you want.          |
+Г        ь By BBSing                                                          |
+|               ECLiPSE BBS - ZigZag World HQ                                 Г
+|                       +385-51-242-472 - 16-o8h CET, 24h wknds
+Г                              [soon 24/24h phoneline]                        |
+|        ь Via FAX                                                            |
+|               +385-51-266-477 - at SEXToN's place                           Г
+         ь Via PHONE                                                          |
+|               +385-51-266-477 - 08-22h CET - at SEXToN's place 
+Г               +385-51-242-469 - 12-20h CET - at GENii & Helix's place       |
+                                PLEASE, NO LAME CALLS!                        |
+|        ь Via SNAiL-MAiL                                                     |
+|               SEXToN/ZZ               GENii/ZZ (or Helix/ZZ)                Г
+                (c/o Ivan Juricic)      Vukovarska 129                        |
+|               Severinska 12           51260 Crikvenica                      |
+|               51000 Rijeka            CROATIA                               Г
+                CROATIA                                                       |
+        ь Via e-mail                                                          Г
+|               voyager@rijeka.riteh.hr - for SEXToN                          Г
+                LUKA.PENSA@ZAMIR-ZG.zer.ztn.de - for GENii                    Г
+|        -   - -- - - -- - - --- -- ----- --------Ф--Ф--Ф--Ф-ФФФФФ-Ф-ФФФФФФФФФй
+
+        THANK YOU FOR READiNG THiS iNFO FiLE. GREETZ TO ALL DEMO GROUPS
+                                  WORLDWIDE. 
+
+                                                        Signing off,
+                                                                GENii/ZZ

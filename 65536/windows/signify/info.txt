@@ -1,0 +1,25 @@
+
+Signify, by inque 
+
+:: release info :: ----------------------------
+
+a 64k demo released at Revision 2013.
+
+sorry for the heavy precalc.
+
+needs a heavy graphics card. NOT
+optimized. confirmed to run fine on a geforce
+670.
+
+ohw and requires DirectX 10
+
+:: credits :: ---------------------------------
+
+code/visuals -- glow
+soundtrack/direction/visuals -- izard
+general management or something -- cyrex
+other stuff (mostly beer) -- cosmiq
+
+:: cya :: -------------------------------------
+
+www.inque.org

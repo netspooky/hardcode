@@ -1,0 +1,25 @@
+--------------
+Solar Activity
+--------------
+
+ 4k intro for Function 2017 demoparty
+
+ Requires DX11, Shader Model 5 (d3dcompiler_47.dll)
+ ~8 bytes sacrificed to have realtime music playback instead of the annoying precalc
+
+Authors
+-------
+ code:  Nyaki
+ music: Mr.D
+
+Tools Used
+----------
+ 4klang 3.0.1 by Gopher & pOWL
+ Crinkler 2.0 by Mentor & Blueberry
+ Shader Minifier 1.1.4 by Ctrl-Alt-Test
+
+ Characters were encoded inside the shader using https://www.mikrocontroller.net/attachment/35584/chartable.png
+
+
+
+PS: No galaxies were harmed in the making of this intro

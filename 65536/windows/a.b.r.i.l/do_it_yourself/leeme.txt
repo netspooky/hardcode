@@ -1,0 +1,13 @@
+ABRIL Toolkit
+-------------
+
+Si deseas puedes modificar las escenas de la intro.
+Están escritas en un subconjunto limitado del POV (http://www.povray.org).
+No estoy en condiciones de explicarlo, así que si quieres modificarla, haz pruebas y luego llama a 'pak.bat'
+
+El módulo estaba también en otro fichero, pero lo metí dentro del código para que cupiese en 64k. 
+
+   Lemoniac/NecroStudios (aldomon@inf.upv.es)
+
+PD: si la gente me lo pide, liberaré el código, pero advierto de antemano que es peligroso intentar comprender algo de él (a pesar de estar todo en C/C++).
+

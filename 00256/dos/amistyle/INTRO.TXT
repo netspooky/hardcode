@@ -1,0 +1,23 @@
+AMISTYLE
+~~~~~~~~
+	This is my entry into the Xmas #coders 256-byte intro
+competition.  Simple effect, inspired by past Amiga demos!  For
+smoothest animation don't run under Win-blows!
+
+	Also supplied is a 444-byte intro which was what I was
+originally trying to do in 256-bytes but couldn't get it below
+412 bytes!
+
+	Lastly, I think rather than doing 256-byte intros, we
+should be doing 512-byte intros.  In 256 bytes once you've put
+down the code to change modes (to hires and back), set-up the
+palette, test for ESCape, wait for VertBlank, copy off-screen
+buffer (if used) there isn't a hell of a lot of space left for
+the actual effect.  In 512 bytes it is actually possible to
+create a fairly complex and interesting effect and is much more
+worthwhile.  Hell, in 512 bytes it's even possible to go 3D!
+Also, 512 bytes is the same size as a boot-sector! It could be
+called the Bootro compo! :D
+
+Ciao...
+SHAYDE/REALITY Dec97            shayde@wave.co.nz

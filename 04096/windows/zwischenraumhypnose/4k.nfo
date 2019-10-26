@@ -1,0 +1,35 @@
+Zwischenraumhypnose
+
+A 4k intro for 0a000h coded by T$ (ts@deinmeister.de)
+
+Requires DirectX8, 3D graphic accelerator + Soundcard
+Initialization can take some time on slower CPUs
+
+Files included:
+
+The following versions use 32bit color depth, 32bit z-buffer and 16bit textures:
+0a4k_640x480x32.exe
+
+The following versions use 32bit color depth, 24bit z-buffer and 16bit textures:
+0a4k_640x480x32D24.exe
+0a4k_1280x1024x32D24.exe
+
+The following versions use 32bit color depth, 16bit z-buffer and 16bit textures:
+0a4k_800x600x32D16.exe
+
+The following versions use 16bit color depth, 16bit z-buffer and 16bit textures:
+0a4k_640x480x16.exe
+0a4k_800x600x16.exe
+
+The following version uses 16bit color depth, 16bit z-buffer and 16bit textures
+and renders on the second display adapter:
+0a4k_640x480x16_2ndcard.exe
+
+
+The following color modes are used:
+Display format : X8R8G8B8 or R5G6B5
+Z-buffer format: D32, D24S8 or D16
+Texture format : R5G6B5
+
+Not that some cards use X1R5G5B5 rather than R5G6B5 for 16bit rendering.
+In this case, try using the 32bit version instead.

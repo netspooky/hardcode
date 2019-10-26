@@ -1,0 +1,185 @@
+
+
+
+
+      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+      ³                                                               ³
+      ³       FIRST OF ALL, THE MOST FREQUENTLY ASKED QUESTION:       ³
+      ³                                                               ³
+      ³           "HOW TO USE 'HANDY' AS A SIMPLE TETRIS?"            ³
+      ³                                                               ³
+      ³             Well, start with the '-t' parameter.              ³
+      ³                                                               ³
+      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+
+
+
+      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+      ³                                                               ³
+      ³                    General information                        ³
+      ³                                                               ³
+      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+	This intro was coded for the Assembly'94 4k-intro competition
+	by Ervin of Abaddon. It took two weeks to code it (at the end
+	of the first week my harddisk went totally wrong so I had to
+	rewrite half of the files.) The Tetris routine was previously
+	written as a bootsector game.
+
+
+
+
+
+      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+      ³                                                               ³
+      ³                    Manual of the intro                        ³
+      ³                                                               ³
+      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+	Parameters:	with the '-t' or '-T' parameter the proggy
+			will behave like an ordinary Tetris. (Game mode.)
+			In this mode the objects's falling rate in the
+			beginning is not so fast than in Intro mode.
+
+
+
+	Without parameters you will see the ordinary intro. ESC quits
+	the whole proggy (or the Tetris routine). You can play in Intro
+	mode too, but if you fail the intro will be continued.
+
+
+
+	Control keys:	Left arrow: Move object one column left.
+			Right -"- : -"-   -"-   -"-   -"-  right.
+			Up    -"- : Rotate " 90 degrees (clockwise).
+			Backspace : New game. (Works for intro mode too).
+			Escape    : Quit tetris (intro part).
+			Pause     : Pause. (Restart with any other key
+				    (except shift, alt, etc...)
+
+			Down key, space, other unlisted keys increase object's
+			falling rate.
+
+
+
+	The current Tetris record is 204 (in Game mode). It was earned by me
+	during testing the routines.
+
+
+
+
+
+      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+      ³                                                               ³
+      ³              ABADDON sends best regards to:                   ³
+      ³                                                               ³
+      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+		Phantom	Dezign		Grif
+		Majic 12 		Remal
+		Future Crew		Accession
+		Sonic PC		Surprise! Productions
+		Dust			Triton
+		Access Denied		Iguana
+		Avalanche		Xography
+		Renaissance		Nothing
+		Demons			Xeed
+		Epical			Electromotive Force
+		Skylab			Absolute!
+		Dark Zone		Twilight Zone
+		Imphobia		Infiny
+		Cascada			Silents
+		Delusion		Nil
+		Crescent		Therapy
+		Admire			Anarchy
+		Criminal Gang		Fulmar Design
+		Logic Design            Irrestible Works
+		Machine Fun Crew	Razor 1911
+		Tristar & Red Sector	Pentagon
+
+
+
+
+      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+      ³                                                               ³
+      ³          Personal greetings from Ervin go to:                 ³
+      ³                                                               ³
+      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+		Greg			Abyss
+		Genesis			Gore
+		Ian			Jare
+		TSC			Kapsu
+		Alma			Lord Cyrix
+		Ratt			Pehu
+		MegaDuo			Sam
+		TRS			Sigfrid
+		Alex			Tran
+		B'no			Maxwood
+		Ern0			Ludwig
+		Gery		        Steve
+		Mania›                  SB
+		Rian                    Hyp-X
+		Stiny¢                  Rodrigo
+		Tixi                    Sygase
+		Atya			Overlord
+		Poko			TMT
+
+
+
+
+
+      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+      ³                                                               ³
+      ³                     Curent Memberstatus                       ³
+      ³                                                               ³
+      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+		TomCat			Coder
+		G.O.D.			Coder
+		Ervin			Coder
+		TGFX			Graphician
+		Ninja                   Graphician
+		InnocenT                Graphician
+		Valentine               Musician
+		NF                      Swapper
+		Bandee                  BBS ruler/Swapper
+
+
+
+
+
+
+      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+      ³                                                               ³
+      ³                      Distribution Site                        ³
+      ³                                                               ³
+      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+		Black ’bySS		(+36)76-485-719
+
+
+
+
+
+       ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+       ³                                                              ³
+       ³                        Contact                               ³
+       ³                                                              ³
+       ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+		Ervin   		Ervin T¢th
+					HUNGARY	1126
+	Voice Phone: +36-1-201-9563	Budapest
+					Kiss J nos alt. str. 48/a
+					(Code & dox only!)
+
+
+
+		Bandee			Andr s N‚meth
+					HUNGARY ????
+	Phone:	     +36-96-355-440	Gy“r£jbar t
+					Veres P ln‚ str. ?.
+					(Utilz, games too!)

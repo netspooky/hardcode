@@ -1,0 +1,17 @@
+
+================
+ vector wars 4k
+================
+
+2008 jetset entertainment
+
+Version 1.1
+-----------
+
+* Changed keyboard settings from WASD to cursor keys to be independent of a QWERTY keyboard
+
+Version 1.0
+-----------
+
+* First public release
+

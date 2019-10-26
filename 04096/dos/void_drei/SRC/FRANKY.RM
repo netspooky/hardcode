@@ -1,0 +1,222 @@
+
+; ÄÄÄ copyright (c) 2k-1 by frank baumgartner (franky@scene.at) ÄÄÄ
+
+;
+; SB DMA output	:	ca. 200 bytes	(original RM version: 169 bytes)
+;
+
+SAMP_RATE       =       44100		;Hz
+DMA_BUFSIZE     =       4096		;bytes
+
+DMA_BUFOFF      =       ( 65536 - 2*4096 - DMA_BUFSIZE )
+
+SPEED           =       32		;ÄÄÄ sequencer ÄÄÄ
+BPM             =       768
+TIMER_FREQ      =       ( BPM*2/5 )
+
+_DSP_RESET      =     	06h             ;ÄÄÄ DSP ports ÄÄÄ
+_DSP_READ	=	0ah
+_DSP_WRITE      =     	0ch
+_DSP_STATUS     =	0eh
+
+DC_TIMECONST    =       40h             ;ÄÄÄ DSP commands ÄÄÄ
+DC_DMASIZE      =       48h
+DC_AUTO8BIT     =       90h             ;(high speed)
+DC_SPKR_ON      =       0d1h
+
+bptr	EQU	byte ptr
+wptr	EQU	word ptr
+dptr	EQU	dword ptr
+
+
+font_decode	MACRO
+
+        ; ÄÄÄ get & decode bios font ÄÄÄ
+
+        mov     ax, 1130h               ;get 8x8 bios-font ...
+	mov     bh, 3
+	int     10h                     ;font -> ES:BP
+        mov bx, -8*256
+        @copyloop:
+            mov al, es:[bp]
+            mov font_buf[bx+8*256], al
+            inc bp
+        inc bx
+        jnz @copyloop
+ENDM
+
+	CODE_16		SEGMENT
+
+rm_entry:				;þþþ RM init code þþþ
+
+        font_decode                     ;ÄÄÄ decode bios font ÄÄÄ
+
+        push    OFFSET sound_start
+
+sound_ask:				;ÄÄÄ SB quiz ÄÄÄ
+
+        lea     dx, msg_base		;get SB base
+        call    @@ask
+        shl     al, 4
+	mov	ah, 02h
+        mov     intro_zero.sb_base, ax
+
+
+
+	lea	dx, msg_dma		;get SB dma
+@@ask:
+	mov	ah, 09h
+        int     21h
+	xor	ax, ax
+        int     16h
+	aaa
+        mov     bptr intro_zero.sb_dma, al
+
+        ret
+
+dsp_reset:                     		;ÄÄÄ DSP reset ÄÄÄ
+
+        xor     ax, ax
+        inc     ax
+        add     dl, _DSP_RESET
+
+        mov     ch, 10h                 ;DSP reset
+@@r:	out	dx, al
+	loop	@@r
+
+	dec	ax			;DSP reset end
+	out	dx, al
+	ret
+
+sound_data:                             ;ÄÄÄ constant SB data ÄÄÄ
+
+	msg_base        db      "SoundBlaster base address ? ( 1 = 210h, 2 = 220h, ... )", 24h
+	msg_dma         db      13, 10, "dma ? ( 0, 1 or 3 )", 24h
+
+	dma_page        db      87h, 83h, 81h, 82h
+
+	dsp_init_tab    db      DC_TIMECONST
+	                db      NOT (1000000 / SAMP_RATE)
+	                db      DC_DMASIZE
+	                dw      (DMA_BUFSIZE + 1)/2 - 1
+	                db      DC_SPKR_ON
+	                db      DC_AUTO8BIT
+
+	dma_init_tab    dw      DMA_BUFSIZE - 1
+	                db      58h
+
+        timer_frq       db	36h
+			dw      1193180 / TIMER_FREQ
+
+
+sound_start:                            ;ÄÄÄ start DMA output ÄÄÄ
+
+        lea     si, dsp_init_tab
+
+; ÄÄÄ DSP setup ÄÄÄ
+
+        mov     dx, intro_zero.sb_base
+        call    dsp_reset               ;reset DSP
+
+        add     dl, _DSP_WRITE - _DSP_RESET
+
+        mov     cl, 7
+@@init:
+        in      al, dx                  ;wait for DSP
+        test    al, al
+        js	@@init
+        lodsb				;write to DSP
+        out     dx, al			; (outsb doesn't work on PCI emu's)
+        loop    @@init
+
+; ÄÄÄ DMA controller setup ÄÄÄ
+
+	mov	ax, ds			;calculate DMA mem address
+	add	ax, DMA_BUFOFF SHR 4
+        xor     al, al
+	mov	intro_zero.sb_dmaseg, ax
+	out	0dh, al			;reset DMA controller
+	out	0ch, al
+
+        mov     bx, intro_zero.sb_dma
+	imul	dx, bx, 2		;write DMA mem address
+	out	dx, al
+	shr	ax, 4
+	out	dx, al
+
+        inc     dx                      ;write DMA block length
+	outsb
+	outsb
+
+	mov	dl, dma_page[ bx ]	;write DMA page
+	xchg	al, ah
+	out	dx, al
+
+        lodsb                           ;write DMA transfer mode
+        add	al, bl
+        out     0bh, al
+
+        xchg    ax, bx                  ;mask DMA channel
+        out     0ah, al
+
+; ÄÄÄ RTC setup ÄÄÄ
+
+        mov     dl, 43h                 ;set RTC frequency ...
+	outsb
+        mov     dl, 40h
+        outsb
+        outsb
+
+	CODE_16		ENDS
+
+
+; ÄÄÄ PM stuff ÄÄÄ PM stuff ÄÄÄ PM stuff ÄÄÄ PM stuff ÄÄÄ PM stuff ÄÄÄ 
+
+sb_dma_pos      MACRO                   ;returns: esi = current DMA position
+					;	  es  = DMA buffer selector
+	xor	eax, eax
+	out	0ch, al			;clear DMA addr. flipflop
+
+					;get port nr.
+        imul    edx, dptr [ebx].sb_dma, 2
+	inc	edx
+
+        mov     al, 02h                 ;get DMA buffer selector
+	mov	ebx, dptr [ebx].sb_dmaseg
+	int	31h
+        mov     sb_dmasel, ax
+	mov	es, eax
+
+	mov	bx, DMA_BUFSIZE - 1
+	in	al, dx			;get DMA buffer position
+	sub	bl, al
+	in	al, dx
+	sbb	bh, al
+	movzx	esi, bx
+
+ENDM
+
+debug_save	MACRO	name, ptr, len	;ÄÄÄ debug: file save ÄÄÄ
+
+	mov	ah, 3ch			;open file
+	xor	cx, cx
+	lea	edx, dbg_name
+	int	21h
+	xchg	bx, ax
+
+	mov	ah, 40h			;write data
+	lea	edx, ptr
+	mov	ecx, len
+	int	21h
+
+	mov	ah, 3eh			;close file
+	int	21h
+	jmp	@@dbg_done
+
+dbg_name	db	name, 0
+
+@@dbg_done:
+
+ENDM
+
+

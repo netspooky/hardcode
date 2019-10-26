@@ -1,0 +1,9 @@
+"Simple cellular growth" by nowak
+http://mikenowak.ca
+
+Flash 5 Player required.
+At only 179 bytes, this file was an extreme attempt at doing
+something reasonably interesting at the most minimal size that
+Flash would allow. The basic rule for "growth" is extremely
+simple, even though it seems as though there's more to it.
+A true case of emergence... I think. ;)

@@ -1,0 +1,37 @@
+angry lonely coder
+code/gfx/music whizzter
+woorlic 2011
+
+This is a fixed version of the intro released at the edison 2011 party,
+The party/compo version had a severe bug that caused the synth to
+get more or less random inputs that in turn caused the music to
+sound very very bad, also some small fixes like hiding the cursor and
+pre-calculating the song instead of using dual-cores. (A small delay
+at startup for lower overall machine requirements)
+
+The old version is also provided in the old_compo subdir for reference
+for those that wishes to hear the calamity.
+
+Speaking of the music it was the reason for the name of this intro,
+since it's composed by a musically handicapped coder it certainly isn't
+a masterpiece but in some ways it was needed.
+
+The sunday before the edison party a certain unnamed musician whom
+i've done some old intros with told me that his old music was bad and
+didn't want me to use any of the old tunes. Said and done i decided that
+it was time for me to make the music myself for once. Partly to learn
+and get a softsynth done, partly to make sure that i don't have to do it
+again by providing bad enough music (funnily enough the softsynth bug
+sure as hell helped in that latter objective but once you've made music
+you don't really see the fun part of the music being destroyed).
+
+Some notes:
+- kkrunchy used to pack the intro.
+- the entire softsynth was coded from scratch during the week
+- the "old" 3dengine from "kontroll" was used again to make hopefully
+   it's last appearance (albeit this time with some more features used).
+- the graphics was originally mostly made for another demo
+   and simplified to fit into the 64k.
+   (But maybe too much since i had over 5k left when i was "finished")
+
+more demos and intros at http://woorlic.org

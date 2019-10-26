@@ -1,0 +1,107 @@
+
+
+                           -- jusT likE antaNi --
+
+                             - partY  versioN -
+			      - Assembly '97 -
+				
+                             (C) Bug2Fix 1997
+
+              " THE FASTEST RAY TRACING ENGINE IN THE WORLD" (sure?)
+                
+
+~Technical Requirements
+        {
+
+        - Vesa 2.0 required for hicolor modes. Runs also in B&W mode.
+        
+        - Needs fast PC (P133 minimum), even if it works on ours 486.
+
+        - Tested with 8 megs, maybe works with less...
+
+        - GUS required for sound. (check ULTRASND env.!)
+
+	- Try 'antani.exe -?' for options (video modes and quality)
+
+        }
+
+~Credits:
+        {
+
+        Music           Asyntote
+
+        Code            Miagi , Pinguin
+
+        Design          Pinguin , Miagi , Asyntote
+
+        Music system    mxmplay by Pascal/Cubic Team (THANKS A LOT!)
+
+        }
+
+~Some infos on ray tracing engine:
+        {
+
+Pinguin started code the main engine in September 1996 on his 486dx33 (ARGH!)
+The high complexity of algorithms used and the scarce performance of his
+computer pushed him to improve the engine until this version.
+
+It can handle textured planes (even clipped and holed), spheres (holed and
+bumped), quadrics (even clipped). All the primitives are rendered with
+ambient, phong and reflection. Light can be point, spot or fade with distance.
+
+The keyframer supports simple translations, bezier-based movements,
+object 'hide and show',BLA-BLA-BLA-BLA....(secret!)...
+The FPU code isn't optimized for pentiums, since we haven't one....
+
+We worked hard to allow compatibility with differents graphics card and
+differents video modes, so that anyone could see this intro as better
+his PC cans.
+
+If you think this intro is C00L,nice or fantastic, feel free to send
+beer, money, babies, hardware and pizzas to support our mission.
+
+~Bug2Fix recipe:
+        {
+
+        Miagi                   matteo brusa (21 YRS)
+
+        Pinguin                 stefano cazzulani (20 YRS)
+
+        Asyntote                danilo    (XXX YRS) - rented from Japotek
+
+        }
+
+
+~Hellos:
+        {
+
+        Pellicus, Cut'n'paste, Alex Dusty, Recc from JAPOTEK
+
+        Spinning Kids, DeathStar, Fatal Rage and all the italian scene...
+
+        Climax / Amable, Zeus / Visual FX, Pascal / CT.
+
+        Beppe / Polilec, Eziamaria / Polimi, Licia / Polimi.
+
+        STOP
+
+        }
+
+~Contacts:
+	{
+
+	Pinguin		pinguin@galactica.it
+
+			snail mail:	Stefano Cazzulani
+					Via Milazzo 3
+					20052 Monza (MI)
+					ITALY
+
+	Miagi		snail mail:	Matteo Brusa
+					Via Moriggia 8/a
+					20052 Monza (MI)
+					ITALY
+	}
+					
+
+

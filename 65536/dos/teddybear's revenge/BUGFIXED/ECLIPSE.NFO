@@ -1,0 +1,201 @@
+                                   __
+                                  /\_\         _______
+              _______            / / /        / ___  /\
+             / _____/\          / / /        / /\_/ / /
+            / /\____\/______   / / / __     / _____/ /_______
+           / _____/\ /\  ___\ / /_/ /\ \   / /\____\//\  ____\
+          / /\____\/ \ \ \__/ \ \ \ \ \ \ /_/ /      \ \ \___/_
+         /______/\    \ \ \____\ \_\ \ \ \\_\/_______ \ \  ____\
+         \______\/     \ \_____\\/_/  \ \_\  /\  ____\ \ \ \___/_
+                        \/_____/       \/_/  \ \ \___/_ \ \______\
+                                              \ \_____ \ \/______/
+                                               \/_____\ \
+                                                 /\______\
+                                                 \/______/
+
+
+Eclipse's productions_________________________________________________________
+______________________________________________________________________________
+
+Name                  Vers  Type      Date      Config
+
+3S Party______________________________________________________________________
+
+Wavy                  1.00  Intro     13/09/94  -         -    VGA/SB/GUS
+Happy                 1.00  Module    13/09/94  -         -    -
+
+Mode3                 1.01  Util      13/11/94  -         -    VGA
+Load                  1.2   Util      13/11/94  -         -    VGA/VESA
+Arkanoid              1.0   Game      13/11/94  -         -    VGA
+
+Die_ass               1.00  Module    27/12/94  -         -    -
+
+Volcanic Party________________________________________________________________
+
+The One               1.00  IntroBBS  15/01/95  -         -    VGA/GUS
+Jade                  1.00  Intro     15/01/95  -         -    VGA/GUS
+
+Biniou                      Module    08/03/95  -         -    -
+Poof                  1.11  Game      08/03/95  -         -    VGA/SB/GUS
+Demineur              1.0   Game      08/03/95  -         -    VGA
+
+Fast                  2.2   Util      19/05/95  -         -    VGA
+
+GASP__________________________________________________________________________
+
+Lisa                  1.00  Demo      14/08/95  XMS Only  -    VESA/SB/GUS
+
+FastLite              3.00  Util      17/09/95  -         EOS  VGA/VESA/SB/GUS
+
+Wired'95______________________________________________________________________
+
+Wired'95              1.00  Report    13/11/95  -         EOS  VESA/SB/GUS
+132                   1.0   Util      13/11/95  -         -    VESA
+Deluxe Paint Extender 1.02  Util      13/11/95  -         -    -
+Zanybird Pack 1       1.00  Gfx       13/11/95  -         -    -
+
+Bug Fixed EOS 2.05____________________________________________________________
+
+FastLite              3.01  Util      10/02/96  -         EOS  VGA/VESA/SB/GUS
+Wired'95              1.01  Report    10/02/96  -         EOS  VESA/SB/GUS
+
+Volcanic Party II_____________________________________________________________
+
+Crypt                 1.21  Util      04/03/96  -         -    -
+Profil Pack 1         1.00  Gfx       04/03/96  -         -    -
+Magic Biniou          1.00  Demo      04/03/96  -         EOS  VGA/SB/GUS
+64Kb Tune Disk        1.00  ChipDisk  04/03/96  -         EOS  VGA/SB/GUS
+
+Poof_mod              1.00  Module    23/03/96  -         -    -
+Jade_mod              1.00  Module    23/03/96  -         -    -
+Lisa_mod              1.00  Module    23/03/96  -         -    -
+Wir_mod               1.00  Module    23/03/96  -         -    -
+
+Saturne Party III_____________________________________________________________
+
+EOS (Dos Extender)    2.06  System    26/04/96  -         EOS  -
+Teddybear's Revenge   1.00  Intro     26/04/96  -         EOS  VGA/SB/GUS
+Eclipse Pacman        0.40  Game      26/04/96  -         EOS  VESA/SB/GUS
+
+Cubic MXM play        1.3   Player    27/05/96  -         EOS  GUS
+
+Bug Fixed EOS 2.07____________________________________________________________
+
+FastLite              3.02  Util      27/05/96  -         EOS  VGA/VESA/SB/GUS
+Wired'95              1.02  Report    27/05/96  -         EOS  VESA/SB/GUS
+Teddybear's Revenge   1.01  Intro     08/06/96  -         EOS  VGA/SB/GUS
+Magic Biniou          1.01  Demo      08/06/96  -         EOS  VGA/SB/GUS
+
+EOS (Dos Extender)    2.07  System    08/06/96  -         EOS  -
+Eclipse Pacman        1.00  Game      08/06/96  -         EOS  VESA/SB/GUS
+
+
+
+Coding Party__________________________________________________________________
+______________________________________________________________________________
+Name                        Country     Result
+______________________________________________________________________________
+Titanic                     France
+Saturne 2                   France
+Place to be 2               France
+3S                          France      2nd place for Intro
+Party 4                     Danemark
+Volcanic                    France      1st place for Intro
+                                        1st place for Music
+SIH                         Nederland
+Gasp                        France      1st place for Demo
+                                        1st place for Gfx
+                                        1st place for RealTimeGfx
+Wired                       Belgium
+Party 5                     Danemark
+Volcanic 2                  France      1st place for Demo
+Saturne 3                   France      1st place for intro
+Garden 6                    France      1st place for RealTimeGfx
+
+
+
+Address_______________________________________________________________________
+______________________________________________________________________________
+
+    þ To get in touch with ECLIPSE for any questions write to :
+
+    Code______________________________________________________________________
+
+    RADERMACHER Marc (Hacker Croll)           VIDAL Regis (Light Show)
+    3 route de champagne                      le logis neuf
+    69130 ECULLY                              38780 ESTRABLIN
+    FRANCE                                    FRANCE
+
+    Gfx_______________________________________________________________________
+
+    BOUFFARD Loic (Zany Bird)                 BOX Frederic (Profil)
+    chemin de l'abri                          la chapelle villars
+    38121 CHONAS L'AMBALLAN                   42410 PELUSSIN
+    FRANCE                                    FRANCE
+
+    Music_____________________________________________________________________
+
+    RESIGNE Christophe (Rez)
+    1200 rue a. rimbaud
+    33560 SAINTE EULALIE
+    FRANCE
+
+
+    þ E-Mail Adress : Eclipse@ace.epita.fr
+
+
+Modem_________________________________________________________________________
+______________________________________________________________________________
+
+    þ Every of our release are available on any of the following site :
+
+
+    ______________________________________________________________________
+
+    Name            Country    Number                 Speed
+    ______________________________________________________________________
+
+    ACE             France     (+33) 1 45 887 548     -28.8kBps-
+                                Sysop:Gandalf/PULSE
+                               þ Eclipse FHQ þ
+
+    The One         France     (+33) 149 887 691      -28.8kBps-
+                                Sysop:Jedi/SCT1
+                               þ Eclipse WHQ þ
+
+    Planet Earth    Nederland  (+31) (0) 206 995 913  -28.8kBps-
+                                Sysop:Aap/ACME
+                               þ Eclipse NHQ þ
+
+    Count 0         Norway     (+47) 551 229 63       -28.8kBps-
+                                Sysop:Yitzhaq/PROXIMA
+                               þ Eclipse NHQ þ
+
+    HellRaiser      Switzerland (+41) 739 239 165     -28.8kBps-
+                                Sysop:AbrAxAs
+                               þ Eclipse SHQ þ
+
+    Equalizer       France     (+33) 1 452 519 23     -28.8kBps-
+                                Sysop:Thorin/MELON DEZIGN & MVT
+                               þ Eclipse Distro þ
+
+    Flood Land      France     (+33) 902 883 42       -28.8kBps-
+                                Sysop:Patriot/S!P & SCOOPEX
+                               þ Eclipse Distro þ
+
+    Dune            France     (+33) 1 487 904 22     -28.8kBps-
+                                Sysop:Bisounours/TINY TOONS
+                               þ Eclipse Distro þ
+
+    Mental Overdose Belgium    (+32) 563 412 06       -28.8kBps-
+                                Sysop:Zarkof
+                               þ Eclipse Distro þ
+
+    Pollux          Finland    (+358) 45 512 685      -28.8kBps-
+                                Sysop:Spider/VELOCITY
+                               þ Eclipse Distro þ
+
+    The Hideout     Germany    (+49) 611 547 324      -28.8kBps-
+                                Sysop:The Baudbandit & Medicus/KLF
+                               þ Eclipse Distro þ
+    ______________________________________________________________________

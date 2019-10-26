@@ -1,0 +1,113 @@
+                                     ÜÜÜÜÜÜ
+                                 Ûßßßß    ßßßßÛ
+        ÜÜÛßßßßßßßßßßßßßßÛÛßßßßßßßßßßÛ    ÛßßßßßßßßßÛÛßßßÛÛßßßßÛÛßßßßÛÜ
+        ÛÜ    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    ÜÛ
+         Û    ÛÛ    ÛÛ    Ûßßßßßß    Û    Û    ßß   ÜÛ    ÛÛ   ßß   Ûß
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Ûß   ÛÛ   ßÛ
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    Û
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    Û
+         Û°   ÛÛ    ÛÛ    Û°   ÛÛ    Û°   Û    ÛÛ    Û°   Û°   ÛÛ    Û
+         Û±   ÛÛ    ÛÛ    Û±   ÛÛ    Û±   Û    ÛÛ    Û±   Û±   ÛÛ    Û
+         Û²   ÛÛÜÜÜÜÛÛ    Û²   ÛÛÜÜÜÜÛ²   ÛÜÜÜÜÛÛ    Û²   Û²   ÛÛÜÜÜÜÛ
+         ßÛÜÜ ÜÜÜÜÜÜÛÛÜÜÜÜÛÛÜÜÜÜÜÜÜÜÜÛßÛÜ ÜÜÜÜÜÛÛÜÜÜÜÛßÛÜ ÛÛÜÜ ÜÜÜÜÜÜÛ
+            Û±Û                         Û±Û             Û±Û  Û±ÛIC<MTX>
+            Û²Û                         Û²Û             Û²Û  Û²Û
+            ßßß                         ßßß             ßßß  ßßß
+
+
+ Úùú   úùùú
+ : Introduction
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :
+ : We all have bizarre dreams and thoughts, some of us try to fysically     :
+   experience our dreams. They are known as psychopaths.
+ ù Dreaming is a new way of living. Some of us dream all the time to get 
+   away from the horrible reality this world has come to, I'm not one of 
+   them, but perhaps you are?
+   I hope you get some kind of thoughts when you watch this demo, perhaps 
+   ask yourself, 'Is this for real?'                                        ù
+ !                                                                          :
+                                                           Io(27/12/97)
+
+
+ Úùú   úùùú
+ : Demo-info
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+ : This is a basic realtime plasma based on the one from Jare/Iguana.
+   The plasma uses MCGA mode with 320*200 pixel big screen and 256 colors.  :
+   I didn't do very much with the plasma, it wasn't very much to optimize 
+ ù when I found a movement that I was satisfied with. But I worked on the 
+   palette routine for many hours. The thing was that I wanted to use                      ù
+   a gradient palette that used more than one color and covered all 256
+   colors. Many of my versions of the palette wasn't perfect and I'm sure 
+   there is some parts to optimize left, I just haven't found them. :)
+ . When generating the palette I add a value to one color and check if it
+   is greater than 63 and if it is I change it to 63, then I get a nice and
+   very useful palette.
+   When I finished the palette and thougt that the plasma looked good I had :
+   a few bytes over, so I added a textroutine to spice it up :)
+                                                                         
+
+ Úùú   úùùú
+ : Credits
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+
+ ù code: Io/Matrix                                         
+                                                                            :
+
+ Úùú   úùùú
+ : News
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+   Finally we're getting a site on the world-wide-web. Stay in focus for    ù
+ : upcoming info.
+                                                                            ù
+
+
+ Úùú   úùùú
+ : Members
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+ :        Handle             Profession             Realname
+ Ãùú   úùùú          úùÂùú                 úùÂùú
+ : Insomniac           : Coder               : Justin Walemark              :
+ : Io                  ù Coder               . Niklas Andersson
+   Soulariuz             Graphician            Johan Agur‚n                 .
+ . Blue                  Graphician            G”ran Sundblad
+   Cyclops             ! Graphician/Musician : Andreas Chrysovitsanos       :
+ : Wrong                 Graphician/Musician   Fredrik Larsson
+ ù
+
+ Úùú   úùùú
+ : Greetings
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+   Insomniac, Jare, Pancho, The Soul                                        ù
+ :
+                                                                            ù
+
+ Úùú   úùùú
+ : Contact info
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+ : You can contact us, for information etc.                                 :
+
+   OBSERVE: Some of us are not reachable 24 hours a day. That is because
+            the e-mail database might be located in a school.               :
+ :
+                                                                            :
+   Insomniac          insomniac@goplay.com
+   Io                 io@mypad.com
+ ù Soulariuz          soulariuz@geocities.com                               ù
+ : Blue               blue@schoolemail.com
+   Cyclops            NONE VALID
+ : Wrong              96frlars@mediagymn.se
+
+   Also try find us on the IRC (mostly EFNet or IRCNet):                    !
+
+ ù #ASM,#CODERS,#GRAPHICS
+
+
+                            úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú
+                    Thou who doesn't sleep, cannot wake up

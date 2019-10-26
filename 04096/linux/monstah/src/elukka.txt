@@ -1,0 +1,41 @@
+S_MESHGEN,
+  S_EXTR(7, 0, 1),     S_AMOUNT(3) | S_BRANCH(0, 1, 1, 1, 1),
+    /* Body */
+    S_EXTR(3, 4, 1),   S_AMOUNT(3) | S_BRANCH(1, 1, 0, 0, 0),
+      /* Fatten body (THIS LOOKS ACTUALLY QUITE STUPID) */
+      S_EXTR(0, 0, 3), S_AMOUNT(2) | S_BRANCH(0, 0, 0, 0, 0),
+      /* Forelegs begin in body */
+      S_EXTR(3, 4, 1),   S_AMOUNT(2) | S_BRANCH(0, 0, 1, 0, 1),
+      /* Hind leg */
+      S_EXTR(2, 6, 1),     S_AMOUNT(1) | S_BRANCH(0, 0, 1, 0, 0),
+        S_EXTR(0, 6, 1),   S_AMOUNT(2) | S_BRANCH(1, 0, 0, 0, 0),
+        S_EXTR(0, 6, 3),   S_AMOUNT(2) | S_BRANCH(0, 0, 0, 0, 0),
+      /* Other hind leg */
+      S_EXTR(2, 2, 1),     S_AMOUNT(1) | S_BRANCH(0, 0, 0, 0, 1),
+        S_EXTR(0, 2, 1),   S_AMOUNT(2) | S_BRANCH(1, 0, 0, 0, 0),
+        S_EXTR(0, 2, 3),   S_AMOUNT(2) | S_BRANCH(0, 0, 0, 0, 0),
+    /* Fore leg */
+    S_EXTR(2, 6, 1),     S_AMOUNT(1) | S_BRANCH(0, 1, 0, 0, 0),
+      S_EXTR(0, 6, 1),   S_AMOUNT(2) | S_BRANCH(1, 0, 0, 0, 0),
+      S_EXTR(0, 6, 3),   S_AMOUNT(2) | S_BRANCH(0, 0, 0, 0, 0),
+    /* Head */
+    S_EXTR(4, 0, 1),   S_AMOUNT(1) | S_BRANCH(1, 0, 0, 0, 0),
+#if 0
+      S_EXTR(6, 0, 2),   S_AMOUNT(2) | S_BRANCH(0, 1, 0, 0, 0),
+#else
+      S_EXTR(6, 0, 2),   S_AMOUNT(2) | S_BRANCH(0, 1, 0, 0, 0),
+    /* Antlers */
+//      TODO!
+//      S_EXTR(2, 6, 1),     S_AMOUNT(1) | S_BRANCH(0, 0, 0, 0, 0),
+//      S_EXTR(2, 2, 1),     S_AMOUNT(1) | S_BRANCH(0, 0, 0, 0, 0),
+#endif
+      S_EXTR(4, 0, 2),   S_AMOUNT(2) | S_BRANCH(1, 0, 0, 0, 0),
+      S_EXTR(4, 0, 1),   S_AMOUNT(1) | S_BRANCH(0, 0, 0, 0, 0),
+    /* Other fore leg */
+    S_EXTR(2, 2, 1),     S_AMOUNT(1) | S_BRANCH(0, 1, 0, 0, 0),
+      S_EXTR(0, 2, 1),   S_AMOUNT(2) | S_BRANCH(1, 0, 0, 0, 0),
+      S_EXTR(0, 2, 3),   S_AMOUNT(2) | S_BRANCH(0, 0, 0, 0, 0),
+S_CATMULL_CLARK,
+S_CATMULL_CLARK,
+S_CATMULL_CLARK, /* 19 */
+

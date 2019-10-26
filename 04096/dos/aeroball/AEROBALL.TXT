@@ -1,0 +1,66 @@
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±³ - Paradox'99 demo party - ³±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±³±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±³±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±³±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±ÚÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄ¿±±±±±±±±±±±±±±±±ÚÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄ¿±±±±±±±±±±±±±
+±±±±±±±±³   /TransMission/    ³±±±±±±±±±±±±±±±±³ 4K Intro Compo ³±±±±±±±±±±±±±
+±±±±±±±±³ creative demo group ³±±±±±±±±±±±±±±±±³  * AeroBall *  ³±±±±±±±±±±±±±
+±±±±±±±±ÀÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÙ±±±±±±±±±±±±±±±±ÀÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÙ±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±³±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±³±±±±±±±±±±±±±±±±±±±±±±
+±ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿±±±±±±ÚÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄ¿±±±±±±±±±
+±³ Demo create:                     ³±±±±±±³ Min config:            ³±±±±±±±±±
+±³ Project       ÄÂ Sergey Stepanov ³±±±±±±³ 486DX-40               ³±±±±±±±±±
+±³ Logo          Ä´ [Krematory]     ³±±±±±±³ 400Kb free base memory ³±±±±±±±±±
+±³ 3D-helicoptersÄ´ aka TotalE££o£  ³±±±±±±³ VGA-adapter            ³±±±±±±±±±
+±³ Wall          ÄÙ                 ³±±±±±±ÀÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÙ±±±±±±±±±
+±³                                  ³±±±±±±±±±±±±±±±±±±³±±±±±±±±±±±±±±±±±±±±±±
+±³ Sea    ÄÂ Maxim Zhurovich        ³±±±±ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄ¿±±±±±±±±
+±³ Greets ÄÙ Encryptor              ³±±±±³ Help:                     ³±±±±±±±±
+±ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±±±³ Don't run this demo       ³±±±±±±±±
+±±±±±±±±±±±±±±±±±±±³±±±±±±±±±±±±±±±±±±±±±³ in win95! Keep your time. ³±±±±±±±±
+±±±±±±±±±±±±±±±±±±±ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿±³ Also, you must have FPU   ³±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±³±³ or emulator.              ³±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±³±ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±³±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º                                                                            º
+º                    TransMission - creative demo group                      º
+º                                                                            º
+º                      DemoMaking/Hacking/UnderGround                        º
+º                                                                            º
+º          We were born in 1999 - almost in the end of 2nd milenium          º
+º                                                                            º
+º                                  Russia                                    º
+º                                                                            º
+º                                Contact us:                                 º
+º                                                                            º
+º [Krematory] - Sergey Stepanov                                              º
+º TotalE££o£    ÇÄÄ> Coder/Musician                                          º
+º               ÓÄÄÄÄ> Fido 2:5062/1.40                                      º
+º                                                                            º
+º Encryptor   - Maxim Zhurovich                                              º
+º               ÇÄÄ> Coder/Painter                                           º
+º               ÓÄÄÄÄ> Fido 2:5062/17.19 e-mail maxim@volgodonsk.cityline.ru º
+º                                                                            º
+º Decruncher  - Vladimir Zoreev                                              º
+º               ÇÄÄ> Coder                                                   º
+º               ÓÄÄÄÄ> Fido 2:5015/52.9 e-mail VZoreev@chat.ru               º
+º                                                                            º
+º                                                                            º
+º         ----- W e l c o m e   t o   T r a n s M i s s i o n  ! -----       º
+º                                                                            º
+º                                Blat-hata:                                  º
+º                            Volgodonsk - 1999                               º
+º                                                                            º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±³±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±³          Greets:           ³±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±³       SunmaN / PFC         ³±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±³            and             ³±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±³ all people from Paradox'99 ³±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ±±±±±±±±±±±±±±±±±±±±±±±
+±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±±

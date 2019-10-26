@@ -1,0 +1,31 @@
+BBBB  III TTTTT PPPP   OOO  PPPP  L     EEEEE RRRR
+B   B  I    T   P   P O   O P   P L     E     R   R
+BBBB   I    T   PPPP  O   O PPPP  L     EEE   RRRR
+B   B  I    T   P     O   O P     L     E     R   R
+BBBB  III   T   P      OOO  P     LLLLL EEEEE R   R
+
+presents
+
+W   W EEEEE EEEEE K   K TTTTT RRRR   OOO 
+W   W E     E     K  K    T   R   R O   O
+W W W EEE   EEE   K K     T   RRRR  O   O
+W W W E     E     KK K    T   R   R O   O
+ W W  EEEEE EEEEE K   K   T   R   R  OOO
+
+(weaktro?)
+
+gfx: LuNAtiC
+sfx: ddeml
+compo machine: ddeml                               __
+                                                  /  \                                                 /     
+This demo needs a graphics card with pixel shader  --< !
+                                                  \__/
+While soundwise it uses pretty much the same engine as rodin the graphics
+part follows a completely different approach. What you see is a 3D cut through
+the 4D julia fractal. The fractal parameters are modified through the
+envelopes used in the sound engine to pretend some sync. All in all it just
+took us a week to make this tro.
+
+have fun.
+
+bla.

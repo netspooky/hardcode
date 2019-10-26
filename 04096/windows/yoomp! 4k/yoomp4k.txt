@@ -1,0 +1,36 @@
+
+===========
+ yoomp! 4k
+===========
+
+2007 jetset entertainment
+
+"yoomp! 4k" is a small game that
+adheres to the typical demoscene 4096
+bytes filesize limit. To run it needs
+DirectX 9 and the d3dx9_32.dll present
+on your machine.
+
+The goal is to control the rainbow
+colored ball to avoid falling into
+the holes.
+
+Press [space] to start a new game.
+
+Use the [left] and [right] cursor keys
+to strafe sideways. Use the long jump
+and teleporter pads wisely as they also
+add more points to your score.
+
+The game idea is based on a 2007
+Atari XL game called "Yoomp!" which
+can be found at: yoomp.atari.pl
+
+It also has quite some resemblance
+with "Trailblazer" (1986).
+
+Have fun
+
+Marc Kamradt
+
+More at: www.jetset-entertainment.com

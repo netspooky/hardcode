@@ -1,0 +1,94 @@
+
+
+        ---------------------------------
+        shine on
+        64k intro final version (win32)
+        retro of code and light sorcerers
+        ---------------------------------
+
+
+        credits
+        -------
+        code - Gekko
+        music - Beatmaster
+        modelling - Wad
+
+        party version
+        -------------
+        MXMPLAY - Niklas Beisert
+        DOS4GW STUB - QA Software
+        UPX - L szl¢ Moln r, Markus Oberhumer
+
+        final version
+        -------------
+        JUDAS Sound System - Cadaver, Yehar, Archee, Gekko
+        UPX - L szl¢ Moln r, Markus Oberhumer
+
+        The party version is for DOS only.
+        It requires DOS4GW.EXE, GUS and 320x240x32.
+        The final version is for Windows'95 or later.
+        It requires DirectX.
+
+
+
+        So,  that  was our last intro. It was done in a big hurry, and
+        released at the Jumper'99 party.
+
+        There are a few things to mention...
+
+        About the text scrolling - if you are not Hungarian I doubt if
+        you  have ever heard of our group, because we were active only
+        in the Hungarian demo scene.
+
+        A   few   thoughts  about  the  Jumper'99  party.  This  intro
+        successfully  came  out  the  second  again,  as all our other
+        intros  did.  However  I  don't  consider  this  intro a party
+        release, not more than I consider Jumper'99 a demoscene party.
+        It  was  a  big...  hmmm.  The voting was not really under the
+        control  of the organizers, but to compare this with the other
+        "events"  at  the  party,  this  was not even a really serious
+        problem. Oh well...
+
+        "It is slow."
+        No, it isn't. Just try to write a 3d engine of this complexity
+        which  runs at a better speed! You may consider it slow if you
+        compare  with  some of nowadays' demos, but most of the people
+        are  still  using  simple  non-filtered texture mapping, often
+        even  without  shading!  Here there is true color shading, and
+        there  are  multiple  omni  and  spot  lightsources,  they are
+        moving,  changing  their  color,  and so on, and everything is
+        refracted  on  the surfaces! There is bilinear filtering, even
+        on the coronas (you know, those little light flares).
+
+        You  could  say  people  should code routines that run well on
+        machines  which  are  _now_  common.  Well,  I  think  that as
+        Celerons  are  flooding  our  planet  nowadays,  this  intro's
+        requirements are nothing too exotic. Well, despite all this, I
+        want  you to know that I still have a pentium 100 mhz. So shut
+        up! ;)
+
+        Also,   the  soundplayer  uses  software  mixing  with  sample
+        interpolation  for  higher sound quality. This makes it slower
+        as well...
+
+        /gekko
+
+
+
+
+
+        Code and Light Sorcerers
+        were:
+
+        gekko - programming gekkouno@hotmail.com
+        wad - 3d modelling wad@netchicken.hu
+        beatmaster - music bmaster@elender.hu
+
+        Sword           64kb intro   #2 at Jumper'97
+        Greenworld      advert demo  #1 at Flag'98
+        LSD             64kb intro   #2 at Rage'98
+        Beyond          64kb intro   #2 at Antiq'98
+        Shine On        64kb intro   #2 at Jumper'99
+
+        cls.hu@usa.net - this address remains alive
+

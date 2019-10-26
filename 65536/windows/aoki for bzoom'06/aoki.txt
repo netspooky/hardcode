@@ -1,0 +1,74 @@
+                                                     
+                  _______                            +
+                 /____   \_                          
+      .          \___ \___/\                         .
+     . __    _._._   /\_\__\/                        ::
+_\\\.   /___/     \_/     /__                        :
+\___   ___/  ..    \    /|   \_  t B 2 PRESENTS >>>>>>>>>>
+   /  /____________/\________./\                     :.
+   \___/\\_________\/\________\/                     ::
+    \__\/                                            ::
+     ::                                              ::
+     ::    AOKI FOR BZOOM'06                         ::
+      :                                              :
+...........................................................
+<<<<<<<<<< C R E D I T S >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+                                                     
+           code/3d/visuals : SHAKUL
+           3d/visuals      : FROHIKEY
+           music           : NOOLY        
+
+           kkrunchy        : RYG OF FARBRAUSCH
+           minifmod        : FIRELIGHT TECHNOLOGIES
+
+...........................................................
+<<<<<<<<<< S W I T C H E S >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+           -window = run in a window
+           -fullscreen = run fullscreen (default)
+      
+...........................................................
+<<<<<<<<<< R E Q U I R E M E N T S >>>>>>>>>>>>>>>>>>>>>>>>
+
+           windows compatible OS
+           modern nvidia/ati graphic card
+           (with recent drivers and GLSL shader support)
+
+...........................................................
+<<<<<<<<<< C O M P A T I B I L I T Y >>>>>>>>>>>>>>>>>>>>>>
+
+           GL_EXT_framebuffer_object extension is being
+           used a lot, because it is the simplest and 
+           most efficient way of rendering into an OpenGL 
+           texture. Other methods are either slow, 
+           cumbersome, or both.
+
+           However, since this extension is still quite 
+           recent (2004), it might still be unsupported 
+           by older hardware or outdated drivers.
+
+           If you suffer from this limitation, please let 
+           me know (get the e-mail address from 
+           http://nuane.com/).
+                         
+...........................................................
+<<<<<<<<<< G R E E T S >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+           KEWLERS
+           LKCC
+           LOW FUEL
+           MFX
+           MOVSD
+           TRACTION
+
+           POUET / SCENE.ORG CREWS
+
+           AND ONE BEER IS FLYING TO PETGRIDUS *bang*
+
+..........................................................
+<<<<<<<<<< C O N T A C T >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+           http://www.idiology.com/tb2
+           http://nuane.com/n2
+
+..........................................................

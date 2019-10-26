@@ -1,0 +1,34 @@
+
+
+                      function (c) 1997 recreation
+
+
+credits:
+
+        code  : spector
+        music : limbo duck
+
+        music system: cubic tiny gus player
+        pmode/w : tran & daredevil
+
+requirements:
+
+        Not much of memory (6mb should way enough)
+        Use set ultrasnd for music with gus, without
+        set ultrasnd intro uses automatically nosound.
+        For proper outlook TRY to use VBE 2.0. Without that
+        the intro will be in grayscale mode (quite ugly, tho).
+        da pmode/w is version 1.22 which DOES NOT work with
+        memory (ems) more than 16mb (perhaps ;----).
+
+copyright:
+
+        this whole package is copyrighted by recreation.
+        the organizers of TP7 have our permission to include
+        this production on their cd, others should ask it
+        from us.
+
+
+                                signed: spector / recreation
+                                        26.12.1997
+                                        04.10 (am)

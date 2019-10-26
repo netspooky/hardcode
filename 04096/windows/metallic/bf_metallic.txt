@@ -1,0 +1,26 @@
+BluFlame :-: Metallic
+
+
+  code              :-: TGGC & xTr1m / BluFlame
+
+  music             :-: xTr1m
+
+  gfx               :-: TGGC
+
+  packer            :-: crinkler by Mentor/TBC and Blueberry/Loonies
+
+  synthesizer       :-: 4klang by Gopher & pOWL of Alcatraz.
+
+
+  greets            Approximate, ASD, Brainstorm, Calodox, CNCD, Ctrl+Alt+Test,
+                    Conspiracy, Fairlight, Farbrausch, FRequency, Fuzzion, 
+                    Kakiarts, Haujobb, Loonies, Mercury, Nuance, Panda Cube, 
+                    Quite, RGBA, Speckdrumm, SQNY, Still, TBC, TBL, TRSi, 
+                    Titan, Traction, UF&DD, Youth Uprising
+                    atla, BlueCobold, Hel, jco, mcdeck, matt|6s, netpoet, pro, 
+                    raYn, rapso, rip, TomasRiker, xardias, 
+                    anyone else from #gamedev.ger, #sppro and #cpp
+                    
+
+  We like to thank TBC/Loonies/Alcatraz for making their fantastic tools
+  available to the public.

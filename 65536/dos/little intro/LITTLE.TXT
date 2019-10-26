@@ -1,0 +1,14 @@
+
+  Nehany info az intro-rol:
+
+  - minimum 386-40 kell hozza, egyebkent lelassul (286-on nem fut)
+  - az intro kb. 3 perc 40 masodpercig tart (nezd vegig)
+  - harom reszbol all: 2D dots, 3D dots, 3D filled vector
+  - a forraskod kb. 2500 sor
+  - a TASM 4.0-at es a TLINK 5.1-et hasznaltam az elkeszitesehez
+  - adlib zeneje van, ezert GUS tulajok hasznaljak az emulatort
+
+
+                                                        LITTLE
+                                                   ( Morvai Tam s )
+                                                       Budapest

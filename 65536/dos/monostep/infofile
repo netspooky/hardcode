@@ -1,0 +1,17 @@
+
+kolor        MONOSTEP 64k
+
+
+intro              trojan
+               lord chaos
+                    optic
+
+
+needs 320x240(x32) lfb mode
+      sound blaster or gus
+
+
+uses protected mode stub and extender v1.0 by taboo
+     upx v0.71 by laszlo molnar & markus oberhumer
+     rxmplay v1.0 by digisnap
+     vesa2 by hellfire

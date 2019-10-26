@@ -1,0 +1,4 @@
+"Amiga Scroller" by AxelF
+
+Works with IE 6.0 an higher. A simple "Amiga-style" scroller.
+Back to the roots. :-)

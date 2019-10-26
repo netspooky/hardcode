@@ -1,0 +1,23 @@
+#Chaos Board intro - source code
+#coded by Mrock/Hellcore
+#Adlib player (and tracker) - RAD by Reality
+#InSourceGreetings goes to all SourceReleasing groups
+
+#The Makefile
+
+ASM = tasm.exe /z /m2
+LINK = tlink.exe /x /m
+PACKER = pklite.exe
+
+chaos.exe: chaos.obj
+ $(LINK) chaos.obj
+ $(PACKER) chaos.exe
+
+chaos.obj: chaos.asm 736.rx module.inc
+ $(ASM) chaos.asm
+
+736.rx: 736.pcx
+ pcx2db.exe 736.pcx 736.rx 736.bxp
+
+module.inc: module.rad
+ bin2db.exe module.rad module.inc

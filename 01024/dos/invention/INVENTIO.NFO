@@ -1,0 +1,157 @@
+........---------=========<<<<<<<<<INVENTION>>>>>>>>>=========---------........
+
+				 Vladlen Koltun
+
+				     a.k.a
+
+			       CyberEagle/ESTEEM
+
+
+   			  
+                             presents his 1kb intro
+
+
+
+
+				  "INVENTION"
+
+
+
+
+That's what I wanted to be written on the background in the intro, but I
+couldn't squeeze it all in 1024 bytes, so I had to settle with small
+"CyberEagle/ESTEEM" :(
+
+
+
+Disclaimer:
+~~~~~~~~~~
+Feel free to spread this intro as much you like but on one condition: The
+package must remain the original one. The contents of this package is:
+
+FILE_ID.DIZ		319  bytes		File description for the BBSes
+INVENTIO.EXE            1024 bytes              The "INVENTION" intro
+INVENTIO.NFO            5490 bytes              Guess
+README.NOW              601  bytes
+
+Any other file must be deleted from the package before you spread it to
+anyone else.If a size of one or more of the files is changed or one or more
+files are missing, you must delete this package at once and get a new
+virus-free package from: ftp.hornet.org/pub/demos/alpha/1997/e/est_1k.zip
+
+
+Valuable Technical Information:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Here's a specification of all the things I made in only ONE kilobyte:
+
+Polygon routines (in order of appearence):
+	Phong shading
+	Texture mapping
+	Texture phong
+	Bump mapping
+	Texture phong bump mapping	-	that's a nice one, eh?
+	Transparent phong shading
+	Transparent texture mapping
+	Transparent texture phong
+
+ In the intro, the torus moves from left to right numerous times, each time
+ with a different effect. In first 8 times it comes with a
+ different polygon routine each time. Then a 3D wobble of the torus is added.
+ After the first 16 cycles (each one different then another) the intro loops
+ to the beginning.
+
+
+Other features of the 3D-engine:
+	3D Rotation
+	Clipping
+	Backface cutting
+	3D wobble
+
+And in 2D:
+	Generation of the background
+	Generation of the textures for the texture mapping and the texture
+	phong parts
+	
+
+Other:
+	Generation of the TORUS 3D-mesh
+	Text
+	Various other support routines
+
+
+
+System requirements:
+~~~~~~~~~~~~~~~~~~~
+1. The intro NEEDS 585K of free base memory. It will either not run at all
+   with any less memory available or will run with weird bugs on the
+   background caused by lack of free memory.
+2. The intro NEEDS an FPU.
+3. The intro NEEDS HIMEM.
+4. The intro HATES 4DOS.
+5. The intro WANTS a fast Pentium or higher processor. It was desinged on a
+   P5/166Mhz and runs good on P5/133Mhz. It will be very slow on a P5/100 and
+   it will be close to sertain death on 486/66Mhz.
+6. The intro HATES Winslow'95(tm).
+   Surprisingly :), a very weird thing happends when you try to run "INVENTION"
+   under Winslow'95(tm). If the computer is in such configuration in which
+   DOS would have 585Kb low memory or more, the intro runs more or less ok
+   (although even then weird bugs can appear, and it's much slower).
+   If the configuration of your CONFIG.SYS + AUTOEXEC.BAT is a
+   configuration in which DOS would have LESS then 585Kb of low memory, it
+   either won't run at all, or do some crazy things like weird snow in the
+   background or horrirble flicker. Spontaneous combustion of the CPU was
+   also reported... Basically, this proves one thing I realized long ago.
+   This Winsh*t'95(tm) is nothing more then DOS with grahic interface.
+
+
+Known Bugs:
+~~~~~~~~~~
+Bug:    The clipping is buggy. You can see black dots where the torus touches
+	the edge of the screen.
+Reason: Hey! It's enough that I've made clipping in a 1Kb
+        intro, so don't you complain to me about bugs! 
+Bug:    On some computers, you may see a few dark dots running around on the
+        torus, especially in the 3D wobble parts.
+Reason: Unknown. Probably a few polygons that don't touch each other properly.
+	Can't be fixed in 1024 bytes.
+
+
+
+Now to YOUR favourite part in the info-file...
+Very special personal greetings:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+All other members of ESTEEM (Adept, Paso and Bsm): thanks for your support.
+A "thankyou" goes to Adept for some very nice tips he gave and
+    his help in fixing some extremely ugly bugs I encountered.
+Hex/Time: I'll always be grateful to you for introducing me to the
+    wonderful world of demoscene. Thank you.
+T-Rex/Exotic: Thank you for putting up with me and helping me when
+    I needed help. You have my eternal gratitude.
+Borzom/Exotic: Thanks for the support.
+All the guyes who talk to me frequently on IRC #coders, especially
+    Mr.Z./Asteroidea and Mri/Doomsday.
+All ESTEEM fans (and ventilators) all over the world.
+
+
+Very very important message:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Get ESTEEMs latest demo: "PRAY". It won the MOVEMENT'96 demo
+competition in December 1996. You can get the two files (EST_PRAY.ARJ and
+EST_PRAY.A01) from HORNET - 	ftp.hornet.org/pub/demos/alpha/1996/e
+
+
+
+How to contact me:
+~~~~~~~~~~~~~~~~~
+I'd like to get as much feedback on this intro as possible, so feel free to
+send me: EMails, money, girls, fruits, mailbombs and CDs to:
+The best way is E-Mail:		ceagle@infomall.co.il	,
+but if you really want to, you can call me too:  +972-3-9215179
+ 
+
+........---------=========<<<<<<<<<INVENTION>>>>>>>>>=========---------........
+
+You've just survived the "INVENTION 1Kb intro" info-file written by the author
+himself:  Vladlen Koltun a.k.a. CyberEagle/ESTEEM.
+
+EOF

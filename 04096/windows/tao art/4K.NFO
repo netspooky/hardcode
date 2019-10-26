@@ -1,0 +1,24 @@
+
+ "TAO ART"
+ (Traditional Appearance Of  Amazing Raving Tomatoes)
+ 
+ A 4k intro for Breakpoint 2010 by T$
+ 
+ Requires DirectX9c (including the D3DX library from the August 2005
+ SDK update, stored on disk as d3dx9_30.dll),
+ a 3D graphic accelerator featuring VS 2.0, PS 2.0 and a soundcard.
+ Initialization can take some time on slower CPUs.
+
+ Running time: 3:34
+
+ Files included:
+
+* Ts4kbp10_1920x1080.exe
+* Ts4kbp10_1440x900.exe
+* Ts4kbp10_1280x800.exe
+* Ts4kbp10_1280x700.exe
+* Ts4kbp10_windowed_960x540.exe
+
+ Color modes used:
+ Display format : X8R8G8B8
+ Z-/Stencilbuffer format: D24S8

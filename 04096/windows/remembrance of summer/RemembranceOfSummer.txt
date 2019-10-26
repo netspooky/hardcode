@@ -1,0 +1,54 @@
+﻿"remembrance of summer" 4K Intro by 166
+
+
+動作に必要なシステム
+
+    . Windows XP / 2000
+    . OpenGL
+    . おおらかな気持ち
+
+
+以下のコンテンツのコピペによって作られました
+
+    . 32 degrees in the shade / Yodel
+      http://www.pouet.net/prod.php?which=7140
+
+    . Processing Images and Video for an Impressionist Effect / Sean Dunn
+      http://davis.wpi.edu/~matt/courses/impressionist/
+
+    . OGL framework / auld
+      http://in4k.untergrund.net/index.php?title=Aulds_OGL_Framework
+
+    . 涙そうそう (Nada sousou) / 作詞 - 森山良子 (Ryoko MORIYAMA), 作曲 - BEGIN
+      http://ja.wikipedia.org/wiki/%E6%B6%99%E3%81%9D%E3%81%86%E3%81%9D%E3%81%86
+      http://www.youtube.com/watch?v=xxse0OkKEzY&mode=related&search=
+
+    . 涙そうそう (Nada sousou) SMF データ / のっぽ (Noppo)
+      http://www2.ucatv.ne.jp/~to-1999.sea/nadasousou.html
+
+
+製作にあたり、以下のツールがとても有用でした
+
+    . crinkler / Blueberry & Mentor
+      http://www.crinkler.net/
+
+
+うまく動かないんだけど？
+
+    . DEP が有効な場合、うまく動作しないようです
+
+
+TBS は嫌いなんですが
+
+    . TBS を支援する意図はありません :)
+      # 2ch party 2006 summer の開催時期に、
+      # TBS が後援をする「涙そうそう」の映画が公開されていました
+
+
+ご挨拶
+
+    . 2ch party 2006 summer 関係諸氏に、ご挨拶申し上げます
+      42, Eldorado, mmmmomon, System K
+
+    . 「メガデモを語る」スレ在住諸兄への感謝をここに記します
+

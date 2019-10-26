@@ -1,0 +1,25 @@
+Zink Small by Zink-Interactive
+------------------------------
+Released as 64k intro at Dreamhack Winter 2007.
+Won first place in the combined 64k and demo compos.
+
+Files
+-----
+zink_-_zink_small_fs_aa.exe    | Fullscreen version with 2xFSAA
+zink_-_zink_small_win_aa.exe   | Windowed version with 2xFSAA
+zink_-_zink_small_fs.exe       | Fullscreen version with no FSAA
+
+Thanks
+------
+Thanks to kb/farbrausch for the übersynth V2 and ryg/farbrausch for the überpacker kkrunchy!
+
+
+Credits
+-------
+Hanes: Design, Code, Music
+Afe: Design, Code, Technical stuff
+
+Contacts
+--------
+www.zink-interactive.se
+inflyttningshest@gmail.com

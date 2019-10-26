@@ -1,0 +1,3 @@
+To run the intro in 16:9 mode, use RetroPedro_1280x720.exe
+
+

@@ -1,0 +1,323 @@
+
+     Bienvenidos a BCN Party, la primera Party SCENER en Barcelona
+     organizada por FUZZION.
+
+     Una Party es una convenci¢n de j¢venes que durante tres dias (en el
+     caso de la BCN Party), comparten una afici¢n com£n: la creaci¢n
+     art°stica mediante el uso de un ordenador. Los asistentes normalmente
+     son capaces de crear gr†ficos, m£sica y sincronizarlos con efectos
+     visuales programados por ellos mismos.
+
+     Una Demo es un proyecto que une los siguientes campos: gr†ficos,
+     m£sica y programaci¢n de efectos visuales, intentando buscar un
+     resultado espectacular y coherente.
+
+     "La Scene es un movimiento art°stico sin dogmas, ni organizaci¢n
+     centralizada. Es una forma de expresi¢n art°stica"
+                                  (SiN, scener)
+
+
+  * Caracter°sticas de la Party
+  -----------------------------
+        - Tenemos un aforo de 108 ordenadores.
+        - Puedes venir a la Party a participar con cualquier ordenador: PC,
+          AMIGA, MAC, MSX, C64, etc.
+        - Se realizar†n concursos SCENERS.
+        - Se realizar†n charlas-coloquio tem†ticas sobre temas relacionados
+          con la inform†tica y el mundillo SCENER.
+        - Est† previsto un partido de f£tbol (por confirmar).
+        - Tampoco faltar† el ya tradicional concurso de LANZAMIENTO DE
+          DISKETTE.
+        - Proyector de video en pantalla de 3'40 x 2'20 metros.
+        - Se dispondr† de un potente equipo de sonido.
+        - M†s de 50KW de potencia elÇctrica.
+        - Cada mesa tendr† una toma electrica (no olvideis traer el alargo
+          y el ladr¢n).
+        - Todos los participantes con ordenador que asistan a la Party
+          dispondr†n de conexi¢n a la RED de la Party (siempre que traigan
+          su propia tarjeta de red).
+        - Dispondremos de acceso a duchas, vestuarios, piscina climatizada
+          y sauna en el polideportivo adyacente al recinto de la Party.
+        - Se podr† dormir en el mismo recinto de la Party, en una sala
+          aislada y con parquet.
+        - Servicio de bar para refrescos y bocadillos.
+
+   * Dias
+   ------
+        - La Party se celebrar† los dias 6 - 7 - 8 de Octubre.
+
+   * Programa de la Party
+   ----------------------
+
+   Viernes 6 de Septiembre
+   
+   16:00 Apertura de puertas.
+   19:50 Apertura Oficial-Presentaci¢n.
+   20:00 Proyecciones de demos de otras parties.
+
+   Sabado 7 de Septiembre
+
+   11:00 Desayuno : Chocolatada.
+   12:00 Coloquios - Cursillos.
+   15:00 Deadlines de Concursos : Mods y Gr†ficos.
+   18:00 Deadlines de Demos e intros.
+   18:15 Partido de Futbol.
+   20:00 Pase de Mods a concurso.
+   21:00 Pase de Gr†ficos, Demos e intros a concurso.
+
+   Domingo 8 de Septiembre
+
+   11:00 Desayuno : Chocolatada.
+   12:00 Lanzamiento de diskette.
+   15:00 Entrega de Premios.
+   17:00 Desconexi¢n de energia.
+   18:00 Cierre de la Party.
+
+   * ®D¢nde se celebr† la Party?
+   -----------------------------
+        - En BARCELONA, en el barrio de HOSTAFRANCS.
+        - En el Casinet d'Hostafrancs: calle Rector Triador, 53
+          (al lado de la estaci¢n de Renfe BCN-Sants)
+
+        El lugar es grande, dispone de diversas salas:
+
+        - La sala principal con escenario.
+        - Diversas salas de reuniones o conferencias.
+        - Sala con parquet para poder dormir.
+        - Sala anexa de descanso.
+        - Duchas, vestuarios, piscina climatizada y sauna a nuestra disposici¢n.
+
+   * Concursos
+   -----------
+     Preguntas y consultas :
+          Concursos Demos e intros :
+               Trace : trace@fuzzion.org, BP : bp@fuzzion.org, Ufix :
+               ufix@fuzzion.org
+          Concursos Tracker :
+               Acidbeat : acidbeat@fuzzion.org
+          Concursos Gr†ficos :
+               Trace : trace@fuzzion.org
+          M†quina para las compos :
+               Dr.Kami : drkami@fuzzion.org
+
+     Normas comunes :
+          Demos e intros
+             + Pueden participar todo tipo de ordenadores y sistemas
+               operativos (MS-DOS, Win, Linux, Workbench Power PC, etc.).
+             + Debe funcionar en el ordenador de la competici¢n.
+             + Debe poder pararse con la tecla ESC. No cumplir esta norma
+               supone la descalificaci¢n.
+             + Todo lo que los autores consideren que hay que tener en
+               cuenta al ejecutar la demo o intro, debe ponerse en el
+               fichero demo.txt o intro.txt.
+             + Todos los trabajos han de ser entregados junto al fichero
+               file_id.diz correspondiente con todos los apartados
+               completos. No cumplir esta norma supone la descalificaci¢n.
+
+          Concursos Musicales
+             + Solo se podr† presentar un trabajo por autor y debe estar
+               presente.
+             + Habr† una preselecci¢n por parte del jurado si se presentan
+               mas de 10 participantes.
+             + La duraci¢n de les canciones es libre, pero solo se
+               escucharan los 3 primeros minutos.
+             + No se aceptan versiones de canciones originales ni remixes.
+               Deben ser temas originales.
+             + Todos los trabajos han de ser entregados junto al fichero
+               file_id.diz correspondiente con todos los apartados
+               completos. No cumplir esta norma supone la descalificaci¢n.
+
+          Concursos Gr†ficos
+             + Solo se podr† presentar un trabajo por autor y debe estar
+               presente.
+             + Junto al fichero final debe entregarse 5 capturas de pasos
+               previos del dibujo y la escena final en el formato original
+               propio del programa (en caso de gr†fico 3D) empaquetados en
+               formato ZIP o ARJ o LHA o RAR. No cumplir esta norma supone
+               la descalificaci¢n.
+             + No se admiten fotomontatjes o dibujos scaneados. Tampoco se
+               admiten dibujos redibujados a partir de una fotografia.
+             + Todos los trabajos han de ser entregados junto al fichero
+               file_id.diz correspondiente con todos los apartados
+               completos. No cumplir esta norma supone la descalificaci¢n.
+
+     Existen 5 categorias dotadas de premios en met†lico que son las aqu°
+     descritas.
+
+        - Demos (Multiplataforma)
+             + Se entregar†n en formato ZIP o ARJ o LHA o RAR sin
+               sobrepasar el m†ximo de 8Mb.
+             + Se podr† hacer uso de las tarjetas acceleradoras conectadas
+               en el ordenador de la competici¢n.
+             + Solo se mostrar†n los 15 primeros minutos.
+             + No se admiten demos con canciones comerciales. Se admiten
+               todo tipo de formatos para las canciones, siempre que sea
+               una canci¢n original de alguno del grupo.
+
+        - Intros 64KB (Multiplataforma)
+             + Tama§o m†ximo : 64ks (65535 bytes)
+             + La intro ha de ser SOLO un EXE o COM.
+             + Solo se puede presentar uan intro por coder.
+             + Se admite que tenga sonido.
+
+        - Mods Multicanal
+             + N£mero m†ximo de canales : 32.
+             + Formatos permitidos : IT, S3M, XM, MOD
+             + Limite de tama§o : 1440 kbytes
+
+        - Gr†ficos 2D
+             + La entrega es un fichero PNG, TIFF, JPG, GIF.
+             + Resuluci¢n m†xima : 800x600.
+             + Se puede usar todo tipo de software gr†fico que no sea 3D :
+               Adobe Photoshop, Newtek Aura, Painter MetaCreation, Deluxe
+               Paint, GrafX.
+
+        - Gr†ficos 3D
+             + La entrega es un fichero PNG, TIFF, JPG.
+             + Resoluci¢n m†xima del render : 800x600.
+             + Se puede usar todo tipo de software 3D (3dStudio, 3dStudio
+               MAX, Lightwave, Alias, Povray, etc..).
+
+          Estas son las compos de BCNparty no dotadas de premio en metalico
+          actualmente :
+
+        - Intros 4ks
+             + Tama§o m†ximo : 4ks (4096 bytes)
+             + La intro ha de ser SOLO un EXE o COM.
+             + Solo se puede presentar una intro por coder.
+             + Se admite que tenga sonido.
+
+        - Mods 4 canales
+             + N£mero m†ximo de canales : 4.
+             + Formatos permitidos : MOD
+             + Limite de tama§o : 880 kbytes
+
+        - Chiptune (Mod de 4 kbytes)
+             + N£mero m†ximo de canales : 32.
+             + Formatos permitidos : IT (sin comprimir), S3M, XM, MOD.
+             + Limite de tama§o : 4096 bytes.
+             + No se admitir† el uso de new-note-actions (NNA) ni filtros
+               resonantes en IT.
+             + No se permite el uso del chip FM (adlib) de la Sound Blaster
+               en S3M.
+
+        - Concursos Fast a decidir durante la party.
+
+
+    * M†quina para las compos
+    -------------------------
+          PC
+        - Debe funcionar aceptablemente bien (>15fps) en un Pentium II a
+          350 Mhz con una TNT2 y 64MB de RAM con Win98. (sin reiniciar en
+          DOS).
+        - Durante la compo se usara un Pentium III a 500 Mhz con una
+          geForce y 128MB de RAM.
+
+          Otras plataformas
+        - Por determinar.
+
+
+    * Premios en met†lico (en pesetas)
+    ----------------------------------
+     Estos premios estan sujetos a cambios de ultima hora.
+
+                  Demos   Intro      Multicanal   Gr†ficos     Gr†ficos
+                          64ks                    2D           3D
+
+      1ß Premio   55.000  25.000     15.000       15.000       15.000
+
+      2ß Premio   25.000  14.000     7.000        7.000        7.000
+
+      3ß Premio   10.000  5.000      -            -            -
+
+     Total en Premios : 200.000 pesetas
+
+
+    * Precio de la entrada
+    ----------------------
+
+          Con Reserva de plaza :2000 pts
+          Sin Reserva de plaza :3000 pts 
+
+
+    * Normas
+    --------
+
+        - BCNparty es una party scener. NO seais GAMERS. Al que veamos
+          jugando...a la calle ≠ :).Moderaos en eso, que todos tenemos
+          tentaci¢n de echar una partidita. Al menos no os comporteis como
+          gamberros y jugad sin armar escandalo si no podeis resistir al
+          tentaci¢n.
+
+        - Esta totalmente prohibido jugar con el ordenador o armar
+          escandalo durante los momentos clave de la party como son : Los
+          pases de demos, El pase de producciones y la entrega de premios.
+          No respetar esa norma supone que la organizaci¢n os de un aviso.
+          En caso de reincidencia se expulsara a la persona en cuesti¢n.
+
+        - Est† prohibido el uso de altavoces a los participantes de la
+          party. Ni grandes ni peque§os. Rogamos useis auriculares.
+
+        - Debido a que el recinto se encuentra rodeado de viviendas, a
+          partir de las 0:00 quedar† apagado el equipo de sonido de la
+          organizaci¢n. Se ruega a los asistentes que a partir de las 0:00
+          moderen en consideraci¢n el alboroto en la party.
+
+        - Se ruega no fumar en la sala principal de la party. Para ello se
+          dispone de la zona de bar y de un patio interior para tomar el
+          fresco.
+
+        - Podreis comer al lado de vuestro ordenador per¢ no seais sucios y
+          recoged lo que ensucieis. Tendreis papeleras cerca. Si no sois
+          civicos os tendremos que dar un toque de aviso y da vergÅenza que
+          te llamen guarro.
+
+        - Tanto el material de Electrico, de Red o mobiliario de la party
+          son cedidos o prestados. As° que os rogamos que no causeis da§os
+          a dicho material. Seamos todos cuiadadosos. Los desperfectos, si
+          se diesen, que es de esperar que no ocurra ninguno, iran a cargo
+          del que cause el da§o.
+
+        - Consideramos motivos de expulsion de la party todo aquel que cree
+          problemas, no respete a otras personas, cause da§os materiales,
+          consuma alcohol dentro del edificio o se presente en un estado de
+          embriaguez o que consuma alg£n tipo de droga dentro del edificio.
+          Deseamos no tener que expulsar a nadie. Seamos todos civilizados.
+
+        - Estas normas son ampliables. Ya se nos ocurriran m†s ;)
+
+
+    * Inscripci¢n
+    -------------
+              ≠≠ Ya puedes hacer tu reserva de plaza para BCNparty !!.
+
+          Para ello mirate el mapa de sitios que hay en la web
+          Elige un lugar o lugares donde situarte o situaros.
+          Luego envia un mail a jamque@fuzzion.org con los siguientes datos
+          (PARA CADA PERSONA):
+
+             + Handle
+             + Grupo
+             + Nombre completo
+             + Poblaci¢n
+             + Y el sitio a reservar (en caso de traer Ordenador).
+
+          Una vez hecho esto, te enviaremos un mail confirmando tu
+          asistencia a la BCNparty y te daremos el n£mero de cuenta para que
+          en los siguientes 7 dias acercarte a la oficina m†s cercana de un
+          BBV e ingresar 2000 pts por cada persona
+
+             EL JUEVES 28 de SEPTIEMBRE se cierra el plazo de reservas
+
+        - Si una vez confirmada la plaza, no se efectua el ingreso en los
+          siguientes 7 dias, autom†ticamente, SE PIERDE LA RESERVA DE
+          PLAZA.
+        - Tienen prioridad en la reserva de plaza aquellos que hicieron
+          pre-inscripci¢n.
+
+    * M†s Informaci¢n
+    -----------------
+
+	Para conseguir m†s informaci¢n y actualizada visita nuestra web oficial
+
+                                     www.bcnparty.org

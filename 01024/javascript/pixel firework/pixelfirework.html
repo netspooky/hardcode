@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DemoJS submission template</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <script>
+var b = document.getElementsByTagName('canvas')[0];
+    </script>
+    <script>
+var x=0,y=0,color,t=b.getContext("2d");b.width=500;b.height=300;setInterval(v,100);
+function r(a,b){return Math.floor(Math.random()*a)+b;}
+function initTir(){x=r(400,50);y=300;p=r(100,50);color='rgb('+r(255,0)+','+r(255,0)+','+r(255,0)+')';}
+function v(){if(x==0)initTir();t.fillStyle="black";t.fillRect(0,0,500,300);t.save();t.translate(x,y);t.fillStyle=color;t.fillRect(0,0,5,5);t.restore();y=y-7;if (y<p){r(10,0)>5?f():w();x=0;}}
+function w(){t.translate(x,y);for(i=1;i<5;i++){t.save();t.fillStyle='rgb('+r(255,0)+','+r(255,0)+','+r(255,0)+')';t.rotate(i*Math.PI/2);for(j=0;j<i*7;j++){t.rotate(Math.PI*2/(i*20));t.fillRect(0,i*15,3,6);}t.restore();}t.translate(-x,-y);}
+function f(){t.translate(x,y);for(i=1;i<6;i++){t.save();t.fillStyle='rgb('+r(255,0)+','+r(255,0)+','+r(255,0)+')';for (var j=0;j<i*6;j++){t.rotate(Math.PI*2/(i*6));t.fillRect(0,i*12.5,5,5);}t.restore();}t.translate(-x,-y);}
+    </script>
+  </body>
+</html>

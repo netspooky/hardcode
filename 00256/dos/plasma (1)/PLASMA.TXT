@@ -1,0 +1,18 @@
+        
+        Second entry is PLASMA.COM
+
+        It contains:
+                - A plasma (press <esc> to stop it)
+                  This comes from a routine I was working on in pmode
+                  the pmode version had a better palette. :)
+
+
+        Most of this crap was written at very short notice...
+
+        Run the .COM files included and enjoy.. if you can...
+
+        Anis Ahmad
+        bq689@freenet.carleton.ca
+        (If anybody wants a Basic/Pascal/C/C++/_ASM_/Java coder for their
+         group, PLEASE contact me).
+

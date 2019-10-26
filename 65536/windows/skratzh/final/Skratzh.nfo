@@ -1,0 +1,129 @@
+                 ___   _____                      _____   ___
+          ________) \___)   \_  __          __  _/   (___/ (________
+     ___ __)                 /_/ (__________) \_\                 (__ ___
+     \__\\___________                    _  _            ___________//__/
+    ______     .___| _____   ____     __//_//_  ____   ___!__    _____
+   _)  __/_____|   !/    /___)   \____\___   /_/   /___\__  /___/    /____
+   \_______    .   /   _/    /____/   ___   __    _    ____/   /    _    /
+       /______/|___\   \____/\_______/_____/ /___/ \___\___________/    /
+           ________|\____/                               elD_______\____\
+           \_____      _         S K R Ä T Z H        _      _____/
+                )_____/--------------------------------\_____(
+
+                                   an intro
+                                      by
+
+                               Ü  M  L  A  Ü  T
+
+                               D  E  S  I  G  N
+
+                                      at
+
+                              T O W E L  2 0 0 3
+
+-----------------------------------------------------------------------------
+FIXED VERSION - FIXED VERSION - FIXED VERSION - FIXED VERSION - FIXED VERSION
+-----------------------------------------------------------------------------
+
+*** CREDITS
+  Basic concept
+  Main system + effect code + syncs
+  Modelling + textures + design
+  Music ................................... Gargaj
+
+  Generator code fixing ................... Procyon
+
+  Texture-generator + interface ........... Vercy
+
+*** STUFF USED
+  Nifty l33t ASCII-logo ................... Elend
+  MiniFMOD Sound System ................... Firelight Multimedia
+  Exe-packer .............................. UPX 
+  3DS loader (for conversion) ............. Charlie & MRC! / Inquisition
+
+*** REQUIREMENTS
+  No real requirements considering the CPU, a Pentium-II is quite enough.
+  Obviously the faster, the better.
+  The videocard tho is quite important, sinec the intro uses loads of
+  rendering to texture, so it can eat the fillrate quite much. It should
+  run watchable at most parts with a Riva128, Vanta or TNT2 class card,
+  but for most parts, a GeForce2 is recommended. And during the testing,
+  a Radeon 9500 Pro showed quite nice results too :)
+
+*** ABOUT THE FIX
+  Pack the intro with FSG, and it crashes :)
+  Pack the intro with UPX, and it won't :)
+  I hate debugging utilities :)
+  Thx for Warp, Innocent and Vincenzo for testing.
+  Oh, and gratz for all the guys who made intros for ToWeL :)
+  
+*** BLAH (a.k.a. Gargaj at the keyboard, everybody handsup)
+  Well, since writing infofiles is kinda useless these days, considering
+  the fact that 90% of the .nfo's are never read, I guess I'll just put a
+  list here about the stuff you'll see in the intro (since I guess you are
+  either reading this because you can't watch the intro, because your
+  videocard is either too fast and you just feel humiliating to run it,
+  or you still have a 486 and seem to miss the newest DX9 drivers for your
+  nifty Tseng/Trident/S3 card) or you're reading this because you saw
+  our last intro and want to ensure that you WON'T get hurt this time.
+
+  OK, here's the deal, what's in T3H 1NTR0:
+  - Same weird music, but it's shorter now.
+  - More effects (ALERT ALERT RENDER2TEXTURE OVERFLOW)
+  - Cool scenepoetry (Hehe :)
+  - Nicer metaballs, with cool envmap.
+  - Same old textures, but this time won't screw up the colors. :)
+  - Won't crash under XP this time :) HAHAAAA we b 1337z0rz!!!
+  - The usual musicsync and speed as in the prequel.
+
+  Hope you'll love (to hate :) this one as well as the other one :)
+
+  I guess I should also add a greetz-list too, this time it goes to those
+  ub3rl33t d00dz0rz on IRC who helped me during the creation process,
+  mostly by keeping me alive and trying to persuade me to finish this.
+  (Read: If you don't like the intro, they're the ones to blame :))
+  So here goes: (in no particular order)
+    #demoscene (da LOFASZ kruu)
+      BoyC, Zoom, Innocent, padre Vincenzo, Mrc!, Tomcat, Nagz, Remage,
+      Pasy, Pontscho (huuu de ideges Poncso bizony), Charlie (o is ideges),
+      Nordbasse, Flashy, Talley, Elend, Tranzig, Huf (meg ha linuxer is >:),
+      Igor2, Megasys, TrX (nem lesz tobb xaos nyugi :), Slinky, Maxie, Meph,
+      Scath/Skygg/Arnyek (nemkivant torlendo), FooLMan, Sha, Kemo, Jimmi,
+      Noel, Arn, NikoN, KcG, Reptile, Mrmaim, Greenman, Lorenzo, Robymus,
+      Xidius, Snitt, Leaderc, Delilah, Reed
+
+      Tovabba szeretnem kulon megkoszonni annak a par maniakus orultnek, akik
+      kepesek voltak beirni engem kedvenc kodernek OJ-n, es/vagy valamikor
+      valami olyat mondtak ami jol esett. Sok szerencset tehat Taky-nak,
+      Tsg-nek, Tsw-nek es Sampinak, a magyar demoscene jelenlegi legnagyobb
+      remenysegeinek. Gyerunk fiuk, ideje lenyomni a Zekszciidet :))
+    #coolphat
+      CoaXCable, Garlick, Gree, Lukkk, Nezbie, Bal, Voxel
+    #pixel
+      Maali, Dookii, Statique, Ravian, Nisse, Blz, Kenpex, Tmk, Kenet,
+      Melwyn, Ciccileju, Stefan, Rez, PS, Noko, Bregade
+    #pouet.net
+      Stil (AAALLEEEEZ! \O/), Plek, Jar (T3H 0WNZ0R!), cD_, Fox, Ryg, Ile,
+      DiamonDie, Robotriot, Raimo, Dodke, Steffo, Droid, Nosfe, Warp, AK,
+      Med, Florent, Kusma, Optimus
+    #worldcharts
+      Barock, Thug, Nystep
+  (Extra greetz to [AT]Morpheus and Faust von Graven :)
+
+  Multi-Extra party greetz to Sha, Vincenzo, Slinky and most importantly
+  Poison/Singular for fixing up a player for my C64-music entry.
+  YUO SI TEH BIG _R0XX0R_!!!1!
+
+  Yes, hidden part is included. Find it if you can. If you succeed:
+  http://umlaut.intro.hu/hidden.php3
+  
+*** CONTACTS
+  Gargaj  - gargaj@freemail.hu    - http://umlaut.intro.hu/~gargaj
+  Vercy   - megavercy@freemail.hu
+  Procyon - procyon@mailbox.hu    - http://umlaut.intro.hu/~procyon
+
+-----------------------------------------------------------------------------
+ üd-02: kerti.schlag      http://umlaut.intro.hu      2003 (c) Ümlaüt Design
+-----------------------------------------------------------------------------
+                        THIS INFOFILE IS 100% RECYCLED
+=============================================================================

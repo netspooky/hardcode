@@ -1,0 +1,95 @@
+Blink 1.0
+orbitaldecay@gmail.com
+
+-~= What is Blink? =~-----------------------------------------------------------
+    Blink is a 32bit protected mode OS kernel for x86 PCs in 256 bytes! Blink
+is multiboot compatible, so it can be booted by any multiboot compliant boot
+loader (GRUB is all I've tested it with). Userland code is provided to the
+kernel to execute by means of multiboot modules.
+    When Blink is loaded, it specifies the VESA mode it would like to use to the
+multiboot boot loader. Thus, once userland code starts, a linear frame buffer is
+already available for drawing. This makes Blink particularly well suited for
+writing size code.
+
+-~= How to run Blink =~---------------------------------------------------------
+    To run Blink, you'll need GRUB2 installed. It won't work with GRUB legacy
+because GRUB legacy doesn't support the VESA graphics features of the multiboot
+specification (AFAIK). At the GRUB2 boot menu, press C to bring up a command
+line. Then type
+
+    > legacy_kernel /path/to/blink.bin /path/to/blink.bin
+    > module /path/to/intro.bin
+    > boot
+
+where '/path/to' represents a fully qualified path name. After typing 'boot'
+and pressing enter, Blink will boot and execute the userland code contained in
+intro.bin.
+
+-~= Writing Userland code for Blink =~------------------------------------------
+    Blink sets up a very minimal userland environment. There is no way to
+control where GRUB loads multiboot modules, so all userland code must be
+position independent. Blink does, however, place the address of the begining
+of the module in ESI and the address of the linear frame buffer in EDI before
+jumping to the userland module. Blink does not set up a stack for the userland
+code, so if you need one you'll have to set it up yourself. Blink reserves
+memory from 0x00100200 to 0x00200000 for use by userland code. Various constants
+are stored in settings.def which should aid development. For example, if you
+wanted to set up a stack and install an ISR to run every time the timer is
+triggered (IRQ0), you could do it like this:
+
+    %include 'settings.def'
+    bits 32
+
+    user.start:
+    ; At this point ESI contains a pointer to USER.start (which could be loaded
+    ; anywhere) and EDI contains a pointer to our linear frame buffer (LFB)
+
+    ; Initialize segment registers and setup stack
+    mov esp, USER_STACK ; USER_STACK is defined in settings.def
+
+    ; Save pointer to LFB
+    mov [USER_DATA], edi ; USER_DATA is defined in settings.def
+
+    ; Install ISR 0x20 to draw when the timer goes off (IRQ0)
+    mov eax, IDT_ADDR + 0x20 * 8 ; IDT_ADDR is defined in settings.def
+    add esi, (user.isr20h - user.start)
+    mov word [eax], si
+    shr esi, 16
+    mov word [eax + 6], si
+
+    user.spin:
+    jmp user.spin
+
+    ; ISR for 20h
+    user.isr20h:
+    pushad
+
+    ; Clear master PIC
+    mov al, 0x20
+    out 0x20, al
+
+    ; Fill the screen
+    mov eax, USER_DATA
+    mov ebx, [eax]      ; Load LFB address
+    mov edx, [eax + 4]  ; Load frame counter
+    xor ecx, ecx        ; Clear the pixel counter
+
+    user.isr20h_fillscreen:
+    mov byte [ebx + ecx * 4], dl
+    inc ecx
+    cmp ecx, VID_WIDTH * VID_HEIGHT ; Video resolution from settings.def
+    jnz user.isr20h_fillscreen
+
+    ; Increment frame counter
+    inc dword [eax + 4]
+
+    ; Goodbye
+    popad
+    iretd
+    user.end:
+
+-~= Thanks =~-------------------------------------------------------------------
+    ... to the OS dev community and all the 1337 h4xx0rz out there who keep the
+scene alive. E-mail me with questions or comments. Peace.
+
+orbitaldecay 2014

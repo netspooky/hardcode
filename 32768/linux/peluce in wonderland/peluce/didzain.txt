@@ -1,0 +1,408 @@
+(hirveää dumppia (syslog? irclog? csource?), jonka keskeltä zoomaa
+esiin pwp-teksti)
+
+   PWP
+
+presents in
+
+  19100
+
+(dumppi feidautuu tavalliseksi rasteriksi joka mustentuu paljastaen
+synkkää metsää joka skrollaa hitaasti)
+
+(teksti feidautuu esiin)
+
+A VT100 COMPATIBLE FILM
+
+(seuraava teksti)
+
+  STARRING
+
+PELU LAMURANTA
+
+(teksti feidautuu pois samalla kun pelulamu skrollaa esiin sienen kanssa)
+
+ WONDERLAND	// keksi edistyneempi nimi
+   (teksti zoomautuu edestäpäin)
+
+---
+
+(ihan hiljaista - pelu laittaa sienen suuhunsa, feidautti samalla)
+
+(pari satunnaista häiriötä, sitten taas mustaa. menomusa alkaa)
+
+---
+
+(melodian alkaessa animatsiooni tipahtaa ylhäältä esiin. jotain
+isi-style dualplanea tms)
+
+UUSI IHMEMAA ON AVAUTUNUT
+
+IHMEMAA TÄYNNÄ SMURFFEJA JA KUVIOITA
+
+(efekti vaihtuu)
+
+PELUN MIELESTÄ KAIKKI ON AIVAN IHANAA
+
+EIKÄ HÄN OSAA VAROA VAAROJA
+
+---
+
+(synkempi väripaletti)
+
+YHTÄKKIÄ PELU MENETTÄÄ KAIKEN
+
+KUN PAHA HENKI RIIVAA HÄNET
+
+VIATON SIELU PAKENEE PELUSTA
+
+JA HÄNESTÄ TULEE TAHDOTON SAATANAN PALVELIJA
+
+---
+
+(melodiaton ja hiljainen osuus, pelu kulkee ruudun poikki jne)
+
+PELUSTA TULEE KAUHEA TAPPOKONE
+
+JA HÄN RUPEAA TEURASTAMAAN
+
+KAIKKIA KIVOJA ETNISIÄ RYHMIÄ:
+
+(pelu kävelee kirves kädessä, vasemmalta tulee vastaan kaikenlaista kivaa)
+
+... KRISTITYT PÄLLIT  (CHRISTIAN IDIOTS)
+
+    taustalla kirkkoja, hautausmaata ym
+
+    ihmiset: pappeja, joku kunnon tuomionpäiväsaarnaajan näköinen
+
+    taivaalla skrollaa jeesuksenopetuslapsetry-tekstiä joka feidaa
+    pappien kuollessa?
+
+... UUSMEDIAPÄLLIT  (NEW MEDIA IDIOTS)
+
+    taustalla urheiluautoja ym
+
+    aurinkolasipäisiä trendipellejä
+
+... TESNOPÄLLIT  (TECHNO RAVE IDIOTS)
+
+    taustalla helvetin isoja kaiuttimia jne
+
+    stroboa, uusmediapällit hyppivät
+
+... ARMEIJAPÄLLIT  (MILITARY IDIOTS)
+
+    taustalla piikkilankaa jne
+
+    natseja osoittelemassa tulikepeillä
+
+... WINDOWS-PÄLLIT  (WINDOWS IDIOTS)
+
+    taustalla kompuuttereita joissa on ruutu sinisenä
+    + jokin windows-lippu
+
+    "internet-asiakkaita"
+
+... QUAKEPÄLLIT  (QUAKE IDIOTS)
+
+    samat siniset kompuutterit jatkuvat
+
+    pelulamun identtisiä kopioita
+    
+    lopuksi pelu tappaa itsensä
+
+(ruutu täynnä punaista verta)
+
+---
+
+(veri feidautuu effektiin: maapallo pyörii)
+
+NÄIN MAAILMASTA TULI PALJON PAREMPI PAIKKA
+
+(gnu-pentagrammi zoomaa edestäpäin ja asettuu ruudun yläosaan)
+
+PÄLLITÖN MAA
+
+VAPAA MAA
+
+IHMEMAA
+
+(gnu-pentagrammin gnu muuttuu pelun pääksi)
+
+(fadeout)
+
+---
+
+loppueliteydet
+
+(aivan eri musa?)
+
+(taustalla skrollaa taas kaikkea kivaa: nethack-tyylisiä ruutuja,
+ ircciä, heksadumppia, koodia, disassemblyä jne)
+
+ PWP GREETS THESE GROUPS
+
+         ISO
+    DRUIDS OF DAWN
+       HYDROGEN 
+    BRAINLEZ CODERS
+      PUPULAUMA
+
+
+---
+
+sprite("krist0","#7700 x1900 h1300 z6e00 n8800 +0000 b6600 I4488",<<EOS);
+
+                     ######
+                    #######
+                    #######
+                    #######
+                     I#####
+                    ######
+           #       ########
+           #      ##########
+         ###     ###########
+         ###            ####
+       ######            ###
+           ###      ########
+            ###     #######
+             ###      ##### 
+  nnnnnn      ####   xxxxhhh
+ nnnnnnnn      #####xxxhhhhh
+ nnn++nnn        ###hxx##h#x
+ n++++++n           x####xxx
+ nnn++nnn           ####xxxx
+ nnn++nnn         #####xxxxx
+ nnn++n##############xxxxxxx
+ nnnnnnnn###########xxxxxxxx
+ nnnnnnn####        **zzzzzz
+  nnnnnn            **zzzzzz
+                    xxxxxxxxx
+                    xxxxxxxx
+                     xxxxxxxx
+                     xxxxxxxx
+                       hhh
+                       hhh
+                       hhh
+                       hhh
+                       bbb
+                       bbb
+                       bbb
+                     bbbbb
+                   bbbbbbb
+                  bbbbbbbb
+EOS
+sprite("krist1","#7700 x1900 h1300 z6e00 n8800 +0000 b6600 I4488",<<EOS);
+
+                     ######
+                    #######
+                    #######
+                    #######
+                      #### 
+             #        #### 
+             #     ########
+           ###    ##########
+           ###   ###########
+           ###          ####
+           ###           ###
+            ###         ####
+             ###   ########
+  nnnnnn      ###   ####### 
+ nnnnnnnn      ###   xxxhhh 
+ nnn++nnn       ####xxxhhhhh
+ n++++++n        ###hx###h#x
+ nnn++nnn           #####xxx
+ nnn++nnn         #####xxxxx
+ nnn++n###############xxxxxx
+ nnnnnnnn############xxxxxxx
+ nnnnnn######       xxxxxxxx
+  nnnnnn            **zzzzzzz
+                    **zzzzzz
+                    xxxxxxxxxx
+                    xxxxxxx 
+                     xxxxxxxx
+                     xxxxxxxxx
+                       hhh
+                       hhh
+                       hhh
+                       hhh
+                       bbb
+                       bbb
+                       bbb
+                     bbbbb
+                   bbbbbbb
+                  bbbbbbbb
+EOS
+
+!pelu0 n8800 x4400 Zee00 .1133 o77ff @7f00 x4408 X3900
+
+   nnnnnnnnnn          	
+   nn nnnn nn          
+       nn              
+       nn              
+    xxxxxxxxxxxx       
+    xxxxxxxxxxxxxxxxxxx
+   xxxxxxxxx           
+   ZZZZZ....           
+  @@@@......           
+  @@@@....o.           
+ @@@@@@@....           
+ @@@@@@@@@@@           
+ @@@@@@@@@@@@@         
+ @@@@@@@@@@@@@@@       
+  @@@@                 
+  @@@@@@               
+  @@@@@@@@@@  xx       
+  @@@@@@@@@@@@@@       
+   @@@@@@@@@@@         
+   @@@@@@@@@           
+     @@@@@             
+     @@@@              
+     @@@@
+     XXXX
+    XXXXXX
+   XXXXXXXX
+   XXXXXXXX
+   XXXXXXXX
+   XXXXXXXX
+   XXXXXXXX
+   XXXXXXXX
+   XXXXXXXX
+   XXXXXXXX
+   XXXXXXXX
+    XXXXXX
+    XXXXXX
+     XXXX
+     XXXX
+     XXXX
+     XXXX
+     XXXXXX
+     XXXXXXXXX
+
+
+!kirves h:6600 X:7800 #:7700
+
+       hh
+      hhhh  
+     XhhhhXXXXX
+    XXhhhhXXXXX
+  XXXXXXXXXXXXX
+ XXXXXhhhhXXXXX
+XXXXXXXXhhXXXX 
+   XXXXhhhXXXXX
+ XXXXXhhhhXXXXX
+XXXXXXhhhhXXXXX
+      hhhh
+      hhhh
+      hhhh
+   ########
+  ##########
+  #########
+  ###########
+     ######
+      hhhh
+      hhhh
+      hhhh
+
+
+
+
+           h
+           h h h
+           h h h h
+           hhhhhhh
+           ffffffff
+          +++ffffff
+          +++++++ff
+          +++ffffff
+         ffffffffff
+        fffffffffff
+           WW fffff
+               ffff
+          ffffffff
+           ffffff
+            ffff
+            ffff
+        
+
+            
+            
+            
+            
+
+
+
+               n
+              nnn
+               n
+               n
+               n
+              rrr
+             rrrrr
+            rrrrrrr
+           rrrrrrrrr
+          rrrrrrrrrrr
+          rrrrrrrrrrr
+          rrrrrrrrrrr
+          rrrrrrrrrrr
+          rrrrrrrrrrr
+          rrrrrrrrrrr
+          rrrrrrrrrrr
+          rrrrrrrrrrr
+            
+            
+                           
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+
+            

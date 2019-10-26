@@ -1,0 +1,7 @@
+PESTKA - Prawdziwa Elegancja Spotyka Twardy Kod Asemblerowy
+(Genuine Elegance Meets Hard Assembly Code)
+256 bytes intro
+-----------------------------------------------------------
+coded by Pirx
+assembled with TASM 5.0
+May 2006, Czestochowa - Poland

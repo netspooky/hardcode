@@ -1,0 +1,59 @@
+J256 EXPLAINED - by Rasky/Spyral
+
+Ciao raga,
+
+ sono l'autore di J256.COM accusata indegnamente di plagio. Tanto per comincia-
+re le somiglianze con la intro del russo si riducono a 2, e cioe':
+
+ 1) Si tratta dello stesso Julia set
+ 2) La palette sono toni di grigi
+
+Se questo bastasse a considerare plagio la mia intro... mah!!!
+
+Ora passiamo alle differenze tra le due intro:
+
+ 1) Il mio Julia e' calcolato con un banalissimo ciclo che si ripete 200
+    volte per disegnare ogni riga, e 320 volte per disegnare il singolo pixel
+    Quella del russo usa invece un ciclo molto strano, dato che in BH lui
+    tiene SIA il numero della linea corrente CHE il valore fixed point Y per
+    il frattale. Se ci fase caso, lui per ogni frame ridisegna DUE volte le
+    prime 20-30, cosa che la mia intro non fa. Lui se ne frega, tanto la intro
+    e' gia' veloce (molto piu' della mia) e in questa maniera guadagna byte
+    preziosi
+
+ 2) L'approsimmazione e' differente. Io uso fixed 8.8, lui fixed 3.15 (o almeno
+    credo).
+
+ 3) Il suo codice e' pieno di JO (guardatelo con un normale debugger) che
+    in pratica gli dicono subito se un certo punto fa parte di Julia o no
+    (se va in overflow con i fixed 3.15, significa che il numero e' superiore
+    a 4). Nel mio non c'e' nemmeno un JO.
+
+ 4) Lui si calcola in pratica (X+Y), e (X-Y), poi li moltiplica per ottenere
+    (X^2-Y^2), con il quale si calcola la nuova X, poi fa X*Y, con il quale
+    si calcola la nuova J. Riesce quindi a fare 2 sole moltiplicazioni.
+    Non ha bisogno di calcolare X^2+Y^2 per vedere se uscire dal loop, dato
+    che i JO lo fanno per lui.
+    Nel mio codice ci sono 3 MUL.
+
+ 5) Quanti XCHG vedete nel suo codice?
+
+Se volete sapere come mai e' lo stesso Julia Set, la risposta e' facile: quel
+Julia Set ha come parametro X=0, e quindi a un certo punto del loop non e'
+piu' necessario fare ADD XX,[X] (per intendersi), e si guadagna bytes prezio-
+si.
+
+Inoltre, sono disposto (dopo le votazioni) a rilasciare il sorgente commentato
+della mia intro, e di quella del russo (non commentata) cosi' che tutti
+possiate
+vedere le differenze.
+
+Ultimo, ringrazio vivamente Marco Foco, che dopo aver lanciato questo thread,
+si e' scusato personalmente per la cavolata che aveva sparato...
+
+Detto tra noi, il mio Julia da solo occupa 104 bytes...
+
+  ** RaskY
+      of
+    @Spyral@ **
+                author of J256.COM

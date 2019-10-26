@@ -1,0 +1,40 @@
+                       (-= DiViNE =-)
+                           Unidaq
+                  For the 256 byte game compo
+
+A 256 byte Tron-like game. (386+,CGA)
+Written by Fysx and Phoebus of DiViNE.
+
+Object of the game:
+  To avoid running into anything for as long as possible.
+
+How to play:
+  Keys for player one (Blue) (NOTE: Caps Lock must be off):
+    z - turn 90 degrees counter clockwise
+    x - turn 90 degrees clockwise
+  Keys for player two (Purple):
+    , - turn 90 degrees counter clockwise
+    . - turn 90 degrees clockwise
+  Exit: ESC key
+  Pause: Pause key :)
+
+Scores for each player are written at the bottom of the screen in your
+players' color.
+
+Have fun!
+
+        Fysx (Maxwell Sayles)
+        Email: msayles@acs.ucalgary.ca
+               msayles@freenet.calgary.ab.ca
+        IRC: #CODERS, #DIVINE
+
+        Phoebus (John Skinner)
+        Email: jskinner@freenet.calgary.ab.ca
+        IRC: #CODERS, #DIVINE
+
+        Greetz: Seks, Nehe, JMagic, dWEEZIL, TheFear, ae-, Hasty,
+                Kodiak, Volt, MainFrame, Corey, Anixter, Martial Artist,
+                Jsa, Epeius, Error, Omni, Ior, Sketch, Spazz, Doom,
+                HoseBeast, LiveFire, Metal
+
+Food is a drug.  We do not die from starvation, but simply from withdrawal!

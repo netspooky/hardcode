@@ -1,0 +1,38 @@
+\-/ returns ! - http://www.games-net.de/hosted/tggc
+___________________________________________________
+
+
+  imagine                 :-: an introduction in 48k
+
+  Code                    :-: CodingCat (alphanew.net)
+                              Hel       (blu-flame.org)
+                              TGGC      (games-net.de/hosted/tggc)
+
+  Music                   :-: Turri
+
+  packer                  :-: kkrunchy by ryg/farbrausch
+
+  synthesizer             :-: libv2 by kb/farbrausch
+
+
+  system requirements     :-: killer GPU, shader model 3+
+                              DirectX August 2009 RT
+                              Windows
+
+  known issues            :-: Enforcing "Quality" / "Anti-Aliasing"
+                              in the ATI Control Panel somehow
+                              breaks rendering in the demo. However,
+                              the demo makes use of anti-aliasing
+                              natively, so no need to enforce it.
+
+
+  greets            ASD, Calodox, Conspiracy, Fairlight, 
+                    Farbrausch, Fuzzion, Kakiarts, Loonies,
+                    Nuance, RGBA, Speckdrumm, Still, TBC,
+                    TBC, TBL, Titan, Traction
+                    atla, BlueCobold, mcdeck, matt|6s, pro, rapso,
+                    rip, TomasRiker
+                    anyone else from #gamedev.ger, #sppro and #cpp
+
+
+  Think about tommorow.

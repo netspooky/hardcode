@@ -1,0 +1,21 @@
+Kategorie     : PC 64kB INTRO
+Soubory       : lava.exe,data.dat
+Velikost      : 53 651 b
+Autor         : WIZard Raist
+Kontakt       : raist@email.cz
+                http://fly.to/raist
+                Petr Stastny
+                Straznicka 3259
+                Melnik
+                276 01
+ 
+Nazev       : LAVA
+Delka       : bezi ve smycce (lze prerusit stiskem libovolne klavesy)
+Vytvoreno v : Turbo Pascalu a trocha veci v ASM. Patchnuto pro 
+              bezchybny chod na Pentium II.
+Rozliseni   : 320x200 256 barev (Mod 13h)
+Zvuk        : jen Sound Blaster kompatibilni (hledam BLASTER 
+              promenou prostredi systemu). Zvuk lze vypnout 
+              parametrem NOSOUND. GUS nemam a neumim.
+              (a zvuk neni prilis hlasity)
+System      : klidne zkuste windows9x

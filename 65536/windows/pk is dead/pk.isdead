@@ -1,0 +1,132 @@
+_______________________________________________  
+
+                   pk is dead
+              Win32/Linux release
+
+          rio pan dixan wiss aragorn
+                spinning  kids
+
+       ranked 4th at mekka symposium
+        2002  fallingbostel germany 
+________________________________________________
+
+the following bytes can be intended as info file
+________________________________________________
+
+ yes,spinning kids are back after about 2 years 
+ of  comfortable sleeping and jerking , and the 
+ best party possible to  release our handful of
+ bytes is, of course, mekka symposium!
+ furthermore , this is our first prod featuring
+ our friend wiss , who joined our crew to bring
+ some fresh canadian flavour.
+ 
+ let's point out the credits:
+ code  : rio, pan, wiss
+ design: pan, rio, dixan
+ music : dixan
+
+ and then some dues:
+ firelight multimedia for minifmod music system
+ luks for minifmod port to linux
+ m. oberhumer & l. molnar for UPX packer 
+ liz for her patience
+ philip k. dick for his nightmares
+ 
+ now, get some notes to contact us:
+ web : www.spinningkids.org
+ mail: nickofthedude@spinningkids.org
+________________________________________________
+
+ I guess this is all you expected from this txt
+________________________________________________
+
+Final words
+ We would like to thank the people from 3state
+ for their congrats mail just after the party =)
+________________________________________________
+
+Love,
+ PanRioDixanWiss
+________________________________________________
+
+PK is dead in Linux
+________________________________________________
+
+ Many thanks fly to Aragorn for the great job he
+ made in the last months: Porting PK to Linux.
+ It wasn't an easy job since me (PaN) did his
+ best to make the intro less portable as
+ possible. I hope you like it.
+
+ This package contains a UPX compressed version
+ of the executable. Just in case, you'll find
+ the "Linux only" .tar.gz file at:
+
+        http://www.spinningkids.org/ftp/codes/sk-pkd-i386.tar.gz
+
+ You'll find the previous sk-pkd.zip at:
+
+        http://www.spinningkids.org/ftp/codes/sk-pkd-win32.zip
+
+                                        *PaN!*
+
+________________________________________________
+
+Linux version release notes
+________________________________________________
+
+ You'll need SDL, the latest OpenGL  stuff for
+ your video card, a working sound board and a
+ decent X (4.2  should do it).  See below  what
+ "ldd pkisdead" croaks on my system.
+ "./pkisdead -?" gives help. Enjoy.
+
+                        -- Aragorn/sPINNING kIDS
+                        aragorn@spinningkids.org
+
+libGLU.so.1 => /usr/lib/libGLU.so.1 (0x40018000)
+libGL.so.1 => /usr/lib/libGL.so.1 (0x4002c000)
+libSDL-1.2.so.0 => /usr/lib/libSDL-1.2.so.0 (0x40074000)
+libpthread.so.0 => /lib/i686/libpthread.so.0 (0x400ee000)
+libstdc++-libc6.2-2.so.3 => /usr/lib/libstdc++-libc6.2-2.so.3 (0x40103000)
+libm.so.6 => /lib/i686/libm.so.6 (0x40146000)
+libc.so.6 => /lib/i686/libc.so.6 (0x4016a000)
+libGLcore.so.1 => /usr/lib/libGLcore.so.1 (0x4029b000)
+libXext.so.6 => /usr/X11R6/lib/libXext.so.6 (0x40635000)
+libX11.so.6 => /usr/X11R6/lib/libX11.so.6 (0x40642000)
+libdl.so.2 => /lib/libdl.so.2 (0x406f9000)
+/lib/ld-linux.so.2 => /lib/ld-linux.so.2 (0x40000000)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+________________________________________________
+
+AreYouStillAlive /PK ? final words by pan
+________________________________________________
+
+ Working on the design, I was inspired by the 
+ book "Ubik" and the short novel "Misadjustment"
+ both from Philip K. Dick (1928-1982).
+ 

@@ -1,0 +1,38 @@
+=========================================================
+	PLEXUS NONE
+				by
+					EMPATHY
+							at
+								EVOKE 2017
+=========================================================				
+
+	type:
+		4k intro
+	platform:
+		Windows PC
+
+=========================================================
+
+	Credits:
+		rimina :
+			visuals, design
+		noby :
+			music, framework code, tweaking, support
+
+		Additional thanks to fizzer for brains.
+			Bananas are not that strong.
+
+=========================================================
+
+	Tools:
+		Synth:
+			Oidos by Blueberry
+		Minifier:
+			Crinkler by Blueberry & Mentor,
+			Shader Minifier by LBB
+		Framework:
+			Leviathan 2.0 by noby
+
+=========================================================
+
+	Greetings to everyone.

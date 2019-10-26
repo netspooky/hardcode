@@ -1,0 +1,28 @@
+
+
+\-/ returns ! - http://www.games-net.de/hosted/tggc
+___________________________________________________
+
+
+  CMath 4k Intro Wannabe  :-: an introduction in 40k
+
+  Code                    :-: TGGC
+
+  Music                   :-: Turri
+
+
+  packer                  :-: kkrunchy by ryg/farbrausch
+
+  synthesizer             :-: libv2 by kb/farbrausch
+
+
+  greets            ASD, Calodox, Conspiracy, Fairlight, 
+                    Farbrausch, Fuzzion, Kakiarts, Loonies,
+                    Nuance, RGBA, Speckdrumm, Still, TBC,
+                    TBC, TBL, Titan, Traction
+                    atla, BlueCobold, mcdeck, matt|6s, pro, rapso,
+                    rip, TomasRiker
+                    anyone else from #gamedev.ger, #sppro and #cpp
+
+
+  This intro is a serious prod!

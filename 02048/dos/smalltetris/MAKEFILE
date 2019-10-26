@@ -1,0 +1,21 @@
+.AUTODEPEND
+
+
+EXE_dependencies =  \
+ blocks.obj \
+ screen.obj \
+ tetris.obj
+
+tetris.exe: $(EXE_dependencies)
+  TLINK /t tetris.obj blocks.obj screen.obj
+
+
+blocks.obj: blocks.asm
+	TASM /m2 BLOCKS.ASM,BLOCKS.OBJ
+
+screen.obj: screen.asm
+	TASM /m2 SCREEN.ASM,SCREEN.OBJ
+
+tetris.obj: tetris.asm
+	TASM /m2 TETRIS.ASM,TETRIS.OBJ
+

@@ -1,0 +1,24 @@
+
+ "Raving Tomatoes - Screenraver"
+ A useful tool for keeping your digital equipment vivid and healthy
+ 
+ A 4k intro for Revision 2011 by T$
+ 
+ Requires DirectX9c (including the D3DX library from the March 2009
+ SDK update, stored on disk as d3dx9_39.dll),
+ a 3D graphic accelerator featuring VS 3.0, PS 3.0 and a soundcard.
+ Initialization can take some time on slower CPUs.
+
+ Running time: 3:34
+
+ Files included:
+
+* Ts4krev12_1920x1080.exe
+* Ts4krev12_1440x900.exe
+* Ts4krev12_1280x720.exe
+* Ts4krev12_1024x768.exe
+* Ts4krev12_windowed.exe
+
+ Color modes used:
+ Display format : X8R8G8B8
+ Z-/Stencilbuffer format: irrelevant

@@ -1,0 +1,139 @@
+                                                                                
+                             ÛÛÛÛ  ÛÛÛ                          
+                            ÛÛ      ÛÛ             
+                            ÛÛ      ÛÛ  ÛÛÛÛÛ    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+                           ÛÛÛÛÛ    ÛÛ      ÛÛ  ÛÛ  ÛÛ 
+                            ÛÛ      ÛÛ   ÛÛÛÛÛ  ÛÛ  ÛÛ 
+                            ÛÛ      ÛÛ  ÛÛ  ÛÛ   ÛÛÛÛÛ 
+                   ÛÛÛÛÛÛÛÛÛÛÛ      ÛÛ   ÛÛÛÛÛ      ÛÛ
+                                                 ÛÛÛÛÛ  
+                                                              
+                                      by   
+                                                                               
+                                 The Mad Team    
+                                                                               
+
+
+1.System requirements:                                        
+=-=-=-=-=-=-=-=-=-=-=-                                               
+- 386 but 486 dx4 recommended with fast video card (VLB/PCI)
+- Gravis UltraSound for music                                    
+- 100 Kbyte XMS                                                  
+- 600 Kbyte DOS memory
+- Please remove all cache (smartdrv,ncache) and EMS (emm386,qemm386) manager 
+  from memory
+                                                                               
+                                                                               
+2.Credits:
+=-=-=-=-=-
+
+Code        :    Pasy,Vince
+Music       :    Just
+Logos,fonts :    Dose
+Picture     :    Wolverine
+Objects     :    Just,Rascy
+MADPLAY V0.8:    Pasy
+
+
+3. The Mad Team members:
+=-=-=-=-=-=-=-=-=-=-=-=-
+
+                  PASY. . . . . . . . . . . . . . . . .  Coder
+                                 P lmai R¢bert
+                  VINCE. . . . . . . . . . . . . . . . . Coder
+                                  L ng P‚ter
+                  DRM . . . . . . . . . . . . . . . . .  Coder
+                               Szeleczki R¢bert
+                  JUST . . . . . . . . . . . . . . . . . Musician
+                                 P lmai G bor
+                  RASCY . . . . . . . . . . . . . . . .  Ray-tracer,Coder
+                                 Schalk Tam s
+                  DOSE . . . . . . . . . . . . . . . . . Graphician
+                                  Tuba G bor
+                  WOLVERINE . . . . . . . . . . . . . .  Graphician
+                              Sz doczki Kriszti n
+                  PETY . . . . . . . . . . . . . . . . . Swapper
+                                  Tanka P‚ter
+                  SHADE . . . . . . . . . . . . . . . . .Swapper,Musician
+                                 Navratil S ndor
+ 
+4. Released programs:
+=-=-=-=-=-=-=-=-=-=-=
+
+   TMT_MTR2.ARJ    MadTro II. 64K Intro (VGA/386/GUS)
+   TMT_MCD .ARJ    MadCD 0.9á. Audio CD-Player
+   TMT_RAYT.ARJ    Raytraced picture for EXE'95                      2nd Place
+   TMT_CHNG.ARJ    The Change a multichn music for EXE'95
+   TMT_CRSH.ARJ    Crash, a demo for EXE'95               
+   TMT_WHYN.ARJ    Why Not ? a 4chn music for EXE'95                 2nd Place
+   TMT_LUCK.ARJ    A little bit of luck ,4chn music for sceNEst '96
+   TMT_VOIC.ARJ    The top of the voice, multichn music for sceNEst'96
+   TMT_SHIN.ARJ    Shine, a demo for sceNEst '96
+   TMT_LITE.ARJ    Lite, a 64K Intro for sceNEst '96                 2nd Place
+   TMT_HALL.ARJ    Raytraced picture for sceNEst '96 
+   TMT_RAW.ARJ     RAW, a demo for Flag '96
+   TMT_FLAG.ARJ    Flag, a 64K Intro for Firgering `96               1st Place
+   TMT_OT.ARJ      Old Times, 4chn music for Firgering '96           1st Place
+   TMT_NTAL.ARJ    New Tale, multichn music for Firgering '96        1st Place
+   TMT_FGFX.ARJ    GFXs for Firgering '96 by Rascy and Dose 
+
+5.The story of FLAG:
+=-=-=-=-=-=-=-=-=-=
+This intro originally made for Flag `96 party , we started to made it at
+partyplace, but we can't finish it. And now it's ready for the Firgering party.
+
+
+6.Greetings:
+=-=-=-=-=-=-
+
+Group greetings to:
+
+Astroidea,Byteam,Capanna,Controlled Dreams,Criminal Gang,Digital Creatures
+DinastY,Enlightenment,Eternal,Exhumers,Faculty,Firg,Grif,Majic Twelve
+Mortal Team,Murmidones,Profik,Promise!,Proxima,Remal,Shock!,Unicorn
+United Force,Unique Pc,Urinate!,Virtual Crew
+
+Personal greets to:
+
+           Atx/Shock!
+           BigFoot
+           Blala/Byteam
+           Logten/Murmidones
+           Sabchee/Exhumers
+           Tomcat2/Controlled Dreams
+           TRS
+           Tyrant/Murmidones
+           Welder/Exhumers
+           Woland/Exhumers
+           Yitzhaq/Proxima  (thanks for e-mail, we will send an answer soon)
+
+7. Contacts:
+=-=-=-=-=-=-
+
+                          If you want to contact us
+                        write a letter to this address:
+
+                            P lmai R¢bert /PASY/
+                            Esztergom-kertv ros
+                            J¢sika M. ut 14.
+                            H2509
+                            HUNGARY  
+
+
+                             or call this number:
+
+                     06-33-319-619  (PASY's phone number)
+
+
+             or try this InterNet address  (in school time:September-May)
+
+                     tankap@rs3.szif.hu  (PETY's address)
+
+
+
+               WE ARE SEARCHING FOR DISTRO SITES FOR OUR PROGRAMS !
+
+-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú
+
+
+

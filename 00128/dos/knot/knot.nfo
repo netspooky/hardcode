@@ -1,0 +1,10 @@
+prod:    knot
+type:    128 byte intro
+author:  frag/fsqrt
+date:    13-02-2012
+
+Simple z-buffer-based rendering technique.
+Enjoy!
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

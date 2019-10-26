@@ -1,0 +1,62 @@
+
+ //================================================================\\
+ \\                                                                //
+ ||    01000001 01001110 01001011 01000101
+ ||    01010111 01001001 01010100 01010100
+ ||
+ //================================================================\\
+ \\   ___________.___  ________  ___ ______________                //
+ ||   \_   _____/|   |/  _____/ /   |   \__    ___/
+ ||    |    __)_ |   /   \  ___/    ~    \|    |   
+ ||    |        \|   \    \_\  \    Y    /|    |   
+ ||   /_______  /|___|\______  /\___|_  / |____|   
+ ||           \/             \/       \/           
+ //================================================================\\
+ \\                         relase: FINAL2                         //
+ ||
+ ||                       CODE,GFX: weird (2mindo@gmail.com)
+ ||            WEIRD'S INSPIRATION: anke
+ ||             MUSIC WHILE CODING: him, iron maiden, shpongle,
+ ||                                 infected mushroom...
+ ||               README ASCII-ART: www.network-science.de/ascii
+ ||
+ ||
+ //================================================================\\
+ \\                         ABOUT THE DEMO                         //
+ ||
+ || This demo is "oldschool-like", so don't expect any
+ || smashing 3d hardware-accelerated graphics.
+ ||
+ || 48kB...quite enough. But baby, it's TURBO PASCAL ;) That's also
+ || why the demo is so slow. BTW it should be run-time error 200
+ || resistant, if it's not, e-mail me. Any other bugs, any
+ || questions - you can e-mail me too. E-mail to 2mindo@gmail.com
+ || is also probably the best way how to obtain the 1988 lines long
+ || source code (my year of birth is 1988 :)).
+ ||
+ ||
+ || There are 2 versions of the demo in this relase:
+ ||
+ || * 8f2_n+e-.exe (48kB) - floating-point library is used only if
+ ||                         an 80x87 is present
+ || * 8f2_n+e+.exe (56kB) - emulates 80x87 if it's not present
+ ||
+ ||            this is just for guys with really old machines
+ || 
+ ||
+ || * To quit the demo, press escape at any time and wait for
+ ||   nearest checkpoint ;)
+ || * Individual parts of the demo can be skipped by pressing
+ ||   any key
+ || * It has really no music, and i'm really sorry about that
+ || * I don't know the exact meaning of "demo", "intro" and
+ ||   so on, so I hope the label "demo" is correct (i know
+ ||   small stuff should be called intro, but..whatever)
+ ||
+ ||    hope you like it
+ ||
+ ||        see you later fellows
+ ||
+ ||(C)2005 by weird
+ \\//
+  \/

@@ -1,0 +1,12 @@
+Serpent by MINIMAL
+-
+Code: Tropical Trevor
+Modeling: Ixion
+Music: Punqtured
+-
+Released at TRSAC 2016
+-
+Made with the usual 4k tools, Crinkler by Loonies, & Oidos by BlueBerry, & own OpenGL framework.
+-
+Huge shoutout to "Seascape" by TDM as we completely used his noise functions for the ocean.
+It is probably the most viewed shader at Shadertoy.com, if you haven't seen it, go check it out!

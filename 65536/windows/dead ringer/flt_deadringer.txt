@@ -1,0 +1,94 @@
+
+
+  .                       .    .    .         .   °         (
+.  °       . °  )  .    °                       .         .  ) °   .  ° )
+  )      .     (      .     .               °         ° .   .    .  .  (   
+ (               .  (              .  °   .   )          °    .             
+         °        °  )              .        (              . .           ( 
+   .                         °     .|    °     .         .   .|  °      °  )
+(       .  .                  _____||___________   .        _||_         / 
+ ).  . .|           !     ____|_   - _____)    /_______    )    |____ _//_
+   ____||__________/ \_ _(_____/      _/      /    /___)___|___      \_  /_
+   )    __________) -  )      /____|  )___________/   / ______(_|_____( __/_
+ _/    _______)_____| /_______\    )_____(     /______\ \      /!  /   /   /
+ )_  _(             )_____(                       )______|    /   /__ ____/
+   ``--------{ when dreams come true }-------------------|___(     -//!ne7--
+                                                         |         /   
+                                                         !
+  dead ringer
+  by fairlight
+
+  pc 64k at assembly 2006 
+
+  guess who will save the day? 
+
+  the full credits:
+
+  smash - code, design, 3d scenes and textures
+  reed - music
+  maktone - graffiti pieces
+  oyiseer - design, graffiti->vectors
+  rui - the head model
+  kustaa - the character model
+
+  ryg/farbrausch - kkrunchy exepacker (we owe him bigtime)
+
+
+  contact: smaash@yahoo.com (yes, that is the correct address)
+
+
+  the animations are based on some freely available motion capture data from 
+  carnegie university mocap dept, which we reinterpreted with our ik solver. 
+
+  special thanks:
+  ne7/triad for the ascii.
+  pantaloon for testing and some code in the tool interface.
+  oyiseer wants to thank sandra for borrowing the computer, love!
+  maktone sends props to all the great train writers. 
+ 
+
+  hw requirements:
+  - geforce 6 or radeon 9700 minimum recommended (will run on less as a slideshow), 
+    with at least 128mb vram
+  - 3ghz cpu or equivalent recommended
+  - 1gb ram recommended 
+  - nvidia hardware is recommended over ati, because that way you get smooth and not
+    blocky shadows (thanks to their support for hardware filtering of fp16 targets).
+  - directx 9.0c required, but d3dx is not. 
+
+
+  tested on:
+  - p4 3.0, 1gb ram, gf6600gt 
+  - core duo 1.66 laptop with gf7600 mobility and 1gb ram
+  - some laptop with radeon 9700 mobility
+  - amd 2.8 with radeon x800
+  - some laptop with gf6800 mobility
+  - gf5600, dual p3.4, 2gb ram (runs like shit, because the geforce fx5 series really blows)
+  - loads of hw in fact. and it runs. so if it doesnt it's not our fault, right?
+
+  if possible, run the 800_4aa version for 800x600 and 4x aa, best quality.
+  for a bit more speed, run the 640_4aa, and for even more run the 640_noaa version.
+  make sure your drivers dont have any aa or filter mode forced. unless you have a really slow cpu 
+  we are going to be shader limited. 
+
+  
+  this is the last 64k we are going to do for a very long time (read "ever". but hey, never say never). 
+  i'm going to go put all the sourcecode and all copies of the introtool and synth on a miniature viking 
+  longboat, push it down the thames and set fire to it, just to make sure. 
+
+  rest assured there is some hardcore technology in this (particularly in the animation department). we 
+  pretty much stretched it to the limit in every way we could. 
+
+  and finally.. we know that our productions are not a lot of sceners "cup of tea". it appears that 
+  many people expect certain things from a demo, which are also the things that i personally hate. soo,
+  if it's not your cup of tea.. i dont give a shit! your tea fucking sucks ass anyway! =)
+  
+ 
+
+
+  
+
+
+  
+
+

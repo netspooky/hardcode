@@ -1,0 +1,15 @@
+---> bypass 4kb entry for mekkasymposium 2002 <----
+
+everything was made in one day (1) at warps place in
+dresden. the intro needs a fast opengl graphics card
+and a decent general midi compatible sound card.  
+it was tested to work under windows 2000. if it does
+not work on your windows version, please try windows
+2000.
+
+all code done by rasmus christian kaae. 
+bypass : http://bypass.scene.org
+private: http://www.daimi.au.dk/~kaae
+job    : http://www.3kings.dk
+
+---> bypass 4kb entry for mekkasymposium 2002 <----

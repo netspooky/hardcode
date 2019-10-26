@@ -1,0 +1,36 @@
+BLACK SILK
+
+    (c) 1997 by Hugo Habets (hugo) & Jeroen Tel (WAVE) / Analogue
+    "black silk" 64kb intro released at assembly '97, helsinki, finland
+    all rights reserved. intro may be spread in any way including CD-ROM
+    as long as no extra charge is made for the including of the intro.
+
+    system recommended:
+    .Pentium 166+
+    .GUS or compatible soundcard (special sb version available, >64kb)
+    .VESA compatible VGA with 320x200x24b LFB or 320x200x15b LFB videomode
+    .OS in MS-DOS mode
+    
+    system at least requires:
+    .32-bit CPU
+    .4Mb memory
+    .fast FPU
+    .VGA (minimum gives 320x200x64-grays)
+    
+    special thanks:
+    .magic boy / SUPERSTITION for timing the intro + Soundblaster version.
+    .simm for trying to optimise the raytracer and for releasing the intro
+    
+    hello:
+    .assembly organisation (it's been one year since I won the asm'96 4kb compo,
+     don't you think it's about time to give the prize-money?)
+    .Tuukka Paavola & family
+    .analogue members
+    .shigep
+    .the peric & calimero
+    .sceners I know
+    .groups: superstition, the black lotus, nooon, complex, dubius, ackme,
+             realtech and all other respectable groups
+
+                    pure enjoyment can be packed into 64kb
+

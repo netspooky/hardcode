@@ -1,0 +1,34 @@
+
+        mesha by picard/rhyme
+
+        you'll need 580kb basemem, 8mb ram, himem.sys or dpmi to run this one
+	
+	if you see only a black screen, wait at least 20 seconds, the intro
+	may be calculating (this means your machine sucks)
+
+	if the intro is suddenly dropping you back to your os after starting
+	means your config sucks. (error messages disabled)
+
+        features:
+        - 32bit pmode code, using an enhanced pmode extender
+        - revolutionary object generation
+        - 13.000+ vertices, 17.000+ faces processed during the intro
+        - 7 totally different parts, no repeatings
+        - multiprocessed animation system with complex keyframing
+        - 8 textures, 16 palettes
+        - texturemapper includes gouraud shading + reflection mapping option
+        - up to 4000 faces could be shown
+        - own packer/unpacker algorithm used, unpacker is 95 bytes
+        - contains music but your card sucks so you can't hear it, and
+          anyways asm.org people would have disqualified it if
+          we had music enabled =)
+
+        keep away from children. avoid exposure to direct sunlight
+        and excessive heat or humidity. don't try this at home.
+
+        call rhyme.scene-hu.com for best prices!
+
+        k”szi reptile!
+
+
+	signed - cranx.

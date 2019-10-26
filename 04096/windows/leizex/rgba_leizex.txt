@@ -1,0 +1,63 @@
+
+              _._________ .______    .________  .______/\_
+               |    ____/_|  ___/____|  _____/__|   ___  /_
+               |   __    /|  \      /_   ___   /_    _    /
+               |   \   .:\|   \__  .:/   \_   .:/    |  .:\
+               |____\     \_________/__________/_____|_____\
+               -//---\_____\------------------------lm!--//-->
+
+
+                                   leizex
+
+                               under organix
+
+
+            executable 2k4 graphics by rgba [www.rgba.org] 2008
+
+                                   for fun
+
+
+
+ .why.
+
+   coming from function08, in the plane i thought i should try to add some
+   fake ambient occlusion to some raymarched celular distance  field. when
+   landed and took the train/metro to arrive home i did the experiment and
+   it worked quite fine.
+
+   one week after, sunday morning, i decided to fight my terrible headache
+   (yep i had too much party saturday night) by staying at bed ant let the
+   pc render in the meanwhile a video of the experiment i did in the train
+   the sunday. this is the result. you can get the video at
+
+   http://www.rgba.org/prods/rgba_leizex.avi
+
+
+   in fact the main reason to release this minifast prod is that i want to
+   fix something - i always forget to greet some groups, but i didn't want
+   to wait until the next prod to let "1/2 - bit cheese" know i love their
+   stuff.
+
+   also greets from here to tom dobrowolski, the king of caves and voronoi
+   patterns.
+
+
+.the.code.
+
+   plain raymarching on a distance function. no texture, therefore no size
+   limit pressure.
+
+
+.greets.
+
+   asd   auld  bixo  calodox   collapse  conspiracy  [d]vision  farbrausch
+   fairlight    fuzzion   hbc     hornet   kakiarts   loonies  necrostudio
+   nocturns      northen dragons    plastic     rebels    software failure
+   speckdrumm      spontz     tbc      tbl     timescratchers     traction
+   trailer park demos      xplsv    zona neutra    and forgoten
+
+
+.credits.
+
+   mathesculping, formugraphing and codeshading :: iq :: [www.rgba.org/iq]
+   bytemagic and crunching  ::  mentor + blueberry  ::  [www.crinkler.net]

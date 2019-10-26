@@ -1,0 +1,26 @@
+EuskalParty 9
+
+Numero de Entrada:  1006 (I¤igo Quilez aka iq/glue)
+Competicion:        Intros 4k
+Produccion:         Kindergarden (kinder.exe)
+Autor:
+Grupo:              glue
+
+Observaciones:      
+
+                    os:   ms-dos :  no emm386
+                                    "go32-v2 kinder.exe"
+
+                          win 9x :  ­funciona desde windows!
+
+
+                    gfx:            vesa 2.0    (320x240x32)
+                                                (320x240x24)
+                                                (320x200x32)
+                                                (320x200x24)
+
+                    cpu:            mmx no necesario
+
+
+                    sound:          no hay sonido
+

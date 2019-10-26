@@ -1,0 +1,43 @@
+repositories {
+  mavenCentral()
+}
+
+ext {
+  original = "hypnotoad1k.js"
+  optimized = "hypnotoad1k.min.js"
+}
+
+configurations {
+  closureCompiler
+}
+
+dependencies {
+  closureCompiler 'com.google.javascript:closure-compiler:v20151216'
+}
+
+task optimizeJs(type: JavaExec) {
+  classpath configurations.closureCompiler
+  main = 'com.google.javascript.jscomp.CommandLineRunner'
+  def closureArgs = []
+  closureArgs << "--compilation_level=ADVANCED_OPTIMIZATIONS"
+  closureArgs << "--js_output_file=${optimized}"
+  closureArgs << "${original}"
+  args closureArgs
+}
+
+task removeNewlines(dependsOn: optimizeJs) << {
+  File file = new File("${optimized}")
+  if (!file.exists()) {
+    throw new GradleException("Could not found file: ${optimized}")
+  }
+  file.write file.text.replaceAll("\n", "")
+}
+
+task checkFileSize(dependsOn: removeNewlines) << {
+  File file = new File("${optimized}")
+  if (file.size() > 1024) {
+    throw new GradleException('File size must not exceed 1024 bytes.')
+  }
+}
+
+defaultTasks 'optimizeJs', 'removeNewlines', 'checkFileSize'

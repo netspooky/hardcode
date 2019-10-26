@@ -1,0 +1,448 @@
+ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹
+ € ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ €
+ € €€€€€ﬂ ‹‹‹‹‹‹‹  ‹‹‹‹‹ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ‹‹‹‹‹ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€€€ €
+ € €€€ﬂ ‹€€ﬁ€€€€€€ €€€€€›€€€€€ €€€€€›€€€€€ €€€€€›€€€€‹ €€€€€›€€€€‹ﬁ€€≤±∞ €€€€ €
+ € €€€ €€€€ﬁ€€€€€€ €€€€€›€€€€€ €€€€€ €€€€€ €€€€€ €€€€€ €€€€€›€€€€€ﬁ€€€≤± €€€€ €
+ € €€€ €€€€ﬁ€€€€€€ €€€€€›€€€€€ €€€€€ €€€€€ €€€€€ €€€€€ €€€€€›€€€€€ﬁ€€€€≤ €€€€ €
+ € €€€ €€€€‹‹‹‹‹‹  €€€€€›€€€€€ €€€€€ €€€€€ €€€€€ €€€€€ €€€€€›€€€€€ﬁ€€€€€ €€€€ €
+ € €€€‹ ﬂﬂﬂﬂﬂﬂ€€€€ €€€€€ﬂ€€€€€ €€€€€ €€€€€ €€€€€ ‹‹‹‹‹ €€€€ﬂﬂﬂﬂﬂﬂ ﬁ€€€€€ €€€€ €
+ € €€€ﬂﬁ€€€€€ €€€€ €€€€€ﬁ€€€€€ €€€€€ €€€€€ €€€€€ €€€€€ €€€€€ﬂ€€€€‹ﬁ€€€€€ €€€€ €
+ € €€€ ≤€€€€€›€€€€ ≤€€€€ﬁ€€€€€ ≤€€€€ ≤€€€€ ≤€€€€ ≤€€€€ ≤€€€€ﬁ€€€€€ ﬂﬂﬂﬂﬂ €€€€ €
+ € €€€ ±≤€€€€›€€€€ ±≤€€€ﬁ€€€€€ ±≤€€€ ±≤€€€ ±≤€€€›±≤€€€ ±≤€€€ﬁ€€€€€ﬁ€€€€€ €€€€ €
+ € €€€ ∞±≤€€€›€€€€ ∞±≤€€ﬁ€€€€€ ∞±≤€€›∞±≤€€ ∞±≤€€›∞±≤€ﬂ ∞±≤€€ﬁ€€€€€ﬁ€€€€€ €€€€ €
+ € €€€‹ ﬂﬂﬂﬂﬂﬂﬂﬂﬂ ‹‹‹‹‹‹ ﬂﬂﬂﬂﬂ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ﬂﬂﬂﬂﬂ ﬂﬂﬂﬂﬂ €€€€ €
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ €                 SHOCK! - STiLL MORE THAN A FEELiNG! - 1996                 €
+ ‹                                                                            ‹
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ € ≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤±±∞ €€ €€ﬂﬂﬂﬂ€€‹ ﬂﬂﬂﬂﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂﬂﬂﬂ€‹ ∞±±≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤ €
+ € ≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤±± ≤€ ≤€ ∞∞  €€ ≤€‹‹ ∞∞    €€ ∞∞∞∞ €€ ±±≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤ €
+ € ≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤± ±≤ ±≤ ∞∞∞ €€ ±≤ ∞∞∞∞∞∞∞ ﬂ€‹‹‹‹‹‹€ﬂ ±≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤ €
+ ‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹
+ ‹                                                                            ‹
+ € AHH.... ANOTHER DUDE WHO ACTUALLY READS OUR INFOFILES!                     €
+ €                                                                            €
+ € I DON'T HAVE TOO MUCH TO SAY, JUST WATCH THIS 1024 BYTE INTRO.  THIS IS MY €
+ € MY FIRST ATTEMPT EVER TO CODE SOMETHING SMALLER THAN A 64K INTRO.. ;)  AND €
+ € I HOPE I SUCCEEDED. ANYWAYS, THESE ARE JUST THE USUAL CRAPPY EFFECTS. SOME €
+ € JULIA (I'M BORED WITH IT...), SOME BUMP (NOT TOO COOL WITH THE JULIA), AND €
+ € A CRAPPY ROTATOR, WHICH WAS INSPIRED BY A SMALL INTRO WHICH COMPETED  AT A €
+ € 256 BYTE INTROCOMPO IN THE USA. IT LOOKS VERY SIMILAR... BY THE WAY, THERE €
+ € WILL BE NO SOURCE RELEASED SINCE i'VE LOST IT ;((   YOU  CAN MAKE YOUR OWN €
+ € VERSION WITH SOURCER <G>                                                   €
+ €                                                              CYA ALL: TSC! €
+ ﬂ                                                                            ﬂ
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ € ±∞ ‹€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂﬂﬂﬂﬂﬂ ﬂﬂﬂﬂﬂﬂﬂﬂ€‹ €€ ﬂﬂﬂﬂﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂﬂﬂﬂﬂﬂ ∞± €
+ € ≤± €€ ∞∞∞∞∞∞∞ ≤€  ﬂﬂﬂ€€‹ €€ﬂﬂﬂ ∞∞∞∞ ≤€ ∞∞∞∞ €€ ≤€ ≤€ ∞∞∞∞    ﬂﬂﬂﬂﬂﬂﬂﬂ€≤ ±≤ €
+ € ≤≤ ﬂ€‹‹‹‹‹‹‹‹ ±≤ ∞∞∞  €€ ﬂ€‹‹‹‹‹‹‹‹ ±≤‹‹‹‹‹‹€ﬂ ±≤ ±≤ ∞∞∞∞∞∞∞ ‹‹‹‹‹‹‹‹≤± ≤≤ €
+ ‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹
+ ‹                                                                            ‹
+ € CODE...................................................................TSC €
+ ﬂ                                                                            ﬂ
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ € €€ﬂﬂ€€ﬂﬂ€‹ ‹€ﬂﬂﬂﬂﬂﬂﬂﬂ €€ﬂﬂ€€ﬂﬂ€‹ ﬂﬂﬂﬂﬂﬂﬂﬂ€‹ ‹€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂﬂﬂﬂﬂ €
+ € ≤€      €€ €€ﬂﬂﬂ ∞∞∞∞ €≤      €€ ≤€  ﬂﬂﬂﬂ€€ €€ﬂﬂﬂ ∞∞∞ ≤€  ﬂﬂﬂ€€‹ ﬂﬂﬂﬂﬂﬂﬂ€≤ €
+ € ±≤ ≤±±∞ €€ ﬂ€‹‹‹‹‹‹‹‹‹≤± ∞∞∞∞ €€ ±≤‹‹‹‹‹‹€ﬂ ﬂ€‹‹‹‹‹‹‹ ±≤ ∞∞∞  €€‹‹‹‹‹‹‹‹≤± €
+ ‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹
+ ‹                                                                            ‹
+ € ATX...............................................................MUSiCiAN €
+ € DEANSDALE.........................................................MUSiCiAN €
+ € GENESiS........................................................SYSOP/CODER €
+ € TSC..................................................................CODER €
+ € DAS........................................................GRAPHiCS ARTiST €
+ € TRAJiC............................................................MUSiCiAN €
+ € TRUE..............................................................RENDERER €
+ ﬂ                                                                            ﬂ
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ € ≤±± ‹€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂﬂﬂﬂﬂﬂ ‹€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂﬂﬂﬂﬂﬂ ±±≤≤ €
+ € ≤≤± ≤€  ﬂﬂﬂﬂ€€ ≤€  ﬂﬂﬂ€€‹ €€ﬂﬂﬂﬂ ∞∞∞ €€ﬂﬂﬂﬂ ∞∞∞ ≤€ ∞∞∞∞    ﬂﬂﬂﬂﬂﬂﬂﬂ€≤ ±≤≤≤ €
+ € ≤≤≤ ±≤‹‹‹‹‹‹€ﬂ ±≤ ∞∞∞  €€ ﬂ€‹‹‹‹‹‹‹‹ ﬂ€‹‹‹‹‹‹‹‹ ±≤ ∞∞∞∞∞∞∞ ‹‹‹‹‹‹‹‹≤± ≤≤≤≤ €
+ ‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹
+ ‹                                                                            ‹
+ € WE ACKNOWLEDGE THE FOLLOWiNG GROUPS:                                       €
+ €                                                                            €
+ €    ˛ MACHiNE FUN CREW                               ˛ iRiS                 €
+ €    ˛ THE DARK SECTORS COURiER ASSOCiATiON           ˛ CAMORRA              €
+ €    ˛ FiCTiON                                        ˛ THE DiGiTAL MANEUVER €
+ €    ˛ UNiCORN                                        ˛ MAJiC12              €
+ €    ˛ XEED                                           ˛ ABADDON              €
+ €    ˛ PURE                                           ˛ CRiMiNAL GANG        €
+ €    ˛ JAMM                                           ˛ OXYGENE              €
+ €    ˛ iNFOMANiAX                                     ˛ ACME                 €
+ €    ˛ MURMiDONES                                     ˛ BPC                  €
+ €    ˛ BLANK                                          ˛ ANARCHY PC           €
+ €    ˛ PSYCHOSQUAD                                    ˛ TSi                  €
+ €    ˛ URiNATE                                        ˛ ORANGE               €
+ €    ˛ TRAXX [NOT!]                                   ˛ GRiF                 €
+ €    ˛ iMPACT STUDiOS                                 ˛ HiRMU                €
+ €    ˛ TRiUMWYRAT                                     ˛ DEMONS               €
+ €    ˛ LOGiC DESiGN                                   ˛ ARKHAM               €
+ €    ˛ COMA                                           ˛ REMAL                €
+ €    ˛ TRiLOXY                                        ˛ X-ESS                €
+ €    ˛ ACCESS DENiED                                  ˛ SURPRiSE!PRODUCTiONS €
+ €    ˛ LOS ANGELES LAMERS                             ˛ LAMER CREW           €
+ €    ˛ FiRG!                                          ˛ HYDROGEN             €
+ €    ˛ ASTROiDEA                                      ˛ ENLiGHTENMENT        €
+ €    ˛ OPiUM                                          ˛ PROMiSE!             €
+ €    ˛ EXACT                                          ˛ DENTiFRiCE           €
+ €    ˛ UNiTED FORCE                                   ˛ PCi                  €
+ €    ˛ PANGALACTiC AGENCY!                            ˛ TPU                  €
+ €    ˛ FAKE-FiRG                                      ˛ THiTANiUM            €
+ €    ˛ CATERPiLLAR                                    ˛ DARK LEGiONS         €
+ €    ˛ NEUTRON                                        ˛ FACULTY              €
+ €    ˛ THE CREW                                       ˛ MANDULA              €
+ €    ˛ HOE                                            ˛ OCG                  €
+ €    ˛ GABBER                                         ˛ ANARCHY BUDDHAZ      €
+ €    ˛ LABEL ZERO                                     ˛ THE MAD TEAM         €
+ €    ˛ CONTROLLED DREAMS                              ˛ CAPANNA              €
+ €                                                                            €
+ € PERSONAL HiHOS FROM TSC:                                                   €
+ €                                                                            €
+ €    ˛ CAT/iNFOMANiAX                                 ˛ TSL16BiT/iNFOMANiAX  €
+ €    ˛ ROGUE/LOGiC DESiGN                             ˛ TiM/FiCTiON          €
+ €    ˛ GREG/HURRiCANE                                 ˛ TMT/BiOHAZARD        €
+ €    ˛ TRAJiC/SHOCK!                                  ˛ CYBERDAEMON/H2       €
+ €    ˛ ASH/HURRiCANE                                  ˛ SHADOW/GSH           €
+ €    ˛ RAiDER/TDSCA                                   ˛ TYRANT/MURMiDONES    €
+ €    ˛ BAT/iRiS                                       ˛ ALBiNO/ENLiGHTENMENT €
+ €    ˛ CYBORG/iRiS                                    ˛ GREYHAWK/NiL         €
+ €    ˛ YARPEN/EXMORTiS                                ˛ LORD CYRiX/BEANS     €
+ €    ˛ SEBi/HURRiCANE                                 ˛ ROBi(N)              €
+ €    ˛ iAN/EX-PHANTOM DEZiGN                          ˛ KLOPMAN/FiRG         €
+ €    ˛ RADGAST/HELiX                                  ˛ GRUB/FiRG            €
+ €    ˛ JONES/EX-PHANTOM DEZiGN                        ˛ TARR/FiRG            €
+ €    ˛ GRAPHiTE/EX-PHANTOM DEZiGN                     ˛ ROTOR/EX-FiRG        €
+ €    ˛ THE ADMiRAL/TDM/ECR                            ˛ KiLL GATES/FiRG      €
+ €    ˛ GANDALF/iNFiNY/AEGiS/HYPEROPiA                 ˛ SECRET/UNiCORN       €
+ €    ˛ BANO/RELATiVE                                  ˛ DALi/BiOHAZARD       €
+ €    ˛ MAXWOOD/MAJiC 12                               ˛ LORD SOTH            €
+ €    ˛ BASQ/TSi ALiVE                                 ˛ RAVEACE/RAVELAND     €
+ €    ˛ DLUX/H2                                        ˛ NEON/PURE            €
+ €    ˛ GUYBRUSH/H2                                    ˛ SPiDER/USCA          €
+ €    ˛ BERT/CRiMiNAL GANG                             ˛ DiRK GENTLY          €
+ €    ˛ SYLViO/TRiUMWYRAT                              ˛ BYTE/BLANK           €
+ €    ˛ WOODO PEOPLE/TDSCA                             ˛ JARE/iGUANA          €
+ €    ˛ D. JOiNT RiCHY/THE FOUR HORSEMEN               ˛ TAZ/XEED             €
+ €    ˛ TOMCAT/ABADDON                                 ˛ ERViN/ABADDON        €
+ €    ˛ TAYLOR/CRiMiNAL GANG                           ˛ MEGADUO/BiOHAZARD    €
+ €    ˛ ZOZO/MAJiC 12                                  ˛ PFUUSUS/PSD          €
+ €    ˛ DARKNESS/iMPHOBiA                              ˛ G.O.D./ABADDON       €
+ €    ˛ PSYCHO/TSi ALiVE                               ˛ MASTER DEATH/BPC     €
+ €    ˛ BZMOT/FiRG [NEUGASS!]                          ˛ WARD/ENLiGHTENMENT   €
+ €    ˛ HANX/URiNATE!/MFC/LZ                           ˛ SYNOPTiC             €
+ €    ˛ MAD HATTER/BPC                                 ˛ MAX/iMPACT STUDiOS   €
+ €    ˛ WiNKLE/EXACT                                   ˛ XANADU/MFC           €
+ €    ˛ DFJ/DiNASTY                                    ˛ OSCiLLATOR/OPiUM     €
+ €    ˛ REACTOR/CATERPILLAR                            ˛ MELAN/ASTROiDEA      €
+ €    ˛ BERO                                           ˛ FERNANDEZ/CD         €
+ €    ˛ EXOSWORM/ENLiGHTENMENT                         ˛ SB/REMAL             €
+ €    ˛ MiNSTREL/FiCTiON/ENLiGHTENMENT                 ˛ MARVEL/UNiCORN       €
+ €    ˛ DoT/UNiCORN                                    ˛ DERCETO/UNiCORN      €
+ €    ˛ MORGAN/CRiMiNAL GANG/FiCTiON                   ˛ BRiAN/AXIOMA         €
+ €    ˛ RAVER/U8                                       ˛ BBD                  €
+ €    ˛ FiGARO                                         ˛ RiAN/MAJiC12         €
+ €    ˛ SABE                                           ˛ LOOVE                €
+ €    ˛ iONiC/ASTROiDEA                                ˛ (TR)/TNG             €
+ €    ˛ O-MAN/ASTROiDEA                                ˛ REPTiLE/ASTROiDEA    €
+ €    ˛ REM/DARK LEGiONS                               ˛ SHADE/RTC            €
+ €    ˛ RiAN/MAJiC 12                                  ˛ MURPHY/EXACT         €
+ €                                                                            €
+ € ATX SENDS HiS BEST REGARDS TO:                                             €
+ €                                                                            €
+ €    ˛ HANX/URiNATE                                   ˛ JAMMER               €
+ €    ˛ ACiD126/OCG                                    ˛ MiNSTREL/FiCTiON     €
+ €    ˛ ZED/REMAL                                      ˛ MELAN/ASTROiDEA      €
+ €    ˛ TiM/FiCTiON                                    ˛ PHASE/FiCTiON        €
+ €    ˛ TRS                                            ˛ ERViN/ABADDON        €
+ €    ˛ PRO/URiNATE                                    ˛ ANORGANiC/PROMiSE    €
+ €    ˛ RAD MAN/ACiD                                   ˛ SCOOBY/SURGE         €
+ €    ˛ NEURO/FiCTiON                                  ˛ PUPU/URiNATE         €
+ €    ˛ SLOWHAND/GABBER                                ˛ SHADE/RESiSTANCE     €
+ €    ˛ DROOPY/CRESCENT                                ˛ BZMOT/FiRG           €
+ €    ˛ BORA MAN/NEUTRON                               ˛ GANDALF/iNFiNY       €
+ €    ˛ ROY/CAPANNA                                    ˛ DERCETO/UNiCORN      €
+ €    ˛ RONALD MALLORY/MFC+AB                          ˛ GALET/AB             €
+ €    ˛ LORD CYRiX/BEANS                               ˛ TYRANT/MURMiDONES    €
+ €    ˛ SNOTTY/FACULTY                                 ˛ CYBORG/iRiS          €
+ €    ˛ ATYS/CRESCENT                                  ˛ BASQ/TSi             €
+ €    ˛ ABEL/CRESENT                                   ˛ ANTFORCE/NiL         €
+ €    ˛ LAKY/MURMiDONES                                ˛ WOLAND/EXHUMERS      €
+ €    ˛ BANDY/NiL                                      ˛ VENiOR/WiNTERMOON    €
+ €    ˛ RADGAST/HELiX                                  ˛ FiRGENCSERMEMBAZ     €
+ €    ˛ REACTOR/CATERPiLLAR                            ˛ LORD/ABSOLUTE!       €
+ €    ˛ OSCiLLATOR/OPiUM                               ˛ ViC/ACME             €
+ €    ˛ RAiDER/TDSCA                                   ˛ CAT/iNFOMANiAX       €
+ €    ˛ BAT/TRACKTOR                                   ˛ REEBOK/S!P           €
+ €    ˛ FAT CAT/FiCTiON                                ˛ GREG/HURRICANE       €
+ €    ˛ DER PiiPO/ORANGE                               ˛ DUNE/ORANGE          €
+ €    ˛ REMDY/ARKHAM                                   ˛ TRADD/EXACT          €
+ €    ˛ TOM/ANARCHY PC                                 ˛ PROPAiN/ANARCHY PC   €
+ €    ˛ KEiTH303/ANARCHY PC                            ˛ WARD/ENLiGHTENMENT   €
+ €    ˛ PALLBEARER/TOXiC ZOMBiES                       ˛ JAMES BAUD/CD        €
+ €    ˛ WOLF/CD                                        ˛ CALViN/PROXiMA       €
+ €    ˛ TOMCAT/CD                                      ˛ PACO/DYNASTY         €
+ €    ˛ REPTiLE/ASTROiDEA                              ˛ MORGAN/FiCTiON       €
+ €    ˛ O-MAN/ASTROiDEA                                ˛ DFJ/DYNASTY          €
+ €    ˛ NAiVE/NiL                                      ˛ iLLEGAL/REMAL        €
+ €    ˛ THE RiVAL/NSS                                  ˛ RONALD MALLORY/AB    €
+ €    ˛ TRAJIC/SHOCK!                                  ˛ BLACK DEATH/EGER     €
+ €    ˛ SEC                                            ˛ OPiUM                €
+ €    ˛ EGAMAGE                                        ˛ ANGEL                €
+ €    ˛ CYBERFUCKiNG HEAD                              ˛ TARBY                €
+ €    ˛ HOAX                                           ˛ ST.STOFI             €
+ €                                                                            €
+ € GENESiS SENDS HiS BEST REGARDS TO:                                         €
+ €                                                                            €
+ €    ˛ CAT/iNFOMANiAX                                 ˛ RAiDER/TDSCA         €
+ €    ˛ GREG/EX-PHANTOM DEZiGN                         ˛ BANO/RELATiVE        €
+ €    ˛ RADGAST/HELiX                                  ˛ iAN/EX-PHANTOM D.    €
+ €    ˛ JONES/EX-PHANTOM DEZiGN                        ˛ CYBORG/TRACKTOR      €
+ €    ˛ ERViN/ABADDON                                  ˛ TRAJiC/H2            €
+ €    ˛ ALL FiRG MEMBERS                               ˛ WOODY/MMA            €
+ €    ˛ MiNSTREL/FiCTiON/ENLiGHTENMENT                 ˛ iONiC/ASTROiDEA      €
+ €    ˛ O-MAN/ASTROiDEA                                                       €
+ €                                                                            €
+ € TRAJiC SENDS HiS BEST REGARDS TO:                                          €
+ €                                                                            €
+ €    ˛ ANORGANiC/PROMiSE!                             ˛ RAiDER/MW            €
+ €    ˛ ATX/SHOCK!                                     ˛ RAVER/CDM            €
+ €    ˛ BASQ/TSi                                       ˛ REDAX                €
+ €    ˛ BAT/TRACKTOR                                   ˛ REPTiLE/Ai           €
+ €    ˛ DAB/PROMiSE!                                   ˛ SABE/EX-SHOCK!       €
+ €    ˛ ERViN/ABADDON                                  ˛ SENSOR               €
+ €    ˛ GENESiS/SHOCK!                                 ˛ SKAVEN               €
+ €    ˛ ?HOOK/CUBiC TEAM                               ˛ TAYLOR/CG            €
+ €    ˛ JAMES BAUD/CD                                  ˛ THOMAS               €
+ €    ˛ HANX/URINATE!/MFC/LZ                           ˛ TiB/UiT              €
+ €    ˛ LGB/DiGiTAL CREATURES                          ˛ TSC/SHOCK!           €
+ €    ˛ MiNSTREL/FiCTiON/ENLiGHTENMENT                 ˛ TOCKE                €
+ €    ˛ MORC/RED SQUADRON                              ˛ TOMCAT2/CD           €
+ €    ˛ MORGAN/CG/FiCTiON                              ˛ ViPER/RED SQUADRON   €
+ €    ˛ MRBENO                                         ˛ WARTER               €
+ €    ˛ NETiE                                          ˛ WiTCHCRAFT           €
+ €    ˛ PASCAL/CUBiC TEAM                              ˛ CYBERDAEMON/HYDROGEN €
+ €    ˛ dLUX/HYDROGEN                                  ˛ PiCARD/HYDROGEN      €
+ €    ˛ GUYBRUSH/HYDROGEN                              ˛ IONIC/ASTROIDEA      €
+ ﬂ                                                                            ﬂ
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ € ≤±∞ ﬂﬂﬂﬂﬂﬂﬂﬂ€‹ ‹€ﬂﬂﬂﬂﬂﬂ€‹ ‹€ﬂﬂﬂﬂﬂﬂ€€ ﬂﬂﬂﬂﬂﬂﬂﬂ€€ ﬂﬂﬂﬂﬂﬂﬂﬂ€‹ ‹€ﬂﬂﬂﬂﬂﬂﬂﬂ ∞∞±≤ €
+ € ≤±± ≤€  ﬂﬂﬂﬂ€€ €€ ∞∞∞∞ €€ ≤€ﬂﬂﬂﬂ  €€ ≤€  ﬂﬂﬂ€€‹ ≤€ ∞∞∞∞ €€ ﬂﬂﬂﬂﬂﬂﬂﬂ€€ ∞±±≤ €
+ € ≤≤± ±≤‹‹‹‹‹‹€ﬂ ﬂ€‹‹‹‹‹‹€ﬂ ±≤ ∞∞∞∞ €€ ±≤ ∞∞∞  €€ ±≤‹‹‹‹‹‹€ﬂ ‹‹‹‹‹‹‹‹€€ ∞±≤≤ €
+ ‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹
+ ‹                                                                            ‹
+ € [NAME]             [NUMBER]       [SYSOP(S)]     [#]   [OP]       [STATUS] €
+ €                                                                            €
+ € DUNE ][           +36-76-492351   TSC,BAT         2    0-24       WORLD HQ €
+ € JUNKDROME         +36-62-367359   GENESiS         1    0-24   MEMBER BOARD €
+ € DA'JOiNT          +358313178747   PEAK            2    0-24 MEMBER/FiNN HQ €
+ € A.C.E.            +33-145887548   GANDALF         7    0-24      FRENCH HQ €
+ € HOUSE ADONiS      +32-53-212213   BLUE ADONiS     4    0-24     BELGiAN HQ €
+ € MEGAVERSE         +30-61-277089   DGT             1    0-24       GREEK HQ €
+ € THE SHOEBOX UNiV. +43-1-8928997   REEBOK          5    0-24    AUSTRiAN HQ €
+ € DiGiTAL ViOLENCE  +31-384214996   BOLLE BAS       2    0-24       DUTCH HQ €
+ € POWER CHALLENGE   +45-97-250117   X-OTiC          2    0-24      DANiSH HQ €
+ € BLASTERSOUND      +34-582-93583   MiKEL           1    0-24     SPANiSH HQ €
+ € HORRiBLE THiNGS   +381-21624067   ZODiAC, WiND    2    0-24 YUGOSLAViAN HQ €
+ € THE POUND         +385-1-215132   MATER           2    0-24    CROATiAN HQ €
+ € THE NEUTRAL ZONE  +41-32-418860   WAVE            2    0-24       SWiSS HQ €
+ € COUNT ZER0        +47-551-22962   YiTZHAQ, CALViN 2    0-24   NORWEGiAN HQ €
+ € MAGiCAN ii.       +49-421689431   FiSHiE, BYTE    2    0-24      GERMAN HQ €
+ € UNDERWORLD        +41-229600621   SYNOPTiK        3    0-24     SWiSS SiTE €
+ € POiNTBREAK        +32-11-436925   LORD CYRiX      9    0-24   BELGiAN SiTE €
+ € DiGiTAL FUSE      +32-2-7570776   DR. ViBE        3    0-24   BELGiAN SiTE €
+ € RENDERiNG iN P.   +34-34-902471   KiWi            1    0-24   SPANiSH SiTE €
+ € TPR BBS           +47-611-81152   STiAN SKOGLUND  2    0-24 NORWEGiAN SiTE €
+ € DA LOST GRiD      +36-96-211737   HANX            1    22-7 HUNGARiAN SiTE €
+ € SCENET            +36-1-2282883   MELAN           1    22-7 HUNGARiAN SiTE €
+ ﬂ                                                                            ﬂ
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ € €€ €€ﬂ€€‹ ﬂﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂ€‹ ‹€ﬂﬂﬂﬂﬂﬂ ‹€ﬂﬂﬂﬂ €€ﬂ€€‹ ﬂﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€ €
+ € ≤€ ≤€  €€ ≤€‹     €€ ∞ €€ €€ ∞∞∞∞∞∞€€ﬂﬂ ∞ ≤€  €€ ≤€ ∞    €€ﬂﬂﬂ ∞ ≤€ ﬂﬂﬂ€€‹ €
+ € ±≤ ±≤  €€ ±≤ ∞∞∞∞ ﬂ€‹‹‹€ﬂ ﬂ€‹‹‹‹‹‹ ﬂ€‹‹‹‹ ±≤  €€ ±≤ ∞∞∞∞ ﬂ€‹‹‹‹‹ ±≤ ∞∞  €€ €
+ ‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹
+ ‹                                                                            ‹
+ €                                                                            €
+ € FAX NUMBER    : 36-1-176-888o                                              €
+ €                                                                            €
+ € VOiCE NUMBERS : 36-3o-48o-26o <ATX>                                        €
+ €                 36-62-341-85o <TSC>                                        €
+ €                 36-62-367-359 <GENESiS>                                    €
+ €                 36-37-37o-07o <TRAJiC>                                     €
+ €                 36-62-317-496 <DEANSDALE>                                  €
+ €                                                                            €
+ € E-MAiL :        szabogab@gandalf.gamf.hu     <TSC>       [JOiNiNG]         €
+ €                 tsc@master.fok.hu            <TSC>       [JOiNiNG]         €
+ €                 atx01@mail.elender.hu        <ATX>       [JOiNiNG, SiTES]  €
+ €                 atx@teglagyari-megallo.obuda.kando.hu    [JOiNiNG, SiTES]  €
+ €                 h532885@alfa.cab.u-szeged.hu <DEANSDALE>                   €
+ €                 trajic@tigris.klte.hu        <TRAJiC>                      €
+ €                 szabonor@gandalf.gamf.hu     <GENESiS>                     €
+ €                 illes@gandalf.gamf.hu        <TRUE>                        €
+ €                                                                            €
+ € WWW HOMEPAGE :  freeside.elte.hu/shock.html   [UNDER CONSTRUCTiON]         €
+ €                                                                            €
+ € PLEASE NOTE THAT SOME OF THESE  EMAiL  ADDRESSES MAY  CHANGE OR  DiSAPPEAR €
+ € SUMMERTiME. iF YOUR EMAiL GOES BACK, TRY AN ANOTHER ADDRESS. SiNCE NONE OF €
+ € US CHECK EMAiL TOO OFTEN, PLEASE BE PATiENT... 100% REPLY iS NOT GUARANTED €
+ € ANYWAYS. iF YOU ARE A DiSTRO OF US AND ANY OF YOUR BBS'S PARAMETERS CHANGE €
+ € THEN PLEASE iMMEDiATELY CONTACT US.  iF EVERYTHiNG FAiLS, TRY THE  SLOWEST €
+ € METHOD OF CONTACTiNG:                                                      €
+ €                                                                            €
+ € SNAiL MAiL :    SHOCK!                                                     €
+ €                 1286 BUDAPEST P.O.BOX 8.                                   €
+ €                 HUNGARY                                                    €
+ €                 (MAiL HANDLED BY ATX!)                                     €
+ €                                                                            €
+ € WE ARE ALWAYS LOOKiNG FOR TALENTED PEOPLE, iF YOU FEEL YOURSELF  ENOUGH DO €
+ € NOT HESiTATE TO CONTACT US!                                                €
+ €                                                                            €
+ ﬂ                                                                            ﬂ
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ € ﬂﬂﬂﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂﬂﬂﬂﬂ€€ ∞∞∞∞∞ ‹€ﬂﬂﬂﬂﬂﬂﬂ ‹€ﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂﬂﬂﬂ ‹€ﬂﬂﬂﬂﬂﬂﬂ ‹€ﬂﬂﬂﬂﬂﬂ €
+ € ≤€  ﬂﬂ€€‹ €€ﬂﬂﬂ ∞∞ €€ ∞∞∞∞∞ €€ﬂﬂﬂ ∞∞∞ ≤€ﬂﬂﬂ €€ ﬂﬂﬂﬂﬂﬂ€€ €€ﬂﬂﬂ ∞∞∞ ﬂﬂﬂﬂﬂﬂ€€ €
+ € ±≤ ∞∞  €€ ﬂ€‹‹‹‹‹‹ ﬂ€‹‹‹‹‹‹ ﬂ€‹‹‹‹‹‹‹ ±≤ ∞∞ €€ ‹‹‹‹‹‹€€ ﬂ€‹‹‹‹‹‹‹ ‹‹‹‹‹‹€€ €
+ ‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹
+ ‹                                                                            ‹
+ € DESCRiPTiON:                       DATE:       FiLENAME:     AUTHOR:       €
+ €                                                                            €
+ € DEMO-LiKE STUFF:                                                           €
+ € ~~~~~~~~~~~~~~~~                                                           €
+ € MYCREAM                [LAMEDEMO]  1995-O4-O8  mycream!.zip  BAT & CYBORG  €
+ € THE BASiCS              [4KiNTRO]  1995-O4-1O  sck-bsc.zip   GENESiS       €
+ € ADVANCE               [WiLD DEMO]  1995-O4-13  sck-adv.zip   TSC & ROBiN   €
+ € E-CONNECT BBSiNTRO     [BBSiNTRO]  1995-O7-O4  sck-econ.zip  SHOCK!        €
+ € MAJOR OSCiLLATiON DAZE  [MZXDiSK]  1995-O7-24  sck-modx.zip  SHOCK!        €
+ € RAPED ViSiON          [8OK iNTRO]  1995-O8-22  sck-rape.zip  SHOCK!        €
+ € TOO COMPLEX             [TRACKMO]  1995-12-O2  sck-2clx.zip  SHOCK!        €
+ € STATE 808               [TRACKMO]  1996-03-1O  sck-s808.zip  SHOCK!        €
+ € ALiEN                   [TRACKMO]  1996-O4-13  sck-aln.zip   SHOCK!        €
+ € WASPS                 [WiLD DEMO]  1996-O4-13  sck-wasps.zip TRUE & TSC    €
+ € BLOOD!                [WiLD DEMO]  1996-06-02  sck-blood.zip TRUE & TSC    €
+ € ONE                     [TRACKMO]  1996-07-21  sck-one.zip   SHOCK!        €
+ € HAZE                       [DEMO]  1996-09-01  sck-haze.zip  SHOCK!        €
+ € UNOPTIMIZED             [1KINTRO]  1996-09-01  sck-uno.zip   TSC           €
+ €                                                                            €
+ € SONGS:                                                                     €
+ € ~~~~~~                                                                     €
+ € TRiBAL ViBES                [S3M]  1995-O4-1O  shc!_trv.zip  ATX           €
+ € SOMETHiNG STRONGER          [S3M]  1995-O4-1O  sck-strn.zip  CYBORG        €
+ € PARDEY                      [S3M]  1995-O4-1O  sck-par.zip   RiAN          €
+ € OVULUM [FULL VERSiON]       [S3M]  1995-O4-11  sck-ovul.zip  DEANSDALE     €
+ € PiANO SLAVE                 [S3M]  1995-12-O2  sck-pia.zip   DEANSDALE     €
+ € MiNDRAPER 3. - ARMAGEDDON   [S3M]  1995-12-O2  sck-rpe3.zip  TSC           €
+ € BENEATH A CHROME SKY        [S3M]  1995-12-2O  sck-chrm.zip  DEANSDALE     €
+ € X-TENDED SOUNDS             [S3M]  1996-O4-13  sck-xtnd.zip  DEANSDALE     €
+ € MAYBE CHERRY?     [BEETHOVEN S3M]  1996-O4-13  sck-xtnd.zip  DEANSDALE     €
+ € DONKEYS SUKK!     [BEETHOVEN S3M]  1996-O4-13  sck-donk.zip  ATX           €
+ € RAiNY TRiP                  [S3M]  1996-O4-13  sck-rain.zip  ATX           €
+ € 3.35 AM                     [S3M]  1996-O5-15  sck-335.zip   ATX           €
+ € PiPKiN                      [S3M]  1996-O6-O1  sck-pip.zip   ATX           €
+ € BLUSTER WiNDS               [S3M]  1996-O6-O1  sck-blus.zip  ATX           €
+ € THE LOVECHiP                [S3M]  1996-O7-21  sck-love.zip  ATX           €
+ € AFTER RAiN                  [S3M]  1996-O7-21  sck-after.zip RiAN          €
+ € BLACKDAWN                   [S3M]  1996-O7-21  sck-bdwn.zip  ATX           €
+ €                                                                            €
+ € QUALiTY PiCTURES:                                                          €
+ € ~~~~~~~~~~~~~~~~~                                                          €
+ € SUNRiSE                 [PiCTURE]  1995-12-2O  sck-sunr.zip  DAS           €
+ € BUGGYPiC                [PiCTURE]  1996-O3-1O  sck-bug.zip   DAS           €
+ € ANGEL                   [PiCTURE]  1996-O4-13  sck-angl.zip  DAS           €
+ € ROOM                    [PiCTURE]  1996-O4-13  sck-room.zip  TRUE          €
+ € REDGREEN                [PiCTURE]  1996-O6-09  sck-rgrn.zip  DAS           €
+ € JOKER                   [PiCTURE]  1996-O7-21  sck-joke.zip  DAS           €
+ € PUB                     [PiCTURE]  1996-O7-21  sck-pub.zip   TRUE          €
+ €                                                                            €
+ € UTiLiTES, CRACKS, SOURCES:                                                 €
+ € ~~~~~~~~~~~~~~~~~~~~~~~~~~                                                 €
+ € UUENCODER-DECODER       [UTiLiTY]  1995-O3-15  sck_uuc2.zip  ASH           €
+ € SVGA DRiVER V2.03        [SOURCE]  1995-O3-28  sck-v203.zip  TSC           €
+ € APPLiCATiON GENERATOR    [APPGEN]  1995-O4-1O  sck-app.zip   ZAX           €
+ € CRACK FOR GDS 3.1         [CRACK]  1995-O4-23  sck-gdsc.zip  TSC           €
+ € WAD SELECTOR            [UTiLiTY]  1995-O4-26  sck-wdsl.zip  ZAX           €
+ € 4 CHN MODPLAYER GUS/SB  [UTiLiTY]  1995-O4-26  sck-4plr.zip  ZAX           €
+ € CRACK FOR CD QUiCK        [CRACK]  1995-O4-3O  sck-cdqc.zip  TSC           €
+ € FLC PLAYER 1.O W/SRC    [UTiLiTY]  1995-O4-3O  sck-flcp.zip  TSC           €
+ € S3 FiX FOR TERROR NEWS    [PATCH]  1995-O5-O5  sck-tnfx.zip  TSC           €
+ € CRACK FOR BLUEWAVE 2.12   [CRACK]  1995-O5-21  sck-bwck.zip  TSC           €
+ € FLC PLAYER 2.O W/SRC    [UTiLiTY]  1995-O5-26  sck-flc2.zip  TSC           €
+ € QUiCK BOOT 2.O          [UTiLiTY]  1995-O7-O1  sck-qbt2.zip  TSC           €
+ € ALiEN - FULL SOURCES     [SOURCE]  1996-O6-O6  sck-asrc.zip  ALL           €
+ € STATE 808 - FULL SOURCES [SOURCE]  1996-O6-O6  sck-ssrc.zip  ALL           €
+ € ONE - FULL SOURCES       [SOURCE]  1996-O8-O6  sck-1src.zip  ALL           €
+ € SHOCK PLAY 2.3 FOR PMODEW[SOURCE]  1996-O8-O6  sck-sp23.zip  TSC           €
+ €                                                                            €
+ € TEXT FiLES:                                                                €
+ € ~~~~~~~~~~~                                                                €
+ € CACHE'95. RESULTS      [TEXTFiLE]  1995-O3-15  sck-c95r.zip  TSC           €
+ € OTL PC SECTiON DEAD    [TEXTFiLE]  1995-O4-13  shc!otld.zip  ATX           €
+ € FiXED RESULTS OF CACHE [TEXTFiLE]  1995-O4-3O  sck-c95r.zip  TSC           €
+ € RESULTS OF SCENEST'95  [TEXTFiLE]  1995-O4-3O  sck-scrs.zip  TSC           €
+ € PARTY RESULTS PACK 2.O [TEXTFiLE]  1996-1O-O5  sck-res2.zip  BBD           €
+ € PARTY RESULTS PACK 2.5 [TEXTFiLE]  1996-11-12  sck-rs25.zip  BBD           €
+ € PARTY RESULTS PACK 3.5 [TEXTFiLE]  1996-O2-O7  sck-rs35.zip  BBD           €
+ € CACHE'96. RESULTS      [TEXTFiLE]  1996-O3-27  sck-c96r.zip  TSC           €
+ € PARTY RESULTS PACK 4.O [TEXTFiLE]  1996-O5-O4  sck-rs40.zip  BBD & TSC     €
+ € PARTY RESULTS PACK 4.5 [TEXTFiLE]  1996-O6-O9  sck-rs45.zip  BBD & TSC     €
+ € GENERAL CHANGES...     [TEXTFiLE]  1996-O8-O3  sck-chg!.zip  TSC           €
+ € PARTY RESULTS PACK 5.O [TEXTFiLE]  1996-O8-O6  sck-rs50.zip  BBD & TSC     €
+ ﬂ                                                                            ﬂ
+ ﬂ ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ ﬂ
+ € ±∞ ﬂﬂﬂﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂﬂﬂﬂﬂ ‹€ﬂﬂﬂﬂﬂﬂﬂ€€ ∞∞∞∞ €€ €€ ∞∞∞∞∞ ﬂﬂﬂﬂﬂﬂﬂ€€ ‹€ﬂﬂﬂﬂﬂﬂﬂ ±± €
+ € ≤± ≤€  ﬂﬂ€€‹ €€ﬂﬂﬂ ∞∞∞ ﬂﬂﬂﬂﬂﬂ€€ €€ ∞∞∞∞ €€ €€ ∞∞∞∞∞ ≤€ ∞∞∞    ﬂﬂﬂﬂﬂﬂﬂ€≤ ±≤ €
+ € ≤≤ ±≤ ∞∞  €€ ﬂ€‹‹‹‹‹‹‹ ‹‹‹‹‹‹€€ ﬂ€‹‹‹‹‹‹€ﬂ ﬂ€‹‹‹‹‹‹ ±≤ ∞∞∞∞∞∞ ‹‹‹‹‹‹‹≤± ≤≤ €
+ ‹ ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹ ‹
+ ‹                                                                            ‹
+ € Scenest'95                                                                 €
+ € ~~~~~~~~~~                                                                 €
+ € FiRST PLACE in Wild Compo     [Tsc & Robin]                                €
+ € FiRST PLACE in 4K intro compo [Genesis]                                    €
+ €                                                                            €
+ € Liquid'95                                                                  €
+ € ~~~~~~~~~                                                                  €
+ € FiRST PLACE in Multichannel Music compo [Tsc]                              €
+ €                                                                            €
+ € EXE'95                                                                     €
+ € ~~~~~~                                                                     €
+ € FiRST PLACE in pc Democompo [All]                                          €
+ € FiRST PLACE in pc Gfx compo [Das]                                          €
+ € SECOND PLACE in Multichannel compo [DeansDale]                             €
+ €                                                                            €
+ € Cache'96                                                                   €
+ € ~~~~~~~~                                                                   €
+ € SECOND PLACE in pc Democompo [All]                                         €
+ € SECOND PLACE in pc Gfx compo [Das]                                         €
+ €                                                                            €
+ € Scenest'96                                                                 €
+ € ~~~~~~~~~~                                                                 €
+ € FiRST PLACE in Wild Compo [True & Rian & Tsc]                              €
+ € FiRST PLACE in Multichannel compo [DeansDale]                              €
+ € SECOND PLACE in pc Democompo [All]                                         €
+ € SECOND PLACE in Raytrace compo [True]                                      €
+ € THiRD PLACE in Gfx compo [Das]                                             €
+ € FOURTH PLACE in Beethoven compo. [Atx]                                     €
+ € SEVENTH PLACE in Beethoven compo. [Deansdale]                              €
+ € ELEVENTH PLACE in Multichannel compo. [Atx]                                €
+ €                                                                            €
+ € Rage'96                                                                    €
+ € ~~~~~~~                                                                    €
+ € FiRST PLACE in Wild Compo [True & Rian & Tsc]                              €
+ € SECOND PLACE in Gfx Compo [Das]                                            €
+ € THiRD PLACE in 4 chanel music compo [Atx]                                  €
+ €                                                                            €
+ € Flag'96                                                                    €
+ € ~~~~~~~                                                                    €
+ € FiRST PLACE in Multichannel Music compo. [Rian]                            €
+ € FiRST PLACE in the Fernandez compo. [Atx, Trajic, Shade & Minstrel]        €
+ € FiRST PLACE in the pc Gfx compo. [Das]                                     €
+ € SECOND PLACE in Raytrace compo. [True]                                     €
+ € THiRD PLACE in pc Democompo. [All]                                         €
+ € SiXTH PLACE in the Multichannel Music compo. [Atx]                         €
+ €                                                                            €
+ €‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€
+ ‹                                                                            ‹
+ € tSC!                                                                       €
+ ‹                                                                            ‹
+
+ ﬂ                                                                            ﬂ

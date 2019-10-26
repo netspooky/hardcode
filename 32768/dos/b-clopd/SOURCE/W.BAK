@@ -1,0 +1,3 @@
+upx -9 b-clopd.exe
+b-clopd.exe
+exit

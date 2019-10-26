@@ -1,0 +1,108 @@
+.AUTODEPEND
+
+#		*Translator Definitions*
+CC = tcc +LAND.CFG
+TASM = TASM
+TLIB = tlib
+TLINK = tlink
+LIBPATH = .
+INCLUDEPATH = C:\BORLANDC\INCLUDE
+
+
+#		*Implicit Rules*
+.c.obj:
+  $(CC) -c {$< }
+
+.cpp.obj:
+  $(CC) -c {$< }
+
+#		*List Macros*
+
+
+EXE_dependencies =  \
+ fractal.obj \
+ 32048.obj \
+ shakki1.obj \
+ liike.obj \
+ 4k.obj \
+ main.obj \
+ data.obj
+
+#		*Explicit Rules*
+land.exe: land.cfg $(EXE_dependencies)
+  $(TLINK) /v/s/c/d/Vt/L$(LIBPATH) @&&|
+c0t.obj+
+fractal.obj+
+32048.obj+
+shakki1.obj+
+liike.obj+
+4k.obj+
+main.obj+
+data.obj
+land,land
+cs.lib
+|
+
+
+#		*Individual File Dependencies*
+fractal.obj: land.cfg fractal.c 
+
+32048.obj: land.cfg 32048.c 
+
+shakki1.obj: land.cfg shakki1.c 
+
+liike.obj: land.cfg liike.c 
+
+4k.obj: land.cfg 4k.asm 
+	$(TASM) /ZI /O 4K.ASM,4K.OBJ
+
+main.obj: land.cfg main.c 
+
+data.obj: land.cfg data.c 
+
+#		*Compiler Configuration File*
+land.cfg: land.mak
+  copy &&|
+-mt
+-f-
+-v
+-y
+-O
+-Z
+-p
+-k-
+-rd
+-d
+-h
+-S
+-B
+-vi-
+-H=LAND.SYM
+-w-ret
+-w-nci
+-w-inl
+-wpin
+-wamp
+-w-par
+-wasm
+-wcln
+-w-cpt
+-w-dup
+-w-pia
+-wsig
+-wnod
+-w-ill
+-w-sus
+-wstv
+-wucp
+-wuse
+-w-ext
+-w-ias
+-w-ibc
+-w-pre
+-w-nst
+-I$(INCLUDEPATH)
+-L$(LIBPATH)
+| land.cfg
+
+

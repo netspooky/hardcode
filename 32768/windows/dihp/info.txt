@@ -1,0 +1,27 @@
+dihp
+by
+mastermind
+
+the name of the intro comes from "Done In a Hurry Production".
+It was made about in 1.5 days by scg.
+
+the story:
+just before my heavy exams i asked darklight if he makes an intro for the 7D3 party.He said: i do.Later i send him some codes and music for intro.After ten days, i finished my exams and called darklight(on fri
+day evening).I asked him if the intro is ready.He said i did nothing.
+so i decided to make one on my own.In Friday night i started .After
+compiling some blank screens i felt that i never able to complete.I quit 
+coding and slept.In saturday evening i started again.After very long hours i could complete the intro.That's why i couldn't go to party.
+
+it's now 13:00pm. 5 hours to deadline.I hope orginizers accept entries
+submitted through e-mail. (and check their e-mails :) 
+
+-this is unfinished and buggy version.(a problem with fonts).Sorry for that.Next time it will be better.
+
+
+thanx:
+firelight  multimedia  for fmod
+m. oberhumer & l. molnar for UPX
+
+respects:
+all Turkish sceners - oyunyapimi.org - skywar staff 
+ 

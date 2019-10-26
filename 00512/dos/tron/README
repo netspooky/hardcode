@@ -1,0 +1,43 @@
+
+ ßß ßßßßßßßß ßßßßßßßß ßßßßßßßß ßßßßßß    ßßßßß   ßßß   ßß ßßßßßßßß ßßßßßßßß ßßß
+ ßß ßßßßßßßß ßßßßßßßß    ßß    ßß   ßß  ßß   ßß  ßßßß  ßß ßßßßßßßß ßßßßßßßß ßßß
+ ßß ßßßßßßßß ßßßßßßßß    ßß    ßßßßßß  ßßß   ßßß ßß ßß ßß ßßßßßßßß ßßßßßßßß ßßß
+ ßß ßßßßßßßß ßßßßßßßß    ßß    ßß  ßß   ßß   ßß  ßß  ßßßß ßßßßßßßß ßßßßßßßß ßßß
+ ßß ßßßßßßßß ßßßßßßßß    ßß    ßß   ßß   ßßßßß   ßß   ßßß ßßßßßßßß ßßßßßßßß ßßß
+
+        A crappy but tiny two player game written by brioche/aspirine
+	This is a beta version 0.2 so don't expect too much! :)
+
+ 	I have to admit that it was a boring  saturday evening when I
+	started to code some kind of nibble game, I'm really not used
+	to code games. I still can't figure out why I decided to make
+	this one, maybe because it was easy to code in asm. I'm gonna
+	maybe put it in Wired97's 100k game compo. :)
+		
+	The rules are mainly the same as the race in the famous movie
+	Tron.  You have to  spend the more time  possible on the game
+	area without  touching  neither any of the boundaries nor the
+	line drawn by the other player and you. Quite addictive.
+
+ 	If you have an azerty french-like keyboard the right keys are
+	up/down/left/right for the player 1 and a/q/w/x for the other
+	but if you have a qwerty keyboard it should be something like
+	q/a/z/x (I'm not so sure!).
+
+	There are of course some bugs in the game.  When both players
+	die at the same moment the player 2 will always be the winner
+	since the player 1 case is the first to be tested. :)
+	The whole stuff is synchronized on the 70 hz vertical retrace
+	of the screen but it works well since the whole stuff doesn't
+	need 1/70s to be drawned so it runs at the same speed on slow
+	computers than on fast pentiums.
+	
+	Since some parts of the assembler code are quite unreadable
+	feel free to contact me if you want more detail about it...
+
+	I'd like to send my best regards to alphatrion, gedeon, trax,
+	desnos, pcboy, black axe, fontex and all the very cool people
+	I met at Wired.
+ 	
+	Xavier Defrang (brioche/aspirine)
+	106146.1452@compuserve.com

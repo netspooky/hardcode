@@ -1,0 +1,78 @@
+Here is my entry in the smallest-game contest.  I wrote it several years
+ago as a tiny TSR (383 bytes) and adapted it for the contest by removing
+the TSR code.  This brought it down to 217 bytes.  I could squeeze a
+few more bytes if I used 386-specific instructions but it is already
+well under the 256-byte limit.
+
+Enter this hex dump into Debug to create a COM file.  Don't forget
+to start at 100h.
+
+    000000: B8 03 00 CD 10 B5 20 B4  01 CD 10 BA 36 B8 8E C2
+    000010: 33 FF BB DA BF BA C2 03  EB 05 BB C3 B4 B2 C5 E8
+    000020: 93 00 E8 86 00 FE CE 75  F1 BB C0 D9 B2 C1 E8 84
+    000030: 00 1E 33 DB 8E DB A1 6C  04 1F B3 81 B1 09 D1 E8
+    000040: 88 3F 10 3F 43 E2 F7 BA  81 00 BF E2 06 B1 03 51
+    000050: B3 03 8B F2 B7 03 B8 20  70 8A 0C E3 01 98 B1 06
+    000060: F3 AB 46 47 47 FE CF 75  ED 81 EF CA 00 4B 75 E2
+    000070: 81 EF A0 00 8B D6 59 E2  D6 98 99 CD 16 3C 1B 75
+    000080: 06 B8 03 00 CD 10 C3 3C  0D 74 A6 2C 30 3C 09 77
+    000090: E8 8A D0 BB CF 01 D7 BB  81 00 B1 09 4A 74 04 D0
+    0000A0: E8 73 03 80 37 01 43 E2  F3 EB 9C BB B3 B3 B2 B3
+    0000B0: B8 B5 01 50 50 B4 0F 8A  C3 AB B9 14 00 B0 C4 F3
+    0000C0: AB 26 88 55 F2 26 88 55  E4 8A C7 AB 83 C7 74 C3
+    0000D0: 0D 03 1A 21 5A 84 58 C0  B0
+
+
+Merlin is played on a three by three board and the object of the game
+is simple; all you need to do is clear the board.  The numeric keypad
+is used to toggle the squares.  Here is the layout:
+
+					+---+---+---+
+					| 7 | 8 | 9 |
+					+---+---+---+
+					| 4 | 5 | 6 |
+					+---+---+---+
+					| 1 | 2 | 3 |
+					+---+---+---+
+
+Pressing a key will toggle certain squares on or off.  The idea is to
+clear the whole board.  Pressing the 1 key will toggle these squares:
+
+					+---+---+---+
+					|   |   |   |
+					+---+---+---+
+					| X | X |   |
+					+---+---+---+
+					| X | X |   |
+					+---+---+---+
+
+Likewise, any corner key toggles the four squares in the corner.  Edge
+keys (2,4,6,8) toggle the squares on the edge.  Here is an example for 2.
+
+					+---+---+---+
+					|   |   |   |
+					+---+---+---+
+					|   |   |   |
+					+---+---+---+
+					| X | X | X |
+					+---+---+---+
+
+The 5 key toggles the central squares:
+
+					+---+---+---+
+					|   | X |   |
+					+---+---+---+
+					| X | X | X |
+					+---+---+---+
+					|   | X |   |
+					+---+---+---+
+
+That's all there is to it.  You can scramble the board at any time by
+pressing ENTER.  Press ESCAPE to exit Merlin.  Don't forget to set
+NUMLOCK if you don't have a dedicated keypad.
+
+-David Stafford  (davids@cruzio.com)
+
+
+
+

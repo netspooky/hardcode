@@ -1,0 +1,334 @@
+blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+blah                                                                    blah
+blah             .-              (')   (`)-.                            blah
+blah            :  `          O  `-'  ( ) ) '                           blah
+blah             :  :      o        .  ` ` `)    ,`.-.(`-.              blah
+blah              :  :  :.      .( ` ) .`-.'   .(  `   `   )            blah
+blah               :  : ,,-   .( `    ' `) by ( `   `    ,'.            blah
+blah               .   .,    (COSMIC BLOP'.--'DISASTER AREA )           blah
+blah              .   ., .    `,        4k intro           `:           blah
+blah              :  .,  :    (        released @         ,'            blah
+blah              `      '     `(  ( breakpoint 2003! )`.)              blah
+blah               `-..-'        `.,`.-'`-.).-'`.)``.'                  blah
+blah                                                                    blah
+blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+blah                                                                    blah
+blah   this is nothing special, but somehow interesting. we hope.       blah
+blah                                                                    blah
+blah   the code was done by ript., and the tune was written by steve.   blah
+blah                                                                    blah
+blah   thanks to sh0ck for help thinking up the title.                  blah
+blah                                                                    blah
+blah   you _might_ be interested to know that the tune was originally   blah
+blah   a .mod written by steve/disasterarea some time in the distant    blah
+blah   past, possibly 93 or 94, when disasterarea didn't exist, and     blah
+blah   when we were just wee lads, but it was never finished.           blah
+blah                                                                    blah
+blah   ~9 years later, i finished it for him... and turned it into      blah
+blah                                                                    blah
+blah   EVIL MIDI!!!                                                     blah
+blah                                                                    blah
+blah   speaking of evil midi, you should probably crank up your midi    blah
+blah   slider in your windoze mixer to be able to hear the sound.       blah
+blah                                                                    blah
+blah   it doesn't sound too bad using win2k's midi synth crap.          blah
+blah                                                                    blah
+blah   dunno what it would sound like in winxp or winme, but            blah
+blah   hopefully pretty similar.                                        blah
+blah                                                                    blah
+blah   unfortunately, i only have this one laptop for testing at this   blah
+blah   point in time. that's why the display updates at 60hz.           blah
+blah                                                                    blah
+blah   it also means that i dunno how many megahertz you need. it       blah
+blah   apparently worked fine on a 650mhz with xp ... but that doesn't  blah
+blah   tell you much.                                                   blah
+blah                                                                    blah
+blah   i certainly think it would run on quite a lot less.              blah
+blah                                                                    blah
+blah   regardless, if you're not fast enough, it won't run right.       blah
+blah                                                                    blah
+blah   thank you to the creators of 'dropper' and 'apack'...            blah
+blah                                                                    blah
+blah              they certainly save a lazy coder some time            blah
+blah                                                                    blah
+blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+blahblahblahblahblahblahblahblahblahblahblahblahnotpastaagainlahblahblahblah
+blah                                                                    blah
+blah   DISCLAIMER:                                                      blah
+blah                                                                    blah
+blah   if you run this intro, we're not responsible for any negative    blah
+blah   effects it has on your PC.                                       blah
+blah                                                                    blah
+blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+blahblahicookedaweeksworthofsaucelahblahblahblahblahblahblahblahblahblahblah
+blah                                                                    blah
+blah   DISTRIBUTION:                                                    blah
+blah                                                                    blah
+blah   go ahead and spread this if you like, even though i'm not sure   blah
+blah   why you'd want to ;) just make sure the zip remains unchanged.   blah
+blah                                                                    blah
+blah   if you want to stick this on a cd-rom please ask us for          blah
+blah   permission first. it's not because we mind you doing it, it's    blah
+blah   because we'd probably like a copy!                               blah
+blah                                                                    blah
+blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+blahblahblahblahblahblahblahblahblahiamseriouslyregrettingdoingsolahblahblah
+blah                                                                    blah
+blah   CONTACT:                                                         blah
+blah                                                                    blah
+blah   steve's email address is: not available to the public.           blah
+blah   ript's email address is: ript <at> disasterarea <dot> net        blah
+blah                                                                    blah
+blah   for more useless disaster area related shit you may visit:       blah
+blah                                                                    blah
+blah   http://www.disasterarea.net/                                     blah
+blah                                                                    blah
+blahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblahblah
+blahblahblahblahblahblahblahblahblahblahblahblahletthatbealessontoyoulahblah
+blah                                                                    blah
+blah   helloto:gyr,plant,sh0ck,shplorb,redwyre,blackfox,nf,MZ,tALSit,   blah
+blah   null,dodgeyhack,theepilepsyrobot,melwyn,unclex,jackal,reload,    blah
+blah   jdigital,floopyb,bananaboy,bassplace,smash,crest,sirgarbageruck  blah
+blah   and last, but not least... LEN! ... err, you.                    blah
+blah                                                                    blah
+blahblahblahblahblahblahblahblahiwillnevereatpastaagainhblahblahblahblahblah
+blahgoshthisinfofileismoreinterestingthantheintrolahblahblahblahblahblahblah
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*hic*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*hic*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*hic*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+BLAH!
+
+
+haha!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+i mean, blah.

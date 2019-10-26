@@ -1,0 +1,13 @@
+Xorballs by Optimus
+-------------------
+
+This is my first attempt at 256b using FPU code.
+Just drawing points of circle and filling with EOR trick.
+The colors are changing too.
+And that's it.
+
+What to say? Next time I'll do something more advanced. I hope :)
+
+Optimus
+optimus6128@yahoo.gr
+http://optimus.untergrund.net

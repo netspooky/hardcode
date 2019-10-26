@@ -1,0 +1,38 @@
+		
+			 Turn It Back II
+			<---------------<
+
+Requirements: 
+-------------
+- a Win9x dosbox, or a good DPMI manager
+- 16 MB RAM
+- Vesa2 compatible videocard, with 320*240*32 support
+- 100% Adlib compatible soundcard for music
+- 4 Kb diskspace
+
+Who made it:
+------------
+Code: Seven
+Music: Eggbird/Green
+
+Psi's adlib player was used, kindly provided by The Watcher/THUB.
+The stub is partly based on the Void3 stub, made by Franky and Shiva.
+Apack by Jibz was used to compress the intro below the 4K limit.
+
+Info:
+-----
+- There's a waitretrace used to run reasonable well on fast machines. On slow
+  machines, you might want to disable it to make the intro run smoother. This
+  is done via the commandline
+- You can turn of the sound, also via the commandline
+  "tib2"    : sound, waitretrace
+  "tib2 "   : no sound, waitretrace
+  "tib2  "  : sound, no waitretrace
+  "tib2   " : no sound, no waitretrace
+
+Contact:
+--------
+You can reach me at Stefaan.Vannieuwenhuyze@rug.ac.be, till the summer of 2000.
+After that, I will probably have left the university.
+
+         			Seven

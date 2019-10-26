@@ -1,0 +1,14 @@
+Glittermorphosis
+by Eos
+
+released at Under Construction 2016, Gernsheim
+
+graphics and code by fizzer
+music by Triace and Virgill
+
+ * uses OpenGL but doesn't use framebuffer objects (to make the coder smaller), and still uses more than 8 bits for additive blending accumulation
+ * uses depth-of-field bokeh, motion blur, bloom, flares, and tonemapping
+ * both front and back bokeh (according to spherical lens theory) are displayed, for a hexagonal and slightly circular aperture
+ * particles are anti-aliased
+ * final output is dithered
+ 

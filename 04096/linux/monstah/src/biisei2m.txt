@@ -1,0 +1,316 @@
+/
+tempo 300
+
+pattern 0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+end
+
+
+pattern 1
+  sq  E5  50
+  mo  E2  00
+  sq  E5  30
+  mo  E2  00
+  sq  E5  15
+  mo  E2  00
+  sq  E5  05
+  mo  B2  00
+end
+
+pattern 2
+  sq  E5  05
+  mo  E2  00
+  sq  E5  15
+  mo  E2  00
+  sq  E5  30
+  mo  E2  00
+  sq  E5  50
+  mo  E2  00
+end
+
+pattern 3
+  si  C2  50
+  si  C2  50
+  si  C2  50
+  si  C2  50
+  si  C2  50
+  si  C2  50
+  si  C2  50
+  si  C2  50
+end
+
+pattern 4
+  si  C5  05
+  si  C5  00
+  si  C5  15
+  si  C5  00
+  si  C5  30
+  si  C5  00
+  si  C5  50
+  si  C5  00
+end
+
+pattern 5
+  si  E5  05
+  si  E5  00
+  si  E5  15
+  si  E5  00
+  si  E5  30
+  si  E5  00
+  si  E5  50
+  si  E5  00
+end
+
+pattern 6
+  si  B5  05
+  si  B5  00
+  si  B5  15
+  si  B5  00
+  si  B5  30
+  si  B5  00
+  si  B5  50
+  si  B5  00
+end
+
+pattern 7
+  si  E2  50
+  si  E2  50
+  si  E2  50
+  si  E2  50
+  si  E2  50
+  si  E2  50
+  si  E2  50
+  si  E2  50
+end
+
+pattern 8
+  si  B2  50
+  si  B2  50
+  si  B2  50
+  si  B2  50
+  si  B2  50
+  si  B2  50
+  si  B2  50
+  si  B2  50
+end
+
+pattern 9
+  si  C5  50
+  si  C5  50
+  si  C5  30
+  si  C5  50
+  si  C5  10
+  si  C5  10
+  si  C5  05
+  si  C5  05
+end
+
+
+pattern 11
+  si  C3  50
+  si  C3  50
+  si  C3  50
+  si  C3  50
+  si  C3  50
+  si  C3  50
+  si  C3  50
+  si  C3  50
+end
+
+pattern 12
+  si  E3  50
+  si  E3  50
+  si  E3  50
+  si  E3  50
+  si  E3  50
+  si  E3  50
+  si  E3  50
+  si  E3  50
+end
+
+pattern 13
+  si  A3  50
+  si  A3  50
+  si  A3  50
+  si  A3  50
+  si  A3  50
+  si  A3  50
+  si  A3  50
+  si  A3  50
+end
+
+pattern 14
+  si  G3  50
+  si  G3  50
+  si  G3  50
+  si  G3  50
+  si  G3  50
+  si  G3  50
+  si  G3  50
+  si  G3  50
+end
+
+pattern 15
+  no  C1  50
+  mo  C1  50
+  mo  C1  50
+  no  C1  00
+  no  C3  50
+  si  G3  00
+  no  C5  50
+  no  C5  30
+end
+
+pattern 16
+  no  C1  50
+  no  C6  50
+  mo  C1  50
+  no  C1  00
+  no  C3  50
+  si  G3  00
+  no  C3  50
+  no  C5  30
+end
+
+pattern 16
+  no  C1  50
+  no  C6  50
+  mo  C1  50
+  no  C1  00
+  no  C3  50
+  si  G3  00
+  no  C3  50
+  no  C5  30
+end
+
+pattern 17
+  mo  C6  50
+  no  C6  50
+  mo  C1  50
+  no  C5  20
+  mo  C5  20
+  no  C5  50
+  no  C6  50
+  no  C4  50
+end
+
+pattern 18
+  no  C5  50
+  no  C3  00
+  mo  C5  50
+  no  C0  00
+  no  C2  50
+  si  G0  00
+  no  C5  50
+  no  C6  50
+end
+
+pattern 19
+  si  C4  50
+  si  G4  50
+  si  C4  30
+  si  G4  30
+  si  C4  15
+  si  G4  15
+  si  C4  05
+  si  G4  05
+end
+
+
+pattern 20
+  si  G4  50
+  si  B4  50
+  si  G4  30
+  si  B4  30
+  si  G4  15
+  si  B4  15
+  si  G4  05
+  si  B4  05
+end
+
+pattern 21
+  si  A4  50
+  si  C5  50
+  si  A4  30
+  si  C5  30
+  si  A4  15
+  si  C5  15
+  si  A4  05
+  si  C5  05
+end
+
+pattern 22
+  no  C4  50
+  no  C0  00
+  no  C4  50
+  no  C0  00
+  no  C4  50
+  no  C0  0
+  no  C4  50
+  no  C0  0
+end
+
+playlist
+   0 0 0
+   0 0 11
+   0 0 11
+   0 0 12
+   0 0 12
+   0 0 13
+   0 0 13
+   0 0 14
+   0 0 14
+  15 0 11
+  16 0 11
+  17 0 12
+  18 0 12
+  15 0 13
+  16 0 13
+  17 0 14
+  18 0 14
+  15 19 11
+  16 19 11
+  17 20 12
+  18 20 12
+  15 21 13
+  16 21 13
+  17 20 14
+  18 20 14
+  15 19 11
+  16 19 11
+  17 20 12
+  18 20 12
+  15 21 13
+  16 21 13
+  17 20 14
+  18 20 14
+/   0 0 0
+//   0 3 0
+/   0 3 0 
+//   1 3 4
+//   2 3 4
+//   1 3 4
+/   2 3 4
+/   1 3 5
+/   2 3 5
+/   1 3 6
+/   2 3 6
+/   1 7 4
+/   2 7 4
+/   1 7 4
+//   2 7 4
+/   1 3 5
+/   2 3 5
+/   1 8 6
+/   2 8 6
+   0 0 0
+   0 0 0
+
+end 

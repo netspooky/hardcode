@@ -1,0 +1,263 @@
+²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²
+
+                                               ²        Û  °
+           °±²Ü °  Û °±²Ü Ü°±²Ü     ÜÛ²±° °±²Ü    °±²Ü     ±
+           ±  Û ±  Û ±  ² ±   ²     ²     ±  ² ²  ±  Û  Û  ²
+           ²ÛÛß ²  ² ±°±ß ²²±°ß     ß±²ÛÜ ²±°ß ±  ²ÛÛß  ²  ²±°
+           ±    Û  ± ± ß² Û             ² ²    °  ±  Û  ±  Û
+           °    ß²±° °  Û ß²±°       °±²ß Û    ±  °  Û  °  Û
+                                                           ß²±°
+
+²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²
+
+     a 4Kb intro by Hugo Habets a.k.a. The Counsellor/Spirit New Style
+           "I'm a child of light, a Pure Spirit!" (Ace Ventura)
+
+     (some characters in this textfile may display differently under a
+      non-MSDOS environment like Windows. Win'95 might crash on this text)
+
+
+                         þÞ Introduction Ýþ
+
+     "Pure Spirit" is a 4Kb intro. This means the size of the intro
+     must be 4096 bytes or less, and the intro must be silent.
+
+     To prevent us from getting lots of question-e-mails,
+     this textfile holds about anything you might want to know about
+     this intro.                                  Big Is Beautifull!
+
+     To escape the happiness of the Pure Spirit, relocate the ESC
+     key to a sligtly lower position.
+
+     To speed up your experience, hold the Fast Forward key (right).
+     This will cause the intro to run at 4 times the speed, just like
+     a fast-forward video tape.                      Cool option huh?
+
+     If you're getting bad vibes from the torus texture, press the largest
+     key on your collection to select any of the 8 different textures!
+
+     In other words.. ESC   = Exit
+                      RIGHT = Fast Forward (the -> key)
+                      SPACE = Change 3D Object Texture
+
+     This intro was released at Assembly '96, the annual computer art
+     competition/party held in Helsinki, Finland.
+
+
+                         þÞ Requirements Ýþ
+
+         Minimum: 386 CPU, VGA, about 320Kb of free memory, MS-DOS, Monitor
+     Recommended: Pentium CPU, PCI VGA, MS-DOS, Monitor, and a GUS playing
+                  your favourite tune.
+ Not Recommended: Windows 3.11 (frameskipping will bug!)
+                  Windows '95 (not tested, but anything crashes Win'95)
+                  OS 2 Warp (not tested.. doesn't support .COM files?)
+                  Some computer with PC emulation (might work :)
+                  A system that doesn't support Self Modifying Code.
+
+
+                          þÞ Disclaimer Ýþ
+
+     Running "Pure Spirit" is at your own risk. I can not be held
+     responsable in any way for damages, loss of data or failures
+     caused by this intro.
+
+
+                          þÞ Copyrights Ýþ
+
+       "Pure Spirit" is not freeware.
+       You may copy it under the following conditions:
+        þ No payment of any kind may be charged for this product or
+          any combination of products or services including this
+          product without my authorization and official written license.
+        þ Commercial use, including industrial manufacturing on any data
+          storage media and their distribution without my written
+          permission is strictly prohibited.
+        þ The program or this text file may not be altered or modified
+          without my written permission.
+        þ The intro and this text must always be in the same directory
+          or packed file. Spreading the intro or this text seperatly is
+          strictly prohibited without my written permission.
+        þ These rules go for any shape of this intro, including packed
+          files, video tape, screen grabs, ftp or any other medium.
+        þ Payment may or may not be asked for giving permission.
+
+       You may public show this intro under the following conditions:
+        þ No payment of any kind may be charged for the viewing of this
+          intro without my written permission.
+          Showing this intro at demo-parties however, is allowed.
+        þ Broadcasting is only allowed with my written permission.
+        þ I hold the right to change those rules on seperate occasions.
+        þ Payment may or may not be asked for giving permission.
+
+
+                   þÞ What's really in those 4Kb? Ýþ
+
+     When the intro is executed, first all kinds of precalculations are
+     beeing done. Sine Tables, Textures etc.  Then it starts..
+     1. A Bump Mapped Title screen (X- and Y Bump)
+     2. An 3D Torus-like object with Gouraud Shading and Shadow
+        The object has 256 vertices and 512 faces
+     3. A closer look at the object
+     4. The 3D object morphes into a star (and back) while the background
+        turns into a rotating zoomer, all with a new object palette
+     5. The Bump Mapped screen again (and again a new palette)
+     6. 3D Objects float around in the Bump Mapped screen
+     7. Inside the Object
+     8. 4-layer sine tunnel with Anti Alias (Pentium strongly recommended!)
+     9. A rotating zoomer to end the intro
+
+     For this, techniques like 3D Rotation/Projection, RadixSort, 3D Object
+     Generation with Morphing, 3D Normal/Color Calculation, Backface Culling,
+     FrameSkipping, Object Shadow, Hight Blurring, Taylor Sine Generation
+     and many more were used.
+     The 4-layer sine tunnel might seem slow, but please consider it was
+     written with a fast Pentium in mind, the effect is extreemly
+     detailed and the anti-aliassing is size optimized (not speed).
+
+     For the 3D part, the object holds 512 faces and the shadow holds
+     another 512 faces = 1024 faces per frame. The polygon filler is
+     a mix between size and speed optimisation.
+
+     So, as you might imagine, this really was hard to write with the
+     4096 bytes limit. Lots of tricks were used to keep the code small.
+     To give an indication of how small 4096 bytes is, this textfile
+     is (exactly :) 3 times that size.
+
+     The whole intro was of course 100% written in Assembler. For those
+     who don't know ;), this means the sourcecode (a textfile with the
+     instuctions written in human readable text) holds every instruction
+     the computer executes (unlike in a higher language, like Pascal or C,
+     where the source holds a reduced discription of what's really executed).
+     The size of the sourcecode is almost 48Kb.
+
+     The intro was made using my own postprocessor (gosh, this was hard
+     to write :) because for some reason the postprocessor from Stone/Dust
+     didn't work (reduced size to 12Kb while mine reduced size to 5Kb).
+
+     But I must send big thanks to Stone/Dust for releasing the Taylor
+     sine/cosine generation sourcecode from the Stoned 4Kb intro.
+     I understand the Taylor algorithm myself of course, but his source
+     was very good I think. It saved me the trouble of writing it myself. ;)
+
+     Also thanks must fly to the author of COMPACK (W. Collis??), it
+     seemed to be the best Public Domain .COM packer I could find.
+
+     And big thanks to Tuukka Paavola (Bloody/Spirit New Style) for
+     helping me to release this intro.
+
+
+                       þÞ Spirit New Style? Ýþ
+
+     A demo group is a collection of people who share the need to create
+     nice pieces of computer art together. Nicknames are used because
+     of the demoscene's history, this is no sign of illegal actions.
+
+     Spirit was a demogroup formed by The Counsellor with a lot
+     of coders, but almost no graphicians and only a few musicians.
+
+     Spirit was 5th at the Assembly '94 64Kb intro compo, with
+     an intro called "Psychic Flight."  This intro was ok for that
+     time, but it isn't up to the standards of 1996 intros.
+     After having some bad experiences with demo competitions (like
+     the Party 4), Spirit slowly began to fell apart.
+
+     When the problems grew, Spirit lost it's core. That core formed
+     a new group called "Spirit New Style."  The new group was for
+     hard working members only.
+     Only a few weeks after this new group was formed, the first success
+     came in a 2nd place in the X'96 demo compo.
+
+     The current Spirit New Style group members are:
+
+      The Counsellor    °      Hugo Habets       Û   The Netherlands
+      Magic Boy         ±      Xander Koninkx    ²   The Netherlands
+      Bloody            ²      Tuukka Paavola    ±   Finland
+      Manar             Û      Mathijs de Jonge  °   The Netherlands
+
+     More graphicians and musicians are welcome. Please note that we
+     only accept new members who are extreemly active and who also
+     are willing to work on commercial game projects (contacting
+     information below).
+
+
+         þÞ What else did Spirit New Style release at Asm'96? Ýþ
+
+ þ1þ  A 64Kb intro called "Water."
+      Code: Magic Boy & The Counsellor      Music: Bloody
+      "Pure Spirit" was finished a few weeks before "Water" was,
+      this 64Kb intro uses pieces of the "Pure Spirit" code.
+      I also wrote the music system for the compo version of "Water"
+      after writing Pure Spirit.
+
+ þ2þ  A few weeks before Asm'96, we released an invitation demo for the
+      Bizarre '96 party (VESA 640x480x256).
+              Code: Magic Boy             Music: The Rew
+          Graphics: 1Voud / Magic Boy     Text: Dr. Badvibes
+         3D engine: The Counsellor
+
+      Visit our homepage for info about where to download the products
+      and more. The URL is at the bottom of this text.
+
+                       Check it Out!
+
+
+             þÞ Greetings (just wouldn't fit in 4Kb :) Ýþ
+                           (in random order)
+
+  þ Groups:  Logic Design, Success, Nooon, Halcyon, Complex, Psychic Link,
+             Acme, Fascination, Jeskola, Legend Design, Realtech, Hornet,
+             Rage PC, Noice, Void, Maroon, Surellix, Nostalgia, Dust,
+             Melon, Scoopex, Contrast, Xtacy, Orange, Razor 1911, Triton,
+             Bizarre Organizers, Assembly Organizers and the rest..
+  þ Persons: Manar, The Rew, Rico, Trax, El Greco, Aap, Freshman, Balance,
+             Rogue, Simm, Mitch, Harlequin, Trixter, Dr. Badvibes, Vic,
+             Laserdance, 1Voud, Danny, Abyss .. hmm.. names..
+             Tuukka, Ron, Rob, Geertje, Dries, Joris, Floris, Ruudjuuh,
+             Rudy, Michel, Martijn, Marnix, Joop, alle Jannen, Maurits,
+             John, Jeroen "sta ik er echt in" den Haan :), Barry, Rene,
+             Arjen, Richard, Teun, Mark, every Sander Konings I know.. (hehe)
+             and everybody else.. of course.. would be rude not to..
+
+
+                  þÞ What are the future plans? Ýþ
+
+     We're going to create games, demos, intros, all that..
+     The agreement that lives in Spirit New Style is that Manar,
+     Bloody and me will concentrate on games, while Magic Boy will
+     concentrate on demos.
+
+     Newsflash: Magic Boy will move to my study address in Heerlen
+     because of a change in his study. The both of us living in
+     the same house.. what will this do to Spirit New Style? :)
+
+     Companies interested in our games can e-mail to the address listed
+     below. We do have experience in creating games and we are very
+     interested in continueing this work.
+
+
+   Thanx for watching / downloading / uploading / voting for / debugging /
+   ftp-ing / attaching / dcc-ing / uuencoding / laughing at / stopping /
+   hacking / deleting / trusting / spreading / losing / hating / liking ..
+
+               úùø The "Pure Spirit" 4096 bytes intro øùú
+
+
+       Enjoy!
+
+              The Counsellor / Spirit New Style
+
+
+                    e-mail: hugo.habets@tip.nl (no files, text only please)
+             Spirit NS WWW: http://www.tip.nl/users/hugo.habets
+    Spirit NS Headquarters: Spirit New Style
+                            Drieschstraat 2
+                            6412 XX  Heerlen
+                            The Netherlands
+                            (will be valid until 1998!!)
+
+
+   þÞ Who has got the most Pure Spirit?
+    þÞ Government or Youth?
+     þÞ So who's in charge?
+

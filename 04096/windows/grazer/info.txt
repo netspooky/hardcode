@@ -1,0 +1,10 @@
+GRAZER
+
+My first 4k bytes game!
+Using OpenGL... :)
+
+* control
+Press UP Key!
+
+coded by hole / n.h.k.
+January 2012 on TokyoDemoFest

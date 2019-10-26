@@ -1,0 +1,18 @@
+
+256b.htm competition
+
+
+entry name: boxs256 (updated size)
+author: salice
+email: salice@gmx.net
+url: -
+
+
+comments:
+
+tested on my athlon700/win98
+
+ie5.50 -> runs, takes 5-10 seconds, asks whether to stop script (say no)
+opera6.0 -> runs, takes about 9 minutes(!) to load the whole thing
+
+netscape 4.76 and konqueror on kde didn't seem to run the script...

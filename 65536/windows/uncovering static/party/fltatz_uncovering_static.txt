@@ -1,0 +1,30 @@
+uncovering static
+a 64k intro presented at Assembly 2011 (in the pc demo competition like true elites)
+by Fairlight & Alcatraz
+
+code/visuals: smash / fairlight
+synth: gopher / alcatraz
+music: reed / fairlight
+2d graphics: destop / cncd
+
+http://directtovideo.wordpress.com
+
+requires windows xp or later, directx9.0c, a geforce 280 or better (or ati equivalent). 
+
+native / recommended resolution: fullscreen 1280x720. 
+
+
+
+due to unfortunate circumstances the 64k intro competition at asm was sadly cancelled. 
+instead of holding this back we thought we would play with the big boys.
+hope they can handle it.
+
+the compo being cancelled was only one thing in a long string of bad luck during the last few days. crashes, 
+problems and logistics were all against us. but we're still here.
+
+this is completely realtime in every way. the only precalc is to compile the shaders. 
+the synth is based on physical modelling; the rendering on distance field manipulation; the lighting on raycasted
+ambient occlusion.
+
+
+rumours of the demise of 64k appear to be somewhat exaggerated.

@@ -1,0 +1,88 @@
+                               ฺ            ฟ
+ษออออออออออออออออออออออออออออออต D I V I N E ฦออออออออออออออออออออออออออออออออออ
+บ                              ภ            ู
+บ
+บ            A   F A T A L   J U S T I C E   P R O D U C T I O N
+บ
+บ  ฺ          ฟ                                                      
+ศออต requires: ฦออออออออออออออออออออออออออออออออฤฤฤฤ---- - - 
+   ภ          ู
+  
+  - a fast 486DX processor ( 66 or 100MHz recommended )
+  - a fast vga-card ( VLB/PCI recommended )
+  - Gravis UltraSound + powerful stereo hifi-system ( no sound without GUS )
+    + valid UltraSnd-String in your AutoExec.Bat
+  - some space on your hard disk for temporary working-files ( < 150kB )
+  
+                                                           ฺ          ฟ
+          - - ---ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤอออออออออออออออออออออออออออต features: ฦออออออออ
+                                                           ภ          ู
+  - motion-blurred flat-shaded vectorlogo
+  - palette fading ;)
+  - linear metal-shaded vector-torus (512 faces)
+  - boring credits-writer ;)
+  - splatter-refraction mapped vector-torus (still 512 faces ;)
+  - plain torus morphing to phong-torus
+  - non-linear metal-shaded wobbling vector-skull (3729 faces)
+  - even more boring greetings-text ;)
+  - (real!) motion-blured phong-shaded vector-skull
+
+  - full stereo multi-channel soundtrack
+  
+  - some nice timing and a bit of design...
+
+                                                           ฺ      ฟ 
+          - - ---ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤอออออออออออออออออออออออออออต bugs: ฦออออออออออออ
+                                                           ภ      ู
+
+  this demo was tested on the following, very different machines - we didn't
+  encounter any problems, but if you find any, contact us please...
+
+  - AMD 486DX4-100 VLB,   Cirrus L. 1MB,    GUS 1MB:       ok.
+  - Cyrix 486DX2-66 VLB,  ET4000-W32i 1MB,  GUS 1MB:       ok.
+  - AMD 486DX4-100 PCI,   Advanced L. 1MB,  GUS Max 512kB: ok.
+  - Cyrix 486DX2-66 VLB,  Trident 8900 1MB, no GUS:        ok.
+  - AMD 486DX2-80 VLB,    Miro 20SD 1MB,    no GUS:        ok.
+  - Intel Pentium 90 PCI, Trident 8900 1MB, no GUS:        ok.
+  - Intel 386DX-40 ISA,   Paradise 512kB,   no GUS:        ok, but sucks.
+  - Cyrix 486DLC-33 ISA,  Acumos 512kB,     no GUS:        ok, but sucks.
+  - Intel 486DX-50 ISA,   Diamond 1MB,      no GUS:        ok, but sucks.
+
+   ฺ               ฟ                                                      
+อออต miscellaneous: ฦออออออออออออออออออออออออออออออออฤฤฤฤ---- - - 
+   ภ               ู
+ 
+  This intro took part at the BIZARRE '95 intro-competition and won 4th place.
+  Coding was started just some days before, so it could have been better...
+
+  Some effects are kind of slow, especially the phong-skull - so better
+  don't try this on slow processors - - I'm sorry, but I had only my
+  DX4-100VLB to test while doing this quick-production... :(
+
+  Expanded memory managers like EMM386, QEMM... will be set into an inactive
+  mode while running this intro; so you can use them, but after all it is
+  faster without them...
+
+  Sorry to all our friends we couldn't place into the greetings part -
+  finally the screen is limited and so we erased all names contaning strange
+  chars to save space with the font...
+
+  For more (un)interesting information check out FATAL.NFO information-file.
+
+  Message to Internal/eDa:
+  The motion blur is NOT stolen; I don't know what you think, but I don't
+  have to rip a silly screen-interpolator...
+
+                                                            ฺ         ฟ
+ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออต credits: ฦออออออออ
+บ                                                           ภ         ู
+บ  HELLFIRE   :  code, design, objects
+บ  INSANITY   :  soundtrack, design
+บ  THE DON/TDA:  background-picture
+บ 
+บ  Special thanks to the creator of the 3DS skull - who ever you are...      
+บ  'Thank you' goes to Brabon for his Object, although we didn't use it.
+บ
+บ                                ฺ          ฟ
+ศออออออออออออออออออออออออออออออออต  THE END  ฦอออออออออออออออออออฤฤ--- - -
+                                 ภ          ู

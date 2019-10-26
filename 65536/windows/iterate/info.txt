@@ -1,0 +1,22 @@
+
+Iterate, by Inque 
+
+:: release info :: ----------------------------
+
+a 64k demo released at Outline 2014
+
+this is the result of trying to do as much as 
+possible in the least amount of time. at least
+we've managed to release something.
+
+note that this requires a powerful graphics card 
+and DirectX 10.1
+
+:: credits :: ---------------------------------
+
+code/shaders/visuals/direction -- glow
+soundtrack -- izard
+
+:: cya :: -------------------------------------
+
+www.inque.org

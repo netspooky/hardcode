@@ -1,0 +1,293 @@
+         _.,ÒËËÒ,._                                                     :$$&
+     _,sS$$P*ÊÐÐÊ*T$$Ss,_             .,_   :  Q   u   a   d   ' 9 8     l$$l
+   ,d$$Pý^          `øT$$b,,sSb       `T$$b, `ùùùùùùùùù                   &$$:
+  d$$P'                `T$$$$$ø         `$$$¿               _,Öy@SSS@yÖ,_:$$&
+ l$$S                    S$$$I           l$$S             ,d$$Pýø```øýT$$$$$l
+ $$$l                    l$$$$,         ,$$$lÒy@SSS@yÖ,_ Ú$$$'         `$$$$:
+ l$$S            ,,.     S$$l$$b,...,d$$P$$Pýø```øýT$$b$$$I           l$$&
+  T$$b,          T$$b  ,d$$P `øÈ*T$$$P*¼Õ$$$'         `$$$$$$,         ,$$$l
+   `T$$b,_        `ýø,d$$P'             $$I           l$$lT$$b,...,d$$P'
+     `ÈT$$$S@%yy%@S$$$P¼`, ¯> Kenetic!  À$$$,         ,$$$&  `È*T$$$P*¼ø`
+         `^øýÐÐÐÐýø^`  sS$b,             `T$$b,...,d$$$$$,_
+                        `""~`              `øÈ*T$$$P*¼ø``ýÐÐüø
+
+    ( info )
+
+      yeah. stash. right. well, we can do that, can't we? so, we did.
+      it's called erratic and it's here for your viewing pleasure.
+      ofcourse, we suck, which is why it's not as great as TBL's effort.
+      do we care? nope.
+
+      still, it's quite good, we think.
+      cue some useless statistics:
+
+      - 700k worth of music (really, no fake 4meg music on 1mb gus)
+      - 3.6mb of textures (hah! jizz sucks ;))
+      - realtime raytracing featuring full shadowing
+      - 1mb worth of 3d-scenes
+      - first ever 3d-engine with bezier fractals
+      - truckloads of 2d-effects
+      - design!
+      - it was done in TWO weeks instead of three! HA!
+
+      have you ever seen this kind of stuff TOGETHER in a 64kb intro?
+      you've seen realtime raytracing, you've seen 3d-engines, you've seen
+      2d-effects. together? hah! thought not!
+
+      <ego mode deactivated>
+
+      seriously though, if you like this intro we'd like you to say hi to
+      us on #coders (IRCNet).
+
+      credits:
+
+      sagacity: raytracer, bezier fractals, SagPack picturepacker,
+                systemcode, deprived of sleep.
+        inopia: texturepacker, truckloads of 2d-effects, 3d-polygons,
+                experimental clothing.
+         sarix: 3d-engine, even more bezier fractals, 3d-scene
+                packer, design, waking sagacity up.
+     darkxceed: tb303/tr808 generator, music.
+      deadline: this really vague 3d-object morpher, 3d-engine bugfixes.
+                and obviously those particles.
+        virago: these 2 really cool logos. in quite a short time.
+
+    ( those personal greets )
+
+      Mucho gracias to Kenetic who's put quite some effort in doodling up
+      that ascii-logo you can find at the top of this very document.
+
+      and obviously, we'd like to smack the following people around a bit
+      with a large trout:
+
+      - METABOLIC! ALL OF YOU! LOWRES WAS BOT!!!!!
+      - Rogue: RANZIGE AAP! :)
+      - Jace: Ha! Nu jij weer! (Raytracing is wel cool! WELLES WELLES WELLES)
+
+      (sarix crashes the pc, once again)
+
+      - Nix: Wij krijgen nog een 64k windows iets dinges gevalletje van
+             jou ... of MOETEN WE HET KOMEN HALEN? :)
+      - Darius+Mental Profile: Maar jullie programma voor die diskette-
+                               throwingcompo is ERG mooi :)
+      - Green: Langs niks meer van gehoord. Komt er nog wat voor het eind
+               van het millennium?
+      - G-Day: Slaap zacht.
+      - Sarix: Thanks for da flop.
+      - Xoror+Riplin: Hee stelletje luilakken! CODEN NONDEJU! :)
+      - kurt/green : thanks for the Jupiler (inopia).
+      - Gday managed to get over a hundred ftp-clients in 1 hour.
+      - Ehrm ... Sag still hasn't managed to get any sleep. At all.
+        Which is kinda sucky.
+        Though.
+
+    ( major events in human history )
+
+      1995: Quad arrives!
+            The team consists of Sarix, Skin, Whizz-Kid, Necronomicon and
+            Soundmeister.
+      1996: Quad tries to impress people at x96, but fails miserably.
+            "Kamikaze" ends up in 8th place, out of 12.
+            However, G-Day and Darth Vader seem to be impressed, and
+            they join.
+
+            After the summer, Sarix becomes an irc-freak and meets Morgue,
+            who promptly joins.
+            Feeling not at all defeated, Quad tries again at biz96!
+            This time, Low Profile/Arcamax and Zest/Spirit try to boost
+            the quality of the demo. It shows, because less people fall
+            asleep during "Perception", and Quad brings home the 6th
+            place prize: nothing.
+
+            Necronomicon also enters the raytrace compo, and wins 3rd place.
+
+            After this, we force Inopia to join Quad by threatening to
+            beat him up on a regular basis. He accepts.
+            Soundmeister had to go, together with Morgue, due to low
+            activity. In the meantime, Darkxceed also joins.
+
+      1997: Barely recovered from last year's attempt at X, Quad tries
+            to shock all people with "Addicted". Slight problem: Statix
+            releases 303. The fact that our demo also crashes the
+            partymachine didn't help either. No prize. Again.
+
+            Necronomicon also enters the raytrace compo, and wins.
+            Arzamas also wins the musiccompo with "Organic".
+            Darkxceed ended up 9th with "Ya'r Mine".
+
+            G-Day decides to join RBi, and leaves Quad.
+
+            Just before Wired97, Quad foolishly decides to build a 64k
+            intro. Extra coding muscle is needed, so Sagacity joins as
+            a coder. Obviously, this didn't help, and we decide not to
+            finish our 64k. After we saw JiZZ, we're glad we did.
+            However, after seeing JiZZ on Jace's PC, Inopia decides to
+            code a 64k intro together with Deadline/EFC. It is called
+            "Phystix" and ends up in 4th place. No prizes. Once more.
+
+            G-Day decides to rejoin Quad, while staying in RBi.
+
+            Arzamas leaves Quad, due to lack of time. And, (if you're
+            still with us): Buckshag also joins Quad, as a graphics
+            artist. He's now a coder. (we're just as confused as you are)
+
+            We get a little fed up with not winning any prizes, so we
+            decide to kick some ass. "Focus" is released at Biz97 and
+            promptly wins 1st place. We are amused.
+            Also, continuing their partycode adventure, Deadline/EFC and
+            Inopia code "Onfris" - a "different" kind of 64k intro.
+            Sagacity (you know, the coder) slaps together some music in
+            10 minutes, and the intro wins 2nd place. It has acquired
+            cult status in The Netherlands.
+
+            Necronomicon also enters the raytrace compo, and wins.
+
+            Focus seemed to be a little out of focus on most computers,
+            but a final version is quickly made. It only crashes at the
+            end, now. (coders, can't live with them...period)
+
+            [quad coders' meeting]
+            Sagacity: "LowRes is coming up in 8 days."
+            Inopia: "Oh, take these effects. Have fun."
+            Sarix: "We'll never be able to produce a demo in 8 days!"
+            After which "Process" won 1st place at LowRes97.
+
+            Necronomicon doesn't enter the raytrace compo.
+
+            Ever since Wired97, Deadline/EFC wanted to join. And since
+            he has become a damn fine coder, he joins after LowRes.
+            Hurrah.
+
+            Darth Vader didn't do anything since "Addicted", so he left.
+
+            We still didn't have a 2d-artist, though, so Cyclops joined!
+
+            Then, when everybody is happily celebrating christmas,
+            Aap/Acme asks Sagacity to code a demo for TheParty7. It is
+            coded in two days (and thus not extremely optimized) but it's
+            finished. Even Sarix and Inopia join in on the fun.
+            It was then quickly sent to Aars (snigger) where Multiplex/Cheese
+            didn't have any disks on him, so the demo didn't enter the compo.
+            The demo WAS released, though, so everyone has seen it by now.
+            It's called "Forever Dreaming", by the way.
+
+      1998: Barely recovered from what was 1997, the posse decide to do a 64k
+            out of sheer madness. Since every other Quad coder is busy doing
+            BSP-Trees at some hotshot game-company (or simply too drunk to do
+            anything...grin) Sagacity takes on full responsibility, but still
+            manages to have Sarix and Inopia doing quite some work! Darkxceed
+            even joins in on the fun with his 303-generator. Oh, how we like
+            coding. The intro is called "Erratic", and at the time of writing
+            we have no idea of it's ranking.
+
+    ( posse )
+
+      handle         real name                 task          characteristic
+                                                            
+      buckshag       john van der burg         code          omnipresent
+      cyclops        Arno Vanbeginne           art           belgian
+      darkxceed      bart veenstra             music         fast
+      deadline       alex bartholomeus         code          vague
+      g-day          franklin van velthuizen   music         sleepy
+      inopia         niels brouwers            code          alternative
+      necronomicon   duy nguyen                modelling     talented
+      sagacity       roy jacobs                code          strange
+      sarix          john-pierre verhagen      code          lactose-tolerant
+      skin           bart pustjens             organizing    huge
+
+      to contact the posse, mail to:
+
+      buckshag          buckshag@hotmail.com
+      cyclops           cyclops_triloxy@hotmail.com (triloxy, Cyclops? ;) )
+      darkxceed         no e-mail address. oh well. even God doesn't have one.
+      deadline          deadline@freemail.nl
+      g-day             gday@worldonline.nl
+      inopia            inopia@horizon.nl
+      necronomicon      q.d.nguyen@stud.tue.nl
+      sagacity          sagacity@stack.nl
+      sarix             verhagen@worldonline.nl
+      skin              b.a.w.pustjens@stud.tue.nl
+
+    . for general quad things, mail to skin .
+    . for real hotshot game coding, mail to sarix or buckshag .
+    . for recipes and free cutlery, mail to sagacity .
+    . for other things, mail to the others .
+
+      hint: if you want to ask something to deadline, mail DEADLINE, and not
+            Inopia. It helps.
+
+    ( last 5 releases )
+
+      phystix.zip       Intro: Phystix, at Wired'97 - 4th place
+      onfris.zip        Intro: Onfris, at Biz'97 - 2th place
+      armaged.zip       TGA: Armageddon, by Necronomicon, Biz'97 - 1st place
+      qd-focfn.zip      Demo: Focus (final), at Biz'97 - 1st place
+      qd-procs.zip      Demo: Process, at LowRes'97 - 1st place
+
+      if you're hungry for more (haha) you can grab the above (and more)
+      releases at <ftp://skynet.stack.nl/pub/demos/quad>
+
+    ( those group greets )
+
+    . do not think we are hindered by order .
+
+      jello,cronix,SuccesS,image,nostalgia,green,infuse,spirit ns,fade,
+      tsd,fudge,astroidea,cheese,symptom,psychic link,jinx,blup,tbe,tse,
+      naapert,impact studios,new order,trancefusion,absence,kfmf,tmatic,
+      maroon,unknown,excessive force,tbl,tuhb,analogue,emotive,NoseferatU,
+      metabolic
+
+    ( troubleshooting )
+
+      what? our demo contains BUGS? you insult us, Sir.
+      still, if it doesn't work, try booting with just HIMEM and your
+      soundcard-drivers. if you then get a grayscale demo, try running
+      UniVBE as well, since your videocard doesn't have VESA2.0 support,
+      then.
+
+      if the demo crashes without an errormessage, try running it with
+      the '/log' parameter and send that logfile to Sarix (address above),
+      along with some description of WHERE it goes wrong, what your
+      configuration is, etc etc.
+
+      we really care, you know.
+
+      --> HA! but not for this intro! you see, we don't have a lot of space
+          in such an intro (64k, as a matter of fact), so frankly, we didn't
+          put any weird emulation shit in, nor that '/log' parameter. you're
+          still entitled to bother Sarix, though. he likes getting mail.
+
+    ( fun facts )
+
+      - Sarix and Skin live in a really way-out part of town, together with
+        chickens and various other assorted farmanimals. except right now,
+        because one of them is working at some bigshot game company.
+
+      - Sagacity's ego is about as big as his coding talents. unsurprisingly,
+        he's very modest.
+
+      - Deadline had to import a windspeed-meter all the way from the USA.
+        don't ask.
+
+      - Inopia wanted to die after partying too hard. instead, we forced him
+        to listen to non-punk music! we're tough like that.
+
+      - Necronomicon finally bought a new pc after rendering on a really crap
+        486dx2/66 for AGES. he has a dx4 now.
+
+      - Cyclops is the only belgian in the group. we tease him with it.
+
+      - G-Day is sleepy almost all the time, except when he's asleep.
+
+      - Darkxceed has a car that is quite fast. that's why he now knows the
+        results of The Party 9.
+
+      - If you have a large penis you have the tendency to be violent, to
+        repeat yourself and to be violent. FUCK, I already said that!
+
+      - Sagacity typed this complete document and is currently recovering
+        from RSI and a total nervous breakdown.
+
+    ( closing words )
+
+      quad - not just some pretty faeces

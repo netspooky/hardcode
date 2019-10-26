@@ -1,0 +1,17 @@
+"Moebius" by KeyJ
+
+Linux 4k intro for Evoke 2006
+
+just a quick hack made in a few
+hours without a real concept ...
+don't expect too much :)
+
+requires SDL and accelerated OpenGL
+(tested on Intel i915GM / GMA900)
+
+if the sound fucks up (like on the
+compo machine :), use the safe version
+
+thanks to
+  jk for advice
+  gabi for the title :)

@@ -1,0 +1,12 @@
+FILE:
+    burn.obj
+HEADER: 0
+    *,,,header
+TEXT: HEADER.length
+    *,,,text
+DATA: TEXT.base+TEXT.length
+    *,,,data
+INCLUDE: DATA.base
+    *,,,include
+BSS: DATA.base
+    *,,,bss

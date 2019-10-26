@@ -1,0 +1,25 @@
+cubicle 64k intro
+ alkorytmi
+at
+ revision 2012
+
+-------------
+
+code & design
+ skyfox
+
+music
+ juhoap & tripper
+
+-------------
+
+Requires fast dx11 compatible graphics card.
+
+This intro was made using the following products:
+ crinkler by Mentor/TBC and Blueberry/Loonies.
+ shader minifier by LLB 
+ 4klang by Gopher and pOWL of Alcatraz. 
+ GNU Rocket by kusma
+
+Raymarching code copied from Pouet raymarching beginners' thread. Thanks to las, iq and all the others..
+  

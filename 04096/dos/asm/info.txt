@@ -1,0 +1,16 @@
+
+---------(Proyecto Euler)-(K5)
+
+tipo de produccion      : 4kb intro
+nombre de la produccion : ASM
+grupo/autor             : Wild Bits
+party                   : Campus Party 2000
+puesto                  : 2
+fecha                   : Agosto 2000
+comentario              : PC-DOS
+
+http://www.proyectoeuler.org
+k5@ideafix.org
+
+-----------------------------
+

@@ -1,0 +1,137 @@
+?include "VGA386.H--" // 1024 bytes Demo For CAFe'99 Demo Party.   -=ADV=-
+?include "VIDEO.H--"// By Denis Astahov from ANDESA Soft International.
+?use80386         // ANDESA Soft Home Page -> http://members.xoom.com/andesa/
+byte Copyright = "ANDESAADV";
+byte VGA;
+byte palette[768];
+byte regpal[17];
+byte colpal[51];
+byte colpalwork[51];
+int x=0;
+int c=0;
+
+void INITVGA()
+word r;
+{
+  AX=0X1A00;
+  $INT 0X10;
+  IF(AL==0X1A){
+    VGA=TRUE;
+    ES=DS;
+    DX=#regpal;
+    AX=0x1009;
+    $INT 0x10;
+    r=0;
+    DI=#colpal;
+    do{
+      BX=#regpal+r;
+      BL=DSBYTE[BX];
+      AX=0x1015;
+      $INT 0x10
+      AL=DH;
+      $STOSB
+      AL=CH;
+      $STOSB
+      AL=CL;
+      $STOSB
+      r++;
+    }while(r<17);
+    COPYNEAR(#colpalwork,#colpal,51);
+  }
+  ELSE VGA=FALSE;
+}
+
+SAVECOL()
+{
+  SI=#colpalwork;
+  BX=#regpal;
+  WAITVSYNC();
+  DX=0x3c8;
+  CX=17;
+  loop(CX){
+    AL=DSBYTE[BX];
+    $OUT DX,AL
+    DX++;
+    $LODSB
+    $OUT DX,AL
+    $LODSB
+    $OUT DX,AL
+    $LODSB
+    $OUT DX,AL
+    DX--;
+    BX++;
+  }
+}
+
+GASITCOL()
+byte FL;
+{
+  ES=DS;
+  do{
+    FL=TRUE;
+    SI=#colpalwork;
+    DI=SI;
+    CX=51;
+    loop(CX){
+      $LODSB
+      IF(AL){
+	AL--;
+	FL=FALSE;
+      }
+      $STOSB
+    }
+    SAVECOL();
+  }while(FL==FALSE);
+}
+
+SetFirePalete()
+{
+palette[0]=0;
+palette[1]=0;
+palette[2]=0;
+BX = 0;
+do {
+    DI = BX+BX+BX;
+    AX = BX * 64 / 85;
+    DL = AL;
+    palette[DI+3] = DL;
+    palette[DI+3+1] = 0;
+    palette[DI+3+2] = 0;
+    palette[DI+3+85+85+85] = 63;
+    palette[DI+3+85+85+85+1] = DL;
+    palette[DI+3+85+85+85+2] = 0;
+    palette[DI+3+85+85+85+85+85+85] = 63;
+    palette[DI+3+85+85+85+85+85+85+1] = 63;
+    palette[DI+3+85+85+85+85+85+85+2] = DL;
+    BX++;
+    } while( BX < 85 );
+}
+
+main()
+{
+INITVGA();
+IF(VGA==TRUE)GASITCOL();
+SETVIDEOMODE( vid_320x200_256 );
+SetFirePalete();
+SETVGAPALETTE(,0,256,#palette);
+	do{
+	uvil();
+	}while(KBHIT()==0);
+SETVIDEOMODE(vid_text80c);
+}
+
+uvil()
+{do{
+	ellipse19_386(160,100,x,60,c);
+	ellipse19_386(160,100,x-1,59,c);
+	x=x+1;c=c+1;
+	{if (x==120)umen();}
+}while(KBHIT()==0);}
+
+umen()
+{do{
+	ellipse19_386(160,100,x,60,c);
+	ellipse19_386(160,100,x-1,61,0);
+	x=x-1;c=c+1;
+	{if (x==0)uvil();}
+}while(KBHIT()==0);}

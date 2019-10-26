@@ -1,0 +1,66 @@
+ - begin -----------------------------------------
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXXXXXXXXXXXXX   XXXXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXXXXXXX   XXX   XXX   XXX   XXXXXXXXXXXXXX
+ XXXXXXXXXXXXXX   XXX   XXX   XXX   XXXXXXXXXXXXXX
+ XXXXXXXXXXXXXX   XXX   XXX   XXX   XXXXXXXXXXXXXX
+ XXXXXXXXXXXXXX   XXX   XXX   XXX   XXXXXXXXXXXXXX
+ XXXXXXXXXXXXXX   XXX   XXX   XXX   XXXXXXXXXXXXXX
+ XXXXXXXXXXXXXX                     XXXXXXXXXXXXXX
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ -------------------------------------------------
+  
+              Aesterozoa, a 64k intro  
+         for Assembly 2006, 3.-6.8.2006
+                Helsinki, Finland
+ 
+ -------------------------------------------------
+
+  To see this intro, you'll need a faily fast 
+  3d card that can handle multitexturing. The 
+  resolution is 1024x768 and there's nothing you 
+  can do about it.
+
+  NOTICE: Some pool lame-ass virus guards, such
+  as AntiVir Guard mistake the exe as a trojan.
+  This is in fact caused by the Upack packing of
+  the exe.
+
+ -<greets>----------------------------------------
+
+  Here are the greetings from the intro, in case
+  you wasn't able to read them:
+
+  Synesthetics, Farbrausch, Limp Ninja, TBL,
+  Conspiracy, SFC, Matt Current, Equinox, Faktory,
+  ASD, Jumalauta, Ephidrena, Aenima, Fairlight,
+  TPOLM, And, Traction  
+
+ -<credits>---------------------------------------
+
+  Curly Brace: Code, design, 2d and 3d graphics
+  Math Daemon: Particle stream math, optimizing
+  Little Bitchard: Music
+  Fred Funk: Music (template version)
+
+  Softsynth (V2 synthesizer) by kb/fr:
+  http://www.1337haxorz.de/
+
+  Upack Ultimate PE Packer by Dwing.
+
+ -<contact>---------------------------------------
+
+  http://kewlers.scene.org
+
+  * Curly Brace     : kimmo.seppanen@gmail.com
+  * Little Bitchard : littleb@luukku.com
+
+ -------------------------------------------------
+ XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+ ------------------------------------------- end -

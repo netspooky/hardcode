@@ -1,0 +1,23 @@
+Little Big Demo - A 4k-Intro by Pinker of Sanction
+
+
+- Coder : Pinker
+- Music : Nyphton
+
+This intro features :
+
+- 100% pure ASM-Code
+- Nice font
+- Multicolor-plasma
+- Screen rotator and sweeper
+- Polygone morphing
+- Polygone morphing and metal shading
+- tunnel
+- 900 bytes of pure midi music
+- Support for real and emulated MPU-401
+  - Roland SCDB10 tested
+  - Gus with latest megaem tested
+
+
+- Sourcecode will be released soon
+

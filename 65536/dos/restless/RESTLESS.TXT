@@ -1,0 +1,26 @@
+
+`'`'`'`'`'`'`'`'`'`'`'`'`'`'Logrus at Gravity '98'``'`'``'`'``'`'``'`'``'`'``'`'
+
+Restless - 64kb intro for Gravity '98 by
+
+     Infinite / Logrus (code,design)
+         Dagoon / Cryogen ^ Fcl (msx)
+             pmode: Eclipse
+               player: Cubic
+
+Min:  486 or better
+      8 megs ram
+      fast video card with support 320x200x16bit, or UNIVBE :(
+
+Good: P5 200Mhz+, GUS
+
+Greets: Alba, Enenzi, Suspend, The Rebeliants
+
+Note (pl :): Intrko kodowane na 4 dni przed party po nocach, so sorki
+             za calkowicie niezoptymalizowany kod czesci wektorowych :(
+             Nie bylo tez czasu na zrobienie wersji z player-em SB,
+             wersja takowa dostepna bedzie za pare tygodni na stronie
+             Logrusu: http://student.po.opole.pl/~rmac/logrus.html
+
+
+`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'`'

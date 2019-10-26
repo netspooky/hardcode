@@ -1,0 +1,45 @@
+
+                                O U T L I N E                                ù
+                                                                             :
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+³                                                                            ù
+³           Introduction for the Kernel'97 4k intro competition.             :
+³                                                                            ³
+³ System Requirements:                                                       ³
+³   386 processor.                                                           ³
+³   387 cooprocessor.                                                        ³
+³   VGA compatible videocard.                                                ³
+³   400kb memory                                                             ³
+³                                                                            ³
+³ Recommended Stuffs:                                                        ³
+³   Pentium 100 or higher.                                                   ³
+:   Fast video card.                                                         ³
+ù                                                                            ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+³                                                                            ù
+³ Credits for the intro:                                                     :
+³                                                                            ³
+³   Code:             Trueman                                                ³
+³                     Murphy                                                 ³
+:   Sinus generator:  Blacky                                                 ³
+ù                                                                            ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+³                                                                            ù
+³ Archive package:                                                           :
+³   The files included in XCT_OULN.ZIP.                                      ³
+³   OUTLINE.EXE     4096 bytes  the intro      (If the length is different,  ³
+³   FILE_ID.DIZ       86 bytes  bbs trash       you probably have a virus..) ³
+³   OUTLINE.TXT     3003 bytes  this info file                               ³
+:   EXACT.NFO       5157 bytes  info from us                                 ³
+ù                                                                            ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+³                                                                            ù
+³ Legal stuff:                                                               :
+³                                                                            ³
+³  This production is freeware. It can be freely distributed as long as the  ³
+³  files or the  contents of the  archive are not  modified in any way.  No  ³
+:  money can be charged for this production.                                 ³
+ù                                                                            ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+:
+ù                                  Exact '97

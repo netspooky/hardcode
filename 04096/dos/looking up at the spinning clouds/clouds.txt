@@ -1,0 +1,33 @@
+þ 'Looking Up At The Spinning Clouds'
+
+þ a 4k
+
+þ by Shock[Xtatic & Dimension]
+
+
+þ Info
+
+  This is actually just a little experiment to see if I could write a
+  4k in Watcom C in Protected-Mode (using Wext386 Extender). And I found
+  I could, well.. at least try to.
+
+  So, here is the one effect 4k, destined to be laughed at by those many
+  around. :)
+
+þ Requirements
+
+  this needs a dos system running himem.sys only, no emm386 or windows
+  running. simple.
+
+
+  if it doesn't run, then bug 'ya.. it should run... knowing my luck, it'll
+  die, but who cares...
+
+þ Other Stuff
+
+  Source code is available to those who ask... so mail me, if you wish...
+
+  contact information, etc... look in xtatic.nfo
+
+  later...
+

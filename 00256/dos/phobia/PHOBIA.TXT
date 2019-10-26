@@ -1,0 +1,15 @@
+ind presents
+       .__          ___.   .__
+______ |  |__   ____\_ |__ |__|____
+\____ \|  |  \ /  _ \| __ \|  \__  \
+|  |_> >   Y  (  <_> ) \_\ \  |/ __ \_
+|   __/|___|  /\____/|___  /__(____  /
+|__|        \/           \/        \/
+
+PHOBIA - Piekielna Hybryda Obcej Biologii Impulsem Apokalipsy
+(Infernal Hybrid Of Alien Biology Is Apocalypse's Impulse)
+256 bytes intro
+-------------------------------------------------------------
+coded by Pirx and Tigrou
+assembled with NASM 0.98.39
+April 2007

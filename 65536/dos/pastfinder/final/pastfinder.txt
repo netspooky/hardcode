@@ -1,0 +1,35 @@
+pastfinder
+64kb intro
+first presented at
+syndeecate-appocalypse 2003
+
+code
+  crs
+soundtrack
+  by crs very little edited
+  dalezy's remix of
+  rob hubbard's sid lightforce (1986)  
+sound system
+  midas 0.40 by sahara surfers
+
+executing
+  minimal cfg: 80386DX, 640 kb ram, vga 64kb, soundcard
+  this is a dos intro so it likes 2 b executed 
+  under dos or at least win9x with properly installed
+  soundcard (sb or gus). it uses weird resolution of 256x200  
+  (or 256x256 if you keep the num lock switched off).
+  no vbe and lfb neccessary.
+
+i would like to thank
+  bass for lending me his computer for finishing this intro
+  and organizing the demoparty it competed at
+  all (heroes) who came and took part of it
+  kenny, jezeq and spool for beating my intro in the competition :)
+  activision for producing pastfinder the game
+  rob hubbard for composing lightforce.sid
+  dalezy for remixing it and agreement to use his tune is my intro
+  ing. jiri zara for writing book of modern computer graphics
+  my best friends redox, d.ment and nula for support
+
+this is my last 64kb intro in dos, i really need to learn something else
+

@@ -1,0 +1,41 @@
+Overall demo timing:
+
+0:00	Opening page (25)
+0:25	Tunnel fly-through (31)
+0:56	Hexagons (27)
+1:23	Orb fly-through (18)
+1:41	"Take me away" (21)
+2:02	Light-line helix (11)
+2:13	Credits cylinder fly-through (24)
+2:37	"Walking" (15)
+2:52	Yellow blob (18)
+3:10	Light beam fly-through (36)
+3:46	"Sugar love candy" (20)
+4:06	Greetings (20)
+4:26	Light-line sphere (23)
+4:49	Closing blob (26)
+5:15	end
+
+Effects by class:
+
+* Fly-through
+  - Tunnel fly-through
+  - Orb fly-through
+  - Credits cylinder fly-through
+  - Light beam fly-through
+
+* Blobs
+  - Light-line helix
+  - Yellow blob
+  - Greetings
+  - Light-line sphere
+  - Closing blob
+
+* Screens
+  - Opening page
+  - "Walking"
+
+* Hybrid effects
+  - Hexagons
+  - "Take me away"
+  - "Sugar love candy"

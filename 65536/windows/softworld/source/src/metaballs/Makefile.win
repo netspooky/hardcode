@@ -1,0 +1,42 @@
+##
+##  Makefile for Windows NT
+##
+
+
+!include <win32.mak>
+
+
+# defines
+CFLAGS	= $(cflags) $(cdebug) -DWIN32
+LIBS    = $(lflags) $(ldebug) glut32.lib glu32.lib opengl32.lib $(guilibs)
+SRCS	= shadow.c
+EXES    = $(SRCS:.c=.exe)
+
+
+# default rule
+default	: $(EXES)
+
+
+# cleanup rules
+clean	:
+	@del *.obj
+	@del *.pdb
+	@del *.ilk
+	@del *.ncb
+	@del *~
+
+clobber	: 
+	@del *.exe
+
+
+# inference rules
+$(EXES)	: $*.obj
+        $(link) -out:$@ $** $(LIBS)
+.c.obj	: 
+	$(CC) $(CFLAGS) $<
+
+
+# dependencies (must come AFTER inference rules)
+shadow.exe      : metalib.obj trackball.obj
+
+

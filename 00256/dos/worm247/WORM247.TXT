@@ -1,0 +1,49 @@
+
+Worm247, is small worm game, where your goal is to grow to max length,
+and avoid collision with worm's tail. Game start with small intro
+screen, which shows the previous score. You can exit the game by pressing
+ESC. Pressing any other key starts the game. In game control keys are:
+
+        LEFT CTRL       Turn left
+        LEFT ALT        Turn right
+
+After the game ends (you collide with tail) intro screen will show your
+score. (My hiscore while writing this was 89). You can start new game
+or return DOS. (or enjoy the intro-animation ;-)
+
+Hints: 
+    o   Only the 'nose' (head of the triangle) of the worm will count, 
+        when/if you hit something. So you can save 'space' by moving
+        near to old track.
+    o   You can go over the screen (it will wrap), but doing so you will
+        increase possibility of random death (which is the price for
+        going over the screen borders). So, the best way to make big
+        scores is to stay inside screen borders.
+    o   Worm's color will indicate estimation of your current score.
+    
+Game features:
+    o   Size of only 247 bytes
+    o   256 color graphics
+    o   Animated intro screen
+    o   70 fps screen updates
+    o   Smooth animation (ie. no flickering while playing)
+    o   Works in 286+ with VGA
+    o   In 247 bytes of code, there are:
+            - Line drawing routine
+            - Line rotating routine
+            - Sin and cos tables
+            - Pixel drawing routine
+            - Collision detection
+            - Intro screen and game screen
+            - Keyboard handling
+            - Int to ASCII conversion (score)
+            - Worm's moves are calculated with fixed point arithmetic
+            - Game graphics is synchronized with VGA refresh rate
+            - "Score" - string :-)
+Author: 
+    name....... Marko Aalto
+    email...... maaalto@cc.helsinki.fi
+    IRC nic.... Maglob
+
+    If you like the game e-mail me a 'postcard' :-)  Feel free to 
+    comment. TASM source is available to everyone, just email me.

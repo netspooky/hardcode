@@ -1,0 +1,45 @@
+                                                                                                                                   
+                                                                          
+       +-------+    +-------------+   +-------+                           
+  +----------++|    |+-----------+|   |+-+---------+                      
+  |+--------+|||----||-----------||---||-|+-------+|                      
+  ||   |+---||+|----|+-----------+|---|+-||--+|   ||                      
+ +------+---||-+````+-------------+```+--||--+------+                     
+ |+----+|  |||````___``__``____```___````||  |+----+|                     
+ |||   ||  |||```/__ |/ /`/ / /``/ _ \```||  ||   |||                     
+ |||   ||  |||``/ _  / /_/ / /__/ // /```||  ||   |||                     
+ |+----+|  |||`/_/ |_\____/____/____/````||  |+----+|                     
+ +------+---||-+````+-------------+```+--||--+------+                     
+  ||   |+---||+|----|+-----------+|---|+-||--+|   ||                      
+  |+--------+|||----||-----------||---||-|+-------+|                      
+  +----------++|    ||           ||   |+-+---------+                      
+       +-------+    ||   Flow2   ||   +-------+                           
+                    ||           ||                                       
+                    |+-----------+|                                       
+                    +-------------+                                       
+                               
+    A 1k with OGL shaders in C. Requires PS2.0.
+
+NOTE: there are 3 exes
+''''  try flow.exe first, if its too fast, try flow_slower, 
+      if THATS too fast, try flow_slowest
+
+Shaders vary in speed so much so thats why 3 exes. 
+
+      
+I first used shaders in an OGL 1k back in September 2006,
+since then Ive done 6 1k intros using shaders so I finally
+decided to release source code with one of them.
+
+Greets to Benny who helped me to get this one out with his
+articles on dbf. Greets to the old gang alien^pdx, iks, 
+m:et, mind, pohar, shockie, druid, gks-moto, rbraz, bull,
+nuke, clyde. 
+
+RSPKT to iq and blackpawn and blueberry.                                         
+                                                                                                            
+Yeah I know guys, I quit the scene...but its harder than I thought. 
+
+
+
+Chris

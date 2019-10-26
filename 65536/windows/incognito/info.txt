@@ -1,0 +1,20 @@
+------------------------------
+Traction
+Incognito (64k)
+Assembly 2008
+------------------------------
+ code&visuals: rale
+        audio: mixer
+     add.code: elsewhere
+------------------------------
+Requires shader 2.0
+and framebuffer object
+extensions.
+------------------------------
+Greetings to all our friends.
+------------------------------
+Uses kkrunchy and v2 both done
+Farbrausch
+------------------------------
+http://traction.untergrund.net
+------------------------------

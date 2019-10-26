@@ -1,0 +1,11 @@
+
+The Bustrip intro was planned to advertise the bustrip organized by Froggy.
+Unfortunaly, the bustrip was canceled at the last moment. so we decided to
+release the intro at The Party.
+
+Run Bustrip.exe under win32, a sound driver must be installed.
+If the intro doesn't run properly, intro.bat will print an error message.
+
+I used two great lib : minifmod and tinyptc.
+
+Colas of Move

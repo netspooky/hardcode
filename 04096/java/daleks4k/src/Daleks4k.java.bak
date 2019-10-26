@@ -1,0 +1,214 @@
+/**
+* AWT Sample application
+*
+* @author 
+* @version 1.00 06/01/21
+
+*/
+import java.awt.*;
+import java.util.ArrayList;
+import java.awt.event.*;
+
+public class Daleks4k extends Frame implements KeyListener
+{
+	
+	
+	private int level;
+	private int zaps;
+	private int score;
+	private boolean gameOver;
+	private final int GRIDSIZE = 21;
+	private final int EMPTY    =  0;
+	private final int MONSTER  =  1;
+	private final int MAN	   =  2;
+	private final int CRASH	   =  3;
+	private final int GAME_OVER=  4;
+	int x,y;
+	
+	Point playerloc;
+	int grid[][];
+	
+	public Point getFreeSpot()
+	{
+		while (true)
+		{
+			int x = (int) (Math.random()*GRIDSIZE);
+			int y = (int) (Math.random()*GRIDSIZE);
+			if (grid[x][y]==EMPTY)
+			{
+				return new Point(x,y);
+			} 
+		}
+	}
+
+	public void makeMove(int dx, int dy)
+	{
+		Point loc = new Point(playerloc.x + dx, playerloc.y +dy);
+		
+		if ((loc.x<0) || (loc.y<0) || 
+			(loc.x>=GRIDSIZE) || (loc.y>=GRIDSIZE) ||
+			grid[loc.x][loc.y] == CRASH
+			) 
+		{
+			return;
+		}
+		else
+		{
+			if (grid[loc.x][loc.y] == MONSTER) 
+			{
+				grid[loc.x][loc.y] = CRASH;
+				gameOver=true;
+				repaint();
+				return ; 
+			}
+			
+			int newgrid[][] = new int[GRIDSIZE][GRIDSIZE];
+			
+			for (y=0;y<GRIDSIZE;y++)
+				for (x=0;x<GRIDSIZE;x++)
+					newgrid[x][y]=(grid[x][y]==CRASH)?CRASH:EMPTY;
+			
+			newgrid[loc.x][loc.y] = MAN;
+			playerloc = loc;
+
+			for (y=0;y<GRIDSIZE;y++)
+				for (x=0;x<GRIDSIZE;x++)
+					if (grid[x][y]==MONSTER)
+					{
+						int mx = 0; if (x<loc.x) mx = 1; if (x>loc.x) mx = -1;
+						int my = 0; if (y<loc.y) my = 1; if (y>loc.y) my = -1;
+						if (newgrid[x+mx ][y+my ] == CRASH)
+						{
+							newgrid[x+mx ][y+my ] = CRASH;
+							score++;
+						}
+						if (newgrid[x+mx ][y+my ] == MONSTER)
+						{
+							newgrid[x+mx ][y+my ] = CRASH;
+							score++;
+						}
+						if (newgrid[x+mx ][y+my ] == EMPTY)
+							newgrid[x+mx ][y+my ] = MONSTER;
+					}
+			grid = newgrid;
+			
+			
+			System.out.println(loc.toString());
+		}
+		repaint();
+		
+	}
+	
+	
+	public void initLevel()
+	{
+		for (y=0;y<GRIDSIZE;y++)
+			for (x=0;x<GRIDSIZE;x++)
+				grid[x][y]=EMPTY;
+		
+		for (x=0;x<level*5;x++)
+		{
+			Point loc = getFreeSpot();
+			grid[loc.x][loc.y]=MONSTER;
+		}
+		playerloc = getFreeSpot();
+		grid[playerloc.x][playerloc.y]=MAN;
+	}
+	
+	public void resetGame()
+	{
+		grid = new int[GRIDSIZE][GRIDSIZE];
+		score= 0;
+		level= 1;
+		zaps = 2;
+		gameOver = false;
+		initLevel();
+	}
+	public void gameOver()
+	{
+		
+	}
+/**
+ * The constructor.
+ */  
+	public Daleks4k() 
+	{
+		resetGame();
+		setTitle("Daleks4k");
+		setSize(new Dimension(420, 440));
+		addKeyListener(this);
+	}
+
+	public void	keyPressed	(KeyEvent e) {}
+	public void	keyTyped	(KeyEvent e) {}
+	public void	keyReleased	(KeyEvent e) 
+	{
+		if (gameOver) resetGame();
+		System.out.println("OK!")	;
+		switch (e.getKeyCode())
+		{
+			case KeyEvent.VK_ESCAPE : System.exit(0);
+			case KeyEvent.VK_NUMPAD7: makeMove(-1,-1); break;			
+			case KeyEvent.VK_NUMPAD8: makeMove( 0,-1); break;			
+			case KeyEvent.VK_NUMPAD9: makeMove( 1,-1); break;			
+			case KeyEvent.VK_NUMPAD4: makeMove(-1, 0); break;			
+			case KeyEvent.VK_NUMPAD6: makeMove( 1, 0); break;			
+			case KeyEvent.VK_NUMPAD1: makeMove(-1, 1); break;			
+			case KeyEvent.VK_NUMPAD2: makeMove( 0, 1); break;			
+			case KeyEvent.VK_NUMPAD3: makeMove( 1, 1); break;			
+			case KeyEvent.VK_NUMPAD5: makeMove( 0, 0); break;			
+			case KeyEvent.VK_PERIOD: makeMove( 0, 1); break;			
+			case KeyEvent.VK_NUMPAD0 : 
+			{
+				Point t = getFreeSpot();
+				makeMove(t.x-playerloc.x, t.y-playerloc.y);
+				break;			
+			}
+			
+		}
+	}
+	
+	public void paint(Graphics g)
+	{
+		//20x20
+		g.setColor(Color.GRAY);
+		g.drawLine(140,0,140,440);
+		g.drawLine(280,0,280,440);
+		g.drawLine(0,20+140,440,20+140);
+		g.drawLine(0,20+280,440,20+280);
+
+		for (y=0;y<GRIDSIZE;y++)
+			for (x=0;x<GRIDSIZE;x++)
+			{
+				if (grid[x][y]==MAN)
+				{
+					if (!gameOver)
+						g.setColor(Color.BLUE);
+					else
+						g.setColor(Color.BLACK);
+					g.fillOval(x*20+1,20+y*20+1,18,18);
+				}
+				
+				if (grid[x][y]==MONSTER)
+				{
+					g.setColor(Color.RED);
+					g.fillOval(x*20+1,20+y*20+1,18,18);
+				}
+				if (grid[x][y]==CRASH)
+				{
+					g.setColor(Color.GRAY);
+					g.fillRect(x*20+1,20+y*20+1,18,18);
+				}
+			}
+			
+		
+	}
+
+	public static void main(String[] args) 
+	{
+		// Create application frame.
+		Daleks4k frame = new Daleks4k();
+		// Show frame
+		frame.setVisible(true);
+	}
+}

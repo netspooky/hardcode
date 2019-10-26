@@ -1,0 +1,17 @@
+   . What is it?
+       DESTINATION: NOWHERE  - 64k intro by INTerror group.
+
+   . System Requirements:
+       300-450mhz. -> Beware, cause others frequencies could make some
+			 unpredictable fluctuation of your head.
+       32Mb of ram. And i mean it. No smartdrv etc.
+       DOS
+
+   . These brave men made this:
+       ameba, soohy, agi, radi.
+
+   . Bugs:
+       Of course.
+
+   . Last thing:
+       Should be better but is not.

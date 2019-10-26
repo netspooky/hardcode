@@ -1,0 +1,22 @@
+  BITS intro 5012  
+"Crystal Mountains"
+   in 256 Bytes    
+ R I V E R W A S H 
+      2 0 0 9      
+
++-----------------+
+| ..oOo.          |
+|.oO.oOo.         |
+|oOo..oOo.        |
+|Oo.  .oOo.       |
+|o.    .oOo.      |
+|.      .oOo.     |
+|        .oOo.    |
+|         .oOo.  .|
+|          .oOo..o|
+|           .oO.oO|
+|            ..oOo|
++-----------------+
+
+   bits.atari.org  
+ h.samso@gmail.com 

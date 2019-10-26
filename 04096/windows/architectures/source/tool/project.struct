@@ -1,0 +1,30 @@
+// Aurora project
+project : 0x200000 "" : Project(
+{
+	unten : 0x200001 "" : Unten(
+	{
+		cameraTime min(0) max(100): 0x80 "cameraTime" : float;
+		cameraTimeFine min(0) max(10): 0x81 "cameraFine" : float;
+		animationTime min(0) max(1000) : 0x82 "animationTime" : float;
+		animationTimeFine min(0) max(10): 0x83 "animationFine" : float;
+		cameraDistance min(0) max(10000) : 0x84 "cameraDistance" : float;
+		flags : 0x85 "flags" : int;
+	});
+	seite : 0x200002 "" : Seite(
+	{
+		zoomSpeed min(-100) max(100) : 0x82 "zoomSpeed" : float;
+		cameraSpeed min(-100) max(100) : 0x83 "cameraSpeed" : float;
+		animationSpeed min(-100) max(100) : 0x84 "animationSpeed" : float;
+		objectsBlackAndFlat : 0x85 "objectsBlackAndFlat" : bool;
+		objectsWhite : 0x86 "objectsWhite" : bool;
+		backgroundBlack : 0x87 "backgroundBlack" : bool;
+		polyDivShift min(0) max(7): 0x88 "polyDivShift" : int;
+		architecture : 0x89 "architecture" : bool;
+		play : 0x8a "play" : bool;
+		cameraScene : 0x8b "cameraScene" : float;
+		animationScene : 0x8c "animationScene" : float;
+		flagsAccu : 0x8d "flagsAccu" : int;
+		beat : 0x8e "beat" : float;
+		scene : 0x8f "scene" : string;
+	});
+});

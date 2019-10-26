@@ -1,0 +1,39 @@
+
+
+    Hi all, here's a little demo I did last month. It is part of a suite of
+    programs written for Fresh week 1993 for Bits - The University of Bristol
+    Computer Society (of which I am President).
+
+    It was written on a 33MHz 486 with a Paradise 90c30 graphics chipset on
+    an 11MHz bus. If you run it on anything less, then don't blame me if it
+    either doesn't work, or goes horribly slowly! Seriously though, if you
+    do have any major problems, then email me and I'll see what I can do.
+
+    I have included the full source code for this demo. Please feel free to
+    examine it. I apologise in advance for the lack of comments, and the
+    code may be hard to follow simply because it has been optimised. If you
+    find the code useful, a greet would be appreciated in any demo you write.
+    Please don't just blatently rip it off.
+
+    The source should compile fine using Borland C++ (I used V2.0) though you
+    will have to change the include/library directories to get it to compile.
+
+    I am currently seeking to join a demo group of some description
+    (preferably one with a good musician/graphics artist) - email me if you
+    are interested.
+
+
+    David Hedley (hedley@cs.bris.ac.uk)
+    Computer Science Undergraduate at the University of Bristol, England
+
+
+
+                                   CREDITS
+                                   -------
+
+        Program design and implementation by David 'Deadly' Hedley
+        Interrupt routine by Future Crew (used in modified form)
+        Mode switching code from Dr Dobbs Journal
+        Font by THG/FX (used in modified form)
+
+

@@ -1,0 +1,30 @@
+
+ -------- Hydra by DMA --------
+
+
+Idea/Code/Gfx/Msx/Synth		KK
+Moral support			Spec
+Good will			Ninja, Vorg
+
+
+Hardware requirements:	SM 3.0 and A LOT of pixel power
+			(GTX 260 or higher strongly recommended)
+
+
+Greetings and many thanks to Mentor and rest of people
+involved in making Crinkler.
+
+
+
+The intro has very long loading time. This is mostly due to
+compilation of 28 versions of very long pixel shaders, with
+which MS compiler seemingly has a lot of problems.
+
+
+The music for the intro was entirely party-coded (including synth),
+so don't expect too much from it.
+
+
+
+Have fun,
+KK

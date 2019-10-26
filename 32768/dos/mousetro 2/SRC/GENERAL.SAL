@@ -1,0 +1,46 @@
+Unit 286 General
+.386
+
+NoJumps
+
+Procedure Far Move SrcSeg, Source, DstSeg, Dest, Count
+   Store ds
+   cld
+   mov  cx,Count
+   mov  bx,cx
+   shr  cx,2 
+   les  di,dword ptr Dest
+   lds  si,dword ptr Source
+   rep  movsd
+   test bl,10b
+   $If  <>0
+      movsw
+   $EndIf
+   test bl,1
+   $If  <>0
+      movsb
+   $EndIf
+   Restore
+EndProc
+
+Procedure Far FillChar BufSeg, Buffer, Count, Value
+   cld
+   mov  cx,Count
+   mov  bx,cx
+   shr  cx,2 
+   mov  al,byte ptr Value
+   mov  ah,al 
+   les  di,dword ptr Buffer 
+   push ax 
+   shl  eax,10h 
+   pop  ax 
+   rep  stosd
+   test bl,10b
+   $If  <>0
+      stosw
+   $EndIf
+   test bl,1
+   $If  <>0
+      stosb
+   $EndIf
+EndProc

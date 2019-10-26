@@ -1,0 +1,22 @@
+Hydrokinetics by Prismbeings
+
+Filesize: 4076 bytes
+Release party: Assembly 2015
+
+Note: This is the party version
+that doesn't work on nvidia due
+a couple reasons. Expect a more
+compatible version.
+
+Following tools were utilized:
+4klang by Alcatraz
+Crinkler 2.0 by Loonies and TBC
+
+Code, visuals and music by:
+Lord of Atlantis of Prismbeings
+
+Greetings to:
+ekspert
+mog
+virgill
+yzi

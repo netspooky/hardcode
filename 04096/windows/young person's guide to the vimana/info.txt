@@ -1,0 +1,14 @@
+Young Person's Guide To The Vimana
+by Quadtrip
+
+a 4k intro for Evoke 2016
+
+Instructions for your Pushpaka Vimana, mainly take-off and landing
+procedures, flowering and light-drive. More than ten heads not recommended.
+
+Also probably not less than ten.
+
+visy: shader code, direction, executive producer
+noby: music, framework code, prettifying
+
+based on gltracy's cube marching example from Shadertoy

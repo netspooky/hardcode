@@ -1,0 +1,22 @@
+
+
+      wavular - fluid wave motion
+
+      253 bytes
+
+
+  by milov, 2002-02-27
+  milo@milov.nl
+  http://milov.nl/
+  
+  tested in IE5.5 and IE6, might also work in IE5.0/IE4
+  
+
+  note: try running this one full-screen!
+  
+  the smoothness of the wave is achieved by using
+  scrollTo() for animation, rather than changing the
+  height of hundreds of divs dynamically.
+  
+  definition of 'wavular':
+  http://www.pseudodictionary.com/word.php?id=11053

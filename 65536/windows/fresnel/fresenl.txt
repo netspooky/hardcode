@@ -1,0 +1,74 @@
+
+                                           __    ____    __       ____     ____
+                                       __ / (_ _\\_  \_ / /____ _\\_  \_ _\\_ /__
+                                      _)_/   /    /   //_//   /    /   /   _/   /
+                                      \ \    \_      /  \    /        /    \    \_
+                                      /__\____/______\ __\___\ _______\ ____\____/
+                                      - -diP--------------------------------dTR- -
+                                               fresnel by kolor ( final )
+                                                    dialogos 2000
+                                          p3 800 & geforce 2 & dsound & opengl       
+
+usage:
+ 
+ - use the setup to configure everything. 
+ - smaller subdivision means more precision and there for less performance. 
+   choose 8x8 to be back in 1997.  primary the performance depends on the 
+   amount of polys your card is able to handle. don't hesitate to choose 
+   hires - it won't be much slower.   
+
+some facts:
+
+ - this intro is raytracing.
+ - it is able to display spheres, boxes, cylinders, planes and any combination 
+   of them using csg operants to any given depth.
+ - it uses real volumetric light. even volumetric shadows are possible but way 
+   to slow.
+ - reflections are supported to any given depth. however in the intro the 
+   recursion is limited to 3.
+ - we use opengl to rasterize the tree. the polycount is somewhat HIGH. but it 
+   can't be done with less polys anyway. 
+ - read about fresnel and hos work:
+   http://www-groups.dcs.st-and.ac.uk/~history/Mathematicians/Fresnel.html
+
+the credits for this intro:
+
+ - looza and dipswitch for the music.
+   partyversion:
+   the music was made IN TWO HOURS AT THE PARTYPLACE. so dont judge it to hard.
+   we had to give up the idea of using our own samplepacker, as it was mutilating 
+   the module a way to much ( we do now KNOW what's wrong. thanks to digisnap, 
+   kb and ryg for enlightening us about mdct ).
+   releaseversion:
+   looza made a new tune. fits better.
+ - siriuz for coding the writer, integrating tinyfmod and trying HOURS to fix 
+   that damned samplepacker.
+ - shiva for theoretical coding, strategies, algorithms and waveletpacker.
+ - noize for doing the textures, the scenes and the overall implementation of
+   the intro.
+
+we have to say some personal thank-yous to the following people:
+
+ - kenney beltrey for that tune which was too big to make it into the intro.
+ - pirat/bypass for telling us WHY the samplepacker sucks that much.
+ - nix/tbl for the direct3d quadtree. we weren´t able to notice any performance 
+   improvements. so we took opengl after all.
+ - faxe, themadman, warp and trojan for their helping hands.
+ - fontex for sharing his experiments in keeping msvc code as small as possible with us.
+ - cj for making it possible to access the internet from the partyplace.
+ - m. oberhumer and l. molnar for upx and firelight for tinyfmod.
+
+we want to express our respect:
+   
+   exceed, haujobb, doomsday, tpolm, sunflower, matrix, amable, black maiden,
+   suburban, tokyo dawn records, fridge, nomad, coma, cocoon, bypass, mfx, park
+   and tbl.
+
+you can contact the poeple behind this intro:
+	
+ - noize is noize@gmx.net
+ - shiva is shivak@gmx.net
+ - siriuz is srz@gmx.net
+ - dipswitch is dipswitch@dc-s.com
+ - looza is ajoscht@gmx.de
+ - our page can be found at www.kaoz.org/kolor

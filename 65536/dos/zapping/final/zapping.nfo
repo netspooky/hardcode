@@ -1,0 +1,242 @@
+#include <standard_disclaimer.h>
+#include <do what you want but don't sell this.h>
+
+           -[ S.E.N.C.O  &&  V.I.R.T.U.A.L  F.A.N.T.A.S.I.E.S ]-
+
+                          -[ P R E S E N T S ]-
+       _______   _______  _______ ______ _______  _______  _______
+      _\_____ \ /  ___  \/    __ \   __ \   |   \/\      \/      /
+     /  ______/_  /___\  \   /___/  /___/   |    \  \     \   ____
+     \         /    |    /   | |    |. \    |    /    \/  /   |   \
+    ..\_______/.\_______/\___|:.\___|::.\___|___/\__\____/\_______/.ps!m.
+  .:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::.
+ .:                                                                       :.
+ :    .....[ code - epsilum ]........................   Euskal Party VII   :
+ :.  .:                                             :.  Donostia - Spain   :
+  :..:.....[ music - nork ]...........................:    July 1999       :
+     :                                                :                   .:
+     :.....[ concept - utopian _ donvito _ epsilum ]..:...................:
+     :.                                              .:
+      :....[ lyrics - donvito ]......................:
+
+
+     A 1 day very-very-very-really-very quick production released at
+ Euskal Party 7 (july 1999, Donostia/San Sebastian). Everything was made
+ in a real hurry (promise), but well... It's ok when it's ok.
+
+
+0. Index:
+=========
+    I............ Requirements
+    II........... Credits
+    III.......... Additional Credits
+    IV........... Linux Version Notes
+    V............ Many thanks to
+    VI........... Greetings go to
+    VII.......... More info about us...
+    VIII......... Comments
+
+
+I. Requirements:
+================
+
+    * Pentium class or better CPU (the better your processor is, the faster
+ the intro will be :)
+
+    * Some decent version of MS-DOS or Linux (yeahh!! Linux too!). This
+ intro also works in a DOS box under Windows 9x.
+
+    * Some megs of RAM (I think that 4MB, or a little bit more, should
+ be enough)
+
+    * A standard plain VGA card (YESSSSSSSS! Still a VGA intro! No Hicolor!)
+
+    * Something that can play sounds on your PC (you know, a GUS, a SB...,
+ also no sound is available)
+
+    * For the linux version watch "IV. Linux Version Notes"
+
+
+II. Credits:
+============
+
+    * Epsilum  : code & concept
+    * Nork     : (great) music
+    * DonVitto : lyrics & concept
+    * Utopian  : concept & about 10 lines of code :)
+    * Sertrem  : font & not support (playing with Linux all the time)
+
+
+III. Additional credits:
+========================
+
+    * USM by FreddyV/Useless (thx for your support!)
+    * UPX by Markus Oberhumer & Laszlo Molnar (really AMAZING packer, guys!)
+    * PMODE/W v1.33 by Tran
+
+
+IV. Linux Version Notes:
+========================
+
+    This is the Linux version of the intro called "Zapping", placed 6th at
+ Euskal Party 7. I think it's the first ever Linux 64kb intro, so we're
+ breaking barriers! :)
+
+    All the Linux port was made by Utopian/Virtual Fantasies, including
+ his own player (a very reduced version of the Virtual Sound System).
+
+    This intro uses GGI for graphic output, so it should work under "any"
+ graphic library. Well, not exatcly. It doesn't work properly under SVGAlib,
+ because it doesn't behave well with multithreading, and the player uses a
+ different thread (if you had a multiprocessor system you could get advantage
+ of it :).
+
+    The libraries required are very little:
+    - Libc (depending on the version of the executable). It was ported to
+      Linux using glibc 2.0
+    - GGI
+
+    And no more! (well, only the graphic library under GGI: SVGAlib,
+                  XWindow, etc).
+
+    This version needs a soundcard to be present and configured, otherwise it
+ won't work. Soundcards are very cheap today, buy one and enjoy the music!
+ (anyway, if you don't have a soundcard, you could try the DOS version or
+ flame me via e-mail, I might try a nosound option).
+
+    The intro is packed using UPX (great exe packer!), and thus you need some
+ free space (about 100kb) under /tmp. I think it shouldn't be a problem ;).
+
+    Oh, one more thing. The Linux version is only 46 kb, whereas the DOS one
+ is about 63 kb. Imagine what we could have put in 19 kb more! Linux rulez! ;)
+
+    For any comments about the Linux version of this intro please contact
+ me at javier_pena@iname.com
+
+ PS: A little comment for the Euskal party organization: now you can see it's
+ perfectly possible to make good things under Linux, don't you? Then, include
+ Linux in Euskal 8 compos!
+
+
+V. Many thanks to:
+==================
+
+    * Nork/Network. Thanks, thanks, thanks and... THANKS!!
+                    Utopian wants another MOD >-)
+    * Wind/Network. We finally put the sorting code in ;)
+                    Your are a cool coder, I wan't to learn more!! :)
+    * Leunam/Network. We really appreciate your ideas!
+                      Secret gfx parts rulez!! ;)
+                      Great ascii tutorial in the Trashcan! (see at top) :)
+    * Witchcraft people, for trying to help us with uploading
+    * Nefron... You know why :) After tons of versions, you accepted
+                another one! Even if you didn't use it :)
+    * Enlar/GENESiS. Many thx for the CUTE-FTP!! ;)
+    * Portatil/Utopian... for the Euskal Party 7&1/2 X-DDDDD
+
+
+VI. Greetings go to:
+====================
+
+    * Virtual Fantasies (Utopian was infidel, but still loves you!)
+    * Network (we want another Ayame text!.. and another gfx...
+              and another mod... and another... :))
+    * GENESiS (I want a SB version of RARE!!, u r k3wl!)
+    * Anaconda (Nice GUS MAX!)
+    * God's Maze (Linux rulez!)
+    * Centosis (so you said you wouldn't try party coding, didn't you? :))))
+    * Incognita (let's go UP!! You don't need Assembly to be the BEST!)
+    * Chino's restaurant!!! (We'll be back!! ;D)
+
+    Savage - Viruta Team - MCD - CucMakers - TLOTB - PhyMosys - Iguana
+    Infinite Darkness - PamToMaka - and all we forgot!
+
+    We send our best regards and respect to...
+  ACME - BLASPHEMY - BOMB - BYTERAPERS - CNCD - COCOON - CRYONICS - CUBIC
+    DIGITAL MURDER - DOOMSDAY - DUBIUS - END OF MILLENIUM - FUTURE CREW
+ FUDGE - HAUJOBB - GODS - KOLOR - KOMPLEX - KOSMIC - MATRIX - NOMAD - NOOON
+   ORANGE JUICE - OXYGENE - POPSY TEAM - PULSE - PURPLE - RAGE - REALTECH
+        SUBURBAN - SUPERSTITION - SYNDROME - TBL - TPOLM - TRITON
+
+    And everyone who liked this intro... ;)
+
+
+VII. More info about us...
+==========================
+
+    Handle        Real Name          Group               Email
+  ----------  -----------------  ------------- -------------------------
+ * DonVito     Bittor Ruiz        Senco         lpr98117@lab.dit.upm.es
+ * Epsilum     Luis Osendi        Senco         epsilum@iname.com
+                                                f980417@zipi.fi.upm.es
+ * Nork        Abraham Sanchez    Network       network@redestb.es
+ * Utopian     Javier Peña        V.Fantasies   javier_pena@iname.com
+
+
+VIII. Comments.
+===============
+
+[Utopian speaking Spanish] (at the party)
+Gueno, gueno, gueno. Son las 9 de la noche y la intro esta entregada... De
+verdad que yo no tenia intencion de hacer party coding este año, pero....
+Senco me tento y yo... No pude resistirlo, lo admito. En el fondo supongo que
+a todos nos va la marcha.
+
+La historia de esta intro comenzo hace tiempo, cuando a Epsilum le dio la idea
+de traerla a la Euskal. Preparo codigo, agarro el Useless, pidio una musica a
+Nork (al que hay que hacer patrimonio nacional) y... Para variar llego a la
+Euskal con unos cuantos efectos, ningun diseño y para colmo Nork no se acordo
+del modulo hasta dos dias antes de la Euskal... No se si esto le suena a
+alguien :) En fin, que se llego a la party sin idea de presentar nada, peeeero
+en estas llega Nork con un modulo, lo oimos y... Nada, a hacer la intro.
+Epsilum codeando como un loco, y DonVitto y yo con ideas, textos (y un
+poquitirritin de codigo :)
+
+La intro estuvo muerta a las 13:35 del sabado (la deadline era a las 14:00),
+a falta de mas de la mitad del trabajo. Pero de nuevo alguien se alio con
+nosotros y...Retrasaron la deadline hasta las 19:00. Un esfuercito mas...
+Cada vez mas deprisa, cada vez mas nervios, son las 18:55 y todavia no estan
+puestos los textos!!!!!!!!!!! Dan las 19:00 (gong!), corriendo como un loco
+para ver si retrasan la deadline solo 10 minutitos mas.... Enlar/Genesis me
+cuenta un truquillo, el servidor de ftp no rula.... ARGGGGGGGHHHHHHHHHHHHH!
+Hay que terminarla como sea, y presentarla... Mil gritos histericos y unas
+cuantas carreras despues, tenemos la primera version presentable (media hora
+despues de la deadline ;)). Con Utopian o DonVitto atentos al diskette para
+entregar lo que se tenga, Epsilum metiendo nuevas cosillas... Bueno, al final
+hay una version casi decente (pero sin ordenacion de los poligonos de la
+calavera, por Dios!) que parece entregada. Peeeeero el orgullo de Epsilum no
+podia permitir eso, y metio finalmente la ordenacion dishosa. Cogimos un
+diskette y a rezar para que Nefron lo aceptara... No queria, pero al final lo
+hizo (mil gracias, de todo corazon). Y aqui estamos, viendo la Wild Compo y
+esperando a lo que pase. Ya os contare algo mas luego.
+
+
+[Utopian speaking Spanish again] (some time after the party)
+Y aquí estoy de vuelta, tiempo después de la party. Al final la intro qued¢
+sexta, resultado del que no me siento especialmente contento, después de ver
+las votaciones. Huelo un pequeño tufillo a chamusquina con los resultados,
+pero bueno, el caso es que al final en la party nos lo pasamos pipa, y nada
+más.
+
+Desde aquí quiero aprovechar para felicitar a todos los ganadores, y animar a
+todos los que no han quedado en buen lugar o no han presentado nada, para que
+sigan currando y el año que viene nos dejen a todos con la boca abierta.
+
+Una última nota de publicidad: si eres scener, hablas español y tienes ganas
+de discutir, tu sitio está en http://www.egroups.com/group/demoscene-sp/
+
+
+[Epsilum speaking Spanish] (some time after the party too)
+Pues aqui estamos en casita, después de una intensa party... Y sobre todo
+contentos por el trabajo realizado, ya que a parte de que a nosotros nos
+gustó, al parecer a otra gente tb (por lo menos así nos lo hicieron saber).
+
+Si teneis problemas con la intro, probar los switches disponibles, que se
+pueden ver si pones '-help' como argumento de entrada; también hay algunos
+secretillos... ;)
+
+Ahh, y por último mandar un gran saludo para Leunam, por que gracias a un
+tutorial que escribió en la Trashcan me he iniciado en esto de los ascii's,
+y podeis ver mi primer ascii-logo en este nfo... ;D
+
+Saludetes!

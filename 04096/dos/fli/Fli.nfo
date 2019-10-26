@@ -1,0 +1,191 @@
+                               ÛÛ   ÛÛ
+                              Û  Û Û  Û   Û
+                              Û  Û Û  Û
+                              Û Û  Û Û
+                              ÛÛ   ÛÛ     Û
+                             ÛÛ    Û      Û
+                              Û   ÛÛ      Û
+                             ÛÛ     ÛÛÛÛ   ÛÛÛ
+                            Û Û
+                            Û Û  A 4Ko intro
+                             Û    by Mythos
+
+                            ®°±² REAL-TIME ²±°¯
+
+                               18 October 95
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 1.                             WHAT'S IN ?                                 ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        This file contains informations on  how to run this intro, and other
+  less important subjects.So if you have any problem to make 'Fli' perfectly
+  work  on your computer (I hope this won't be the case !), please  refer to
+  the next paragraph to find the solution.
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 2.                            REQUIREMENTS                                 ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        Because of the continuous raising  of computers' power, particularly
+  in the world of demos, you can't expect  this production (and other recent
+  ones !)  to run in good conditions  on a 'slow' machine. To  appreciate it
+  fully, you need more precisely :
+
+  - at least an i486DX processor; a 486DX2 is recommended.
+  - a local bus or PCI VGA graphic card (no SVGA needed).
+  - a numeric coprocessor (no problem if you've got a 486DX or better).
+  - approximately  450 Ko of low memory (that is to say : nothing !).
+  - it's possible to run this intro with or without any memory manager, such
+    as EMM386; but don't forget  that those programs slow your machine down.
+    So if you don't really need them, get rid of them.
+  - a sound card isn't necessary to run 'Fli' ! ;)
+
+
+        'Fli' has been  successfully tested  on several computers , with  or
+  without EMM; notice though  that you try it  at your own risk, and that we
+  are not responsible for any damage which could happen.
+
+
+  Last point :
+
+        we're fed up with all those demos  where it's impossible to skip one
+  part when it bores without going back to DOS  or even sometimes re-booting
+  the computer. You can so press ENTER whenever you want to jump to the next
+  part (but don't use it the first time : the whole intro  is only about two
+  minutes long !), or ESC to quit.
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 3.                              CREDITS                                    ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+  Code  : MYTHOS
+
+  Total : approximately 2 000 lines of  ASM source.
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 4.                              RELEASES                                   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        'Real Time' is a young group (with old guys though, 23-24 years old)
+  with only two coders, and some help from two musicians when needed. So,our
+  'pieces of art' are not very numerous :
+
+  * Way To Finland (Demo - 1,8 Mo - 08/94) : made for ASM'94. SB only.
+                    recommended: 386DX40 or better. lasts 12'.
+
+  * Delay_Pt       (4 Ko intro - 08/94) : poor contribution  from Mythos  to
+                    the 4Ko ASM'94 compo (in fact a modified part of WTF.)
+
+  * Mountain       (4 Ko intro - 08/94) :  Scarfman's  contribution  to  the
+                    same compo. Great, but doesn't work with all cards ( get
+                    an ET4000 !).
+                    NB: These two 4Ko intros are released with Way To F.
+
+  * Revenge        (64 Ko intro - 12/94) : our contribution to  The Party 4.
+                    Came 9th. GUS support only. 5'
+
+  * Goldorak       (Demo - 2,1 Mo - 07/95) : 1st place at SIH'95.
+                    GUS support. 5'30"
+
+  * Goldolzh       (Demo - 1,2 Mo - 08/95) : packed version of Goldorak.
+                    SB support added.
+
+  * Revenge2       (64 Ko intro - 08/95) : Revenge update.
+                    now supporting GUS and SB cards.
+
+  * No Limit!      (64 Ko intro - 08/95) : our contribution to the Wired 95.
+                    GUS & SB support. 4'
+                   (firstly planned for the cancelled Saturne 3 in Paris...)
+
+  * Fli            (4 Ko intro - 10/95) : Mythos contribution to W95. 2'
+
+
+        If you are reading  this file  (sure you are !), you've  already got
+  'Fli'; you can find 'Way To Finland'  on DP-TOOL Club's  CD ASC 18 (French
+  people will understand what I mean), or on the Assembly'94 CD Rom. Some of
+  our productions are also on ACE Demo Collection CDs ('Revenge' on number 2
+  and Goldorak probably on number 3 - soon available).
+
+        But the best way to get them all is to call :
+
+        A.C.E   (France)   :  +33-1-4588-7548
+                              +33-1-4588-8809
+
+  or    DUNE    (France)   :  +33-1-4702-2597
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 5.                              GREETINGS                                  ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        Our greetings go to (in alphabetical order) :
+
+  * BYTEAM
+  * CASCADA
+  * COMPLEX
+  * DUST
+  * EMF
+  * FUTURE CREW
+  * IGUANA
+  * IMPACT STUDIOS
+  * IMPHOBIA
+  * INFINY
+  * LEGEND DESIGN
+  * LEGO-SYSTEM
+  * NOOON
+  * ORANGE
+  * PRIME
+  * PSYCHIC LINK
+  * REALM
+  * REALTECH
+  * THE COEXISTENCE
+  * TRAN
+  * TRITON
+  * VALHALLA
+  * WILD LIGHT
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 6.                          PERSONAL GREETINGS                             ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        We also want to say hullo ('coucou' in French) to :
+
+  - our sisters and brothers.
+  - The 'PŠre Denis',his  girlfriend V‚ro (and Nathalie too).
+  - Seb, Karine, the 'PŠre Moulun', Samy, P.A., Bob, and ... the others !
+  - Rachel, Rebecca, Morgan, and all pretty girls who helped Real Time a lot
+    by letting the two coders alone  in front of their computers  during the
+    finishing of their studies...
+
+  - Walken / Impact Studios
+  - Gandalf / Infiny
+  - Seyda / Realm
+  - Bisounours
+  - Manutoo / Lego-System
+  - Pollux / Olympus
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                                  THE END                                   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        In case you want to contact us, for example to give us some money :)
+  or some support :( , a simple way to do it is to write to :
+
+  realtime@fairyengine.com
+
+                                                            Mythos (writing)
+                                                            ScarfMan

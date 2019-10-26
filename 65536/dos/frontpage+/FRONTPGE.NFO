@@ -1,0 +1,97 @@
+
+                                                        <!Ns~spD>
+            ÛßßßÛÜÜÜÜ    ÛßßßÛÜÜÜÜ    ÛßßßÛÜÜÜÜ    ÛßßßÛÜÜÜÜ    ÛßßßÛÜ
+          ²ßß ²ÜÜÜÜ ßßÛÛßß ²ÜÜÜÜ ßßÛÛßß ²ÜÜÜÜ ßßÛÛßß ²ÜÜÜÜ ßßÛÛßß ²Ü Û
+          ß ±²Ûß ßÛÛÛ Ûß ±²Ûß ßÛÛÛ Ûß ±²Ûß ßÛÛÛ Ûß ±²Ûß ßÛÛÛ Ûß ±²Ûß Û
+         ß ²²ÛÛ Û ²ÛÛ ß ²²ÛÛ Û ²ÛÛ ß ²²ÛÛ Û ²ÛÛ ß ²²ÛÛ Û ²ÛÛ ß ²²ÛÛ Ü
+          ²²ÛÛ    ²ÛÛ  ²²ÛÛ    ²ÛÛ  ²²ÛÛ    ²ÛÛ  ²²ÛÛ    ²ÛÛ  ²²ÛÛ
+        ß ²²ÛÜÜÜÜÜÜÜ   ²²Û          ²²Û     ²ÛÛ  ²²Û     ²ÛÛ  ²²ÛÜÜÜÜÜÜÜ ß
+         ²²ÛÛ         ²²ÛÛ         ²²ÛÛ     ²ÛÛ ²²ÛÛ     ²ÛÛ ²²ÛÛ     ÜÜÜ
+         ß²²ÛÜ        ß²²ÛÜ        ß²²ÛÜ   ÜÛÛÛ ß²²ÛÜ   ÜÛÛÛ ß²²ÛÜ   ÜÛÛÛ
+            ßßß          ßßß          ßßßßßßßß     ßß   ßßß     ßßßßßßßß
+                            . f r o n t . p a g e + .
+          ß       ÜÜÜÜÜÜÜÜ     ÜÜÜÜÜÜÜÜ     ÜÜÜÜÜÜÜÜ     ÜÜÜÜÜÜÜÜ      ß
+               Ü²²Ûß   ßÛÛÛ Ü²²Ûß   ßÛÛÛ Ü²²Ûß   ßÛÛÛ Ü²²Ûß   ßÛÛÛ
+               ²²ÛÛ     ²ÛÛ ßßßß     ²ÛÛ ²²ÛÛ     ßßß ²²ÛÛ     ²ÛÛ
+              Ü ²²Ûßßßßßßßß  ²²ÛßßßßßÛÛÛ  ²²Û  ßßßÛÛÛ  ²²Ûßßßßßßßß Ü
+                ²²ÛÛ         ²²ÛÛ    ²ÛÛ  ²²ÛÛ    ²ÛÛ  ²²ÛÛ    ²ÛÛ
+               Ü ²²ÛÛ ÛÜÜÜÜÜÜ ²²ÛÛ Û ²ÛÛ Ü ²²ÛÛ Û ²ÛÛ Ü ²²ÛÛ Û ²ÛÛ Ü
+                Ü ±²ÛÜ ßÛ   ÛÜ ±²ÛÜ ÜÛÛÛ ÛÜ ±²ÛÜ ÜÛÛÛ ÛÜ ±²ÛÜ ÜÛÛÛ Ü
+                ßÛÜ ²ßß Û    ÛÜÜ ²ßßßß ÜÜÛÛÜÜ ²ßßßß ÜÜÛÛÜÜ ²ßßßß ÜÜÛ
+                  ÛÜÜÜÛßß      ÛÜÜÜÛßßßß    ÛÜÜÜÛßßßß    ÛÜÜÜÛßßßß
+
+
+ ÚÄfrontpage+Ä¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄ64Kb intro from SUSPENd
+   first presented at Satellite'98 held in Szczecin, Poland
+   !!! full version released after party !!!
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄcreditsÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄpointman..................code & raytracing scenes
+   x-ceed/floppy.............music
+   soulless..................3d scenes
+   rappid....................logos
+   picture...................from gravis cd
+   eclipse...................pmode
+   freddyv/useless...........player
+   niklas beisert............gus only player
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄrights and disclaimerÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄIf You like to put some of our production on CD or any kind of shareware
+   collections, you can do it. You can not change anything in our
+   productions. You should not spread any of our productions parts as a
+   single stuff. We are not responsible for any hardware or software crashes.
+   Use our programs on your own risk. ;)
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄinfoÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄraytracing is slow becouse it's not optimized. engine doesn't use
+   bounding boxes or other speed up methods. i must also use color
+   normalization becouse i use three light sources with diffrent rgb
+   each other.
+   if raytracing is tooooo sloooow on Yours pc try run intro with -slow
+   if You want test Yours pc speed run with -fps
+   in 3d parts 97% works cpu but in raytracing 97% works fpu.
+   maximum frame rate is 70fps.
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄgrettingsÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄto all my friens
+   special greetz goes to
+   Bimber Browar Elban Katon Kordiaukis Sebaloz Wacek
+   Wafel/Stones & Zsacul/Norferin
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄrequiredÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄcpu ÄÄÄÄÄ¯ pentium.k5.or something fast
+   memory ÄÄ¯ 300Kb lo.13Mb hi
+   video ÄÄÄ¯ vesa1.2+, 320x200x16bpp
+   music ÄÄÄ¯ amd.gus.sb.speaker.no sound
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄcontactsÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄi You are programming under directX or You are WCW fan, or You live
+   outside of Poland, email me: pointman@friko4.onet.pl
+   i You want to contact with SUSPENd, email Carson
+   carson@opnt.optimus.wroc.pl
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄmsgÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄi'm looking for infos about 'rubber poly'. see demo 'heartquake' by
+   'iguana', 3rd place at assembly'94.
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄmore infoÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄin suspend.nfo
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms

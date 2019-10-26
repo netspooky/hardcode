@@ -1,0 +1,145 @@
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+;
+;     TITLE: 2d rotate text file
+;WRITTEN BY: DRAEDEN
+;      DATE: 02/13/93
+;
+;     NOTES: None.
+;
+;ASSOCIATED FILES:
+;
+;       BWPRINT.ASM =>  Displays signed and unsigned bytes, words, or
+;                    >  double words
+;
+;       SINCOS.DW   =>  Contains data for the sine and cosine operations
+;
+;       ROTATE.ASM  =>  The asm file.
+;
+;       MAKE.BAT    =>  The file that'll put it all together into an .EXE
+;
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Rotating a point around (0,0):
+
+    Rotating an object is really easier than it sounds.  There is just a 
+simple formula for it, which is:
+
+    Xt = X*COS(í) - Y*SIN(í)
+    Yt = X*SIN(í) + Y*COS(í)
+
+    If you don't think this works, try a few values. For at instance í = 0ø,
+
+    Xt = X*1 - Y*0 = X
+    Yt = X*0 + Y*1 = Y
+
+    And at í = 90ø,
+    
+    Xt = X*0 - Y*1 = -Y
+    Yt = X*1 + Y*0 = X
+
+    Both of which work.  Also note that the rotation is counter-clockwise. 
+If you wanted it to rotate clockwise in stead, the formula would be:
+
+    Xt = X*COS(í) + Y*SIN(í)
+    Yt =-X*SIN(í) + Y*COS(í)
+
+    Or you could just negate the angle.
+
+
+    Now, if you wanted to rotate in 3 demensions (I hope this is obvious),
+you would need 3 angles which I call Xan, Yan, and Zan.  The formula would
+be the same as above, but done 3 times.
+
+    1st, rotate on the X axis
+    
+    Y = Y*COS(Xan) - Z*SIN(Xan)
+    Z = Y*SIN(Xan) + Z*COS(Xan)
+
+    Next, rotate on the Y axis
+
+    X = X*COS(Yan) - Z*SIN(Yan)
+    Z = X*SIN(Yan) + Z*COS(Yan)
+
+    And finally, the Z axis
+
+    Xt = X*COS(Zan) - Y*SIN(Zan)
+    Yt = X*SIN(Zan) + Y*COS(Zan)
+
+    You should notice that the order in which you rotate the object DOES
+matter.  To see the how, grab a disk and rotate it 90ø along the X axis,
+90ø along the Y axis, and then 90ø on the Z axis. Now try the rotations in
+a different order.  Different results, eh?
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+And now an explaination of SINCOS.DW
+
+    SinCos.dw is a file which contians the sine of the 'angles' 0-255.  I
+used 256 angles because it is very convienent, and there just happens to 
+be a data structure that has a range of 0-255.  It's called a BYTE, denoted
+by 'DB'.
+    The bit of code (in BASIC) that would generate this sort of chart is:
+
+ÄÄÄÄÄÄÄÄ
+
+    FOR i = 0 TO 255
+        an = i*2*pi/256
+        BYTE = INT( SIN( an )*256 +.5)
+        >> Store BYTE in a file <<
+    NEXT i
+
+ÄÄÄÄÄÄÄÄ
+
+    Modifying the basic rotation formula for our data file would yield:
+
+    Xt = (X*COS(í) - Y*SIN(í)) /256
+    Yt = (X*SIN(í) + Y*COS(í)) /256
+
+    If you know your hexadecimal, you'd realise that dividing by 256 is 
+simply a "SAR XXX,8", where XXX is what you're dividing by 256.
+
+    I expanded this into assembler, that not only works, but is very fast. 
+To see it, examine the RotateXY procedure.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+BWPRINT.ASM
+
+    This file is just a little utility I put together many many years ago.
+Ok, maybe not years, but It seems that long.  I wrote it when I first got a
+386.  No more CAVEMAN computer!  Oh well.  The basic functions are:
+
+    PrintByte, PrintWord, and PrintBig. 
+
+    They do this:
+
+    PrintByte: decodes a byte (in AL) and displays it as 3 digits plus a
+            an optional sign.  If the carry is clear, it prints it as an
+            unsigned integer.  If the carry is set, it prints it signed.
+    ÄÄÄÄ
+        EXAMPLE:
+            mov     al,-50
+            stc
+            call    PrintByte
+    ÄÄÄÄ
+
+    PrintWord: decodes and prints a WORD (in AX) in 5 digits.
+    ÄÄÄÄ
+        EXAMPLE:
+            mov     ax,50000
+            clc
+            call    PrintWord
+    ÄÄÄÄ
+    
+    PrintBig:  decodes and prints a DOUBLEWORD (in EAX) in 10 digits. 
+                NOTE: PrintBig requires a 386 to use.
+    ÄÄÄÄ
+        EXAMPLE:
+            mov     eax,-1234567890
+            stc
+            call    PrintBig
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+   Well, that's it for now.  See INFO.VLA for information on contacting us.

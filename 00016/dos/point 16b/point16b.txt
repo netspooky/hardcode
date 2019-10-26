@@ -1,0 +1,20 @@
+"point16b" by DESiRE
+
+
+you might know "pa!nt 16b"
+
+this is the second version
+
+three new features
+
+-  thicker line rendering
+
+-  exit function
+
+-  visible drawing cursor
+
+
+filesize : still 16 bytes
+
+i think this is worth
+a new release =)

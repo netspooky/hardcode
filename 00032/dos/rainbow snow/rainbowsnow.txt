@@ -1,0 +1,16 @@
+  /\                 /\
+ /  \_  _____  _____/  \_____`=---.___________________    _____________
+ \    \/    / /      /       \        \    _________  \  /       _____/
+  \        / /  -    \_----   \   \    \_____  \ |  |  \/   /  _____/
+  /        \/   _____/    _    \   \    \       \|  |\     /        \
+ /____/\_______/    \_______________\___ \  _____|__| \___/_____    /
+/ rainbow snow                          \  /                    \  /
+\32b with sound                          \/                      \/
+/                                                                 \
+\My first demo (not ever, just the first one that I put on the    /
+/internet). I don't think I've seen anything like this before,    \
+\especially with sound. The sound seems to be completly different / 
+/on different computers, some actually kind of play a song, while \
+\others just hold a note. I managed to squeeze in exit support,   /
+/just press any key to exit.                                      \
+\_________________________________________________________________/

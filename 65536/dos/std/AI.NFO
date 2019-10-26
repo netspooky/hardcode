@@ -1,0 +1,261 @@
+
+                                           ..
+ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ .^  ^.  s$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$
+$$ıı$$$ıı$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı  ^..^   $ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı
+   
+                           s$$$ıı$$$$$   s$$$$s
+                         ,$$$$$  $$$$$   $$$$$$         
+                        .$$$$$$  $$$$$   $$$$$$
+                        $$$$$$$  $$$$$   $$$$$$
+                        $$Artificial$$   $$$$$$
+                        $$$$$$$  $$$$$   $$$$$$
+                        `$$$$$$  $$$Interrupt$$
+                          $$$$$ss$$$$$   ı$$$$ı
+                                 ııııı
+
+$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss[CPN]$ss$$ss$$ss
+ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$
+
+
+
+
+
+Introduction    : Leagal Stuff
+This relese     : Tech info on this relese, Releses, Software used
+Files           : Files in the Package
+Requirements    : System Requirements, System Recomendation
+AI              : This is the AI crew, Emails, www, FTP
+News            : News on AI           
+Extra           : Last minute notes, Extra stuff, Greetings
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+
+                               INTRODUCTION
+                               ^^^^^^^^^^^^
+
+        Leagal stuff
+        ------------
+Artificial Interrupt and everyone who contributed for the
+release will not, in any case, by any means, no matter what happens
+or what damage should appear, be liable for it. This software is not
+supposed to do anything else than what it does when you run it. Thus
+it is not assumed to be suitable for any particular purpose; we will
+not assume any responsibilities, expressed or implied, about it.
+
+The package can be distributed freely without modification. No money
+can be charged for it, other than standard fees for access to a BBS,
+or the cost of the material the demonstration is recorded on. It can
+not be used to add value to a commercial product; however, shareware
+distributors can put it in their collections, be it CD-ROM or floppy
+disks and similar computer media, as long as it's sold together with
+other shareware of public domain programs in the same package; never
+can this demonstration be alone in the sold package, or be the first
+reason to give the customer in order to get him interested.
+
+                                                - Stolen from IGUANA :)
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+
+                                THIS RELESE
+                                ^^^^^^^^^^^
+
+        Tech Stuff
+        ----------
+
+Relese:  DOS Util [ ]   Win Util [ ]   Demo/Intro [x]   Game     [ ]
+         Linux    [ ]
+
+
+Sound:   NoSound  [ ]   Music    [x]  Sfx         [ ]  
+
+Cards:   SB       [x]   GUS      [x]  Adlib       [ ] PcSpeaker  [ ] 
+
+
+Gfx:     Gfx mode [x]  Ansi/Ascii  [ ]  
+
+
+Hi Tech Info about the relese
+-----------------------------
+            {                                                               }
+            {                                                               }
+            {                                                               }
+            {                                                               }
+            { This B.A.D 64k intro uses the standard 320x200x8 res.         }
+            { It uses Usless modulplayer and Wext 1.03 extender             }
+            { the effects in this intro is 90% coded at Remedy ï98          }
+            {                                                               }
+            {                                                               }
+            {                                                               }
+            {                                                               }    
+
+
+Misc data: Name [ STD          ]  Relese date [98.06.15]
+
+           Short info [B.A.D (STD AI) intro coded about 10 hours before     ]
+                      [deadline at Remedy '98 by talos with LOUD mp3s       ]
+                      [comming into the ears from all possible x,y,z        ]
+                      [directions :(                                        ]
+                      [                                                     ]
+
+           Version: [    FINAL    ]
+
+
+        Relese comments
+        ---------------
+
+    Credits:
+    --------
+     Code..........{ talos               }      Packing.........{ talos  }
+     Gfx...........{ talos               }      Disterbuting....{ talos  }
+     Music.........{ Xenomorph           }      Ansi/Ascii......{ capone }
+
+    Parts in the demo:
+    ------------------
+[Everything] ................ -Code- talos -Gfx- talos -Music- Xenomorph
+
+
+    Comments from the group:
+    ------------------------
+SpaZe          Says: Nothing
+
+TaZZ           Says: Nothing        
+
+talos          Says: I'm quite proude now when I have done the final version
+                     It works fine on my p166 32 ram SB16 :)
+                     If it does not work on YOUR computer please send me a
+                     mail (talos@algonet.se). Add adescription of your computer
+                     and where it hangs. I'm very interesed in things like this
+
+Xenoporph      Says: Nothing
+
+DJ-K           Says: Nothing
+
+capone         Says: Nothing
+
+Edcom          Says: Nothing
+
+Conio          Says: Nothing
+
+        Releses
+        -------
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+DATE    |Type | NAME           | First presented | File        |   Comment                                      |
+ÄÄÄÄÄÄÄÄ|ÄÄÄÄÄ|ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ|ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ|ÄÄÄÄÄÄÄÄÄÄÄÄÄ|ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ|
+97.04.04|Demo | Morph the fake | Hackernight     | ai_morph.zip| Winning demo at HN! Made in a great hurry      |
+97.10.10|Demo | Pentagoon      | Hackernight     | ai_pent.zip | 3:rd Place HN 10/10 -97                        |
+98.03.20|Demo | EVE            | Hackernight     | ai_eve.zip  | 2:nd Place at HN9801                           |
+98.05.15|Demo | The Lord       | Hackernight     | ai_tl.zip   | 1:s place on HN9802, Hmmms... :)               |
+98.06.15| 64k | STD            | Remedy '98      | ai_std.zip  | 3:rd place at Remedy '98                       |   
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+        Software used
+        -------------
+-------------------------------------------------------------
+ Software                 Description                Used by
+-------------------------------------------------------------
+Watcom 11.0             - C compiler                - talos
+Deluxe Paint 2 anim     - DP 2 animator             - talos
+Fasttracker 2.08        - XM music                  - Xenomorph
+Photoshop               - Nice pictures :)          - talos         
+
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+
+                                  FILES
+                                  ^^^^^
+    This is all the files included
+    ------------------------------
+
+STD      EXE       - The EXE file you dummy!
+AI       NFO       - This File        
+FILE_ID  DIZ       - BBS desc file
+
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+
+                                REQUIREMENTS
+                                ^^^^^^^^^^^^
+
+    ş  CPU: 486 DX  ??
+    ş  RAM: 4       ??
+    ş  HD:  1 meg     
+    ş  GFX: 64k  of video RAM :)
+    ş  RES: 320x200  256 color monitor
+
+                                 RECOMENDED
+                                 ^^^^^^^^^^
+    ş  CPU: Pentium 166
+    ş  RAM: 32      
+    ş  HD:  1 meg                                                  
+    ş  GFX: 64k  of video RAM :)
+    ş  RES: 320x200  256 color monitor
+
+
+
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+
+                            Artificial Interrupt
+                            ^^^^^^^^^^^^^^^^^^^^
+
+        This is the AI crew:
+        --------------------
+
+Coders:     talos, spaze, conio
+Gfx:        DJ-K, Xenomorph, Tazz, Edcom
+Music:      Xenomorph
+Ansi/Ascii: capone
+
+
+talos     email... talos@algonet.se
+SpaZe     email... spaze@hehe.com
+Conio     email... conio@swed.com  
+TaZZ      email... nekzif@algonet.se
+DJ-K      email... None
+Xenomorph email... xenomorph17@hotmail.com
+Edcom     email... henrik_ln@yahoo.com
+capone    email... capone@swipnet.se
+
+        Homepage
+        --------
+        http://artificial-interrupt.home.ml.org
+        
+        FTP - Download
+        --------------
+        cpu.vhojd.skovde.se/pub/dos/demos/groups/ai   // Not always up, Permenetly
+                                                  down during summer :)
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+                                   NEWS
+                                   ^^^^
+
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+                                   EXTRA
+                                   ^^^^^
+
+        Last Minute notes
+        -----------------
+
+        Extra stuff (in general)
+        ------------------------
+
+        Greetings 
+        ---------
+
+         Groups
+         ------
+         Sahara Surfers                  - Midas Soundsystem! /all
+         Nature                          - Amiga Demo group   /all
+         Endeavour                       - PC Demo group      /all
+         Woorlic                         - PC Demo group      /all
+         Wild Designs                    - PC Demo group      /all
+
+         People
+         ------
+         Yomat^Nature                    - Thanx for all the help!   /talos
+         Pipe^Nature                     - Thanx for all the help    /talos
+         Pezac^Nature                    - Thanx for all the help    /talos
+         Illuminator^Wild Designes       - Thanx for all the help    /talos
+         Whizzter^Woorlic                - Thanx fot all the help    /talos
+         Toodee                          - For beeing a m8           /talos
+         Dr.Strangelove^Tulou            - For putting up with HN :) /talos
+         Spacedump                       - Good old friend           /talos
+
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ

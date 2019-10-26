@@ -1,0 +1,7 @@
+This intro was coded according to the old rules which stated that GUS OR SB
+should be supported. When we noticed that the rules were changed we didn't
+have time to add SB support, so this intro is GUS only. So if the intro
+isn't shown it may NOT be released. (and of course if the intro is shown
+and released this file should be deleted :)
+
+                                                  Brite-Lite / Alpha Design

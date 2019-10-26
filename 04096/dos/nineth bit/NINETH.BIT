@@ -1,0 +1,56 @@
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+       11
+      111
+     1101   10011   11101   10011   11101    110   11001   10111    101
+    10111  111 101 110 111 001 011 110 110  1011  111 111 011 011  0111
+   101100  001 111 011 101 111 110 101 011 01100  101 110 111 111 11110
+  11 1101  111 110 101 111 101 111 111 110   101  111 111 101 101   111
+     0011  101 011 110 101 011 101 110 101   011  111 101 111 110   101
+     1011  110 101 101 001 110 110 110 011   001  110 101 110 001   110
+     1011   10111   01111   00111   10111  100111  11011   10011  110111
+     0110
+  110101110      n i n e t h    b i t   b y   d o u b l e   p l u s
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ ù general
+
+   this is a double plus contribution to paradox99 4K intro compo. should
+   work fine with any 386+ machine with fpu and about 450K of dos memory.
+   stable work in any multitasking environment is not guaranteed (it worx
+   under w59 and w89 though). the intro targeted to work on p200 with gus
+   (preferably - without gus you won't get any sound). an xm with the
+   soundtrack provided for those without a gus.
+
+ ù common bla and thanx
+
+   not a pearl, but consider itsa my first public work on the pc (hey,
+   really =)). so i wanna say a huge 'thankyou' to the following guys who
+   supported me in any way:
+
+    - mrc! of inquisition (thanx for nice chats and some help with algs)
+    - others ++ers (thanx for your faith ;))
+    - zabol (you're a real guru in sound generating techinque!)
+    - rain of april (packer arrived on time, thanx!)
+    - vitaly nisin 2:5020/238@fidonet (thanx for some dox and betatest!)
+    - l-graph, zetter, levitator (amiga rules, huh? at least exploder does!)
+
+ ù greets
+
+   inquisition (mrc! charlie zoom etc)
+   global corp (dr.max)
+   proxium (mr.dsteuz, asman)
+   golden disk (nick, jv)
+
+   ohg
+   eternity industry
+   brainware
+
+   t-rex
+   pfc
+   nrg
+
+ ù end
+
+   c ya!  dmitry rekman aka rcl...
+   

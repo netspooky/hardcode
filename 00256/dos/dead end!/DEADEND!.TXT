@@ -1,0 +1,56 @@
+	     ===============================================
+	     || 	    D E A D   E N D !		  ||
+	     || 					  ||
+	     || 	 Version 1,  30 Mar 1997	  ||
+	     || 					  ||
+	     ||An entry to the 256-byte Worm game contest ||
+	     || 	  by Boris van Schooten 	  ||
+	     || 	 E-mail:  vicman@dds.nl 	  ||
+	     || 		Homepage:		  ||
+	     || www.geocities.com/TimesSquare/Alley/3583/ ||
+	     ===============================================
+
+
+System requirements:
+
+	DOS (3 or maybe less)
+	8086 (newer revision?) or 8086 clone
+	EGA
+
+
+
+			     INSTRUCTIONS
+			     ------------
+
+In this two-player game, the players control bikes which leave trails behind.
+Trap your opponent by surrounding them with your trail but don't get hemmed in
+yourself! The bikes have two gears, but they can't stop, so the screen -will-
+fill up sooner or later... There are also two computer drones to make the game
+more challenging. If a drone dies, its trail will be erased.
+
+The game ends when either player crashes. The player whose head is still
+visible when the game ends is the winner. A head-on collision between the
+players means a tie game.
+
+		================	    ================
+		    Player 1			Player 2
+		----------------	    ----------------
+		high gear		    high gear
+		LEFT CTRL		   RIGHT SHIFT
+
+		       up			   up
+
+		       W			   I
+		left A	 D right	    left J   L right
+		       S			   K
+
+		      down			  down
+
+
+
+
+		       PAUSE = standard pause function
+			   (other key to unpause)
+
+
+

@@ -1,0 +1,28 @@
+                       _
+   _ __  ___ __   __ _| |_ ___  _  _  ___  _ _  __ ____ 
+  | /  \/  _ \  \/  /_   _/ _ \/ \/ \/ _ \| | |/  /  _ \
+  |  /| |  __/>    <  | ||  __/     | |_| | |  /|_|  __/
+  |_| |_\____/__/\__\ \___\___/_|_|_|  __/|_|_|   \____/
+                                    |_| 
+              http://www.nextempire.com
+
+
+   presents "Timeloss" 
+
+   Demoparty : THEPARTY 2000 competition
+   Authors   : KANTTU/NEXTEMPIRE (cod)
+             : KENSHI/NEXTEMPIRE (zic)
+             : KTHULU/NEXTEMPIRE (gfx)
+   Category  : INTRO/64k
+   Placed    : 
+
+   *Requires*: Windows98
+	       DirectX6 
+               64MB RAM
+               PentiumII400+
+               320x200x32/16 supportable displaycard
+
+   Troubleshooting: Do not run the exe througt Winzip or other aplications
+		    Do not change the name of timeloss.exe
+
+   note: This intro does not work under NT including Windows 2000 	

@@ -1,0 +1,19 @@
+Momentum
+
+                _     ,-----.
+               (.)   / o   o \
+               /\   /    o   o\
+              _\_\_/__o     o  \
+               || /_____________\
+              / \   |         |
+             /  /   |         |
+
+IND. production
+4KB. procedural graphics by Tigrou
+2014. January
+
+100% software rendering - no need of recent GPU or DirectX/OpenGL.
+Code is multithreaded - the more cores, the better it is.
+
+Thanks to iq for his g4k framework, and to the guys who work on Crinkler.
+Without them, things like this would not be possible.

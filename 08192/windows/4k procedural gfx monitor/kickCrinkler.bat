@@ -1,0 +1,1 @@
+crinkler.exe /OUT:compress.exe /ENTRY:entrypoint /SUBSYSTEM:WINDOWS /RANGE:opengl32 /COMPMODE:SLOW /ORDERTRIES:1000 /PRINT:IMPORTS /PRINT:LABELS kernel32.lib user32.lib gdi32.lib opengl32.lib glu32.lib winmm.lib useCrinkler\template.obj

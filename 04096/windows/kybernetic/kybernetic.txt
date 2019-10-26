@@ -1,0 +1,120 @@
+==============================================================================
+
+                           k y b e r n e t i c
+
+                          v0.95 (party version)
+
+                                   by 
+
+                                S T I L L
+
+                          released at NVISION 2008 
+==============================================================================
+
+
+>> About:
+
+    This 4k was about 4 months on my harddisc. It was an attempt of
+    porting my "famous" 4k borg for todays shader technology. It
+    consists of two shaders doing raymarching on the gpu. Sadly
+    for me I haven't chosen to be at nvision, but i preferably would,
+    because there is some part in the intro which could really kick
+    on that screen..
+
+>> A demonstration brought to you by:
+
+    MAD^STILL       >> stDOTmaderATgmxDOTde	>> coding,musix
+
+    Meet me at next Breakpoint, Assembly, Evoke, TUM
+
+
+>> Thanks to:
+
+    GARGAJ^CNS^ÜD   for supplying some drumssound sourcecode long ago
+    LOONiES,TBC     for that awesome packer called crinkler
+
+
+>> Greetings to:
+
+    Admiral ^ Elyssis
+    Alien ^ bitfellas
+    Bonzaj ^ plastic
+    Cynic ^ Still
+    Dalezy ^ Mad Wizards
+    Dante ^ Oxyron
+    Decca ^ Bauknecht 
+    Degauss ^ TEK
+    Dipswitch ^ UpRough
+    Eric ^ BrainControl
+    Gargaj ^ Conspiracy
+    Graham ^ Oxyron
+    Helge ^ Helgejobb
+    Hunta, Eric ^ Braincontrol
+    iq ^ rgba
+    Krill ^ Plush
+    Madstop ^ Ethic
+    Minas ^ Calodox
+    Mr.Pet ^ Einklang
+    Muhmac ^ Speckdrumm
+    NERO ^ Still    
+    NINJA ^ ?
+    Pirx ^ Still
+    Pixtur ^ Still
+    Rames ^ Remedy
+    RAMSES ^ bitfellas?
+    Sharon, Digisnap ^ Matrix
+    Sheijk ^ Bitfellas?
+    Sire ^ Bauknecht & Lego
+    Slack ^ Necrostudios
+    Sniper & Ray ^ Scarab
+    Stingray ^ scarab
+    Tim ^ bitfilmfestival
+    TITUS,Bodo ^ Rabenauge
+    Unreal ^ Sunflower
+    XXX ^ Haujobb
+    Fiver2, Ryg, Gizmo, Chaos, kb, wayfinder, cp ^ Farbrausch
+    Gunnar, Lars, Cath, Dan, Plastique, Telly Quinn ^ Eintakt
+     
+  
+>> Respect to:
+
+    Kewlers / MFX
+    The Black Lotus
+    Plastic
+    Conspiracy
+    Ephidrena
+    Moppi Productions
+    Sunflower
+    Tpolm
+    Stravaganza
+    Nesnausk
+    Adromeda Software Development
+    Cocoon
+    Mad Wizards
+    Portal Process
+    A.N.D.
+    Exceed
+    Bypass
+    Adapt
+    Traction
+    Matt Current
+    Visualice
+    Loonies
+
+
+<< Suggested hardware:
+
+    CPU is much less important here since everything
+    runs on the graphicscard.
+  
+    GeForce8 or some really good ati card is required,
+    don't know why equal ati cards seem to be slower,
+    should be some driver issue.
+    atleast Pixelshader 3.0 is required to run this.
+
+
+>> Tested on:
+
+    GeForce 8
+    GeForce 7600
+    HD 3600

@@ -1,0 +1,10 @@
+ 128b asm compo
+~~~~~~~~~~~~~~~~
+All the program does is
+rotate the palette from
+green to blue on colour
+7 which is the dos text
+colour.    128compo.com
+Written by FaNt0m
+fant0m@rocketmail.com
+

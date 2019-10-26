@@ -1,0 +1,127 @@
+                     ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                     ³ ÚÄÄ¿Â  ÂÚÄÄ¿ÚÄÄ¿Â   ÚÄÄ¿ ³
+ÚÄÄ--  ú  --ÄÄÄÄÄÄÄÄÄ³ ³ÄÄÙ³  ³³   ³ÄÄÙ³   ÃÄ   ³ÄÄÄÄÄÄÄÄÄÄÄÄÄ--    ú    --ÄÄ¿
+³                    ³ Á   ÀÄÄÙÁ   Á   ÀÄÄÙÀÄÄÙ ÀÄÄÄÄÄÄ¿                     ³
+³                    ÀÄÄÄ¿    ÂÚÄÄ¿ÚÄÄ¿ÚÄÄ¿ ÚÄÄÄ¿ ÚÄÄ¿ ³     1st prize at    ³
+³     Coded by           ³ ÚÄÄ³³   ÃÄ  ÃÄÄ³ ³ Á ³ ÀÄÄ¿ ³     Takeover '98    ³
+³ The Watcher/TUHB       ³ ÀÄÄÙÁ   ÀÄÄÙÁ  Á Á   Á ÀÄÄÙ ³    4k intro compo   ³
+³                        ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                     ³
+³                                                                            ³
+³                                                                            ³
+³                                                                            ³
+³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                                            ³
+³ Introduction  ³                                                            ³
+³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                                            ³
+³ Here it is, the official release of the 1st prize winner of the Takeover   ³
+³ '98 intro compo. No changes have been made to the actual code whatsoever.  ³
+³ "But the party version had no music!" I can hear some people scream now.   ³
+³ The point is it did. It just didn't play since the organizers had the      ³
+³ brilliant idea of running the 4k's on the computer with just a GUS (no SB) ³
+³ installed, and as we could all hear GUS is not that good at playing adlib  ³
+³ in native mode, now is it? They had planned to rerun the intro WITH music  ³
+³ during the prize ceremony (that was, if they could get the adlib to work   ³
+³ at all), but since the prize ceremony was already delayed a LOT, that did  ³
+³ not happen. Well, too bad. I guess I would have liked to hear the music    ³
+³ on a >2000watts music system, but hey.... the party still ruled!           ³
+³                                                                            ³
+³                                                                            ³
+³ÄÄÄÄÄÄÄÄÄ¿                                                                  ³
+³ Manual  ³                                                                  ³
+³ÄÄÄÄÄÄÄÄÄÙ                                                                  ³
+³ Oooh, it's soooo very difficult. Go the the right directory, type PDREAMS, ³
+³ slam ENTER, and tataaaa! It will work! No vesa needed, no windows wanted   ³
+³ (although it will probably run just fine with it), adlib compatible sound- ³
+³ card optional. And if you are really starting to hate my cute little text- ³
+³ mode intro, you can even press ESC and skip it. No other parts of the      ³
+³ intro are skippable, though.                                               ³
+³                                                                            ³
+³                                                                            ³
+³ÄÄÄÄÄÄÄÄÄ¿                                                                  ³
+³ Lyrics  ³                                                                  ³
+³ÄÄÄÄÄÄÄÄÄÙ                                                                  ³
+³ Here are the full lyrics that are shown during the intro. They are not     ³
+³ exactly brilliant, but creating good lyrics with only 10 characters to     ³
+³ spend per line is not very easy you know!                                  ³
+³                                                                            ³
+³ "Fuck the people who think they're cool,                                   ³
+³  we are the ones who totally rule!"                                        ³
+³                                      - Bookie                              ³
+³ "Close your eyes open your mind...                                         ³
+³  experience the ultimate purpleness"                                       ³
+³                                      - Claws                               ³
+³ "Rscpt 2: C64 fans, IK+ ppl, Bookie, Ryo-Ohki,                             ³
+³  Hugo, Cloak, Deadline, Rogue, Chippy,Sweex,                               ³
+³  Sentinel, Ritz, Inside                                                    ³
+³  Sorry 2: Exam ppl"                                                        ³
+³                                      - The Watcher                         ³
+³ "The End is purple!"                                                       ³
+³                                      - The Watcher                         ³
+³                                                                            ³
+³                                                                            ³
+³ÄÄÄÄÄÄÄÄÄÄ¿                                                                 ³
+³ Credits  ³                                                                 ³
+³ÄÄÄÄÄÄÄÄÄÄÙ                                                                 ³
+³ Hmmmzz. So I guess this part can be handled pretty fast. All coding by     ³
+³ little old me. Except for the music player, which is ofcourse done by      ³
+³ PSI/future crew. And some lyrics by other tuhb-members, as mentioned       ³
+³ above.                                                                     ³
+³                                                                            ³
+³                                                                            ³
+³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                                             ³
+³ Source code  ³                                                             ³
+³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                                             ³
+³ Well, if you want to lay your hands on the source code for this intro,     ³
+³ you will just have to download Tuhbzine 4 (due 3 weeks after the Takeover  ³
+³ party). I will put the full source-code in the zine (exportable), and even ³
+³ give a short description of the effects I used.                            ³
+³                                                                            ³
+³                                                                            ³
+³ÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                                              ³
+³ The Future  ³                                                              ³
+³ÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                                              ³
+³ You might ask what the future will bring. Well, I am already working quite ³
+³ hard designing Purple Dreams 2. It will contain effects that are totally   ³
+³ different from those in Purple Dreams (that's why I don't mind releasing   ³
+³ all sources) and hopefully some nice designish elements. I just hope that  ³
+³ when I release it (maybe at Wired?) there is some competition, since that  ³
+³ would make the compo's a lot more exciting. So what are you waiting for?   ³
+³ Start working on your 4k intro release now! The 4k scene shall bloom!      ³
+³                                                                            ³
+³                                                                            ³
+³ÄÄÄÄÄÄÄÄÄÄÄÄ¿                                                               ³
+³ Greetings  ³                                                               ³
+³ÄÄÄÄÄÄÄÄÄÄÄÄÙ                                                               ³
+³ Huge halloween haloha's and humongous hugz go to:                          ³
+³                                                                            ³
+³ All TUHB'ers, Digistorm, Cloak, Sweex, Rogue, Buckshag, Skin, Deadline,    ³
+³ Mnemonix, Silence, Dynamix, The Rew, Keynes, Underdog, Sonique, Sentinel,  ³
+³ Aap, Cyclops, Chippy, Probe, Boolean, Ryo-Ohki, Marsian, Spellcaster,      ³
+³ Garfield probably forgot and who will now be not talking to me for the     ³
+³ And ofcourse all those people I probably forgot and who will now be not    ³
+³ talking to me for the rest of the millennium.                              ³
+³                                                                            ³
+³                                                                            ³
+³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                                            ³
+³ Contact info  ³                                                            ³
+³ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                                            ³
+³ You can E-mail me at: 144076pp@student.eur.nl                              ³
+³                                                                            ³
+³ Or you can snail-mail me at: The Watcher                                   ³
+³                              Frans Halsstraat 27                           ³
+³                              2712JS Zoetermeer                             ³
+³                              The Netherlands                               ³
+³                                                                            ³
+³ Or you can try to leech our stuff from:                                    ³
+³      ftp.skynet.stack.nl/pub/demos/tuhb                                    ³
+³                                                                            ³
+³ Or you can be really cool and leave mail for me at:                        ³
+³  ş ALUMINA BBS (SYSOP VERTIGO), 071-5790411 (WHQ)                          ³
+³  ş THE FIRST DEGREE BBS (SYSOP CYCLOPS), 035-5244247 (EHQ)                 ³
+³                                                                            ³
+³ Or you can just continue your pathetic little life and NOT contact us ;-P  ³
+³                                                                            ³
+³                                                                            ³
+³                                                                            ³
+³                                                       - The Watcher, 1998  ³
+³                                                                            ³
+ÀÄÄÄÄÄÄÄ--     ú     --ÄÄÄÄÄÄÄÄT-H-EÄÄ-E-N-DÄÄÄÄÄÄÄÄ---     ú     --ÄÄÄÄÄÄÄÄÄÙ

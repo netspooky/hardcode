@@ -1,0 +1,86 @@
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ ÚÄÄÄÄ                                                                ÄÄÄÄ¿ ³
+ ³ ³ş           ÛÛÛÛÛ     ÛÛ         ÛÛ         ÜÜÜ       ÛÛÛÛ             ş³ ³
+ ³ ³          ÛÛ     ÛÛ  ÛÛ         ÛÛ          ßßß     ÛÛ    ÛÛ            ³ ³
+ ³           ÛÛ      ÛÛ ÛÛ         ÛÛ         ÛÛÛÛÛÛ   ÛÛ    ÛÛ               ³
+ ³          ÛÛ      ÛÛ ÛÛ         ÛÛ            ÛÛ    ÛÛ   ÛÛ     Ü           ³
+ ³          ÛÛ     ÛÛ   ÛÛ      Ü  ÛÛ      Ü   ÛÛ    ÛÛ  ÛÛ     ÛÛ            ³
+ ³           ÛÛ   ÛÛ     ÛÛ   ÛÛ    ÛÛ   ÛÛ   ÛÛ      ÛÛÛ      ÛÛ             ³
+ ³            ÛÛÛÛ        ÛÛÛÛÛ      ÛÛÛÛÛ  ÛÛÛÛÛÛ      ÛÛÛÛÛÛÛ               ³
+ ³                                                                            ³
+ ³                                                                            ³
+ ³                                  Pçäsäït$                                  ³
+ ³                                                                            ³
+ ³     			            4Ká ³ïtçé                                 ³
+ ³                                                                            ³
+ ³          ÛÛÜ ÜÛ ÜÛÛÛÛ  ÜÛßßß ÛÛÛ Û ÛÛÛ ÛÛ ÜÛÛÛÛÜ ÜÛÛÛÛÜ ÜÛÛÛÜ ÛÛÛ Û        ³
+ ³          Û±ÛÛÛÛ Û±ÛÜ    ÛÛÛ  Û±ÛÜÛ Û±Û ÛÛ Û±Û ÜÜ Û±Û ÜÜ ÛİÛ±Û Û±ÛÜÛ        ³
+ ³ ³        Û±Û ÛÛ Û±ÛÜÜ   Û±Û  Û±ÛßÛ Û±Û ÛÛ Û±ÛÜÛÛ Û±ÛÜÛÛ   Û±Û Û±ÛßÛ      ³ ³
+ ³ ³ş       ßßß ßß ßßßßß ßßßßß  ßßß ß ßßßßß  ßßßßßß ßßßßßß   ßßß ßßß ß     ş³ ³
+ ³ ÀÄÄÄÄ                                                                ÄÄÄÄÙ ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+  This 4Kb intro is dedicated to my father,mother,sister & to all c00l SK8ers
+  in the world.
+
+  First I would like to send some extra special greets to :
+  ---------------------------------------------------------
+  Miro Krajcir (MiRRaGe)
+  Jano Petrjanos (Ali)
+  Misko Dedinsky (SanTaFas)
+  Zdeno Hlinka (Zd3N thanx for your SAToRI routine)
+  Grizzly of U.H.F. (Thanx for ANSI GFX in this file)
+  Brano Bomba (Thanx for your help !!!)
+  all WRITAZ in Blava
+  Gurun
+  Bear (Thanx a lot for help & ideas)
+  and to MESHUGGAH (for giving me the idea for the name of this 4Kb-intro)
+  and of course to all my favourite chicks
+
+                              !!! WARNING !!!
+			      ---------------	
+  This intro is not timer controlled and therefore if you have slower computer
+  you might see some flickering or snowing (sorry,I was too lazy).
+
+  System requirements :
+  ---------------------
+  For running this you need something like 80386,because of full 32-bit code.
+  You'll also need some 80387 or better coprocesor.And of course you need
+  VGA card and about 4Kb of diskspace.This intro runs ok on my 80486DX2/66Mhz.
+
+  Creating story :
+  ----------------
+  For about 2 months ago I decided to code some little 4Kb intro because
+  I have had a lot of ideas and experiences.So I started working on all parts
+  of this intro.Then I contacted Zdeno Hlinka (Zd3N) and he gave me his SATORI
+  routine and some cool ideas.The whole intro is a collection of my older
+  routines and I wanted to add there as much effects as possible.JULIA
+  MORPHER or MANDELBROT ZOOMER had to be added there,but you know it can
+  be only 4096 bytes long.
+  For the future I want to code some bigger demo (probably some 4096Kb) with
+  my friend Miro Krajcir.Therefore we are looking for some extern graphician
+  and musician.We want to take part on ASSEMBLY `97 or DEMOBIT `97.I hope you
+  find MESHUGGAH pretty cool and wish you good luck.
+
+								      éœœ­ä
+
+  Contacting the author :
+  -----------------------
+  Snail-mail : Martin Simlastik
+               Jarosova 1
+               831 03 Bratislava
+               Slovakia
+               Europe
+  Phone : +042-+7-250-250 or +042-07-5030-890
+  E-mail :
+
+
+  You can also contact Miro by :
+  ------------------------------
+  Snail-mail : Miro Krajcir
+               Palkovicova 11
+	       8 Bratislava
+	       Slovakia
+	       Europe
+  Phone : +042-+7-214-069
+  E-mail:

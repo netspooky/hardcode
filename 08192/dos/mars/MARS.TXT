@@ -1,0 +1,16 @@
+
+			Martian terrain renderer
+			------------------------
+
+  Here is a small demo to draw fractal voxel-based terrains in real time...
+
+  If you have a 386 or better with VGA graphics, run mars and use the mouse to
+move around the landscape. Press any key to quit. A different map is calculated
+each time the program is run. This code may form the basis of a forthcoming
+game...
+
+  If you have any comments, or would like a general chat about graphics, voxels
+or texture-mapping etc, etc, e-mail me at: TJC1005@hermes.cam.ac.uk
+
+  Tim Clarke
+

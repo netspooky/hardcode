@@ -1,0 +1,87 @@
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�
+;
+;     TITLE: Horizontal Star field
+;WRITTEN BY: DRAEDEN
+;      DATE: 04/16/93
+;
+;     NOTES: Need a 286+ to execute.
+;
+;ASSOCIATED FILES:
+;
+;       HSTAR.ASM   =>  ASM code for horizontal starfield
+;
+;       HSTAR.BAS   =>  Basic program that generates a set of 'random' star
+;                       locations.  Creates the file 'HSTARS.DW'
+;
+;       HSTAR.TXT   =>  This file
+;
+;       HSTARS.DW   =>  Holds the star location data (the structured info)
+;                       Created by HSTAR.BAS
+;
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+    The horizontal starfield is simply a series of dots that are moved in the
+X direction in either the positive or negative direction.  That is all that
+this ASM file does.  It simply takes a (X,Y) position, adds a velocity to the
+position and keeps it in bounds.  Different from before, I've introduced a
+well known (to graphics programmers) thing.  A look-up chart.  In this case
+I use the look up chart to find the offset for a particular Y pos.  This way
+is MUCH faster than the old [imul di,320] and it is more flexable.
+Here's how I did it in detail:
+
+컴컴컴컴컴컴컴컴
+
+    mov di,[Ypos]               ;get the ypos
+    add di,di                   ;multiply the ypos by 2, so I can use it to
+                                ; look up WORD sized data
+    mov di,[YOffsetChart + di]  ;and grab the offset and put it in DI
+
+컴컴컴컴컴컴컴컴
+
+    I can use DI as both a source and a destination for much the same reason
+that you can do that in any language.  I have to use DI to get the data
+before it can be put in DI.  Hmmm... That may be confusing.  Nevermind.
+
+    ANYway, if you've already looked at the source, you've probably noticed
+that the Display procedure is awfully large.  This is because I chose to just
+repeat the same block over 4 times instead of having to get clever and write
+a little loop.  Everyone knows what happens when you get clever.  You lose a
+foot. :)
+
+    All the data was created by the small BASIC program that was included.
+If you don't like the current layout of the stars, run the basic program-
+it'll give you a new set.
+
+    This code is not 100% perfect.  It's up to you to fix it up.  I did that
+'cause I was feelin' awfully lazy last night when I decided to finally write
+this.  Here are some suggestions on how to fix it up:
+
+    1)  Fix the main subroutine so that instead of being 4 repeated blocks, 
+        its just 1 small loop.
+
+    2)  Change it so that you can have "fractional" speeds.  This would be
+        done by just changing the size of the Xpos from a WORD to a DWORD and
+        changing the velocity to a DWORD.  Then you'd set 10000h = 1 unit
+        (just use the high word as the Xpos.)
+
+            For instance, a velocity of 1/2 would be = 08000h
+
+    3)  After you fix it into a loop and give it a non-integer velocity, 
+        make it so you can add multiple layers. (more than 4)
+
+    
+    After you make these improvements, you'd have a way-cool h-starfield.
+
+
+    Kinda a short DOC, but then again, the program isn't that complicated nor
+are the concepts contained within. 
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�
+
+   Well, that's it for now.  See INFO.VLA for information on contacting us.
+
+   I would like some suggestions on what to write code for.  What would you
+   like to see done?  What code would you like to get your hands on?
+
+   Send question, comments, suggestions to draeden@u.washington.edu or post
+    on Phantasm BBS.

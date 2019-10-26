@@ -1,0 +1,54 @@
+
+
+  256 byte phong shaded torus
+  by Maxwell Sayles (Fysx/Xi)
+  fysx@spartan.pei.edu
+
+
+  The following is an attempt at explaining how this program works.
+
+  This is a phong shaded torus rotating on two axis.
+
+  Consider for a moment what a 256 byte program consists of.  The
+  smallest instruction in this program is 1 byte, the largest is 5
+  bytes.  The phong shaded rotating torus you are viewing executes
+  in exactly 104 instructions, 102 instructions when the INC reg INC reg
+  pairs are counted as an ADD reg,2 instruction.
+
+  Fortunately, generating a torus is simply performing rotation of a
+  point on two axis.  I pair the code for generating the torus with the
+  rotation of the torus and the generation of the normals.
+
+  The above is seperate by generating two vectors.  The first vector is
+  the normal vector for that point on the surface of the torus.  The
+  second vector is the 3 space coordinate for the center of the inner
+  ring.
+
+  The normal at any point on a torus may be calculated by the following:
+  normal vector = (0, 0, radius of inner circle)
+  This vector is then rotated along the inner axis (XZ), followed
+  by the outer axis (XY) then by the two rotational axii (XZ, YZ).
+
+  The position in 3 space may be calculated by the following:
+  center vector = (radius of outer circle, 0, 0)
+  This vector is then rotated along the outer axis (XY) and followed by
+  the two rotational axii (XZ, YZ).  The normal vector is then added to
+  this vector for the resulting position in 3 space.
+
+  The rotations can be coupled into a single routine that performs
+  rotation on an arbitrary axis (Refer to the function Rotate_Axis: in
+  SPUTNIK.ASM).  The final three rotations are identical for both
+  vectors and are thus also coupled into a single routine (Refer to
+  Rotate_3_Axis: in SPUTNIK.ASM).
+
+  The final torus consists of 16384 (128*128) 4x4 z-buffered volume
+  pixels.
+
+  Additional size optimizations were made possible by using DS (also the
+  code segment) as a color frame buffer for rendering.  This made
+  offscreen rendering and frame copying possible by the use of a MOVSB
+  and clearing through a MOV BYTE PTR [SI-1],0.
+
+
+
+

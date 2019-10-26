@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg id="Svg" onload="Demo1.Init()" width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<script type="text/javascript"><![CDATA[
+    var SvgNamespace="http://www.w3.org/2000/svg";
+
+    function vRandomInteger(Max_i)
+    {
+      return Math.round(Math.random()*Max_i);
+    }
+
+    function vMod(x,y)
+    {
+        return x-Math.floor(x/y)*y;
+    }
+
+    var SvgDocument;
+    var SvgElement;
+    var SvgRenderBuffer;
+
+    function CreatePrimitive(Point,Scale,Angle,Color)
+    {
+      var trans="translate(" + Point.x + "," + Point.y + ")";
+      var scale="scale(" + Scale.x + "," + Scale.y + ")";
+      var rotate="rotate(" + Angle + ")";
+      var t=trans + " " + rotate + " " + scale + "translate(-0.5,-0.5)";
+      var SvgPrimitive=SvgDocument.createElementNS(SvgNamespace, "rect");
+
+      SvgPrimitive.setAttributeNS(null, "fill", Color);
+      SvgPrimitive.setAttributeNS(null, "transform", t);
+      SvgPrimitive.setAttributeNS(null, "width", 1);
+      SvgPrimitive.setAttributeNS(null, "height", 1);
+
+      SvgRenderBuffer.appendChild(SvgPrimitive);
+    }
+
+    function CreateRect(x0,y0,x1,y1,Color)
+    {
+      var trans="translate(" + x0 + "," + y0 + ")";
+      var SvgPrimitive=SvgDocument.createElementNS(SvgNamespace, "rect");
+
+      SvgPrimitive.setAttributeNS(null, "fill", Color);
+      SvgPrimitive.setAttributeNS(null, "transform", trans);
+      SvgPrimitive.setAttributeNS(null, "width", x1-x0);
+      SvgPrimitive.setAttributeNS(null, "height", y1-y0);
+
+      SvgRenderBuffer.appendChild(SvgPrimitive);
+    }
+
+    function Twister()
+    {
+      this.HeightInPixel=320;
+      this.VoxelSize=2; // may be 1, 2, 4, 8, 16
+      this.Height=this.HeightInPixel/this.VoxelSize;
+      this.ColorR=new Array(this.Height);
+      this.ColorG=new Array(this.Height);
+      this.Rot=new Array(this.Height);
+      this.Rot[0]=0;
+      for (var i=1;i<this.Height;i++)
+      {
+        this.Rot[i]=this.Rot[i-1];// +0.42*(Math.random()-.5); // add random displacement here
+      }
+      var ad=(Math.PI-this.Rot[this.Height-1])/this.Height;
+      for (var i=0;i<this.Height;i++)
+      {
+        this.ColorG[i]=10 + vRandomInteger(4);
+        this.ColorR[i]=110 + vRandomInteger(50);
+        if (i>0) this.Rot[i]+=ad*i;
+      }
+    }
+
+    Twister.prototype.Draw=function(t)
+    {
+      for (var i=0;i<this.Height;i++)
+      {
+        var fi=i/(this.Height-1);
+        var a=this.Rot[i]-0.8*t-1.4*Math.sin(t+Math.sin(2*Math.PI*fi));
+        var D=100+10*Math.sin(t+50*fi);
+        var sa=D*Math.sin(a);
+        var ca=D*Math.cos(a);
+        // 3d
+        var AX=sa;
+        var AZ=-ca;
+        var BX=ca;
+        var BZ=sa;
+        var CX=-sa;
+        var CZ=ca;
+        var DX=-ca;
+        var DZ=-sa;
+        var OZ=200;
+        // 2d
+        var x=320;
+        var xw=120;
+        var yh=this.VoxelSize;
+        var Ax=Math.floor(x+xw*AX/(AZ+OZ));
+        var Bx=Math.floor(x+xw*BX/(BZ+OZ));
+        var Cx=Math.floor(x+xw*CX/(CZ+OZ));
+        var Dx=Math.floor(x+xw*DX/(DZ+OZ));
+
+        var y=11+yh*i;
+        var cr=this.ColorR[i];
+        var cg=this.ColorG[i];
+        if (Ax<Bx)
+        {
+          var ca=(BX-AX)/Math.sqrt((BX-AX)*(BX-AX)+(BZ-AZ)*(BZ-AZ));
+          var cr0=Math.floor(cr*ca);
+          var cg0=Math.floor(cg*ca);
+          var c0="rgb("+ cr0 + ", " + cg0 + ",0)";
+          CreateRect(Ax,y,Bx,y+yh,c0);
+        }
+        if (Bx<Cx)
+        {
+          var ca=(CX-BX)/Math.sqrt((CX-BX)*(CX-BX)+(CZ-BZ)*(CZ-BZ));
+          var cr1=Math.floor(cr*ca);
+          var cg1=Math.floor(cg*ca);
+          var c1="rgb("+ cr1 + ", " + cg1 + ",0)";
+          CreateRect(Bx,y,Cx,y+yh,c1);
+        }
+        if (Cx<Dx)
+        {
+          var ca=(DX-CX)/Math.sqrt((DX-CX)*(DX-CX)+(DZ-CZ)*(DZ-CZ));
+          var cr2=Math.floor(cr*ca);
+          var cg2=Math.floor(cg*ca);
+          var c2="rgb("+ cr2 + ", " + cg2 + ",0)";
+          CreateRect(Cx,y,Dx,y+yh,c2);
+        }
+        if (Dx<Ax)
+        {
+          var ca=(AX-DX)/Math.sqrt((AX-DX)*(AX-DX)+(AZ-DZ)*(AZ-DZ));
+          var cr3=Math.floor(cr*ca);
+          var cg3=Math.floor(cg*ca);
+          var c3="rgb("+ cr3 + ", " + cg3 + ",0)";
+          CreateRect(Dx,y,Ax,y+yh,c3);
+        }
+      }
+    }
+
+    var Demo=function()
+    {
+      this.t0=0;
+      this.tc=0;
+      this.Object1=null;
+      this.IsStopped=false;
+    }
+
+    Demo.prototype.Clear=function()
+    {
+      while (SvgRenderBuffer.hasChildNodes()) SvgRenderBuffer.removeChild(SvgRenderBuffer.lastChild);
+    }
+
+    Demo.prototype.Update=function()
+    {
+      if (this.IsStopped) return;
+      this.tc=(new Date().getTime())-this.t0;
+      var t=this.tc*0.001;
+//      SvgElement.suspendRedraw(1000); // Opera 9.50 beta doesn't display the effect with this
+      this.Clear();
+      this.Object1.Draw(t);
+//      SvgElement.unsuspendRedrawAll(); // Opera 9.50 beta doesn't display the effect with this
+      SvgElement.forceRedraw();
+    }
+
+    Demo.prototype.CreateTimer=function(Demo_i)
+    {
+      var Timer=function()
+      {
+        if (Demo_i.IsStopped) return;
+        Demo_i.Update();
+        setTimeout(Timer,10);
+      }
+      Timer();
+    }
+
+    Demo.prototype.Init=function()
+    {
+      SvgDocument=document;
+      SvgElement=SvgDocument.getElementById("Svg");
+      SvgRenderBuffer=SvgDocument.getElementById("RenderBuffer");
+
+      this.Object1=new Twister();
+      this.t0=new Date().getTime();
+      this.CreateTimer(this);
+    }
+
+    Demo.prototype.Play=function()
+    {
+      if (!this.IsStopped) return;
+      this.IsStopped=false;
+      var t1=new Date().getTime();
+      this.t0=t1-this.tc;
+      this.CreateTimer(this);
+    }
+
+    Demo.prototype.Stop=function()
+    {
+      this.IsStopped=true;
+    }
+
+    var Demo1=new Demo();
+
+  ]]></script>
+	<rect x="10" y="10" width="620" height="360" fill="#0f2f4f" rx="20" ry="20" stroke="#000" stroke-width="2" />
+	<g id="RenderBuffer" />
+
+	<rect x="10" y="330" width="620" height="40" rx="20" ry="20" stroke="#000" stroke-width="2" fill="#fff" />
+	<rect x="10" y="330" width="620" height="2" stroke="#000" stroke-width="2" />
+	<rect x="11" y="332" width="618" height="18" fill="#fff" />
+	<text x="40" y="355" font-family="Georgia; Times New Roman; serif" font-size="18px" fill="#5b5b5b">twister :: Ger (x) 2008</text>
+	<text x="560" y="355" onclick="Demo1.Play()" font-family="Georgia; Times New Roman; serif" font-size="18px" fill="#222" text-anchor="end">Play</text>
+	<text x="600" y="355" onclick="Demo1.Stop()" font-family="Georgia; Times New Roman; serif" font-size="18px" fill="#e22" text-anchor="end">Stop</text>
+</svg>

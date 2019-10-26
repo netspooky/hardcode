@@ -1,0 +1,3 @@
+Here's my demo..  Might not work well in dosemu :/
+Source is nasm style, nasm -f bin zinx.asm -o zinx.com
+				-zinx-

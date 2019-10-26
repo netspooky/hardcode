@@ -1,0 +1,81 @@
+
+         ____ ___ ___ ___ ___ ___ ___ ___ ___
+       .|                                   
+ --~===||  R   T   I   F   I   C   I   A   L  ||===~--
+          ___ ___ ___ ___ ___ ___ ___ ___ ____|'
+
+                    @ DEADLINE 2014
+
+               ---     presents:     ---
+ 
+                    electrochromacy
+
+               ---  a  PC 64k intro  ---
+
+
+        __
+      .|
+ --~==||  A B O U T
+       |
+       |   a tale of electromagnetism
+       |
+       '   after  we released our  first demo
+           `rot! ist meine kugel' at revision
+           2014,  we  needed  to  rewrite our
+           toolchain  from  scratch.  and how
+           can  you  test  a  new  demo  tool
+           better than  by making a demo with
+           it.  so we looked for a party that
+           fit  our  scedule  and  the  first
+           deadline seemed to be a nice place
+           for a new release.
+
+           but  after we  had worked  on  the
+           tool for months,  the literal dead
+           line  advanced and we  were  short
+           on content.  so we met up one week
+           before  deadline  and set  out  to
+           create  a shorty  in  64k  to  say
+           `we're still alive'.
+
+           at the  party we  were  confronted
+           with  severe bugs  in our  runtime
+           that we  hacked  together  the day
+           before  and huge  difficulties  in
+           getting  the demo  to run  on  the
+           compo machine.  this was our first
+           serious  windows  release  and  we
+           wouldn't  have made it without the
+           help of some awesome folks:
+
+           huge thanks go out to:
+             hunta/brain control
+             cupe/mercury
+             las/mercury                       |
+            <3                                 ||==~--
+                                            ___|'
+
+
+        __
+      .|
+ --~==||  C R E D I T S
+       |
+       |   code, editing, visuals:
+       '          _vincent
+                  ro0mquy
+                  Ps0ke
+           music:                              |
+                  Dr. B                        ||==~--
+                                            ___|'
+                 
+        __
+      .|
+ --~==||  R E Q U R I M E N T S
+       | 
+       |   Windows
+       '   Nvidia graphics card               |
+                                              ||==~--
+                                           ___|'
+
+
+

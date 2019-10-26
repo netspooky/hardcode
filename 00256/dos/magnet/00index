@@ -1,0 +1,9 @@
+a little magnetic field effect with 3D
+rotation and some sierpinski triangle stuff
+
+by INT-E <int-e@gmx.de>
+
+magnet.asm   - source code
+magnet.com   - executable
+magnet_s.com - 'safe' executable with no assumptions about initial
+               register settings.

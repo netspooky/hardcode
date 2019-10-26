@@ -1,0 +1,10 @@
+note: must be run in the chrome! (because of the webkit audio extensions)
+also: if the sound stutters, close chrome and reload
+
+so here's my little compofiller, an experiment in doing a 4k in javascript and webgl
+sorry about all the artifacts and framerate... it was real fun coding it on the mac and then discovering that under win7 all
+i got was a black screen... and the deadline is just around the corner... ;-)
+
+attention: this production may contain traces of oneliners
+
+fontex/kolor

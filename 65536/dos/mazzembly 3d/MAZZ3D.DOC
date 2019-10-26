@@ -1,0 +1,220 @@
+
+ ##     ##     #     ####### ####### ####### ##     ## ######  ##     ##    ##
+ ###>  ###  E ###     q  ###  L  ### ## t    ###   ### ##E  ## ## O    ## t##
+ #### ####2  ## ##     ###$    ###   ####    ####[#### ######  ##       ####
+ ## ### ##  #######  ###     ###  E  ##    O ## ### ## ##  !## ##        ##$
+ ##  #  ## ## L   ## ####### ####### ####### ##  #  ## ######  #######  L##
+                               _____  _______
+                              /___  \|| ____ \
+                              ----' //| |---\  \
+                             '---.  \\|  \  ||  |
+                           -------' |||| `---'  |
+                          |________// ||_______/
+                           `--------  `--------'
+                       
+                       A Virtual REALITY Demo-Party!@#
+
+
+The story thus far:
+
+  You are Demulamu - and your dad has given you a shiny new Pentium for
+ XMas.  You play around with it, and start to be creative.. making code
+ in QBasic, graphics in Paintbrush, and music in your 16-bit wavetable
+ multimedia soundcard's sample MIDI program.  Still, you thirst for more..
+ so you check the local BBS's with your Terminal proggy, and find some 
+ kewl demo and music warez.. after you find a player and some code routines
+ to copy a week later, you make a break into, yes yes, the demo scene!
+ But noone on the net knows about you so they won't take your warez, and
+ very few are downloading your stuff off the BBS's.  Just as you are about
+ to run out of hope, you see advertised on c.s.i.p.d.: 'Announcing
+ Mazzembly '97 Multimedia Demo Gathering'.  You quickly grab the invitation
+ and share it with your dad.. who agrees to take you there!  This could
+ be your big break in the scene!  All you need is to build your eliteness
+ and gain fame.  Only Mazzembly makes it possible!
+
+Installing and running Mazz3D:
+
+ 1) Boot up DOS.
+ 2) Unpack it into your favorite directory.
+ 3) Type 'MAZZ3D' at the prompt.
+ 4) Press Enter. Simple, eh?
+
+What's New Since Mazzembly (2D)?
+
+ For you baba-cool scenedudes out there, you already know about PWP's game,
+ Mazzembly '97.  Of course, this is based on that game.  There are of course
+ a lot of changes since then (it will all be described later, don't panic):
+
+ stuff added - compos, energy, eating/sleeping, maps and LOTS of other items.
+
+ stuff taken out - sinks, phone booths, and being thrown out by organizers.
+
+The Basic Gameplay:
+
+ In case you haven't seen Mazz2D, or forgot how to play it, here's the idea.
+ You advance through levels in the party, walking around, picking up/buying
+ items, talking to others, eating, sleeping, and even attacking others.
+ The goal is to accumulate the most Fame points, which you can do by
+ talking to lamers when you have Elite points (Eptz), or winning compos.
+ The levels do not get any harder as you progress, but a couple challenges
+ are added as your Fame/Eptz grow large.
+
+ The party starts on Friday at 10:00.  Every step/turn you take uses one
+ minute.  The party ends on Sunday at 21:00 (cool Euro military time).
+
+Keys:
+
+ Left/Right arrow - turn left/right
+ Up arrow - move forward, pick up an item, or attack who's in front of you.
+ t - talk to who's in front of you.
+ q - quaff, or in simple terms, drink any booze you have.
+ h - heal, use first aid kits to replenish your hit points.
+ s - sleep, to replenish your energy.
+ d - drop (and destroy) any item in your inventory.
+ m - if you have a map, press this to show it.
+ l - if you have a missile launcher, use this to fire a missile. (!)
+ Q/Esc - leave the party, quit the game.
+
+Attributes:
+
+ You'll see a lot of numbers on the screen that affect your gameplay.
+
+  Hit Points (hitptz) - formerly known as Strength in Mazz2D, this is the
+    number of points of damage you can take before you croak.  It starts
+    at ten.  You can regain HP by finding/using first aid kits or advancing
+    a level (one HP).  The maximum HP can be raised by buying a HP Booster 
+    in a shop.
+    
+  Energy - a lot like HP, but instead it affects how much damage you inflict
+    on an opponent.  You start at 500 and lose one energy point per move.
+    You can never go below 1.  Energy is regained either by sleeping (1
+    point/minute, in one hour intervals), or buy food at a snack bar to eat.
+    The maximum energy can be raised by buying an Energy Booster in a shop.
+
+  Eptz - short for Elite Points.  You can get Eptz in many ways.  The simplest
+    is by talking to Elite people.  You can also trade hard disk warez, drink
+    booze, or find many other little ways to gain Eptz.
+
+  Fame - Fame is basically your game score.  As mentioned above, it can
+    be done by talking to Lamers, which trades Eptz for Fame, or by winning
+    compos.  Another way is to talk to a reporter while you have Eptz.
+    Fame points can be lost if you talk to a qubic lamer.
+
+Cast of Characters:
+
+ You will come across many friends and enemies in Mazz3D.  They are the
+ same ones that were in Mazz2D, but here is a description anyway.
+
+  Elites (E) - The cool dudes at the party.  These guys are well known
+    and experienced at strutting their stuff.  You can talk to them to 
+    gain Eptz.  If you attack, they will fight back, but if you kill 
+    them you can still gain Eptz!
+
+  Lamers (L) - The lame game-players, vandals, and ravers at the party,
+    many of them possibly friends of yours!  If you have Eptz, talking to 
+    lamers will convert them to Fame points.  Lamers are easy to kill but 
+    give you no points that way.
+
+  Organizers (O) - These guys run the party and keep a watch over things.
+    They won't move, but if you drink while they're around, watch out!
+    They can be pretty brutal when angry.  These are the guys to talk to
+    if you have a HD with stuff to enter in a competition.
+
+  Traders (t) - Occasionally you'll see some of these dudes around.  If
+    you have a hard drive with fresh warez, you can trade it with them and
+    be more elite!  They're as easy to kill as lamers, again no reward.
+
+  Reporters (R) - Once in a while you'll see a reporter around.  Talking
+    to them can be very rewarding.  You can't attack them.
+
+  Qubic Lamers (q) - Also known as 'Q-Bitches', these are various girls
+    who got in free, because they're some elite dude's girlfriend or they
+    just wanna rave and flirt with game-lamers.  You'll only see them around
+    when you become famous.  They won't harm you, but they make your life
+    really annoying.  Better not attack them, or else Elites will get pissed.
+
+Items:
+
+ This is what seperates Mazz3D from 2D.  Here's a list of stuff you may
+ find around the levels.
+
+  $ - money!  You'll need this if you want to buy anything.
+
+  1 - snack bar. Here you can buy various food/drinks to keep up your energy.
+  
+  2 - shop. You can buy lots of cool items here that you couldn't normally
+      find. They are described later on.
+  
+  ! - booze. Wanna get drunk? Pick up one of these. Press 'q' to drink one.
+
+  + - first aid kit, handy when you're low in hit points. Press 'h' to
+      use one.
+
+  [ - hard drive.  Trade these with traders and enter them in compos.
+      You'll see them in inventory as "HD:w## g## m# d###". This means -
+        w - hours new your warez are
+        g - new colors for your compo graphics
+        m - new channels for your compo music
+        d - new polys for your compo demo
+
+  > - stairs to the next level.
+
+  * - 'Ztarz'. When you get very elite you may need to find these to
+      advance to the next level. Just another Mazz2D tradition. 
+
+Special Items:
+
+ Here is the stuff you can buy in a store, of course at inflated prices:
+
+  Compass - gives you a directional heading. $30.
+  Scanner - gives you a little 4x5 overhead display of whereever you walk.
+            $70.
+  Short-range Radar - shows the sprites in the 10x10 area you are centered
+                      in, and their distance from you. $90.
+  Long-range Radar - same thing, but in a 20x20 area! $180.
+  Level Map - gives you a 30x30 map of the level you're on. Press 'm' to
+              see it. Gets destroyed on the next level. $200.
+  Full Map set - gives you maps for every level you are on! $550. Not cheap.
+  Q-bitch Repellent - handy item, keeps the qubic lamers off you. $175.
+  Missile Launcher - state of the art anti-scene warfare.  Press 'l' whenever
+                     you see someone in front of you (up to 3 blocks away).
+                     Does the same damage as point blank, so it's affected
+                     by your energy.  $225.
+  Hit Point Booster - adds a couple points to your maximum hit points. You
+                      can use more than one of these accumulatively. $200.
+  Energy Point Booster - adds 100 to your maximum energy points. You can
+                         use more than one of these accumulatively. $200.
+
+Compos:
+
+ Yes, here is the long waited addition to Mazzembly!  The party has these
+ competitions:
+
+   Graphics - Saturday 10:00 - you can use up to 256 colors, the more you
+     have the higher you can place.
+   Music - Saturday 20:00 - you can use up to 32 channels, the more you
+     have the higher you can place.
+   Demos - Sunday 12:00 - there are no limits in the game.  Of course,
+     the more phong polys you use, the higher you can place.
+
+ To enter a competition, get a hard drive (listed above) and give it to
+ an organizer by talking to him.  Of course the more hard drives you 
+ enter, the better your entries will be and the more likely you will win.
+
+ Here are the compo prizes!
+
+            Graphics            Music           Demos
+   1.           $500            $1000           $2500
+   2.           $250             $500           $1000
+   3.           $100             $250            $500
+
+ You also gain one-tenth of your prize-money in fame points.
+
+Credits:
+ code, textmode gfx, no music - Phoenix/DC5
+Contact:
+ email - vossa@rpi.edu
+
+Full props to Viznut & Nosfe/pWp. You guys are true E's.
+
+A Dennis Courtney Five production? Sure.

@@ -1,0 +1,68 @@
+
+
+*** Power On Self Test - by VeCTRONiX (http://vectronix.org/) ***
+
+
+Released at Stream MEGA 2005.
+  http://stream.mattcurrent.org/
+
+
+
+(party version - there may be a final version
+ if something needs to be fixed)
+
+
+
+
+* Usage:
+- Turn off "vertex shader 1.1" if you happen
+  to run it on something without vertex shaders
+  (eg. GeForce2 or GeForce4MX).
+
+
+* Requirements:
+- DirectX 9.0c (version from December 2004 or newer)
+
+- GeForce2-class card is really minimum, but
+  it can produce rendering bugs. GeForce3-class
+  card or better is strongly suggested.
+
+- Some rendering bugs can also show up on
+  certain versions of drivers used with
+  certain gfx cards. Newest drivers should
+  work best.
+
+- Good CPU/GFX card won't hurt.
+
+
+
+
+* The VeCTRONiX team is:
+ 3dino          gfx
+ Bionic         gfx
+ CybeREX        gfx
+ Dafunk         music
+ KK             code, gfx
+ Quickyman02    music, gfx
+ Slash_AtD      music
+ Slippy         org, gfx
+ Unc            gfx
+ wiCkeDz        gfx
+
+
+We hope you have fun watching this intro.
+
+
+
+
+Feel free to visit us:
+   http://vectronix.org/
+
+
+Or you can drop me (KK) an email, if you wish:
+  krzych82@poczta.onet.pl
+
+
+
+Greets,
+KK

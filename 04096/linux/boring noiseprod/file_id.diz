@@ -1,0 +1,97 @@
+Boring noiseprod - A 4k by slack/Necrostudios
+
+Win32 version by shash^Collapse, as usual :)
+
+---- Spanish senseless rant goes here (english version below)
+
+Hola apigos. Es tarde y no se que escribir, asi que aqui va el "making of" de
+la intro.
+
+En los últimos meses hemos podido ver montones de prods que lo unico que
+hacen es sacar ruido en pantalla mientras una musica extraña suena de fondo.
+Como no tengo ni idea de arte me aburren soberanamente, y pensé que quizá
+sería una buena idea intentar reproducir eso en 4k para darle algo de
+aliciente desde el punto de vista técnico. Además, tenia que preparar una 4k
+para la BGparty y esto parece algo adecuado para ver cuando vas ciego XD
+
+La prod en si es horrible. He cogido el código de generación de textura que
+escribió shash para nuestra 4k de la kindergarden (grevox) y le he dado unas
+cuantas vueltas (literalmente ;-). Un poquito de colorcycling y movimientos
+chungos de camara y ya está. El efecto queda, IMHO, bastante resultón. 
+
+El sinte es el de siempre, con el player ligeramente modificado para variar
+aleatoriamente el tono de los patterns en cada repetición, porque dejar 10
+minutos con exactamente la misma música me parecia demasiado cruel. 
+
+Como habia sitio, adapté la rutina de dibujado de textos que no llegué a usar
+en la Voxel Bukkake y empecé a meter cosas. En principio pensé en adornar los
+10 minutos con scenepoetry sin sentido, o incluso con sentido si se me ocurria
+algo, pero la poesía no es lo mio y puse los greetings XD. La cuenta atrás de
+10 minutos está ahi para que no me descalifiquen en la party, en realidad la
+prod debería loopear eternamente, simbolizando cualquier cosa (por ejemplo "el
+paso inexorable del tiempo", inserte aqui su significado favorito).
+
+Cuando ya lo tenia todo montado se me ocurrió que quizá no se notaba
+del todo el toque humorístico de la intro, asi que decidí meter el falso
+final a los dos minutos y pico. Un fadeout, un fadein y a la marcha.
+
+Espero que nadie se ofenda por lo de "boring noiseprods can fit in 4k". Es
+solo una broma sin mala intención ;)
+
+Y como es tarde y tengo sueño lo voy a dejar aqui.
+
+Saludos a todo el mundo, especialmente a aquellos que me haya olvidado en los
+greetings de la intro :)
+
+slack
+
+P.D.: "\o_ AIIIIIII" añadido a petición de ayame. No, tampoco sé lo que es la
+integridad artística.
+
+---- Senseless rant (english version)
+
+Hi people. It's late, and I don't know what to write, so here goes the "making
+of" of this intro.
+
+In the last months I've seen lots of prods that only show some noise in-screen,
+while some rather strange tune is playing in the background.  As I'm not an art
+expert, they really bore me, so I thought that it would be a good idea to try
+to imitate that in 4k, so at least it's a bit more interesting from the
+technical side. And, as I had to prepare a 4k for BGparty, this seemed to be
+the perfect ocasion to code one of those prods enjoyable while drunk.
+
+The prod is horrible. I took the texture generation code that shash wrote
+for our kindergarden prod (grevox) and changed it a bit: added a bit of
+colour-cycling, some camera movements and done. The effect, IMHO, looks nice
+in the end.
+
+The synthesizer it's the same used in my later prods, only with the player
+a bit modified to allow some random variatons in the patterns tone of each
+iteration, because 10 minutes of the exact same track seemed like a bad idea.
+
+As I still had some spare space, I readapted the text writing routine that I
+didn't use in "Voxel Bukkake", and started to add some text. At the beggining,
+I was going to add about 10 minutes of scenepoetry without any meaning, or
+maybe some meaning... But as I'm not a good poetry writer, I decided to only
+write some greetings XD. The 10 minute countdown it's there just to show that
+I'm not breaking the 10 minute rule, but the prod could loop forever, and you
+could give some strange meaning to the prod (like "time passes without stop",
+well, insert here your favorite meaning...)
+
+When the prod was nearly done, I noted that the funny touch was not as clear as
+I wanted, so I decided to insert a false end at about 2:XX. Fadeout, fadein,
+and voila.
+
+Don't get offended for the "boring noiseprods can fit in 4k". It's just a joke
+without bad intentions.
+
+And, as it's late, and I'm sleepy, this is the end.
+
+Greets to everyone, especially to those that I forgot in the intro greetings :)
+
+slack
+ [Badly translated by shash/Collapse]
+
+P.D.: "\o_ AIIIIIII" added to ayame's petition. No, I don't know what artistic
+integrity is.
+

@@ -1,0 +1,23 @@
+                              - f l a m e -
+                          128 byte quality fire
+                     Copyright 1997 Gaffer/prometheus
+                            gaffer@zip.com.au
+
+Well, i've made it to 128 bytes, and now the time has come to move on to
+bigger and better things (heheh). Thanks to everyone who joined in and helped
+out with optimization - i've learned a lot and i hope that this code can
+teach people some neat size optimization tricks :)
+
+Have fun and learn.
+
+
+Greets
+- Rex DeathStar
+- mf
+- Jare
+- all my friends on #coders
+- everyone who entered in the 256 byte fire compo
+- everyone active in the .au demoscene, yeah both of you...
+
+ps. checkout the 256 byte fire compo page
+http://www.zip.com.au/gaffer/compo

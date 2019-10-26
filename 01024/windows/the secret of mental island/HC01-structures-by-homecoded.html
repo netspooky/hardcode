@@ -1,0 +1,170 @@
+<canvas id="V"></canvas>
+<script>
+    /**
+     * HC-01 Structures
+     *
+     * Released on 10/2014 at DemoJS in Paris by homecoded
+     * Released under MIT License. Do what you want with it. :)
+     *
+     * Abstract:
+     * Raymarcher of simple geometric structures that are created by logically combining 3D coordinates in binary space.
+     * Different rendering variables are changed depending on the time to create variation. Raymarcher results are stored
+     * in the alpha channel of the canvas.
+     * Music is created using ByteBeat.
+     *
+     * To make this into a 1k product, use closure compiler and then compress the result with jsexe into a PNG.
+     */
+    V = document.getElementById('V');
+    C = V.getContext('2d');
+</script>
+<script>
+    // fullscreen canvas
+    V.style.width = innerWidth + 'px';
+    V.style.height = innerHeight + 'px';
+    V.style.position = 'absolute';
+    V.style.top = 0;
+    V.style.left = 0;
+    // black canvas background
+    V.style.background = '#000';
+    var     // canvas
+            iWidth = V.width = 440, iHeight = V.height = 300,
+            aCanvasData = C.createImageData(iWidth, iHeight),
+
+            // animation
+            iStartAnimation = 0,
+            fAnimation,
+            fBeat,
+
+            // ray marcher
+            iEyeX = iWidth / 2,
+            iEyeY = iHeight / 2,
+            iEyeBaseZ = 40,
+            iEyeZ,
+            fStep = .0004,
+            aSinLookup = [],
+            iMaxZ = 113,
+            iMinZ = 100,
+            x, y,
+
+            // audio
+            t = 0,
+            oAudio
+            ;
+
+    // build BASE64-encoded wave file
+    // wave file runs at 38kHz mono
+    for (oAudio = 'RIFF_oO_WAVEfmt ' + atob('EAAAAAEAAQBwlAAAcJQAAAEACABkYXRh'); ++t < 1 << 22;) {
+        oAudio += String.fromCharCode
+            (
+                255 & (
+                        // firefox can't handle wave files starting with a bunch of zeros, 1| fixes that
+                        1 |
+                            // basic synth
+                            "&DJ/3KAS".charCodeAt(7 & (t >> 15 & t >> 14)) / 200 * t
+                                // filter for the basic synth, so it gets acoustically more interesting
+                                // filter changes depending on t
+                                & 64 + (127 & t >> 13)
+                            // generate a constant beat
+                            | t >> 6
+                            // add some hi-hats
+                            ^ 34 * Math.random() * (1 & (t >> 15 & t >> 13 & t >> 11 | t >> 13))
+                        )
+            );
+        // create sin-lookup table for the wavy structures
+        aSinLookup[t] = Math.sin(t / 50000) / 12;
+    }
+
+    // animation
+    function render() {
+        // initialize start-time on first render call
+        !iStartAnimation && (iStartAnimation = Date.now() / 1000);
+        // calculate the current running-time of the demo
+        fAnimation = Date.now() / 1000 - iStartAnimation;
+        // calculate the beat-id / number of beats of the music until now
+        fBeat = ~~(fAnimation / 0.431158);
+        // calculate the z-value of the eye-position (influences the FOV)
+        iEyeZ = iEyeBaseZ + 20 * Math.sin(fAnimation / 4);
+        // loop through all of the pixels of the canvas
+        for (y = 0; ++y < iHeight;) {
+            for (x = 0; ++x < iWidth;) {
+                var // build vector from viewer (eye) through screen into 3D world
+                    fVecX = (x - iEyeX) * 2,
+                    fVecY = (y - iEyeY) * 2,
+                    fVecZ = (0 + iEyeZ),
+                    fSin5 = Math.sin(fAnimation / 5),
+                    fLength = Math.sqrt(fVecX * fVecX + fVecY * fVecY + fVecZ * fVecZ),
+                    // perspective correct the vector
+                    fStepX = (fVecX / fLength * fStep) * fLength / iEyeZ * 58,
+                    fStepY = (fVecY / fLength * fStep) * fLength / iEyeZ * 58,
+                    fStepZ = (fVecZ / fLength * fStep) * fLength / iEyeZ * 58,
+                    // rotation makes everything better. Except when you're sick. But you're ok, right?
+                    fStepRotX = fStepX * fSin5 + fStepY * Math.cos(fAnimation / 5),
+                    fStepRotY = fStepY * fSin5 - fStepX * Math.cos(fAnimation / 5),
+                    // let's move a bit in z-direction to give it some dynamic
+                    fMoveZ = (fBeat & 64) ? ((fAnimation) % 16) : ((fAnimation / 2) % 16),
+                    // startpoint for the raymarching process
+                    fX = iEyeX + 0.5 - 2 * Math.sin(fAnimation / 8),
+                    fY = iEyeY + 0.5 + .2 * Math.sin(fMoveZ * .2),
+                    fZ = iMinZ + fMoveZ,
+                    iIndex = (x + y * iWidth) * 4,
+                    // alpha value in case the ray does not hit anything
+                    fAlpha = 255,
+                    // change the near clipping plane depending on beat counter
+                    fMinDrawAni = (fBeat & 128) ? 0.25 * (7 & fBeat) : 0,
+                    fMinDrawZ = iMinZ + fMoveZ + 0.1 + fMinDrawAni
+                    ;
+
+                // ray march the vector through the specified pixel
+                for (; fZ < iMaxZ + fMinDrawZ - iMinZ;) {
+                    fX += fStepRotX;
+                    // changing the fY component depending on beat counter and fZ creates the curves in the
+                    // straight structures
+                    fY += fStepRotY + ((fBeat & 32) ? aSinLookup[((~~(fZ * 100000))) % 314159] : 0);
+                    fZ += fStepZ;
+
+                    if (
+                        (fBeat & 64) ?
+                            // field of separate boxes
+                            fZ > fMinDrawZ & fX & fY & fZ :
+                            // parking garage like structure
+                            fZ > fMinDrawZ & (fX * 2 | fY * 4 & fZ * 8 & fZ & (fY | fX)) & fY
+                        )
+                    {
+                        // if the ray hits a solid part, then calculate an alpha value depending on
+                        // current z-value (the further back, the greater alpha, the less you see through the
+                        // black canvas)
+                        fAlpha = Math.min(1000 * ((fZ - iMinZ - fMoveZ) / (iMaxZ - iMinZ)), 255) & 255;
+                        // stop ray-marching when something is hit
+                        break;
+                    }
+                }
+
+                // fill the canvas image buffer with a plasma,
+                // plasma also depends a little on z-value of the ray
+                aCanvasData.data[iIndex + 0] = 127 + 127 * Math.sin(fX / 17 + fAnimation + fBeat);
+                aCanvasData.data[iIndex + 1] = 127 + 127 * Math.cos(fY / 16 + 2 * fAnimation + fBeat);
+                aCanvasData.data[iIndex + 2] = 127 + 127 * Math.sin(fZ / 20 + 3 * fAnimation + fBeat);
+                // use the alpha channel to draw the structures
+                aCanvasData.data[iIndex + 3] = fAlpha - 5 * Math.random();
+            }
+        }
+
+        // draw raymarched image
+        C.putImageData(aCanvasData, 0, 0);
+
+        // stop demo after 255 beats
+        (fBeat < 256) && requestAnimationFrame(render);
+    }
+
+    // create an Audio element and initialize it with the Base64-encoded wave file
+    // and reuse the variable that holds the wave data
+    oAudio = new Audio('data:audio/wav;base64,' + btoa(oAudio));
+    // compensate for the delay between play-call and actual starting of the music
+    // I want everything to be in perfect sync, so I have the audio element trigger the rendering as soon as
+    // audio is initialized
+    oAudio['onplay'] = render;
+    // Note: I use closure compiler for minification. Closure compiler actually tries to rename Audio-element properties
+    // such as onplay. By accessing it via array operator it keeps the name intact and minified result is still valid
+    oAudio.play();
+</script>
+

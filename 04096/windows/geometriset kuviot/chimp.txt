@@ -1,0 +1,7 @@
+Artisti:
+ teletubbarna feat. spq
+Entryn nimi:
+ geometriset kuviot
+Kompo:
+ 4k
+Lisätietoa: win32 + opengl

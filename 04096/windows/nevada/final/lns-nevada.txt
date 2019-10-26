@@ -1,0 +1,48 @@
+
+     __._        _.____   _.____   _.____   _.__    ____._    ____._
+   _/  |/________\|_   \__\|_   \__\|_   \__\|__)__/  _ |/___/  __|/____
+  _)   _/      /   /    /   /    /   /    /      (_   __|  (_____      (_
+  \    \      /        /        /   /     \       /         /   /       /
+  /_____\_____\________\________\___\______\______\_________\___________\
+ - -diP--------------------------------------------------------------uP!- -
+
+                                 Nevada
+                        Winner at Kindergarden 08
+                            4kb intro compo
+	
+Credits
+=======
+Visuals: Psycho
+Synth:   Blueberry
+Music:   Farfar
+
+
+Compatibility
+=============
+OpenGL, long shader, should work on decent ps3.0 hardware, that is:
+Radeon HD X1x00+ or Geforce 7x00+
+Tested on Radeon 4850 and Geforce 7800/8600/9600 so far, latest drivers and
+Windows XP/Vista/Vista64.
+Be aware that the music will take 10+ seconds to calculate.
+
+
+Info
+====
+Sphere Tracing / Ray Marching, Perlin noise volumes.
+First time we use our new 4k synth.
+The compo rules kinda suggested it would help naming the intro after an 
+american state ;)
+
+Deadline missed by only 12 hours and 12 minutes ... :o)
+Thank you to Kindergarden compo crew for allowing us to enter it. 
+
+Updated with more resolutions and fixed synth.
+
+
+
+Additional info
+===============
+http://www.loonies.dk
+
+
+

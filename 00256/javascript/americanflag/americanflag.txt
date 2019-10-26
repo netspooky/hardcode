@@ -1,0 +1,6 @@
+entry name=AmericanFlag.htm
+author handle=flec
+author name=Matt Weaver
+email=weaver@cs.ucf.edu
+comments=Saw the flag comments on the webpage and decided to make an American Flag.
+         Works under IE5, did not try it on any other browsers.

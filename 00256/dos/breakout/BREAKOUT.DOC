@@ -1,0 +1,27 @@
+                                   Breakout V1.0
+
+Code:  David Eccleston.                                  Design:  Garnett Last.
+                                    March 1995
+
+This entry for the 256 byte game compo is an 80x25 text screen breakout type
+game.
+
+It features bouncing correctly off sides and tops and bottoms of bricks.
+IE:  If you hit a brick on the edge it will bounce off the side, unlike most
+crap breakout type games.
+
+The speed of the ball will change depending on where the ball hits the paddle.
+Imagine the paddle is curved.  This can be dangerous if you hit the ball in
+such a way as to increase the speed the same way too many times and the paddle
+can no longer keep up.  I would have added a maximum but I ran out of space :)
+
+The speed of the game is machine independant and will screw up your dos clock
+by a factor of 4 during play.
+
+Special keyboard handler so you don't have to wait for key repeats to set in,
+and any set of arrow keys work.
+
+NOTE:  Collisions are processed vertically then horizontally, so the ball must
+       be above the paddle BEFORE it hits it, otherwise it will simply bounce
+       off the edge.
+

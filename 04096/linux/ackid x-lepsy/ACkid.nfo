@@ -1,0 +1,60 @@
+/* * * * * * * * * * * * * * * *\
+| @ Assembly '08, 5. place PC 4k|
+|                               |
+|     ACkid X-Lepsy by tvt      |
+|                               |
+|       audio: tejeez           |
+|   visual b-shit: tzaeru       |
+\* * * * * * * * * * * * * * * */
+
+
+Building from source:
+
+chmod +x ./4k.make
+./4k.make
+./4k
+
+.. You might want to stab the binaries
+to change resolution and fullscreen mode.
+You also might want to change the -Os
+to -O3 in 4k.make because I fail at coding
+and this  barely worked even on the kompo
+comp :))))
+
+The unoptimized binary takes args
+for resolution and fullscreeny
+-w <res>
+-h <res>
+--no-fullscreen
+./ACkid_unoptimized -w 1280 -h 1024 --no-fullscreen
+
+No args, falling to default which are: 1280x1024,
+fullscreen
+
+Done with: SDL, GL, GLU. OS's 64bit Linux.
+
+The big screen version's source nor binary
+we do not have. However, what was changed
+was resolution and few optimizations because
+Assembly's recording devices SUCKED BALLS!
+Worked all fine in jury, the "real" version
+worked just like the recorded version.
+
+AND GREETINGZ ARE SENT TO:
+
+The scene, minus PC lamers. (including ourselves)
+
+
+..those who helped tzaeru to get from
+Boozembly in single (..I think?) piece.
+Thanks for the free beer and whatever
+I was given!
+..and np1 for helping tzaeru off the
+arena. It's Monday afternoon and I still
+have a hangover from Saturday, fuck it.
+
+
+Fuckings to:
+
+Those responsible of Assembly's recording
+devices. 

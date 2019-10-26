@@ -1,0 +1,11 @@
+3x3
+by
+Reality Benders
+
+Music - Orbiter   (orbiter@dlc.fi)
+Code  - Razoredge (razzoekke@hotmail.com)
+
+This is the compo version, which supports only gus/nosound. Also doesn't like
+to be run under Windows. Final version coming someday. 
+
+.

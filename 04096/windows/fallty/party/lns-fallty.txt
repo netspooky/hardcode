@@ -1,0 +1,46 @@
+
+     __._        _.____   _.____   _.____   _.__    ____._    ____._
+   _/  |/________\|_   \__\|_   \__\|_   \__\|__)__/  _ |/___/  __|/____
+  _)   _/      /   /    /   /    /   /    /      (_   __|  (_____      (_
+  \    \      /        /        /   /     \       /         /   /       /
+  /_____\_____\________\________\___\______\______\_________\___________\
+ - -diP--------------------------------------------------------------uP!- -
+
+
+              Fallty
+                         
+   Released at The Meltdown 2006
+
+
+
+Credits
+=======
+
+Code: Psycho
+Music: PuRyX
+Music Code: kklangzeug by Gargaj & tsw
+
+Crinkler 0.4 used for compression.
+
+
+Compatibility
+=============
+
+Recent OpenGL drivers and some fast pixelshader 3.0 capable hardware with fast 
+dynamic branching like Radeon X1600+. 
+
+Made on X1900XT and tested on GF7800 - some initial lag on the gforce..
+
+Sorry, but no error messages yet if the main shaders falls back to software - 
+don't expect any frames in a reasonable amount of time - just kill it...
+
+Will try to free enough space in the final version for a faster version of the 
+main renderer.
+
+
+
+Additional info
+===============
+http://www.loonies.dk
+
+

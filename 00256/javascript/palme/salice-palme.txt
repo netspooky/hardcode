@@ -1,0 +1,11 @@
+
+256b.htm compo
+
+entry name: palme (gif update)
+author: salice
+email: salice@gmx.net
+
+
+comments:
+
+uses filters, only runs with ie i think

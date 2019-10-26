@@ -1,0 +1,5 @@
+Vaders by Optimus
+-------------------
+
+This intro is inspired from this https://the8bitpimp.wordpress.com/2013/05/07/space-invader-generator/
+I could have made some more with the space but there was not time and I still hate x86 :P

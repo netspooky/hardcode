@@ -1,0 +1,28 @@
+Sika - a 64kb intro for Juhla 3 , also known as Teuvo annas perunoita!
+
+Credits go something like this:
+
+Koodaus - Laama
+Kuvaus  - Laama
+Musaus  - Keksi
+
+This inpho is written by Laama.
+Requires a hefty 386 and fast Vga. Also Gus for music. This intro uses
+Gusplay 1.5 for pascal by Robban/Cda,Juggler/Enmuista and
+Enmuista/Renaissance. Gus configuration must be found at ultrasnd
+enviroment variable. So if you don't have gus try something like
+Set UltraSnd=250,1,1,11,7. Hope you got the idea.
+I have also a working gouraud routine but just didn't bother to put it here.
+Check the star in the end to get a clue. Man it sucks.
+Oh, almost forgot. More conventional memory you have free, the more solid
+it will run. And never EVER run it under dos shell or windows!
+
+We'd like to greet the following groups:
+Jeskola!,Interamnia,AbuA,tAAt,Brainles! Coders,Symptom,Orange,Deep,Black
+Rain,Tribal, and the rest. I have definetly forgot someone.
+And then following persons:
+Lemming,BetaCarotine,Kowtow,Disperin,Razorback,Sliver,Myssy,Heap,Caramon,
+Tonic,Distance,Humanoid,Drow,Megabyte,Sailmaker,Primon,Mov,all AbuA members,
+and rest of course.
+
+<*** End of Life ***>

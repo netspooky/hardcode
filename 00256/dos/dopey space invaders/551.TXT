@@ -1,0 +1,19 @@
+486 required to run this junk...
+
+What I sort of tried to do in 256 bytes... Laugh out loud... 551 bytes!
+Around 150 bytes of data!... well that can easily be reduced by means,
+though once I hit the 500 byte mark I thought I might as well give up
+anyway.
+
+So I did. Nothing works so dont expect anything....
+
+Should be possible to do it in a Bootro compo... hint, hint. 480 odd bytes
+to play with. Cool-nostic.
+
+Left/right: right <ALT> & <CTRL>,
+fire:       left <SHIFT>
+quit:       right <SHIFT>
+
+No detection and no score.
+
+bush.

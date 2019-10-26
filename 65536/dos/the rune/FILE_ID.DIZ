@@ -1,0 +1,10 @@
+The RUNE
+Terror Opera
+clean Win9x
+Sound Blaster comp. soundcard
+vbe1.2+
+
+command line options:
+ 0   - sound disabled
+ 1-9 - set dma (default = 1)
+

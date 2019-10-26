@@ -1,0 +1,25 @@
+
+			Crappy Intro I V1.0
+
+	      Copyright (C) 1995 Albert Software Inc.
+
+
+
+	This 1K intro contains just a horizontal starfield
+ and a little scrolly. Actually it isn't bad for a first intro.
+ The reason I wrote this was to find out if I am really capable of
+ writing intros and demos. Now you tell me!	:)
+ The code itself is about 500 bytes. The other half is the
+ text for the scrolly.
+
+	Check the source code to find out more.
+ If you use this source, please greet Albert Software Inc. in your next
+ demo or send me the source of one of your intros (asm). :D
+
+BTW: This program may be used and copied freely so long as the
+ applicable copyright notices are retained, and no modifications
+ are made to the text, nor the code. No money can be charged for
+ its distribution.
+
+
+ Read the file albert.inf for info on contacting me.

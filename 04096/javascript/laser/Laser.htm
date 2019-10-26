@@ -1,0 +1,115 @@
+<style>body,html{margin:0;padding:0}</style>
+<canvas id="c" width="960" height="540" style="width:100%;height:100%"></canvas>
+<script id="fsc" type="x-shader/x-fragment">
+precision mediump float;
+#define V vec3
+varying vec4 v;uniform float t;uniform float o;
+const vec2 j=vec2(0,.001);
+float to(V p,vec2 t){vec2 q = vec2(length(p.xz)-t.x,p.y);return length(q)-t.y;}
+float he(V p,vec2 h){V q=abs(p+V(0,6.,0));return max(q.y-h.y,max(q.x+q.z*0.57735,q.z)-h.x);}
+float dp(V p,float d,float v){float d2=sin(v*3.*p.x)*sin(v*3.*p.y)*sin(v*3.*p.z);return d+d2;}
+V tw(V p, float v){float c=cos(v*p.y);float s=sin(v*p.y);mat2 m=mat2(c,-s,s,c);return V(m*p.xz,p.y);}
+float line(V x0,V x1,V x2){V n=normalize(x1-x2);return max(max(length(cross(x2-x1, x1-x0))/length(x2-x1),dot(x0,-n)-dot(-n, x2)),dot(x0, n)-dot(n, x1));}
+float f(V p){return min(dp(p,to(tw(p,o),vec2(4.,1.)),o),he(p,vec2(8.,1.)));}
+V lasa[3];V lasb[3];
+float f2(V p){return min(min(min(line(p,lasa[0],lasb[0]),line(p,lasa[1],lasb[1])*1.5),line(p,lasa[2],lasb[2])* 2.),length(p-lasb[0])*0.3);}
+V n(V p){return normalize(V(f(p+j.yxx)-f(p-j.yxx),f(p+j.xyx)-f(p-j.xyx),f(p+j.xxy)-f(p-j.xxy)));}
+vec4 c(V v){float f1=min(1.,.3-v.y);float f2=min(v.y+.2,1.);return (vec4(f1*.1,f1*.2,f1*.5,1.)+vec4(f2*.5,f2*.1,f2*.1,1.))*2.;}
+void rml(V p,V v){
+int l=0;
+lasa[0]=p;lasb[0]=p+v*1000.;lasa[1]=lasa[2]=p;lasb[1]=lasb[2]=p+v;p+=v*8.;float sd=0.;
+for(int i=0;i<1000;i++){
+float d=f(p);
+if(d<.01){
+v=reflect(v,n(p));
+if(l==0){lasb[0]=lasa[1]=p;lasb[1]=p+v*100.;}
+else
+if(l==1){lasb[1]=lasa[2]=p;lasb[2]=p+v*100.;}
+else{lasb[2]=p;return;}
+l++;p+=v*.1;
+}
+sd+=d;
+if(sd>1000.)return;	
+p+=(d*v*.25);
+}
+}
+const vec4 amb = vec4(.1,.1,.2,1.);
+vec4 rm(V p,V v){
+vec4 col=vec4(0.);
+float w=1.;
+float sd=-3.;
+for(int i=0; i<1000; i++){
+float d=f(p);
+if(d<.01){
+V r=n(p);
+w*=.33;
+col+=mix(c(r),amb,min(1.,sd*.008))*w*2.;
+v=reflect(v,r);
+p+=v*.1;
+}
+float d2=f2(p); 
+float l=.1-min(.1,d2);
+col+=vec4(l,l,l*2.,1)*w*.5;
+d=min(d,d2);
+sd+=d;
+if(sd>1000.)
+break;
+p+=(d*v*.25);
+}
+return col+amb*w*.5;
+}
+void main(){
+V d=normalize(v * vec4(1,.5625,1,0)).xyz;
+vec2 m=vec2(sin(-0.5),cos(-0.5));
+d=V(d.x,d.z*m.x+d.y* m.y,-d.y*m.x+d.z*m.y);
+V p=V(0,7,-15);
+float f=min(max(min(t*.2,7.-t*.2),0.),1.);
+rml(V(10.,10.,-10.),normalize(V(-1.+cos(sin(t)+t*.1)*.5,-1.+sin(sin(t+1.)+t*.2)*.5,1.)));
+gl_FragColor=rm(p,d)*vec4(f,f,f,1);
+}
+</script>
+<script type="text/javascript">
+c=document.getElementById('c');
+gl=c.getContext("experimental-webgl");
+pr=gl.createProgram();
+gl.shaderSource(vs = gl.createShader(gl.VERTEX_SHADER), 'attribute vec4 p;varying vec4 v;void main(){gl_Position=v=p;}');
+gl.compileShader(vs);gl.attachShader(pr,vs);
+fs=gl.createShader(gl.FRAGMENT_SHADER);
+gl.shaderSource(fs,document.getElementById('fsc').innerHTML);gl.compileShader(fs);	gl.attachShader(pr, fs);gl.linkProgram(pr);gl.useProgram(pr);
+gl.bindBuffer(gl.ARRAY_BUFFER, gl.createBuffer());gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1,-1,1,1,-1,1,-1,1,1,1,1,1]),gl.STATIC_DRAW);
+gl.vertexAttribPointer(p=gl.getAttribLocation(pr,"p"),3,gl.FLOAT,false,0,0);gl.enableVertexAttribArray(p);
+audio=new webkitAudioContext();
+jsn=audio.createJavaScriptNode(4096,0,1);
+sn=0;
+ls=[0,0];
+jsn.onaudioprocess = function(e){
+for(var j=0;j<2;++j){
+var d=e.outputBuffer.getChannelData(j);
+for(var i=0;i<4096;++i){	
+var tt=sn+i;
+var f=Math.min(Math.max(Math.min(t*.2,7.-t*.2),0.),1.);
+d[i]=(Math.random()*.1+o*Math.sin(tt*(.01+.0001*j))*.5)*f;
+}
+}
+sn+=i;
+}
+var low = audio.createBiquadFilter();
+low.frequency.value = 1000.0;
+low.Q.value = 5.0;
+jsn.connect(low);
+low.connect(audio.destination);
+o=0;
+st=(new Date).getTime();
+t=0;
+function loop(){
+webkitRequestAnimationFrame(loop);
+t=((new Date).getTime()-st)*.001;
+low.frequency.value = 1000.+Math.sin(t)*200;
+if(o&&Math.random()>.9)
+o=0;
+else
+if(Math.random()>.95)
+o=Math.random();gl.uniform1f(gl.getUniformLocation(pr,"t"),t);gl.uniform1f(gl.getUniformLocation(pr,"o"),o);gl.drawArrays(gl.TRIANGLE_STRIP,0,4);
+};
+loop();
+</script>

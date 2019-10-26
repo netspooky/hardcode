@@ -1,0 +1,22 @@
+~~~ Lighting Road To Liquid Radiator ~~~
+
+A Linux 64k released by skypers from
+The Undead Sceners on Outline 2013.
+
+----------------------------------------
+HOW TO RUN IT
+----------------------------------------
+
+The intro was compiled on a 64 bits archlinux.
+You’ll need at least OpenGL 3.3 with GL_ARB_tessellation_shader
+extension.
+
+To run it, just call it that way:
+
+  ./lr2lr 1920 1080 # if your resolution is 1920x1080
+
+or better
+
+  ./lr2lr 1920 1080 f # f to enable fullscreen
+
+Thank you :)

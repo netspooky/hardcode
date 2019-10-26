@@ -1,0 +1,27 @@
+Info:
+=====
+by denote
+
+www.denotesoftware.com
+
+248 byte single-file compression/decompression program using the RLE compression technique
+
+Usage:
+======
+Compression:
+------------
+Rename the file to be compressed to "c"
+
+type "mrle c"
+
+The decompressed file is called "d"
+
+Decompression:
+--------------
+Rename the file to be decompressed to "d"
+
+type "mrle d"
+
+The decompressed file is called "e"
+
+enjoy!

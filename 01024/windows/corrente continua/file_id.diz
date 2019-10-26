@@ -1,0 +1,14 @@
+Corrente Continua - 1k intro
+by Zerothehero of Topopiccione
+28/06/2012 - Milan
+
+Thanks to Mic for Monjori source and Hitchhikr
+for 1k framework and 1kpack packing software
+
+Tested on PentiumD 3.0GHz / WinXP / GTS450
+Assembled with nasmw.exe --- linked with 1kpack.exe
+Only few values of variable "a" (line 255) are meaningful!
+
+WebGL version at http://topopiccione.altervista.org/01_tan.html
+Shader code from that page should work in Shadertoy and/or
+GLSL Sandbox (not tested yet).

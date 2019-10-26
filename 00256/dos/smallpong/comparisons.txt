@@ -1,0 +1,77 @@
+1.0 (547 bytes)
+
+There is one ball, two paddles.
+Ball travels diagonally, bouncing off of paddles, top or bottom.
+A scoreboard appears on the top line of the screen.
+Paddles are colored. The scoreboard line has a different colour than the rest of the field.
+When a goal is scored, the ball moves to the centre horizontal position and a random vertical position.
+At game start and when a goal is scored the ball pauses at its new starting location for a half second (to give the player time to ready).
+The left paddle is controlled by the CTRL and ALT keys, the game is exited by any other key.
+The right side paddle has a simple AI (if the ball is far enough to the right, the paddle will move toward it).
+
+1.0 to 1.1 (547 - 482 = 65 bytes)
+
+Discovered XOR reg,reg is smaller than MOV reg, 0
+Moved input and game drawing into main loop (CALLs were used only once in code).
+Created a put_pixel subroutine that leaves the GP registers intact (turned out to be quite versatile).
+Created a draw_paddle subroutine (now reuses same code for both paddles).
+Folded the random number generation into the new_ball subroutine (minor change to function, but still acceptably random).
+
+1.1 to 1.2 (482 - 470 = 12 bytes)
+
+Two INC bx instructions are shorter than ADD bx, 2.
+Created clamp_paddle subroutine to keep both player and AI paddles within the playing field (reused for both paddles).
+
+1.2 to 1.3 (470 - 469 = 1 byte )
+
+Replaced a MOV reg, mem; CMP reg, immed with CMP mem, immed.
+
+1.3 to 1.4 (469 - 450 = 19 bytes )
+
+Created subroutine collide_paddle which collides the ball with either paddle (used twice).
+Moved update_game subroutine into main loop (only called once).
+Saved a MOV bx, mem in AI code by changing ADD bx, immed; CMP bx, ax immed to SUB bx, immed; CMP bx, ax. (The results of ax were not reused.)
+
+1.4 to 1.5 (450 - 306 = 144 bytes)
+
+Removed scoreboard feature.
+Removed coloured paddles.
+Removed delay on score.
+Changed some 16 bit comparisons on Y coordinates to 8 bit.
+Moved new_ball subroutine into collide_paddle subroutine.
+Moved paddles to screen edges (replaces the left paddle X coord constant with 0).
+Moved game state update after vsync in order to interleave it with the drawing code:
+	Eliminates need to store last position of ball for clearing.
+	Saves a few MOV reg, mem by keeping values alive in their registers.
+
+1.5 to 1.6 (306 - 300 = 6 bytes)
+
+Moved player paddle movement code closer to player paddle collision code to save register reloading.
+
+1.6 to 1.7 (300 - 296 = 4 bytes)
+
+Tweaked random number generation to save a few bytes. Still acceptably random.
+
+1.7 to 1.8 (296 - 288 = 8 bytes)
+
+Placed ball Y position on stack between updates instead of storing it in memory (also push/pop instructions are much smaller than MOV reg, mem instructions). (Note this destroys one of the optimizations in 1.4 which clobbered ax, where this position is now stored.)
+
+1.8 to 1.9 (288 - 276 = 12 bytes)
+
+Placed ball X position on stack between updates.
+
+1.9 to 2.0 (276 - 264 = 12 bytes)
+
+Changed MOV ax, 0013h to MOV al, 013h, assuming that AX begins as 0. (May not be portable? Saves a byte though.)
+Placed player Y position on stack between updates.
+Changed ball Y and player Y position calculations to 8 bit where possible.
+
+2.0 to 2.1 (264 - 255 = 9 bytes)
+
+Moved input code into the middle of the code that updates the player position, saving storage of the movement position and associated memory addressings.
+
+
+-- Brad Smith
+http://switch.to/unleaded
+http://rainwarrior.thenoos.net
+rainwarrior@gmail.com

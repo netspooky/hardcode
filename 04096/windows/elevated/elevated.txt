@@ -1,0 +1,80 @@
+
+                         [NameOfTheIntroGoesHere]
+
+
+           4 kb intro by TBC and rgba, and also by rgba and TBC
+
+                            for Breakpoint 2009
+
+
+
+ .iq.typing.
+
+   exactly one year ago i made an executable procedural graphic and video
+   called ixaleno, which i liked. people asked when such imagery would be 
+   realtime, and i was answering "today", as i have already seen terragen
+   quality landscapes, completely procedural, in opengl. the point really
+   was how good i could do _in 4 kilobytes_. i experimented and concluded 
+   i could so something similar to ixaleno without much problem, and so i
+   stoped playing with it.
+
+   but then mentor asked me what's up and i showed him some of the images
+   while saying it was slightly too big for a full 4k intro, and not good
+   enough for a 64k. he replied "what about a collaboration and we make a
+   4k with it?".
+
+   he ported it to dx, he added his synth, he spoke to puryx and few days
+   after we had a tune, then the code got mentorized to dead and before i
+   could realize we were apparently making an intro! mentor did some more
+   mentorization and added support for gnu-rocket (hey, have a look to it
+   as it's very cool!). i reworked the rendering, then the camera system,
+   and script, and finally for two weeks we fought against the entropy.
+
+   as for my part, i'm sure rendering could have been better, but perhaps
+   i should instead learn for once that 4k is just 4096 bytes. dunno. but
+   anyway i'm happy with the intro. the tune is fantastic. not to mention
+   that working with mentor has been a superb experience.
+
+   it's little more than one day for the party now. we haven't slept much
+   last nights and we are quite tired in fact. but we will be in time for
+   the deadline, so we will enjoy the party!
+
+.notes.
+
+   believe it or not, this was running at 30 fps in a gefoce 7900 at some
+   point, but size optimizations forced us to ask you for a pretty decent
+   graphics card, like a geforce 8800gtx or hd4850. please, make sure you
+   have d3d9_33.dll somewhere there. also, you only need windows xp.
+
+   we are providing the following versions of the intro:
+
+   elevated_1024x768.exe  (letterboxed)
+   elevated_1280x720.exe
+   elevated_1280x1024.exe (letterboxed)
+   elevated_1440x900.exe  (letterboxed)
+   elevated_1920x1080.exe
+   elevated_1920x1080_hq.exe
+
+   the last version (hq) contains more geometry than the others. only for
+   those who have monster machines or are living in the future.
+
+.tech.
+
+   for those wondering, this a (too) low density flat mesh displaced with
+   a procedural vertex shader. there arent any texturemaps for texturing,
+   instead texturing (and shading) is defferred and computed procedurally
+   in a full screen quad. this means there is zero overdraw for the quite
+   expensive material at the cost of a single geometry pass. then another
+   second full screen quad computes the motion blur. camera movements are 
+   computed by a shader too and not in the cpu, as only the gpu knows the
+   procedural definition of the landscape.
+
+
+.credits.
+
+   music         puryx
+   visuals       iq                    [http://www.iquilezles.org]
+   optimization  mentor
+   synth         mentor
+   gnu-rocket    kusma + skrebbel      [http://rocket.sourceforge.net]
+   crinkler      mentor + blueberry    [http://www.crinkler.net]

@@ -1,0 +1,1 @@
+@cashcow.exe * %1

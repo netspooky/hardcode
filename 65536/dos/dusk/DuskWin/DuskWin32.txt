@@ -1,0 +1,118 @@
+
+ Dusk Win32 v1.0.4 - (c) Suburban Creations 1999
+ -----------------------------------------------
+
+< description & credits >
+  
+  This is the fourth Win32 version of our intro "Dusk", which
+  was first presented at the Mekka&Symposium 1999 demoparty.
+
+  It uses OpenPTC v1.0.18 and MIDAS Digital SoundSystem v1.1.2.
+
+  It was designed, programmed and ported to Windows 
+  by Eberhard O. Grummt aka Crossbone. 
+  The setup dialogbox was programmed by Peter Hermsdorf aka Prace.
+  Peter Osterballe-Christensen aka Pete E wrote the soundtrack.
+  
+
+  Dusk is our first release for the Win32 platform.
+  Please report any bugs you find, including bad timing of the
+  effects and the music to Crossbone.
+
+
+
+< tech >
+
+  You need Windows or Windows NT, versions 4.0 or greater.
+  A Pentium 233 or better with at least 64MB RAM and
+  a fast videocard supporting 320x240 truecolor modes 
+  are highly recommended.
+
+  If you enable "save debug file" in the setup dialog, the 
+  intro will write a file ptc.log to its folder. It contains
+  debug information from the video system. 
+
+
+
+< contact >
+
+  Crossbone : crossbone_sc@gmx.net (crossbone@suburban.jena.thur.de)
+  Suburban homepage : http://members.tripod.com/suburban_creations
+  Dialogos 99 homepage : http://www.dialogos.cc
+
+
+
+< info >
+
+  Dusk was ported to Win32 to allow a wider range of people to 
+  watch the intro. 
+  OpenPTC and MIDAS should work on almost any modern hardware, 
+  providing you the best possible graphics and sound output 
+  under Windows.
+
+  Be aware that the DOS version (which you can get from our homepage) 
+  is faster, and if you have a videocard with good VBE2.0 support, 
+  you might be able to enjoy the intro in truecolor even if OpenPTC 
+  is unable to set such a mode under Windows 
+  (this is the case on my computer, for example).
+  In addition, the syncronisation of effects and music is much better 
+  in the DOS version.
+
+
+  So people who say that using Windows solves all video and sound 
+  problems are just painfully wrong.
+
+  Some people flame coders for their VBE2.0 code in DOS demos/intros.
+  These people buy popular videocards which might be good for some 
+  games, but then they expect the productions by demosceners to run on it! 
+  If they don't run, they say the coders are "lame".
+  If you want to watch demos which are using the standard called VBE 2.0+, 
+  you better buy a card which supports this standard well enough. 
+  Also software tools can help a lot, even on cards with no VBE 2.0 bios.
+  
+  I don't want to promote using DOS and VBE, but I don't want to promote 
+  using Windows and DirectX either. Both pairs have advantages and 
+  disadvantages, this is the main point. Maybe Windows is the better choice
+  for the future.
+  It's just very funny when people complain that some older demos don't 
+  run on hardware it wasn't designed to run on.
+  Those people with their ultrahighspeed 3d accelerator card are probably 
+  no demosceners, so coders of VBE 2.0 demos shouldn't care if those 
+  helpless individuals are crying that some cool demo doesn't run on 
+  their pentium3 gamestation.
+
+
+
+< problems >
+
+  solving video problems:
+
+   if the graphical output looks distorted, you get strange colors or the 
+   fullscreen version doesn't run fullscreen, you can try these things 
+   to fix the problem:
+
+   * install the latest drivers for your videocard. 
+     you can get them from the homepage of the respective manufacturer 
+     of the card.
+ 
+   * install the latest version of DirectX.
+     you can get it from www.microsoft.com or from magazine-CDs.
+
+   * check Suburban Creations's website for a newer version of the intro.
+
+   by any means, please write Crossbone a short email describing 
+   the problem and if possible the way you fixed it.
+
+
+  solving sound problems:
+
+   if something is wrong with the sound replay, like interrupted or 
+   distorted output, you can try these things to fix the problem:
+
+   * select a lower sound quality in the MIDAS configuration dialog
+   * try other parameters in the MIDAS configuration dialog
+   * reboot your machine
+   * install the latest drivers for your soundcard
+
+   lower the lengths of the Buffers to increase the syncronisation
+   accuracy!

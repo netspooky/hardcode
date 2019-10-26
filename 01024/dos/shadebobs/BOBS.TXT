@@ -1,0 +1,24 @@
+;-------------
+; Shadebobs
+;-------------
+
+In "Unreal", "Amnesia", "Delusion" and others there is a sort of shadebob
+technique that is used. This technique is pretty simple, any demo maker
+knows much slicker routines than this one, but this will give everyone else
+some ideas on how it's done.
+
+What you do is move a set of X and Y coordinates around as you please. These
+represent the upper left corner of the bob. Then, you call a subroutine to
+draw the bob. The easiest way to explain this is a BASIC code chunk.
+
+DEF SEG = &HA000
+FOR BX = X TO X+SHADEBOBSIZE
+  FOR BY = Y TO Y+SHADEBOBSIZE
+    POKE (Y*320+X),PEEK(Y*320+X)+4
+  NEXT BY
+NEXT BX
+
+This is obviously going to be VERY slow... but with a little work, you can
+crank it out in ASM and even this algorithm (which is the one I used) can move
+at a decent speed.
+

@@ -1,0 +1,4 @@
+"The Sixth Hour" by rowan
+http://www.godcentric.com
+
+Tested on IE 5+ and Netscape 6 so far...

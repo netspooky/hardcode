@@ -1,0 +1,52 @@
+Lintu
+
+Musiikit saa pois valitsimel -m, sen lis‰ks resoluutiota voi vaihtaa
+valitsimil -w xres -h yres... Vaik:
+lintu -m -w 320 -h 240
+
+Siin‰ on niit‰ batteja, et voi suoraan klikata Windowsista jonkun reson ja
+musia s‰‰t‰‰ pois. Jos nimi on *nmus.bat, niin siin‰ ei ole musiikkeja,
+numero on resoluution leveys...
+
+S‰hk‰possuja: hipo@nic.fi
+
+Alhaalla on turhaa moskaa...
+
+12.5.2001
+
+----------------------------------------------------------------------------
+ :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :)
+ :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :) :)
+----------------------------------------------------------------------------
+
+Kips... Intro. Kips... Intro. Lintu.
+
+H‰...?
+
+Joo.
+
+Tosi kamalaa Ray Tracingia...
+
+Tehnyt Hipo / Lonely Coders (#lonelycoders)
+
+Sorsat:
+
+Sorsien pit‰s k‰‰nty‰ Microsoft Visual C++ 6.0:lla, kun on minifmod
+v‰‰netty jonnekki lib\ kansioon ja headeri sinne jonnekki... Minifmoddi
+http://www.fmod.org muistaakseni.
+
+Sorsat k‰‰ntyy DJGPP:ll‰kin, warningia tulee hirve‰sti kyll‰. Mut ei kyll‰
+toimi, kaatuu Script.cpp:ss‰ jostain syyst‰, ei ehdi oikeen mietiskell‰ sit‰,
+sori :). Tein tuen muutenki vajaassa tunnissa kopaten ikivanhan vesa rutskun
+ja muutellen v‰h‰n, ei v‰ltt‰m‰tt‰ toimi muutenkaan :)
+
+Joops... Mulle saa l‰hett‰‰ s‰hk‰postia osotteeseen hipo@nic.fi,
+kotisivuillakin voi k‰yd‰ http://shell.nic.fi/~hippo/ mut ei siell‰ kyll‰
+mit‰‰n ole :) Tota... Ja Lonely Codersilla on ehk‰ joskus viel‰ sivut,
+http://www.lonelycoders.cjb.net
+
+T‰‰ on niin lyhyt ja huono intro, ettei t‰h‰n viittiny terkkuja laittaa :)
+
+Juuh...
+
+Hassua, ett‰ luit n‰in pitk‰lle :)

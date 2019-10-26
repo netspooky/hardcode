@@ -1,0 +1,5 @@
+"Jumpy" by mados
+http://wildmag.de/mados
+
+A cute red ball jumping around. Bounce it using your mouse!
+IE 5.0+ only.

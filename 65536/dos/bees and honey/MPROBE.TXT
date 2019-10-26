@@ -1,0 +1,263 @@
+When the dawn of intergalatic Man rises, we shall be in memories of the Old Ones
+           ÄÄÂÜÜ  ÄÄ  ÄÄ¿ÜÜ  ÄÄÄÜ   ÄÄÄÜÜ  ÄÄÄÜÜ  ÄÄÄÜÜ  ÄÄÄÜÜ  ÄÄÄÜÜ
+       ÜÜ°°ÛÛ³ÛÛ °ÛÛ °ÛÛÀÛÛ °ÛÛ ÛÛ °ÛÛ ÛÛ° ÛÛ ÛÛ° ÛÛ ÛÛ° ÛÛÄÛß° ÛÛÄ °°°ÜÜ
+       ßß °ÛÛ ÛÛ °ÛÛ °ÛÛ ÛÛ °ÛÛ ÛÛ °ÛÛÄßß° ÛÛÄÛß° ÛÛ ÛÛ° ÛÛ ÛÛ° ÛÛ°°°° ßß
+        °°°ßß ßß °ßß °ßß ßß °ßßÄßß °ßß°°°° ßß ßß° ßßÄßß° ßßÄßß° ßßÄßß°°°
+
+                 - infofile containing NO useful information -
+                               - 06/08/1994 -
+                 - text & ascii by Kristian "Cross" Lehtomaa -
+
+
+1. CONTENTS
+What has been changed since last version (dated 11/06/1994):
+  -new mindprobe ansi and slogan of the month!
+  -almost everything has something added
+  -opinions... was removed
+  -more detailed descriptions of our members added
+  -Mindprobe Fan Club was formed
+  -Crescent joined and Mindprobe Amiga was formed
+  -distsite application form
+
+  This infofile was created,  because everyone else has one of their own too.
+We in Mindprobe are mainstreamdudes and we follow the paths of the allmighty
+scenegods. The contents of this file are:
+	1. Contents			you're watching it
+	2. Yesterdays of Mindprobe      mindprobe's selfwritten highly
+					exaggerated bullshit-history
+	3. Release list                 short list of our products
+	4. Memberlist                   little descriptions...
+	5. Contactions                  how to contact us
+	6. Distribution sites           use your brains, dear Watson
+	7. Screetings			just some guys we want to remember
+
+
+2. YESTERDAYS OF MiNDPROBE (in the order these events happened)
+  Mindprobe was formed in july of 1993, but there had been co-operation
+between Sysostar and Mainframe some time before that (does anyone remember
+depression?). Since then, the memberlist has been almost the same  (Timo
+joined us in may of 1994). At first we started to make a demo, but no one of us
+had really idea what kind of product we should make: propositions came and went
+(I still have 2ü different logos in my harddrive). So a demo was never
+released.  Well, we all live in northern Finland  and we have much rainy  and
+cold days,  so a party would be something fun: idea of Abduction 1994 had been
+born.  Quickly we started to find out exactly what we would do and when. Our
+first production, ABINTRO, was released in a hurry. It was ordinary  intro
+with some  effects and gfx  in it with a chiptune as a soundtrack. Replay
+routine was still buggy, but if we wanted people to attend to Abduction,
+intro had to be released quickly.
+
+  Abduction 1994 was a big success, at least in our own opinion.  But as
+always, there are some	scenedudes who think that Abdu94 was a failure.  And
+this is our answer to you: TWAS NAE A FAELUIRE.(I think my Irish is getting
+better) We admit that there was _some_ problems with videoprojector, but it
+didn't matter, right?
+
+  At the Abduction,  we competed  with Unknown, a dentro which came second.
+This product contained texturemapped cubes, gouraud and many other neat
+effects. Since Seppo's SB-routine was buggy (and it takes to much CPUpower),
+Unknown supported only GUS. Just before Assembly 94, Mindprobe expanded also
+to amiga-scene when Crescent, talented composer and coder joined and founded
+Mindprobe Amiga. He coded an production which is sumthing between minimusic-
+disk  and intro and we released it at Assembly'94. We also competed in
+64k-introcompo with Bees and Honey.
+
+
+3. RELEASE LIST (really short shorter shortest version)
+abintro.zip     Date: 17/04/1994
+                Size: 170 kb
+                Supp: 386SX+, VGA, SB/GUS
+                Mcne: PC-compatibles
+                Type: Invitation intro to Abduction Party 1994
+
+unknown.zip     Date: 19/06/1994
+                Size: 500 kb
+                Supp: 386SX+, VGA, GUS
+                Mcne: PC-compatibles
+                Type: A demo(dentro), came second at Abduction 1994 democompo
+
+b&h.zip         Date: 06/08/1994
+                Size: 59 kb
+                Supp: 386sx, VGA, GUS
+                Mcne: PC-compatibles
+		Type: Bees & Honey, ?th at the Assembly '94 introcompo
+
+List of modules released by Vinyl, Mixtec and Crescent while they have been
+part of Mindprobe.
+Modulename     Year   Songname                     Composed by
+ahoy.mod       1993   Ahoy                         Vinyl
+ahoyii.mod     1994   Ahoy -remix                  Vinyl
+andromed.mod   1993   Andromeda                    Vinyl
+babylon.s3m    1994   Babylon blessing             Mixtec
+compomix.s3m   1994   Hein„talkoot		   Mixtec
+dune.s3m       1994   Dune                         Vinyl
+grtribe.mod    1993   Groovetribe                  Vinyl
+h2opipem.mod   1993   Waterpipemelody              Vinyl
+lil'funk.s3m   1994   Lil' funk machine            Vinyl
+mindflow.mod   1994   Mindflow                     Vinyl
+mp5space.mod   1993   MP5-spacecraft               Vinyl
+mylove.mod     1993   Farewell my love             Vinyl
+oivallus.s3m   1994   Pime„n v„ri: Oivallus        Vinyl
+syd„ny”.s3m    1994   Kuun lapsi ja t„htien tyt„r  Vinyl
+thelater.mod   1994   The Later divinence	   Crescent
+unknown.mod    1994   Tuntemattoman tunnari        Vinyl
+viisariv.s3m   1994   Viisarivalssi                Vinyl
+voodoo.mod     1993   4 a clock voodoo song        Vinyl
+
+
+4. MEMBERLIST (in no order but aplhaapbedtical order)
+
+Handle      Name              Age    Experteese            Status
+-------------------------------------------------------------------------------
+Official Mindprobe members
+Mainframe   Ilkka Jauho        17    code (PC)             active at PC
+Synapse     Seppo Jauho        16    code (PC)             active at PC
+Cross	    Kristian Lehtomaa  18    graphics and design   active at PC
+Vinyl       Aake Otsala        17    music                 active ar PC
+Crescent    Harri Salokorpi    17    code (AM) and music   active at Amiga
+Sysostar    V-P Yliniemi       17    sysop                 active BBS sysop
+Mixtec      Timo Ylir„is„nen   19    graphics and music    active at Amiga&PC
+-------------------------------------------------------------------------------
+Official Mindprobe Fan Club members
+JUSE        Jussi Ruonamaa     17    chairman              active in USA
+AxIoM	    Jari Ruokonen      17    secretary		   Scene-TV cameraman
+JUKE        Jukka K„rki        18    confident of funds    liverblaster pro 2
+Immortal    Samuli J„rvel„     17    cheerleader	   under A.P.B.
+Sewer	    Metri Pentu        17    guinea pig 	   MPFC AA-chairman
+Kamis	    Teemu S„rkel„      17    part-time lemming	   diggin' his hole
+-------------------------------------------------------------------------------
+
+Mindprobe member-descriptions:
+Ilkka "Mainframe" Jauho is the one who mainly does nothing.  Well,  he can
+	    code, but what can one do to ones lazyness. Organizing nice parties
+	    is one of the Ilkka's specialties, and we are thankful for that.
+
+Seppo "Synapse" Jauho is Ilkka's 2-years-younger-littlebrother, but in talent
+	    of coding with assembler he is  unsurpassed compared to his
+	    BIGbrother. Seppo is the youngest member of our group and is now
+	    studying mathematics at Korkalovaara's gymnasium.
+
+Kristian "Cross" Lehtomaa is the bigmouth  mothafucker.  He draws all those
+	    nice piccys and ansis.  Kristian has always strong black'n'white
+	    opinions about everything and just cant keep'em with himself.
+	    Kristian is also behind the design in our newest productions.
+
+Aake "Vinyl" Otsala is the  main musician  in our group.  Usually it is Aake
+	    who composes the tunes in our prods, because of the fact that
+	    Mixtec and Crescent are both kinda ambientlovers and Aake's funky
+	    tunes just are the one of the best ever made (at least in our
+	    opinion:).
+
+Harri "Crescent" Salokorpi handles the Amiga coding in our group. He also
+	    composes ambient music in his spare time (which he unfortunately
+	    doesn't have enough)
+
+Veli-Pekka Yliniemi, also called Sysostar,  handles the net-pr and spreading
+	    our latest prods. He runs our WHQ Putrefaction of Perfection.
+
+Timo "Mixtec" Ylir„is„nen is our second  graphician/musician,  so he's quite
+	    artistic guy. Recently Timo has been investigating the secrets of
+	    3DS, so he's the one behind all those objects and rendered piccies.
+
+Mindprobe Fan Club
+  Mindprobe Fan Club consists of our close friend who are always partying and
+boozing with us. They are also our betatesters,betacritics and betaa-petis. All
+MPFC members have their own yellow MPFC t-shirt and they get our MPFC clubmag
+once in every month together with starposters and signatures (noooot). To put
+this in another way: they are our partyanimals.
+
+
+5. CONTACTIONS
+with letter, phone or fax
+Ilkka & Seppo Jauho	     Harri Salokorpi		 Kristian Lehtomaa
+Urputie 17		     98400 Isokyl„		 Sudentie 4 A 8
+96190 Rovaniemi 	     Kemij„rvi			 96500 Rovaniemi
++358-(9)60-393902 (fax)      +358-(9)692-880252 	 +358-(9)60-394690
+organizing & pr 	     amigaswapping		 PC-swapping
+
+Timo Ylir„is„nen             A.M.Otsala                  V-P Yliniemi
+98720 Suomulahti             Vesikontie 12               Kieker”tie 4?
+Kemij„rvi                    96500 Rovaniemi             96??0 Rovaniemi
++358-(9)60-83343             +358-(9)60-391774           +358-(9)60-341194
+                                                         netcontacts, bbs-stuff
+
+with modem, call Mindprobe WHQ
+ ÜÄ¿Ü ¿ÜÄ¿ÜÄ¿ÜÄ¿ÜÄ¿ÜÄ¿ÜÄ¿ÜÄ¿Ü ÜÄ¿ÜÄ¿   ÜÄ¿ÜÄ¿   ÜÄ¿ÜÄ¿ÜÄ¿ÜÄ¿ÜÄ¿ÜÄ¿ÜÄ¿Ü ÜÄ¿ÜÄ¿B
+°Û°³Û°³Û°³Û°³Û°³Û°³Û°³Û°³Û°³Û°Û°³Û°³°°°Û°³Û°³°°°Û°³Û°³Û°³Û°³Û°³Û°³Û°³Û°Û°³Û°³B
+ Û ³Û ³Û  Û ³Û ³Û  Û ³Û  Û  Û Û ³Û ³   Û ³Û     Û ³Û  Û ³Û  Û  Û  Û  Û Û ³Û ³B
+ ÛÄÙÛ ³Û  ÛÂÙÛÄ ÛÄ ÛÄ´Û ³Û  Û Û ³Û ³   Û ³ÛÄ    ÛÄÙÛÄ ÛÂÙÛÄ ÛÄ Û ³Û  Û Û ³Û ³S
+ ß  ßÄÙß  ßÀÄßÄÙß  ß ÙßÄÙß  ß ßÄÙß Ù   ßÄÙß     ß  ßÄÙßÀÄß  ßÄÙßÄÙß  ß ßÄÙß Ù
+MNP 2-5 V32Bis                                               +358-(9)60-366233
+
+
+6. DISTRIBUTION SITES
+
+Country       Name             Number           SysOp          Other
+Finland  whq  PoP             +358 60 366 233   Sysostar
+Finland  d.s  Darkside	      +358  0 294 1594		       CC WHQ
+Finland  d.s  Morning Star    +358 51 363 4818  Betacarotine   Admire memberboard
+Finland  d.s  Revolution      +358 38 823 6582  Revel          Progyon WHQ
+USA,Ohio usHQ Psalm 69	      +1  513 530 9250	Khyron	       Acid
+
+  If you are a	BIG fan of ours and  think that your BBS is neat too,  why
+don't you fill the following form and send it to  Putrefaction of Perfection.
+What do you get for being  Mindprobe distsite?	Well... err,  ehm nuttin'
+Ah'guess,  but MAYBE,  just maybe,  your BBS will get LOOOOOTS of new users
+because your BBS is mentioned in this infofile ...or probably not.
+
+--------->8-------->8-------->8-----cut here!----->8-------->8-------->8--------
+First, the statistic information:
+BBS name:
+BBS nationality, (state), city:
+BBS phonumber(s):
+Modem speeds supported:
+BBS & Mailer Software:
+BBS net address(es):
+BBS megs:
+List networks you are in:
+SysOp real name:
+SysOp age:
+SysOp address:
+SysOp voice phone number:
+SysOp e-mail address:
+SysOp criminal record:
+SysOp alias/group:
+
+Then we would like known few things (answer truthfully):
+How many users do you have daily?
+Do you think your life is satisfying (yes/no)?
+How many megs do you have demos in you bbs?
+Wherefrom did you get this form?
+Have you ever killed a man (yes/no)?
+Will it rain tomorrow?
+Do believe in God?
+Is your wife a woman?
+When you are asleep, what do you do?
+Are you sure?
+How do you brainwash a lamer?
+Is your BBS functioning as a distsite for other groups (which)?
+And last, do you think that these questions were made for real?
+--------->8-------->8-------->8-----cut here!----->8-------->8-------->8--------
+
+
+7. SCREETINGS (in alphabetical order)
+
+Mindprobe screets
+Admire
+Capacala
+Complex PC (you'll have to clean up at abd95 ;)
+Crypton
+Fascination
+Gollum
+Inapt (still the second...)
+Progyon
+Sorrox
+
+Personal screets:
+Crescent/MP7 Every one in Fascination Taskmaster/Gollum Jussi JUSE
+Ruonamaa Dexter /PGN? MadZArt, Zak & Retaliator /Inapt AxIoM -
+Arsenal all MPFC members! GORE's sister Elli Alek/Escape Alliedsoft!
+Burger (with  cheese) /Progyon PSB/Cadaver Enzyme/Inflow -
+Nuno/Quadriga Zandax/Damage Ellyn/CNF J-P Kinnunen -
+
+eof.

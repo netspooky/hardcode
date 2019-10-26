@@ -1,0 +1,17 @@
+program: Linefire
+coded by: Kable
+compile with these options:  bcc -ml -Os linefre.cpp
+
+What can I say I like the fire routine. This program probably won't look
+very good on anything less than a pentium (Sorry!). Feel free to use any and
+all of the code included to do with as you will, but please give credit
+where credit is due. I used the Borland C++ v4.5 to do this.   
+
+                  Later,
+                      Kable
+
+
+
+Like it, hate it, tell what you think
+
+    email:: btomkins@re-compute.com

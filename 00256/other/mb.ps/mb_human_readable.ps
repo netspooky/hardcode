@@ -1,0 +1,27 @@
+/D{def}def		%redefined def -> D
+/M{mul}D		%mul -> M
+/L{exch D}D		%load value into variable -> L
+/S 52461 string D	%image array, 261x201 pixel
+-1 .01 1
+	{
+	/Y L	%for (y0 = -1, y0 < 1; y0 += 0.01), 201 pixels
+	-2 .01 .6
+		{
+		/X L	%for (x0 = -2, x0 < 0.5; x0 += 0.01), 261 pixels
+		0 0	%temporary x, y
+		0 1 60	%max iterations = 60
+			{/C L	%C - itaretions counter
+			2 copy
+			2 M M Y add			%y_new = 2*x*y + y0
+			3 1 roll
+			dup M exch dup M sub X add	%x_new = x*x - y*y + x0
+			dup abs 8 gt{exit}if	%if |x| > 8, exit
+			}for
+		gt	%we put two numbers to the stack each X cycle,
+			%now we can trash one and use number of stack elements
+			%minus two as the image array index
+		S count 2 sub C 4 M put	%image_array[x + y*261] = C * 4
+		}for
+	}for
+261 201 8[.5 0 0 .5 0 -195]S image	%translate image array to the raster image
+showpage

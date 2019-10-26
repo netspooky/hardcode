@@ -1,0 +1,34 @@
+
+250 byte TIC-TAC-TOE (386+ required)
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Artificial intelligence in 250 bytes?  Yep, it can be done.
+Here's the well-known game of tic-tac-toe (or 'boter-kaas-en-eieren')
+for you to play with.  And you don't need a gigabyte harddisk for it...
+
+The rules are very simple.  Players in turn place a token on a 3x3
+board.	You play with 'x', the computer plays with 'o'.  The winner is
+the first to have three tokens in line, either horizontally, vertically
+or diagonally.	That's it!
+The program uses the minimax algorithm.  Everything is calculated
+through till the end so the computer always does the best possible move.
+You move first.
+
+This thingy was written by Lucien Heins for the 256 byte game compo.
+It took me two days of puzzling.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Interested in the source?  Email me: lheins@wi.leidenuniv.nl
+
+Best regards go out to:
+  members of Lucid (good luck in the compo Chris)
+  Daniel Tauritz
+  Edward S Briggs
+  Remco Slijkhuis
+  and the organizer of this REFRESHING competition!
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+SMALL IS BEAUTIFUL!
+
+(Hmmm, this textfile is over five times the size of the program... :l)
+

@@ -1,0 +1,22 @@
+Ust Nap
+
+Asm '03 combined 4k
+
+Files:
+	in.foo - This file.
+	i - Compo version.
+	i.rel - Release version. Displays author info, no other
+		difference.
+
+Requires: 
+	_80x50_ Linux text console (don't try xterm or anything like
+	that, it won't work)
+	OSS-compatible sound (ALSA with OSS-emulation works fine)
+	Writeable /tmp (shouldn't leave anything there)
+
+	Precalc may take something like 10-20 seconds, be patient.
+
+Effects by Trilkk, audio & sync by Juippi, misc. help by Warma
+
+
+greetzei mutsilles

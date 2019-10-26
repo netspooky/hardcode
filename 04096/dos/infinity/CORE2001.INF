@@ -1,0 +1,27 @@
+Core 2001 - PC 4kb Intro Compo
+------------------------------
+
+Title     : Infinity
+Author(s) : JaMMiQ
+Group     : mOOnFloW
+Contact   : jam_krz@poczta.onet.pl
+
+Requirements :
+               * 386 + fpu
+               * 4mb ram
+               * vesa 1.2+ 320x200x16bit [0x10e]
+               * dos [himem only!]
+
+Note         : Please run this intro on pure dos with only HIMEM.SYS
+               and vesa drivers (if needed) installed. Intro uses
+               real flat mode, so, please don't use EMM386 or similar progs.
+
+Some other words from coder:
+
+ Hello! :)
+ I think that this is my last 4k intro. Coding of 4k intros in assembler
+ is boring. C rules forever :) Intro has only 3kb because I don't want to
+ code more ;P
+ I would like to greet all my friends and all people on scene.
+ Bye.
+

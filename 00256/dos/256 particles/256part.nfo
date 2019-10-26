@@ -1,0 +1,10 @@
+256 particles
+
+Particle engine with keyboard control by fr33ke
+in 256 bytes
+
+Keys:
+wasd: Control gravity
++: Add a particle
+-: Remove a particle (tip: go < 1 for max particles)
+ESC: Quit

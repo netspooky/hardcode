@@ -1,0 +1,10 @@
+Plasma64
+--------
+
+A 64b intro by Optimus/Dirty Minds^Nasty Bugs
+
+A simple plasma, using a Sinegen routine I once got from Baze and used frequently in my other intros too, and the same trick as in my 32b entry for 0A000h in order to change patterns/colors. Much better than my 1st 64b intro. I wish I could at first change the pallete but 64b is very few. This time I also have no vsync, so I hope it doesn't go too fast in the compo machine. I don't know if with some FPU assembly I could generate sines in fewer enough bytes, so that I had space for vsync.
+
+Compiled with FASM.
+
+optimus6128@yahoo.gr

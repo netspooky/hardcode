@@ -1,0 +1,43 @@
+		
+			REVELATION II 
+
+                by the Revelation Task Force :)
+
+  This little intro was born in a real pain. It was intended to be released
+at some other party, but as always, due to some unforseen problems we couldn't
+finish it on time :P. Even now i feel like a pissed off a bit. This intro
+has been presented at the Abduction party. Unfortunately the final version
+hasn't been shown, but instead some bugged pre-pre-pre... version, even though
+the proper version had been delivered :(). Actually i have no attitude concernig 
+the fact that this buggy stuff came 5th :). I depends on you if it's good or 
+not. If you like it, then i'll be glad :).
+  The file here is a bit altered final party version. The file has grown due 
+to adding no_sound support. It differs 'a bit' from the full sound stuff. 
+Anyway i'm a little fed up with 64k intros, so look after some bigger releases
+coming soon.
+  If you're a tech enthusiast, here comes some info:
+
+  -the intro uses Coop's pmode extender and xm player;
+  -all gfx is done in 32bpp;
+  -most of the effects use MMX instructions;
+  -raytraced segmented tunnel, plane and sphere were done by Coop;
+  -Coop has also done some other useful routines :) 
+    (xfades+bitblts and so on...)
+  -3D engine + turbulence effect + blobs + texture generator were done
+   by me;
+  -turbulence is based upon Steve Perlin's noise;
+  -in fact it REQUIRES MMX + Vesa 2.0 and hates W95 , emm386 or other
+   memory menager;
+  -and at last but not least, we ARE NOT RESPONSIBLE in any manner for
+   this piece of code, run at your own risk.
+
+
+		Cliff
+
+Some individual greets:
+	see the credits :>, all my uni friends, the rest of RVL team 
+	(see the nfo file :>), some inet dudes, Ravian, ED_Lead,Wain,
+	Midnight,Armitage,Frenzy,Gaffer,Unreal,Yoghurt,Spy,Chris Dragan,
+	Guilty,Tcman,Cleaner,Sensah,Arrakis,Compile,Darkness,PL,#demofr,
+	Statix,Zaac,Jon,Blackaxe,Mali,Lnx and the rest who knows me :).
+	

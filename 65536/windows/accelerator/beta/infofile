@@ -1,0 +1,51 @@
+
+
+ ACCELERATOR by DILEMMA                                            2000.10.28.
+ OpenGL 64k intro to Conference7007                            Made in Hungary
+
+
+.INFORMATION:
+
+ Half-baked 64k. This is the 0.42 beta version. :) Try with /diag.
+
+.CREDITS:
+
+ PROGRAMMING
+ Nap
+
+ MUSIC 
+ Sed
+
+ PICTURE
+ Ezah
+
+
+.SPECIAL THANKS TO:
+
+ MadOnion.com for ideas
+ Elitegroup for mxm player
+ Microsoft for Visual C
+ Authors of LCC linker
+ UPX Team for UPX packer
+
+
+.REQUIREMENTS:
+
+ Windows 95/98/ME
+ 3D Card with OpenGL support
+ 32bit color depth (because of stencil buffer)
+ DirectSound compatible Soundcard
+
+
+.TESTED ON:
+
+ Nap - Celeron 366 / 128Mb / TNT2 / Windows 98
+ Arn - Celeron2 566@910 / 256Mb / GEFORCE2 GTS / Windows ME
+
+
+.CONTACT:
+
+ Nap - nap@scene-hu.com
+
+
+.END

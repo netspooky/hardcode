@@ -1,0 +1,32 @@
+	Raster64, an 64byte intro
+	by Optimus/Dirty Minds/Nasty Bugs
+	Compiled with NASM
+	---------------------------------
+       
+	This is my first intro on X86 asm ever!
+	And I am a very very bad newbie (A small background on Z80 asm only)
+	And the space is toooo small :(
+	So please don't bite me, ok? :P
+	I love tiny intros though =)
+
+
+	INFO: Color cycling of a perspective-like thing using raster/cooper fx in textmode!
+	KEYS: Escape to quit
+
+	WARNING: Don't run under pure windows (Freeze! CLI must be the reason)
+	Run only through DOS box or pure DOS..
+	And prefer pure DOS for that, cause perhaps the sync still fuxx up..
+
+       
+	Mail me at: mkargas@hotmail.com
+	Find me at: http://users.auth.gr/mkargas
+ 
+	Goodies to stare at:
+	http://users.auth.gr/mkargas/grscene
+	http://cpc-demoscene.paraknowya.com
+	http://cfemales.paraknowya.com
+
+
+	   Cu
+
+	      Optimus

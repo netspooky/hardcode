@@ -1,0 +1,71 @@
+ :: Release
+  
+   Catch ya' clean by Bypass (final version).
+   
+   Won 1st place in the 64KB competition at Scene Event 2001, 
+   held in Harridslev - Denmark.
+
+   "Tak for kampen Mainloop"
+
+:: What's new
+
+   + This version features the full quality 16bit music. 
+     The party-version featured a DCT-compressed version of the XM.
+   
+   + Some memoryleaks have been stuffed with dutch beer and the intro now also runs on Windows 98.
+
+:: Requirements
+   
+   Windows 2000/98, OpenGL.
+
+   This intro has been tested sucessfully on the following graphics cards:
+        TNT2-PCI, Intel 82815, Geforce 2 MX and Geforce 2 GTS.
+   
+   And the followin CPU's :
+   	Intel Pentium 3 800MHZ, Intel Pentium 3 500MHZ and AMD Athlon 1200mhz.
+   	
+   Maximum viewing pleasure at 800MHZ or greater and Geforce 2-class cards (or greater).
+   Note: on nvidia cards it is advisable to use the latest detonator drivers!
+
+:: Commandline parameters
+
+   Write "cyc.exe window" to run the intro in a nice little window.
+
+:: Credits
+   
+   Main code and design ............... : Macaw
+   Add. code .......................... : Supah
+   Music .............................. : P-rat
+   Poster ............................. : Tomic
+   
+
+:: Add. credits
+   
+   Markus Oberhumer and Laszlo molnar . : UPX
+   Firelight Multimedia ............... : MiniFMOD
+   Jar of Alienprophets ............... : 3DS loader
+   
+   
+:: Greetings
+
+   Aardbei, Alienprophets, Blasphemy, Calodox, Exceed, Fairlight, Fudge,
+   Haujobb, Kolor, Kooma, Loonies, Mainloop, Nanv, Mfx, Prone, Purple, Tpolm.
+
+
+   Thanks to all the people who supported me with beer and other party necessaries durring
+   Scene Event 2001, in particular Ile/Aardbei, Byter/Blasphemy, Jar - Nudge - Ephoy - Gaia / Alienprophets,
+   Shifter/TKB, Kvark/Prone, Kuben, Mihtjel bett' lårt, Melwyn, Farfar/Loonies, Puryx,
+   TBC (med bukserne om anklerne), Flemming Frandsen and the rest of the Scene Event 2001 organizers!
+ 
+   
+:: Contact
+   
+   Webpage ........... : http://bypass.scene.org
+   Email (Macaw) ..... : rasmus@cromatics.dk
+
+  
+:: Relax
+   
+   See you at Dialogos 2001 (www.dialogos.cc) and TRSAC 2001 (www.trsac.dk).
+
+   

@@ -1,0 +1,22 @@
+
+hi assembly-dudes.
+
+this is "licht3".
+by haujobb.
+a contribution to the ibm-pc 64kB intro competition.
+
+the intro needs a "dos4gw.exe" to be somewhere in the paths.
+
+the intro supports two videomodus:
+1) 320x200 in 16bit (65536 colours)
+   for vesa-hicolour cards
+   (univbe might help here)
+2) 320x200 fakemode (320x400 register compatible)
+   for non-hicolour cards (and those which just can't handle 320x200)
+
+if the 320x200 hicolour modus does work with the installed vga & projector,
+please run the intro in hicolour mode!
+if hicolour is a problem in any way, select the second mode.
+
+thanks a lot.
+

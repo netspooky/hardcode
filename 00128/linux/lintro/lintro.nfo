@@ -1,0 +1,31 @@
+prod:   lintro
+type:   128 byte linux intro
+code:   frag/fsqrt
+date:   29-01-2012
+
+Binary linux intro in 128 bytes.
+Looks not so good but the goal was
+to make elf as small as i can.
+71 bytes is enough for headers
+and gfx setup (open /dev/fb0 and mmap it).
+
+To run it you should:
+1. Have working /dev/fb0
+2. Have rights to write to it.
+3. Check framebuffer resolution.
+4. Switch to fullscreen console (Ctrl+Alt+F1)
+5. Run appropriate binary file.
+	(only 32b color, sorry, if you have
+	24b, you need to change source).
+6. Try to enjoy.
+
+Tested on Debian 2.6.32-5-686.
+If you get segfault, try to change in source
+"org 0" to "org 1000h", "mov bl, 32" to "mov bx, 1020h".
+Source file is nasm compatible. 
+
+Big thanks to w23!
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com
+

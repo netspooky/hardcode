@@ -1,0 +1,151 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                        CREATiON DiSTRiBUTiON SiTES                          ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ Country  ³ Board Name:          ³ Number(s):      ³ SysOp:                  ³
+ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³ Sweden   ³ Evolution - CRN WHQ  ³ +46-8-50022544  ³ Thor / Creation         ³
+³          ³                      ³                 ³                         ³
+³          ³ Rage - CRN EHQ       ³ +46-8-50027393  ³ TKB / Creation          ³
+³          ³                      ³                 ³                         ³
+³          ³ Little Savage        ³ +46-60-41582    ³ The Loot / Triton       ³
+ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³ Germany  ³ Mortal Dystrophy     ³ +49-7940-58785  ³ Pharynx / TST           ³
+ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                HOW TO BECOME A CREATION DISTRIBUTION SITE                   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        We are looking for demo-oriented BBS'es that are interested
+        in becoming part of Creations growing number of BBS'es.
+
+        So, what does it take to become an Creation dist site?
+        In fact, it's not easy, we require a lot, but before
+        giving up, take a look at the following list:
+
+                - Your BBS MUST have every single one production
+                  Creation or any member of Creation has ever RELEASED
+
+                - Your BBS HAS TO contact Creation at least
+                  by calling Evolution or Rage
+
+                - Your BBS has to be absolutely DEMO-ORIENTED, NOT
+                  some gigantic all-around BBS. YOU yourself have
+                  to be very interested about demos and the PC demo
+                  scene in general
+
+                - Your BBS would also be a Creation information
+                  forum. You would have to answer questions concerning
+                  Creation and our production, and help people who have
+                  problems with our software
+
+                - Your BBS should be operated on a PC compatible,
+                  with at least a 14400 BPS modem and 300 megabytes
+                  of diskspace for demos, and the BBS should be open
+                  24 hours a day, and 365 days / year
+
+        So what do you get in exchange? Well, these things we can
+        guarantee:
+
+                - Your BBS will be mentioned in every Creation production
+                  in the distsite BBS list
+                - You have a chance to get all Creation future productions
+                  first hand, but only if you're active yourself
+
+        What we can't guarantee, but what is likely to happen, is that
+        your BBS will become more and more popular and it's quality
+        will improve dramatically.
+
+        Please read the above rules carefully and think twice before
+        sending in the application below:
+
+------<-------<-------<-------<---cut-here-------<-------<-------<-------<-----
+
+
+        THE CREATION DISTRIBUTION SITE APPLICATION FORM
+        ===============================================
+
+        Copy this application to it's own file, fill it out and give the
+        file the name of your BBS. Then send it to Evolution or e-mail it.
+        Do NOT fax it or send it by normal mail!
+
+        BBS name                 :______________________________________
+
+        BBS phonumber(s)         :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+
+        BBS modem(s)             :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+
+        Modem speeds supported   : [ ] 1200  [ ] 2400  [ ]  9.6k V.32
+        (place X on _ALL_        : [ ] 14.4k V.32Bis   [ ] 16.8k HST
+        appropriate boxes!)      : [ ] 14.4k HST       [ ] 19.2k ZyXel
+                                 : [ ] 21.6k USR Ter   [ ] 28.8. V.FC
+                                 : [ ] 19.2k V.32Ter   [ ] 28.8k V.34
+                                 : [ ] other: _______________________
+                                 : [ ] MNP 1-5         [ ] V.42Bis
+
+        BBS net address(es)      :______________________________________
+
+        List networks you are in :______________________________________
+                                 :______________________________________
+
+        BBS software             :______________________________________
+
+        Mailer software          :______________________________________
+
+        Is your board any other group's distsite or member board: (Yes/No)
+        If yes, please list them :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+
+        How many lines/nodes does your system have :____________
+
+        How many users does your system have :__________________
+
+        How large (in MB's) is your system   :__________________
+
+        Is your BBS very demo-oriented : (Yes / No)
+
+        In what country do you live :___________________________________
+
+        SysOp alias / group      :______________________________________
+
+        SysOp real name          :______________________________________
+
+        SysOp voice phone number :______________________________________
+
+        SysOp e-mail address     :______________________________________
+
+        SysOp age                :___
+
+        SysOp full mail address  :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+
+
+        Anything special we should be aware of?:
+        _________________________________________________________________
+        _________________________________________________________________
+        _________________________________________________________________
+        _________________________________________________________________
+        _________________________________________________________________
+
+
+------<-------<-------<-------<---cut-here-------<-------<-------<-------<-----
+
+        P.S. Filling up this form doesn't mean that you will automatically
+        become an Creation distribution site! We'll check the form and get 
+        back to you if we have positive news.
+
+        P.P.S. Many Thanks to Future Crew, (we'll make one of our own soon!)
+
+
+

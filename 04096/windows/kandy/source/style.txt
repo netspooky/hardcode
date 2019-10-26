@@ -1,0 +1,154 @@
+style.txt
+
+This file documents the coding style used in the 4K Framework
+
+Contents:
+	1. Symbol Naming
+	2. Commenting
+	3. Indentation
+	4. Compression
+
+--------------------------------------------------------------------------------
+1. Symbol Naming
+--------------------------------------------------------------------------------
+
+Symbols in the 4K framework have three parts, as shown below:
+
+                             s_main_msg
+                             |   |   |
+             The symbol's type   |   The symbol's name
+                                 The symbol's scope
+
+The first part describes the symbol's type. It can be one of the following:
+
+no prefix:	Preprocessor macros
+k_		EQU constants
+s_		Static data labels
+_		Functions
+.		Local symbols (See the NASM docs about this one)
+
+The second part describes the symbol's scope. In an object-oriented language
+like C++, this would be the class or namespace the symbol belongs to. The
+following list gives some examples:
+
+no prefix	Local labels and symbols with universal scope
+demo		Demo visuals
+main		Main window code
+math		Math library
+music		Demo music
+wave		Audio playback subsystem
+
+The final part is the symbol's name. It should be short and descriptive,
+like any good variable or function name.
+
+Here are some example symbol names, using the system above:
+
+_audio_make	Function, part of the audio generation code
+k_plasma_shift	EQU constant, part of the plasma texture code
+s_main_msg	Data label, part of the main window code
+debug		Preprocessor macro
+.skip		Local symbol, has the same scope as its parent label
+
+Finally, here are the common local labels:
+
+.repeat		This is used as the starting point for most loops
+.skip		This is used to skip some code in a conditional jump situation
+.quit		This label marks the end of some functions.
+
+--------------------------------------------------------------------------------
+2. Commenting
+--------------------------------------------------------------------------------
+
+The 4K framework uses a three-level commenting system to document functions,
+blocks of code, and individual statements.
+
+Functions use the following full-width comment block:
+
+;-----------------------------------------------------------------------------
+; _function_name
+;
+; Function description
+;
+; Parameters:
+;	reg	Description
+;	reg	Description
+; Returns:
+;	reg	Description
+;	reg	Description
+;-----------------------------------------------------------------------------
+
+Every function block should give the function's name and a brief description.
+If the function takes parameters, returns a value, clobbers registers, or
+performs other noteworthy actions, those facts should be put in lists below
+the function description. Overall, the function header should contain enough
+information to use the function without reading its implementation.
+
+Within functions, code should be divided into functional blocks 2-10 lines
+long. An example of a block might be a single function call, calculation, or
+logic operation. A single blank line should separate functional blocks, and
+a short comment should explain the block's purpose:
+
+		;Invoke the plasma generator:
+		xchg	ebx, ecx
+		sub	edx, eax
+		call	_plasma_split
+
+While most lines do not need commenting, lines with non-obvious instructions,
+data labels, or FPU instructions can benefit from individual comments.
+End-of-line comments should start in the 6th tab position and attempt to
+remain within the 80-column display. There is no problem if a comment needs
+to run longer, of course.
+
+		add	edx, edi		;Sets same flags as cmp edx, 0
+
+FPU insructions should comment the state of the stack after the function
+completes, since the stack is difficult to track mentally:
+
+		fsub	st3			;tn2,c1,tn2,t2,tn,t
+
+st0 is on the left, and the remaining registers are in increasing order to
+the right. 
+
+--------------------------------------------------------------------------------
+3. Indentation
+--------------------------------------------------------------------------------
+
+Each line in assembly has four parts: the label, the instruction, operands,
+and commment. To keeps the code lined up into columns, each section takes a
+certain number of tab stops regardless of whether or not it is present:
+
+Label		2 tabs
+Instruction	1 tab
+Operands	3 tabs
+Comments	4 tabs
+
+Tabs in assembly are 8 spaces. To set tabs in Visual Studio, go to Tools ->
+Options -> Text Editor -> Plain Text -> Tabs. Both the tab size and indent
+size should be set to 8, and the "Keep tabs" option should be selected. With
+tabs set correctly, each line should look like the following:
+
+label:          asm     op1, op2                ;Comment
+
+--------------------------------------------------------------------------------
+4. Compression:
+--------------------------------------------------------------------------------
+
+Compression is all about pattern matching. If patterns occur often, the
+compressor ratio improves. For this reason, try to use the coding patterns
+which offer the most redundancy.
+
+For example, always push dword literals onto the stack, even though byte
+literals may be smaller. The compressor will eat the 0's along with the
+redundant "push dword" opcode. When the code does require a dword paramater
+on the stack, the compressor will already know about the "push dword"
+pattern, and compression will improve.
+
+Storing structures containing many zeros is generally a good idea, since the
+compressor can usually handle redundant zeros better than the code needed to
+build the structure.
+
+HUGI 14 has a nice article by Dairo Phong, which dicusses the LZ compression
+algorithm. Understanding the theory behind apack's compression is a valuable
+tool for writing shrink-friendly code.
+
+You can get HUGI 14 at: http://www.hugi.scene.org/main.php?page=hugi14

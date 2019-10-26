@@ -1,0 +1,38 @@
+     			     -[ S o f t w a r e   F a i l u r e ]-
+
+                                   presents
+									
+                               [ STARBUILDERS ]
+
+                      a 64k intro released at Euskal 2010
+
+         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+           Code, GFX & Music .............................. Ham/SFL
+                 
+           Kkrunchy Technology ..................... Ryg/Farbrausch
+
+         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                                 requirements:
+
+                               Win32 / OpenGL 2.0
+							   
+					  		     An NVIDIA GPU
+				 It may work fine or not if you try it on ATI
+
+         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                                 greetings to:
+
+           MANKIND, NATURE, OZONE, CONSPIRACY, ASD, DARKAGE, NOCTURNS,
+           SCARAB, LOONIES, EPHIDRENA, SHITFACED CLOWNS, RGBA, SPONTZ,
+           HAUJOBB, RNO, SPACEBALLS, IRIS, TBL, EQUINOX, MATT CURRENT,
+           NETWORK, PURPLE'S STUDIOS, PANTUFLAS SOFTWARE, APPROXIMATE,
+           COLLAPSE, BIXO, NAPALM CORE, THE BIOMECHANICAL BASTARDS ...
+
+         - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                   -(See you in others futuresceneproductions)-
+
+       Ham/Software Failure                  http://sfl.untergrund.net

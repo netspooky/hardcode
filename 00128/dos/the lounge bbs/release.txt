@@ -1,0 +1,20 @@
+
+                .oooooo.    .oooooo.                        .
+              d8P'  `Y8b  d8P'  `Y8b              oooo    .o8
+     .ooooo.  888         888         oooo  oooo  `888  .o888oo
+    d88' `88b 888         888         `888  `888   888    888
+    888   888 888         888          888   888   888    888
+    888   888 `88b    ooo `88b    ooo  888   888   888    888 .
+    `Y8bod8P'  `Y8bood8P'  `Y8bood8P'  `V88V"V8P' o888o   "888"
+
+
+    --[21.03.2002]---------------------------------------------
+
+     original.file.........[occ-add6.zip
+     type..................[128byte bbs add
+     content...............[just showing a custom dialstring
+     party/request.........[telnet://thelounge.org +o martigan
+     involved..............[PigPen
+
+    --[contact]------------------------------------------------
+    [pigpen@unterweltherrschaft.de][www.unterweltherrschaft.de]

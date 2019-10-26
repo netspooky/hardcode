@@ -1,0 +1,66 @@
+           Ä ÄÄ ÄÄÄÄ ÄÄÄÄÄÄ SOME INFO ON JAMM ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄ Ä
+ Ä ÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄ Ä
+
+ This file contains information about who we are and why??
+ So if you have any intrest, just read this doc.
+
+ Jamm is a finnish group founded in 199?.
+ In our previous intro we had one 'm' less in our name,but after
+ hearing that there has been C64 group called Jam for a long time
+ we thought it would be vise to change our name.
+
+ Jamm consists of:
+
+        GALVADOS        Janne Hellsten          code
+        RUBBER SQUARE   Atte Kotiranta          code
+        CRIMAN          Sami Nieminen           graphics/design
+        MORDICUS        Mikko Tanni             music
+
+
+ Ä ÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄ Ä
+        ABOUT THIS INTRO
+        ----------------
+ This intro requires a 80386 machine, 100% compatible VGA card and
+ Gravis Ultrasound with 256kb RAM to hear the music. Altough the intro uses
+ some 386 instructions, it still runs in real-mode. Intro should run
+ perfectly whether there's QEMM/EMM installed or not, albeit a little slower.
+ It requires about 300 kb of conventional memory.
+
+ This product can be distributed freely as long as no payment is taken.
+ All the files in the following list must be present in the archive and
+ none of them shall be modified in any way.
+
+ Files in the package:
+   PAULA.EXE
+   FILE_ID.DIZ
+   JAMM.TXT
+
+
+ This intro, "Paula Faked" was made to compete in the Abduction party
+ held in Rovaniemi 1994. We began doing this intro five days before
+ the party so we had unbearable hurry but hopefully the time was not
+ wasted. The end of the intro lacks design because of the great
+ stress that took us all at the final days.
+
+ credits for this intro are as follows:
+
+        all coding              GALVADOS
+        music                   MORDICUS
+        graphics                CRIMAN
+        design                  GALVADOS & CRIMAN
+
+ Ä ÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄ Ä
+
+ To get our latest releases and other cool stuff, call:
+
+ BUBIBOX SBBS   +358-14-720223 (24h)    ---> 24800 bps
+
+ Messages to Janne Hellsten.
+
+  ³ You can also throw some mail to ³  ..or fax to      ³
+  ³   Sami Nieminen                 ³                   ³
+  ³   S„rkilammintie 109            ³  +358-16-56625    ³
+  ³   31600 Jokioinen               ³                   ³
+  ³   FINLAND                       ³                   ³
+
+ Ä ÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄ Ä

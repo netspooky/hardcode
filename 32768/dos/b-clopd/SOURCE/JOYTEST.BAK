@@ -1,0 +1,11 @@
+USES Crt,Joy;
+BEGIN
+  REPEAT
+    ClrScr;
+    WriteLn('        ',JoyPos(1));
+    WriteLn('        ',JoyPos(2));
+    WriteLn('        ',JoyButt(JoyButt2));
+    Delay(20);
+  UNTIL KeyPressed;
+  ReadKey;
+END.

@@ -1,0 +1,54 @@
+9K SPACE INVADERS VERSION 1.1
+September 17, 1995
+CHRONOLOGICAL RELEASE NOTES
+
+
+Version 1.0 - August 17, 1995
+-----------------------------------------------------------------------------
+
+- Initial release - No known bugs
+
+Version 1.1 - September 17, 1995
+-----------------------------------------------------------------------------
+
+- Invaders would stop shooting on the higher levels - FIXED.
+
+  - I discovered this one during a paricularily good game at school during
+    class [snicker].
+
+    A number is picked at random, and if it is 2, one of the invaders is
+    selected to fire. The number picked is the shot frequency, which is
+    decreased every level. Eventually, it reaches 2, which is the maximum
+    frequency (the random number 2 shows up every time, and the invaders
+    fire constantly).
+
+    Unfortunately, the number gets decreased below this value to 0, selecting
+    a random number between 0 and 0, thus 2 never shows up, and the invaders
+    stop shooting. It was a simple fix.
+
+- Time reset to midnight during game play - FIXED.
+
+  - I can't believe I didn't notice this! Dumb dumb dumb!
+    Thanks to Patrick A Springman for mentioning this one to me.
+
+    The game uses the real time clock for simple timing of the title
+    screen delays, printing delays, etc. When the game uses this timer,
+    it reset the timer to 0, then watched it until it reached a particular
+    value. The problem is, resetting this timer to 0 also resets the clock
+    to midnight.
+
+    The time change wasn't a permanent change. Once the machine was rebooted,
+    the timer is reinitialized with the CMOS clock value, and everything
+    returns to normal, but it was annoying anyway.
+
+    The game no longer adjusts the timer, rather it reads the current time
+    into a variable, adds the delay value to that variable, then watches
+    the timer until it reaches this calculated time.
+
+    It's better, but does cause some time inconsistancies. Mostly with the
+    amount of delay the title screens are displayed for - It doesn't seems to
+    affect the game play timing (as expected).
+
+- Added high score functions, and rearranged title screens so score is always
+  visible.
+

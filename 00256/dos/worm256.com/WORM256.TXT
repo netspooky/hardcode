@@ -1,0 +1,76 @@
+			BitSwitch proudly presents
+			==========================
+
+			---+ 	WORM256.COM   +---
+
+   		 	 Feel free to contact me 
+ 			 for an even worse update.
+
+ -----------------------------------------------------------------------------
+ TURN UP THE BRIGHTNESS AND CONTRAST OF YOUR MONITOR BEFORE PLAYING THIS GAME!
+ -----------------------------------------------------------------------------
+
+Overview
+========
+This game was programmed for a 256 bytes worm competition invented by Zaifrun,
+Gnome and I, BitSwitch. For unknown reasons I've decided to call my executable
+WORM256.COM, but feel free to rename the sucker... Please note that this game
+is take-it-and-distribute-it-or-leave-it-ware, which means that you'll have to
+do your best to distribute the game (with any accompanying files) or leave it
+alone.
+
+
+Developing the Game
+===================
+When I designed the game I decided to make it as enjoyable to play as possible.
+To achieve this I've implemented the following things:
+- a genuine scoring system
+- a head to head collision detection routine (sounds good, huh?)
+- the black-evil-kill-your-mama-with-an-axe-worms
+
+
+Controls
+========  
+Action		Player 1	Player 2
+----------------------------------------
+up		up		w
+down		down		s
+left		left		a
+right		right		d
+quit		esc		esc 
+
+Please note: You'll have to press space to start a new "round". The reason
+for implementing this is to make sure no player starts a new game by accident.
+
+
+Winning the Game
+================
+There are several ways of winning the game. These includes:
+- make your opponent collide with anything app. 40 times  
+- insult your opponent until he/she refuses to play any further
+- feed a puppy to some kind of hungry animal
+
+
+Known Bugs
+==========
+- runs perfectly under Windows 95 and Windows 3.x! (grin)
+- ctrl-break will surely kill this beauty
+- some memory managers just don't like my programming methods
+
+
+Contacting the Programmer
+=========================
+- If you find my game abusive and stupid I would advise you to 
+  mail me and insult me. 
+- If the strange thing should happen that you like my game and
+  would like get the latest update, just mail me, and I'll send
+  it to you. 
+- If you want to get the source code to this silly little program
+  just mail and I'll send it free of charge.
+
+
+				 BitSwitch
+			     (aka Kasper Lund)
+			       3713@hogym.dk 
+
+N.B. Mail me before 18th of June, 1997, or I'll never get your mail!

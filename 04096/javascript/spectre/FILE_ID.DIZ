@@ -1,0 +1,28 @@
+============================
+       S P E C T R E
+============================
+      WebGL 4k intro
+     by m / bitsnbites
+============================
+ Run instructions & support
+============================
+* Tested with FF & Chrome, Linux/Windows/Mac.
+* Dynamically adjusts the resolution to the browser window.
+  * Runs in 1920x1080 @ 60 FPS on an NVIDIA GeForce GTX 760.
+* Does not go automatically to full screen.
+* Does not hide the mouse cursor.
+* Starts immediately (after loading) when launched.
+============================
+          TOOLS
+============================
+To make this demo several tools were used:
+Shader Minifier: http://www.ctrl-alt-test.fr/?page_id=7
+Google Closure Compiler: http://closure-compiler.appspot.com/home
+JsExe: http://www.pouet.net/prod.php?which=59298
+
+The audio track was created using a custom Web Audio based synth:
+http://spectre.bitsnbites.eu/editor/
+
+Thanks to Paul Nasca for the idea and method for FFT based sound synthesis:
+http://zynaddsubfx.sourceforge.net/doc/PADsynth/PADsynth.htm
+

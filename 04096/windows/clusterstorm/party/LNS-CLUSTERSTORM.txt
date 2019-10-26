@@ -1,0 +1,31 @@
+
+
+	C L U S T E R S T O R M
+	* * * * * * * * * * * * * * * * *
+
+	     4k intro by Loonies
+	
+             Released at Assembly 2007
+
+
+
+	Credits
+	=======
+	Visuals Programming and Music by Maytz
+	Softsynth and System Setup by Rasmus
+	
+
+	Requirements
+	============
+	PC, Windows, OpenGL 1.1, and a fairly new gfxcard with loads of RAM
+
+	
+	Note | Compression á la Crinkler 1.0a, served chilled with a little squeeze of lemon...
+
+
+
+	Additional info
+	===============
+	http://www.loonies.dk 
+
+

@@ -1,0 +1,23 @@
+all: oldchsool
+
+OBJS      = sprites.o main.o musa.o planes.o landscro.o
+
+############################
+
+sprites.o: sprites.c sprites.h font.h
+
+sprites.h: sprites.pl
+	./sprites.pl > sprites.h
+
+musa.o: musa.c musa.h
+
+musa.h: musa.pl
+	./musa.pl > musa.h
+
+font.h: font.pl
+	./font.pl > font.h
+
+clean:
+	rm -rf *.o *~ oldchsool *.exe
+
+

@@ -1,0 +1,97 @@
+
+   ÛÛÛÛÛÛÛÛÛÛÛÛÛÜ ß ßß ßßß ßßßß ßßßßß ßßßßßß ßßßßßßßßßßß ßßÜ  Release no. 0004
+   ÛÛ          ÛÛ                                        Üß
+   ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÜ ÜÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÜ ÜÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÜ ßßß ßßßß ßßßß ßßß ßß ß
+   ÛÛ             ÛÛ ÛÛ             ÛÛ ÛÛ             ÛÛ
+   ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛß ßÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛß ÛÛ             ÛÛ   In Bun We Trust
+
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+    ÚÄÄ´what file to runÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³ For compatibility's sake, we included 3 versions of this demo.
+    ³ For the most part they're identical. Each version is just tweaked so
+    ³ that you don't have to look at a horribly stretched screen.
+    ³
+    ³ anamorphic16x9 - The 64k version for Widescreen monitors.
+    ³ Werkkzeug has the problem that the 64k files it  generates only support
+    ³ 4:3 resolutions and this one fixes the problem by having an image that
+    ³ displays a correct aspect ratio when stretched to 16:9.
+    ³
+    ³ letterbox4x3 - The 64k version for 4:3 monitors.
+    ³ Simply put, the widescreen image is shrunk to fit on a 4:3 screen.
+    ³
+    ³ safe - A version that's not 64k, but should work on all computers.
+    ³ Also, you can choose any aspect ratio and resolution in this one.
+    ³ It's significantly bigger, but it ensures that you'll be able to
+    ³ view this demo, since 64k doesn't work with all computers.
+    ³ Besides that, it's the same demo. REMEMBER TO ENABLE WAIT FOR VBLANK!
+ÄÄÄÄÙ
+    ÚÄÄ´prefaceÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³ (TomoAlien Speaking)
+    ³ Long time no see! Sorry for the delays, but here it is.
+    ³ Not really anything big, sure. But ZanaGB told me "Summer is coming and
+    ³ you ain't got a demo?". Summer came and as you know, summertime is the
+    ³ time to make lov- DEMOS. Yes, it's time to make demos.
+    ³ Needless to say, I was procrastinating. ZanaGB wasn't happy about that.
+    ³
+    ³ Also, congrats on getting the papers, ZanaGB and Princess Luna!
+    ³
+    ³ And yay we got nominated on Meteoriks!
+    ³ And yay we got tokens from Starchaser!
+    ³
+    ³ Quite a lot to be happy about! :)
+    ³
+    ³ Yeah this isn't much about the demo. Watch it and enjoy that's all.
+    ³
+    ³ (ZanaGB Speaking)
+    ³ It has been a couple of frantic months juggling personal stuff,
+    ³ academic things, and keeping up to date with what's going on in the Scene.
+    ³ Tom had most of this demo done for quite some time, but as more ideas
+    ³ came to the board it became apparent we had to stop what we were doing
+    ³ on the drawing board and get back to the demo, Hopefully getting in
+    ³ time for this party. There is not much to say about this demo,
+    ³ but we'd love to hear what YOU do have to say about it. Please enjoy it!
+ÄÄÄÄÙ
+    ÚÄÄ´metadataÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³   Demogroup: bonı (Bon^2 on Pouet and anywhere else without unicode)
+    ³   Prod name: diztrt
+    ³   Prod type: 64k Demo
+    ³     Runtime: 3 minutes 25 seconds
+    ³        Date: June 2015
+    ³       Party: @party 2015
+    ³    Demotool: Werkkzeug 1.2 by Farbrausch
+    ³      Design: TomoAlien & ZanaGB
+    ³    Graphics: TomoAlien
+    ³       Music: Syntax Errol
+    ³        Help: ZanaGB
+    ³     Testing: ZanaGB
+    ³     Support: ZanaGB
+ÄÄÄÄÙ
+    ÚÄÄ´greetingsÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³ Gargaj, sigflup, Forcer, TRSI, Planet Earth, ASD, Quite, Haujobb,
+    ³ Booze Design, Hokuto Force, Fairlight, Crest, Titan, Trilobit, Triad,
+    ³ PWP, Reality, Paradise, g0blinish, Spaceballs, Desire, Mandarine,
+    ³ Farbrausch, Still, Mercury, Meteoriks Organizers, DMA, ilmenit,
+    ³ Princess Luna, Baudsurfer, Starchaser and others we forgot
+ÄÄÄÄÙ
+    ÚÄÄ´membersÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³ TomoAlien, ZanaGB
+ÄÄÄÄÙ
+    ÚÄÄ´linksÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³
+    ³ bonı website:
+    ³ http://bon2.untergrund.net/
+    ³
+    ³ bonı on Pouet.net:
+    ³ http://www.pouet.net/groups.php?which=12302
+    ³
+    ³ bonı on demozoo.org:
+    ³ http://demozoo.org/groups/50138/
+ÄÄÄÄÙ
+    ÚÄÄ´special greetingsÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³ These are greetings given for special reasons. In chronological order:
+    ³ Sensenstahl, Fra, Starchaser
+ÄÄÄÄÙ
+
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+                                                              nfo by TomoAlien

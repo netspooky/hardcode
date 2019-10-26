@@ -1,0 +1,65 @@
+for screening only (a trailer in 64kb)
+                                by spinning kids
+released at towel 2003 
+________________________________________________
+
+the following bytes can be intended as info file
+________________________________________________
+
+ ok,  we are  lazy, but  not so  much. there is 
+ some  work being carried out  in the dark, and
+ since  we  always wanted  to contribute  to an
+ hungarian  party ,  we  assembled  this  short
+ trailer, keeping in mind that:
+
+ - trailers are cool.
+ - short releases are trendy.
+ - we haven't  that  much  spare time anymore.
+ - we haven't  any supernatural skill  anyway.
+ - realtime  radiosity ain't any  imaginative.
+ - long precalculation means big expectations.
+ - 11.2s / 64000 bytes ,full  frame  rate , is
+   a ridiculous compression ratio,but realtime
+   is still cooler than divx.
+ - breakpoint party will kick arses
+ 
+ let's point out the credits:
+ code   : rio
+ gfx    : rio, dixan
+ music  : dixan
+ desing : not really needed (luckily)
+
+ and then some dues:
+ firelight  multimedia  for fmod music system
+ m. oberhumer & l. molnar for UPX packer, all
+ the  organizers  at  Towel  party  for being 
+ trailer-tolerant and  for accepting  entries 
+ submitted through e-mail.
+
+ now, get some notes to contact us:
+ web      : www.spinningkids.org
+ rio      : rio@spinningkids.org
+ dixan    : dixan@spinningkids.org
+ everyone : sk@spinningkids.org
+________________________________________________
+
+ i guess this is all you expected from this txt
+________________________________________________
+
+ greetings:
+ since the intro is too short to credit anyone,
+ here you get a brief list, so that reading the
+ infofile  will  take  you longer than watching
+ the trailer.
+ p.s.: of  course  greets have to be written in 
+ the oldskool 3 char format:
+  
+  mfx.kwl.hjb.scx.ad.p.(b).unq.lnx.dcs.pht.fr.
+  dkd.rno.grn.3st.abd.asd.flt.cdx.vnt.exd.skm.
+ 
+ if you can't find yourself in the list,be more
+ imaginative or get your group a 3 char name.
+________________________________________________
+
+love,
+ RioDixanSk

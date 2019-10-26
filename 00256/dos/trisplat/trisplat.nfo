@@ -1,0 +1,12 @@
+Trisplat 256b for MS-DOS
+September 2014
+
+This is a 256b triangle rasterizer for MS-DOS. It renders
+randomly sized and positioned triangles in mode 13, cycling
+through colours in the default palette.
+
+Thanks to the following people for their help:
+matja, Two9A, Harekiet, vpro, burny
+
+Find me on #asm on EFnet
+dila

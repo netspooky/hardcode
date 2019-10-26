@@ -1,0 +1,61 @@
+
+    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     úZúAúRú
+    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     Hi Everybody!
+
+     Yes!  We are! Now with more power :) You have reached new production
+     from Alba-Grinders stable!
+
+                           Credits for this intro:
+
+                          Jim Goer - code of course,
+                           Zuo - little poor sound,
+                        Insert - little poor graphics.
+
+                    Thanx guys!!! You have done great work.
+
+     Intro  was coded in pure assembler. Flat mode is non stop cool so we
+     use  another  time  in  this  production.  We do not waste space for
+     fucking protected mode extenders :))
+     All  graphics  are  rendered  in  our redner-engine, so textures are
+     very, very... good... of course!!!
+     Intro needs 200kB of Base RAM and aprox. 1MB access via HIMEM.SYS.
+     Code  is optimized for Pentium and dedicated to 320x200x32768 colors
+     but...  but  Jim  Goer  decided  to code up some lines and you get 8
+     video modes. You can choose in command line: ZaR x, when x:
+
+                     0 . 320x200x15bpp bank switching
+                     1 . 320x200x15bpp linear frame buffer
+                     2 . 320x200x16bpp bank switching
+                     3 . 320x200x16bpp linear frame buffer
+                     4 . 640x400x8bpp bank switching
+                     5 . 640x400x8bpp linear frame buffer
+                     6 . 320x240x15bpp linear frame buffer
+                     7 . 320x240x16bpp linear frame buffer
+
+     Default is mode number 1. Best one.
+
+     ZAR  -  very  mistify name, isn't ? Yes, because Jim Goer loves this
+     kind of names. Not only standard English names.
+
+     Greets  ...  hmm  ...  we  love  all  of  you  so greetings going to
+     everybody ...
+     ... and the rest of scene ...
+
+                                                          signed Jim Goer
+                                                    Wolomin, 10 July 1998
+
+     Contact:
+
+     Rafal Bialy
+     ul. Chrobrego 6/12
+     05-200 Wolomin
+     Poland
+     048 022 7763755
+     bialyr@ee.pw.edu.pl
+
+    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     úZúAúRú
+    ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ

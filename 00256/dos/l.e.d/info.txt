@@ -1,0 +1,8 @@
+L.E.D.
+
+My first 256 bytes intro!
+requires fast processor :)
+
+coded by hole / n.h.k.
+assembled with fasm 1.69
+December 2010

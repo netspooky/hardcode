@@ -1,0 +1,116 @@
+
+                            ÛßßÛ ÛßßÛ ÛßßÛ ÛßßÛ ßßßÛ ß
+                            Ûßßß Û  Û Ûßßß Û  Û Ûßßß Û
+                            ßßßß ß  ß ßßßß ß  ß ßßßß ß
+                                     presents
+
+    64kb intro TURTLE'S SUICIDE      ****    WITH REMASTERED MUSIC     ****
+
+    this is our very first intro 
+    presented at Delirium'96
+
+    So, it's my first intro  coded in pure assembler.  Probably  looks very
+    lame, but it's my first real product in tasm, so that's  the reason why
+    it looks not very interesting. I put here  some gfx, some basic objects
+    and try to link it in one piece.  Recommended machine to run this intro
+    is 486dx4, but even at 386  you can  reach the end.  The reason, why it 
+    runs slowly  is crappy sort algorithm, but I was to lazy to  change it.
+    There's also a lot of bugs and  even I'm suprised why  this intro works
+    with them.  But nevermind...another  problem  is hand-painted graphics,
+    beacuse  my monitor  is nearly dead and  everything looks broken at all
+    resolutions (mainly in high res,  but even in 13h straight lines aren't
+    straight). So I'm sorry if something looks disgusting.  
+    And  please remove  your  emm386,  because while  some intro's test  we 
+    realized  that  emm386  fucks  music  up  when torus makes his fly. And 
+    remember  that it  is our first intro,  so probably it looks like shit, 
+    but I like it, because  I gave it live and  love  it like  mother loves 
+    her baby :).    
+                                                                    Bartol
+    
+    When Bartol came into my home and said about his intro ideas, I thought
+    that was the lamest idea I'd ever heard.  But when I saw intro gfx made
+    by Bartol,  I broke down and offered my help.  At the time, those intro
+    gfx,  which we used in Turtle's Suicide Intro are improved by me.  Also
+    I  made music for intro.  Maybe this  music looks lame,  but I fuck it.
+    Before  I did  'kashanka.mod'  (used in latest intro version), we tried
+    to  make  use  of my  other mods,  like 'ola!boga.mod', 'always.mod' or
+    'suicide.mod', but those mods weren't fit to our intro.
+    Bartol said, that he made intro alive and he loves it like mother loves
+    her baby.  Yes,  I agree with him,  but I gave a voice and nice looking     
+    skin for our product ...
+    If you want,  call it lame,  we  don't  matter about your opinion,  but
+    ­­­  ­­­  ­­­  ­­­   ENJOY OUR BRAND NEW 64k INTRO   !!!  !!!  !!!  !!!
+
+                                                                     Grover
+
+    A few days  before  the  release  date,  Bartol  has  encountered  some 
+    unexpected  technical problems.  He failed to put all the data into one
+    file - weird  things  happened while  uncompressing... He rewrote quite
+    a piece of code, and then, it  appeared that we  don't fit into the 64k
+    limit. We  decided to  shorten  the module - after spending few minutes
+    in the tracker  one sample  was cropped  - guess which :-). I'm affraid 
+    that Grover may  get furious  when he  hears it (meanwhile, he's out of
+    town). We  hope that  it work  well  on  your  machines -  not too much 
+    testing  was  done - only Bartol  and Grover  are unhappy owners of SB.
+    An irq5 dma1 p220 blaster  gives the most  chance of running the intro.
+    If you have GUS and  want to enjoy the  music please  rename suicide.#2
+    to suicide.mod and use some  background player  like cmodtsr to run the
+    intro. We are sorry for those difficulties. Our future productions will
+    use E.O.S.  and will  support all  Advanced Gravis  and  Sound  Blaster 
+    compatibile soundcards.
+                                                                        FiL
+
+    Polmos is  here now too,  but he doesn't want  to write anything. He is
+    a bit depressed, because he can wait till he puts his hands  on his new
+    computer, what's more, he had a little accident  in which he lost  some
+    front teeth, not so cool, eh?
+      							              (FiL)
+
+    12.11.1996
+
+    Surprisingly,  Suicide's  story  continues.  I've  just  returned  from
+    Gravity'96. Our cool friends from Liberty gave me a reprise of Kashanka
+    smoothed and remastered by Yez.  The intro is hopefully  more enjoyable
+    now.  And some more news - you'll soon experience some more cooperative
+    works from Enenzi+Liberty - beware, they're gonna kick your ass!
+								       FiL
+
+    legal note:
+ 
+    This is copyrighted, freely distiributed software. You are  encouraged 
+    to share it with your friends, but you aren't allowed to use it to any
+    commercial  purpurose  like  distributing  it  for  a fee. You can not 
+    modify  the intro nor any files distributed along with it.  You should
+    contact us if you wish to place this software on a BBS, an FTP site or
+    a CD-ROM collection.  Oh,  one  more thing:  please remember that this  
+    software comes without warrancy of any kind,  you run  it on  your own 
+    responsibility.
+
+    credits:
+
+     þ code, idea         : Bartol
+     þ music              : Grover
+     þ music remastering  : YeZ/Liberty
+     þ gfx                : Bartol, Grover
+     þ SB player          : FrontMan
+ 
+    special thanks to:
+
+     þ Warlock/Absence   code help
+     þ Ozir/Hypnotize    sinus table from CRY
+     þ Yarpen/Substance  help
+     þ Yez/Liberty	 smoothing da tune
+
+    greetings:
+
+     þ Absence
+     þ False Core
+     þ Hypnotize
+     þ Liberty
+     þ Logrus
+     þ Non Toxic
+     þ Substance
+     þ Tate
+     þ Tyro    
+							sincerely yours 
+							     Enenzi

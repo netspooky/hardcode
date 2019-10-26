@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\image_png.cpp" />
+    <ClCompile Include="src\intro.c" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\bsd_rand.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\image_png.hpp" />
+    <ClInclude Include="src\intro.h" />
+    <ClInclude Include="src\bsd_rand.h" />
+  </ItemGroup>
+</Project>

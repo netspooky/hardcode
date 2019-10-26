@@ -1,0 +1,28 @@
+============================
+    LIVING IN BOXES
+============================
+      WebGL 4k intro
+    by rimina / Paraguay
+============================
+ Run instructions & support
+============================
+* Tested with Chrome on Windows environment
+* There is two versions 720p and full HD 16:9 provided
+* Hides mouse cursor & overflow
+* Does not go automatically to full screen
+* Centers the demo to the screen when started
+* Starts immediately (after loading) when launched
+  * loading however takes a while and the browser can be unresponsive during that time.
+============================
+        TOOLS
+============================
+To make this demo several tools were used:
+Audio track is done using sonant-js live
+(Copyright (c) 2008-2009 Jake Taylor, Copyright (c) 2011 Marcus Geelnard )
+
+Packing the code is done using:
+Google closure compiler, http://closure-compiler.appspot.com/home
+GLSL minifier: http://glslunit.appspot.com/compiler.html
+JsExe, http://www.pouet.net/prod.php?which=59298
+
+Special thanks to Iq for great ray marching articles!

@@ -1,0 +1,30 @@
+TBC and Loonies
+
+present
+
+a 4k intro for Breakpoint 2008
+
+"Atrium"
+
+Credits:
+
+Mentor: Object generator, synth, rendering
+Puryx: Music
+Blueberry: Object modelling tool
+Lemmus: Modelling, design, direction
+
+Thanks to Maytz/Loonies for help with colours and design.
+
+Requirements: PS/VS 2.0, DirectX end-user runtime February 2005 (d3dx9_24.dll).
+
+The most notable fix in this hopefully final version is that rendering
+now uses 16-bit index buffers exclusively, but in more passes. This
+seems to be necessary as some nvidia drivers apparently are still having
+trouble handling 32-bit buffers *sigh*.
+
+We provide the intro in 1080i and 720p versions under 4k. We also provide
+a larger version with a proper setup dialog, including a resolution selector
+and other nifty options. 
+
+Thanks to Gargaj for publicizing the fwzSetup code on which we have loosely
+based our dialog code :). Thanks!

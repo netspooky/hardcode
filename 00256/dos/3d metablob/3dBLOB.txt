@@ -1,0 +1,20 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;	3D MetaBlob
+;
+;	05 July 2004
+;
+;	MZ1453 / GFB(tm) 80x86+80x87 division
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+REAL 3D Metablob-balls.
+
+Made on a 800 mHz 386+387 compatible IBM PC.
+
+There is also a fast version available, but i has a lower depth-resolution.
+
+
+
+gunslevbrugs@mail.tele.dk
+
+http://home13.inet.tele.dk/gfbtm

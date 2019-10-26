@@ -1,0 +1,29 @@
+
+		Li.Lovli.Tovli.I.Tivoli
+	* * * * * * * * * * * * * * * * *
+
+	        1k intro by Loonies
+	
+	      Released at TRSAC 2009
+
+
+	Credits
+	=====
+	Code..............................Maytz
+	Crinkler..........................Mentor (TBC)
+	
+
+	Requirements
+	=========
+	PC, Windows XP/Vista/Win7, OpenGL 1.1, Passwords?
+		
+	
+	Comments
+	=======
+	Big thanks to Mentor, Master S and Blueberry for
+	helping with some hacks and fixes. Size does matter!
+
+	
+	Additional info
+	==========
+	http://www.loonies.dk 

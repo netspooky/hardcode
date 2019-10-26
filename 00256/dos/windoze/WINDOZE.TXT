@@ -1,0 +1,10 @@
+Note riguardo il file WINDOZE.COM
+
+WINDOZE.COM avrebbe dovuto competere come contributo di GiF/G&G.
+Sfortunatamente, cosç non ä stato. Il codice originale di WINDOZE fa un uso
+anomalo dei registri video per forzare una risoluzione "ibrida", il che
+provoca una schermata rovinata su diversi sistemi. Avvisato del problema,
+l'autore ha preferito ritirare la intro dalla competizione.
+
+Qui viene presentata sia la versione originale, WINDOZE.COM, sia la release
+modificata per girare in 320x200, WINDOZ1.COM.

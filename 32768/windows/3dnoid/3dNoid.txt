@@ -1,0 +1,34 @@
+
+      ======      ========
+    ==========    ===========
+   ===      ===   ===     =====
+      ¤   ¤  ###  ### ¤¤¤¤  ====
+      ¤¤  ¤ #== ¤ =#= ¤   ¤  ===
+      ¤ ¤=#=#   ¤ =#= ¤   ¤  ===
+      ¤  ¤¤ #== ¤ =#= ¤   ¤  ===
+      ¤   ¤  ###  ### ¤¤¤¤  ====
+   ===      ===   ===     =====
+    ==========    ===========
+      ======      ========
+
+-----------------------------------
+A 3d version of Arkanoid by Synoduz
+ Released at Mekka/Symposium 2000
+-----------------------------------
+      Code by Xar of Synoduz
+  Graphics by FirimaR of Synoduz
+-----------------------------------
+  The makers of XarMan are back!
+-----------------------------------
+Greetz go out to:
+  Joe_chip
+  Zeek
+  Jacmet
+  Depth
+  Loonies
+  ...and all other danes at MS2000
+-----------------------------------
+Known bugs:
+  Big fucked up score bug
+  Graphic problems on some laptops
+-----------------------------------

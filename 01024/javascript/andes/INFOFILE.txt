@@ -1,0 +1,5 @@
+Entry name: ANDES
+Author: p01 / ribbon
+Category: 1k
+Platform: JavaScript
+Description: The Andes are the world longest mountain range: 7,000 km and 1,022 bytes of JavaScript.

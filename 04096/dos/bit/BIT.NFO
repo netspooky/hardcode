@@ -1,0 +1,30 @@
+BiT
+
+This is my contribution to the PC 4k-intro competition at Assembly '95 in
+Helsinki, Finland, released on the 11 of August 1995.
+
+It contains some space-cutted vector objects, twisting and
+twirling plasmaclouds and of course some not-so-nice scrolltext.
+The spacecut-part makes heavy use of the FPU, and I just love the FSINCOS
+instruction! :-)
+
+Hmmm, and what about some greetings?
+
+- All of you in TBL, especially Offa, Hitman, Fishbone, Ken, Equalizer, Axm,
+  Snorpax Tudor and Gizmo, joining me here in this one-night-with-the-boat-
+  from-Stockholm place. Rubberduck gets no greetings because he rather goes
+  to school than to a party :-) 
+
+- Everyone else here at the party (of course)
+
+- The Swedish space-pop-group S.P.O.C.K for their music which makes coding
+  possible twenty-five hours a day.
+
+- Hanna Carlsson for dragging me to the S.P.O.C.K-concert in Norrk”ping.
+
+- And finally Malin B”rjesson for saving my summer.
+
+/ Exon
+  The Black Lotus
+
+signing off...

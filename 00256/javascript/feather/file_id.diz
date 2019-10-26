@@ -1,0 +1,20 @@
+Hi everybody, this is another little image produced with
+CSS -- sorry, I didn't have ideas about anything
+more interactive than images :-)
+
+The code is a single for loop evaluating the following formulas:
+
+	w(n) = a * x(n) + (2 - 2*a) * x(n)^2 / (1 + x(n)^2)
+	x(n+1) = b * y(n) + w(n)
+	y(n+1) = w(n+1) - x(n)
+
+with a = -0.8, b = 0.9 and starting with x(0)=4, y(0)=0.
+The formula produces a nice feather-like pattern for 2500
+iterations, then converges to (0,0) abruptly.
+
+For each iteration, a P tag with absolute positioning is written
+in the document.
+
+Have fun,
+
+Bonz (Paolo Bonzini)

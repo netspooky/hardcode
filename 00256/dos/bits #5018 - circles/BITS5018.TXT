@@ -1,0 +1,24 @@
+           BITS 5018
+
+           "Circles"
+
+        Demosplash 2013
+        256 Bytes Intro
+
++----------------------------+
+| \      ##      *****       |
+|  \    #  #    *     *      |
+|   |    ##    *       *     |
+|   |          *       *     |
+|  /    $$$     *     *      |
+| /   $$   $$    *****     ..|
+|~   $       $          ...  |
+|    $       $        ..     |
+|     $$   $$        .       |
++----------------------------+
+
+h.samso@gmail.com
+thebitsclub.tripod.com
+
+H.S.J.(c)20130930, Copyright.
+All Rights Reserved.

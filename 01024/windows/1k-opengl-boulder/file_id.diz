@@ -1,0 +1,12 @@
+*** 1k-OpenGL-Boulder-Final ***
+
+First ever working (?) OpenGL effect that fits in 1024 bytes.
+-------------------------------------------------------------
+Balls in this final version are:
+
+	- More numerous.
+	- Smaller (looks nicer).
+	- Colored.
+
+-------------------------------------------------------------
+Written by Franck "hitchhikr" Charlet / Tristar.

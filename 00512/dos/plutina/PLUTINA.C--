@@ -1,0 +1,58 @@
+?include "VIDEO.H--"// 512 Bytes Demo Special For CC'999 Demo Party!
+?include "VGA.H--"// Demo by Denis Astahov from ANDESA Soft International.
+?use80386       //   FidoNet - 2:405/333.27 - 2:406/406.27 - 2:405/333.26
+byte palette[768];
+byte Copyright = "ANDESA Soft Ä> http://andesa.da.ru"; // Copyright (c) 1999.
+int c=000;
+int x=160;
+int v=160;
+int y=100;
+int u=100;
+
+SetPalete()
+{
+palette[0]=0;
+palette[1]=0;
+palette[2]=0;
+BX = 0;
+do {
+    DI = BX+BX+BX;
+
+    AX = BX * 64 / 85;
+    DL = AL;
+    palette[DI+3] = DL;
+    palette[DI+3+1] = 0;
+    palette[DI+3+2] = 0;
+
+    palette[DI+3+85+85+85] = 63;
+    palette[DI+3+85+85+85+1] = DL;
+    palette[DI+3+85+85+85+2] = 0;
+
+    palette[DI+3+85+85+85+85+85+85] = 63;
+    palette[DI+3+85+85+85+85+85+85+1] = 63;
+    palette[DI+3+85+85+85+85+85+85+2] = DL;
+
+    BX++;
+    } while( BX < 85 );
+}
+
+main()
+{
+SETVIDEOMODE( vid_320x200_256 );
+SetPalete();
+SETVGAPALETTE(,0,256,#palette);
+do{
+line19(160,100,x,y-100,c);
+line19(160,100,v,y-100,c);
+
+line19(160,100,x,u+100,c);
+line19(160,100,v,u+100,c);
+
+y=y+1;
+u=u-1;
+
+x=x-1;v=v+1;c=c+1;
+WAITVSYNC();
+}while (KBHIT()==0);
+SETVIDEOMODE( vid_text80c );
+}

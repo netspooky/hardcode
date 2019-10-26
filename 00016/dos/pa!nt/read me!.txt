@@ -1,0 +1,27 @@
+ this is a "PA!NT" , a 16Byte DOS Demo
+ written with NASM 
+ it is tested with DOSBox 0.74
+ if you use it, don't forget to trap the mouse
+ in the DOSBox with CTRL + F10
+ 
+ with two mouse buttons and a mouse wheel you
+ are able to paint with up to seven colors
+ 
+ left 					= blue
+ right 					= green
+ wheel 					= red
+ left + right 			= cyan
+ left + wheel 			= magenta
+ right + wheel 			= brown
+ left + right + wheel 	= white
+ 
+ i didn't test a mouse with more buttons
+ go ahead and try one, might be fun =)
+ also, yes, if you don't press any mouse buttons
+ you will paint "black" =(
+ 
+ feel free to modify and improve "PA!NT" :)
+ 
+ contact me if you like : https://www.facebook.com/mood.hell
+ 
+ 

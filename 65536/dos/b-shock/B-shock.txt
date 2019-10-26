@@ -1,0 +1,67 @@
+
+
+ <b-shock>                                             .betashockbyshame
+ <the respawn>                                         .released@theparty9
+                                                       .64kbintrocompetition
+
+
+
+  -the credits.
+    .audio     by zipp       
+    .meshes    by kry & peenut
+    .code      by peenut & kry
+    .help      by thorso & dawid
+    .player    by digisnap
+
+
+  -the requirements.
+    .pentium2 with 300mhz (400mhz would be fine)
+    .20mb ram
+    .sb compatible soundcard
+    .vesa 2.0 compatible gfxcard (run sdd)
+    .using 320x240 resolution at 32,24,16,15bpp
+    
+
+
+  -the sound.
+    .please edit the b-shock.cfg, enter sb-base, enter sb-irq, enter dma.
+    .thank you.
+
+
+  -the story.
+    .this intro is the sequel to our very first production "a-shock" which
+    .was to be released at dialogos but didn't want to run on the compo
+    .machine (and actually had very bad music).
+    .unfortunately, it wasn't spread well enough on the net and even we 
+    .don't really know if it has been released or not.
+    .but three days before christmas, we thought about making a new intro.
+    .and so the whole intro was finished even before christmas day, so it
+    .was actually hacked together in two days.
+    .this stuff was made in a terrible hurry, just to release this at
+    .the party 9. 
+    .so we hope you'll enjoy the trip.
+
+
+  -the greetings.
+    .zipp/kosmic         .thanks a lot for that great module and your support
+                         .(especially cause time ran out)
+    .crossbone/suburban  .for giving hints and releasing nice intros/demos
+    .digisnap/matrix     .for your help and your xm-player
+    .sol/trauma          .for his tutorials and your advice to visit your
+                         .homepage (you should visit his homepage ;)
+
+
+  -the contact.
+    .mail us for any comments
+    .(or try to catch us on irc at #coders)
+      
+        ilja (kry) heckmann          <ilja.heckmann@gmx.de>  
+        michael (peenut) schran      <peenut@gmx.de>
+
+
+  -the future.
+    .we are looking for some talented 3d artist and especially a sounder.
+    .please contact us, if you're interested.
+
+
+  -the end.

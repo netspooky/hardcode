@@ -1,0 +1,14 @@
+
+  Yermom
+
+A 64 kilobyte demo for PC by Poo-Brain.
+
+Released at Evoke 2017
+
+Andro               Animation, shaders
+Glow                2D, font, shaders
+Tropical Trevor     Code, tools, shaders
+Wurstgetrank        Shaders
+Punqtured           Music, sound design
+Virgill,            Music, sound design
+Gopher              Synth (64klang2)

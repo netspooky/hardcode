@@ -1,0 +1,41 @@
+               ____
+              /\___\
+_____________/\ \___\_____________
+             \ \/ / / 
+              \/_/_/
+
+
+    ::. Traction - Indigo .::
+ 
+ 
+ :. About this 64k
+ 
+  This is my first intro/demo. I 
+  hope it's bearable:)
+ 
+  It's quite short and lacks fxs.
+  But I wanted to create and use 
+  fresh effects, instead of the 
+  normal metaballs and the like.
+   
+  I'd like to thank:
+  - Preacher for all his help and 
+    support on many areas 
+    including design. :)
+  - gargaj for tips
+  - ryg for his exe packer 
+  - FL for minifmod 
+
+   - rale [ralaatik@cs.uku.fi]
+
+
+ :. Credits
+  rale     - programming 
+  grip 	   - soundtrack
+  preacher - basecode
+
+               ___
+              /___/\
+_____________/___/ /\_____________
+             \ \ \/ /
+              \_\_\/

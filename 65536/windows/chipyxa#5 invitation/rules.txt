@@ -1,0 +1,18 @@
+Chipyxa #5 (Anniversary) 
+chiptune compo
+
+http://www.chiptown.ru
+http://www.chiptown.ru/pages.php?type=chipyxa&page=allmodules
+
+We're glad to announce the beginning of the new chiptune contest - Chipyxa#5. 
+Compose your best tunes and submit them until December, 10th!
+
+
+Rules:
+
+.Style or composer's experience doesn't matter.
+.Only original tracks are accepted. Remakes, covers, remixes or released previously tunes are forbidden.
+.Allowed formats - xm, it, s3m, mod.
+.Filesize limit is 65535 bytes (64kb).
+.Internal samples compression allowed - such as IT 2.14 format and Boobie Squeezer (download)
+.Submission deadline - December 10th. 

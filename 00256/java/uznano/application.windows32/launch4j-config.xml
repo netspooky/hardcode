@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <dontWrapJar>true</dontWrapJar>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <outfile>/home/mxd/p3_sketchbook/theCodingTrain/uznano/application.windows32/uznano.exe</outfile>
+  <icon>/home/mxd/opt/processing-3.2.3/modes/java/application/sketch.ico</icon>
+  <classPath>
+    <mainClass>uznano</mainClass>
+    <cp>lib/uznano.jar</cp>
+    <cp>lib/core.jar</cp>
+    <cp>lib/jogl-all.jar</cp>
+    <cp>lib/gluegen-rt.jar</cp>
+    <cp>lib/jogl-all-natives-windows-i586.jar</cp>
+    <cp>lib/gluegen-rt-natives-windows-i586.jar</cp>
+  </classPath>
+  <jre>
+    <minVersion>1.8.0_74</minVersion>
+    <opt>-Xms64m</opt>
+    <opt>-Xmx1024m</opt>
+    <opt>-Djna.nosys=true</opt>
+    <opt>-Djava.library.path="%EXEDIR%\lib"</opt>
+  </jre>
+</launch4jConfig>

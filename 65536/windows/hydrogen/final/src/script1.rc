@@ -1,0 +1,143 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resrc1.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 105
+//
+
+MUSIC                   105     DISCARDABLE     "music.xm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// 107
+//
+
+SAMPLES                 107     DISCARDABLE     "samples.csm"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 107, 150
+STYLE DS_MODALFRAME | DS_SETFOREGROUND | DS_CENTER | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_RIGHT
+CAPTION "hydrogeN"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "-- 640x480 --",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,5,25,95,10
+    CONTROL         "-- 512x384 --",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,5,
+                    35,95,10
+    CONTROL         "-- 320x240 --",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,5,
+                    45,95,10
+    CONTROL         "-- full screeN --",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,5,55,95,10
+    CONTROL         "-- resize to fullscreeN --",IDC_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,5,65,95,10
+    CONTROL         "-- none --",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,5,90,95,8
+    CONTROL         "-- 22 050 --",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,5,
+                    100,95,8
+    CONTROL         "-- 44 100 --",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,5,
+                    110,95,8
+    DEFPUSHBUTTON   "reacT!",IDOK,5,126,45,20,BS_FLAT
+    PUSHBUTTON      "dissolvE",IDCANCEL,55,126,45,20,BS_FLAT
+    CTEXT           "======== gfx ========",IDC_STATIC,5,15,95,8,WS_DISABLED
+    CTEXT           "(C) (L) [KCN]group",IDC_STATIC,5,0,95,10,WS_DISABLED
+    CTEXT           "======== sfx ========",IDC_STATIC,5,80,95,8,WS_DISABLED
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resrc1.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""windows.h""\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include ""resource.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON                ICON    DISCARDABLE     "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 149
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

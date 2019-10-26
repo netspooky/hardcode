@@ -1,0 +1,352 @@
+UNIT uPopUp;
+INTERFACE
+
+USES Crt,ModiGraf,Dos;
+
+CONST
+      MaxFiles=100;
+      LookFor:STRING='*.asm';
+
+TYPE
+     tFileList=RECORD
+                 Name:ARRAY[1..MaxFiles]OF STRING[12];
+                 Attr:ARRAY[1..MaxFiles]OF Boolean;
+               END;
+     tPAItem=RECORD Name:STRING;Addr:Pointer; END;
+     tProcArray=ARRAY[1..100]OF tPAItem;
+     tMenuWindow=RECORD
+                   Items:LongInt;
+                   PtrToProc:^tProcArray;
+                 END;
+
+VAR Message:STRING;
+    Key_:Boolean;
+    TheProg:STRING;
+    Proc_,KeyProc:PointeR;
+    AktMenu:tMenuWindow;
+    MenuPos:LongInt;
+    MenuKey:Char;
+    SScreen:Pointer;
+    ReFresh:Boolean;
+    MaxVis:LongInt;
+    LastX,LastY:LongInt;
+    PB,PC,PX1,PX2,PY1,PY2:LongInt;
+
+PROCEDURE SaveScreen;
+PROCEDURE LoadSavedScreen;
+PROCEDURE NewMenu(X,Y:LongInt;DaMenu:tMenuWindow;B,C:LongInt;KeyP:Pointer;_Pos_,MaxVisObj:LongInt);
+PROCEDURE CreateMenu(VAR Win:tMenuWindow;N:LongInt);
+PROCEDURE PlugToMenu(VAR Win:tMenuWindow;I:LongInt;St:STRING;Proc:Pointer);
+PROCEDURE Load_A_File;FAR;
+PROCEDURE PopMessage(ST:STRING;Key:Boolean;B,C:Byte);
+PROCEDURE PopUp(X1,Y1,X2,Y2,B,C:LongInt;Proc:Pointer);
+PROCEDURE DrawBox(X1,Y1,X2,Y2,B,C:LongInt);
+PROCEDURE CallWithMessage(ST:STRING;Leer:LongInt;Proc:Pointer;B,C:Byte);
+
+IMPLEMENTATION
+
+PROCEDURE DrawBox(X1,Y1,X2,Y2,B,C:LongInt);
+VAR I,K,M:Longint;
+BEGIN
+  TextBackGround(B);
+  TextColor(C);
+  GotoXY(X1,Y1);Write('É');
+  GotoXY(X1,Y2);Write('È');
+  GotoXY(X2,Y1);Write('»');
+  GotoXY(X2,Y2);Write('¼');
+  FOR I:=X1+1 TO X2-1 DO BEGIN
+    GotoXY(I,Y1);Write('Í');
+    GotoXY(I,Y2);Write('Í');
+  END;
+  FOR I:=Y1+1 TO Y2-1 DO BEGIN
+    GotoXY(X1,I);Write('º');
+    FOR K:=X1+1 TO X2-1 DO Write(' ');
+    Write('º');
+  END;
+END;
+
+PROCEDURE PopUp(X1,Y1,X2,Y2,B,C:LongInt;Proc:Pointer);
+VAR I,K,M,Z,O,U,L,R,MidX,MidY,XSize,YSize,SSize:LongInt;
+    Save:^TScreen;
+BEGIN
+  PX1:=X1;
+  PX2:=X2;
+  PY1:=Y1;
+  PY2:=Y2;
+  PB:=B;
+  PC:=C;
+  LastX:=X1;
+  LastY:=Y1;
+  XSize:=X2-X1+1;
+  YSize:=Y2-Y1+1;
+  MidX:=(X1+X2)SHR 1;
+  MidY:=(Y1+Y2)SHR 1;
+  SSize:=YSize*XSize*2;
+IF Proc<>NIL THEN BEGIN
+  GetMem(Save,SSize);
+  FOR Z:=Y1 TO Y2 DO Move(Mem[$B800:((Z-1)*80+(X1-1))*2],Save^[(Z-Y1)*XSize*2],XSize*2);
+END;
+  FOR M:=2 TO 10 DO BEGIN
+    DrawBox(MidX-((MidX-X1)*M DIV 10),MidY-((MidY-Y1)*M DIV 10),
+            MidX+((X2-MidX)*M DIV 10),MidY+((Y2-MidY)*M DIV 10),B,C);
+    Delay(10);
+  END;
+  GotoXY(X1+1,Y1+1);
+IF Proc<>NIL THEN BEGIN
+  ASM
+    call Proc;
+  END;
+  FOR M:=10 DOWNTO 2 DO BEGIN
+    FOR Z:=Y1 TO Y2 DO Move(Save^[(Z-Y1)*XSize*2],Mem[$B800:((Z-1)*80+(X1-1))*2],XSize*2);
+    DrawBox(MidX-((MidX-X1)*M DIV 10),MidY-((MidY-Y1)*M DIV 10),
+            MidX+((X2-MidX)*M DIV 10),MidY+((Y2-MidY)*M DIV 10),B,C);
+    Delay(10);
+  END;
+  FOR Z:=Y1 TO Y2 DO Move(Save^[(Z-Y1)*XSize*2],Mem[$B800:((Z-1)*80+(X1-1))*2],XSize*2);
+  FreeMem(Save,SSize);
+END;
+END;
+
+PROCEDURE DrawIt;
+BEGIN
+  GotoXY(40-Length(Message) SHR 1,10);
+  Write(Message);
+  IF Key_ THEN ReadKey ELSE Delay(100);
+END;
+
+PROCEDURE DrawItProc;
+BEGIN
+  GotoXY(40-Length(Message) SHR 1,12);
+  Write(Message);
+  ASM
+    call Proc_;
+  END;
+END;
+
+PROCEDURE PopMessage(ST:STRING;Key:Boolean;B,C:Byte);
+VAR L:LongInt;
+BEGIN
+  Key_:=Key;
+  Message:=St;
+  L:=Length(St) SHR 1;
+  PopUp(40-L-2,9,40+L+2,11,B,C,@DrawIt);
+END;
+
+PROCEDURE CallWithMessage(ST:STRING;Leer:LongInt;Proc:Pointer;B,C:Byte);
+VAR L:LongInt;
+BEGIN
+  Proc_:=Proc;
+  Message:=St;
+  L:=Length(St) SHR 1;
+  PopUp(40-L-2,11,40+L+2+Leer,13,B,C,@DrawItProc);
+END;
+
+PROCEDURE Load_A_File;
+VAR I,K,M:LongInt;
+    Dir:STRING;
+    Sr:SearchRec;
+    Ch:Char;
+    List:tFileList;
+    Anzahl:LongInt;
+    SPos:LongInt;
+
+PROCEDURE DrawList(VAR List:tFileList;Pos,Anzahl:LongInt);
+VAR I,K,M,L,S,E:LongInt;
+BEGIN
+  TextBackGround(PB);
+  FOR K:=PY1+1 TO PY2-1 DO BEGIN
+    GotoXY(PX1+1,K);
+    FOR I:=PX1+1 TO PX2-1 DO Write(' ');
+  END;
+  L:=PY2-PY1-1;
+  M:=L DIV 2;
+  S:=Pos-M;
+  IF S<1 THEN S:=1;
+  E:=S+L-1;
+  IF E>Anzahl THEN E:=Anzahl;
+  FOR I:=S TO E DO BEGIN
+    GotoXY(PX1+2,PY1+1+I-S);
+    TextBackGround(PB);
+    IF I=Pos THEN TextBackGround(8);
+    Write('<',List.Name[I],'>');
+  END;
+END;
+
+BEGIN
+  GetDir(0,Dir);
+  REPEAT
+    IF(Length(Dir)>3)THEN BEGIN
+      Anzahl:=1;
+      List.Name[1]:='<..UpDir..>';
+      List.Attr[1]:=True;
+    END ELSE Anzahl:=0;
+    FindFirst('*.*',Directory,SR);
+    WHILE DosError=0 DO BEGIN
+      IF(SR.Attr AND $10=$10)AND(SR.Name<>'.')AND(SR.Name<>'..')THEN BEGIN
+        Inc(Anzahl);
+        List.Name[Anzahl]:=SR.Name;
+        List.Attr[Anzahl]:=SR.Attr AND $10 = $10;
+      END;
+      FindNext(SR);
+    END;
+    FindFirst(LookFor,AnyFile,SR);
+    WHILE DosError=0 DO BEGIN
+      Inc(Anzahl);
+      List.Name[Anzahl]:=SR.Name;
+      List.Attr[Anzahl]:=SR.Attr AND $10 = $10;
+      FindNext(SR);
+    END;
+    SPos:=1;
+    REPEAT
+      DrawList(List,SPos,Anzahl);
+      Ch:=UpCase(ReadKey);
+      IF(Ch=#72)AND(SPos>1)THEN Dec(SPos);
+      IF(Ch=#80)AND(SPos<Anzahl)THEN Inc(SPos);
+    UNTIL (Ch=#27)OR(Ch=#13);
+    IF(Ch=#13)AND(List.Attr[SPos])THEN BEGIN
+      IF List.Name[SPos]='<..UpDir..>' THEN BEGIN
+        FOR M:=Length(Dir) DOWNTO 1 DO IF Dir[M]='\' THEN Break;
+        Dir:=Copy(Dir,1,M-1);
+        IF Pos('\',Dir)=0 THEN Dir:=Dir+'\';
+      END ELSE IF Length(Dir)=3 THEN Dir:=Dir+List.Name[SPos] ELSE Dir:=Dir+'\'+List.Name[SPos];
+      ChDir(Dir);
+    END;
+  UNTIL (NOT List.Attr[SPos])OR(Ch=#27);
+  IF Ch=#27 THEN TheProg:='' ELSE
+    IF Length(Dir)=3 THEN TheProg:=Dir+List.Name[SPos]
+                     ELSE TheProg:=Dir+'\'+List.Name[SPos];
+END;
+
+PROCEDURE RunMenu;
+VAR I,K,M:LongInt;
+    Menu:tMenuWindow;
+    PX1_,PX2_,PY1_,PY2_:LongInt;
+    Proc_,OldKeyProc:Pointer;
+    Old,Pos,ScrP,OldScrP:LongInt;
+    Ch:Char;
+
+PROCEDURE DrawItem(M,N:LongInt;B,C:LongInt);
+VAR I:LongInt;
+BEGIN
+  TextBackGround(B);
+  TextColor(C);
+  WITH Menu.PtrToProc^[M] DO BEGIN
+    GotoXY(PX1_+1,PY1_+N);
+    FOR I:=PX1_+1 TO PX2_-1 DO Write(' ');
+    GotoXY((PX2_+PX1_)SHR 1 - Length(Name)SHR 1,PY1_+N);
+    WriteLn(Name);
+  END;
+END;
+
+BEGIN
+  PX1_:=PX1;PX2_:=PX2;PY1_:=PY1;PY2_:=PY2;
+  Menu:=AktMenu;
+  Pos:=MenuPos;
+  IF Pos<1 THEN Pos:=1;
+  IF Pos>Menu.Items THEN Pos:=Menu.Items;
+  IF Menu.Items>MaxVis THEN ScrP:=Pos-1 ELSE ScrP:=0;
+  FOR K:=1+ScrP TO Menu.Items DO IF(K<>Pos)AND(K-ScrP<=MaxVis)THEN DrawItem(K,K-ScrP,1,15);
+  REPEAT
+    DrawItem(Pos,Pos-ScrP,7,0);
+    GotoXY(1,1);
+    Ch:=UpCase(ReadKey);
+    IF Ch=#0 THEN Ch:=UpCase(ReadKey);
+    Old:=Pos;
+    MenuPos:=Pos;
+    OldScrP:=ScrP;
+    REPEAT
+      CASE Ch OF
+        #27:;
+        #72:IF Pos=1 THEN BEGIN
+                            Pos:=Menu.Items;
+                            IF Pos>MaxVis THEN BEGIN
+                              ScrP:=Pos-MaxVis;
+                              FOR K:=1+ScrP TO Menu.Items DO IF(K<>Pos)AND(K-ScrP<=MaxVis)THEN DrawItem(K,K-ScrP,1,15);
+                            END;
+                          END ELSE BEGIN
+                            Dec(Pos);
+                            IF Pos-ScrP<=0 THEN BEGIN
+                              Dec(ScrP);
+                              FOR K:=1+ScrP TO Menu.Items DO IF(K<>Pos)AND(K-ScrP<=MaxVis)THEN DrawItem(K,K-ScrP,1,15);
+                            END;
+                          END;
+        #80:IF Pos=Menu.Items THEN BEGIN Pos:=1;ScrP:=0;
+                                         FOR K:=1+ScrP TO Menu.Items DO IF(K<>Pos)AND(K-ScrP<=MaxVis)
+                                           THEN DrawItem(K,K-ScrP,1,15);
+                              END
+                              ELSE BEGIN Inc(Pos);
+                                         IF Pos-Scrp>MaxVis THEN BEGIN
+                                           Inc(ScrP);
+                                           FOR K:=1+ScrP TO Menu.Items DO IF(K<>Pos)AND(K-ScrP<=MaxVis)
+                                              THEN DrawItem(K,K-ScrP,1,15);
+                                         END;
+                                   END;
+        #13:BEGIN
+              Proc_:=Menu.PtrToProc^[Pos].Addr;
+              ASM call Proc_;END;
+            END;
+        ELSE IF KeyProc<>NIL THEN BEGIN
+          MenuKey:=Ch;
+          ASM call KeyProc;END;
+        END;
+      END;
+    UNTIL Menu.PtrToProc^[Pos].Addr<>NIL;
+    MenuPos:=Pos;
+    IF ScrP=OldScrP THEN DrawItem(Old,Old-ScrP,1,15);
+  UNTIL (Ch=#27)OR(Refresh);
+END;
+
+PROCEDURE NewMenu(X,Y:LongInt;DaMenu:tMenuWindow;B,C:LongInt;KeyP:Pointer;_Pos_,MaxVisObj:LongInt);
+VAR OldVis,I,K,MX,Y1,Y2:LongInt;
+    OldKeyProc:Pointer;
+BEGIN
+  OldVis:=MaxVis;
+  OldKeyProc:=KeyProc;
+  KeyProc:=KeyP;
+  AktMenu:=DaMenu;
+  MenuPos:=_Pos_;
+  MX:=0;
+  MaxVis:=MaxVisObj;
+  FOR I:=1 TO DaMenu.Items DO WITH DaMenu.PtrToProc^[I] DO IF Length(Name) SHR 1 > MX THEN MX:=Length(Name) SHR 1;
+  IF DaMenu.Items>MaxVis THEN BEGIN
+    Y1:=Y-MaxVis SHR 1-1;
+    Y2:=Y-MaxVis SHR 1 + MaxVis;
+  END ELSE BEGIN
+    Y1:=Y-DaMenu.Items SHR 1-1;
+    Y2:=Y-DaMenu.Items SHR 1+DaMenu.Items;
+  END;
+  PopUp(X-MX-2,Y1,X+MX+2,Y2,B,C,@RunMenu);
+  KeyProc:=OldKeyProc;
+  MaxVis:=OldVis;
+  FreeMem(DAMENU.PtrToProc,DAMENU.Items*SizeOf(tPAItem));
+END;
+
+PROCEDURE CreateMenu(VAR Win:tMenuWindow;N:LongInt);
+BEGIN
+  Win.Items:=N;
+  GetMem(Win.PtrToProc,N*SizeOf(tPAItem));
+END;
+
+PROCEDURE PlugToMenu(VAR Win:tMenuWindow;I:LongInt;St:STRING;Proc:Pointer);
+BEGIN
+  WITH Win.PtrToProc^[I] DO BEGIN
+    Name:=ST;
+    Addr:=Proc;
+  END;
+END;
+
+PROCEDURE SaveScreen;
+BEGIN
+  GetMem(SScreen,80*24*2);
+  Move(Ptr($B800,0)^,SScreen^,80*24*2);
+END;
+
+PROCEDURE LoadSavedScreen;
+BEGIN
+  Move(SScreen^,Ptr($B800,0)^,80*24*2);
+  FreeMem(SScreen,80*24*2);
+END;
+
+BEGIN
+  Refresh:=False;
+END.

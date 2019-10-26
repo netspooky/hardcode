@@ -1,0 +1,40 @@
+       Lego tutorial by Archee
+ 4KB procedural image for NVscene 2014
+
+Features fuzzy specular reflections, 
+diffusion, indirect lighting,
+refraction (glass) and 
+motion blur using montecarlo.
+This is not raymarching. 
+The intersection of the ray with the 
+objects is caluclated by solving the 
+intersection equations, and then 
+chosing the closest intersection. 
+A hierarchy tree is based on bounding 
+spheres with branching.
+3D CSG boolean is used to create 
+shapes from quadratic functions 
+and planes. Diffusive surfaces reflect
+the ray in a random diretion or in 
+random occasions in the specular 
+direction.
+
+One big shader takes 20 seconds to 
+compile. As you see the size is far 
+below 4K, but adding more to the 
+scene would make shader compilation 
+slow.
+The rest of the time is used to shoot 
+the scene with photons from the 
+camera point of view.
+The faster GPU you have, the less 
+noizy result you get after all the 
+58seconds are past.
+
+Needs full HD screen to run. 1920x1080
+
+run leg_compatible_fullhd.exe to 
+see rendering in progress.
+
+thx to Crinkler
+

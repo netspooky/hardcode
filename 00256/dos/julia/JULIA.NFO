@@ -1,0 +1,47 @@
+breeze presents :
+
+julia
+
+a 256 byte intro for the contest'99
+
+code.......Fefe
+design.....SAsa, Valentine, Dave/SB (thanx !)
+
+.files
+
+files in julia.zip :
+
+file                       description                file size
+
+julia.com..................the intro..................255 bytes
+file_id.diz................product description........255 bytes
+dirinfo....................desc. for VC/NC............255 bytes
+julia.nfo..................this info file............1299 bytes
+breeze.nfo.................breeze info file.........12394 bytes
+
+.hardware
+
+processor       : 386+387 or better (p200 recommended)
+memory          : 128k conventional
+video           : standard vga (color monitor recommended)
+
+.troubleshooting
+
+check if  you have  at  least a  386 processor,  a  math coprocessor  and  vga
+adapter. if you have all of these and the intro still doesn't work, delete  it
+or write me.
+
+.comments
+
+yes, we  know, this  is a  really old  effect, but  some people  said that  we
+should release it, so  we did. Btw it  wasn't easy to fit  it in 256  bytes...
+
+.copyright license
+
+i hate this part of the nfo files... i'm sure you know everything about  this.
+
+.contact
+
+see the 'contact' part in the breeze.nfo file.
+
+(c) breeze productions, 1999.

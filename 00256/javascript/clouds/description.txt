@@ -1,0 +1,12 @@
+"Clouds" by poi
+http://www.p01.org
+
+~ C L O U D S ~
+255bytes - requires win+ie5.5+
+This intro generates a random picture of cloudy sky.
+Relax a while and reload to see a whole new picture.
+If it hurts you computer too much, you can try the "slowCpu"
+version which takes 286bytes and also requires win+ie5.5+
+Hope you like it.
+Mathieu 'P01' HENRI
+http://www.p01.org

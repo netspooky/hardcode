@@ -1,0 +1,19 @@
+
+|_   _   _  _ _   _   _   _
+| | |_| |  | | | |_| |_| | | |_|
+			      _|
+       lithe.lewd.leyman
+
+ .code.design..............spool
+ .music..................sbgrind
+
+ .first.presented.on.fiasko.2oo1
+ .5-6th.may.in.chotebor.........
+ 
+ .req...........................
+ .p2-350.win32.dx7.sound........
+
+ .exe.was.packed.by.upx.........
+ .minifmod.was.used.for.sound...
+
+ .eof...........................

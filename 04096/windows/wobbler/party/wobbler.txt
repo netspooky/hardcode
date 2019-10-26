@@ -1,0 +1,70 @@
+
+ _  _ _ ___ __Wobbler__ _ ___________ _ _ _ _________ __ _  _   _
+
+        by Gem
+
+        4kb intro at the Flag 2002 party, Hungary
+ _  ______________________________________________________ ___  _
+
+
+	Hi and welcome to the world of Wobbler! I hope this
+	intro does worth its 4 kilobytes on your harddrive.
+	This is my second 4k intro. The other was Anatyda
+	at Mekka 1999, which was to my knowledge the first
+	Windows 4k. Since then it became a standard to make
+	intros for Windows. Now you won't get shouts by dumb
+	people that Windows sucks when the intro is shown on
+	the bigscreen. It seems that people realized that it's
+	the same challenge to code and optimize an intro for
+	Windows	as for DOS (or for Amiga - as you prefer). But
+	this did not make me optimistic about intros. I think
+	that size optimization is becoming meaningless. Back in
+	1980s when the intro competitions were established,
+	it was a general programming goal to make small code.
+	But the code size simply does not matter on present day
+	computers. Size coding is a tradition kept up solely by
+	intro competitions. By now a coder can not use this
+	knowledge anywhere else in the IT world. And what the
+	worst is that even among sceners there are less and
+	less people who pay attention to intro competitions and
+	appreciate the effort put in these works. These are the
+	reasons why Wobbler was my last assembly code.
+
+	Thanks for your support Rod, Mephizto, Nikon, Ebola,
+	Wad, Tsg, Boyc, Nagz, Noel, Nap, Geza, Picard, Reptile.
+
+	Signed, Gem.
+	(ex Gekko/CLS/Astral/CHT)
+
+
+
+ _  _____(*)_requirements__________ _ _ _ _________ __ _  _   _
+
+	. Windows'98 or Windows 2000
+	. OpenGL
+	. TNT2, GeForce2 or compatible video card
+	. sound card
+	. 128 MB RAM
+
+
+
+ _  _____(?)_information___________ _ _ _ _________ __ _  _   _
+
+	Wobbler was coded in pure assembly.
+	The music code includes a TB-303 emulator.
+
+	The intro was compiled with NASM, linked with a
+	modified Alink, packed with an own exe to com encoder
+	(Dropper) and compressed with UPX.
+
+	I will release the Dropper soon.
+
+
+
+ _  _____(@)_contact_______________ _ _ _ _________ __ _  _   _
+
+	gem@mailbox.hu
+	gem.intro.hu
+	#demoscene (ircnet)
+
+

@@ -1,0 +1,10 @@
+cosmic brothers: transmission
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ tune up your adlib radio, pump up your speakers
+  cosmic brothers broadcast 4k intro 'space of sinewaves'
+
+ if your receiver doesn't suffice for smooth transmission (<800MHz?)
+  change circuit at offset 95h from fbh to 00h to disable waiting for retrace
+
+ carlos & dement
+  from downtown.scene.cz

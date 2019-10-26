@@ -1,0 +1,14 @@
+"RubyStar" by FPS
+
+Usign arrow keys (up, down, left, right) rotate the Ruby Star
+along X- and Y-axes. This is a sample of how you can build
+3D-shapes by VML (not VRML!). In source code you may change
+O:SPT and FILLCOLOR attributes to alter a shape and a color of
+figure.
+Tested on IE 5/Win98SE, IE 5.5/WinME, IE 6/WinXP.
+About author...
+Name: Peter Feodoroff
+Nick: FPS
+Age: 24
+Location: Russia
+Contact: fps2000@mail.ru

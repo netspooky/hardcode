@@ -1,0 +1,89 @@
+
+    Tie Fighter
+
+    Copyright 1998 (c) Srdjan Dakic
+    
+    Email:   dale@eunet.yu
+    WWW:     http://solair.eunet.yu/~dale
+
+
+    Story
+    -----    
+    Aliens are attacking. 
+    Kill 'em all. 
+    Save Earth.
+
+
+    How to play
+    -----------
+    For playing this game you need 386+ compatible computer with at  
+    least 0.000256 MB RAM 
+
+    Sound fx may sound noisy. Slower the PC - better.
+
+    Keyboard commands: 
+
+        LEFT SHIFT ..... move left        
+        RIGHT SHIFT .... move right
+        ALT ............ fire missile
+
+
+        LEFT + RIGHT shifts are panic-mode. 
+
+
+    Usual stuff
+    -----------
+    There is no warranty whatsoever that this program will not crash 
+    Windows, fry your monitor, eat mouse or cause any other damage. 
+    
+    If you're afraid to start - than don't!
+
+    Following files should be in archive tiefight and I'd like them to 
+    stay together:
+        
+        1.  tie.com ........ game
+        2.  tie.txt ........ manual
+        3.  tie.asm ........ source code
+        4.  strob.zip ...... 27-bytes strobe effect
+
+    Source code is commented in Serbian language. Sorry, there is 
+    no time avalible for translation to English.
+
+ 
+    Author's speaking
+    -----------------
+    I (Srdjan Dakic) am 3rd year Computer Science student at Faculty 
+    of Mathematics and Natural Science in Novi Sad, Yugoslavia. For 
+    a photo visit my web-page http://solair.eunet.yu/~dale
+
+    This game contains 240 bytes of code and 16 data bytes. There is 
+    no self modifying code. In fact it is removed since the better
+    (i.e. shorter) solution is found for alien 'AI'. The BSR/BSF 
+    instructions were swapped in order not to shoot always from the 
+    same position (upper left alien). There was a bug introduced
+    so the bombs are now falling all over the sky. Sound 'fx' are 
+    pretty obvious - just flush some garbage (missile y position) 
+    to the speaker port.
+
+    Program was coded during January 2-8 1997. 
+
+    There is a bug (feature) list:
+
+    1. In upper left corner missile and bomb appears (when x/y coords
+       are 0/0)
+    2. Player can go out of the screen and shoot from there
+    3. Every time player shoots, 'invincible alien ship' drops bomb.
+       (undefined SI value)
+    4. Upper left alien is getting 'killed' when there is no player 
+       missile, but due to formation shape this can not be noticed.
+    5. Bomb is not appearing always exactly below alien. 
+    
+    Beta testers: Bambino, Branko, Glide, Imperator, Kisa, Darko, 
+    Neutron, Skokovic, Tut, Pop, Lemi, Andrej and Zorana. 
+    
+    Thank you all.
+
+    Enourmous amount of thanks goes to Norton Disk Doctor for rescuing 
+    source code after sudden blackout.
+
+---<eof>---

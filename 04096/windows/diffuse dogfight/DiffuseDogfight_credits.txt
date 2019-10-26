@@ -1,0 +1,14 @@
+
+Loonies present
+
+For the 4k executable graphics compo at TRSACtortræk 2008
+
+ Diffuse Dogfight
+
+Picture by Farfar
+Code by Blueberry
+
+
+Rendering based on the Diffusion Curves technique as described at
+
+http://artis.imag.fr/Publications/2008/OBWBTS08/

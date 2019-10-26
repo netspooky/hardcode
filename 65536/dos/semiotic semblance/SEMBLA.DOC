@@ -1,0 +1,105 @@
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³                                                        ³
+ ³                                                        À¿
+ ³          S e m i o t i c   S e m b l a n c e            ³
+ ³                                                         ³
+ ³           - a 64kB intro for Abduction'95 -            ÚÙ
+ ³                                                       ÚÙ
+ ³                     by Yzi / Fit                      ³
+ ³                                                       ÀÄÄ¿
+ ³                                                          À¿
+ ³                                                           ³
+ ³  System Requirements                                      ³
+ ³  ===================                                      À¿
+ ³                                                            ³
+ ³   - 80386 processor or better (486/66 recommended)         ³
+ ³   - VGA (local bus recommended)                           ÚÙ
+ ³   - Gravis UltraSound for music                           ³
+ ³   - about 500kB free conventional memory                  ³
+ ³   - 64kB free XMS memory                                  ³
+ ³                                                         ÚÄÙ
+ ³                                                         ³
+ ³                                                         ÀÄÄ¿
+ ³  Words of Wisdom                                           À¿
+ ³  ===============                                            ÀÄ¿
+ ³                                                               À¿
+ ³  Don't run SS under Windows or anything alike. SS uses the     ³
+ ³  timer interrupt to facilitate a VBI, so Windows will screw    ³
+ ³  it up. But I don't have to worry about that, because only Ú¿ ÚÙ
+ ³  real morons use Windows...                                ³³ ³
+ ³                                                            ³ÀÄÙ
+ ³  Don't even try to run SS on a slow 386! SS was made for   ÀÄÄ¿
+ ³  486+ computers with local bus VGA, and the music will be     ÀÄÄÄ¿
+ ³  bad for your ears if you have too little processing power.       À¿
+ ³  It is highly recommended to destroy all computers with an         ³
+ ³  80386 processor when encountered. Perhaps, maybe. That            ³
+ ³  was a joke. Boing.                                                ³
+ ³                                                               ÚÄÄÄÄÙ
+ ³  Do NOT run SS with MegaEm! MegaEm makes your GUS go         ÚÙ
+ ³  crazy, it becomes schizophrenic. GUS doesn't know, what     ³
+ ³  card it is... poor GUS! (In other words, SS may sometimes   ÀÄÄÄ¿
+ ³  crash with MegaEm. I have no idea why, but, on the other        ÀÄ¿
+ ³  hand, don't even care. So: no MegaEm, please...)                  ³
+ ³                                                                  ÚÄÙ
+ ³                                                                  ³
+ ³                                                                  À¿
+ ³  Is It Slow?                                                    ÚÄÙ
+ ³  ===========                                                    ³
+ ³                                                                ÚÙ
+ ³  If you think SS is too heavy for your computer, you can       ³
+ ³  try running it without the wobbling background. It looks      À¿
+ ³  bad that way, but runs almost two times faster. My goal        ³
+ ³  was to make the intro run 70 fps on my 486/66, and I           ³
+ ³  succeeded in it. Then I added the background, which slowed    ÚÙ
+ ³  down everything, but gave a significant design-boost.         ³
+ ³                                                              ÚÄÙ
+ ³                To ruin the design, type                      ³
+ ³                      SEMBLA /0                               ÀÄ¿
+ ³                                                                À¿
+ ³                                                                 ³
+ ³                                                                 ³
+ ³  The Credits                                                    ÀÄ¿
+ ³  ===========                                                      À¿
+ ³                                                             ÚÄÄ¿   ³
+ ³  Made by Yzi.                                             ÚÄÙ  ÀÄÄÄÙ
+ ³                                                           ³
+ ³                                                           ÀÄ¿
+ ³                                                             ÀÄÄ¿
+ ³  How to Contact Fit                                            À¿
+ ³  ==================                                           ÚÄÙ
+ ³                                                              ÚÙ
+ ³  here's the address:                                        ÚÙ
+ ³                                                             À¿
+ ³   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿                                         ³
+ ³   ³ Fit            ³                                         ³
+ ³   ³ Poste Restante ³                                         ³
+ ³   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ                                         À¿
+ ³                                                               ³
+ ³  There may be another address in the intro.                   ³
+ ³  Who knows. Nobody knows. Whatever boing.                     ³
+ ³                                                               ³
+ ³                                                               À¿
+ ³                                                                ÀÄ¿
+ ³  A Frequently Asked Question                                     ³
+ ³  ===========================                                     ³
+ ³                                                                  À¿
+ ³   Q: What does Fit stand for? (=What does it mean?)               ³
+ ³   A: Fit is nothing but a syntax error. It means                  ³
+ ³      nothing. Just three letters. A name!                         À¿
+ ³                                                                 ÚÄÄÙ
+ ³                                                                ÚÙ
+ ³                                                                ³
+ ³  I Did Some Work Here                                          ³
+ ³  ====================                                          ³
+ ³                                                                À¿
+ ³  Although it would be "cool" to underestimate the effort        ³
+ ³  of making the intro, I don't do that. I spent several          ³
+ ³  weeks with this project, and I'm very disappointed, if         À¿
+ ³  I don't do well in the competition. Anyhow, thanks for          ³
+ ³  getting familiar with my work!                                  ³
+ ³                                                                  ³
+ ³                                                                  ³
+ ³                                                                  ³
+ ³  June 1995, Yzi/Fit                                             ÚÙ
+ ³                                                                ÚÙ
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ

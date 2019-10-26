@@ -1,0 +1,19 @@
+	Photon Race
+
+4k procedural graphics compo contribution  for Buenzli 2008, Switzerland
+
+
+Features
+ - Raytracing
+ - Photontracing
+ - Caustics
+ - Constructive Solide Geometry (3d boolean)
+ - depth of field
+ - flare effect
+
+Takes about 20sec to compile shaders, then all done in the GPU. 
+Finished on the party one minute before the deadline
+
+
+Web:  www.gravitysensation.com/photonrace
+Archee   ( peterlurker at googlemail.com  )

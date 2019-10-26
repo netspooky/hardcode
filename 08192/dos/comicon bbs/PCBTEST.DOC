@@ -1,0 +1,68 @@
+                [áETA] + PCBTest (C) 1997, Macaw / FOOD97 + [áETA]
+
+
+                                version 0.2árel
+
+                    Thanks to Cyber Kid for int 29h routines.
+
+
+           If *any* bugs occur, please notify me or other FOOD members.
+         Either by email (macaw@hotmail.com) or on IRC (#FOOD/#PARALISE).
+
+
+Features:
+
+         [û] Auto-identifying archives (only ZIP and text supported!)
+         [+] Auto-adobting of FILE_ID.DIZ's from ZIP archives.
+         [û] Auto-adobting and searching for "@BEGIN_FILE_ID.DIZ" in
+             unknown archives.
+         [û] ZIP Banner adder, works fully - adds an ascii file to the ZIP.
+         [û] TEXT Banner adder, works fully - adds an ascii file to the end
+             of the ascii.
+         [û] Tests ZIP archives for CRC errors.
+  (1)    [û] Imports data from ULBY.DAT, if defined, otherwise adds :
+             "UL: <USERNAME>".
+         [û] Automaticly scans for dir's existance, and notifies when errors
+             occur.
+  (2)    [-] Adding of board-advertisement files.
+         [-] Log file creation (is it needed?).
+
+
+
+         ([û]=works without any bugs, [+]=needs some enhancements, [-]=n/a)
+
+
+
+Notes:
+
+        (1)     Oops! Thought that i had read PCBOARD.SYS correctly.
+                But.. guess i found that 2 word handles didnt work.. (eek!).
+                So i scanned the PCBOARD.SYS through some times and found that
+                i've read something which looks like the users "firstname".
+                But to my luck this was easy to correct (peew!).
+
+        (2)     I have not had the time to add this feature in yet..
+                Even though i have it in the .INI file .. sorry!
+
+
+This short documentation will breifly tell you how to install, and use PCBTest,
+under PCBoard v15.2x+ (?).
+
+
+To install simply modify the INI file as suits your needs.
+Secondly edit your pcbtest.bat so that it contains the following line :
+
+d:\path\pcbtest.exe %3 %1 d:\path\pcbtest.ini
+
+
+"d", and "path" are the current drive, and path where PCBTest is located.
+During runtime %3 will be replaced by the output text file (file DIR), and
+%1 would be replaced with the actual filename.
+
+
+To use it, ahem, what could be said here... it works fine on multi-node for me,
+(have not tried to upload on two or more nodes at one time...).
+
+
+
+-signed, macaw [09/01/97]

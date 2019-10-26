@@ -1,0 +1,8 @@
+
+dear asm jury,
+
+the executable you should run for the compo is flt_glitterati.exe.
+the other one is supplied for running on other people's weird configs only. 
+
+lots of love, 
+fairlight. 

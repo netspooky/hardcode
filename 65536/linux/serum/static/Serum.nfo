@@ -1,0 +1,35 @@
+_  p e r p l e x i t y 2OO1              _|_
+(________________________________________)|
+
+"--per·plex´i·ty  n. Bewilder, confuse, puzzle."
+
+Serum,
+A short rubbish intro, made for fun.
+Very bad code.
+No sync.
+No design.
+There.
+
+This version of serum is statically compiled
+with libmikmod, for you people without libmikmod installed..
+..this is why the binary is so friggin big.
+
+Requirements:
+300+ MHz (I dunno really, just tested on a 750).
+Some RAM.
+A relaxed and friendly attitude. (;
+Soundcard for music.
+
+For nosound just pass any argument to the executable, like so:
+% ./Serum foo
+
+The music is a fairly old mod from ecco (but nevertheless a good one!)
+which i had to compress a bit..doesn't sound properly in mikmod.
+Anyway, thanks ecco :)
+
+
+Extra greets:
+pokerface prods, #demoscene@opn,
+Fluxgen, wbs, ecco, feriet.
+
+EOF.

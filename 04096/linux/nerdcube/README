@@ -1,0 +1,29 @@
+  _______                __              __          
+ |    |  |.-----.----.--|  |.----.--.--.|  |--.-----.
+ |       ||  -__|   _|  _  ||  __|  |  ||  _  |  -__|
+ |__|____||_____|__| |_____||____|_____||_____|_____|
+ ======================================Nerd2Nerd=====
+
+A 4K intro for Linux.
+For the Ultimate Meeting 2008.
+
+Code, music, everything by urs <urs@nerd2nerd.org>
+
+Requirements:
+-------------
+
+* OpenGL >= 2.0
+* libSDL >= 1.2
+* lzma
+* Sufficiently powerful graphics hardware (with working
+  vertex- and pixelshaders!)
+
+Notice:
+-------
+
+The zip file contains three binaries:
+ * nerdcube_party: The original party version
+ * nerdcube_final: With a fixed loader, should run
+                   smoothly on ubuntu
+ * nerdcube_nopack: without fancy compression or loader
+

@@ -1,0 +1,36 @@
+    .___             __   .__  .__  __          
+  __| _/____ _______|  | _|  | |__|/  |_  ____  
+ / __ |\__  \\_  __ \  |/ /  | |  \   __\/ __ \ 
+/ /_/ | / __ \|  | \/    <|  |_|  ||  | \  ___/ 
+\____ |(____  /__|  |__|_ \____/__||__|  \___  >
+     \/     \/           \/                  \/ 
+________________________________________________
+                                                
+4kb intro win32: "Umbra" by Darklite            
+Authors: Response & O.F                         
+Released at: Breakpoint 2007                    
+Website: www.darklite org                       
+Contact: [nick] {at} darklite {dot} org         
+                                                
+Umbra = "is the darkest part of a shadow.       
+From within the umbra, the source of light is   
+completely blocked by the object causing the    
+shadow"                                         
+                                                
+Made using Pure asm, compressed with Crinkler   
+                                                
+Requirements:                                   
+- SSE v1 (Streaming SIMD Extensions v1)         
+- OpenGL v1.1                                   
+- About 1,5ghz+ with 512mb+ ram                 
+- Windows XP (should also run on Vista)         
+                                                
+Greetings and yo-yos go to(in no logical order):
+Keyboarders, Ephidrena, MFX, Haujobb, Spaceballs
+Contraz, TBC, Loonies, Tufs, Shitfaced Clowns   
+Excess, Metalvotze, Outracks, Ümlaüt Design     
+Boozoholics, Kewlers, AiNC, Creators, Fairlight 
+Matt Current, RNO, and all forgotten!           
+But the biggest greeting goes to:               
+LEMMUS/EFREET for fixing our big bug @ BP !!!!!!
+________________________________________________

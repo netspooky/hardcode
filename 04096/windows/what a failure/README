@@ -1,0 +1,33 @@
+what a failure
+	by
+Ye Olde Laptops Posse
+
+a 4k intro for Tokyo Demo Fest 2012, 13-14.01.2012, Tokyo, Japan
+
+PARTYVERSION
+
+code, "music": w23 (me@w23.ru)
+
+REQ:
+	OpenGL 2.1
+	rather 2009-2010'ish video card
+	Windows / OSX / GNU/Linux 
+
+this is a failure because:
+ - i worked for it for a month and it looks like this
+ - it contains SPH in 4k and it looks like this
+ - it doesn't run on any old laptop (and still looks like it should)
+ - it isn't very fast even on a new one, and has only 4096 particles 
+ - on linux it requires glut for video (and is not tested!)
+ - on osx it requires sdl for sound
+ - it has already missed all possible deadlines (even though i spent literally all night tuning it for being at least digestible)
+ - it is getting released, so it's pretty much stuck in this sorry state FOREVER
+
+greetings to (in no particular order):
+	Tomohiro
+	nonoil
+	SystemK
+	fsqrt
+	quite
+	Youth Uprising
+	Titan

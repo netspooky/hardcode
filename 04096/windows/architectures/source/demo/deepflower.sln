@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deepflower", "deepflower.vcxproj", "{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "i4k_Software", "i4k_Software.vcxproj", "{994B4ABF-CDAC-4C5E-9CC1-650B9559A2F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Unpacked|Win32 = Unpacked|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Debug|Win32.Build.0 = Debug|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Release|Win32.ActiveCfg = Release|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Release|Win32.Build.0 = Release|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Unpacked|Win32.ActiveCfg = Unpacked|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Unpacked|Win32.Build.0 = Unpacked|Win32
+		{994B4ABF-CDAC-4C5E-9CC1-650B9559A2F9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{994B4ABF-CDAC-4C5E-9CC1-650B9559A2F9}.Debug|Win32.Build.0 = Debug|Win32
+		{994B4ABF-CDAC-4C5E-9CC1-650B9559A2F9}.Release|Win32.ActiveCfg = Release|Win32
+		{994B4ABF-CDAC-4C5E-9CC1-650B9559A2F9}.Release|Win32.Build.0 = Release|Win32
+		{994B4ABF-CDAC-4C5E-9CC1-650B9559A2F9}.Unpacked|Win32.ActiveCfg = Release|Win32
+		{994B4ABF-CDAC-4C5E-9CC1-650B9559A2F9}.Unpacked|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

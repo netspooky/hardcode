@@ -1,0 +1,21 @@
+
+
+Wavy - A small effect in under 4k
+
+
+Code - NeZbiE of Coolphat and GLfusion
+
+_______________________________________
+
+After some health issues, and a long stay
+at the hospital, this is my "comeback".
+A small, poorly coded effect, done in
+just under 4 hours =)
+
+Don't mind the few glaring glitches.
+
+Also, note that the speed is directly
+proportional to the performance of the
+computer on which it is run, as I was
+too lazy to clock it.
+	

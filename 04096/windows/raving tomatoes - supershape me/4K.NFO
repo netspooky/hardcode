@@ -1,0 +1,27 @@
+
+ "Raving Tomatoes - Supershape ME"
+ A 4k intro for Breakpoint 2009 by T$
+ 
+ Requires DirectX9c (including the D3DX library from the
+ SDK update, stored on disk as d3dx9_30.dll),
+ a 3D graphic accelerator featuring VS 3.0, PS 2.0b and a soundcard.
+ Initialization can take some time on slower CPUs.
+ Compression handled by Crinkler.
+
+ Running time: 0:33
+
+ Files included:
+
+ The following versions use 32bit color depth and a 24bit z-buffer with 8 stencil bits:
+ 
+ * Ts4kbp09_1920x1080.exe (Compo version)
+ * Ts4kbp09_1280x1024.exe
+ * Ts4kbp09_1280x800.exe
+ * Ts4kbp09_1280x720.exe
+ * Ts4kbp09_640x480.exe
+ * Ts4kbp09_1920x1080_windowed.exe
+ * Ts4kbp09_960x540_windowed.exe
+
+ Color modes used:
+ Display format : X8R8G8B8
+ Z-/Stencilbuffer format: D24S8

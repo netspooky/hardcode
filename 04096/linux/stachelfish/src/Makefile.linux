@@ -1,0 +1,16 @@
+#! /usr/bin/make
+
+include Makefile.common
+
+CFLAGS += -DGLXEXT `sdl-config --cflags` 
+LIB += `sdl-config --libs` -lGL -lGLEW
+
+small: $(EXEC)
+	rm -f $(EXEC).lzma
+	lzma --best --keep $(EXEC)
+	cat lzunpack.header $(EXEC).lzma > $(EXEC)
+	ls -l $(EXEC)
+
+$(EXEC): opengl.o
+	$(BOLD) -c -a $(LIB) -o $(EXEC) opengl.o
+

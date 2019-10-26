@@ -1,0 +1,53 @@
+============================
+    DREAMING SURREALIST
+============================
+    ASSEMBLY SUMMER '15
+      WebGL 4k intro
+    by rimina / Paraguay
+============================
+
+============================
+ Run instructions & support
+============================
+* Tested with Chrome & Firefox on Windows environment
+* There is three versions provided (all < 4k)
+  * all versions are 720p
+  * the aa version has anti aliasing addressed so it provides the best quality
+    however it propably won't run smoothly (at least it doesn't with GTX 960).
+  * the center version centers the canvas automatically
+    the default version or the aa version does not do that
+* All versions hide mouse cursor & overflow
+* None of the versions goes automatically to full screen
+* Starts immediately (after loading) when launched
+  * loading however takes a while and the browser can be unresponsive during that time.
+  
+============================
+    ACKNOWLEDGEMENTS
+============================
+To make this demo several tools were used:
+Audio track is done using sonant-js live
+(Copyright (c) 2008-2009 Jake Taylor, Copyright (c) 2011 Marcus Geelnard )
+The sonant-js play routine (modified by me) is also used.
+
+Packing the code is done using:
+Google closure compiler, http://closure-compiler.appspot.com/home
+GLSL minifier: http://glslunit.appspot.com/compiler.html
+JsExe, http://www.pouet.net/prod.php?which=59298
+
+I want to thank the original authors for providing these tools!
+
+Thanks to Iq for great articles of ray marching and procedural content generation.
+In this intro I have used the color palette technique introduced here:
+http://www.iquilezles.org/www/articles/palettes/palettes.htm
+As well as the fog introduced here:
+http://www.iquilezles.org/www/articles/fog/fog.htm
+
+Also thanks for Mercury for publishing their improvements for sphere tracing performance! :)
+
+And last but not least thanks for all awsome people sharing their knowledge about ray marching in
+Pouet raymarching toolbox and other related threads.
+
+
+
+
+

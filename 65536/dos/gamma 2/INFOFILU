@@ -1,0 +1,162 @@
+
+                                -- gamma 2 --
+
+                           - final party version -
+                                  - tp'97 -
+
+        (C), (TM) and (R) mfx 1987-1997. Software patent pending. (*)
+
+
+              "THE SLOWEST POLYGON ENGINE IN THE WORLD" (sure?)
+
+
+
+Note {
+
+        Due to our top secret project, this infofile is declared obsolete and
+        may not be up to date. Maintaining is done for downward compatibility
+        purposes only.
+
+}
+
+
+Technical shit {
+
+        - Uses univbe mode numbers. Hah! Me, lazy bastard. See if it works in
+          256 colors too (standard vga palette used. hehehe:). No lfb needed.
+          Function keys might do weird things, hang the machine, or something
+          even more evil.
+
+        - Needs fpu or emulator but a fast one is recommended :)
+
+        - Uncle-x told this was "watchable" on his 486. Kidding, I guess.
+
+        - Tested with 48 megs, maybe works with less...
+
+        - GUS required for sound. Nothing required for no sound.
+
+}
+
+
+Credits {
+
+        Programming   216
+
+        Graphics      rainmaker,
+
+        Music         arto, uncle-x
+
+        Mxmplay       Cubic Team
+
+        Tinycode      Cubic Team
+
+        Pmode/w       Tran, Daredevil
+
+        Dezing        216, uncle-x, rainmaker
+
+}
+                                                                                                                                                                                                                       Go away. There's nothing to see here.
+
+"Raytracing", sure! {
+
+        It was in the beginning of 1995 when 216 had this pretty wild idea of
+        a realtime raytracer. But soon it was discovered that the project was
+        not only impossible but his programming skills weren't at that level.
+        So he decided to do it the other way around.
+
+        Transgression 1 was created. It wasn't anything but a regular polygon
+        engine with a clever trick used. After filling the scene it just took
+        samples from here and there and painted big blobs on those points and
+        thus the outlook was so crappy that no-one was to tell whether it was
+        traced or not.
+
+        The audience probably noticed that something wasn't right and it only
+        got the second place at the compo. Well, the winner intro was so much
+        better that we didn't feel sorry for that.
+
+        Anyway, we were greedy enough, and tried again. As the problem of the
+        first one was that it didn't after all look that much like raytracing
+        we had to implement reflections somehow. However, back in those times
+        216 didn't know anything about how to do environment mapping.
+
+        We were in trouble but, luckily, some of us knew some dudes in a real
+        demogroup, Mewlers. Uncle-x somehow managed to make them believe that
+        216 had just forgotten some details and so their coders, desperately,
+        tried to teach him some facts about coding stuff.
+
+        Years went by and the sequel, Transgression 2 (wouldn't have guessed,
+        would you?), got squeezed up together. This time we did everything to
+        make it win. We even tried to spread a gossip before compos.
+
+          - Hey, psst, I have heard there's a really really cool intro in the
+            compo. It's full of realtime raytracing with lens flares, lights,
+            shadows, fog and even 2d-tunnels!
+          - Oh, fuck off!
+          ...
+          - Yeah, sure.
+          ....
+          - Buahaha, did you fall in that one too?
+
+        Even though the projector sucked so badly that one wasn't able to see
+        anything on it, it got the third place just because of those rumours.
+        So, it was cool and we thought that that's it.
+
+        Hell no, few decades later it got to the newsgroups. Those guys there
+        in fact thought that it was real raytracing! None of us could believe
+        it in the beginning but it was true: our intro was mentioned at least
+        in five newgroups. Were we world famous or what?
+
+        Shit! We were so embarrassed that we simply couldn't tell anyone that
+        it actually wasn't raytracing but a simple fake. So we were forced to
+        focus on other projects for some time.
+
+        After doing some weird underground-looking shit for maybe a millenium
+        no-one cared to give a shit about us. Our plan was succesful.
+
+        We only needed to add the final straw. Gamma, it was a version of the
+        "tracer" which didn't have that stupid blob-blurring trick on the top
+        layer and anyone could tell what it actually was. It was still called
+        a tracer in the infofile but this time it was filled with some really
+        outrageous performace statistics which should have rung a bell. As we
+        weren't that known anymore we didn't get beaten up very severely.
+
+
+        This project, why? I really don't know.
+
+}
+
+
+Hellos {
+
+        Hello? Anyone there?
+
+        Ahem, seriously, if this won't get at least *****, the real greetings
+        should go to the dude behind certain joke ad in csipd.
+
+}
+
+
+You know you've been coding too long when... {
+
+        You start thinking things and people as some sort of pieces of C code
+        (viewing their data structures before your eyes) and eventually can't
+        make difference between an alive human being and a simple AI program.
+        Then he says something. Of course, you don't understand a word of it.
+        Therefore you assume he's buggy and think optimizing him (usually the
+        first version of any program is a bit unclear having loads of useless
+        stuff. optimizing makes it clearer), simplifying his logic and adding
+        some trace here and there hoping for the bug to disappear.
+
+        Anyway, abduction was a nice party.
+
+}
+
+
+(*) {
+
+        No, not really. As I believe in freedom you may use the executable in
+        whatever way you want. (Be prepared for bad trips tho)
+
+}
+
+

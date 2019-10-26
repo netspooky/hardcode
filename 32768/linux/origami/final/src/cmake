@@ -1,0 +1,2 @@
+#!/bin/sh
+make -f Makefile.custom clean && make -f Makefile.custom && ./origami

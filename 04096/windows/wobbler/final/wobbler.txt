@@ -1,0 +1,47 @@
+
+
+        Wobbler by Gem
+        4kb intro
+        1st place at Flag 2002 party, Hungary
+	final version
+ _  ______________________________________________________ ___  _
+
+
+	This is a final version with improved compatibility.
+	Besides, it's even a few bytes smaller than the party
+        version.
+
+	Wobbler was coded in pure assembly.
+	The music code includes a TB-303 emulator.
+	The intro was compiled with NASM, linked with Alink,
+	optimized with Dropper and compressed with Apack.
+
+
+
+	Wobbler on POUET.NET:
+
+	http://www.pouet.net/prod.php?which=6946
+
+
+
+	Thanks for your support Rod, Mephizto, Nikon, Ebola,
+	Wad, Tsg, Boyc, Nagz, Noel, Nap, Geza, Picard, Reptile.
+
+
+
+ _  _____(*)_requirements__________ _ _ _ _________ __ _  _   _
+
+	. Windows 98/ME/2000/XP
+	. OpenGL
+	. TNT2 or compatible video card
+	. sound card
+	. 128 MB RAM
+
+
+
+ _  _____(@)_contact_______________ _ _ _ _________ __ _  _   _
+
+	gem@mailbox.hu
+	gem.intro.hu
+	#demoscene (ircnet)
+

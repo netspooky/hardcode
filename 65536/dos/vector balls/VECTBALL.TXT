@@ -1,0 +1,27 @@
+|---------------------------------------------------------------------------|
+|                           V E C T O R   B A L L S                         |
+|                                     by                                    |
+|                          Tumblin / Bodies In Motion                       |
+|                                                                           |
+|                    email:  m9cl@acad1.unbsj.ca (prefered)                 |
+|                            m9cl@unb.ca                                    |
+|                                                                           |
+|               snail mail:  Terry Sznober                                  |
+|                            193 Churchill Blvd. Apt.4                      |
+|                            Saint John, N.B.                               |
+|                            E2K 3E2                                        |
+|                            (506)652-3516                                  |
+|---------------------------------------------------------------------------|
+
+   Hello all you budding demo coders, here is my contribution to your
+collection of sources.  Seeing that there was no sources around for doing
+vector balls, I thought I might release my first attempt at programming them.
+(I am a beginner too you know :-)  This little vector balls demo was created 
+in its entirety by myself (the C source code that is).  The rest of the code
+is from XLib06.  I added extra comments all over the place, so it should be
+pretty straight forward.  Please feel free to use this code in your own
+demos, intros, or whatever.  Just greet me!  I get a big kick out of seeing
+my name in lights!!!
+
+Tumblin
+

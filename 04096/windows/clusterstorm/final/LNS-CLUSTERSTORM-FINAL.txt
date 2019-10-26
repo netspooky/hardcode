@@ -1,0 +1,44 @@
+
+
+	C L U S T E R S T O R M
+	* * * * * * * * * * * * * * * * *
+
+	     4k intro by Loonies
+	
+	Released at Assembly 2007
+
+	Final version: Features text as it was originaly intended, planned, coded, but 
+	not optimized in time ;) Oh... and please update your drivers before whining
+	about speed issues, ok? :) We might use openGL and other stonage technology, 
+	but that doesn't mean you shouldn't update your driver on a regular basis :)
+
+
+
+	Credits
+	=======
+	Visuals Programming and Music by Maytz
+	Softsynth and System Setup by Rasmus
+	
+
+	Requirements
+	============
+	PC, Windows, OpenGL 1.1, and a fairly new gfxcard with loads of RAM
+
+	
+	Note | Compression á la Crinkler 1.0a, served chilled with a little squeeze of lemon...
+
+	
+	(Maytz:)
+	Blahh blahh.. ran out of time...loads of excuxes for this intro ;)
+	This is my first openGL/C++ code ever, so expect some major improvements in
+	future releases. Currently we are working on a (lot) better softhsynth and better code
+	structure. And it looks promising :) 
+	Well, guess that was it - see ya!
+
+
+
+	Additional info
+	===============
+	http://www.loonies.dk 
+
+

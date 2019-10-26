@@ -1,0 +1,17 @@
+SNF
+
+Snow falling intro in 255 bytes.
+
+This intro was coded as special gift for One outstanding person ;)
+She is amazing girl living in this crazy world =)
+
+Just for memory...
+
+Dmitriy
+
+P.S.
+  Files included:
+  snf.com - intro itself
+  snf.asm - source
+  make.bat - bat file for make it
+  snf.txt - this text

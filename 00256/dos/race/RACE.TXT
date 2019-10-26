@@ -1,0 +1,18 @@
+				RACE
+
+Game Play:
+
+        You're driving a red sports car (use your imagination!) down
+        a winding, country road.  Occasionally, rocks appear in the
+        road.  The blue ones are bonus rocks.  They make the road wider
+	by one character, but never wider than the original maximum
+	road width.  They also increase the score by one.  (Score explained
+	later.)  The brownish-red rocks also increase the score, but
+	BEWARE!  They decrease the maximum size of the road, increasing
+	the difficulty.
+
+How the score works:
+
+	The score is continually displayed in the lower right corner of the
+	screen.  It really is a hexadecimal code, but it maps to the letters
+	A-P instead of 0-9,A-F.  Enough said.

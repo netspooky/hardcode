@@ -1,0 +1,135 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+vex-intro
+version 1.1
+
+& 1994/95 by
+Dirk Jagdmann
+             (doj)
+Niklas Beisert
+          (pascal)
+
+
+
+credits:
+[\\\\\\]
+  code......pascal
+
+  gfx, muzac...doj
+
+  font.......?hook
+
+
+
+
+
+
+
+
+greetings:
+[\\\\\\\\]
+(alphabetically)
+
+BLANK
+CASCADA
+CYBERNETiC DREAMS
+DUST
+FUTURE CREW
+GREEN "
+K.L.F.
+REMEDY
+S!P
+$EEN
+RENAiSSANCE
+THE COOEXiSTANCE
+TRiTON
+
+
+DOJ greets:
+[\\\\\\\\\]
+
+Baschir Jaghoori
+sems (du doedel!)
+all musicians who
+are as bad as me %
+and all who are
+better of course too
+
+and at last:
+kicks to TACCI!
+
+
+
+pascal greets:
+[\\\\\\\\\\\\]
+
+(oh no! more greets)
+(  just watch the  )
+(  nice lissajous  )
+(  figures in the  )
+(background if this)
+(   annoys you..   )
+
+jinx and
+TC in general
+^
+scholar
+sipiyou
+ss.c
+
+and a few more
+
+
+
+hook greets:
+[\\\\\\\\\\]
+
+abyss
+iron eagle
+The Sodomist
+Pappnase
+Nicky S.
+TS
+
+
+enough for now.
+have a nice day!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+and remember:
+cubic player
+rulez!

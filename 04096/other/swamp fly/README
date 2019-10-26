@@ -1,0 +1,11 @@
+	Swamp Fly
+
+Music: Juho Heikkinen
+All other code: Tatu Kilappa
+
+NOTE: The intro is only guaranteed to work in it's pure 4096  byte form in
+      FreeBSD 7.2 with nVidia cards. To view the intro as intended on other
+      platforms, please compile and run it using Autotools.
+
+NOTE: It seems that the GLSL code won't work on ATi no matter what is done.
+      Bugger.

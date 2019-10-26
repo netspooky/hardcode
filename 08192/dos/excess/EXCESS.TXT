@@ -1,0 +1,85 @@
+
+    EEEEEEEEE   XXX   XXX   CCCCCCCCC    EEEEEEEEE   SSSSSSSSSS   SSSSSSSSSS
+   EEEEEEEEEE   XXX   XXX   CCCCCCCC/   EEEEEEEEEE   SSSSSSSSSS   SSSSSSSSSS
+   EEEEEE         XXXXX     CCC         EEEEEE        \SSS\         \SSS\
+   EEEE\          XXXXX     CCC         EEEE\          \SSS\         \SSS\
+   EEEEEEEEEE   /XX   XX\   CCCCCCCC\   EEEEEEEEEE   SSSSSSSSSS   SSSSSSSSSS
+    EEEEEEEEE   XXX   XXX   CCCCCCCCC    EEEEEEEEE   SSSSSSSSSS   SSSSSSSSSS
+
+              This 8k intro is a production of EXCESS TEAM.
+
+   You are allowed to copy this intro free if it and following files  (i.e.
+EXCESS.TXT)  are  not modifyed.  You  may include this file into commercial
+packages, but you MUST copy it to any one who requests.
+   It is being distributed 'AS IS'.  Authors are not liable for any DAMAGE,
+direct or indirect caused by this program.
+
+              Designed specially for _Enlight'97_ demo party.
+
+                        Hardware requirements:
+
+                        þ An VGA video card.
+
+                     þ i80386SX or compatible CPU.
+
+           þ less then 500 kilobytes of conventional RAM.
+
+                 þ less then 6kb free hard disk space
+
+        ************************************************
+            Pentium_150+FAST_VGA_CARD-QEMM-EMM-WIN*.* recomended !
+                      **********************************************
+
+
+              Code/dZine/idEa/ozer_shIt by SiV BLadER/EXCESS.
+
+
+                           EXCESS MEMBERS:
+
+1.SiV BLadER - coder/game_maker/swapper (active on SPECCY & PC)
+2.LiON       - leader gfx/game_maker (active on  SPECCY & AMiGA)
+3.DIMKA      - leader coder (active on SPECCY & ??)
+4.HACKER GRI - leader hacker/coder/swapper (active on SPECCY)
+5.JONES      - just a member (almost unactive)
+6.E-SOFT     - just a member (almost unactive)
+7.MSA        - muzak_maker  (almost unactive)
+8.PASHA      - internet mafia (almost unactive)
+9.OLEG       - coder (almost unactive)
+
+
+                                Some GRETINX:
+
+                                   EXCESS:
+                        LION  (AMMY DEMOS - BEST !)
+                            DIMKA (ARMY RULEZ ?)
+                          HACKER GRI ( FF - SUXX )
+                        Hi 4 ozerz _EXCESS_ MEMBERZ!
+
+                                oZer world :
+
+                                   SPECCY:
+       FLASH,DIGITAL REALITY,ATLANTIC,PROGRESS AND ALL OTHERS OUR FRIENDS
+
+                                  PC/AMMY:
+                     ALL RUSSIAN SCENE,ALL KUL DEMoMAKERZ.
+
+
+
+P.S.:THIZ IS MY FIRST ASM-WORK ON PC (REALLY !),SO DON'T BLAME ME IF YOU FIND
+THAT THIA INTRO IS very SHITTY. (I THINK THAT MY INTRO is NICE ;)
+P.S.2:IF YOU FIND THAT SOME PARTS WORK SO SLOW,zen TRY FASTER MACHINE.
+(on MY P150 it worked IN REALTIME).NO 3 TIME 4 OPTIMIZIN'! SUMMER -LAZY TIME.
+P.S.3:MY ENGLISH SHIT !
+
+                If you want to contact us write to:
+(We are lookin' 4 a new members on AMiGA/PC/SPECCY.So if u wanna b in EXCESS..)
+
+                SiV BLadER/EXCESS TEAM (Igor Sukhov)
+                RUSSIA
+                420078 KAZAN
+                str.ˆ«ì¨ç  19/43-66
+                phone: 7-8432-55-96-38 (msk 22.00+)
+
+               (c)_1997 EXCESS TEAM/KAZAN/MOTHER_RUSSIA/ETC
+
+EOF

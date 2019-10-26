@@ -1,0 +1,92 @@
+
+ C O N S P I R A C Y
+ 
+    Project Genesis 
+
+        product infofile
+
+ 
+ This is the final version of our first intro, which won
+ the 64kb competition at the Breakpoint 2003 party.
+ 
+ The final features a new and faster engine, several bugfixes,
+ a few timeline changes and a new precalc screen.
+ Furthermore, five of the existing scenes have been improved or
+ altered in some way, and there are two completely new scenes.
+ And all this resulted a smaller filesize ;)
+
+
+ [ Credits ]
+
+
+         boyc - main intro- and tool code / concept / design
+
+       gargaj - synth code / additional sync / design
+
+     innocent - music & samples
+
+          mrc - additional effects code
+
+     vincenzo - music & samples
+
+         zoom - design / graphics / modelling / concept
+
+
+ [ System requirements ]
+
+   For an enjoyable show you'll need a 600+ MHz processor,
+   an OpenGL compatible videocard (NVidia preferred),
+   and a directsound compatible soundcard.
+
+   If you have a powerful videocard, turning on antialiasing
+   is highly recommended.
+
+
+   There are also some useful command line parameters:
+
+     -windowed    guess what? :)
+     -m0          set resolution to 320x240
+     -m2          set resolution to 800x600
+     -m3          set resolution to 1024x768
+
+
+ [ Some statistics ]
+
+   The final version contains 131294 triangles and 82441 vertices
+   in 490 objects, 22 of which are distorted in some ways,
+   in 47 scenes (47 scenes in the editor, some of these were used
+   together, rendered in multiple passes). The largest scene is the
+   gear scene, containing 36508 polygons. For timing and synching,
+   416 events were used, 26 of which were used to render to a texture,
+   these 26 events covering 75% of the timeline (Thus 75% of the
+   rendered scenes was postprocessed with some 2d filter).
+   For the visual improvement of the objects, 53 textures were
+   generated, each with 4 layers (atg stye, this sums up to
+   39.75 megabytes of raw image data), but only 100 of these
+   212 layers were used as materials, the rest was used as buffer
+   during the texture generation process.
+   All the graphical data (the scenes, the textures, the animation and
+   the timing events) are contained in a 57035 byte long projectfile,
+   which occupies ~22k in the final compressed executable. 41 samples
+   were generated for the music, with the total length of 4165666 bytes.
+   The music itself is 9:14 long, which would take about 100 megabytes
+   in a 44.1khz 16bit stereo wave file.
+   The music, the player and the sample generator take 18k in the
+   executable (stub included), and the engine to do the rest (generate
+   textures and 3d geometry, render, animate, handle the window, and
+   play back the project file) is 24k with the flag effect included.
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Legal stuff:
+
+  This production is demoware. Its sole purpose is to show off the
+  abilities of its creators. It may be copied and distributed
+  freely as long as you don't modify the contents of this archive
+  and you don't charge any fee for it.
+  This package is provided as-is, we can not be made liable for any
+  damage it may cause.
+  You may present it at public events, but we'd appreciate a mail
+  just to see where this release ended up. You may put it on a
+  CD bundle or in a newspaper also, just let us know.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ (C) Conspiracy 2003.                Signed by boyc & zoom, July 2, 2003.

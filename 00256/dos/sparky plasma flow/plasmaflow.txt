@@ -1,0 +1,11 @@
+Sparky Plasma Flow
+------------------
+
+I felt like a long time has passed since I've last coded a tiny intro and I had this idea to use differences/slopes 
+of a moving plasma to animate some random pixels. The last time I had seen a similar effect was in a glsl.heroku 
+example and I wonder how the hell have I not thought of this before. And then I tried to do a C++ version in 
+software rendering and wondered if it fits in 256 (with more effort, more primitive plasma, no pallete, it could 
+maybe fit in 128 but I am not up to the job). A blur/average made it more appealing but fade it away slowly. An 
+inc of the pixels after the blur saved it but gave it sparks. I almost like the result..
+
+Optimus

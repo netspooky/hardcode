@@ -1,0 +1,47 @@
+uncovering static : final 
+
+a 64k intro presented at Assembly 2011 (where it placed 2nd in the combined _demo_ competition, like true elites)
+
+by Fairlight & Alcatraz
+
+
+code/visuals: smash / fairlight
+synth: gopher / alcatraz
+music: reed / fairlight
+2d graphics: destop / cncd
+
+http://directtovideo.wordpress.com
+
+requires windows xp or later, directx9.0c (d3dx_43), a geforce 280 or better (or ati equivalent). 
+geforce 580 or radeon 6950 recommended. 
+
+native / recommended resolution: fullscreen 1280x720. 
+
+
+this is the final version & "director's cut".
+
+it should be stable and work in window & fullscreen on all suitable configs, nvidia and ati included. honest.
+(but it might not. we kill drivers.)
+3dvision stereoscopic 3d support for suitable nvidia stereo 3d systems is included thanks to gargaj. 
+kkrunchy appears courtesy of ryg / farbrausch.
+
+
+due to unfortunate circumstances the 64k intro competition at asm was sadly cancelled. 
+instead of holding it back for another 64k compo in future - which, given the state of 64k releases in recent years, might
+not happen either - we thought we would play with the big boys in the democompo..
+
+the compo being cancelled was only one thing in a long string of bad luck during the last few days at assembly. crashes, 
+problems and logistics were all against us. crashes that only occurred in exepacked assembler code; last-second fixes at the airport
+gate. the universe was telling us very clearly it did not want us to release this, but our complete stubbornness made us do it 
+anyway. :) special thanks to the asm compo organisers we dragged out of bed in the middle of the night to test on the compomachine.
+
+
+
+this is completely realtime in every way. the only precalc is to compile the shaders. 
+the synth is based on physical modelling; the rendering on distance field manipulation and polygonisation; the lighting on raycasted
+ambient occlusion. the full scene is regenerated dynamically per frame.
+
+
+
+
+

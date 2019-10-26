@@ -1,0 +1,42 @@
+
+                            B  A  L  L  S
+
+                                 by
+
+                         Shaman / Dream Factory
+
+        Requirements:
+          - Fast Pentium
+          - VGA
+          - About 200kb of base mem
+
+        Note:
+
+          This little intro has been testd on a Penitum 133 and 
+          it ran fine. I suggest you don't try to run it on a 486
+          because it has a much slower FPU. The balls don't have 
+          any reflections nor specular highlights. The thing was 
+          slow enough without them. The final release might be out 
+          later. Oh, if you are wondering why the intro is so slow,
+          it's because of the realtime raytracing. Wow ;)
+
+        Disclaimer:
+          
+          The author is in no way resposible for any damage caused
+          by this program. You are using it at your own risk.
+
+          You are allowed to copy this program without restriction
+          for non-commercial use. The Assembly Organizers have the 
+          right to put this little thingie on their CD if they 
+          want to.
+
+        Greets:
+
+          Leaf / Dream Factory (Thanks for the Pentium and GFX) 
+          Winghead 
+          Vorlath
+          Arnie
+          Olaus 
+          ... and to the ones I forgot.
+
+

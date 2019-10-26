@@ -1,0 +1,68 @@
+               Another day of Lil Drolley
+                   (Donkey Hot Blues)
+                        v.1.0
+
+   This one is supposed to be final version, though it's not
+   what we wanted it to be.
+
+--== Requirements ==--
+
+- DirecX 8.1 (4xAA recommended)
+- GeForce2 MX class videocard (32 MB on board)
+- 256 MB RAM
+- mediocre CPU
+- any sound card
+- a lot of free time and patience during precalculations
+
+Development machine config:
+Celeron1000/256/gf2mx400/W2K
+Driver version - 6.14.10.5216
+
+
+--== A couple of cheap advices for those of you  ==--
+     with feverish red eyes and trembling hands
+
+1. Never read executable map files before/instead of going to bed.
+2. Never harbor an illusion of possibility to get everything you
+   want out of 3rd party commercial tools.
+3. And NEVER, listen to me, NEVER try to WORK at home!
+4. Never pay heed to cheap advices (I mean it).
+
+
+--== Contacts ==--
+
+- http://abhorus.untergrund.net
+
+- kraviz : deniskravtsoff(at)mail(dot)ru
+- Peregrinius : peregrinius(at)yandex(dot)ru
+
+--==  ADDITIONAL TEXT ==--
+
+ NAQ (Never Asked Questions).
+
+
+  1. Is the character concerned with some of the authors?
+
+     Answer: NO.
+
+  2. Are you melancholics?
+
+     Answer: NO.
+
+  3. Have you got a driver's license?
+
+     Answer: NO.
+
+  4. Have you grown up?
+
+     Answer: NO.
+
+  5. Is it an antiurbanistic existential irony in neoaesopian
+     language projected onto modern society?
+
+     Answer: NO.
+
+  6. NO?
+
+     Answer: NO.
+

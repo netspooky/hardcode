@@ -1,0 +1,24 @@
+tempo 250
+
+pehmoilu 1
+
+pattern 0
+  sq  0  0
+end
+
+pattern 1
+  si  242  50
+  mo  142  50
+  si  500   0
+  si  500   0
+end
+
+playlist
+   1  0  0
+   1  0  0
+   1  0  0
+   1  0  0
+   1  0  0
+   1  0  0
+   1  0  0
+end

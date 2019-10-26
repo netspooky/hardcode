@@ -1,0 +1,278 @@
+
+        Psychic Symphony on the keys!
+
+        It's exactly midnight... New day is 22nd October 1998
+
+        Now it's 00:01
+
+        Anyway... A couple weeks ago i was talking with djamm on irc
+about music and i told him i was thinking of doing a small intro with
+one of his old chip-tunes. He liked the idea!
+        A couple days later i came upon these old graphics by iceball
+when we were young and wrestless! (1 year and half ago :P)
+        I had this idea of doing an RPG at the time and he did this
+little cute green hair dude. Then some grass, sea, rocks, and that
+little explosion (who looks more like a blob). Anyways... I came upon
+these cute old graphics and asked him if i could use them. He didn't mind
+so all i needed was a story...
+
+        It's now 00:05
+
+        ANYWAYS... I finished it!
+
+        Don't know to what party to send this one... I'm releasing it
+under Arf!Studios because this represents the 'fun in the scene'
+Arf!Studios is trying to bring back! I haven't send this one to
+Zippy^The Utopians and that is basically the only reason why this isn't
+also an official The Utopians release aswell.
+
+        More tolerant and fun scene! That's the message in this one! :)
+
+
+        <start misc. code stuff>
+
+        Turbo Pascal 7.0 was used to do:
+        No pre-calc whatsoever
+        No compression whatsoever
+
+        X-linker was used to link together:
+        the compiled exe (bout 17k)
+        the gfx file     (bout 15k)
+        the music file   (bout 13k)
+        the gus support  (bout 12k)
+
+        No sound sucks! So don't use it although it's available...
+
+        More cards are supported via external .mse files. This is
+because i used BWSB (1995) for sound support.
+
+        <end misc. code stuff>
+
+
+        Now comes the part i really coded this for: THE GREETINGS!
+        I love beeing able to greet people so here it goes:
+
+/nick Psychic_Symphony
+
+/me sends BIG HUG to friends on evolve!
+/me jumps on shock and knocks him down!
+/me licks idiotboy's hand... hummm... pineapple!
+/me squeezes nephoo very hard! :)
+
+/me also waves hi to ActiveFuel guys Proggie, Sulph and Darkie.
+
+/me says howdy to Cremax and Salami in Nothing.
+
+/me shouts hi to Swedish friends Baloo, Frame, Pike and Psychofox.
+/me also says howdy to java and steffo of Cryonics and barbatron!
+
+/me shouts hi even louder to other friends in australia...
+/me shouts to gyr, MZ, goblin, clef and of course MAGNESIUM
+/me doesn't forget about .au top babe Euphoria! *hugs and kisses*
+
+/me looks to poland and scratches his head...
+/me breaths deeply...
+/me says hi to Radi and aGi of INTerror
+/me says hi to Misha and Core-nick of Tatanka
+/me says hi to Szum from Cryogen
+/me also says hi to uncle Scorpik and EAL MAN.
+
+/me stares at hungary
+/me catches his breath
+/me starts rambling: rod, d-lee, ezah, TSC, Mr.Z and... that's it!
+
+/me looks at finland and starts getting tired...
+/me shouts hi to melwyn, rodex and virne.
+/me also says hi to hoplite, MRI, ms.saigon and sol.
+/me considers the possibily of greeting distance...
+/me goes: 'sure... why not?'
+/me happily greets distance
+
+/me gets down to norway
+/me waves hi to zippy, pearl hunter and... no one else... i think...
+/me thinks he has little contacts in norway...
+/me wonders if he is forgetting someone...
+/me has a flashback... CYBERFISH!
+/me has another flashback... XERXES!
+/me has yet another flashback... MOV!
+/me has even another flashback... WAIN!
+
+/me says hi to droid and hellfire from haujobb (DUNNO COUNTRY!)
+/me waves hi to acryl!
+
+/me still has to go through denmark...
+/me shouts howdy to slyde and byter from blasphemy
+/me jumps on thorsten (DADDY DADDY) :)
+/me also greets vipa, rbecue and skrig.
+
+/me doenst forget about middle europe friends:
+/me says hi to adok
+/me says also hi to therew and sparcus from nostalgia
+/me waves hi to ever-patient vic_ACME
+/me also waves hi to TDR's assign, krii and paniq. ( krii => .fi ?)
+/me says hi to nix and fear of TBL
+
+/me goes french...
+/me says hi to andromeda (he is belgium but...)
+/me says hi to asphyx
+/me says hi to cyg
+/me says hi to TuO and Shodan from Skytech Crew
+/me waves hi to knos
+/me doesn't forget about friend in luxemburg: hi screamager! thx 4 CD! :)
+/me doesn't forget about switzerland either: hi whole Calodox!
+
+/me takes a glimpse at the uk but recalls statix, smash and spansh don't
+    care on Psychic_Symphony :(    
+
+/me happily looks down at israel:
+/me waves hi to ohad 'str0mike' pressman and masterb0y!
+
+/me doesn't forget about nuestros hermanos dave and blade! :)
+
+/me goes back to the roots for some more local greetings:
+/me says to c0dewiz: .pt.party summer 99 NOW!
+/me says to ^magico^: make c0dewiz organize .pt.party 99!
+/me says to majestic_dawning: i'm waiting for that demo of yours mate!
+/me see's mindwalker: MINDPISS!!!
+/me doesn't forget about razer and superior!
+/me also says hi to Radioactive Design guys Garfield and Bitcoder
+/me says howdy to Electron, Brand-X, Extacy, Mr.Who and MrUnderworld.
+/me says hi to Rents: DIK! BUAHAHAHAH...
+/me salutes MC-Viper: wassup?
+/me ignores Brainpowder completly!
+
+/me also is FORCED to say hi to the following girls on irc:
+sanvar,puff,presence,kindred,romy,ip2,mmorango,opala,maga,out_of_sight,
+mrsvi,rita19,babyliss and verano.
+/me feels relieved!
+
+/me notices he forgot about talker's people... ARGH! big up to:
+bulldog,tolas,chris,geofriend,mocas,jfk,einstein,banderas,kurt,bengaleiro,
+xmen,fidel,tetris,kunatja,wolfman,braganca,scotch,jane,splash,starla,smille,
+mega,biscoita,sofia,lamb and ofcourse annie!
+
+/me recalls he forgot about people on irc ptnet... hi to:
+altern,hipo,willy,val_kilmer,valkhyria,HEAT,iceberg,baldas,kobertor,drakula,
+nocturno,gudmusson,bia,bea,crystal_eye,adonis,hdl,ze_tosta,enfermeiro,
+o_bengas,fluvial and brunein.
+
+/me thinks he is finally through! sorry if i forgot about you...
+/quit BOOM!
+
+
+        Iceball and djamm didn't had their hands on the keyboard...
+        (Scrool down)
+
+
+I guess that's it... :~(
+
+See you all in demojournal!
+BTW- Demojournal is a weekly demo-orientated newsletter. Feel free to
+mail me about subscribing or any other thing!
+
+        Feel free to mail anytime! :)
+
+                        Psychic Symphony - ec97104@crazy.fe.up.pt
+
+PS- Oh! Almost forgot... Big hugs and kisses to those who supported me
+    all the way since 'Psychic Television': leonel and chris!
+    You guys really rule! =)
+
+
+        I'm back! It's the same day only i have spent whole morning
+sleeping and whole afternoon doing some math while listening to music.
+        I feel empty! I should feel happy to having finished this project...
+I was happy last night... But i went out of my room to get some cookies and
+caught up with my dad on the kitchen... He told me to stop singing, it was
+to late. I wanted to tell him i just finished this very cute 64k intro which
+meant a lot to me but i couldn't. I realized he wouldn't care a damn bit!
+        No worth-eating cookies on the cabinet either so i returned to my
+room only with a diference. I was now not happy about releasing the intro.
+Underworld was still playing since i had put it rolling while finishing the
+intro... Listened to the lyrics a little. I felt bad. Watched seinfeld and
+went to bed.
+        Woke up, watched some music video's, eaten the soup only, back to my
+room to do some math for the whole afternoon. It's now 17:47! The Verve playing
+I'm skipping some tracks straight to lucky man... Done!
+
+        Happyness... More less...
+        It's just a change in something in my liberty...
+        Oooooooooooooonnnnnnnnnnnnnnnn my mind...
+
+        Happyness... Coming and going...
+
+        ...
+
+        But i'm a lucky man...
+        With fire in my hands...
+
+
+        I should feel happy about the intro... Yet i don't feel a thing. No
+one around me cares remotly on if i am happy or not...
+
+        I just felt i had to write something else besides just greets to all
+friends i have on the internet... I guess they are my only friends...
+
+        <Oh! I'm a lucky man!>
+
+        Humpf... G I just recalled seeing this on the telly the day i realized
+i probably wasn't going to wired... who cares...
+
+        song is over... i'm out of here...
+
+        Psyshit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OK! So now i'm am going to try to do a reasonable infofile from here on...
+
+        Music was provided by DJamm... It's a small 16k chip-tune he made
+a couple years ago.
+        Graphics were provided by Iceball. In a total of 19 frames for the
+little guy, plus one unused (20*20)! 3 different trees! (40*20)
+Plus 2 frames for the sea, one rock, one grass-field and one flower pot.
+Also a little blue explosion which was used impersonating a foe.
+        2 frame's of the sun (20*20) we're drawn by myself (Psychic) and
+mirrored on code to save gfx space.
+        Graphical font is a neopaint native.
+        All code is pascal except for small asm (which i got hold of from
+some tuturials) for mode13h switch and getkey!
+        Main exe (compo entry) is an exe by x-linker which runs the main
+exe, seeks pcx file, seeks music and seeks gus support!
+        Other cards support are added externally... The intro can run
+without them beeing present!
+        The final exe file doesn't reach 60k and it's all unpacked and
+uncompressed. Zip it and check the rate if you don't believe me! I am not
+a size optimizer by nature since i basically don't know any assembly. But i
+did try to chop down the maximum possible to include a small random distortion
+on the final credits screen. Without sucess tough... Size raised near 20k!
+        Also couldn't squeeze in sb support on compo version since it was 11k
+long and the max i could free up was 9k! :(
+
+        Here is what DJamm has to say about this intro:
+
+<djamm> It was a great pleasure working on that !
+<djamm> it brings me back a few years before :)
+<djamm> this kind of productions should be released more often !
+<djamm> Regards to Psychic Symphony for his cool friendship :)
+<djamm> if you want to contact me : djamm@club-internet.fr
+<djamm> or have a look here : http://perso.club-internet.fr/djamm
+<djamm> or have a look here : http://www.error-404.com/tuner 
+<djamm> thank you :)
+
+<djamm> greets :
+<djamm> only mercure / you / eko / and will be :)
+
+	END!

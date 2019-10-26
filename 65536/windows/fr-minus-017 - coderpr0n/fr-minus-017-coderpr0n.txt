@@ -1,0 +1,31 @@
+(*****************************************************************************
+
+farbrausch
+fr-minus-017: coderpr0n
+
+code: BeRo
+graphics: BeRo
+music: BeRo
+tools: BeRo
+exepacker: BeRo
+
+released at evoke 2013
+
+******************************************************************************
+                 A FULLY IN OBJECT PASCAL IMPLEMENTED 64K INTRO
+******************************************************************************
+
+The synth of this 64k is designed for quadcore or better CPUs, because I 
+wanted to make use of multi-threading on the synth code side. 
+
+This 64k was opimized for HD 1280x720, please use min. NVidia GeForce GTX660 
+and a quadcore CPU for watching. It runs also with Intel HD Graphics 
+3xxx/4xx/5xxx, but with very slow framerate. And AMD/ATI is untested, 
+sorry :-)
+
+signing off,
+
+BeRo
+
+*****************************************************************************)
+

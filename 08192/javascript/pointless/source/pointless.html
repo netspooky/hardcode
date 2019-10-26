@@ -1,0 +1,296 @@
+<html><head>
+<!-- Because the shaders are stored here, we actually need a more or less correct
+     HTML file.
+-->
+<script id="vs-beast" type="x-shader/x-vertex">
+	uniform mat4 u_Transformations;
+	uniform float u_Compress;
+	uniform float u_RotateRelative;
+	uniform float u_RotateWhole;
+	uniform vec3 u_TailAngle;
+
+	attribute vec3 a_Position;
+	attribute float a_Distance;
+	attribute float a_Angle;
+	attribute float a_Radius;
+	attribute vec4 a_Brightness;
+
+	varying vec4 v_Brightness;
+
+	void main()
+	{
+		vec3 p = a_Position;
+		vec2 angled = vec2( cos( a_Angle ) , sin( a_Angle ) ) * a_Radius * a_Distance
+			* pow( u_Compress , ( 1. + a_Distance ) / 100. );
+		p.yz += angled;
+		p.x += a_Distance * 2.;
+
+		float dAngle = u_RotateRelative * a_Distance + u_RotateWhole;
+		mat2 rot = mat2(
+			cos(dAngle) , -sin(dAngle) ,
+			sin(dAngle) , cos(dAngle)
+		);
+		p.yz *= rot;
+		p += smoothstep( 100. - length( u_TailAngle ) , 100. , a_Distance ) * u_TailAngle;
+
+		gl_Position = u_Transformations * vec4( p * .5 , 1. );
+		gl_PointSize = 30. * ( 1. - ( gl_Position.z + 1. ) * .5 );
+		v_Brightness = a_Brightness;
+	}
+
+</script>
+
+<script id="fs-beast" type="x-shader/x-fragment">
+
+	precision lowp float;
+
+	uniform float u_Time;
+	uniform sampler2D u_Colormap;
+
+	varying vec4 v_Brightness;
+
+	void main()
+	{
+		float v_Z = 1. - .5 / ( 513. - 1024. * gl_FragCoord.z );
+		float len = length( gl_PointCoord * 2. - vec2( 1. ) );
+		float ba = sin( smoothstep( 0., v_Brightness.z , fract( u_Time * v_Brightness.w ) - v_Brightness.z ) * 3.14159 );
+		float brightness = clamp( v_Brightness.x * ( 1. + ba * v_Brightness.y ) , 0. , 1. );
+		gl_FragColor = vec4(
+			texture2D( u_Colormap , vec2( brightness , .25 ) ).rgb * ( 1. - len ) * pow( v_Z , 9. ),
+			( 1. - len / 2. ) * v_Z
+		);
+	}
+
+</script>
+
+<script id="vs-plant" type="x-shader/x-vertex">
+	uniform mat4 u_Transformations;
+	uniform float u_Time;
+	uniform vec3 u_CamPos;
+
+	uniform vec2 u_Position;
+	uniform float u_Rotate;
+	uniform float u_MinSize;
+	uniform float u_MaxSize;
+
+	uniform float u_Wave;
+	uniform float u_Distort;
+	uniform vec3 u_BeastPos;
+
+	attribute vec3 a_Position;
+	attribute float a_Point;
+
+	varying float v_Distance;
+	varying float v_Point;
+
+	float hash( float n ) {
+	    return fract(sin(n)*35781.1594)*fract(cos(n*123.)*456.789);
+	}
+
+	float noise(vec2 x) {
+	    vec2 p = floor(x);
+	    vec2 f = fract(x);
+	    f = f*f*(3.-2.*f);
+	    float n = p.x + p.y*123.;
+	    return mix(mix(hash(n),hash(n+1.),f.x),mix(hash(n+123.),hash(n+124.),f.x),f.y);
+	}
+
+	void main()
+	{
+		float y = -200. - noise( u_Position / 100. ) * 60.;
+		float d = max( 0. , 2. - distance( u_BeastPos , vec3( u_Position.x , y , u_Position.y ) ) / 250. );
+		vec3 p = a_Position;
+		p.xz *= 1. +  ( u_Distort + d ) * a_Point;
+		float a = u_Rotate * ( 1. + d * a_Point );
+		p.xz *= mat2(
+			cos(a) , -sin(a) ,
+			sin(a) , cos(a)
+		);
+		p.xz += u_Position;
+		p.x += u_Wave * a_Point * (hash( u_Position.x ) + .5 );
+		p.y = p.y * (1.+d*.5) + y;
+
+		v_Distance = clamp( 1. - length( p - u_CamPos ) / 1600. , 0. , 1. );
+		gl_Position = u_Transformations * vec4( p , 1. );
+		gl_PointSize =  v_Distance * mix( u_MaxSize , u_MinSize , a_Point );
+		v_Point = a_Point;
+	}
+
+</script>
+
+<script id="fs-plant" type="x-shader/x-fragment">
+	precision lowp float;
+
+	uniform float u_Colour;
+	uniform sampler2D u_Colormap;
+
+	uniform float u_ColourChange;
+
+	varying float v_Distance;
+	varying float v_Point;
+
+	void main()
+	{
+		float len = 1. - length( gl_PointCoord * 2. - vec2( 1. ) );
+		float col = mod( u_Colour + ( 1. - v_Point ) * u_ColourChange , 1. );
+		gl_FragColor = vec4(
+			texture2D( u_Colormap , vec2( col , .75 ) ).rgb * len * v_Distance * .25,
+			len * v_Distance
+		);
+	}
+
+</script>
+
+<script id="vs-floor" type="x-shader/x-vertex">
+	uniform mat4 u_Transformations;
+
+	attribute vec2 a_Position;
+
+	varying vec3 v_Position;
+	varying vec3 v_Normal;
+
+	float hash( float n ) {
+	    return fract(sin(n)*35781.1594)*fract(cos(n*123.)*456.789);
+	}
+
+	float noise(vec2 x) {
+	    vec2 p = floor(x);
+	    vec2 f = fract(x);
+	    f = f*f*(3.-2.*f);
+	    float n = p.x + p.y*123.;
+	    return mix(mix(hash(n),hash(n+1.),f.x),mix(hash(n+123.),hash(n+124.),f.x),f.y);
+	}
+
+	void main()
+	{
+		vec2 rp = ( a_Position - 500. ) * .25;
+		v_Position = vec3( rp.x * 100. , -200. - noise( rp ) * 60. , rp.y * 100. );
+		v_Normal = normalize( vec3(
+			2.*(noise(vec2(rp.x+.001,rp.y))-noise(vec2(rp.x-.001,rp.y))) ,
+			.002 ,
+			2.*(noise(vec2(rp.x,rp.y+.001))-noise(vec2(rp.x,rp.y-.001)))
+		) );
+
+		gl_Position = u_Transformations * vec4( v_Position , 1. );
+	}
+</script>
+
+<script id="fs-floor" type="x-shader/x-fragment">
+	precision lowp float;
+
+	uniform vec3 u_CamPos;
+
+	varying vec3 v_Position;
+	varying vec3 v_Normal;
+
+	float hash( float n ) {
+	    return fract(sin(n)*35781.1594)*fract(cos(n*123.)*456.789);
+	}
+
+	float noise(vec3 x) {
+	    vec3 p = floor(x);
+	    vec3 f = fract(x);
+	    f = f*f*(3.-2.*f);
+	    float n = p.x + p.y*47. + p.z*123.;
+	    return mix(mix(mix(hash(n),hash(n+1.),f.x),mix(hash(n+47.),hash(n+48.),f.x),f.y),mix(mix(hash(n+123.),hash(n+124.),f.x),mix(hash(n+153.),hash(n+154.),f.x),f.y),f.z);
+	}
+
+	float fbm(vec3 x) {
+		float f = 0.;
+		float w = .5;
+		for( int i=0; i < 4 ; i++ ) {
+			f += w * noise( x / w );
+			w *= 0.5;
+		}
+		return f;
+	}
+
+	void main( )
+	{
+		float l = distance( v_Position , u_CamPos );
+		vec3 dir = normalize( u_CamPos - v_Position );
+		vec3 g_color = mix(vec3(0.,.05,.1),vec3(.3,.8,.9),pow(fbm(v_Position/12.),1.5)) * ( .1 + max( 0. , dot( dir , v_Normal ) ) ) / 1.1;
+		gl_FragColor = vec4(
+			mix( vec3(0.,.025,.05) , g_color , clamp( 1. - l / 1536. , 0. , 1. ) ) ,
+			1.
+		);
+	}
+</script>
+
+<script id="vs-text" type="x-shader/x-vertex">
+	uniform vec2 u_BasePos;
+	uniform vec2 u_Screen;
+	uniform float u_Size;
+	uniform float u_Rise;
+	uniform float u_Time;
+
+	attribute vec2 a_Position;
+	attribute float a_Amplitude;
+	attribute float a_OscSpeed;
+	attribute float a_UpSpeed;
+	attribute float a_SizeVariation;
+
+	void main()
+	{
+		gl_Position = vec4( u_BasePos + ( a_Position * u_Size + vec2(a_Amplitude*sin(u_Rise*a_OscSpeed),a_UpSpeed*u_Rise) ) * 2. / u_Screen , 0. , 1. );
+		gl_PointSize = u_Size * ( 1. + a_SizeVariation * sin(u_Time*a_OscSpeed) );
+	}
+</script>
+
+<script id="fs-text" type="x-shader/x-fragment">
+	precision lowp float;
+
+	uniform float u_Size;
+	uniform vec2 u_Screen;
+
+	void main( )
+	{
+		vec2 coords = ( gl_PointCoord * 2. - vec2( 1. ) );
+		if ( length( coords ) >= 1. ) {
+			discard;
+		}
+
+		vec2 sp = 2.*gl_FragCoord.xy / u_Screen.xy - 1.;
+		sp.x *= u_Screen.x / u_Screen.y;
+
+		vec3 ldir = -normalize( vec3(sp , 3. ) );
+
+		float z = sqrt( 1. - dot(coords,coords) );
+		vec3 norm = normalize( vec3( coords , -z ) );
+		float bubble = clamp( dot(norm,ldir) , 0. , 1. );
+		float iphong = pow( bubble , 100. );
+
+		gl_FragColor = vec4( bubble * .04 + iphong , bubble * .1 + iphong , bubble * .2 + iphong , max( bubble , iphong ) );
+	}
+</script>
+
+<script id="vs-screen" type="x-shader/x-vertex">
+	attribute vec2 a_Position;
+
+	void main()
+	{
+		gl_Position = vec4( a_Position , 0. , 1. );
+	}
+</script>
+
+<script id="fs-draw" type="x-shader/x-fragment">
+	precision lowp float;
+
+	uniform sampler2D u_Texture;
+	uniform vec2 u_Screen;
+	uniform float u_Decay;
+
+	void main()
+	{
+		vec2 texturePos = gl_FragCoord.xy / u_Screen;
+
+		vec4 oc = texture2D( u_Texture , texturePos );
+		float l = length( oc.rgb );
+		gl_FragColor = vec4( mix( vec3( l*.1, l*.5, l ) , oc.rgb , u_Decay ) , u_Decay * oc.a );
+	}
+</script>
+
+<script language="javascript" src="pointless.js"></script>
+<script language="javascript" src="sonant.js"></script>
+</head>
+<body onload=main()>x</body></html>

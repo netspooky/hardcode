@@ -1,0 +1,181 @@
+comment #+
+
+    This is the source-release of "Stoerfall Ost", our winning 4kb
+    multimedia presentation that was first shown at Dialogos 2000.
+    If you have any questions concerning the sourcecode drop us a
+    line at freestyle@freestylas.org. Feel free to visit our
+    webpage at http://www.freestylas.org.
+    Copyright (C) 2001 freestyle
+    
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License
+    as published by the Free Software Foundation; either version 2
+    of the License, or (at your option) any later version.
+    
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    
+    You should have received a copy of the GNU General Public License
+    along with this program; if not, write to the Free Software
+    Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+    
++#
+
+
+
+;PRECALCULATION ENSEMBLE FILE 
+
+mod_sd		= 0
+mod_sd_num 	= 7
+
+;------------------------------------------------------------------------SD
+
+;sd+1
+module		semNoiser
+connect_const	trigger_bd	;gate
+connect_const	fto+55		;cut
+connect_const	fto+62		;res
+connect_const	fto+10		;dec
+
+
+;sd+2
+module		semPercussion
+connect_const	trigger_bd	;gate
+connect_const	fto+98		;freq
+connect_const	fto+95		;PtcTone
+connect_const	fto+24		;PtcDec
+connect_const	fto+106		;sustain time 
+connect_const	fto+24		;release dec
+
+;sd+3
+module		semFader
+connect		mod_sd+1,1		;bp
+connect		mod_sd+2,0
+connect_const	fto+59
+
+;sd+4
+module		semMuller	
+connect_const	fto+71
+connect		mod_sd+3,0
+
+;sd+5
+module		semClipper
+connect		mod_sd+4,0
+
+;sd+6
+module		semMuller
+connect_const	fto+60
+connect		mod_sd+5,0
+
+;sd+7
+sampler		SES_SD, SMP_WRITE
+connect		mod_sd+6,0
+connect_const	0
+
+;------------------------------------------------------------------------BD
+mod_bd		= mod_sd+mod_sd_num
+mod_bd_num	= 5
+
+;bd+1
+module		semPercussion
+connect_const	trigger_bd	;gate
+connect_const	fto+89		;freq
+connect_const	fto+101		;tone
+connect_const	fto+20		;freq_dec
+connect_const	fto+118		;tone
+connect_const	fto+3		;vol_dec
+
+;bd+2
+module		semMuller	;dist
+connect_const	fto+65
+connect		mod_bd+1,0
+
+;bd+3
+module		semClipper
+connect		mod_bd+2,0
+
+;bd+4
+module		semMuller	;volume
+connect_const	fto+52
+connect		mod_bd+3,0
+
+;bd+5
+sampler		SES_BD, SMP_WRITE
+connect		mod_bd+4,0
+connect_const	0
+
+;------------------------------------------------------------------------CH
+
+mod_ch		= mod_bd+mod_bd_num
+mod_ch_num	= 5
+
+;ch+1
+module		semNoiser
+connect_const	trigger_bd	;gate
+connect_const	fto+59		;cut
+connect_const	fto+53		;res
+connect_const	fto+13		;dec
+
+;ch+2
+module		semMuller	;dist
+connect_const	fto+60
+connect		mod_ch+1,2	;hp
+
+;ch+3
+module		semClipper
+connect		mod_ch+2,0
+
+;ch+4
+module		semMuller
+connect_const	fto+50
+connect		mod_ch+3,0
+
+;sd+5
+sampler		SES_CH, SMP_WRITE
+connect		mod_ch+4,0
+connect_const	0
+
+;------------------------------------------------------------------------ AWAY
+
+
+mod_away	= mod_ch+mod_ch_num
+mod_away_num	= 5
+
+;away+1
+sampler		SES_SAW,SMP_READ+SMP_LOOP
+connect_const	11
+connect_const	0
+
+;away+2
+sampler		SES_SAW,SMP_READ+SMP_LOOP
+connect_const	12
+connect_const	0
+
+;away+3
+sampler		SES_SAW,SMP_READ+SMP_LOOP
+connect_const	13
+connect_const	0
+
+;away+4
+module		semAdder
+connect		mod_away+1,0
+connect		mod_away+2,0
+
+;away+5
+module		semAdder
+connect		mod_away+3,0
+connect		mod_away+4,0
+
+;away+6
+module		semMuller
+connect_const	fto+43
+connect		mod_away+5,0
+
+;away+7
+sampler		SES_AWAY, SMP_WRITE + SMP_LOOP
+connect		mod_away+6,0
+connect_const	0
+
+db -1

@@ -1,0 +1,55 @@
+
+                           - R E S T R I C T I O N -
+
+         a 4K intro by Chrysalis, released at RAGE/SCEneST '98 MParty
+
+
+  [The authors]
+
+    code, hard optimize : Nobo
+                  music : Pepe
+        texture support : Tbyte
+
+
+  [Hardware requirements]
+
+   Amd or Cyrix P75 or Intel P166 (Intel is slow)
+   8MB of memory
+   GUS or nosound (2 GUS for surround music)
+   VGA card
+
+
+  [Software requirements]
+
+   HIMEM.SYS, 6M of XMS, 64K of base (no EMM386, QEMM, WIN95, WIN98, WIN00...)
+   init for all GUS!!!
+
+
+  [Versions]
+
+   rest1gus.com - Normal music with 1 GUS, the GUS port address is detected
+                  from DOS environment (if the env. is missing, the intro
+		  will use the port 220)
+   rest2gus.com - Surround music with 2 GUS, the front GUS address must be
+                  220 and the back one's 240
+
+
+  [Techinal stuffes]
+
+   The effects :
+
+    - The wood texture generator is a very big idea (special thanks to Tbyte)
+    - The very high mathematics based pixel 3D engine :-) is used in the
+      flat-fire, wood cube and the tunnel (the wood cube is 24576 pixels,
+      the tunnel is 32000 pixels)
+    - The glass is glass
+
+   The music :
+
+    - All samples are precalculated, the intro
+      DOESN'T USE ANY EXTERNAL PATCHS! (ä132KB 8-bit samples, 8 instruments)
+    - The music (patterns) was written in Fast Tracker 2.0, and compressed
+      with two different pattern compression methods (36K of patterns)
+    - The music contains 17 different patterns, and the song length is 19
+      patterns with 125 BPM and speed 6 (2:26)
+    - The music player supports 2 GUS for surround

@@ -1,0 +1,41 @@
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+         ÜÜÜ    ÜÜ                      Ü                ÜÜÜÜ
+         ŞÛ ßßÛÜ ŞÛİ  ÛÛ ÜÜÜÜÛÛÛÜ ÜÛßÛÜ ÛÛ      ÜÛßßÛÜ  ÜÛß  ÛÛ ÛÛßÛÜ
+         ÛÛİ  ŞÛİÛÛ  ŞÛİ  ßßÛÛ   ŞÛİ ŞÛİÛÛ     ŞÛİ  ÛÛ  ÛÛ   ÛÛŞÛİ  ÛÛ
+         ÛÛİ  ÛÛ ßÛÛÜ ÛÛ   ŞÛÛ   ÛÛ  Ü  ÛÛİ     ßß ÜÛÛ  ŞÛİ ŞÛİ ÛÛ  ŞÛİ
+         ŞÛÛßßÛÜ ÜÜ ßßÛÛ   ŞÛÛ   ÛÛßßÛ  ÛÛİ     ÜÛßßÛÛ  ÛÛİ  ÛÛŞÛİ  ŞÛİ
+         ÛÛİ  ŞÛİÛÛ   ÛÛ   ŞÛÛ   ÛÛ  ÜÜ ŞÛİ    ŞÛİ  ŞÛİŞÛÛ  ŞÛİŞÛİ  ŞÛİ
+         ŞÛİ  ÛÛ ŞÛİ  Ûİ    ÛÛ   ŞÛİ ŞÛİÛÛ ÜÜÜ ŞÛİ  ŞÛİŞÛÛ  ŞÛİ ÛÛ  ÛÛ
+         ßÛÜÜÛß   ßÛÜÛß     ÛÛ    ÛÛ ÛÛ ßÛÛÛßßß ßÛÜÜÛßÛ ÛÛ   ÛÛŞÛİÜÛß
+                            Ûß     ßßß                  ß<genom>ßßß
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                            =-AbOuT '.blue.'-=
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     It's my first 4kB ever and it looks quite fine. It took me over 2
+months  to  finish  it because I'm quite lazy and prefer to do nothing
+that  to  code  :-)  You can say: "Two months? It's just ridiculous!".
+Well,  I have to say that when I started I hadn't had any contact with
+assembler  before.  So  I  was doing two big things together: learning
+asm  and  coding this intro. But soon it turned out that asm is a very
+powerfull tool and it isn't very hard to learn it. So, here it is...
+     As  you have probably noticed I managed to put several effects in
+".blue.". What you have here is:
+ - roto-zoomer,
+ - environment mapping,
+ - voxel julia for f(z)=z^2+c and
+ - voxel julia for f(z)=z^3+c.
+     I  think  it's not bad. Notice that there's a very big difference
+between z^2 and z^3 when z is a complex number. So both Julia fractals
+aren't  similar  when you have to code the main alghoritm. Just try to
+do it by yourself and you will see that it isn't simple.
+     If  you'd like to contact me for some technical info about .blue.
+you can mail or e-mail me.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                   My addy:
+                                Fugaz/ByteLanD
+                                Wiktor Zychla
+                      ul.Meczennikow Oswiecimskich 21/14
+                                 68-200 Zary
+                                    POLAND
+                         wzychla@gate.math2.us.edu.pl
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ

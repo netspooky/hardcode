@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<title>ANDES by p01 / ribbon for the 1k competition at Assembly 2013</title>
+	<link rel="index" href="../"></link>
+	<meta charset="utf-8" />
+</head>
+<body><canvas id="c"></canvas>
+<script>
+
+var c = document.getElementsByTagName('canvas')[0],
+S=String.fromCharCode,
+t=0,
+i=-1300; // roughly -size of the unpacked script
+
+</script>
+<script>
+
+// The unpacked code of ANDES 
+c.outerHTML='<canvas width=768 height=432 id=d style=position:fixed;left:0;top:0;width:100%;height:100%;background:#210>';for(x in g=d.getContext('experimental-webgl'))g[x[0]+x[6]]=g[x];with(g){for(p=cP();s=cS(t+35632);ce(s),aS(p,s))sS(s,t++?'attribute vec4 t;void main(){gl_Position=t;}':'precision lowp float;uniform float t;float a(vec4 r,int d){float f=0.,s=32.;for(int i=0;i<48;i++)if(i<d){vec4 n=fract(r/32.)-.5;f+=(n.x*n.x+n.z*n.z)*s;s*=.5;r.xz*=mat2(1.2,1.4,-1.4,1.2);}return f;}float f(inout vec4 r,vec4 y,int d){float f=0.,s=32.;for(int i=0;i<48;i++)if(.1<s&&f<32.){f+=s=(r.y-a(r,d))*.3;r+=s*y;}return f;}void main(){vec4 r=vec4(1.2+cos(t/8.)*8.,24.+cos(t*.3),t,0.),y=normalize(vec4(gl_FragCoord.xy/vec2(24.,13.5)-16.+cos(t),8.,0.)),m=vec4(.1,0.,min(1.,f(r,y,8)/32.),0.);gl_FragColor=mix(vec4(f(r,normalize(vec4(a(r+m.xyyy,8),a(r+m.yxyy,8),a(r+m.yyxy,8),a(r,8))-a(r,8)),2)/32.),vec4(.8,1.2,1.4,1.)*y.z,m.z)-pow(t/32.-1.,32.);}');vA(eV(bf(34962,cB())),2,5126,lo(p),ug(p),bD(34962,new Float32Array([1,1,1,-3,-3,1]),34962+82));for(r=q='data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEA5h0AAOYdAAABAAgA';t<5e5;t++)q+=S(Math.random()+t/(32.+Math.cos(t/8.))%5);o=new Audio(r+btoa(q));m=function(){dr(4,uniform1f(gf(p,'t'),o.currentTime),3);requestAnimationFrame(m)};m(o.play())}
+
+</script>
+</body>
+</html>

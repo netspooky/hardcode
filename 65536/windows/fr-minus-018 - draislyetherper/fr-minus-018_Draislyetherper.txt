@@ -1,0 +1,24 @@
+(*****************************************************************************
+
+farbrausch
+fr-minus-018: Draislyetherper
+
+code: BeRo
+synth: BeRo
+music: BeRo
+gfx: BeRo
+
+released at tum 2013
+
+******************************************************************************
+
+This 64k was optimized for HD 1280x720 resolution. Please use a NVidia GeForce 
+GTX650TI as total minimum and a GTX660 as more optimal minimum. It runs also 
+with Intel HD Graphics 3xxx/4xxx/5xxx, but with very slow framerate. And 
+AMD/ATI is untested, sorry :-)
+
+signing off,
+
+BeRo
+
+*****************************************************************************)

@@ -1,0 +1,345 @@
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+;
+;     TITLE: 3d rotate text file
+;WRITTEN BY: DRAEDEN
+;      DATE: 02/22/93
+;
+;     NOTES: 3dRotate.asm requires a 386 or better
+;
+;ASSOCIATED FILES:
+;
+;       BWPRINT.ASM =>  Displays signed and unsigned bytes (8 bit), 
+;                    >  words (16 bit), or double words(32 bit)
+;
+;       SINCOS.DW   =>  Contains data for the sine and cosine operations
+;                    >  for a 256 degree circle. Values are multiplied by
+;                    >  256 for fast calculations.
+;
+;       3DROTATE.ASM=>  The asm file.
+;
+;       MAKE.BAT    =>  The file that'll put it all together into an .EXE
+;
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Rotating a point around (0,0,0):
+
+    Recall that the formula for rotating in 2d is:
+
+    Xt = X*COS(í) - Y*SIN(í)
+    Yt = X*SIN(í) + Y*COS(í)
+    
+    Rotations in the third deminsion simply involve rotating on all 3 planes.
+
+    To rotate a point (X,Y,Z) around the point (0,0,0) you would use this
+    algorithim:
+
+    1st, rotate on the X axis
+    
+    Yt = Y*COS(Xan) - Z*SIN(Xan)
+    Zt = Y*SIN(Xan) + Z*COS(Xan)
+    Y = Yt              --  Note that you must not alter the cordinates
+    Z = Zt              --   until both transforms are preformed
+    
+    Next, rotate on the Y axis
+
+    Xt  = X*COS(Yan) - Z*SIN(Yan)
+    Zt  = X*SIN(Yan) + Z*COS(Yan)
+    X   = Xt
+    Z   = Zt
+
+    And finally, the Z axis
+
+    Xt  = X*COS(Zan) - Y*SIN(Zan)
+    Yt  = X*SIN(Zan) + Y*COS(Zan)
+    X   = Xt
+    Y   = Yt
+
+    And thats it.  For a look at a quick implimentation, see the ASM file.
+    
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+The Palette
+
+    The palette consists of 256 color, each of which is made up of three
+    bytes- red, green, & blue.  It is very important to note that each
+    of the three bytes have a range of 0-63, because the VGA palette uses
+    only 6 bit for each of the 3 colors (18 bits = 2^18 = 262,144 colors)
+
+    The total size for a complete palette is 768 bytes (256*3)
+
+WRITING the palette to the vga card can be done in one of two ways.  The
+    first is to use VIDEO BIOS call which would go like this:
+
+ÄÄ method #1 ÄÄ    
+    mov     ax,cs                   ;in this example, the palette data is 
+    mov     es,ax                   ; stored in the code segment
+
+    mov     dx,offset Palette       ;ES:DX points to palette data
+    mov     ax,1012h                ;WRITE palette 
+    mov     bx,0                    ;start at color 0                   
+    mov     cx,256                  ;and write all 256 of 'em
+    int     10h
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+    The major disadvantage to this technique is that it is SLOW. VERY SLOW.
+    But, it is easier to impliment.  While you should not use this
+    in a rotating palette routine, it can be used to write the palette in
+    one time situations, such as setting up a palette for displaying a 
+    picture.
+
+    The second way involves directly accessing the VGA card.  This is done
+    as follows:
+
+ÄÄ method #2 ÄÄ
+    mov     ax,cs                   ;the palette is in the code segment...
+    mov     ds,ax
+
+    mov     al,0                    ;the first color to write is # 0
+    mov     dx,03c8h                ;VGA PEL address write mode register
+    out     dx,al           
+    inc     dx                      ;VGA PEL data register (03c9h)
+    mov     si,offset PalTmp        ;point DS:SI to Palette
+    mov     cx,256*3                ;the number of byte to write
+    rep     outsb                   ;and go
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+    Note that all palettes should be done right after a verticle retrace
+    completes, so the 'snow' is avoided.  This is done like this:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    mov     dx,3dah
+VRT:
+    in      al,dx
+    test    al,8
+    jnz     VRT         ;wait until Verticle Retrace starts
+NoVRT:
+    in      al,dx
+    test    al,8
+    jz      NoVRT       ;wait until Verticle Retrace Ends
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+    The way I implimented the palette rotate in this program was not the 
+    best way.  What I did is rotated the palette in host memory (make a
+    copy of it exactly like I want it on the video card), and then write
+    it to the video card.  The middle step is not needed.  I could have
+    changed the code so that it is faster by doing the following:
+
+    This rotates 16 colors. it starts the write a color # [index]
+    be sure to never let [index] out of the range 0-15
+    [BaseColor] is the color that is the first of the sixteen to 
+    rotate.  
+      
+      Example: If you wanted to rotate color # 100-115 youd set
+        [BaseColor] = 100  and 
+        [Index]     = what ever the index is (0-15)
+
+ÄÄ methid #3 ÄÄ
+    mov     bx,[index]              
+    mov     ax,bx                   ;this bit of code is just a fast
+    add     bx,bx                   ;way to multiple by three
+    add     bx,ax                   ;using a few adds take onlt 6 clocks
+                                    ;as compared to the 9-22 clocks for 
+                                    ; IMUL BX,3
+    mov     bp,16*3
+    sub     bp,bx                   ;bx holds length of first half
+                                    ;bp holds length of second half
+    mov     dx,03c8h
+    mov     al,[BaseColor]          ;the color # to start write at
+    mov     al,[index]              ;start on teh second half first
+    out     dx,al
+    inc     dx
+    mov     si,offset PalTmp        ;the place where the palette data is
+    mov     cx,bp
+    rep     outsb                   ;and go
+
+    or      bx,bx
+    je      SkipSecondHalf
+
+    dec     dx
+    mov     al,[BaseColor]          ;start at relative color # 0
+    out     dx,al
+    inc     dx                      ;si is already where we want it
+    mov     cx,bx                   ;load in the length
+    rep     outsb                   ;and go
+SkipSecondHalf:
+    ...                             ;code continues
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+    Although this works great for cycling the palette, it is not effective 
+    for fading out the palette.  To do this, you'd copy the current palette
+    to a backup 768 byte buffer and then decrease every one of those 768
+    bytes (but only if they are nonzero) and then write the entire backup
+    palette using method #2.  This is very easy to impliment.
+
+    But, if you were cycling the palette while fading, you'd want to
+    do a hybrid of method #2 & #3. First you'd fade the palette, then you'd
+    write all non-cycled areas and then write the rest of the palette using
+    method #3.  If you get creative, you can make palette rotates very cool
+    looking, and in fact its possible to do things that would be impossible
+    without palette rotations.  Just take a look at our next demo whenever
+    we get it done...
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ 
+And now the next part which I call - "The Nifty little cube that rotates 
+around and leaves a trail of fading out dots"
+
+    Nice title, eh?
+    If you haven't guessed yet, the fading trick was done with (get ready)
+    a cycling palette.
+
+    Here's how I put it together:
+
+        First, I made the routine that rotates the dots.  I took the previous
+      file, ROTATE.ASM and added in the 3rd (and 4th) fields in the point
+      structure.  Then I had to fiddle a little with the rotate subroutine
+      to make it rotate on all three axis.  This was a little tricky. Compare
+      the code of ROTATE.ASM and 3DROTATE.ASM to see what I did.  Next, I 
+      had to come up with a little distance transform, so that the object 
+      could zoom out into the distace, or get really close.  Here's how
+      to do that:
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ 
+    ScreenX = ScreenDist*Xpos/Zpos
+    ScreenY = ScreenDist*Ypos/Zpos
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ 
+
+      For convience, I chose the ScreenDist to be 256 (anyone know why?)
+      I also put some additions into the calculation for easy transforms.
+      The newer version of the above formula is:
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ 
+    ScreenX = 256*(Xpos+PreXadd)/(Zpos+PreZadd) + PostXadd
+    ScreenY = 256*(Ypos+PreYadd)/(Zpos+PreZadd) + PostYadd
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ 
+
+      For normal display, all the Pre adds would be zero and
+          PostXadd = ScreenWidth/2 
+          PostYadd = ScreenHeight/2
+      The post adds are for centering the object on the screen, and the
+      preadds are for changing the 3d cordinates of the object.
+
+      Finally, I implimented the formula.  Unfortunately, I could not
+      avoid 2 divides. ( IDIV takes about 27 clocks )
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ 
+    mov     cx,[RotCord.Z +si]  
+    add     cx,[PreAddZ]        ;cx = Zpos + PreZadd
+    
+    mov     ax,[RotCord.Y +si]
+    add     ax,[PreAddY]        ;ax = Ypos + PreYadd
+
+    movsx   dx,ah           ;these two instructions effectivly do a
+    shl     ax,8            ;signed multiply by 256, using 6 clocks instead
+                            ;of the 9-22 that IMUL takes
+
+    idiv    cx              ;you are witnessing the evils of depth emulation-
+    add     ax,[PostAddY]   ; the divide that you just can't get rid of
+    mov     di,ax
+    cmp     di,200          ;see if we are out of the screen bounds, if
+                            ;we are, quit calculating for this point now.
+    jae     DontDraw
+    imul    di,320          ;this IMUL should be replace by a look-up table,
+                            ; since we do the same thing over and over..
+                            ; you'd do it like this:
+                            ;
+                            ; add di,di
+                            ; mov di,cs:[Imul320+di]
+                            ;
+                            ; where Imul320 has 200 entries for the index*320
+                            ; Easy enough, and it takes only 6 cycles
+    mov     ax,[RotCord.X +si]
+    add     ax,[PreAddX]
+
+    movsx   dx,ah           ;again the multiply
+    shl     ax,8
+
+    idiv    cx              ;Aaarrrgghh! Another one!
+    add     ax,[PostAddX]
+
+    cmp     ax,320          ;check range of xpos
+    jae     DontDraw
+    add     di,ax           ;di now points to where the dot should be drawn
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ 
+
+        Then, I noticed that I was keeping a list of previous 'OldDI' points
+      so that I could erase the old dots quickly.  I thought, "hmmm..
+      what would happen if I were to create multiple OldDi charts?"   
+        What would happen is that a trail would be left behind..  But that
+      would be kinda lame, wouldn't it?  So I decided to put a rotating
+      palette in there, too.  I'd set it up so that the bytes I just drew
+      would be the brightest ones and all the others would "fade" out.
+        It's a little difficult to explain, so just go look at the code, OK?
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+And now an explaination of SINCOS.DW
+
+    SinCos.dw is a file which contians the sine of the 'angles' 0-255.  I
+used 256 angles because it is very convienent, and there just happens to 
+be a data structure that has a range of 0-255.  It's called a BYTE, denoted
+by 'DB'.
+    The bit of code (in BASIC) that would generate this sort of chart is:
+
+ÄÄÄÄÄÄÄÄ
+
+    FOR i = 0 TO 255
+        an = i*2*pi/256
+        BYTE = INT( SIN( an )*256 +.5)
+        >> Store BYTE in a file <<
+    NEXT i
+
+ÄÄÄÄÄÄÄÄ
+
+    Modifying the basic rotation formula for our data file would yield:
+
+    Xt = (X*COS(í) - Y*SIN(í)) / 256
+    Yt = (X*SIN(í) + Y*COS(í)) / 256
+
+    If you know your hexadecimal, you'd realise that dividing by 256 is 
+simply a "SAR XXX,8", where XXX is what you're dividing by 256.
+
+    I expanded this into assembler, that not only works, but is very fast. 
+To see it, examine the RotateXY procedure.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+BWPRINT.ASM contains three functions: PrintByte, PrintWord, and PrintBig. 
+
+    They do this:
+
+    PrintByte: decodes a byte (in AL) and displays it as 3 digits plus a
+            an optional sign.  If the carry is clear, it prints it as an
+            unsigned integer.  If the carry is set, it prints it signed.
+
+    ÄÄÄÄ
+        EXAMPLE:
+            mov     al,-50
+            stc
+            call    PrintByte
+    ÄÄÄÄ
+
+    PrintWord: decodes and prints a WORD (in AX) in 5 digits.
+
+    ÄÄÄÄ
+        EXAMPLE:
+            mov     ax,50000
+            clc
+            call    PrintWord
+    ÄÄÄÄ
+    
+    PrintBig:  decodes and prints a DOUBLEWORD (in EAX) in 10 digits. 
+                NOTE: PrintBig requires a 386 to use.
+    ÄÄÄÄ
+        EXAMPLE:
+            mov     eax,-1234567890
+            stc
+            call    PrintBig
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+   Well, that's it for now.  See INFO.VLA for information on contacting us.
+
+   I would like some suggestions on what to write code for.  What would you
+   like to see done?  What code would you like to get your hands on?
+
+   Keep it easy, though.  I don't want to have to spend hours writing a DOC
+   for it.  Just in case you're curious, I spent nearly as long on this doc
+   as I did on the asm file...

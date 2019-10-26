@@ -1,0 +1,10 @@
+
+
+
+
+Hemoglobin by lucid is our last moment entry for Alternative Party 2007
+Code, design ltipl with medical and tenda
+
+Source code released. Compiles with visual c++ 2005
+-ldsound -lopengl32 -lglu32 etc.
+

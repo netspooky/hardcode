@@ -1,0 +1,74 @@
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                          enenzi production 1998
+                              "boo ma ie"
+                     dedicated to spookie/omnicolour
+                       realtime slideshow raytrace
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   fastpentium.16mb.gus.16bpp_hicolor.univbe.
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   code    bartol
+   music   gareme
+   gfx     banshee (old enenzi logo, painted year ago)
+   font    deluxe paint :)
+   player  useless module player v1.04
+   kernel  pmode/w v1.33 
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   eh. so it's my first realtime raytracing. it's very slow, beacuse
+   99% of code is written in pure C. eh. you know. it's more easy to
+   code this in C using floats than in pure asm...
+   but nevermind. i dont optymalized it, because i have written it in
+   just two days. only watcom probably optymized it...
+   so as i said before, it's realtime raytrace. i put here only 
+   phong illumination, shadows and texture mapping. nothing else.
+   scenes were created using only balls, planes and cylinders.
+   there's four modes for this intro. you choose mode by typing parametr
+   when you run intro (defaul is mode 3), so:
+
+     boomaie mode1 - 108800 rpf (rays per frame)
+     boomaie mode2 - 27200 rpf
+     boomaie mode3 - 12080 rpf 
+     boomaie mode4 - 6800 rpf
+
+   rememeber that this is number of rays that i traced to get points of
+   intersection and checking shadows.
+ 
+   when you choose mode other that first mode, pixel will be copied, and
+   not interpolated. so, in second mode, pixels will have size 2x2,
+   in third mode 3x3 and last mode 4x4.
+   it was made for speed. you know...i have only 486 processor 
+   and when i coded this i dont tested it at any other computer.
+   ok. that's all. and remember that it's not optymized code!
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    love send to:
+    omnicolour    hellcore    hypnotiz    interror    norferin    liberty 
+    procreation   sixtynine   substance   spawn       suspend     the grid
+  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   eh. spookie, to nie mialo byc tak. zero dezajnu. sorry...

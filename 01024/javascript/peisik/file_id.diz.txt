@@ -1,0 +1,15 @@
+peisik by branch^tarhatarha
+
+
+originally js1k.com 2015-hypetrain entry
+
+
+Should work in all major new browsers. I've done couple of javascript intros before, but this is my first one at js1k.com. So this production mostly consists of a fragment shader program that does most of the visual presentation. I tried to make a shader initializer that is a bit smaller than what I've seen before. 
+
+The name was chosen as a sign of respect to the demoscene group Peisik. 
+
+Like PauloFalcao, Bernard of Chartres and many others have said before this was possible by standing on the shoulders 
+of giants: 
+Shader Minifier - http://www.pouet.net/prod.php?which=55176 
+jscrush - http://www.iteral.com/jscrush/  
+btw. I'm at the moment looking for a job.

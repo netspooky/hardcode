@@ -1,0 +1,134 @@
+
+
+                       <=  2 5 6   B Y T E   T E T R I S
+                       =================================
+
+
+                           U S E R ' S   M A N U A L
+                           =========================
+
+
+                                 16 March 1995
+                                 -------------
+
+
+BACKGROUND:
+
+The enclosed Tetris variants were entered into a "256 Bytes Or Less Game
+Competition", sponsored and judged by Steve (shavelk@agora.rdrop.com). 
+Entries had to run on a '386 with VGA adapter.
+
+Due to memory constraints certain features of unrestricted Tetris
+versions have been ommited. Most noticeably the score and automatic
+acceleration of the falling shapes are missing. I believe these games
+are otherwise accurate renditions of the classic puzzle game.
+
+
+GAMES:
+
+These Tetris variants should be enclosed in the archive:
+
+    tetrc40.com (255 bytes)
+        - 40 column COLOR Tetris
+        - screen mode set by program
+        - fixed speed for falling shapes
+
+    tetrd40.com (256 bytes)
+        - 40 column COLOR Tetris (multi-colored shapes)
+        - screen mode NOT set by program
+        - fixed speed for falling shapes
+
+    tetrv40.com (254 bytes)
+        - 40 column COLOR Tetris
+        - screen mode NOT set by program
+        - command line setable speed for falling shapes
+
+    tetrc80.com (255 bytes)
+        - 80 column COLOR Tetris
+        - screen mode NOT set by program
+        - fixed speed for falling shapes
+
+    tetrm80.com (255 bytes)
+        - 80 column MONO Tetris
+        - screen mode NOT set by program
+        - fixed speed for falling shapes
+
+
+GAME PRECONDITIONS:
+
+    tetrc40.com:
+        - No preconditions. Just run it.
+
+    tetrd40.com:
+        - The screen must be in a 40 column color text mode.
+          This can be achieved by previously running "mode 40".
+
+          This game is for novelty value only. I prefer tetrc40.com.
+
+    tetrv40.com:
+        - The screen must be in a 40 column color text mode.
+          This can be achieved by previously running "mode 40".
+
+        - The speed of the falling shapes is set on the command line -
+          the more characters on the command line the slower they fall.
+          e.g. for fast Tetris use "tetrv40 x"
+          e.g. for slow Tetris use "tetrv40 xxxxxxxxxxxxxxxx"
+          Note that "tetrv40" by itself is impossibly fast.
+
+    tetrc80.com:
+        - The screen must be in an 80 column color text mode.
+          This can be achieved by "mode co80".
+
+          I highly recommend using a 43 or 50 line mode as opposed to
+          the normal 25 lines (to get a sensible aspect ratio).
+          This can be done by "mode ,43" or "mode ,50". If you get an
+          ANSI.SYS error then you'll have to put up with 25 lines, or
+          change your CONFIG.SYS to use the ANSI.SYS device driver.
+
+    tetrm80.com:
+        - The screen must be in an 80 column mono text mode.
+          This can be achieved by "mode mono".
+
+          This game is for the remaining one or two people in the
+          universe who only have a mono video card.
+
+
+KEYS:
+
+During the games the following keys are available:
+
+    [J]     - move shape left
+    [K]     - rotate shape
+    [L]     - move shape right
+    [SPACE] - move shape down one line
+
+The games terminate when a new shape cannot fit into the bin (i.e. the
+fallen shapes stack up to near the top of the bin). Thus to abort the
+games hold down the [SPACE] key until the bin fills up.
+
+
+If you're using COMMAND.COM you'll probably need to run "cls" after the
+games before doing anything else at the prompt (don't worry if you can't
+see the word "cls" when you type it). 4DOS.COM users may not need to do
+this.
+
+
+COPYING:
+
+The above games may not be sold. They may be (FREELY) distributed only
+if this unmodified document and ALL the unmodified games are copied
+together (archiving is encouraged).
+
+
+CREDITS:
+
+This document and the games "tetrc40.com", "tetrd40.com", "tetrv40.com",
+"tetrc80.com" and "tetrm80.com" were written by:
+
+Carl Chimes
+(email: carl@cs.uq.oz.au or cs322552@student.uq.edu.au)
+(IRC: zap)
+
+I would be happy to correspond with other <=256 byte game entrants.
+Anyone else have to recycle their opcodes as data?
+

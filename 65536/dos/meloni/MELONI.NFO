@@ -1,0 +1,109 @@
+
+     OOO   OOO         OOOOOO      OOOOOOOOO         OOOOOO         OOOOOO
+     OOO   OOO         OOOOOO      OOOOOOOOO         OOOOOO         OOOOOO
+  OOO   OOO   OOO            OOO   OOO      OOO   OOO      OOO   OOO      OOO
+  OOO   OOO   OOO            OOO   OOO      OOO   OOO      OOO   OOO      OOO
+  OOO   OOO   OOO      OOOOOOOOO   OOO      OOO      OOOOOOOOO   OOO      OOO
+  OOO   OOO   OOO      OOOOOOOOO   OOO      OOO      OOOOOOOOO   OOO      OOO
+  OOO   OOO   OOO   OOO      OOO   OOO      OOO            OOO   OOO      OOO
+  OOO   OOO   OOO   OOO      OOO   OOO      OOO            OOO   OOO      OOO
+  OOO   OOO   OOO      OOOOOOOOO   OOO      OOO   OOOOOOOOO         OOOOOO
+  OOO   OOO   OOO      OOOOOOOOO   OOO      OOO   OOOOOOOOO         OOOOOO
+
+------------------------------------------------------------------------------
+
+Credits - Code:        Brite-Lite
+                       C.H.A.J.
+          Music:       Brite-Lite
+          Gfx:         Brite-Lite
+          SoundSystem: Beta/A-Men
+
+------------------------------------------------------------------------------
+
+Please do run this intro with a soundcard (preferably GUS)
+
+And if you're computer is too slow then the intro MAY get out of sync (it
+will not sync with the music). It SHOULD work on any 486 or pentium, but
+atleast on my 386sx/25 it didn't. The only effects that may slow down are
+the plasma & bump... on a slow machine the bump will be a hell to watch!
+
+Also, the no-sound version is NOT the same as the Sound-version... :)
+
+------------------------------------------------------------------------------
+
+Asm97:
+
+Well, as you probably know this intro was not shown at ASM'97. Well that was
+not fully a surprise, but the fact that only 8 were shown was a surprise.
+Even if Asm-organizing clearly state in the invitation file that 15 intros
+WILL be show as long as they get 15 contributions...
+This clearly proves the disability of the PC-jury to follow their own 'rules'!
+
+One other thing that surprised me was that Pixel's Wildcompoentry WASN'T
+disqualified. It has been shown on television a few weeks earlier. This AGAIN
+proves that the organizers aren't able to follow their own rules... :)
+
+Well, otherwise the assembly party was quite nice...
+
+------------------------------------------------------------------------------
+
+Mango-history:
+
+Mango was born in 1994 under the name of Nightmare Productions. Back then the
+group consisted of Brite-Lite and C.H.A.J. No big productions were released
+and we changed our name a few times. Then came the autumn of '96: The release
+of TRUE LAMENESS under the name of Alpha Design. This demo(?) competed in
+TMDC and came 8th (last!). For that I (Brite-Lite) won a T-Shirt! (thanx to
+the organizers of TMDC). Later in '96 we released a small intro called XMAS96.
+Nothing big, just some gfx and musix by me and some code by C.H.A.J.
+
+The nothing happened. We were lazy for quite a while not releasing ANYTHING.
+We had several projects going on: A game which should have been released at
+Asm'96 but which was not finished at time (it's still not finished :) and a
+musicdisk consisting of 8 chiptunes by me (Brite-Lite) which is not finished
+yet either.
+
+Sometime in the summer of '97 we decided to form a new group that would ONLY
+concetrate on the demoscene (and boozing). This was group got the name MANGO.
+We are still keeping the name Alpha Design for more serious stuff.
+
+But at Asm'97 we heard from Jer/Panic-c64 that Panic's PC-section was also
+called Mango. So, now we're thinking if stick to our Alpha Design label, or
+to continue as Mango... 
+
+------------------------------------------------------------------------------
+
+Memberlist:               
+                   
+        Brite-Lite
+        C.H.A.J.
+        Chaos
+        0ral-B
+
+------------------------------------------------------------------------------
+
+Intro:
+
+We started planning making this intro already in June, but nothing was done
+before 2 days before asm97. Most of the code was done from a scratch so that's
+why this intro is so crappy. As we didn't have enough time for coding we tried
+to concentrate on design (not that it worked :).
+
+So here you have the result of some hours of coding, painting and music-
+writing. I should point out that all the routines are VERY unoptimized because
+of the lack of time. All effects (except plasma and bump) work in oneframe on
+a 386sx.
+
+Well, I hope you're not taking this intro too serious as we DON'T! It just
+made for fun!
+
+------------------------------------------------------------------------------
+
+                                                 Brite-Lite/Mango/Alpha Design
+
+------------------------------------------------------------------------------
+
+
+
+
+

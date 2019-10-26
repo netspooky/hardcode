@@ -1,0 +1,14 @@
+         CITY
+A 256 bytes intro by and with
+Gunnars Farvebio (tm)
+80x86 division Ltd.
+
+released 08 may 2004
+
+Programming by MZ1453.
+
+Requires an IBM compatible
+computer with 386+387 and above.
+
+
+

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+	<title>Knowing me by gaze by Bilotrip</title>
+	<script id="shader-fs" type="x-shader/x-fragment"> 
+		#ifdef GL_ES
+		precision highp float;
+		#endif
+ 		
+		uniform float time;
+		uniform float width;
+		uniform float height;
+ 	
+		void main(void) {
+			vec2 resolution;
+			resolution.x = width;
+			resolution.y = height;
+
+            float beat = 1.0;
+			
+			vec2 p = (2.0*gl_FragCoord.xy-resolution)/(resolution.y*(beat*0.5));
+	 
+			float millis = time*0.4;
+
+			p.y = p.y + atan(millis*p.x*13.7*cos(millis*0.8*p.y))*cos(p.y+millis)*cos(p.x-millis);
+			p.x = p.x + cos(millis+p.y*26.3*sin(millis*0.87*p.y))*sin(p.x+millis)*sin(p.y-millis);
+
+			p.x = p.x*beat;
+
+			float col2 = cos(gl_FragCoord.x*(5.5-cos(atan(p.x+gl_FragCoord.y)*0.05+sin(p.y-p.x-millis)*p.y*0.1+millis*0.05)*5.55)-millis*26.0+atan(p.y*10.0+millis*(10.0)*(p.x)*p.y))*atan(gl_FragCoord.y*4.5+millis*0.5);
+
+			float col3 = col2+p.x*0.01;
+			float col4 = col2+p.y*0.01;
+
+			if (col2 > abs(cos(millis*10.0+cos(gl_FragCoord.y+millis-p.x*0.03)))) col2 = 1.0;
+			else col2 = 0.0;
+			if (col3 > abs(sin(millis*10.0+sin(gl_FragCoord.x+millis-p.x*0.01)))) col3 = 1.0;
+			else col3 = 0.0;
+			if (col4 > abs(tan(millis*10.0+tan(gl_FragCoord.y+millis-p.y*0.02)))) col4 = 1.0;
+			else col4 = 0.0;
+
+			float r = cos(p.x+millis)*col2*col2;
+			float g = sin(p.y+millis)*col2*col3;
+			float b = atan(p.x+millis)*col2*col4;
+			if (g < 0.0) g = 0.0;
+			if (b < 0.0) b = 0.0;
+
+	    		gl_FragColor = vec4(
+				(atan(millis+p.x)*r-b*col2*p.x)*0.3*beat,
+				(g-r*col3*p.y)*0.2*beat,
+				(b-g*col4*p.x*atan(millis))*0.5,
+				1.0);
+			}
+	</script> 
+ 	
+	<script id="shader-vs" type="x-shader/x-vertex"> 
+		attribute vec3 vertexPosition;
+		uniform mat4 modelViewMatrix;
+		uniform mat4 perspectiveMatrix;
+ 		
+		void main(void) {
+			gl_Position = perspectiveMatrix * modelViewMatrix * vec4(vertexPosition, 1.0);
+		}
+	</script> 
+ 	
+	<script type="text/javascript"> 
+		var gl;
+		var mQuadVBO = null;
+
+        requestAnimFrame = (function() {
+		  return window.requestAnimationFrame ||
+		     window.webkitRequestAnimationFrame ||
+		     window.mozRequestAnimationFrame ||
+		     window.oRequestAnimationFrame ||
+		     window.msRequestAnimationFrame ||
+		     function(/* function FrameRequestCallback */ callback, /* DOMElement Element */ element) {
+		       window.setTimeout(callback, 1000/60);
+		     };
+		})();
+        
+ 
+		function initGL(canvas) {
+			try {
+				gl = canvas.getContext("experimental-webgl");
+				gl.viewportWidth = canvas.width;
+				gl.viewportHeight = canvas.height;
+ 
+				var vertices = new Float32Array([ -1., -1.,   1., -1.,    -1.,  1.,     1., -1.,    1.,  1.,    -1.,  1.]);
+ 
+				mQuadVBO = gl.createBuffer();
+				gl.bindBuffer(gl.ARRAY_BUFFER, mQuadVBO);
+				gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
+ 
+			} catch(e) { }
+			if (!gl) {
+				alert("Bilotrip DarumaGL systems failure. Init failed.");
+			}
+		}
+ 	
+	  	function getShader(gl, id) {
+	    	var shaderScript = document.getElementById(id);
+	    	if (!shaderScript) {
+	      		return null;
+	    	}
+ 		
+	    	var str = "";
+	    	var k = shaderScript.firstChild;
+	    	while (k) {
+	      		if (k.nodeType == 3) {
+	        		str += k.textContent;
+	      		}
+	      		k = k.nextSibling;
+	    	}
+ 
+	    	var shader;
+	    	if (shaderScript.type == "x-shader/x-fragment") {
+	      		shader = gl.createShader(gl.FRAGMENT_SHADER);
+	    	} else if (shaderScript.type == "x-shader/x-vertex") {
+	      		shader = gl.createShader(gl.VERTEX_SHADER);
+	    	} else {
+	      		return null;
+	    	}
+ 		
+	    	gl.shaderSource(shader, str);
+	    	gl.compileShader(shader);
+ 
+	    	if (!gl.getShaderParameter(shader, gl.COMPILE_STATUS)) {
+	      		alert(gl.getShaderInfoLog(shader));
+	      		return null;
+	    	}
+ 		
+	    	return shader;
+	  	}
+ 		
+	  	var shaderProgram;
+ 
+	  	function initShaders() {
+	    	var fragmentShader = getShader(gl, "shader-fs");
+	    	var vertexShader = getShader(gl, "shader-vs");
+ 
+	    	shaderProgram = gl.createProgram();
+	    	gl.attachShader(shaderProgram, fragmentShader);
+	    	gl.attachShader(shaderProgram, vertexShader);
+	    	gl.linkProgram(shaderProgram);
+ 
+	    	if (!gl.getProgramParameter(shaderProgram, gl.LINK_STATUS)) {
+			alert("Bilotrip DarumaGL fail: Could not initialise shaders.");
+	    	}
+ 	
+	  	}
+ 	
+	  	var time = 0;
+		var low = 0; 
+		var beat = 0;
+
+	  	function drawScene() {
+			time = time + 0.007;
+			gl.viewport(0, 0, gl.viewportWidth, gl.viewportHeight);
+ 		
+			gl.useProgram(shaderProgram);
+ 
+			var vertexPosition = gl.getAttribLocation(shaderProgram, "vertexPosition");
+ 		
+			gl.enableVertexAttribArray(vertexPosition);
+ 	
+			shaderProgram.widthUniform = gl.getUniformLocation(shaderProgram, "width");
+			shaderProgram.heightUniform = gl.getUniformLocation(shaderProgram, "height");
+			shaderProgram.timeUniform = gl.getUniformLocation(shaderProgram, "time");
+
+			gl.clearColor(0.0, 0.0, 0.0, 1.0);
+			gl.clearDepth(1.0);
+			gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
+ 		
+			gl.uniform1f(shaderProgram.widthUniform, gl.viewportWidth);
+			gl.uniform1f(shaderProgram.heightUniform, gl.viewportHeight);	
+ 
+			gl.uniform1f(shaderProgram.timeUniform, time);
+			gl.uniform1f(shaderProgram.beatUniform, beat);
+ 
+			gl.enable(gl.DEPTH_TEST);
+			gl.depthFunc(gl.LEQUAL);
+ 		
+			var vertexBuffer = gl.createBuffer();
+			gl.bindBuffer(gl.ARRAY_BUFFER, vertexBuffer);
+ 		
+			var vertices = new Float32Array([
+				0.0, 2.15, 4.0,
+				-3.0, 2.15, 4.0,
+				-3.0, -3.0, 4.0,
+ 
+				-3.0, -3.0, 4.0,
+				3.0, -3.0, 4.0,
+				0.0, 2.15, 4.0,
+ 
+				0.0, 2.15, 4.0,
+				3.0, 2.15, 4.0,
+				3.0, -3.0, 4.0
+			]);
+ 
+			gl.bufferData(gl.ARRAY_BUFFER, vertices, gl.STATIC_DRAW);
+ 		
+			var fieldOfView = 20.0;
+			var aspectRatio = gl.viewportWidth / gl.viewportHeight;
+			var nearPlane = 1.0;
+			var farPlane = 10000.0;
+			var top = nearPlane * Math.tan(fieldOfView * Math.PI / 360.0);
+			var bottom = -top;
+			var right = top * aspectRatio;
+			var left = -right;
+ 
+			var a = (right + left) / (right - left);
+			var b = (top + bottom) / (top - bottom);
+			var c = (farPlane + nearPlane) / (farPlane - nearPlane);
+			var d = (2 * farPlane * nearPlane) / (farPlane - nearPlane);
+			var x = (2 * nearPlane) / (right - left);
+			var y = (2 * nearPlane) / (top - bottom);
+			var perspectiveMatrix = [
+				x, 0, a, 0,
+				0, y, b, 0,
+				0, 0, c, d,
+				0, 0, -1, 0
+			];
+ 
+			var modelViewMatrix = [
+				1, 0, 0, 0,
+				0, 1, 0, 0,
+				0, 0, 1, 0,
+				0, 0, 0, 1
+			];
+ 
+			var vertexPosAttribLocation = gl.getAttribLocation(shaderProgram, "vertexPosition");
+			gl.vertexAttribPointer(vertexPosAttribLocation, 3.0, gl.FLOAT, false, 0, 0);
+ 
+			var uModelViewMatrix = gl.getUniformLocation(shaderProgram, "modelViewMatrix");
+			var uPerspectiveMatrix = gl.getUniformLocation(shaderProgram, "perspectiveMatrix");
+ 
+			gl.uniformMatrix4fv(uModelViewMatrix, false, new Float32Array(perspectiveMatrix));
+			gl.uniformMatrix4fv(uPerspectiveMatrix, false, new Float32Array(modelViewMatrix));
+ 	
+			gl.drawArrays(gl.TRIANGLES, 0, 9);
+			gl.flush();
+            requestAnimFrame(drawScene);
+	  	}
+ 
+	  	function webGLStart() {
+	    	var canvas = document.getElementById("bilocanvas");
+	    	initGL(canvas);
+	    	initShaders();
+            requestAnimFrame(drawScene);
+            }
+	</script>
+	<script type="text/javascript">
+		function BrowserSize() {
+  			if( typeof( window.innerWidth ) == 'number' ) {
+    			//Non-IE
+    			this.width = window.innerWidth;
+    			this.height = window.innerHeight;
+  			} else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+    			//IE 6+ in 'standards compliant mode'
+    			this.width = document.documentElement.clientWidth;
+    			this.height = document.documentElement.clientHeight;
+  			} else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+    			//IE 4 compatible
+    			this.width = document.body.clientWidth;
+    			this.height = document.body.clientHeight;
+  			}
+			this.noOverflowWidth = this.width - 4;
+			this.noOverflowHeight = this.height - 4;
+		}
+			BrowserSize.prototype.width;
+			BrowserSize.prototype.noOverflowWidth;
+			BrowserSize.prototype.height;
+			BrowserSize.prototype.noOverflowHeight;
+		
+		var canvas = null;
+		var container = null;
+		var browserSize = new BrowserSize();
+		function init() {
+			container = document.getElementById("container");
+			canvas = document.getElementById("bilocanvas");
+			container.style.width = browserSize.noOverflowWidth + "px";
+			container.style.height = browserSize.noOverflowHeight + "px";
+			canvas.width = container.offsetWidth-8;
+			canvas.height = container.offsetHeight-8;
+			webGLStart();
+		}
+	</script>
+	<style type="text/css">
+		body {
+			background-color: black;
+		}
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+		#container {
+			width: 100%;
+			background: #000000;
+			margin: auto;
+			border: none;
+			margin-top: 4px;
+		}
+		#bilocanvas {
+			background: #000000;
+			border: 0;
+		}
+		#flashContent {
+			display: none;
+			text-align: left;
+		}
+		#pos {
+			color: white;
+			position: absolute;
+			top: 4px;
+			left: 8px;
+			z-index: 100;
+		}
+	</style>
+		
+</head>
+
+<body onresize="window.location.reload(true);" onload="init()">
+	<div style="width: 1676px; height: 892px;" id="container">
+		
+		<!-- WEBGL CONTENT -->
+		
+		<canvas height="884" width="1668" id="bilocanvas"></canvas>
+	</div>
+
+
+</body></html>

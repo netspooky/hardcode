@@ -1,0 +1,73 @@
+          _____________ ________________________.____     ___________
+         /   _____/    |   \______   \__    ___/|    |    \_   _____/
+         \_____  \|    |   /|    |  _/ |    |   |    |     |    __)_ 
+         /        \    |  / |    |   \ |    |   |    |___  |        \
+        /________/_______/  |________/ |____|   |________\/_________/
+
+                                by CaLoDoX!
+
+şù[ WHAT ? ] ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  A calodox contribution to Buenzli #6 fx's compo. Got the 2nd place
+  at this compo.
+
+şù[ WHO ? ] ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  Main code ............. Dake
+  Music / Noises ........ Fred ú Dake
+  Vesa code ............. Zpider
+
+  MXM player ............ Pascal
+  DOS32 ................. Adam Seychell
+
+şù[ WHAT DOES THIS THING NEED ? ] ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  This fx needs at least :
+
+  ù a FPU
+  ù 486dx, p166 or faster recommended
+  ù 8mb of RAM
+  ù a fast VESA 1.2 card (for fake-mode)
+  ù a card supporting VESA 2.0 for 16,24,32 bits LFB modes
+  ù GUS 512k for sound, nosound if no GUS detected
+
+  Problems ? :
+
+  ù some cards have LFB 320x200x16,24,32b available only when
+    Univbe or Scitech Display Doctor are loaded (Matrox, S3...)
+    check http://www.scitechsoft.com
+
+  ù if the proggy crashes just after the samples precalculations, then
+    reboot and launch with Univbe or SDD. If it still doesn't work, choose
+    another mode.
+
+  ù doesn't work with Windows NT
+
+şù[ WHAT'S BEHIND THIS FX ? ] ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  The FX features 4 metaballs (grid 32x32x32), a tunnel and some blurred
+  text. All textures are generated, samples are also created using some
+  weird algos (and it sounds like that :)
+
+  The code is 100% ASM (DOS32). No time left to optimize metaballs.
+  Don't blam me if it's slow on your PC, I didn't have time to implement
+  recursive stuff in the marching cubes algo (hey Mrz !)
+
+  No secret part. No cmdline options.
+
+şù[ Greetz ] ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  Mrz / Astroidea
+  Blackaxe / Kolor
+  Eclipse / Knights
+  Nowadays
+  Fake That
+  Trinity
+  TBF
+  Vantage
+  H^P
+  Carrots
+  #chscene
+  #demofr
+  #coders
+

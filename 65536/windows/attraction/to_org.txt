@@ -1,0 +1,1 @@
+run with "Direct3D HAL T&L" from the setup menu!!!!

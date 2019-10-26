@@ -1,0 +1,57 @@
+***************************
+*
+** How do I compile this???
+
+Check out the makefile (VIDEO and AUDIO) and config.h (BUFW and BUFH)
+and change the values appropriately :) Then type make.
+
+You need an X window system or svgalib, 8 bits per pixel. You may need
+to change the lib setting in the makefile to point to your Xlib dir.
+
+Tested on i386linux, aix (ibm rs/6000) and sun. Audio only works on linux,
+freebsd etc.
+
+**********************************************************************
+* 
+** I only have an Alpha, is it enough for watching this demo???
+
+This phukken multimedia show runs reasonably smoothly on an 386 machine
+(about 20x faster than most of today's msdos intros ;) in a 320x200
+window.
+
+The palette is ugly, the effects lousy. Hope you still enjoy it :)
+
+*************
+*
+** Credits **
+
+Almost everything done by Viznut this time. Greetings to all
+betatesters etc :)
+
+*******************
+*
+** To contact ocsa
+
+vheikkil@hytti.uku.fi
+www.hytti.uku.fi/~vheikkil/
+
+Member applications are not forbidden :)
+
+***************
+*
+** The binary
+
+The packet also contains a precompiled executable for dummies only.
+(Linux i386 shared elf svgalib devdsp 320x200x256, run as root)
+
+You should know it is very rude to spread suidroot binaries like this
+so if you care about the security of your system, just delete the bin
+and forget it!
+
+****************
+*
+** Copyright??
+
+Who cares. Use it in the spirit of gnu. But we'd hope you credit us if
+you take pieces out of it :)
+

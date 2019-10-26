@@ -1,0 +1,5 @@
+in the mood_32.exe - intro with 32 bit color 1024x768 mode
+in the mood_16.exe - intro with 16 bit color 1024x768 mode
+
+video: pure OpenGL
+sound: quite samplepool + mfmod

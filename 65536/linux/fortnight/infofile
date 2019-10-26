@@ -1,0 +1,48 @@
+
+mfx goes open-source(*):
+
+'fortnight'
+
+a 'crap in two weeks' intro
+
+requires the following:
+
+a linux
+a libmikmod
+a libsdl
+a libbzip2
+a glibc
+
+(aaand somewhat recent versions of each. i have debian unstable, except fixed with 
+some cvs-versions of some libs so it's not very outdated stuff i'm linking into... 
+and -dev of each if you want to recompile for some reason or another)
+
+code: 216
+music: dixan
+freecell: uncle-x
+
+
+greets:
+
+phn, kooma, haujobb, exceed, calodox, retro a.c, damage, farb-rausch, byterapers, 
+doomsday, dekadence and all the rest...
+
+
+contact:
+jwuolijo@cs.helsinki.fi (216)
+dixan@spinningkids.org (dixan)
+naleskin@cs.helsinki.fi (uncle-x)
+
+
+
+
+(*) so you want to start making quality linux-demos?
+everything you need is included in the package. the code is conformant 
+to the finest standards and an excellent starting point for newbies to 
+learn what it is all about. in no way it is done tired in 4am with quickly
+copypasted old crap and halfway optimized actually slowing it down or 
+anything like that. enjoy.
+
+yeah, and if you're a god or something this way you can translate it 
+to windoze too:) (getting working libs for my old vc5.0 is not a too easy 
+task these days.. but maybe you'll have better luck)

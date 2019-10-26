@@ -1,0 +1,42 @@
+
+                  ÄÄÄÄ ÄÄÄÄÄÄÄÄÄÄ Ä ÄÄÄÄÄÄ ÄÄÄÄÄÄ
+               ÛßÛßÜ ÛßßßÜ ßÜÜßß Û ÛßÛßÜ Û   Û ÛßÛßÜ
+               Û   Û ÛÜÜÜÛ ÜÜßßÜ Û Û   Û ÛÜÜÜß Û   Û
+                ù  ùùÄ BEAR ÄÄÄÄ ù     ğ WiRED'96 ğ
+
+ This intro was originally coded for Assembly 95 and after a long distance
+I release it at the WiRED 96 party. I include full source code (I know that
+there is nothing new, but it can help someone in first asm lines)
+
+
+bye,
+ Bear
+
+Contact:   e-mail: lindner@elf.stuba.sk
+           FIDO:   2:422/81.8
+           Tel:    ++42 7 818557
+           smail:  Michal Lindner
+                   Sustekova 15
+                   851 04 Bratislava
+                   Slovakia
+
+Minimal system: 386SX, VGA, 300kB free base memory, mono display
+Recommended: 486, faster VGA, color display
+
+Source code info:(chaos order)
+   simply timer routines, basic gouraud texture 3D engine(not clipped),
+mandelbrot, julia, starwars, slimmy bitmap rotation, sinus scroler, font
+rutines, feather fractal, loofty bitmap
+
+P.S.- Sorry, but source is not 100% english;-)
+
+
+Greetings goes to (alphabet order)
+   persons: Axis, Barty(Bluezone), Gurun, Infi, Inty, Ironhawk, Johnko,
+            Laser Harp, Lynx, Moshe, Nop, Panter, Photon, Rage, Sal,
+            Samael, Scape, Skywalker, Vic, Voomie, Vox, WWW, Zden, jCall
+   groups:  MiST, Nooon, Psychic Link, Purge, SiN, Sunrise software, Vahalla
+
+
+
+

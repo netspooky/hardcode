@@ -1,0 +1,10 @@
+Deep Blue: How does the effect work?
+
+The program simulates one of the most common standard effects of Windhoos:
+the ever-popular blue screen.
+
+To achieve this effect we've stosw'ed the screen blue. After that we've 
+used a procedure that pleurs chars with a specified attribute on the screen.
+Unfortunately, due to weapons-export-regulations, we are not allowed to give this piece of code free.
+
+MAlVERN & Huge-O

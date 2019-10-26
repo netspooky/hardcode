@@ -1,0 +1,82 @@
+
+			   p a r a n o i a  h.
+			 ‹‹‹‹‹‹  ‹‹  ‹‹‹‹‹   ‹‹‹‹
+			 €›ﬂﬂﬂ	 €   €›ﬂﬂ €  €›
+			 €	 ›   €‹‹‹‹ﬂ  €›‹
+			 €‹‹	 €€  €›   €  €›
+			 €ﬂ	 €€  €	  €› €‹‹‹
+			 ›	  ﬁ  ›	     ›
+
+			.64k for scenest97 pardey.
+
+		.486[works on 386].gus[optional].550k base.
+
+			       creditii
+	       bici.code.fonts palee.music robban/cda.player
+
+			      memberlist
+     bici.code.15 mrzip.code.zax.19 oc.zax.sysop.15 palee.16 tuz.gfx.15
+
+				contact
+ email.antal_buri@ccmail.oai.hu[subj.mrzip].snail.7100.szeksz†rd.alisca.32.2/18
+  telefon.+36.74.312.492.[andris] +36.74.319.402.[peter] +36.74.311.259.[oszi]
+
+
+
+			.d e t a i l e d  i n f o.
+
+  .requirments
+
+		   .386
+		   .550k conv. [work with qemm]
+		   .gus
+
+			.....about the code.....
+
+  As you may noticed this intro does not contain sucking 3d objects , because
+  everybody says vectordemos sucks. So here is a nonvector-intro.
+  About the speed.This intro was coded on a dx4-100 , so it may be too fast
+  on your pentium (we haven't tested it on a pentium).
+
+  This shit was coded in tp7.0 [of course mainly in asm] , because the lack of
+  time , so don't expect too much.This intro is just to tell you that
+  paranoia h. has born.
+  i [bici] have only 5 days to code it , so there are only some oldie [but
+  goldie] effects.But don't blame us now.We are going to release only better
+  intros.
+  The modplayer was made by robban/cda [thanx for it].
+
+  Bugs :  if you find one , contact the coder!
+  
+			.....about the music....
+
+  The soundtrack of this intro was made by palee in digitrakker.He had only
+  1 day to make it , but i think it is not too bad.
+
+
+			.....about the gfx......
+
+  In fact there is no gfx , only a fire logo , and some other texts[paranoia ,
+  presents , fire].These were made with Neopaint by bici.
+  The font was also made by bici with qedit [you know : charset db 1,1,0,0...]
+  [we need a good gfxman , so please join us if you are a pixelartist]
+
+
+			.........thanks.........
+
+
+		       borland	      pascal tasm
+		       n-factor       digitrakker
+		       neosoft	      neopaint
+		       robban/cda     gusplay
+
+
+			.......copyrigths.......
+
+  This material is not freeware.You are allowed to copy it without restrictions
+  for non-commercial use.No payment of any kind may be charged for this product.
+  You can include this package on any non-commercial cd-rom.We give the right
+  to the editors of chip-cd and cd-ultra to put this acrhive on their cd-rom.
+  You use this product at your own risk.We , the authors are not responsible
+  for any damage caused by this program.
+

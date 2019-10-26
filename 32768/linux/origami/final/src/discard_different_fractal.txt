@@ -1,0 +1,24 @@
+	switch(type) {
+	case MANDEL:
+		iterations = 256;
+		bailout = 4.0;
+		c=Z;
+		for(i=0; (i<iterations)&&(comp_abs(Z)<=bailout); i++) {
+			Z = comp_add(comp_pow2(Z), c);
+		}
+		result.n = (double)i;
+		result.i = sqrt(sqrt((result.n + comp_abs(Z)/bailout)/iterations));
+		break;
+	case JULIA:
+		iterations = 256;
+		bailout = 4.0;
+		c.n = 0.3; //(double)julia_sets[0];
+		c.i = 0.6; //(double)julia_sets[1];
+		for(i=0; (i<iterations)&&(comp_abs(Z)<bailout); i++) {
+			Z = comp_add(comp_pow2(Z), c);
+		}
+		result.n = (double)i;
+		result.i = sqrt(sqrt((result.n + comp_abs(Z)/bailout)/iterations));
+	default:
+		break;
+	}

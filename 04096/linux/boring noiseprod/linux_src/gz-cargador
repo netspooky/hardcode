@@ -1,0 +1,6 @@
+a=/tmp/a
+tail -n+7 $0|zcat>$a
+chmod +x $a
+$a
+rm $a
+exit

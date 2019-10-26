@@ -1,0 +1,18 @@
+<?xml?>
+<workspace_user>
+	<active_project>
+		<label>Daleks4k</label>
+	</active_project>
+	<projects>
+		<project>
+			<label>Daleks4k</label>
+			<showfiles>false</showfiles>
+			<folderitem>
+				<path>classes</path>
+			</folderitem>
+			<folderitem>
+				<path>src</path>
+			</folderitem>
+		</project>
+	</projects>
+</workspace_user>

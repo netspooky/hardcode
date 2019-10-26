@@ -1,0 +1,26 @@
+              Stochastic Lens Simulator by Gzrrplox
+                 A 4k Intro for Instanssi 2011
+
+This intro is the first step in the quest of Gzrrplox to build a realtime
+stochastic micropolygon rasterizer. To understand the inner workings, 
+read "The Reyes image rendering architecture" from 1987 and continue with
+the included source code.
+
+Basic idea is to sample geometry at randomly chosen time and lens coordinates
+multiple times inside a pixel. Sampling is done after shading in screen space
+coordinates which makes high amount of samples relatively low cost.
+
+Made using GCC and Byte Optimized Linker by Timon Ahon. Quick Windows port was
+compressed using Crinker by Loonies & TBC. Unpack header is the one by Marq.
+
+SDL is used for sound and initialization. OpenGL geometry shader support is
+required. I had some trouble with bold every now and then, huge unstripped
+gcc linked version should be safer. My first 4k so might be a bit rough
+around the edges.
+
+Greetings to Jypa, deggis, zipola, Zouppen, Ziticca, louk, Epeli, Cornix,
+Rage Manifesto, Apsup, wabe, Cornix, Zeggo, JuhoAP, hanshoi, rdom, Katajakasa
+teistiz, Kaelum, The old man and everyone else at Instanssi, especially visy
+(fascinating talk), Lehikoinen ja Hevoset (always as delightful).
+
+Biologimorsiamet, yes we are ashamed.

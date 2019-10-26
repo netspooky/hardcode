@@ -1,0 +1,85 @@
+                                                                   .
+           ú ú -->          .                      .          .
+
+   ³Û ÛÛÛÛÛÛÛÛ      ÛÛÛÛÜ  .    ú  ú -->              ÛÛÛÛÜ   .   .
+        ÛÛ        . Û   Û                             Û  ßÛ
+     .  ÛÛ Û Û Ûßß  ÛÛÛÛßÜßßÜ ÛßßÜ ßÛß ß Ûßß Û   Ûßß  Û   Û ÜßßÜ Û   Û
+        ÛÛ ÛßÛ Ûßß  Û    ÛßßÛ ÛßßÜ  Û  Û Û   Û   Ûßß  Û  ÜÛ ÛßßÛ  ßÛß
+        ÛÛ Û Û ÛÛÛ  ÛÛ   ÛÛ Û ÛÛ Û  Û  Û ÛÛÛ ÛÛÛ ÛÛÛ  ÛÛÛÛß ÛÛ Û   ß
+   ù - ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ß Ä - ù
+                    ThE PaRtiCLe DaY (c) 1997 by Quasar            ş
+                                                                   ù
+            ş minimal setup ş                ş ideal setup ş        ú
+
+         - 80386SX                          - 80486DX2-66Mhz
+         - 256Kb VGA card                   - 256Kb VGA card
+         - A No-Sound motherboard ;)        - Sound Blaster 2.0
+         - DOS 5.1                          - DOS 5.1
+
+         WARNING: DO NOT RUN THE INTRO UNDER ANY VERSION OF WINDOWS 
+
+   ù - ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ [ credits ] ÄÄÄÄ - ù
+             
+                    Sexton - code, music and most gfx
+                    Insane - mage gfx
+                    Int13h - introduction, title and drinking.
+                    Carlos - sound blaster code
+             
+   ù - ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ [ introduction ] ÄÄÄÄ - ù
+
+      Hello friends, this meeting is about a very important subject for
+   the whole universe. We all know there are Father's day, Valentine's
+   day, and a lot of other days like this. Our purpose is to collect
+   enough signs to able to declare "The Particle Day". We all know the
+   importance of those little things (the atoms, electrons, etc), in fact,
+   we wouldn't exist without them. Damn, my little sister is knocking my
+   coffin's door, hell, today's sisters are not like before!. Well, now I
+   leave the keyboard to Sexton, and I will go listen to Heavy Metal until
+   the next sun tells me that I have to wake up for work. Don't forget,
+   Girls+Beer+Heavy Metal+TASM rules. See ya in three reincarnations,
+   greetings to your girlfriend (if you have one :-)
+                                                                   Int13h
+
+   ù - ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ [ the coder talks ] ÄÄÄÄ - ù
+
+      Hi ladies and gentlemen (especially ladies), this is Sexton, 
+   talking about the intro. I started the main lines of code for
+   The Particle Day in the first days of 1997, I was very lazy at that
+   time, so, in the first month, I didn't code anything besides a line
+   routine. When March reached, the University came, and my time was more
+   limited, but at the end of the semester (in July) I decided not
+   to take Algebra and Geometry exams and finish the intro instead
+   (I could have studied, but I wouldn't pass ;). Everything was assembled
+   with TASM 3.1 and linked with the same version of TLINK. The code
+   is 100% real mode and should work in any DOS emulator featuring VGA
+   and +386 op-codes. There is no optimization at all, what you see in
+   the screen is produced by hard cycle-eating muls. In a few words,
+   a DX/2-66 with VLB will do a good work. :) (I used a DX/4-100). About
+   340Kbytes are needed to run the intro, the Sound Blaster is
+   auto-detected and you won't need to change your configuration if
+   your machine is faster than a DX/2-66. The last days before the release
+   I made some tests on a P133 and I saw everything was 70Hz (most parts
+   are 70Hz in slow machines, except for the ugly scroll zoomer,
+   the glenz-sinuser, and the texture tunnel). Note that the texture tunnel
+   is calculated pixel by pixel per each frame. No tables used. I will
+   use tables for my next productions, I don't really care. It's just
+   a bit boring using tables with real mode code :). That's all folks.
+   P.S. Thanks to Local H of BCI for proof reading!
+
+   ù - ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ [ contact info ] ÄÄÄÄ - ù
+
+   for fun, coding, music                     for swapping on Commodore 64
+   or business.                     Amiga, and PC (or just for friendship)
+
+   Sexton of Quasar                                   Jeu Azarru of Quasar
+   Ernesto Garbarino                                Juan Eduardo de Urraza
+   Monse¤or Bogar¡n 521                                    25 de Mayo 1533
+   Asunci¢n                                                       Asunci¢n
+   Paraguay                                                       Paraguay
+
+   sexton@quanta.com.py                              jeuazarru@inorbit.com
+
+
+             * All letters and mails will be answered, we are not
+                        lame "no time sorry" guys *
+

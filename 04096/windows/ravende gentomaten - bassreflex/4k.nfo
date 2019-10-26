@@ -1,0 +1,28 @@
+Ravende Gentomaten::Bassreflex
+
+A 4k intro for Breakpoint 2003 coded by T$ (ts@deinmeister.de)
+
+Requires DirectX8, 3D graphic accelerator + Soundcard
+Initialization can take some time on slower CPUs
+
+Files included:
+
+The following versions use 32bit color depth and 24bit z-buffer:
+Ts4kbp03_640x480x32.com
+Ts4kbp03_800x600x32.com
+Ts4kbp03_1024x768x32.com
+Ts4kbp03_1280x1024x32.com
+
+The following versions use 32bit color depth and 16bit z-buffer:
+Ts4kbp03_640x480x32D16.com
+
+The following version uses 16bit color depth and 16bit z-buffer:
+Ts4kbp03_640x480x16.com
+
+The following version uses 15bit color depth and 16bit z-buffer:
+Ts4kbp03_640x480x15.com
+
+
+The following color modes are used:
+Display format : X8R8G8B8, R5G6B5 or X1R5G5B5
+Z-buffer format: D24S8 or D16

@@ -1,0 +1,7 @@
+This program show error if it detect problems.
+This program will runs faster because window size is very small(320x240).
+
+p key: start/pouse
+l key: step once
+wsadec + mouse: move camera like fps.(please keep pushing left button in mouse to look around)
+esc key: exit

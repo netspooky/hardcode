@@ -1,0 +1,62 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  10 bytes - 10 byte intro  ;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+;  Author: Vuk/Breeze
+;  (or Gomba, I am both :)
+;
+;  Released at: QBPARTY 2016
+;  Compo: 256 byte intro
+;
+;  This is the source file.
+;  Binary is 10 bytes long
+;  hence the name.
+;
+;  Greetings:
+;  Every demoscener, including
+;  passivists ;)
+;
+;  Contact me:
+;  vuk at nospam cs dot elte hu
+;
+;  Compile it:
+;  nasm -o 10bytes.com file_id.diz
+;
+;  Some details:
+;
+;  C:\>DEBUG 10BYTES.COM
+;  -u100,109
+;  x:0100 0413   ADD  AL,13
+;  x:0102 CD10   INT  10
+;  x:0104 E2FB   LOOP 0101
+;  x:0106 B40C   MOV  AH,0C
+;  x:0108 EBF6   JMP  0100
+;  -u101,109
+;  x:0101 13CD   ADC  CX,BP
+;  x:0103 10E2   ADC  DL,AH
+;  x:0105 FB     STI
+;  x:0106 B40C   MOV  AH,0C
+;  x:0108 EBF6   JMP  0100
+;
+;  As you can see, multibyte
+;  statements were reused via loop.
+;  The first invocation of INT 10h
+;  is VGA 320x200x8bpp modesetter,
+;  the others are CX:DX putpixel
+;  (with AL colour index from
+;  default palette)
+;
+;  Fucking do NOT run under qemu!
+;  Virtualbox and pce-ibmpc worked
+;  with msdos6.22, drdos and freedos
+;  guest oses. Also dosbox is okay.
+;
+;  Exit key: reset switch.
+;
+org 100h
+_start:
+add     al,13h
+int     10h
+loop    _start+1
+mov     ah,0ch
+jmp     _start

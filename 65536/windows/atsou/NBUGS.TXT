@@ -1,0 +1,13 @@
+-======================================-
+-= This is a production of Nasty Bugs =-
+-======================================-
+
+This is a Nasty Bugs production. Nasty Bugs are Bad Sector as coder, Optimus as coder, Cybernoid as graphician and Apomakros as musician.
+
+The group started with Bad Sector and Optimus and later Cybernoid and Apomakros has joined. Our first production is Atsou for the Digital Nexus 2001 demo compo which was coded by Optimus and graphics made by Bad Sector. At the time which these lines are been written, we are making Atsou 2 for ReAct 2002, but we are not sure if we'll compete because our skills are not good enough for today's standards (a note here anyway: both Bad Sector and Optimus doesn't have a computer that can be used to make a good demo, so this may can be used as an excuse... :P).
+
+Other things that we made are... one thing: Bad BCC IDE (currently version 1.3) which is a small IDE for Borland's free C/C++ Compiler which is made (and be used) by Bad Sector.
+
+You can find us at web at http://www.nastybugs.cjb.net/
+
+--------------------------------------------------------------[bs]-

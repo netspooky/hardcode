@@ -1,0 +1,10 @@
+Superfine
+A 4kb journey by Minimal
+Released at Nordlicht 2017
+
+Code & shaders: Tropical Trevor, Glow
+Music: Punqtured
+
+Massive thanks to:
+Our ability to use Oidos (+ reverb) and Crinkler by Blueberry
+Shadertoy users Shane & Fabrice for some inspiring code

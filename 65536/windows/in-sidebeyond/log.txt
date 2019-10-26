@@ -1,0 +1,26 @@
+inroEngine LOG:
+Sun Jul 06 00:49:31 2003
+-------------------------------------------------------
+
+say> RegisterClass() -> TRUE 
+say> CreateWindowEx() -> TRUE 
+say> GetDC() -> TRUE 
+say> ChangeDisplaySettings() -> TRUE 
+say> ChoosePixelFormat() -> TRUE 
+say> SetPixelFormat() -> TRUE 
+say> wglCreateContext() -> TRUE 
+say> extension init -> TRUE 
+say> ----setup----------------- 
+say> ----setup complete--------- 
+say> FSOUND_Init() -> TRUE 
+say> FMUSIC_LoadSong() -> TRUE 
+say> title created 
+say> pains created 
+say> title created 
+say> FSOUND_Close() -> TRUE 
+say> ====interupted by user (VK_ESCAPE==TRUE)==== 
+say> killGl() -> TRUE 
+say> ChangeDisplaySettings() -> TRUE 
+
+---------------------end of log------------------------
+Sun Jul 06 00:51:45 2003

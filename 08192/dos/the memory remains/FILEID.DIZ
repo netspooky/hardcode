@@ -1,0 +1,23 @@
+ / / / / |/ / ___/ // / _ | /  _/ |/ / __/ _ \
+/ /_/ /    / /__/ _  / __ |_/ //    / _// // /
+\____/_/|_/\___/_//_/_/ |_/___/_/|_/___/____/
+      -=# a 2017 oldskoolerz reunion #=-
+            presents a new intro
+
+            "The memory remains"
+     8k MSDOS, VGA, 16bit i286, Adlib
+
+             requires at least
+	a i286 with decent 16 Bit ISA Gfx
+
+Code:   TheMechanist
+Music:  Track 1: 1988, Osamu Ohta (Rally Bike)
+        Track 2: 1991, Osamu Ohta &
+                       Tomoaki Takanohashi
+                       (Pipi & Bibi's)
+Gfx:    City skyline by GDJ @ openclipart.org
+
+                ** tested on **
++real (modern) hardware (DOS, no sound)
++PCem v.12 (AMI 286/16, 16 Bit fast ISA GFX)
++DOSBox v.074 (3000 cycles)

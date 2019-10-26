@@ -1,0 +1,25 @@
+                             Minidisk
+
+  A 4k musicdisk for windows released at the 4k compo at TMD 2007.
+
+Ok, this should have been "more", but we really wanted to release 
+at TMD to support the danish scene. Puryx kind of ran out of time 
+before TMD... :) Well, excuses, excuses - at least enjoy what's
+there!
+
+Use keys 1, 2 and 3 to switch between the three tracks. 
+
+Requirements:
+- Windows 2000 or later.
+- Directx 9.0c (no d3dx needed).
+- A graphics card supporting point sprites.
+- A reasonably fast cpu with SSE support.
+
+Credits:
+                      Music:	Puryx / TBC^Scarab
+      Synth- and effectcode: 	mentor / TBC
+
+Tracklist:
+1. Puryx - Presence
+2. Puryx - Ambivalence
+3. Puryx - Last Minute Hack

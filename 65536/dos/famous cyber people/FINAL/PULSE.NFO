@@ -1,0 +1,45 @@
+
+                    - f ú a ú m ú o ú u ú s
+                        c ú y ú b ú e ú r
+                      p ú e ú o ú p ú l ú e -
+                      
+                         final version
+
+                starring: ice antony shad gandalf
+
+ú this final release got some bug fixes and the original SHAD's song, with
+  uncrippled samples (unlike the party version to fit the 64k). That's why
+  this final version is about 90kb big.
+                
+ú technical notes ú if it hangs up, it's because of a bug :) still no
+  SB support since MXMPLAY do not handle it... (thanks to Pascal!)
+
+ú bonus ú to be forgiven for this long delay, we've include the source code
+  of the octree color reduction, to generate color remap tables for phong
+  map, and other bitmap effects. (ASM-32b needs PMODE)
+
+ú thanks to Galvados/Jamm for the samples hint. We love you.
+
+ú contact ú for ANY reason 
+
+ú news: our friend Haplo joined the french section.
+
+ú general contact:  pulse@ace.epita.fr
+
+     ice - daniel groth - ice@overgame.fr & groth_d@epita.fr (0ffh% reply)
+         - or at 21, rue du 14 juillet - 94270 le kremlin bicetre - france
+    shad - 22, avenue du general Leclerc - 94470 BOISSY SAINT LEGER - FRANCE
+  antony - antony squizatto
+         - 3, rue artaud blanval - 63000 clermond ferrand - france
+ gandalf - christophe.yvon@ace.epita.fr
+   haplo - olivier.delande@ace.epita.fr
+
+   
+ú members are:  unreal - technomancer - camel - lca - ice (code)
+               lazur - sketch - ajt - antony - haplo - niko (gfx)
+                    falcon - scorpik - jogeir - shad (music)
+                                 gandalf (design)
+               
+                      call A.C.E  +33-(0)145887548
+               or check http://www.mygale.org/00/scene/pulse
+               

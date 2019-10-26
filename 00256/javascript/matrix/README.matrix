@@ -1,0 +1,10 @@
+matrix
+ - entry for "256b.htm" compo (http://wildmag.de/compo.php)
+
+author: mrfrost
+email : frank@thomas-alfeld.de
+url   : http://www.thomas-alfeld.de/frank/
+
+This piece of **** was developed and tested only with
+Internet Explorer 6.0. The OBJECT.insertAdjacentText()
+function is only available in IE.

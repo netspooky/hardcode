@@ -1,0 +1,23 @@
+Sitehdrei by Optimus
+--------------------
+
+I was supposed to be coding a 64k intro for Pixelshow.
+Then I was lazy (or occupied by my other entries for the party).
+So, I decided to release a 256b intro at the same compo instead!
+
+I tried to do a nice tunnel but I failed. (I guess I have to finally start with FPU assembly)
+Then I made some old fire stuff. Then I drew the XOR texture once again.
+It was fun,. and so I decided to put them together.. Great Phun!!!
+
+This is my first multipart 256b intro, 3 crappy effects in tiny space.
+
+	Tunnel colorintoxicates you.
+	Blurry stars are kinda warpy.
+	Xor distort has a visual bug I hate.
+
+Someone said that it's not a good idea to put many parts in a 256b intro and that's because there is no space to make
+them look good. It's nicer to do one single effect with a nice pallete and generated texture. I guess he/she was right..
+
+Optimus
+
+p.s. Please, don't press esc but let it run till the end. It goes through all 3 effects and quits in less than a minute..

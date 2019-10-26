@@ -1,0 +1,18 @@
+ Rush Hours'99 PC 64KB Intro Compo
+ Title: "Inner World"
+ Lenght: 60115 bytes
+ Author: JaM/KoRoZone
+         Michal Jackowski
+         ul.Platynowa 5
+         42-280 Czestochowa
+         Phone: +48-034-3-618-428
+         email: jam_krz@friko6.onet.pl
+
+ Required: 486+fpu , 16MB RAM , VESA 1.2 , GUS/SB/NoSound
+
+ INNER.EXE    - party version [GUS/NoSound - Tiny MXM Player]
+ INNER_SB.EXE - full version [GUS/SB/NoSound - Useless Sound System]
+
+ Gdyby nie chcialo chodzic to najlepiej odpalcie pod czystym DOSem
+ z HIMEM.SYS lecz bez EMM386.EXE. Przy problemach z obrazem najlepiej
+ uruchomic UNIVBE 5.3 lub nowsza (najlepiej dziala z 6.53).

@@ -1,0 +1,126 @@
+-----------------------------------------------------------------------------
+
+                               Ü  M  L  A  Ü  T
+
+                               D  E  S  I  G  N
+
+                                   presents
+
+                                                          ..... .
+                                                          :   :..
+                                                k R Ä S H :     :
+                                       _ _      - ------- :     :
+                      ___             _\\\\_              :_____:
+                ____ /  (_  ____ _ __\\_    \_ ___  _ ____|     |
+               _)  _/    /_\\_ /___    /     //  //____   |     |
+               \   \     \_ _/    /   _     //___     /   _    _|
+             _ /____\_____/ \     \_ _\_____\   /    /____\____\ _
+             \/- ---_ _______\_____/--diP-_ _________\-bM----- -\/
+
+                                   an intro
+
+                                      at
+
+                           S C E N E C O N  2 0 0 3
+
+                  (party version - shouldn't need a final tho...)
+
+-=[ CREDITS ]=---------------------------------------------------------------
+  Texture-generator + interface ........... Vercy
+  Generator code fixing ................... Procyon
+  Everthing else .......................... Gargaj
+
+-=[ STUFF USED ]=------------------------------------------------------------
+  Nifty l33t ASCII-logo ................... Dipswitch / Black Maiden
+  MiniFMOD Sound System ................... Firelight Multimedia
+  Exe-packer .............................. UPX team
+
+-=[ REQUIREMENTS ]=----------------------------------------------------------
+  In short, if Skrätzh ran fine, this also will.
+
+  If you didn't see Skrätzh...
+  - Pentium-II class CPU for my crap unoptimized metaballs. All the other
+    stuff is quite CPU-independent... Well if you don't care the long
+    loadingtime that is.
+  - TNT2-class card for the other stuff... shouldn't exceed 2500 polygons
+    overall, but all the postfilters are screwing up the pipeline.
+    Consider a GeForce 3, because cards lower than that usually stutter
+    at the render-to-texture-stuff. Not to mention the fullscreen
+    alphablended polygons.
+  - You NEED a soundcard. The syncing is calculated from the samples
+    rendered by the XM-player, so if you don't have one... get one.
+    (Yes, I COULD use timeGetTime() or sg like that, but that's crap, and
+    the intro won't make sense without sound anyway.)
+
+-=[ BLAH ]=------------------------------------------------------------------
+
+  "[22:44] <TrX> helyes. akarunk megegy xaos klont"
+
+  *sigh*...
+
+  Here I go again. Sitting in front of my PC, making an intro a week before
+  the party, without really any motivation (or skills). I guess I just can't
+  cut it out. Now that Conspiracy is active, I would have the best reason on
+  the world not to do an Ümlaüt intro again, but nooooo...
+
+  As you can see this is the third, and prolly last part of the Ä-intro
+  series. I really don't see the point of using the same effects in
+  different combinations over and over again. And trilogies rule anyway.
+
+  (A huge paragraph of usual whining about our prods was here, but I
+   removed it 'cause it made no sense.)
+   
+  Since it's a tradition to write some greetz... gna, let's get this over
+  with...
+  - First off smiley hiho-s go out to the guys who believe in the power
+    of Ü, big props to Skrebbel and Shadez! Please contact them in case
+    you want to join the fanclub.
+  - Big kudos to the Conspiracy guys, even tho they didn't like what I
+    showed them from this intro. (...and who can blame them? >:)
+  - Props to TGD and Epilepsy, who'll release their first demos/intros on
+    the party.
+  - Greetz to the organizers of SceneCON. I'm sure it will be better than
+    Symphony... At least because WE will be HERE, and not THERE. Hehe. >:)
+  - Big big thankyou to all the guys I met at Breakpoint 2003, you people
+    rule! And big thanks for all the nice reactions about PG.
+  - #include "usual_greetz.h"
+
+  As usual, hidden part is there. But you won't find it anyway.
+  If you DO... -> http://umlaut.intro.hu/hidden.php3
+
+-=[ PROMOTION ]=-------------------------------------------------------------
+
+  We are currently making designs and concepts for a demo (rather big and
+  hopefully decent one), negotiating with graphicians, designers, modellers.
+  There is no exact release date (or party) planned, because this time we
+  really want to make a good demo, so this time if it's not finished before
+  a party, then we won't "hack" around to finish it, just rather skip the
+  compo. (At least I hope so...)
+
+-=[ GODDAMNIT ]=-------------------------------------------------------------
+  
+  Cool. It's a week before the party, and my PC is completely infunctional.
+  Whee. Seems like either the motherboard, either the processor is broken.
+  Not like it's surprising or something. After all it's 5-6 years old...
+  But still, why fuck up in the very moment I need it? Bah...
+  This rather means I'm going to write the rest of the intro on another PC,
+  equipped with a TNT2 M64, which shortly means that I'll have once again
+  NO idea how it'll look like on a FAST gfx-card. I HATE THIS!!!
+
+-=[ 2007 ]=------------------------------------------------------------------
+
+  So yeah, ATI drivers make the thing crash so I updated it a bit.
+  Enjoy.
+    - garg
+
+  
+-=[ CONTACTS ]=--------------------------------------------------------------
+  Gargaj  -    gargaj@freemail.hu - http://umlaut.intro.hu/~gargaj
+  Vercy   - megavercy@freemail.hu
+  Procyon -   procyon@mailbox.hu  - http://umlaut.intro.hu/~procyon
+
+-----------------------------------------------------------------------------
+ üd-03: rollerdefekt      http://umlaut.intro.hu      2003 (c) Ümlaüt Design
+-----------------------------------------------------------------------------
+                    WARNING - THIS MAY HURT AFTER A WHILE.
+=============================================================================

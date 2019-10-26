@@ -1,0 +1,15 @@
+REQUIRES 32BIT COLOURDEPTH!
+
+this won the kasparov-lookalike-contest
+it has shorter name and shorter size.
+code by pigpen^oCCult
+
+50 badly keyframed spiders
+5 textures
+792 objects at all
+1 superduper fx sample
+
+different final versions than the included
+one will not be available.
+
+visit www.unterweltherrschaft.de

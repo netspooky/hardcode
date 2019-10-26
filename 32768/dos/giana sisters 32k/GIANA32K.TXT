@@ -1,0 +1,85 @@
+   _________ _____   __________   ______ :__:___________
+  /        /(_____)  \_ \____  \  |     \|  _/\_ \____  \
+_/   |____/ /     \    /  __/   \_|   \  \  |   /  __/   \_       ˛32k˛
+\    |    \ |      \_ /   \_     /|    \    |  /   \_     /    released at
+ \_________\|       / \___/ ____/ |    |\___|  \___/ ____/ Mekka/Symposium'98
+            :______/              |____|
+ _________  _____    _________     ____     _______ ________    _________
+/ _______/ (_____)  / _______/ ___|    |_  /  ____/  \_____ \_ / _______/
+\_____   \_/     \  \_____   \_\__  ____/_/  __>/\    / __/  /_\_____   \_
+\    |    /|      \_\    |    /   |   |  \__ | /  \ _/  \     /\    |    /
+ \_______/ |       / \_______/    |   |     \______\|____\   /  \_______/
+           :______/               |   |                   \:/
+                                  |___|                    :
+<==============================================================================>
+
+1) Credits:
+-----------
+   - All Coding done by MYTH
+   - Graphics pixeled and enhanced by KYP
+   - The ingame-music I (sky-levels) was originally made by KB (xm-format)
+     and has been ported to AMUSIC by MYTH
+   - All other music has been made by DeeJay99
+   - Levels have been created by
+     DeeJay99, Kyp, Myth, Obscure, Shine, Sonic and XFact0r.
+
+2) Legal stuff:
+---------------
+   - This game is FREEWARE
+   - We are not responsible for any damage this game may bring to your
+     hardware equipment, including your brain.
+   - Use this game at your own risk.
+   - You can always put this game on any CD or mass storage item if you
+     want to. If you press a public CD I'd rather be happy if you'd
+     send me an email (this keeps me motivated in producing
+     more stuff like this) to: sinsch@informatik.uni-frankfurt.de
+
+3) Notes about the release:
+---------------------------
+   - The music routine used in this game had been created by Óúù$$ç$
+     and was coded by Conquerer. I modified his format to achive a
+     better compression-rate.
+   - The game has been developed using Borland Pascal 7.0 (I modified the
+     compiled .exe to achive a better compression rate) and TASM 4.1.
+
+4) F.A.Q. - Frequently Asked Questions:
+---------------------------------------
+   - Why can't giana morph to the Lady with the stormy hairstyle?
+     Morphing to the other giana means we would need several more sprites
+     (and with that more data), thus the other giana is able to crumble
+     wall-stones and, if further advanced, she is able to fire.
+     Implementing all those features requires more than the allowed
+     32k space. I thought you may find it funny to play more fancy levels
+     instead of only one with all features.
+   - Why adlib-music?
+     Adlib music is memspace-friendly. The title music, for instance, only
+     needs about 300 Byte. The ingame music (skylevel) needs about 1.1kbyte.
+     Mod-Music requires unacceptable more data. Even think of the replayer.
+   - How much memory does one level require?
+     The exact unpacked size is 10129 bytes. At it's final packed state
+     a huge, fancy level requires about 1.2-1.7kbyte.
+   - How did you create those levels?
+     With an own level-editor, of course. It has lots of features and
+     makes creating levels easy. If you want to create an own level you
+     may contact me for the editor.
+
+5) Contact address:
+-------------------
+   - You can always contact me (the coder) if you want to:
+
+   Rainer Sinsch
+   Kiefernweg 8
+   61184 Karben
+   Email: sinsch@informatik.uni-frankfurt.de
+
+   BBS: POiNT OF NO REtURN BBS
+   +49-6039-95934 (28k8)
+   +49-6039-95935 (ISDN)
+
+6) Greetings:
+-------------
+   - must go to
+
+     Assign, Obscure, red_13, Yoda, Trojan, RIK, TU and Xymbiont.
+
+   

@@ -1,0 +1,64 @@
+
+   лллллл  ллллллл  лллллл  ллллллл  лл    л  л     л  ллллллллл  лллллллл
+   л       л     л  л       л     л  л л   л  л     л      л      л
+   л       л     л  л       л     л  л  л  л  л     л      л      лллллллл
+   л       л     л  л       л     л  л   л л  л     л      л             л
+   лллллл  ллллллл  лллллл  ллллллл  л    лл  ллллллл      л      лллллллл
+
+
+                    ў The Coconuts BBS Intro text file ў
+
+                        ( 5 0 8 )  2 3 4 - 2 0 7 5
+
+Welcome to the text file for the first ever Coconuts BBS intro.  The
+Coconuts BBS is a sub-board of the Nuclear Meltdown BBS.  What this means
+is that you must call Nuclear Meltdown BBS and then you can run the
+Coconuts BBS through NM.
+
+ў Why in the world is it setup that way?
+
+Well, we figured that settling for only one board per phone line was a
+waste (and I wanted my own board but I have no extra phone lines) so we
+decided to setup another WWIV board as a door program from the Nuclear
+Meltdown BBS.  With a small C program (thanks Joe Snow) and some minor
+batch file programming The Coconuts BBS was ready to rock.  All this
+happened about the beginning of June '95 (not long ago, huh?).
+
+ў Why did you make an intro for your board?
+
+Well, Joe Snow has been making intros and various other programs for a few
+years now and he's been getting calls from all over the USA and even from
+around the world so I figured I'd give it a shot.
+
+ў How did you get all those fantastic graphical and musical effects in such
+  a small program?!?
+
+<g>  Well, hey, it's not all THAT big...I've seen many worse.  It does have
+music and some small effects.  Look for something a bit more impressive in
+the next Coconuts BBS Intro.
+
+Quick Info
+ФФФФФФФФФФ
+This intro is almost all in C with a dash of ASM for kicks.
+It requires a 286 (never tested though) but a 486 is highly recommended.  =)
+It also requires a VGA/MCGA graphics card.  An Adlib-compatible sound
+card is recommended to hear the tunes.
+I know it's kinda big for a BBS ad but I'm not very good at optimizing
+and I don't feel like it anyways.
+
+Credits:
+Design, beginning code and some finishing code:    Clueless
+A LOT of optimization and fine tuning:             Joe Snow
+
+Well, it's hot and I'm sick of writing this text file...  =)
+Go run the Coconuts BBS Intro again and then call today!!!
+
+                        ( 5 0 8 )  2 3 4 - 2 0 7 5
+
+Remember to tell all your friends about the Coconuts BBS and I'll see
+you there.
+
+Questions?  -->  clueless@wpi.wpi.edu
+
+                                    
+                                        - Clueless '95                                        

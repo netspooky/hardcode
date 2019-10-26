@@ -1,0 +1,34 @@
+
+-------------------------------------------------------------------------------------------------------------
+  
+  Nebula by SQNY
+  A 64k Intro
+  Released at Assembly 2008
+  
+  Visuals: kurli
+  Music: orlando boom
+
+-------------------------------------------------------------------------------------------------------------
+
+  Uses ProTrekkr by hitchhikr/Rebels for music ... http://pagesperso-orange.fr/franck.charlet/protrekkr.html
+  and kkrunchy by ryg/Farbrausch for packing ... http://www.farbrausch.de/~fg/kkrunchy/
+  Thanks to rale for debugging help.
+
+-------------------------------------------------------------------------------------------------------------
+  
+  Requires hardware that supports Framebuffer Objects (GL_EXT_framebuffer_object) and OpenGL Shading 
+  Language (GLSL). Any relatively new (SM3.0++) Geforce or Radeon should do.
+
+-------------------------------------------------------------------------------------------------------------
+
+  This production is licenced with Creative Commons Attribution-NoDerivs-NonCommercial 1.0 Finland
+  That means that you are free to copy, distribute and transmit the work,  under the following conditions:
+
+  - Attribution. You must attribute the work in the manner specified by the author or licensor 
+    (but not in any way that suggests that they endorse you or your use of the work).
+  - No Derivative Works. You may not alter, transform, or build upon this work.
+  - Noncommercial. You may not use this work for commercial purposes.
+
+  See the full licence at: http://creativecommons.org/licenses/by-nd-nc/1.0/fi/deed.en
+
+-------------------------------------------------------------------------------------------------------------

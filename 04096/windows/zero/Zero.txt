@@ -1,0 +1,49 @@
+                s s s s ssss sssssssss s s s  s  ssss  ss  ssssss
+                $  $$SSsss._                $$SSsss._           $
+                $  $$$$$$$³$$s._       sss  $$$$$$$³$$s._       $
+                $  $$$$;   '*$$$$b.    $$$  $$$$;   '*$$$$b.    $
+                $  $$$$       $$$$$b.  $$$  $$$$       $$$$$b.  $
+                $  $$$$,       `$$$$$  $$$  $$$$,       `$$$$$  $
+                $  `ý½*$S       l$$$$  $$$  `ý½*$S       )$$$$  $
+                $      $$       ;$$$$ss$$$      $$     ,d$$$$'  $
+                $ss  s $$                    s sSSsssS$$$$$Ù's  s        
+              
+
+                      n o r t h e r n   d r a g o n s   
+
+FILES
+=====
+Zero.com - The 4000 byte intro
+Zero.exe - The Compo version (does not write to hard disk)
+
+ABOUT
+=====
+4K
+Fast made
+Ray Tracing
+Text mode
+
+At the last minute, I decided to write a little something for TMDC6. Last
+year's Text Mode Demo Compo was what brought me into the scene, and I wanted
+to give something back. So, I grabbed the Northern Dragons 4K framework and
+started coding a text mode ray tracer. Enjoy!
+
+-S_Tec of Northern Dragons
+(Formerly known as SwansonTec)
+
+CREDITS:
+========
+S_Tec           - Code
+Spencer         - Music
+ClassiclyZero   - Font
+Umdesch4        - Audio Framework
+
+Zero is a Northern Dragons 4K Intro 
+Visit us at: http://www.northerndragons.ca
+
+FAMOUS QUOTE
+============
+What cool effects can I do with just spheres and reflective planes?
+- S_Tec
+
+=== END OF FILE ===

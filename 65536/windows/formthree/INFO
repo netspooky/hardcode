@@ -1,0 +1,31 @@
+=============================================================
+:: formthree by darkeden 2ooo
+
+
+:: code and soundtrack by keff
+:: pixels by state
+:: MXMPlay/Win32 v0.9 by ELITEGROUP "we are very good (TM)"
+:: UPX v0.72 by Markus F.X.J. Oberhumer & Laszlo Molnar
+
+
+req:
+ -pentium
+ -32MB RAM
+ -accelerator
+ -soundcard
+ -win9X
+
+
+phew!  my first non-asm  production.  it  was  made on a p166
+with voodoo1 acc. f3 wasn't tested  on  other configurations,
+but it should run ok (i hope...). at the beginning the screen
+goes blank for ca 10secs. 
+see  you  in  an  another darkeden production!
+ 					       keff
+
+=============================================================
+
+
+
+
+[...yes i know my english sucks :)]

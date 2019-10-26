@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "intro", "intro.vcproj", "{B801D91B-507B-475A-8316-28E605E2EF19}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minifmod", "minifmod.vcproj", "{AF70E7F7-BDD9-445A-8E7A-08E5E2ED3759}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test", "test.vcproj", "{F9134AB5-BDD9-490C-BA8D-5E9AEBED6D25}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+		{F9134AB5-BDD9-490C-BA8D-5E9AEBED6D25}.0 = {AF70E7F7-BDD9-445A-8E7A-08E5E2ED3759}
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{B801D91B-507B-475A-8316-28E605E2EF19}.Debug.ActiveCfg = Debug|Win32
+		{B801D91B-507B-475A-8316-28E605E2EF19}.Debug.Build.0 = Debug|Win32
+		{B801D91B-507B-475A-8316-28E605E2EF19}.Release.ActiveCfg = Release|Win32
+		{B801D91B-507B-475A-8316-28E605E2EF19}.Release.Build.0 = Release|Win32
+		{AF70E7F7-BDD9-445A-8E7A-08E5E2ED3759}.Debug.ActiveCfg = Debug|Win32
+		{AF70E7F7-BDD9-445A-8E7A-08E5E2ED3759}.Debug.Build.0 = Debug|Win32
+		{AF70E7F7-BDD9-445A-8E7A-08E5E2ED3759}.Release.ActiveCfg = Release|Win32
+		{AF70E7F7-BDD9-445A-8E7A-08E5E2ED3759}.Release.Build.0 = Release|Win32
+		{F9134AB5-BDD9-490C-BA8D-5E9AEBED6D25}.Debug.ActiveCfg = Debug|Win32
+		{F9134AB5-BDD9-490C-BA8D-5E9AEBED6D25}.Debug.Build.0 = Debug|Win32
+		{F9134AB5-BDD9-490C-BA8D-5E9AEBED6D25}.Release.ActiveCfg = Release|Win32
+		{F9134AB5-BDD9-490C-BA8D-5E9AEBED6D25}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

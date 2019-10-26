@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xnfo standard="1.1" version="1" mode="complete" author="caf(at)morkitu(dot)com">
+<demo>
+	<name>cracktro</name>
+	<authors>
+		<group>class</group>
+	</authors>
+	<category type="intro;64k">Intro 64K</category>
+	<support>
+		<configuration>
+			<plateform type="win32">Windows</plateform>
+		</configuration>
+	</support>
+	<archive>
+		<file>cracktro-class.zip</file>
+	</archive>
+	<runs>
+		<run>intro.exe</run>
+	</runs>
+</demo>
+</xnfo>

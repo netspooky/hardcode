@@ -1,0 +1,30 @@
+tempo 400
+pehmoilu 0
+
+playlist
+  0  0  1
+  0  2  1
+end
+
+pattern 0
+  sq  0  0
+end
+
+pattern 1
+  f  41  100
+  e  41   50
+  e  41    0
+  f  43  100
+  e  43    0
+  f   0    0
+  f   0    0
+  f  44  100
+  e  44    0
+  f  42  100
+  e  42    0
+end
+
+pattern 2
+  f   349  100
+  e   349    0
+end

@@ -1,0 +1,910 @@
+ /*
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                 :TOTRAUM             209:
+                                
+                 Soundcode by R„d-Žd/PURGE              date: 18.3.97
+
+  Parts: 0 - Logo mit Licht
+         1 - Embryo & Writer
+         2 - Vectors
+         3 - Stars
+         4 - Lines
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ */
+
+channels 1;                 // All polyphony is hardcoded
+
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+//      INSTRUMENT 0: Drum, Base, Hihat
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+table  basesam[8001];
+table hihatsam[8001];
+table snaresam[8001];
+//-----------------------------------------------------------------------
+init 8000 base l,h,b,d1,d2,idx,r,outp,cut=.05,env=75;
+base
+{  
+  r = r * 15625 + 1 % 32768; 
+  
+    l = d2 + cut * d1;         
+    h = r - 16384 - l - .002 * d1;
+    b = cut * h + d1;
+   d1 = b; d2 = l;
+
+    l *= env;  
+    
+  if (l >  20000) { l =  20000; }
+  if (l < -20000) { l = -20000; }
+
+  outp = .8 * outp + .2 * l;  
+  basesam[idx] = outp;
+  cut *= .9996; 
+  idx += 1;
+}
+//-----------------------------------------------------------------------
+init 8000 hihat l,h,b,d1,d2,aidx,line[10],w,lp,idx,r,outp,cut=.73,env=4;
+hihat
+{  
+  r = r * 15625 + 1 % 32768; 
+  
+    l = d2 + cut * d1;         
+    h = r - 16384 - l - d1;
+    b = cut * h + d1;
+   d1 = b; d2 = l;
+
+    lp = h * env; env *= .9993; 
+
+        aidx = aidx + 1 % 10;
+           w = line[aidx] - lp;
+  line[aidx] = .8*w + lp;
+          lp += w;
+        
+  if (lp >  10000) { lp =  10000; }
+  if (lp < -10000) { lp = -10000; }
+
+  outp = lp;
+
+  hihatsam[idx] = outp; idx += 1;
+}
+//-----------------------------------------------------------------------
+init 8000 snare l,h,b,d1,d2,idx,r,outp,cut,env1=100,env2=200000,sfreq;
+snare
+{  
+  cut = .32; 
+  sfreq = 0.025;
+
+    r = r * 15625 + 1 % 32768; 
+  
+    l = d2 + cut * d1;         
+    h = r - 16384 - l - d1;
+    b = cut * h + d1;
+   d1 = b; d2 = l;
+
+    h *= env1; env1 *= .999;
+
+    h += (sin(idx*sfreq)*env2); env2 *= .9996; sfreq  -= 0.00001;
+
+  if (h >  10000) { h =  10000; }
+  if (h < -10000) { h = -10000; }
+
+  outp = h;
+
+  snaresam[idx] = outp; idx += 1;
+}
+
+// ------------------------ Global noise function
+effect 44100 rand r = 34623; 
+rand { r = r * 15625 + 1 % 32768; }
+
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+//      PART 1: Resonated Noise Spacesound
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+               
+// Dummymodul um die Werte der Spacesound Envelopes aufzunehmen
+init 1 senv val, spd=.003, low=1.5, hi=12000, sink; 
+senv{}      
+
+effect    60   env0 r, spd, amp= 0 , cut;
+effect    60   env1 r, spd, amp=.25, cut;
+effect    60   env2 r, spd, amp=.5 , cut;
+effect    60   env3 r, spd, amp=.75, cut;
+
+// Hllkurven der einzelnen Stimmen
+env0 {
+    amp += spd;
+  newenv:
+    cut = exp(-senv.low-rand.r/senv.hi); 
+    spd = senv.spd;
+    run attack; 
+  attack:   if (amp > 1) { spd = -spd; run decay; }
+  decay:    if (amp < 0) { amp =    0; run newenv; } cut *= senv.sink;
+}
+env1 {
+    amp += spd;
+  newenv:
+    cut = exp(-senv.low-rand.r/senv.hi); 
+    spd = senv.spd;
+    run attack; 
+  attack:   if (amp > 1) { spd = -spd; run decay; }
+  decay:    if (amp < 0) { amp =    0; run newenv; } cut *= senv.sink;
+}
+env2 {
+    amp += spd;
+  newenv:
+    cut = exp(-senv.low-rand.r/senv.hi); 
+    spd = senv.spd;
+    run attack; 
+  attack:   if (amp > 1) { spd = -spd; run decay; }
+  decay:    if (amp < 0) { amp =    0; run newenv; } cut *= senv.sink;
+}
+env3 {
+    amp += spd;
+  newenv:
+    cut = exp(-senv.low-rand.r/senv.hi); 
+    spd = senv.spd;
+    run attack; 
+  attack:   if (amp > 1) { spd = -spd; run decay; }
+  decay:    if (amp < 0) { amp =    0; run newenv; } cut *= senv.sink;
+}
+effect 44100 noise r, off, l0,h0,b0,d10,d20, l1,h1,b1,d11,d21,
+                           l2,h2,b2,d12,d22, l3,h3,b3,d13,d23;
+noise 
+{
+  r = rand.r - 16384;
+
+  l0 = d20 + env0.cut * d10;
+  h0 = r - l0 - env0.cut*.04 * d10;
+  b0 = env0.cut * h0 + d10; d10 = b0; d20 = l0;
+
+  l1 = d21 + env1.cut * d11;
+  h1 = r - l1 - env1.cut*.04 * d11;
+  b1 = env1.cut * h1 + d11; d11 = b1; d21 = l1;
+
+  l2 = d22 + env2.cut * d12;
+  h2 = r - l2 - env2.cut*.04 * d12;
+  b2 = env2.cut * h2 + d12; d12 = b2; d22 = l2;
+
+  l3 = d23 + env3.cut * d13;
+  h3 = r - l3 - env3.cut*.04 * d13;
+  b3 = env3.cut * h3 + d13; d13 = b3; d23 = l3;
+}
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+//      INSTRUMENT 2: E-Gitarre mit Phaser & Feedback
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+// -------------------------------------------- Saiten
+effect   44100 wav  line1[441],c1,w1,
+                    line2[441],c2,w2, ifreq,
+                    line3[441],c3,w3, 
+                    damp,
+                    freq, gate, feed,               
+                    filler, fill, amplify = 10000,
+// -------------------------------------------- Verst„rker + Effektger„t
+                    l ,h ,b ,d1 ,d2, 
+                    cutoff, reso, distort, phaser,  
+                    fb,  
+                    depth, lp, line[100], idx, r, w, outp;
+/*
+Tonleiterfrequenzfaktoren
+
+1.       ,  //C  138.59132 Hz 0.0031426 Adder
+1.0594631,  //C#              0.0033294
+1.122462 ,  //D               0.0035274
+1.1892071,  //D#              0.0037372
+1.259921 ,  //E               0.0039594
+1.3348399,  //F               0.0041948
+1.4142136,  //F#              0.0044443
+1.4983071,  //G               0.0047085
+1.5874011,  //G#              0.0049885
+1.6817928,  //A               0.0052852
+1.7817974,  //A#              0.0055994
+1.8877486,  //H               0.0059324
+2.          //c               0.0062852
+*/
+table gnotes[16] =  
+                    0.0031426, 0.0031426, 0.0031426, 0.0033294,
+                            1, 0.0031426, 0.0037372, 0.0031426,
+                    0.0031426, 0.0041948, 0.0031426, 0.0031426,
+                    0.0044443, 0.0041948, 0.0037372,         1;
+
+table ggates[16] =   2, 1, 1, 7, 
+                     0, 1, 2, 1, 
+                     1, 2, 1, 1, 
+                     2, 1, 7, 0;
+
+effect      60 gseq step, stepper, gtempo=130;
+
+gseq
+{
+  stepper += gtempo;  
+    if (stepper > 900)
+    {
+      stepper  -= 900;
+      
+      if (gnotes[step] < .5)
+      {
+        wav.freq  = gnotes [step];
+        wav.gate  = ggates [step];
+      }
+      step = step + 1 % 16;
+    }
+}
+// -------------------------------------------------------------------------
+wav 
+{
+    
+  c1 = c1 + 220 * freq % 440;             
+  w1 = (line1[c1] + w1) * .5; 
+  line1[c1] = w1;
+
+  c2 = c2 + 329.62756 * freq % 440;         
+  w2 = (line2[c2] + w2) * .5; 
+  line2[c2] = w2;
+
+  c3 = c3 + 440. * freq % 440;            
+  w3 = (line3[c3] + w3) * .5; 
+  line3[c3] = w3;
+
+  outp = (w1 + w2 + w3 - feed * fb) * damp;
+
+  l = d2 + cutoff * d1;                    
+  h = outp - l - reso * d1;
+  b = cutoff * h + d1;
+  d1 = b; d2 = l;
+
+  outp = distort * l;                      
+  if (outp >  1) { outp =  1; }
+  if (outp < -1) { outp = -1; }
+
+  fb  = outp;                              
+
+        idx = idx + 1 % phaser;             
+          w = line[idx] - fb;
+  line[idx] = depth*w + fb;
+       outp = fb + w;
+
+warten:
+
+  damp *= .999;          // D„mpfung bei Taste losgelassen
+  if (damp < 0.1) { damp = 0.1; }
+
+  if (gate > .5)
+  {
+     ifreq = gnotes[idx]; idx += 1;     
+    filler = 0;
+      damp = 1;
+    run anschlag;
+  }
+
+anschlag:
+
+  line1[filler] = rand.r/32768 - .5;
+  line2[filler] = rand.r/32768 - .5;
+  line3[filler] = rand.r/32768 - .5;
+
+  filler += 1; if (filler > 439) { run klingen; }
+
+klingen:
+
+  gate -= .001; 
+  if (gate < .5) { gate=0; run warten; }
+}
+
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+//      INSTRUMENT 3: TB-303
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+effect      60 tbenv at, dc, time, idx, step, sidx, last;
+effect   44100 tbwav  c, l ,h ,b ,d1 ,d2 , 
+                         l2,h2,b2,d12,d22, 
+                         note, cut = .04, reso, amp, acc, accf, 
+                         outp;
+
+effect      60 tbtrack idx, c, r, a, d, reso, fxtimer;
+tbtrack
+{
+  part0:    if (tbenv.time > 0) { run part0a; } // warten auf den Start
+
+  part0a:   
+
+    // -------------------------------------- 303 Control Parameter  
+    tbenv.at   = .9;        //attack        
+    tbenv.dc   = .9;        //decay         
+    tbwav.acc  =  0;        //accent
+    tbwav.cut  = .4;        //cut-off freq
+    tbwav.reso = .7;        //resonance tracked by gfx
+    
+    run part1a;
+
+  part1a:                           // Die Ruhe vor dem Sturm
+
+    if (tbenv.time > 90*  8) { run part1b; }
+
+  part1b:
+
+    tbwav.cut *= .997;
+    if (tbwav.acc < 1) { tbwav.acc += .002; }       // Angriff 
+    if (tbwav.reso >  .22) { tbwav.reso -= .001; }
+    if (tbenv.time > 90* 16) { run part2; }
+
+  part2:
+
+    if (tbwav.reso >  .22) { tbwav.reso -= .001; }
+    if (tbwav.cut  < .228) { tbwav.cut *= 1.003; }    
+    if (tbenv.time > 90* 24) { idx = 0; run part3; }
+
+  part3:
+
+    tbwav.acc = 1.;               
+
+    tbwav.cut = (exp(.8*sin(c)-.1) - .3678794) * .425459;
+    tbenv.at = .5 * (sin(a) + 1) + .1;
+    tbenv.dc = .2 * (sin(d) + 1) + .6;
+
+    c += .005; //.012;
+    a += .01; 
+    d += .011;
+
+    tbwav.reso = .11 * (sin(fxtimer*0.0075)+2);
+
+    if (tbenv.time < 1) { run part0; }      // restart
+}
+tbenv
+{
+  // -------------------------------------- Envelope
+  if (step > 0) 
+  { 
+    tbwav.amp = 0; 
+    step = 0; 
+    run attack;
+  }
+
+attack:
+  
+  tbwav.amp += at;
+  if (tbwav.amp > 1) { run decay; }
+
+decay:
+
+  tbwav.amp *= dc;
+}
+tbwav
+{
+  c  = c + note * .0099773 * .125 % 1;
+
+  l  = d2 + cut * amp * d1;         // 12db
+  h  = c - l - reso * d1;
+  b  = cut * amp * h + d1;
+  d1 = b; d2 = l;
+
+  l2  = d22 + cut * amp * d12;      // 24db
+  h2  = l - l2 - reso * d12;
+  b2  =  cut * amp * h2 + d12;
+  d12 = b2; d22 = l2;
+  
+  outp = 3 * (l2-.5) * amp;
+  
+  if (accf < .5) { outp *= acc; }
+
+  if (outp >  1 ) { outp =  1; }
+  if (outp < -1 ) { outp = -1; }    
+}
+
+//------------------------------------- REVERB SECTION ---------------------
+init         1 rvbctrl time, t1,t2,t3,t4,t5,t6;
+rvbctrl 
+{
+  time = 6.;
+  t1 = exp (-6.9077553 * .0297 / time);
+  t2 = exp (-6.9077553 * .0371 / time);
+  t3 = exp (-6.9077553 * .0411 / time);
+  t4 = exp (-6.9077553 * .0437 / time);
+  t5 = exp (-6.9077553 * .005  / time);
+  t6 = exp (-6.9077553 * .0017 / time);
+}
+
+table tab1[1309]; table tab2[1636]; table tab3[1812]; 
+table tab4[1927]; table tab5[ 220]; table tab6[  74];
+
+effect   44100 rvb      d1,d2,d3,d4, d5,d6, 
+                        a1,a2,a3,a4, y1,y2, 
+                        z, asum, 
+                        inp, outp;
+rvb
+{
+  inp = tbwav.outp;
+
+  d1 = d1 + 1 % 1308;  d2 = d2 + 1 % 1635;
+  d3 = d3 + 1 % 1811;  d4 = d4 + 1 % 1926;
+
+  a1 = inp + rvbctrl.t1 * tab1[d1]; tab1[d1] = a1;
+  a2 = inp + rvbctrl.t2 * tab2[d2]; tab2[d2] = a2;
+  a3 = inp + rvbctrl.t3 * tab3[d3]; tab3[d3] = a3;
+  a4 = inp + rvbctrl.t4 * tab4[d4]; tab4[d4] = a4;
+
+  asum =  a1 + a2 + a3 + a4;
+
+  d5 = d5 + 1 %  220;  d6 = d6 + 1 %   74;
+
+          y1 = tab5[d5];
+          z  = rvbctrl.t5 * y1 + asum; 
+    tab5[d5] = z;
+
+          y2 = tab6[d6];
+          z  = rvbctrl.t6 * y2 + y1 - rvbctrl.t5 * z;
+    tab6[d6] = z;
+    
+        asum = y2 - rvbctrl.t6 * z;
+ 
+ outp = 800 * asum;
+}
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+effect    60  intro c, step, stepper, pat, pattern, gate, off, tempo,
+                    timer0, timer1, timer2, timer3, timer4, 
+                    synth, part, embryo, exit=0, stop=0,
+                    chars, charcnt, chartime, wspd=.09, 
+                    read=200, clear=200, logo=1, 
+                    i,j,e=4.7;
+
+effect 44100   main o, idx1=8000, idx2=8000, idx3=8000;
+
+table noteseq [16] = 1,2, 1,2, 1,1, 1.0594631,2.1189262,
+                     3,3, 4,0, 1,0, 2,        0;
+
+table accfseq [16] = 1,0,1,0, 0,0,0,0, 0,0,0,0, 0,0,0,0;
+
+table xpose   [112] = 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+                      0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,
+                      0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0,
+                      0,0,0,0,1,1,1,1,0,0,0,0,0,0,0,0;
+
+table  basepattern [64] = 1,1,1,1, 1,1,1,1, 1,1,1,1, 1,1,1,1,
+                          0,1,1,1, 1,1,1,1, 0,1,1,1, 1,1,1,1,   // 1
+                          0,1,1,1, 1,1,1,1, 0,1,1,0, 1,1,1,1,   // 2
+                          0,1,1,0, 1,1,0,1, 1,1,0,1, 1,0,1,1;   // 3
+
+table snarepattern [64] = 1,1,1,1, 1,1,1,1, 1,1,1,1, 1,1,1,1,
+                          1,1,1,1, 0,1,1,1, 1,1,1,1, 0,1,1,1,   // 1
+                          1,1,1,1, 0,1,1,1, 1,1,1,1, 0,1,1,0,   // 2
+                          1,1,1,1, 0,1,1,1, 1,1,1,1, 0,1,1,0;   // 3
+
+table  hihatpattern[64] = 1,1,0,1, 1,1,0,1, 1,1,0,1, 1,1,0,1,
+                          1,1,0,0, 1,1,0,0, 1,1,0,0, 1,1,0,0,
+                          0,1,1,0, 0,1,0,0, 1,0,1,0, 0,1,0,0,                          
+                          0,1,0,0, 1,0,1,1, 0,1,0,0, 1,0,1,1;
+
+table bgrob [112] =  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,32,32,32,32,      
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,
+                    48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48;
+table sgrob [112] =  0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,16,16,16,16,
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,
+                    48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48;
+table hgrob [112] =  0, 0, 0, 0,16,16,16,16,16,16,16,16,16,16,16,16,
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,
+                    48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,
+                    48,48,48,48,48,48,48,48,48,48,48,48,48,48,48,48;
+
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+//      Global Intro Steering Module
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+intro 
+{ 
+  //----------------------- DRUM/NOTE SEQUENCER ---------
+  stepper = stepper + tempo;  
+  if (stepper > 900)
+  {
+    stepper -= 900;
+
+    main.idx1 *=  basepattern[step + bgrob[pattern]];
+    main.idx2 *= snarepattern[step + sgrob[pattern]];
+    main.idx3 *= hihatpattern[step + hgrob[pattern]];
+
+    // -------------------------------------- Note Sequencer 
+    tbwav.note = noteseq[step];
+    if (xpose[pattern] > 0 ) {tbwav.note *= 0.8908987 ;}
+    tbwav.accf = accfseq[step];
+    tbenv.step = 1;
+
+    step = step + 1 % 16;
+    
+    if (step < .5) { pattern += 1; }
+
+    if (pattern > 63) 
+    { 
+      if (pattern < 65) 
+      { pattern=32; } 
+    }
+  }
+
+  e += .03;
+  embryo = (64*(sin(e)+1)) + 50;
+
+  c += .007;      
+  wav.phaser = int(20 * (sin(c)+1) + 20);
+
+  part0:
+
+    wav.cutoff  = .07;
+    wav.reso    = .3;
+    wav.distort = 100;
+          tempo = 130;
+  
+    run part1;
+
+  part1:            // Intro: Spacesound einfaden, finnische Texte (writer)
+
+    //----------------------- SYNTH SEQUENCER ----------
+    synth = 0;      //0 Space 1 Guitar 2 TB-303 3 TB-303 mit reverb
+
+    //----------------------- SPACE SEQUENCER -----------
+    if (senv.val < .2) { senv.val += .001; }
+  
+    senv.spd  = .004;
+    senv.sink = .999;
+  
+    //----------------------- GFX SEQUENCER ------------
+
+    part = 1;       // 0 - Logo mit Licht 1 - Embryo & Writer 2 - Vectors
+                    // 3 - Stars          4 - Lines
+    timer1 += 1;
+
+    chartime += wspd;     //.05
+    if (chartime > 1)
+    {
+      chartime   = 0;      
+      chars     += 1;
+      charcnt   += 1;
+      if (charcnt > 34) { i = 0; run part1a; }
+    }
+
+  part1a:
+
+    timer1 += 1;
+         i += 1;
+    if (i > read) { chars = -1; i=0; run part1b; }
+
+  part1b:
+
+    timer1 += 1;
+         i += 1;
+    if (i > clear) { i = 0; part = 3; run part1c; }   // Stars
+
+  part1c:           // Stars 
+
+    timer3 += 1; i += 1; 
+
+    if (i > 111*8)  { i = 0; gseq.step = 0; gseq.stepper = 0;
+                      gate = .5;
+                      pattern = 80; step = 0 ; stepper = 0;
+                      run part2; }
+
+  part2:            // Lichtlogo
+ 
+    timer0 += 2; timer3 += 1; logo = 1; i += 1;
+
+    part  = 0;      // Lichtlogo
+    synth = 1;      // Guitar
+  
+    if (i > 111*4) { i = 0; 
+                     gate = 0; 
+                     run part2a1; }
+
+  part2a1:          // Stars
+
+    timer0 += 0; timer3 += 1; logo = 1; i += 1;
+
+     part = 3;      // Stars
+    synth = 0;      // Spacesound
+
+    if (i > 111*4) { i = 0; gseq.step = 0; gseq.stepper=0;
+                      gate = .5; 
+                      pattern = 80; step = 0 ; stepper = 0;
+                      wav.depth = 0.7; wav.amplify = 20000;
+                      run part2a2; }
+
+  part2a2:            // Lichtlogo
+ 
+    timer0 += 2; timer3 += 1; logo = 1; i += 1;
+
+    part  = 0;      // Lichtlogo
+    synth = 1;      // Guitar
+  
+    if (i > 111*4) { i = 0; run part2a; }
+
+  part2a:           // Logo only
+     
+    timer0 += 2;
+    i += 1; if (i > 400) { logo = 1; part = 0; run part2b; }
+
+  part2b:
+
+    i += 1; if (i > 320) { charcnt = 0; 
+                           gseq.gtempo = 0; wav.gate= 300;
+                           run part3; }
+
+  part3:            // credits / text mit E-Guitar phasing / feedback
+
+    part = 1;       // 1 - Embryo & Writer 
+    timer1 += 1;
+
+    chartime += wspd;
+    if (chartime > 1)
+    {
+      chartime   = 0;      
+      chars     += 1;
+      charcnt   += 1;
+    }
+
+    wav.feed += .01;
+    if (wav.feed > 1.5) { i = 0; run part3a; }
+
+  part3a:           // mekka 97 ...
+
+    timer1 += 1;
+
+    chartime += wspd;
+    if (chartime > 1)
+    {
+      chartime   = 0;      
+      chars     += 1;
+      charcnt   += 1;
+    }
+
+    wav.distort *= .99;
+
+    if (charcnt > 75) { run part3b; }
+
+  part3b: 
+
+    timer1 += 1;
+         i += 1;
+
+    wav.distort *= .99;
+
+    if (i > read) { i = 0; chars = -1; charcnt = 0; run part3c; }    
+
+  part3c:           
+
+    timer1 += 1;
+
+    chartime += wspd; 
+    if (chartime > 1)
+    {
+      chartime   = 0;      
+      chars     += 1;
+      charcnt   += 1;
+    }
+
+    i += 1;
+  
+    if (charcnt > 32) { i = 0; run part3c2; }
+
+
+  part3c2:
+
+    timer1 += 1;
+
+    chartime += wspd; 
+    if (chartime > 1)
+    {
+      chartime   = 0;      
+      chars     += 1;
+      charcnt   += 1;
+      gate      -= 0.02;
+      if (gate < 0) { gate = 0;}
+    }
+
+    i += 1;
+  
+    if (charcnt > 64) { i = 0; chars = -1; run parttb; }
+
+
+  parttb:  
+  
+    pattern = 0;    step = 0;
+       main.idx1 = 8000; main.idx2 = 8000; main.idx3 = 8000;
+
+       gate = .5;
+      tempo = 160;
+
+    // TB-303 kickstart
+    tbenv.time = 0;         // 303 tracking on
+    tbtrack.fxtimer = 0;
+    synth = 2;              // TB-303
+    run part3d;  
+
+  part3d:   
+
+    tbenv.time += 1;        // 303 tracking on
+        timer1 += 1;
+             i += 1;
+
+    if (i > 1200) { i = 0; run part4; }    
+
+  part4:                    // Lines mit TB-303
+
+    part = 4;               // Lines
+    tbenv.time += 1;        // 303 tracking on
+        timer4 += 1;
+             i += 1;
+
+    if (i > 600) { i = 0; charcnt = 0; 
+                   part = 1;              // Writer
+                   run part4a; }
+
+
+  part4a:
+
+    tbenv.time += 1;        // 303 tracking on
+        timer1 += 1;
+      chartime += wspd;
+    if (chartime > 1)
+    {
+      chartime   = 0;      
+      chars     += 1;
+      charcnt   += 1;
+    }
+
+    i += 1;             
+    if (charcnt > 70) { charcnt = 0; i = 0; run part4b; } 
+
+  part4b:   
+
+    tbenv.time += 1;      //303 tracking on
+
+    timer1 += 1;
+    i += 1;
+    if (i > read) { i = 0;
+                    chars=-1;
+                    run part4b2; }    
+
+  part4b2: 
+
+    tbenv.time +=1;
+    timer1 += 1;
+    i += 1;
+    if (i > clear) { i = 0; 
+                     part  =  2;         // Vectors
+                     run part5; }    
+
+  part5:                    // Vectors mit reverbed TB-303
+    synth = 3;
+    tbenv.time += 1;        // 303 tracking on
+    tbtrack.fxtimer += 1;
+    timer2 += 1;
+    i += 1;
+
+    if(i > 2400) { i = 0; charcnt = 0; run part5a; }
+
+  part5a:
+
+    timer2 += 1;    
+
+    part = 1;    
+
+    tbenv.time += 1;        // 303 tracking on
+        timer1 += 1;
+      chartime += wspd;
+    if (chartime > 1)
+    {
+      chartime   = 0;      
+      chars     += 1;
+      charcnt   += 1;
+    }
+
+    i += 1;             
+
+    if (charcnt > 58) { charcnt = 0; i = 0; run part5a2; } 
+
+  part5a2:
+
+    timer2 += 1;    
+
+    timer1 += 1;
+         i += 1;
+
+    if (i > read) { i = 0; chars = -1; charcnt = 0; run part5a3; }    
+
+
+  part5a3:
+
+    timer2 += 1;
+        
+    tbenv.time += 1;        // 303 tracking on
+        timer1 += 1;
+      chartime += wspd;
+    if (chartime > 1)
+    {
+      chartime   = 0;      
+      chars     += 1;
+      charcnt   += 1;
+    }
+
+    i += 1;             
+
+    if (charcnt > 64) { charcnt = 0; i = 0; run part5a4; } 
+
+  part5a4:
+
+    timer2 += 1;
+
+    timer1 += 1;
+         i += 1;
+
+    if (i > read) { i = 0; chars = -1; charcnt = 0; run part5a5; }    
+
+  part5a5:
+
+    timer2 += 1;
+
+    timer1 += 1;
+         i += 1;   
+
+    if (i > 200) { i = 0; run part5b; }    
+
+  part5b:
+
+    part = 2;
+       
+    tbenv.time += 1;        // 303 tracking on
+    tbtrack.fxtimer += 1;
+    timer2 += 1;
+    i += 1;
+
+    if (i > 2400) { i = 0; run part5c; }
+
+  part5c:
+
+
+    stop = 1;
+
+    tempo = 0;
+    
+    tbenv.time += 1;        // 303 tracking on
+    tbtrack.fxtimer += 1;
+    timer2 += 1;
+    i += 1;
+
+    if(i > 100) { exit = 1; }
+
+}
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+//      Main Mixer + Effects Section
+//ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+main
+{  
+  if (idx1 < 8000) { idx1 += 1; }
+  if (idx2 < 8000) { idx2 += 1.4; }
+  if (idx3 < 8000) { idx3 += 1  ; } 
+
+  o = wav.outp * wav.amplify +         
+     (basesam[idx1] + snaresam[idx2] + hihatsam[idx3]) * intro.gate +
+     (env0.amp*noise.l0+env1.amp*noise.l1+env2.amp*noise.l2+env3.amp*noise.l3) * senv.val +          
+     tbwav.outp * 8000 +
+     rvb.outp +
+     32768; 
+          
+  if (o > 65535) { o = 65535; }
+  if (o <     0) { o =     0; }
+}
+out  main.o;
+osci 44100 main.o;
+
+
+
+
+

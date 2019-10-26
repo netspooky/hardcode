@@ -1,0 +1,56 @@
+
+
+                              Info file for TheSnake.
+
+      A worm game for the Internet 256 bytes worm game compo. 
+      TheSnake is coded by Zaifrun of Immaculate (Martin Knudsen) in 1997. 
+
+      Warning : This game is only for real worm experts. 
+      
+      Requirements : 286, VGA, keyboard
+      Recommended  : monitor
+
+      The incredible list of features : 
+      
+      1. Uses a graphical point system show at the buttom of the
+         screen. Two color bars indicate the points of both worms.
+         Of course you cannot see the bars from start because none of
+         them worms got any points. 
+      2. Nice color shifting worms (32 colors!)
+      3. Border color reflects who got the last point. If none of the
+         worms got it, then the border color will be blue. 
+      4. Great keyboard checking (even traps ctrl-break). Your worm 
+         will never do anything unexpected just because you hit a wrong key.
+      5. Each time a worm changes direction, there will appear a  
+         pseudo-random white star (a pixel to be honest) on 
+         the screen. So the more you move around the more obstacles 
+         will appear, thus making the game harder. I just thought
+         I would make something different. 
+      6. Logical exit function - (hmmm I'm beginning to run out of features)
+      7. A completely fantastic........ ah, well just forget it. 
+
+
+      Controls : 
+      
+      Player 1 (yellow worm)
+      up    : 'w'
+      down  : 's'
+      left  : 'a'
+      right : 'd'
+      
+      Player 2 (red worm)
+      use the arrow keys to control the worm
+      
+      Escape will quit the game (though not when one worm is dead).
+      When one of the worms collide with anything, the game
+      will come to a halt until space is pressed. The border color
+      will then show which worm got the last point (ie. if yellow
+      worm collided the border will be red). 
+      
+      Enjoy the game!
+
+      See Source for technical details.
+
+      To contact me : Zaifrun@geocities.com
+
+

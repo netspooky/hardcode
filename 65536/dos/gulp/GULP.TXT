@@ -1,0 +1,67 @@
+ 
+
+        gulp    .. 
+
+                                    ..proxima..
+                                
+                code    roma
+                music   oce
+                
+        
+        64 kb intro by proxima for scenus'97.        
+        
+        requires: 386+, gus, svga.
+
+        troubleshooting.
+        
+        - black screen..
+        ( try loading uniVBE (requires VESA (supervga) )
+
+        - no sound
+        ( load the "ultrinit" (and remember the autoexec.bat settings!) )
+
+        - it will not work at all. error in file (or something like that)
+        ( scan your pc for viruses & clean. then get a new copy of 
+          the intro (gulp.exe) )
+
+       
+        - i really love this intro, i cannot stop watching it.
+        ( send me money or fanletters:
+
+          kay erikssen                  <-> money please.
+          trygve nilsens v. 54c
+          1061 oslo
+
+          erikssen@sn.no <-> fanletter )
+                 
+        - ohh, the music is just wonderful. i want music for my demo 
+        ( send oce a letter, fanletter or money :
+  
+          kim erikssen
+          trygve nilsens v. 54c
+          1061 oslo
+
+          erikssen@sn.no <-> fanletter )
+
+
+          --
+
+          call twins bbs.
+          (+47) 22 30 18 10
+          (+47) 22 32 65 27
+
+          __
+
+          a proxima release, finally.
+
+
+
+
+        gULP! 
+        
+        (send de penga!) :)
+
+
+
+
+

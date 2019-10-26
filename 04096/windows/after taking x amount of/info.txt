@@ -1,0 +1,126 @@
+               ____________________
+           ___/_/                  \_______ __ __ _
+    ____   |       ________    __     ____|___      ____          _____
+  _/   /___|__ ____\  __  (__ _\___ __\  __  /___ _/   /______ ___\  _/_ ____
+ _)    \|      \      |/     \_   (_     \|     (_     \|      \      _/    (_
+ \_______     _|\_____|     __/____/______      __\ _____     _|\_____     __/
+      --|____(=======/_____(=============|_____(========|____(====an=|____(--
+           |______________     unique.   _| __ __ _
+                        \_\_____________/
+
+
+   after taking x amount of various psychoactive substances,
+   the world seemed somehow different
+
+
+   a simple 4kb intro for assembly '03
+   
+   (win32 + some directx required)
+   
+   
+   credits:
+            
+           code:  dairos (visa@sumea.com)
+   (midi) music:  pinza  (santeri@frozenbyte.com)
+   
+   
+   additional credits:
+   
+   dropper v1.2 by gergely kutenics
+   apack v0.99b by joergen ibsen
+   
+   
+   thanks:
+   
+   shadez/moonhazard for some help
+   stonda/matt current for the original name suggestion
+      
+   
+   notes:
+   
+   this is my first 4k intro after 2 years. no hardware acceleration
+   is required because i wanted to do a 1996-like intro (as usual :)).
+   
+   i was also making a nokia 7210 demo for assembly, but i just couldn't get
+   anything that qualifies 'ok' in the short time i had. big thanks to
+   dodke, jobe and especially ebr for their effort in the demo project. it
+   _will_ be released sometime in the future...
+   
+
+   greetings:
+   
+   0x7a69.au
+   3state
+   aardbei
+   addiction
+   alien prophets
+   boozoholics
+   bypass
+   calodox
+   conspiracy
+   critical mass
+   damage
+   dawning
+   dcs
+   dekadence
+   details
+   disaster area
+   dogcow
+   excess
+   farb-rausch
+   haujobb
+   hedelmae
+   FAG
+   faktory
+   fairlight
+   fit
+   flo
+   foobug
+   gluterol
+   halo
+   inf
+   iso
+   jumalauta
+   kewlers
+   kolor
+   komplex
+   kooma
+   lonely coders
+   ltv
+   lunix
+   madwizards
+   mainloop
+   mandarine
+   marshals
+   matt current
+   mfx
+   moonhazard
+   moppi
+   neonray
+   northern dragons
+   phantasy
+   phn
+   pine
+   progress
+   pwp
+   pyrmiö group
+   rno
+   scarab
+   soopadoopa
+   spinning kids
+   spöntz
+   squirrelz
+   sumea labs
+   tbc
+   the black lotus
+   throb
+   the pimp brigade
+   tpolm
+   vantage
+   wamma
+   
+  
+   
+   
+   
+   visit #gbascene in ircnet!!  

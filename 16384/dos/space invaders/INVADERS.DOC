@@ -1,0 +1,282 @@
+                          €€€  €€€€   €€€   €€€  €€€€€
+                         €   € €   € €   € €   € €
+                         €     €   € €   € €     €
+                          €€€  €€€€  €€€€€ €     €€€€
+                             ≤ ≤     ≤   ≤ ≤     ≤
+                         ≤   ≤ ≤     ≤   ≤ ≤   ≤ ≤
+                          ≤≤≤  ≤     ≤   ≤  ≤≤≤  ≤≤≤≤≤
+
+                ≤≤≤≤≤ ≤   ≤ ≤   ≤  ≤≤≤  ≤≤≤≤  ≤≤≤≤≤ ≤≤≤≤   ≤≤≤
+                  ±   ±±  ± ±   ± ±   ± ±   ± ±     ±   ± ±   ±
+                  ±   ± ± ± ±   ± ±   ± ±   ± ±     ±   ± ±
+                  ±   ±  ±± ±   ± ±±±±± ±   ± ±±±±  ±±±±   ±±±
+                  ±   ±   ± ±   ± ±   ± ±   ± ±     ±   ±     ±
+                  ∞   ∞   ∞  ∞ ∞  ∞   ∞ ∞   ∞ ∞     ∞   ∞ ∞   ∞
+                ∞∞∞∞∞ ∞   ∞   ∞   ∞   ∞ ∞∞∞∞  ∞∞∞∞∞ ∞   ∞  ∞∞∞
+
+                                  Version 1.1
+
+                       Copyright (c) 1995, Paul S. Reid
+                              All Rights Reserved
+
+        .Game, Source Code, and Documentation are Freely Distributable.
+
+                         Released: September 17, 1995
+
+
+!! NO CHARGE IS TO BE MADE FOR THIS GAME, SOURCE CODE, AND/OR DOCUMENTATION !!
+   !! WITHOUT THE AUTHOR'S PERMISSION. A SMALL FEE TO COVER THE COSTS OF !!
+                       !! DISTRIBUTION IS ACCEPTABLE. !!
+
+             !! SEE BELOW REGARDING HOW TO CONTACT THE AUTHOR. !!
+
+
+
+
+
+
+
+INTRODUCTION
+------------------------------------------------------------------------------
+
+
+Back when pinball was king, "video games" were unheard of. That is, until
+Pong and Space Invaders changed all that. When Pong was first released, and
+later Space Invaders, people didn't think the trend would last. Well, it
+seems it did, and here we are wasting our lunch hours shooting our friends on
+the office network.
+
+Space Invaders was the first "real" arcade game. It contained all the basic
+elements that make the best games today so good. Edge of your seat game play,
+missiles and bombs everywhere, and a challenge to be reckoned with.
+
+I'm sure you all know what Space Invaders is all about, but I'll deliver a
+quick refresher for those of us that are too old to remember, and those of
+us that are too young to know...
+
+
+
+
+THE STORY
+------------------------------------------------------------------------------
+
+
+The story is the invaders are coming, and they're not cute and squishy like
+Alf on TV. Your job is to defend Earth. Don't let the invaders land at any
+cost!
+
+The military has issued their finest canon to you, the best pilot in the
+world. Everything hangs on your success...Don't let the people of Earth down!
+
+The invaders come in fleets, swooning back and forth above the battle ground,
+dropping a hell fire of bombs everywhere. The invaders descend closer and
+closer to their goal. And what's worse, with every invader destroyed, they
+advance faster and faster.
+
+You must destroy untold waves of invaders to save Earth. But they're not
+stupid. They refine their attack with each wave. They begin their attack
+closer to the planet each time, and release more and more bombs. And if
+that's not enough, they descend faster with each passing wave.
+
+It's a good thing there are bunkers for you to hide under so you can catch
+your breath! And hey...What's that? A UFO passing over the battle site?
+It'll sure be sweet destroying that! That ought to wipe that stupid smile
+off their...er...faces?
+
+
+
+
+BACK TO THE INTRODUCTION
+------------------------------------------------------------------------------
+
+
+Yeah, well, as I'm sure you've guessed, it's a shoot'em up. But a shoot'em
+up with CLASS [grin].
+
+I wrote this game in a week (or there abouts) in solid assembler. I wanted to
+see what I could do with a game in the smallest amount of memory, and here we
+are: Space Invaders with full graphics (even the original logo from the coin
+op box!) in 9k. Now, that's amazin'...
+
+I have included the source code so people can examine my techniques if they
+so desire. My keyboard interrupt routines, my double buffered video for
+smooth animation, my memory saving sprite routines (all the graphics are a
+single bitplane), and my amazin' collision detection!
+
+Well, okay, maybe it's not all that amazing to everyone, but some people will
+no doubt find it useful (er, I hope).
+
+
+
+
+THE GAME
+------------------------------------------------------------------------------
+
+
+The game starts up with a title screen (check out that logo - I'm so proud of
+it - I'm not an artist (really, it's true)). Waiting a few seconds will get
+you another screen with a little more information on it, like game controls,
+etc. The first screen gives you game scoring.
+
+Press any key to begin play. Here are the keys you'll need to know:
+
+
+                                    KEYS
+
+                        Cursor Left  - Move canon left
+
+                        Cursor Right - Move canon right
+
+                        CTRL         - Fire missile (only 1 at a time allowed
+                                                     - just like the arcade)
+
+                        S            - Toggle sound on/off
+
+                        ESC          - Exit to DOS pronto!
+
+
+You may shoot the invader's bombs to avoid getting hit, but you will receive
+not scoring for doing so. You're lucky to be alive!
+
+Shoot the UFO when it comes out for a nice fat 100 point bonus.
+
+Use the bunkers for shield, maybe even shoot a hole in one and take out the
+invaders from there (coward)...[grin].
+
+If you are hit, or the invaders land on you, you'll have to start the level
+over again. Sorry, 'dem 'da breaks...
+
+As you wipe out each wave, the invaders will begin their attack lower, speed
+up quicker, and drop more bombs. Can it get any worse, you ask? It could, but
+I don't practice masochism.
+
+A free canon will be awarded every 10,000 points. I can't imagine anyone
+getting more than 2...I'm not even sure it's possible!
+
+
+
+
+THE SOURCE CODE
+------------------------------------------------------------------------------
+
+
+As I mentioned above, the source code is included. Use it as you will, but
+give me a little credit if you are going to modify the game. By this I don't
+mean put my name on it (unless you hardly changed anything - then don't take
+my name off of it), I mean leave me some e-mail and tell me what you did.
+I'm interested to know what people got out of my work, if anything. And it's
+all I really ask - I don't want money - Just human contact (I'm so lonely!
+I'm kidding...I have lots of friends. Really! (?))...
+
+The source code may be a little rushed here and there. I was a little pressured
+with another work project that needs to get done. I knew if I didn't hurry up
+and finish this, it'd never get done, so I did as good a job as I could in as
+short a time as possible.
+
+I used Turbo Assembler 4.0 to assemble the source listing, and Turbo Link 7.0
+to link it. I suggest you do the same. Borland language products are by far
+superior to anything else available (my opinion - yours may differ, of
+course)...
+
+
+
+
+THE AUTHOR
+------------------------------------------------------------------------------
+
+
+I'm a student at Kwantlen University College in Richmond, British Columbia
+(Canada!), in my second year of Computer Information Systems (Diploma).
+
+I wrote this game partially out of interest, and partially because my wife
+wanted to play it. So, I dedicate this game to my wife, Deb.
+
+If you'd like to contact me (please do if you enjoy the game, or got
+something out of the source) at:
+
+preid@Direct.CA (internet)
+
+I can not be contacted any other way at the moment (I don't frequent any
+local BBSes anymore it seems - Sigh)...So, those of you with internet access,
+drop me a line and tell me what this package did (or did not) do for you...
+
+Please note that this game and source code are FREE - I don't ask for, or
+expect, any money. Just a friendly letter (e-mail)...
+
+I am planning to write more small (older) arcade games. Have any ideas? Is
+there something you'd like to play? Let me know...I'm open to ideas. I was
+thinking maybe Frogger, Galaxian, Ladybug, or maybe Pacman...Hmmm...Maybe even
+Defender...
+
+Until next time, have fun...
+
+
+...Paul S. Reid (preid@Direct.CA)
+
+
+
+
+BIBLIOGRAPHY
+------------------------------------------------------------------------------
+
+
+Books and resources used in the development of Space Invaders:
+
+
+Mastering Turbo Assembler                           (Very highly recommended)
+ Second Edition
+ Tom Swan
+ 1995, Sams Publishing
+ ISBN 0-672-30526-7
+
+Assembly Language Quick Reference                        (Highly recommended)
+ First Edition
+ Allen L. Wyatt, Sr.
+ 1989, Que Corporation
+ ISBN 0-88022-428-2
+
+DOS Programmer's Reference   (Newer edition as of this writing - Recommended)
+ Third Edition
+ Terry Dettmann, Jim Kyle, Marcus Johnson
+ 1992, Que Corporation
+ ISBN 0-88022-790-7
+
+Dan Gookin's Guide to Underground DOS 6.0     (Excellent DOS spelunking book)
+ First Edition
+ Dan Gookin
+ 1993, Bantam Books
+ ISBN 0-553-37097-9
+
+Programmer's Guide to the EGA, VGA, and Super VGA Cards       (A-1 Tech Info)
+ Third Edition
+ Richard F. Ferraro
+ 1994, Addison-Wesley
+ ISBN 0-201-62490-7
+
+
+Books and resources recommended to the developer and generally curious:
+
+
+Mastering Borland C++ 4.5             (Very highly recommended - Nice pages!)
+ Second Edition
+ Tom Swan
+ 1995, Sams Publishing
+ ISBN 0-672-30546-1
+
+Mastering Turbo Debugger           (Excellent book - May be a newer edition?)
+ First Edition
+ Tom Swan
+ 1991, Hayden Books
+ ISBN 0-672-48454-4
+
+Mastering Turbo Pascal 6         (Great Pascal book - New edition available?)
+ Fourth Edition
+ Tom Swan
+ 1991, Hayden Books
+ ISBN 0-672-48505-2
+
+
+  How can you tell I'm a Tom Swan fan? I've used his books to learn most of
+        the languages above (Pascal, Assembler, C/C++) - Good stuff!
+
+

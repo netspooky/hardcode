@@ -1,0 +1,16 @@
+
+  ∞∞∞∞∞∞∞∞∞∞∞∞∞±±±±±±±±±±±≤≤≤≤≤≤≤≤≤≤€€€€€€€€≤≤≤≤≤≤≤≤≤≤±±±±±±±±±±±∞∞∞∞∞∞∞∞∞∞∞∞∞
+
+  WONDER WOMAN 64 KB PC INTRO BY NEXTEMPIRE  ±±±±±±±±                 ±±±±±±±±
+  FIRST PRESENTED AT DREAMHACK'99 DEMOPARTY  ±∞€€€€€∞±     ±±±±±     ±∞€€€€€∞±
+  SUPPORTS "NO SOUND" AND SOUND BLASTER PRO  ±∞∞∞∞€€€∞±   ±∞€€€∞±   ±∞€€€∞∞∞∞±
+  PENTIUM DOS/WINDOWS EMM386.EXE NOT NEEDED   ±±±±∞€€€∞± ±∞€€∞€€∞± ±∞€€€∞±±±±
+  CODE    : KOZMIK                                ±∞€€€∞±∞€€∞±∞€€∞±∞€€€∞±
+  GRAPHICS: KTHULU                                 ±∞€€€∞€€∞± ±∞€€∞€€€∞±
+  MUSIC   : KENSHI                                  ±∞€€€≤∞±   ±∞≤€€€∞±
+  BROWSE http://members.xoom.com/NEXTEMPIRE          ±±±±±±     ±±±±±± 
+
+  ∞∞∞∞∞∞∞∞∞∞∞∞∞±±±±±±±±±±±≤≤≤≤≤≤≤≤≤≤€€€€€€€€≤≤≤≤≤≤≤≤≤≤±±±±±±±±±±±∞∞∞∞∞∞∞∞∞∞∞∞∞
+
+  TROUBLESHOOTING 
+  DMA is set to standard default channel #1

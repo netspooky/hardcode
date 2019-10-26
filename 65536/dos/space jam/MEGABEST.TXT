@@ -1,0 +1,145 @@
+		      ³  
+		      ³ 		  
+		      ³
+            ù  -  - --ÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+
+ Ûß       ÛßÛ       ÛßÛ       Ûß       Ûß              Û       ÛßÛ       ÛßÛßÛ
+ Û        Û Û       Û Û       Û        Û               Û       Û Û       Û Û Û
+ ÛÜ       ÛÜÛ       ÛÜÛ       Û        ÛÜ              Û       ÛÜÛ       Û Û Û
+  Û       Û         Û Û       Û        Û               Û       Û Û       Û Û Û
+  Û       Û         Û Û       Û        Û             Û Û       Û Û       Û Û Û
+ ßß       ß         ß ß       ßß       ßß            ßßß       ß ß       ß ß ß
+
+
+
+									       
+	    ù  -  - --ÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+		      ³ 			     
+		      ³   this fantastic intro was made by fascination for
+		      ³   the assembly '94 intro compo. it requires a 386
+		      ³   processor with vga display. ultrasound is required 
+		      ³   to hear the music. we didn't include support for sb 
+		      ³   and compatibles, because there are still people 
+		      ³   who don't own a gus yet. 
+		      ³ 
+                      ³   everything runs like a dream on a 486/33 vlb,
+                      ³   and most parts (everything but the bounching
+                      ³   vector & glentz) should run smoothly on a slow 386.
+                      ³   gusplay causes some delays to vectors. that's
+                      ³   because we didn't make a vertical retrace interrupt
+                      ³   routine. sorry. there are also some other bugs.
+                      ³   we won't fix them. sorry. design also sucks.
+                      ³   we don't care. sorry.
+                      ³
+		      ³   if space jam doesn't work with your computer, buy 
+                      ³   one like ours. yeah, it's not our fault if you
+                      ³   own a bad computer.
+                      ³
+                      ³   if you think you can code faster and/or nicer
+                      ³   routines, compose cooler musics or draw better
+                      ³   gfx than we did, why don't you join us? We offer
+                      ³   you nice benefits (company car, own private
+		      ³   secretary, etc.), among with competitive salary. 
+		      ³   we are desperately looking for more coders and 
+		      ³   musicians (maybe gfx artists too), so we'll accept 
+		      ³   almost anyone. don't wait to tomorrow, it may 
+		      ³   maybe be too late.
+                      ³
+                      ³   the credits for space jam: setup routines by rascal.
+		      ³   other code by apeli. soundtrack by gredon & rascal. 
+		      ³   logo and fonts by gnome. design (?) by apeli, gnome 
+		      ³   and prager. for musicplayer we have used the great  
+		      ³   gusplay 1.5 by robban / cascada.		      
+		      ³ 						      
+		      ³   as all other elite groups, we also have some distro 
+		      ³   sites. here they come: pointbreak (+32-1143-6925) 
+		      ³   and sidewalk cafe (+47-3551-2227). call them and 
+		      ³   become cool.		       
+		      ³ 						      
+                      ³   next some greetings to groups and persons who are
+                      ³   either not too proud/elite to answer letters,
+		      ³   our friends or just some suckers.		      
+		      ³ 		  
+                      ³   group greets: arkham, criminal gang, distorsion, dust,
+                      ³   enigma, epical, escape, fit, flatline, gollum, infiny,
+                      ³   jeskola! majic12, mindprobe: well... you were at
+                      ³   assembly. hope 2cu at p4. (nicely put), ozone,
+                      ³   paragon, phantom, remal, select, speedy, superiority
+                      ³   complex, s!p, zuul.
+                      ³
+                      ³   apeli greets: jussi sipola (thanx for the fantastic
+                      ³   spotvectors), taskmaster, jauhot, frykman.
+                      ³
+                      ³   gnome greets: jp & tp, oltsu, mikko, cross, zeb,
+                      ³   alek.
+                      ³
+                      ³   gredon greets: senator, lemming, stormy, jouni
+                      ³   suoranta, ari holm, juha hirvonen, royal'69, nemesis,
+                      ³   achilles, chip, mindphaser, steffen, thomas, $volkraq,
+                      ³   killer pc, freeze, alek, johnny, bana, black hell,
+                      ³   ukko, cross.
+                      ³
+                      ³   prager greets: kapsu, tyrone, sb, cyberdancer,
+                      ³   cross, jussi ruonamaa, twin killer, n.i.k., vinyl.
+                      ³
+                      ³   rascal  greets: lupercus,  froggy, kummeli, clutter,
+                      ³   v.kummu, mamppa & co. ...
+                      ³
+                      ³   turo greets: migu, leke, luumu, shadow, clutter.
+                      ³
+		      ³   now that you have seen space jam (if you haven't,   
+		      ³   do it fast), you must be thinking: 'oohh! that      
+		      ³   was fantastic! i haven't seen anything like that    
+		      ³   before! but hey, how can i contact these	      
+		      ³   talented youngsters?'                               
+		      ³ 						      
+		      ³   well, that should be pretty simple even for the     
+		      ³   lamest lamer or lousiest bastard: all you have      
+		      ³   to do is to call to our bulletin board system,      
+		      ³   galleria. you don't know the number? here it        
+		      ³   is: +358-81-3115178. why don't you call, it's       
+		      ³   relaxing. remember to chat with the sysop, turo.    
+		      ³   he likes chatting... much..			      
+		      ³ 						      
+		      ³   you can also throw some e-mail to rascal:	      
+		      ³   rascal@freenet.hut.fi 			      
+		      ³ 						      
+		      ³   if you are one of those guys/gals who don't own     
+		      ³   a modem, you can of course write us a looong,       
+		      ³   friendly and happy letter. the adresses follow:     
+		      ³ 						      
+		      ³   sir apeli / fsn				      
+		      ³   niemel„ntie d 1				      
+		      ³   90900 kiiminki				      
+		      ³   finland					      
+		      ³ 						      
+		      ³   he's a really weird dude. and he's lazy. so don't   
+		      ³   write to him if you want a fast answer. he prefers  
+		      ³   to chat coders' stuff, but he can chat other things 
+		      ³   also. what? you want to give him a call? with a     
+		      ³   phone? sure, why not. the number is: +358-81-8161421.
+		      ³ 						      
+		      ³   sir gredon / fsn				      
+		      ³   heiniemenpolku 5				      
+		      ³   02940 espoo					      
+		      ³   finland					      
+		      ³ 						      
+		      ³   what about him? hmm.. he's our main swapper and he  
+		      ³   has an earring. so if all you wanna do is to write  
+		      ³   odd letters with huge amounts of the latest scene   
+		      ³   software, he's your choice.     
+		      ³ 						      
+		      ³   sir prager / fsn				      
+		      ³   kiertotie 3					      
+		      ³   90900 kiiminki				      
+		      ³   finland					      
+		      ³ 						      
+		      ³   he's tall (about 190 cm), so you can write to him   
+		      ³   about anything you like. he even thinks it's cool.  
+		      ³ 						      
+		      ³   ok, the end of this file is near...		      
+		      ³
+                      ³   the end.                                                                            

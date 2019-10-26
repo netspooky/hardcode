@@ -1,0 +1,21 @@
+
+.ldx 64kb by antidothum
+.code yuda
+.music beeper
+.rush hours '99
+.place: ???
+
+req:
+.sorry: fast machine and about 22Mb of memory
+.sb and gus supported!
+
+.run <ldx s> to get gfx setup
+
+
+----
+intro was written almost in pure java script with some piece of code
+written in pure html. so we have to include some part of www page viewer.
+it was really hard to do it....
+----:)
+
+enjoy.

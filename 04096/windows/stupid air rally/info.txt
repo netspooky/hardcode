@@ -1,0 +1,21 @@
+4k intro
+Stupid Air Rally by lucid
+for Assembly 2014
+
+code: ltipl (@IRCNet)
+
+because air rally like this is stupid
+Programmed in a logo-like language compiled to
+bytecode, parsed and translated at runtime.
+Translator written in C++, linked and
+packed with Crinkler
+
+Runs on OpenGL + glsl
+Requires Direct3D 9
+sorry about lame windows midi,
+could probably fit 4klang synth
+at the cost of the framebuffers
+that only provide the fireplasma
+effect, will see
+
+

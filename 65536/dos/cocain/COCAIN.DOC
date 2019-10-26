@@ -1,0 +1,176 @@
+       
+       ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+       ³                      C O C A I N  v1.00               ³
+       ³                                                       ³
+       ³                 ÄÄÄ Documentation ÄÄÄ                 ³
+       ³                                                       ³
+       ³             (C) July 1999  Dave/PhyMosys              ³
+       ³                Email: davex@mundomail.net             ³
+       ³                     dave_es@hotmail.com               ³
+       ³           HP: http://www.come.to/davecorner           ³
+       ³ http://www.geocities.com/SiliconValley/Foothills/8279 ³
+       ³                                                       ³
+       ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+        Contents:
+        ş About the name...
+        ş Rights and Disclaimer
+        ş Credits
+        ş Hardware Requirements
+        ş Released Stuff
+        ş WANTED: coder
+        ş Greetz
+
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ ş About the name... ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ The name suggests a drug, but I really thought in the word coca-IN,
+ which of course, can be seen as a drug because of the dioxine contents :)
+
+
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ ş Rights and Disclaimer ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ If you like to put some of our production on CD or any kind of shareware
+ collections, you can do it. You can NOT change anything in our
+ productions. You should not spread any of our productions parts as a
+ single stuff. We are not responsible for any hardware or software crashes.
+ Use our programs at your own risk. ;)
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ ş Credits ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÙ
+ Code:   Dave (Texture Packer, Photo Cruncher(0.15 bpp), trancy fx)
+ Music:  Jelly / Dalezy / Skeema
+ Gfx:    Misha
+ Design: Dave
+
+
+ Although my main task in the production was coding it, I also packed the
+ tune (with Aktiv's support and help) and designed everything in the intro.
+
+ Also, I *must* credit the following people:
+ Adam Seychell (DOS32 extender)
+ FreddyV/Useless (Useless Sound Player support)
+ Whizzter (Vesa 2.00)
+
+
+ Also, I would want to thank the following people for their work as a BETA
+ testers (GUS versions, VESA 2.00, ... ) :
+
+                                Distance
+                                Sweeper
+                                 Jelly
+                                 Loonie
+                                Progger
+                                 SpyOMC
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ ş HARDWARE REQUIREMENTS ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ This intro requires:
+  ş A FAST machine (PENTIUM 133 Mhz)
+  ş 16 Mb RAM
+  ş GUS (read below for SB version)
+  ş VESA 2.00, 320x200x24bpp (read below for 15,16 and 32 bit version)
+  ş The proper time to watch it ;)
+
+
+ Although the intro *will* work on a 486, it will be really pathetic to
+ see it.
+ It's NOT my fault... coz I have my computer for taking profit of it... ;)
+ At least a P133Mhz is required.
+
+ After party - Versions
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ I plan to release other (final) versions of the intro for 15,16,32 bpp
+ supporting SB for the music, of course.
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ ş RELEASED STUFF ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   Filename        Size   Released   A Short Description
+   ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-
+   MANGA.ZIP      487 kb    8-9-95   The 1st Manga&Anime demo, VGA & SB
+   QUANTUM.ZIP    590 kb  14-11-96   Multi-Part demo, VGA & SB
+   MIND.ZIP       247 kb   10-7-97   Track Demo, VGA & SB
+   DGT2B.ZIP      159 kb    3-5-98   Image proc. Tool, VBE 2.00, 386+
+   EIGEN.ZIP       65 kb   24-7-98   64k track intro,VBE 2.00,GUS,SB,486+
+   XACOB.ZIP        4 kb   24-7-98   4k intro, VGA, 486+
+   KAME.ZIP       254 kb    5-7-99   Graphics Viewer, DOS & WIN98 compatible
+   COCAIN.ZIP      65 Kb   23-7-99   64k track intro,VBE 2.00,GUS,SB,PENTIUM+
+
+
+ In addition to this, you can find more stuff (as docs) in my page.
+ http://www.come.to/davecorner
+
+ PhyMosys group releases a magazine which treats about coding (asm,c,pascal,
+ optimization, design of algorithms..), demoscene (how active is in Spain),
+ Security, Design and virus techniques, Internet(recopilation of links and full
+ descriptions of the sites), interviews and opinion articles, .... it's
+ written in Spanish but I'm trying to convince Navi (one coder of the group)
+ for translating to english some parts of it.
+
+ You can download the PhyMosys Magazine in
+ the following sites:
+ http://pusa.eleinf.uv.es/phymosys
+ ftp://ftp.gui.uva.es/pub/magazines/Phymosys
+
+ Also take a look in the page of my friend Aktiv:
+ http://www.vermail.net/aktiv
+
+ ... and don't forget to support Amber Mag:
+ http://amber.bti.pl/di_mag
+
+
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ ş WANTED: coder ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ I'm looking for an experienced coder in assembly language (PMODE)
+ who can help me to code intros (2d trancy fx, raytracing ...).
+ We are moving to directX and OpenGL too so if you think you are talented
+ enough and want to join, contact me.
+
+ It would be better if you live in Spain (BCN).
+
+ davex@mundomail.net
+ dave_es@hotmail.com
+
+ÚÄÄÄÄÄÄÄÄÄÄ¿
+³ ş Greetz ³
+ÀÄÄÄÄÄÄÄÄÄÄÙ
+ Greets goes to:
+  J&I
+  Aktiv
+  Booplague (let's go with the Music DISK! :) )
+  Navi (we'll in da party)
+  Adok
+  Shock
+  Gaffer
+  Ravian
+  Kalms
+  Altair
+  Kneebiter
+  Action
+
+  ... and to all ppl regular in #coders, #trax and #pixel channels of coz!!!
+
+
+
+ Ah! ahora viene la parte latina, claro :)
+ Quisiera saludar a la siguiente pe¤a de la demoscene (muchos de ellos,
+ sin¢ todos) 'regulares' en el canal #demoscene   de la demoscene espa¤ola:
+
+                              Dario^Phong
+                               Reality3D
+                                 JamQue
+                                   Bp
+                                Cimedia
+                                 Enlar
+                                  Sml
+
+ uf.. bueno, y en general a todos con los que alguna vez he hablado en
+ el canal #demoscene. un saludo a todos.

@@ -1,0 +1,29 @@
+
+ "Ravende GEMAnipulierte Tomaten"
+ 
+ A 4k intro for Revision 2013 by T$
+ 
+ Requires DirectX9c (including the D3DX library from the August 2005
+ SDK update, stored on disk as d3dx9_30.dll) and
+ a 3D graphic accelerator featuring VS 2.0, PS 2.0
+
+ Uses potented NULLtrasound technology
+ 
+ Inspired by the revision 2013 thread at pouet.net
+
+ Running time: 2:40
+
+ Files included:
+
+* Ts4k_rv13_2560x1440.exe
+* Ts4k_rv13_1920x1080.exe
+* Ts4k_rv13_1280x1024.exe
+* Ts4k_rv13_1280x960.exe
+* Ts4k_rv13_1024x768.exe
+* Ts4k_rv13_640x480.exe
+* Ts4k_rv13_960x540_windowed.exe
+* Ts4k_rv13_1920x1080_windowed.exe
+
+ Color modes used:
+ Display format : X8R8G8B8
+ Z-/Stencilbuffer format: D24S8

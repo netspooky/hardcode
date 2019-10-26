@@ -1,0 +1,37 @@
+PX:AG - Bustro
+
+This is our first production. We hope you liked it.
+
+Our 64k intro called "Bustro" has been build in about 8 days of
+extreme - 24/7 - coding right before the Assembly 2005. We took
+a 2 week vacation for our roadtrip to Helsinki. In the beginning
+our aim was to present this roadtrip in our intro. Due to the fact
+that we never would have gotten enough content finished 'til the
+deadline, we decided to change our plans. So we reduced the hole
+intro to Jan's bus and accompanied the retro-look with flowers.
+
+After finishing the needed content we still suffered from the lack
+of a tune. So we had to hack a little tune together in a hurry.
+Next time a real musician will do that part hopefully. ;-)
+
+Our thanks go out to the Assembly jury who accepted our intro
+although we totally missed the deadline. We also like to thank
+Contraz, Excess and Portal Process for their moral support.
+Thank you guys. ;-) 
+
+Credits:
+
+Code                  : Luis, Human
+"Art Composer" - Tool : Human
+Tune                  : Luis
+Models                : Luis
+Designated busdriver  : Jan
+
+We would like to credit KB / Farbrausch for his awesome
+v2synth we used in this intro. 
+
+-
+
+PhalanX Art Group
+web  : http://www.pxag.de
+mail : group@pxag.de

@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Glenz1k final</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <script>
+var a = document.body;
+var b = document.getElementsByTagName('canvas')[0];
+
+function getContext(s) {
+  try {
+    return b.getContext(s); 
+  } catch(e) {
+    return null;
+  }
+}
+
+function c() {
+  return getContext('2d');
+}
+
+function d() {
+  return getContext('webgl') || getContext('experimental-webgl') || getContext('webkit-3d') || getContext('moz-webgl');
+}
+
+document.body.clientWidth; // fix bug in webkit: http://qfox.nl/weblog/218
+    </script>
+
+    <!-- Minified with Google Closure Compiler -->
+    <script>
+W=b.width=innerWidth-24;H=b.height=W/2;M=H/2;m=0.5;X=c();X.translate(H,M);_=Math;C=_.cos;S=_.sin;D=2*_.PI/3;A=B=G=0;function V(a,h){return[m*(a[0]+h[0]),m*(a[1]+h[1]),m*(a[2]+h[2])]}function T(a,h){return[a[0]*C(h)+a[2]*S(h),a[1],a[2]*C(h)-a[0]*S(h)]}function F(a,h,j,k,l){if(1<a){var n=V(j,k),o=V(k,l),q=V(l,j);F(a-1,1,n,o,q);F(a-1,h,j,n,q);F(a-1,h,k,o,n);F(a-1,h,l,q,o)}1==a&&F(0,h,T(j,G+j[1]),T(k,G+k[1]),T(l,G+l[1]));1>a&&x.push([j[2]+k[2]+l[2],h,M*j[0],M*j[1],M*k[0],M*k[1],M*l[0],M*l[1]])}function L(){X.fillStyle="rgba(0,0,0,.1)";X.fillRect(-H,-M,W,H);x=[];s=S(B);c=C(B);d=[0,s,-c];e=[C(A),S(A)*c-m*s,m*c+S(A)*s];f=[C(A+D),S(A+D)*c-m*s,m*c+S(A+D)*s];g=[C(A-D),S(A-D)*c-m*s,m*c+S(A-D)*s];F(5,0,e,f,g);F(5,0,f,d,g);F(5,0,g,d,e);F(5,0,d,f,e);x.sort(function(a,h){return a[0]-h[0]});K=4*A.toFixed(0);for(i=0;i<1024;i++)p=x[i],X.beginPath(),X.fillStyle=p[1]?"hsla("+K+",90%,50%,.7)":"hsla(0,0%,99%,1)",X.moveTo(p[2],p[3]),X.lineTo(p[4],p[5]),X.lineTo(p[6],p[7]),X.fill();A+=0.011;B+=0.007;G+=0.005}setInterval("L()",16);
+    </script>
+  </body>
+</html>

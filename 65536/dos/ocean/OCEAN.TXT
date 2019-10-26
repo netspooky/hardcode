@@ -1,0 +1,306 @@
+Note: please enter a cubic player shell playing some whacko module like
+      "alhamar.xm", "kolia.xm" or "load2.xm". This is required for
+      entering the correct state of mind relevant to rC info files.
+
+
+ ±                                            °
+²²²²²²²²²²±²²²²²²²²²²²²²²²²²²²²°²²²²²²²²²²²²²²²²²²²²²²²°²²²²²²²²²²±²²²²²²²²²²²²
+²²²²²²²²²²²²²²²²²²²±²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²±²²²²²²²
+²²²²²ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß²²²²²²
+²²²                                                                        ²²²²
+²²                                                                           ²±
+²²                                   ±                                       ²²
+²²                                                            ²              ²²
+²²     ú            Ü²ÜÜÜÜ                  ÛÛÛÛÛÛÛÛ                         ²²
+²İ            °°±²²ÛÛÛÛÛÛÛÛÜÜ          ±  ÛÛÛÛÛÛÛÛÛÛÛ      ±                 Ş²
+²İ           °     ŞÛÛÛÛÛÛÛÛÛÛÛÜ         ÛÛÛ     ÛÛÛÛÛÛ °          o         Ş²
+²İo         °       ÛÛÛÛÛÛÛÛÛÛÛÛÛ       ÛÛÛÛ                        ú    ú   Ş²
+²İ       o           ßÛÛÛß²ß   ÛÛİ   ±  ÛÛÛÛ                                 Ş²
+²İ     ú   ±         ŞÛÛÛÜÜ   ÛÛÛ ±    ÛÛÛÛ        ²  ²           o          Ş²
+²İ   ú     °        ° ÛÛÛÛÛÛÛÛÛÛß      ÛÛÛÛ      ²°      ²             o     Ş²
+²İ               °   ŞÛÛÛÛÛÛÛÛß         ÛÛÛÛ                ²       ú        Ş²
+²İ  o       °        ÛÛÛ ² ÛÛÛÜ         ÛÛÛÛ    ²                         ú  Ş²
+²İ           °     ÜÛÛÛÛ    ÛÛÛÛ        ÛÛÛÛ   ±                             Ş²
+²İo           °  ÜÛÛÛÛÛÛİ  ° ÛÛÛİ     ²  ÛÛÛÛ   ²  ÛÛÛÛÛÛÛ                   Ş²
+²İ       °      Ş²ÛÛÛÛÛÛÛ     ÛÛÛÜ        ÛÛÛÛÛÛÛÛÛÛÛÛÛ     ²     ú    o     Ş²
+²İ   ú           °    pif97    ßß       ²    ÛÛÛÛÛÛÛÛ                        Ş²
+²İ     °                   ±                                        o        Ş²
+²İ                      °                            ²                       Ş²
+²²                                           ²   ²                           ²²
+²²       °          °                                                        ²²
+²²             °                                                             ²²
+²²²ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ²²²
+²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²²°²²²²²²²²²²²
+²²°²²²²²²²²²²²²²²²²²²±²²²²²²²²²²²²²²²²²²²²²²²²²²²²±²²²²²²²²²²²²²²²²²²²²²²²²²²±²
+                                ±
+      ±
+
+
+
+                    [} real rECTUM cAUDA in 64 kilobytes {]
+
+
+
+ rECTUM cAUDA of 1997
+ rECTUM cAUDA *in the year of* 1997
+
+ rECTUM cAUDA is going online
+ rECTUM cAUDA is taking over
+
+ rECTUM cAUDA 14tiss Stavanger Section is acquiring world fisse
+ rECTUM cAUDA *STAVANGER SECTION*  - the section with the insane info files!
+
+
+ rECTUM cAUDA would very much like to win this compo so vote if you want us to,
+ or vote if you think we're seriously skilled! Of course, you can vote
+ if you're drunk, absent, eating pizza, or coding vectors too! Heck,
+ you may even vote if you just feel like it! Do it! We need the cash!
+
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     [ glossary ]
+
+ Ocean
+     [•u`shje:n,]
+
+ Once upon a time a feta games company rocking the C64. Happened to use
+ their loader music in every production released. What if rECTUM cAUDA
+ was to use exactly the one same single module in all demos?
+
+ Loader
+     [lí:uda]
+
+ Thing invented to be able to reproduce certain bits of computer memory,
+ and also to be able to retreive previously stored data.
+    The C64 featured a turbo load speed of 3000 baud. Now you could
+ get the program faster into RAM by downloading it. So keep downloading
+ rECTUM cAUDA demos!
+    Loaders usually had a picture being displayed pixel for pixel,
+ just like Windows 95 is redrawing your wallpaper. This is the exact
+ same effect. That's one of the reasons why MIcrosoft should be sued for
+ breach of copyright laws. Pixel-by-pixel was Ocean's trademark!
+    THe loaders also incorporated a great, wonderful, extacy-ish effect
+ on the overscan borders, which was some kind of palette animation, only that
+ it wasn't. So it's a wonder that Piffi managed to reproduce this effect
+ on the PC. Please take a moment and think about this extreme skill feat of
+ coding. Notice that the PC version also features loading borders on the
+ *overscan* on PC MONITORS! (That's one of the reasons why you should vote
+ for this one).
+
+ 64k ram system
+    [sikz'ti f†:r kei rauhelvetefaensadopornofitte si:s'tm]
+
+ A feature of the C64 to store music, pictures and general porn code.
+ Strangely enough this is also the size limit for this intro.
+
+ Scroller
+    ['zkr†:†:†:†:†lla'h]
+
+ A phenomen deeply related to old days of C64, while men still were boys
+ and monitors were TVs. Moving text one pixel at a time was still
+ a girl-attractive thing to do. The code applied for the 100% IBM
+ PC Compatible version found inside these binaries are based on code
+ previously released inside binaries of the Volvo #2 intro, but modified
+ for additional compability and general havoc.
+
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    [ rECTUM cAUDA  - we're the real ravers! ]
+
+ rECTUM cAUDA just realized that to enhance the internationatility
+ of our demos and presentations and pictures, we have to translate some
+ of the better expressions to english. We really hope that the
+ reviewers at ftp.hornet.org reads this text, and that they suddenly
+ realize what the fuss is all about. Can we bet on a ***** out of ***** this
+ time? yes please thank you very much.
+
+ Before we go to any extent of this you-smell-like-a-hamster game,
+ don't forget that no Norwegian demo group have had more appearances
+ on television than rECTUM cAUDA. Therefore rECTUM cAUDA is the leading
+ group in Scandinavia. No other demo group has received as much publicity
+ as rECTUM cAUDA. Thanks to dYne we also made it to the standard jingle
+ music theme on Spider, where the TV dudes and dudettes are more roached
+ than ever.
+
+ For an in-depth analysis and explanation of roaching, we refer to
+ Volvo #1 & #2 and Subkult issue 1, 2, 3 or 4. Can't remember.
+  (note! Dr. Dyregod & Ko is in no way infiltrated or involved with rECTUM
+    cAUDA, they just happen to make a helluva good diskmag. Now can we
+    please have issue #5?)
+
+ For an in-depth analysis and explanation of HINDUS in general, please
+ read these laws of nature:
+
+   1. rECTUM cAUDA dominates the universe and no corresponance should
+       be entered into.
+
+   2. Piffi and sTOR hAMZTER is the leading gods of rECTUM cAUDA,
+       as far as this release is concerned.
+
+   3. Why do I have to type alt-21 to get the ""? Doesn't my keyboard
+       work at all?
+
+     3.1  Your keyboard doesn't work at all if you don't have one
+           (see also: 12 - About Latex and other circumstances)
+
+   4. Hindus are cool people. That's why we focus so much on them.
+
+   5. Some people think they can kick whoever they want outta rECTUM cAUDA.
+
+     5.1 (rc-ting.zip has proven otherwise)
+
+   6. Sand is supposed to be serious. Really! (x)
+
+   7. Hole Inga once was a hindu. Now he works in a shop in Kazhacstan
+
+   8. rECTUM cAUDA is latin for... five hindus in a bus. or not.
+        (actually I think you know the real answer yourself)
+
+   9. Hindus speak incomprehensible words like "arhmahl ahkballah aloha".
+
+  10. 80x50 is a cool textmode
+
+  11. Never buy pizza without scaring the pizza deliverance kid.
+
+  12. Latex once lacked a keyboard too much. Thus he became the
+       flashlight main focus of the Norwegian demo scene for quite a while.
+
+      12.1 (never forget your keyboard or mice, or no pizza available)
+
+  13. rECTUM cAUDA does not contain any gamerlamers.
+
+  14. rECTUM cAUDA will OWN the world by year 2057 A.D.
+
+  15. The approaching end of the universe will boldly begin
+       deep in a jungle not far from Papa New Guinea.
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+       [ Casio Color Power Graphics Calculator ]
+
+
+  Why don't you fuuukin buy a Casio Color Power Graphics Calculator?
+  Look at all those features: (they'd knock a C64 down back into it's
+  shallow grave)
+     * Screen Shot printing with CASIO Label Printer.
+
+           [ every businessman on the road requires a PrtScr button
+           for their local calculator, in case they cannot remember their
+           cash flow ]
+
+     * Impression de l'image sur Šcran avec une imprimante d'Štiquettes CASIO
+
+           [ to Piffi's extent of French knowledge, this might as well
+             mean the same as "v†lev† kosje avekk moa s†soa" ]
+
+     * 3 color display (orange, blue and green)
+     * graphics functions
+     * Large display (16col x 8line, 96x64 dots)
+
+           [ they've even got better resolution than the PC's textmode.
+             Scrap your PC. Get this. ]
+
+     * 32-kbyte memory (24.000 program bytes)
+
+           [ weird.. if you erase predefined graphs, you're left
+             with more than 24.000 bytes mem. If you reset the
+             calculator, the predefined graphs return. This means they
+             must be stored in ROM, then copied into RAM and wasting
+             precious space. Wonder what is copied into the other 8kbs
+             of RAM. Note: THE CASIO 9800 (according to this) FEATURES
+             BIOS / DATA  ROM *SHADOWING*!  Go fuuuuuk your newly-bought
+             AWARD PnP BIOS, this is the *REAL* state of the art of
+             advanced memory enhancement techniques. Guess they use EDO
+             ram for storing variables. ]
+
+     * Simultaneous equations
+
+           [ True multitasking. Not pseudo-crashing as in windows 95.
+             This is a REAL OS! ]
+
+     * Polynomial equations
+     * Differentials
+     * Matrix Calculations
+
+           [ go ahead, make your own 3d engine with hardware
+             matrix calculation! ]
+
+     * Standard deviations
+     * Regression analysis
+
+     (then there's a lot of BULLSKITT on French that I don't understand
+      BULLSKITT of, perhaps they describe what they'll have for dinner or
+      something, or it might just be a translation of the English
+      part just above...)
+
+
+
+     This' gotta be a dream to code on. Too bad the buttons are so small.
+
+   [ note: this is what piffi is put up with for 3 years of maths class
+     at school. Perhaps this is another obvious reason for rC's wide
+     appeal in Stavanger. ]
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+       [ about this release ]
+
+  Code........... Piffi!
+  Sound.......... sTOR hAMZTER!
+  Gfx............ www.waku.com, piffi
+  Loading border palette................. Piffi!
+  Loading border alignment............... Piffi, Den Store Elgen, sTOR hAMZTER!
+  Info file ............................. Piffi.
+
+  Thanks to Piffi for the hyper-elite 8bit to 1bit compression algorithm
+  and converter. Special thanks to Piffi for the extremely elite
+  decompression algorithm that misses by about 8 bytes in the beginning.
+  Extremely many thanks to the Gathering 97 organizers for
+  keeping consistant rules throughout the entire preproduction time.
+
+PiffiKodii says:
+  Originally I reached a filesize of 65539 bytes (3 bytes too much...),
+  after all the code was greatly optimized for size. Finally
+  I managed to stay below the magic limit by compressing the
+  dos *extender* with a different program. If I'll release a final
+  version, I guess it'll grow a LOT due to a simple change of player.
+  Ahh.. my ocean/ directory contains 2.8 mb of files. Tralala so happy
+  to put all this fluff into 64kb. Now i'm able to talk about compression
+  ratios of 1:44, yep - the compressed final exe is 2% of total
+  directory size.
+
+  For greetings, please refer to your local toilet paper merchandise store.
+
+
+  RC-OCEAN.ZIP is a registered trademark of rECTUM cAUDA incorporated.
+  RC-OCEAN.ZIP competed at the Gathering '97 64kb intro competition,
+  and presumably won first place. Thank you all very much for all the votes.
+
+
+Now, this part is mostly for organizers. Let's see if this intro
+complies with your official rules...
+
+64k Intro PC/Amiga
+
+           ³
+Real Life  ³            Requirements
+           ³
+ (û)       ³    * PC and Amiga will compete in the same competition
+ (65332)   ³    * Max 65536 bytes
+ (linked   ³    * No dos extender allowed beside the intro. If you can squeeze
+  9.8kb)   ³      it in the 64k, you're welcome to do it :)
+ (gus/ns)  ³    * Support any soundcard and/or no sound option
+ (û)       ³    * file_id.diz must be included
+           ³    * See demo rules for hardware requirements
+           ³
+           ³  [hardware requirements:]
+ (386+)    ³    * Must work on a 486 DX2/66
+ (û)       ³    * Must work with at least 570kb convential memory
+ (3.43mb)  ³    * Max 16mb ram
+ (û)       ³    * DOS 5.0+
+ (std vga) ³    * VESA 2.0 complient and/or general VGA registers
+           ³
+
+As you can see, this intro meets or *exceeds* all the requirements.
+By the way, look out for a SB+GUS version soon to be released. :)
+

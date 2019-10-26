@@ -1,0 +1,47 @@
+SmallTetrris v1.0
+Implemented by Tore Bastiansen
+
+Usage:
+	How to start:
+		tetris [-l n] [-p]
+				-l n: Starting level (1-17)
+				-p  : Turn on preview
+
+	How to play:
+		UpArrow		or 5	-		rotate
+		DownArrow	or 2	-       drop
+		LeftArrow	or 4	-		move left
+		RigthArrow	or 6	-		move right
+		PgUp		or 8	-		up one level
+		p					-		toggle preview
+		Break		or ^C	-		quit
+
+	Score:
+		Each time you drop, your score is increased by:
+		(fallheigth/2+2)*level or
+		(fallheigth/2+1)*level if you use preview.
+
+Note.
+	USE ONLY A COLOR MONITOR
+
+
+	SmallTetris was assembled with Turbo Assambler 3.0
+	I'm sorry for the poorly documented source.
+	This program was intended to be small (2k), not structured.
+
+	Report bugs or ask questions to:
+	Internet adress:	toreba@ifi.uio.no
+
+
+		THIS IS A NOWARE PRODUCT FROM NORWAY
+		DO WHAT YOU LIKE WITH THE SOURCE (DON'T LIE)
+		NO RIGHTS RESERVED
+		NO WARRANTEES
+		NO CHARGE
+
+						 - - -
+
+P.S. Use tabsize 4
+
+
+

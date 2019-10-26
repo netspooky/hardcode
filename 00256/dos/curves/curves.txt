@@ -1,0 +1,11 @@
+asmcode dw crap
+i know
+sub codesize,30 bytes possible (even more)
+	  	no time to optimize now
+		final version to be released soon...
+contact Wcfireball@hotmail.com
+		if ya want source just ask (politely)
+
+rep /{GREETS MESSIAH!!!!}\
+
+wcf signing off

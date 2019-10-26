@@ -1,0 +1,35 @@
+The Return of the Raving Tomatoes
+-= We are back =-
+
+by T$
+
+Mekka+Symposium 2001
+4k Intro Competition
+
+Requires DirectX 8,
+32bit capable graphic card for full quality,
+otherwise use 16bit version with Voodoo3 and similar cards
+(use the 2ndcard versin for Voodoo add-on cards)
+Soundcard supported by DirectSound
+Running time approx. 2-3 min
+
+Note that it takes some time to precalculate the sound
+(the sound is precalculated for allowing smoother animation on
+slower machines) and turn up the volume.
+
+This is not really final nor complete and there is still a lot of
+unused space left, but there wasn´t time to fill it...
+
+Problems:
+-Intro crashes
+ This may be caused by:
+  -no DX8 available
+  -trying to run the 32bit version on a card which only supports 16 bit for 3d
+  -DirectSound not working (bad or missing sound card)
+  -trying to run the non-2ndcard versions on systems where only the second cards supports D3D8
+-no Sound, but Graphic works fine
+  Workaround:
+  -turn up the volume
+  -check if the wave output channel is enabled in the mixer
+  The intro does not run without sound since the complete intro 
+  synchronisation is based on DirectSound

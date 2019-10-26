@@ -1,0 +1,26 @@
+Worm v0.1 by: Quark(particle)     1/26/97
+http://www.webspan.net/~quark
+quark@webspan.net
+
+>>>>> Hello, this is a Worm program which is only 189 bytes in size! <<<<<
+
+In this game, 2 players can play, and each of them has 8 different
+posibilities for motion and direction! (cool)
+
+And if you're the type to play alone, then you have 16
+motion controls at both of your hands... (left hand vr. right hand)
+
+UP:             player1 = '8'           player2 = 'e'
+DOWN:           player1 = '2'           player2 = 'c'
+LEFT:           player1 = '4'           player2 = 's'
+RIGHT:          player1 = '6'           player2 = 'f'
+UP-LEFT:        player1 = '7'           player2 = 'w'
+UP-RIGHT:       player1 = '9'           player2 = 'r'
+DOWN-LEFT:      player1 = '1'           player2 = 'x'
+DOWN-RIGHT:     player1 = '3'           player2 = 'v'
+
+and 'q' to QUIT at any time. (don't quit, please...)
+
+It actually took me 1 hour to write it! (hehehe)
+
+bye!

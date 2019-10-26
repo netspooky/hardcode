@@ -1,0 +1,22 @@
+/FSI/8kintro/ript/disasterarea/
+
+requires win9x/directx/512x384x32
+and lots of megahertz for best performance
+(600 of them is nice, 333 of them is chunky but watchable).
+
+entirely coded in C.
+hence its evil speed and size.
+not that I could turn on size optimizations.
+satanic vc5 managed to convert the blue warpy
+thing into a blank screen if I turned off speed
+optimisations.
+there's still a silly rounding bug in there somewhere.
+thanks to (null) for the particle drawer.
+
+what does FSI mean, anyway ?
+
+Fucking Shoddy Intro ?
+
+Don't know, sounded good at the time.
+
+/mail/ript@i.am/davet@tekniche.com.au/

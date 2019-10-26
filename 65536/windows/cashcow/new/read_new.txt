@@ -1,0 +1,35 @@
+these new exes will also run under NT or 2000
+
+
+updates in this version:
+- fixed several "bugs", some were kind of obvious, others were a total mystery to me...
+  but it runs now, under my w2000. if it doesn't work under NT i'll hear soon enough :)
+- the exe got smaller for some reason, but i dont remember removing stuff, only adding?
+- some MAJOR speedups if you have MMX
+if you find more bugs, let me know: snq@scene.org
+
+
+note to other coders:
+use MMX wherever you can, the texgen is 4 times faster now only because it uses MMX!
+it makes a hell of a difference! (ask ile and rob if you won't take it from me :)
+
+
+aardbei is (a-z):
+g-day    - musician
+ile      - 2d coder, texgen coder, asm/mmx freak ;)
+jonas    - graphician, webdesigner
+oxygener - musician, gets drunk from jolt cola :))
+oyise    - graphician, very demanding guy =)
+rob      - 3d coder
+snq      - system/allround coder, nasty bug fixer
+
+
+visit us: 
+http://aardbei.scene.org (restyle will be finished SOON!)
+
+
+email all of us:
+aardbei@scene.org
+
+
+well that would be it i think!

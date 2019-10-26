@@ -1,0 +1,39 @@
+Monstah - 4k intro for Linux
+
+  Code & stuff
+    Hipo / Lonely Coders (Hannu Saransaari, hsaransa at cc dot hut dot fi)
+
+  Music & some ideas like negative bits to reduce size, I didn't have time to
+  implement that one thought :-(
+    Sanxion (Mikko Hyyryläinen, mikko dot hyyrylainen at pp1 dot inet dot fi)
+
+  Lol
+    ami!1
+
+Intro uses /dev/dsp for audio (OSS) and extracts itself to ./o before running
+so current directory should be writable.
+
+Intro is quite a hack and may not work on all machines but works at least on
+my development machine:
+  Intel Celeron M 1,3 GHz
+  512 MB
+  Mesa for OpenGL (software renderer)
+
+  Linux 2.6.10 (with some Gentoo's patching)
+  gcc 3.3.5 (possibly some Gentoo's patching, not sure)
+  glibc 2.3.4
+  Xorg 6.7.0
+  SDL 1.2.8
+  GL
+  GLU
+  glut
+
+Intro doesn't check or report errors but if error is in SDL, you might get
+it by running intro with 'SDL_DEBUG=1 ./oeoe'.
+
+Raw source code (not just everything you need to compile intro but most of
+the files in development directory with the right extension) is released with
+intro for learning so please, don't copy-paste anything directly. Notice also
+that source code is optimized so gcc would generate assembler that would pack
+more efficiently with gzip and this makes code quite ugly in few places. If
+you have something to ask, best way to get answer is probably IRC.

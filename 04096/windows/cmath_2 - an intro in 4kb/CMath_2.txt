@@ -1,0 +1,34 @@
+   _____   _     _   _
+  / ____) | \   / | / \
+ | / ___  |  \_/  |  _/
+ | |(__ | | \   / | /__
+ | \__/ | | |\_/| |
+  \___/_| |_|   |_| 
+
+_________________________________________________________:-:
+
+
+  CMath_2   :-: an intro in 4kb
+
+  Code      :-: TGGC
+
+  Greetings :-: JibZ (author of "apack")
+		neo (author of "upec")
+		nufan & pro (pointing out these tools)
+
+  This intro has been tested and worked fine on Win98. 
+
+  Requirements:
+  - a reasonable fast graphics card, at least GeForce 1
+    or higher is recommended
+  - DirectX 8 
+
+  Known Bugs:
+  May crash on Win2k/WinXP.
+
+	
+  visit gm-squared @ http://www.gm-squared.de
+  visit my page @ http://tggc.funpic.de
+
+  Dieses Archiv enthält nun auch eine Windows XP Version, sowie eine 
+  Kompatibilitätsversion.		

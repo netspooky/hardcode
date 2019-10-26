@@ -1,0 +1,31 @@
+::: PS -- PostShrink
+::: world's first PostScript 4k demo
+::: by KeyJ / kakiarts
+
+OK, now here's a ... uhm ... DIFFERENT entry. It was originally made for
+the vector graphics compo at tUM'05, but the compo got canceled, so don't
+be surprised to see these vector graphics files in the pixel competition.
+
+This entry is actually some kind of a demo/intro -- a PostScript file of
+only 4085 bytes, containing a simple 3D engine! And I didn't even exploit
+PostScript's *real*, mighty compression capabilities ...
+
+For the non-believers, there's the complete source code in the source/
+subdirectory. To compile it, you need Python >= 2.2. Simply type
+"python prepost.py PostShrink.pp" to start compilation.
+
+For the PDF fans, there's a PDF conversion available. But beware, it's
+about 161k. And no, there's nothing I could do about that. PDF simply lacks
+PostScript's magic ...
+
+For those who have (access to) a PostScript printer, there's a version that
+can be directly printed on A4 paper.
+
+For those who simply want to see the "demo", there's a decent 1024x768
+PNG pixel rendering.
+
+And for the coders: I'd *really* like to see more of this sh*t in the
+future!
+
+::: http://www.kakiarts.de/
+::: <KeyJ@kakiarts.de>

@@ -1,0 +1,16 @@
+prod:    umi
+type:    128 byte intro
+author:  frag
+date:    07-12-2011
+
+;Umi is the japanese word for sea.
+;Some speedcoding here, only 2 hours for all from scratch.
+;Effect is ancient but i can't find it in 128b.
+;And again slow in dosbox. In fact the code is fast.
+;There is no fpu usage and only two multiplications for each point.
+;But damn dosbox is 20 times slower than WinXP even with "CPU Cycles = max". 
+;This emulator has left me in despair.
+
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

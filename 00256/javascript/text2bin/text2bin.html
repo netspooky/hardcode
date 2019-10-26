@@ -1,0 +1,1 @@
+<body bgcolor=gray>text2bin<script>s='';while(s=prompt('Text:',s)){i=0;b='';while(c=s.charCodeAt(i++)){c=c.toString(2);b+='00000000'.substr(c.length)+c}b=prompt('Binary:',b);i=0;s='';while(c=b.substr(8*i++,8))s+=String.fromCharCode(parseInt(c,2))}</script>

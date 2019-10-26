@@ -1,0 +1,19 @@
+
+        Hello, this is another entry for the Techstronics 256-byte
+democompo. It's a kind of cross between a plasma and a fire. I made
+twelve different versions of that idea. I took the one which I thought
+is the best and I optimized it.
+
+        Runs in non-standard VGA mode.. physically 320x400, logically
+256x256, using a single buffer in conventional RAM, with split screen.
+And actually, I'm faking 262144 colors, with R-G-B pixel triplets.
+
+        386 VGA required... 486 recommended.. I developed this on a 486
+DX 33 and the speed is ok.
+
+Matju/Trimaje
+(Mathieu Bouchard)
+galois@comnet.ca
+FidoNet 1:243/68.1
+
+

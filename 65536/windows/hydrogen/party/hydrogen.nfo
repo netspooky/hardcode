@@ -1,0 +1,131 @@
+            gg       _,·g%+        $$S@g·,_      gg
+            $$  _ÖgS½"`            $$``^"½?$@¿_  $$
+            $$%$$2·,._            ¾S       `?$L $$
+            $$```^^"¾?'_g@Q$$$$$$$Q@g_      ?$i$$
+            $$  srb   j$$Ù`_       _`À$$;      $$$$
+            ""        $$; :$       $;          `^""
+                      $$; :$       $; ,,,
+                      `µ$b._       _.d$µ'   kALIUM
+                        "¾?S$$$$$$$S?¾"     CYANIde
+                          g,_     _,g       group
+                          `¾?$$$$$?¾`
+
+
+                        -=  HYDROGEN  =-
+
+
+[Type::         non-accelerated intro,64K,pc
+[Title::        hydrogeN
+[Date::         apr 2002
+[File::         hydrogeN.exe
+[Format::       win32 exe
+
+[------------------------------------------------------------------]
+
+[Requirez::
+ [OS::          win9x/ME/2k/XP,DX7+
+ [System::
+  (approx.)     min:  500MHz / 64M / PCI video
+                 (ran even on 166Mhz).
+                pref: 800Mhz-1GHz / 128M / AGP video
+                cool: 27GHz P8 / 4096M / Geforce5 ;)
+
+                MMX IS required
+
+ [Video::       TrueColor video mode
+                NO hardware 3d accelerator required!
+                640x480, 512x384, 320x240
+                (each full screen or windowed,
+                 but full screen is much faster)
+                both 32 and 24bpp (truecolor) modes supported
+
+ [Sound::       44100, 22050, nosound
+                (almost no difference in speed, but
+                22050 sounds shity ;)
+                (16 bit)
+
+[------------------------------------------------------------------]
+
+[Creditz::
+ [Code::        zZz  [ "z3d" 3D engine, font, scenes ]
+                elmm [ DX stuff, texture & sample generator, scenes ]
+
+ [Design::      elmm,Ygrek,zZz
+
+ [Gfx::         elmm,zZz
+
+ [Muzeek::      Ygrek [ soundtrack itself ]
+                elmm  [ "mutagen" sample generator ]
+
+ [ASCII::       Sketch Rimanez/secular
+
+ [Additional::  miniFMOD (a bit modified) (by Firelight Multimedia)
+  (thanx!)      UPX    (by Markus F.X.J. Oberhumer & Laszlo Molnar)
+                XM Devastater                (by Mr.Dsteuz/Proxium)
+                KRFONT                               (by D.Gurtjak)
+
+[------------------------------------------------------------------]
+
+[Troublems?::
+ [Too slow::    - try upgrading ;)
+                - try smaller resolutions
+                - run in full screen mode
+                - and finally close winamp and quake running in
+                  background ;)
+
+ [512x384::     this may not work full screen. Just uncheck "Resize
+                to fullscreen". It will run fullscreen on 640x480
+                with black frame around
+
+ [Windowed::    this will automatically set your desktop to
+                truecolor mode and restore it back
+
+ [Win2k::       in fullscreen modes with "Resize to fullscreen" checked
+                it can silently fall if mode is not supported under win2k.
+                Uncheck "Resize to fullscreen"
+
+[------------------------------------------------------------------]
+
+[Greetz::
+ [KCN::
+  LAS
+ [Personal::
+  Adoc/Hugi, Sketch Rimanez/secular, COTDT, StyX/HeadcrasH, Keen,
+  LSD, Haken (aka I.Kr.), Roott, Heaven Aeroplane
+ [Global::
+  TBL, Aardbei, Farbrausch, Haujobb, t-REX, Sands, Proxium, THROB,
+  Psycho
+
+ ...and of coz to everyone who we're supposed to mention here...
+
+[------------------------------------------------------------------]
+
+[Dizcription::
+ [Wassup::
+  This is KCN's first ever intro. We tried to do our best
+  making it.
+
+ [The story so far::
+  ...and elmm told me (zZz) he wants to create it, i mean a 64k intro.
+  "well, great! ;)" i said. and he started doing some things for
+  vesa under dos4gw. some weeks later someone told him to make it
+  for win32. and he ported the whole stuff to win32. and then
+  he also ported one of my laboratory works on computer graphics (one
+  with a render). the render was called z3d. actually it was
+  a 1/4 of a render, coz it could only render one object and
+  shade it by phong (although in real time). at this moment
+  elmm told me he didn't want a 64k anymore but a megademo instead.
+  i started writing those missing parts of z3d and finally
+  had almost rewritten the render. and when i had almost finished
+  elmm told we were again writing a 64k ;).
+  after some time elmm and ygrek came to my house. we put three
+  computers in a net and barricaded in my room for three days to
+  finish the stuff. and ygrek wrote a module that made the stuff
+  62k. but after some time i've cut some corners and made it 53k ;)
+  though we didn't finish it then. some weeks later i managed
+  to create one more scene, and then together with elmm another one.
+  some more weeks passed. LSD asked us for sources and started
+  creating one more scene. that time i also made a finish greetingz
+  scene. finally it was finished. pheeew! such a small intro
+  took us almost a year!
+

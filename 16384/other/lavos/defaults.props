@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>.;src;..\env\boost_1_52_0;..\env\freetype-2.4.11\include;..\env\glew-1.9.0\include;..\env\jpeg-8d;..\env\libogg-1.3.0\include;..\env\libvorbis-1.3.3\include;..\env\lpng169;..\env\openal-soft-1.15.1\include;..\env\SDL-1.2.15\include;..\env\zlib-1.2.8;$(IncludePath)</IncludePath>
+    <LibraryPath>..\env\boost_1_52_0\stage\lib;..\env\freetype-2.4.11\objs\win32\vc2010;..\env\glew-1.9.0\lib;..\env\jpeg-8d;..\env\SDL-1.2.15\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <WarningLevel>Level3</WarningLevel>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

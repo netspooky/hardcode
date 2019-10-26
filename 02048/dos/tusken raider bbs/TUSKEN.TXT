@@ -1,0 +1,24 @@
+
+             The Tusken Raider BBS ad by brains don't bounce
+
+This is a crappy piece of code that we put together for a BBS in Brisbane
+(where we pretend to live), strangely enough called tusken raider.  We are
+well aware that the effect is not very impressive to a demoscene type
+person, but to someone who doesn't have much of an idea about these
+things, it might look quite nice.  The whole idea here was to produce
+something small that looked OK, and we think we achieved that.
+
+This anomaly in the space-time continuum was mostly coded by gyrshroud
+with some assistance from myopic fish.  Both of these "people" are
+members of the "group" known as brains don't bounce :)
+
+At this point, it would be traditional to say hello to some people that
+we are pretentious enough to think are our friends.  So, in exactly that
+spirit, greetings to these people:
+
+Heretics, what's left of xtatic :), Oxygen, PoP, anyone else who
+apparently exists in this country, and then a few other people too :)
+
+brains don't bounce 1996
+   "making you look better!"
+- Don't worry, we may never happen -

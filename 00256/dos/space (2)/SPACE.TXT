@@ -1,0 +1,38 @@
+                          The Space text file.
+                          
+      A space invader for the 256 bytes space invader compo.
+                  
+      Coded by the Immaculate - a demo group.
+                                 
+      Requirements : 386, VGA, keyboard
+      Recommended  : PC speaker 
+                                
+      List of features.
+      
+      1. Uses real colored sprites in graphics mode (mode 13h)
+      2. Aliens should move pretty much like the good ol' one 
+      3. Sound Effects!
+         When you manage to shoot one of the bad guys you will hear an
+         explosion (well, actually it's more like a 'beeeep' - but hey, use
+         your imagination!)
+      4. Precise collision detection - this makes the game real hard to beat,
+         so there should be enough challenge in this game for some time. It'll
+         definitely be while before you shoot down all aliens, because you
+         have to very precise to hit those suckers.
+      5. Play the game or see the source for the rest of the features.                                                        
+                                                   
+      Controls :                                   
+                                                   
+      left  : ','  (next to 'm')
+      right : '.'           
+      shoot : space         
+      quit  : escape       
+                           
+      It's preferable to play under Dos, but it works fine under Win95.
+      
+      Enjoy the game!      
+                           
+      See Source for technical details and contacts.
+      Check out : www.geocities.com/siliconvalley/heights/2188
+                           
+  

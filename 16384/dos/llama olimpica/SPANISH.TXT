@@ -1,0 +1,77 @@
+
+Esta es una peque¤a rutina realizada en Turbo Pascal 6.0.
+Est  programada por motivo de una mini-competici¢n que hicimos en el area
+SUR.DEMOS de SurNet.
+Espero que os guste ;-)
+
+Quiero saludar desde estas lineas a todos los miembros de Ispania, Iguana,
+The Lords of the Bits, Reset, The Vangelist Team, Codenation y todos los
+grupos de demos de Espa¤a y de todo el mundo ;-)
+Y especialmente a Phil Carlisle (Zoombapup/CodeX) por su articulo en el PCGPE.
+
+=====================> Informaci¢n sobre Ispania <========================
+
+De momento esto es todo lo que hemos hecho, pero de aqui a poco tiempo
+esperamos sacar alguna que otra cosilla m s. Estad atentos ;-)
+Estamos aprendiendo, as¡ que sed compasivos con nosotros...
+
+3DERT.ARJ    (15k) Small 3D routine by ERT/Ispania
+TERM2.ARJ    (63k) Small intro with some hardware scrollers
+DIGITAL.ARJ  (87k) MOD: Digital dream by Ispania
+LEVEL94.ARJ  (80k) MOD: Level 94 by Ispania
+VIRTUAL.ARJ  (50k) MOD: Virtual Minds by Ispania
+HT2WORK.ARJ  (15k) Small intro by Hi-Tech Dreams/Ispania
+M3RIP11.ARJ  (16k) Ripper by M3/Ispania. Extracts MOD/STM/S3M from any demo
+TERMCODE.ARJ (79k) Source code from Termin by Ispania
+LLAMA.ARJ    (14k) Olimpic flame by M3/Ispania
+
+Llama a Manolo BBS y llevatelas:
+
+Ú---------------------Ä¿
+³ ÜÜÜÜÜ ÜÜÜ  ÜÜÜ  ÜÜÜÜ ³        SurNet 11:100/101  SubNet 93:3456/102
+³ Û Û Û ÛÜÛÜ ÛÜÛÜ ÛÜÜÜ ³      SoundNet 34:1000/300  FidoNet 2:345/602.1
+³ Û Û Û ÛÜÜÛ ÛÜÜÛ ÜÜÜÛ ³                  * Ispania WHQ *
+³  M a n o l o	B B S  ³
+À---------------------ÄÙ
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³  Manolo BBS (C diz)                                                        ³
+³  SysOp: Manolo Mediavilla                                                  ³
+³  From 00h to 07h                     The first graphic BBS of C diz        ³
+³  Tlf. +34-56-274338            With Remote Access 2.02 & Robo-Board 1.08   ³
+³  1200-14400 BPS                                                            ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Y ahora, los integrantes de Ispania por el momento:
+
+                         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                         ³ * Ispania members * ³
+                         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+      Alias          Name                        Activity
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+      M3             Manolo Mediavilla           Coder/SysOp
+      franker        Francisco Jose Ramirez      Coder
+      NOP            Francisco Jose Esquerdo     Coder
+      ITOO Bros      Carlos/Daniel Quintero      Coders
+      Antonio Monje  Acme                        Coder/Graphics
+      HormigAtomica  Jose Antonio Mu¤oz          Coder/Graphics
+      SMUG           Juan Miguel Reyes Garcia    Coder/Graphics
+      Josele         Jose Maria Garcia           Musician
+      NENE           Jose Maria Gallardo         Musician
+      Hi-Tech        Andres                      Musician/Graphics Artist
+
+
+Manolo BBS/Ispania WHQ
+Tlf 956-274338
+From 00h to 07h
+
+
+Si quieres unirte a Ispania, dejame un mensaje a cualquiera de las direcciones
+que aparecen por ah¡ arriba ;-) o escribeme una carta a:
+
+     Ispania
+     Apdo de correos 2626
+     11080 C diz
+
+

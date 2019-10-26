@@ -1,0 +1,26 @@
+Future Decay
+
+4k Procedural Graphics for TRSAC party 2014
+
+Party version tested on Win7 gtx760
+and HD7970. Should work on most systems but
+the shader is big with a long compile and render
+time so older cards and low-end cards will timeout.
+The low quality version might work on low end cards.
+
+If it does not run on your computer you can
+view the png image in the folder or it can also
+be seen at this link :- http://i.imgur.com/LOWMqAZ.jpg
+
+Code by Drift
+Packed with Crinkler 1.4
+
+Big thanks to Blueberry and Mentor for
+sharing their amazing packing tool.
+
+This started as an animated scene from a demo and it just
+became too complex and slow so I decided to make
+it a static image because I liked the image.
+Would probably run around 30 fps with some optimisation.
+
+Compo filler I guess.

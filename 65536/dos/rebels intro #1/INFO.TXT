@@ -1,0 +1,7 @@
+Rebels Intro #1
+-(100% ASM)W95/98/DOS Intro/NT?
+-MOD by MrDeath
+-Thanks a lot to Hetero/SAC
+-No External Files
+-320x200x256 Screen Resolution
+-Scroller + 2-layer Parallax stars

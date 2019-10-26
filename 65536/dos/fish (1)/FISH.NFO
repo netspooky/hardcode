@@ -1,0 +1,235 @@
+
+                   ÜÛÛÛÛÛÛÛÛÛ                   ÞÛÛ tcm
+                  ÜÛÛÛÛÛÛÛÛÛ฿ ÜÛÛ    ÜÛÛÛÛÛÛÛ   ÛÛÝ
+                  ÛÛÛ         ÛÛ฿   ÛÛ฿        ÞÛÛ
+                  ÛÛÛ              ÛÛ          ÞÛÛ
+               ÜÜÛÛÛÛÛÛÛÛÛ   ÛÛ    ฿ÛÛÛÛÛÛÛÜ   ÞÛÛÛÛÛÛÛÛÜ
+              ÛÛÛÛÛÛÛÛÛÛÛ฿   ÛÛÛ         ฿ÛÛÜ  ÞÛÛ฿฿฿฿฿ÛÛÛ
+                  ÛÛÛ        ÛÛÛ           ÛÛ  ÛÛÛ      ÛÛÝ
+                  ÛÛÛ        ÛÛÛ         ÜÛÛ฿ ÞÛÛÝ     ÞÛÛ
+                  ÛÛÛ        ฿ÛÛ   ÛÛÛÛÛÛÛÛ฿  ÛÛÛ      ÛÛ
+                  ฿฿
+             ฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿฿
+
+             Copyright by Technomancer and Moonlighter 1995
+
+               Released in Bydgoszcz, Poland at 29th July
+
+
+Ü฿฿Ü
+ÛÜ฿Û  Legal stuff
+Û  Û  ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+ ฿฿
+
+ "us" and "we" are Technomancer and Moonlighter
+ "this intro" means "Fish", an awesome intro by us
+
+  disclaimer
+ this intro is provided "as is" without any expressed or implied warranty of
+ any kind. it doesnt seem to fit for any purpose so dont expect that too.
+
+ in no way we cannot be make liable for any damages that are caused by this
+ intro. you are using it at your own risk.
+
+ (although we have tried to make "Fish" as safe as possible you'd better
+ wear condom before touching keyboard.)
+
+  copyright policy
+ you can freely distribute and copy "Fish" provided that no fee is charged
+ and files are unmodified. "Fish" cannot be sold on any cdrom collections or
+ be subject of any trade without permission from us.
+
+ ฿Û
+  Û   System requirements
+  Û   ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+ ฿฿฿
+
+  a dos compatible system, with raw boot or himem.sys or emm386, qemm or other
+ vcpi compliant memory manager. this intro doesnt work with some crappy systems
+ like windoze or os/2 (tm and stuff).
+
+  a vga or compatible grafix card. vlb or pci one will greatly improve
+ performance.
+
+  well, a 386 or better cpu. fast 486 is strongly recommended. this intro will
+ work even on 386sx25 but it wont amaze you then. it was developed on
+ 486dx2/80 and is meant to work on similiar system. i haven't bought 486 to
+ code 386 stuff, right ?
+
+  a bit of memory. actually about 550k of low memory and 1.5 meg free of high
+ will do. one dude said it has worked on system with 2 megs of total memory.
+
+  a soundblaster or compatible soundcard if you want music. sorry folks,
+ still no gus support. i have just got gus (on monday) and today its
+ weednesday so i really didnt have time to code gusplayer (although i have
+ started). well, maybe i will finish it till friday.
+ (uhh dont try mega-em or sbos, they wont help!)
+
+Ü฿฿Ü
+  Ü฿  Credits
+Ü฿    ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+฿฿฿฿
+  are really simple
+
+ฺมมมมม
+ณ cpu control - Technomancer
+ภยยยยยยย
+           technomancer also have changed colours of several pixels, but
+           he wouldn't call it grafix :)
+
+      
+  music  - Moonlighter
+
+
+Ü฿฿Ü
+  Ü฿  Greetings
+Ü  Û  ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+ ฿฿
+ Technomancer would like to greet following entities:
+ (in no particular order)
+
+ Addict/@
+ Adrar Design
+ Alek/Shocker
+ Ceasar/Amnesty
+ Cielik - mam nadzieje ze w przyszlym roku zaczepisz sie gdzies we wrocku,
+  musimy sie kiedys jeszcze razem napic piwka.
+ Denthor/Asphyxia
+ Ervin/Abaddon - i must send you my tweaker utility some day.
+ Feanor
+ Giu
+ Globus
+ Goryl
+ ICE/Amnesty
+ Iluvatar
+ Insane/Distortion
+ Jasper/Substance
+ Jmagic/Complex
+ JTX/Dark Legions - sorry za delay, chyba oddam ci dysk na party :) no ale
+  jakbysmy sobie tak co tydzien dyski posylali to szybko bysmy wszystko
+  z twardzieli wymienili, zbankrutowalibysmy na znaczki i znudzilobysie nam.
+ Kwasior/Dark Legions
+ MAF/Camorra
+ Mc.Kriss
+ Melkor
+ Mikie Simmonds - i havent seen you or codepot lately on #coders, have you died
+  or i am logging when you dont ? :)
+ Musashi - no to sobie wypoczywaj gdzies tam z bobrami.
+ Orange - you guys have awesome design in your prods. what are you on when you
+  write them and where i can get it ?
+ Otto Chrons - i wish dmp32 4.0 had worked in bakground and didnt hang :)
+ Paradise - coz zesmy dawno nie gadali. ma nadzieje ze cos stworzysz na to
+  party.
+ Raiden/Substance
+ Scorpik/S!P
+ Snoopy/Scope - spodziewalem sie chociarz (?chociaz?) kartki pocztowej po tym
+  przekazie. mam nadzieje ze sie schlales za to :). czy ty w ogole ogladasz
+  jakies produkcje na grzyba ?
+ Teddy Boar/SH
+ TheFear - (that dude from #coders) well, we didnt chat lately hope it will
+  change.
+ TinyZ
+ Unreal/S!P - no i co z tom grupom ? :)
+ Warlock/Amnesty - przepraszam ze nie napisalem o tym texmappingu, postaram
+  sie to nadrobic, ale podejrzewam ze juz sam to wykombinowales a po party
+  to juz ci to na chuj bedzie.
+ Welti - hello, i am awaiting for your next module. i have just got gus and
+  soon i will start messing around with dcm.
+ xToto/Valhalla - well it seems i have no $$$ to go to assembly this year,
+  hope we will meet at the party 95, till december my finacial situation
+  should change for better (i hope).
+ Sandman/Valhalla -
+ Oxide/Valhalla - (and all Valhalla crew) have fun at asm95 and kick asses
+  with some production
+ Zden - have you tried protected mode yet ?
+ Zodiak/Cascada - i hope we will chat longer on #coders someday.
+
+Ü  Ü
+Û  Û  Contact us ?
+ ฿฿Û  ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+   ฿
+ if you cannot imagine your further life without contacting us you can
+ reach us at
+
+þ Technomancer
+
+ phone +48 (0 74) 54-07-78
+
+ Dominik Behr
+ ul. Mieszka Starego 23/5
+ 58-160 Swiebodzice
+
+ email behr@ci-1.ci.pwr.wroc.pl (should be valid till they kick me out from
+ university. i dont expect that to happen before summer of 1997)
+
+ pleeze dont send me mail with faked stamps, i have enuf problems in life.
+ also if you want fast and sure reply from me just send mail to my official
+ mailswapper Kwasior:
+
+ Grzegorz Kwasnik
+ ul. Blankowa 34/8
+ 58-314 Walbrzych
+ phone: +48 (0 72) 41-88-27
+
+
+þ Moonlighter
+
+ phone +48 (0 74) 54-17-01
+
+ Michal Krumplewski
+ ul. Chmielna 8
+ 58-160 Swiebodzice
+
+
+ SURE, we accept donations, in any form.
+
+
+ÜÜÜÜ
+ÛÜÜ   Some lyrics from Technomancer
+   Û  ออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออ
+฿ÜÜ฿
+
+ uff, it seems the intro is finished. Moonlighter is finishing music and
+i have some spare time so i'll write some stupid texts.
+
+it was coded entirely in 32 bit protected mode. all effects are calculated
+realtime.
+
+the intro uses my own dos extender and sb module replay routine. some
+dudes asked about it so i dont know if i ever dare to release that stuff
+bcoz i think it still needs lotsa work. besides i dont think that my crappy
+extender is good thing to start coding in protected mode. it doesnt have
+any documentation. at least it seems to be pretty stable and bug free.
+irqs work like god meant them and i havent experienced any compatibility
+problems. but if you encounter any let me know.
+
+my sb player doesnt work on some sound galaxy soundcards. it seems to
+have problems with initialization. it must be something weird with those
+cards bcoz on every other card i have met it works ok. anyway, if you
+run some stuff that uses soundblaster right before running my player it
+should work ok. and if you buy me or lend me such card i will make a bug
+fix.
+
+ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ
+trobleshooting on this intro   ณ ฺฤฤฟ
+                               ภฤู  ภฤฤฟ
+this intro doesnt work because         ภฟ
+
+þ you didnt turn on your machine
+þ you use some weird multitasker
+þ you have deleted it before running
+þ you have run it on your grandma's powerfull PC XT machine
+þ you have run it on your dad's mega cool PC AT 286 computer
+þ you didnt wash your hands before touching keyboard
+þ you have given wrong answers to questions about your soundcard IO port
+  and IRQ level
+þ your soundcard doesnt use dma channel 1
+þ you have tried to start it from windoze
+þ you have tried to start it from os/2 (tm)
+þ you dont have enough memory, get rid of TSRs, disk caching programs
+  and unnecesary drivers, try raw boot
+þ your karma isnt good today, try again tomorrow
+
+ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ
+So long and thanks for all the fish...........................................
+

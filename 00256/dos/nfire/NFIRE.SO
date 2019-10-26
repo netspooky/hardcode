@@ -1,0 +1,140 @@
+    org     $100
+;grinit
+    d+
+    move.b  #$13,a
+    trap    #$10
+
+;   clear vpage
+    pop     a
+    move    #vpage,di
+    move.b  #$7d,ch
+    rep:stos.w
+; es - points to VRAM
+    push    #$a898
+    pop     es
+; set up palette
+
+    move    #$3c8,d
+    out.b   a,d
+    inc     d
+    move.b  #32,c
+.again
+    move.b  b,a
+    shr.b   #1,a
+    out.b   a,d
+    out.b   a,d
+    out.b   a,d
+    inc.b   b
+    dbf     .again
+
+    move.b  #32,c
+.again
+    out.b   a,d
+;    xchg    si,a
+    dc.b    $96
+    out.b   a,d
+    out.b   a,d
+;    xchg    si,a
+    dc.b    $96
+    inc     a
+    dbf     .again
+
+    move.b  #64,c
+    eor     b,b
+.again
+    move.b  #$3f,a
+    out.b   a,d
+    move.b  b,a
+    shl.b   #2,a
+    out.b   a,d
+    eor.b   a,a
+    out.b   a,d
+    inc.b   b
+    dbf     .again
+
+
+mloop
+    move    #89,bp
+    move    #vpage+320*110,si
+.again1
+    move    #320,c
+.again
+    move.b  (si),a
+    add.b   319(si),a
+    move.b  320(si),b
+    add.b   321(si),b
+    shr.b   #1,a
+    shr.b   #1,b
+    add.b   b,a
+    shr.b   #1,a
+    move.b  a,(si)
+    beq.b   skip
+    dec.b   a
+skip
+    move.b  a,-320(si)
+
+    inc     si
+    dbf     .again
+    dec     bp
+    bne.b   .again1
+
+    move    #320,c
+.again
+;    move    #55,a
+rand
+    move    #33333,bp
+;    mul     bp
+    imul    #55,bp,a
+    move    a,rand+1
+    eor     b,b
+    shl     #5,a
+rand02
+    rol     #1,a
+    bcc.b   rand04
+    add     bp,b
+rand04
+    shr     #1,bp
+    bne.b   rand02
+    and.b   #$7f,b
+    move.b  b,(si)
+    inc     si
+    dbf     .again
+;show page
+    eor     di,di
+    move    #vpage+320*109,si
+    move    #160*89,c
+    rep:movs.w
+
+    move.b  #$da,d
+.syncr
+    in.b    d,a
+    test.b  #8,a
+    bne.b   .syncr
+.syncr
+    in.b    d,a
+    test.b  #8,a
+    beq.b   .syncr
+
+.syncr
+    in.b    d,a
+    test.b  #8,a
+    bne.b   .syncr
+.syncr
+    in.b    d,a
+    test.b  #8,a
+    beq.b   .syncr
+
+
+    move.b  #1,ah
+    trap    #$16
+    beq.b   mloop
+    eor     a,a
+    trap    #$16
+    move    #3,a
+    trap    #$10
+    trap    #$20
+
+
+    bss
+vpage
+    ds.b    320*200

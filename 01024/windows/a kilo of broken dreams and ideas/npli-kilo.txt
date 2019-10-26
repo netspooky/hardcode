@@ -1,0 +1,31 @@
+a kilo of broken dreams and ideas
+by npli
+
+a 1k "intro" for Stream 9 
+
+
+Loops forever so press esc to exit.
+
+This is basically just a compofiller.
+Few weeks ago I had this feeling that I need some byte fighting fun so
+I decided to stuff something into 1k.
+
+
+The mandelbox algorithm is adopted from Rrrola's work
+
+
+--------------------------------
+
+Crinkler:
+Blueberry & Mentor
+http://www.crinkler.net/
+
+Nasm
+
+Directx 9
+
+--------------------------------
+
+
+
+

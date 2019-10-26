@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <target name="windows">
+    <taskdef classname="net.sf.launch4j.ant.Launch4jTask" classpath="/home/mxd/opt/processing-3.2.3/modes/java/application/launch4j/launch4j.jar:/home/mxd/opt/processing-3.2.3/modes/java/application/launch4j/lib/xstream.jar" name="launch4j"/>
+    <launch4j configFile="/home/mxd/p3_sketchbook/theCodingTrain/uznano/application.windows32/launch4j-config.xml"/>
+  </target>
+</project>

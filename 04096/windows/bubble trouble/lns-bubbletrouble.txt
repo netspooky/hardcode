@@ -1,0 +1,46 @@
+
+     __._        _.____   _.____   _.____   _.__    ____._    ____._
+   _/  |/________\|_   \__\|_   \__\|_   \__\|__)__/  _ |/___/  __|/____
+  _)   _/      /   /    /   /    /   /    /      (_   __|  (_____      (_
+  \    \      /        /        /   /     \       /         /   /       /
+  /_____\_____\________\________\___\______\______\_________\___________\
+ - -diP--------------------------------------------------------------uP!- -
+
+ 
+                             Bubble Trouble
+                          Winner at TRSAC 2016
+                            4 kb Intro compo
+													 		
+
+Credits
+=======
+Music: Punqtured
+Synth: Blueberry
+Code: Psycho (psycho@loonies.dk)
+ 
+Crinkler for compression
+Rocket for scripting
+Oidos synth for music
+Fizzer did the original maze like SDF
+
+
+Compatibility
+=============
+Primary version requires windows 10 (directx 11.3) and a fast capable graphics card - most gcn/kepler+ should do (and most will be too slow) 
+Compatibility version is slower but should work with just windows 7 (not tested yet) and directx 11.0 graphics.
+
+
+Tech
+====
+Ray marching
+Shadows
+No fake ambient occlusion (nor ambient term at all)
+1 specular and 4 diffuse bounce rays per pixel
+One pass reading and writing the same UAV (cough..)
+Bilateral filtering, bloom
+
+
+Additional info
+===============
+http://www.trsac.dk
+http://www.loonies.dk

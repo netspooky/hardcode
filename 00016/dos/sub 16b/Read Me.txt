@@ -1,0 +1,4 @@
+None of these com files have an escape check use [Alt+F4] or [Alt+Tab] to quit.
+Just a few tiny code effects for you all to enjoy. Like what you see? Why not 
+visit us for all things demo related at www.dbfinteractive.com
+                                                                    -Rain_Storm

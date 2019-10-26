@@ -1,0 +1,68 @@
+ EEEEEEEEEEEEEEEEEEEEEENNNNNNNN        NNNNNNNNIIIIIIIIIIBBBBBBBBBBBBBBBBB   
+ E::::::::::::::::::::EN:::::::N       N::::::NI::::::::IB::::::::::::::::B  
+ E::::::::::::::::::::EN::::::::N      N::::::NI::::::::IB::::::BBBBBB:::::B 
+ EE::::::EEEEEEEEE::::EN:::::::::N     N::::::NII::::::IIBB:::::B     B:::::B
+   E:::::E       EEEEEEN::::::::::N    N::::::N  I::::I    B::::B     B:::::B
+   E:::::E             N:::::::::::N   N::::::N  I::::I    B::::B     B:::::B
+   E::::::EEEEEEEEEE   N:::::::N::::N  N::::::N  I::::I    B::::BBBBBB:::::B 
+   E:::::::::::::::E   N::::::N N::::N N::::::N  I::::I    B:::::::::::::BB  
+   E:::::::::::::::E   N::::::N  N::::N:::::::N  I::::I    B::::BBBBBB:::::B 
+   E::::::EEEEEEEEEE   N::::::N   N:::::::::::N  I::::I    B::::B     B:::::B
+   E:::::E             N::::::N    N::::::::::N  I::::I    B::::B     B:::::B
+   E:::::E       EEEEEEN::::::N     N:::::::::N  I::::I    B::::B     B:::::B
+ EE::::::EEEEEEEE:::::EN::::::N      N::::::::NII::::::IIBB:::::BBBBBB::::::B
+ E::::::::::::::::::::EN::::::N       N:::::::NI::::::::IB:::::::::::::::::B 
+ E::::::::::::::::::::EN::::::N        N::::::NI::::::::IB::::::::::::::::B  
+ EEEEEEEEEEEEEEEEEEEEEENNNNNNNN         NNNNNNNIIIIIIIIIIBBBBBBBBBBBBBBBBB   
+
+===============================================================================
+                            DAS SANSEFFORTSEUR
+===============================================================================
+  
+                       Code & Tool: Julien De Loor
+                             Music: Pierre De Loor
+                             Synth: Tunefish4^Braincontrol    
+
+  --------------------------------------------------------------------------
+   
+   Hi 
+  This is our first demo, presented at the french demo contest API8.
+  The demo is runnable on linux 64bits environnement that must have:
+   - Pulse Audio
+   - OpenGL (with some GLEXT obviouly) 
+   - X11
+   - GTK2 (Optionnal)
+
+   There is a noGTK version but you can't choose parameters like resolution 
+  etc. The SFML version requiert SFML2, it was a previous version in case the
+  X11 fail (I know well X11 so if the X11 version crash the SFML version 
+  should work).
+
+   Julien is typing... (bad english alert !)
+  It's the first time I code demo. At first I wanted to use enigma studio but
+  as the compo was under linux platform, lack of knowledge about DirectX, and
+  deadline was close. So I decided to code a tool for raymarching based on 
+  Visual Live System by XT95 (I was more familliar with the code). It took a 
+  lot of time during a full month. My daddy gently speed-composed a music for 
+  me with the synthesizer tunefish4 then it ended-up with this demo I hope 
+  you enjoy !
+   
+   The title is a reference to french movie: Asterix Mission Cléopatre
+  When the character Otis build an elevator and call it "sanseffortseur" 
+  because you can climb "sans effort".
+ 
+
+  --------------------------------------------------------------------------
+
+                           A Very Special thx to:
+
+                             Andre for the font
+                   https://www.shadertoy.com/view/4s3XDn
+ 
+                         XT95 for codebase and help
+ 
+                       Braincontrol for their synth !
+     
+===============================================================================
+                          ENIB RPZ à l'API8 2016
+===============================================================================

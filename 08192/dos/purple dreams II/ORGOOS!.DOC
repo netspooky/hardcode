@@ -1,0 +1,16 @@
+(copy van LEESMIJ.!!!)
+
+Geachte heren+dames van de organisatie, zoals ook in de .NFO file te 
+lezen valt bevat deze intro ADLIB muziek. Weinig mensen weten echter,
+dat om met de SOUNDBLASTER AWE 64 (waarvan ik heb begrepen dat die zich
+in de compo-machine bevindt) adlib te kunnen spelen, van tevoren de
+utility
+ AWEUTIL /S
+moet worden aangeroepen, omdat je anders NIETS hoort (in een standaard
+DOS-configuratie hoort deze utility gewoon in de autoexec te staan).
+Gelieve dit programma wel aan te roepen, want het handcoden van de tune 
+was net iets te veel werk om nou naar een geluid met volume 0 te gaan
+zitten luisteren ;-)
+
+Greetzjes,
+    The Watcher

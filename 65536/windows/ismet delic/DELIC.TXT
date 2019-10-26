@@ -1,0 +1,20 @@
+Replay at The Party 99, in aars, with Ismet Delic, a 64k intro for windows.
+
+whisker coded it, and chavez/funktion made the music. adam/dcs randomly plotted
+pixels. we love all of you very much.
+
+some kisses and hugs to droid for being such a nice finnish guy, whose intro
+i wish to win. some special hugs to piglet, baloo, roger, sombie and demol
+for beeing helpful in the most difficult times.
+
+should work on any computer with windows and directx 1.0 or above.
+plays music at primary sound device.
+
+press space to toggle FULLSCREEN/WINDOWED.
+press esc to end, or press closebutton on the window if you're in WINDOWED.
+
+check www.shine.scene.org/replay for previous/future releases.
+
+
+
+...me sy”d„„n nukutaan ja discotaan...

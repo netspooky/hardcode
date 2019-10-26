@@ -1,0 +1,65 @@
+ - begin -----------------------------------------
+ |||||||||||||||||||||||||||||||||||||||||||||||||
+ ||||||''|||||||||||||||||||||||||||||||||||||||||
+ ||||||  |||||||||||||||||||||||||||||||||||||||||
+ -----|  ------------------------. \|[ oddjobb ]||
+ ||||||  |||||||||||||||||||||||\ \ \|||||||||||||
+ |||' |  |  |''||||||||||||||||||\ '--------------
+ --|  |  |  |  |--------------. \|||||||||||||||||
+ |||  |  |  |  ||||||||||||||\ \ \||||||||||||||||
+ |||\         /||[ keWlers ]||\ '-----------------
+ |||||||||||||||||||||||||||||||||||||||||||||||||
+ |||||||||||||||||||||||||||||||||||||||||||||||||
+ -------------------------------------------------
+  
+                      Oddjobb
+  
+         for Assembly 2003, 07.-10.08.2003
+
+ -------------------------------------------------
+
+  Greetings to Haujobb... ;)
+
+ -------------------------------------------------
+
+  Credits:
+
+  * Curly Brace     : Code
+  * Little Bitchard : Music
+    
+ -------------------------------------------------
+
+  Hardware/software requirements:
+
+  At least a GeForce2-class (or similar) GPU with
+  some up-to-date  display drivers required,  GF3
+  or better  is  recommended.  Some music  can be
+  heard with a Windows audio capable sound device.
+  A Pentium 3-class CPU  or better is recommended.
+  Also  about 26 megabytes  of  free  memory  and
+  0,05 megabytes of hd space would be nice.
+
+ -------------------------------------------------
+
+  Legal blabla:
+
+  You can spread this demo in any way you like as
+  long as  you keep the  content  intact.  If you
+  want  to  include  this  demo in  a  non-profit
+  dvd/cd, we must be credited for our work.  We'd
+  also appreciate  if you'd send us  a few copies
+  of  the  release.  For any commercial  releases,
+  please contact us.
+
+ -------------------------------------------------
+
+  Contact:
+
+  http://kewlers.scene.org
+
+  * Curly B.  : curly.brace@luukku.com
+  * Little B. : littleb@luukku.com
+
+ -------------------------------------------------
+ |||||||||||||||||||||||||||||||||||||||||||||||||
+ ------------------------------------------- end -

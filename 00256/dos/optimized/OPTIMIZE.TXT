@@ -1,0 +1,229 @@
+
+           OPTIMIZED by TSC/SHOCK!
+           ~~~~~~~~~~~~~~~~~~~~~~~
+
+           On the first day of the party, we've been told that there's
+           gonna be a 256 byte compo. Then we did it in a few minutes.
+           Thanks to Murphy, Trueman, Genesis for helping me to optimize
+           this source (have a look at this COM in turbo debugger, and
+           laugh...).  Nothing more to say. Btw, the effect was already
+           used in my Antiq'96 1k intro yes, but it's even smaller and
+           optimized... Fuck that...
+                                           
+           group greets
+           ~~~~~~~~~~~~
+           abaddon, agressive giants, astroidea, axioma, black rainbow, byteam
+           capanna!, caterpillar, chrome, controlled dreams, criminal gang
+           darkside, dentifrice, dinasty, d-eyes, emperor, enlightenment
+           euthanasia, exact!, exceed, exhumers, fauve, fiction, firg
+           fresh, hooligans crew, illumination, impact, impulse
+           iris, kloon, lz, legend design, majic 12, mandula
+           mortal compact, murmidones, nicoteam, opium
+           orange, promise, pulse, remal, resource
+           tbl, thitanium, tpu, tsi, unicorn
+           united force, urinate
+
+           personal greets from tsc [long edit.]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+           aboy/d-eyes
+           albino/enlightenment
+           andysoft
+           antforce/nil
+           atomant/illicit
+           atx/shock!
+           achbar
+           bano/relative
+           basq/tsi
+           bat/iris
+           bbd/tsi
+           bero
+           bert/criminal gang
+           blacky/exact
+           blala/byteam
+           brian/axioma
+           byte/blank
+           bzmot/firg
+           cat
+           ca$h/astroidea
+           cie-kill
+           codeorgo/black rainbow
+           crafty serge/tsi
+           crossbone/tbh
+           cyborg/iris
+           d-lee/exceed
+           dab/promise h.e.
+           darkness/imphobia
+           das/shock!
+           dali
+           deansdale/shock!
+           derceto/unicorn
+           dfj/dinasty
+           dirk gently
+           dlux/h2
+           dot/unicorn
+           dps
+           edhellon/resource
+           eft/impulse
+           enok/chrome/urinate
+           ervin/abaddon
+           fake/firg
+           fat poison/exact
+           fear/the black lotus
+           fernandez
+           figaro
+           maniac/absolute! pc
+           gaf/controlled dreams
+           gandalf/pulse
+           g zkonvektor/firg
+           genesis/shock!
+           g‚za/220v
+           graphite
+           greg
+           greyhawk/nil
+           grub/firg
+           g.o.d./abaddon
+           hanx/urinate
+           hypnos/axioma
+           ian
+           ionic/astroidea
+           jabberwock/contract
+           james baud/controlled dreams
+           jare/iguana
+           jones
+           kal/astroidea
+           kci
+           kgb
+           kill gates/firg
+           klatyi
+           kunci/orion design
+           k”rte
+           klopman/firg
+           kloy psykuum/bpc
+           krinolin/firg
+           lacoste/capanna
+           larsen/contract
+           lippi
+           lord cyrix/beans
+           lord soth
+           lorenzo/darkside
+           loove
+           ludi
+           master death/bpc
+           mater/dream recordings
+           max/impact studios
+           maxwood/majic 12
+           megaduo/biohazard
+           melan/astroidea
+           minstrel/fiction/enlightenment
+           morgan/criminal gang/fiction
+           mrz/astroidea
+           murphy/exact
+           nap/atlantis
+           net/chrome
+           o-man/astroidea
+           oscillator/opium
+           petroff/mandula
+           pfusuus/psd
+           pompi/hooligans crew
+           pro/urinate
+           psycho
+           p”cs/firg
+           radgast
+           raider
+           ratt/grif
+           raveace
+           reactor/caterpillar
+           reid/unicorn
+           rem/kloon
+           rendall/astroidea/impulse
+           reptile/astroidea
+           rian/shock!/majic 12
+           richy
+           rimo/euthanasia
+           rita/exact
+           rnc/axioma
+           robi(n)
+           rogue/logic design
+           romi/hooligans crew
+           rotor/ex-firg
+           rs232/firg
+           sabe
+           sam.joe
+           saybor
+           sb/remal
+           scooby/orion design
+           sebi
+           secret/unicorn
+           shade/rtc
+           shadow
+           silver/tpu
+           sly spy/united force
+           spider/usca
+           spidy/amnesty
+           stainless steelrat/east edge
+           striker
+           squesh/axioma
+           sylvio/triumwyrat
+           synoptic
+           syrinx/d-eyes
+           tarr/firg
+           tasi/direktrix
+           taylor/criminal gang
+           taz/xeed
+           tfe/tng
+           the admiral/tdm
+           tim/fiction
+           tlg/thitanium
+           tmt/biohazard
+           tomcat/abaddon
+           tomcat2/controlled dreams
+           tomika/dinasty
+           tr/contract
+           trajic/shock!
+           trs & his girlfriend
+           true/shock!
+           trueman/exact
+           tsl16b
+           tyrant/murmidones
+           vlagyivosztok/firg
+           ward/enlightenment
+           winkle/exact
+           woland/exhumers
+           woodoo people/tdsca
+           xanadu
+           yarpen/exmortis
+           yoghurt/firg
+           zax
+           zozo/majic 12   
+
+           members
+           ~~~~~~~
+           atx - music, pr
+           das - gfx
+           deansdale - music
+           genesis - code
+           rian - music
+           trajic - music
+           tsc - code, music
+
+           how to reach us...
+           ~~~~~~~~~~~~~~~~~~
+           tsc@master.fok.hu            [tsc]
+           atx@audiophile.com           [atx]
+           trajic@tigris.klte.hu        [trajic]
+           szabonor@gandalf.gamf.hu     [genesis]
+           h532885@alfa.cab.u-szeged.hu [deansdale]
+
+           +36-62-247047 [tsc]
+           +36-62-417359 [genesis]
+           +36-37-370070 [trajic]
+           +36-30-480260 [atx]
+           +36-62-317496 [deansdale]
+
+           http://www.automex.com/atx/shock
+
+           sites
+           ~~~~~
+           scenet +36-1-2285921 [sysop: melan/astroidea]
+              tng +36-96-414576 [sysop: tr/contract]
+           a.c.e. +33-145887548 [sysop: gandalf/pulse]

@@ -1,0 +1,23 @@
+Controls:
+
+	Player 1: Q og E
+	Player 2: <- og ->
+
+Regards,
+
+   ZooL / XCOM: http://home2.inet.tele.dk/zool
+
+-----255 bytes Wormgame------
+|                           |
+| Los Wormos features:      |
+|                           |
+| - Two purplecolored worms |
+| - Extra large pixels for  | 
+|   blind people            |
+| - Multiple controlsettings|
+| - No tronthingy.......    |
+|   TRUE WORMING            |
+| - Timer...I hope!         |
+| - ehrw, find the rest     |
+|   yourself                |
+-----------------------------

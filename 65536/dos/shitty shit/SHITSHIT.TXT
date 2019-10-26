@@ -1,0 +1,46 @@
+Shitty Shit
+
+intro64k
+by BlackHack
+?th at ASTROSYN party
+
+kernel: Eclipse 3.05
+player: MXMPlay
+
+utils used: TASM,                - to write this shit
+            PKLITE,              - to compress it under 64k
+            Impulse Tracker      - to compose module
+            Fast Tracker (SUX!)  - to convert to XM
+
+
+     Well...  Wiem,  ße ten shit nie nadaje sië do wystawienia.. ale w ko§cu
+   coû  MUSIAúEM  wreszcie  wydaç..  Mam tylko nadziejë, ße teraz uda mi sië
+   wreszcie  zaíoßyç  grupkë  :) Robiíem to naprawdë w poûpiechu.. efekty co
+   prawda  zaczÜíem  kodowaç  juß w niedzielë.. ale nic mi wtedy jeszcze nie
+   szío. W ûrodë uíoßyíem moduíek, w czwartek zaczÜíem skíadaç.. a teraz bym
+   jeszcze  chciaí  full  rzeczy  poprawiç..  ale jest 17:03:26, a ja mam na
+   19:45 pociÜg na party :)
+     Mam tylko nadziejë, ße ostatniego miejsca nie zajmë???
+
+
+     No dobra, w interku nikogo nie pozdrowiíem, to moße tu sië da:
+
+   pozdrowienia dla grupek:
+
+   Hellcore, Suspend, Flypaper, JILT, Dragon, Platoon, INTerror, FCL,
+   Exodus, Mosaic, Procreation, Moonlight, Morphium, Fortress, Korozone
+
+   oraz:
+
+   Ethereal   / IND
+   Resister   / ?
+   Ritus      / ?
+   Snappy Dog / IND
+   Thorn      / IND
+
+
+
+                                                signed
+                                                   BlackHack / ********* :)
+
+PS. Mam nadziejë, ße po astro w miejscu gwiazdek bëdÜ literki ;)

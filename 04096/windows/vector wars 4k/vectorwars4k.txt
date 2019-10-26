@@ -1,0 +1,38 @@
+
+================
+ vector wars 4k
+================
+
+2008 jetset entertainment
+
+"vector wars 4k" is a Windows game
+within the self-imposed 4 kilobyte size
+limit of the demoscene.
+
+The objective is to control your
+spacecraft and hold out against the
+ever increasing number of enemy
+fighters.
+
+Press [space] to start a new game.
+
+Use the cursor keys to navigate your
+spacecraft within the battle arena.
+
+Use the mouse to aim and press the left
+mouse button to shoot.
+
+The game is a small incarnation of what
+started with "Asteroids" and lately
+became a genre of its own, the "Arena
+Shooter". The most famous modern game is
+probably "Geometry Wars: Retro Evolved".
+
+Please see the manual for more details
+about "vector wars 4k".
+
+Have fun
+
+Marc Kamradt
+
+More at: www.jetset-entertainment.com

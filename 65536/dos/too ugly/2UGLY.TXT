@@ -1,0 +1,107 @@
+BEFORE RUNNING READ THIS FILE:
+------------------------------
+
+warning?
+        sorry. this intro had to fit in 65kb so that's why there's
+        those massive loadings/calculations/initations RIIIGHT after
+        you run it.
+
+     ** if you can't see the borders of the screen doing the all-
+        around-world-know-c64-loading-effect, then it must have jammed
+        in some way.
+
+
+--------- ________ _   ______ --- _ _____ -- _ _______ - _ ______ -------------
+ :::::::: \     `----,_\    | - ----,   _`----.     _/    .     | - ----, ::::
+ ::::: ____\____l   / |     |     _/    \     |     |-----:     l     _/ :::::
+ ::::: |      _____/__l_    l     |______     |     l     |______     | ::::::
+ ::::: |      \      __/----._____l     l     |-----._____l     l     | ::::::
+------ `-------._____l ---------- l_____.-----' ------sLV^l_____.-----' -------
+
+
+             "too ugLy" is an intro released by brainlez coders!
+
+       you may  distribute  this  package  as  long as it's not modified
+       or sold in any way. you use this production on your own responsi-
+       bility. not for any commercial projects, not a single fucking part,
+       totally free, you cannot rip anything, you cannot use anything,
+       if you want to include this production into your commercial 
+       collections e-mail sliver@dystopia.fi.
+       (i'm meaning ace, hub and the other demo/music collections)
+
+       for  complete disclaimer, check BC!LEGAL.TXT
+
+ ***** democracy'97 organisers DO have a right to include this to a 
+       partycollection/or whatsoever.
+       
+                     (C) COPYRIGHT 1997 BRAINLEZ CODERS!
+
+                                  ---------
+
+------> contact -----.
+                     > e-mail:  sliver@dystopia.fi
+                    ( 
+                     > snail :  brainlez coders!
+                    /           <member_name>   
+                    \_          c54a5
+                     |          00190 helsinki
+                     :          finland
+                     .
+                     > bbs   :
+                    /        :  the temple    +3589653580
+                   (_______ _  _              +35896223495
+
+
+
+      * first i was working with a 'big' demonstration for dmc'97
+        or for VASARA'97 but due i didn't get music fast enough
+        i had to make this little intro for dmc. pestilence made
+        a great demo for vasara'97 instead, so i guess this is
+        how it should have been.
+      * supposed to be first presented at democracy'97 party held in
+        finland in the change of january and february. 
+      * didn't manage, lost my harddisk and so this was forgotten, until
+        anarchy'97 invitation intro came out. 
+      * this intro supposed to be in 80kb intro competition.
+                supposed credits for all goes to sliver.
+                supposed to make it in 3 days. made it.
+                except adn0.96, it's by antti huovilainen.
+      * it became a 65kb intro anyways..
+      * this intro was supposed to win, but who knows how happened.
+      * hm. made in three to four days without any inspiration. hope-
+        fully there's someone who can stand this "too ugLy" intro.
+      * a tunnel + a line + a font = introtrend of '96 '97. nothing
+        new.
+
+        requiros 386+math+vga
+                 about 600kb conventional (works atleast w/ 618kb)
+                 750kb xms, some ems with sound blasters. 
+                 NO NEED FOR CLEAN XMS BOOT, see?
+        
+        kind of  
+        likes
+        more     pentium+vga+gus+unlimited conventional & xms & ems
+        
+        supporto gus + gusmax + sb + sbpro + sb16 + sb32 + no sound
+                 intel-80X86 + amd-kX + cyrix-Xx86      (all..should work)
+                 vga                         
+
+        * greetings to all demogroups worldwide. special greetings
+          from sliver to these ones: (no order. inga specielt orderar :))
+          
+                        heap, humanoid, kartopsi, pestilence,
+                        caramon, the cube, pnshr, unisol,
+                        d136, 00, betacarotine, breathtaker,
+                        methyl, fatality, presence, holojam,
+                        abhorrence, lammas, myssy, jufo, phobia,
+                        kimble, kts-guys, j!a-guys, liquid-guys,
+                        ruma-guys&girls, bc!-guys&girls+the
+                        official party-animal-posse.
+                        
+                        thanks to all who's been somehow connected
+                        to our group, life, schoolstuff, et cetera.
+
+
+                        beam me up, kitty - 23/jan/1997..       
+                                            15/jun/1997, sliver
+                                            

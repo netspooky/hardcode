@@ -1,0 +1,22 @@
+Hero'64 (intro)
+ presented at scene event 2001 (18.-21. july)
+
+Minimum Requirements:
+ DirectX (Ver. 3.0+)
+ 32 Mb RAM
+ 400 MHz + MMX
+ 16 bit color
+ Soundcard is required to run the intro
+
+Everyday heroes: 
+ Master S. (programming)
+ Justica (add-on programming)
+ Toxic Child (soundtrack)
+ YenZen (graphics)
+ 
+ MXMPlay/Win32 (elitegroup)
+
+Visit us at home:
+ http://www.mainloop.dk
+
+

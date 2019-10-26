@@ -1,0 +1,10 @@
+"Inkblot" 256 byte HTML+JavaScript
+Internet Explorer 5.0 and Opera 5 tested
+
+384 byte: original xbmp version by milov
+http://www.milov.nl
+
+310 byte: smaller xbmp version by Mr.Heat
+198 byte: small no-xbmp version by Mr.Heat
+256 byte: no-xbmp version including reload on click function by Mr.Heat
+http://www.kindertreter.de

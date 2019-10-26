@@ -1,0 +1,48 @@
+***********************************************************
+executable: BinLaden.com
+size:       512b
+date:       23.08.2002
+party:      CAFe'02
+coded by:   3dpoison
+***********************************************************
+
+You need 128k of free memory to run the intro.
+
+It was coded specially for CAFe'02.
+
+Stuff:
+***********************************************************
+  The intro renders two scenes: city & graveyard.
+  (three textures are generated)
+
+  During the second scene some scaled text is displayed.
+
+  The intro has some simple sound routines to play 'music'
+  using General MIDI (UART mode). 
+
+  Wait retrace routine is implemented to run at the same
+  speed on fast machines.
+
+  ESC key stops the intro.
+
+  The intro uses VGA 13h mode (with standard palette).
+
+  Before exit it returns to the text mode.
+
+Source code:
+***********************************************************
+  Full source code is included.
+  Firstly the intro was coded in Turbo Pascal 7.0
+  Then it was translated into assembler and size optimized.
+  Finally it was modified to compile with TASM 3.2i using
+  the following parameters:
+    TASM.EXE /m2 /zi BinLaden.asm
+    TLINK.EXE /t BinLaden.obj
+  The code goes without comments, as I had no time to do it.
+  You are free to use this code as you wish.
+
+Contacts:
+***********************************************************
+  3dpoison@mail.ru
+
+PS: I'd like to join some interesting project (coding, math).

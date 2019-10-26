@@ -1,0 +1,104 @@
+€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+€                            The little nice thing                            €
+€                       this must be the info file i guess                    €
+‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€
+
+
+
+1. Basic things you should know ( requirements and troubleshoting )
+    I have not tested the intro extensively so i can't guarantee
+  that there is not a hidden bug somewhere in the megs of code. :-)
+    It worked quite well in a 486DX4 100mhz, but the computer didn't
+  have an adlib card, anyway i think that the sound card won't affect
+  the execution speed.
+    Let's get to the point, the requirements are :
+      486DX4 100Mhz
+      Adlib compatible sound card
+      A VGA board ( i hope you can get one )
+
+    It is possible that the intro doesn't detects the card, so if you're
+  really convinced that you have an adlib compatible, you can try typing :
+    TLNT L
+    It will wait a lit bit more for the card. I guess this is the normal
+  time for detecting but i don't want you to think "Hey this shit only makes
+  lots of precalcs".
+
+    If the intro still doesn't want to talk to your sound thing, you can force
+  the intro to play the music anyway. In other words you skip the autodetection.
+    TLNT S
+
+    There's also a nasty posibility : the intro detects the card but then it
+  crashes. Soooo no music please.
+    TLNT N
+
+2. Some words about "The little nice thing"
+    Ok, I agree, the code is not fully optimized. In fact i can make it
+  faster, specially for those dudes that have their ooold 486s :-) but it
+  will look _very_ ugly. The scrolly fonts are mapped point by point, because
+  otherwise it doesn't look so smooth. And i want more than 64 colors in the
+  background!
+    As you can see the proggy is quite small. Its size was less than 3400
+  bytes. It included code,graphics and music. But it was a scroller. Now,
+  a hard question : what evil monster does live in scrollers? Yes! you guessed
+  it : TEXT, and it has a size of 2500 bytes. So it became big.
+    Hey! but scrollers suck!
+    No way! I love scrollers. Can you imagine a scene without scrollers?
+  I can't. The intro didn't entered any competition, that was why i put some
+  letters, to give it life.
+
+    You have surely noticed that the music was composed by a coder. :-)
+  I'm not good for tracking and such. I have even made the tracker.
+  Promise me you won't laught, its name is LAME TRACKER. I have made it,
+  because it was faster than trying to play those weird FM-S3M files. I
+  coded it in 3-4 days.
+
+    Have you said graphics?
+    Yes the background stars have been drawn by me ( not all the rotations! )
+
+3. introducing tha kewl guy that koded intro
+    Hi! my full name is Alexey Luis Rodriguez Yakushev.
+  I'm 18 years old and i'm studying in the UMSS in Cochabamba.
+  You guessed it, i'm studying computer science and i have just begun.
+  I'm one year old in the scene and keep growing. Maybe someday you'll
+  see a full MEGADEMO made by me ( my dream :).
+  As i don't have a stable address over here, you can write me at :
+
+    Bolivar #1066
+    Oruro
+    Bolivia
+    E-MAIL : alexey_rod@hotmail.com
+
+  There's where my dad and brother live, so i'll get your letter anyway.
+  I will likely answer but _not_for_swapping_! Try to give me your E-MAIL
+  address if you have, it and you'll get an answer pretty faster. If you
+  live in Bolivia don't wait a minute and write me right now!
+
+4. Is there a Bolivian scene ?
+    It's hard to answer because to my knowledge there are only two active
+  freaks : PAV and me.
+    PAV ( aka Pablo Andres Veliz ) made a demo some years ago. He didn't
+  release it. It includes some bunch of cool effects (i hope that it will be
+  released). Tha sad thing is that he didn't code a new demo or intro.
+    We met in a software contest held in Oruro one year ago ( not DEMOCOMPO
+  :-( ). I presented my first attempt in the demoscene. It has a 3d flag (only
+  vector points), some plasma routines and vector balls, and a DAC mod-player
+  ( i have not a soundcard ). I haven't released it because it was _slow_
+  and the module is ripped ( thanks mel o`dee !). I only like the plasma part.
+  This intro is my second production, try to find the three secrets!
+    There are maybe more guys that can enter in the scene. A friend that coded
+  a sprite drawing thingy ( TNX Enzo! ) and he's likely gonna make a demo or
+  intro. And there's also a friend who's trying to learn coding.
+    But there's a problem : no graphicians , no musicians. We poor coders!
+  have to make all the work.
+
+5. Group greets
+
+In no order!
+
+Future Crew,Triton,EMF,Capacala,Keen Like Frogs,Complex,Coma,NoooN,Orange
+Iguana,CNCD,Cubic team,Imphobia,Realtech,Psychic Link,Plant,Lots more...
+
+To my IIX friends ( they don't belong to the scene ) no order
+Pele,Chu§o,Panchi,Tony,Marvin,Xairo,Chapu,Vini,Pino,Happy
+
+<*** End of File ***>      Can you recognize?

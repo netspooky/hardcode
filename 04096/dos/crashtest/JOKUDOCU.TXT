@@ -1,0 +1,47 @@
+ Ä  Ä ÄÄ ÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄ ÄÄ Ä  Ä
+
+
+                   Ä  Ä ÄÄ ÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄ ÄÄ Ä  Ä
+                               .oO Crashtest Oo.
+                   Ä  Ä ÄÄ ÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄ ÄÄ Ä  Ä
+
+
+      a 4k intro by J-P / Rebels for the Assembly'95 4k intro competition
+
+ Ä  Ä ÄÄ ÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄ ÄÄ Ä  Ä
+    common information about the intro:
+        To run the intro you'll need less than 450kb of base memory,  normal
+        VGA-card,  computer that  inhold 386+ pro.  and whole lot of luck...
+        Once you get it running the show goes on for less than three minutes
+        and you can't affect anything...     ...I guess. Crashtest does grab
+        hold of the  keyboard making sure annoying people do not  attempt to
+        interfere the show,and it uses timer to do the timings but it leaves
+        for example  all GUS IRQs unharmed so you  will be able to play some
+        nice  tunes on your GUS(?)  on the background  with some player that
+        does not play music using timer;  mdp by fc won't do but for example
+        inertia  player does the job,  assuming you still  have enough  base
+        memory free,if not then all you see is the hidden part also known as
+        the big black.... =]  Just to mention, ESC exits intro at all times.
+        Oh, btw:  the bugs are no bugs;  they are just  illusions created by
+        total laziness  combined  with  eight bit  resolution z-buffer  #:-)
+
+ Ä  Ä ÄÄ ÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄ ÄÄ Ä  Ä
+    common greetings from J-P (with common brainorder):
+        Panic, Diffusion, Future Crew, Silents,Complex, Electromotive force,
+        Byterapers, Phobia Design,  Orange, Wartec, Extend, Escape, Camelot,
+        Jaakko Lehtinen, Pekka Pankka, Ilkka Koho, Vasu...
+                                              ... +++ the forgotten ones...?
+
+ Ä  Ä ÄÄ ÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄ ÄÄ Ä  Ä
+    common (_LEGAL_)slow-swapping & friendship:
+
+                                                          J-P
+                                                       Riihitie 2
+                                                     06450  PORVOO
+                                                        FINLAND
+                                                         EUROPE
+
+ Ä  Ä ÄÄ ÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄ ÄÄ Ä  Ä
+                 Find Fond Fand Fend -- This is the note end !
+ Ä  Ä ÄÄ ÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄ ÄÄ Ä  Ä
+

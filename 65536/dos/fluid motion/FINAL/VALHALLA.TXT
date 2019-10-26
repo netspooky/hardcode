@@ -1,0 +1,148 @@
+    ÉÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÑ»
+    º³ ÛÛ   ÛÛ ÜÛÛÛÛÛÜ ÛÛ      ÛÛ   ÛÛ ÜÛÛÛÛÛÜ ÛÛ      ÛÛ      ÜÛÛÛÛÛÜ ³º
+    º³ ÛÛ   ÛÛ ÛÛÜÜÜÛÛ ÛÛ      ÛÛÜÜÜÛÛ ÛÛÜÜÜÛÛ ÛÛ      ÛÛ      ÛÛÜÜÜÛÛ ³º
+    º³ ÛÛÜ ÜÛÛ ÛÛßßßÛÛ ÛÛ      ÛÛßßßÛÛ ÛÛßßßÛÛ ÛÛ      ÛÛ      ÛÛßßßÛÛ ³º
+    º³  ßÛÛÛß  ÛÛ   ÛÛ ÛÛÛÛÛÛÛ ÛÛ   ÛÛ ÛÛ   ÛÛ ÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛ ÛÛ   ÛÛ ³º
+    ºÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´º
+    º³             Infomation file Updated 11th May 1995               ³º
+    ÈÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÏ¼
+
+ ÚÂÄÄÄÄÄÄÄÄÄÄÂ¿
+ ³³ Contents ³³
+ ÃÁÄÄÄÄÄÄÄÄÄÄÁÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ 1) Valhalla Member List       ³
+ ³ 2) Commercial presentations   ³
+ ³ 3) Previous Valhalla releases ³
+ ³ 4) Contacting us              ³
+ ³ 5) News / Messages            ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ ÚÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂ¿
+ ³³ Valhalla Memberlist ³³
+ ÃÁÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÁÁÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ Handle      ³ Location    ³ Tasks                            ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ Sandman     ³ England     ³ Coding, Gfx, PR and Organising   ³
+ ³ Implode     ³ England     ³ Coding, Music                    ³
+ ³ xToto       ³ Germany     ³ Coding, Modem support            ³
+ ³ Big Jim     ³ England     ³ Music, PR                        ³
+ ³ Optix       ³ England     ³ Coding                           ³
+ ³ Dambuster   ³ England     ³ Raytrace Artist / Object creator ³
+ ³ Muffin      ³ England     ³ Technical director               ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ Also our subdivision - Hardwired Systems Inc.                ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ Vision FX   ³ England     ³ Gfx, Graphic Design              ³
+ ³ Jon         ³ England     ³ Gfx, Graphic Design              ³
+ ³ The Edge    ³ England     ³ Design                           ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ ÚÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂ¿
+ ³³ Commercial Presentations ³³
+ ÃÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ If you require a cheap commercial presentation, please contact us, giving ³
+ ³ us a rough outline of what you require, any size limitations and hardware ³
+ ³ limitations, and how soon you want it completed.                          ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ ÚÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂ¿
+ ³³ Valhalla Releases ³³
+ ÃÁÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÁÁÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ Filename     ³ Size  ³ Date  ³ Description                               ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ CRITICAL.ZIP ³ 190k  ³ 2/94  ³ Critical demo by Occult, a one man demo   ³
+ ³              ³       ³       ³ produced entirely by sandman, done in a   ³
+ ³              ³       ³       ³ hurry, before Valhalla formed.            ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ BSCRTEXT.ZIP ³ 20k   ³ 3/94  ³ A small bit of my old source to do a text ³
+ ³              ³       ³       ³ scroller, should be of use to people      ³
+ ³              ³       ³       ³ starting up in demo coding, as it was one ³
+ ³              ³       ³       ³ of the first things I coded on the PC.    ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ SRCTIMER.ZIP ³ 20k   ³ 4/94  ³ A little util to help you optimize your   ³
+ ³              ³       ³       ³ code, times how long the program takes to ³
+ ³              ³       ³       ³ execute, and gives the frame rate.        ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ OTT.EXE      ³ 40k   ³ 8/94  ³ Over the top 64k intro for assembly 94    ³
+ ³              ³       ³       ³ again done in a hurry.                    ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ VOLBYVAL.ZIP ³ 1.3Mb ³ 8/94  ³ Visions of Light demo for assembly 1994   ³
+ ³              ³       ³       ³ crashed during been shown on the big      ³
+ ³              ³       ³       ³ screen, but still came 15th !             ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ VAL-PV.ZIP   ³ 64k   ³ 12/94 ³ Peripheral Vision 64k intro for The Party ³
+ ³              ³       ³       ³ 4 in Denmark, Got 2nd place !             ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ VAL-FM.ZIP   ³ 70k   ³ 4/95  ³ Fluid Motion, Won the Gathering 95 intro  ³
+ ³              ³       ³       ³ Competition ! Our best production so far. ³
+ ³              ³       ³       ³ Competition version - only GUS Support    ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ VAL-BES      ³ 68k   ³ 4/95  ³ Bibo Ergo Sum, Came 2nd in the Gathering  ³
+ ³              ³       ³       ³ 95 intro competition! (Bug fixed version) ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ VAL-FMF.ZIP  ³ 120k  ³ 5/95  ³ Final release of Fluid Motion, with       ³
+ ³              ³       ³       ³ improved music and SB/SBPro support!      ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ ÚÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂ¿
+ ³³ Contacting us ³³
+ ÃÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ Email :                                                                  ³
+ ³ Sandman       psj93@ecs.soton.ac.uk or psj93el@mail.soton.ac.uk          ³
+ ³ Implode       ndg93@ecs.soton.ac.uk                                      ³
+ ³ xToto         gloth@uni-muenster.de                                      ³
+ ³ Vision FX     i.j.woodall@wlv.ac.uk                                      ³
+ ³ Big Jim       j.e.storer@bradford.ac.uk                                  ³
+ ³ Dambuster     dc93sa@soton.ac.uk                                         ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ or on IRC #coders - talk to Valhalla, xToto, Bigjim or Implode           ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ World Wide Web :                                                         ³
+ ³ http://www.brad.ac.uk/~jestorer/index.html                               ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ Telephone :                                                              ³
+ ³ Sandman (Pete)  +44 (0)1803 858080 (holidays) or +44 (0)1703 559510 (tt) ³
+ ³ Implode (Nigel) +44 (0)1534 80137 (holidays) or +44 (0)1703 512596 (tt)  ³
+ ³ xToto (Tobias)  +49 (0)5908 588 (holidays) or +49 (0)2533 7111 (tt)      ³
+ ³ Vision FX (Ian) +44 (0)1384 252029 (after 18:00 GMT)                     ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ Term time telephone numbers are likely to change soon. (tt=term time)    ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ Snail Mail                                                               ³
+ ³ (Sandman)           (Implode)           (xToto)                          ³
+ ³ PS Jones            ND Gay              T Gloth                          ³
+ ³ 78 Windmill Close   Bramble Bank        Falkenstr. 2                     ³
+ ³ Brixham             Le Vieux Beaumont   49835 Lohne                      ³
+ ³ South Devon         St. Peter                                            ³
+ ³ ENGLAND             Jersey C.I.         Germany                          ³
+ ³ TQ5 9SQ             JE3 7EA                                              ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ Or take a look at our World Head Quarters - the Sound and Vision BBS     ³
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ If you are one of our Distros / HQ's, please contact us, so we can add   ³
+ ³            you to our future information files, thanks!                  ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ ÚÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂ¿
+ ³³ News / Messages ³³
+ ÃÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³ News :                                                                   ³
+ ³ We are currently awaiting the results of our entry to the os/2 demo      ³
+ ³ competition, we will release it as soon as the go ahead has been given   ³
+ ³ by IBM, please do not ask us for copies in the mean time - thanks.       ³
+ ³ Some copies have already leaked out, so if you have one, please do not   ³
+ ³ spread it.                                                               ³
+ ³ Implode is taking a little holiday from the group at the moment, he is   ³
+ ³ working on a game, sounds like it will be really nice, might be out in   ³
+ ³ maybe a year or so.                                                      ³
+ ³ Our next production will be for assembly 95, it is only in the planning  ³
+ ³ stage at the moment, but looks like its going to be awesome :)           ³ 
+ ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+ ³ Messages :                                                               ³
+ ³ As you may know, one of our musicians has left the group due to too much ³
+ ³ work for uni (oxide). So we are now looking for a new musician, If you   ³
+ ³ think you can help, contact Big Jim or Sandman with some samples of your ³
+ ³ work, internet access is required.                                       ³
+ ³ We also would like a UK sysop, so if you have a board that can cope with ³
+ ³ the likely demand, please get in touch with us.                          ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ

@@ -1,0 +1,51 @@
+
+                           cmr proudly presents
+                      --------   
+                         ||    
+                         ||     __   __        __
+                         ||    /  \ |   |  |   \
+                         ||    \__/ |   |__|  __\
+                        ----                   
+                                   
+                 4k realtime spheremarching with a twist
+                           released on Birdie 21
+
+
+Platform: Linux x86 (is possible to run on x86-64)
+Recommended system:
+GPU: Nvidia 8800 series or better (ATI/AMD won't work)
+CPU: Intel Core 2 Duo series or better (ain't my synth awesome? :D)
+
+Needs: OpenGL (obviously) and SDL
+
+
+                                IMPORTANT NOTES
+
+This demo uses OSS to output audio. This means (with very few exceptions) that
+no other processes will be able to use the sound card while this intro runs.
+That is, shut down any application which has the sound card opened for audio
+output (mixer applications aren't affected), before starting this intro.
+
+To make sound work with this intro on recent versions of Ubuntu (10.10 and later
+I think), use padsp.
+
+The compo version of this intro runs in a variety of resolutions, all 16:9. What
+resolutions work well on the compo machine should be tested. Note that resolutions
+above and equal to 1280x720 should be reserved for all but the most powerful of
+today's graphics cards.
+
+As the binary was compiled on a system with glibc 2.11, this may pose a problem
+if you attempt to run it on a system with an older glibc.
+
+Crew: please contact me ASAP if any of this poses any problem for you.
+
+
+                              Greetings fly out to
+                          
+    3sc · AND · Andromeda · Asd · Aspekt · Conspiracy · Exceed · Farbrausch
+        Future Crew · Linus Mårtensson · Loonies · Lusius · Neuro · Paniq
+  Retrocoders · RGBA · Samiljan · Stockholm Syndrome · Synesthetics · TBC · Wamma
+
+Special thanks go to Linus Mårtensson and Lusius!
+
+//cmr, alexander.toresson@gmail.com, 2011-06-05

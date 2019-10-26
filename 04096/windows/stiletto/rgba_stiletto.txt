@@ -1,0 +1,53 @@
+
+                                  stiletto
+
+                      a 4k intro by rgba (www.rgba.org)
+
+                         presented at Assembly 2007
+  
+
+
+ .random stuff.
+
+  . hopefully this will partially cover point number 18 in "auld's ridiculous
+ challenges" for 4k intros:  "write a demo that gets the audience horny".  at 
+ least we tried.
+
+  . cosinus is your friend. believe me. 
+
+  . this is my first directx application ever.  and now that i see the api, i 
+ can not but wonder why should i stay in opengl anymore. i hope ogl 3.0 gives 
+ me good reasons for it. 
+
+  . first i made this intro in opengl but it was over 4k5 so  i was forced to 
+ go for the radical option of  trying directx instead.  the negative point is
+ that you need d3dx9_33.dll
+
+  . features: a 3d mesh in 728 bytes (d'oh!),  a skeleton in 34 bytes (good),
+ automatic vertex weight  in 183 bytes (hm...),  some animation in  130 bytes 
+ (hm...),  mesh decoding  in 180 bytes (d'oh!!!)  and mesh subdivison tricked 
+ in 125 bytes. the cameras, rendering, muzik, text, synch and glue code makes 
+ the thing grow to 4k very quickly.
+
+  . especial thanks to Navis,  who kindly accepted to  bring the intro to the
+ Assembly 2007 for me. 
+
+
+
+ .greetings.
+
+ to all 4k intro hackers,  96 kb game builders, demo coders and very especial
+ ones to 64k intro makers.
+
+
+ 
+ .credits.
+
+  . marius           :: original mesh modeling
+  . iq               :: remodeling, coding, "formulanimating", milkytracking
+                        (ehem), and still hammering and drilling
+  . mentor+blueberry :: compressing (www.crinkler.net)
+
+
+
+

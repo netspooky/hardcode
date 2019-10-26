@@ -1,0 +1,39 @@
+"syrnix2" pc-64k intro by fresh!mindworkz, released at tUM'06, germany
+
+Technical Info:
+
+  Known bugs:
+
+  - Win95/98/ME not supported
+  - Compiled with beta state compiler, could be some problems
+
+  Windows:
+
+  Needs an OpenGL 1.4 compatible videocard (with 32mb of ram) and a standard 
+  dsound soundcard. Hardware t&l required
+
+  This demonstration made with GPL or freeware modules/compilers.
+ 
+
+Credits:
+
+  code: pasy, pontscho, remage
+  music: just, vincenzo  (the music is a remix of the original syrnix music)
+  3d: mike, wolverine
+  logogfx: alien/paradox^titan^rebels
+
+  musicplayer: - uFMOD (for windows) : Asterix and Quantum
+               - minifmod (for linux) : Firelight Technologies
+               - fmod (for macos x) : Firelight Technologies
+
+  exepacker:  - kkrunchy (for windows) : ryg/farbrausch (big thx) 
+              - upx (for linux) : http://upx.sf.net
+              - iPakk (for macos x) : http://www.freshmindworkz.hu/iPakk/
+
+Contact:
+
+  E-mail: info@freshmindworkz.hu
+  Homepage: http://www.freshmindworkz.hu/demoscene
+
+  2007/01/24
+

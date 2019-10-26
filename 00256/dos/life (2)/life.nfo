@@ -1,0 +1,27 @@
+LIFE - 256b intro by -SP-^lce
+---------------------------------
+Released on 2012-05-23 | no party
+
+Implementation of The Game Of Life
+algorithm by John Horton Conway, 1970.
+Colored pixels represent living cells,
+intensity corresponds to cell lifetime.
+
+Files:
+------
+LIFE.COM
+modified algorithm, allowing changed
+cells to affect their neighbors in the
+same iteration, runs forever.
+
+LIFE2.COM
+modifield algorithm requiring 1 or 2 
+adjacent living cells for aging,
+stabilizes over time.
+
+LIFE_PROPER.COM
+original and proper algorithm,
+stabilizes over time.
+not too spectacular output.
+
+Full commented ASM source included.

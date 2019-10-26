@@ -1,0 +1,30 @@
+R.aymarching 
+ E.xperimental
+  D.emonstration
+
+
+  code                    :-: TGGC, xTr1m, Hel
+
+  sfx                     :-: xTr1m, LPChip
+
+  gfx                     :-: TGGC, GRAPHICNOISE
+
+  packer                  :-: crinkler by Mentor/TBC and Blueberry/Loonies
+                              Shader Minifier by Ctrl-Alt-Test
+
+  synthesizer             :-: 4klang by Gopher & pOWL of Alcatraz.
+
+
+  greets            Alcatraz, ASD, Calodox, Conspiracy, Fairlight, 
+                    Farbrausch,   Fuzzion,    Kakiarts,   Loonies,
+                    Nuance, Panda Cube,  RGBA, Speckdrumm,  Still, 
+                    TBC,  TBL,  Titan,  Traction,  Youth Uprising
+                    atla, BlueCobold, mcdeck, matt|6s, pro, rapso,
+                    rip, TomasRiker
+                    anyone else from #gamedev.ger, #sppro and #cpp
+
+
+  And we like  to thank  TBC/Loonies/Alcatraz/Ctrl-Alt-Test  for making their
+  fantastic tools available to the public.  Also the information shared about
+  raymarching by various sceners, especially iq, las and all the contributors
+  to Shadertoy helped a lot. 

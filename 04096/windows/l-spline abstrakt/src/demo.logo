@@ -1,0 +1,232 @@
+
+function: #0
+	wait: 0.03
+	run: #60
+		forward: 0.02
+		bend? 0.4
+		turn? 0.4
+		radius* 0.97
+	end
+end
+
+function
+	radius: 0.12
+
+	call
+
+	wait: 0.7
+	run: #3
+		turtle: 5.8
+			bend? 2.3
+			call
+
+			wait: 0.5
+			run: #3
+				turtle: 5.8
+					bend? 2.3
+					call
+				end
+			end
+
+		end
+	end
+end
+
+color: 0.8
+material: 0.1
+radius: 0.09
+
+
+
+
+
+wait: 0.14
+run: #250
+	turn: 1.0
+	bend: 1.3
+	turtle: 2.8
+		bend* 0.3
+		wait: 0.03
+		run: #85
+			forward: 0.04
+			turn: 0
+			radius* 0.97
+			bend* 0.99
+			color* 0.99
+		end
+		wait: 0.5
+		run: #14
+			roll: 1.3
+			turn? 4.0
+			bend? 4.0
+			color* 1.3
+			turtle? 0.15
+				color: 0.0
+				material: 0.9
+				call
+			end
+		end
+	end
+end
+
+wait: 12.0
+run: #1
+	wait: 0.75
+	run: #45
+		turtle: 5.8
+			color: 1.0
+			radius: 0.04
+			turn? 3.9
+			roll? 0.03
+
+			wait: 0.03
+			run: #160
+				forward: 0.02
+				roll
+				bend: 0.04
+			end
+
+			wait: 0.2
+			run: #40
+				turtle: 3.8
+					bend: -1.6
+					wait: 0.02
+					run: #20
+						forward: 0.01
+						radius* 0.9
+						bend: -0.1
+					end
+				end
+			end
+		end
+	end
+end
+
+wait: 43.0
+run: #1
+	wait: 1.0
+	run: #35
+		turn? 4.7
+		turtle: 5.8
+			call: #1
+		end
+	end
+
+	wait: 3.2
+	run: #12
+		turn? 4.7
+		turtle: 4.8
+			call: #1
+
+			wait: 0.7
+			run: #6
+				turtle: 4.8
+					call
+
+					wait: 1.1
+					run: #1
+						wait: 0.02
+						run: #7
+							turn: 1.0
+							turtle: 2.0
+								bend: 0
+								radius: 0.03
+								color: 0.5
+								material: 0.9
+
+								wait: 0.03
+								run: #60
+									turn: 0.7
+									forward: 0.02
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+wait: 63.0
+run: #1
+	turtle: 5.0
+		radius: 0.04
+		wait: 3.9
+		run: #7
+			turn? 6.3
+			bend? 6.3
+			roll? 6.3
+			run: #7
+				turtle: 5.8
+					roll? 3.2
+					bend? 6.3
+					wait: 0.1
+					run: #30
+						forward: 0.08
+						bend? 0.2
+					end
+					
+					wait: 0.5
+					run: #15
+						bend
+						turn? 2.7
+						roll? 0.7
+						radius* 0.97
+					end
+
+					wait: 1.0
+					run: #3
+						turtle: 5.8
+							material: 0.1
+							color: 0.9
+							radius* 0.7
+							
+							wait: 0.03
+							run: #40
+								forward: 0.08
+								bend: 0.3
+								turn? 0.5
+							end
+
+							wait: 0.2
+							run: #10
+								turn: 1.57
+							end
+
+							wait: 0.06
+							run: #30
+								turtle: 5.8
+									color: 1.0
+									material: 0.1
+									roll? 4.8
+									bend: -1.57
+									
+									wait: 0.03
+									run: #5
+										forward: 0.05
+										turn: 0.3
+										radius* 0.8
+									end
+
+									turtle: 0.1
+										color: 0.7
+										material: 0.9
+										call
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+end
+
+
+
+end
+end
+!
+

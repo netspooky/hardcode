@@ -1,0 +1,77 @@
+
+
+                   ллн ллн млллллн лллллм  ллллллн ллн
+                   ллл ллл ллл ллл ллл ллн ллл ллл ллл
+                   лллАлллАлллАлллАлллАллл лллАААААлллАА
+                   оллллллАлллАлллАлллАлллАлллллл АлллАА
+                       лллАлллАлллАлллАлллАлллАА  АлллАА
+                   ллн лллАлллАлллАлллАлллАлллАллнАлллАллн
+                   ллл лллАлллАлллАлллАллнАлллАлллАлллАллл
+                   оллллллАолллллпАлллллпААоллллллАоллллллАА
+                     ААА ААА ААА ААА ААА ААА ААА ААА ААА ААА
+                     ААААААА ААААААА ААААА   ААААААА ААААААА
+
+                         Snooky/YDL gives you "ReCurse"
+
+                 - a 4kB intro for the ASM97 4kB intro compo
+
+
+ ў System requirements
+     
+     Minimum configuration
+	 њ 386 main processor
+	 њ 287 math coprocessor
+	 њ 550kB base memory
+	 њ 256kB VGA/MCGA compatible graphics card (mode 13h)
+ 
+     Most likely you would like to have at least a P133 main
+     processor to enjoy this production.
+
+ 
+ 
+ ў Greetings
+
+     њ HIs and HOWDYs to ...
+
+     The rest of Yodel, Phoenix, Virtual Rage, Boar, the Code
+     Blasters, Cascada, Omicron, Goto 10, Neurotica & Outbreak
+
+     њ More respectful HELLOs to ...
+
+     ACME, Complex, Triton & Nooon
+
+     Please note that if you are not in any of these two lists,
+     if can have many many reasons, like ...
+
+       - We simply forgot you.
+       - We deliberately left you out since we didn't want this
+         list to become TOO long.
+       - We don't like you. (most unlikely)
+
+     Also note that there is no particular order in the two
+     lists. In fact, except for the Yodel greeting, the order
+     was randomized just to prevent any form of favourizing.
+
+
+
+ ў Technical / About
+     
+     њ The Sierpinski tetrahedron consists of 16384 vertexes
+     and equal amount of triangles. This way I can move every
+     single sub-tetrahedron independently, as when they fly
+     away in random directions in the end.
+
+     њ Every face is rendered with respect to the Phong
+     illumination model for pseudo-accurate specular highlights.
+
+     њ The camera script is not really a script.. :)
+
+
+
+ ў Closing words
+
+     This was my first 4kB intro, and what I reacted most
+     strongly to was the fact that my palette took 20% of
+     the intro size.. :)
+
+                                                 /// Snooky/YDL

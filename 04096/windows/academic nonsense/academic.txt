@@ -1,0 +1,11 @@
+Academic Nonsense by MakeGho / Blobtrox (Asm 2008)
+
+Requires OpenGL 2.0.
+Some older ATI cards could have problems running the intro.
+
+My first "real" demoscene production ever. Yay.
+Wish you happy rainbows.
+
+
+Greetings to Aspekt, Extend, Fingersoft, Lasi Interactive,
+                            Lonelycoders, Moonhazard, tAAt

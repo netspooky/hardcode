@@ -1,0 +1,84 @@
+
+                                /----------\
+                                |  R'lyeh  |
+                                \----------/
+
+                            by Eric Fredricksen
+                                eric@crl.com
+
+ "... instead of describing any definite structure of building, he
+  dwells only on the broad impressions of vast angles and stone surfaces--
+  surfaces too great to belong to any thing right of proper for this earth,
+  and impious with horrible images and heiroglyphs.  I mention his talk
+  of /angles/ because it suggests something Wilcox had told me of his
+  awful dreams.  He had said that the /geometry/ of the dream-place he
+  saw was abnormal, non-Euclidean, and loathesomely redolent of spheres
+  and dimensions apart from ours..." - H.P. Lovecraft,
+                                      _The_Call_of_Cthulhu_
+
+Introduction
+------------
+
+R'lyeh is a strange and mystical journey through a phantasmal
+dreamscape.  You are Mate Gustaf Johansen on his ultimate voyage to the
+nightmare corpse-city of R'lyeh, where lies great Cthulhu and his
+hordes, separated from you, fortunately, by four high, impenetrable
+walls.
+
+R'lyeh joins the ranks of Castle Wolfenstein, DOOM, and other "virtual
+reality" POV texture mapped ray casting 3D maze games, but without the
+overhead of sloppy coding and wasteful graphics.  In fact, the code
+itself comprises the texture map used for the walls.  You'd be able to
+keep R'lyeh on your hard disk eternally and still have room for the
+latest great games, lucky you.
+
+Getting Around R'lyeh
+---------------------
+
+To move Mate Johansen around the game arena, use the righthand suite of
+shift keys:
+
+     <Alt>        Turn Mate Johansen counter-clockwise
+     <Ctrl>       Turn Mate Johansen clockwise
+     <RightShift> Move Mate Johansen forward
+     <LeftShift>  Move Mate Johansen backward
+
+In real life, there is no unsuffering escape from R'lyeh.  And even in
+the game it ain't that pleasant.  To exit the game, press:
+
+     <Ctrl><Alt><Delete>
+
+Sorry about that folks...
+
+Additional keys:
+
+     <Space>      Open doors (there aren't any)
+     <#>          Select weapon (you only have one)
+     <Tab>        Fire weapon (no ammo)
+     <S>          Toggle sound (but all is quiet)
+
+Your Inventory
+--------------
+
+  "...they searched--vainly, as it proved--for some portable souvenier
+   to bear away..."
+
+The Object of the Game
+----------------------
+
+Like most any game, the real object is to have fun playing it.  To that
+end, I think you'll find R'lyeh quite challenging.
+
+Technical Info
+--------------
+
+The strange geometry of R'lyeh can be attributed to the lack of
+trancendental functions on the trancendental plane.  And there are no
+square roots in that demonic place.
+
+Legal Info
+----------
+
+R'lyeh is Not-worth-mentioning-ware.  Therefore, you way freely
+distribute it accross the map without restriction of any kind, without
+any feeling of guilt, even without realizing you're doing it.

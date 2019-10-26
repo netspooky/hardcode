@@ -1,0 +1,72 @@
+panic room
+by fairlight
+
+pc 64k intro at assembly 2008.
+
+featuring:
+code and visuals by smash (smaash@yahoo.com).
+music by reed.
+
+big thanks to ryg for kkrunchy, which made this possible.
+
+requires:
+a fast highend ps3.0/vs3.0-enabled card - ati 2600 or geforce 8600 or better recommended. a fast card is definately 
+needed for the higher resolutions - don't expect to run it at a decent speed on a 6600gt at 720p.
+1gb of ram or better. 
+a decent (dual core recommended) cpu.
+dx9.0c and d3dx9_31.dll installed. 
+windows xp.
+if you run it on vista, you might not get the rap in the music. thats because the codec used isnt installed in all 
+vista configs for some reason. if we had realised earlier we would have used another one. oh well.
+
+the precalc is epic, but actually more than 60% of it goes into compiling around 400 shaders. 
+
+
+never say never again. 
+
+the full story about how and why we came back and did this might be in a scene magaZINE near you soon.
+
+suffice to say:
+in the two years since we and others quit making 64ks, 64k died. we didn't like that. so many times ive heard
+"4k is the new 64k", and that current 4ks are now matching 64ks. that's a bit sad, dont you think? we felt that
+it was time to come back once again and show the world what could be done. 
+
+and this is the result, after months of hard work in complete secrecy and after missing the original deadline
+(of breakpoint 2008) by a long way. 
+
+this represents a different direction and a new technical approach to the previous 64ks. primitives, basic synths 
+and layers of simple generated textures are now dead. in their place is highly compressed polygon meshes, 
+textures using a new hybrid of generation and texture synthesis with real images, lots 
+and lots of shaders, too many kilobytes of samples, and even some "actual effects". 
+
+our aim was not to just make a nice texture generator, mesh generator or particle engine. the aim was
+to make something that in every way could compete with a good modern demo, share the same comfortable 
+production methods as we use on our demos, having access to the same quality and quantity of effects and shaders
+as in a demo, and having a soundtrack that could be in a demo. we wanted everything, and everything had 
+to be top of the line in every respect.
+
+it was clear from the start that we should make full use of modern graphics hardware and not bake any of the 
+lighting (and certainly not fake it into textures). so you have such realtime rendering features as screen space 
+ambient occlusion, soft shadows from multiple lights, parallax mapping, depth of field, refracting water, a 
+model of light scattering and absorbtion for underwater rendering, caustics, raymarched godrays with 
+intersections, and so on. 
+
+it is relatively easy to have demo-esque textures, or demo-esque meshes, or demo-esque shaders, or a couple of
+demo-esque effects, or demo-esque music, in a 64k - as we have done ourselves before. you can say "this is where 
+i will spend my bytes". but when you want everything all together it becomes a whole new challenge, one that we 
+had never managed to succeed in before. 
+
+this right here is the line being drawn. 
+
+the easy ride is over. 
+
+
+
+admit it. you've missed us. 
+
+
+greets go to all the false idols, including:
+cncd,orange,tbl,andromeda,asd,conspiracy,mfx,farbrausch,loonies,plastic,orb,nooon,
+cocoon,dcs,triad,excess,portalprocess,equinox,brainstorm.
+do not worship false idols.
+

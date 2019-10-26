@@ -1,0 +1,202 @@
+;A texturemapped torus, doughnut, badering or whatever....
+;in 255 bytes
+;Programmed, assembled and so on by
+;
+;MZ1453/GFBx86
+;
+;Gunnars Farvebio 80x86 department 16/10 2003
+;
+;Finally GFB(tm) has something to release on our 3rd platform!
+;GFB(tm) has been active on Amiga since 1991
+;..... inactive since 2001.....
+;(re)active on C64 1997-1999...  inactive since....
+;Now finally on IBM (hopefully not in-)compatible PC.
+;
+;
+;Send constructive critisism and/or your newest production to:
+;
+; gunslevbrugs@mail.tele.dk
+; http://home13.inet.tele.dk/gfbtm
+;
+;
+;Gunnars Farvebio - fordi bunden ikke var nået
+;
+;
+;
+
+
+;Don't waste time with a disassembler....  the source is here...
+
+	.386p
+code	segment use16
+	org 0100h
+	assume  cs:code, ds:code;, es:code, ss:code
+d	equ	dword ptr
+w	equ	word ptr
+b	equ	byte ptr
+hx=320
+hy=200
+n=128
+
+
+start:	mov	ax,13h
+	int	10h
+
+	push	0a000h
+	pop	es
+	push	09000h
+	pop	fs
+	push	08000h
+	pop	gs
+
+
+;palette
+	xor	al,al
+	mov	dx,03c8h
+	out	dx,al
+	inc	dx
+	mov	cx,256
+ipl:	mov	al,cl
+	out	dx,al
+	out	dx,al
+	shr	al,2
+	out	dx,al
+	loop	ipl
+
+
+
+
+
+     
+igen:
+;	mov     dx,3dah
+;r1:     in      al,dx          
+;        test    al,8
+;        jz      r1
+
+
+;cls	2bytes....
+;slower than 32bit, but smaller...!
+	xor	bx,bx
+	mov	ax,7f7fh
+	mov	cx,hx*hy/2
+cls:	mov	dx,fs:[bx]
+	mov	es:[bx],dx
+	mov	fs:[bx],ax
+	mov	gs:[bx],ax
+	add	bx,2
+	loop	cls
+
+
+
+
+
+
+	mov	di,offset m
+	mov	si,offset temp
+
+;	finit
+	fld	d [si+24]
+	fadd	d [di+2]
+	fst	d [si+24]
+	fstp	d [si+20]
+
+	mov	dx,n*2
+dloy:
+	fldz
+	fstp	d [si]
+	mov	cx,n
+dlox:
+	fld	d [si]
+	fadd	d [di+2]
+	fst	d [si]
+
+	fsincos			;x0 y0
+	fiadd	w [di+10]
+	fldz			;z0
+	fxch	st(1)		;x0 z0 y0
+
+	fld	d [si+20]		;v x z y
+	call	roter		;x z y
+
+	mov	al,2
+rotl:	fxch	st(2)		;y z x
+	fxch	st(1)		;z y x
+	fld	d [si+24]		;v z y x
+	call	roter		;z y x
+	dec	al
+	jnz	rotl
+
+
+
+	fimul	w [di]		;ym
+	fistp	d [si+4]
+	fimul	w [di]		;xm
+	fistp	d [si+16]
+	fimul	w [di]		;zm
+	fistp	d [si+8]	;z
+
+	mov	bx,w [si+4]
+	imul	bx,hx
+	add	bx,w [si+16]
+	add	bx,hx/2+hy/2*hx
+	mov	al,cl
+	or	al,dl
+	mov	ah,b [si+8]	;z
+	call	plot
+	inc	bx
+	call	plot
+	add	bx,hx
+	call	plot
+	dec	bx
+	call	plot
+
+	faddp	st(1)	;si+16
+	loop	dlox
+
+	fld	d [si+20]
+	fadd	d [di+6]
+	fstp	d [si+20]
+	dec	dx
+	jnz	dloy
+
+
+
+        mov     ah,01H                              ;get keyboard buffer status
+        int     16H
+	jz      igen
+;	ret
+
+roter:
+	fsincos			;c s x y z
+	fld	st(2)		;x c s x y z
+	fmul	st(0),st(1)	;xc c s x y z
+	fld	st(4)		;y xc c s x y z
+	fmul	st(0),st(3)	;ys xc.. 
+	fsubp	st(1)		;ys-xc c s..
+	fxch	st(4)		;y c s x ys-xc z
+	fmulp	st(1)		;yc s x ys..
+	fxch	st(2)		;x s yc ys..
+	fmulp	st(1)		;xs yc ys..
+	faddp	st(1)		;xs+ys ys-xc z
+	ret
+
+plot:	cmp	ah,gs:[bx]
+	jge	zb0
+	mov	gs:[bx],ah
+	mov	fs:[bx],al
+zb0:	ret
+
+m	dw	24
+dc	dd	0.05
+vy0d	dd	0.025
+xk	dw	2
+
+;c	dd	?
+;vy0	dd	?
+temp	equ	640
+
+code	ends      
+       	end start
+
+

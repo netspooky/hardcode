@@ -1,0 +1,1 @@
+FASM.EXE -m 1000 -p 10 mmindg8.asm mmindg8.com

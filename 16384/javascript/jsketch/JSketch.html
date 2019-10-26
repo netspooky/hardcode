@@ -1,0 +1,314 @@
+<html>
+
+<head>
+	<title>VectorDraw</title>
+</head>
+
+<body onmousedown = "mouse_down(event);" onmousemove = "mouse_move(event);" onmouseup = "mouse_up(event);" onload = "init_scene();" bgcolor = "#000000">
+	<canvas id = "canvas" width = "320" height = "200"></canvas>
+</body>
+
+ <script type="text/javascript">
+
+	// -----------------------------------------------------------------------------------------------------------------
+	// disable scrollbars and popup menu
+	// -----------------------------------------------------------------------------------------------------------------
+	document.body.scroll = "no";
+	document.documentElement.style.overflow = 'hidden';
+	//document.oncontextmenu = document.body.oncontextmenu = function() {return false;}
+
+	// -----------------------------------------------------------------------------------------------------------------
+	// timer functions
+	// -----------------------------------------------------------------------------------------------------------------
+	var now, then, time;
+	var fpsInterval = 1000 / 30;
+
+	window.requestAnimFrame = (function(callback) 
+	{
+		return window.requestAnimationFrame ||
+			window.webkitRequestAnimationFrame ||
+			window.mozRequestAnimationFrame ||
+			window.oRequestAnimationFrame ||
+			window.msRequestAnimationFrame ||
+			function(callback) {window.setTimeout(callback, fpsInterval);};
+	})();
+
+	// -----------------------------------------------------------------------------------------------------------------
+	// mouse functions
+	// -----------------------------------------------------------------------------------------------------------------
+	var cX, cY, cR;
+	var mouseD, mouseM, mouseX = 0, mouseY = 0;
+
+ 	function rect_distance(p1X, p1Y, p2X, p2Y, W, H)
+	{
+		if (p2X - W / 2 < p1X && p1X < p2X + W / 2 && p2Y - H / 2 < p1Y && p1Y < p2Y + H / 2) return true;
+		return false;
+	}
+
+	function mouse_down(evt)
+ 	{
+		if (evt.button == 0)
+		{
+			mouseD = true;
+			mouseX = (evt.clientX - cX) * cR;
+			mouseY = (evt.clientY - cY) * cR;
+		}
+	}
+
+ 	function mouse_move(evt)
+ 	{
+		mouseM = true;
+		mouseX = (evt.clientX - cX) * cR;
+		mouseY = (evt.clientY - cY) * cR;
+	}
+	
+ 	function mouse_up(evt)
+ 	{
+		mouseD = false;
+		mouseM = false;
+		mouseX = (evt.clientX - cX) * cR;
+		mouseY = (evt.clientY - cY) * cR;
+	}
+
+	// -----------------------------------------------------------------------------------------------------------------
+	// canvas manipulation
+	// -----------------------------------------------------------------------------------------------------------------
+	var frame;
+ 	var canvas;
+ 	var context;
+	var cW = 640;
+	var cH = 400;
+
+	window.addEventListener("resize", resize_called, false);
+	function resize_called() 
+	{
+		canvas.style.position = "fixed";
+		canvas.width = cW;
+		canvas.height = cH;
+		if (window.innerWidth / (cW / cH) > window.innerHeight)
+		{
+			cX = window.innerWidth / 2 - window.innerHeight * (cW / cH) / 2;
+			cY = 0;
+			cR = canvas.width / (window.innerHeight * (cW / cH));
+			canvas.style.left = cX;
+			canvas.style.top = cY;
+			canvas.style.width = window.innerHeight * (cW / cH);
+			canvas.style.height = window.innerHeight;
+		}
+		else
+		{
+			cX = 0;
+			cY = window.innerHeight / 2 - window.innerWidth / (cW / cH) / 2;
+			cR = canvas.height / (window.innerWidth / (cW / cH));
+			canvas.style.left = cX;
+			canvas.style.top = cY;
+			canvas.style.width = window.innerWidth;
+			canvas.style.height = window.innerWidth / (cW / cH);
+		}
+	}
+
+	function write_text(textX, textY, textAlign, fontColor, font, text) 
+	{
+		context.textAlign = textAlign;
+		context.fillStyle = fontColor;
+		context.font = font;
+		context.fillText(text, textX, textY);
+	}
+
+	function hermite(_n, _p0X, _p0Y, _t0X, _t0Y, _p1X, _p1Y, _t1X, _t1Y)
+	{
+		this.n = _n;
+		this.p0X = _p0X;
+		this.p0Y = _p0Y;
+		this.t0X = _t0X;
+		this.t0Y = _t0Y;
+		this.p1X = _p1X;
+		this.p1Y = _p1Y;
+		this.t1X = _t1X;
+		this.t1Y = _t1Y;
+		this.chosen = false; 
+
+		this.h = function(t, p0, p1, t0, t1)
+		{
+			return  ((2 * t * t * t - 3 * t * t + 1) * p0 + (-2 * t * t * t + 3 * t * t) * p1 + (t * t * t - 2 * t * t + t) * 6 * t0 + (t * t * t - t * t) * 6 * t1);
+		}
+
+		this.p = function(x, y, color, size)
+		{
+			context.beginPath();
+			context.fillStyle = color;
+			context.fillRect(x - size / 2, y - size / 2, size, size);
+			context.stroke();
+		}
+	
+		this.draw = function () 
+		{
+			// draw the polynom
+			if (this.chosen) 
+			{
+				context.lineWidth = 2;
+				context.strokeStyle = "red";   
+			}
+			else 
+			{
+				context.lineWidth = 1;
+				context.strokeStyle = "black";   
+			}
+			context.beginPath();
+			for(r = 0; r < this.n; r++)
+			{
+				context.moveTo(this.h(r / this.n, this.p0X, this.p1X, this.t0X, this.t1X), this.h(r / this.n, this.p0Y, this.p1Y, this.t0Y, this.t1Y));
+				context.lineTo(this.h((r + 1) / this.n, this.p0X, this.p1X, this.t0X, this.t1X), this.h((r + 1) / this.n, this.p0Y, this.p1Y, this.t0Y, this.t1Y));
+			}
+			context.stroke();
+			if (this.chosen) 
+			{
+				// draw tangents
+				context.beginPath();
+				context.strokeStyle = "blue";
+				context.lineWidth = 1;
+				context.moveTo(this.p0X, this.p0Y);
+				context.lineTo(this.p0X + this.t0X, this.p0Y + this.t0Y);
+				context.moveTo(this.p1X, this.p1Y);
+				context.lineTo(this.p1X - this.t1X, this.p1Y - this.t1Y);
+				context.stroke();
+				// draw control points
+				this.p(this.h(0.5, this.p0X, this.p1X, this.t0X, this.t1X), this.h(0.5, this.p0Y, this.p1Y, this.t0Y, this.t1Y), "red", 5);
+				this.p(this.p0X, this.p0Y, "yellow", 5);
+				this.p(this.p1X, this.p1Y, "yellow", 5);
+				this.p(this.p0X + this.t0X, this.p0Y + this.t0Y, "yellow", 5);
+				this.p(this.p1X - this.t1X, this.p1Y - this.t1Y, "yellow", 5);
+			}
+			else			
+				this.p(this.h(0.5, this.p0X, this.p1X, this.t0X, this.t1X), this.h(0.5, this.p0Y, this.p1Y, this.t0Y, this.t1Y), "black", 3);
+		}
+	}
+
+	// -----------------------------------------------------------------------------------------------------------------
+	// main parts
+	// -----------------------------------------------------------------------------------------------------------------
+	function init_scene() 
+	{
+		canvas = document.getElementById("canvas");
+		context = canvas.getContext("2d");
+		resize_called();
+
+		sprites[0] = new hermite(16, 60, 60, 60, -40, 420, 220, 150, -100);
+
+		then = Date.now();
+		time = Date.now();
+		update_scene();
+	}
+	
+	var sprites = [];
+	var moving = 0;
+	var selected_released = 0;
+
+	function update_scene() 
+	{
+		now = Date.now();
+		elapsed = now - then;
+
+		frame = Math.floor((Date.now() - time));
+		if (elapsed > fpsInterval) 
+		{
+			then = now - (elapsed % fpsInterval);
+
+	 		context.fillStyle = "#8DEFB5";
+			context.fillRect(0, 0, context.canvas.width, context.canvas.height);
+
+			for (var r = 1; r < sprites.length; r++)
+				sprites[r].draw();
+
+			for (var r = 1; r < sprites.length; r++)
+			{
+				if (moving == 0 && selected_released == 0 && mouseD && rect_distance(mouseX, mouseY, sprites[r].h(0.5, sprites[r].p0X, sprites[r].p1X, sprites[r].t0X, sprites[r].t1X), sprites[r].h(0.5, sprites[r].p0Y, sprites[r].p1Y, sprites[r].t0Y, sprites[r].t1Y), 20, 20)) 
+				{
+					sprites[r].chosen = true;
+					selected_released = r;
+					mouseD = false;
+				}
+				if (moving == 0 && selected_released != 0 && mouseD && rect_distance(mouseX, mouseY, sprites[r].h(0.5, sprites[r].p0X, sprites[r].p1X, sprites[r].t0X, sprites[r].t1X), sprites[r].h(0.5, sprites[r].p0Y, sprites[r].p1Y, sprites[r].t0Y, sprites[r].t1Y), 20, 20)) 
+				{
+					if (selected_released == r) 
+					{
+						sprites[r].chosen = false;
+						selected_released = 0;
+					}
+					else
+					{
+						sprites[r].chosen = true;
+						sprites[selected_released ].chosen = false;
+						selected_released = r;
+					}
+					mouseD = false;
+				}
+				if (! sprites[r].chosen) continue;
+				
+				if (mouseD && rect_distance(mouseX, mouseY, sprites[r].p0X + sprites[r].t0X, sprites[r].p0Y + sprites[r].t0Y, 10, 10))
+					moving = 1;
+				else if (mouseD && rect_distance(mouseX, mouseY, sprites[r].p0X, sprites[r].p0Y, 10, 10))
+					moving = 2;
+				else if (mouseD && rect_distance(mouseX, mouseY, sprites[r].p1X - sprites[r].t1X, sprites[r].p1Y - sprites[r].t1Y, 10, 10))
+					moving = 3;
+				else if (mouseD && rect_distance(mouseX, mouseY,  sprites[r].p1X, sprites[r].p1Y, 10, 10))
+					moving = 4;
+					
+				if (mouseM && moving == 1)
+				{
+					sprites[r].t0X = mouseX - sprites[r].p0X;
+					sprites[r].t0Y = mouseY - sprites[r].p0Y;
+				}
+				if (mouseM && moving == 2)
+				{
+					sprites[r].p0X = mouseX;
+					sprites[r].p0Y = mouseY;
+				}
+				if (mouseM && moving == 3)
+				{
+					sprites[r].t1X = sprites[r].p1X - mouseX;
+					sprites[r].t1Y = sprites[r].p1Y - mouseY;
+				}
+				if (mouseM && moving == 4)
+				{
+					sprites[r].p1X = mouseX;
+					sprites[r].p1Y = mouseY;
+				}
+				if (! mouseD && moving != 0)
+					moving = 0;
+			}
+
+			if (moving == 0 && mouseD && rect_distance(mouseX, mouseY, 610, 30, 25, 25))
+			{
+				mouseD = false;
+				sprites.push(new hermite(16, 610, 150, 0, 20, 610, 300, 0, 20));	
+			}
+			if (moving == 0 && mouseD && rect_distance(mouseX, mouseY, 610, 70, 25, 25))
+			{
+				mouseD = false;
+				if (selected_released != 0)
+				{
+					sprites.splice(selected_released, 1);
+					selected_released = 0;	
+				}
+			}
+
+			context.strokeStyle = "#555555";   
+			write_text(15, 20, "left", "#555555", 15 + "px Tahoma", "X: " + Math.floor(mouseX) + " Y: " + Math.floor(mouseY));
+			context.lineWidth = 5;
+			context.beginPath(); context.moveTo(610, 20); context.lineTo(610, 40); context.stroke();
+			context.beginPath(); context.moveTo(600, 30); context.lineTo(620, 30); context.stroke();
+			context.beginPath(); context.moveTo(600, 70); context.lineTo(620, 70); context.stroke();
+			context.lineWidth = 2;
+			context.strokeRect(597, 17, 26, 26);
+			context.strokeRect(597, 57, 26, 26);
+		}
+
+		requestAnimFrame(function(){update_scene();});
+	}
+
+</script>
+     
+</html>
+
+

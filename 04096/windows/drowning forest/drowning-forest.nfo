@@ -1,0 +1,11 @@
+Demogroup:	Amnesty
+Prod name:	Drowning forest
+Prod type:	Procedural graphics 4KB
+Date: 		2014-04-18
+Tool:		devcpp
+Code:		Lovely Hanibal
+Rendering time: 30sec
+
+This is procedural graphics for Revision 2014.
+All calculation done at CPU. 
+Theory based at 3d version of Julia set.

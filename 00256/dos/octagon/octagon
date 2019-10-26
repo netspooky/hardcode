@@ -1,0 +1,105 @@
+From hasteen@inet.uni-c.dk Fri Mar 17 15:57:49 1995
+Date: Fri, 17 Mar 1995 03:37:42 +0200 (METDST)
+From: Henrik Steen <hasteen@inet.uni-c.dk>
+To: shavelk@agora.rdrop.com
+Subject: Entry, 256-byte game contest
+
+
+Ok, this is my entry to 256-byte game contest.
+
+It runs in VGA or MCGA mode 13h. Although this was not specified in the
+rules it is a standalone program, that does not use qbasic or the like.
+
+Both a standard and an easy version are uuencoded inside this doc.
+
+    Requirements:
+
+        512 bytes free dos mem (due to the PSP).
+            If you do not have 512 bytes free dos mem, a boot disk can
+            be appointed for you. You might also consider beefing up
+            your system with a K or two.
+        386 or better.
+            Pentium-90 strongly recommended. It will make absoluty no
+            difference for this game, but it's a nice machine to have
+            around, so we recommend it anyway.
+
+    Story:
+
+        The object of the game is to keep the multicolored strange
+        alien life form (or line if you want to be that way) safely
+        within the octagonal containment grid. Due to cut's in government
+        funding your outfit can only afford to run the containment
+        system at 1/8 the power it was designed for. But hey, thats ok
+        as long as it is the right 1/8 - thats where you come in...
+        The tremendous cost overrun resulting from your overtime has
+        been approved - this also happens to be your chance to save
+        the galaxy (ever had one of those before?).
+
+    How to play:
+
+        Press any key to start the game.
+
+        You control the reflector grid with the numeric keypad (Num Lock
+        should be on or you will have a short game).
+
+        When you fail to contain the ray, the game ends. You can restart
+        it by pressing any key.
+
+        To exit the game press Q *during* play.
+        (Actually you can press any key > '9', but Q sounds as if I planned
+        it that way)
+
+    Apology:
+
+        So where did the score go, why doesn't the game get more difficult,
+        where is my 1024x768 Cindy Crawford background?
+
+        Well... er... 256 bytes isn't all that much ya know.
+
+        I did get room for linedrawing, collision detect, random, octagon
+        coordinates, vsync synchronization, keyboard control etc.
+        - so stop whining!
+
+    Warranty:
+
+        I hereby guarantee that this is a program. Nothing else may be
+        implied including any conjecture from the above text. When you
+        run this program you are on your own - if any problems result
+        they are your problems - not mine.
+
+
+BTW, I believe someone should award you a prize, Steve. It was great fun
+cooking up (down?) this thing - this is the sort of thing convinces me
+I was right to give up management in favor of coding.
+
+
+Henrik
+hasteen@inet.uni-c.dk
+
+
+P.S.
+In case anybody thinks I am violating a software patent with this game,
+please sue me. I published a full version of it in 1981 - if you made a
+bestselling hit on the concept I will look forward to hearing from you.
+
+begin 532 octagon.com
+MZP>A]``ZX'0',\#-%KN@9%.X$P#-$+ML!#/)CL$FB@=H`*`'MP7V]U"@]``"
+MY`+$!`0E#@"C]`"66"0?!`R*R.A4`)-;0>A5`&!(HO(`8?X.\@!TK4'^Q.AO
+M`&"ZV@/LD^PRPZ@(=/FT`<T6=.`SP,T6+#%RV#P)<@>X`P#-$,T@N_<!UYA0
+MAP;U`#/)EN@&`%ZU"6A.`8'&Y0&MDZTJP[X!`',$]MCWWBKGOP`!<P3VW/??
+M#[;L,N0[Q7,#E8?W,]*&Y0K)=0**R&"*SVGQ0`$R_R:((&$KU7,&`M`2]0/?
+?`][@Y<,*>0I$/T2)>;[#OOB)^#_#"@8("@0`#`(`#B:(
+`
+end
+
+begin 532 octeasy.com
+MZP>A]``ZX'0',\#-%KN@9%.X$P#-$+ML!#/)CL$FB@=H`*`']O=0H/0``N0"
+MQ`0$)0X`H_0`EE@D'P0,BLCH50"36T'H5@!@2*+R`&'^#O(`=*]!_L3H<`!@
+MNMH#[*@(=?OLJ`AT^[0!S19TWS/`S18L,7+7/`ER![@#`,T0S2"[]@'7F%"'
+M!O4`,\F6Z`8`7K4):$P!@<;D`:V3K2K#O@$`<P3VV/?>*N>_``%S!/;<]]\/
+MMNPRY#O%<P.5A_<STH;E"LEU`HK(8(K/:?%``3+_)H@@82O5<P8"T!+U`]\#
+>WN#EPPIY"D0_1(EYOL.^^(GX/\,*!@@*!``,`@`.
+`
+end
+
+

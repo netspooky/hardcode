@@ -1,0 +1,52 @@
+ -= Comments =-
+
+ This intro was made in one week right before BF'99!
+
+ -= Keys =-
+
+ Standart modes:
+
+ 0 - 320x200x32b
+ 1 - 320x200x24b
+ 2 - 320x200x16b
+ 3 - 320x200x15b
+
+ Scanlines modes:
+
+ 4 - 320x400x32b
+ 5 - 320x400x24b
+ 6 - 320x400x16b
+ 7 - 320x400x15b
+
+ example: swop 6 (run in 320x400x16b scanline)
+
+ -=Code=-
+
+ Asman         50%
+ Dr.Longman    35%
+ Mr.Dsteuz     15%
+
+ -=Music=-
+
+ Markoo's (one from Proxium's founders)
+
+ Mxmplay by Cubic
+
+ Recommended:  P200 CPU
+               8Mb Ram
+               Vesa2.0 320x200x32(24) bits LFB video mode
+               Gravis Ultrasound
+
+ -= Greetings =-
+
+ SandS
+ T-Rex
+ Universe
+ Virtual Illusions
+
+ -= Contact =-
+
+ Fido           2:5020/1310.12
+ Internet page  proxium.da.ru
+ E-Mail         proxium@hotmail.com
+ Distro BBS     (095) 152-3948 23.00-05.30

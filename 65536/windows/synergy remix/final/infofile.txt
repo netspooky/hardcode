@@ -1,0 +1,56 @@
+
+&Solar.Synergy (remix)
+        
+
+Crash      ::code			[crashslr@hotmail.com]
+Ravity     ::code			[ravity_@hotmail.com]
+Coat       ::textures			
+No-XS      ::music
+
+
+
+System requirements
+  
+  Intel Pentium 3 or AMD Athlon/Duron 
+  GeForce 256 or better graphics card
+  recommended (TNT2 might work if you
+  are very lucky). 128 MB ram and
+  65536 bytes of free diskspace.
+
+(Note: We were in an extreme hurry while finishing this sweety, so we couldn't find
+any time to test it on some random machines. It seems to work pretty nice here, so
+get yourself a decent PC if you are experiencing problems. For complaints e-mail: support@netscape.com)
+
+
+general info: 
+
+  This intro is a remix of the original Synergy released under Nosferatu label. Unfortunately
+  the group died a week after the release at Mekka & Symposium 2001. We (Ravity and
+  Crash) were asked to join Solar a few days later, and so we did. We weren't fully
+  satisfied with the original Synergy, so we decided to spice it up a bit. 
+  The result is here: Synergy Remix.
+
+
+Troubleshooting:
+
+Q) It generates a bluescreen on my PC, stating: "Aliens ate my neighbours".
+A) Uninstalling the Seti@home software might solve the problem.
+
+Q) Synergy doesn't run on my PC. What can I do?
+A) Check if you have Linux installed. This program doesn't run on most Linux systems since it was
+   designed to crash on Linux systems. Formatting your harddrive, and installing Windows might help.
+
+Q) The intro causes my PC to hang. Is this normal?
+A) Yes. It actually is a hidden feature.
+
+Q) After I ran the intro my monitor turned black. Can I fix this?
+A) Check if you have a videocard installed. It might help.
+
+Q) Synergy runs rather slowly on my system. Is there any way to solve this?
+A) This is VERY suspicious behavior. Contact the FBI as soon as possible.
+
+Q) An error message pops up when I run the intro. What can I do?
+A) Check if you have enough free diskspace.
+
+
+Solar.

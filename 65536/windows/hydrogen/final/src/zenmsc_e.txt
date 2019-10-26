@@ -1,0 +1,27 @@
+zenith matrix script calculator
+
+Calculates a matrice by script. Script - opcodes woth parameters,
+parameters devided by spaces, opcodes - by ";". Linefeeds - don't care.
+
+Matrice calculation is a multiplication of rotation and so on matrices
+in particular order (in scripted order)
+
+opcodes:
+rx <angle>; rotate around Ox by <angle> degrees
+ry <angle>; -//- Oã
+rz <angle>; -//- Oz
+tr <x> <y> <z>; - translate by 3 axes
+sc <x> <y> <z>; - scale by 3 axes
+name <name>; - sets matrix name (for "copy packed")
+
+type in the script and "Calc" + "Copy Packed"
+
+Matrice now goes to the clipboard. Then in vcpp - paste:
+
+
+char  <name>[10]={1,2,3,4,5,6,7,8,9,0}; //<----this is a packed matrice
+      ^your name here (for example packed_m)
+
+MATRIX m;
+m.Unpack(&packed_m);
+Finished. Matrice is ready to use

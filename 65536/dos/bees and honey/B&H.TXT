@@ -1,0 +1,49 @@
+ATTENTION! IF YOU FIND ANY KIND OF DESIGN IN THIS INTRO, YOU MUST CALL INTERPOL
+AT +41-TOP-SECRET IMMEDIATELY!
+
+Bees and Honey by Mindprobe
+
+This 64k-intro came ?th(?st/?nd) at Assembly'94 introcompo.
+
+As always, we have to excuse ourselves for releasing such a lame and
+undesigned production. Here's some of the best ones
+  -it was coded mainly in one week  => bad optimizing and no design
+  -beer ran out 		    => no fun...
+  -cross was working his butt off   => really-quick-made gfx
+  -too sunny			    => we had sumthing else to do...
+  -sysostar's trip to ass'94        => no computer at ass until the night of
+				       friday (thanx to sorrox for lending
+				       their computer!)
+  -more beer came		    => more sumthing else to do...
+  -evil samurai cut off mainframe's => he had to type with his tongue
+   fingers
+
+B&H.ZIP should contain
+       B&H.EXE     executable
+       B&H.TXT     this textfile
+       MPROBE.TXT  information about mindprobe
+       FILE_ID.DIZ package information for BBS'es
+
+Specific credits:
+3D doom-engine
+    code by Mainframe
+    graphics by Cross
+logo's and stuff
+    code by Synapse
+    graphics by Cross
+delayglenzlinevectors
+    code by Synapse
+    graphics by Cross
+texturerotator
+    code by Synapse
+    graphics by Cross
+3dliveplasma
+    code by Synapse
+splitting ball
+    code by Synapse
+
+
+FOR MORE INFORMATION ABOUT MiNDPROBE, CALL THE NEAREST POLICE STATION!
+(or read mprobe.txt)
+
+singing off... (i'm signing in the rain)

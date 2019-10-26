@@ -1,0 +1,121 @@
+SI
+
+Copyright (c) 1998 Martin Vilcans
+
+Email: marvil@algonet.se
+Home page: http://www.algonet.se/~marvil/
+
+This game was originally meant to be a submission to the "256 byte space invaders
+competition", but after coding for a while, I realized that I would not be able to fit all
+the features I wanted into 256 bytes. I didn't want to start removing things (the graphics
+or the movement scheme could have been made simpler for example), so I just got bored of it
+and quit.
+
+A few months later, I decided to finish the game, even if it wouldn't fit in 256 bytes. I
+guess that is no problem, since most people have more RAM than that nowadays. :-)
+It ended up being 287 bytes. The game was made with NASM with an unknown version number.
+The source should be included together with the game.
+
+Here's a copy of the game manual:
+
+
+                      /------------------------------\
+                      |                              |
+                      |  ############  ############  |
+                      |  ####              ####      |
+                      |  ####              ####      |
+                      |  ############      ####      |
+                      |          ####      ####      |
+                      |          ####      ####      |
+                      |  ############  ############  |
+                      |                              |
+                      \------------------------------/
+
+INTRODUCTION
+------------
+Thank you and congratulations for buying SI! We are certain you'll find this game to be
+more amusing, interesting and challenging than anything you have ever played before.
+
+FEATURES
+--------
+Being a recently developed, cutting-edge entertainment application, SI is packed with
+features, including the following:
+
+High resolution graphics
+------------------------
+SI displays graphics in 256 colour 320x240 pixels mode, giving the utmost in gaming
+experience!
+
+MultiBlast(tm) rapid fire
+-------------------------
+SI uses MultiBlast(tm) technology for rapid fire and destruction! Unlike most other games,
+you can fire more than one bullet at a time, resulting in the ultimate blastorama!
+
+Several lines of smooth moving AI-controlled aliens
+---------------------------------------------------
+SI features several aliens, each individually blastable, moving smoothly across the screen!
+The movement of the aliens is controlled by a state-of-the-art AI engine, which doesn't
+change the direction of the aliens or move them down until one or more of them has actually
+hit the edge of the playing area!
+
+Mouse controlled spaceship
+--------------------------
+SI uses the latest in HCI development: a device called a "mouse", which will give you
+accurate, fast and flexible control over your on-screen spaceship!
+
+
+SYSTEM REQUIREMENTS AND INSTALLATION
+------------------------------------
+
+Before installing SI, check your system against the following requirements:
+
+* An IBM PC or 100% compatible running MS-DOS or PC-DOS version 1.0 or later.
+* An 80386 or newer processor running at a clock speed of at least 12 MHz
+* A graphics card and BIOS capable of displaying 320x240 pixels in 256 colours.
+* A correctly installed mouse
+* Approx. 512 bytes of free hard disk space (not required if running from disk)
+
+To install SI, insert the 5 1/4" disk into your disk drive. (SI is available in the newer 3
+1/2" format at an additional cost of $10. Consult our product department for information.)
+Then type (assuming A: is the device letter of your disk drive, consult your hardware
+documentation):
+
+C:\> mkdir si   <return>
+C:\> cd si      <return>
+C:\> copy a:si.com  <return>
+
+In case you do not have a hard disk installed, or you want to save space on your hard disk,
+it is possible to run the game directly from the disk. Just type:
+
+A:\> si   <return>
+
+RUNNING SI
+----------
+To start SI, change to the directory where SI.COM is located (which can be on your hard
+disk or on a disk). Then type:
+
+C:\SI> si
+
+The game will start immediately.
+
+GAME OBJECTIVE AND CONTROLS
+---------------------------
+Moving the mouse horizontally will move your on-screen spaceship. Note that, unlike
+keyboard controlled systems, the ship will move faster the faster you move the mouse. We
+are certain this will give you a true feeling of reality and control.
+
+If you press the mouse button, your ship will fire a bullet. The MultiBlast(tm) system
+allows you to repeatedly press the mouse button to fire more than one bullet at a time.
+
+The goal of the game is to blast away the aliens that are attacking earth. The aliens move
+right to left and left to right across the screen. When reaching the edges of the screen,
+the aliens move down. When one or more aliens have reached the ground level, earth has been
+conquered and the game is over.
+
+If you destroy all of the aliens, another attack wave will appear, this time more
+menacing than ever!
+
+TIP
+---
+The aliens will not move down until an alien hits the right or left border of the screen.
+So if you blast away the aliens in the edges, you'll keep the aliens from moving down.

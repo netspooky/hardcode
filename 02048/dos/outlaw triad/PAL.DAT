@@ -1,0 +1,20 @@
+
+Label Palette Byte              ; Palette data for 16 colors
+     DB  07h,07h,3fh            ; Base color
+     DB  07h,07h,3fh            ; 15 shades
+     DB  0bh,0bh,3fh
+     DB  0fh,0fh,3fh
+     DB  13h,13h,3fh
+     DB  17h,17h,3fh
+     DB  1bh,1bh,3fh
+     DB  1fh,1fh,3fh
+     DB  23h,23h,3fh
+     DB  27h,27h,3fh
+     DB  2bh,2bh,3fh
+     DB  2fh,2fh,3fh
+     DB  33h,33h,3fh
+     DB  37h,37h,3fh
+     DB  3bh,3bh,3fh
+     DB  3fh,3fh,3fh
+
+EmptyPalette DB 16*3 DUP (0)    ; Used to fade palette

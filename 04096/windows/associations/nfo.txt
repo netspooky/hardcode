@@ -1,0 +1,45 @@
+===============================
+		Associations
+===============================
+4k intro by rimina / Paraguay
+	Solskogen 2016
+===============================
+
+===============================
+    ACKNOWLEDGEMENTS
+===============================
+
+I have used 4klang, crinkler, shader minifier and hg_sdf library for this demo.
+I want to thank the authors of these tools for making this intro possible!
+				You are great! <3
+
+Extra thanks to Urs for letting me use his computer to finish this.
+You are awesome (but I still stick with the pink colorscheme :) )!
+
+Thanks to Noby for nice discussions about intros, raymarching,
+aesthetics and stuff. I have applied some things from your
+batchelors thesis here as well. :)
+
+===============================
+    GREETINGS TO
+===============================
+    Wide Load,
+    TPOLM,
+    rtificial,
+    Quadtrip,
+    Primitive,
+    Owlification,
+    oobc,
+    Nalleperhe,
+    Mercury,
+    Jumalauta,
+    Ivory Labs,
+    Gluster,
+    flo,
+    Epoch,
+    Conspiracy,
+    Alumni,
+    
+    all the nice sceners I have met here and there.
+    
+    

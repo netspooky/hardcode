@@ -1,0 +1,70 @@
+                                                       
+  sS$$$S          .sS$$s s$      sS          .s$$$s.   
+ .$$"""" ..   .. sSS"""` S$L..   $$  .....  .S$"'"$S.  
+ s$$$$$  'SS.SS':$$      $$$$$s  $$ .S$$$Ss S$"   "$$: 
+ S$$"""   "SNS" :$$      $$  S$ .$S s$.  $$ $$:   :$$: 
+ $$S.... .s$^$s. $$s.... $S  S$ s$" s$S..$$ "$Ss.sS$"  
+ S$$$$$S S$" "SS '"$$$$" $"  S$ S$'.S$$$$S"  `"$$$"`  
+ silent'09                         $$"                      
+===============================--  "" --==============
+
+"Extensive Chip Compo" Rules v.2.2 by Silent 
+date: 09.06.2009 13:10 
+
+General items of Rules:
+
+> The allowed module formats MOD,S3M,XM,IT,BRT,STC,ASC,STP,PT3,PSC,FTC,SQT,NSF, SID.
+> The use of VST is forbidden (except category 3).
+> Only one module from one author is accepted in each category.
+> No plagiarism, remakes and remixes in the modules (except category 5).
+> The organizers have the right to participate in the competition.
+> The organizers have the right to disqualify the module if it does not conform to the rules of the competition.
+> The deadline is September 1, 2009.
+> The voting will be public and available on the web-site within one week after the deadline.
+
+Categories of Compo:
+
+1. 4 kb executable Picatune Chip Tune Compo
+The size of the exe file should not exceed 4 kb ( 4096 bytes )
+
+
+2. 32 kb Chip Tune Compo
+The size of the module should not exceed 32 kb ( 32768 bytes )
+The allowed module formats MOD,S3M,XM,IT,BRT (internal compression allowed).
+
+
+3. 48 kb executable Chip Tune Compo
+The size of the exe file should not exceed 48 kb ( 49152 bytes )
+
+
+4. 64 kb Chip Tune Compo
+The size of the module should not exceed 64 kb ( 65535 bytes )
+The allowed module formats MOD,S3M,XM,IT,BRT (internal compression allowed).
+
+
+5. 64 kb Remake Chip Tune Compo
+The size of the module should not exceed 64 kb ( 65536 bytes )
+The allowed module formats MOD,S3M,XM,IT,BRT (internal compression allowed).
+The module should be necessarily a remake/remix of music!!!
+
+
+6. 100 kb Chip Tune Compo
+The size of the module should not exceed 100 kb ( 102400 bytes )
+The allowed module formats MOD,S3M,XM,IT,BRT (internal compression allowed).
+
+
+7. ZX-Spectrum Chip Tune Compo (AY/YM)
+The allowed module formats STC,ASC,STP,PT3,PSC,FTC,SQT.
+
+
+8. NES Chip Tune Compo
+The allowed module format NSF.
+Use chips: 2A03/07, VRC6, VRC7, MMC5, FDS, N106, FME7.
+
+
+9. C64 Standart Chip Tune Compo
+The allowed unreleased executable C64 files for SID 6581 or 8580, C64 PAL only!
+Use standard C64 hardware configuration.
+Use chips: 6581 or 8580.
+
+[/]

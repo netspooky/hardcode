@@ -1,0 +1,30 @@
+     FFFF  RRR    AA    CC   TTTTT   AA   L          L    IIIII  FFFF  EEEE
+     F     R  R  A  A  C  C    T    A  A  L          L      I    F     E
+     FF    RRR   AAAA  C       T    AAAA  L          L      I    FFF   EEE
+     F     R  R  A  A  C  C    T    A  A  L          L      I    F     E
+     F     R  R  A  A   CC     T    A  A  LLLL       LLLL IIIII  F     EEEE
+
+								by Seven
+
+  Fractal Life competed at the Wired'98 4K-compo. It placed 3rd out of 6.
+  It requires about 350 K free memory to run. There is no error-handling, so
+  if you have not enough memory free, it will probably just hang, or overwrite
+  some TSR. There should be no problems running it from Win 95, though.
+
+  Fractal Life contains:
+  - Some bezier curves on a background of cellular automates.
+  - 3 IFS-fractals and a nice title.
+  - a whirling fractal, with some kind of motion blur.
+  - a Hilbert line as a background for the crossword-greetings.
+  - Conways game of Life on a infinite tiled floor.
+
+  If you are wondering why it's only 3946 bytes, there was supposed to be an
+  "THE END" - screen after the last part, but due to some strange bugs, a lack
+  of sleep and the deadline, I had to remove it.
+
+  Fractal Life was made on a 486 DX2/66, but since the competition machine was
+  a P200 MMX, I had to change the timing of certain parts. As a result, you
+  need at least a pentium, otherwise some parts run too long.
+
+  Thanks to Green for the transport to Wired, and to the Wired organizing staff
+  for the great party.

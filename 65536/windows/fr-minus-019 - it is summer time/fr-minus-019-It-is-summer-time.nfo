@@ -1,0 +1,44 @@
+
+                               farbrausch
+
+                    fr-minus-019: It is summer time
+
+                                  by
+
+                                 BeRo
+
+This 64k intro is designed for 1080p for high-end GPUs (Geforce GTX970 and 
+up), so if your PC, primarily your graphic card, is too slow, this 48kb-
+sized 64k intro will not only run at low framerates, it will break apart 
+terribly. 
+
+Information for the quality levels:
+
+Ugly @ 1080p     = Factor sqrt(1.0 / (1 << 4)) =   480x270 frame buffer object render targets
+Low @ 1080p      = Factor sqrt(1.0 / (1 << 3)) =   679x382 frame buffer object render targets
+Medium @ 1080p   = Factor sqrt(1.0 / (1 << 2)) =   960x540 frame buffer object render targets
+High @ 1080p     = Factor sqrt(1.0 / (1 << 1)) =  1328x764 frame buffer object render targets
+Ultra @ 1080p    = Factor 1.0                  = 1920x1080 frame buffer object render targets (1:1 ratio)
+Ultra+ @ 1080p   = Factor sqrt(1 << 1)         = 2715x1527 frame buffer object render targets (pratically supersampling!)
+Ultra++ @ 1080p  = Factor sqrt(1 << 2)         = 3840x2160 frame buffer object render targets (pratically supersampling!)
+Ultra+++ @ 1080p = Factor sqrt(1 << 3)         = 5431x3055 frame buffer object render targets (pratically supersampling!)
+Overkill @ 1080p = Factor sqrt(1 << 4)         = 7680x4320 frame buffer object render targets (pratically supersampling!)
+
+And you should do at least a real quadcore Intel i5/i7 CPU (from the 
+SandyBridge generation and up), otherwise you can get sound buffer 
+underruns, because the physically-modelled instruments in the soundtrack are
+very computationally intensive.
+
+ZIP-password for the .exe binary executable is: dtv8uc8
+
+
+
+
+
+
+
+
+
+
+
+

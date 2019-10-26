@@ -1,0 +1,22 @@
+BitsLife by Wiz from Trolls In The Shadows
+                     ( . Y . ) http://tits.haxx.es/
+
+As always, a last minute prod so this READMEPLZORDIE will be real short.
+It's unfinished and bad and I should be feel bad but I still wanted to release something, for one time I'm living near a demoparty.
+I wanted to try something without raymarching and still have fun.
+The music was really rushed, without having made any real tune before by myself, so I had to use sonant-js.
+Promise, in the future I'll study the music field more as it was fun (I make the BASS \o/).
+
+The default resolution is the demomachine one, so 1680x1050.
+You can modify that in the start of intro.js, then use compile.bat to recompress the intro and run index.html.
+Or skip compile.bat and use index-uncompressed.html.
+
+Thanks:
+-------
+Youth Uprising
+bits'n'bites
+adinpsz
+The whole demojs team
+FRequency
+Popsy Team
+and the usual (really sorry, no time)

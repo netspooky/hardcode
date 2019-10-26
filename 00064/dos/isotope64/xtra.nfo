@@ -1,0 +1,10 @@
+
+  .title........isotope64
+  .author.......Rudi
+  .desc.........based on very simple cellular automata computation.
+		add initial bx for ca-rule.
+		increase add bx,6 operand for different fluid-behaviour
+		the range might be too large for experimentation as it is
+		not very optimized.
+  .greets.......frag, #c64, trsi, hoaxers, ephidrena,
+		and everyone who deserves it.

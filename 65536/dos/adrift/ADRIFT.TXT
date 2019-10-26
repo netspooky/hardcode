@@ -1,0 +1,131 @@
+€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+				 ˘A˘D˘R˘I˘F˘T˘
+
+				     a.k.a.
+
+				    DRIFT II
+€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+
+
+			Table of contents
+			----------------
+			I   -  General Information
+			II  -  Technical information
+			III -  Trouble shooting
+			IV  -  How to contact us
+
+
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+			I   -  General Information
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+
+
+		After a long time of inactivity Wild Light presents a new
+	production: Adrift, an intro for The Party'96. We ran completely out
+	of time making this intro and we got the competition version ready
+	just before the deadline. Unfortunately it was way too slow and dark
+	on the big screen. Here comes the final version with at least
+	some fixes. Hope you like it.
+
+	In this package you should find following files:
+
+		ADRIFT.EXE, 65513 bytes
+		ADRIFT.TXT, 4590 bytes
+		FILE_ID.DIZ, 115 bytes
+
+		We have been extremely busy lately. Asmu and our new musician
+	S^tone were about a year in the finnish army since Asm'95 and
+	currently Siffo and Nobody have been in the army since Asm'96.
+	As you might have noticed, Vulture has changed his alias to Siffo and
+	Odd Monk has changed it to OM.
+
+	So the current member list looks like this:
+
+		Name             Alias     Job
+
+		Timo Sihvo       Siffo     Coder
+		Samu Uimonen     Asmu      Coder
+		Tommi Uimonen    Nobody    Musician
+		Petteri HiisilÑ  S^tone    Musician
+		Tuomas Murole    OM        Graphic artist
+		Mikko HeikkilÑ   Preacher  Graphic artist
+
+
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+			II  -  Technical Information
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+
+
+		Adrift runs in protected mode under our own extender.
+	It should work under DOS with all configurations like clean, HIMEM,
+	EMM386 or QEMM. The extender don't support DPMI yet, so Adrift won't
+	work under Windows or OS/2. We use 486 and FPU instructions, so
+	you need at least 486DX processor to run this. There was no space for
+	detection routines, so if you try this on a 386 or slower it will
+	probably just crash. :) 
+	
+		You should have set the BLASTER or ULTRASND environment
+	variables correctly if you wanna use the autodetect option in the
+	menu. The song takes over 800K, so you need 1MB DRAM on your GUS
+	for it.
+
+		Adrift supports two video modes. The low resolution mode
+	is a tweaked 320x240 and it should work with a standard VGA graphics
+	card. The high resolution mode is a 640x480 VESA mode and it should
+	work with VESA compatible SVGA graphics cards. The high resolution
+	mode needs a very fast machine and graphics card, for example P150
+	with a Matrox Millenium. We recommend the low resolution mode for
+	slower machines, because it's so much faster and looks better.
+
+		With GUS or no sound Adrift requires 4MB memory for low
+	resolution mode and 8MB for high resolution mode. Minimum requirement
+	is about 420K low memory and 1800K high memory (lowres, no sound).
+	Sound Blaster requires some extra memory for samples and the surround
+	effects sound quite bad in mono..:)
+
+
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+			III -  Trouble shooting
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+
+
+	The intro crashes when you run it:
+		- Run the intro before any other programs
+		- Try different boot confiqurations
+		- Make sure you have a 486DX or better
+
+	Autodetect won't find your card:
+		- Check your environment variables
+		- Here's the examples for port 220H and IRQ 7
+		set ULTRASND = 220,1,1,7,7      (port,dma1,dma2,gusirq,sbirq)
+		set BLASTER = A220 I7 D1 T1     (port,irq,dma,cardver)
+
+	GUS won't start music:
+		- Run ULTRINIT before running the intro
+
+	GUS plays some crap:
+		- Make sure you have 1MB memory on your card
+
+	Something else happens:
+		- What on Earth could happen? ;)
+		- You just have to fiqure it out by yourself
+		- We would be clad to hear about all bugs you can find
+
+
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+			IV  -  How to contact us
+≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤≤
+
+
+	Siffo:
+
+	Snail mail:
+	Timo Sihvo
+	Mustakallionkuja 11
+	55610 Imatra
+	Finland
+
+	Asmu:
+
+	E-Mail:
+	uimonen@lut.fi

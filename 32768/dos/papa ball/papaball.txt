@@ -1,0 +1,49 @@
+----------------------------------------------------------------------------
+
+                                 P A P A     B A L L     ! ! !
+                                         von
+                                    [cori] of DAL
+
+----------------------------------------------------------------------------
+
+Jau hier isses nun. Wieder ein Produkt aus der Reihe:
+
+		"Software die die Welt nicht braucht " !
+
+
+Rechte:
+
+Dieses Spiel als auch der Sourcecode ist frei. Macht doch was ihr wollt damit.
+Nur kommerziell genutzt darf das Programm nicht werden. Um fleissiges 
+kopieren wird entschieden gebeten. Auf Shareware bzw. Freeware CDs darf das 
+Programm nur vollstaendig vertrieben werden.
+
+Files:
+
+Hier die Liste der Files die dazu gehoeren:
+
+NAME:			GROESSE:	KOMMENTAR:
+papaball.exe		32739		Das Spiel ansich
+papaball.bas		23453		Das QBasic Programm
+papaball.txt		 1611		Dieses File
+
+Zum Spiel:
+
+Ich hatte mir gedacht das gute alte Telespiel (wisst ihr noch das mit der
+Poti-Steuerung ?) sollte doch auch mal auf einem PC laufen. Gesagt getan.
+Hab ich halt das Spiel programmiert. Die Squash-Single-Player-Variante. Es
+ist ansich ein Akanoid-Clone, nur das man hier keine Steinchen abballern kann.
+
+Das Spiel ist recht simpel. Du musst versuchen den Ball so lange wie moeglich
+im Spiel zu behalten. Wenn der Ball (naja wohl eher Qaudrat :)) an eine Wand 
+geraet bekommst du einen Punkt dazu. Wenn du den Ball erfolgreich zurueck 
+schlaegt bekommst du 10 Punkte. Das ist schon das ganze Spiel ;)).
+
+Spielsteuerung:
+
+	y
+
+
+Kontakt:
+
+coribaby@mail.netwave.de

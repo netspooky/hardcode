@@ -1,0 +1,41 @@
+        __________._____________    ___________________________
+        \______   \   \______   \  /  _  \__    ___/\_   _____/
+         |     ___/   ||       _/ /  /_\  \|    |    |    __)_
+         |    |   |   ||    |   \/    |    \    |    |        \
+         |____|   |___||____|_  /\____|__  /____|   /_______  /
+                              \/         \/                 \/
+        ____________________  _________ __
+        \______   \______   \/   _____//  |________  ____
+         |    |  _/|    |  _/\_____  \\   __\_  __ \/  _ \
+         |    |   \|    |   \/        \|  |  |  | \(  <_> )
+         |______  /|______  /_______  /|__|  |__|   \____/
+                \/        \/        \/
+
+                                by CaLoDoX!
+
+şù[ WHAT ? ] ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+   Yep, it is what it looks like. A shitty wireframe object with some
+   oldschool-fire and stars blinking in the background. But hey, it's just
+   another addy...
+
+   This is done 100% with TASM and a version QEDIT which seems to be of
+   the stone age (even the object was made with the editor ;)
+
+şù[ WHO ? ] ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  Actually i (Zpider) made it myself, but whenever i need help,
+  i ask dake (big thx).
+
+şù[ WHAT DOES THIS THING NEED ? ] ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+  As it doesn't contain any realtime-raytracing, you should be able to watch
+  it on a P266...nah, kidding. It requires at least a 386, but as the code is
+  very lame (don't debug! ;), it wont run smooth on this machine. On my P120
+  it runs fine, hope that's the case on your PC.
+
+şù[ Greetz ] ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄş
+
+            ...Nowadays, Fake That, Hells Passion, Vantage, TBF...
+      ...Halcyon, Camorra, Complex, Pulse and all my other favourites...
+            ...#chscene, #coders and everybody else i met on IRC...

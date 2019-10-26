@@ -1,0 +1,16 @@
+Title:                Snail
+Type:                 4k procedural graphics
+Created by:           Stepanov Andrey, 2008 ( ICQ:    129179794, 
+                                              e-mail: andrewstepanov@mail.ru )
+3D Graphics software: Open GL 2.0
+Packed by:            Crinkler 1.1  (c) Aske Simon Christensen & Rune Stubbe.
+Tested on:            Windows XP, ATI Radeon 2600 HD. 
+                      Seems NOT to work on NVidia.
+
+  This is procedural version of photo made by photographer Marcus Wallinder.
+I do not know who is this guy but I like his photos :)
+For the reason I do not know NVidia cards do not show this picture correctly.
+I am terribly sorry for this but I have no NVidia to debug on it.
+  You can press "Ctrl" key to move image (just to see this is really 3D).
+Image generating shaders are very "heavy" so program can slowly respond 
+on keyboard (Esc and Ctrl). Please be patient :)

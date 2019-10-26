@@ -1,0 +1,179 @@
+
+
+			      - ->  T  H  E  <- -
+ _ _ _ __________________________________________
+    \\\\____ \_  _______ \_  | \_  | \____ \____ \_
+	| _| _|  __)_ _| _| \_/ |  |  |  |  | _|  |
+	| \_ \_  |  | \_ \_  |	|  |  |  |  | \_  |		     ....
+   .....|  |  |  |  |  |  |  |	|  |  |  |  |  |  |. . ..............:	:
+ ..:	|___.:|___.:|__|.:|__|.:|___.:|___.:|__|.:|	  :   :      :..:
+ :	   `--'  `--'  `--'  `--'  `--'  `--'  `--'       :...:        :...
+ :		    _____ ______________________________   ________ _ _ _ :
+ .................  \_	|_\____ \_ \____ \____ \_ _____ \_ \_  ___////	  :
+ :...	   :	 :   |	__/| _| _|  | _|  |  |	| \_  |  |__|  __)_	..:
+ :  :	...:	 :.  |	|__| \_ \_  | \_  |  |	|  |  |  |  |  |  |   ..:..
+ ...:	:  :......:  |	|  |  |  |  |  |  |  |	|  |  |  |  |  |  |   :   :
+ :	:     .:...  |___.:|__|.:|__|__|.:|__|.:|___.:|___.:|___.:|   :...:
+ :   ...:.....:   :	`--'  `--'     `--'  `--'  `--'  `--'  `--'iC! :
+ :   :	.:.	..:..  ................................. .....	     ..:
+ :...:..: :. ...:   :. : ..... ......: ..:..:... .:.. .:.: :.:. . . .:
+	:.:	:...:		:...:		      :  :..:
+						      :....:
+			     The TBT demo group FAQ
+
+			Q0. Which is the story of TBT ?
+			Q1. Which are TBT members ?
+			Q2. What TBT released so far ?
+			Q3. What are demos, anyway ?
+			Q4. How can I contact TBT ?
+
+---------------------------------------------
+
+Q0. Which is the story of TBT ?
+
+A0.
+    In a cold night of October some guys on #demoita channel led by Swan,
+    decided to form a group called The Bermuda Triangle. These guys were
+    Swan (coder), Matley (musician) and BitStorm (coder). They went
+    together to make an intro for an Italian BBS. But this project turned
+    to a more loaded decision... to make a demo group... they chose the PC
+    and started working on the intro. Then Matley caught ZioBit, a
+    free-lance coder who was talking on #demoita. Matley asked him to join
+    TBT and he accepted the offer, so they were 4.  Then, the next night
+    Matley caught on the undernet IRC server two brothers, Alcar (an
+    artist) and Jazzy (a musician). Meanwhile Dixan, ex-DNG,
+    ex-varajagagagagna (or how damned it should be written) was thinking
+    about joining TBT. Next, he did so. Base8 (an artist/coder) decided to
+    co-operate with TBT while keeping himself independent. TBT was made up
+    of 8 guys now. Swan was also the organizer, but most of the work was
+    done by Matley. In those dog days another italian group died, the NiGHT
+    ViSiON crew. Ice asked TBT to join him, with Crusher, Jovi and
+    Tomastik. An internal round-table was held and TBT decided to join Ice
+    (ascii artist). Next, Matley while was talking with Ice about 'The
+    Trip' (the italian demo party which will be on 11st-13rd April, 1997)
+    asked him what the NiGHT ViSiON guys that remained are doing... Ice
+    re-did the original request... to join also Crusher (coder), Jovi
+    (sysop) and Tomastik (musician). Matley asked the members who were on
+    #bermuda what to do... they said yes. TBT was made up of 12 guys now.
+    But Killer Loop (coder), a friend of Swan who was in Glamour, was
+    thinking about joining TBT. Swan tried to persuade him but he chose to
+    remain the same as before. Now, the group is a little changed... Swan
+    is no longer the organizer and Matley took the empty position, Ice is
+    an organizer, too. Dixan also joined 'The Spinning Kids' another
+    Italian demo group but he didn't left TBT. Enfis (coder) joined TBT,
+    going for overkill with its under-construction 3d Engine, then Jova
+    (coder) which was known by Amiga fame joined. Spirit (coder) joined
+    together with Terminator, too. Spirit was also in Chaotic Visions,
+    another italian demo-group. But the good times don't last forever.
+    Enfis left with Base8 to form another group. His 3d engine was lost but
+    Jova took the opportunity to make it and Jovi was kicked out. But the
+    group wasn't all that. Flagman (artist), an ex-Divina guy joined,
+    showing some great samples of his work.  Now TBT is full of coders...
+    we can sell'em for a nominal fee per piece :).  But remember... TBT got
+    his tribute on Deathstar's world-famous demo "Claudia" which won the
+    Mekka'97 party. Look to the greetings... see those three letters:
+    'Tbt'? No? Then go to a good doctor :). And now the legend continues
+    with 'LIFETRONIC', a 64k intro released at TIG 1997... We came #3...
+    out of 4 intros... :( Control Unit won, followed by Spyral and then...
+    LIFETRONIC ;). Not too bad, Crusher showed the intro before the
+    votations to Randy/Ram Jam, Pellicus/Japotek, Killer Loop, Zero
+    Cool/Tequila, Dr. Kappa/Spyral, Enfis/Medieval and Technolord/Chaotic
+    Visions (as Crusher remembers). Except Technolord who didn't judge, all
+    of them liked that...  The Japotek guys applauded once the intro
+    finished and that worthed more than the Zip Drive which was the prize.
+    Crusher thinks that the main attraction of the intro was the original
+    Commodore 64 loader sequence, which was emulated in every detail (sorry
+    for the huge borders :( ), but surprisingly enough, those heavy-duty
+    coders didn't knew how Crusher did those decrunching bars on the VGA
+    border... A bit of satisfaction :). After all, this two-weeks intro got
+    a great feedback by those "quality" sceners, at least. Matley came #10
+    with its multichannel module. #10 out of 25 :) and Swan came #9 in the
+    graphic compo.
+
+    That's all for now... Go further and enjoy the show ! :)
+
+---------------------------------------------
+
+Q1. Which are TBT members ?
+
+A1. The members are (in alphabetical order):
+
+	Alcar				Artist
+	BitStorm			Coder
+	Crusher 			Coder
+	Dixan				Musician
+	Flagman 			Artist
+	Ice				Ascii
+	Jazzy				Musician
+	Jova				Coder
+	Matley				Musician
+	Spirit				Coder
+	Swan				Coder & Artist & Ascii
+	Terminator			Coder
+	Tomastik			Musician
+	ZioBit				Coder
+
+---------------------------------------------
+
+Q2. What TBT released so far ?
+
+A2. Here comes the list...
+
+
+    A Big Sky	 TBT-ABSK.ZIP	 #10 at the TIG 1997 Multichannel compo
+				 XM Tune by Matley
+
+    Lifetronic	 TBT-LTRN.ZIP	 #3 at the TIG 1997 64k intro compo
+				 Code:Crusher/GFX:Base8/Music:Dixan
+
+    QKP 	 TBT-QKP .ZIP	 #9 at the TIG 1997 Graphic compo
+				 Picture by Swan
+
+    You can find them at USS STATION, the TBT WHQ, mantained by Terminator.
+	Call now ! +39-2-3574125 from 22:00 to 7:00 CET, 7 days a week.
+
+
+---------------------------------------------
+
+Q3. What are demos, anyway ?
+
+A3. Taken and adapted from alt.sys.amiga.demos FAQ (done by H0l):
+
+    >> Demos, (short for 'demonstrations'), are executable programs created 
+    >> purely for art's sake, featuring impressive or spectacular 
+    >> audiovisuals. Demos are not actually functional or interactive, in the 
+    >> main, but then nor are portraits, or CDs. Perhaps you can think of a 
+    >> demo as a music video on a computer, but with equal emphasis on the 
+    >> visuals, the music, and the code. It's something to watch, enjoy, and 
+    >> marvel at the creativity of. Demos can be beautiful. :)
+
+    >> Please note that the PC Demos FAQ is contained on the "PC Demos 
+    >> Explained" page at: 
+
+    >> http://www.cdrom.com/pub/demos/hornet/html/demos.html
+
+    Thanks (and credits) MUST go to Simon Carless, a.k.a. h0l.
+    He can be contacted at: 
+				     hollywood@kosmic.org
+
+---------------------------------------------
+
+Q4. How can I contact TBT ?
+
+A4. Here is the list with all the E-Mail adresses.
+
+		 Alcar and Jazzy   laheys@gateqnet.conecta.it
+		 BitStorm	   gdalbore@cisea.it
+		 Crusher	   pippo_baudo_@hotmail.com
+		 Dixan		   dixan@freenet.hut.fi
+		 Flagman	   fm@tau.it
+		 Ice		   tarantula666@hotmail.com
+		 Jova		   jova@asisud.net
+		 Matley 	   matley@www.teknet.rgn.it
+		 Spirit 	   r.calcinelli@feltre.nettuno.it
+		 Swan		   swan@ats.it
+		 Terminator	   rudy73@geocities.com
+		 Tomastik	   nardia@dada.it
+		 Ziobit 	   athreyu@arpnet.it
+
+[That's the end of the file (as we know it)]

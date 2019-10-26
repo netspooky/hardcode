@@ -1,0 +1,189 @@
+Crinklered by iq/rgba at 2007
+
+Why not... thanks to Crinkler this compresses to 3k now :)
+
+iq
+
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ->
+
+
+
+Port by iq/rgba at 2004
+
+ Long time since I created this small intro with Geiger... However, I never saw it again
+in the last three years, due to some vesa problems in both my dos6.2 and win98 at home... 
+So, since I had all the source code and it was not too ugly, I ported it yersteday in some 
+hours (convert from tasm to nasm, small changes in the synchro, windowing and better antialiasing...).
+But here it is, pixel to clone to the original one, with the glorious generated antialiased fonts. 
+I hope you enjoy it. Ah, and be patient, it takes some seconds to start :)
+
+iq
+
+<- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ->
+
+
+ 
+ [ JSlide 4k ]
+
+ . glue 2001
+
+ . presented at Durango Party 2, spain, april 2001
+
+ . code           : iq, geiger
+ . pmode extensor : Maxwell Sayles
+ . apack          : Jibz
+
+
+
+
+
+
+
+ [ some messages ]
+
+
+ . aviso importante :  Ésta es  una versión  provisional de  una intro  que
+   queremos montar con  un slideshow de  fractales.  no  es  una producción
+   terminada.  los lyrics cambiarán,  así como las fuentes,  la duración de
+   la intro y también los fractales. además, se le a¤adir n varias cosas...
+   esta es s¢lo una versi¢n inicial, e intentaré hablar con la organización
+   de la Durango Party para ver  si la pueden poner  en la pantalla gigante
+   para que la gente la vea, fuera de cualquier compo.
+
+
+ . siento  mucho que la  carga de  la intro  sea tan lenta... en  mi 486 de
+   San Sebastián (que es donde la he programado) la intro tarda 64 segundos
+   en calcularlo todo a 320x200 y sin antialiasing...  y claro, 5 minutos y
+   10 segundos  a 320x240  con antialiasing (efectivamente, multiplicad por
+   4*240/200). espero que  todos tengáis  un  ordenador más  rápido que  mi
+   486... y  si no es así, disculpadme.  de todas formas, si sois pacientes
+   se puede ver hasta en un 386, porque no he utilizado ninguna instrucción
+   especial (FCOMI, CMOV o MMX), pero creo que ser  la £ltima vez.
+
+
+ . es  una pena  que  todos los  fractales que  hay  en esta intro sean tan
+   parecidos entre sí. la razón es que he utilizado un único algoritmo para
+   dibujar todos los julias,  a pesar de que el generador que tengo soporta
+   hasta 8 diferentes. ya se sabe, cosa de las prisas. también he utilizado
+   una sola manera de mezclar las dos únicas capas que hay,  de modo que la
+   variedad  de los dibujos es  aún menor.  además,  por si fuera poco,  el
+   generador no  funciona en el 486,  de modo que  he hecho estos fractales
+   prácticamente "a ciegas"; poco más o menos probando valores... menos mal
+   que me sé el Mandelbrot de memoria, je!
+
+
+ . como  curiosidad,  cada julia  ocupa 61  bytes,  aunque  podría amañarse
+   fácilmente  para que ocupase  la mitad o  así... la  pena es que no  hay
+   tiempo, pero tampoco importa; el resto del  código tanpoco está forzado,
+   así que qué más da!
+
+
+ . las tres razones que hicieron nacer esta intro:
+
+   .1  la intro de 4k que estamos montando y  que intentamos presentar en la
+   Xunta Party anda mal de  espacio (como muchos ya sabéis),  y no nos entra
+   la rutina de  generar julias (aunque sólo son 259 bytes).  así que, antes
+   que dejarla perdida en el olvido, mejor utilizarla en algún lado.
+
+   .2  la verdad  es que no  tengo ni idea,  pero me da la  espina que en la
+   Durango Party no  habrá muchas producciones (ojalá me equivoque), de modo
+   que supongo que todo lo que aporte será bien recibido (espero). de  todas
+   formas, esta intro no tiene intención de presentarse a ninguna compo (aun
+   si en la Durango hubiera una de 4k); tan sólo tiene como objetivo mostrar
+   unos pocos fractales en la pantalla gigante, a ver como responde la gente
+   (no sé si se aburrirán o les gustará...)
+
+   .3  cualquier escusa es buena para no estudiar, como bien sabemos...
+
+
+ . los que seáis de msdos, como yo, tendréis que ejecutar la intro de alguna
+   manera... yo hago "go32-v2 intro.exe", pero supongo que hay alguna manera
+   más elegante (si eso, decídmela). los que uséis windows 95, 98 o milenium
+   os debería funcionar directamente desde una ventana de dos. los que useis
+   windows nt andáis listos.
+
+
+ . quiero agradecer a Ajo que diera el código fuente de su intro de 4k de la
+   euskal pasada (Patrix). su código me sirvió para empezar con los 4k.
+   además, y es por eso que le debo agradecimientos, la versión de esta intro
+   que soporta vesa 2.0 (la original soporta 1.2, que ocupa 300 bytes menos!)
+   tiene ripeado prácticamente al 100% el motor de vesa de aquella intro.
+   tan sólo le pude arrancar un par de bytes, de modo que pongo aquí el
+   cambio para que los autores de esa intro puedan cambiar también esa parte
+   del código si lo creen oportuno:
+
+   cmp     dword ptr es:[18], (XRES or (YRES shl 16))
+
+   supongo que no hacen falta más explicaciones.
+
+
+ . puedes pulsar "pausa" en cualquier momento para ver más detenidamente los
+   fractales. de todas formas, si quieres ver unos bonitos de verdad, visita
+   mi disco duro la próxima party.
+
+
+ . hay varias versiones del ejecutable::
+
+   jslide_a : 320x200x32
+   jslide_b : 320x240x32
+   jslide_c : 320x200x24
+   jslide_d : 320x240x24
+   jslide_e : 640x480x32
+   jslide_f : 640x480x24
+    
+   jslide_g : 320x200x32 + antialias
+   jslide_h : 320x240x32 + antialias
+   jslide_i : 320x200x24 + antialias
+   jslide_j : 320x240x24 + antialias
+   jslide_k : 640x480x32 + antialias
+   jslide_l : 640x480x24 + antialias
+    
+   jslide_m : 320x200x32  (vesa 1.2)
+   jslide_n : 320x200x24  (vesa 1.2)
+   jslide_o : 320x200x24b (vesa 1.2)
+   jslide_p : 320x200x32  (vesa 1.2) + antialias
+   jslide_q : 320x200x24  (vesa 1.2) + antialias
+
+
+
+
+ [ greets ]
+ 
+
+ . fuzzion:
+
+   especiales saludos a Bp y Ufix, que me estuvieron enseñándo algunos
+   truquillos para ahorrar unos bytes.
+
+   tranqui Trace, pronto sacamos algo, no te impacientes ;)
+
+ . rgba:
+
+   nada especial que decir a los vecinos, salvo "nice demo!" por la
+   presentation demo de la Durango.
+   
+ . niako:
+   
+   un guiño a los otros vecinos... euskadi se llena de sceners! ah, nice
+   demo también, y eso que no pudisteis meter el 3d!
+
+ . centosis:
+
+   a ver si sale algo ya, no wav?
+
+ . wildbits:
+
+   bueno, de wildbits realmente sólo conozco a Spock, así que a él le
+   escribo: nos vemos las caras en la euskal!
+
+
+ . gente de bilbo:
+
+    murci  : a ver cuando me programas algo, mamonazo!
+    dj     : aupa itzela!  (((o)))
+    rufus  : si es que no se te puede dejar sólo
+    ion    : cuando conquistemos el mundo destruiremos java, tranquilo
+    chicas : ...ay!
+
+
+ [ end ]

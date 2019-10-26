@@ -1,0 +1,25 @@
+      BITS          
+         5008       
+
+      SunDown       
+      2 0 0 9       
+
+.------------------.
+|M .    .    O     |
+|S        .     .  |
+|D    .        .   |
+|O  .   O    .     |
+|S       .      O .|
+|      .  >()  .   |
+|I   .     .     . |
+|8.         O .   .|
+|6   O  .          |
+'------------------'
+     v20090910      
+
+   bits.atari.org   
+ h.samso@gmail.com  
+
+   Herman Samso J.  
+20090910, Copyright 
+All Rights Reserved.

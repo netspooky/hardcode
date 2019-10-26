@@ -1,0 +1,20 @@
+
+sesamstr, a 4kb intro for linux
+
+you can reach us at:
+
+  Jorik Blaas <jrk@vengeance.et.tudelft.nl> (avoozl)
+  Tijs van Bakel <smoke@casema.net> (smoke)
+ 
+if it doesn't work right away then please have a look
+at the code first; most of it was written at the
+party place -- when we were really tired.
+
+yes we used libggi for debugging. note that you have
+to be root in order to run this demo. it's not only
+svgalib but also the ugly palette switching by
+directly accessing the ports. feel free to change this
+to libggi or X11, but make sure it fits in 4096 bytes
+
+signed,
+smoke

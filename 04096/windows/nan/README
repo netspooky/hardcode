@@ -1,0 +1,49 @@
+NaN
+  by
+ye olde laptops posse
+
+a 4k intro for Evoke 2012 (4th place)
+
+opengl, glsl
+sph, raymarching, very simple custom softsynth
+
+code: w23 (me@w23.ru)
+http://yolp.omgwtf.ru/
+
+20.08.2012
+final version:
+ - works on nvidia
+ - builds for linux and osx
+ - simulation capped @ 20fps (to produce stable results)
+ - mousecursor fixed (thx 2 guys in http://www.pouet.net/topic.php?which=8720)
+ - slightly edited timing and scenes
+
+KNOWN ISSUES:
+ - may not work on Linux running under VirtualBox -- seems to be GL glue/driver issue
+   win32 / VirtualBox works just fine
+ - there still could be some cases of particles disappearance (mostly on nvidia).
+   please email me if you can reproduce this situation
+
+hugs go to:
+	fsqrt
+	orbitaldecay
+	digimind
+	nonoil
+	pirx
+	quite
+	rrrola
+	systemk
+	t-rex
+	throb
+	titan
+	tomohiro
+	t_s=rtx1911=
+	youth uprising
+	sensenstahl
+	quasimodo
+	lft
+	trsi
+	bluflame
+	disaster area
+
+and especially Evoke 2012 organizers

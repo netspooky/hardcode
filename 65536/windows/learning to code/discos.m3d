@@ -1,0 +1,63 @@
+type model3d	# ATC Model3D definition file
+version 1
+
+vertices 18 {
+	0  {    x -200  y  100  z  10 		}
+	1  {    x -100  y  200  z  10 		}
+	2  {    x  100  y  200  z  10 		}
+	3  {    x  200  y  100  z  10 		}
+
+	4  {    x  200  y -100  z  10 		}
+	5  {    x  100  y -200  z  10 		}
+	6  {    x -100  y -200  z  10 		}
+	7  {    x -200  y -100  z  10 		}
+
+	8  {    x -200  y  100  z -10 		}
+	9  {    x -100  y  200  z -10 		}
+       10  {    x  100  y  200  z -10 		}
+       11  {    x  200  y  100  z -10 		}
+
+       12  {    x  200  y -100  z -10 		}
+       13  {    x  100  y -200  z -10 		}
+       14  {    x -100  y -200  z -10 		}
+       15  {    x -200  y -100  z -10 		}
+
+       16  {    x    0  y    0  z  40           }	# top hub
+       17  {    x    0  y    0  z -40           }	# bottom hub
+
+}
+
+surfaces 24 {
+                # circumference
+        1  {    vertices 8,15,7,0  color 0xEEBB1D  }
+        2  {    vertices 9,8,0,1   color 0xEEBB1D  }
+        3  {    vertices 10,9,1,2  color 0xEEBB1D  }
+        4  {    vertices 11,10,2,3 color 0xEEBB1D  }
+        5  {    vertices 12,11,3,4 color 0xEEBB1D  }
+        6  {    vertices 13,12,4,5 color 0xEEBB1D  }
+        7  {    vertices 14,13,5,6 color 0xEEBB1D  }
+        8  {    vertices 15,14,6,7 color 0xEEBB1D  }
+
+                # top
+	9  {	vertices 16,1,0	   color 0x81B2AD  }
+       10  {    vertices 16,2,1    color 0x147369  }
+       11  {    vertices 16,3,2    color 0x81B2AD  }
+       12  {    vertices 16,4,3    color 0x147369  }
+       13  {    vertices 16,5,4    color 0x81B2AD  }
+       14  {    vertices 16,6,5    color 0x147369  }
+       15  {    vertices 16,7,6    color 0x81B2AD  }
+       16  {    vertices 16,0,7    color 0x147369  }
+
+                # bottom
+       17  {	vertices 17,15,8   color 0xA2B2B7  }
+       18  {    vertices 17,8,9    color 0x4E678A  }
+       19  {    vertices 17,9,10   color 0xA2B2B7  }
+       20  {    vertices 17,10,11  color 0x4E678A }
+       21  {    vertices 17,11,12  color 0xA2B2B7  }
+       22  {    vertices 17,12,13  color 0x4E678A  }
+       23  {    vertices 17,13,14  color 0xA2B2B7  }
+       24  {    vertices 17,14,15  color 0x4E678A  }
+
+}
+
+# floyd@atc.no

@@ -1,0 +1,19 @@
+
+	KWAK by CALODOX
+	A NON-COMMERCIAL 4K INTRO
+	first shown at assembly 2002 in helsinki, finland
+
+	            
+                     - champaign is not allowed -
+
+	code by dake
+	
+	thanks to Rasmus Christian Kaae for the small openGL code
+	Gem / Gergely Kutenics for his Dropper util and the famous
+	Nehe.
+
+	it needs at least a GeForce - first generation will do it. 
+	if it doesn't look like beer then suppose it's vodka. 
+	don't tweak your speakers, there's no music.
+
+        www.calodox.org - demoo.calodox.org - life.calodox.org

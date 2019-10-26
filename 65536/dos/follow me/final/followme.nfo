@@ -1,0 +1,225 @@
+    ..:..:..:.:.....::::.::..::.:..:::......:::.:::::::..::::.:.::::..::..
+   .:                    2   m a n y    p e o p l e                      :
+   :.                         p r e s e n t s                           .:.
+    :                                                                  .:
+    :      ÛÛßßß ÛÛßßÛÛ ÛÛ   ÛÛ   ÛÛßßÛÛ ÛÛ   ÛÛ      ÜÛÛÜÛÛÜ ÛÛßßß     :.
+   .:      ÛÛÜÜ  ÛÛ  ÛÛ ÛÛ   ÛÛ   ÛÛ  ÛÛ ÛÛ Û ÛÛ  ÜÜ  ÛÛ Û ÛÛ ÛÛÜÜ       :
+    :.     ÛÛ    ÛÛ  ÛÛ ÛÛ   ÛÛ   ÛÛ  ÛÛ ÛÛ Û ÛÛ      ÛÛ   ÛÛ ÛÛ         :.
+    :      ÛÛ    ÛÛÜÜÛÛ ÛÛÜÜ ÛÛÜÜ ÛÛÜÜÛÛ ßÛÜÛÜÛß      ÛÛ   ÛÛ ÛÛÜÜÜ      :
+  ..:                                                                    :
+    :.:                2nd place at Euskal8 64Kb compo                 :.:
+    :        .         held in Bilbao/Spain - July/y2k  .                :
+    :.:.....::.:.:.:.::.::.:..:.:...::.:.:....::..:..:..:.:...:..:..:.:..:
+      .:      :.                   .:.                     :      
+
+
+================================================================================
+                      *  R E Q U I R E M E N T S  *
+================================================================================
+
+   - Fast machine like PII-350Mhz
+   - 16Mb of free memory
+
+   * DOS version
+      - VBE 2.0 compatible card (if not avaible, mode 13h should work!)
+      - Windows dos box (in plain DOS the intro goes too slow! why???)
+      - SoundBlaster/GUS (also no sound is avaible)
+
+   * WINDOWS version
+      - Windows 9X / Windows NT / Windows2K
+      - DirectX 6.0 (also GDI supported)
+      - Direct Sound compatible sound card (no sound isn't supported!)
+
+   * LINUX version
+      - X11 (support for DGA/non-DGA with variuos EXEs)
+      - Any sound card supported by OSS (no sound is not available)
+      - glibc 2.1
+
+   Watch the command line arguments with '--help' or '/?'
+
+
+
+================================================================================
+                       *  F U L L   C R E D I T S  *
+================================================================================
+
+  (I). OUR CREDITS
+
+    * ack     => raytracer code / design
+    * epsilum => fx code / main code / design / windows port
+    * leunam  => *GREAT* ideas / design
+    * nork    => *GREAT* music
+    * sertrem => illegible fonts
+    * utopian => design / linux player / linux port
+    * wind    => coding ideas / design
+
+
+  (II). ADDITIONAL CREDITS
+
+    * USM/DOS by FreddyV/Useless
+    * MXM/Win32 by Elitegroup
+    * TinyPTC/Win32 by Gaffer
+    * UPX by Markus Oberhumer & Laszlo Molnar    
+    * PMODE/W by Tran
+
+
+
+================================================================================
+                     *  G R E E T S   /   RESPECTS  *
+================================================================================
+
+    We want to greet...
+    * Nork: Thanks for this great music! (ack)
+            Norky, thanks another year!!! (epsilum)
+    * Enlar: The next year will be better! (ack)
+             Cool work at euskal org (epsilum)
+    * Peer_Gynt: Ray tracing boost! Rock the Scene! ;) (ack)
+    * Klauz, Elric, Hlod-Wig, Utopian: Thanks for wake up my scene spirit
+        after the Storm... i Love you! (ack)
+    * Ham/S.Failure: Great amiga demos!!! (epsilum)
+    * Spock/WildBits: Nos vemos en la FI! Zararias rulez!!! X-DDDD (epsilum)
+    * Astraroth/TLOTB: Un tio cojonudo, hi! (epsilum)
+    * Ged/KernelPanik: Siempre estas de co¤a??? X-DDDD (epsilum)
+    * Wind: Todos los a¤os aprendo algo de este peaso de coder! :) (epsilum)  
+
+
+    * Network: Ozu! que arte teneis! (ack)
+               El a¤o que viene tiene que caer el chino! (epsilum)
+    * RgB: Yeah! Our first demo is coming soon... (ack)
+    * Fuzzion: yes, Nice design (ack)
+               Kicks da scene!!!! (epsilum)
+    * Anaconda: Wooow! (ack)
+    * A.C.I.D.: Keep the scene alive! (ack)
+    * Incognita: Platipus 2... when????? ;) (epsilum)
+
+
+    And of course too...
+       CENTOSIS - CHANKA TEAM - CUC MAKERS - ELERIUM CORE - IGUANA
+                   KERNEL PANIK - SENCO - WILD BITS
+
+
+    We send our best regards and respect to...
+  ACME - BLASPHEMY - BOMB - BYTERAPERS - CNCD - COCOON - CRYONICS - CUBIC
+    DIGITAL MURDER - DOOMSDAY - DUBIUS - END OF MILLENIUM - FUTURE CREW
+ FUDGE - HAUJOBB - GODS - KOLOR - KOMPLEX - KOSMIC - MATRIX - NOMAD - NOOON
+   ORANGE JUICE - OXYGENE - POPSY TEAM - PULSE - PURPLE - RAGE - REALTECH
+        SUBURBAN - SUPERSTITION - SYNDROME - TBL - TPOLM - TRITON
+
+    And everyone who liked this intro... ;)
+
+
+
+================================================================================
+              *  W H O   A R E   "2   M A N Y   P E O P L E"  *
+================================================================================
+
+   Tecnicamente "2 many people" es un grupo virtual de la scene formado en
+ la Euskal 8 para la creaci¢n de esta intro (suena bien eh!), y debido a
+ que eramos muchiiiiiisimos, en total 7 personas de 4 grupos diferentes,
+ pues decidimos crear este nombre en los ultimos segundos antes de la
+ deadline. Aqui podras encontrar mas informacion sobre nosotros:
+
+    Handle      Real Name           Group         Email
+   ---------   -----------------   -----------   -----------------------
+    ack         Jesus M.Garcia      RgB^SoS       jesusland@teleline.es
+    epsilum     Luis Osendi         Senco^SoS     epsilum@iname.com
+    leunam      Manuel Sanchez      Network       network@retemail.es
+    Nork        Abraham Sanchez     Network       network@retemail.es
+    sertrem     David Moreno        Senco         the_hell@redestb.es
+    utopian     Javier Pe¤a         SoS           javier_pena@iname.com
+    wind        ???                 Network       network@retemail.es
+
+
+
+================================================================================
+               *  S A Y   W H A T   Y O U   W A N T !  *
+================================================================================
+
+--| epsilum blah, blah, blah... ZZZZZzzzzzzzzzz... |----------------------------
+    Wow! por fin, despues de mi primera produccion hace 4 a¤os, conseguimos
+ subir al podium de la euskal!! Aunque todo sea dicho, no hubo gran nivel en
+ la compo de 64Kb, solo una destacaba claramente, la de Chanka Team
+ (enhorabuena chicos!). Ademas falt¢ algo de IQ y Murci (espero que el a¤o
+ que viene nos asombren a todos como siempre!!), y algo tambien de Fuzzion.
+
+   La historia de esta intro se empieza a pensar justo despues de la ultima
+ euskal, pero como siempre pasa, se empieza dejando un poco, luego vienen los
+ examenes, las chicas (eys! no esto no que soy coder!!), los problemas...
+ vamos que hasta un mes antes no tenia ningun efecto curioso, asi que a
+ codear a tope despues de los examenes para tener algo presentable. Despues
+ de un mes tenia suficientes efectos para la intro, ademas de un generador de
+ texturas, que podia dar mucho juego, pero como siempre, falta algo... la
+ musica!!! dios no habia ya casi tiempo!!, asi que le mando a Nork un mail, y
+ me deja tranquilo diciendome que para la party tendria un modulo, y que sino
+ alli lo hacia en un par de horas :)
+
+   Bien, despues de un viaje sin demasiadas incidencias con el peaso de
+ cochazo de Utopian (HP rulez!), llegamos a la party, y vemos a los de
+ Network, cuando cual es mi sorpresa... no veo a Nork!! despues de hablar con
+ Leunam, me dice que no llegar  hasta el sabado por la tarde, porque tenia
+ una boda o algo asi! Bueno, tendriamos menos de un dia para montar y
+ sincronizar la intro con la musica, peeeeeeero, quien dijo que la scene era
+ facil??? :-D
+
+   Pues nada, me pongo a dise¤ar efecto a efecto con la ayuda de Wind y
+ Leunam, mientras ACK estaba currandose el raytracer para la intro!! El
+ tiempo va pasando y las cosas van saliendo, pero quedaba bastante claro que
+ no iba a tener alguna idea general, o alguna relacion entre los efectos...
+ seria efecto tras efecto!!
+
+   Bueno por fin llega la deadline, y nos faltan *bastantes* retoques
+ importantes y los creditos/greetings... pero como siempre, la retrasan un
+ "poquillo", BIEN!! tenemos algo mas de tiempo. En este momento sucedi¢ algo
+ que no me gusta recordar demasiado, pero en fin, el nfo es el nfo, y tendre
+ que contarlo: Estaba yo con sertrem en mi ordenador, y decidimos hacer una
+ copia de seguridad del codigo por si acaso. Asi que voy a borrar todos
+ los .obj, y los ficheros inncesarios, cuando cual es mi sorpresa que borre
+ TODO!!! Dios que nervios, Utopian tenia los fuentes de la intro de hacia una
+ hora o mas, habria que volver a hacer todo el trabajo de ese tiempo otra
+ vez!!! Antes de nada perdimos el tiempo tratando de recuperar los ficheros
+ con algun 'recover', pero sin resultado. En fin, despues de esta anecdota
+ Leunam dijo que me llamaria "epsilum 'the deleter'" X-DDDDDDDDDD
+
+   Pero al final nos dio tiempo a volver a poner las cosillas en su sitio, a
+ hacer un scroll, y a presentar la intro!! Pufffs, una vez terminado el
+ trabajo, nos pillamos unas pizzas y a esperar a la proyeccion!!!!!!
+
+   Como no, los problemas no se acabaron, cuando fueron a poner la intro,
+ despues de esperar a la costosa carga (mea culpa!), nos damos cuenta que no
+ suena nada!! menos mal que Utopian fue rapido a organizacion y consigui¢
+ solucionar el problemilla en 3 intentos jejeje :). Pues nada, ahora a
+ disfrutar en la gran pantalla de nuestro trabajo... Parece que gust¢, o por
+ lo menos disimulaban los aplausos X-DDDDDD
+
+
+
+--| aCK special comments |------------------------------------------------------
+   Este a¤o ha sido muy duro para mi. Genesis murio y con el se disiparon
+ todas mis ilusiones para seguir. Creia que no merecia la pena.
+
+   Pero gracias a la insistencia de Utopian y los mensajes de  nimo desde
+ Anaconda me di cuenta que era lo que de verdad me gusta hacer.
+
+   Gracias a todos por animarme y a toda la scene por mantener mi esp¡ritu
+ vivo y alimentar mis inquietudes.
+
+                                                            ack  26-08-2000
+   
+
+--| Utopian speaking |----------------------------------------------------------
+   Another Euskal, another intro, another Linux port :) It's more than a month
+ after the party, and now I don't remember how much effort we had to put in 
+ that frenetic weekend (yes, it was party coding, SORRY!). It was a real 
+ pleasure for me to work together with so many great people, and I can only
+ be proud of the final result. I should speak about the misterious dissapearing
+ of the sources about 30 minutes before the deadline (oh, holy DEL * ;), but I
+ think Epsilum will do it better.
+
+   I promise that our next intro will be Linux native, not Linux port :)
+
+
+
+
+--------------------------------------------------------------------------------
+ signed by "2 many people"                                         02/09/2k
+--------------------------------------------------------------------------------

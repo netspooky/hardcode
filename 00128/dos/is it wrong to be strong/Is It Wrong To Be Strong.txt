@@ -1,0 +1,10 @@
+"Is it wrong to be strong?"
+--------
+
+A 128b prod by lord Kelvin.
+
+The idea was to create some tiny demo with music, so first appeared the _tune_, and only after that was found a fractal, that coud fit in remaining bytes of program. That wasn't too hard. The most efficient optimization was "Is it wrong to be strong?" -> "strong=wrong?".=)
+
+Compiled with FASM.
+
+Great hello from Russia.=)

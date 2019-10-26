@@ -1,0 +1,43 @@
+
+
+                             úVúEúLúVúEúTú úIIIú
+                               (party version)
+
+
+                             FATAL JUSTICE  1996
+
+
+                           HELLFIRE  and  INSANITY
+
+
+                          
+                          5x86-133, 570kB, GUS/NSND
+
+
+
+
+                       ...greets to all our friends...
+
+
+
+                                  trouble ??
+
+                    although emm386 works, boot himem-only 
+                      unload as many drivers as possible
+                       make 570kB base-memory available
+                               
+
+                               evil trouble ??
+
+      we don't care about any damage this intro might do to your beloved
+    hardware and we certainly do not pay for it, but please give us a note
+       about funny things like broken harddisc, monitor, keyboard... :)
+
+
+                                   info ??
+
+    optimization for 8+8kB internal cpu-cache, Pentium's branch prediction.
+      no pentium-only opcodes - actually this does run on 486DX-16, but...
+            Texture-mapper is perspectively corrected each quadword.
+
+

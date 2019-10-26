@@ -1,0 +1,53 @@
+
+                                    mfx
+
+                              transgression 2
+
+
+
+
+                                   info
+
+             due to the "immensely complex raytracing algorithms",
+            this demonstration requires a fast computer, prefarably
+           even, possibly, a fast pentium. a GUS is also recommended
+            for sound.
+
+                            commandline switches
+
+         -hc _ tries to use hi-color mode (works with decpc466d2lp with
+               some s3)
+         -delay <number> _ frame duration in ms (default 130, larger
+                           numbers mean better quality, lower framerate)
+         -rmin _ minimum number of rays per frame (default 100)
+         -rmax _ maximum number of rays per frame (default 400)
+         -nofog _ no fog, looks crappy... like tgr1...
+         -debug _ debug mode, displays numbers of rays per frame and
+                  time in patterns. in this mode, you can skip stuff
+                  with +/-
+
+
+                                disclaimer
+
+          you are not allowed to sell this product, nor are you allowed
+         to include this product on any commercial cd-rom's etc. without
+        our consent. we are not liable for any psychological, physical or
+      mental problems this demonstration may/will cause to you, your family
+                         or your friends. thank you.
+
+
+                                 file list
+
+                         intro.nfo _ this infofile
+
+              mfx22.nfo _ mfx infofile: distsites, prods etc.
+
+                           tgr2.exe _ the intro
+
+                 file_id.diz _ description file for bbs's
+
+
+
+
+                                    mfx
+

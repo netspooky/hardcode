@@ -1,0 +1,24 @@
+Utpikyse - a 32-byte DOS intro from the Puppy Farm
+
+Source:
+
+
+00000000 B013             mov	al,13h
+00000002 CD10             int	10h
+00000004 C537             lds	si,[bx]
+00000006 FD               std	
+00000007 6BDBB1           imul	bx,bx,-0x4F
+0000000A AC               lodsb	
+0000000B 84C7             test	bh,al
+0000000D 41               inc	cx
+0000000E 015701           add	[bx+01h],dx
+00000011 4B               dec	bx
+00000012 BFFE0A           mov	di,0AFEh
+00000015 40               inc	ax
+00000016 AA               stosb	
+00000017 3005             xor	[di],al
+00000019 47               inc	di
+0000001A 75EA             jnz	000000006h
+0000001C 41               inc	cx
+0000001D EBE9             jmp	000000008h
+0000001F C3               ret	

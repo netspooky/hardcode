@@ -1,0 +1,7 @@
+*.d
+*.o
+*.glsl.i
+shader_code.h
+glyphs.h
+intrusion.elf
+intrusion

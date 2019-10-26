@@ -1,0 +1,48 @@
+
+     __._        _.____   _.____   _.____   _.__    ____._    ____._
+   _/  |/________\|_   \__\|_   \__\|_   \__\|__)__/  _ |/___/  __|/____
+  _)   _/      /   /    /   /    /   /    /      (_   __|  (_____      (_
+  \    \      /        /        /   /     \       /         /   /       /
+  /_____\_____\________\________\___\______\______\_________\___________\
+ - -diP--------------------------------------------------------------uP!- -
+
+
+                       Guideline Daily Amount?        
+                    Released(?) at Solskogen 2011
+                    4 kb generated graphics compo
+	
+Credits
+=======
+Code: Psycho (psycho@loonies.dk)
+ 
+Crinkler (1.3) used for compression.
+
+
+Compatibility
+=============
+DirectX 11 graphics card - plain and simple ;)
+
+
+Info
+====
+Four compute shader passes:
+-raymarching (most of the render time is in fact compile time)
+-pre filtering
+-paint filter with actual stroke drawing (many passes)
+-rendering to screen
+
+Originally made as a quick party hack for TRSAC'10 - hence the 
+pepperschnaps reference (which should also work at Solskogen) :)
+
+Then intented for release at TUM'10 until it turned 
+out the "modern graphics card" was more than 2 years old. 
+Finalized and delivered at Revision... for another cancelled 
+compo. So time to try again ;)
+
+
+Additional info
+===============
+http://www.loonies.dk
+
+
+

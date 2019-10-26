@@ -1,0 +1,97 @@
+              - DemoVT - A VangeliSTeam production of 1993-1994 -
+
+            At last,  here's  the  long-awaited  (hehe)  DemoVT, a music
+        system suitable to be used in  graphics  demonstrations,  games,
+        etc.  It  supports all SoundBlasters and SB-compatibles like the
+        Pro Audio Spectrum line  of  cards;  and,  of course, the Gravis
+        Ultrasound.
+
+            This is the second release of the  program;  we  have  added
+        more  interfaces to the original, ASM-only library: TurboPascal,
+        C (Turbo, Borland and MicroSoft  for  real mode, Watcom + Dos4GW
+        for 32-bit protected mode), and Tran's great PMode DOS-Extender.
+        Also, the interface to DemoVT has been improved. Read  about  it
+        in the file WhatsNew.Doc.
+
+            The examples that come  with  the  different  libraries  are
+        quite  different  from  each  other, but the capabilities of the
+        libraries are exactly the  same  (even in protected mode!). They
+        range from boring text-mode examples to the volume bar party  of
+        the  Pascal  example  of our Finnish Fractal Landscape Generator
+        (Finnishcape). Browse thru  the  files  and  you might find some
+        code of interest. The .MOD file was composed and written by  COI
+        in about ten minutes.
+
+            Now,  let's talk about the price of all this. We'll be fast:
+        DemoVT and all  the  files  in  this distribution are absolutely
+        free in terms of money! If you find anything of  use,  you  only
+        have  to  pay  by  crediting and greeting VangeliSTeam/Iguana in
+        your production. OK,  all  this  is  explained in the DemoVT.Doc
+        file.
+
+        ----------------------------------------------------------------
+
+                VangeliSTeam members:
+
+         JCAB  - All of it.
+
+           Contributions by:
+
+         Code  -  Carlos Fern ndez Sanz,  Luis Crespo,  H‚ctor Mart¡nez,
+                  Manuel Petit, CodeBlue (No PAS support yet... O:-)),
+                  ARM, Jare, Cesar Alba and Carlos Quintero.
+
+         Betatesting - Nefron, Javier Olmo, N‚stor Matas, Phil Carlisle.
+
+                Iguana members:
+
+         JCAB      - Coder
+         JARE      - Coder
+         ARM       - Coder
+         Mikel     - Sysop/PR
+         COI       - Graphics/Music
+         Yann      - Coder
+         Noisy Man - Music
+         Nefron    - Betatesting/PR
+         Parasite  - PR/Internet lurker/Parties
+         Thryxxon  - Music
+         ReD Devil - Coder/Graphics
+
+                To contact Iguana or the VangeliSTeam, write to
+
+         Mail     - Juan Carlos Arevalo
+                    Apdo. Correos 156405
+                    28080-Madrid
+                    Spain
+
+         SoundNet - 34:2000/200.16, 34:1000/100
+         FidoNet  - 2:341/27.16, 2:345/805
+         CDNet    - 94:620/201.1, 94:620/200
+         Internet - jarevalo@dit.upm.es
+                    a880104@zipi.fi.upm.es
+         Voice    - +34-1-415-8499
+
+                Or try the BBSs listed in the file DISTSITE.NFO.
+
+           We   make   commercial   demos,  games  and  other  kinds  of
+        software. Don't hesitate to contact us!
+
+        ----------------------------------------------------------------
+
+                Credits:
+
+         DemoVT : JCAB.
+
+         Libraries and examples: Jare, JCAB and ARM.
+
+           Tools  used  include  Borland  compilers,  LZEXE  by  Fabrice
+        Bellard, Animator and DeluxePaint, LHArc, ARJ by Robert K. Jung,
+        QEdit, Boxer, Tech!  Help,  HelpPC,  lots  of  sources from VLA,
+        Tran, PSI and others, and many more I'm sure I've forgot.
+
+        ----------------------------------------------------------------
+
+        Come on! Stop reading this trash and make a demo!
+
+                Madrid, Sunday 17th, April 1994.
+

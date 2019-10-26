@@ -1,0 +1,27 @@
+Etherea1 teaser
+
+For some time now (about 8 months) I'm spending my weekends
+programming this new engine + demo in C++ from scratch
+(using only the OpenGL API, because of the obvious hardware
+acceleration advantage).
+
+All planets are 100% procedural, real sized, have their own
+characteristics (some are Earth like, some not), and have
+orbit and rotation. Planets may have moons orbiting around
+them as well. It is perfectly possible to land at any of
+them, leave the ship and walk around. You can even see
+sunrises and sunsets.
+
+I am developing this demo with a Core2Duo @ 3GHZ and an
+ATI HD5770 with an average of 350 fps in space and 75 fps
+at ground level, using moderate quality (the one shown here).
+Quality is configurable from very low to very high quality
+(at below 30 fps in my 5770, though).
+
+But it runs even on some integrated hardware, like some
+Intel chipsets (around 20 fps in lowest but somewhat
+acceptable quality mode, at ground level).
+
+This is a "teaser" that shows some features of the engine.
+
+Vander "imerso" Nunes, imersiva.com

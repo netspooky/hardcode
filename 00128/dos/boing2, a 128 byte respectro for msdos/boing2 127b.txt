@@ -1,0 +1,20 @@
+﻿This is...
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+BOING2, a 128 Byte Respectro for MSDOS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+By HellMood / DESiRE
+Released 27.06.2015
+♥ to honor 30 years of Amiga ♥
+Tested on DosBox and WinXP Dos
+
+Watch on a 4:3 screen or with
+"aspect=true" under DosBox
+
+Turn the volume up for the ♪ BOING ♫
+
+See Video : https://www.youtube.com/watch?v=GzyAQCnRUPE
+
+Greetings go to every coder out there!
+

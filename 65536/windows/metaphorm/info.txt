@@ -1,0 +1,28 @@
+
+Metaphorm, by inque 
+
+:: release info :: ----------------------------
+
+a 64k demo released at Revision 2012.
+
+made almost completely at the partyplace in
+two days without sleep.
+
+this should work fine on "modern" gfx cards.
+but we only were able to test it on the compo
+machine's 580. 
+
+note: we found out that the version shown at the
+party had a soundengine bug that muted several 
+instruments... so we've added a new version
+in which this bug is fixed.
+
+
+:: credits :: ---------------------------------
+
+code/visuals -- glow
+soundtrack/direction/visuals -- izard
+
+:: cya :: -------------------------------------
+
+www.inque.org

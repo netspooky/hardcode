@@ -1,0 +1,18 @@
+#include <cmath>
+
+  http://www.games-net.de/hosted/tggc
+_______________________________________
+
+
+  .Cmath 10:Octahedron
+
+  .Code:tggc
+
+  .packer:crinkler1.1:(http://www.crinkler.net)
+
+  .greets:asd:calodox:conspiracy:fairlight:farbrausch:fuzzion:kakiarts:
+         :loonies:mercury:nuance:rgba:speckdrumm:still:tbc:tbl:titan:traction:
+         :atla:BlueCobold:mcdeck:matt|6s:pro:rapso:rip:Sgt.Nukem:TomasRiker:
+         :anyone:else:from:#gamedev.ger:und:#cpp
+
+  .requires:d3dx9_25.dll

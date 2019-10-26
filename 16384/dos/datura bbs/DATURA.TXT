@@ -1,0 +1,43 @@
+
+  So here it is another DemaniacS production , a BBS advertisment
+  for DATURA BBS . Maybe too small for 10kb but the intro is
+  written in Pascal so...
+
+  Quick credits :
+   code : Neek & Cpc
+   gfx  : Cpc
+
+  Well the DemaniacS have a new member ! Aris joined in as a musician
+  so the memberlist goes as below :
+
+  Handle   Name                   Age       Jobs
+  --------------------------------------------------------------------
+  NeeK     Nick Kokkalis           20       code&gfx
+  Cpc      Chris Pyrgas            20       the same...
+  Theo     Thodoris Peihamperis    20       music
+  Aris     Aris  Tsaousis          15       the same again...
+
+  Our productions can be found at the ftp.duth.gr ftp site
+  in the /pub/demos/demaniacs/ directory and at our BBS
+  distros listed at the end of this file.
+
+  We send our greetings to all our friends and espesially
+  to the Entropia members...(bgalte demo reee!)
+
+  Email adresses :
+   pyrgas@rodopi.cc.duth.gr
+  nkokkal@rodopi.cc.duth.gr
+
+  And our numerous :) distro sites....
+
+ ษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+ บ   NAME        STATUS          PHONE        SPEED      SYSOP         บ
+ วฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤถ
+ บ  DATURA      Dutch HQ     +31-77-3826795   28800    Demoralize      บ
+ บ                           +31-77-3872195   28800                    บ
+ วฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤถ
+ บ  NIGHTSKY    German HQ    +49-6104-923299  v.34     Swapper         บ
+ บ                           +49-6104-929977  iSDN                     บ
+ ศอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+ l8rs...

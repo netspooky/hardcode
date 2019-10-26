@@ -1,0 +1,32 @@
+
+
+                  .:: Non-Governmental AlterMatter ::.
+
+  - a 64 Kb intro by mankind, for windows32/opengl and linux/OpenGL -
+
+                           code.....krabob
+                           music....bla
+
+ Released at the BCN party %11 in barcelona on november 2003.
+
+ The windows and linux version are included in the archive.
+ macOSX version will follow and will be downloadable from 
+
+ http://www.m4nkind.com. 
+
+ Some other version would follow on strange hardware like 
+ amigaone/aos4 or pegasos/morphos as soon as the drivers 
+ are aviable, or avaïabeul, or available.
+
+ The polygonised character is "jose bove", a french poor 
+ "bio" farmers fighting against the big industry. hopefully 
+ for the moment he is not in jail, only in a 64kb intro. 
+
+ Thanks for your attention.
+
+
+
+
+
+
+

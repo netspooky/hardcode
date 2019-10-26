@@ -1,0 +1,31 @@
+Jetman 4k by Jos "oNyx" Hirth [http://kaioa.com] for the Java 4k Game Competiton MK3.
+
+
+jm4k.jar 3950
+d         144
+-------------
+total    4094
+
+2 bytes left :)
+
+
+You need to install a soundbank to play the game with the JRE (JDK/SDK already has one). Grab it here:
+http://java.sun.com/products/java-media/sound/soundbanks.html
+
+Midsize is enough. Drop the soundbank.gm file into "<jre>/jre/audio/". Usually you'll need to create the "audio" directory first.
+
+
+The game runs in 640x480x32 or 640x480x16 (fullscreen) @0hz - that means it will use the default refresh rate. It's supposed to be played at 75hz. Everything else will result in more or less speed than intended.
+
+
+Run the game in 32bit mode:
+java -cp .;jm4k.jar D
+
+Run the game in 16bit mode:
+java -cp .;jm4k.jar D any arguments will do the trick :)
+
+
+Btw you can fly backwards by pressing (and holding) the direction you want to move to first and then the other one. Some keyboards doesn't recognize left+up+right properly, therefore <down> does the same as <up> (just in case you wondered about that).
+
+
+This pile o'software is provided "as is". Have fun. Don't sue me.

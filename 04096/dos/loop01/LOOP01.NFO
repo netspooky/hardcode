@@ -1,0 +1,73 @@
+
+                           loop01 information file
+
+
+  history:
+The roots of loop01 go back to the summer of '94. For our 64k-intro
+VEX we needed a good packing algorithm and I finally found out how the
+inflation algorithm in pkunzip works by taking a look at pkunzjr.com.
+This worked perfect, we shrunk vex to 65536 bytes. :)
+What a pity that VEX did not make it to the bigscreen at the Assembly '94,
+most probably because of missing gus support, it was a nice intro for that
+time. Later at the end '94 / beginning of '95 I had the idea to
+make a very small executable ZIP unpacker and made a version which did not
+work that well and I postponed that project for the sake of cubic player.
+A few weeks before Assembly '95 I restarted coding on the unpack routine,
+and a week before Assembly it was about 450 bytes long. In the weeks before
+the Assembly I was quite busy, because I had to supply our group with code
+for our animation SPACE01 (player, converter, landscape generator & stuff),
+and we had to finish off cubic player and the contracts for the Party 4 CD.
+
+
+  making:
+Well, it was Sunday by then and I had the idea to make a clone of
+cyboman 2 by complex in 4k to test my packer and use that for the
+4k intro competition at the Assembly '95. All I had was a dithered-gouraud
+polygon routine for flat mode which I then converted to real mode.
+The rest of the code was made in the time from Tuesday to Friday 23:00
+(don't forget the flight to Helsinki...).
+I also wanted to make a flight throught the doughnut and put in
+some birds or fish, but as the deadline was moving closer and closer and
+the code did not like a flight throught the doughnut I dropped those ideas.
+:((  They would have made loop01 a lot more interesting, than just
+those SUCKING, AWEFUL, PPPHHHHHHOOOONNNGG SHADED, (!%(/&%Q(/!"$
+DOUGHNUTS..... AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARRRRRRRRRRRRRRRRRGGGGHHHHHHH.
+I CANNOT STAAAAAAAAND THEM ANYMORE!!!!! I HAD TO WATCH LOOP01 FOR A
+HUNDRED TIMES.... DO NOT DARE TO DO ANYTHING LIKE THAT IN YOUR PRODUCTIONS!!!
+
+
+  4k-compo:
+The 4k-compo compo was cool. You could see many things you did not
+expect in 4k...  loop01 had problems on the bigscreen, it did not run
+smooth at all... :((( I forgot to init the timer correctly. There are
+two timer modes, and on the bigscreen computer the wrong one was set and
+so the donuts went back and forth. On my computer the right one was set and
+I did not test loop01 on any other computer.... (no comments, please!)
+It did not look nice at all. Anyway, that's the way it was. Loop01 finally
+became 10th.
+
+
+  bbs-intro:
+On the Assembly Lukas Grunwald asked me to make an intro for his BBS
+Digital Nightmare in Hildesheim and a month after the Assembly I completed
+it together with DOJ. In that version music, text on the donut, text on the
+phongmap, multiple lightsources and an endansi was added, and some bugs
+corrected. It was 7k in size.
+
+
+  loop01 1.5:
+After the Wired '95 I took the BBS intro and took the music and the
+endansi out, and changed the text to put that version on the Assembly '95 CD,
+because the 1.0 version is somehow to buggy and ugly.
+
+
+  read in gsn:
+"one 4k-intro was pain. lots of donuts spinning around..."
+"the author must have been watching jmagic productions..."
+
+
+That's about it concerning loop01.
+
+greets fly out to all cp users!
+
+                                   pascal / cubic team, 11'95

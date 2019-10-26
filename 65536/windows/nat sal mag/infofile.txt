@@ -1,0 +1,30 @@
+hooray!
+
+this is the infofile for 'nat sal mag' by 0x7a69.au.... made for remedy 2003
+
+too tired to be bothered with fancy ascii shenanigans.
+
+apparently this took 33 hours of solid coding/etc to make from start to finish.
+
+we did cheat though, we had gyr's gl init and window management code and some billboarding
+stuff before we started. oh, and minifmod.
+
+it might have taken less time if we didn't have to share 2 computers, but we did, so
+it didn't.
+
+you need a windows pc with opengl acceleration, and a soundcard...
+
+a decent graphics card probably helps.
+
+ok, so the people involved were:
+
+bananaboy	...	code, music	...	bb@humbug.net
+ript		...	code, music	...	ript@disasterarea.net
+sh0ck		...	code		...	shock@wh3rd.net
+gyr		...	code		...
+
+enjoy!
+
+<bananaboy> gyr, any words of wisdom for the info file?
+<bananaboy> gyr, after all, your name is in the credits
+<gyr> bananaboy, it is?

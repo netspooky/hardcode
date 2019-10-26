@@ -1,0 +1,26 @@
+pb:pt
+64K intro
+http://www.scene.cz/pb/
+
+pbpt.exe
+  * gus & sb support
+  * dos & win support
+  * run this and enjoy (???)
+  * use -s parameter to setup sound
+
+pbpt_pv.exe
+  * gus only
+  * windows dos-prompt only
+  * advice for your own safety - don't run this exe!
+
+
+this is heavily unfinished party version.
+large part of it was coded at partyplace.
+finished (?) one minute before 64k intro compo.
+that's why music synchronization is missing.
+partycoding suxx.
+bye.
+
+shakul@prg.cz
+lharp@internet.sk
+

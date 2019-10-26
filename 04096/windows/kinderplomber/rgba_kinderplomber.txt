@@ -1,0 +1,26 @@
+
+                                    kinderplomber
+
+               a quick-non-pretentious-simple-4k-intro by rgba (www.rgba.org)
+ 
+                             presented at Breakpoint 2007
+
+
+
+ .greetings/respects.
+
+ asd, collapse, conspiracy, dust-inc, fairlight, farbraush, fuzzion, gum, necrostudios, plastic, 
+ spontz, stravaganza, tlotb, traction, Xplsv
+
+ .messages.
+
+ auld : it is possible to put a 3d Marylin Monroe in a 4k.
+ r3d    : "you cannot give it one subdiv level more?" -> VBO/IBO -> +200 bytes. grrrrrr...
+ utopian: "adding the text 'rgba :: kinderplomber' would be cool" -> +50 bytes. GRRRRRRRR!
+ 
+ .credits.
+
+ coding, repairing pipes, milkytracking :: iq               :: [www.rgba.org/iq] 
+ crinklering (making magic)             :: mentor+blueberry :: [www.crinkler.net]
+
+

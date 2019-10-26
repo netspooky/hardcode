@@ -1,0 +1,19 @@
+baptism of fire - 64k intro by swirl. code yarpen, music keyg
+
+wymagania: min. 486dx (pentium mile widziany)
+           4mb ram
+           muzyka jedynie na gusa
+
+zalecana konfiguracja: czysty himem.sys + dos=high
+                       w autoexecu - ultrasnd environment string
+                       (set ultrasnd=...)
+                       !bez managerow typu emm386 (tez zadziala, ale to
+                        nie to...)!
+
+uwagi: w niektorych czesciach uzywany jest x-mode 320x400 (hicol)
+       mam nadzieje, ze big-screen to obsluzy, w innych 320x200 z
+       poprawionym aspektem
+
+dzieki,
+yarpen.swirl
+       

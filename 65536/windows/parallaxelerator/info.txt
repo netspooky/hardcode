@@ -1,0 +1,23 @@
+
+Parallaxelerator, by Inque 
+
+:: release info :: ----------------------------
+
+a 64k demo released at Evoke 2013.
+
+result of several evenings of hacking and two
+days of party crunching. hope you like it.
+
+not very optimized, ridiculous precalc. didnt
+have enough time to improve that. soz.
+
+
+:: credits :: ---------------------------------
+
+code/visuals -- glow
+soundtrack/direction/visuals -- izard
+additional direction/support -- cyrex, cosmiq, nunki
+
+:: cya :: -------------------------------------
+
+www.inque.org

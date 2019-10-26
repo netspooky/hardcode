@@ -1,0 +1,23 @@
+Title:                T-34
+Type:                 4k procedural graphics
+Created by:           Stepanov Andrey, 2009 ( ICQ:    129179794, 
+                                              e-mail: andrewstepanov@mail.ru )
+3D Graphics software: Not used. CPU rendering.
+Packed by:            Crinkler 1.1  (c) Aske Simon Christensen & Rune Stubbe.
+
+
+  The T-34 was a Soviet medium tank produced from 1940 to 1958. It is widely 
+regarded as having been the world's best tank when the Soviet Union became 
+involved in World War II, and although its armour and armament were surpassed 
+by later tanks of the era, it has been often credited as the war's most 
+effective, efficient and influential design.
+                                                           (Wikipedia)
+
+
+  I am really surprised by the fact that such a simple picture takes that
+much file space and renders infinitely (you can press Esc at any time to stop 
+rendering). Sadly I got no file space for antialiasing, Perlin noise and
+better model. Raytracing is evil :)
+Warning: program switches your monitor to 800x600 resolution and then switches 
+it back. Hope you will not have problems with it.
+

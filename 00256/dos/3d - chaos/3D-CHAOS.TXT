@@ -1,0 +1,30 @@
+     3D - Chaos. 3D - Chaos. 3D - Chaos. 3D - Chaos. 3D - Chaos. 3D - Chaos.
+                               (Sierpins Gasket)
+
+
+You must have a pair of 3D Glasses. Or go and grab a bit of blue and red
+cellophone plastic-see-through-type paper/stuff. Any sort of 3D glasses will
+work fine as long as one eye sees red and the other sees blue.
+
+
+            ...and look! The Gasket is coming at ya in 3D!!
+
+
+... Probably a waste of time, but I think that you wouldn't believe the amount
+of time that I have spent on this program - first started the algorithm back
+in 1994, and since then I have made about 50 different programs doing different
+stuff based on Sierpins Gasket, or as I call it, just plain old Chaos.
+It is not chaos because it has structure - but then again my algo uses a very
+dopey and rough random number generator to generate rough random numbers to
+put this together... so maybe it is chaos. Maybe not.
+
+
+...and yes it does sort of look like an entry that was in the 1997 Christmas
+demo compo, but firstly note that I also had a gasket in my dopey entry, and
+secondly, take a look at the code!. The bloke who wrote the good Sierpins entry
+with the palette and everything knew what he was doing. I dont... and so my
+code is extremely sloppy. I reckon it is good. But it is still sloppy.
+Just announcing this just in case if someone reckons that I have ripped off
+code.  (...Works but not well. Just like my old Sinclair ZX81...)
+
+Bushy. 06-October-1998.

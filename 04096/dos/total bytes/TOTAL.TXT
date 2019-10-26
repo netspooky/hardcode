@@ -1,0 +1,33 @@
+
+      Just few words... Works with clean-boot, also tested with
+      other configurations like with QEMM and it worked fine. We
+      recommend fast (66 MHz) 486 with LB VGA-adapter. Requires VGA
+      and at least 80386 processor as you propably knew. This isn't
+      designed for 386 computers, because competion computer was 
+      486 with new features.
+
+
+      Thanx for TaskMaster/Gollum and Mikko Lehtinen for loaning
+      their 486 computers at the party place.
+
+
+      We don't want there any modifications by any Personal Creation
+      members! We don't want any advertisements from Petteri Kankaro
+      and The Black Hole (TBH) texts. Those are BULLSHIT!
+
+
+
+
+
+      Would you like to contact me? Here comes my address...
+
+      	  Samppa Mattila
+      	  Poikluomantie 26 as. 27
+      	  20760 PIISPANRISTI
+
+      	  Finland
+
+
+
+		*  Total Bytes  -  Copyright (C) 1994 Rubicon  *
+

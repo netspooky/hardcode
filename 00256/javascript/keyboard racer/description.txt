@@ -1,0 +1,9 @@
+"Keyboard Racer" by milov
+http://milov.nl/
+
+A multiplayer keyboard racing game, supporting an unlimited
+number of players. Each player selects a key on the keyboard and
+starts pressing it to start the race. The winner is the first
+player to reach the other side of the window.
+Tested in Internet Explorer 6, might also work in IE5 and IE4.
+Does not work in Mozilla.

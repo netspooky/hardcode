@@ -1,0 +1,31 @@
+        
+        
+             Ananasmurska - Siddham
+                     at
+             A S S E M B L Y ' 0 8
+
+
+We tried to get our demo for assembly, but didn't have
+time to finish it. So we did this instead in couple of
+days.
+
+
+Code: blueflame
+Additional Code: jpupu
+
+Using self-modified version of Buzzic synth.
+
+
+Some log after demo was "ready" for size optimizing:
+______________________________________________________
+4234
+4229 - Stucked here for a long time
+3931 - Started optimisize __forceinlines
+3911
+3880
+3879
+3887
+3884
+3874 - removed stuff from shader
+3913 - Added new stuff to post process shader
+

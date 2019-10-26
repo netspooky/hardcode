@@ -1,0 +1,165 @@
+
+        Ro Bott finale
+            Copyright 1999 Kooma
+
+            Originally released at The Gathering 99 - party.
+
+
+
+
+    First time in the history of demoscene I have made final version
+    of my product ! This one comes out not even too late - only one month !
+    (First, if we don't count Paimen bugfix.. which was really just a bugfix.)
+
+        Finally I think I have succeed.
+        This is not ultimate anykind, but for a long time
+        I am quite satisfied.
+        I like that atmosphere.
+        I like that music.
+        I like those colors.
+        I even like that code.
+
+        Code is not too optimized.. I was too lazy and busy for that.
+        There are even new effects (!!),
+        new effects that have real use too.. not just looking nice.
+        Though I had no time or interest to use them in their
+        full maximum ultimate mega power.
+        My reflecting particle system with multiple light sources
+        looks like bad normal particle system. Hehee. :)
+        Lightsourced glenzcubes are not too new things.
+
+        But most important innovation is color system.
+        It's simple. It's fast. It can do a lot more than this.
+        It's not a new idea, but I haven't seen as nice system
+        as this before in demos.. only on some video codecs.
+        Damn I like those colors. In practise, color system
+        takes almost nothing of processor time.
+        I just hope that I learn to use it better than this.  
+
+
+What do YOU think.. Should I stop making these..
+Do you like to hear bad hardcore acid and to see those old effects
+over and over again ? (Like most products do.)
+Do you want that products are good ?
+Damn.. If scene doesn't learn.. I'll quit and leave you all
+to your tiny little sandbox.
+
+
+        I read my mail.
+
+ ---     virne@sci.fi    --------------
+
+        I just don't remember to answer always, but I try. Really.
+
+
+---------- Ro Bott System
+
+        Is tested with
+                    Pentium 133         Pentium II - 333
+                    32 mb               128 mb
+                    GUS Classic/SB16    SB16
+                    S3 Virge            Matrox G100
+                    Dos/W95             W95
+
+                    486DX-66
+                    16 mb
+                    GUS
+                    Tseng ET4000
+                    Dos
+
+                    Recommended machine is as fast as possible. P2 or so..
+                    Actually this Ro Bott babe looks quite good
+                    even if it's slow. With my P133 this looks nice.
+                    Slow speed gives it more Ro Bott feeling. hehe.
+
+
+---------- Problems ?
+
+                    so it should work..
+
+        If you encounter problems try this :
+
+                    - you forgot Ultrinit ? (with GUS ofcourse)
+                    - free some low memory
+                    - try it under Dos
+                    - try it under Windows
+                    - use UniVbe
+                    - do not use UniVbe
+                    - do not use ANY unneccesary TSR:s etc. (eg. EMM386)
+                        (I have seen how people stuff their configurations
+                         with too many programs they don't really need.
+                         That makes any MS system very unstable and slow.
+                         With Win95/98 you need just about nothing.
+                         Who needs EMM386 nowadays ?
+                         Who needs to load CDrom drivers twice ? etc. etc)
+
+        I tried this with HP Vectra VE sucking motafoking machine
+        and IT DIDN'T WORK !! First Midas jammed and then
+        it hit me with "divide overflow error".
+        Die HP! Die.. Only printers please.
+        It was problem with Matrox G100.. Dunno why.
+        It worked with real computer with same G100 card.
+        Maybe UniVbe helps.. (It didn't..)
+
+
+---------- Audio
+
+        Configure audio system with parameter /KISSANPOLKKA.
+
+
+---------- VESA
+
+        My VESA routines have autodetection only because I have
+        noticed that they work fine in 95% of cases.
+        With this intro it seeks in this order :
+
+                1. 640x400 32bit LFB (Linear Frame Buffer) interlaced
+                2. 640x480 32bit LFB widescreen mode       interlaced
+                3. 320x200 32bit LFB or banked
+                4. 320x200 24bit LFB or banked
+                5. 320x200 15bit LFB or banked
+                6. 320x200 16bit LFB or banked
+                x. 320x200 8bit  greyscale
+
+                BTW. Who thinks that 16bits for pixel is enough ?
+                Think .. it's only 5.33 bits for greyscale.. hrrr.. yuk.
+                I have seen how so called gfx-artists use that mode.
+                No no no no no. Only reason to use that mode,
+                is that it is in some cases faster (but not much.)
+
+
+---------- Ro Bott credits
+
+                Ro Bott-code & Ro Bott-color        virne
+                Ro Bott-music                       loke
+                Ro Bott-Ro Bott pictures            anger
+                Ro Bott-photography                 jope, supi etc.
+
+
+                Pmode/W by Charles Scheffold and Thomas Pytel
+
+                Midas Digital Audio System
+                        Copyright 1996, 1997 Housemarque Inc.
+                        Written by Petteri Kangaslampi and Jarno Paananen
+
+                UPX by Markus F.X.J. Oberhumer & Laszlo Molnar
+
+
+---------- Ro Bott thank yous
+
+                Therapy people at TG for loaning machine for drunken coder.
+                TG compo organizing and rest of the crew
+                        (Vegard ! We love you ! Even if you are cheapskate.)
+                Jope, Melwyn, Supi, Novous
+                        rest of our gang at TG99 trip
+                All voters and supporters at TG
+
+
+
+
+
+
+
+
+
+Keep Ro Bott rolling

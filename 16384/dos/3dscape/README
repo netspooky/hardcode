@@ -1,0 +1,68 @@
+
+
+    Hi all, here's a little demo I did a few months ago. It is part of a
+    suite of programs written for Fresh week 1993 for Bits - The University
+    of Bristol Computer Society (of which I am President).
+
+    It generates a fractal landscape and projects it in 3d. When run, you
+    will be shown an overhead view of the landscape in the top left hand
+    corner of the screen. This shows the landscape stored in memory. The
+    area inside the black rectangle is the area of landscape which will
+    be projected. You can move the black rectangle using the 'WSER' keys
+    for up, down, left and right, repectively. Notice that when the black
+    rectangle reaches the edge of the landscape stored in memory, the
+    landscape is shifted and a new section created. The actual new land
+    generated should follow on smoothly from the land already shown. This
+    currently works better in the up/down direction than the left/right
+    direction - the reasons for which I am not sure about (yet).
+
+    Pressing space will take you into the 3D bit. Here the keys are almost
+    the same. 'WSER' will scroll the landscape (whilst also projecting it).
+    Holding down 'SHIFT' whilst pressing 'W','S','E' or 'R' will continually
+    scroll the landscape in the direction specified. Other keys available
+    are:
+
+        Q           Zoom into the landscape
+        A           Zoom out of the landscape
+        SHIFT+Q     Rotate eye about horizontal axis
+        SHIFT+A     Rotate eye about horizontal axis
+        I           Rotate landscape about vertical axis
+        O           Rotate landscape about vertical axis
+        SHIFT+I     Continuously rotate landscape about vertical axis
+        SHIFT+O     Continuously rotate landscape about vertical axis
+        SPACE       Reset everything to normality
+        ESCAPE      Quit program
+
+    There were originally many more keys (hence the rather odd positioning
+    of the current keys) but they were 'optimised out'.
+
+    It was written on a 33MHz 486 with a Paradise 90c30 graphics chipset on
+    an 11MHz bus. If you run it on anything less, then don't blame me if it
+    either doesn't work, or goes horribly slowly! Seriously though, if you
+    do have any major problems, then email me and I'll see what I can do.
+
+    I have included the full source code for this demo. Please feel free to
+    examine it. I apologise in advance for the lack of comments, and the
+    code may be hard to follow simply because it has been optimised. If you
+    find the code useful, a greet would be appreciated in any demo you write.
+    Please don't just blatently rip it off.
+
+    The program is designed to be compiled using Borland C++ 2.0 (which
+    includes TASM). You may or may not have problems trying to recompile it
+    under anything else.
+
+    I am currently seeking to join a demo group of some description
+    (preferably one with a good musician/graphics artist) - email me if you
+    are interested.
+
+
+    David Hedley (hedley@cs.bris.ac.uk)
+    Computer Science Undergraduate at the University of Bristol, England
+
+
+
+                                   CREDITS
+                                   -------
+
+        All program design and implementation by David 'Deadly' Hedley
+

@@ -1,0 +1,18 @@
+zebate
+256b intro
+for WeCan 2012 (256b Intro)
+by fsqrt
+
+code / frag
+
+Simple and fast-coded intro, ~7h from scratch, far from optimal.
+
+System requirements:
+Fast FPU, Windows XP or pure DOS or DOSBox (much slower).
+In case of DOSBox make sure that core=dynamic in .conf file.
+Runs infinitely, press esc to exit.
+
+Greetings to all sizecoders!
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

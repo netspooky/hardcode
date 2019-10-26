@@ -1,0 +1,13 @@
+This is the bugfixed version of FR-010.scx: Art by Scoopex and Farbrausch.
+
+Code: Entropy, PeCi
+Fixing and improvements: Ryg and KB
+3D design: ruul
+Music: Entropy, using KB's intro sound system
+
+You will need a Pentium II (or better a P3 or Athlon) and any DirectX7
+compliant graphics card with at least like 4MB RAM. And a sound card would be
+great.
+
+And as always, fanmail@farb-rausch.de and hotline@farb-rausch.de are open for
+your mails.

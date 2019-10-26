@@ -1,0 +1,73 @@
+/ Esimerkki
+/ Rivit jotka alkaa risuaidalla ovat kommentteja
+
+/ Tempo on millisekunteina eli 1s = 1000ms, tempo tarkoittaa, että kuinka
+/ nopeasti vaihdetaan patternissa seuraavan riviin
+tempo 250
+
+/ Patternit, numero kertoo numeron play listissä (patterneja on nyt 0..63,
+/ kerro jos tarttet lisää), eri soittimia ovat
+/   sq [note] [vol]      squarewave
+/   si [note] [vol]      siniaalto
+/   mo [note] [vol]      siirtää soittimen frequencyn ja volumen liukuvasti
+/   no [note] [vol]      white noisea tietyllä alkunopeudella. Noise hälvenee
+/                        nollaan määrittelemättömällä tavalla, joka kuitenkin
+/                        riippuu jotenkin käytetystä nuotista (matala hälvenee
+/                        hitaammin)
+/
+/   Taajuudet ovat hertseissä, volume välillä 0..255, channelien
+/   yhtäaikaiset voluumit ei sais mennä 255 yli, se overflowaa ja
+/   kuulostaa pahalta
+
+/ "En soita mitään" -patterni
+pattern 0
+  sq  C0  0
+end
+
+pattern 1
+  si  C4  50
+  mo  F4   0
+  si  D4  50
+  mo  G4   0
+  si  E4  50
+  mo  A4   0
+  si  C4  50
+  mo  F4   0
+end
+
+pattern 2
+  si  C4  80
+  si  C0   0
+  si  E4  80
+  si  C0   0
+  si  G4  80
+  si  C0   0
+  si  C4  80
+  si  C0   0
+end
+
+pattern 40
+  no  C0   0
+  no  C4  80
+  no  C0   0
+  no  C5  60
+  no  C0   0
+  no  C5  60
+  no  C0   0
+  no  C5  60
+end
+
+pattern 39
+end
+
+/ Tuossa on patternien soittolista, järjestyksessä soitetaan rinnakkain. Pitää
+/ olla aina kolme channelia käytössä! (käytä vaikka jotain käyttämätöntä jos
+/ on tyhjää)
+playlist
+   0  0 40
+   1  0 40
+   0  2 40
+   1  2 40
+   1  2 40
+   0  0 40
+end

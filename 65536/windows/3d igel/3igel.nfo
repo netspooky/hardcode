@@ -1,0 +1,43 @@
++------------------------------------------------------------------------+--+
+|                                                                        |  |
+|  ###### #####         #    ######    ######   #                        |  |
+|      ## #    #        #    #         #        #                        |  |
+|    ###  #    #        #    #####     ###      #                        |  |
+|      ## #    #        #    #    #    #        #                        |  |
+|  ###### #####         #    #####     ######   ######                   |  |
+|                                                                        |  |
+|3D Igel                                     kAKIARTS still too drunken 2|05|
++------------------------------------------------------------------------+--+
+
+
+
+
+made by      >>>>> kakiarts technologies     [http://www.kakiarts.de/]
+made in      >>>>> about one month
+made with.   >>>>> WINDOWS
+                    plain C.(lcc-win32) + opengl + V2M 
+
+Credits?
+
+idea         >>>>> bIFF/gABI
+code         >>>>> bIFF
+tools        >>>>> kEYJ (a lot of fixing too ;)
+music        >>>>> dQ                                [http://www.dq-music.de/]
+gfx          >>>>> bIFF/gABI
+
+
+How to run?
+
+  WINDOWS
+    requirements: x86, OpenGL, Win32, 256MB RAM, Soundcard 
+
+    >>>>> start 3digel.exe
+    
+    
+Archive?
+    
+		3igel.exe  >>>>> Demo
+		3igel.nfo  >>>>> this nfo file
+		
+(c) 2005 www.kakiarts.de
+

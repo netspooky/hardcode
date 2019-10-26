@@ -1,0 +1,21 @@
+"seventyfour"
+
+by
+
+shape/dcs (code)
+chavez/funktion (gfx)
+
+inkscape used for creating 2d vectors
+http://www.inkscape.org/
+it's nice and it's open source
+
+remember to get yourself DirectX9
+march 2008 version (d3dx9_37.dll)
+packed with crinkler, of course
+
+
+hello evribadi 
+greets to elhigu .. keep it real½
+
+
+assembly 2008 executable gfx

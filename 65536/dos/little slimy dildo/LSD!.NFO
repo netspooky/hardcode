@@ -1,0 +1,45 @@
+Technical stuff:
+----------------
+You need a Gravis ultrasound to hear the music.  Make sure your ultrasound
+environment variable is set, otherwise it won't work!
+
+The environment variable should be set like this:
+ - edit your autoexec.bat
+ - the following line should be present :
+   @SET ULTRASND=220,1,1,7,5
+ - 220 is the base address of your GUS
+   1st 1 playback DMA
+   2nd 1 record DMA
+   7 IRQ
+   5 midi IRQ
+   These numbers may be different in your computer!
+	    
+
+Well, first of all we had a nice meeting at Barre's place (x-bow) one week
+before SIH, where we decided if there would be some releases on that party.
+Besides some Music-gfx there was nothing interesting planned..
+2 days later EB called me to talk about a 64k for Sih, and we had a meeting 
+about it at my place, i drew some gfx, hydran made some music and off we
+where making the intro.
+Ovan was there too, giving some coding tips.
+After 6 boxes 'madeleines' we had something usefull, but very buggy, so don't
+kill me if it FLIPS or so, it was just for FUN !
+
+
+Here some people who made it:
+-----------------------------
+- Evil Batman : Coding
+- Herr Cichlid: Gfx
+- Hydran      : Music
+
+Greetz to:
+----------
+Realm, Legend Design, Imphobia, the Natives, Antares, TFL/TDV, Reality,
+Impact Studios, Acid, Radical Rhythms, Liquid Dreams, Infiny, Outlaws,
+Triloxy, Euphoria, Outlaws, Critical...
+
+Personals:
+----------
+Thunderhawk, Sleeping Dog, Access, Uncle Bob, Seyda, Ghost, Tempest, Darkness
+Brian, Cosmic, Purple Zebra, Tempest, Spiritual Steven, Binary Slave, Cynosure
+...

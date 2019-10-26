@@ -1,0 +1,42 @@
+
+Kfrinal.com
+-----------
+
+The final version of kfrns256.com with some fixes about winfreeze, sync, etc
+well almost...
+
+I was in a haste to release this final version.. just tested a lot of things,
+tried various ideas, rebooted hundred of times, did some random voodoo things
+and here it is! I even repaired the winfreeze/CLI problem doing a nasty thing
+Sti:Cli:Run main loop,sti:cli again, so for just few milliseconds,interrupts
+were set again, and windows gained control a bit.. but just only a bit to not
+fuck with my synchro. Although once in a time you will see a flicker. Once in a time it happens that an interrupt runs in the tiny time beetween Sti and Cli I guess. Still,. the old version is better, if you run it from DosBox or pure Dos...
+
+Silly thing. Also, I put Vsync again. No one scroll loop until it's synced,
+no scroll in win2k. But! Still win2k may have a problem,. Now it will bounce!
+Or as I guess, it will flicker a lot and run at 35fps :P
+
+Sorry... I don't know about Win2k. It needs to take control of system,. I
+don't have the knowledge to fix it there too. Someone else could do it 4 now
+
+Anyways...
+
+Cu
+
+Optimus
+
+
+P.S. I want do fucking hardware stuff again! Ugh! Hmm,.. except if I do an
+advanced version of this intro, as I was thinking it, with horizontal
+translucent rasters too, better sine movements all over the screen, fixed, 
+synced even in win2k, more stuff on the screen and fitted in 256bytes. When I
+gain more knowledge on asm and size optimizing, I may recode an advanced
+version of this as I was thinking it originally. Kefrila! :)
+
+P.P.S There is also Kfrns257.com, a bit better version from Kfrns256.com, 
+again only for pure Dos or max Dos Box, this one has vsync, and uses the memory
+after the CS to store data and not some random segments as I wrongly(?) did..
+Someone told me it didn't ran even in it's pure Dos6.22, I guess it crashed or
+something, my precs wrote above the code.. I don't know if it's this but I just
+wanted to be sure. Kfrinal.com also uses CS to store precs, and has vsync,. the
+only diferrence, it runs from pure windows too without freezing..

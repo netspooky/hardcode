@@ -1,0 +1,23 @@
+
+Ooze, by Inque 
+
+:: release info :: ----------------------------
+
+a 64k demo released at Revision 2014
+
+featuring 2 triangles, 6 volume textures, a lot of
+distance field raymarching and a procedurally 
+generated sound track.
+
+note that this requires a powerful graphics card. 
+ohw and also requires DirectX 10
+
+:: credits :: ---------------------------------
+
+code/shaders/visuals -- glow
+soundtrack/direction/visuals -- izard
+support -- cyrex, cosmiq, nunki
+
+:: cya :: -------------------------------------
+
+www.inque.org

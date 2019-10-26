@@ -1,0 +1,10 @@
+ojo de dios by Digital Sounds System
+
+4k intro for Revision 2017
+
+code:  visy
+music: knoeki
+
+uses shaders derived from public sources
+uses 4klang for music and pbr introsystem for framework
+made with Shadertoy

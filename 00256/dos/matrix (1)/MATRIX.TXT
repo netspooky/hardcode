@@ -1,0 +1,16 @@
+matrix.com by gump, ivar@refsdal.com
+
+y0 to #Asm
+
+about:
+matrix was just a test project,
+which turned out... ok I think.
+I was experimenting with using
+two buffers. I made a palette
+changer/rotator. I also made a
+softener. Heh.. This turned out
+ok. wooha! The palette changer
+is a bit buggy. But.. it works
+nice enough. I was pretty tired,
+so I'm not sure if everything
+made sense, heh.

@@ -1,0 +1,78 @@
+
+ SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP
+------------------------------------------------------------------------------
+                    (C) 1999 Shogun / The Third Foundation
+
+    Disclaimer:
+
+    It just has to be done, so nobody will kick my ass, if his/her
+    computer blows up during the intro :)
+
+    I, the author, do NOT take any responsibility if this software
+    causes damage to any material or physical stuff. The use of this
+    software is at your OWN risk, buddy :). Ohw yeah... This software
+    is NOT freeware. It is not allowed to make money on this software
+    without the written permission of the author. It is not allowed to
+    modify this software in any way. That means even a "rename" is IL-
+    legal :).
+
+    What:
+
+    Schaap, the 4k intro released at Takeover '99 by Shogun / The Third
+    Foundation.
+
+    Requires:
+
+    - Fast pc         (like a p233: my code is sloooooooooow)
+    - VGA videocard
+    - 400k of free conventional memory
+    - 4k of free diskspace
+    - Adlib compatible soundchip(s)
+
+    Features:
+
+    - One hell of a light circle!
+    - Huge 3d scenes!
+    - Original lyricks!
+    - Amazing graphics!
+    - Great soundtrack, it should be on some d&b cd!!
+
+    Croud -> And what else MIKE?!?
+
+    Mike  -> If you order now, you get a free TEXTFILE!!! YEAH!!
+
+    Manual:
+
+    Escape should break the whole thing of, Enter skips the current
+    scene (well actually it sets the timer to 0 :). Pretty simple,
+    isn't it? :)
+
+    Comments:
+
+    Ok, as you have noticed, the above is just a bunch of CRAP, floating
+    from a "tweaked mind"!
+
+    This intro just contains some nice fx and some REALLY basic 3D. But,
+    and I hope you all agree, it contains a cool design! For 4k anyway :).
+
+    You can expect a sourcecode release of the 4k soon, on my website and
+    the t3f ftpsite. I just want to say one thing about that:
+
+                            OPEN SOURCE RULEZ!!
+
+    Thanx 2:
+
+    Jibz                APACK rules forever (well atleast no it does :)
+    Sabre2th            For the plasma-like-thingy, while I was coding
+                        some design thingies, he came up with that :).
+    Ile and Ritz        They did extensive spell-checking here!! ;).
+
+    Contact:
+
+    Email:          p.gnodde@st.hanze.nl
+                    t3f@hotmail.com
+    WWW:            shogunworld.cjb.net
+                    t3f.tsx.org
+
+------------------------------------------------------------------------------
+ SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP SCHAAP

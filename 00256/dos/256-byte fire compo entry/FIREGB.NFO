@@ -1,0 +1,48 @@
+-------------------------------------------------------------------------------
+    Weird Magic Brings ya....256 bytes (or less) of pure fire imagination...
+-------------------------------------------------------------------------------
+
+ Code : GB
+ For  : Internet 256 byte fire compo
+
+ Ok...it's not so great...but hey It was my first fire attempt and it had to fit
+ in 256 bytes too... Sure I've got more ideas..like text and some funny
+ things with dots...but than again....It's only 256 bytes or less..:)
+ Well the fire algo thingy is that simple I ain't gonna explain it....
+
+ Some info about the palette setting might be usefull..
+ It's all in the precalculated 8.8 fixpoint step values...
+ like this db 64,8,128,34,64,-55 means that red green or blue is set up by
+ starting at zero and then in 64 steps increased with fixstep 8 after that
+ 128 steps increased with fixstep 34 and last 64 steps increased with fixstep
+ -55.. well euh...sometin like that....Well palette setting could be a lot
+ smaller but than you would loose the benefit of setting much more different
+ types of colors...As you can see you have to read the source to understand it
+ since I can't explain it well....:)..(A bad habit :( )
+ That the colors aren't the standard fire ones is totaly my resposability....
+ I detest fire colors...they are so 'yuck'! I prefer blue-green and green-blue
+ stuff...
+
+ Only thing to put in the 60 bytes left is that random (random !?)
+ vertical star (dot, piece of burning paper)...well it sure isn't a great idea
+ and I'm sorry for that...but hey, That stupid Gaffer came up with those
+ nasty 256 bytes...:) Still 16 bytes left but my inspiration was gone
+
+ Ok all is left are some words and words are words when they can be read and
+ written..bla bla har har...(shoot me !)...
+
+ This may be put on a CDRom !!!! ;))) Just gimme 25% of da revenues....
+ euh...sure !!!! ;) Like hell they will !!!
+
+ Extremly inspired by listening some fsol cd's ;) (barf..suck it) (music is
+ magnificent though)
+
+ Well some words fly to...:
+ - all Weird Magicians (Hey...komt dur nog wat van..euh..ik met mijn grote bek!)
+ - Distance / Orange (You are the coolest guy to chat with ;) Honest!)
+ - Gentle / No Logic (Geef dit maar aan Sid. Heeft ie weer is wat.)
+ - RTF / useLess (useless-wm-cheese crew ? wat is ut nou ?!,..naah geeft niet)
+ - DaChief / TFA (Hi...still alive ?)
+ - Gaffer (Stupid compo...,kiddin':) )
+ - Jmagic / Complex (Are you a bot ?)
+

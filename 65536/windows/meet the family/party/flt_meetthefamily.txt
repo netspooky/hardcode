@@ -1,0 +1,71 @@
+
+meet the family 
+
+by fairlight
+
+
+performing for one time only, live at bp06
+
+the band:
+
+smash (lead guitar) - code, tools, synth, design, gfx
+reed (drums) - music
+kustaa (bass) - character modelling
+oyiseer (keyboards) - 2d gfx
+aln (taking hits from the bong) - 3d gfx
+
+
+the backstage boys:
+
+pantaloon - help, support and beta testing 
+kenet - help on design and gfx concepts/techniques
+ryg/fr - kkrunchy, saving us many many many bytes
+
+
+right of admission reserved.
+
+
+
+
+fuckings to ukscene allstars, farbrausch, conspiracy, cocoon, tpolm, bdse, orange, noice, ate bit, dcs, rebels, scoopex,
+asd, tbl, haujobb, loonies, plastic, mawi, shitfaced clowns, mfx, calodox, tolou, triad, accession, hooy-program, rgba,
+stravaganza..
+and greetings to lamers.
+
+
+come to sundown 2006, 6-8 october in england, and prove your manliness!
+
+
+
+
+
+boring tech info follows..
+
+three performances on the bill:
+(setup dialogs are for lamers who dont fill their free space with nice 2d graphics)
+
+flt_meetthefamily_128.exe 
+- 800x600, 4xmultisample, 512x512 shadowmaps. use this version for all the shit cards out there, although i really hope nobody with a 
+geforce 5xxx series card tries to run it, it'll be a slideshow.
+also use it for nvidia 6xxx series - they support filtering fp16 textures, so the shadowmaps work fine at this res here. 
+
+flt_meetthefamily_256.exe 
+- same as above but 1024x1024 shadowmaps. use this for ATI cards, as they dont support fp16 texture filtering. (apparently ati dont
+consider it useful)
+
+flt_meetthefamily_512.exe
+- 1024x768, double size rendertargets everywhere. it's the compoversion, because they have a massive system that doesnt
+have fp16 texture filtering, so we compensated with huge shadowmaps. probably doesnt work on anything else.
+
+
+requires DirectX 9.0c, pixelshader+vertexshader 2.0, floating point rendertarget support, and 4x multisampling.
+
+
+
+tested on:
+- geforce 6600gt 128, p4 3.0, 1024mb, runs perfectly fine
+- geforce 5700 p4 3.2 2gb, it was a slideshow, dont bother
+- radeon x800, athlon 2500, runs perfectly fine
+- geforce 7900, p4 something stupid, 2gb, runs fine (no kidding)
+- radeon 9800 etc etc, works fine
+- ati firegl 3100 blah, fine but slow

@@ -1,0 +1,126 @@
+			 S   H	 O   R	 T   Y
+			    - The Russian -
+
+อออออออออออออออออออออออออออ  (c) The Clan  ออออออออออออออออออออออออออออออออ
+			Another Dutch Production
+
+
+			      REQUIREMENTS
+
+      A 386 or better processor, VGA or compatible graphics card and about
+      450kb of base memory is required to run "Shorty"
+      A 486dx2 or better is strongly recommended.
+
+
+			COPYRIGHT AND DISCLAIMER
+
+      "Shorty" is my contribution to the Assembly'96 4kb intro competition.
+      It's not freeware. You are allowed to copy it without restrictions
+      for non-commercial use.
+
+      No payment of any kind may be charged for this product or any
+      combination of products or services including this product without
+      my authorization and official written license.
+
+      Commercial use, especially the industrial manufacturing on any data
+      storage media and thair distribution without the expressed permission
+      of the producer, is strictly prohibited.
+
+      The program or this text file may not be altered of modified without
+      the permission of the author.
+
+      You take full responsibility for the operation of this software and
+      any consequences thereof. I, the creator, can not accept liability
+      for damages or failures arising from the use of this software.
+
+
+			   INTRO INFORMATION
+
+      This 4Kb intro was coded by me in 6 weeks spreaded over 3 months.
+      Most of the time you hear from people, that they worked 2-3 days
+      on their 4Kb, well it can be done, but I had to write the whole 3D
+      engine from the beginning, most of the routines were already made
+      in PMode, but for example the texturemap routine, had to be totaly
+      rewritten because the Pmode routine is about 64Kb"big", but atleast
+      10 times faster. So after all I don't think I worked too long on this
+      project. Now we actually have a Real-mode engine also. So more to
+      expect from me and ThE ClaN soon(64Kb and 4Kb). In the beginning I
+      spend hours on size optimizing that's why the Tube effect is done in
+      only 312 bytes, but at a sertain moment, even PKLITE could compress it,
+      so I just coded and used WWPack to optimize for size.
+      Don't blame me that it's running slow on your 386DX40 or even less,
+      which by the way is the type of computer I'm still working on,
+      but it's mainly designed for 486DX2-66 or even faster, just because
+      everyone has such computer these days, and 3D sucks CPU ticks.
+
+      Design, deuh is there ??, came while programming it, I liked the blue
+      color for the background, so my first idea was to make a totaly blue
+      4Kb, but afterall that was soooooooo boring, that I changed the upper
+      128 color to black->red->white, which was less boring to me.
+
+
+			      WHAT YOU SEE
+
+      - background pictures calculated during weird self modifying code.
+      - A half texturemapped tube comming around.
+      - flash
+      - 3D rotating and morphing with phong mapping.
+      - flash
+      - again those objects but now with phong-refraction mapping.
+	which give the effect of looking through red-glass.
+      - flash. and woops background is gone...
+      - and again those objects but now phong-blur.
+
+
+			     "OPSCHEPPERIJ"
+
+      Each object has 384 points, 384 vertex normals and 704 polygons.
+      Total 1536 points, 1536 normals and 2816 polygons, total size when
+      normals are calculated should be around 26112 bytes uncompressed.
+      The textured tube and background was coded within 452 bytes...
+      All polygons are double textured, however only the refraction part
+      uses the second texture, in the others parts the second texture is
+      just BLACK..
+      486DX2-66 will result in about 14 frames per second.
+
+
+
+			  THANKS & GREETINGS:
+
+      Tyr, Mr.Aurum & Sto	    - Ideas & optimizing trics.
+      KARL/NoooN		    - costable formula
+      Quicksilver/iMAGE!	    - Insight will never die.
+      Vertigo			    - Like this? Your BBS intro??
+      Compile/G-Force		    - hmmzz.
+      Cyclops			    - AGAIN IN THE GREETZ...
+      NiX/Logic Design		    - Keep up the good work.
+      MuX!/Suprise!Productions	    - .....
+
+
+      SuccesS, Logic Design, iMAGE!, Wierd Magic, Hazard, Inertia, Witan,
+      Jello, Surilexx, Analogue, Destiny, TFA, Triton, and of course
+      everyone at Assembly'96.
+
+
+
+			    CONTACTING INFO
+
+				The Clan
+			      The Russian
+			Jan van Bergenstraat 37
+			   1962 VH HEEMSKERK
+			    The Netherlands.
+			 voice: +31-251-239780
+
+ษออออออออออออออออออออออออออัออออออัออออออออออออออออออัอออออออออออออออออออออออป
+บ BBS Name		   ณ Type ณ Sysop	     ณ Phone number	     บ
+วฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤลฤฤฤฤฤฤลฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤลฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤถ
+บ The Undefined 	   ณ WHQ  ณ The Russian      ณ	      +31-251-251700 บ
+บ Lounge Act		   ณ DHQ  ณ Vertigo	     ณ	      +31-71-5790411 บ
+บ Amberdawn		   ณ dist ณ Compile	     ณ	      +31-10-2160945 บ
+บ HCC Kennemerland	   ณ dist ณ Dean Buhrmann    ณ	      +31-23-5247749 บ
+บ Paradise City 	   ณ dist ณ Psycho	     ณ	      +31-187-485274 บ
+บ			   ณ	  ณ		     ณ			     บ
+บ You ? call our WHQ for more info.  Non-+31-distros preffered. 	     บ
+บ or apply at Lounge Act, change conference and our clan menu will appear !  บ
+ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ

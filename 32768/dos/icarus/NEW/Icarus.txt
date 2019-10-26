@@ -1,0 +1,81 @@
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+Index                   1. What's this ?
+                        2. Disclaimer
+                        3. System requirements
+                        4. Credits
+                        5. Greetings fly to...
+                        6. Contact
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+1. What's this ?        Well, this is a text file. It belongs to a
+                        code FX coded 1999 by KILLER/NEXTEMPIRE,
+                        first shown at B걆Zli 8.
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+2. Disclaimer           You're using this program at your own
+                        risk, and you know what this means. I'm
+                        not liable for any damages this program
+                        might cause, so if it destroys your PC,
+                        it's your problem.
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+3. System               I don't know :) A 386 should be able to execute
+   requirements         this intro, but I think you should have at
+                        least a 486DX. (I coded this intro on a Pentium 90)
+                        Everything clear ?
+
+                        Only the Gravis Ultrasound is supported,
+                        because this card rocks and I'm too lazy
+                        to support the Sound Blaster, but don't cry -
+                        at least you can watch the intro without sound.
+
+                        You need aprx. 400 KB of free conventional DOS memory
+                        to run this intro. It shouldn't have any problems
+                        with any memory managers.
+
+                        Oh and yes, your AUTOEXEC.BAT should contain
+                        something like the following lines if you
+                        want to hear the GUS music :
+
+                                @REM ===== Gravis initialization (3.59) =====
+                                @SET ULTRASND=220,1,1,11,5
+                                @SET ULTRADIR=C:\ULTRASND
+                                @SET ULTRA16=32c,0,0,1,0
+                                @C:\ULTRASND\ULTRINIT.EXE -ej
+                                @REM ====== Gravis initialization ends ======
+
+                        Of course you might have different values for
+                        the variables...why do I mention that ???
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+4. Credits              Code  : KILLER/NEXTEMPIRE aka Scratchy
+                        Music : KENSHI/NEXTEMPIRE
+
+                        The sound system is based on gusplay.
+                        Whahahaha, KILLER still uses gusplay...
+                        ...no really, it's one of the best
+                        GUS MOD players.
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+5. Greetings            - The NEXTEMPIRE crew
+   fly to...            - Max (thanx for lending me your notebook !)
+                        - Sch꼛li (thanx for lending me your notebook too !)
+                        - Robban/Cascada (gusplay...)
+                        - And last but not least to Gargamel and Baah
+                          who helped me to fix some nasty bugs.
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+6. Contact              KILLER     :    mathys_aka_scratchy@bluewin.ch
+                                        fly.to/scratchy
+                        NEXTEMPIRE :    members.xoom.com/NEXTEMPIRE
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+9.6.1999, KILLER/NEXTEMPIRE

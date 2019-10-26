@@ -1,0 +1,25 @@
+
+Wishful trilogy part three, entitled
+
+Wishful Twisting
+
+a 4k intro presented to you by Fnuque, Loonies and TBC
+
+Blueberry: Engine, synth, Tool
+Mentor: Visuals
+Punqtured: Music
+
+Best enjoyed in 60 fps. YouTube is garbage!
+
+Requirements:
+- Up-to-date DirectX runtime (d3dx9_42.dll)
+- Shader model 2.0 or better
+- A powerful CPU
+- Decent fill rate (lots of alpha blending going on)
+
+The intro reads its resolution from the filename,
+so if your preferred resolution is not listed, just
+rename the executable accordingly. The intro assumes
+a 16:9 aspect, so 1280x1024 might look a bit weird...
+
+Greetings to everybody at Oodledoo 2013

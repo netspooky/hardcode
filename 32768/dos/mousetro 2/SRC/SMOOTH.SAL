@@ -1,0 +1,105 @@
+unit 286 Smooth
+.386
+
+assume ds:@code,cs:@code
+NoJumps 
+
+Extrn PaletteR:Byte, RGB2C:DWord 
+
+cRGB =   5
+sRGB =   1
+xRGB =   (1 shl sRGB) shr 1
+ 
+Procedure Far SmoothArea x, y, w, h, S, T
+   imul di,y,320 
+   add  di,x 
+   mov  fs,S
+   mov  es,T
+   mov  gs,word ptr RGB2C+2
+   cld 
+
+   $Do 
+      mov  si,w
+   
+      Even 
+    
+      $Do 
+         mov  bx,offset PaletteR
+         mov  cx,3
+         xor  ax,ax
+      
+         $Do 
+            mov  al,fs:[di-320-1]
+            xlat
+            mov  dx,ax
+         
+            mov  al,fs:[di-320]
+            xlat
+            add  dx,ax
+            add  dx,ax
+         
+            mov  al,fs:[di-320+1]
+            xlat
+            add  dx,ax
+         
+            mov  al,fs:[di-1]
+            xlat
+            add  dx,ax
+            add  dx,ax
+         
+            mov  al,fs:[di+1]
+            xlat
+            add  dx,ax
+            add  dx,ax
+         
+            mov  al,fs:[di+320-1]
+            xlat
+            add  dx,ax
+         
+            mov  al,fs:[di+320]
+            xlat
+            add  dx,ax
+            add  dx,ax
+         
+            mov  al,fs:[di+320+1]
+            xlat
+            add  dx,ax
+         
+            mov  al,fs:[di]
+            xlat
+            lea  ax,[eax*4+edx] 
+         
+            shr  ax,4
+         
+;           add  ax,xRGB -- xRGB=1 
+            inc  ax 
+            shr  ax,sRGB
+         
+            push ax
+         
+            inc  bh
+         $EndDo Loop
+      
+         pop  ax
+         mov  bx,ax
+      
+         pop  ax
+         shl  ax,cRGB
+         add  bx,ax
+      
+         pop  ax
+         shl  ax,2*cRGB 
+         add  bx,ax
+      
+         mov  al,gs:[bx]
+         stosb
+      
+         dec  si
+      $EndDo =0
+   
+      sub  di,w
+      add  di,320
+   
+      dec  h
+   $EndDo =0 
+EndProc

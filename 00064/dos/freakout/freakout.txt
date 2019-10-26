@@ -1,0 +1,86 @@
+               .
+   
+               ^^             ^ 
+               ||             
+              _""             .
+             / o-o\          _._
+   _ ._____+m___°__m+_______(o_o)_  _        
+     '          |                    ;
+     t          °      ~     ~       .
+     o          |      o     +       .
+     m   `               (_         
+     a        ,  ´      _____   .    .
+     e       \|/_      (_'''   (_)
+     s      / o o\            (___)
+     ;____+m___°__m+_________(___ _)         
+               |              (o o)
+     :         °              (_~_) 
+     |    _    :               (_) 
+     :  _|_|_                      
+     |__(o_o)  .  ___,,,,           _____________
+                       a ) )      .       
+      r e a k o u t    __\       /  64 byte intro
+      ______   . ______/           collection by tap 
+     ;     :        _,__          ______________ 
+     :    _|_    -=(a__a)=-      
+     .  ./o a\.____/_  _\         code by tomaes and mados 
+     .  (__~__)    \_||_/          ______________
+     ; (___'___)     ''            \ 
+     :(____:____)    ::              .  www.tap-home.de
+     (____ ._____)   .. 
+____/             \________________________________________         
+
+     m a i n
+
+     freakout.com  - compo version (satori in 64 bytes? ;))
+     freakout.asm  - source code
+     
+
+     b o n u s 
+ 
+     nature.com  - lakes, rivers, flowers...  ;)
+     frk7.com    - another version of freakout
+     color.com   - funny colour effect
+     color2.com  - another colour effect
+
+
+     m o r e  b o n u s 
+
+     loap64b.com - 'life of a pixel' was a 3kb joke intro,
+                   released at ambience 2oo1
+                   This is... well... the sequel? ;) 
+     loap64b.asm - source code                    
+
+
+
+     n o t e
+ 
+     all those tiny intros have been made for the 64 byte
+     competition at the 0a000h demo party.
+     
+     please note, that freakout.com lacks esc-key support
+     (not required for the competition)
+
+     please also note, that some of the bonus intros are
+     bigger than 64 bytes. but they have esc support. :)     
+
+     all intros work under ms dos.
+     windows should be no problem (hope so).
+
+     compile the source files with nasm.
+
+
+     f i n a l
+
+     thanks to all the asm gurus, who helped us. :)
+     watch out for the second 64 byte package.
+
+
+     c o n t a c t
+
+     www.tap-home.de
+
+     http://tomaes.tap-home.de
+     http://come.to/mados
+
+              

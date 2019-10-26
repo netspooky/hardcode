@@ -1,0 +1,34 @@
+			    195/95/256
+
+	original demo by Plastic (http://www.plastic-demo.org)
+
+	   squezzed into 64 KB by rgba (http://www.rgba.org)
+
+Notes:
+
+- This version is QUITE BUGGY. Cross your fingers: if it works, ok,
+  if not, please wait for a bugfixed version :). We hope it doesn't crash 
+  on the compo machine.
+
+- Precalc is VERY slow, please be patient
+
+- We suck, we know.
+
+- Final and smaller version will come. This time, it will come ;) 
+
+.code
+
+	iq
+	gortu
+	enlar
+	utopian
+
+.3d
+	marius
+	r3d
+
+.music
+	jewoll
+
+.art
+	plastic

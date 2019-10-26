@@ -1,0 +1,20 @@
+Concord by Ümlaüt Design
+
+Made for Experience 2013
+
+
+Needs shader 3.0 and d3dx9_43.dll
+
+
+The intro is, in a large part, generative; 
+feel free to play around with the random seed.
+
+To that end, video rendering of this intro
+is explicitly forbidden.
+
+Big thanks to Leia, Reid, Tomoya, Smash, 
+and especially Statix for reinvigorating
+my interest in generative visuals.
+
+
+2013 (c) www.umlaut.hu

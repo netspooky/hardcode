@@ -1,0 +1,11 @@
+Just type "make". As always, in order to obtain a <4Kb intro you need to place
+sstrip.c in this directory. You can get sstrip at:
+
+http://www.muppetlabs.com/~breadbox/software/elfkickers.html
+
+Feel free to contact me at slack (at) codemaniacs.com if you have any
+comments. You can also find me in #demoscene at irc.irc-hispano.org and
+#demoscene at irc.freenode.net
+
+Cheers,
+	slack

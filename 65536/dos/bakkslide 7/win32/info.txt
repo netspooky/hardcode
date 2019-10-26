@@ -1,0 +1,25 @@
+b a k k s l i d e 7
+
+This is Windows port of "bakkslide7":
+software rendered black & white realtime audio-visual demonstration 
+in less than 64kb.
+
+Originally released at TakeOver'99 in Holland, took 1st place there.
+
+This version contains few improvements over the original version and sligthly 
+exceeds the 64kb size, still being rather small though (94kb). The improvements 
+are mostly additional bits in stored data.
+
+	          code & design : mrock (Marcin Rociek)
+        music & design & lyrics : yez (Bartek Idzi)
+graphics (the 'bakkslide' logo) : spk (Wojtek Idzi)
+
+                         player : MiniFMOD 1.6
+			          by Firelight Multimedia
+          direct draw interface : TinyPTC 0.8
+			          by Gaffer
+   		         packer : UPX 1.21w
+                                  by Markus F.X.J. Oberhumer & Laszlo Molnar
+
+(c) 1999, 2003 Marcin Rociek, Bartek Idzi, Wojtek Idzi 
+               www.rociek.com www.omnicolourstation.art.pl

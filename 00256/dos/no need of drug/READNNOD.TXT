@@ -1,0 +1,46 @@
+                           Ped / 7 Gods demo group
+
+                                   presents
+
+               ллм млм  ллм лл лл ллм  млм лл  ллм ллм л л млм
+               л л л л  л л л  л  л л  л л л   л л л л л л л
+               л л л л  л л лн лн л л  л л лн  л л ллн л л лол
+               л л л л  л л л  л  л л  л л л   л л л л л л л л
+               л л плп  л л лл лл ллп  плп л   ллп л л плл плп
+
+                            -= no need of drug =-
+
+                    a 256B intro 4th at Avalcon demo party
+              (C) 2000 - Peter Helcmanovsky, ped@7gods.rulez.sk
+                          no need of commercial use
+                          no need of public sources
+
+            dedicated to all demo sceners, whatever they need ...
+
+ Yes, I could do things like THIS without any drug.
+ (except oxygen in the air, thanks for it)
+
+ System req: MS-DOS | Win9x/NT (dos-box) | anything
+else, what is capable to load .COM file, emulate
+MOV ax,13h INT 10h (MS-DOS 320x200x256color mode),
+and some more VGA BIOS functions...
+ P3 1GHz with fast gfx card to enjoy full speed fly.
+ Coprocessor at least, if you don't have 586+ ...
+
+ press some nice key to exit running intro. (Esc)
+
+ Special greet goes to ELL for her solicitude.
+
+ Credits: Silique for his winning 256B intro from DemoBit'00
+party called "njufnjuf", which kicked me in ass and told me,
+that there are "tunnel-like" effects in the world too...
+ Methinks me is losing inspiration, inovation and invention,
+but I'm now quite good in coding.. hm! Having this knowledge
+years ago, when I had ideas ...
+* ACTION: PED HAS LOST I.I.I.!
+
+ Enough of cries, gotta go to learn for exams, enjoy 7 Gods
+free productions! 7 Gods demo group - http://7gods.rulez.sk
+ And send me some stupid e-mail, I love to read 'em !
+
+ This software *MUST* be distributed FOR FREE W/O ANY CHANGE

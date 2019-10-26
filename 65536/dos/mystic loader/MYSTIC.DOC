@@ -1,0 +1,162 @@
+------------------------------------------------------------------------------
+                  Modification to M.D. Mackey's Flame.Pas By :
+                            STORM of Energy Lash
+------------------------------------------------------------------------------
+
+
+Hello.
+I went and downloaded that FLAMES.ZIP and thought it was really a cool
+concept. And, well, this popped out about 3 days later.
+After thinking a drinking a lot of coke, and overdosing on Metallica,
+(Listening to Creeping Death right now), I have created a way to to the same
+thing as his, but without the 2x2 pixels at a relatively okay speed and with
+a delay feature <ooooooooo>.
+  To tell you the truth, this wasn't much fun programming. I had countless
+problems due to that fact I haven't programmed in assembler for a while
+and also found that OOP and ASM don't get along when it comes to accessing
+variables within the object itself.
+
+Anyways, downto the nitty gritty...!
+
+If you haven't seen M.D. Mackey's FLAMES.PAS and have no clue how it works,
+I suggest you look at that first, otherwise, you will be lost.
+
+I did not provide full source like our friend M.D., but i will give you the
+outline of it all.
+
+
+=----------------------------------------------------------------------------=
+
+
+You need 4 things...
+
+Image = RECORD
+  ImageP  : POINTER;
+  X       : WORD;
+  Y       : WORD;
+END;
+
+VAR
+  ImgSize : WORD;
+
+
+[ImageP]
+  Just the image loaded into the pointer. Simple enough eh?
+
+[X and Y]
+  The Images X and Y size. Simple too.
+
+[ImgSize]
+  X * Y
+  It's the X times the Y-2. Reasoning? I'll get to that later!
+
+
+[INFO]
+  Your Image pointer must not be word aligned. You can grab any image or
+whatever pixel by pixel into the pointer. You then need to set how may X
+pixels wide your image is, and how many Y pixels it is too. Then calculate
+the ImgSize by multiplying X*Y. Oooh. Bet thats hard.
+
+  OKAY, you will need to write a procedure that will add a line of random
+pixels to the bottom two lines of your image (2 lines looks best I think).
+These are what i call the "SEED" of it all.
+
+  You will also need to write a procedure that displays that image to the
+screen and cuts off the bottom two lines. This will keep the "SEED" from
+being displayed. It looks REALLY nast if it is displayed, trust me.
+
+  You will then pass your IMAGE to the procedure HandleEffect, the Delay,
+and how big the image is in pixels.
+
+  ImgSize is nothing more than a precalculated value so i don't have to
+use a MUL inside of my inline assembly. Everyone knows that a suicide right
+there.
+
+
+
+Here is the procedure that does it all....yippie.
+
+
+
+
+
+Procedure HandleEffect(I : IMAGE; Del : BYTE; ISize : WORD);
+VAR
+  Temp : BYTE;
+BEGIN
+  ASM
+    mov   cx,[ISize]           {Move into CX the size of the image -2 Y's}
+    mov   bx,[I.X]             {Move into Bx the image X size cause faster}
+    les   di,[I.ImageP]        {Load the image pointer into Extra Segment}
+    mov   si,di                {Nullifi Si. Could use xor, but may have trubl}
+    add   di,bx                {Give ourselves a little room to play with}
+    mov   ah,[Del]             {Setup our counter delay}
+    mov   [Temp],ah
+    xor   ah,ah
+@@1:
+    mov   dl,[es:di-1]         {Get pixel to the left of origin}
+    mov   al,[es:di]           {Get pixel at Origin}
+    add   dx,ax
+    mov   al,[es:di+1]         {Get pixel to right of origin}
+    add   dx,ax
+    mov   al,[es:di+bx]        {Get pixel RIGHT BELOW origin!}
+    add   dx,ax
+    shr   dx,2                 {As in FLAMES, average them all out by 4}
+    jz    @@3                  {If the color after the shift is 0, JUMP!}
+    dec   [Temp]               {Otherwise, lets dec our counter delay}
+    jz    @@2                  {If it's 0, then lets fade some color!}
+    jmp   @@3                  {Otherwise, screw it and jump to @@3}
+@@2:
+    mov   al,[Del]             {Reset our delay}
+    mov   [Temp],al
+    dec   dl                   {Subract one from the color to fade nicely.}
+@@3:
+    mov   [byte ptr es:si],dl  {Plot pixel at the point RIGHT ABOVE origin}
+    inc   di                   {Lets move to the next one}
+    inc   si                   {          ditto          }
+    dec   cx                   {Hm? We done yet?}
+    jnz   @@1                  {If not zero, gotta do the deed again}
+  END;
+END;
+
+
+
+
+I am sure it can use some optimizing, but it is 5:00am and I am optimized out.
+
+Well, enjoy the source and if you do anything really rad with it, send me a
+greet in it.
+There really isn't anywhere to reach me to tell you the truth. I will be
+jumping onto Internet here soon since I hear i'm missing out on all the fun
+stuff.
+
+
+
+Anyways, about the MYSTIC Loader....
+  What was going be nothing but a full screen flame, has turned into a
+full fledged Loader/Intro or whatever you may call it. I started with those
+eerie green flames and thought they looked kinda sinister. So I decided to see
+What a couple of cauldrons would look like. Tossed em in and thought...
+"Hm. What about a couple of little balls..." and threw em in too. Then I
+was thinking "Mabey if I added a couple of spheres, they might overlap and
+give me a neato effect with the background"........after that was done, I
+decided to add a neat image Warping effect.
+<Grin> All the routines are 100% assembler, and are just thrown together
+with good ol' Pascal 7.0 and I didn't steal ANY of em. <Been accused of that
+lately for some reason>. The only thing that could be considered stolen is the
+flame idea, and that was not really stolen, just modified like I was asked to
+try to do.
+
+Cyas
+
+Curtis Socha A.K.A -STORM-
+
+Shits and Giggles go out to...
+  Future Crew
+  Rennassaince
+  Triton
+  Cascada
+  Digital Infinity
+  Ken Florentino II
+  M.D. Mackey for the help.
+

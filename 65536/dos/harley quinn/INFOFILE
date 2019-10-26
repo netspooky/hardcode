@@ -1,0 +1,24 @@
+
+  Harlequin
+
+  A 64kb intro by Mewlers
+  Contribution to the Plutonium 99 intro compo
+
+  Requires
+
+  Graphics adapter supporting lowres 16bpp modes and Univbe loaded
+  Gravis Ultrasound for music (no SB sorry, maybe later)
+  Should work with 32mb of memory (I guess :))
+  A fast Pentium class processor is recommended
+
+  Credits
+
+  Rainmaker: Code, Design
+  216: Vesa and memory control, optimizing
+  Synteesi: Music
+  Honeybunny: Design tips
+  Uncle-x: Party animal
+
+  Tiny mxmplay by the Cubic Brothers
+  Pmode/w by the Pmode Brothers
+

@@ -1,0 +1,51 @@
+
+                          A   N   I   M   A   T   E
+
+                               - by Schwartz -
+
+
+
+                                 REQUIREMENTS
+
+        Animate will only work on a 386 or greater processor, however it
+        needs under 256kb of base memory. A VGA is also required.
+
+
+                           COPYRIGHT AND DISCLAIMER
+
+        Animate is my contribution to the Assembly '95 4kb intro
+        competition. It's not freeware. You are allowed to copy it
+        without restrictions for non-commercial use.
+
+        No payment of any kind may be charged for this product or any
+        combination of products or services including this product
+        without my authorization and official written license.
+
+        Commercial use, especially the industrial manufacturing on any
+        data storage media and their distribution without the expressed
+        permission of the producer, is strictly prohibited.
+
+        The program or this text file may not be altered or modified
+        without the permission of the author.
+
+        You take full responsibility for the operation of this software
+        and any consequences thereof. I the creator can not accept
+        liability for damages or failures arising from the use of this
+        software.
+
+
+                                CONTACTING ME
+
+        At the moment I am _not_ thinking of joining a group, but if you
+        want to contact me, please do so by email at:
+
+                               schwartz@cute.fi
+
+        or by snailmail at:
+
+                        Mikko Reinikainen
+                        Penkaskuja 11
+                        03100 Nummela
+                        FINLAND
+
+

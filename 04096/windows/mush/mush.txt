@@ -1,0 +1,11 @@
+
+
+Mush by Shape/DCS
+For Assembly 2008
+
+
+Requires march 2008 version of DirectX9 (d3dx9_37.dll) and a fairly mighty PC.
+Packed with Crinkler v1.1. My first time playing with DirectX, so it probably
+crashes on every PC but mine.
+
+Good luck and enjoy!

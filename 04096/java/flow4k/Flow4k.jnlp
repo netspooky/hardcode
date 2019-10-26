@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp
+  spec="1.0+"
+  codebase="http://www.xmunkki.org/projects/flow4k/"
+  href="http://www.xmunkki.org/projects/flow4k.jnlp">
+  <information>
+    <title>Flow4k</title>
+    <vendor>XMunkki.org</vendor>
+    <homepage href="http://www.xmunkki.org/"/>
+    <description>Drag the smoke into the blue box.</description>
+    <description kind="short">Flow4k</description>
+    <offline-allowed/>
+  </information>
+  <security>
+  </security>
+  <resources>
+    <j2se version="1.4+"/>
+    <jar href="Flow4k.jar"/>
+  </resources>
+  <applet-desc
+  documentBase="http://www.xmunkki.org/projects/flow4k/game.html"
+  name="Flow4k"
+  main-class="Main"
+  width="256"
+  height="288">
+  </applet-desc>
+</jnlp>

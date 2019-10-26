@@ -1,0 +1,34 @@
+
+
+    matrix
+
+    a 4 kb intro made by tsc and net.
+
+
+
+    r e q u i r e m e n t s .
+
+    this  intro requires a pentium processor to run.  due to realtime  sound
+    synthesis a p200 recommended.  for	sound output a	gus is required with
+    proper ultrasnd= variable.	without  soundcard  the intro will not run !
+    sorry,  no bytes  left  for workaround.  also  check the ammount of free
+    memory before executing,  because no error detection performed.   59o kb
+    should be enough.
+
+
+    c r e d i t s .
+
+    net  .					sound programming - patterns
+    tsc  .					     addittional programming
+
+    f a c t s .
+
+    this intro	is totally  unoptimized and unsynchronized to the music.  it
+    means  that  it's  speed very depends from  the  speed of the processor.
+    sorry. 0 bytes left for proper solution. the reason for no design is the
+    same.
+
+
+    made in Hungary.
+    legjobb.
+

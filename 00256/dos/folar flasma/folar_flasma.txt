@@ -1,0 +1,8 @@
+Folar Flasma by Optimus/Dirty Minds
+    aka I still hate FPU
+-----------------------------------
+
+  Well, here it is. I am still in 2d, playing with some old polar effect routine, 
+totally screwing it to display something that looks a bit ugly but it's like galaxies and other cosmis stuff :)
+
+Let it run around 50 seconds, three diferrent formations, couldn't fit more right now.

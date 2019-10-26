@@ -1,0 +1,47 @@
+        .---.     .---.     .---.
+        |   |     |   |     |   |
+    .---|   | .---|   | .---|   |
+    |   |   | |   |   | |       |
+.-->|   |   |.|   |   |.|   |   |<-------------------------------------------.
+|   |   |   | |   |   | |   |---'  AN ASSEMBLY '95 4KB INTRO, CODED BY       |
+|   |       | |       / |   |      LOPEZ AND FIREHAWK                        |
+`-->`---.   |.|   .   \.|   |---.<-------------------------------------<fH>--'
+        |   | |   |   | |   |   |
+        |   | |   |   | |   |   |      -= f o u r   k i l o g r a m s =-
+        |   | |   |   | |       |
+        `---' |   |---' |   |---'
+              |   |     |   |
+              `---'     `---'
+
+--|> INFO <|------------------------------------------------------------------
+
+  This 3836-byte intro took part in the Assembly 1995 4KB intro competition
+and was mostly coded a few weeks before the party and debugged during the
+party itself.  If you don't seem to get the intro running on your computer,
+try to release some conventional memory as the intro requires a big hunk
+of memory for all the data we cannot include in 4096 bytes. In case you
+are interested, 4KG was coded entirely with QEdit 3.0, TASM 2.0 and
+TLINK 3.0. The executable was packed with COMPack to minimize the size to
+even smaller. The source code consists of approximately 1800 lines of code
+and packed data. Hmm, just watch the intro - and enjoy!
+
+
+
+--|> EFFECTS <|---------------------------------------------------------------
+
+        Morphing multicolor font writer................. Lopez
+        Fullscreen sinus-plasma......................... Lopez/Firehawk
+        Bitmap zoomer/rotater with mandelbrot map....... Firehawk/Lopez
+        Morphing glenzvectors........................... Lopez
+        Fire!........................................... Lopez/Firehawk
+
+
+
+--|> BLAHBLAH <|--------------------------------------------------------------
+
+  If you are interested in contacting the authors (I doubt that) or if you
+want to see the source code to learn something (I doubt that even more!), you
+might want to leave Firehawk some email at:
+
+                jahalme@freenet.hut.fi
+

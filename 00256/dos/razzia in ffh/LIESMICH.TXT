@@ -1,0 +1,49 @@
+               *+*+*+*+*+*+*+*+*+* 
+               +                 + 
+               *    real.fake    * 
+               +                 + 
+               *  praesentiert:  * 
+               +                 + 
+               *+*+*+*+*+*+*+*+*+* 
+                                   
+                  Razzia  in FFh   
+              -===================-
+
+
+ I   Hardwareanforderungen:
+ ==========================-
+
+ Minimum ist ein AT286 mit VGA-Karte,
+ 256 Byte freier Arbeitsspeicher sowie
+ ein DOS-kompatibles Betriebssystem.
+
+ Empfohlen wird ein Rechner der Pentium-Klasse
+ mit soviel Arbeitsspeicher, dass das Betriebs-
+ system mit einer annehmbaren Geschwindigkeit
+ laeuft.
+
+ II  bekannte Probleme:
+ ======================-
+
+ Ist der Rechner zu langsam, ruckelt das Bild;
+ ist er zu schnell, sieht man das Intro kaum.
+
+ Unter Windows muss das Intro unbedingt im
+ Vollbild (keine DOS-Box) ablaufen, da sonst
+ einige Hardwareroutinen uebergangen werden.
+
+ III Credits:
+ ============-
+
+ Idee, Design & Coding  <>  MadMan
+ Support (Name & Icon)  <>  mad/os
+
+ Internet: www.tap-home.de
+
+ Ein Dank geht an die zwei netten Herren in gruen,
+ die zur offiziellen Eroeffnung der MS-DSO erschienen.
+
+  :
+  :
+   
+ Wo bleibt die 256-Byte-Compo ?

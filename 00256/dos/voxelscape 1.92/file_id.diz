@@ -1,0 +1,24 @@
+
+ -  - -----.                       .---------------------------.
+           |    - Y A P H A N -    |             /\            |
+           |                       :            /. \___        :
+    /\_______       ____/\      _____/\ _______//     /  ____/\'  ________/\
+  _/        /____ __\__   \_ ___\_     \_     /      /___\__   \__\   __    \_
+  \        /    /  _       /     /      /   __      /   _       /     /     ./
+  _\______     /   /      /      ______/    /     _/    /      /     /     //
+  \.     /    /   /      /      /  .  \    /      \    /      /\    /     //
+   \\  ______/\ ________/\ ____/   :   \  /________\ ________/ .\  /_______\
+    \\ /       \/         \/       |    \/          \/         : \/
+     \/    |                       |                           |
+           '-------sCr/sAc!--------'                           '---------- -  -
+
+
+  Voxelscape 1.92!
+
+
+  CREDZ: Rudi
+   NFOZ: the idea was to make a voxel-tracer in 128b.
+	 however when i got to 128b the texture was too sucky lookin,
+	 so i had to add some smoothing. this of course took some bytes.
+	 then i was bored of it and added some global illumination.
+  GRETZ: BHF, response, guru

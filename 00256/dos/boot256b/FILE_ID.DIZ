@@ -1,0 +1,32 @@
+======================================================
+WARNING!
+This is a dangerous tool - not for kids!
+Patching the master boot record is a risky task.
+======================================================
+
+BOOT256B - Boot with your favorite 256b intro!
+the amazing tool by TomCat/Abaddon
+------------------------------------------------------
+v1.1
+- you should select the HDD by the 2nd parameter
+  80h -> 1st HDD (the booted), 81h -> 2nd HDD, ...
+- now emulates 09H DOS function: Display String
+- it was tested with the MBR of FreeDOS and WindowsXP
+- of course it won't work on GDT drives without MBR
+- it will backup the original MBR as BACKUP.MBR file
+------------------------------------------------------
+
+HOW TO USE
+- make a bootable USB by RUFUS - https://rufus.akeo.ie
+- after DOS boot run BOOT256B yourintro.COM 80h
+- other drive than booted USB, patch on your own risk!
+
+KNOWN ISSUES
+- DOS interrupts won't work at boot time (except 09H)
+- sample INTRO has a weird bug in DOSBox (less text)
+
+CONTACT
+- kapor@dit.hu
+
+Don't forget to backup your USB regulary
+and have a nice reboot!

@@ -1,0 +1,66 @@
+                               .
+          [ c ï Ô t r è c t ]   b.   dSb
+                          .     `$b  ?SP   .
+           . .' `. `:.  s' .?  `$b.  .'    .
+        .' : l.  `?L    dP d$$$b  `¶?$$$P'.:' `. .
+      ' b `  d$bod$$bdP' ?$$$$b `?b `?b '   .' ,
+     `. `b. d$P¶' `¶?$$P:'  ?$$$$b.d$' d$b..d' ;.
+      :  d$P' .eb. :' `    ?$$$$$' .d$$$$$$b.  ;
+     .'.dP' .d$$$$$L    .s  .$$$$$b  `:P' `¶?$b.
+      P' .dP'`¶?$P'$b$$$b ?'?$$$$b ` .d$b `?$l
+     dP  d$P xtrî  d$P¶?$$$$.   ?$$$$b  $$$$$L dP'
+    .? .d$$'_lyse dP'   ?$$$L    ?$$$$b `?$$P'.P'
+    d' d$$$      dP .HU `$$$$b.   ?$$$$b$$P  d'
+    $  $$$$.dl .dP       `?$$$$b. ?$$$$$P' .d'
+    $  $$$$P' dP          `?$$$$$b`$$$P'  .P'
+    $. `¶ß' ¶$P'             `¶?P¶' `¶'    d
+    `b.                                    $b.'
+     ?b  .ob.                             `¶'
+     `$. `  `?.
+      `b.  .P'     "supermÑrket" (party version)
+      `¶?$P¶
+
+        cast
+        ~~~~
+        ¯ aron ................................................ code/design
+        ¯ zooley .................................................... music
+        ¯ (tr) .................................................... support
+        ¯ charles + thomas ........................................ pmode/w
+        ¯ pascal/cubic team ............................... tiny mxm player
+
+        hardware requirements
+        ~~~~~~~~~~~~~~~~~~~~~
+        ¯ P300++ (because of the "immensely complex raytracing algorithms")
+        ¯ few megs of ram (just a few!)
+        ¯ vbe2.0+ compatible videocard with 320x200x16/24/32bit LFB mode
+        ¯ one piece of so-called gus sound device
+
+        technical information
+        ~~~~~~~~~~~~~~~~~~~~~
+        as you can see it is realtime  raytracing. heavy  coding in a couple
+        days (big hurry?).
+        now the  engine  supports  the following  object  primitives: plane,
+        sphere and cylinder (quadrics support in progress). all of these can
+        be texture  mapped. the illumination  model is true  Phong illumina-
+        tion. first  time  generated  textures (great  turbulence  ideas  by
+        blala/bòteam) were used, but it was not  satisfactory, so we decided
+        to compress colourful bitmaps.
+        oh, that goddamn  vesa+dpmi  stuff. we hope this works on the compo-
+        machine. at least we made everything according to the specs(!).
+        by the way  final  version will  support more sound devices and more
+        color depths. if we are not too lazy to code it?
+
+        commandline parameters
+        ~~~~~~~~~~~~~~~~~~~~~~
+        ¯ dugong.exe 0 ...................... force output in 16bit hicolor
+        ¯ dugong.exe 1 .................... force output in 24bit truecolor
+        ¯ dugong.exe 2 .................... force output in 32bit truecolor
+
+        thanks
+        ~~~~~~
+        ¯ szilva ........................................................ 
+        ¯ tomcat/abaddon ............................. cute rt notes series
+
+        disclaima
+        ~~~~~~~~~
+        you can do anything with it: watch it, rip it, fuck it.

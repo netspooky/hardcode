@@ -1,0 +1,1 @@
+crinkler.exe /OUT:release\4k_euskal09.exe /TRUNCATEFLOATS /REPORT:reports\compressReportFast.html /UNSAFEIMPORT /TRANSFORM:CALLS /SUBSYSTEM:WINDOWS /RANGE:opengl32 /RANGE:glu32 lib\dsound.lib lib\msvcrt.lib kernel32.lib user32.lib gdi32.lib opengl32.lib glu32.lib release\mainWin32.obj release\synth.obj release\intro.obj release\play.obj release\thesong.obj

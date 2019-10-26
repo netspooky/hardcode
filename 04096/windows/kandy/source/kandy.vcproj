@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="kandy"
+	ProjectGUID="{C084F1F7-73D0-486E-8279-2D8F71796F9D}"
+	RootNamespace="kandy"
+	Keyword="MakeFileProj"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="nmake -fbuild.mak debug"
+				ReBuildCommandLine="nmake -fbuild.mak -a debug"
+				CleanCommandLine="nmake -fbuild.mak clean"
+				Output="debug\kandy.exe"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="nmake -fbuild.mak release"
+				ReBuildCommandLine="nmake -fbuild.mak -a release"
+				CleanCommandLine="nmake -fbuild.mak clean"
+				Output="release\kandy.exe"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+		<Configuration
+			Name="Fast|Win32"
+			OutputDirectory="$(ConfigurationName)"
+			IntermediateDirectory="$(ConfigurationName)"
+			ConfigurationType="0"
+			>
+			<Tool
+				Name="VCNMakeTool"
+				BuildCommandLine="nmake -fbuild.mak fast"
+				ReBuildCommandLine="nmake -fbuild.mak -a fast"
+				CleanCommandLine="nmake -fbuild.mak clean"
+				Output="fast\kandy.exe"
+				PreprocessorDefinitions=""
+				IncludeSearchPath=""
+				ForcedIncludes=""
+				AssemblySearchPath=""
+				ForcedUsingAssemblies=""
+				CompileAsManaged=""
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
+			>
+			<File
+				RelativePath=".\audio.c"
+				>
+			</File>
+			<File
+				RelativePath=".\debug.c"
+				>
+			</File>
+			<File
+				RelativePath=".\demo.asm"
+				>
+			</File>
+			<File
+				RelativePath=".\main.asm"
+				>
+			</File>
+			<File
+				RelativePath=".\math.asm"
+				>
+			</File>
+			<File
+				RelativePath=".\synth.asm"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
+			>
+			<File
+				RelativePath=".\dsound.inc"
+				>
+			</File>
+			<File
+				RelativePath=".\math.inc"
+				>
+			</File>
+			<File
+				RelativePath=".\music.inc"
+				>
+			</File>
+			<File
+				RelativePath=".\nasmgl.inc"
+				>
+			</File>
+			<File
+				RelativePath=".\nasmglu.inc"
+				>
+			</File>
+			<File
+				RelativePath=".\win32n.inc"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Build Files"
+			Filter="mak"
+			>
+			<File
+				RelativePath=".\build.mak"
+				>
+			</File>
+			<File
+				RelativePath=".\makefile"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Note Files"
+			Filter="txt"
+			>
+			<File
+				RelativePath=".\concept\budget.txt"
+				>
+			</File>
+			<File
+				RelativePath=".\fpu.txt"
+				>
+			</File>
+			<File
+				RelativePath=".\concept\mhc.txt"
+				>
+			</File>
+			<File
+				RelativePath=".\readme.txt"
+				>
+			</File>
+			<File
+				RelativePath=".\style.txt"
+				>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

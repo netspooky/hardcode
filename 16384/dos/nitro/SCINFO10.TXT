@@ -1,0 +1,54 @@
+ 컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+                          stereocode Information V1.0
+                               Released 19-02-95
+                              at the Meeting '95       
+                                 (France)
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+ 1. Who, what, where, why is stereocode?
+    Well, we are 4 nice persons. We live in Rodgau, Kreis Offenbach and
+    Frankfurt, Germany. We all know how to code in ASM (even if only one 
+    of us coded the NITRO, our 1st and least release...) and sometimes use 
+    this knowledge. We really never planned to start a democrew, but it 
+    got out of our control... :-)
+    We are:
+
+    Coding:
+        Hope............................Stefan Pochmann
+                                        Age: 18
+                                        Height: 1.85m
+                                        Prof.: pupil
+                                        Hobbies: TV, Coding, Stereovision
+    Music:
+        Claw............................Andreas Lucas Kloss
+                                        Age: 17 (almost 18 :-))
+                                        Height: 1.81m
+                                        Prof.: pupil
+                                        Hobbies: Music, PC, Volleyball
+    Grafix:
+        L.X.............................Alexander Theodor Kloss
+                                        Age: 4 mins. older than Claw
+                                        Height: 1.81m
+                                        Prof.: pupil
+                                        Hobbies: Grafix, PC, Volleyball
+    Spreading:
+        Cynosure........................Nils Becht
+                                        Age: 17
+                                        Height: 1.83m
+                                        Prof.: pupil
+                                        Hobbies: PC, Martial Arts, Music
+
+    (and of course, we are all founders of stereocode)
+
+    If you want to contact us, you may
+        a) forget it
+        b) commit suicide
+        c) Write a mail to Claw at Xpression (+049-6074-41307) or by
+           post if ya ever find my adress, hee hee :-)
+
+    2. Released demos.............................NITRO!!!!
+        We had not enough time 2 make it perfect, so there may be
+        1 or 2 bugs in it...please do NOT mind it, though it is our
+        very 1st (really small: < 12K!!!) release. Njoy it!
+
+    END OF ENTRY

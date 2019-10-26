@@ -1,0 +1,19 @@
+Dollop by SQNY
+
+Released at Assembly Summer 2009 4k intro competition
+
+Visuals: Kurli
+Music: Melw
+
+Special thanks to Gopher & Powl / Alcatraz for 4klang 
+synth and support! Go to http://4klang.untergrund.net
+
+Small size was accomplished by using Crinkler. Big respect 
+to Blueberry and Mentor! See http://www.crinkler.net
+
+This stuff is rather heavy on fragment shaders, so we
+recommend atleast some higher end 8000-series Nvidia 
+GeForce for viewing pleasure. If you get low framerates,
+try running the intro on a lower resolution.
+
+Square pixels is assumed for correct aspect ratio.

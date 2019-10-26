@@ -1,0 +1,31 @@
+                             - DISLOCATED -
+
+ Bandwagon production 1997
+
+ Introductory disclaimer:
+
+        Bandwagon dislikes elitist sceners, who think the only good
+        productions are those made by themselves or their friends. If
+        you are one (and you know if you are), stop reading this
+        infofile, never run this production, simply erase it from your
+        harddrive and don't look back. And most important of all, don't come
+        telling us we've ripped ideas or effects or that this production is
+        such an utter piece of shit we never should've released it.
+        Intelligent criticism with some reasons thrown in is a throughly
+        different case and of course always welcome.
+
+ About this intro:
+
+        For the commandline, try these:
+                /n        no sound
+                /r:?????  use SB-rate of ?????
+                /g        use SB instead of GUS if both are attached
+
+        486DX/50 recommended, it does run with anything above 386SX.
+        GUS required for audio enjoyment, I couldn't be bothered to include
+        my SB-"player", cos' it sucks and most important of all, my
+        clever don't work with the SB-player so the executable would be
+        something like 80k. Neckfreak did drew some graphics and coded the
+        whole thing. Gspot made the music. Scythe drew the font and the logo.
+        Radiance made the GUS-player. See BW??????.TXT for contact info, don't
+        hesitate to contact us.

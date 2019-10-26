@@ -1,0 +1,36 @@
+"DELTA2509" pc-64k intro by fresh!mindworkz, released at breakpoint'06, germany
+
+Technical Info:
+
+  Known bugs:
+
+  - Win95/98/ME not supported
+  - This intro is made 100% on my notebook (with ati chip), 
+    maybe not works on nvidia, 
+    final version with gefroce support coming after the party
+
+  Windows:
+
+  Needs an OpenGL 1.4 compatible videocard (with 32mb of ram) and a standard 
+  dsound soundcard. Hardware t&l required
+
+  This demonstration made with GPL or freeware modules/compilers.
+
+  Tested with: 
+		Sempron 3000+ / mobile x600 / windows xp sp2
+
+Credits:
+
+  code: pasy
+  additional code: pontscho,remage
+  music: just
+  musicplayer: firelight technologies
+  exepacker: ryg/farbrausch (big thx) 
+
+Contact:
+
+  E-mail: info@freshmindworkz.hu
+  Homepage: http://www.freshmindworkz.hu/demoscene
+
+  2006/04/14
+

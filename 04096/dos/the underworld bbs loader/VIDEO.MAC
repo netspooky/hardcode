@@ -1,0 +1,59 @@
+;
+;  Some nice port access macros I got from XLIB 6.0 ->
+;
+
+Out16 Macro Register, Value
+    IfDifI <Register>, <Dx>         ; If DX not setup
+        Mov     Dx, Register        ; then Select Register
+    EndIf
+    IfDifI <Value>, <Ax>            ; If AX not setup
+        Mov     Ax, Value           ; then Get Data Value
+    EndIf
+        Out     Dx, Ax              ; Set I/O Register(s)
+EndM
+
+; Macro to OUT a 8 bit value to an I/O Port
+
+Out8 Macro Register, Value
+    IfDifI <Register>, <Dx>         ; If DX not setup
+        Mov     Dx, Register        ; then Select Register
+    EndIf
+    IfDifI <Value>, <Al>            ; If AL not Setup
+        Mov     Al, Value           ; then Get Data Value
+    EndIf
+        Out     Dx, Al              ; Set I/O Register
+EndM
+
+
+;-----------------------------------------------------------------------
+; Macro that waits for a VR, if one is not already in progress
+
+WaitVRT Macro
+
+	Mov     Dx,INPUT_1
+WaitVsync:
+	In      Al,Dx
+	Test    Al,08h
+	Jz      WaitVsync
+
+EndM
+
+
+;-----------------------------------------------------------------------
+; Macro to wait for the vertical retrace trailing edge
+
+WaitVsyncEnd Macro
+
+	LOCAL WaitNotVsync,WaitVsync
+	mov     dx,INPUT_1
+WaitVsync2:
+	in      al,dx
+	test    al,08h
+	jz      WaitVsync2
+WaitNotVsync2:
+	in      al,dx
+	test    al,08h
+	jnz     WaitNotVsync2
+
+endm
+

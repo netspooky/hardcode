@@ -1,0 +1,84 @@
+
+              "Kings Of The Playground"
+              EVOKE 2004 64k invitation
+
+                     by Equinox 
+
+        (Released at Scene Event - July 2004)
+
+ --------------------------------------------------- 
+
+  Credits:
+
+      Keops          code, design, 3D, animation
+
+      Nova        end picture, additional design
+
+      Reed                                 music 
+
+ --------------------------------------------------- 
+ 
+  Requirements:
+
+   * 3D card with OpenGL 1.1 support
+   * P3 500
+   * GeForce 2MX class card
+
+  Important:
+
+   PLEASE MAKE SURE OPENGL VSYNC IS ENABLED
+
+   (or at least application-controlled) in your
+   drivers settings or else the motion might look
+   very jerky and the image will shear due to the
+   regular speed movements.
+
+   Best experienced with at least a Geforce 2 or a
+   radeon 9500. Below this card class, Multisample
+   (antialiasing) will not be available and the
+   rendering  will look somewhat blocky because of
+   the high image contrast.
+
+   If you encounter graphic glitches (especially
+   with gf4mx), try to update your drivers.
+
+   Once the EVOKE logo is spinning, press some keys
+   to get the hidden texts
+
+ --------------------------------------------------- 
+
+  A few words about this 64k invitation:
+
+   No so called "intro-tools" were used, everything
+   is hardcoded from scratch, including scripting,
+   music-sync, and animation steps.
+   
+   Music, made by our disco guest Reed, is a 65kb
+   xm (30kb packed), no softsynth.
+
+   The basic idea was to stick to the original
+   EVOKE logo made by Pandur/Black Maiden and work
+   around this theme.
+
+ --------------------------------------------------- 
+
+      Thanks to Rez, C-Rem, SynRJ and Def_Base
+        for their support/criticism/advices
+
+ --------------------------------------------------- 
+
+  Greetings:
+
+       AND - Black Maiden - Bomb - Conspiracy
+     Digital Murder - DDV - Eclipse - Farbrausch
+        Kewlers - Komplex - Mandarine -  MFX
+          Nomad - Orion - S!p - Speckdrumm
+             SynRJ - tAAt - TBL - Tpolm  
+
+ --------------------------------------------------- 
+  
+           http://equinox.planet-d.net/
+           http://keops.equinox.free.fr/
+ 
+        keops.equinox [ at ] free [ dot ] fr  
+        equinox [ at ] planet-d [ dot] net

@@ -1,0 +1,62 @@
+
+/\Triangle Ted, seeks a job.\/
+
+Requires: 
+/\
+Good graphics card, with ps3.0.
+( e.g. ati x1900 or nvidia 8800 series)
+Tested on ati,nvidia,xp and vista.
+If shaders fail, try updating your drivers.
+\/
+Credits...
+Main code: Auld
+Synth: Haddoc
+Music: TEIS
+Thanks:
+Mentor and Blueberry for Crinkler.
+Rbraz for initial version of dialog box code.
+Pohar and Pasy for testing and advice.
+\/
+Triangle Ted wanted a new 
+challenge in life: a new job!
+Sick of being like millions 
+of others, he set off to find 
+new employ.
+But the world had changed, 
+0 polys, and shaders were 
+wanted everywhere. 
+His interviewers thought Ted 
+was too old (school) to fit in. 
+He is too edgy, a little linear 
+in his approach, they said. 
+Although Ted tried hard to 
+transform himself, his true 
+colours always came through and 
+he was rejected at each interview. 
+
+But Ted struggles on. He stays 
+determined and hopeful. 
+He knew deep down that these new 
+shader guys need triangles to survive. 
+Finally, his he finds a place where 
+other triangles work.He fits perfectly, 
+they need him and he can be himself.
+\/
+Auld on the mike:
+I got to the end with my job last year.
+Trying to change jobs made me feel real 
+oldskool for half a year. This 4k is the
+result. The jerking synch represents how
+I felt in interviews, the triangle is me 
+of course, the shaders my interviewers.
+This 4k is a joint with s!p and 
+may be the first to squeeze in a
+dialog box so you can tune performance.
+
+Oh and yeah I got a job.
+Turned out I got more than one.
+Like buses-never one when you need one
+then three turn up.
+
+
+--Ted^H^H^H auld is back

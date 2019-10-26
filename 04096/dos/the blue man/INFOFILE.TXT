@@ -1,0 +1,52 @@
+The Blue Man by Preacher of NoID and Static
+-------------------------------------------
+
+This intro was coded for the assembly2k 4kb intro compo. I know, it lacks
+design and cool stuff, but I wanted to make something at least a bit
+different.. it was coded in about three days, which is the reason it looks
+so unfinished. Some of the code is quite old, so no state-of-the-art effects
+here :)
+
+Technical information
+---------------------
+100% realmode asm code in good old mode 13h
+Needs some memory, works fine with my 545kb
+Coded in w95 dos box, so should work there. Tested also on Linux dosemu
+without problems
+Unfortunately there's no music in this intro, I just couldn't make myself
+code a player. Next time it will be better :)
+I used UPX to pack this thing, you can find it at www.nexus.hu/upx
+
+I could put some more stuff in but I don't really feel like it anymore, so
+I'm submitting this version
+
+RodeX said, that it looks like his year 95 code... and I have to agree. But
+hey, I didn't say it was good :)
+
+Greetings & stuff
+-----------------
+Everyone here at Asm2k, even though most of them are playing some stupid
+games. I'm sitting right here in the scene area and just behind us there
+are some lamers playing counterstrike.. well, I guess I won't be here next
+year then :)
+Anyway, special hellos to everyone who still likes 4k intros and/or codes
+them, and everyone who is even remotely interested in scene here..
+
+Contact
+-------
+Want to say something? mail me at marttin@mail.htk.fi
+Want to say the picture is cool? mail Staros at staros@iobox.fi
+
+Web sites:
+NoID:   http://noid.cjb.net
+Static: http://www.stc.cx
+
+Have fun with this. I did :P
+
+Oh yeah, and remember: If you distribute it any way, please do so, but tell
+me before doing so. And you can't charge money for it (yeah right like anyone
+would pay :)).
+
+
+
+Preacher at Asm2k the Game Fest, signing off..

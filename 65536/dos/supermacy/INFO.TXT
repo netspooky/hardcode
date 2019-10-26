@@ -1,0 +1,38 @@
+supermacy       
+   -intro oh yes!
+
+(excuses)
+hmm.. just felt like making something, this is what came out of it
+intro done for the party 7 sixtyfour kilobytes introduction competition 
+it probably placed
+
+(credits)
+kravitz/sublogic did the code
+dreamer/sublogic did the music
+tmk/inf did the graphics
+
+(greets)
+charles scheffold and thomas pytel for pmode/w
+avery lee for ve12
+nichlas beisert for tinyxm
+
+all the normal groups and people yo
+
+(other stuff)
+intro requires fast computer and gus for sound
+8 megabytes memory 
+quit by pressing esc
+sorry for long precalc, faking rules
+
+source compiled with watcom c 11.0 and tasm 4.0
+all pictures and animation drawn in dp2e
+module made in ft2
+
+(final stuff)
+yes it's supermacy not supremacy
+
+(additional stuff)
+nothing
+
+(last stuff)
+mail asjulsen@online.no for contact/source/chitchat etc.

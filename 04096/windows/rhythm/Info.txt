@@ -1,0 +1,16 @@
+4k intro
+
+Name: Rhythm
+
+Group: Dreadful sight
+
+Code & Music: Marken
+
+
+
+
+Released: Assembly '05 (disqualified)
+
+reason: needs d3dx9_25.dll..
+
+So you need d3dx9_25.dll to run this intro =)

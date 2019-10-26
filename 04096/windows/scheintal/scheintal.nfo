@@ -1,0 +1,96 @@
+ SCHEINTAL       ,m,m.
+       __,,...--MMMMMMb.__
+     ''   _,.-']MMMMMM-.  `'--..._
+     _.--'    ,'YMMMMM: `._
+           ,-'  ,'""|  \   `.          ,
+         ,'    /    |   \    `._     ,'
+__     ,'     /     |    `.     -  .'
+  \   '     ,'      |      \      /'
+   \       <         |            /
+    \.                          ,'
+     \.               ,---b    ,'
+       \.          ,.Y'    `.-'
+ @info   `'-------'
+   scheintal
+   by mostly harmless & checkpoint
+   4k intro
+   breakpoint, 2005
+
+ @credits
+   code:
+     chock/mostly harmless
+   music:
+     505/checkpoint^paradox^creators
+
+ @special thanks
+   darkus
+   roberto
+   skrebbel/matt current
+   cerror/northern dragons
+
+ @greetings
+   ambrosia
+   blizzard
+   hardwave crew
+   northern dragons
+   spinning kids
+   role
+
+ @we are mostly harmless
+   cerial killer
+   chock
+   kingsguard
+   noses
+   pty
+
+ @contact
+   http://mostlyharmless.tsmi.de
+   mostlyharmless[at]tsmi[dot]de
+   chock[at]tsmi[dot]de
+   you can contact chock
+     to get in touch with 505
+
+ @versions
+  +scheintal.com
+    -The compressed compo version
+  +compatible.exe 
+    -uncompressed version. use it if
+     compressed compo version doesn't
+     run
+  +compatible_lofi.exe
+    -low fidelity version for slow pcs
+     music + gfx in reduced quality
+
+ @comment
+   Minimum PC configuration:
+
+   Well... this intro features a very 
+   slow software engine, so you should
+   better have a high end CPU, even 
+   though memory speed and cache 
+   performance is more important.
+   The CPU must also support the MMX 
+   and the infamous cmovCC 
+   instructions, so a PII is the bare 
+   minimum, even though I doubt that 
+   this runs acceptably on a PC with
+   less than 1GHz.
+
+   The graphics card doesn't really 
+   matter. It must be able to support 
+   256x1024 32Bit textures and a 
+   screen resolution of 1024x768 at 
+   32Bit. Speed doesn't matter, so it
+   should work just perfectly on a 
+   TNT-class card (I haven't tested it
+   on such a card, though).
+
+   It should run on any Windows version
+   with DirectX 8.0 installed. The 
+   compo version requires read and write
+   access to "C:\". Try running one of 
+   the compatible versions if that
+   isn't possible.
+
+ @final note
+   real coders write software engines

@@ -1,0 +1,19 @@
+
+   Hi Fellows,
+
+
+  well, what have you expected? - It's 64 byte -
+     actually it's only 63 and 1 NOP ;)
+   and executed from within Borlands TD, you can still save 2 more...
+
+   Apart from party rules, if you get rid of it - press "ESC",
+     needs a "fast" machine - 386/40MHz failed :(
+                            but 486/133MHz is fine :)
+    and it works under Win'98, too - fullscreen of course!
+
+      Finally, I've added a 111 byte version (FUZZ_SND.COM).
+    It contains some funky - really authentic ;) - soundtrack,
+  that should work proper with every Soundblaster installed on port 220h!
+
+
+                                        regards, tAz/FDJ (laukkanen@gmx.net)

@@ -1,0 +1,11 @@
+To install this game on a hard disk:
+------------------------------------
+
+At your DOS prompt, type MD AR (or MKDIR AR if you are a moron).  Then type
+CD AR (or CHDIR AR, idiot).  UNARC THECITY.ARC to this directory.  Now comes
+the tough part.  Do you have a CGA or an EGA adapter???  If you have a CGA,
+type MD CGA (forget it, if you haven't figured it out yet, you don't deserve
+to play this game) or tpye MD EGA for the EGA sub-directory.  Then copy
+CITYCGA.ARC to the CGA directory or CITYEGA.ARC to the EGA directory.  Then
+type AR at the DOS prompt and have a good time.
+

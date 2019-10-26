@@ -1,0 +1,18 @@
+# MakeFile for Chessnia BBS Intro.
+# This Intro is dedicated to NoisyMan ;)
+#
+# by Spanish Lords / January 1995 
+
+
+CHESSNIA.EXE : CHESSNIA.OBJ
+             TLINK /m /s /c /v /3 CHESSNIA, CHESSNIA,CHESSNIA.MAP
+             TDSTRIP -s CHESSNIA
+             HDROPT CHESSNIA
+             LZEXE  CHESSNIA
+             DEL *.OLD
+             DEL *.TMP
+
+CHESSNIA.OBJ : SINTABLE.INC PALETTE.INC DTT1.INC AZULES.INC OPL2LIB.INC
+
+.ASM.OBJ:
+        TASM /m2 /mx /zi /o /p $<

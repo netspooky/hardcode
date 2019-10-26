@@ -1,0 +1,20 @@
+4k contribution to SceneCon 2007 from Archee
+
+ It was finished 8 minutes before the compo, and it lost about 300 bytes during the party:) 
+ Thanks to the people, who allowed me to test on their laptops during the party, because mine does not support PS2.0, and it was kind of a "beethowen optimization" of -300 byets, until I got to test.
+ I know, it should have been faster, it was a timing big, which I noticed too late.
+
+
+Hint:
+  Precalc time is about 20 sec.PS 2.0 required. You need a fast GPU to run, otherwise you get black screen. At least a Geforce 6600Gt. 
+
+
+Some previous releases:
+ - Sumotori Dreams:   96k game, Breakpoint 2007
+ - Shatter:           64k     , Function 2006
+
+More releases:
+ http://web.t-online.hu/archee83/archee/
+
+Archee:  peterdutch@freemail.hu
+                             

@@ -1,0 +1,44 @@
+tutorial2
+	by
+ye olde laptops posse
+
+a linux 1k two-triangles+shaders framework. without sound (at last!).
+with sources (heavily commented in poor russian with lots of bad jokes).
+15.05.2012
+
+code: w23 (me@w23.ru)
+http://yolp.omgwtf.ru/
+
+8 simple steps to success:
+0) watch some examples
+1) open shaders.inc
+2) edit it with all the talent you have
+3) run 'make' to compile and run it in window
+4) behold what you've accomplished
+5) iterate until perfection
+6) run 'make batch' to generate lots of different binaries for common fullscreen resolutions
+7) write greetings to all your friends (and foes)
+8) pack it all together and go win a 1k/4k democompo at a nearby demoparty
+
+tips and tricks:
+- use length(gl_Vertex.xy) to get current time (no uniforms needed!)
+- to easily tweak speed change number on line 219 (push 4000). smaller numbers make things faster.
+
+hugs go to:
+	fsqrt
+	orbitaldecay
+	digimind
+	nonoil
+	pirx
+	quite
+	rrrola
+	systemk
+	t-rex
+	throb
+	titan
+	tomohiro
+	t_s=rtx1911=
+	youth uprising
+	sensenstahl
+	quasimodo
+	lft

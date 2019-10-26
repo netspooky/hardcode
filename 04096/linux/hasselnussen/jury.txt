@@ -1,0 +1,5 @@
+This is linux file. So, use Ubuntu to run it.
+
+Be sure that you give a right to the file to be runned as an executable. "Salli tiedoston suorittaminen ohjelmana".
+
+Use command prompt to launch the demo.

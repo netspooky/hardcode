@@ -1,0 +1,19 @@
+After i saw so much sierpinski stuff on pouet
+i decided to also contribute some sierpinksi
+
+i managed to break the 16 byte barrier. this
+looks a little distorted, but on the other hand
+you can alter the color with the keyboard =)
+
+on a real MS Dos, you can also move the mouse
+to alter the color. beware of teh eye cancer :D
+
+A video of me, coding and executing this under
+MS Dos 6.22 ( Virtual Box ) is available
+
+http://www.youtube.com/watch?v=Qw5WLk9IeX0
+
+this also works with a Dos Box (0.74)
+
+you can contact me if you like 
+https://www.facebook.com/mood.hell

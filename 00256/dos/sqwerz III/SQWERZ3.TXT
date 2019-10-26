@@ -1,0 +1,23 @@
+
+                                SQWERZ III
+
+          date: 17 07 96 - for the T.O.L.D. 256-byte democompo
+
+        This is one of my two entries for the Techstronics 256-byte
+democompo. Textured, colored squares with infinite layers, rotation.
+
+        Actually, it's a much improved version of the greyscale
+four-layer straight grid I made for our demo called Bugs, which got
+approximately 15th place at NAID'96 - actually, we don't really know,
+cause the organizers destroyed the complete result sheet. ;-(
+
+        386 VGA required, 486 recommended, 586 is much better, but I
+developed this entirely on a 486 DX 33, so it should be ok. GUS
+recommended: although this demo doesn't use a GUS, I think it is nice
+to have one anyway... ok, I know, it's an old joke..
+
+Matju/Trimaje
+(Mathieu Bouchard)
+galois@comnet.ca
+FidoNet 1:243/68.1
+

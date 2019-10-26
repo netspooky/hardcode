@@ -1,0 +1,57 @@
+                                  
+  __                         _                              __
+ .\/............  _.________ /                   _          \/........
+: _____    _____:__|_      /____                 \  ______________    :.  
+:_\  _/____\_      _/_____/_  _/____________________\       _/  _/____:__
+\_ \__       \_    \_     _/  )        \_     _      \_     \_  )       /_
+:/___/________/_____/_____\_____________/_____/_______/______/___________/
+:               .                                                  ave:dtr
+:.             .:     _/                              \_ .  . ........:.  
+:               :                                                     :
+: s c i e n c e : c   l   u   s   t   e   r  <<                       .
+: ------------- : ----------------------------------------------------ï
+:               :
+:...............: part of the 64k intro compo @ tUM 2002
+
+
+                  code      : armin "jar" jahanpanah
+                  audio     : sascha "p-rat" von dages
+                  support   : stefan "poti" kesseler		
+
+                  .began on a stormy and heavily raining sunday morning
+
+                  requires  : 3d card, opengl
+                  tested on : p2 266MHz, GeForce2
+                  tools used: minifmod, upx
+
+                  we are still desperately looking for talented 2d/3d artists
+                  and coders (pc, amiga) for demo and game projects.
+
+                  technical : 
+                              
+                              displacement mapping
+                              perlin noise plasma distort texture generator
+                              particle systems
+                              multitexturing
+                              10 true-color textures
+                              3:20min audio track (26kb compressed size)
+
+                              i had to remove SXT bump mapping due to
+                              unstable drivers messing up my system.
+
+                              font isn't anti-aliased on most systems,
+                              don't know why.
+
+                  respect to: 
+
+                              3state, black maiden, cologne-scene,
+                              eldorado, evoke-org, exceed, haujobb, 
+                              kaoz.org, kolor, magic dreams, park, 
+                              speckdrumm
+
+                  web       : http://www.scyence.net
+                  mail      : jar@scyence.net
+
+                  other fine science productions (like "resurrection") can be 
+                  found at http://www.pouet.net
+                  

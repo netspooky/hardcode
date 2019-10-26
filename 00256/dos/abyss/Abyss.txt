@@ -1,0 +1,48 @@
+Abyss by DrKappa (15/04/2001)
+===============================
+
+History
+========
+This morning I was having a look at some old code of mine (things coded 4/5 years ago), and
+I found an abandoned 256 byte project. This 256 byte intro should have been a simple mandelbrot
+renderer and it was intended to take part of fidonet 256 byte intro compo. A couple of days
+before the deadline, I found myself with a 311 bytes .com file, with no idea about how to
+optimize it furtherly. The project was aborted and I decided to code another intro from scratch.
+It was a mouse controlled bump mapping effect, and I was quite lucky because it took the first
+place. :)
+So, I decided to test my hardcoding attitude (if I ever had one.. :)) trying to complete the
+unfinished 256-byte intro.
+After a couple of hours I came out with a 164 byte renderer doing exactly the same things
+the old 311 bytes .com file did. Then it was a simple refinement work (altough the intro
+is quite rough) to add palette and zooming.
+
+Disclaimer
+===========
+This intro (Abyss) can be freely distributed as long as this textfile is included.
+Commercial use of Abyss without permission of the author is forbidden
+(who the hell could make money out of it??).
+So, if you want to distribute it for commercial purposes, ask me (dr.kappa@tiscalinet.it).
+I'm not responsable for any kind of damage caused by the proper or improper use of this file.
+If you fuck yourself it is a your own problem, baby...
+
+Tech stuff
+===========
+Abyss has been mainly coded and tested on a P166MMX, while refinement work has
+been done using a 1.2Ghz Athlon.
+It runs fine in plain DOS and win95/98/2k.
+
+Hardcoding notes
+=================
+In order to follow the original idea, this renderer has been coded using standard 80386/80387
+instructions. The fractal is calculated using only FPU. Surely a fixed-point approach would
+have been faster on older machines and could allow a shorter intro.
+Video mode is a standard 13h, and the rendering area is 256x100. Colors used for rendering
+are 96/64 (64 effective colors, but up to 96 interations per pixel).
+On older machines Abyss doesn't run well. To use only 32/16 colors provides a big
+speedup, but the resulting effect sux.
+
+Greetz
+=======
+Everybody supporting demoscene...
+
+			   .-.Abyss.-.2^8 Intro-.DrKappa.-.2001.-.

@@ -1,0 +1,34 @@
+
+ "Raving Tomatoes - BASTARD!"
+ A 4k intro for Breakpoint 2008 by T$ (ts @ deinmeister.de)
+ 
+ Requires DirectX9c (including the D3DX library from the February 2005
+ SDK update, stored on disk as d3dx9_24.dll),
+ a 3D graphic accelerator and a soundcard.
+ Initialization can take some time on slower CPUs.
+
+ Running time: 2:23
+
+ Files included:
+
+ The following versions use 32bit color depth and a 24bit z-buffer
+ for widescreen displays:
+ * 4k_08_1920x1200.bat
+ * 4k_08_1920x1080.bat (HDTV 1080, compo version)
+ * 4k_08_1280x720.bat (HDTV 720)
+ 
+ The following versions use 32bit color depth and a 24bit z-buffer
+ for widescreen displays in windowed mode:
+ * 4k_08_1920x1080_windowed.bat
+ * 4k_08_960x540_windowed.bat
+ 
+ The following versions use 32bit color depth and a 24bit z-buffer
+ for 4:3 image ratio screens:
+ * 4k_08_1440x1050.bat
+ * 4k_08_1280x1024.bat
+ * 4k_08_1024x768.bat
+ * 4k_08_640x480.bat
+
+ Color modes used:
+ Display format : X8R8G8B8
+ Z-/Stencilbuffer format: D24S8

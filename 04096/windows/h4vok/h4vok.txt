@@ -1,0 +1,40 @@
+       ->   h4voK    <-
+                       
+
+4k intro for Breakpoint 2008
+
+
+Music by Slyspy
+Coded by Archee
+Synth by Archee
+
+Thx to: Crinkler
+Testing by Conspiracy
+
+Requirements: 
+ - Very fast video card at least Shader Model 2.0
+ - Fast CPU (only uses one core)
+ - Sound hardware.
+ - Run in square pixel mode 4:3
+ - DirectX 9
+ - WinXP
+
+
+more info:
+ The precalc is for the music. 
+
+Estimates sizes:
+ 500 bytes crinkler
+ 700 bytes rendering with shadows
+ 1500 bytes physics
+ 102 bytes extra for colored blocks
+ 700 bytes music and soundeffects
+ + misc & scene disgn
+
+
+more info and video at:
+www.gravitysensation.com/h4vok/
+
+Archee : peterdutch@freemail.hu
+
+....The.End.....

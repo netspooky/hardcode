@@ -1,0 +1,22 @@
+Fake Plastic Cubes: Part 2
+
+an 8K intro for DemoJS 2013 by Gasman
+
+Tested on Chrome + Firefox
+
+---
+
+In the tradition of the original Fake Plastic Cubes, this is an 8K intro where
+I spent far too much time tinkering around with the tools/framework rather than
+actually making the intro. :-) This time it features an emulation of the
+AY-3-8912 sound chip, and an enhanced version of pnginator with support for
+data segments. And some WebGL nonsense, which is actually the first proper
+WebGL I've done. Woo.
+
+Music is a remix of the 195/95 soundtrack by cdanalsi / Plastic.
+
+---
+
+- gasman 2013-06-29
+
+gasman@raww.org - http://matt.west.co.tt/ - http://twitter.com/gasmanic

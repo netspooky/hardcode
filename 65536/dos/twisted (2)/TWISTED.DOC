@@ -1,0 +1,188 @@
+
+
+                                SYNC PRESENTS
+
+                                   TWISTED
+
+                            AN ISRAELLY PRODUCTION
+
+                         CAME SECOND AT THE SUMMIT'96
+
+                                HELD IN ISRAEL
+
+                           AND ORGINIZED BY CENTARI
+
+
+
+   -- 1                     SYNC ?? huhh ??
+
+
+          Well, SYNC is NOT a new group and twisted is NOT the first thing
+          we made, but it surely is the first demo-scene-piece we release.
+          SYNC is :
+
+             ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄ¿
+             ³    Alias      ³ Job         ³ Name      ³ Age  ³
+             ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄ´
+             ³   RiFF RaFF   ³ Programming ³ Roy Adler ³  17  ³
+             ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄ´
+             ³   Hue         ³ Graphics    ³ Roy Man   ³  18  ³
+             ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÙ
+
+          Intro credits :
+
+             Coding  : RiFF RaFF
+             Artwork : Hue
+             Music   : Taken from a freeware HSC pack, tracker unknown :(
+             Player  : Chicken's HSC player
+
+          System requirements :
+
+             The intro will run on a 386 with about 590k free conventional
+             memory. DO YOUSELF A FAVOUR and don't watch it on a 386, wait
+             till you get atleast 486DX2, or just watch it at a frien's
+             house (If HE has 586, duhhhh, hehehe).
+
+          IMPORTANT : The intro is VERY slow because we synced it with the
+                      586 100mhz of the compo. The sun part, for example,
+                      holds a Delay(20) in every frame, so it would work
+                      fine on a 586 (We didnt have time to sync with the
+                      timer, sorry all of you 386 users).
+
+          Move to read the second chapter about our past productions.
+
+
+   -- 2               What do we do / What have we done ?
+
+          we would like to state out that SYNC IS NOT A DEMO GROUP !!!
+          We make games and release sources for starting sceners.
+          We believe we are donating the scene, especially in israel,
+          through our sources and DOCs, which we hope to be joining more
+          and more israely guys to the world scene. Israel has a demo
+          scene, not very developed, but surely growing and getting better
+          every day.....(we would like to hope so)
+          SYNC has released these files :
+
+            - VENG     : A game made about the terror attacks on israel.
+            - LEARNGFX : A coding guide to graphics in pascal and asm.
+            - SNCFSHTX : Source code for a great text mode intro.
+            - COOLTEXT : Example of using TSRs through pascal.
+            - COKEDEMO : A demo of a game made for the coka cola company.
+
+            - PUREPAS  : A stupid 4k intro in pure pascal
+            - SNCSAVER : Screen saver for the surprize compo
+            - TWISTED  : 64k intro for the summit'96
+
+          All of our files can be found in out support sites :
+
+            ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+            ³ Board name    ³ Sysop name ³ Occupation ³ Number          ³
+            ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+            ³ Psycho Beaver ³ RiFF RaFF  ³ World HQ   ³ +972-9-832-0175 ³
+            ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+            ³ Spirit of art ³ Cracky     ³ Dist site  ³ +972-3-956-0987 ³
+            ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+            ³ Coders F/X    ³ CiVAX      ³ Dist site  ³ +972-7-6753-224 ³
+            ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+          We are accepting more sites. If you have a coding based or demo
+          based bbs, and you wish your bbs to be SYNC's support site, call
+          Psycho Beaver and chat with RiFF or leave him a msg.
+
+
+   -- 3                   What do we plan in the future
+
+          RiFF made a very big article for the LUNA DiskMag #2, by Moon
+          hunters. The article is a coding guide to misc subjects in
+          pascal, and only psacal. e.g. - using EMS without creating a
+          whole unit (through the objects unit - TEmsStream), and
+          contains full documentation about OOP usage in pascal.
+          We started making a VERY sick game, might be called Killer Beaver
+          (We have something with beavers, i donno ;), in which your
+          goal is to murder cute creatures, mostly rodents, hehehe, with
+          ALOT of blood ;)
+          We also started thinking about a psychotic demo for MOV'95, which
+          will be held in israel in a few months (we like to direct the demo
+          long before we start working on it, its hard to be a director).
+
+
+   -- 4                          People we like
+
+         Well, the group greets were in the demo, so we wont repeat them
+         here. We would state out people we like, and people who
+         helped us in any way :
+
+         The biggest thanks, which is full of admiration and respect goes to
+         the two guys that made the SUMMIT'96 operate. these two are :
+
+            High Dive and Helium
+
+         Guys - Keep up the good work !
+
+         All the other :
+
+          The King       - Thanks for trying :)
+          C-Maniac       - You fuckin lazy guy.......
+          CiVAX          - Wish there were more like you.
+          Cracky         - Your bbs is the best !
+          Hex            - Like shooting those hamas people in the balls ?
+          Sticky Baboon  - You are almost as sick as we are !
+          Borzom & TRex  - I just wish i could code like you guys do......
+          iCE            - Teach me some more algorithms.... ;)
+          Mental Trip    - You god damn squirl ! (hebrew : snai)
+          Salad Eclipse  - Solar, your handle is better that way ;)
+          One            - What is all about that bloody old vector engine ?
+          Adept          - Thanks for the computer usage.
+          Coo4 makers    - You're very good with gifs, make some more.... :)
+          VGod & ...     - Ups, 4got the other name....ur the best in ansi !
+          Crunch & co    - Is that a screen saver ? - thats a demo !
+          4got the name  - Great "zain baain" intro !!!!!, i like you man !
+          Death Parade   - You sick ansi maker !
+          Holograph      - GROW UP (hehehehehehehe)
+          Cyx            - Great guy, sysop of toxid toon.
+          LOoNY          - Promising ansi maker, 10x for the great ansi !
+          Bazooka Joe    - Cyborg, hurry up and release something !
+          Spacky         - Thanks for the great ansi !
+          Turk 182       - You're doing a great job !
+          Super Glue     - Cool guy, likes warez (BLUHHH)
+          BARTi          - You're the best coder existing today....!
+          PSi            - Man, you're RiFF's god !
+          MaxWood        - Majic rulez......!
+          Bas van Gallen - Releases the BEST sources.......thanks.
+          Phantom        - I really appreciate coders which release material.
+
+          I'm positive i forgot several people, so please forgive me...
+          This doc is being written in the night after the summit, after
+          taking the quite good 2nd place, and lets say i'm not very
+          clear minded....sorry again for the ones i forgot.
+
+
+
+   -- 5                  Greets in the other scene
+
+          The folowing people/artists/bands supplied us inspiration while
+          making whatever we make, so we think we should give them the
+          right credit, shouldn't we ?
+
+            Richard O'Brien :
+              Wrote the music for the Rocky Horror Picture Show, and plays
+              in the movie the character RIFF RAFF (sounds familiar ?).
+              RiFF RaFF (SYNC's one) admires this guy...!
+
+            Quentin tarantino :
+              You took part in every movie i (RiFF) adore ! starting from
+              Reservoir Dogs, through the script for Natural Born Killers,
+              and up to Pulp Fiction. YOU ARE A GENIOUS !!!
+
+            Some bands :
+
+
+              R.E.M.
+              Belly
+              Tricky
+              Moloco
+              Prodigy
+              Union Jack
+              Sonic Youth
+
+            (And many more)

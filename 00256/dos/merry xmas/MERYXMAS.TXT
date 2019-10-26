@@ -1,0 +1,18 @@
+MERYXMAS.TXT
+
+If you don't recognize the tune being played, try running from a DOS
+prompt (either under Windoze or in pure DOS). Fourteen extra bytes of
+code were added in an attempt to make this program compatible with
+Windoze, but it still isn't 100%.
+
+I am completely baffled why about 30% of the notes disappear when running
+under some configurations of Win98 (such as from WinZip). It would be
+easer to understand if the overall timing were affected, but it isn't.
+Something very strange is going on with direct port I/O.
+
+Anyway the X-Mas Compo deadline is near, and I'm tired of chasing this
+bizarre problem. The altered tune doesn't sound all that bad anymore.
+
+Boreal
+loren_blaney@idcomm.com
+

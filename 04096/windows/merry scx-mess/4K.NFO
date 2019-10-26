@@ -1,0 +1,32 @@
+   ______/\  __
+  (  _/ _\ \/ /
+  _) ) (_ )  ( __________________________
+ (__/\__//_/\ \\_________________________\ http://www.scoopex.org
+             \/
+
+ "Merry SCX-Mess" - A 4k intro for tUM 2004 by T$
+                    (ts @ deinmeister.de)
+ 
+ Requires DirectX8, 3D graphic accelerator + Soundcard.
+ Initialization can take some time on slower CPUs.
+
+ Files included:
+
+ The following versions use 32bit color depth and 24bit z-buffer:
+ * Ts4ktum4_640x480x32.com
+ * Ts4ktum4_800x600x32.com
+ * Ts4ktum4_1024x768x32.com
+ * Ts4ktum4_1280x1024x32.com
+
+ The following versions use 32bit color depth and 16bit z-buffer:
+ * Ts4ktum4_640x480x32D16.com
+ * Ts4ktum4_800x600x32D16.com 
+
+ The following version uses 16bit color depth and 16bit z-buffer:
+ * Ts4ktum4_640x480x16.com
+
+ The following color modes are used:
+ Display format : X8R8G8B8 or R5G6B5
+ Z-buffer format: D24S8 or D16
+ _______________________________________________________________
+ \______________________________________________________________\

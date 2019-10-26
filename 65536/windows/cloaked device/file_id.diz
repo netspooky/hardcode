@@ -1,0 +1,13 @@
+"cloaked device" by cactus
+code - obi1
+music - Ezerious
+
+uses ATG by aardbei, MiniFMOD by Firelight Technologies 
+and FRP by Farbrausch.
+
+Unfortunately nVidia have made some 
+driver restrictions regarding render targets in 
+detonator drivers after 23.11. If you 
+have detonator 23.11 installed please run 
+cloaked2311.exe for seeing the intro with better
+3d blurs.

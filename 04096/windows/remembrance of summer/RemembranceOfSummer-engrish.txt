@@ -1,0 +1,54 @@
+﻿"remembrance of summer" 4K Intro by 166
+
+
+Requirements :
+
+    . Windows XP / 2000
+    . OpenGL
+    . Patience
+
+
+To make this intro, I ripped off the following products :
+
+    . 32 degrees in the shade / Yodel
+      http://www.pouet.net/prod.php?which=7140
+
+    . Processing Images and Video for an Impressionist Effect / Sean Dunn
+      http://davis.wpi.edu/~matt/courses/impressionist/
+
+    . OGL framework / auld
+      http://in4k.untergrund.net/index.php?title=Aulds_OGL_Framework
+
+    . Nada sousou / Lyrics - Ryoko MORIYAMA, Music - BEGIN
+      http://www.youtube.com/watch?v=xxse0OkKEzY&mode=related&search=
+      http://ja.wikipedia.org/wiki/%E6%B6%99%E3%81%9D%E3%81%86%E3%81%9D%E3%81%86
+
+    . Nada sousou SMF (Standard MIDI File) / Noppo
+      http://www2.ucatv.ne.jp/~to-1999.sea/nadasousou.html
+
+
+Useful softwares :
+
+    . crinkler / Blueberry & Mentor
+      http://www.crinkler.net/
+
+
+I can't run the program !
+
+    . Please disable a DEP (Data Execution Prevention) option.
+
+
+I hate TBS (Tokyo Broadcasting System) !  Is this a propaganda intro ?
+
+    . No. I do not support TBS.
+      # Currently (fall 2006), 'Nada sousou' movie is
+      # released in Japan. This movie is sponsored by TBS.
+
+
+Greetings :
+
+    . 2ch party 2006 summer participant
+      42, Eldorado, mmmmomon, System K
+
+    . "Talk about megademo" (@2ch.net) people.
+

@@ -1,0 +1,53 @@
+              --- ===  HELiUM bY ViZNUT  === ---
+
+Released at asm'97 as a 4k intro.
+
+===== tECHsPEX ========================================================
+
+The videomode used is 256x256x256 chained. It is fully ibm vga register
+compatible and should work with every vga card/monitor. However it
+probably won't so you can try starting up with one of these:
+
+      helium 2          Standard mode13h (not all of the pic visible)
+      helium 4          400 lines, a surreal aspect ratio
+      helium m          Minimal (same as above, without x-centering)
+
+Pure realmode, optimized mainly for size. A couple of 32bit things etc
+are used so it requires a 386. No fpu needed.
+
+Some fx (like the pHOnGbALL) are of course smoother in a pentium but who
+cares :)
+
+400k of free msdos ram should be more than enough.
+
+To hear the sound (not included in the compo version!) you need an adlib
+or compatible.
+
+      helium s          ..gives silence.
+
+===== gREETiNGS =======================================================
+
+All da betatesterz - phoenix, marble, delfine, jbunny,
+                     silli, shine, everyone i forgot
+All da great userz and sysopz of theze bbsez - atom heart mother, gaia
+All da memberz of pwp (this is not a pwp production btw)
+
+===== cREDiTS =========================================================
+
+Everything by me!!!!11111111
+
+Someone could say I've plagiated the following pieces of art
+
+    - lithium by vista  (naming, eXpLOSiONS, sucking palettes)
+
+===== gZM iNFO ========================================================
+
+Do contact the author!!!
+
+      email       vheikkil@hytti.uku.fi
+                  viznut@freenet.hut.fi (if the above one is outdated)
+
+      windows superhighway    www.hytti.uku.fi/~vheikkil/
+
+The source code will probably be released some day.
+

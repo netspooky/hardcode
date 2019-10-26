@@ -1,0 +1,428 @@
+2001/04/14  Kuno Woudt <warp-tmt@dds.nl>
+
+	* src/bob.src/main.c: 0.1.20
+
+	* src/bob.src/main.c: changed sleep();
+
+	* src/clean.bat: NT support :)
+	
+	* src/bob.src/main.c: 0.1.19
+
+	* src/GNU/Makefile: 
+    	* src/tools.src/*: lots of linux
+    	port stuff.
+
+	* src/bob.src/main.c: changed the
+    	config file loading/saving to cope
+    	with GII key consts.
+
+    	* src/bob_ggi.c:
+    	* src/bob_ggi.h: ggi port by smoke.
+
+2001/04/13  Kuno Woudt <warp-tmt@dds.nl>
+
+	* src/bob.src/main.c: 0.1.18b
+
+	* bob.src/bob_game.c: fixed a nasty access 
+    violation in the win anim.
+
+	* src/bob.src/main.c: 0.1.18
+
+	* bob.src/bob_text.c: updated the credits.
+
+	* bob.src/bob_game.c: winning animation
+	done + wait for keys during death/win anim.
+	(mutilated the game loop a bit and I had to 
+         split up game_dudes into game_dudes_part1 
+         and game_dudes_part2 for this).
+
+	* src/bob.src/main.c: 0.1.17
+
+	* bob.src/bob_game.c: death animations,
+	(winning anim still to do).
+
+	* bob.src/bob_game.c: some optimizing to
+	game_zoom in game_visualfx().
+
+	* Arrived at Mekka & Symposium 2001 :)
+
+2001/04/09  Kuno Woudt <warp-tmt@dds.nl>
+
+	* src/bob.src/main.c: 0.1.16
+
+	* bob.src/bob_game.c: changes to game_clear_player.
+	(evil mutants weren't removed properly between
+	 games, and messages still aren't removed between
+	 games, but their countdown is adjusted).        
+
+	* src/bob.src/main.c: 0.1.15
+
+	* src/bob.src/main.c: changed default settings.
+	(player 1 = cpu bob, player 2 = bob :).
+
+	* src/*: moved all source into a subdir of the 
+	archive as a first step to a release package now
+	that all features are done, and i'm starting work
+	on improving and adding and cleaning all fluff :)
+
+	* bob.src/bob_game.c: fix to the gameover screens.
+
+	* bob.src/main.c: 0.1.14
+
+	* bob.src/bob_text.h: commented #define MENU_INFO,
+	the game is 33792 bytes with MENU_INFO, and 29184
+	bytes without it.
+	
+	* readme.html: updated things all over the place.
+	(gameplay, powerups, intro, system requirements,
+         and a few small fixes).
+
+	* bob.src/bob_game.h: 
+	* bob.src/bob_game.c: added a message buffer
+	which shows messages on the screen (e.g. which 
+	powerup a player just used etc.).
+
+2001/04/06  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.1.sf2k
+
+	* bob.src/bob_game.h: small fix to eleminate
+	an access violation which cropped up in the
+	game_zoom powerup.
+
+	* bob.src/bob_game.c: small tweaks to the
+	game over and final result screens.
+
+	* bob.src/main.c: 0.1.12
+
+	* bob.src/main.c: 
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: added a much needed 
+	championship mode in which you play 4/8/16/32
+	or 64 games and one on of the players is declared
+	a winner at the end of that based on score.
+	Also cleaned up the game over screens for this.
+
+2001/04/05  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.1.11
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: implemented most of the
+	optimization tricks smoke suggested - there
+	is some improvement on my old box.
+
+	* bob.src/main.c: 
+	* VisualC/*: changed the unsigned char music
+	to volatile, that may have caused my threading
+	problems (thanks avoozl!).
+
+2001/04/04  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.1.10
+
+	* VisualC/*: changed the optimize option, 
+	again, "maximize speed" wasn't safe either.
+
+	* bob.src/main.c: 0.1.9
+
+	* VisualC/*: changed the optimize option, 
+	"minimize size" is crashing the music thread.
+	(read doc/todo.txt for more info).
+
+2001/04/03  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.1.8
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: implemented some cheesy AI,
+	although cpu bob exhibits some stupid behaviour
+	it mostly survives the course now :)
+
+	* bob.src/main.c: 0.1.7
+
+	* readme.html: moved command-line options to their
+	own chapter.
+
+	* bob.src/main.c: improved command-line parsing
+	of windowed and nosound options.
+
+	* bob.src/main.c: 0.1.6
+
+	* readme.html: updated system requirements to
+	reflect the game_drug cpu hog. :)
+
+	* bob.src/bob_sin.h:
+	* bob.src/bob_sin.c:
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: game_drug powerup is done,
+	a bit sluggish on my p133mhz though.
+
+2001/04/01  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.1.5
+
+	* readme.html: moved lots of stuff around, fixed a
+	few mistakes and added a `links' chapter.
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: game_zoom, game_reverse
+	and game_speedup powerups are done.
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: removed the inventory code
+	as it's more fun without it i think and fixed a
+	flaw in the powerup pickup code (game_use_item()).
+
+	* bob.src/main.c: 0.1.4
+
+	* VisualC/bob.dsp: phew! i knew there was 
+	something wrong about the 30k, i forgot set
+	the active project from debug to release :)
+	So, i'm now at 26624 bytes for bob.exe.
+
+	* bob.src/*: squeezed some more data and code.
+	(damn!, still at 30208).
+
+	* bob.src/bob_dx7.h: woops, forgot to dispable
+	#define DEBUG. (damn!, still at 30208).
+
+	* data.src/main.c: 
+	* data.src/bob_text.c:
+	* data.src/bob_text.h: removed the info
+	menu to save more space.
+	(from 31744 to 30208).
+
+	* data.src/drbob2.lbm: fixed a few pixels
+	and removed all uppercase chars from the
+	small font (and promoted the lowercase chars
+	to uppercase) to save some room.
+	(from 32256 to 31744 bytes).
+
+	* bob.src/main.c: 0.1.3
+
+	* fxmp.src/ticker.c: 
+	* fxmp.src/config.h: removed lots of unused
+	effects and printfs (well, shoved them inside
+	"ifdef"s actually :). which reduces the size
+	of the packed .exe from 33280 bytes to 32256.
+	(only 512 bytes left - eek!).
+
+	* bob.src/main.c: 0.1.2
+
+	* bob.src/main.c: music!
+
+	* fxmp.src/fxmp.c: small fixes to fxmp_play
+	to support changing song.
+
+	* fxmp.src/load_xm.c: load .xm from
+	memory.
+
+	* fxmp.src/ticker.c: 
+	* fxmp.src/config.h: #define LOOP support :)
+
+	* bob.src/bob_data.c: include game.xm and menu.xm
+	
+	* readme.html: woops. forgot to change the
+	license blurb the readme.
+
+2001/03/31  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.1.1
+
+	* bob.src/*:
+	* doc/*: after doing some tests with both
+	elitegroup's port of cubic's mxmplay and
+	firelight's minifmod i've decided not to
+	use either of them. So i have changed the
+	license back to GPL again ;-)
+
+	* bob.src/main.c: 0.1.0
+
+	* doc.src/bob.design.doc.txt: removed 
+	everything which i've written down properly
+	in the readme.
+
+	* bob.src/*:
+	* doc/*: changed the license to LGPL so
+	i can implement non-GPL music players like 
+	minifmod or mxm - this a major change IMO
+	and is therefore reflected in the version.
+
+	* doc.img/*.gif:
+	* readme.html: I have written most of the
+	readme, some gameplay elements are missing.
+
+	* bob.src/main.c: fullscreen = !(argc-1);
+
+	* bob.src/bob_game.c: 
+	* bob.src/bob_game.h: limit framerate at
+	76 hz, as most vidcards can be set a lot
+	faster these days.
+
+	* bob.src/gettime.c:
+	* bob.src/gettime.h: gettime();
+
+2001/03/30  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/convert.h:
+	* bob.src/convert_8bit.c: Introduced the converters from
+	my 8bit TinyPTC adaption to aid windowed support.
+
+	* bob.src/bob_dx7.h:
+	* bob.src/bob_dx7.c: Windowed support was added, however
+	i don't think windows are ever indexed mode - so this is
+	a *LOT* slower - still plays fine on my celeron 466 but
+	fullscreen 8bit is mandatory on p133.
+
+2001/03/29  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.0.19
+
+	* doc/bob.design.doc.txt: added some powerup ideas from 
+	tharsis, which should replace game_join and game_lamer.
+
+2001/03/26  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.0.18
+
+	* data.src/drbob2.lbm: complete redraw of the powerups,
+	plus borders around most things (there's still a few
+	wrong pixels in there though).
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: made the dots bigger in game_items on
+	advice from tharsis - looks a lot better indeed. Also
+	added borders to the bars to coincide with the new larger
+	powerups and creatures with borders. Although the code still
+	has to be written for them the powerups listed below are
+	updated to game_reverse and game_slowdown.
+
+	* doc/bob.design.doc.txt: added some powerup ideas from 
+	tharsis, which should replace game_join and game_lamer.
+
+2001/03/25  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.0.17
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: some more powerups are done (game_bars,
+	game_gravity, game_prison) and the main loop was cleaned up
+	a LOT.
+
+	* bob.src/main.c: 0.0.16
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: preliminary powerup. only game_food is 
+	partly done.
+
+	* bob.src/main.c: 0.0.15
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: evil mutant movement + animation.
+
+2001/03/24  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.0.14
+
+	* data.src/drbob2.lbm: some fixes to the evil mutant and player
+	sprite + revised palette.
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: done character movement + animation, 
+	preliminary game logic.
+
+	* bob.src/main.c: 0.0.12
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: score + inventory renderering
+	is done, preliminary character movement + rendering.
+
+2001/03/22  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.0.10
+
+	* bob.src/bob_text.h:
+	* bob.src/bob_text.c: 
+	* bob.src/main.c: added story from design doc.
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: dot and item rendering is done.
+
+	* tools.src/spriteripper.c: a quick hack of fontripper to do
+	sprites (i.e. no RLE encoding of the output cells).
+
+	* data.tmp/drbob2*.jrs.h:
+	* data.tmp/drbob2.pal.h:
+	* data.src/drbob2*.jrs:
+	* data.src/drbob2.lbm: created sprites for the player, the evil
+	mutants and all powerups/items.
+
+	* bob.src/main.c: 0.0.9
+
+	* bob.src/bob_text.h:
+	* bob.src/bob_text.c: 
+	* bob.src/main.c: added score radix and keyboard map
+	to config screens.
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: some screen layout is done: the bars
+	are moving and preliminary score display.
+
+2001/03/21  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.0.8
+
+	* bob.src/bob_text.h:
+	* bob.src/bob_text.c: 
+	* bob.src/main.c: player config screens added (includes
+	keyboard settings, player names and save/load a cfg
+	file).
+
+2001/03/19  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.0.7
+
+	* bob.src/bob_game.h:
+	* bob.src/bob_game.c: start of game code.
+
+	* bob.src/main.c: 0.0.6
+
+	* bob.src/main.c: cleaned up main loop to act on menu
+          selections.
+
+	* bob.src/bob_text.h:
+	* bob.src/bob_text.c: CREDITS text + menu contents
+
+	* bob.src/typeface.h:
+	* bob.src/typeface.c: all menu code.
+
+2001/03/18  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.0.5
+
+	* tools.src/fontripper.c: fixed a few bugs.
+
+	* bob.src/bob_text.h: WELCOME text.
+
+	* bob.src/typeface.h:
+	* bob.src/typeface.c: created render_text(), includes
+	  '\n' support too.
+
+	* bob.src/main.c: 0.0.4
+
+	* tools.src/fontripper.c: ported fontripper from jeeves back to .c
+	* data.src/drbob.lbm: some small fixes to the font.
+
+2001/03/17  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.0.3
+	* bob.src/bob_dx7.c: added palette support to bob_dx7.c.
+	* bob.src/bob_dx7.c: directinput support.
+
+2001/03/16  Kuno Woudt <warp-tmt@dds.nl>
+
+	* bob.src/main.c: 0.0.2
+	* bob.src/main.c: start of 32k game compe entry.
+	* bob.src/bob_dx7.c: preliminary directdraw stuff done.
+	* doc/bob.design.doc.txt: updated TODO list.

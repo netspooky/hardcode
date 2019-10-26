@@ -1,0 +1,35 @@
+
+	selten
+	~~~~~~
+	4k intro for conference 3000
+	by nap/dilemma
+
+	requirements
+	~~~~~~~~~~~~
+	windows 95/98
+	pentium 200 (fully unoptimized, lack of time, as usual)
+	floating point unit
+	gus for sound
+	recommended resolution: 640x480 in true color
+
+	bugs
+	~~~~
+	if the sound is bad (because installed windows gravis driver):
+	- control panel
+	- system
+	- device manager
+	- sound, video and game controllers
+	- gravis ultrasound
+	- properties
+	- and finally check the "disable in this hardware profile" checkbox
+
+	notes
+	~~~~~
+	another windows 4k from me. about 16 hours of coding and tracking.
+	sorry. party and final version included in high and low resolution.
+	available gus ports: 220h and 240h.
+
+	contact
+	~~~~~~~
+	nap/dilemma	-	nap@scene-hu.com
+	

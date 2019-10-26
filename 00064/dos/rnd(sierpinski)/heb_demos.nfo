@@ -1,0 +1,8 @@
+First real try at some assembly programming, using the basic 3 attractor method of generating a sierpinski triangle.
+
+Some trouble with the random number generation, doesnt work on a lot of systems, some hax to make it work. #2 builds using a different method that seems to work better.
+_psudo using a psudo-random generator that works on anything, but is bigger.
+
+_rotate first attempt at using the fpu, rotating attractor points, likely could be cleaned up, but haven't learned enough yet.
+
+Small and Tiny builds have no ESC check, rest do.

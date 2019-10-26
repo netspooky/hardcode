@@ -1,0 +1,8 @@
+CSField
+128 byte intro
+Made by Jomppa
+
+Contacts:
+email; 'jonitoiv@mbnet.fi'
+website; 'jomppacs.cjb.net', currently redirects to
+         'koti.mbnet.fi/jonitoiv/'

@@ -1,0 +1,35 @@
+--------------------------
+Nick/Realname: wormsbiysk | WBC | Artem Vasilev
+Group: LSA (fuck it! Sorry, but it's just an trash bag, not a group)
+Full name of work: noiseglitcher
+Compo: Tiny Intro 
+Requirements: MS-DOS, VGA, Covox on LPT1 recommended
+Duration (minutes): until any key
+Contacts: wormsbiysk@yandex.ru
+--------------------------
+
+Работает под DOSBox и на реальных машинах, требует DOS, VGA, желателен 
+Covox на LPT1 для звука (для DOSBox в конфиге прописать в секции 
+[speaker] параметр disney=true).
+
+noise.com  - сама интра
+noise.asm  - исходный код на FASM
+
+Наилучший звук (шум :) под DOSBox, на реальных машинах - одиночный тон.
+Настоятельно рекомендую убавить громкость - звук ОЧЕНЬ громкий.
+
+Зрители на ЦЦ были снесены звуком, поэтому высокого места интра не заняла :)
+
+--------------------------
+
+Works under DOSBox or real machine, requires DOS and VGA, Covox on LPT1
+is recommended if you want to hear some sound (set disney=true in
+[speaker] section in dosbox.conf, if you running intro under DOSBox)
+
+noise.com   - intro :)
+noise.asm   - source code in FASM
+
+The best sound (noise :) played in DOSBox, on real machine only single
+tone, and i recommend to turn volume down - the sound is LOUD.
+
+CC visitors was demolished by the sound wave, so this intro got a low rank :)

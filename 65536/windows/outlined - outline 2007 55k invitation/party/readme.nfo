@@ -1,0 +1,76 @@
+
+                     "Outlined"
+              OUTLINE 2007 55k invitation
+
+                       by Orb 
+
+ --------------------------------------------------- 
+
+                      4 - M A T
+
+                        Music
+
+
+                      K E O P S
+
+                     Code, design
+
+
+                      K E N E T
+
+                     2D graphics
+
+ --------------------------------------------------- 
+ 
+  Requirements:
+ 
+    This 55k intro uses OpenGL 1.1 and requires  
+   neither vertex nor pixel shaders. It should run
+   properly on low end hardware.
+
+   We noticed framerate issues in dualscreen mode.
+
+   Not tested with Windows Vista. Might not run
+    properly.
+
+   PLEASE MAKE SURE OPENGL VSYNC IS ENABLED
+
+ --------------------------------------------------- 
+
+  A few words about this 55k invitation:
+ 
+    No so called "intro-tools" were used,
+   everything was hardcoded from scratch, including
+   events handling and music-sync.
+
+    This .exe was packed using Kkrunchy, which
+   might create an alert in your antivirus software
+
+ --------------------------------------------------- 
+
+                     Greetings:
+
+    Adam Blair - Andromeda - Black Maiden - Bomb
+    Brainstorm - Conspiracy - Checkpoint - Cream
+   DHS - Dune - Fairlight - Farbrausch -  Kewlers
+   Komplex - Mandarine -  MFX - MJJ - Limp Ninja
+    Orion - Oxygene - Paradise - Paradize - Rez
+   Scarab - Sector One - Speckdrumm - Stravaganza
+    SynRJ - tAAt - TBL - Titan - Tpolm  - TSCC
+                    demoscene.tv
+
+
+            Personal greetings from 4-Mat:
+ 
+         8bitpeoples - Aleksi Eeben - Evilpaul
+                Korruptor, TMR/Cosine
+
+ --------------------------------------------------- 
+ 
+                Special thanks to:
+
+        Karine for her support and patience
+    Ultra and Stingray for the next orb release 
+                 Rez for nothing
+
+ --------------------------------------------------- 

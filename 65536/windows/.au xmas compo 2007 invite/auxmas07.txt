@@ -1,0 +1,145 @@
+3.141592653589793238462643383279502884197169399375105820974944592307816
+40628620899862803482534211706798214808651328230664709384460955058223172
+5359                                                               4081
+2848         disasterarea presents the online demo compo:          1117
+4502                                                               8410
+2701                   THE .AU XMAS COMPO 2007!!                   9385
+2110                                                               5559
+6446                Make your xmas a demoscene one!                2294
+8954                                                               9303
+8196                                                               4428
+81097566593344612847564823378678316527120190914564856692346034861045432
+6648                                                               2133
+9360       Check out the rules and submit entries online at:       7260
+2491                                                               4127
+3724            http://www.disasterarea.net/xmascompo/             5870
+0660                                                               6315
+5881         xmastree.3ds and jnglbels.xm not obligatory!          7488
+1520                                                               9209
+62829254091715364367892590360011330530548820466521384146951941511609433
+0572                                                               7036
+5759  About the invtro:                                            5919
+5309                                                               2186
+1173  - code/sound/animation by ript                               8193
+2611  - maybe code by null (With our ancient codebase it's hard to 7931
+0511                        know who actually coded what anymore)  8548
+0744  - concept by jesstickle                                      6237
+9962  - texture generator by gyr/kaolin                            7495
+6735  - music player by firelight (minifmod - www.fmod.org)        1885
+7527  - packed by UPX (upx.sourceforge.net)                        2489
+1227                                                               9381
+83011949129833673362440656643086021394946395224737190702179860943702770
+5392                                                               1717
+6293  Disclaimer:                                                  1767
+5238                                                               4674
+8184  You run this software at your own risk!                      6766
+9405                                                               1320
+0056  Just remember, if something bad happens as a result of       8127
+1452  running this program, we're not responsible!                 6356
+0827                                                               7857
+7134  (cue evil laughter)                                          2757
+7896                                                               0917
+3637  (as per usual, as usual)                                     1787
+2146                                                               8440
+90122495343014654958537105079227968925892354201995611212902196086403441
+8159                                                               8136
+2977  Crap:                                                        4771
+3099                                                               6051
+8707  So I've been sitting in my internetless house making this    2113
+4999  little invitation intro - several weeks late, too.  There    9998
+3729  are no excuses.                                              7804
+9951                                                               0597
+3173  I have been working a lot, with the recent federal election  2816
+0963  and all.  And I've been involved in organising a wedding.    1859
+5024  And a honeymoon.  That will even get me back to Europe next  4594
+5534  year.  I TOLD YOU EURO BASTARDS I'D COME BACK!!!11           6908
+3026  All this is still not an excuse, though.                     4252
+2308                                                               2533
+4468  This intro features our ancient "mouse puppetry" base code   5035
+2619  (born for LGF), which drove me to near insanity this time    3118
+8171  around.  Can someone please find me a decent chunk of time   0100
+0313  to recode it from scratch?                                   7838
+7528                                                               8658
+7533  I'm sitting a few metres away from a batch of crazy beer     2083
+8142  that I bottled earlier this afternoon, and am already having 0617
+1776  trouble waiting for it to condition.                         6914
+7303                                                               5982
+5349  In case you're curious, here's why it's crazy:               0428
+7554                                                               6873
+11595628638823537875937519577818577805321712268066130019278766111959092
+1642                                                               0198
+9380  #008: Captain Beer and the Citrus Extravaganza               9525
+7201                                                               0654
+8586  Created on 27/11/07                                          3278
+8659                                                               3615
+3381  Ingredients:                                                 8279
+6823                                                               0301
+9520  1 tin Cooper's Pale Ale (hopped malt extract)                3530
+1852  25g Cascade hops                                             9689
+9577  4 large pieces of lemongrass                                 3622
+5994  250g Corn syrup                                              1389
+1249  750g Glucose                                                 7217
+7528  Safale S-04                                                  3479
+1315                                                               1557
+4857  Method:                                                      2424
+5415                                                               0695
+9508  Chopped the lemongrass into little bits and boiled in ~1     2953
+3116  litre of water for ~45 minutes.                              8617
+2785                                                               5889
+0750  Strained into a jug, boiled the pieces of lemongrass a       9838
+1754  second time for around 15 minutes in another 2 litres of     6374
+6493  water.                                                       9319
+2550                                                               6040
+0927  Dissolved the corn syrup and glucose into ~2 litres of       7016
+7113  water, added 12.5g (half) the hops and boiled for 15         9009
+8488  minutes.                                                     2401
+2858                                                               3616
+0356  Threw the rest of the hops in, and about half the remaining  3707
+6601  lemongrass water.  Let it rest for a few minutes.            0471
+0181                                                               9429
+5559  Emptied the Cooper's tin into the fermenter, followed by the 6198
+9467  above concoction and the rest of the lemongrass water.       6783
+7449  Topped up with cold water to 21 litres and pitched the       4482
+5537  yeast.                                                       9774
+7268                                                               4710
+4047  Original Gravity: 1041                                       5346
+4620  Final Gravity: 1004                                          8046
+6842                                                               5906
+9491  Bottled 10/12/07: 750ml glass bottles, each primed with a 4  2933
+1367  gram glucose lolly thingo (you know, them ones for brewing). 7028
+9891                                                               5210
+47521620569660240580381501935112533824300355876402474964732639141992726
+0426                                                               9922
+7967  It smells really good.  I snuck a taste out of the fermenter 8235
+4781  and that was awesome as well.  Thanks to Gill for suggesting 6360
+0934  that lemongrass should be in there.                          1721
+6412                                                               1992
+4586  I suppose while I'm ranting, I could thank some other        3150
+3028  people.                                                      6182
+9745                                                               5570
+6749  I'd like to thank my neighbour for having an unsecured       8385
+0549  wireless internet access point, which I've been abusing over 4588
+5869  the past few months just because it's so handy.              2699
+5690                                                               9272
+1079  I'd also like to send fuckings to that neighbour for putting 7509
+3029  up a "For Lease" sign outside their house and turning off    5532
+1165  their wireless router permanently.  Bastards.                3449
+8720                                                               2755
+9602  I'd also like to thank my wife-to-be                         3648
+0665  (Jesstickle/disasterarea) for suggesting  such a perfectly   4991
+1988  fitting and tasteful theme for this xmas compo invite.       1834
+7977                                                               5356
+6369  I'd like to thank you for not only watching the intro and    8074
+2654  reading this rant, but also entering the .au xmas compo      2527
+8625  2007!                                                        5181
+8417                                                               5746
+7289  Thanks!                                                      0977
+7727                                                               9380
+0081  Goodknight!                                                  6470
+6001                                                               6145
+24919217321721477235014144197356854816136115735255213347574184946843852
+3323                                                               9073
+9414  This infofile sucks.                                         3334
+5477                                                               6241
+68625189835694855620992192221842725502542568876717904946016534668049886
+27232791786085784383827967976681454100953883786360950680064225125205HA!

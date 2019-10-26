@@ -1,0 +1,9 @@
+AIKA.LOPPU - A Sl0ppi production
+
+Running:
+Run in fbcon.
+
+./paskaa   #Runs with double pixels if xres>640
+./paskaa s #Runs with single pixels, no matter fb res
+
+

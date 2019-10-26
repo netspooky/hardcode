@@ -1,0 +1,81 @@
+..............................
+.  Physikaine / Chanka Team  .
+.       64kIntro Compo       .
+.   1st place at Euskal 8    .
+..............................
+
+Code: Pocket & BakTery
+Music: Awesome
+
+Requeriments:
+	PII 350
+	Windows 98
+	DirectX 7.0
+	3d card (TNT or better recomended)
+	SoundCard
+
+-- Tech info --
+
+Code:
+	The compiler used was Visual C++ 6.0.
+
+	Executable file compressed with UPX v.1.01.
+
+	BakTery lossed time in Intro engine, music synth and player,
+        introduction space, isosurfaced cube with water and the 
+	cutre-raytracing.
+
+	Pocket unsleeped with Texture generator, physic hairball,
+        physic pool, cutre-domino and the end flag.
+			
+Music:
+	The samples were created using a simple own synth called BitGen
+	and the song was played with our BitSound System. So, samples
+	are generated procedurally when the intro starts.
+
+	A realtime 'resonant-low pass' filter is applied to the mixing 
+	on the space and the pool scenes.
+
+	Floating point mixing. Linear interpolacion. No volume ramp ;(
+
+	Module exported from FT2 XM file to BSG (BitSound Player Song 
+	Format).
+
+	Intro was syncroniced from the song using Ft2 Wxx column
+        effect.
+
+Fonts:
+	Fonts were made by Awesome.
+
+Design:
+	Sorry here... we're looking for a good designer ;)
+
+-- end of Tech info---
+
+Trick:
+	Do you like play pool??? Try to write CHANKA at the end of the
+	intro ;)
+
+Special thanx to:
+	Reboot/Incognita, thx for the small.cpp ;)
+	Markus J.X.J Oberhumer & Laszlo Molnar for the cool packer UPX.
+	Garrofi, hey pivitas!! ;)
+	Mac/Vteam, good luck at Microsoft!
+	Una-i, Comandos 2 rulez! ;D
+	Turbo_bit, good luck at Computer House!
+	Euskal organicers, good work ;)
+
+
+Greetings:
+	Anaconda*Centosis*Concept*CucMakers*DrinkTeam*Fuzzion*Iguana
+	Incognita*KernelPanic*OrbitalDreams*Rgb*Savage*Sfl*Tlotb*Tst
+	VirutaTeam*WildBits
+
+
+Contact:
+	Pocket		al010708@alumail.uji.es
+	BakTery		al014585@alumail.uji.es
+	Awesome		Vicverlu@inf.upv.es
+
+
+				BakTery/Chanka Team, 27 July 2000

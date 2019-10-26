@@ -1,0 +1,48 @@
+                   The second BlasterSound BBS intro.
+                   ----------------------------------
+                   
+        Written by Iguana in 1994.
+        Design and text writer by Jare.
+        Snowfaller and music player by JCAB.
+        Tune by COI.
+        Font by unknown (Hi unknown! Howya doing?).
+
+        ------------------------------------------------
+
+           The original idea for this intro comes from one of the
+        very first ASM routines that JCAB and I coded, long ago, on
+        the ZX Spectrum. We liked the way it looked, and as it
+        seems that this year we will not have snow in Madrid, we
+        brought the concept back. :-) Of course, we have improved it
+        (more pixel resolution and a random windy thing).
+
+        ------------------------------------------------
+
+           I had never thought that a screen had so many pixels. Just
+        wait until it fills completely!
+
+        ------------------------------------------------
+
+           The music of this intro can be heard through an AdLib card
+        or compatible (i.e. Sound Blasters, PAS's, etc) or with an
+        MPU SCC1 or compatible General Midi device (also works with
+        the MegaEm and the GUS card). In fact, if you have both cards
+        on your computer, you can hear the music twice as much! 8->
+
+        ------------------------------------------------
+
+           Special thanks to Patrick Aalto for releasing the sources
+        of his MidiTracker.
+
+        ------------------------------------------------
+        
+           Full source code is included, so you can learn a little. If
+        you like it and/or use the concept, please credit us.
+
+        Contact us at BlasterSound, or thru the Internet:
+
+        jcarlos@gw.iic.uam.es  (JCAB)
+        a880104@zipi.fi.upm.es (Jare)
+
+           Madrid, 1994.
+

@@ -1,0 +1,97 @@
+0.0.21 (bob branch 0.2) - 31 Mar 2001, Kuno Woudt <warp-tmt@dds.nl>
+
+ - although my win32 code has made it into 0.0.22, i cannot
+   just plug it in as i've made some size optimizing changes
+   to fxmp all over the place. So, instead i've applied the
+   bugfixes from 0.0.22 to this fork.
+ - size optimizations (removed printf's and enclosed most 
+   effect code in #ifdef's).
+
+0.0.21 (win32 branch 0.1) - 31 Mar 2001, Kuno Woudt <warp-tmt@dds.nl>
+
+ - made a copy of drv_dsp.h and drv_dsp.c to implement
+   windows waveOut support (in drv_win.h and drv_win.c).
+ - changed every call to malloc in load_xm.c to calloc, it
+   seems there's some bug in there which possibly only rears
+   it's head on win32 systems.
+ - eliminated a number of warnings which appeared in win32.
+   (in load_xm.c, changed k to unsigned, in ticker.c i've
+    added some casts solve some unsigned/signed issues).
+
+0.0.21 - 10 Mar 2001
+
+ - code restructuring/beautifying/renaming
+ - fixing of fragsize/number trouble in drv_dsp which caused silence
+ - a more ready version of a more public release
+ - implemented note cut
+ - fixed porta up/down bug
+ - fixed octave/freq/period overflow bug
+ - fixed volume bug
+ - fixed vibrato/tremolo start pos
+ - implemented notrig wavecontrol
+ - fixed pingpong loop bug
+ - fixed keyoff/volfade bug <- AGAIN, hopefully final :)
+ - pan volume fixes
+ - implemented arpeggio
+ - fixed overflow in drv_dsp
+
+0.0.20 - 20 Jun 2000
+
+ - fixed another volume bug :)
+ - added fxmp_poll which just polls ticker();
+
+0.0.19.5
+
+ - fixed a volume bug
+
+0.0.19
+
+ - ok ok, key off bug is REALLY fixed now ;)
+ - clean ups
+
+0.0.18
+
+ - a lot of optimizations, almost complete rewrite of drv_dsp.c
+ - key off bugs fixed
+ - no more needs nasm
+
+<I forgot what I did from 0.0.13 to 0.0.18 :P>
+
+0.0.13
+
+ - volume bug is fixed
+ - pan fixes
+
+0.0.12
+
+ - fixed several bugs (including instno=0 bug)
+ - added fx: (0x09) Sample Offset
+ - optimized drv_dsp->ticker() function *EXPERIMENTAL*
+   details: ticker() now outputs exactly NOS*4 bytes
+            (instead of SOUNDBUFSIZE bytes)
+   warning: using a small SOUNDBUFSIZE may cause crashes
+ - removed the old buggy method for finding last fx parameter
+ - added several bugs
+ - 18-19% cpu usage decrease
+
+0.0.11
+
+ - driver structure is ready
+ - divided funcs into smaller parts and moved them to driver structure
+ - removed channel[j] lookups from seq driver
+ - api is changed too
+ - there're still a lot to do with driver structure etc
+ - envelope sustain bug is fixed
+
+0.0.10.5
+
+ - fixed porta to note again..
+ - some pattern jump bug is fixed (maybe?) :D
+
+0.0.10
+
+ - KeyOff bug is fixed :P
+ - Porta to Note is also fixed, but i don't know if the speed is correct.
+ - ticker() is divided into two parts, one for tickbased stuff, one for
+   rowbased stuff
+ - replaced all crappy lookups, now using pointers

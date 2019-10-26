@@ -1,0 +1,9 @@
+Colors by lucid for Assembly 2011
+
+Direct3D 10 & HLSL 4k intro
+
+code: ltipl
+music: meru
+
+
+

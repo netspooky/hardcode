@@ -1,0 +1,119 @@
+
+                                  VEX-InTrO
+                    (c) '94  Dirk Jagdmann / Niklas Beisert
+
+
+                        Information about the VEX-InTrO
+                       ---------------------------------
+
+The VEX-InTrO is a public piece of software. You can and shall spread it
+as much as you want, as long as you distribute the files
+     VEX.EXE      size:65535 bytes
+     VEX.NFO      size:????? bytes
+     FILE_ID.DIZ  size:  574 bytes
+together and make no (NONE AT ALL) changes to them and no money is charged
+for copying them.
+
+
+Hardware things:
+================
+The VEX-Intro was designed to run perfectly on a 486dx2-66 with a
+fast VLB graphics adapter and a SoundBlaster (or compatible) soundcard.
+That does not mean it would not run on a 386dx-33 with a slow ISA graphics
+adapter and a SoundBlaster 16 ASP with a sampling rate of 44kHz and a
+mainboard that does not support 16-bit DMA-transfer. It would sometimes
+be slowed down to something like 5 frames/sec or less (and the end-part
+scroller won't work correctly :( ).
+
+The reason for this is that the spacecut calculations are quite slow,
+(in fact the calculations are fast, but they split up one plane into a
+large number of planes, and slow down the drawing process...)
+especially when you spacecut 4 cubes, or a transparent "ball" consisting
+of 26 planes to a textured octahedron.
+The end-part scroller sometimes does not work, simply because I was too
+lazy to make it work below 35 frames/sec... :>
+
+You might ask why we don't support the Gravis Ultrasound...
+There are (of course) reasons:
+  a) it would be hard work to include Ultrasound support in 8 bits of code :)
+  b) we don't have any and know nobody who would lend us his
+
+Instead we support SoundBlaster 16, because we both have sb16s and
+sb-pro stereo sound sounds more than terrible on a sb16...
+You want to know how how sb16 sound works? contact me! (pascal)
+
+
+Software, Coding:
+=================
+The intro was completely coded in Borland C++ 3.1 and TASM 3.1, the size of
+all the source-files is approximately 190k. The unpacked size of VEX is
+÷ 230k. (thank goodness we could compress it to 65535 bytes :)
+The vector-part consists of 23 objects, 400 points and 230 planes.
+The plasma is a 80x50 octo-sine plasma. The endpart-scroller has some
+nice lissajous figures in the background and a boring text in front of them.
+And finally we made a short information file (yeah, guessed right, you are
+reading it right now) which tells you all the facts about this intro and is
+even more boring than the scroll text at the end of VEX...
+The time needed to code this Intro cannot really be measured, all the
+fragments of code were made in 1993 and 1994, but it took us some
+2 or 3 weeks to put all the code, graphics and music together.
+The vectorpart scenery was mainly worked out in 2 days. (nights! :)
+(These were tough nights...)
+
+
+Music:
+======
+The Music is a normal S3M Modul, tracked with Sream Tracker 3.01á.
+It only consits of three channels, because the SBs don't support hardware
+mixing and resources are needed for the gfx...
+I only used 5 instruments for reasons of size. The unpacked size is about
+22KB, but we could compress ist to about 14,5KB.
+If you wan't to rip the tune, try to do so... (hehe) If you can't, wait till
+I release it and it appears in one of your personal favourite BBSes.
+
+
+GfX:
+====
+The Beginning and End-ANSIs were drawn with The Draw 4.6. I think there's
+nothing very special about them, except that they look nice.
+The objects in the Demo are mostly mathematical, except the computer and
+the disk (yeah, the disk was hard work).
+
+
+hints/troubleshooting
+=====================
+If the system hangs when you start VEX, turn the sound off, or set the
+sound settings manually.
+
+If the system hangs right in the middle of the action (so sorry...)
+or shows garbage, reboot without ANY drivers etc. and restart VEX. 
+This should help... (at least it DID, when I tested it ;)
+OR: try setting a different sampling rate!
+  (e.g. -8 and -s3 don't work together on my computer. dunno why!?!)
+
+If you have a SoundBlaster 16, but the 16-bit DMA-transfer does not work 
+with your motherboard, try the switch -8. This will make the sound player 
+play in 8-bit mode and speed up the DMA-transfer.
+
+If the intro is too slow, set the sampling rate down (-s1/-sm), or
+turn the sound off (-c0). You can also make a clean boot (F5 before DOS boots)
+without an expanded memory manager such as EMM386 or QEMM. (I have never 
+experienced a speedup by that... [maybe because I use Novell's EMM386?!?])
+
+If you have got a sb16 and a VLB or PCI graphics adapter you can set the
+sampling rate up to 33kHz or 44kHz (-s3/-s4)
+
+
+Adresses
+--------
+
+Dirk Jadgmann (DOJ)        Niklas Beisert (pascal)     Bertolt Meyer (?hook)
+Kaiser-Friedrich-Ufer 13   Oberstraáe 84               Wrangelstraáe 18
+20253 Hamburg              20149 Hamburg               20253 Hamburg
+Germany                    Germany                     Germany
+
+                           Fax: +49-40-443391
+                           (don't mess around )
+                           (with my fax if you)
+                           (just want say you )
+                           (hate or like VEX!!)

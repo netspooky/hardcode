@@ -1,0 +1,29 @@
+AWKful VT-100
+
+This 4k intro is released at party Funcition 03. It is intended to be
+run on a 486 laptop connected to an Amiga 2000 on 10 Mbit lan, where
+the Amiga has a vt-100 compatible telnet client connecting to the
+intro. 
+
+All efects are written in awk. You will also need (common) *NIX tools
+to run the intro:
+ A *nix system with:
+  - sleep
+  - netcat (with -e support)
+  - /bin/true
+  - /bin/bash (or /bin/sh)
+  - awk interpreter (tested with mawk)
+  - a telnet client is required to take adventage of the networking 
+    features of the script ;)
+
+Each delay depends on the CPU speed. Run it on a 486 or change the constants
+in the delay loops. It's a partycode...
+
+Code:	Igor2
+Music:	Igor2
+Amiga:	Charlie
+ 
+ 
+NOTE: this demo is 100% 3D free!
+
+Source is released under the GPL (v2.0 or later). 

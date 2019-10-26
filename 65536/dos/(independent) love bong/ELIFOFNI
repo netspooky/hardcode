@@ -1,0 +1,140 @@
+                                                    .
+     almost-fullscreen         [ c • ï t r  c t ]   b.   dSb
+     high resolution                           .     `$b  ?SP   .
+     realtime raytracing        . .' `. `:.  s' .?  `$b.  .'    .
+     is just one of the      .' : l.  `?L    dP d$$$b  `¦?$$$P'.:' `. .
+     great features        ' b `  d$bod$$bdP' ?$$$$b `?b `?b '   .' ,
+                          `. `b. d$P¦' `¦?$$P:'  ?$$$$b.d$' d$b..d' ;.
+                          :  d$P' .eb. :' `    ?$$$$$' .d$$$$$$b.  ;
+                          .'.dP' .d$$$$$L    .s  .$$$$$b  `:P' `¦?$b.
+     another               P' .dP'`¦?$P'$b$$$b ?'?$$$$b ` .d$b `?$l
+     not-so-fast-made     dP  d$P xtr”  d$P¦?$$$$.   ?$$$$b  $$$$$L dP'
+     work from           .? .d$$'_lyse dP'   ?$$$L    ?$$$$b `?$$P'.P'
+     cnt health care     d' d$$$      dP     `$$$$b.   ?$$$$b$$P  d'
+     titled              $  $$$$.dl .dP       `?$$$$b. ?$$$$$P' .d'
+     "(independent)      $  $$$$P' dP          `?$$$$$b`$$$P'  .P'
+     love bong"          $. `¦§' ¦$P'             `¦?P¦' `¦'    d
+     featuring           `b.                                    $b.'
+     world-famous         ?b  .ob.                             `¦'
+     superstars as:       `$. `  `?.
+     aron, xtro and         `b.  .P'   http://contract.scene-hu.com
+     ofcoz zooley            `¦?$P¦
+
+
+      ş                                  we present full frontal nudity
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     aron .......................... code + design + photos + typography
+     xtro / rhyme .......................................... "bong" logo
+     zooley ...................................................... audio
+
+
+      ş                           we applied them as an additional crew
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     amic ........................ huge amount of selected quality mp3's
+     archee / contract.................... algorithm optimization tricks
+     charlie & thomas .................................. mode protection
+     enok / chrome ................ previous fast-made-but-not-used logo
+     laud / contract ........................................ idea bombs
+     markus & laszlo (markus laszlo? wow!) ........ alphabet compression
+     pascal / cubic team ........................... portamento handling
+     ring games kft. ........................... killer hardware support
+     szabolcs m rovics ............................ dustiest gravis ever
+     szilva ................................................... aron's 
+
+
+      ş we suggest you starting the executable with the next parameters
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     exename 0 ............. how you love your oldie VGA card [default]
+     exename 1 .......... your lame video card support only 2^16 colors
+     exename 2 ................................. you prefer 2^24 colors
+     exename 3 ....... you love 2^24 colors with a dummy byte [optimal]
+
+     exename may be one of the executables attached - according to the
+     speed of your computer.
+
+
+      ş    we really hope that you are a gamer with a powerful computer
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     very-very fast FPU ...................... one piece of PII will do
+     some ram ..................................... 32 or maybe 16 megs
+     fast video hw ............................................ vbe2.0+
+     gravis ultrasound ........................................ 1 piece
+
+
+      ş finish the reading now, if you aren't interested in the details
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     first off, a short  message to those fuckin'  well-educated polygon
+     experts:  no, this is true  recursive  raytracing. try to implement
+     refraction with your dummy triangles, please! or shut up.
+     all the titles at initialization are just jokes. keep smile!
+
+     the  "oblivion"  realtime  raytracing  engine  supports:  arbitrary
+     planes    (not    just    those    stoopid    horizontal    doubled
+     we-don't-care-about-the-sign  craps!),   spheres,   cylinders   and
+     polygons (triangles and rectangles, too).
+     the  surfaces   can   be  texture  mapped, shadowed, reflexive  and
+     refractive in any combination. Phong-illumination is implemented on
+     them and coloured  linear fog is an additional  optional feature of
+     any scene.
+     the only reason of  slowness is the fact that these  operations are
+     has a tremendous  computation  cost! we had  tried  some  tricks to
+     reduce that with  simplifying our  engine to a first-hit  raytracer,
+     but it had not worked  well with the scenes where some  objects are
+     intersecting, so we  sucked... that was faster!
+     note that  most of scenes in today  raytracing demos and intros are
+     much more simple than the ones in this  shit! most of you  will not
+     like the speed, some of us don't give a fuck.
+
+     the blur routines at the beginning are not the boring horizontal or
+     vertical ones, but true radial spin blur (zoom blur was also coded,
+     but that was too ugly).
+
+     yet  another  interesting(?)  fact: half of the source is  coded in
+     C++, the other  half in Intel-optimized  assembly, because  aron is
+     too  lazy to  write  everything in full  assembly and he's going to
+     recompile the whole  shit on a  much more powerful platform just to
+     see a not-so-bad-quality full-framerate raytracing animation.
+
+     all the textures (3 megs) are  synthetised  at the  startup. aron's
+     generator can  produce  simple  bitmaps as elementary  textures and
+     combine them into more complex textures with  some basic operations
+     like weighted addition, bump or blur.
+
+     well, check it out: contract is going to release the  win32 version
+     of "(independent) love bong" in  the  near  future. just  for  some
+     experience in  coding  DirectX, nothing  too  serious! by the  way,
+     propably it is aron's last release under dos.
+     next time  maybe  a D3D  demo  with  lame  code and huge  amount of
+     design? or a video shit inspired by a band named korai ”r”m  with a
+     breath-taking trippy music! or whatever ya  want! we got  ideas, we
+     have no time: university and development of dummy database handling
+     applications  under  win32!  anyway  we are  looking  for  talented
+     artists.
+     coding  under  win32  is  very  enjoyable  and  you  can  hear your
+     favourite mp3's in the background!
+
+
+      ş                                                  we respect you
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     special thanks to the next artists whose music was heavily listened
+     to during the work:
+
+     anima sound system   ù    autechre   ù    fatboy slim   ù    goldie
+     kraftwerk  ù  ltj bukem  ù  lucky people center  ù   massive attack
+     orbital  ù  stardust  ù  the orb  ù  tricky
+
+
+      ş                                                             EOF
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     OK, 7K is more than enough for a goddamn infofile, isn't it?
+
+     by the way, we really  don't give a  fuck what you are  doing with
+     this production,  but if you  want to sell it, ask us  for written
+     permission!

@@ -1,0 +1,92 @@
+
+ ---------------- Chaos Theory 4k remix by KK/DMA ----------------
+
+                    .                                    __
+    .                                 .                 d$$$.
+        __                                             `?FF"'
+      ;MMMMm   ,.                            .              
+     ;;MPYMMM.;$$h                                   ,d$$$$h.
+    ;;]PMMYMMb`$$F                                    ?FFFFF
+    `;TMMMdMMP `    An intro                .     _________
+     ;;MMdMMP       Of my making                 d888888888b
+      `YMMP'        Yet an intro                 Y888888888P
+                    Not of my design                  ___
+              .                                ______d888b
+    .   $                                     d88888888888
+         .    $ .                             Y8888888888P
+   $  . $       $        .               ______
+   .  $      .     .                 ___d888888b
+     $  .. $     $     _________    d88888888888b
+                     _d888888888b   Y88888888888P
+       _________    d888888888888
+      d888888888b   Y8888888888P
+      Y888888888P
+
+
+
+Original 64k idea                      Conspiracy
+Hard work remixing it all in 4k        KK
+
+
+
+
+Hardware requirements:	SM 4.0-class card and A LOT of shader power
+			GTX 280 or higher strongly recommended
+			good CPU won't hurt (a lot of 3D primitives)
+			if you have something slower, consider
+			running demo in reduced resolution
+			(or waiting for capture)
+
+Known bugs:		Esc key may not work under some Win7 installs
+			(Alt+Ctrl+Del to the rescue).
+
+
+
+Special thanks go to Marta for her patience.
+
+
+Many thanks to Mentor, Blueberry and all the people involved in making of Crinkler.
+
+Respect to Conspiracy crew for making one of the best 64ks out there.
+
+
+
+
+Greetings fly to:
+	Spec
+	Kyan
+	Reg
+	Unc
+	Vorg
+	Ninja
+	Bonzaj
+	Rrrola
+	Mentor
+	Blueberry
+	Gargaj
+	all the people at forum.warsztat.gd
+	all the people who ever tried their hand at 4k intros
+	all the people at the Riverwash 2k11 party and beyond
+	you, for wasting your time reading this all
+
+
+
+Some technical details for those interrested:
+	The intro is based on set of crazy vertex and pixel shaders.
+	Vertex shader deforms and positions all objects. Pixel
+	shader shades and renders procedural textures. Before each
+	batch of objects there is option to change render states
+	and copy current backbuffer to one of the two "rendertarget" textures.
+	The trick to fit all shaders was to use extra preprocessor, which
+	inlines chunks of text, so they may be nested and reused.
+	Custom HLSL parser with intelligent variable renamer was of great help, too.
+	Every scene is defined by 3 bytes: duration, 8-bit camera path seed and 8 one-bit flags.
+	For further details just disassemble the intro or simply email me at the address below.
+
+
+
+
+Have fun,
+KK of DMA
+
+krzych82@poczta.onet.pl

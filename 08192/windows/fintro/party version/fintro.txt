@@ -1,0 +1,15 @@
+Fintro by Sys5
+
+Code:  Mindcooler
+Music: Mindcooler
+
+Windows Intro, 5k
+Party version
+EDiS Meeting 2, 18/12 2010, Stockholm
+Requirements:
+             Windows 2000+
+             DirectX8
+
+Tested on XP, 7 and Wine 1.2.
+
+Language: Swedish

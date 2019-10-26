@@ -1,0 +1,28 @@
+
+	       Stativ.Stakit.Kasket
+	* * * * * * * * * * * * * * * * *
+
+	        1k intro by Loonies
+	
+	   Released at Solskogen 2010
+
+
+	Credits
+	=====
+	Stativ & Stakit...........................Maytz
+	Kasket...........................Mentor (TBC)
+	
+
+	Requirements
+	=========
+	PC, Windows Vista/Win7, OpenGL 1.1, Ikadalawampu?
+		
+	
+	Disclaimer
+	=======
+	Blame Windows!
+	
+	
+	Additional info
+	==========
+	http://www.loonies.dk 

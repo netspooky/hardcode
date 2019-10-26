@@ -1,0 +1,53 @@
+import os
+import faeli_scons
+
+# Initialize the package configuration class on the environment.
+pkgconfig = faeli_scons.PkgConfig()
+
+# Additional build options
+opt = Options('custom.py')
+opt.Add(ListOption('exclude', 'Targets to exclude from build and install', [],
+	['gfx', 'meta', 'net', 'pp', 'util']))
+Help(pkgconfig.options(opt))
+
+##############################################################################
+# Specific ###################################################################
+##############################################################################
+
+# Defaults.
+version = '1.0.0'
+pkgconfig.defaults()
+
+pkgconfig.find_header('endian.h', 'HAVE_ENDIAN_H')
+pkgconfig.find_header('machine/endian.h', 'HAVE_MACHINE_ENDIAN_H')
+pkgconfig.find_header('sys/endian.h', 'HAVE_SYS_ENDIAN_H')
+
+if pkgconfig.get_uname() == 'Linux':
+	gnu_dl = pkgconfig.find_libwithheader('dl', 'dlfcn.h', 'HAVE_DLFCN_H')
+else:
+	gnu_dl = pkgconfig.find_header('dlfcn.h', 'HAVE_DLFCN_H')
+
+# Just so we recognize it exists.
+pkgconfig.find_header('GL/freeglut.h', 'USE_FREEGLUT')
+
+# pthreads is neccessary.
+pkgconfig.find_pthread()
+
+if not gnu_dl or pkgconfig.get_uname() == 'Darwin':
+	pkgconfig.find_sdl('1.2.4', '', True)
+	pkgconfig.find_opengl('', True)
+	pkgconfig.find_glut()
+else:
+	pkgconfig.find_header('SDL.h', 'HAVE_SDL_H')
+	pkgconfig.find_header('SDL/SDL.h', 'HAVE_SDL_SDL_H')
+	pkgconfig.add_cflag('-DDNLOAD_LIBM')
+	pkgconfig.add_cflag('-DDNLOAD_LIBGL')
+	pkgconfig.add_cflag('-DDNLOAD_LIBGLU')
+	pkgconfig.add_cflag('-DDNLOAD_LIBGLUT')
+	pkgconfig.add_cflag('-DDNLOAD_LIBSDL')
+
+pkgconfig.add_cflag('-pedantic')
+
+env = pkgconfig.get_env()
+
+SConscript('src/SConscript', exports=['pkgconfig', 'env'], build_dir='build')

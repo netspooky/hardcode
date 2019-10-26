@@ -1,0 +1,1 @@
+void setup(){fullScreen(P3D);}void draw(){clear();stroke(#307060);float h=height,s=h/999;translate(width/2,h/2);for(int i=0,m=millis();i++<999;){line(0,0,i*s,0);translate(i*s,0);rotate((m/999*5%9+1)*PI*.1+m/1e6,tan(pow(i,.22)),i,9);box(9*s*sin(m*.01+i));}}

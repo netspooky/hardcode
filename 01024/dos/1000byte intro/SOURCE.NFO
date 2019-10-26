@@ -1,0 +1,42 @@
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ 1000byte Intro                                                   Code:Frenzy
+ 7th December 1996                                    Email:p.adams@wlv.ac.uk
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                              ş SOURCE CODE ş
+
+ Here is the source for the 1k intro. Assemble it with TASM 4.X. Earlier
+ versions will probably work too this is just the version I used. The source
+ is not really that optimized and I'm sure you can strip off more bytes
+ here and there. Especially in the fractal code but at the time I just set
+ myself the goal to get this to 1024bytes. I easily managed that so I didnt
+ need to optimize it heavily. I have ofcourse gone back over the code and
+ managed to get it down to 911bytes. Thats 113bytes I removed in about an
+ hour of messing :-)
+
+ After assembling this source you will probably notice its much bigger than
+ 911bytes. Well, this is due to all the zero (uninitalised) data at the end
+ of the file. You can remove all this by using the program POST.EXE supplied.
+
+ I have also supplied ENCODER.EXE. This will simply encrypt the com file
+ and add a loader to decrypt it at runtime. This is just to stop people from
+ seeing any text strings etc. in a file viewer and changing them. The size
+ of the loader is 25bytes. So, bare that in mind if you intend on using it.
+
+ Well, thats all there is too it.. Hopefully you will catch the 1k coding
+ bug too. If you do write any 1k intros then please send me them. I'd be
+ very happy to see what other people out there are doing.. hehe forgive the
+ lack of comments in the code but well.... you understand :)
+
+
+ Happy Coding....
+
+                              Frenzy / SparC
+
+
+ P.S. Watch out for sparc productions..8)
+
+
+
+       *RUNME.COM is a little addy :) Inspired by halcyon.. Kewl Group!*
+

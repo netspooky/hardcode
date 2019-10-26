@@ -1,0 +1,6 @@
+Memory-Configuration for Colors-4KB-Intro
+-----------------------------------------
+
+Please shut down WIN95 in DOS-Mode with Himem but *NOT* EMM386 (as it usally is)
+loaded and UNIVBE ready for 640*480*16bpp in LFB (2MB - Framebuffer).
+

@@ -1,0 +1,15 @@
+Qube 256b for MS-DOS
+October 2014
+
+This is a classic wireframe cube in 256b. I didn't cut any corners here,
+it's a complete and working vertex engine, just at a very small scale.
+
+It was a complete pain to get this working on XP. Apparently the XP
+DOS emulator starts to malfunction if you overflow the FPU stack, so
+if you look at the code you will notice a bunch of FFREE instructions
+that waste so much space. Please let me know if you have a workaround
+for this.
+
+Greets go out to: Harekiet, matja, bart^xt, comrade, vprolix, and HellMood
+
+dila / #asm / EFnet

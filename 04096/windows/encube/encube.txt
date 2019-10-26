@@ -1,0 +1,53 @@
+[desc]
+	encube 
+	4k intro for Alternative Party 2010
+
+ 
+[credits]
+	code, design, music: firebug
+
+
+[contents]
+	this zip contains four versions of the intro. party version
+	is exactly the same version as what was run on the screen (so 
+	it has the bass sample bug and fixed resolution of 1024x768). 
+	the second 4k version has fixed music. the final version has 
+	fixed music and resolution selector, so you can view it the 
+	way you like. both single- and multi-threaded versions are 
+	provided (you don't need to wait for music precalc since it runs
+	on different thread).
+	
+	it's been tested only on ati gpu's.
+
+
+[notes]
+	i'm 23 year old coder from Finland.
+
+	it's my first 4k intro (and demoscene production) ever, so i 
+	learned a lot :) unfortunately i didn't test it on a proper 
+	sound system before party, and it had *very* much bass.
+
+	i'm also looking for a musician to work with me; throw me a mail 
+	at antti.hirvonen[at]gmail.com. i'm also interested in collaborating 
+	with other coders to create even more awesome stuff.
+
+	finally note to self: code more before party ;)
+
+
+[thanks]
+	mentor & blueberry for crinkler
+	alcatraz for 4klang
+	pete_k for testing, kkapturing and screenshots
+
+
+[greets]
+	tbc
+	asd
+	quite
+	fairlight
+	farbrausch
+	rgba
+	tbc
+	loonies
+	... and all other awesome groups :)
+

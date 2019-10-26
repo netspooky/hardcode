@@ -1,0 +1,37 @@
+Hi everybody, here is my first JavaScript program:
+a Mandelbrot set in 251 bytes!
+
+To the brave who want to read the program and never
+wrote optimized JavaScript:  I took maximum advantage
+of for's three arguments, so the body of each for is just
+another for:
+
+   for (a;b;c)
+     d
+     for (e;f;g)...
+     h
+     
+becomes
+
+   for(a;b;h,c)
+     for(d,e;f;g)...
+
+and this saved me at least 15 bytes.  Also I used > tests
+to avoid having to escape the < (that is, 4>r*r+i*i instead
+of r*r+i*i&lt;4).  The code is a standard (though size-optimized)
+Mandelbrot set algorithm, with the output concatenated into a
+variable (d) a line at a time.  The colors are obtained by putting
+each output inside a <b> tag with appropriate CSS styling; the
+formatting is done with a <pre> tag so that a new-line (\n, two
+characters shorter than <br>) suffices to end each "scanline".
+Note that the output of each scanline is computed right-to-left
+to save a comparison on the x (x instead of x<80).
+
+Since the presence of 96*80=7680 tags with CSS styles can
+easily bring your browser to its knees, I included an ASCII only
+version which produces a single character for each position, but
+is a lot less pleasing to look at.
+
+Have fun,
+
+Bonz (Paolo Bonzini)

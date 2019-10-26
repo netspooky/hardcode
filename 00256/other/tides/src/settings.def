@@ -1,0 +1,25 @@
+%ifndef SETTINGS_DEF
+%define SETTINGS_DEF
+
+MB_VIDEO_MODE     equ 1 << 2   ; Use video mode information
+MB_LOAD_ADDR      equ 1 << 16  ; Use custom load addresses
+
+; Multiboot header values. Read the Multiboot specification 0.9.6
+; See http://www.gnu.org/software/grub/manual/multiboot/multiboot.html
+MB_HDR_MAGIC      equ 0x1BADB002
+MB_HDR_FLAGS      equ MB_LOAD_ADDR | MB_VIDEO_MODE
+MB_HDR_CHECKSUM   equ -(MB_HDR_MAGIC + MB_HDR_FLAGS)
+
+; Video values
+VID_MODE   equ 0 ; 0 = Linear graphics, 1 = EGA text mode
+VID_WIDTH  equ 640 
+VID_HEIGHT equ 480
+VID_DEPTH  equ 32 
+
+; Keep everything aligned on 8 byte boundaries
+
+KERNEL_LOADADDR equ 0x00100000
+KERNEL_STACK    equ 0x00103D00 ; Around 5KB for kernel stack
+RESERVED_SPACE  equ 0x00200000 ; Reserve first 2 MB for userland to use
+
+%endif

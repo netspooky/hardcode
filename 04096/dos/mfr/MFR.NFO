@@ -1,0 +1,80 @@
+mfr.
+
+a stupid intro by a couple of idiots.
+
+some useless facts:
+
+1. mfr.com is 4702 bytes uncompressed (but it's still a 4k intro..)
+2. on a pc on which all the effects run at 70fps, it runs for 1 minute
+    29 seconds (approximately)
+3. there are 11 distinct parts (you can tell when one stops and the next
+    begins .. the screen goes black for a while)
+4. source code is 2,910 lines (no you can't have it)
+5. source code is 55,090 chars (no really, you can't have it)
+
+therefore: (assuming no wind resistance, frictionless surfaces, light
+inextensible strings, uniform gravity, steady state steady flow, all processes
+are reversible and adiabatic, newtonian frame of reference, no relativistic
+effects, economics actually has something to do with the real world, photons
+have no mass, ideal current and voltage sources, resistors have zero tolerance,
+exactly 0.7v across the base-emitter junction, opamps have infinite gain,
+ammeters draw no current and god is a slightly undercooked chicken being roasted
+on a spit over a wood fire giving off no smoke and all heat going directly
+upwards covered with a variety of spices and the special sauce.. we all know
+where the special sauce comes from don't we?)
+
+- each byte of code is executing for 0.0189 seconds
+- each part is 427.45 bytes
+- each part runs for 8.1 seconds
+- each line of source produces 1.62 bytes
+- each line is executing for 0.031 seconds
+- each part is 264.5 lines
+- each char of source produces 0.085 bytes
+- each char of source is executing for 1.616e-3 seconds
+- each part is 5008.2 chars
+- each line is 18.93 chars
+
+current score:
+gyr  5.5 (1st bit, 2nd bit, 5th bit, 9th bit, 10th bit, 11th bit)
+zoon 5.5 (3rd bit, 4th bit, 6th bit, 7th bit, 8th bit, 9th bit)
+(we are equally responsible for the 9th bit)
+
+oh my god it's a tie.. and to think at one stage when it was 3 all (and it
+looked completely different) that we thought it had enough in it..
+
+serving suggestions:
+ it's a lot more interesting when you're listening to some decent music
+ at the same time.  we are not in the business of enforcing our views on
+ others, so we will leave the choice up to you.
+
+ most of the effects look their best (at least on a 15" monitor) when
+ seen from 3-4 metres away.  especially the first bit and the tunnel.
+
+ if you watch this intro while using hallucinogens, we can't guarantee
+ that what you see will be anything near what we coded.  in fact, you'd
+ probably be better of going outside and wandering around for a while..
+
+four of the bits gyr did use the same palette..
+and one bit zoon did uses it too.  we have no imagination.
+well actually, it better than our last 4k intro, which had the same
+palette all the way through.. and it just plain sucked, and as has been
+repeatedly pointed out to us, it should have been called 'blue'.
+
+two of the effects are not what we originally intended to code when we started
+on them..  guess which ones.
+
+we were almost considering releasing the source code, so people can see
+how easy it is to code stupid effects badly.. but there's a great old
+saying.. can't remember who said it first, but i like it.. "to publish is
+to appear in public with your pants down" .. and for the good of humanity,
+we don't want to do that.  apart from that, the source is a tangled mess
+that we don't even understand any more, and we were the people warped enough
+to write it in the first place..
+
+i have no idea what sort of thing is the bare minimum to get this thing
+running at full speed.. half of it was coded on a 6x86 p166+ with a half
+decent video card (dstealth 3d 2000 2mb) on which everything runs very
+smoothly.. we cannot guarantee your continued viewing pleasure with anything
+less, because we can't be bothered checking it.. we know that the typical
+compo machine these days is if anything more powerful than what it was
+coded on, so as far as we're concerned, it's fast enough.

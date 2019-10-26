@@ -1,0 +1,26 @@
+
+                                  cw or ccw ?
+
+                  a 4k fast-wtf-tro by rgba (www.rgba.org)
+
+                         after thread 4224 at pouet
+  
+
+
+ .wtf.
+
+  . some fast coding just to test the visual uncertainty effect. note, i used a orthographic
+    projection of course, otherwise the perspective effect destroys the ambiguity.
+ 
+  . you need d3dx9_33.dll, i'm very sorry for that.
+
+ 
+ .credits.
+
+  . marius           :: original mesh modeling
+  . iq               :: not really optimized remodeling, coding
+  . mentor+blueberry :: compressing (www.crinkler.net)
+
+
+
+

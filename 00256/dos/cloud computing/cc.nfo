@@ -1,0 +1,42 @@
+Cloud Computing
+---------------
+
+All-integer 2D DCT-II clouds.
+
+A 256b DOS intro by Zeal_ released
+              at 
+        Function 2013
+           Budapest
+
+2D DCT-II of a suitably damped 
+noise function, calculated using 
+only integer operations and a bad 
+approximation of a suitably scaled 
+cosine function.
+
+Release version is nighttime-themed.
+
+Package contents:
+
+ccmono.com 		release version in 
+				grayscale.
+
+cccc.com 		version dubbed Cotton 
+				Candy Cloud Computing. 
+
+ccpal.com 		version with a nice 
+				daytime palette.
+
+Filenames with a _e suffix are the 
+same version, with software 
+doublebuffering and ESC support added.
+
+Also provided are Win7 compatible SDL 
+executables for 32 and 64b platforms, 
+these served as testbeds while 
+refining the algo.
+
+Sorry, no ESC in release versions. Also
+not suitable for DOSBox. XP or FreeDOS
+are fine.
+

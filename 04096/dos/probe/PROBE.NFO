@@ -1,0 +1,31 @@
+
+ .probe            a 4k intro for MindReSource'01
+
+
+ .credi            code_pyrodex
+                   logo_ash
+
+
+   .req            p5oo / 8mb
+                   pure dos (no himem! or emm! clones)
+                   320x240x32bpp lfb
+
+
+  .errs            V86 _machine in virtual x86 mode (see .req)
+                   VBE _video mode not found (see .req)
+
+
+ .gritz            proxium trex accept paradox sands universe hbg allrusscene
+
+
+   .bla            ziz 4k is the rez of 5! days hard work.
+
+
+ .thanx            2 shodan//tcp 4 mesha/rhyme packer
+                   2 ash 4 logos & gritz
+                   2 digitalbrain 4 inet
+
+
+  .mail            pyrodex@mail.ru
+                   demiurge@pisem.net / www.demurgash.narod.ru
+

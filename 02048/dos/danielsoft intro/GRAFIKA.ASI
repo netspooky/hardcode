@@ -1,0 +1,81 @@
+;; predpoklada ES na 0a000h !
+putpixel MACRO x,y,col
+mov di,y
+mov dx,y
+shl di,8 ; {di=y*256}
+shl dx,6 ; {dx=y*64}
+add di,dx ; {di=y*320}
+add di,x
+mov al,col
+stosb
+ENDM
+
+
+pal MACRO color,r,g,b
+mov al,color
+mov dx,3c8h
+out dx,al
+inc dx
+mov ax,r
+out dx,al
+mov ax,g
+out dx,al
+mov ax,b
+out dx,al
+ENDM
+
+getpal MACRO color,r,g,b
+xor ah,ah
+mov al,color
+mov dx,3c7h
+out dx,al
+inc dx
+inc dx
+in al,dx
+mov r,ax
+in al,dx
+mov g,ax
+in al,dx
+mov b,ax
+ENDM
+
+
+
+palIn MACRO buf
+mov dx,3c7h
+xor al,al
+out dx,al
+inc dx
+inc dx
+mov di,offset buf
+mov cx,768
+push es
+mov ax,cs
+mov es,ax
+rep insb
+pop es
+ENDM
+
+palOut MACRO buf
+mov dx,3c8h
+xor al,al
+out dx,al
+inc dx
+mov si,offset buf
+mov cx,768
+rep outsb
+ENDM
+
+
+waitRetrace MACRO
+local l1,l2
+    mov dx,3DAh
+l1:
+    in al,dx
+    and al,08h
+    jnz l1
+l2:
+    in al,dx
+    and al,08h
+    jz  l2
+ENDM

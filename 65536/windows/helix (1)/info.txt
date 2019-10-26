@@ -1,0 +1,37 @@
+
+                                 "h e l i x"
+                                  
+                                    inque
+                             [ at takeover 2k+1 ]
+
+  o ---------------------------------------------------------------------- o
+    spam
+
+     you might wonder why the precalcing takes so $%#$ much time. we know.
+     next time we'll optimize both the synth engine and texture engine. we
+     didnt have enough time to do this for to2k+1 :( nothing has been
+     optimized in any way ... but eehj, the engines work, so why bother :-O
+
+     oh, for those lucky people out there with a real compu, you can
+     enable realtime music by entering:
+
+     inque-helix.exe realtimemusic
+
+     (sounds quite logical eh?)         
+
+
+  o ---------------------------------------------------------------------- o
+    credits
+
+      - glow     [:] texture engine, synth engine, effects code, textures
+      - buckshag [:] synth engine code, effects code
+      - izard    [:] soundtrack, synth engine code
+      - organix  [:] soundtrack
+      - keez     [:] synth editor
+
+
+  o ---------------------------------------------------------------------- o
+    greets and stuff
+
+     eh... well.. greets to everybody... (*sigh*)
+                      

@@ -1,0 +1,46 @@
+             Photon Race 2
+
+A contribution to the 4K intro compo at
+         NvScene 2008
+
+
+Organizers: 
+Please run high_1920_1080.exe.
+if it runs less than approx 15FPS 
+run medium_1920_1080.exe instead!
+The precalculation may take 1-2 minute.
+Should have sound.
+Windows may say during precalc and demo
+   "application not responding"
+
+Usage:
+low_ exes: raytrace level 6, half res
+medium_ exes: raytrace level 6
+high_ exes: raytrace level 8
+
+On 8800GT or GTS medium_ runs smoothly.
+The resolution does not affect speed,
+the final image is stretched.
+
+
+Features:
+- Ray tracing
+- Photon tracing
+- Caustics
+- Constructive Solide Geometry(3dbool)
+- flare effect
+- using Shader Model 3.0
+
+More info and video at:
+http://www.gravitysensation.com/photonrace2/
+
+Credits:
+  Coded by Archee
+  Music by Slyspy (made in 2 hours)
+ 
+Contact Archee: 
+  peterlurker (at) googlemail.com
+  peterdutch (at) freemail.hu
+
+
+-EOF-

@@ -1,0 +1,36 @@
+                                                        Sweden 20-12-2097
+
+An important thing to remember for the ppl involved in the Torrent Project.
+
+
+Copyright (c) 1997 by Spyko / coder of tHE Torrent Project
+Happy Xmas to everyone out there!!
+
+Contact:
+	petrik.clarberg@swipnet.se		- e-mail
+	http://home4.swipnet.se/~w-44673/	- coding page
+	http://www.torrent-project.org/		- soon to come (?)
+
+
+Possible bugs:
+        The wait for vertical retrace may fail on some weird computers.
+
+Technical stuff:
+        The reason to why the intro isn't fullscreen is that the water
+        buffers are made up of words, 256*128*2 = 64k  so that
+        I don't have to change segment during the water calculations ;)
+
+        The are some obvious optimization left to do, like using ret
+        to terminate, but I find it safer to use int 20h, which is just
+        one byte larger. I do also want the intro to look nice, not
+        just to be small.
+
+To all lamers:
+        I know it's easy to change the text... Don't get any ideas.
+
+
+Some greets to random people..
+        Everyone involved in The Torrent Project
+        All other coders, graphicians and musicians
+        Everyone I know
+        etc etc

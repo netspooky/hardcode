@@ -1,0 +1,25 @@
+							please the cookie thing by aardbei
+
+þ	We rushed to get this thing ready in time. If the compo wasn't delayed for
+	two hours or so we probably wouldn't have made it. The credz go a little
+	like this:
+
+þ	some 3d hardcoded modelling code by Inopia
+	system code and effects by Snq
+	other effect code by Ile
+	same goes for Rob
+	music by Crystal Score/TBL (a.k.a. boor)
+	player by Balance/TBL (THANK YOU)
+	textures by Oyise
+
+þ	Humble thanks to nix for providing us with beer. We like you.
+	To 3state we would only like to say: you are 0xDEADBEEF.
+
+þ	This thing is windows + openGL, so you know which helpdesks to contact. If
+	anything should fail, blame the guy with the glasses.
+
+þ	oh yeah: the greetz might be incomplete too. I hope the people we forgot
+	still love us and don't flame us for forgetting them.
+
+þ	aardbei out
+

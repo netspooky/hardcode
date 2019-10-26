@@ -1,0 +1,44 @@
+SPH : Smooth Particle Hydrodynamics
+
+Version 1.2
+
+Credits: 
+code: e64 
+music:cTrix
+
+(synth code based on synth by Andromedary)
+
+Requirements:
+party-version:
+ .win32
+ .opengl
+ .ARB shaders
+
+Recommended:
+512mb ram
+Windows XP
+
+Comments:
+
+SPH by e64 & cTrix
+Smooth Particle Hydrodynamics in 4 hours and 4k with space to spare.
+Added cracked egg shader just before the deadline! :D
+
+Greets:
+All our friends and Everyone at Syntax 2008!  
+
+Past Releases:
+Feb00:Hello World . 256k Intro . 1st Coven 2000
+Apr00:Fuzzy!      .    Demo    . 22nd MS2K
+Feb01:Blue        .    Demo    . 3rd  Coven 2001
+Feb01:Mist Garden . 256k Intro . 1st  Coven 2001
+Aug01:Robo        .  64k Intro . ?? Caos Constructions
+Aug03:Fishtro2    .  64k Intro . 4th Buenzli 12
+Dec05:nullarbor2k6.64k Invitro . 2nd au Xmas Compo 2005
+Feb06:Retro4k     .   4k Intro . 2nd nullarbor 2006
+Feb06:No Time     .  Slideshow . 3rd nullarbor 2006
+Dec06:nullarbor2k7.64k Invitro . 4th au Xmas Compo 2006
+Mar07:Ray4k       .   4k Intro . 2nd nullarbor 2007
+Jul07:TRIP!       .   4k Intro . 3rd Syntax 2007
+Dec07:nullarbor2k8.64k Invitro . 4th au Xmas Compo 2006
+Nov08:SPH         .   4k Intro . ?? Syntax 2008

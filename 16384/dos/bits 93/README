@@ -1,0 +1,44 @@
+
+
+    Hi all, here's a little demo I did a couple of days. It is part of a
+    suite of programs written for Fresh week 1993 for Bits - The University
+    of Bristol Computer Society (of which I am President).
+
+    It was written in 2 days from scratch and so is not as optimised as it
+    perhaps should be. It demonstrates a multi-coloured sine-wave scroll text
+    scrolling over a static background with a 'lens' effect bouncing over
+    the top of them both.
+
+    It was written on a 33MHz 486 with a Paradise 90c30 graphics chipset on
+    an 11MHz bus. If you run it on anything less, then don't blame me if it
+    either doesn't work, or goes horribly slowly! If you machine isn't
+    fast enough, then it will probably all flicker horribly as I haven't
+    used double buffering (tut tut).
+
+    I have included the full source code for this demo. Please feel free to
+    examine it. I apologise in advance for the lack of comments, and the
+    code may be hard to follow simply because it has been optimised. If you
+    find the code useful, a greet would be appreciated in any demo you write.
+    Please don't just blatently rip it off.
+
+    The program is designed to be compiled using Turbo Assabler (TASM).
+    You may or may not have problems trying to recompile it under anything
+    else. If you want to alter the text or change the lense effect, then
+    you will also need GWBASIC to redo the tables.
+
+    I am currently seeking to join a demo group of some description
+    (preferably one with a good musician/graphics artist) - email me if you
+    are interested.
+
+
+    David Hedley (hedley@cs.bris.ac.uk)
+    Computer Science Undergraduate at the University of Bristol, England
+
+
+
+                                   CREDITS
+                                   -------
+
+        All program design and implementation by David 'Deadly' Hedley
+        Interrupt routine by the Future Crew (used in modified form)
+

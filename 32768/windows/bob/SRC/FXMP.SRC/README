@@ -1,0 +1,15 @@
+Modified version of Flare XM Player for my win32 32k game.
+check the ChangeLog for details of the changes I made for
+the win32 port, and check the source files themselves for
+info regarding some of my size optimizations.
+
+--------------------------------------------------------------------
+Development version of Flare XM Player.
+
+It's not complete, yes. It's just a snapshot of what I'm working on.
+So don't yell if it doesn't play your XMs correctly :)
+
+Just type make
+or edit Makefile first if you feel like it
+
+- spectre of flare

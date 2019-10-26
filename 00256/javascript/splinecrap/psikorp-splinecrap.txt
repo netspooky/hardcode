@@ -1,0 +1,19 @@
+d=document;m=Math;o=[];function h(x){u=9+9*m.sin(t/4+x/5)*m.cos(t/6+
+x/7)};                                                        t=x=80
+;while   psikorp - splinecrap                                 (x--){
+d.writ                                                        e("<b"
+"id=s"+x+">pk");o[x]=d.all["s"+x].style};setInterval("x=80;while(x..
+
+
+  the first ugly entry to the 256b.htm compo held by wildmag, the
+  initial file were around 400 bytes, but using bugs (or should we
+  call them features) in ie-js, it got down to 256 :)
+
+  tested in ie5, should probably work in other internet explorer
+  versions, but netscape complained about some javascript
+  error :) (wonder why)
+
+  coding Per-Olov Jernberg, aka illuminator/psikorp
+  fanmail goes to jernberg<at>fairytale.se
+  for more useless stuff go to www.psikorp.com
+

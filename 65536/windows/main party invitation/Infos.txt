@@ -1,0 +1,110 @@
+                                                                _
+                                 ______________________________|_|
+      ..:::|Main Party invitation|                  ___        |
+                                 | ::::::::::::::: /.  \ ::::: |
+                                 |  _____         //   /       |
+                _   /\     ______!  \.   \       //   /        |
+            ___/ \_/  \____\____  \ _\___/_ __/\_\    \  ().   |
+     _______\           _  __ \/   \_      \   .  \    \_______|
+    |        \   \_/   ./  \_\     ./     ./    \  \   .\
+    |  .()  //____/   //______    //____ //\_____\    ///
+    |            /   //     /_____/   \__/        \____/
+    |            \  //           |
+    | ::::::::::: \_/ :::::::::: |
+   _|____________________________|Tribute to the demoscene|:::..
+  |_|
+
+
+            :: a 64k intro by Mankind & Cyber Nostra ::
+
+                                 .
+                                 :
+                                 |
+                                 |
+                   About the party:
+                                 |
+                                 |
+                                Pole de la Belle de Mai,
+                                Marseille from 12 to 15 October 2oo6.
+                                15,000E matérial prizing
+                                  |
+                                 |
+    The MAIN Demoparty will take place
+   in the Cartonnerie, a 2,500m2 space
+ in La Friche Belle de Mai Arts Centre.
+       This spacious and luminous room
+comprises a 400-seat theatre-screening
+             theatre with large screen.
+     Screens surround part of the room,
+  multiplying the videoscreening areas,
+           and we are installing a 5.1
+            audio-video system to give
+            your eyes and ears a treat.
+                                 |
+                                 |
+                           the MAIN Demoparty is organised for 400 demomakers:
+                           tables and chairs, electric power thanks to EDF,
+                           rest areas and toilet facilities,
+                           relaxation and entertainment areas,
+                           restaurants inside and outside the room.
+                           The MAIN Demoparty is equipping for 400 demomakers
+                           (tables - chairs - catering - relaxation areas)
+                           and technical services thanks to its partners
+                           (electric power officially supplied by EDF)
+                           and service providers (audio, Epson videoprojectors,
+                           broadband internet network, SUN servers, CISCO routers).
+                                 |
+                                 |
+the following material will also be available :
+               a shared IBM 16 blades bay for
+          calculating rendering for 3D events,
+           to optimise production time on 3DS
+          and Maya, a server and large format
+             HD plotter for graphic 2D events,
+           a local cluster with 2 Sun servers
+    for creating web sites and podcast events.
+                                 |
+                                 |
+                                 |
+             ::  You are welcome on www.mainparty.net  ::
+                                 |
+                                 |
+                                 |
+                 ::About the intro:
+                                 |
+                                 |
+                            Infos:
+                                This intro has been developed within 2 weeks,
+                                so do not expect the usual Mankind's quality.
+                                The intro runs at a resolution of 800x600,
+                                4x antialiasing enabled.
+                                 |
+                                 |
+                            Specs:
+          a N GHz processor with mmx
+                  a PS1.4 video card
+                    4x AA video card
+			   DirectX 9
+                                 |
+                                 |
+                             Uses:
+                                MiniFMOD by Firelight Technologies
+                                KKrunchy by Ryg
+                                 |
+                                 |
+               code & design : exel
+                music : gwen vs bLa
+                                 |
+                                 |
+                                 |
+                           mkd&cn:2oo6
+                                 |
+                                 |
+                                 :
+                                 .
+                                 .
+
+                                 .
+
+
+                                 .

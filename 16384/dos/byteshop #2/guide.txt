@@ -1,0 +1,35 @@
+B Y T E S H O P   D I S K M A G
+issue two /// Wary Warthog
+
+COMPLETE USER'S GUIDE
+
+
+Diskmag is DOS-executable, so you were warned.
+"Fullscreen me beautiful" shortcut tries to run diskmag in fullscreen (you can
+do the same in right-click-on-exe options), because running in non-fullscreen
+under Windows don't gives you bar, smooth scrolling and non-standard font. If
+you have Vista or 7, hate Microsoft and use DOSBox.
+
+
+Keys:
+Up, Down, PgUp, PgDn, Home, End - scrolling
+Space - hide/show bar
+Esc - exit
+
+
+
+edited by closed
+articles by Adok, button, David Morgan-Mar, Igor Pavlov, scene, a blog from
+Doberman, Zhuangzi and closed
+logo by dipswitch
+votes by Adok, Antisocial Asswipe, closed, Defiance, m0d, nosfe, Optimus, ps,
+spiny, tFt, thec, Wade, WsW
+
+
+Thanks to T-Rex for GFX to EXE and to The UPX team for UPX.
+
+Respect to 31337.
+
+
+Articles, responses, ASCII & ANSI art are WANTED!
+mailto: anotherdiskmag@gmail.com

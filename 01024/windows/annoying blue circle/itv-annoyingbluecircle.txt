@@ -1,0 +1,26 @@
+<I>n<T>ro<V>ert
+
+Annoying Blue Circle
+(ABC) 
+
+This is a 1k 
+demonstrating OGL shaders 
+and a midi sound system, some glorious
+coder colours and an annoying blue circle. 
+
+We hope you enjoy it.
+
+Greets to Pirx^ind and Lord Kelvin^rbs who have been 
+pushing sound at 256b forcing us try harder at 1k.
+
+Requires: Vertex shaders and pixel shaders.
+
+
+Credits:
+Code: Sek
+Music: Ampli
+Synth is an optimised version of a sound system released by Saida at in4k:
+http://in4k.untergrund.net/index.php?title=Saida%27s_1024b_Midi_Sound_System_%28masm%29
+
+
+

@@ -1,0 +1,20 @@
+Text Mode Demo Competition
+          2007
+      at  taat.fi
+
+
+BBBBB   IIIII  TTTTT  SSSSS
+BB  BB   III    TTT  SSS
+BB BB    III    TTT   SSSS
+BB  BB   III    TTT     SSS
+BBBBB   IIIII   TTT  SSSSS
+
+          entry
+
+code by ............. Byte
+dist by ............. SoLo
+musc by ............. Atom
+grfx by ............. Pixl
+
+
+http://thebitsclub.tripod.com

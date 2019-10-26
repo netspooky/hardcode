@@ -1,0 +1,5 @@
+
+Shadebobs coded by NutCracker of the Immortal Syndicate, sometime in early '94
+
+
+Read the Assembler comments for more info...

@@ -1,0 +1,13 @@
+"Operating System"   : DOS 3.3 tol 7.0-ig mindegy.
+Memoria manager      : CSAK HIMEM.SYS !
+Amivel nem fÇr îssze : EMS & windows.
+Mielîtt ind°tod      : ULTRAINIT !
+Ami aj†nlott         : Hangerìt felnyomni (halk a player/zene)
+                       SîtÇt helysÇg :)
+
+------------------------------------------------------------------------------
+
+Rept_ai :    Procedure Init_GUS(channel: byte);  - m†r nem pukkan j¢l :(
+             hope ya like it !
+
+             Nem tettÅnk bele szinuszt szarul !

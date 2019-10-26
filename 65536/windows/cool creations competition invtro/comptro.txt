@@ -1,0 +1,80 @@
+                        \/\|/\/                      /\/\
++-----------------------<rbraz>---------------------<wham>---------------------+
+|       ___          ___/\/|\/\                ___   \/\/                      |
+|      /  /\        /  /\         ___         /  /\        ___       __        |
+|     /  /  \      /  /  \       /  /\       /  /  \      /  /\     |  |\      |
+|    /  / /\ \    /  / /\ \     /  /  \     /  / /\ \    /  / /     |  | |     |
+|   /  / /  \ \  /  /  \ \ \   /  / /\ \   /  / /  \ \  /  / /      |  | |     |
+|  /__/ / \__\ |/__/ /\ \_\ | /  /  \ \ \ /__/ /_\_ \ \/__/ /  ___  |__| |__   |
+|  \  \ \ /  / /\  \ \ \ \/ //__/ /\ \ \ \\  \ \__/\_\/|  | | /  /\ /  /    \  |
+|   \  \ \  / /  \  \ \_\  / \__\/  \ \_\/ \  \ \ \ \  |  | |/  / //  / /~~~~  |
+|    \  \ \/ /    \  \ \/ /       \  \ \    \  \ \/ /  |__| |__/ //__/ /       |
+|     \__\  /      \__\  /         \__\/     \  \  /    \__\    / \__\/        |
+|         ~~           ~~                     \__\/         ~~~~               |
+| /\/\|/\/\                                                                    |
++<shockwave>-------------------------------------------------------------------+
+| \/\/|\/\/                Dark Bit Factory + Gravity           \/\/\/         |
++---------------------------------------------------------------<roly>---------+
+|                                                               /\/\/\         |
+|     Present: the Cool Creations competition Invtro Released October 2006     |
++------------------------------------------------------------------------------+
+|  Please note (and this is not a rant), this program is software rendered.    |
+|              It was coded in  Freebasic and Assembly language                |
+|                             Music uses Ufmod.                                |
+|                   This was NOT designed to run with Linux.                   |
+|   Your super duper gfx card won't make much difference to the speed of this  |
+|                  It needs a fairly good processor (1ghz+)                    |
+|                It prefers genuine Pentium processors to AMD                  |
+|          Having said all that, it should run on nearly anything!!!           |
+|On (a very,very small percentage) it may run very slow because of incompatible|
+|           hardware. This is rare, if it happens to you, I am sorry.          |
+|                WILL NOT RUN UNDER WIN9X BECAUSE OF THE PACKER.               |
+|                                                     /\|/\|/\|/\              |
++----------------------------------------------------<stonemonkey>-------------+
+|                          Programming by : Shockwave \/|\/|\/|\/              |
+|                               Graphics by: Wham                              |
+|                  \/\|/\/         SFX By Roly                                 |
++------------------<tetra>-----------------------------------------------------+
+|                  /\/|\/\                                                     |
+|                                                                              |
+|   Credits also go to : Rbraz^GVY For Lib code (bin2bas,bmp2raw,GLptclib)     |
+|                    Credits also go to Jim Shaw (GLptclib)                    |
+|  /\/\|/\            Packed with Kkrunchy By Ryg^Farbrausch   \/\/\/\/\/      |
++-<blitzam>----------------------------------------------------<thygrion>------+
+|  \/\/|\/                                                     /\/\/\/\/\      |
+|                                  -=Prizes:=-                                 |
+|                         (1ST:£50)-(2ND:£30)-(3RD:£20)                        |
+|     TO ENTER YOU MUST BE A CURRENT MEMBER (JOINED BEFORE 15/10/2006) OF:     |
+|                                                                              |
+|  *WWW.DBFINTERACTIVE.COM* OR *WWW.INTRO-INFERNO.COM* OR *WWW.FREEBASIC.NET*  |
+|                    All other entrants will be disqualified.                  |
+|                                                                              |
+|If you have ever been banned from any of the three  listed communities you may|
+|      not enter this competition. This ban also excludes all your group.      |
+|                                                                              |
+|                       \/\/\/\|/\/\/\/\/\/\|/\/\/\/\/\/\/                     |
+|                      \/          Can you code?        /                      |
+|                      /\  Interested in more details?  \/                     |
+|                       /GO HERE: WWW.DBFINTERACTIVE.COM \                     |
+|                      /\/\/\/|\/\/\/\/\/\/|\/\/\/\/\/\/\/\                    |
+|                                                                              |
+|                                                 \/\|/\/                      |
++-------------------------------------------------<clyde>----------------------+
+|                                                 /\/|\/\                      |
+|                                                                              |
+|Shortened personal greetings list from Shockwave^dbf^s!p (sorry if I miss you)|
+|oOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoOoO|
+| rbraz^gvy ,clyde^gvy,wham^dbf,tetra^dbf,blitzam^dbf,stonemonkey^dbf,roly^dbf |
+|   thygrion^dbf^yup,morgan^gvy,druid^s!p,nuke^s!p,taj,saida^rebels, optimus,  |
+|  irokos^titan,bull^titan^s!p,auld,alpha one,lonestar,xacto^s!p,pohar^rebels  |
+|  weee^rituel,wal^s!p^damones,waterlevel,jim shaw,drewpee,yaloopy,clanky,ck0, |
+|benny,zawran^ttd,joncom^ttd,rootuid,nawitus,carpets^yup,cha0s,deleter,hotshot,|
+| musashi9,ninogenio,norki,phoenix,ragesnax,grim123,pasy,ras,pritchard,slinks, |
+|    snarty,robleong,specis,staticgerbil,stealthz,voltage and all I forgot.    |
+|                                                                              |
+|         \/\/\/\/                                                             |
++---------<morgan>-------------------------------------------------------------+
+          /\/\/\/\
+
+Competition Rules Thread:
+http://dbfinteractive.com/index.php?topic=747.msg9594#msg9594

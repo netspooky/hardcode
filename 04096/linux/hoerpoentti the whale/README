@@ -1,0 +1,28 @@
+Hörpöntti the Whale - 4k intro entry at Assembly 2007
+-----------------------------------------------------
+
+Code & music & story
+  Apaksi / Lasi Interactive (Kristian Kristola, kristian dot kristola a-t gmail dot com)
+
+Music player & additional guru code
+  Hipo / Lonely Coders (Hannu Saransaari, hsaransa a-t cc dot hut dot fi)
+
+Graphics
+  BioNik / Lasi Interactive (Lauri Hakkarainen, lauri dot hakkarainen a-t tut dot fi)
+
+Original concept
+  Akahito / Lasi Interactive (Tuomas Kristola, punainen a-t kaakao dot fi)
+
+MUTTEI LOL
+  jupet, #shiori, Näkänäätä
+
+Library requirements
+ * SDL
+ * OpenGL
+ * glut
+
+To see errors from SDL run the intro like this:
+SDL_DEBUG=1 ./hoer
+
+Visit Lasi Interactive's website:
+http://kirahvi.dy.fi/lasi/

@@ -1,0 +1,12 @@
+kanditro
+MS-DOS 256B intro
+original released 11.1.2015
+compatibility fixed version 7.6.2015
+
+koodi: cce
+inspiraatio: Tietojenkäsittelytieteen laitos
+
+kiitos 2014-2015 
+materiaalipistemenetelmä
+
+onnea atomille!

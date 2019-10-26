@@ -1,0 +1,9 @@
+what u need: - GUS :)
+	     - GUS env. string set correctly: ULRASND=PRT,.... and
+					      ULTRADIR=x:\dir\dir\...
+	     - GUS patches in %ULTRADIR%\midi\*.pat (default)
+	     - always run runme.bat and not monoton.com, coz it is required,
+	       to execute ultrinit, or iwinit before running the intro...
+	     - If monoton.exe won't play music, try gus.com :))
+
+             

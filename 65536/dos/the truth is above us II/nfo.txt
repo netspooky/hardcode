@@ -1,0 +1,21 @@
+So i decided not to code another line ever on my life.
+Then 2 days before dreamhack i had an idea to make this intro.. :/
+here we go again.. got some fast-gfx from my friend zthee
+and got a 20k .mod from dixan
+so i hacked it together once again and here we have another proud and joy..
+
+actually this is a sequel to the first intro i made which also featured a
+wabbit meeting an anvil. it was entitled: splat! (the truth is above us)
+
+the sb1x.mse is addon if you wanna have sounds with sb
+(you should find it on sb1x.zip so orgas dont think im cheating and disq)
+
+intro is currently only working with gus and no sound (party version)
+and only requires the .exe to run! delete the other files if you dont
+believe me. its also 65.smtg bytes so i hope i dont get disqualified.
+i also hope the projector doesnt interpolate blue and white or no one
+will be able to read whats on the text!
+
+greets are inside the intro.
+anyways, cya later.
+psychic_symphony@clix.pt

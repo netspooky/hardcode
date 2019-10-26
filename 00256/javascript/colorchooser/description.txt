@@ -1,0 +1,14 @@
+"ColorChooser" by FPS
+
+RGB Color Chooser allows you select a color using three slide
+bars representing Red, Green and Blue color values respectively
+ranging from 0 to 255. The upper square displays a choosing
+color. A status bar shows value which can be used as CSS color
+property.
+Tested on IE 5/Win98SE, IE 5.5/WinME, IE 6/WinXP.
+About author...
+Name: Peter Feodoroff
+Nick: FPS
+Age: 24
+Location: Russia
+Contact: fps2000@mail.ru

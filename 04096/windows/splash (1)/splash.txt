@@ -1,0 +1,13 @@
+splash by rawhed/moOjUiCE^faktory^pht
+a 4kb intro for Optimise 2002
+
+hacked this together quickly for compo
+4kb forever ;)
+next time i'll code it better so I can keep the audio in :>
+not enough time thesedays to code it all in asm, so this was made in VC
+
+needs windows,opengl1.1 and some luck
+
+sorry for such terrible source..oh well ;P
+
+rawhed@rawhed.com

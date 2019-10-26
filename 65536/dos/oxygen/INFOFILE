@@ -1,0 +1,26 @@
+o x y g e n                                                    c o r a l
+
+ yes, a (1)64kb intro.                   code, music & graphics     weed
+
+    Nowadays,  creating a good full-length demo requires an army of good
+graphicians and  a decent (working) 3d engine.    As I was lacking both,
+I decided  to make this intro. Not. The actual reason for doing this was
+the music which I have had standing in my HD for about a year now.
+Everything in this intro was coded explicitly for it from scratch during
+the month of creation.   Thanks to Jiber/TDC for coding something that I
+recoded twice before putting it into this intro.
+
+The version shown at Assembly '98 naturally fit the 64k limit.  I didn't
+even have any problems doing that;  it was  actually harder to  come  up
+with stuff  to fill that space with.   The release version would also be
+under 64k if I wouldn't have to use  MIDAS.   'oxygen'  should work fine
+under Windows 95   (sometimes  it  suggests dos  mode but you can safely
+ignore it :), but  as the screen synchronization cannot be done properly
+under win95 you may experience small flicker.
+
+This production uses Coral Demosystem v1.0b, PMODE/W 1.33 & MIDAS 1.1.1.
+The version shown at the party used MXMPlay instead of MIDAS.
+Use command-line options 'v' and 's' for video and/or sound setup.
+
+http://www.pcuf.fi/~weed/coral                              weed@pcuf.fi
+

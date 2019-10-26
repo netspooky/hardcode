@@ -1,0 +1,59 @@
+
+motto         "demoscene is about textured cubes"
+
+intro         cubemania
+              256b
+            
+party         flag 2002 -> [2002.07.13]
+              budapest, hungary
+
+me            blala/byteam 
+              mailto:blala@cs.elte.hu 
+              http://www.cs.elte.hu/~blala/
+
+byteam        a) robymus, hal, me
+              b) since 1993
+
+ex-byteam     megant, zts, dave
+              (trapeer, plan-b, leon sky, senator)
+
+bbs           had a lot, but now there's net instead
+
+opsys         (ms)dos, (ms)windows(95)
+              we use the following: ax=00, bx=00, cx=00ff, si=0100, di=fffe
+              in fact these are always satisfied.
+
+req           theory: 386, fpu, opsys
+              practice: monitor, 1500mhz <- sorry.
+
+features      [> *independent* rotation around two axis 
+              () real bending in 3d (not some fucking sin on the screen)
+              <] check out the texture editor!
+
+bugz          1) no sync. i mean if you have 10^5 mhz, it will be too fast.
+                 but that one won't be a big problem for a while because:
+              2a) it is really slow.. [but, it is also really short!]
+              2b) you can change the speed of rotation with 
+                  hacking bytes @ 73h, 77h
+              3) problems may arise under windows nt.. (and win98, win2000 :)
+
+source        adc al,-2                             
+              imul ax,-9
+              * [oops, obsolated] *
+              salc
+              xor al,13h
+              sub al,ah
+              aam 71h
+
+link          http://www.256b.com
+
+greetz        short: silicon brain, darkside, agressive giants, molecoola,
+                     dia, ritus, extasy, abaddon, greenroom, did, dolops, 
+                     exhumers, astroidea, more groups, more friends...
+              loong: would be too long
+
+respects      radio classica fm (warsaw, poland)
+              alain connes (paris, france)
+              (tpolm, finland) heikki halme
+
+closing       i am quite proud of fitting this in 256b...

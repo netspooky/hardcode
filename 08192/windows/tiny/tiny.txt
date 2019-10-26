@@ -1,0 +1,21 @@
+Tiny.exe is a little Direct3d 8.0 program.
+This is not a win32 assembly demo, this is Visual C++ code !
+You need DirectX 8.0 installed to run that short proggy.
+
+Small graphics hints: There is no bugs in normal computing !
+I just like "flat" shading (gouraud is too smooth). there
+is two lights with an addtional specular white spot. The
+complete EXE is 5 Kb long.
+
+More about the demo on my web page at
+
+http://leonard.oxg.free.fr
+
+Or mail me at
+
+arnaud.carre@freesurf.fr
+
+
+Have fun and keep on coding unusefull things like this !
+
+Arnaud Carré

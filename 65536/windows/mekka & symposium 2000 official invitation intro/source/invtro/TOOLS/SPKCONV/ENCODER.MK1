@@ -1,0 +1,15 @@
+!define BLANK ""
+d:\projects\e\encoder.obj : d:\projects\e\encoder.cpp .AUTODEPEND
+ @d:
+ cd d:\projects\e
+ *wpp386 encoder.cpp -i=d:\code\wat11\\h -w4 -e25 -zq -od -d2 -5r -bt=dos -m&
+f
+
+d:\projects\e\encoder.exe : d:\projects\e\encoder.obj .AUTODEPEND
+ @d:
+ cd d:\projects\e
+ @%write encoder.lk1 FIL encoder.obj
+ @%append encoder.lk1 
+ *wlink name encoder d all SYS dos4g op inc op m op maxe=25 op q op symf @en&
+coder.lk1
+

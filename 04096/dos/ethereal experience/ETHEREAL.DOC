@@ -1,0 +1,92 @@
+ÄÄÄÄÄÜÛßßÄßßßÛÜÄÛÄÄÛÄÄÄÜÛßßÄÄÛßßÛÜÄÄÄÜßßÄÜßßÜÄßÛßÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    ŞÛ        Û ÛßßÛ  ŞÛ     Û   ßÛ ŞÛ ß Û ßÛ  Û
+ÄÄÄÄÛİÄÄÄÄÄÄÄÄÛÄÛÄÄÛÄÄÛİÄÄÄÄÄÛÄÄÜÛßÄÄßÜÜÄÛÄÄÛÄÜÛÜÜÛÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   ŞÛ ÛÛ  Ü   Ü ÜÜÜ  ŞÛ ÛÛ   Û ßÛÜ
+ÄÄÄÄÛİÄÄÄÄÄßÜßÄÄÛÄÄÛÄÄÛİÄÄÄÄÄÛÄÄÄÄÛÄÄßÛßÄÄÜßßÄßÛÜÄÛßÄÄÜßßÄÄÜßßÄÄÄÄ
+    ŞÛ     ÜßÜ  Ûßß   ŞÛ     Û    Û   Û  ŞÛ ß  Û ßÛ  ŞÛ   ŞÛ ß
+ÄÄÄÄÄßÛÜÜÄÛÄÄÄÛÄÛÄÄÄÄÄÄßÛÜÜÄÄÛÄÄÄÄÛÄÄÜÛÜÄÄßÜÜÄÜÛÄÄÛÜÄÄßÜÜÄÄßÜÜÄÄÄÄ
+
+         úúúú---ÄÄÄÄÄÄ an ALIEN production ÄÄÄÄÄÄ----úúúú
+
+
+     for the Euskal party 5 (July 1997, San Sebastian, Spain)
+
+     Coded by ShadE and WiseFox
+
+     Disclaimer and legal stuff
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     We (Shade and WiseFox) release this source code to the public
+     domain, that is, you can do whatever you please with it as long
+     as you credit us for its creation. No money other than the price
+     of the media it's contained in can be charged for its distribution.
+
+     We will not be liable for any damaged that might happen due to the
+     usage or missusage of this program. On the other hand we have never
+     known of any problem caused by this piece of code.
+
+     For any question, suggestion or remark, please e-mail us!
+     
+
+     Features
+     ÄÄÄÄÄÄÄÄ
+               - Fractal generated background
+               - Blurr motioned 3D stuff
+               - Newer smoke plasma algorithms
+               - Mandelbrot set rotozoomer
+               - Prespectived tunnel
+               - Voxel landscape for credits
+
+     ...and all this, of course, is non compressed 286/287 code!!
+                         TINY CODING RULES!!
+
+     System requirements
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     Minimum:
+               - a good old 286+ processor
+               - a 287+ co-processor      (NEEDED!!!)
+               - any vga card
+               - 384k of free base memory
+     Recommended:
+               - a nice Pentium (R) of any clock speed
+               - co-processor is included ;)
+               - a gfx rocker PCI graphics card
+               - 384k of free base memory
+
+     Greetings (in no order)
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+               The Banner, Dosis, iGUANA, Unknown, Crystal Shade,
+               Incognita, Savage, MCD, T.L.O.T.B., Clone Zero,
+               Noria Works, Exobit, Requien, Toxic, W.A.H.T.,
+               Zoran and such a lot of people/groups we should greet
+               here, but you all know it's easy to forget... :)
+
+
+     Closing words
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄ
+     This 4k intro got a nice 3rd place at Euskal Party 5 held in
+     San Sebastian (Euskadi, Spain) in July, 1997.
+     
+     I guess we could squeeze some more bytes, but we already were
+     within the limits, and I just preferred to have a get and
+     easy to understand piece of code.
+
+
+     Note: The commented code in the polygon filler is the clipping
+           stuff, I just left it out for the E logo never seemed to
+           move out of the screen. Un-comment it if you plan to use
+           the routine.
+
+
+                                See ya!!
+                                
+                                    Signed: ShadE
+           
+
+ÄÄÄÄÄÜÛßßÄßßßÛÜÄÛÄÄÛÄÄÄÜÛßßÄÄÛßßÛÜÄÄÄÜßßÄÜßßÜÄßÛßÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    ŞÛ        Û ÛßßÛ  ŞÛ     Û   ßÛ ŞÛ ß Û ßÛ  Û
+ÄÄÄÄÛİÄÄÄÄÄÄÄÄÛÄÛÄÄÛÄÄÛİÄÄÄÄÄÛÄÄÜÛßÄÄßÜÜÄÛÄÄÛÄÜÛÜÜÛÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   ŞÛ ÛÛ  Ü   Ü ÜÜÜ  ŞÛ ÛÛ   Û ßÛÜ
+ÄÄÄÄÛİÄÄÄÄÄßÜßÄÄÛÄÄÛÄÄÛİÄÄÄÄÄÛÄÄÄÄÛÄÄßÛßÄÄÜßßÄßÛÜÄÛßÄÄÜßßÄÄÜßßÄÄÄÄ
+    ŞÛ     ÜßÜ  Ûßß   ŞÛ     Û    Û   Û  ŞÛ ß  Û ßÛ  ŞÛ   ŞÛ ß
+ÄÄÄÄÄßÛÜÜÄÛÄÄÄÛÄÛÄÄÄÄÄÄßÛÜÜÄÄÛÄÄÄÄÛÄÄÜÛÜÄÄßÜÜÄÜÛÄÄÛÜÄÄßÜÜÄÄßÜÜÄÄÄÄ

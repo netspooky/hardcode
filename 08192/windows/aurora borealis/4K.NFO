@@ -1,0 +1,25 @@
+
+ "Aurora Borealis"
+ 
+ A 8k invitation for Nordlicht 2017 from T$ and SunSpire released at Revision 2017
+ 
+ Requires DirectX9c (including the D3DX library from the August 2005
+ SDK update, stored on disk as d3dx9_41.dll) and
+ a 3D graphic accelerator featuring VS 2.0, PS 2.0b
+
+ Uses Crinkler and 4klang
+
+ Running time: 3:20
+
+ Files included:
+
+* ts8krev17_2560x1440.exe
+* ts8krev17_1920x1080.exe (Compo)
+* ts8krev17_1280x960.exe
+* ts8krev17_1280x720.exe
+* ts8krev17_1024x768.exe
+* ts8krev17_1920x1080_windowed.exe
+
+ Color modes used:
+ Display format : X8R8G8B8
+ Z-/Stencilbuffer format: D24S8

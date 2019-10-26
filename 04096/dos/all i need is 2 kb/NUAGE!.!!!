@@ -1,0 +1,53 @@
+Date: 08-08-94 (16:20)              Number: 951 of 951 (Refer# NONE)
+  To: ALL
+From: HERMANNI
+Subj: NUAGE! is not a virus    
+Read: (N/A)                         Status: PUBLIC MESSAGE
+Conf: Demos (51)                 Read Type: GENERAL (-)
+
+NUAGE!.COM inside ASS_PC4K.ZIP is *not* infected, even though
+both F-PROT and SCAN report it as possibly infected.
+
+NUAGE! contains an encryption routine, which is identical to
+the one used in the Reklama virus. Either the author of NUAGE!
+has borrowed the routine from this virus or the routine has been
+published somewhere. In any case the file is clean.
+
+On the other hand, the demonstration values of NUAGE!.COM are
+not very high :) it also leaves the machine in a non-stabile
+condition, causing a system crash almost always after it
+has been run. Thus, it might be the easiest solution to just
+remove the file and forget about it.
+
+Mikko Hypponen // Data Fellows Ltd's F-PROT Professional Support
+e-mail: mikko.hypponen@datafellows.fi
+
+----------------------------------------------------------------------------
+
+Date: 08-08-94 (16:01)              Number: 1435 of 1435 (Refer# NONE)
+  To: ALL
+From: MIKKO HYPPONEN
+Subj: NUAGE!.COM               
+Read: (N/A)                         Status: PUBLIC MESSAGE
+Conf: Virus (10)                 Read Type: GENERAL (-)
+
+Paketin ASS_PC4K.ZIP sis{lt{ l|ytyv{st{ NUAGE!.COM-tiedostosta
+on tullut muutamia kyselyj{ - ohjelmaa on ep{ilty viruksen
+saastuttamaksi. Tiedostossa *ei* ole virusta, muttei kyll{ paljon
+puutu.
+
+NUAGE!.COM sis{lt{{ salakirjoitusrutiinin, joka on tavusta
+tavuun sama kuin Reklama-viruksessa. Joko NUAGE!:n tekij{ on
+matkinut rutiinin tuosta viruksesta tai sitten kyseess{ on jossain
+julkaistu kirjastorutiini. Joka tapauksessa tiedosto on puhdas.
+
+F-PROT 2.13a varoittaa kyseisest{ tiedostosta sek{ secure ett{
+quick scan -tilassa. Samoin VIRSTOP. My|s SCAN 117 ja 2.0.2
+varoittavat t{st{ tiedostosta.
+
+Kyseess{ ei ole h{{pp|inen demo ja se j{tt{{ koneen muistinhallinnan
+t{ysin sekavaan tilaan, joten helpoin ratkaisu voipi olla poistaa koko
+tiedosto.
+
+MH
+

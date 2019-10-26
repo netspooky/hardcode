@@ -1,0 +1,35 @@
+
+          _._________ .______    .________  .______/\_
+           |    ____/_|  ___/____|  _____/__|   ___  /_
+           |   __    /|  \      /_   ___   /_    _    /
+           |   \   .:\|   \__  .:/   \_   .:/    |  .:\
+           |____\     \_________/__________/_____|_____\
+           -//---\_____\------------------------lm!--//-->
+
+
+
+                             ixaleno
+
+              executable 4k graphics by www.rgba.org
+
+                        for Breakpoint 2008
+
+
+ .greetings
+
+   auld.asd.collapse.conspiracy.[d]vision.farbrausch.fairlight
+   fuzzion.level64.loonies.nocturns.plastic.rebels.skim.stage7
+   software failure.speckdrumm.spontz.still.tbc.traction.xplsv
+
+ .some.notes
+   the image is software rendered.geometry and shading (except
+   shadows) are four times supersampled.rendering is partially
+   multi-threadad.not simded, nor really optimized.the terrain
+   and alien bases are raymarched.sky, moon and spaceships are
+   raytraced.shaft of light are exponentially radialblured.all
+   shaders are perlin-noised.
+
+ .credits
+
+   coding      :: www.rgba.org/iq
+   crinklering :: www.crinkler.net

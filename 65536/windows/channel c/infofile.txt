@@ -1,0 +1,31 @@
+Channel C
+64k intro
+party version
+by Café
+at Simulaatio 2
+
+cj7 - code, gfx, design
+zild - music
+Grifa - gfx, design
+FLaks - betatesting on his far-too-slow (but oh so silent) pc
+
+requires: 
+Win32
+DirectDraw
+a fast enough cpu (quite fast required, sorry > ~1GHz)
+no special graphics hardware
+
+Thanks:
+Firelight Multimedia for MiniFMOD
+Markus Oberhumer & Laszlo Molnar for UPX
+Party organizers for Simulaatio 2
+DiamonDie for some comments
+
+greetings:
+PHn.
+Numedia Cyclops
+Gluterol
+bleubtreu
+...
+all Simulaatio people
+

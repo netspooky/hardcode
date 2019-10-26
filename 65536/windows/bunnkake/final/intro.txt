@@ -1,0 +1,12 @@
+BunnKake by The Swedes.
+by TEKKNO-E,C-MASTAH and Steffo.
+
+Made for fun for the UnderScore 03 party
+Might not work on your hardware, might not
+be synced, but we dont care.
+
+Needs a OS that can run DX9 and x86 binaries.
+
+
+
+

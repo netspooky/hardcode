@@ -1,0 +1,28 @@
+
+
+	 .sS .iI .mM .pP .lL .eE
+
+	       64kb intro
+		(opengl)
+	
+	    lithe.lewd.leyman
+		  2001
+
+about
+	- runs smooth on p2-400 with tnt2
+	- sucessfuly tested on :
+	  - p3-450,voodoo3
+	  - p2-400,tnt1 (slooow!)
+	  - d700,gf2gts
+	  - p2-333,rage pro (very slow!)
+	- first presented on syndeecate2001 
+	  (www.syndeecate.cz)
+
+credits
+	- code : spool (spool@post.cz)
+	- music : title (title@email.cz)
+	- models : poet (pyzmon@centrum.cz)
+	- upx was used as exepacker
+	- minifmod by firelight multimedia for sound
+
+end

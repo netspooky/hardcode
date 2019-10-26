@@ -1,0 +1,19 @@
+2-A
+4k executable graphics
+for Tokyo Demo Fest 2015
+by fsqrt
+
+Fast-coded (three evenings from scratch) SSE-based software renderer.
+Have no time to make it better, sorry!
+Rendering time should be under 20 seconds on compomachine.
+Esc to exit as usual.
+Have a nice party!
+
+
+Thanks to:
+iq for the great lessions and multithreading code,
+mentor and blueberry for the awesome crinkler, 
+and greetings to all sizecoders.
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

@@ -1,0 +1,11 @@
+
+weektro by GENESiS 1998
+
+    a 64k intro
+
+
+code           : iq
+mzk            : iq
+additional code: murci
+
+.

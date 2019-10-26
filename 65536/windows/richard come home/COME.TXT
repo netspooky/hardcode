@@ -1,0 +1,6 @@
+
+this is a win32 64k intro.
+works with some soundcard, and a gfxcard, if you have directX 7.0 or maybe
+less. it uses 400x300x32/24/16 so if your monitor can't show 400x300,
+bad luck. but please, don't hesitate to watch it on someones elses computer.
+

@@ -1,0 +1,315 @@
+;-----------------------------------------------------------------------------;
+;	   - Dedicated for Chaos Constructions '000 demo party -	      ;
+;		Compo: 512 bytes intro        Name: Shuttle		      ;
+;		   code by Doctor Max^Global Corporation		      ;
+;				2:5037/12.27				      ;
+;-----------------------------------------------------------------------------;
+
+GMport	=	330h		;General Midi port
+
+Variables	STRUC
+balld	dw	1
+btmpx	label	word
+	db	48
+count	db	1
+bampl	dw	48
+bper	dw	128
+ballx	dw	0
+_ys	db	?
+fputmp	dw	?
+Variables	ENDS
+
+_r	=	80
+_r2	=	80*80
+_s	=	76*76
+_m	=	128
+
+.model	tiny
+.386
+.387
+locals
+
+.code
+	org	0100h
+start:	mov	al,13h
+	int	10h
+
+	mov	ax,cs
+	add	ax,1000h
+	mov	fs,ax		;light table segment
+	add	ax,1000h
+	mov	gs,ax		;ball table segment
+	mov	es,ax		;-"-
+	add	ax,1000h
+	mov	bp,ax		;background texture segment
+
+;Compute ball table ------------------------------------------------------
+	xor	di,di
+	xor	si,si
+
+	mov	bh,-_r
+@@ylp:	mov	bl,-_r
+@@xlp:	xor	cl,cl
+	call	X2Y2
+	cmp	ax,_s
+	jl	@@in
+	xor	ax,ax
+	stosw
+	jmp	@@0
+
+@@in:
+;z=sqrt (r^2 - x^2 - y^2)
+	mov	cx,_r2
+	sub	cx,ax
+	call	SQR
+
+;(x*m)/z
+	mov	al,bl
+	call	Persp
+
+;(y*m)/z
+	mov	al,bh
+	call	Persp
+
+	mov	cl,32
+	call	X2Y2
+	shr	ax,2
+	xchg	cx,ax
+	call	SQR
+	mov	al,63
+	sub	al,cl
+@@0:	mov	fs:[si],al
+	inc	si
+	inc	bl
+	cmp	bl,_r
+	jnz	@@xlp
+	inc	bh
+	cmp	bh,bl
+	jnz	@@ylp
+
+;Compute palette ---------------------------------------------------------
+	mov	dx,03c8h
+	xor	ax,ax
+	out	dx,al
+	inc	dx
+
+;background palette
+@@pal0:	out	dx,al
+	out	dx,al
+	out	dx,al
+	inc	al
+	cmp	al,64
+	jnz	@@pal0
+
+;ball palette
+	call	Pal
+	mov	[Pal_m1+1],byte ptr 0c3h	;mov	al,bl
+	mov	[Pal_m2+1],byte ptr 0c0h	;mov	al,al
+	call	Pal
+
+;Compute background -------------------------------------------------------
+	push	0a000h
+	pop	es
+	push	es
+	pop	ds
+	mov	di,64000
+	mov	dx,0417ah
+	xor	cx,cx
+@@1:	add	bl,[di-318]
+	add	bl,[di-319]
+	add	bl,[di-639]
+	shr	bl,2
+	sub	dl,dh
+	ror	dx,3
+	xor	dx,3a36h
+	mov	ax,dx
+	shr	al,6
+	add	al,bl
+	dec	ax
+	mov	bl,al
+	stosb
+	loop	@@1
+
+	push	bp
+	pop	es
+	xor	si,si
+	xor	di,di
+	mov	cx,64000
+	rep	movsb
+
+	push	ds
+	pop	es
+	push	cs
+	pop	ds
+
+;bp - texture segment
+;es - screen segment
+;fs - light segment
+;gs - lens segment
+
+;main loop ---------------------------------------------------------------
+MLoop:	mov	dx,03dah
+@@vs0:	in	al,dx
+	test	al,8
+	jnz	@@vs0
+@@vs1:	in	al,dx
+	test	al,8
+	jz	@@vs1
+
+	mov	di,offset var
+
+	mov	al,[di+count]
+	dec	al
+	jnz	@@nomus
+
+	mov	dx,GMport
+	mov	al,0c9h
+	out	dx,al
+	mov	al,1
+	out	dx,al
+	mov	al,99h
+	out	dx,al
+
+	db	0beh		;mov si,offset music
+musptr	dw	offset music
+	lodsb
+	test	al,al
+	jnz	@@nlp
+	mov	si,offset music
+	mov	al,33h
+@@nlp:
+	mov	[musptr],si
+	out	dx,al
+	mov	al,7fh
+	out	dx,al
+
+	mov	al,11
+@@nomus:
+	mov	[di+count],al
+
+	fild	[di+btmpx]
+	fild	[di+bper]
+	fdiv
+	fldpi
+	fmul
+	fsin
+	fabs
+	fild	[di+bampl]
+	fmul
+	fistp	[di+fputmp]
+
+	mov	cx,44
+	sub	cx,[di+fputmp]
+
+	mov	ax,320
+	mul	cx
+	mov	cx,[di+ballx]
+	add	ax,cx		;ax = ball screen address
+
+	add	cx,[di+balld]
+	cmp	cx,160
+	jb	@@4
+	neg	[di+balld]
+	add	cx,[di+balld]
+@@4:	mov	[di+ballx],cx
+	add	cx,cx
+	mov	ch,[di+_ys]
+	mov	dx,cx
+
+	dec	[di+_ys]
+	inc	byte ptr [di+btmpx]
+
+	mov	ds,bp
+	mov	di,ax		;!
+	xor	si,si
+	xor	bx,bx
+	mov	cx,160
+@@1:	push	cx
+	mov	cx,160
+@@0:	mov	ax,gs:[si]
+	add	si,2
+	test	ax,ax
+	jnz	@@3
+	mov	al,[di]
+	jmp	@@2
+@@3:	add	al,dl
+	add	ah,dh
+	xor	al,ah
+	and	al,40h
+	add	al,64
+	add	al,fs:[bx]
+@@2:	stosb
+	inc	bx
+	loop	@@0
+	pop	cx
+	add	di,320-160
+	loop	@@1
+
+	push	cs
+	pop	ds
+
+	in	al,60h
+	dec	al
+	jnz	MLoop
+
+	mov	ax,3
+	int	10h
+	ret
+
+
+;es:[di] = (al*_m)/cx + _r
+;a = (x*m)/z + r
+Persp:	cbw
+	imul	ax,_m
+	cwd
+	idiv	cx
+	add	al,_r
+	stosb
+	ret
+
+;ax = (bl+cl)^2 + (bh+cl)^2
+X2Y2:	mov	al,bl
+	add	al,cl
+	imul	al
+	mov	dx,ax
+	mov	al,bh
+	add	al,cl
+	imul	al
+	add	ax,dx
+	ret
+
+SQR:	mov	[var.fputmp],cx
+	fild	[var.fputmp]
+	fsqrt
+	fistp	[var.fputmp]
+	movzx	cx,byte ptr [var.fputmp]
+	ret
+
+Pal:	xor	bx,bx
+@@pal1:	mov	al,bl
+	out	dx,al
+Pal_m1	db	8ah,0c7h	;mov	al,bh
+	out	dx,al
+	mov	al,bh
+	out	dx,al
+	add	bl,2
+	cmp	bl,64
+	jnz	@@pal1
+
+@@pal2:	mov	al,63
+	out	dx,al
+Pal_m2	db	8ah,0c7h	;mov	al,bh
+	out	dx,al
+	mov	al,bh
+	out	dx,al
+	add	bh,2
+	cmp	bh,64
+	jnz	@@pal2
+	ret
+
+music	db	24h,2ch,33h,26h,33h,33h,26h,33h,24h,33h,33h
+	db	24h,2ch,33h,26h,33h,24h,24h,26h,33h,26h,33h,0
+
+var	Variables <>
+
+end	start

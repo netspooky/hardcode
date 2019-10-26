@@ -1,0 +1,36 @@
+
+
+\-/ returns ! - http://www.games-net.de/hosted/tggc
+___________________________________________________
+
+
+  Magical Doll  :-: an introduction in 64k
+
+  Code          :-: TGGC
+
+  Music         :-: Turri
+
+  add. gfx      :-: Xoor, Seb
+
+  direction     :-: TGGC
+
+  packer        :-: kkrunchy by ryg/farbrausch
+
+  synthesizer   :-: libv2 by kb/farbrausch
+
+  running time  :-: 6m 00s
+
+
+  greets        :-: ASD, Calodox, Conspiracy, Fairlight, 
+                    Farbrausch, Fuzzion, Kakiarts, Loonies,
+                    Nuance, RGBA, Speckdrumm, Still, TBC,
+                    TBC, TBL, Titan, Traction
+                    atla, BlueCobold, mcdeck, matt|6s, pro, rapso,
+                    rip, TomasRiker
+                    anyone else from #gamedev.ger and #cpp
+
+  add. greets   :-: clippisch
+
+
+  This intro was inspired by Hero, Rozen Maiden and various stuff
+  by TBL, Fairlight and Still.

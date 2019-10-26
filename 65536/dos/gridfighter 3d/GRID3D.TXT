@@ -1,0 +1,155 @@
+    ÚÄÄÄÄÄÄ¿ ÚÄÄÄÄÄÄ¿ ÚÄÄÄ¿ ÚÄÄÄÄÄÄ¿ ÚÂÄÄ¿ Ú¿ ÚÂÄÄ  Ú¿  ¿ ÚÄÂÂÄ¿ ÚÂÄÄ¿ ÚÂÄÄ¿
+    ³ ÚÄÄÄÄÙ ³ ÚÄÄ¿ ³ À¿ ÚÙ À¿ ÚÄ¿ ³ ÃÅÄ   Ã´ Ã´ Â¿ ÃÅÄÄ´   Ã´   ÃÅÄ   ÃÅÄÂÙ
+    ³ ³ ÚÄÄ¿ ³ ÀÄÄÙ ³  ³ ³   ³ ³ ³ ³ ÀÙ    ÀÙ ÀÁÄÁÙ ÀÙ  Ù   ÀÙ   ÀÁÄÄÙ ÀÙ À
+    ³ ³ À¿ ³ ³ ÚÄ¿ ÚÙ  ³ ³   ³ ³ ³ ³                        ÜÜÜÜÜÜ  ÜÜÜÜÜÜ
+ ÉÍ ³ ÀÄÄÙ ³ ³ ³ ³ À¿ ÚÙ À¿ ÚÙ ÀÄÙ ³                        ÛÜÜÜÜßÛ Û ÜÜ ßÛ  Í»
+ º  ÀÄÄÄÄÄÄÙ ÀÄÙ ÀÄÄÙ ÀÄÄÄÙ ÀÄÄÄÄÄÄÙ °° °° °  °  ° °° °° °° ÜÛÜÜÜßÛ Û ÛÜß Û   º
+ º                                                          ÛÜÜÜÜÛß ÛÜÜÜÜÛß   º
+ º  şş A VIRTUAL REALITY ARCADE EXPERIENCE şş                                 º
+ ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÄÄÄÄÄÍÍÍÍÍÍÍÍÍÄÄÍÍÍÍÍÍÍÍÍÄÄÄÄÄÄÄÍÍÍÍÍÍÍÍÍÍ¼
+                                                         ş  design+code+art
+  [ RELEASE NOTES ]     [ version 1.1 / 18.10.2017 ]         jmph / dSr^p2n
+                                                         ş
+   Thanks for trying Gridfighter 3D! At the moment,      ş  additional code
+   this can be considered a tech demo or proof of            hellmood/dSr
+   concept. A full game based on this is coming soon.    ş
+                                                         ş  for OrcaJam 2017
+   FILES IN THE ARCHIVE                                  ş   Victoria,  PNW
+   --------------------                                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+   GRID3D.EXE  - the game itself                               (54 812 bytes)
+   SETMODE.COM - utility to initialize the Forte VFX1 3D mode      (13 bytes)
+   GRID3D.TXT  - you're looking at it
+   FILE_ID.DIZ - file descriptor for BBSes since it's clearly still 1992
+   GRID3D.HI   - high score record; this will be automatically generated
+                 after the game is run.
+
+   GRID3D_LINUX } Native binaries for Linux & Mac OS/X. These are statically
+   GRID3D_OSX   } linked and should run on most recent distros & versions
+                  (x86_64 only.) By default they start in a rather small
+                  window, ALT+ENTER will cycle through full-screen modes.
+
+   REVISION HISTORY
+   ----------------
+
+   Ver. 0.F - initial OrcaJam public demo                          15.10.2017
+   Ver. 1.0 - first release. Slightly rushed.                      17.10.2017
+   Ver. 1.1 - fixed major rendering bug resulting in ~20-100%      18.10.2017
+              speedup on most platforms
+            - tweaked game balance & difficulty curves to cope with higher
+              framerates
+            - added 7/8/9/0 keys to adjust playfield X/Y position
+            - fixed playfield position not being reset on player spawn
+            - added native OS/X & Linux ports
+
+   RUNNING THE GAME
+   ----------------
+
+   Gridfighter 3D supports a wide variety of Virtual Reality headsets
+   including the Forte VFX1, Oculus Rift DK1 or compatibles, Android-based
+   devices and OSVR HMDs. It runs in a DOS environment (FreeDOS, DOSBox,
+   MS-DOS, PC-DOS, etc.)
+
+   If you are using a Forte VFX1 on a real DOS machine, the VIP card MUST be
+   installed and the headset connected that way. Run SETMODE.COM before start-
+   ing Gridfighter 3D in order to activate side-by-side stereo mode.
+
+   IMPORTANT: DO NOT run SETMODE.COM if you don't have a VFX1!
+
+   To use an Oculus DK1 on a DOS machine, you must have a video card that
+   supports DVI under DOS. Connect the DK1 video box to your machine's DVI
+   port and select DK1 when starting the game. Do not connect any other
+   VGA or DVI monitor to the machine! This has been tested and found to work
+   with Nvidia Quadro2 and FX1000 cards but theoretically it should work with
+   many others.
+
+   If using DOSBox under Linux, Mac OS/X, or Windows, any headset that
+   operates in extended desktop mode should be compatible. Make sure full-
+   screen scaling is enabled and aspect ratio correction DISabled in
+   dosbox.conf, and set the fullscreen resolution to your HMD's native
+   resolution. It is generally convenient to have the headset mirror the main
+   display.
+
+   On Android-based devices any port of DOSBox should run Gridfighter 3D. It
+   was tested with DOSBox Turbo on a Galaxy SII which works reasonably well.
+   You will need a bluetooth or USB keyboard to control the game as it only
+   accepts keyboard inputs.
+
+   The game is capped at 20FPS but you will likely not even see that speed;
+   this is due to lack of optimization. Theoretically a 286 with a 256kB EGA
+   card can run it but for an enjoyable experience, at least a 200-500 MHz
+   Pentium I/II or K6-2 is recommended. It has been tested on a everything
+   from a 386/25 to a 1GHz PIII. Unfortunately the game has some issues with
+   FreeDOS on VIA chipsets so if that is your setup you may need to make a
+   boot disk with a different DOS; on Intel (e.g. i430TX or i440LX/BX) -based
+   systems it will run under any typical DOS with no drama. Disable EMS
+   memory managers (EMM386, QEMM, JEMM386/EX, etc.) for a small performance
+   boost. For DOSBox you will likely need a modern system such as an i5 or
+   i7. What can we say, it's jam code.
+
+   Fun fact: Gridfighter 3D runs in an EGA 640x350, 16/64-colour mode with
+   full double buffering AND software Z buffer!
+
+   PLAYING THE GAME
+   ----------------
+
+   Gridfighter 3D features a 6x5x8 playfield. You may move your triangular
+   player piece to any grid space. Up to eight disconcertingly-square enemies
+   will start at the rear of the grid and follow you around in three
+   dimensions. If an enemy rams you, you die, so it's probably wise to shoot
+   them before that happens. Your shots will always fire along the Z axis
+   (into & out of the playfield) in both directions and will destroy all
+   enemies they contact.
+
+   The following keys control your triangle:
+                                                                 ù
+            Move along      A   Move IN and
+    <Ä   ->  the X and Y         OUT along      [ SPACE ]  Shoot      ù
+            axes             Z  the Z axis
+
+   In addition, you can press the following keys to change the 3D geometry
+   in-game. You may need to do this to adjust the display to suit your
+   headset.
+
+    . ,  Zoom in / out      [ ]  Eye spacing    ( )  Stereo balance        o
+
+             7, 8, 9, 0  nudge display left/down/up/right           o
+
+             (note: text fields will not render correctly if
+             you move the display completely off the screen.
+             It should be obvious not to do that.)                 .
+                                                                      
+   ...or ESC to quit at any time.                           ù
+                                                                         o
+   We hope you enjoy this silly little game!      ù              o
+
+   --------------
+   GRIDFIGHTER 3D was almost entirely written in 48 hours at OrcaJam 2017
+   by Jay Hammer (jmph) of DESiRE & P2N. Some additional code for SETMODE.COM
+   was provided by Hellmood / DESiRE.                 .
+                                                                 .
+   GREETINGS fly out to Orby, Ramon, Starchaser, Sigflup, Alterus, Dya, cTrix,
+   Sacha, Dr. Claw, Nom de Nom, everyone at OrcaJam, all our friends in the
+   scene, AND YOU!                 ù
+                     ù                          ù
+       ù                                                       ù            o
+  o             o      ±ÛßßÜ ±ÛßßÛ ÜÛßßÜ ÛÛ ±ÛßÛÜ ±ÛßßÛ
+         o             ±Ü  Ü ±Ûß   ßßßÛÜ ÜÜ ±ÛßÛÜ ±Ûß     &       o
+     ù       o     o   ±ÛÛÛß ±ÛÛÛÛ ±ÛÛÛß ÛÛ ±Û ÛÛ ±ÛÛÛÛ      o       ù     o
+ ù                                                                             o
+   ù   o  ÛßßßÜ ÜßßßÜ ÛßßßÜ ßßÛßß ÜßßßÜ ßßßßÜ ÛİßßÜ ÜßßßÜ ßßÛßß Ûİßßß  o
+ o        Ûİßß  Ûİ  Û ÛİßßÜ   Û   ÛİßßÛ Üİßß  Ûİ  Û Ûİ  Û   Û   Ûİßßß       ù
+          ß      ßßß  ß   ß   ß   ß   ß ßßßßß ß   ß  ßßß    ß    ßßßß
+     ù
+               ù       o                o                         o
+                                    ù                     ù
+           ù       ù       o                  o                       ù
+     o                          ù                  ù        0  1
+                                                          2
+       cc-by-nc-3.0     ù                   ù                     7
+ .                                                                        .
+                            .  get more prods at:        .
+        .
+                               porta2note.itch.io                    .
+                             facebook.com/porta2note
+                             demozoo.org/groups/1077

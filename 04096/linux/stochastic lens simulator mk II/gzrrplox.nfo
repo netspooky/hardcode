@@ -1,0 +1,15 @@
+            Stochastic Lens Simulator Mk II by Gzrrplox
+                   A 4k Intro for Stream Eight
+
+This intro is the second step in the quest of Gzrrplox to build a realtime
+stochastic micropolygon rasterizer. If you're interested, read "The Reyes
+image rendering architecture" from 1987 to find out more and continue with
+included source code.
+
+Production started on top of Instanssi entry at Stream and finished at 
+about 3am.
+
+Made using GCC and Byte Optimized Linker by Timon Ahon. Quick Windows port was
+compressed using Crinker by Loonies & TBC. Unpack header is the one by Marq.
+
+Geometry shaders are required as they are used for bounding box generation.

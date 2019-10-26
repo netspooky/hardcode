@@ -1,0 +1,90 @@
+     ______  _____ _______	_______ _______  _____	 ______ _______
+     |_____]   |      | 	|______    |	|     | |_____/ |  |  |
+     |_____] __|__    | 	______|    |	|_____| |    \_ |  |  |
+
+		       Version 1.0,  1 January 1999
+      Copyright (C) 1999 by Boris W. van Schooten, all rights reserved
+	 Homepage: wwwhome.cs.utwente.nl/~schooten/software/vic-20/
+	       or  www.geocities.com/TimesSquare/Alley/3583/
+			  E-mail:  vicman@dds.nl
+
+
+
+LICENSE AGREEMENT
+
+By using this software, you acknowledge acceptance of the agreement and
+disclaimer as listed below.
+
+Agreement:
+
+This software is distributed as Freeware. It may be freely used and
+distributed as long as the original files BITSTORM.DOC (this file) and
+BITSTORM.COM are included in their original form. This software may not be
+modified or sold for profit, although a small fee may be assessed for the
+media used for copying the software.
+
+Disclaimer:
+
+This program and documentation is provided 'as is' and without any warranty,
+not even the implied warranty of merchantability or fitness for any particular
+purpose. In no event will the author be liable for any loss or damage caused
+by use of this program or documentation.
+
+
+
+
+SHORT DESCRIPTION
+
+Guide the packets through the grid by laying data paths. One packet at a time
+is easy, but wait till they come in numbers! For once, you will be glad that
+it's not 3D!
+
+
+
+
+SYSTEM REQUIREMENTS
+
+* IBM-PC compatible or Acorn PC board
+
+* EGA or VGA (On a CGA, you'll get darker colours)
+
+* black&white or colour monitor
+
+* DOS (Version 3 or maybe less)
+  Windows 3.1/95/98/NT (you can run it in a window)
+
+* PC speaker & Adlib sound are supported.
+  Acorn users without PC speaker can use the BIOS option.
+
+
+
+YOUR INSTRUCTIONS:
+
+Guide the bit packets (flashing red) towards the data sinks (white) by laying
+data paths (black) within the grid. A packet may be delivered to any data sink.
+
+Newly-arrived packets are ready to be released into the grid after they have
+flashed once. At daytime, you have 20 seconds to release a packet before it
+times out. Four seconds before timeout, a warning signal will sound. At
+nighttime, packets must be released immediately.
+
+Switch paths on/off by placing the cursor at the desired location and pressing
+Switch. The four paths around the cursor will toggle.
+
+SCORING:
+
+Deliver packet ....................... 10 pts
+Release packet immediately ........... 15 pts
+Release two packets at once .......... 75 pts
+Bonus for level done or skipped ..... 200 pts
+Every 1000 points .............. 1 extra life
+
+CONTROLS:
+
+Quit		  Move cursor		     Switch
+----	     ---------------------	     ------
+	       I
+ESC	     J	 K  or Cursor keys	     S or /
+	       L
+
+

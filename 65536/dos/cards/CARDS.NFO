@@ -1,0 +1,32 @@
+Cards 1.1 Intro by Dragon Emperor(aka DrEmp) [Epinicion Public Representative]
+For SoCal '95 64kb competition.
+
+Instructions: type 'cards' and press enter to start.
+              press 'q' to quit. (hardest part to figure out :)
+
+Credits: Art done by the guy who did Solitaire.
+         Image editting (to fit 320x200) by Dragon Emperor
+         Programming by Dragon Emperor (based on code from Andre LaMothe
+                                        from his great book 'Game Programming
+                                        in 21 days')
+         Cards done by Dragon Emperor in Deluxe Paint 2 enhanced.
+
+Contact info:
+        Dragon Emperor can be contacted on the IRC on #trax at infrequent
+        intervals.  He is DrEmp on the IRC (for obvious reasons) and is
+        willing to take donations.
+
+Quotes:
+        "Did I win?  Did I win?" - DrEmp
+
+        "I'm pathetic, I take code from a programming book, I take the
+         background from Solitaire, and I even copied Origin with this
+         quotes section.  I should be shot!" - DrEmp [was just kidding]
+                                                     [about the last part]
+
+Revisions:
+        1.1 - 24x24 size cards.  4 cards (one for each type) instead of one.
+              It's got a new version #!
+        1.2 - Informational text during the intro (isn't it cool how the
+                                                   cards go under the words?)
+              Oh yeah, and fixed the pcx file that had the 24x24 cards.

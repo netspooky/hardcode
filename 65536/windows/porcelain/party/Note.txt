@@ -1,0 +1,7 @@
+This is only the SS6 party version !!!
+--------------------------------------
+* without hidden part access
+* with a small bug in the end scroller
+* the final version will be out soon
+--------------------------------------
+                              [patton]

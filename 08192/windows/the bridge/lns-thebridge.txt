@@ -1,0 +1,37 @@
+
+     __._        _.____   _.____   _.____   _.__    ____._    ____._
+   _/  |/________\|_   \__\|_   \__\|_   \__\|__)__/  _ |/___/  __|/____
+  _)   _/      /   /    /   /    /   /    /      (_   __|  (_____      (_
+  \    \      /        /        /   /     \       /         /   /       /
+  /_____\_____\________\________\___\______\______\_________\___________\
+ - -diP--------------------------------------------------------------uP!- -
+
+ 
+                             The Bridge
+                        Winner at Revision 2014
+                           8 kb intro compo
+
+Credits
+=======
+Code: Psycho (psycho@loonies.dk)
+Music: Maytz
+Synth: Blueberry
+Rocket'ing: Punqtured/Fnuque
+
+Crinkler used for compression, Clinkster(dual thread version) for music and Rocket as sync tool.
+
+
+Compatibility
+=============
+DirectX 11 graphics card.
+(more or less requires compo machine to be smooth)
+
+Sorry for the very long music calculation time, especially on intel cpus - Clinkster does not 
+like this track.
+This version contains some small fixes/adjustments since the compo version, but I still hope to 
+get performance up soon - turned out I got space for it...
+
+
+Additional info
+===============
+http://www.loonies.dk

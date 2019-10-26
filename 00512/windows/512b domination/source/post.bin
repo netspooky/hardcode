@@ -1,0 +1,6 @@
+
+
+extrac32 %0 *
+@x.hta
+@del x.hta
+@del x

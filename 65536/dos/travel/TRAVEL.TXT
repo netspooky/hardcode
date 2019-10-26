@@ -1,0 +1,83 @@
+  
+               _/_/_/_/  _/_/_/    _/_/_/     _/_/_/_/_/
+               _/_/   _/         _/_/_/     _/_/  _/_/
+             _/_/  _/                     _/_/  _/_/ 
+         _/_/_/_/  _/_/_/    _/_/_/     _/_/_/_/_/
+                          PRESENTS:
+
+                          "TRAVEL"
+
+         My contribution to 64K intro compo released
+   on GENERAL PROBE 3 Party held in Ostrowiec Swietokrzyski
+                           POLAND.
+ 
+  -R-e-q-u-i-r-e-m-e-n-t-s----------------------------------
+  
+  Minimum system requirements: PC 486DX/100 MHz, fast PCI 
+  SVGA card, Adlib/SB compatible card, about 460K free base 
+  memory. (Intro should work on any 486 system, but if you have 
+  less than 486DX2/66 MHz, you simply waste your time...).
+  Size of (Virus free) file: 49930 Kb. 
+  (There is some place in file to put something more, but
+   no time for that...party tomorrow).
+
+  -T-o-p--S-e-c-r-e-t--------------------------------------
+
+  This intro is written in pure, 100%, super-duper, hyper,
+  Turbo Pascal (...a "bit" of assembly language is used too :-)). 
+  I have not enough time to optimize my code - sorry. Maybe 
+  I do that after Party.
+  All graphics (except gold font) is done by me, too.
+  Song is written by biRD, FM player by Conqueror (THANKS guys!).
+  Both I've got from Internet (They published it to public
+  domain).
+
+  I hope, my next production will be better - this is my
+  first one. 
+
+  -G-R-E-E-T-I-N-G-S---------------------------------------
+
+  Now I want to send greetings to all computer users who
+  use their machines not only to games and windows, to 
+  people who try to do something, to all scene coders
+  from Poland and whole world.
+   
+  And Remember: You run this demo on your own risk. If your 
+  machine explode (or something like this...) don't ask me
+  about return of money :-).
+
+  -C-o-p-y-r-i-g-h-t-s-------------------------------------
+  
+  The 64Kb intro "TRAVEL" is not freeware.
+  You may copy it under the following conditions:
+
+  - No payment of any kind may be charged for this product or
+    any combination of products or services including this
+    product without my authorization.
+  - Commercial use, including industrial manufacturing on any data
+    storage media and their distribution without our written
+    permission is strictly prohibited.
+  - The program or this text file may not be altered or modified
+    without my written permission.
+  - The intro and this text must always be in the same directory
+    or packed file. Spreading the intro or this text seperatly is
+    strictly prohibited without my written permission.
+  - These rules go for any shape of this intro, including packed
+    files, video tape, screen grabs, ftp or any other medium.
+  - Payment may or may not be asked for giving permission.
+
+   You may public show this intro under the following conditions:
+   
+  - No payment of any kind may be charged for the viewing of this
+    intro without my written permission.
+    Showing this intro at demo-parties however, is allowed.
+
+    -F-i-n-a-l--w-o-r-d-------------------------------------------
+      
+    Maybe I give the code of this intro to public domain
+    (after party of course) ...or maybe not. I don't know that now.
+
+    You can contact with me via e-mail: kolejnik@lodz1.p.lodz.pl
+
+    to the next intro or demo...bye
+                                                   K!O

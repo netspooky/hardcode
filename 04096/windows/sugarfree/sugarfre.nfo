@@ -1,0 +1,10 @@
+   
+      
+   s  u  g  a  r  f  r  e  e
+   OpenGL  Win32  flash/peon 
+
+   thanks go to Milos and Shakul for the shorter OpenGL window 
+   init code and for suggesting me freeing the memory in the .com 
+   wrapper, respectively.
+ 
+   released at fiasko 2001  

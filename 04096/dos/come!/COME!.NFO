@@ -1,0 +1,156 @@
+
+
+
+                              - ReMaL presents -
+
+
+                            ึฤฤท ึฤฤท ึฤาฤท      ึ
+                            บ    บ  บ บ   บ ึฤฤท บ
+                            บ    บ  บ บ   บ วฤฤฝ ฝ
+                            ำฤฤฝ ำฤฤฝ ฝ   ำ ำฤฤฝ ฝ
+
+
+                  - a 4KB intro for the Assembly '94 party -
+
+
+
+ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤท
+    About COMe!                                                            บ
+อออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        This  short  intro  needs  at  least 386-based computer, and a quite
+    fast  VGA  board  is  recommended. All parts run at full framerate on my
+    386DX40  machine  with  a  16-bit  bus  Trident  8900CL  (6500  chr/ms).
+    Anyway,  I  preferred  size  optimization to speed optimization for some
+    reason...
+
+        Every  ideas  concerning  any  kind  of  design  had  to  be trashed
+    immediately  because  of  the limited size. So this time it is pure code
+    with no clothes on...
+
+
+ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤท
+    About some (known) bugs                                                บ
+อออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        I   realized  that  if  COMe!  is  started  from  DOS  Navigator  II
+    (shareware  version),  then  it  sometimes  gives  an error message, and
+    does  not  run.  I  am  sure  it  is  a  bug with Dos Navigator's memory
+    management,  and  has  nothing  to  do with this beautiful piece of art.
+    (Please  don't  vomit  on  your  keyboard  while watching...) Anyway, if
+    you try again, it will work.
+
+        The  plasma  may  flicker  on  slow computers and VGA cards. I don't
+    care about it, since the compo machine is fast enough...
+
+        The  intro  plays  no  music  because  of  the rules of the compo at
+    Assembly. I think some AdLib-style rasp should have been allowed...
+
+
+ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤท
+    Credits                                                                บ
+อออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        Ideas, design, etc.....................Bana
+                      Code.....................Zed
+
+
+ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤท
+    Commercials                                                            บ
+อออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        ReMaL  needs  at  least  one  more  composer  and  talented  graphic
+    artist(s).  If  you  want  to join, write to any of the addresses at the
+    end of this file.
+
+
+ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤท
+    Greetings                                                              บ
+อออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        ReMaL sends greets to the following cool teams:
+
+    Abaddon ๙ Admire ๙ Cascada Demo Section ๙ DarkZone ๙ DisTorSion ๙ Dust
+     EMF ๙ Epical ๙ Fascination ๙ Flash Production ๙ Flatline Productions
+     Future Crew ๙ Grif ๙ Imphobia ๙ Inertia ๙ Jamm ๙ Jeskola! ๙ Majic 12
+       Noice ๙ Phantom ๙ Progress ๙ Razor ๙ Relative Production ๙ Shape
+          Supreme ๙ Surprise! Productions ๙ sYmptom ๙ Synergy Design
+         The Info Group ๙ Triton ๙ Topaz Beerline ๙ Witan ๙ Xography
+
+                      + the ones I forgot to mention...
+
+    Shape:  You  textmode  dentro  was really cool! It was funny to see what
+        can be done on a standard text screen.
+
+ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤท
+    Personal messages                                                      บ
+อออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        From Zed/ReMaL to:
+
+    Grif  team:  Good  luck  with  your  demo!  It  is the best Hungarian PC
+        demo  ever,  besides  Show.  I  hope  to  see  it among the top 3 at
+        Assembly.
+
+    Alma/Grif:  You  are  one  of  my  best friends. Have a good swim in the
+        Baltic Sea!
+
+    Ratt/Grif:  I  hope  we  have  no problems any more! Why don't you visit
+        me some time? I'm at home almost any time.
+
+    Rian/Grif: Your musics rule!
+
+    Addict/Topaz  Beerline:  Have  you  received  my letter? I'm waiting for
+        your answer.
+
+    SB/ReMaL:  Good  luck  with  your  4KB intro! I hope you could finish it
+        on the bus to the party. (Laptops are cool!)
+
+    Maxwood/Majic  12:  Having  a  REAL secret part in Show was great. I was
+        laughing  for  about  5  minutes after reading the infofile! Anyway,
+        I love the demo's dynamic style and of course Rack's graphics.
+
+    Slayer/Source EXtended: Keep on making cool metal and rave tunes!
+
+    All  coders  who  move  from C64 to PC: Show the lazy PC coders what you
+        are capable of!
+
+
+        From Bana/ReMaL to:
+
+
+ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤท
+    Addresses                                                              บ
+อออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+        For code related things write to:
+
+                 SB/ReMaL                            Zed/ReMaL
+              ~~~~~~~~~~~~~~                       ~~~~~~~~~~~~~
+              Somogyi Bal zs                       Konyha Zolt n
+               H-9028  Gy”r                         H-9024 Gy”r
+               Szna u. 13.                         Ikva u. 63.
+                 Hungary                              Hungary
+
+
+        For graphic (ray-trace) related topics contact:
+
+                                  Bana/ReMaL
+                               ~~~~~~~~~~~~~~~
+                               Proh szka G bor
+                                 H-9021 Gy”r
+                               Benczฃr u. 1/A.
+                                   Hungary
+
+
+        Musical people should get in touch with:
+
+                              Epton Gwedik/ReMaL
+                              ~~~~~~~~~~~~~~~~~~
+                                Hartmann Tam s
+                                H-2896 Szomขd
+                                Kossuth u. 64.
+                                   Hungary
+
+
+        Or anybody from above for any group-related things.

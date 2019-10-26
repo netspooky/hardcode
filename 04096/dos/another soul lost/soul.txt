@@ -1,0 +1,44 @@
+Another soul lost by Preacher of Traction
+-----------------------------------------
+
+The story:
+
+I had this intro already at Asm'02 but due to my coding
+abilities (or lack of them) it suffered from a horrible
+bug which prevented it from working under any decent
+Windows. Two hours before the deadline I gave up and decided
+to go to sleep instead (good call, otherwise the bar tour we
+took would've been too much for me :)) 
+
+A couple of weeks before asm'03 I fixed the bug but didn't have
+the time or the motivation to do any further work on it. After
+all, it's been laying on my HD for a year or so and some of the
+code is even older (2-3 years even). The design is just as
+unfinished as it was back then but I just want to get this
+off my hands.
+I did have ambitious ideas about making anything from an
+anti-war intro to a complete raytracer, but my laziness and
+the summer heat took the better of me. 
+        
+I'm going to release the source code after I've cleaned it
+up a bit (and maybe even written some comments). Just ask me
+for it if you want it and I'm too lazy (which is all too
+likely) to do it soon.
+
+You can contact (fan mail appreciated ;)) me at:
+
+mnurmika@cc.hut.fi
+http://preacher.stc.cx
+
+I used APACK to pack this, it seems to be quite good at doing
+what it does. It should run on just about anything, but if it doesn't,
+it's not my fault ;) 
+
+Some greetings: My former NoID group mates (how's it going?),
+Aldaron (been quiet?), Se7en (I had the bloody A20 line stuff commented
+out! :X), ahnion, the old #phyrexia posse + other IRC friends.. 
+
+Extra special greetings to Tiks, it just doesn't feel the same without
+you here :(
+
+That's it I guess. Goodbye real mode, I won't miss you.

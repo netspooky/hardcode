@@ -1,0 +1,25 @@
+\                                             /
+ \   /=/-==*==-==*==-==*==-==*==-==*==-\=\   / 
+  | |\/                                 \/| | 
+  | | \        SLANG IN DE GANG         / | |  
+  / \=-\                               /-=/ \ 
+ |   |==-==*==-==*==-==*==-==*==-==*==-==|   | 
+  \ /=-/ /                           \ \-=\ /  
+  | | / /                             \ \ | |  
+  | |/ /GLSL Raymarching 4k gang party \ \| |  
+  | | / Win32, Windows, probably NVIDEA \ | |  
+  | |/  Performance on the middle part   \| |  
+  | |   may suck on older GPUs            | |  
+  | |                                     | |  
+  | |\                                   /| |  
+  / \-\             CREDITS             /-/ \ 
+ |   |==-==*==-==*==-==*==-==*==-==*==-==|   | 
+ |   |              CREDITS              |   |
+ |   |==-==*==-==*==-==*==-==*==-==*==-==|   | 
+  \ /=-/                               \-=\ /  
+  | | /                                 \ | | 
+  | |/                                   \| |  
+  | / Code: Tropical Trevor / Poo-Brain   \ |
+  |/  Music: Punqtured / Fnuque ^ Eventide \|
+  /                                         \
+ /                                           \

@@ -1,0 +1,7 @@
+Name:        Snowmen-14
+Type:        4K procedural graphics
+Code by:     Stan
+Packed by:   Crinkler
+
+Uses DirectX (d3dx9_32.dll). You can press space to move scene a little.
+

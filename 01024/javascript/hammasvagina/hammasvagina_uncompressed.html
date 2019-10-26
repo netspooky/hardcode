@@ -1,0 +1,53 @@
+<html>
+<script type='text/javascript'>
+function js_main()
+{
+// OpenGL constants used verbatim (taken from Khronos gl2.h):
+// #define GL_TRIANGLES 0x0004
+// #define GL_BYTE 0x1400
+// #define GL_STATIC_DRAW 0x88E4
+// #define GL_ARRAY_BUFFER 0x8892
+// #define GL_FRAGMENT_SHADER 0x8B30
+// #define GL_VERTEX_SHADER 0x8B31
+// Tried to replace BYTE with 0x1400, it didn't work for a reason or another.
+document.body.style = "margin:0";
+document.body.innerHTML = "<canvas width=888 height=555 id=c style=width:100%;height:100%>";
+// Following line shamelessly ripped from p01/ribbon, it's goddamn genius.
+// It appears WebGL functions can be identified by first and 7th characters. Make new 'bindings' for them.
+for(i in g=document.getElementById("c").getContext("webgl")) g[i[0]+i[6]]=g[i];
+with(g)
+{
+  var c = function(t, v)
+  {
+    var s = cS(t);
+    sS(s, v);
+    ce(s);
+    return s;
+  };
+  var s = cP();
+  aS(s, c(35633, "attribute vec2 a;varying vec2 b;void main(void){gl_Position=vec4(a,0,1);b=a;}"));
+  aS(s, c(35632, "precision highp float;varying vec2 b;uniform vec3 t;float c(vec3 n){float v=sin(n.x*444.+n.z)+cos(n.x+n.z*333.)+sin(n.x*333.)*cos(n.z*333.);return 1.-sin(length(n-t)*11.)-abs(n.y)-v*v*.04;}vec3 g(vec3 n,float v){vec3 p=vec3(.0003,0,0);return normalize(vec3(c(n+p.xyy),c(n+p.yxy),c(n+p.yyx))-v);}void main(){vec3 p=t,s=normalize(vec3(b.x,b.y*1.5,1)),n;float v;for(int i=0;i<444;i++){n=p+s*.0003;v=c(n);if(v<.0){gl_FragColor=vec4(mix(vec3(.8,.8,1.5)*pow(1.-dot(g(n,v),-s),2.),vec3(1.5,.6,.5),pow(float(i)/444.,5.)),1);break;}p=n;}}"));
+  lo(s);
+  ug(s);
+  // Another concept shamelessly ripped from p01.
+  // WebGL functions apparently return 0 on success. First vertex attribute is guaranteed to be 0.
+  vA(eV(bf(34962, cB())), 2, 5120, false, 0, 0);
+  // Smallest arrangement I could go on the array, take advantage of repeating pattern.
+  bD(34962, new Int8Array([-3,1,1,-3,1,1]), 35044);
+  for(i=0,b=a='data:audio/wav;base64,UklGRgAAAABXQVZFZm10IBAAAAABAAEARKwAAESsAAABAAgA';i<5e6;i++)
+  {
+    a += "Na9"[(i%3000>(i*(i>>17&7)%998))+(i%375>i%751)];
+  }
+  a = new Audio(b+btoa(a));
+  c = function()
+  {
+    dr(4, uniform3f(gf(s, "t"), 0, 0, -a.currentTime/222), 3);
+    requestAnimationFrame(c);
+  }
+  c(a.play());
+}
+
+}
+</script>
+<body onload='js_main();'></body>
+</html>

@@ -1,0 +1,134 @@
+.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+intro retocada por iq en 2004 para que vuelva a funcionar sobre MsDos y Win98
+.. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+                               f a k e
+                     úú---ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----úú
+                    another GENESiS fast-production
+
+                             60 kb intro
+
+
+ Importante: esto no es una versi¢n final. De hecho no pensamos sacar
+             versi¢n final. Si alguien no le funciona lo sentimos de
+             veras, pero no tenemos demasiado tiempo.
+
+ AVISO: en mi ordenata (que es donde la hicimos) sale al prompt del DOS
+        pero deja la tabla de ficheros (o no se el qu‚) hecha una mierda.
+        Esto es bastante peligroso, as¡ que si os da ese error no dud‚is
+        en borrar la intro. No nos hacemos responsables de discos duros
+        destrozados.
+
+
+ 1. Requirements
+ ---------------
+
+   Processor: Pentium 133
+   Sound    : GUS
+   Memory   : 4 MB ??
+   Graphics : Vesa 2.0 (320x200x24)
+   OS       : MsDos
+
+
+ 2. iQ cuenta como naci¢ la fake
+ -------------------------------
+
+  Situaci¢n:
+
+        Murci est  tirado en mi cama aporreando la guitarra. Yo estoy sentado
+        poniendo m¢dulos en el cp mientras pinto la caja del ordenador.
+    
+        - Oye MURCi, el viernes nos vamos a la Arroutada, ¨no?
+        - S¡, creo que es el vierenes.
+        - ¨ Vamos a presentar algo ?
+        - Bueno, a ver si Enlar acaba de pasar a Linux la Storm.
+        - ¨ Nada m s ?
+        - Pos'n¢.
+        - ¨ Y si hacemos una intro ?
+        - ???, si no hay tiempo... Aunque bueno, podr¡amos hacer algo r pido.
+        - Guay!!! Podemos hacer una de cachondeo.
+        - Fijo.
+
+  Dise¤o:
+
+        ... (void)
+
+  Desarollo:
+
+        Entonces sal¡ del cp y escribi:
+        
+        cd c:\prog\intros
+        md fake
+        xcopy rare\*.* fake /s
+        
+        Ya ten¡amos intro.
+        
+  Retoques finales:
+
+        Bueno, ten¡amos intro, pero era igual que la rare. Akunamatata,
+        s¢lo hac¡a falta cambiar la escenas 3D y las texturas. Ummm....
+        tambi‚n ten¡amos un problemilla con el m¢dulo, pero nada que una
+        larga noche no pueda arreglar.
+
+  Re-construcci¢n:
+
+        Despu‚s toc¢ pensar qu‚ cosas pod¡amos poner. Yo ten¡a luces
+        volum‚tricas para el viejo M3D y alg£n fractal nuevo. MURCi ten¡a
+        el nuevo M3D en 32bit, con transparencia y con un mont¢n de cosas
+        m s. Tambi‚n ten¡amos efectos viejos m¡os sin utilizar todav¡a.
+        Hab¡a algo de material, as¡ que esa noche fue buena: MURCi programaba
+        en su piso el raytracer (hecho en una noche! };), pon¡a a punto el
+        M3D y retocaba fuentes. Yo hac¡a alguna escena, montaba el main,
+        hac¡a alg£n efecto m s y baj‚ un m¢dulo de DeepNoise de 280K a 40K
+        con la consecuente p‚rdida de calidad del sonido.
+
+        El viernes juntamos todo e hicimos la escena del pato. Que conste que
+        lo que acab¢ siendo el pato que pod‚is ver en principio iba a ser una
+        oveja... lo  que pasa es que se nos pas¢ por alto una derivada parcial
+        en la ecuaci¢n y claro... En cualquier caso os mostramos la ecuaci¢n
+        impl¡cita de un pato-est ndar para que los que teng is raytracer
+        pod is implementarlo en vuestras intros X-DDDDDD
+
+        El viernes al subir al autob£s y juntarnos con el resto de enfermos,
+        ante el asombro del resto de GENESiS, dijimos: "sorpresa!: vamos a
+        presentar intro." Ing‚nuos de nosotros, no sab¡amos que el trabajo
+        m s duro estaba por llegar, y es que el resto de la intro se hizo en
+        la party: Mc_Tr dibuj¢ el gr fico, yo program‚ el efecto que le
+        acompa¤a y el de las lineas de colorines (aunque la idea original fue
+        de Mc_Tr en la euskal) y murci se tocaba los huevos por ah¡ y hac¡a
+        las fuentes a rega¤adientes cuando yo le insist¡a.
+
+
+        El caso es que justo al final conseguimos que entrase todo en los
+        64Kb reglamentarios. Despu‚s tuvimos que recompilar la intro para
+        que funcionase en 32 bit de color porque mi ordenata tiene s¢lo 24
+        y no nos hab¡amos dado cuenta de que la compo-machine no ten¡a
+        porqu‚ serlo. Y al final entre risas la entregamos. No esper bamos
+        mucho de ella, por ser una intro de cachondeo hecha sin fundamento,
+        pero en fin, qued¢ segunda, algo que nos dio una gran alegr¡a.
+
+
+
+ 3. El raytracer
+ ---------------
+
+        Esta vez el plato fuerte de la intro es el raytracer. Es un
+        raytracer codeado por murci en una noche, por lo que est 
+        todav¡a sin optimizar. Sin embargo, esta primera y £ltima versi¢n
+        del mismo es capaz de lanzar 160x100 rayos a unos 60fps en mi P133.
+        Una maravilla. Tanto es as¡ que decidimos poner el nombre a la
+        intro en su honor.
+
+        (Que conste que en la Arroutada col¢)  };)
+
+
+ 4. Me piro que tengo sue¤o
+ --------------------------
+
+        El t¡tulo lo dice todo, ¨no?. Ale, un saludete a toda la scene
+        espa¤ola y hasta la siguiente.
+
+        Esta vez no hay poemas y txistes porque no consideramos esta una
+        intro "oficial".
+
+        Hay que me duermo....hay que....hay....haaaaayyyy.....jzzzzzzzzz!

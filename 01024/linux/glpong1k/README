@@ -1,0 +1,25 @@
+Fake brings you an OpenGL Pong in 1020 bytes.
+
+(I hate writing READMEs...)
+
+We included the full source code.
+Depending on your system the final executable will be slightly bigger or smaller.
+
+
+Use W+S for the left paddle and O+K for the right paddle.
+Use SPACE to wiggle the ball (haha, very funny...).
+
+We are aware that this game might not be interesting for more like ... hmmm ... 20 hours.
+We just wanted to show that it can be done.
+And it can.
+
+Feel free to abuse the "dynamic loader" in your 4K Intros,
+credit/greetings would be nice ;).
+And let us know if you do!
+(mailto:fake@cute-ninjas.com)
+
+Have fun.
+
+We might give you an update,
+check http://fake.cute-ninjas.com/
+now and then.

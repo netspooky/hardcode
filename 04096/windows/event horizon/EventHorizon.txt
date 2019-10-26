@@ -1,0 +1,11 @@
+<tutaj powinien byc jakis ladny ASCII art. ;) >
+
+Intro przez jedna osobe (Charibo), przez okolo 2 dni. Podzielone na 4 w miare rozne sceny, trwa 119 sekund. Nie mialem czasu zrealizowac synthu, wiec uzylem gotowej biblioteki Fuxplux.
+
+Nazwa wziela sie z... wlasciwie nie wiem, skad wziela sie nazwa. Ogladalem intro po raz n-ty probujac dopasowac sceny i jakos sama wpadla do glowy ;)
+
+Credits:
+Tworcy Crinklera, za doskonalego pakera.
+Tworcy biblioteki Fuxplux.
+
+Innym uczestnikom compo zycze dobrych miejsc:)

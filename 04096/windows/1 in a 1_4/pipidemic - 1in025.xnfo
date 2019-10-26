@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xnfo standard="1.1" version="1" mode="complete" author="sanx(at)fxteam(dot)net">
+<demo>
+	<name>1 in 0.25</name>
+	<authors>
+		<group>pipidemic</group>
+	</authors>
+	<category type="intro;4k">Intro 4K</category>
+	<support>
+		<configuration>
+			<plateform type="win32">Windows</plateform>
+		</configuration>
+	</support>
+	<archive>
+		<file>pipidemic - 1in025.zip</file>
+	</archive>
+	<runs>
+		<run>1in025.com</run>
+	</runs>
+</demo>
+</xnfo>

@@ -1,0 +1,45 @@
+Traction::SSRI
+ - Less than 64 kilobytes of chemistry for your brains, released at Function'05
+
+"In the midst of winter, I finally learned that there was in me an invincible summer."
+  - Albert Camus 
+
+--
+Things you see:  Martti "Preacher" Nurmikari
+Things you hear: Jukka "Grip" Älli
+Things you feel: Fabian "ryg" Giesen (packer)
+                 Brett "Firelight" Paterson (player)
+
+Other guilty ones : Anna "napsa" Savolainen     - additional design
+                    Erkka "Kofeiini" Pynnönen   - additional design
+                                 
+Contact us at:
+ Preacher - syksyisin@gmail.com
+ Grip     - grip@jippii.fi
+ 
+ http://traction.untergrund.net (some day, hopefully soon)
+ 
+--
+As usual, no shaders or anything like that required. Should run on just about anything,
+but how well... OpenGL lines are _slow_ and there are a _lot_ of them ;) Please do run
+it in 1024x768, and don't forget to enable music (some of the effects won't work properly
+without synch values from the player).
+ 
+--
+Some words about the intro: It's rather fast-made, I started working on it after
+Assembly and during these two months, I completed two demos and had my share of real
+life. Special thanks must go to my lovely girlfriend Anna for support, inspiration 
+and some tidbits regarding the chemistry of SSRI (selective serotonin reuptake 
+inhibitor) drugs. I wish the concept had been exploited better, but.. 
+
+And, before you point it out, yes, the butterflies are a Paul Bourke ripoff ;) But
+mathematics is about the beauty of the Universe around us, so I believe that I can
+borrow a bit.. ;)
+
+Finally, special thanks and smiles to my Hungarian friends for organizing something that 
+will most likely be a kickass party, and special fuckings to me for not being there. 
+I hope you enjoy the intro. 
+
+ -Preacher
+ 
+--

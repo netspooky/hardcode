@@ -1,0 +1,97 @@
+
+
+
+                               . t R A C e .
+                  ÜÜÜÛßßßßßÛÜÜÜ             ÜÜÜÛßßßßßÛÜÜÜ <!nS~SPd>
+ ÜÛÛÛÛ²Ü  ²Ü   Ü²ÛÛÛÛ       ÛÛÛÛÛÜ  ²ÜÜ  Ü²ÛÛÛÛ       ÛÛÛÛÛÜ  ²ÜÜ  Ü²ÛÛÛÛÜ
+ ÛÛÛÛ²²  ²²İ    ²²ÛÛÛİ     ŞÛÛÛÛÛ  ²²ÛÛÛ  ²²ÛÛÛİ     ŞÛÛÛÛÛ  ²²ÛÛÛ  ²²ÛÛÛÛ
+ ÛÛÛ²²  ²²Û      ²²ÛÛÛ     ÛÛÛÛÛ  ²²Û ÛÛÛ  ²²ÛÛÛ     ÛÛÛÛÛ  ²²Û ÛÛÛ  ²²ÛÛÛ
+ ÛÛ²²  ²²Ûİ       ²²ÛÛİ   ŞÛÛÛÛ  ²²Ûİ ŞÛÛÛ  ²²ÛÛİ   ŞÛÛÛÛ  ²²Ûİ ŞÛÛÛ  ²²ÛÛ
+ Û²²  ²²ÛÛÜÜÜÜÜÜÜ  ²²ÛÛ    ßßß  ÜÜÜÜÜÜÜÛÛÛÛ  ²²ÛÛ    ßßß  ²²ÛÛÜÜÜÛÛÛÛ  ²²Û
+ ²²  ²²ÛÛİ     ÜÜÜ  ²²Ûİ       ²²ÛÛİ   ŞÛÛÛÛ  ²²Ûİ ÜÛÛÜ  ²²ÛÛİ   ÜÜÜÜÜ  ²²
+ ²  ²²ÛÛÛ     ÛÛÛÛÛ  ²²Û      ²²ÛÛÛ     ÛÛÛÛÛ  ²²Û ÛÛÛ  ²²ÛÛÛ     ÛÛÛÛÛ  ²
+   ²²ÛÛÛİ     ŞÛÛÛÛÛ  ²²İ    ²²ÛÛÛİ     ŞÛÛÛÛÛ  ²²ÛÛÛ  ²²ÛÛÛİ     ŞÛÛÛÛÛ
+  ß²ÛÛÛÛ       ÛÛÛÛÛß  ²ß   ß²ÛÛÛÛ       ÛÛÛÛÛß  ²ßß  ß²ÛÛÛÛ       ÛÛÛÛÛß
+     ßßßÛÜÜÜÜÜÛßßß             ßßßÛÜÜÜÜÜÛßßß             ßßßÛÜÜÜÜÜÛßßß
+                   . y O U r .                . m I N d .
+
+                          Ü²ÛÛÛÛİ          ŞÛÛÛÛÛÜ
+                           ²²ÛÛÛÛ ÜßßßßßÜÜ ÛÛÛÛÛÛ
+                            ²²ÛÛÛİ        ŞÛÛÛÛÛ
+                             ²²ÛÛÛ        ÛÛÛÛÛ
+                              ²²ÛÛİ      ŞÛÛÛÛ
+                               ²²ÛÛ      ÛÛÛÛ
+                                ²²ÛİßÜÜßŞÛÛÛ
+                                 ²²Û    ÛÛÛ
+                        ÜÜÜÜÛßßß  ²²İ  ŞÛÛ  ßßßÛÜÜÜÜ
+                     ÜÛßß          ²    ß          ßßÛÜ
+                      ßßÛÜÜÜÜ      . II .      ÜÜÜÜÛßß
+                            ßßßßßßßÛÜÜÜÜÛßßßßßßß
+
+ ÚÄtrace your mind 2Ä¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄ4Kb realtime raytracer from Pointman/SUSPENd
+   first presented at Satellite'98 held in Szczecin, Poland
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄcreditsÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄpointman/suspend....raytracing engine+keyframer stuff
+   psi/future crew.....adlib player
+   skaven/future crew..music
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄrights and disclaimerÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄIf You like to put some of our production on CD or any kind of shareware
+   collections, you can do it. You can not change anything in our
+   productions. You should not spread any of our productions parts as a
+   single stuff. We are not responsible for any hardware or software crashes.
+   Use our programs on your own risk. ;)
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄinfoÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄintro is not optimized becouse of 4kb size limit.
+   engine doesn't use bounding boxes or other speed up methods.
+   i must also use color normalization becouse i use three light
+   sources with diffrent rgb each other. thats all folks
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄgreetingsÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄto all my friens
+   special gretz goes to Wafel/Stones & Zsacul/Norferin
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄrequiredÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄcpu ÄÄÄÄÄ¯ very fast fpu is required
+   memory ÄÄ¯ 100Kb lo
+   video ÄÄÄ¯ vesa1.2+, 320x200x16bpp
+   music ÄÄÄ¯ adlib compatible card (run SBOS if You have gravis)
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄproblems?Ä¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄIf Yours computer is too slow buy new one  ;)
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄcontactsÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄi You are programming under directX or You are WCW fan, or You live
+   outside of Poland, email me: pointman@friko4.onet.pl
+   i You want to contact with SUSPENd, email Carson
+   carson@opnt.optimus.wroc.pl
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄmsgÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄi'm looking for infos about 'rubber poly'. see demo 'heartquake' by
+   'iguana', 3rd place at assembly'94.
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms
+
+ ÚÄmore infoÄ¿
+ Ãsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsm
+ ÀÄin suspend.nfo
+  msmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsmsms

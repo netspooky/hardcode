@@ -1,0 +1,115 @@
+
+                   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+                   $$' `$$$$$' `$$'       `$$$' `$$$$$$$$$$
+                   $$    $$$    $$  $$$$$  $$$   $$$$$$$$$$
+                   $$     ^     $$  $$$$$ ,$$$   $$$$$$$$$$
+                   $$   $`_'$   $$         `$$   $$$$$$$$$$
+                   $$   $$$$$   $$  $$$$$$  $$   $$$$$$$$$$
+                   $$   $$$$$   $$  LURRED  $$   `IGHT$$$$$
+                   $$   ICRO$   $$  $$$$$$  $$          `$$
+                   $$. ,$$$$$. ,$$,        ,$$;.========'$$
+                   $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+                                  Ъї В В
+                                  ГБїАВЩ
+                                  АДЩ Б
+
+                 ЫЫЫЫЫЫЫЫЫЫЫЫЫ       ЫЫЫЫЫЫЫ   ЬЬ             ЬЬ
+     ЫЫЫЮЫ ЫЫЫЫЫ Ы    ЯЫЯ   ЯЫ     Ы   ЮЫЭ     ЯЯ             ЯЯ
+     Ы ЫЮЫ ЫЭ ЮЫ Ы  Ы  Ы  Ы  Ы    ЮЭ   ЮЫЭЮЫЫЫЫЮЫЮЫЫЫЫЫЭЫЫЫЫЫЮЫЭЫЫЫЫЫ
+     ЫЭЫЮЫ ЫЭЬЮЫ Ы ЮЫЭ Ы ЮЫЭ Ы    Ы    ЮЫЭЮЫЭ  ЮЫЮЫ Ы ЫЭЫ   ЫЮЫЭЫЫЬЬ
+     ЫЭЫ Ы ЫЭЯЮЫ Ы  Ы  Ы  Ы  Ы   ЮЭ    ЮЫЭЮЫЭ  ЮЫЮЫ   ЫЭЫЯЯЯЫЮЫЭЫЫЬЬЬ
+     ЫЭЫЫЫ ЫЭ ЮЫ Ы    ЬЫЬ   ЬЫ   Ы     ЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЬЫЫЭ
+                 ЫЫЫЫЫЫЫЫЫЫЫЫЫ         ЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯЯ
+
+
+HISTORY
+ДДДДДДД
+
+    I watched GU-STAR, by Camorra and I really liked those little lights
+moving around on a 'splitted-screen' (if you haven't seen this demo, go
+get it!). I told myself that maybe I could try making something similar
+in 256 bytes... Well, here it is. Enjoy!
+
+     I made this for the 256 bytes demo competition
+on Techstronics, in the month of July of 1996.
+
+    Wondering what MBL means? Look carefully at the
+ASCII up there! It's not very original, but who cares?
+
+REQUIREMENT
+ДДДДДДДДДДД
+
+    This program requires at least a 386. I should work with any version
+of DOS, since it doesn't use any of its functions. I'm not sure about it
+though, because I only have IBM DOS 5.02.
+
+HOW IT WORKS
+ДДДДДДДДДДДД
+
+    Basically, in DOS, you just have to type NADO_MBL and press your
+enter key and press any key to exit. If you're not in DOS, then that's
+YOUR problem. If you get tired of the same background, you can change
+it by using the 'Nado' switch. Don't forget that it's case-sensitive!
+
+Example:
+
+Default background
+C:\DEMOS\256\>NADO_MBL anything
+
+Other background
+C:\DEMOS\256\>NADO_MBL Nado
+
+    To restore the original background, use anything as parameter.
+
+TECHNICAL INFORMATION
+ДДДДДДДДДДДДДДДДДДДДД
+
+    You probably found that out by yourself, but this is in 320x200x256
+(or mode 13h). If you haven't seen a lot of demos, then, you may find
+weird that there are black lines one the screen. This is because it
+draws the background on even lines and the 'light' on odd ones.
+
+CREDITS
+ДДДДДДД
+
+    Code.................. Nado / Trimaje
+    Text&ASCIIs........... Nado / Trimaje
+
+COPYRIGHT
+ДДДДДДДДД
+
+    COPYRIGHT 1996 by Eric Nadeau.
+    All rights reserved.
+
+    If you want, you can debug my program, disassemble it, change it,
+destroy it, rip its routines, etc... BUT, you are not aloud to distribute
+a modified or renamed version of the executable AND/OR documentation. If
+you want to include this program with something, you must distribute this
+documentation with it and you aren't aloud to change either's anem . If
+you make an other version of it, KEEP IT FOR YOURSELF... Unless you have
+my permission.
+
+    BTW, I'M NOT RESPONSIBLE OF WHATEVER THIS PROGRAM OR DOCUMENTATION
+    COULD DO TO YOU, YOUR COMPUTER, YOUR WIFE, YOUR CAT, YOUR HAMSTER,
+    OR ANY OTHER OBJECT(S) OR PERSON(S). USE IT AT YOUR OWN RISKS. IT
+    WORKS JUST PERFECTLY ON MY SYSTEM, BUT THAT DOESN'T MEAN THAT IT
+    WILL ON YOURS.
+
+END
+ДДД
+
+    My real name is Eric Nadeau. You can contact me if you want...
+
+NetMail: 1:243/68.18
+Internet E-Mail: Eric.Nadeau@otis.erkware.com
+Phone: (819)682-2723
+Mail: Eric Nadeau
+      23 de Bourgogne
+      Aylmer, Qu‚bec
+      J9H 3R6
+      Canada
+
+                                             Nado / Trimaje
+
+

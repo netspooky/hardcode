@@ -1,0 +1,94 @@
+; === "EXPRESS TRAIN 125" BY PWP ===
+;
+; This is just a proof of concept.
+; The main point here is that tiny MS-DOS demos with PCM sound are possible.
+;
+; Compiles with nasm.
+;
+; Uses COVOX sound, use Dosbox to emulate it.
+;
+; viznut/pwp 2011-11-05
+;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+	bits 16
+	org 0x100
+
+	mov al,0x13
+	int 0x10
+	push cs
+	pop ds
+	call hooktimer
+
+	;;; MAINLOOP
+
+	push 0xa000
+	pop es
+
+l1:
+	mov bx,[timctr+1]
+l0:	add dx,cx
+	adc bx,0
+	or ax,bx
+	shr ax,5
+	and al,[timctr+2]
+	xor al,0x10
+	stosb
+	loop l0
+
+	in al,0x60	; esc key check
+	cbw
+	dec ax
+	jnz l1
+
+	;;; (UN)INIT CODE
+
+	mov al,0x3
+	int 0x10
+	lds dx,[oldint]
+	jno timset
+hooktimer:
+	mov ax,0x3508
+	int 0x21
+	push es
+	push bx
+	pop dword [oldint]
+	mov dx,handler
+	mov ah,0x20	; interrupt rate (0x20 is about 36 kHz i think)
+timset:	mov al,0x36
+	out 0x43,al
+	mov al,ah
+	out 0x40,al
+	mov al,0
+	out 0x40,al
+	mov ax,0x2508
+	int 0x21
+	ret
+
+	;;; TIMER IRQ HANDLER
+
+handler:
+	pusha
+
+	mov ax,[timctr]
+	mov dx,ax
+	or dx,[timctr+1]
+	sub al,ah
+	xor ax,dx
+
+	imul dx,3
+	and dl,dh
+	sub ax,dx
+	mov dx,0x378
+	out dx,al
+
+	inc dword [timctr]
+	mov al,0x20
+	out 0x20,al
+	popa
+	iret
+
+	;;; VARIABLES
+
+timctr equ $+0
+oldint equ $+4

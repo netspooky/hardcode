@@ -1,0 +1,40 @@
+ Bandwagon: Join in the chant
+ ============================
+
+ Assembly'98 64k intro, came 4th.
+ Spread this package.
+
+ Requires:
+  386
+  550K conv.
+  About 1024K XMS
+  VGA
+
+ Files:
+  PSS.EXE - GUS-supported version.
+  PS27R.EXE - SB-supported version.
+
+  They're in separate files cos' they use different players and different
+  formats. I could squeeze them in one file, but that would make the
+  "release" version over 64kb. The SB-version is not linked to the music
+  nor will it be, I have no intension in supporting the MOD-format in
+  the future. My SB-DMA-player used to have problems in every other
+  SB-clone, so this is the DAC-player. It's slow, but it works.
+
+ Usage:
+  command line:
+   /n       - force no sound
+   /r:????? - use SB-rate of ????? (PSS27R.EXE)
+
+ Credits, as usual:
+   gspot / music
+   mermaid / graphics ("COSMIC")
+   neckfreak / "code" + misc. graphics
+
+ Contact:
+   neckfreak: asilvast@cc.hut.fi
+   mermaid: lord_red@hotmail.com
+
+   www.hut.fi/~asilvast/bw
+
+

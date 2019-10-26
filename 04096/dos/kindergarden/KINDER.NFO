@@ -1,0 +1,165 @@
+   ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+                          k i n d e r g a r d e n
+
+                                 4 kb intro
+                     presented at Euskal Party 9 (spain)
+
+                       ÚÄÄÄÄÄ¿ ÚÄÄ¿  ÚÄ¿     ÚÄÄÄÄ¿
+                       ³  ÚÄÄÙ ³  ³  ³ ³ ÚÄ¿ ³  ÚÄÙ
+                       ³  ³ÚÄ¿ ³  ³  ³ ³ ³ ³ ³  À¿
+                       ³  ÀÙ ³ ³  À¿ ³ ÀÄÙ ³ ³  ÚÙ
+                    Ú¿ ³     ³ ³   ³ ³     ³ ³  ÀÄÄÄ¿ Ú¿
+                    ÀÙ ÀÄÄÄÄÄÙ ÀÄÄÄÙ ÀÄÄÄÄÄÙ ÀÄÄÄÄÄÄÙ ÀÙ
+
+
+   ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+
+
+ 0. Requirements
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+[ + ] = yes
+[ - ] = no !
+
+ os    :   .. msdos 6.2 ............... [ + ]
+           .. go32-v2.exe ............. [ + ]
+           .. emm386.exe .............. [ - ]
+
+           .. also runs ok on a dos box under win9x
+
+ video :   .. vesa 2.0 ................ [ + ]
+
+ cpu   :   .. fpu ..................... [ + ]
+
+           .. mmx and p6 not requiered
+           .. 500 mhz for a nice visualization
+           .. programed in a P 133 Mhz
+        
+
+ sound :   .. no sound... :(
+
+
+
+ 1. Just some words
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+    hmmm... this is our first 4k intro... i (me, Iq) never had programmed in
+    asm before, but i decided to start with it some months ago. this is the
+    result of the work done during this time. i started to make the raytracer,
+    some 2d deformations and the mini-texture generator. Geiger saw these
+    things and we decided to make an intro. he made the font generator and
+    a new 2d efect. then, we put all together and tried to present it on
+    xuventude galicia net party, but it was imposible because the intro
+    was 5.600 bytes long! so, we thought to try again in euskalparty. we
+    remade the font generator, the raytracer and the main loop, and we
+    achieved (at last) to make the intro 4k long. so, here it is. we hope
+    you like it.
+
+    ah, we made some versions of the intro so that everybody can watch
+    the intro:
+
+    kinder_a.exe    :   320 x 240 x 32
+    kinder_b.exe    :   320 x 240 x 24
+    kinder_c.exe    :   320 x 200 x 32
+    kinder_d.exe    :   320 x 200 x 24
+
+ 2. The intro
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+    well. just to let you make an idea, the executabla real size is
+    5264 bytes. and apack helps us to make it no more than 4k size :)
+
+    now, a short description of the main parts of the intro...
+
+    ..fonts :
+
+    yeah, we generate the fonts! they are antialiased, you see, and we can
+    generate them in any resolution we want. it's geirger's works,
+    genious'work. ah!, the font generator takes no more than 1 kb!
+
+    ..raytracer:
+
+    absolutly not speed optimized raytracer. the first raytracer (the
+    one we wanted to present in the xuventude's version) was able to
+    raytrace planes, spheres and cylinders, and it was quite fast...
+    however, the code was too big. so i decided to rewrite de raytracer
+    and to make it able to intersect "just" cuadrics. of course, this
+    made the code smaller, but also the raytracer much more slower :(
+
+    ..2d deformations:
+
+    they are beatifull, aren't they? the main idea and code is Geiger's,
+    our 2d man. i just made the fpu code to generate de deformations
+    themselves.
+
+    ..textures:
+
+    the intro generates three 256x256 true color simple textures. we could
+    have generate more with no space cost, but they are all of them very
+    similar, so... anyway, the mini-texture generator makes just fractal
+    plasmas and have three filters. the extended version was able to make
+    more sofisticated textures, but you know... 4k is 4k...
+
+    hey, Ufix, at last the plasma rutine is 178 bytes long!
+
+
+ 3. iq
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+    sorry, because this short poem above (made by me) is written in
+    spanish.
+
+    "el mar y t£:
+     
+     Cu ntas almas en el regazo del mar se han sentado
+     cont ndole penas, desahogando su melancol¡a,
+     o pidi‚ndole ruegos o expres ndole su alegr¡a,
+     y esperando una contestaci¢n, el sonido de las olas han escuchado.
+     
+     De su inmensidad nacen miles de esperanzas y decisiones
+     pues miles de almas en ‚l buscan respuestas y comprensi¢n,
+     un hombro en el que llorar, un amigo de coraz¢n
+     alguien que escuche todas nuestras emociones.
+     
+     Y es que sencillo es notar que el mar te escucha y te comprende
+     .
+     .
+     como un un coraz¢n dadiboso que sabidur¡a y comprensi¢n desprende.
+     
+     Pero al hablarle al mar, a nosotros mismos nos hablamos en verdad,
+     porque las aguas de un mar enfurecido o un mar en calma,
+     no son m s que un simple espejo de nuestro alma
+     y de ellas escuchamos lo que nosotros mismos cabilamos en soledad."
+                    
+    Espero que os haya gustado.
+
+
+                    
+ 4. Geiger
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+    Not too much to say... just watch our work, enjoy it or delete it.
+    Meet us at the party and have a drink.
+    And btw, we're looking for a musician for some prods we're working in.
+    Contact us, and see ya.
+
+
+ 5. greets
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+    ..we greet:
+
+    Fuzzion, Network, Ozone, Tlotb, Concept, Rgba, Niako, Elerium Core,
+    Solstice, Centosis, Anaconda, Escena.org staff, and anyone we can forget.
+
+    ..we admire:
+
+    Orange, KOMA, Mfx, Jamm, CNCD, Byterapers, Fudge, Halcyon, Tbl,
+    Replay, Purple, Halcyon, Yodel, Soopa Doopa, Fobia Design, Tpolm,
+    Valhalla, Goto10.
+
+    ..we thank:
+
+    Maxwell Sayles, for his DPMI only protected mode kernel
+    Jibz,           for his apack compressor

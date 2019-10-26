@@ -1,0 +1,12 @@
+"Ski" by poi
+http://www.p01.org
+
+~ S K I ~
+256bytes - requires win+ie5.0+
+This intro is a tiny ski game. Move the player horizontally with
+your mouse and go through the maximum of gates.
+When you miss one, an alert box show your score, and another
+game begins.
+Hope you like it.
+Mathieu 'P01' HENRI
+http://www.p01.org

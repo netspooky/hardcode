@@ -1,0 +1,41 @@
+.dat file:
+----------
+  points
+  vectors
+  planes
+
+points:
+-------
+  number of points
+    number of points * (x y z)
+
+vectors:
+--------
+  number of vectors
+    number of vectors * (x y z)
+
+planes:
+-------
+  number of planes
+    number of planes * (plane)
+
+plane:
+------
+  opt type  basecol numcol
+     type&128 => midvect
+   numvert  numvert * (points)
+     type==6 => texthandle  numvert * (x y)
+
+  opt:
+    1: show front
+    2: show back ?
+  128: override mid
+
+  type:
+    0: fill
+    1: flat shade
+    2: rounded shade
+    3: mirror
+    4: or-fill
+    5: texture
+    6: transparent texture

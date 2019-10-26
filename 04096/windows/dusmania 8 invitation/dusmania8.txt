@@ -1,0 +1,28 @@
+#include <cmath>
+
+Das Jahr des Helden - http://tggc.funpic.de
+___________________________________________
+
+
+  Dusmania 8 
+  Invitation    :-: Ein Intro in 4kb
+
+  Code          :-: TGGC
+
+  Packer        :-: Crinkler 0.4a (http://www.crinkler.net)
+
+
+
+  greets        :-: atla, Eiswuxe, Firoball, heimdall, fiveop, KingKiKapu, kts, largo, Marc,
+		    MasterK, matt|6s und Team, mcdeck, mikel, ntroPi, Polygon, pro, Puhmann,
+		    rip, S3nf, scalar, Sgt. Nukem, Skyrider, smg, The_Fallen, TomasRiker, Turri
+                    die restlichen Leute aus #gamedev.ger und #cpp, ganz speziell volki
+
+  add. greets   :-: alle, die das hier besser können
+                    alle, kreativen Programmierer
+                    alle, die Überhaupt programmieren
+                    und die ZFX-Member
+
+  add. info	:-: http://www.dusmania.de/
+
+  Dieses Intro wurde auf Win2k und WinXP getestet und für lauffähig befunden. 		

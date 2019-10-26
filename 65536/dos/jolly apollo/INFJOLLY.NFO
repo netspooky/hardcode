@@ -1,0 +1,77 @@
+
+                                   INF
+                              joLLy apoLLo
+
+                first presented at the summer encounter '99
+                      held in denmark 21th - 24th july
+
+:about
+  super hurry done raytrace-only 64kb intro thingy entirely made at the
+  party place. yay! featuring the normal things like a city, tunnels, girls
+  and weird kanjis. no outer space theme despite its nifty name.
+
+:featuring
+  girls (well, one girl on many pics to be exact) :>
+  a sewer pipes tunnel scene
+  a rough neighborhood city scene
+  a car tunnel scene
+  a shabby room with pc scene
+  all with a raytracer made back in '97 :P
+  no calculated textures what-so-ever, its all graphics due to lazyness :)
+
+
+:launch requirements
+  system........      dos/win95/98
+  cpu...........      pentium (fast p2 recommended, mmx only).
+  memory........      32mb.
+  video.........      vbe2, 320x240x32/320x240x24/etc.
+  audio.........      gus.
+
+  if alot of ppl whine we might (just might) release a non-mmx version.
+
+
+:joLLy apoLLo rocket crew
+  code..........      kravitz
+  artwork.......      tmk
+  music.........      lone wolf
+  additional....      flex (image compression)
+               .      gainx (module raping)
+
+
+:special thanks to
+  
+
+:greetings go to
+  tls.sublogic.sorrox.darkzone.digital nerds.blocc.fudge.prone.purple.
+  gollum.quad.replay.pulse.bomb.dolphin.tbl.index.numb.xevius.cryonics.
+  blasphemy.suburban.nocturnal.aurum.zavetone.#pixel.#coders.etc
+
+
+:intelligent quotes from the making
+  "uh.. the texture is 296 bytes now.. is that ok?" - tmk
+  "can't u get it smaller?" - krav
+
+  "we should calculate this.. but nah..." - krav
+
+  "it's a vr-world, everything is free so it ought to be a 21 inch!" - tmk
+
+  "supersample and bilinear filtering damn it!" - flex
+
+  "its not a bug, its design" - tmk
+
+
+:contact
+
+  server
+
+  INFeline......      http://www.infeline.org
+               .      ftp://ftp.infeline.org
+
+  joLLy apoLLo astronauts
+
+  kravitz.......      asjulsen@online.no       (code)
+  tmk...........      tmk@earthling.net        (gfx)
+
+
+
+:copyright 1999 . INF(c)99 - "det er deilig † v‘re norsk i danmark"

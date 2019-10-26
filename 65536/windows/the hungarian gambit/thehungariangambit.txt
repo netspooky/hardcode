@@ -1,0 +1,54 @@
+---------/\--------------------------------------------------- - - --
+        /  \ __/\____    __/\_____   ________  __/\_ __          
+       /    \)      (___/   /    ( _/  _    (_/     / (____      
+      /      \         /    ) /  /_)   )     /_  __/      /\       
+     /       /\       /__  /   _/ /    _____/  \/_/      /__       
+    /       /  \ \___/ _/  \  / _/   _    _/     )  \  _/ _/\      
+   /       /    \      )    \/  )    )    )     /    \/   ) /       
+  /       /      \____/________/_________/_____/_________/ /ne7   
+-/       /        \___\ _______\_________\_____\_________\/------ - -
+/_______/__________\--------------------------------  -- - ---- -- -
+-------------------- a t e  b i t  p r e s e n t s -------------- - -
+
+
+The Hungarian Gambit
+A 64k intro from Ate Bit for Assembly 2010
+
+
+The audio for this demo is played through DirectSound, and I use a 
+couple of effects (reverb + compression) to make it sound nicer. 
+Unfortunately, kkapture doesn't like this (or, at least, it doesn't 
+like the way that I do this) so you'll get an error if you try to 
+kkapture the demo. It's also possible that some other DirectSound 
+drivers might have problems too. To get around this, choose "Disable 
+DSound effects" from the setup dialog. Don't do this unless you need 
+to (the demo should tell you if you do) because the audio won't 
+sound as good.. but at least it will work.
+
+If you like the music track in this intro, check out the author's
+new album:
+
+http://ihearthesoundofwaves.blogspot.com/2010/06/stream-decades-here.html
+
+4Mat would also like to extend greetings to aXL.
+
+
+We at Ate Bit are proud to embrace the tradition of ripping our 
+ideas from stylish motion graphics videos. To save you the hassle 
+of tracking down our sources and outing us in public we have instead 
+decided to list our main influences here:
+
+http://bitethis.org/2010/02/15/honda-everything/
+http://bitethis.org/2010/02/26/tokyo-sky-drive/
+http://bitethis.org/2010/04/02/cloudy-weather-28-300/
+http://bitethis.org/2010/04/19/love-the-designers-republic/
+http://bitethis.org/2010/08/06/channel-4-urban-abstract/
+
+Keep watching BiteThis.org to see what we'll be ripping off next!
+
+
+Check us out online:
+http://atebit.org
+
+
+-------------------------------------------------------------- - - --

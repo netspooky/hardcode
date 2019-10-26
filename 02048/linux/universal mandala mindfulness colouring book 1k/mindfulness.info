@@ -1,0 +1,14 @@
+Universal Mandala Mindfulness Colouring Book 1k
+=================================================
+
+tools: Linux x86_64, NASM assembler, SDL2, GLSL, defdb, gzthermal, zopfli, patience
+
+by "The Old Dude"
+at Instanssi 2016
+
+The compo is 4k, but I serve you only 1.
+
+I'll make the source code available (some day in some life...) in the
+synti2 repository (https://yousource.it.jyu.fi/synti2) under the
+directory synti2/doc/spinoff_1k/
+

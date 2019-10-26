@@ -1,0 +1,28 @@
+Is It Wrong To Be Half
+--------
+
+A 64b prod by lord Kelvin.
+
+This intro is small brother of "Is It Wrong To Be Strong".
+Only improved version of fractal is left.
+And palette really kicks ass! It`s created only in 18 bytes.
+
+Something like this: 
+
+H#%: :%#H
+H#%: :%#H
+H#%: :%#H
+H#%: :%#H
+H#%: :%#H
+
+You need to see it in palette viewer in bonus directory.
+
+Somehow this prod doesnt work under DOSBox.:(
+
+
+Compiled with FASM.
+
+Great hello from Russia.
+
+P.S. Respect to Rudik, who started to learn assembler!
+P.P.S No sound this time.

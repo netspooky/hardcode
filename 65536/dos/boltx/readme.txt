@@ -1,0 +1,1 @@
+MS-DOS compatible system is required to run.

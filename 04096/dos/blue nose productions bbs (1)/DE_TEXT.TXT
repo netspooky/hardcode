@@ -1,0 +1,19 @@
+db "                    DeMo ReLaTeD aSSeMBLy 'N PaSCaL SouRCeZ",10
+db "                 CHiCKeN MaRiJuaNa / CoKe / LSD / eXTaSY FiLeZ",10
+db "                           FaT aNaLoG GRaViZ-PaTCHeZ",10
+db "                      WoRLDz LaRGeST CHiPTuNeZ CoLLeCTioN",10
+db "                            LoTZa DeMo / MuZiC STuFF",10
+db 10
+db "         CHiPaRuS WoRLD HeaD QuaRTeRZ / ouTLaW TRiaD WoRLD DiSTRo SiTe",10
+db "          ",7,0
+
+db 9,9,"               +31-345-619-401",10
+db 9,9,"            Blue Nose Productions",10
+db 10
+db 9,9,"        * SPeCiaL SaMPLeZ At ReQueST *",10
+db 9,9,"         * PeRVeRT-PaCK oRiGiN SiTe *",10
+db 10
+db 9,9,"             DoNT FoRGeT To CaLL!",10
+db "          ",7,0
+
+db 255

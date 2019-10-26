@@ -1,0 +1,220 @@
+
+                           " A M B i E N T "
+
+             a N T a R e S   C o n t r i b u t i o n   T o
+
+                      T H E   M E E T i N G ' 9 5
+
+                 F o r   T h e   I n t r o   C o m p o
+
+            ( Held In Lomme(France) From 17 To 19 February )
+
+                       Written by aCceSs/aNTaReS
+
+ 0. Disclaimer
+
+        This Software Can't Be Sell Without The Written Permission Of
+        The Author, Francois Baligant. Also, This Piece Of Code Is
+        Copyright (C) 1995 By Francois Baligant. All Rights Reserved For
+        The World. We Will Not Hesitate To Prosecute You To The Full
+        Extends Of The Law If You Don't Respect This Disclaimer.
+
+ 1. Introduction
+
+        Thanks Wasting A Little Of Your Precious Time For Reading This
+        Little TextFile. Welcome in "Ambient", The aNTaReS Contribution
+        To The French Party "Meeting'95". We Hope You Will Enjoy Your
+        Trip Into This Nice Little (64Ko) Intro. Also, Don't Judge Too
+        Hard This Little TextFile.. It's 4h In The Morning, I'm Trancing
+        With "Snivilisation/Orbital", I Don't Have Coffee Anymore...
+        Well, In Brief, I'm Flying In Another World........ %)
+
+ 2. Technical Information
+
+        Stay Calm.... Relax... This Intro Is GUS Only... I Was Forced
+        To Mutilate My MIDAS Sound System To Fit In The 64Ko Barrier...
+        And Unfortunately, The SB Was Eating Up More Space Than GUS So...
+        The SoundTrack Isn't From Us As You Will Notice In The Credits
+        Because We Were Extremely Short In Time... So, I Used A Nice
+        And Little Tune By The Excellent Crew E.S.S.E.N.C.E... It's
+        Really Stunning And Amazing What They Could Do In 7Ko(!!!).
+
+        This Intro Has Been Coded In BP7, Inline ASM & TASM4 Mostly On A
+        Old But Still So Gooood 386SX/25. (Thanks To White Tiger For
+        Lending Me It For About 3 Weeks...Night Are Soo Boring Without a
+        PC ;). I Thinks It's Very Important To Code On A Slow PC. This
+        Way You Will Be Able To Do A Real Optimization. You Guessed It
+        ... 486 Demos Sucks! At Least Demos I Have Already Seen... 386
+        Isn't Dead And Hasn't Been Fully Used Yet.
+
+        Unfortunately, I Run Out Of Time And Wasn't Able To Fully
+        Optimize My Texture-Mapped Vectors... Sorry For You, All 386Sx
+        Owners, If The Organizers Didn't Release The Intro Immediately I
+        Will Try To Make Things Smoother For You.
+
+        A Little Note To Borland : When Will You Add Those Fuckin' 386
+        ASM Instructions and Macros To Your Turbo(?) Pascal ??? Also,
+        When Will You Remove That Stupid 64Ko Limitation For The Data
+        And Code Segment? And When Will You Produce REAL 32 Bits
+        Application ? ( Your MOVE Procedure is Still in 8 Bits!!!!! ).
+        Or Maybe I Will Be Forced To Move To C++ Or Better Pure
+        Assembler ??  NOT I Hope...
+
+        There Is About 400Ko Of Source Code, Development Took 3 Weeks.
+
+ 3. "He! Your Fuckin' Shit Didn't Works On My PC ! This Sucks! Change It!"
+
+        Before Sending Me BlackMail, Verify That :
+
+        1) You Own A Valid Copy Of This Intro ( Archive Corrupted etc... )
+        2) You Own At Least A 386SX
+        3) You Own A 100% (hehehe) Registers Compatible VGA Card
+        4) That You Have At Least 580Ko Of Free Memory
+        5) That Your SoundCard Have Correct IRQ & DMA Settings
+        6) You Didn't Choose A Too High Replay Rate For Your SoundCard
+
+        If You Have Made A Bugs Report ... DIG IT!
+
+ 4. "her her her  I Like! This Guy is Kewl!"
+
+        Some Informations About Me :
+
+     Alias : aCceSs
+  Function : Organizer / Coder / WHQ CoSysOp (Or "PCB is my worst Nightmare";)
+ Real Name : Fran‡ois Baligant
+ Birthdate : 27 January 76 (Gifts Are Welcome ;)
+     Study : 1st Year In Computer Sciences / Economics ( FUNDP )
+     Hobby : Music(Underground Stuff... Tapes welcome)
+             Prefered Artists: Bj”rk,FSOL,Orbital,Jam & Spoon,Cosmic Baby
+    Adress :  Fran‡ois Baligant ( No Alias Please )
+             Rue Du Mill‚naire, 3
+                7080 Frameries
+                   Belgium
+     Phone : +32-65-66.70.40 ( Week-End And English & French speaking guys only )
+   Network : access@pcb.mpoli.fi ( Checked Twice A Month )
+       BBS : UlTiMAT - aNTaReS WHQ - +32-2-375.56.51 - PCB 24H 28.8K 2 Nodes
+             (If You Want A HQ Or DistSite In Belgium, Don't Hesitate! )
+
+ 5. "her her her   I Like! Those Guys Are Kewl!"
+
+        We Welcome Ofcourse New Members !
+
+        So, If You Want To Have Fun With Us, Showing You Are A Real
+        Animal At Parties, Showing To The Rest Of The World That Belgian
+        Scene Isn't A Bag Of Shit... JOIN US!
+
+        Graphicians & Musicians Are More Than Welcome!
+
+        Write Me, Fax Me, Phone Me, Email Me Or Anything You Want ...
+
+        PS: You Won't Find And You Will Never Find An Application
+            Generator For aNTaReS. This Way Of Doing Stinks. I Prefer
+            That You Contact Me Directly.
+
+ 6. Credits ( Or "The Most Boring Part" )
+
+     All Coding :       aCceSs
+            GFX :       aCceSs & cSurfer
+          MuZak :       "Clear The Lane" By e.S.S.e.N.C.e
+   Sound System :       Midas Sound System
+  Moral Support :       White Tiger,Cobra,cSurfer
+           Food :       Mom & Mummy
+          Drink :       Coca-Cola And Lots Of Cafeine For The Last 2 Days ;)
+          Music :       "Bj”rk","Orbital" For The Most Part, "The SugarCubes"
+                        For The Credits Screen, "Tangerine Dream" For The
+                        Plasma, "FSOL" For Texture Mapping.
+
+ 7. "aNTaReS? Na.. I Dunno.. Which Style is It ? Techno ? Ambient ?"
+
+        A NFO File isn't A Real NFO File Without A Member List...
+
+        The aNTaRes Crew Is Composed Of.... ( In Joining Order )
+
+
+        aCceSs          :       Founder / Organizer / Code / WHQ CoSysOp
+        White Tiger     :       Founder / Code / InterNet Support
+        Cobra           :       WHQ SysOp / Network Support
+        cSurfer         :       Ansi / Gfx / Code
+        WildCat         :       Gfx / Rendering
+
+
+        Other People Who Claim To Be aNTaReS Members Are Misinformed Or
+        Simply Stupid.
+
+ 8. Greetings ( Or "The Most Awaited Part" )
+
+        All People At The Meeting'95 & WiRED'94 ( C'ya Next Year! )
+
+        All Computer Sciences Students Of The FUNDP/Namur
+
+        Special Thanks To:
+
+       - The "Fire Hawks" Crew For Being The Most Coolest Guys I Have Meeted
+         During A Party! You Maked Me Laught To Death And We Made Some
+         Very Nice Chats!  C'ya At The Saturne III !
+
+       - aRSen Productions For Some "DistSite & HeadQuarter" Trading... ;)
+         Welcome In Our Distribution Network !
+
+       - Sleeping Dog/The Natives For Lending Us Some Cables And Softwares
+         For Running Our Little Network.
+
+       - David,Carine,J‚r“me,Fabrice,Denis,Georges,Vix,Sylvie For Moral Support
+         After Exams Results (you know ;)
+       - My Brother For Crashing My HD 2 Days Before The Party
+         (this time, Backups Rulez! ;)
+
+         Digital House   Radical   The Natives    Semtex
+         Cyberpunk   Zool   N-Factor   $PA   Ozone   PTG   Tragedy
+         Imphobia   Cascada   Melting Pot    Euphoria   Imagine    DSL
+         TRB   Purple Turtle   Black Out   Art   React   Nordic Visions
+         Therapy   Sub-Normals   ISCH Crew   TFS   DFM   Zion
+         Fire Hawks   Hypernova   TFL/TDV   Imagine   Art   Azure Sky
+         TRAXX    Virtual DeZign    aRSen Productions
+
+        And Of CoZ  Seyda Of Realm For Funny Network Installation! ;)
+
+        aCceSs's personal greetings go to :
+
+        All People At WiRED'94
+
+        Darkness,Delsion / IMPCDA, Bert+David, Tasmaniac / ACiD
+        The Orme / Azure Sky, Blue Adonis / Traxx, ButtHead / BLOT
+        Spiritual $teven / iMAGiNE, Spinal & Slash & Moebius / Sub-Normals
+        Herr Cichlid / HyperNova, Living Nature / $pa, DJ Devils / TCP
+        Franky / Purple Turtle, Emetic & Sentinel / Nordic Visions
+        Ghory / ISCH Crew, PCBoy / TFS,  Bismark & Type One / TFL
+
+        Something Else... At WiRED'94, I Have Lended A Tape With Modules
+        Coming From Blue Adonis To Someone (I Didn't Recall His Name).
+        Could This Guy Send My Tape Back ? Thanks In Advance !
+
+ 9. FuckList ( Or "The Most Appreciated Part" )
+
+        No Fucks This Time... Everybody Was Nice And Friendly!
+
+10. The Future
+
+        Well... We Are Thinking About Attending ASM'95 (if there is one
+        of coz) And Competiting Into The Intro Or Demo Compo. We Will Also
+        Organize WiRED'95 (99.99% Sure) In Mons/Belgium Somewhere in
+        September/October. Firms Interessted By A Commercial Production
+        Are Welcome To Contact Us! We Could Produce Amazing Shows For
+        A Fair Price! =)
+
+11. Final Words
+
+        Pouah! I Have Coded Non-Stop During 48 Hours At The Party Place
+        To Make This Things Working Correctly... Well, I Hope You Will
+        Enjoy It. I'm Waiting Your Comments... ( A PostCard Is
+        Also Welcome, I Want To See If This Product Will "Travels"
+        Outside Belgium & France ). I Won't Type Anymore Shits, I Want To
+        Grab A Maximum Of Party Releases... C'ya Into Our Next Production!
+        Ah Yeah! Last But Not Least, I Will Probably Attend Saturne Party III
+        In Paris(France)....
+  
+[ aCceSs / aNTaReS Live At The Meeting'95 ]
+
+                      [ aNTaReS - Debugging iS An Art ]
+               [ aNTaReS - 1994 Has Only Been An Introduction ]
+

@@ -1,0 +1,104 @@
+ú  ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ø
+ ø  Ü   Ü Ü ÜÄÜ  Ü Ü ÜÄÜ Ü Ü Ü ÜÄÜ ÜÄÜ ÜÄÜ ÜÄÜ Ü    ÜÄÜ ÜÄÜ ÜÄÜ ÜÄÜ ÜÄÜ ÜÄÜ  ú 
+.  Ä²Ä Ä²Ä²Ä²Ä  Ä² ²Ä² ²Ä²Ä² ²Ä²Ä Ä²  ÄßÄÜÄ²Ä²Ä²   Ä²  Ä² ²Ä² ²Ä²Ä Ä²  ÄßÄÜ úø 
+øú  ± ± ± ± ± ±  ± ± ± ± ± ± ± ± ± ±   ± ± ± ± ± ±  ± ± ± ± ± ± ± ± ±   ± ±  . 
+ú   ßßß ß ß ßßß  ßßß ß ß ß  ß  ßßß ß   ßßß ß ß ßßß  ßßß ßßß ßß  ßßß ß   ßßß ø
+ ø ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ  ú 
+
+-Opening words:
+
+ Welcome to another production of the Universal Coders! Or do I have to say,
+ delayed production... Yes, a Christmas demo released in the first week of
+ 1995, who cares anyway. Via this demo we want to wish everybody atleast a 
+ very good and healthy new year with lot's of fun, and Christmas greets for 
+ next year if you want! 
+
+-About the demo:
+
+ There will be no hardware problems if you run this demo on a simpel 386-16
+ This demo supports normal adlib music.
+ As we said before this demo was made in a hurry, like every demo we make. 
+ Still we think our productions get better every time we release one. To show
+ this, we will release a complete vector demo with lots of other effects in 
+ a few months. This demo was more based on the message in it.
+
+-Some words from Brightness about the coding:
+ 
+ Most effects are done by choosing the right DACpalet. In part 2 I use dirty
+ screen updating. So, be sure to wash your hands after watching! If you want
+ to know in how many frames/second part 2 runs, count the number of seconds
+ which the smallest snowflake needs to fall down. The smallest snowflakes are
+ lowered one pixel each frame, so 200(screen higth) divided by the number of
+ seconds you counted will give the number of frames/second. On my 486DX-50/ISA
+ most objects run at 70 fps. The glass objects are a bit slower. At 10 Mhz the
+ speeds slow down to 35 fps. I have also built gouraud shading into my
+ vectorengine, but I was not sure wether slow computers could handle it fast
+ enough or not. And this is only an intro, that's why I wanted fun for
+ everybody. But in our next demo, I will use it.
+ Oh, by the way, I was to lazy to check for an Adlib, 386 and VGA. If you 
+ don't have one of these, strange things may happen...
+
+-The credits:
+
+ Coding by Brightness
+ Musicsystem by Hammer/Agony
+ Graphics drawn by Shake
+ Music composed by Datra
+
+-The memberlist:
+ 
+ Brightness - Coding and Organizing
+ Shake      - Graphics and Public Relations
+ Sciboss    - Music
+ Datra      - Music
+ Cuby       - Sysop Coordinator
+
+-What will be the next step:
+
+ We have some things in mind, which will be realised as soon as possible, but
+ we are short in members, so it takes more time for each member to complete
+ the coding, graphics or music. Still we plan to release the following 
+ things: 
+
+ * Adlibtracker * Diskmag                       * Big demo
+ * Vectordemo   * Contributions to competitions * Some intros
+
+-Contact us:
+
+ You can always write to us, for any reason, commercial projects, friendship,
+ advise, remarks, swapping or whatever! We promise to answer every letter!
+ We have distro sites to support us, you can always leave a message there for
+ one of our members. Here are the telephone numbers...
+
+                          /TUC HEADQUATERS\
+                * Downtown Line 1: +31-(0)5920-10845
+                * Downtown Line 2: +31-(0)5920-15442
+
+                          /TUC DISTRO SITES\
+                * Sledge Hammer     : +31-70-3681743
+                * Ultimateforce HQ  : +31-30-287842
+                * Sidewalk Cafe     : +47-355-12227
+
+ Write to us at these addresses...
+
+ For Group Contact, Scene related:   For Business, Serious stuff:
+ 
+ Shake - Universal Coders            Brightness - Universal Coders
+ Leeuwerikstraat 10                  c/o Matheas Manssen
+ 9422 KC  Smilde                     P.o. Box 164
+ Holland                             9640 AD Veendam
+ (0)5927-14571 (Bram)                Holland
+
+ E-mail: csg474@wing.rug.nl (Brightness)
+ DGi   : Matheas Manssen, 68:310/14.1
+
+-Happy Wishes:
+
+ Agony, Questar, Gollum, Fascination, Vadim, Nemesis, Roadhawk, Logic Design
+ Ground Zero, Sikko, Dentist, Images!, Acme, Metal, Spirit, Inertia, Success
+ Wipo, Nikke, Chicken, Pehe, Zodiak, Liket, Elric, DNC
+
+-Last Words:
+
+ The message is clear! Get plenty of fun, demos, friends, money and love!
+ Signed, Shake /Universal Coders.

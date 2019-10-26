@@ -1,0 +1,20 @@
+                       _ 
+   _ __  ___ __   __ _| |_ ___  _  _  ___  _ _  __ ____ 
+  | /  \/  _ \  \/  /_   _/ _ \/ \/ \/ _ \| | |/  /  _ \
+  |  /| |  __/>    <  | ||  __/     | |_| | |  /|_|  __/
+  |_| |_\____/__/\__\ \___\___/_|_|_|  __/|_|_|   \____/
+                                    |_| 
+              http://www.nextempire.com
+
+   presents    "Shaven Raven" 
+
+   Demoparty : Performance 2001
+   Author(s) : KANTTU/NEXTEMPIRE (code)
+               KORONA/NEXTEMPIRE (code)
+               KORUPT/NEXTEMPIRE (graphics)
+               KTHULU/NEXTEMPIRE (graphics)
+               KYDROX/NEXTEMPIRE (graphics)
+               KRAGEN/NEXTEMPIRE (models)
+               KENSHI/NEXTEMPIRE (music)
+   Category  : INTRO 64k (accelerated)
+   Placed    : 1st

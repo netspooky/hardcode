@@ -1,0 +1,43 @@
+                                                                
+                                                                
+                                                                
+                   .C8@@@@@@@@@@@@@@8o:                         
+                c8@@@@@@CCCOCCCCc  :oO@@@8C.                    
+              :@@@@@o           .       .o8@@O:                 
+            c@@@@8:        C@@@@@@@@c       :8@@c               
+          :@@@@@c        o@@@@@@@@@@@@8.      .O@@8c            
+        .8@@@@c         :@@@@8:                  .C@@@C.        
+      :@@@@@@:           c@@@@@@o                    c8@O       
+    .8@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@888Oo.                  
+   o@@@@@8O@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@8@@@8Oo:.           
+  8@@@@@@    .::ccocococ:....:.                 :o8@@@@@@@@@c
+   O@@@O 
+   
+   
+     Ayn Demo Group (Ayn means Eye in semetic languages)
+     	Release Date: July 17, 2008
+			   Done it in the weekend, (as a refresh), so
+			                              don't expect much!
+			  
+    This is a remake of the very old Tim Clark's Mars Demo.
+   The old one was 5.5k, this one makes it in less that 2k..
+    However it has its limitations: Crappy colors and lousy
+     landscapes. I kept some error checking, code would be
+   reduced even more if you remove all (FAILED) stuff.
+               *Compiled it using crinkler*
+        It uses shader version 3.0 (pixel and vertex)
+    and a lot of vertex texture fetching (ATI cards support
+      is not the best for this kind of operation, but you
+         will never know.). A word about NVIDIA cards,
+        currently nvidia support for linux nowadays sux,
+      their drivers sucks! But this is a demo for windows.
+      
+	           Source Code is given under GPL3
+	           
+	            Have fun coding and optimizing
+	            
+	                   -- KinZEroN --
+	                   
+	  Greetings to the old and new fellas of the DemoScene
+	      
+	                     

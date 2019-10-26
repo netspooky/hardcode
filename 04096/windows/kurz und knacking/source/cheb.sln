@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cheb", "cheb.vcproj", "{F7A35DA6-04DE-4B51-9C09-CF49C0A2B3E4}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Compressed = Compressed
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{F7A35DA6-04DE-4B51-9C09-CF49C0A2B3E4}.Compressed.ActiveCfg = Compressed|Win32
+		{F7A35DA6-04DE-4B51-9C09-CF49C0A2B3E4}.Compressed.Build.0 = Compressed|Win32
+		{F7A35DA6-04DE-4B51-9C09-CF49C0A2B3E4}.Debug.ActiveCfg = Debug|Win32
+		{F7A35DA6-04DE-4B51-9C09-CF49C0A2B3E4}.Debug.Build.0 = Debug|Win32
+		{F7A35DA6-04DE-4B51-9C09-CF49C0A2B3E4}.Release.ActiveCfg = Release|Win32
+		{F7A35DA6-04DE-4B51-9C09-CF49C0A2B3E4}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,60 @@
+AGrass by Rescue Rangers
+
+A 4 KByte ode to a true Classic :D
+(http://www.pouet.net/prod.php?which=11012)
+
+Released at Function 2017
+
+The Rescue Rangers are (in order of appearance):
+Chip     - Reversing, coding, minimizing, sweating over music 
+           (including sitting down in front of a tracker 
+           for the first time after almost 20 years) and 
+           haggling with entropy for the last 300 bytes.
+Dale     - Initial music pass with many many iterations
+Zipper   - Secondary music pass, 4klang sample magic and size optimizations
+Gadget   - 4klang support and manual size optimizations
+Monterey - Arpeggio fix, renoise lesson, chilling in the AC with some Wine
+
+Hello, Reptile. ;)
+
+A bit of background.
+
+This is not a simple remake of an old demo.
+This IS the old demo, with the obviously necessary changes in content to make
+it fit into 4k. (These changes being the music and the ground texture)
+This all started as a joke. Watching TheFu with a friend I jokingly said "hey,
+maybe THIS should be done in 4k". Then came the obligatory "holy fuck let's 
+do this" style looking-together moment.
+
+The demo was first fully reverse engineered over the span of about a week,
+the code cleaned up, and the visuals crunched down to about 2.8k in the next
+month. Work on the music started after a plausible size has been reached, and
+the very first iteration resulted in an executable about 4.8k large, and it
+didn't even sound close to what we deemed acceptable. A crinkler update helped
+with the size, then some 4klang gurus came and helped out with making the music
+sound better (and get larger). 4klang was manually tweaked to get some extra
+bytes, while the visuals were shrunk even more. After about 3 months of work
+completely, we arrived at the version that you can see here. Bit of an overkill
+for a 10 second joke aimed at a single person, but hey, it was fun and
+interesting.
+
+The differences between the original demo and the 4k are as follows
+- the music is obviously not the original trance classic
+- the ground texture has been replaced
+- the pink particle texture is only a close approximation of the original
+- the sync is a lot tighter as a necessity to make things fit into 4k
+- the 4k version doesn't have a lot of the never used setup stuff
+- the 4k version doesn't dump the current timestamp into a file when you press
+  space
+- the starting white flash has been removed both from the music and the visuals
+
+and most importantly:
+
+- the 4k version hides the mouse cursor
+
+As for the rest, even the randseed of the randomly positioned flashing effects
+in the breakdown part, the fact that the lack of vsync will make the grass
+blades animate instantly and the resolution are the same with pretty much the
+same, albeit heavily size optimized code.
+
+This was fun.

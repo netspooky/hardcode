@@ -1,0 +1,159 @@
+; ----------01234567890123456789
+        db 'wooooaaaahhhhhhh!!!!',0
+        db '                    ',0
+        db ' here we go again!! ',0
+        db '                    ',70
+        db '   -- iguana --     ',0
+        db '                    ',0
+        db '  ex-vangeliSTeam   ',0
+        db '   demo section     ',240
+        db '                    ',0
+        db 'it was confusing for',0
+        db 'vangeliSTeam''s  rest',0
+        db 'of members, why that',0
+        db 'demo thing.         ',154
+        db '                    ',0
+        db '                    ',0
+        db ' so, i have put the ',0
+        db 'demo section another',0
+        db 'name:               ',40
+        db '    -- iguana --    ',254
+        db '                    ',0
+        db '                    ',0
+        db 'but don''t worry, we ',0
+        db 'are still the same  ',0
+        db 'people. remember:   ',35
+        db '                    ',0
+        db 'jcab: coder.        ',70
+        db '      author of the ',0
+        db '  vangeliSTracker   ',0
+        db '                    ',154
+        db 'jare: coder also :-)',70
+        db '      author of this',0
+        db 'bunch of mini-demos.',0
+        db '                    ',154
+        db 'they are nothing to ',0
+        db 'be proud of, but you',0
+        db 'must do something if',0
+        db 'you want to learn.  ',140
+        DB '                    ',0
+        DB ' that''s why i give  ',0
+        DB ' the source code of ',0
+        DB ' all this intros: so',0
+        DB ' you can also learn.',140
+        DB '                    ',0
+        DB '                    ',0
+        DB 'someday i will see  ',0
+        DB 'your own amazing    ',0
+        DB 'megademos.          ',35
+        DB '     sure!          ',140
+        DB '                    ',0
+        DB 'they will be better ',0
+        DB 'than anything i can ',0
+        DB 'do without a grafix ',0
+        DB 'man. i need one! :_)',150
+        DB '--------------------',0
+        DB '                    ',0
+        DB '                    ',0
+        DB '                    ',0
+        DB 'now, for the greets:',80
+        DB '     big hi! to     ',40
+        DB '                    ',0
+        db '      surprise!     ',0
+        db '     productions    ',0
+        db '                    ',15
+        db '     renaissance    ',0
+        db '                    ',15
+        db '     future crew    ',0
+        db '                    ',15
+        db '       triton       ',0
+        db '                    ',15
+        db '    access denied   ',0
+        db '                    ',15
+        db '      postumum      ',0
+        db '                    ',15
+        db '     codenation     ',0
+        db '                    ',15
+        db '       alcala       ',0
+        db '      cracking      ',0
+        db '      services      ',0
+        db '                    ',15
+        db ' the authors of the ',0
+        db '       visual       ',0
+        db '       player       ',0
+        db '                    ',15
+        db '      red devil     ',0
+        db '                    ',15
+        db '   synergy design   ',0
+        db '                    ',0
+        db '      imphobia      ',0
+        db '                    ',0
+        db '       razor        ',0
+        db '                    ',0
+        DB '   british knights  ',0
+        DB '                    ',0
+        DB '        tyo         ',0
+        DB '                    ',10
+        DB 'tyo, don''t leave us!',0
+        DB '                    ',50
+        DB '        inc         ',0
+        DB '                    ',0
+        DB '        tcb         ',0
+        DB '                    ',0
+        DB '        dea         ',0
+        DB '                    ',0
+        DB '        dce         ',0
+        DB '                    ',0
+        DB '        ibm         ',0
+        DB '                    ',0
+        DB '                    ',0
+        DB 'hey, look up there!!',70
+        DB 'sorry for that bug. ',30
+        DB '                    ',0
+        DB '        vla         ',0
+        DB '                    ',0
+        DB '        ice         ',0
+        DB '                    ',0
+        DB '                    ',0
+        DB '--------------------',0
+        DB '                    ',0
+        DB 'personal greetings  ',0
+        DB 'go to:              ',0
+        DB '                    ',80
+        DB '                    ',0
+        DB '    cyberstrike     ',0
+        DB '                    ',20
+        DB '       wream        ',0
+        DB '                    ',20
+        DB '        bios        ',0
+        DB '                    ',20
+        DB '   rick dangerous   ',0
+        DB '                    ',20
+        DB '      chicken       ',0
+        DB '                    ',20
+        DB '      mcgarret      ',0
+        DB '                    ',20
+        DB '--------------------',0
+        DB '                    ',0
+        DB 'ok, time to go boys.',0
+        DB 'thank you for your  ',0
+        DB 'patience.           ',100
+        DB '                    ',0
+        DB '                    ',0
+        DB 'see ya in the next  ',0
+        DB 'mini-demo!!!        ',0
+        DB '                    ',100
+        DB 'maybe a megademo... ',100
+        DB '                    ',0
+        DB '                    ',0
+        DB '                    ',0
+        DB '(c) iguana, mcmxciii',0
+        DB '                    ',254
+        DB '                    ',0
+        DB '                    ',0
+        DB '                    ',0
+
+        DB '                    ',254
+        DB '                    ',254
+        DB '                    ',254
+        DB '                    ',255

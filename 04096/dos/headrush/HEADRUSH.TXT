@@ -1,0 +1,22 @@
+               Headrush by Zien
+               ßßßßßßßßßßßßßßßß                 
+      A 4k intro released at Bush Party 4       
+
+-------------------------------------------------
+
+                Requirements:
+                ßßßßßßßßßßßßß                 
+         386,fpu,VGA & 400kb basemem
+
+-------------------------------------------------
+
+                  Comments:
+                  ßßßßßßßßß                 
+         Win95 users run headru95.com
+          DOS users run headrush.com
+
+-------------------------------------------------
+
+e-mail:   tomrb@sofus.hoif.no
+homepage: http://www.hiof.no/~tomrb/index.html
+

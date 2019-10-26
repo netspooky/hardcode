@@ -1,0 +1,135 @@
+                                   °±²Û²±°
+                            °±²Û²±°°±²Û²±°°±²Û²±°
+                     °±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°       
+              °±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°
+       °±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°
+°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°
+       °±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°
+              °±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°
+                     °±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°°±²Û²±°       
+                            °±²Û²±°°±²Û²±°°±²Û²±°
+                                   °±²Û²±°   
+                              
+                             -Transmogrification-
+                              ------------------
+
+                                      þ
+
+                       Copyright(C) 1997 (and forward)
+                                     by
+
+
+                                    BLOCC
+
+
+                                  featuring:
+
+
+                                 
+                           Sixtyfivethousand bytes
+                                     of
+                               Flex cpu control.
+
+                                      þ
+
+                          Poisons frequent frequencies.
+
+                                      þ
+
+
+/*--------------------------------------------------------------------------*/
+
+  Legal stuff.
+  ------------
+
+
+        This material is not freeware nor fish. You are allowed to copy
+        it without restrictions for non-commercial use.However you are
+        allowed to eat it with a piece of salami or maybe some flesh.
+	No payment of any kind may be charged for this product or any
+	combination of products or services including this product without
+	our authorization and official written license.
+	Commercial use, especially the industrial manufacturing on any
+	data storage media and their distribution without the expressed
+	permission of the producer, is strictly prohibited.
+	This program or the data files contained herein may not be altered
+	or modified without the permission of the author.
+	You take full responsibility for the operation of this software
+	and any consequences thereof. We the creators cannot accept
+	liability for damages or failures arising from the use of this
+	software.
+
+
+/*--------------------------------------------------------------------------*/
+
+  Reqs.
+  -----
+
+  Probably mora than 12mb free mem,but might work on less.
+  I havent been able to test it under win95 as i donït have
+  enough memory,but i wouldnït recomend it.
+
+  Dang,DOS-applications are ment to be run in DOS,nothing else.
+
+
+  I wouldnït recomend you to run this on anything less than a
+  Pentium 75 with a fast gfx-card.
+
+
+  Itïs in full hicolor,but only vbe1.2 this time,cause i still think
+  vbe2.0 still is to unsupported etc, refereing to the responce iïve gotten
+  about the productions iïve made in vbe2.0.
+
+
+  It will work in any 320x??? mode as long as itïs in 16 bit.
+  I might release a final version with midas,vbe2.0 and possibly
+  other colordepths. (and maybe a fakemode)
+
+
+  Anyway,yiiha..
+
+
+
+  The compocomputer was a K6 200Mhz so you can imagine
+  my efforts to optimize.
+
+  The player is Pascal/Cubic Teams GUS Tiny XM player,and
+  hence only the Gravis support.
+
+  And PMODE/W 1.22 was used too,thatïs about it..
+
+
+
+
+  Finished in a darn hurry at the partyplace..
+  It seems i have trouble concentrating at partys.. =)
+
+  (Read the accompanying textfile about the party.)
+
+
+   I wanna say hi to all the lovely people i met at this party. /* Not all of the organizers,though :) */
+   I love thee..
+
+
+
+ Later ya all...
+
+
+ Flex/Blocc
+
+/*--------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

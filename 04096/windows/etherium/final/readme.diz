@@ -1,0 +1,150 @@
+                s s s s ssss sssssssss s s s  s  ssss  ss  ssssss
+                $  $$SSsss._                $$SSsss._           $
+                $  $$$$$$$³$$s._       sss  $$$$$$$³$$s._       $
+                $  $$$$;   '*$$³$b.    $$$  $$$$;   '*$$³$b.    $
+                $  $$$$       $$$$$b.  $$$  $$$$       $$$$$b.  $
+                $  $$$$,       `$$$$$  $$$  $$$$,       `$$$$$  $
+                $  `ý½*$S       l$$$$  $$$  `ý½*$S       )$$$$  $
+                $      $$       ;$$$$ss$$$      $$     ,d$$$$'  $
+                $ss  s $$                    s sSSsssS$$$$$Ù's  s        
+              
+
+                      n o r t h e r n   d r a g o n s   
+
+
+FILES (build 156)
+=================
+ND_Etherium_prty.com - Assembly compo version. 
+ND_Etherium_best.com - Best version to use Geforce 4 or similar required. 
+ND_Etherium_good.com - Entry level version of the 4kb.  Radeon 8500 + 
+ND_Etherium_soft.com - Uses software to texture mirror instead of hardware.
+ND_Etherium_orig.com - Old build 146 as released at ASM 2k3
+
+
+REQUIREMENTS
+============
+For full effect, please run this production on Geforce 4 style hardware or 
+similar.  Requires pentium style fpu support.
+
+Operating system: Windows 2000, XP*.  Windows 98 Untested.
+Requires Microsoft Direct X 8.1a or above.  Tested with Direct x 9.0a
+
+*Note: Running on Windows XP post SP1 - requires admin access since it 
+writes a temporary file in C:\.
+
+
+NOTE ABOUT TEXTURES [Why Does my Etherium look Different?]
+==========================================================
+Please note that some video cards do not support the texture addressing mode 
+used by The Etherium (D3DTADDRESS_MIRROR).  This used to result in a texture
+"band" which appeared on the edge of the spheres. We have tried to prevent
+this problem by detecting video cards that don’t support it, and implementing
+what should be in hardware in software. 
+
+This may mean Etherium may appear slightly different on your machine as 
+opposed to another machine.  If you do see the texture "band" your video
+card is falsely reporting its capabilities. You can try running the software 
+version of the mirroring.
+
+To run the software mirroring version - run "ND_Etherium_soft.com"
+
+FIXES & ENHANCEMENTS 
+====================
+v156 - Final for release to Assembly for the DVD [what you have now]
+v155 - Working on the detection of failed render state setting.
+v154 - Final code for texture mirroring in software implemented if your 
+	video card [hasn’t got what it takes]
+v153 - Experimental code for software based texture mirroring. [see v154]
+v152 - Experimental code for software based texture mirroring. [see v154]
+v151 - Stars have their own texture. The texture is based on the formula for 
+	a circle, so it has soft, rounded edges for reduced aliasing.
+v150 - Experimental code for software based texture mirroring. [see v154]
+v149 - The splash screen is now in GDI mode.
+v148 - Now uses compatible floating-point compares. [K6 now supported!]
+v147 - More internal code tweaks.
+v146 - Internal code tweaks.
+
+
+PROLOGUE
+========
+Nitimur in vetitum semper cupimusque negata
+
+The Etherium is a Northern Dragons 4K Intro 
+Visit us at: http://www.northerndragons.ca
+
+
+CREDITS:
+========
+Drunken Hyena   - 3D Consultant and Halibut Target
+Moon Runner     - Emergency testing on Geforce 4 4400
+Polaris         - Audio framework, code, sphere algo and group lead.
+S_Tec           - Coding whiz kid and visual stylist
+Umdesch4        - sound crafting/music composition & coding
+
+
+SPECIAL THANKS TO
+=================
+Visa Forstén (Dairos / Unique)
+For submitting our production to Assembly 2003.
+
+Joonas Wahlsten (Soufly/ Northern Dragons)
+For being our designated prize collector and the Northern Dragons 
+voice in Finland! 
+ 
+
+VERY SPECIAL THANKS TO:
+=======================
+* Umdesch4 would like to thank Christopher Desjardins of (Dance Addicts)
+For audio sanity testing and constructive feedback
+* S_Tec thanks his family, room mate, teachers, and fellow students, who put
+up with his long hours of coding. He also thanks those who took the time to
+offer constructive criticism and general encouragement.
+* Polaris would like to thank his lovely wife Michelle for not kicking him
+out of the house during the month of August or threatening divorce while he
+spend hours glued to the computer screen.  Seriously however, this wouldn't
+be possible without her loving support.
+
+
+RESPECT & GREETS TO:
+====================
+Dairos / Unique
+Elmindreda / Hypercube
+Frankie / Smash Designs
+Miss Saigon / Threesome
+Adok / Hugi 
+Five By Five
+
+Rest of the Northern Dragons team for making this possible!
+And anyone else we might have forgotten!
+
+
+FACTS
+=====
+We are pleased to bring you:
+
+* 70000 textured and lit triangles - 2.5MB
+* 5 unique textures - 5MB.
+* 2 minutes of audio - 10.25 MB
+
+This is a total of 17.75MB of data, packed into a 4KB executable, for a
+compression ratio of 4500 to 1.
+
+Other things we offer:
+* Unconstrained B-spline camera motion.
+* Reflective water
+* Smooth scene transitions
+* Antialiasing
+* Reverberations on the music.
+* Music powered by Seattle's Best Coffee
+
+How was this done?  Hours and hours of work is our biggest secret. :)
+For other details, feel free to contact us. <www.northerndragons.ca>
+
+
+FAMOUS QUOTE
+============
+If we get to here, and it's still less than 4kb... I'll buy you dinner!
+- Polaris to S_Tec in regards to the feature list. 
+
+
+=== END OF FILE ===

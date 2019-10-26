@@ -1,0 +1,93 @@
+
+                        ·             ·
+                    -  -:--------------\- -
+                        |               \
+  ____           diP/a!  ___             _____               _____
+_/   //_  _____   _ ___ /  (_       _ __\\_   \_  _____ ____\\  _/_ ____
+\     _/ \\   /______ _/    /  ______     /    /_\\_  /__     _/  //   //______
+ \    \      _/     / \     \ /     /    /    /   _/    /    /   / \____      /
+  \    \     \     /   \     \    _/____     /    \     \   /    \     /     /
+  /_____\     \   /_____\_____\ _\\    /____/      \     \ _\ ____\  _/     /
+      _ _______\_/      .   _ __\_____/   _ ________\_____\     _ _________/
+                        |
+- --------------------- |  t E K L O R D S  p C  \ -------------------------- -
+                        |                         \
+                     - -|--------------------------\- -  -
+                        ·                           ·
+
+                             "natriumlampen 4k"
+
+  a reverend red & inquisitor ryg solo project
+  published by teklords
+  powered by the church of antiscene
+
+
+  (I) - erdrueckende forderungen (requirements)
+
+             - p2-300/mmx (coded & tested on really fast pc's only)
+             - min. 4 megs of video ram
+             - min. 16 megs of system ram
+             - univbe (tested with v6.53) & a compatible gfx card
+             - soundblaster 16 or 101% compatible
+             - a dpmi 0.9+ host (cwsdpmi.exe or win9x)
+
+
+  (II) - ironische rechtfertigung (disclaimer)
+
+               to cut it short: this intro sucks.
+
+               maybe there are more features than you expected, ...
+               ..., but less than there could be
+
+               if this intro does not work on your machine, don't blame us.
+               listen, we really needed the space we would have wasted by
+               doing more compatible vesa code ;) watch this intro on a
+               friends pc, or wait for the final version (out very soon).
+
+               your vesa 320x240 32 bit mode MUST be 136h ...
+                (buy a Diamond Viper V550 or fuck off)
+
+
+  (III) - halbfreiwillige aufopferung (credits)
+
+               reverend red (red@teklords.org)
+                   all gfx code, mathematics and low-level routines
+
+               inquisitor ryg (ryg@teklords.org)
+                   industrial noise production, wannabe-synthesizers, yet
+                   more incredibly useless (and unused!) stuff
+
+               syntic (syntic@teklords.org)
+                   leader, best boy, Motivator (tm)
+
+               special thanks fly to shiva^k & franky for many useful hints
+               & to dipswitch^arcade for nice & convenient logo/diz design
+
+
+  (IV) - entwuerdigende erwaehnung (greetings)
+
+               luke, thx, boensch, special k, shiva, siriuz, franky, dexter,
+               pink, chaos, cyclone, acryl, subtorus, torumissive, doj,
+               sierra, eha, yoda, ace, myth, dcp, sharon, daniels, salami,
+               wayfinder, arthus, probe, nix, rawstyle, noize, frenetic,
+               poti, hellfire, kb, xxx, digisnap, rayden, lord chaos, tning,
+               jco, magnetezsozsoman...
+
+               we do not hate you
+
+
+  (V) - abstrakte blocktrompete (music support)
+
+               cradle of filth, marilyn manson, ozzy osbourne, nine inch
+               nails, black sabbath, das ich, liv kristine, theatre of
+               tragedy, blind guardian, einherjer, orphanage, grotesque,
+               manowar, dimmu borgir, type o negative, ...
+
+
+  (VI) - unberechenbarer zorn (lovely goodbye)
+
+              es ist zeit zur wiederaufnahme der hedonistischen freuden
+              die weltherrschaft ist k„uflich. wir haben kein geld.
+
+
+  i'm blue dabadee dabadaee-sucks!

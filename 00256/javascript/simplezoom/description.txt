@@ -1,0 +1,5 @@
+"SimpleZoom" by Sid
+
+This zoomer makes of the DOM and should be usable with any
+decent Browser, IE5+ or NS6+. This is my first entry in any
+competition ever and I hope there's still more to come :)

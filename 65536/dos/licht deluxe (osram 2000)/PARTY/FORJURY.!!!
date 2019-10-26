@@ -1,0 +1,13 @@
+
+this is "licht deluxe" by haujobb
+
+entry to the ibm-pc 64kB-intro competition
+
+
+boot himem-only (but does also run with emm386 or qemm)
+ultra-sound environment-variable must be set
+does not run with win95 active
+needs 16mb of free memory.
+needs an 320x200x16bpp videomode.
+(if the vga-card doesn't support it, start UNIVBE before running the intro!!)
+

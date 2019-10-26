@@ -1,0 +1,25 @@
+
+ÚÄÄúú ú  ú
+³
+³  Sabre2th's 1st entry to the 256 byte xmas demo compo 1998 thingy
+³
+ÀÄÄúú ú  ú
+
+
+
+
+ÀÄÄúú ú  ú
+
+Here's my 1st entry to the 256-byte compo: sab_xms1. Original name, no?
+Well I can't help it, coz I had barely little time to code, so I also didn't 
+have time to think of a name :(. I wish I had seen this before, so next time
+I'll probably have something better (if I find the time then ;).
+
+Hopy you enjoy it, especially reading the source, I hope you get it.
+I even documented it :).
+
+Signing off,
+
+Michiel Holtkamp (199812190350)
+
+ÚÄÄúú ú  ú

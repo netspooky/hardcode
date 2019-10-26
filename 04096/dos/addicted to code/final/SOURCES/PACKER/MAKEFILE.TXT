@@ -1,0 +1,36 @@
+### MAIN SETUP
+
+PRJ = test.exe
+OBJ = test.obj
+
+### TINY SETUP
+
+ASM = tasm
+AFG = /mx /zi /os
+
+CPP = wpp386
+CFG = /oneatx /zp1 /5 /fpi87 /fp5 /d2
+
+LFG =
+SYS = dos4g
+
+### MAIN MAKE
+
+$(PRJ): $(OBJ)
+	@cls
+	@wlink system $(SYS) name $(PRJ) file {$(OBJ)} >make.err
+	@del *.obj >nul
+	@if not exist $(PRJ) @type make.err
+	@del make.err
+	@echo compilation succesful.
+
+### DEPENDIENCES
+
+### REST OF MAKE
+
+.cpp.obj:
+	@$(CPP) $(CFG) $<
+.asm.obj:
+	@$(ASM) $(AFG) $[* >tasm.err
+	@if not exist $[*.obj @type tasm.err
+	@del tasm.err

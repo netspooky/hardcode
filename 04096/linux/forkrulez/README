@@ -1,0 +1,9 @@
+1.
+
+fbset 1024x768 32bit, linelength MUST be 4096 ... else come to us!
+
+2.
+
+root permissions for /dev/dsp
+
+

@@ -1,0 +1,114 @@
+pascal's 20 byte version of
+
+                           Tiny Parallax Starfield
+
+                                                by Matthew Wilhelm
+
+This archive consists of 5 files:
+  passtf20.asm    source
+  passtf20.com    executable
+  passtf20.txt    description, this file
+  mwstar.zip      original archive by Matthew Wilhelm
+  file_id.diz     fileid
+
+This is only an incremental documentation to Matt's doc.
+Read that one first.
+
+Modifications:
+
+                              -Setup Code-
+
+Video mode init done as usual: mov al,13h, int 10h.
+I also tried to skip the randomizing part by not cleaning the video memory.
+(mov al,93h). Matt did not like it.. :(. (You can do a 14 byte
+version with it... the only thing about it is that it does not look like
+a starfield anymore... :( )
+First sp is popped, which makes it 0 (a ret would make ip point to cs:0,
+where you find int 20h that terminates the program).
+Then cx is popped effectively making it 20CDh (opcode of int 20h),
+this also sets the number of stars to about 8000.
+Finally I pop ds, and this is the critical part of it all. At the address
+sp points to, you find the upper memory boundary, and this is usually
+9FFFh (tested on many computers). If it does not, strange things may
+happen... The starfield algorithm will destroy msdos memory management
+(first 16 bytes in ds), so a keyboard version that could be ended somehow
+is senseless. ds is now the screen segment.
+=> 1 byte saved. (3 1-byte pops instead of 2 2-byte movs)
+
+                         -Random Star Generator-
+The randomizer was changed to pop ax. Even if memory is clean at least
+the psp and the program code will produce some "random" numbers. You'll
+get at least 50 stars with this. (pray that the program is not interruped
+when sp points to the code, messing it up!)
+Pixels are set by exchanging the screen pixel (probably 0) with al (random).
+=> 1 byte saved. (1-byte pop instead of 2-byte in)
+
+                             -Star Scrolling-
+The algorithm was changed a bit. I only use one xchg to set/reset pixels.
+Usually al is 0. If so the screen pointer is incremented, and the
+current pixel is replaced by al. If that pixel was black, al is 0 again,
+and nothing happend on the screen. Black regions of the screen are thus
+skipped. If a nonzero pixel is encountered, it is replaced by the 0 in al
+and the screen pointer is incremented by the value of the pixel plus 1.
+In the next loop the current pixel (probably 0) is replaced by al.
+All in all a star is moved by some pixels.
+=> 2 bytes saved. (es: prefix removed, 1-byte cbw instead of 2-byte xor)
+
+>        To my knowledge, there are no more optimizations that can be
+>performed without sacrificing quality.
+You were wrong. There are even more stars, and stars never disappear!
+
+>        Stars disappear after a while. Disappearing occurs when a
+>star jumps on top of another one. Since the only information about
+>a star is itself (the pixel's color), overwriting this value
+>deletes the star entirely.
+This does not happen with my version, since the only thing I do is
+exchanging pixels.
+
+
+Critical Acclaim:
+
+   Os\2Man, #coders channel, coder of orig version
+        <Os\2Man> huh? no ES: prefix???
+        <Os\2Man> your code is strange :)
+
+
+about the making:
+
+I was listening to strange discussion about starfields and 26 byte versions
+and stuff on #coders. I didn't really take it seriously... A starfield in
+26 bytes or less is utopia. :) Some time Os\2Man asked me something and
+we had a nice chat about demos and so and finally he gave me his starfield.
+
+I was amazed.
+
+Tried to work through the code for some hours and I finally got the point.
+When I went to bed some hours later than I originally planned to I was
+negative about further optimizations. Everything just stuck together and
+you couldn't change something without messing up the rest.
+Next morning I had the idea to rearrange the loop (after some stupid
+randomizing ideas) and cut 2 bytes off the program. Later I found a
+different randomizing method and I also found the screen segment in
+memory and in reach...
+
+This 20 byte starfield would never have been possible without the
+24 byte starfield by Matthew Wilhelm and Adam Letts.
+It'd rather be hundereds!
+
+If someone can make the starfield in less than 20 bytes and I like the
+method he'll get coke or a beer or something if I ever meet him! =:)
+
+wanna contact me?
+
+pascal@nightmare.harz.de
+
+file_id.diz===================================================================
+
+pascal's 20 byte version of
+
+Matt Wilhelm's Tiny Starfield
+
+Substantial contribution by Adam Letts.
+
+A multilayer parallax starfield in...24 bytes!
+Source and length discussion of algorithm included.

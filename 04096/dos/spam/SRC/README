@@ -1,0 +1,23 @@
+Hello !
+
+This is the complete source-code of "spam", a 4k-intro, which got the 2nd
+place at the assembly 94 4k-intro-compo. Just run it through tasm and tlink,
+and it will work (the makefile will also work). There are some comments
+in the source, so you might be lucky and understand how it works :-) Just a
+few things to tell you ...
+
+   * Although spam does not use ems, emm might be useful to prevent crashes
+     sometimes (don't ask me why)
+   * If you have a nice vga-card (like cirrus), you can leave away the _LAME
+     switch and get extra speed. On some vga-cards it is possible to reduce
+     the horizontal resolution to 160 pixel (on some not, it seems)
+
+If you encounter any problems, feel free to contact me:
+
+    Tobias Gloth - Falkenstr. 2 - 49835 Lohne - Germany - (+49)5908-588
+    or gloth@uni-muenster.de
+
+Special thanks to chicken, antibyte, cassiopeia, m_rex (and all others) who
+helped me to fix most bugs :)
+
+Greetings, xToto

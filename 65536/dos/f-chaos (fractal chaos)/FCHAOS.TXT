@@ -1,0 +1,36 @@
+
+
+                                F - C H A O S
+                               (fractal chaos)
+
+                               ----------------
+                                      BY
+
+                                  IQ/Genesis
+                               ----------------
+
+
+25-7-98
+Euskal Party 6, Donostia
+
+
+        Hey!, what do you think about my first intro? Music? Ah!, well,
+I'm not very good writing songs and our musician (Deep Noise) is very
+bussy... Ok, no more lies. The real reason for not putting music is
+this: I have had a lot of problems to put all the code (100% C, 0% ASM)
+in 64Kb. In the end the intro is 62K. If you had a 2K player-and-song...
+The intro has been changed many times in the last days. For example,
+in the begining I had three precalculated beatifull julias. However I
+decided to calculate them in the begining of the intro when I saw that
+the code was over 170 Kb... The 3D objets make the intro 13K largest. I
+have tried many times to generate them and it seems to go OK when drawing
+then with flat polys. However, when I put the goraud shading it doesn't
+work correctly (I have some problems with the normals...). 
+
+        The "GENESIS" gfx is due to ACK. Of course I'm not such a good
+artist; so I decided to steal it from his computer.
+
+        This intro is the result of the hard work of some months. I remember
+when I put my first pixel in the VGA with the BIOS interruptions 9 months
+ago :) I hope I continue learning next months.
+

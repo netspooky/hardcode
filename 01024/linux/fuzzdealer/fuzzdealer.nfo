@@ -1,0 +1,49 @@
+Fuzzdealer
+==========
+
+"Fuzzdealer" is my first 1k intro in a real demoscene competition. I'm
+all like "wow, did I really do this.. yep, I guess I did.. wow
+again". I hope you enjoy it too. It is a normal "Gzip dropper" that
+requires SDL2 for window and audio, and OpenGL for graphics. I'll make
+the source code available right after the compo at
+https://yousource.it.jyu.fi/synti2/synti2/blobs/master/synti2/doc/assembly16_1k/
+
+I must be really emotionally damaged to have made a 1k intro as a
+native Linux binary. Sane people should stick to Win&crinkler and
+browser platforms in which (I think) the system overhead is much
+smaller.
+
+Fuzzdealer is contributed to the Assembly Summer 2016 1k intro
+compo. The rulebook of Assembly Summer 2016 has been followed and
+thoroughly exploited as follows:
+
+- The target architecture is 32 bit Linux (Live Ubuntu with default
+  libraries was promised in the Compo rules - SDL2 and OpenGL, which I
+  would consider quite standard, need to be installed)
+
+- The Assembly rules dictate that the mouse cursor must be
+  hidden. This is done.
+
+- The rules don't dictate that the entry should exit properly. So I
+  provide a segfault and a core dump. Illegal instruction compresses
+  much better than "exit(0)" :)
+
+- The rules don't dictate that /tmp/ should be cleared. So I leave the
+  binary there as /tmp/I$$. Clean up those files yourself, if needed.
+
+Why the name "Fuzzdealer"? Well.. as the author, I think the more
+interesting part of the entry is the synth that relies heavily on a
+distortion effect. I hope that the Assembly PA will really deal out
+the fuzz properly as intended.
+
+
+Thanks
+======
+
+Greetings to all wonderful dudes and dudettes out there! Thanks to the
+students of the University of Jyväskylä who kept our sponsor stand
+running while the "faculty guy" was fine-tuning his demoscene entry.
+
+Special thanks to Visy for ensuring that the Linux platform worked
+well at Assembly 2016 and that Fuzzdealer ran nicely on that.
+

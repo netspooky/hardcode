@@ -1,0 +1,55 @@
+!!ARBfp1.0
+
+PARAM	amb			= state.material.ambient;
+PARAM	diff		= state.lightprod[0].diffuse;
+PARAM	spec		= state.lightprod[0].specular;
+PARAM	shin		= state.material.shininess;
+PARAM	em			= state.material.emission;
+
+PARAM	gray		= { 0.2125, 0.7154, 0.0721, 1.0 };
+
+#ATTRIB	normal		= fragment.texcoord[0];
+ATTRIB	n			= fragment.texcoord[0];
+ATTRIB	light		= fragment.texcoord[1];
+ATTRIB	view		= fragment.texcoord[2];
+
+TEMP	tmp, l, v, r, coeff, col;
+#TEMP	n;
+
+# normalize normal
+#DP3			tmp.a, normal, normal;
+#RSQ			tmp.a, tmp.a;
+#MUL			n.rgb, normal, tmp.a;
+
+# normalize light vector
+DP3			tmp.a, light, light;
+RSQ			tmp.a, tmp.a;
+MUL			l.rgb, light, tmp.a;
+
+# normalize view vector
+DP3			tmp.a, view, view;
+RSQ			tmp.a, tmp.a;
+MUL			v.rgb, view, tmp.a;
+
+# calc reflection vector 2(L.N)N - L
+DP3			tmp, l, n;
+ADD			tmp.a, tmp.a, tmp.a;
+MAD			r.rgb, tmp.a, n, -l;
+
+# calc diffuse term
+DP3_SAT		coeff.a, n, l;
+
+# calc specular term
+DP3_SAT		coeff.r, r, v;
+POW			coeff.r, coeff.r, shin.r;
+
+# accumulate
+MAD			tmp, coeff.a, diff, amb;
+MAD_SAT		col.rgb, coeff.r, spec, tmp;
+ADD			col.rgb, col, em;
+MOV			result.color.a, 1.0;
+
+# grayscale
+DP3			result.color.rgb, col, gray;
+
+END

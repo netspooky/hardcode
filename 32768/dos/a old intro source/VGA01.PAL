@@ -1,0 +1,43 @@
+db 04h,02h,04h,26h,14h,2Eh,32h,14h,2Eh,3Eh,14h,2Eh,16h,18h,2Eh,0Ch,1Ch,2Eh ;6
+db 28h,1Eh,2Eh,18h,22h,2Eh,26h,28h,2Eh,00h,2Eh,2Eh,18h,0Eh,2Eh,3Ch,36h,35h ;12
+db 3Fh,3Fh,3Fh,38h,32h,31h,3Ch,37h,36h,3Ah,34h,33h,3Bh,35h,34h,39h,33h,32h ;18
+db 3Bh,36h,34h,39h,34h,32h,3Dh,38h,36h,37h,31h,30h,3Eh,38h,37h,3Fh,3Ch,3Bh ;24
+db 3Eh,39h,38h,3Fh,3Ah,39h,3Fh,3Bh,3Ah,3Fh,3Eh,3Dh,37h,32h,30h,3Fh,3Dh,3Ch
+db 35h,30h,2Fh,2Bh,27h,26h,2Eh,2Ah,29h,24h,21h,20h,33h,2Eh,2Dh,29h,25h,24h
+db 2Dh,29h,28h,22h,1Fh,1Eh,1Bh,18h,18h,17h,14h,14h,26h,23h,22h,31h,2Ch,2Bh
+db 10h,0Eh,0Eh,14h,13h,12h,0Eh,0Dh,0Ch,34h,2Fh,2Eh,2Ch,28h,27h,19h,16h,16h ;48
+db 0Ch,0Bh,0Bh,32h,2Dh,2Ch,1Eh,1Bh,1Ah,12h,11h,10h,20h,1Dh,1Ch,2Fh,2Bh,2Ah
+db 1Dh,1Ah,1Ah,2Ah,26h,25h,30h,2Bh,2Ah,08h,07h,07h,08h,08h,07h,21h,1Eh,1Dh
+db 28h,24h,23h,0Bh,0Ah,09h,23h,20h,1Fh,36h,30h,2Fh,26h,22h,21h,06h,05h,05h
+db 1Ch,1Ah,19h,0Ah,09h,09h,1Fh,1Ch,1Ch,1Ah,18h,17h,1Fh,1Ch,1Bh,05h,05h,04h
+db 11h,11h,11h,33h,2Fh,2Eh,25h,22h,21h,1Ch,19h,18h,2Eh,29h,28h,11h,10h,0Fh
+db 14h,14h,14h,31h,2Dh,2Ch,18h,16h,15h,26h,26h,26h,09h,08h,08h,2Dh,2Ch,2Ch
+db 1Fh,1Fh,1Fh,14h,12h,11h,23h,23h,23h,36h,36h,36h,21h,21h,21h,27h,24h,23h
+db 24h,20h,1Fh,2Fh,2Fh,2Eh,2Ah,2Ah,2Ah,1Dh,1Dh,1Dh,18h,18h,18h,3Ch,3Ch,3Ch
+db 24h,24h,24h,30h,30h,30h,3Ah,3Ah,3Ah,34h,34h,34h,28h,28h,28h,0Bh,0Ah,0Ah
+db 1Bh,1Ah,1Ah,12h,12h,12h,16h,14h,13h,1Ah,17h,17h,34h,2Eh,2Dh,32h,32h,32h
+db 39h,39h,39h,19h,18h,17h,0Dh,0Dh,0Ch,2Ch,27h,26h,32h,2Ch,2Bh,06h,06h,06h
+db 21h,1Eh,1Eh,16h,16h,16h,0Fh,0Fh,0Fh,2Ah,25h,24h,18h,15h,15h,0Dh,0Ch,0Bh
+db 14h,14h,13h,1Bh,1Ah,19h,1Ch,1Ch,1Bh,29h,26h,25h,3Bh,37h,36h,16h,16h,15h
+db 22h,1Eh,1Dh,16h,13h,13h,0Fh,0Eh,0Dh,3Bh,38h,37h,3Dh,3Ah,39h,2Bh,28h,27h
+db 32h,31h,30h,36h,33h,32h,33h,32h,31h,35h,34h,33h,30h,2Bh,29h,13h,12h,11h
+db 37h,36h,35h,38h,35h,34h,3Dh,3Bh,3Ah,2Dh,2Ah,29h,2Dh,2Bh,2Ah,22h,21h,20h
+db 12h,10h,0Fh,35h,31h,30h,29h,28h,27h,28h,23h,22h,39h,37h,36h,34h,33h,32h
+db 2Ah,2Ah,29h,25h,22h,22h,38h,36h,35h,35h,32h,31h,2Ch,34h,18h,06h,38h,18h
+db 12h,3Eh,18h,1Eh,3Eh,18h,2Ah,3Eh,18h,34h,00h,1Ah,3Eh,00h,1Ch,08h,02h,1Ch
+db 36h,0Ah,1Ch,00h,12h,1Ch,3Eh,1Ch,1Ch,3Eh,3Eh,1Ch,00h,08h,1Eh,0Ch,0Eh,1Eh
+db 3Eh,10h,1Eh,32h,14h,1Eh,00h,1Ch,1Eh,0Ch,1Ch,1Eh,34h,1Eh,1Eh,3Eh,26h,1Eh
+db 32h,28h,1Eh,00h,2Ah,1Eh,0Ch,30h,1Eh,3Eh,34h,1Eh,32h,3Ah,1Eh,00h,3Eh,1Eh
+db 18h,00h,20h,24h,00h,20h,1Ah,0Ah,20h,26h,0Ah,20h,18h,14h,20h,24h,14h,20h
+db 1Ah,1Eh,20h,26h,1Eh,20h,0Ch,26h,20h,18h,28h,20h,24h,28h,20h,1Ah,32h,20h
+db 26h,32h,20h,00h,34h,20h,0Ch,3Ah,20h,18h,3Ch,20h,24h,3Ch,20h,2Eh,02h,22h
+db 02h,00h,24h,0Eh,00h,24h,38h,02h,24h,30h,0Ch,24h,06h,14h,24h,38h,2Eh,24h
+db 08h,08h,26h,12h,0Ch,26h,38h,12h,26h,10h,16h,26h,2Ch,16h,26h,3Ah,1Ch,26h
+db 06h,1Eh,26h,12h,20h,26h,2Eh,20h,26h,2Ch,2Ah,26h,06h,2Ch,26h,12h,2Eh,26h
+db 2Eh,34h,26h,38h,38h,26h,2Ch,3Eh,26h,1Eh,02h,28h,3Eh,0Ah,28h,20h,0Ch,28h
+db 1Eh,16h,28h,20h,20h,28h,1Eh,2Ah,28h,20h,34h,28h,06h,36h,28h,12h,38h,28h
+db 1Eh,3Eh,28h,28h,00h,2Ah,00h,0Eh,2Ah,36h,26h,2Ah,00h,3Eh,2Ah,32h,00h,2Ch
+db 3Eh,00h,2Ch,14h,02h,2Ch,2Ah,0Ah,2Ch,00h,18h,2Ch,00h,24h,2Ch,0Ch,26h,2Ch
+db 3Eh,2Ch,2Ch,3Eh,3Eh,2Ch,00h,00h,2Eh,0Ah,02h,2Eh,34h,0Ah,2Eh,0Ah,0Eh,2Eh
+db 0Ch,30h,2Eh,18h,30h,2Eh,34h,30h,2Eh,28h,32h,2Eh,32h,3Ah,2Eh,26h,3Ch,2Eh
+db 0Ah,3Eh,2Eh,38h,1Ch,30h,18h,3Ah,30h,1Ch,00h,32h

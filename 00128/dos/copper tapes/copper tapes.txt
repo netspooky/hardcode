@@ -1,0 +1,16 @@
+Ñopper Tapes
+--------
+
+#X
+
+A 128b prod by lord Kelvin.
+
+I`ve seen an image of such effect in demo design faq. So, great thanx!
+Copper Tapes proudly presents:
+* Coder`s colors
+* Slow (in win) perfomance
+* No interactivity
+
+Compiled with FASM.
+
+Great hello from Russia.=)

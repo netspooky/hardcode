@@ -1,0 +1,17 @@
+ÚÄÄÄÄÄÄÄÄ·ÄÄÄÄ·ÄÄÄÄ¿ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+³ ÖÄÄ·ÖÄÄ¶ÖÄÄ·ÇÄÄ· ³ quickly - distorted - public - broadcast
+³ ÓÄÄ¶ÓÄÄ½ÇÄÄ½ÓÄÄ½ ³ a 64k intro by shakul@code & lharp@music
+ÀÄÄÄÄÓÄÄÄÄÓÄÄÄÄÄÄÄÄÙÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ 1st place at fiasko 99 (21 august 1999)
+
+ code and 3d scenes by shakul@prg.cz
+ music and gfx by lharp@internet.sk
+
+ this is enhanced version - its size is much more than
+ original 64K, but it contains some enhancements:
+  - soundblaster support
+  - windows 9x compatibility
+  - high quality 16-bit music
+
+ load univbe to enhance speed on old gfx cards!
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ

@@ -1,0 +1,82 @@
+
+		    
+   		            LIMIT - FINAL VERSION
+			    
+		       4kB-Intro for Mekka&Symposium'99
+  			
+			 
+  			      by Blue & Hijacker
+
+-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-
+				  DISCLAIMER
+-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-
+ 
+  The authors of this work accept no responsibility for any consequences of
+  the use (or misuse) of this product, whether they be direct or indirect
+  consequences of its use.
+			 
+-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-
+			     HARDWARE - REQUIREMENTS
+-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-
+			
+  - 386 CPU & 387 FPU required
+  - PENTIUM133+ strongly recommended
+  - 8 MB SYSTEM-RAM 
+  - about 400 KB Base-Memory
+  - a VESA2.0 compatible GFX-card that supports 640*480*32bpp
+    ( try UNIVBE (r) if you run into problems with that )
+			
+-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-
+			        About the Intro
+-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-
+
+  This Intro was finished in only two days at Mekka&Symposium'99 ( MS99 ).
+  It features:
+
+	ú SVGA - TRUECOLOR - GFX in 4KB (640 x 480 x 32bpp) !
+  	ú 32bit protected mode
+	ú Animated Objects
+	ú Dynamic Lightning & Camera moving
+	ú Scene-Book
+	ú Own Packer for Party-Version ( Decruncher is 122 Bytes )
+	ú Coded in 100% assembler - using our own code only.
+  
+  The main difference between the final release and the party-version is that
+  this version supports all possible configurations of memory and gfx-cards.
+  (what means it should run well with raw, xms, dmpi, vcpi ...) and contains
+  a lot of errorchecking and errormessages.
+  For size-reasons the party-version was only able to run under DPMI (like it 
+  is provided by WIN95 in the DOS-Box ) using a GFX-card with at least 
+  2 MB VRAM accessable via LFB. There are no errormessages at all and only
+  minimal error-handling - so if the party-version does not run you may have
+  not the right configuration ...
+  For these reasons the final-version is a lot bit bigger than the 4K-limit
+  but you can enjoy the comfort ...
+
+-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-
+		           CREDITS - CONTACT - GREETINGS
+-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-=-=-=-
+
+  > who did what ?
+
+	Blue:
+	 þ 3D - stuff
+	 þ Debugger
+	 þ Packer/Decruncher
+
+	Hijacker:
+	 þ ProtectedModeInterface
+	 þ Grafics-Interface
+	 þ Object-Generation
+
+  
+  > How to contact us ? 
+   
+     Write us an email:
+  
+	   Blue	    -  blue@cs.tu-berlin.de
+	   Hijacker -  wagner@yager.de
+
+  > We are still looking for a (good) musician ... 
+    ... so if you are interrested - contact us !
+

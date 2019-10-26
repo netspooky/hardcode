@@ -1,0 +1,160 @@
+
+
+
+
+                          _.oodOO$$$$$$$$OOdoo._
+                   _.odOl l                    l lObo._
+                 .dP'   l `oooooo.      .oooooo' l   `Tb.
+               d$'      `oooooo. l      l .oooooo'      `$b
+              H$               l !      ! l               $H
+             +oooooooooo       !          !       oooooooooo+
+            .yyyyyyyyy l      -= KHAOS II =-      l yyyyyyyyy.
+            d$$$b    1 l       i          i       l l    d$$$b
+            $$$$$b._ 1 l       l i      i l       l l _.$$$$$l
+            $$$$$$$$$$ $$$$$$$$$ $$$$$$$$ $$$$$$$$l (c)blue'99
+
+
+                   - = L O S T   D I M E N S I O N = -
+
+
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+inpho:
+   as you probably noticed, this is our second 4k intro, and indeed this is
+the sequel to the first one - 'khaos?'. we think that it's even better and
+more interesting than the first one and we hope that you will share our point
+of view. lost dimension was finished in about two weeks including wonderful
+party coding and we expect you to have just as much fun watching as we had
+while preparing it. well, i won't give you more details here, just run the
+intro and have your own opinion...
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+requirements:
+   yes, our intro has requirements. and these include:
+         - i386 or higher processor (fast pentium *strongly* recommended!)
+           i (blueshade) admit that this intro's code is terrribly slow, but
+           mind you - it was size optimized - not speed optimized, so please
+           forgive this 'little' inconvenience.
+         - floating point unit commonly known as a coprocessor ;)
+         - vesa compatibile graphics card capable of 320x200x64K banked mode
+           (mode number 10eh). try univesa (univbe) if your card does not
+           support this mode natively.
+         - adlib compatibile sound card (if you want to hear our music)
+           and when we say *adlib*, we mean *adlib* and not some *shitty* gus
+           emulation. well of course a soundblaster compatibile card shall
+           suffice (since it's usually 100% adlib compatibile). the last
+           remark does not entirely apply to opti 931 chipset based cards
+           which seem have a slightly different implementation of adlib
+           standard. (or i have f**ked up something... doubtful anyway ;)
+         - himem.sys loaded and a few megabytes of free XMS available
+         - NO emm386 or similar progs! NO windoze, NO linux, NO os/2 ...
+           all these restrictions result from a use of unreal mode (also
+           know as flat-real mode) extender which can't be launched if a
+           machine is in virtual8086 mode and sadly all environments
+           mentioned above run dos in this mode. if you have pure dos, just
+           try not to load emm386. if you have windoze95/98 try to run it
+           in msdos mode. if you have NT, linux or OS/2 i think i won't be
+           able to help you. maybe you should boot your machine from a
+           dos/win95 floppy...
+
+so to put it another way:
+
+REQ: - 386+ (fast Pentium *strongly* recommended!)
+     - FPU
+     - VESA (320x200x64K)
+     - AdLib - ! real one -> no emulation !
+     - HIMEM.SYS + some free XMS (4MB)
+     - *NO* V86 environment
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+credits:
+
+                (c) MCMXCIX altair
+
+         main code                  - blueshade
+         adlib player code          - blueshade
+         music                      - malfunction
+         inspiration for 2d effects - viggith
+         optimization support       - x/aeterna
+         technical support on msx
+         and 2dfx (cool ideas ;> )  - malfunction
+         design                     - malfunction, blueshade
+         shit-sculpting             - mainly malfunction this time ;> (iykwim)
+         nfofile                    - blueshade
+
+
+additional credits:
+         unreal mode extender       - based on a code by Marcin Milczarz
+         himem support              - based on code by NiX+Butterfly/MASSiVE
+         624 com decruncher         - Kimmy/PULP
+         apack com decruncher       - Jibz
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+hardware resources used:
+         - blueshade's wonderful Am5x86/133 machine and peripheral devices
+           (special appearance by hp dj320 printer here ;)
+           (and even more special appearance by blueshade's great OPTi 931
+            based soundblaster (in)compatibile card, which seems to have
+            its own opinion on the FM modulation... ;)
+         - malfunction's superb Pentium MMX/225 computer + peripherals.
+           (special appearance by malf's malfunctioning HD docking device ;)
+         - virtually blueshade's notebook used to override OPTi chipset's
+           interpretation of malfunction's adlib tune and also as an
+           irreplacable party-coding machine with shitty display
+         - Seagate ST3290A HD - data transfer medium
+         - TDK 1.44 MB disks - secondary data transfer medium
+         - Chicane's 'far from the maddening crowds' CD - audio entertainer
+         - Koto's 'Masterpieces' CD - audio entertainer
+         - some other music MC's+CD's+MP3's - secondary audio entertainers
+           (Grid,Laserdance,Koto,Jarre,Utah Saints and more)
+         - malfunction's and blueshade's fridges - fuel-for-flesh dispensers
+         - Warka Strong Beer - universal mind boosting beverage
+           (btw: a can falling on to a pavement from the sixth floor at 3a.m.
+           emits a really nice sound - i only wonder if my neighbors share
+           this point of view ;)
+         - and of course blueshade and malfunction themselves ;>
+
+software resources used:
+         - 'amusic' adlib tracker
+         - blueshade's amusic to our-own-format converter
+           (lotsa hardcoding and shit-scultpting in this one - hi malf ;> )
+         - borland's tasm+tlink
+         - '624' cruncher by Kimmy/PULP and/or 'apack' cruncher by Jibz.
+           (btw: apack beats 624 at somewhere around 2.5K, below this level
+           624 is better. thus, eventually, apack was used since we're at 4K)
+         - dos navigator
+         - help pc
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+contact:
+         blueshade:
+            przemyslaw idzkiewicz, ul.polaka 1/39, 02-777 warszawa, poland
+            (blueshade@bigfoot.com),http://fly.to/blueshade/
+         malfunction:
+            slawomir bubel, ul. szolc-rogozinskiego 17/57, 02-777 warszawa,
+            poland, (malfunction@bigfoot.com)
+
+   we accept both critics and praise ;)
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+final words:
+
+   to end this file, we would like to greet the following:
+
+  aeterna.agravedict.amnesty.anakata.android's_dream.arise.bit_busters.bora
+   byteway.cryogen.defect.diffusion.dimension.enenzi.exmortis.fuse.giraffe
+    grinders.haujobb.hellcore.interror.lamesoft.mind_design.mist.monolith
+   nah-kolor.nomad.norferin.omnicolour.potion[amiga].procreation.sixty9.slt
+              suspend.tatanka.tbl.teklords.tesco.tight.tube27
+
+thank you, and good bye.
+                                                blueshade/altair.

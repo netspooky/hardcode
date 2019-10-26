@@ -1,0 +1,7 @@
+Contains source code from Loonies (clinkster.asm) and iq (almost everything else as a framework). Significant code by me (squeakyneb) is in intro.cpp, fsh_rayt.inl (file almost entirely mine) and _windows/* (to better integrate Clinkster). Music composed by me, converted to music.asm by Loonies' tools. I might've changed things elsewhere.
+
+It's all an uncommented mess but there's nothing too tricky in there. If you're wanting to recompile for specific resolutions, you only need to modify config.h (there's not much else in there, and aspect ratio correction is automatically done in vsh_2d.inl). If you want to compile for 4k size, you'll need to put crinkler in next to the i4k_OGLShader_vc2008.sln file as "link.exe". Not doing this results in a bunch of ignorable linker warnings about unknown arguments. Also you'll need to install yasm and the Visual Studio functionality integration pack thingo for it.
+
+If you're not compiling with Visual Studio, you're on your own, but you should just be able to build everything with a C++ compiler, an assembler and a linker. I don't think I used anything MSVC-specific, but I might be wrong.
+
+oh f4k.xrns is the Renoise save file for the music. Requires the Clinkster VSTi (not included, but it is out there for free).

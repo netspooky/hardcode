@@ -1,0 +1,31 @@
+#include <cmath>
+
+making great games since 1992 - http://www.games-net.de/hosted/tggc
+___________________________________________________________________
+
+
+  CMath 7        :-: Perfect Math
+
+  Code           :-: TGGC
+
+  Music          :-: Turri
+
+  Special Thanks :-: Hellfire (Haujobb)
+                     Seb
+
+  Packer         :-: Crinkler 1.0a (http://www.crinkler.net)
+
+  running time   :-: 1m 57s
+
+
+  greets         :-: Bauknecht, Calodox, Exceed, Fairlight, Farbrausch, Fuzzion
+                     Haujobb, Kakiarts, Kolor, Loonies, Limp Ninja, Mercury, 
+                     Metalvotze, Nuance, Speckdrumm, tbc, Titan, unknown artists
+                     Apollon, atla, BlueCobold, Caro, dv, Machomat, MasterK,
+                     matt|6s, mcdeck, nakolium, neowarp, none, pro, rapso, rip,
+                     Sgt. Nukem, TomasRiker, Volkard, Wolle
+                     anyone else from #gamedev.ger, #demo.ger and #cpp
+
+
+  Tested and running on Win2k and WinXP. Should work on any Geforce or Radeon.
+  d3dx9_25.dll is required.

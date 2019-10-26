@@ -1,0 +1,39 @@
+oezgyrs@buenzli#12
+runlikehelledition
+(c)rumzeus&deemage
+oezgyrs.chscene.ch
+
+you need...
+computer+windows+
+soundcard+gfxcard
+(geforceclass)
+
+we did...
+rumzeus: maincod,some3d
+deemage: addcod,synth,more3d,2d,mus
+sa~t: more2d
+
+we greet...
+daftno!ze, fake that,
+kellerloch, galez.org,
+depth, SPP, aardbei,
+frozak, calodox, vantage,
+andsomeothersweforgot
+
+we (ab)use...
+opengl
+dsound(~v8)
+yezarfreeverbcode
+msruntimedlls
+someolewinfonts
+forgottherest
+
+we used...
+msvc6
+3dsmax5
+photoshop6
+
+lots of partycoding in it...
+we are sorry..
+we will do better!
+next time...

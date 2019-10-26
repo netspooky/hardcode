@@ -1,0 +1,14 @@
+Hephaestus (Greek God of Fire)
+
+What you are looking at here is a 512 byte win32 executable that
+imports it's functions by hash. sets up a gdi32 window and blits
+a pixel buffer to the screen then escapes on any keydown. It has
+been tested on XP and Windows7 (Vista untested), and it seems to
+runs smoothly on all platforms tested. No packer was used in the
+development of this executable. Final size of prod is 512b.
+
+I hope that this prod will help some 256b coder to move on to XP
+and Windows7 development while enjoying similar constraints.
+
+
+rain_storm  from  http://www.dbfinteractive.com/

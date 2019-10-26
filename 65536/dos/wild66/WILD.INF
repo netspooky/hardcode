@@ -1,0 +1,127 @@
+THE KUDOS presents: 
+
+WILD66.EXE
+----------
+
+Info 1.00                                                         5.8.1994
+
+
+
+
+        IMPORTANT
+        ---------
+Machine speed selection:
+
+The calibrating is really difficult since so many different chipsets and 
+configurations are on the field. But anyway...
+
+3 CHOICES ARE AVAILABLE:
+
+1) CHOOSE THIS IF YOU DON'T HAVE AN ACCELERATED VIDEOBOARD
+   FOR 486SX/25/33/WHATEVER
+   FOR 486DX/33
+
+2) CHOOSE THIS IF AN OWNER OF A FAST VIDEOBOARD
+   OR A FASTER THAN AVERAGE 486
+   FOR 486SX/25/33/... WITH FAST VIDEO
+   FOR 486DX/50/66 WITH ** NO ** FAST VIDEO
+
+3) CHOOSE THIS IF PROCESSOR IS FAST AND VIDEOBOARD IS FAST
+   FOR 486DX/50/66/100 WITH FAST VIDEO
+
+
+
+
+        Introduction to intro
+        ---------------------
+
+THE WILD is our very first production on the demo/intro scene. Hopefully
+not the last one. THE WILD is designed to run under Intel 486SX/DX series,
+though you may freely try it with other manufacturers processors too
+(propably it will work) [a 386DX might also qualify if a really fast video 
+board is present]. Also, a SoundBlaster card is required.
+
+
+
+
+        THE KUDOS
+        ---------
+
+We are only two in THE KUDOS:
+        
+
+Less (the musician) alias
+
+Pauli Lehtinen
+********tie **
+00**0 HELSINKI
+
+More (the coder) alias
+
+Jaakko Lyytinen
+********tie **
+00**0 HELSINKI
+
+If you, for some very odd reason, would like to contact us, please leave
+Email to coder in our homesite:
+        
+        GrandSlam BBS
+        90 - 351 3124
+
+Also, all our product will be available in the mentioned BBS.
+(though do not expect too much production since I (the coder) prefer studies 
+above demo coding)
+        
+
+
+
+        Distribution
+        ------------
+
+The intro can be freely copied, as long as no profit is being made from copying
+it. The Assembly 94 organizing staff have the exclusive rights to include this
+intro on the Assembly 94 CD-ROM.
+
+
+
+
+        Troubleshooting
+        ---------------
+
+If the intro hangs before any music or graphics, you can easily examine
+what went wrong by looking at the text on the screen. The complete text
+will be "MDISP123". If the text is only partially printed refer to the
+following table:
+
+1) The 'M' stands for memory allocation. If no 'M' is on the screen you
+propably don't have enough free memory (conventional). Approximately 600k
+will be required.
+2) The 'D' stands for soundcard detection (only Soundblaster & compatibles).
+Furthermore, only IRQs 2, 3, 5 and 7 are allowed. No 'D' means improper
+soundcard detection.
+3) 'I' no comments :-)
+4) 'S' and 'P' stand for music start and playing. If they are missing there
+propably is something wrong with the soundcard, though it has been detected.
+5) '1', '2' and '3' indicate some fractal preparing. If they are missing
+there must be something wrong with memory, though there's adequate memory
+available.
+
+When a memory fault occurs, it's recommended to cold boot the computer and
+then try again (in most cases the computer hangs completely and it's the only
+thing you can do).
+If SoundBlaster is the cause of problems, you should check the hardware
+connections and volume settings.
+
+ATTENTION:
+IF YOU DON'T OWN A SOUNDBLASTER COMPATIBLE SOUNDCARD, THE DEMO WON'T RUN AT
+ALL.
+That's beacuse I see no point in demos/intros without music. 
+Sorry about that.
+Unfortunately no GUS support is present (simply 'cause I don't have one).
+
+
+                                         
+                                         SIGNED, More
+.
+
+

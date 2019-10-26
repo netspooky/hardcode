@@ -1,0 +1,13 @@
+
+
+      noise
+
+      238 bytes
+
+
+  by milov
+  milo@milov.nl
+  http://milov.nl/
+  
+
+  tested in IE5.5 and IE6, might also work in IE5.0/IE4

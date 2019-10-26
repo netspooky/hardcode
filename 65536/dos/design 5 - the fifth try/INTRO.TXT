@@ -1,0 +1,222 @@
+
+
+                        t h e  .................
+                                     :      .  :
+                         ,%л%.   __  :.. dizain:..
+-  - ------------------- %&'`л. %л' :. :....:  ..:
+                        :л':.л%::~:::',# ....  :
+                        |л ::|л.:л::',%л.:: ::.:...    .... num. fem .......
+                  ,%л%. лл : ;л  л : %¤л|::л%.:::.. _      ___________     : .
+      ___        ,%&~¤л.|л : %л  л : л ¤%:: лл.:::: л    , лл"""""""лл     :
+       "лл%%x.   %&'::¤%:л :,л'. л :.л :л|: л`л.::: л ..:: лл       ~~     : .
+         л .`&% ,л'::: л л. ~.:: л  |л :¤:: л:`л%:: л :::  лл              :
+......   л|::`л %& :::,л ¤л :::: л  %л :::: |л `л.: л :::::&&#####%%,.     : .
+....::::.|л`: л:л'::: %л .¤%.::: л  л|:',s%#лл| л%: л :::::::... ~"¤л%.    : :
+ ....:::::л :,л|л%. ,%&'::.¤%.:: л  л: ¤¤"~~л|л  л. л :::.__..      `л%    : :
+ ...::::::л ,%|л'¤&л&¤ :::: `л.: л  л.`:::: л л :`л.л ::: лл. ..... ,л& ...: :
+..::::::::л %&'л :....: :::::`л  л  л. ::::,л л.::`лл ::: `&л%.    ,%л' . ...:
+          л%&' л ::::: л :::: л  л. л%.::: %& л|:::¤л : :: `¤&л%%%л&¤'
+          л&'  л.::::_ л :::: л. &% `л%. ,%л':|л :: ¤ .  `:.   ~~~sLV^
+          ~    `л.  ,л л ::: %&::."::.¤&л&¤.:: л  :
+                `&л%&¤ `л%.,%л' ------------------------------------------ -  -
+                  ~~     ¤&&¤                         .
+
+
+                   Design 5 - The Fifth try (to make a success)
+
+                         First presented at Assembly'97
+                               (In the Jury Room)
+                        <Hopefully on the bigscreen too>
+
+                      (C) Copyright 1997 Brainlez Coders!
+                   For complete disclaimer, read BC!LEGAL.TXT
+
+
+        This is the partyversion. If we/you find any bugs, send report to
+        us (sliver@dystopia.fi) and we'll try to make a fixed version.
+        Also, the full (and somehow documented) sourcecode of this intro
+        will be released soon after Assembly'97, look out for it.
+
+        This version doesn't have infofiles included. If you want more info
+        on us, check our WWW-page; http://final.dystopia.fi/~sliver
+        Our most recent productions can be also downloaded from there.
+
+
+-[WARNING, READ THIS BEFORE RUNNING!!!]----------------------------------------
+
+        Works best with configuration like HIMEM+EMM386(+SMARTDRV+NNANSI.SYS)
+        but should work with himem only.
+
+        SB users need to have both, free XMS and EMS.
+        GUS users need only XMS.
+        ULTRASND and/or BLASTER environments are required to be set before
+        you run this intro.
+
+        This minidemo (intro) needs lots of processor power and doesn't want
+        to be run in a computer with Windows(tm)('95) (on background) or Sound-
+        Blaster card inside. Nothing against Windows or SoundBlaster, It's
+        just that our player supports only DOS and has only MONO playback
+        with max. 22.1Khz support for SB (2.0/PRO/16/32) - And SB player
+        has been reported to suck sometimes.
+        Instead of SB, use Gravis UltraSound (Classic/MAX/Extreme) to get
+        some fantastic 44.1khz sounds into your ears :)
+
+        Requires          | Recommented
+        ------------------┼----------------------------------------------------
+        386SX/16          | P133                  (Not tested with Intel P(tm))
+        VGA               | Fast VLB/PCI VGA/SVGA (Not tested with VLB)
+        Conventional+XMS  | Conventional+XMS+EMS
+
+        Supporting following soundcards:
+
+                  ***** Gravis UltraSound       (Stereo)
+                          - tested with classic, max, pnp; should work.
+
+                    *** Sound Blaster           (Mono)
+                          - tested with 1.x/2.0/pro/16/32; should work.
+
+
+        Tested with following computers (and worked):
+                P200Mhz MMX     GUSMAX+SBVIBRA  64mb RAM    ATI3DPRO.. 4mb
+                AMDK5/166Mhz    GUSMAX 512kb    16mb RAM    S3TRIO64V+ 1mb
+                AMDK5/133Mhz    GUSMAX 1024kb   16mb RAM    S3TRIO64   2mb
+                I80486/66Mhz    SOUNDCARD       xxmb RAM    SVGACARD
+
+
+-[Mom, I went shopping]--------------------------------------------------------
+
+
+        Hellloou, this is the fifth part of our 'Design'-Saga. Welcome in.
+
+                                History of this saga:
+
+        30.11.1994      D-Jing (Dizain 1)
+        23.02.1995      Dizain ][
+        14.05.1995      Dizain 3
+        23.11.1995      D-ZiKN IV
+
+        and now, August 1997, after the pause that lasted for almost two
+        years, here's Dizain part 5,
+
+        11.08.1997      Design 5 - The Fifth try (to make a success)
+                        <Dizain 5>
+
+
+
+-[A jury member asked. "So what's the idea?"]----------------------------------
+
+
+        I wanted to make something for Assembly'97, coz Assemblies has been
+        a traditional party to me and my friends; We've been there since '93.
+        Just after Anarchy'97 we though we will not go to Asm'97, but somehow
+        we then decided to go. Two weeks of time left when I started to make
+        this intro, I just had to make SOMETHING.
+
+        Remember those little intros with chips on background and block
+        every here and there?-) ok, here's one of thosE "oLdE ScEwL"
+        intros from the beginning of '90s.. Looks familiar? Well it should,
+        hopefully it has the same spirit those classic a500 intros used to
+        have .. Nothing complex, nothing heavy stuff, just an intro to say
+        "hello world, we are alive and rocking!"
+
+        Sorry pДДls, couldn't optimize the speed - had to optimize the size
+        instead. A byte from here and there, it was quite a joy joy joy.
+
+        Partyreport, live!
+                It's friday 08/aug/1997, 06:48am, started to code the intro :)
+                two hours+12minutes and we'll have to be ready to get to the
+                partyplace. (3 kilometers away)
+
+
+
+   [)(] Music by METHYL;
+        Methyl promised to make a chiptune, so everything started to look
+    _   clear enough to start making an intro. Music was composed with
+    │\  Scream Tracker. No packer was needed to use coz it remained small
+   o┘   enough.
+    _
+   (_l  Graphics by SLIVER;
+   ._|  Since there was this size-
+    .-. limit and I had no idea how big was that chiptune going to be, I
+    |-  decided to make only ascii graphics; Faster to make, takes less
+    \/  bytes and looks all the way quite niCe. 'Graphics' are made in
+    /\  TheDraw(tm). Palettes and everything related to VGA are calculated
+        in the intro itself. Font was made in DP2 and converted with
+        BFS-Converter to TP7 understandable format. Picture in the end
+        is taken by Sliver at Anarchy'97 of Heap.
+
+   mov  Programming by SLIVER;
+    ax, Code was written with TurboPascal7.0, BECAUSE I'm still a beginner
+    13h with Watcom C.. Oh, Would I start to code, even, an intro with a
+   int  strange language when I have only two short weeks time, would I?-)
+    10h Anyways, main reason was that I didn't know how to make smaller
+    :   executables in Watcom (Except without 386 instructions) so I
+    .   decided to code one more intro with TP7. Not much precalculations,
+    .   only some little tables to speed it up a bit.
+        That dummy "Stickman's World" imitation was real-time calculated,
+        all the vertexes were moved by following some mathematical algebras.
+        Actually, over half of this intro was coded during the day before
+        assembly'97 began.. "gee" :)
+
+
+-[Aunt Samantha, we used atleast these programs]-------------------------------
+
+        Scream Tracker version 3.21
+          (C) Copyright 1993, 1994 Sami Tammilehto
+
+        Turbo Pascal version 7.0
+          (C) Copyright 1983, 1992 Borland International
+
+        Hacker's View version 5.60
+          (C) Copyright 1991, 1997 SEN, Kemerovo
+
+        Technical Editor version 2.61
+          (C) Copyright 1988, 1991 Superiour Soft
+
+        Dr. Teddy's 'DIET' program for files version 1.45f
+          (C) Copyright 1992 Teddy Matsumoto
+
+        TheDraw(tm) version 4.63
+          (C) Copyright 1986, 1993 TheSoft Programming Services
+                                   and Ian E. Davis
+
+        Deluxe Paint ][ Enhanced version 3.0
+          Deluxe Paint ][ by Dan Silva
+          MS-DOS version by Brent Iverson
+          Enhanced features by Steve Shaw
+          (C) Copyright 1985, 1994 Electronic Arts
+
+
+    *** Programs used in the compiled intro itself:
+
+        Adrenalin ModulePlayer version 0.96
+          (C) Copyright 1996 Antti Huovinen
+
+        Brainlez Font System (BFS) version 0.2р
+          (C) Copyright 1996, 1997 Brainlez Coders!
+
+        HurttaLITE/W version 3.14
+          HЪRTTA graphics routines by Sliver, Heap, Myrskymakkara
+          HЪRTTA detection routines by Sliver
+          HЪRTTA other routines and system functions by Sliver
+          (C) Copyright 1995, 1997 Brainlez Coders!
+
+
+-[DДd, I won the competition]--------------------------------------------------
+
+        Well, that's it. There are NO commandline parameters, just run
+        INTRO.EXE and watch the show. Known bugs are with ANSI.SYS which
+        comes with PC-DOS 7.0, it sometimes fucks up the "BC!" logo in
+        the beginning (for some mysterious reason, can't access 50line mode
+        like it should work) but that's probably because of undocumented
+        DOS command I've used to output text on the screen. Tested with
+        NNANSI.COM and worked fine. Another one is that something fucks
+        up in exit (in user exit only <hopefully>) - it crashes, but only
+        sometimes.. dunno is this one of the funny features of TP then :)
+
+        Have fun, hopefully this woke up some memories from the earlier
+        times of scene.
+
+        - Yours, Sliver /BC! 08/Aug/1997
+
+

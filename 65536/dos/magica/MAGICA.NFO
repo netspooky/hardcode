@@ -1,0 +1,68 @@
+                                                                          _.,;
+   'magica' - krotka opowiesc o szukaniu szczescia  ,                     $$$$
+;,._                                                ;                     $$$$
+$$$$                      --==Magica==--           ,S,                    S*"'
+SSSS                                             ,;SSS;,                  .,;,
+"*SS                           .,s,.        .,s,.sSSSSSs,.,sSSSSS??,sSs,,sSSS;
+Ss,._             _.,sS,sSs,,sS$$SS;,sSs,,sS$$SS;'''""SS ;$%"' SSSS$$"' ? :SS;
+SSSSSSs.       .sSSSSSS$$;  ?'s,$S''$$;  ?' ,$$;$$$$$ ?? SS;,. ^"'$$;    .;SS:
+$$$SSS'"^s,.,s^"'SSS$$$?SSs.,sS$$'  'SSs.,sSS$';SSS$$ "' 'SS?%*,. 'SSs.,sSS$'
+''""^^    '?'    ^^""""''''""^^^Ss,   '"*SS$$  ''''""      ';"'     ''""^^Ss,
+$$SS:  muzyka: blade            """       i$$                             """
+$$SS;     grafika: niggle (cain)          I$$                            ;SS$$
+$$$$Ss,._    programowanie: pienia        $$I                        _.,sS$$$$
+$$$$$$$$$$$$$$$$$$$$$$$$$$SSS???%%%;;;::: $$i :::;;;%%%???SSS$$$$$$$$$$$$$$$$$
+^^^^"""""""""""""""""""""""""'''''''''''' ""' ''''''''''''""""""""""""""""^^^^
+
+    Kazdy  z  nas  ma  swoja  MAGIKE.  Jes  to  stan  szczescia, spelnienia,
+  zadowolenia.  MAGICA  otacza nas, jest blizej niz sie spodziewamy. I nawet
+  jesli  wydaje  Ci sie, ze szczescie Cie omija, to jest to tylko zludzenie.
+  MAGICA  istnieje dla kazdego. Wystarczy tylko wytezyc percepcje i odnalezc
+  ja w sobie lub dookola siebie. Szczescie istnieje, tylko musisz je znalezc
+  i  chocbys  byl  w  bardzo  trudnej sytuacji nie zapominaj ze masz MAGIKE.
+  Pomysl o swojej dziewczynie, rodzinie, pracy, o czyms co sprawia Ci radosc
+  i daje uczucie spelnienia, satysfakcji. Czy to nie jest Toja MAGICA?...
+
+             I tak oto pierwsze intro Spiral stalo sie faktem...
+
+    Zdaje  sobie  sprawe  z  tego,  ze  nie  jest  to  techniczny i wizualny
+  majstersztyk.  Nic  na  to  nie  poradze  piszac  teraz te slowa. Nastepne
+  interko  bedzie  lepsze.  Co  do  wymagan  sprzetowych,  to jest to bardzo
+  ciekawa  sprawa. W zasadzie powinno pojsc na kazdym sprzecie. Tylko ze raz
+  bedzie  chodzilo  szybciej,  a  raz wolniej. Obawiam sie za na komputerach
+  duzo  szybszych  od  mojego  Celerona  400  niektore efekty moga za szybko
+  skakac  (i  nie  chodzi  tu o doskonaly kod, tylko o brak synchronizacji z
+  timerem). Jesli chodzi o uruchamianie, to najepiej odpalac intro w czystym
+  dosie  (np.7.0)  ze  sterownikami do SB i karta graficzna obslugujaca VESE
+  2.0  w  gore  (ew.  zainstalowane UNIVBE). U mnie intro dziala ;), ale nie
+  testowalem  na  innych  konfiguracjach,  wiec  bylbym  wdzieczny  za uwagi
+  odnosnie  dzialania  tegoz prodka na waszych kompach. Jesli sie wogole nie
+  uruchomi  (nie wiem dlaczego mialoby nie dzialac, ale sa rozne wypadki) to
+  tez dajcie znac. Z gory dzieki.
+
+  Kod:
+
+    Useless Player           - FreddyV/Useless
+    GIF loader               - NaNaRd/DGRT
+    VESA interface           - Payda/Procreation
+    Eclipse Operating System - Eclipse Group
+
+    Intro spakowane przy uzyciu UPX 1.07d
+
+    I  jeszcze  pare  gritkow ode mnie: dla wszystkich kumpli scenowych, a w
+  szczegolnosci   dla:   Annisa,  Blade'a,  Chebda,  Dharula,  Gexa,  Mista,
+  Nostre'go,  Nordbasse'a i Witha; dla wszystkich koderow, ktorzy przez caly
+  czas  duzo  mi  pomogli  (Carnage,  Creed,  MX, SoulRider, Xor); dla Was -
+  widzow, a w szczegolnosci tych ktorzy mnie nie wysmieja; dla moich kumpli,
+  za  to ze nie zlinczowali mnie do tej pory i jeszcze ze mna wytrzynuja; no
+  i  oczywiscie dla mojej MAGIKI (ktora i tak sie nigdy nie dowie, ze to dla
+  niej...)
+
+    I od Blade'a:
+    Sweet Kisses to My Belowed Spark - A'isza
+    Greetz to all of my Unholly Brothers
+
+'Worlds is full of Kings and Queens who blind your eyes and steal your dreams'
+
+azki by mist/spiral^pirce^secular
+text by pienia/spiral^dimness

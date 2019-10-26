@@ -1,0 +1,69 @@
+
+                F a r b S p i e l
+
+                written by salt of KOLABORE
+
+
+
+
+Introduction
+------------
+
+	The purpose of the game is to gather as many spheres by
+converting them to your own color. The winner of the game is the one
+with the most spheres on his side.
+
+
+
+Getting started
+---------------
+
+	This is a mutliplayer-only game for two, three or four
+players. First, you need to start the Farbspiel server by using the
+command line parameter "-s":
+
+	eg.: user1@computer1:~/games>./farbspiel -s
+
+        Then, all players need to connect to the server by using the
+"-h" parameter:
+
+	e.g.: user1@computer1:~/games>./farbspiel -h localhost
+              user2@computer2:~/games>./farbspiel -h <IP.of.computer1>
+
+	For all additional command line parameters, start the game
+using the "-?" parameter - you get an online help this way.
+
+
+
+How to play
+-----------
+
+	You can either start a new game (use the cursor keys to choose
+the desired game size) or join an existing game (existing games also
+appear in the list of available choices).
+
+	You can either be player or visitor. Visitors cannot do
+anything but watch and leave a game.
+
+(Check out the on-screen info for further functions and key bindings.)
+
+	Once the game has started, use your mouse to click on any
+sphere in the field. If there are spheres of the same color connected
+to your own player color, they will become yours. Cross-over converting
+is not possible, btw.
+
+	Just play it, you'll get into it quite fast.
+
+        Oh, before I forget, you can change the color outfit of
+Farbspiel! Just edit the file 'colors', add your own profiles or use
+existing ones.
+
+
+
+Have fun!
+
+
+
+
+--------------------------------------------------------------------
+visit http://www.kolabore.de/, the home of good music and Farbspiel.

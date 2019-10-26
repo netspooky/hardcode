@@ -1,0 +1,505 @@
+---------------------------------------------------------------------
+
+        ####   ###   ####  ####  ###  ##### ####   ###  ####
+        #   # #   # #     #     #   #   #   #   # #   # #   #
+        ####  #####  ###   ###  #   #   #   ####  #   # #   #
+        #   # #   #     #     # #   #   #   #   # #   # #   #
+        ####  #   # ####  ####   ###    #   #   #  ###  #   #
+
+                                  by 
+ 
+                      Ü M L A Ü T   D E S I G N
+
+---------------------------------------------------------------------
+
+                         a 4k intro made for
+                                  
+                            DemoZone 2005
+                                  
+                               held in
+                                  
+                     Biddinghuizen, Netherlands
+                                  
+                       23.07.2005 - 26.07.2005
+
+---------------------------------------------------------------------
+/// REQUIREMENTS
+
+    . D3DX9_24.DLL (We know. Not our fault. Ultimately you can
+      use a hex-editor to change it to _25 if you only have that
+      version.)
+    . 2.0 vertex- and pixel-shader capable video card and drivers
+      with hardware TnL (Software TnL and/or non-shader version
+      might be available on request. We didn't include them since
+      we didn't want people to judge the intro by a crippled
+      version.)
+    . 512MB of RAM
+    . 1.5GHz CPU
+
+---------------------------------------------------------------------
+/// CREDITS
+
+    : TSW
+    . engine code
+    . synth gui
+    . texture code
+    . extreme optimizing
+    
+    : GARGAJ
+    . sync + direction + concept
+    . shader code
+    . synth code
+    . music
+    . additional visuals
+    
+    . Visuals by a person not to be named yet...
+    
+    : THANKS TO
+    . Muhmac / Freestyle for 20to4
+    . Ryg / Farbrausch for kkrunch.exe
+      (It still crashes on 0 bytes though!!)
+    
+---------------------------------------------------------------------
+/// WE NEED STUFF
+
+    . Per-pixel diffuse and specular lighting with dot-3 bump
+      mapping and realtime generated normal map.
+      Probably wouldn't need 2.0 shaders. We know.
+    . Precalc takes ages. We know.
+    . Sync goes off sometimes. We know.
+    . ÜD will be 5 years old at Assembly 2005. (July 28.)
+    . 11MB of sound data calculated from circa 1200 bytes.
+    . Tsw joined ÜD.
+
+---------------------------------------------------------------------
+/// RANDOM GREETZ FOR OTHER SIZEWARRIORS
+
+    . AND
+    . Bero
+    . Chaos
+    . Frenetic
+    . Gizmo
+    . Hitchhikr
+    . KB
+    . Las
+    . Loaderror
+    . Maali
+    . Mentor
+    . R0k
+    . Skrebbel
+    . Slummy
+    . Smash
+    . Tonic
+    and
+    . ATI for RenderMonkey
+
+---------------------------------------------------------------------
+ üd-04: tet-rabrik   http://umlaut.intro.hu   2005 (c) Ümlaüt Design
+---------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ok, maybe it will become a tradition among us to write footnotes in the infofile..
+So, this time tsw taking over the keys: i don't know how Gargaj does it, all i see is
+he does it damn well. Kklangzeug is improving with every release, and i just can't
+do anything but murmur "omg" hearing the sounds he creates with this synth. And even
+while making the intro, the hacks and improvements he made saved us most of what could
+be saved of the file size.. H3 51 D4 R0xXoR.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Man, it feels so GOOD to have other people working on the prods... :)

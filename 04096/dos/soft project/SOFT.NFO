@@ -1,0 +1,109 @@
+                             The S.O.F.T. project
+                           commissioned by Valhalla
+
+                    by Optix & his little pixie Hollywood
+
+
+        April 2nd - bad day for me. Wrote a program, made a mistake, trashed
+my HD. Will cost 2500 pounds to untrash. Looks like nothing is coming back
+then.
+
+        On that HD was the most recent version of SOFT and all of the support
+utilities which go with it. By sheer luck I had given Statix/Psychic Link a
+copy of the executable. So after many abortive attempts at disassembling to
+retrieve the source code I have decided to release my 4Kb intro.
+
+        What makes this different? Its got a tune - a small very ditty written
+by Hollywood which all you GUS owners can hear. He was going to give me a new
+one but I couldn't be bothered to wait.
+
+        To that end these are the hardware requirements:
+
+(1) A 486 DX2+ - the effects kill the processor. Anything slower and arrange a
+funeral.
+
+(2) A Gravis UltraSound - not required but you lose half the experience. At
+least I did.
+
+If it crashes??
+
+        A 4K intro crashing?? God knows why if it did, it hasn't on the four
+machines I have tested in on but it does a couple of things which might cause
+problems:
+
+(1) It looks for the ULTRASND label in the environment. If it finds it, it
+assumes a GUS is present, finds the base port and starts sending rude
+information to it. If by any small chance you are stupid enough to have an
+ULTRASND label present and no GUS card (or something like an HD controller
+sitting at that address) then thats NOT MY PROBLEM. It will BE YOURS. Don't
+blame me for your stupidity.
+
+(2) It doesn't allocate memory, it just grabs it willy-nilly out of your
+computer. It doesn't give a damn what is sitting in that segment - it just
+takes. If your machine hangs horribly then try a clean boot. No, it doesn't
+support VCPI or DPMI, ok?
+
+Source code
+
+        I was intending to release the source code to this *but* I lost it in
+my HD trash. I am sure I have a copy lying about somewhere on one of those 200
+black unlabelled disks. If I find it I will release it.
+
+        I learnt how to code effects by sucking the wrong ends of marker pens
+and studying other people's source code. So its my turn to continue the
+tradition.
+
+Your in my you're-alright-you-are-list
+
+        these bristoluniversity students:
+
+jimger - <deep breath> anyway john
+dan - we know a song about that kids don't we
+sarah porter - stoopid
+naomi jobson - are you gonna come around for that second cup of coffee
+matt deeprose - can't think of anything to say oh i just have
+zed - thanks for buying the folder
+sam, ru, matt, chris - house we need a house
+z-block - oh for f*cks sake
+dan russell - chocolate muffin (nottinghamuniversity)
+
+        these sceners:
+
+statix/psychic link - thank you for the info on small time GUS coding and
+congrats on headache: marvellous ps i noticed that brender startup in headache
+
+sandman/valhalla - for totally ignoring all my suggestions and code i have
+written
+
+jmagic/complex - stay away from this man he is arrogant keep your kids at
+home and your pets locked up
+
+distance/orange - sorry
+
+xanthome/darkzone - so when am I coming to see your uk offices?
+
+p-nut/darkzone - cheers for the help on the chaos zoomer
+
+
+        the follow clans must be mentioned (smallprintinValhallacontract):
+
+         psychiclink legenddesigncubicteamcomplexnooonhybridorangeemf
+
+
+        and this company (smallprintinmysummerjobcontract):
+
+bullfrog - mentions to glenn,ian,russ(studentjumper),tony
+
+
+        these bands:
+
+reef, bush, skunkanansie, longpigs, placebo - topgigs, topbands
+
+
+Wanna contact me
+
+        god knows why but here goes
+
+                        ck5305@bristol.ac.uk
+
+            did you know this nfo file is bigger than the com file

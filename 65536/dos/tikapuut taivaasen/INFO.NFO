@@ -1,0 +1,106 @@
+Mailman nopeiten kirjoitettu info file, ellet usko niin kattokka
+guinnesin uudesta kirjasta, prkl :)
+
+Lue ekaks: Ei ole testattu gussilla, jotenka k„ytt„k„„ SB:t„!
+K„ytt”j„rjestelm„n kuulu olla D-O-S, jos takeena on toimivuus!
+
+
+Uskoakseni ainaki: 510kB Basee... ehk„ enemm„nki!
+
+T„ss„ listaa mill„ toimii hienosti:
+
+Modules using memory below 1 MB:
+
+  Name           Total           Conventional       Upper Memory
+  --------  ----------------   ----------------   ----------------
+  SYSTEM      18,688   (18K)     12,688   (12K)      6,000    (6K)
+  HIMEM       35,184   (34K)     35,184   (34K)          0    (0K)
+  EMM386       3,120    (3K)      3,120    (3K)          0    (0K)
+  4DOS         4,016    (4K)      4,016    (4K)          0    (0K)
+  SMARTDRV    29,040   (28K)     12,640   (12K)     16,400   (16K)
+  GMOUSE      18,704   (18K)     18,432   (18K)        272    (0K)
+  CTSB16      26,816   (26K)          0    (0K)     26,816   (26K)
+  CTMMSYS     10,544   (10K)          0    (0K)     10,544   (10K)
+  IFSHLP       2,864    (3K)          0    (0K)      2,864    (3K)
+  SETVER         832    (1K)          0    (0K)        832    (1K)
+  KEYB         6,944    (7K)          0    (0K)      6,944    (7K)
+  Free       591,456  (578K)    569,040  (556K)     22,416   (22K)
+
+Memory Summary:
+
+  Type of Memory       Total         Used          Free
+  ----------------  -----------   -----------   -----------
+  Conventional          655,360        86,320       569,040
+  Upper                  93,088        70,672        22,416
+  Reserved              393,216       393,216             0
+  Extended (XMS)*    32,412,768     2,643,040    29,769,728
+  ----------------  -----------   -----------   -----------
+  Total memory       33,554,432     3,193,248    30,361,184
+
+  Total under 1 MB      748,448       156,992       591,456
+
+  Total Expanded (EMS)                 32,817,152    (31M)
+  Free Expanded (EMS)*                 29,868,032    (28M)
+
+  * EMM386 is using XMS memory to simulate EMS memory as needed.
+    Free EMS memory may change as free XMS memory changes.
+
+  Largest executable program size         569,024   (556K)
+  Largest free upper memory block          22,160    (22K)
+  MS-DOS is resident in the high memory area.
+
+
+
+-------------------------
+---------
+
+Noilla muistim„„rill„ toimi hienosti!
+
+Ihan perus VGA modessa, eli 13h :)
+
+My”s ihan REAL MODE koodia, m„ tykk„„n Turbo Pascalista!
+
+T„m„ on meid„n tuotos teid„n ( JUHLA V ) 64KB intro kilpailuun, ehk„ v„h„n
+huono teos on, mutta eih„n kukaan ole hyv„ ( paitsi ehk„ jotkut).
+
+P120- koneella toimii, hiema nykien !
+
+Syy nykimiseen ja takkuiluun on ohjelmoijassa joka ei osaa eik„ jaksa
+optimoida eik„ edes ohjelmoida. (itses„„li„???) 
+
+Trouble shooting:
+
+Blank screen - Try to get some more base memory
+
+No sound - No soundcard
+
+Disclaimer:
+
+WE DO NOT TAKE ANY RESPONSIBLES ABOUT DAMAGES THAT THIS SOFTWARE CAN COUSE YOUR
+HARDWARE! 
+
+
+Credits for this production:
+ Did what           Handle      Age     Real name
+
+Code, design       : X-Regulus,  18,    Juuso Jokiniemi
+fonts              : Yoshi    ,  18,    Nicklas ™sterholm
+Music              : Dany     ,  19,    Daniel Kouvo      
+
+Contact info!
+
+3G Design Official Homepage:
+http://3gdesign.home.ml.org
+
+
+Frey's homepage:
+http://come.to/frey
+
+
+U.S.S. Endeavour -  the whq of 3G Design!
+
+Harmi ett„ en ehtiny linkata noita filej„ yhteen :(, muutenki t„ produ on
+sit„ sillen v„h„n, mut tekstit jotka on Leevi and the leavingseilta lainattuja
+ovat hienoja.
+siin„ kaikki: terkut ja pusut teille....
+

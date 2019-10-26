@@ -1,0 +1,20 @@
+Raving Tomatoes - Biomutating Planet Acid
+by T$
+
+Mekka+Symposium 4k Intro Competition
+
+Wait for the final release...
+
+The versions 
+TS4KMS02_1280x1024x32.COM and 
+TS4KMS02_800x600x32.COM
+use 24bit Z-Buffer (D24S8 mode),
+
+the version TS4KMS02_800x600x32D16.COM uses 
+16 bit Z-Buffer.
+
+All versions require a grpahic card supporting 32bit 
+rendering under DirectX 8 as well as a DirectSound 
+compatible soundcard.
+
+Versions for older cards will follow later (after the party)

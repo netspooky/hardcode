@@ -1,0 +1,10 @@
+This 256b intro is by Gargaj.
+
+Consists of a rotozoomer, a tunnel and a textoutput routine.
+
+Nothing coded at the partyplace.
+(Infofile is written here tho')
+
+Props to Shr, Pcn, BoyC, Mrc, and well everyone who's cool.
+
+Bah, this infofile sucks.

@@ -1,0 +1,135 @@
+USES GRAPH1
+.386
+
+BIOS 13H
+WRITELN 10," MPlayer!"
+
+DS=0A000H
+ES=06000H
+XOR DI
+XOR BX
+L1:
+  AX:=BX
+  SHR AX,2
+  IMUL SI,AX,320
+  CX:=320/3 ;80
+PUSH DI
+@:
+  IF CX==320/3-3*8 THEN
+    PUSH BX
+      YUS: STOSB
+      ++BX
+      IF BX<60 THEN YUS
+    POP BX
+  ENDIF
+  LODSB//AL&=3//SHL AL,6
+;  STOSB
+;  STOSB
+  STOSB
+  STOSB
+LOOP @
+POP DI
+  ;DI-=BX
+  DI+=320; ++DI;DI+=319-80*3
+  ++BX
+IF BX<4*24 THEN L1
+
+;CX:=16*320
+;@: AL:=[DI]//SHL AL,2//STOSB//LOOP @
+
+FS=ES
+
+GS=07000H
+ES=08000H
+
+
+DX:=03C8H
+AL:=0
+OUT DX,AL
+++DX
+XXX:
+  CX:=12
+  @: OUT DX,AL//LOOP @
+  ++AL
+IF AL<64 THEN XXX
+
+; AX:=12345
+
+;AX:=7000H //BX:=2000H//DOS 48H
+;ES:=AX
+;AX+=1000H
+;GS:=AX
+
+BX:=0
+
+CIK:
+DI:=0
+CX:=64000
+
+@:
+PUSH AX
+  AL|=[FS:DI+BX]
+  STOSB
+POP AX
+  IMUL AX,AX,54321
+  XOR AL,AH
+LOOP @
+
+BX-=321
+
+PUSH AX
+PUSH BX
+
+CX:=3
+IZE:
+
+PUSH DS
+PUSH ES
+PUSH GS
+POP ES
+POP DS
+POP GS
+
+--CX
+JZ VEGE
+
+; SMOOTH
+SI:=320*2
+@:
+  BX:=0
+  AX:=0
+  AL:=[SI]
+  BL:=[SI-1]//AX+=BX
+  BL:=[SI+1]//AX+=BX
+  ADD AX
+  BL:=[SI-320]//AX+=BX
+  BL:=[SI+320]//AX+=BX
+  BL:=[SI-321]//AX+=BX
+  BL:=[SI+321]//AX+=BX
+  BL:=[SI-319]//AX+=BX
+  BL:=[SI+319]//AX+=BX
+  SHR AX,4
+;  BL&=0C0H
+;  AL+=[FS:SI]
+  [ES:SI]:=AL
+  ++SI
+JNZ @ ;LOOP @
+
+=>IZE
+VEGE:
+
+!RASTER
+
+IN AL,60H
+--AL
+
+POP BX
+POP AX
+
+JNZ CIK
+
+;WAITKEY
+BIOS 3
+
+RET
+

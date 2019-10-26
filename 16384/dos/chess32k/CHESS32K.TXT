@@ -1,0 +1,34 @@
+
+                     Chess32k by SpaceCommander / ByTeGeiZ
+
+                         Version: 0.85 (Party Version)
+
+    Chess32k ist ein Freewarespiel. Seit nett und gebt es kostenlos weiter.
+
+In den sp„teren Versionen kommt noch ein Trainer zum interaktiven Schachlernen
+hinzu. Aber bis dahin gibt es noch genug anderes zu tun. Dem Schachcomputer wird
+            in der n„chsten Zeit noch etwas Intelligenz einbeleibt.
+
+    Meinungen und Bugmeldungen bitte an SpaceCommander@excite.de schicken.
+
+                                   Bedienung
+
+             ESC = kehrt ins Hauptmen zurck/beendet das Programm
+                            Bei der Namenseingabe:
+                              Enter = Best„tigen
+                             Entf = Namen l”schen
+                      Rcktaste = letztes Zeichen l”schen
+                                   Im Spiel:
+         Enter/Leertaste = Figur ausw„hlen/entw„hlen/absetzen/schlagen
+                       Cursortasten = bewegt den Cursor
+                               In den Optionen:
+                        hoch/runter = bewegt den Cursor
+         links/rechts/Enter/Leertaste = Option aktivieren/deaktivieren
+
+                                      Info
+
+                                 Ansilogo: MK2K
+                       Betatester: MK2K, Kilroy / Sanction
+                           Code + Idee: SpaceCommander
+                              Figuren: Dumpfbacke
+                                  Regeln: MK2K

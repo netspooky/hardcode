@@ -1,0 +1,36 @@
+  .o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.
+
+                                    OOO
+         OO             OOOOOOO     OOO   OOOOO     OO
+      OOOOOO           OOOOOOOO    OOOO OOOOOOO    OOO        O
+     OOOOOOO         OOOOO  OOO    OOOOOOOOOOO    OOOO       OOO
+    OOOOOOOO        OOOO   OOOO    OOOOOOOO       OOOO      OOOO
+   OOOOO OOO       OOOOO  OOOO     OOOOOO         OOOO     OOOOO
+  OOOO             OOOOOOOOOO     OOOOOO         OOOO     OOOOO
+ OOOO  OOOO       OOOOOOOOO       OOOOO          OOOO    OOOOO
+ OOO  OOOOO       OOOOOOO        OOOOO           OOOO  OOOOOOO
+OOOOOOOOOOOOO     OOOO    OOO    OOOO            OOOOOOOOOOOO
+OOOOOOO  OOOOOOO  OOOOOOOOOOO    OOOO            OOOOOOOOOOOO
+OOOOOO     OOOOO   OOOOOOOO      OOO              OOOOOOOOOO
+OOOO        OOOO    OOOO                           OOO  OOOO
+                                                       OOOO
+                                                       OOOO
+  Code/Gfx/Sfx: Vander 'imerso' Nunes                 OOOO
+  Direction Help: Lidiane 'lijanis' Vilaça            OOOO
+                                                     OOOO
+  Released at Kindergarden competition, Nov 2013    OOOO
+  * opengl 4.1 gpu + updated drivers recommended     O
+
+  This prod is a bit heavy on raymarching with reflections,
+  so screen resolution greatly affects performance.
+
+  Just in case, there is a 320x240 version in the package,
+  as that is a really quick little res that takes it easy
+  for the gpu.
+
+  If for any reason you want to try this prod in 320x240,
+  you may need to enable (just enable, not set) that mode
+  in your gpu driver -- check the gpu utility, it should
+  allow insertion of custom resolutions.
+
+  .o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.o.

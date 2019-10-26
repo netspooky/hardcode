@@ -1,0 +1,1 @@
+ruby binhexjs.rb original_assets\3ameternal.ahx >> AHXdump.js

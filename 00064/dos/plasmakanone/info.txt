@@ -1,0 +1,19 @@
+
+
+
+ plasmakanone
+
+ by tomaes + mados
+
+ Well, it's a 59 bytes effect for the 64 bytes intro competition at 0a000h.
+ Yes, we wasted 5(!) precious bytes. In case you have a really cool idea how
+ to fill the space, let us know. :)
+
+ Source and bonus mixes with esc support included.
+
+ http://tomaes.32x.de
+ http://maettig.com
+
+
+
+ narf.

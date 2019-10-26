@@ -1,0 +1,16 @@
+ 
+ -= First Attempt by Kakmonsterklubben =-
+
+ Quick hack, first try to do an OpenGL intro, 
+ also first try making it 64K.
+ Released at Amiga Summer Party '06.
+
+ Linux port:
+ The linux port requires libSDL to run.
+ Pass --no-fullscreen if you want it windowed. 
+
+
+ code: fulmust
+ music: fegolhuzz
+
+ 

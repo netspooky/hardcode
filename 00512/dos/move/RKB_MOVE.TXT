@@ -1,0 +1,9 @@
+  Russian Kulubussian present:
+=-------------------------------=
+512b intro "MOVE" for ByteFall`99
+---------------------------------
+	coded in 99% TP7!
+	     by GraX
+
+P.Sorry need VERY high pentium :(
+ (slow, because only 512bytes)

@@ -1,0 +1,10 @@
+Hello!
+
+This is my version of the common fire-effect. It is quite size-optimized, the
+COM is only 167 bytes long. But it still looks very good (IMHO)! Much better
+than the other little fires in the hornet-archive. If you like to contact me,
+my e-mail address is: groth@kulmbach.baynet.de
+
+Ziron/ALPiNE aka Christoph Groth
+
+BTW: Prepare to hear more from ALPiNE soon! :-)

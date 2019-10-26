@@ -1,0 +1,20 @@
+Crinkfix by snq/aardbei
+
+So here's a small tool that works around a problem that crinkler has with windows 7.
+It doesn't work for all intros, I'm not sure what that depends on, I assume there is
+more than one incompatibility with win7?
+Atrium gives an error "d3d9" which might be a hint? I don't know..
+It does work with eg Ixaleno.
+
+Usage then, the simplest way is to just drag the intro exe onto crinkfix.exe.
+Or if you are oldschool and use cmd, "crinkfix whatever.exe"
+
+What crinkfix does is make sure that crinkler gets the correct kernel32 base address.
+It does that by injecting some code into the process, that reorganizes the PEB module
+data to make sure the base address for kernel32.dll is at the position where crinkler
+expects it to be. This is done at runtime and the executable won't be modified.
+
+Well like I said it doesn't work for all intros so don't expect too much. But I
+figured it's better than nothing for now :)
+
+Feedback/suggestions are welcome at n111co@spam.com, replace spam with hotmail.

@@ -1,0 +1,9 @@
+-injars release/tmp.jar
+-outjars release/tmp2.jar
+-libraryjars <java.home>/lib/rt.jar
+-printmapping proguard.map
+-printseeds
+-overloadaggressively
+-defaultpackage ''
+-allowaccessmodification
+-keep public class * extends java.applet.Applet

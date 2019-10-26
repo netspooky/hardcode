@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4k_euskal09", "4k_euskal09.vcproj", "{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6D20B60A-1053-4017-8BCE-C5CAEFB415E0} = {6D20B60A-1053-4017-8BCE-C5CAEFB415E0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "textIncluder", "tools\textIncluder\textIncluder.vcproj", "{6D20B60A-1053-4017-8BCE-C5CAEFB415E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Debug|Win32.Build.0 = Debug|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Release|Win32.ActiveCfg = Release|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Release|Win32.Build.0 = Release|Win32
+		{6D20B60A-1053-4017-8BCE-C5CAEFB415E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6D20B60A-1053-4017-8BCE-C5CAEFB415E0}.Debug|Win32.Build.0 = Debug|Win32
+		{6D20B60A-1053-4017-8BCE-C5CAEFB415E0}.Release|Win32.ActiveCfg = Release|Win32
+		{6D20B60A-1053-4017-8BCE-C5CAEFB415E0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

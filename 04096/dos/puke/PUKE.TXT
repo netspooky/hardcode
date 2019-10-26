@@ -1,0 +1,50 @@
+
+                                   Ä PUKE Ä
+
+    ŞÛ  ÛÛ  ÛÛ  ÜÛÛ
+    ÛÛÜÜÛÛÜ ÛÛÜÛÛß
+    ßßßßÛÛß ÛÛßÛÛÜ
+        ÛÛ  ÛÛ  ßÛÛ  movement '96 intro compo            one week production
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                                         completed: 11/11/96
+   credits:
+     code   - BoRZoM
+     design - BoRZoM
+     puking - BoRZoM
+
+   system requirements:
+     80386 + math coprocessor
+     VGA compatible card
+     about 400kb of free memory
+     
+   notes:
+     this intro is written ofcourse in assembler, and the source code is
+     52,128 bytes long. nothing special to say, except the julia routine
+     is only 67 bytes (hehe). anyway, the intro is not optimized not for
+     speed and not for size, its just was a good reason to kill some time. 
+     the syncronization sucks. anyway, the intro includes: texture tunnel,    
+     julia, mandelbrot, 2d bump, water, texture mapper, zoomer and more 
+     like font/background generators, and lots of useless text... 
+     uncompressed size of the intro is 7498 bytes.
+
+   tools used to create puke:
+     turbo assembler 3.1
+     turbo link 5.1
+     assembler laboratory v1.0
+     compack v4.5
+     and lots of cigaretts..
+
+   trouble shooting:                       
+     if the intro crashes, try a clean boot, because the way my intro
+     manages the memory. if the intro runs slowly, well, get a pentium.
+                                           
+   greetings:                              
+     Adept             Linus Torvalds       Speedy
+     Civax             Mental Trip          Sticky Baboon
+     ExtraViolent      One                  Trex
+     Hex               Riff Raff            Vlad
+                                           
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                           
+                             Ä DRINK YOUR PUKE! Ä
+

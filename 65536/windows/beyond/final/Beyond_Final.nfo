@@ -1,0 +1,79 @@
+
+                       C  O  N  S  P  I  R  A  C  Y
+                    
+                                 presents
+
+                           a 64k  demonstration
+                                 
+                              at st(ART)2004
+                              
+                                 entitled
+                                 
+                             B  E  Y  O  N  D
+
+                 * * *   F I N A L   V E R S I O N   * * *
+
+-----------------------------------------------------------------------
+
+The authors:
+~~~~~~~~~~~~
+  BOYC     - tool code, mesh generation, engine code
+  GARGAJ   - texture generator, synth, postfilters, additional code
+  INNOCENT - additional music, mastering
+  VINCENZO - main music composition
+  ZOOM     - concept, design, modelling, textures, direction
+  
+Special thanks to:
+~~~~~~~~~~~~~~~~~~
+  Nytrik/Cocoon for representing us a the partyplace (YOU ROX!)
+  The st(ART)04 organizers: Chandra, Krafton, Knos and Skal
+  Ryg/Farbrausch for kkrunchy
+  Remage/Fresh!mindworkz for sound code support and beta testing
+  Reptile/Astroidea for visual code support & ati compatibility checks
+  Witeshade for the denormal-documentation
+  Stefan/DXM for being always nice to us :)
+
+  Special moral support thanks to:
+    Buzzie, Qdor, OnTheRun, Leon, Trigger, Sir Garbagetruck
+    and Erzo, our one and only groupie \:D/
+
+About:
+~~~~~~
+  Here it is, the first intro made with our second generation tools.
+  (aDDict2 by BoyC and a new Buzz-based softsynth called MVX by Gargaj)
+  At last we managed to get this on a level that is something close to
+  what we wanted to release at st(ART)2004.
+
+  Let's see what you get in this final: lots of engine updates, a new
+  timer routine for a smoother show, texture quality selector (for lower
+  memory machines), some new scenes and visual content upgrades.
+  Oh and a nifty icon, too ;)
+
+  Extra special thanks go to two great artists, Greg Martin
+  (www.artofgregmartin.com) and Gary Tonge (www.visionafar.com), and
+  to the makers of the movie 'Contact'. Their works gave me (ZooM) much
+  inspiration during the creative process.
+
+Required hardware and software:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  MMX-capable processor
+  DirectX 8.0
+  Multitexture-capable, OpenGL-comaptible videocard and drivers
+  
+Recommended config:
+~~~~~~~~~~~~~~~~~~~
+  ~900 Mhz processor
+  GeForce 3 or Radeon 8500-quality graphics adapter
+  DirectSound 8 compatible sound card
+  Fresh(!) graphic drivers. (At least 4x.xx for nVidia, >=3.9 for ATi)
+  
+Greetingz fly to:
+~~~~~~~~~~~~~~~~~
+  Starlight, Epilepsy, Digital Devotion, TGD, Fairlight, Farbrausch,
+  Singular Crew, Fresh!mindworkz, AstroideA, MFX, Kolor, Madwizards, 
+  Cocoon, Holograms, Unique, Progress, Threestate, The Black Lotus,
+  United Force, AND, Disaster Area, Stravaganza, Quarz, Procreation,
+  Stockholm Syndrome, DC5, Kewlers, Threepixels, XPLSV, Suspend, Skim
+
+-----------------------------------------------------------------------
+http://conspiracy.intro.hu                          Conspiracy (c) 2004

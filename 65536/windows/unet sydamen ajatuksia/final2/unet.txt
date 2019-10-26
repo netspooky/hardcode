@@ -1,0 +1,47 @@
+
+Unet sydämen ajatuksia
+  Dreams - thoughts of the heart
+    Drömmer - hjertets tanker
+      Träume - die gedanken des herzens
+        Dromen - de gedachten van het hart
+          Az álmok a szív gondolatai.
+            Les reves sont le reflet de notre coeur
+              Sonhos sao os pensamentos do coracao
+
+Final version.              
+
+Sometimes  the things  we want  to say are  hard to express.  So although  the
+poetry is gathered  from the ancient wisdom from  the far east they are really
+also the thoughts of our hearts.
+
+The people who contributed their thoughts to the intro:
+
+     T i m o   H a r j u                                               visuals
+     M i k a   S c h u l m a n                               even more visuals
+     M a r k u s   P a s u l a                                     programming
+     M a t t i   P a l o s u o                         music, add. programming
+
+     N i k o   P e l t o n e n                           translation (English)
+     N i c o l a a s   E.   G r o e n e b o o m        translation (Norwegian)
+     R o y   J a c o b s                                   translation (Dutch)
+     N i c o l a s   L é v e i l l é                      translation (French)
+     F r a n k   M e i s t e r & K a i   F i s c h e r    translation (German)
+     S z a b o l s c   M e n y h e i                   translation (Hungarian)
+     F i l i p e   C r u z                            translation (Portuguese)
+     
+   
+The intro needs Win32+DirectX and works in  640x480 32bpp or 16bpp resolution.  
+The player used is MXMplay for Windows by Elitegroup.   If this intro seems to
+work too slow (swaps or so) use lowmem option.  (Even 64Mb of memory seems not
+to be enough. What does Windows do with all that memory?)  
+
+We'd like to send friendly hugs to everyone  who we know (and to those we even
+don't know).  And especially warm hugs to all you  nice people who made  it to
+the Trax00 party.
+
+Contact information:
+
+matti.palosuo@helsinki.fi (just for anything, "you ripped bstates" hatemail)
+markus.pasula@helsinki.fi (bug reports)
+timo.harju@pp6.inet.fi (about the art)
+mika@tpolm.org (more about the art)

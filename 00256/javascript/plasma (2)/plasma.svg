@@ -1,0 +1,15 @@
+<svg viewBox="0 0 1 1">
+ <radialGradient id="1">
+  <stop offset="0" stop-opacity="0"/>
+  <stop offset=".2"/>
+  <stop offset=".4" stop-color="tan" stop-opacity="0"/>
+  <stop offset=".6"/>
+  <stop offset=".8" stop-opacity="0"/>
+ </radialGradient>
+ <ellipse rx="2" ry="3" fill="url(#1)">
+  <animateTransform attributeName="transform" type="rotate" from="0" to="180" dur="4" repeatCount="indefinite"/>
+ </ellipse>
+ <ellipse rx="3" ry="4" fill="url(#1)">
+  <animateTransform attributeName="transform" type="rotate" from="0" to="180" dur="3" repeatCount="indefinite"/>
+ </ellipse>
+</svg>

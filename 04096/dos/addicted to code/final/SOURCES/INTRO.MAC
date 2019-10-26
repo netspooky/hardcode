@@ -1,0 +1,55 @@
+InitVesa	MACRO
+	mov	di,offset VesaNfo
+	mov	cx,VideoMode
+	mov	ax,4f01h
+	int	10h
+	or	ah,ah
+	jnz	Error
+	mov	ax,4f02h
+	mov	bx,VideoMode+16384
+	int	10h
+	cmp	ax,004Fh
+	jz	NoError
+Error:
+	mov	dx,offset VesaError
+	mov	ah,9
+	int	21h
+	mov	ah,4ch
+	int	21h
+NoError:
+	mov	eax,ds:[CodeLinear]
+	sub	ds:[VramPtr],eax
+ENDM
+;%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+MakeMultab	MACRO
+	mov	di,offset multab
+
+	xor	ax,ax
+@mk_multab0:
+	push	ax
+	shl	ax,3
+	shr	al,3
+	mul	ah
+	shr	ax,5
+	stosb
+	pop	ax
+	inc	ax
+	cmp	ax,1024
+	jnz	@mk_multab0
+;----------------------------------	
+	xor	ax,ax
+@mk_multab1:
+	push	ax
+	shl	ax,3
+	shr	al,3
+	add	al,ah
+	cmp	al,31
+	jbe	@mk_multaba
+	mov	al,31
+@mk_multaba:
+	stosb
+	pop	ax
+	inc	ax
+	cmp	ax,1024
+	jnz	@mk_multab1
+ENDM

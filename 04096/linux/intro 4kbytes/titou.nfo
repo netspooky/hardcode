@@ -1,0 +1,11 @@
+INTRO 4kbytes by Titou / Shagreen
+
+Released at the LTP 3 , Crosnes, France 27-29 Aug 1999
+Source avalaible at http://titou.planet-d.net
+
+Run with /dev/fb0 in 640x480 16bits / pixel and /dev/dsp
+(/dev/fb0 is optional in kernel above 2.1.x, ie 2.2.x, 2.3.x)
+Please set your fb driver to this resolution.
+
+titou@planet-d.net
+

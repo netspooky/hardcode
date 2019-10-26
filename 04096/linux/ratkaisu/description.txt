@@ -1,0 +1,10 @@
+Tässä linuxille tehdyssä työssä pyörii kuutio siihen asti kunnes se o ratkaistu, eipä siinä kummempaa. Käytetty SDL ja Opengl kirjastoja.
+
+Resoluutio käännetyssä ohjelmassa on 1280x800
+
+Käynnistys:
+./ratkaisu.gz
+
+Lähdekoodi löytyy main.c tiedostona.
+
+PS. Tosiaa ei oo äänii

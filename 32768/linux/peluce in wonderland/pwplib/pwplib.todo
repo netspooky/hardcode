@@ -1,0 +1,34 @@
+Some targets:
+
+	- support font customization in vt220/320 terminals.
+	  other terminals with font customization, anyone?
+
+	- font analysis in linux console (see if ibm, look for rasters
+	  etc)
+
+	- support vt100 (charsets & attributes)
+
+	- pure ascii without control codes (only an optional &
+	  user-definable 'home cursor' code)
+
+	- generic terminal output (termcap/terminfo)
+
+	- lossy filtering to speed up remote transfers
+
+	- 2x1/2x2 zooming for very big terminals (such as big xterm windows)
+
+	- X11: drawtext, drawimage 
+
+	- graphical output:
+	  - 1bpp output (optimization for low-bandwidth X connections)
+	    (in 4x4 or 8x8 font, perhaps even 2x2 or 1x1)
+	  - 16-color output ("exact textmode emulation")
+	  - 256-color output (raster parts in color chunks)
+	  - 16/256 colors in 4x4 char size (for low bandwidth)
+	  - truecolor multimedia (bilinear filtering in raster parts)
+
+	- sound targets: generic /dev/audio, linux console, X11 beeps
+
+	- stdout sound output: raw, au, wav; mod, sid, midi?
+
+	- stdout graphic/multimedia video output (mov/avi)

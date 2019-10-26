@@ -1,0 +1,15 @@
+
+		-=64k Intro ForSel - by Viper Craft=-
+
+
+design & code: Viper Craft
+music: -=]Mad Max[=-
+
+ForSel.exe   - normal intro
+ForSelhi.exe - better graph ( more polygons in frame... )
+
+Quick Info:
+Platform Win32...
+needs OpenGL rasterizer card...(like TNT2 or better)
+use '-nosound' switch to disable music...
+

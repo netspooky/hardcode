@@ -1,0 +1,17 @@
+name: epilepsy
+
+author: rmeht/skim
+email: rmeht@devils.com
+site: http://rmeht.altervista.org/
+
+tools: vc6, opengl
+
+info:
+my first 4k intro. yeah!
+
+warning:
+don't drink during the intro!! :)
+
+greets:
+gargaj for his synth
+ozon for the "music"

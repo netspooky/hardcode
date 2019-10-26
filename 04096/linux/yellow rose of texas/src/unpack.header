@@ -1,0 +1,1 @@
+dd bs=1 skip=83<$0|gunzip>/tmp/T;cd /tmp;chmod +x T;__GL_FSAA_MODE=4 ./T;rm T;exit

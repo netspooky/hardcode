@@ -1,0 +1,311 @@
+<HTML>
+  <HEAD>
+    <TITLE>bob readme.</TITLE>
+    <META http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<!-- bob colours:
+
+COL_BORDER:   #a7537b
+COL_BG:       #9bafc7
+COL_SCORE_BG: #ffa753
+
+-->
+
+    <STYLE TYPE="text/css">
+
+BODY 
+  { 
+    font-family: courier new, courier;
+    font-weight: normal;
+    font-size: 12pt;
+    line-height: 1.2em;
+    letter-spacing: -0.1em; 
+    text-decoration: none;
+    text-align: justify; 
+
+    background: #575783;
+    color: #D0D0FF;
+
+    margin: 7em;
+    border: 0em;
+    padding: 0em;
+  }
+
+H2 
+  { 
+    font-family: verdana, arial, sans-serif;
+    font-weight: 900;
+    font-size: 18pt;
+    margin-bottom: -1.2em; 
+    color: #7070A0; 
+  }
+
+DIV       { margin-left: -4em; text-align: center; border: 0; }
+UL        { margin-left: 3em; }
+P         { margin-left: 1em; }
+P.sig     { text-align: right; }
+A:visited { color: #D0D0FF; text-decoration: none; }
+A:link    { color: #D0D0FF; text-decoration: none; }
+A:active  { color: #D0D0FF; text-decoration: none; }
+
+TT        { text-align: left; font-weight: bolder; }
+
+    </STYLE>
+
+  </HEAD>
+
+  <BODY>
+
+    <DIV>
+    <IMG src="img/bob.gif" alt="[ picture of bob. ]">
+    </DIV>
+
+    <H2>bob!</H2>
+    <P><EM>bob</EM><BR>
+    Copyright &copy; 2001 <A HREF="mailto:warp-tmt@dds.nl">Kuno
+    Woudt</A>(aka 
+    <A HREF="http://huizen.dds.nl/~warp-tmt">warp</A> of
+    <A HREF="http://www.demonic.demon.nl">bliss</A>).
+
+    <H2>table of contents</H2>
+    <UL>
+      <LI><A HREF="#intro">introduction</A>  
+      <LI><A HREF="#system">system requirements</A>
+      <LI><A HREF="#linux">linux port</A>
+      <LI><A HREF="#options">command line options</A>
+      <LI><A HREF="#story">story</A>  
+      <LI><A HREF="#options">options</A>
+      <LI><A HREF="#game">playing the game</A>
+      <LI><A HREF="#powerups">powerups</A>
+      <LI><A HREF="#score">score</A>
+      <LI><A HREF="#credits">credits</A>
+      <LI><A HREF="#thanks">greetings and thanks</A>
+      <LI><A HREF="#links">links</A>
+      <LI><A HREF="#license">license and disclaimer</A>
+      <LI><A HREF="#eof">eof</A>
+    </UL>
+
+    <A name="intro"><H2>introduction</H2></A>
+    <P>Hi!</P>
+    <P>You're reading the readme for bob, 
+    which is a 32k game for the game compo at
+    <A HREF="http://ms.demo.org">mekka & symposium</A> 2001.
+    bob is heavily inspired by jawbreaker (on commodore
+    64), it can be considered as a pc re-implementation
+    for two players.</P>
+    <P>Don't hesitate to send me a message if you're having
+    trouble with this release, or want to send me feedback
+    in the form of flames or patches or whatnot.</P>
+    <P class="sig">-- 
+    <A HREF="mailto:warp-tmt@dds.nl">warp</A> of
+    <A HREF="http://www.demonic.demon.nl">bliss</A>.</P>
+    <P>ps. fxmp doesn't play the tunes entirely as intended - most
+    players don't - so please have a listen in FastTracker 2 if you
+    have any interest in chip music. The original .xm's are in
+    <TT>src/data.src/</TT>.</P>
+
+    <A name="system"><H2>system requirements</H2></A>
+    <P>This game tries to run in a 400x300 256 colour
+    videomode, if it cannot obtain this it will fall
+    back to a windowed mode which emulates the 256
+    colour mode on top of a 15/16/24 or 32 bit mode.</P>
+    <P>I guess you need about 166mhz or 200mhz if your 
+    system supports the 400x300 8bpp mode (most of it runs
+    fine on my 133mhz pentium, but some of the powerups
+    are a bit sluggish on that box :). If the 
+    windowed mode is used you need a faster machine.<P>
+    <P>Other then that you currently need Microsoft
+    DirectX 7 (or, if you're brave enough - you can
+    try the Linux/GGI port).</P>
+    <P>Also, this game tries to do its timing on the
+    vertical retrace, so if you can adjust it somewhere
+    you're advised to set the refreshrate in 400x300 to 
+    70hz for smooth display.</P>
+
+    <A name="linux"><H2>linux port</H2></A>
+    <P>Smoke was kind enough to port my DirectDraw and
+    Direct Input code to GGI. There are still strange bugs
+    due to the nature of GGI and DirectInput.</P>
+    <P>To build bob <TT>cd</TT> into
+    <TT>src/GNU</TT> and type <TT>make</TT>. You can
+    also try <TT>make release</TT> if you want to
+    compress the binary with upx.</P>
+    <P>Bob will should run as intended using the
+    svgalib target, but this is untested :), use 8bpp or
+    <TT>GGI_DISPLAY=palemu</TT> in X.</P>
+    <P>For smooth display in X you may need to change the
+    scheduling in the linux kernel - change the 
+    <TT>#define HZ 100</TT> into something like 1024
+    in <TT>linux/include/asm-i386/param.h</TT>.</P>
+
+    <A name="#options"><H2>command line options</H2></A>
+    <P>With command line options you can force <EM>quiet
+    mode</EM> and/or <EM>windowed mode</EM>, e.g.</P>
+    
+    <P><TT>d:\ms2001\32kgame>
+    bob&nbsp;in&nbsp;a&nbsp;window,&nbsp;please.</TT></P>
+    <P>or</P>
+    <P><TT>d:\ms2001\32kgame>
+    bob&nbsp;could&nbsp;you&nbsp;be&nbsp;quiet?</TT></P>
+    <P>or both</P>
+    <P><TT>d:\ms2001\32kgame>
+    bob&nbsp;--window&nbsp;--quiet</TT></P>
+
+    <A name="#story"><H2>story</H2></A>
+    <P>once upon a time there was a snowman.
+    a snowman called bob, which is a very
+    good name for a snowman. this snowman
+    called bob had a friend called bob.
+    which seems rather confusing, but bob
+    didn't mind, and neither did bob.</P>
+    <P>one day, bob and bob had an argument,
+    and they stopped talking to each other.
+    but then they got real lonely on
+    christmas, and so both of them decided
+    to make a new friend out of snow. when
+    bob saw what bob was doing things got
+    really ugly while both of them tried
+    to sabotage the other's progress...</P>
+    <P>so, this is where you people come in,
+    please help bob and bob create their
+    friend out of snow.</P>
+
+    <A name="options"><H2>options</H2></A>
+    <P>Before you start playing you should configure
+    the players (select options -> p1 setup):</P>
+    <UL>
+    <LI>keymap: select qwerty or dvorak (sorry,
+    no german, french, italian, etc. keymap support).
+    <LI>name: enter your name.
+    <LI>controls: game controls, note that the action
+    and escape keys are only used in the menus and not
+    in the game itself.
+    <LI>radix: select binary, octal, decimal or 
+    hexadecimal display for score and powerup timeouts.
+    </UL>
+    <P>
+    When you've configured both players choose save setup
+    to save this configuration - it will be automatically
+    loaded the next time you run the game.</P>
+
+    <A name="game"><H2>playing the game</H2></A>
+    <P>Now, select start game to start. The objective
+    is to gather all snow on your half of the screen.
+    you will encounter evil mutant snowmen which are 
+    best avoided and the obligatory powerups, described 
+    below.</P>
+    <P>The game ends when either player dies or gathers
+    all snow.
+    </P>
+    <P>To control your character, just press a key once.
+    So, if you want to go up, press the up key once, bob
+    will wait for a hole to come by and go up when he's
+    allowed to do so (move right or left to cancel it).
+    Press left once for left, and if you want bob
+    to stop press left again. Same principle for right and
+    down (the action and escape keys aren't used in the 
+    game).</P>
+
+    <A name="powerups"><H2>powerups</H2></A>
+    <P>
+    A number of delicious powerups will appear magically
+    in the game arena, they all have an effect on either
+    you or your opponent for a certain amount of time (and
+    other powerups cannot be used on this player while such 
+    a timer is active).</P>
+    <P>
+    <IMG src="img/reverse.gif"  width="22" height="22"> 
+    <STRONG>reverse:</STRONG> reverse the opponents keys.<BR>
+    <IMG src="img/hole.gif"     width="22" height="22">
+    <STRONG>hole:</STRONG> remove your horizontal bars.<BR>
+    <IMG src="img/food.gif"     width="22" height="22">
+    <STRONG>food:</STRONG> you are able to eat the evil mutants.<BR>
+    <IMG src="img/drug.gif"     width="22" height="22">
+    <STRONG>drug:</STRONG> drug your opponent.<BR>
+    <IMG src="img/zoom.gif"     width="22" height="22">
+    <STRONG>zoom:</STRONG> obscure your opponents vision.<BR>
+    <IMG src="img/gravity.gif"  width="22" height="22">
+    <STRONG>gravity:</STRONG> opponent falls down to bottom row.<BR>
+    <IMG src="img/prison.gif"   width="22" height="22">
+    <STRONG>prison:</STRONG> lock the opponent on the current row.<BR>
+    <IMG src="img/speedup.gif" width="22" height="22">
+    <STRONG>speedup:</STRONG> you move twice as fast.<BR>
+    </P>
+
+    <A name="score"><H2>score</H2></A>
+    <P>Here's a list of things which increase your score (points in decimal):
+    </P>
+    <UL>
+    <LI>+ 1 point for eating a dot of snow.
+    <LI>+30 points for eating all snow.
+    <LI>+20 points for the opponent if you die.
+    <LI>+10 points for eating an evil mutant snowman (during food! powerup).
+    <LI>+10 points for a narrow escape (moving up/down with an evil mutant snowman near).
+    </UL>
+    <A name="credits"><H2>credits</H2></A>
+    <UL>
+    <LI>code: <A HREF="mailto:warp-tmt@dds.nl">warp</A>.
+    <LI>graphics and design: <A HREF="mailto:warp-tmt@dds.nl">warp</A>.
+    <LI>music: tharsis.
+    <LI>music player: 
+    <A HREF="http://flare.theplanes.org">fxmp</A> by spectre
+    of <A HREF="http://flare.theplanes.org">flare</A>.
+    <LI>beta testing: <A HREF="mailto:cougar-z@dds.nl">cougar</A>, mugshot.
+    </UL>
+    <P>(game concept based on jawbreaker)</P>
+
+    <A name="thanks"><H2>greetings and thanks</H2></A>
+    <P>Greetings to: avoozl, burp, cavey, jylam, mooz, rigel, smoke, spectre, 
+    violator, xef4, zarq, everyone else 
+    in #demoscene, all the people here at MS2001, 
+    and all I forgot.</P>
+
+    <P>special thanks to some folks who provided valuable suggestions:
+    </P>
+    <UL>
+    <LI>ir for explaining the details of how <TT>char * foo = "bar";</TT> works in .c.
+    <LI>smoke for some excellent optimization suggestions.
+    <LI>avoozl for pointing out I should use <TT>volatile</TT>.
+    </UL>
+
+    <A name="links"><H2>links</H2></A>
+    <P>This program was compressed with <EM>The Ultimate Packer 
+    for eXecutables</EM> by Markus Oberhumer & Laszlo Molnar, which
+    is available at 
+    <A HREF="http://upx.tsx.org">upx.tsx.org</A>.</P>
+    <P>For more opensource demoscene related stuff try some
+    stuff by <A HREF="http://die.die.ms/ecfh">ecfh</A>,
+    <A HREF="http://flare.theplanes.org">flare</A> or
+    <A HREF="http://www.demonic.demon.nl">bliss</A>.</P>
+    <P>Also visit Jylam's 
+    <A HREF="http://lnxscene.org">lnxscene.org</A> and 
+    Smoke's #demoscene on <A HREF="http://openprojects.net">openprojects</A>
+    irc to get a glimpse of the opensource and linux
+    demo communities.</P>
+    
+    <A name="license"><H2>license and disclaimer</H2></A>
+    <P>This file is part of bob, a 32k game for 
+    Mekka&nbsp;&&nbsp;Symposium&nbsp;2001.<BR>
+    Copyright 2001 Kuno Woudt <warp-tmt@dds.nl></P>
+    <P>This program is free software; you can redistribute it 
+    and/or modify it under the terms of the GNU General
+    Public License as published by the Free Software Foundation; 
+    either version 2 of the License, or (at your option) any 
+    later version.</P>
+    <P>This program is distributed in the hope that it will be 
+    useful, but WITHOUT ANY WARRANTY; without even the implied 
+    warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+    PURPOSE.  See the GNU General Public License for 
+    more details.</P>
+    <P>You should have received a copy of the GNU General 
+    Public License along with this program (see the file 
+    <A HREF="copying.txt">copying.txt</A>); if not, write to the 
+    Free&nbsp;Software&nbsp;Foundation,&nbsp;Inc., 
+    59&nbsp;Temple&nbsp;Place, Suite&nbsp;330, Boston, 
+    MA&nbsp;&nbsp;02111-1307&nbsp;&nbsp;USA</P>
+
+    <A name="eof"><H2>eof</H2></A>
+    <P>end of file</P>
+
+  </BODY>
+</HTML>

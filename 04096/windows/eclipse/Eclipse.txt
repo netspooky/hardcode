@@ -1,0 +1,31 @@
+Evoke 2004: Eclipse
+
+Comments
+--------
+
+- Its compressed without ordinal importing. (Everbody who needs to use this feature is a pussy) 
+- Compoversion is optimized for Windows XP.
+- Better rendering quality could be archived with an nVidia Adapter.
+- you can shorten the 4k's estaminted running time with ESC. 
+- Try to KILL the APPLICATION after it ends with CTRL+C. 
+- the intro doesnt end by itself cause of some wiered problem with the "Windows Multimedia System". 
+- This piece of so called art was done in ~6 weeks with about 6-8 hours a day..
+
+
+Credits
+-------
+
+Matthias "Tales" Markowski - Maciek@Markowski-web.de
+
+
+Greetings in rand() order
+-------------------------
+
+geno, ToXiC, slc, Finn, sash, ebl
+
+
+Rules
+-----
+
+Farbrausch, Kewlers, AND, Cocoon, Moppi, tpolm
+Razor1911, paniq, vic

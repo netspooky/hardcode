@@ -1,0 +1,41 @@
+			    195/95/256
+               (final version of a party version)
+
+	original demo by Plastic (http://www.plastic-demo.org)
+
+	   squezzed into 64 KB by rgba (http://www.rgba.org)
+
+		   1st place at Euskal Encounter 13
+
+                              2005
+
+
+ This version  the final version.  We worked hard during more  than a month to optimize
+the music synthetizer,  that was just jucking the Pentium 4 caches,  branch  prediction 
+and all that waste of sillicon. We didn't notice the problem until the deadline because
+we  were basically testing on AMD and MACs.  Now, it  takes  about 3 times less precalc
+time, so hopefully you can watch the intro without going to take a coffe while loading. 
+The precomputation bottleneck is  know on the graphics card,  so you will need a Radeon 
+9600 at  least to load the intro quickly.  You also need that kind of graphics  card to 
+smoothly see the rendering, anyway. Forgat about NV FX5?00.
+
+ We also  improved the sound quality, and also some minor visual details.  All to make 
+you happy. 
+
+
+.code
+
+	iq 	[iquilezles@hotmail.com]
+	gortu   [ressl@lonetree.com]
+	enlar	[enlar@rgba.org]
+	utopian [utopian@rgba.org]
+
+.3d
+	marius	[marius@rgba.org]
+	r3d	[r3d@rgba.org]
+
+.music
+	jewoll	[jewoll@hotmail.com]
+
+.art
+	plastic

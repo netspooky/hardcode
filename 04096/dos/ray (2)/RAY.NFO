@@ -1,0 +1,18 @@
+'RAY'
+
+Code : Purple Viking of Beyond
+Logo : Snake Grunger of Beyond
+
+Technical details:
+All scenes computed with recursive raytracing. Traced to a depth of 6.
+Features:
+- diffuse shading
+- phong shading
+- reflections
+- spline based camera and light keyframing
+
+Static shots are traced internally at a resolution of 640x400x24bit.  
+Then downsampled to 320x200 to reduce aliasing.
+
+
+

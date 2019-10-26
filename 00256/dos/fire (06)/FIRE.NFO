@@ -1,0 +1,47 @@
+ €ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€€€ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ€
+ € €ﬂﬂ€€€€€€ ﬂ€ﬂ €€€€€€ﬂ€€€€€ €€€€‹ €€€€€ﬂ ﬂ ‹€€€€‹ €ﬂﬂ€€€€€€ ﬂ€ﬂ €€€€€€ﬂﬂ€ €
+ € ›‹‹ €€€€€€ ﬂ €€€€€€ ‹‹ ﬂ‹ ˛ €€€€ €€€€ ‹ﬂ €€€€€€€€ﬂ ‹ €€€€€€ ﬂ €€€€€€ ‹‹ﬁ €
+ €‹‹€€‹ €€€€€€‹€€€€€€ ‹€€€‹ €‹‹€€€€ €€ﬂ ‹€ €€ﬂ ˛˛ ‹ﬂ €€‹ €€€€€€‹€€€€€€ ‹€€‹‹€
+ €ﬂﬂ€€ﬂ €€€€€€ﬂ€€€€€€ ﬂ€€€€‹ ﬂ€€€€ ‹€ ‹ﬂﬂﬂ €€€‹‹ﬂﬂ ‹€€€ﬂ €€€€€€€€€€€€€ ﬂ€€ﬂﬂ€
+ € ›ﬂﬂ €€€€€€ ‹ €€€€€€ ﬂ€€ﬂﬂ €€€€ ‹€‹ ﬂ ﬂ€‹€€€   ﬂﬂﬂﬂﬂﬂ €€€€€€ € €€€€€€ ﬂﬂﬁ €
+ € €‹‹€€€€€€ ‹€‹ €€€€€€‹‹‹‹€€€€ ‹‹€€€€‹‹€€ﬂ ﬂ€€‹€€€€€‹‹€€€€€€ ‹€‹ €€€€€€‹‹€ €
+ €‹‹‹‹‹‹‹‹‹‹‹€€€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹€
+                                                                        z0ner
+xlm_fire.zip - 2nd Xylem release!
+
+        This was a quick little intro I coded only days before (and a few
+after) the #coders 256 byte fire compo deadline.  I had very little knowledge
+of asm before I wrote this and I learned a whole lot while coding it.  The 
+source was just commented by myself so that anyone who was at all interested
+in "how I did that" could look at it and maybe understand it.  I am a firm 
+believer in releasing source code because it takes quite a bit of effort to 
+read someone's source and understand it.  It is harder and harder to blatently
+rip it and paste it into your onw (I've learned this the hard way).  Besides
+if someone does (and this is meaningful, not some 1987 effect that no one 
+gives a shit about) then everyone will know and flame them.  Hmm, this is
+becoming too moralistic.
+        The routine uses a faked 160x100 video mode by writing 2x2 pixels.  I
+did use a virtual screen so that it would still run rather smoothly on really
+slow machines.  I didn't have a "wait for vertical retrace" routine in it 
+until the very end when I cut up the FULL FLEDGED RANDOM NUMBER GENERATOR so
+that it make words instead of dwords.  The random number generator was 
+"borrowed" from another fire routine in which the author "borrowed" it from a
+guy who coded some other routine who still goes un-named.  It only produces 
+slight errors on some numbers so if the fire doesn't look all that random then
+just hit a key and try again (if you hit F3 then dos prints out the last line
+you typed for ya :).
+        This info file was typed very slowly at 11:00 pm and I hope I did a 
+better job of the grammer ands spelling :) then our last production in which
+I had to finish writing the source, test it, and get it to compile correctly, 
+and then write some cheezy little info file (of which my main man Loki cut 
+out my original ascii art :) and then get it all zipped and uploaded to 
+cdrom.com; all of this on x-mas day only minutes before I had to run off to
+my girlfriends house (with only 4 hours of sleep x-mas eve) and talk with her
+ultra-conservative, morman, ancient, old-school mother until midnight.  Man,
+that sentence was as bad as they get.
+
+        Signing out!
+
+        The Unlord/XLM
+        a.k.a.
+        Nathan Egge

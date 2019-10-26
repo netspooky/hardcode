@@ -1,0 +1,28 @@
+INTRO = intro
+RELEASE = release
+CC = gcc
+NASM = nasm
+AFLAGS = -DFULLSCREEN_
+OBJECTS = main_linux.o synth.o intro.o
+CFLAGS = -Os -ffast-math
+LIBS = -nostdlib -ldl -lm
+#LIBS = -nostartfiles -ldl -lm
+SFLAGS = -R .comment -R .note -R .note.ABI-tag -R .fini -R .gnu.version
+
+$(INTRO): $(OBJECTS) Makefile
+	$(CC) $(OBJECTS) $(LIBS) -o $@ 
+
+$(RELEASE): $(INTRO)
+	strip $(SFLAGS) $(INTRO)
+	gzip --best $(INTRO)
+	cat gzstub.sh $(INTRO).gz > $(RELEASE)
+	gunzip $(INTRO).gz
+	chmod a+rx $(RELEASE)
+	ls -l $(RELEASE)
+    
+
+clean:
+	rm $(INTRO) $(OBJECTS)
+
+%.o: %.asm
+	$(NASM) $(AFLAGS) -f elf $^ 

@@ -1,0 +1,63 @@
+
+                ‹‹€  ‹‹‹‹‹‹   ‹‹‹‹‹   ‹‹‹‹‹‹‹   ‹‹‹‹‹‹   ‹‹‹‹‹
+              ≤€€€≤ €€€  €≤€ €€€  ≤€› €€€  ≤€€ €€€  ≤€€ ≤€€  €≤›
+               ≤€€€ €€€  ﬂﬂﬂ €€€  €€€ €€€  ﬁ€€›€€€  ﬂﬂﬂ €€≤  €€≤
+               ﬁ€€€  ﬂﬂﬂﬂ€≤‹ €€≤  €€€ €€≤  ﬁ€€› ﬂﬂﬂﬂ€≤‹ €€€  €€€
+                ≤€€ﬁ€€›  ﬁ€€›€€€‹‹€≤ﬂ €€€  ﬁ€€ﬁ€€›  ﬁ€€›≤€€‹‹€€ﬂ
+            ::: ‹‹‹ ﬂ≤€‹‹€≤ﬂ ﬂ≤€‹‹‹‹  €≤€  ≤€€ ﬂ≤€‹‹€≤ﬂ ﬂ€€‹‹‹‹‹ ‹::‹
+-       - - -- ﬂ€€≤ﬂ -------+----------------------------------- -- - -       -
+   . . .  y o u r   r e g u l a r   d o s e   o f   b a d   t a s t e  . . .
+-    - - --- ----------------------------------------------------- --- - -    -
+
+      introduction
+
+      welcome to this first !sense production. !sense is a newly formed
+      dutch demogroup. all our members live in the southern part of the
+      netherlands.
+
+      sense is :
+
+      deadline     - coder, portable nuclear waste dispose unit
+      inopia       - coder, long-haired lowlife scum
+      sagacity     - coder, tester of experimental dogfood
+
+
+      system requirements
+
+      minimal system                     recommended system
+
+      80386sx / 16mhz                    80486dx2 / 66mhz or higher
+      500kb base memory                  500kb base memory
+      1mb xms memory                     1mb xms memory
+      vga graphics adapter               vga graphics adapter
+      60kb free harddisk space           60kb free harddisk space
+                                         gravis ultrasound with 1 mb or more
+
+
+      troubleshooting
+
+      out of memory when initalizing sound system :
+      -- free more base memory. 600kb should do the trick.
+
+      xms initialization failure :
+      -- install himem.sys, or reboot. if the intro exited with an error
+         before, all your xms memory has been reserved by the intro, so
+         i'd reboot if i were you.
+
+      crashes when uploading samples to gus :
+      -- either free more base memory, or check your ultrasnd environment
+         is correct. if you have set this, and don't have a gus, the intro
+         might crash. furthermore, if you do have a gus and the settings
+         are wrong, the same could happen.
+
+
+                ‹‹€  ‹‹‹‹‹‹   ‹‹‹‹‹   ‹‹‹‹‹‹‹   ‹‹‹‹‹‹   ‹‹‹‹‹
+              ≤€€€≤ €€€  €≤€ €€€  ≤€› €€€  ≤€€ €€€  ≤€€ ≤€€  €≤›
+               ≤€€€ €€€  ﬂﬂﬂ €€€  €€€ €€€  ﬁ€€›€€€  ﬂﬂﬂ €€≤  €€≤
+               ﬁ€€€  ﬂﬂﬂﬂ€≤‹ €€≤  €€€ €€≤  ﬁ€€› ﬂﬂﬂﬂ€≤‹ €€€  €€€
+                ≤€€ﬁ€€›  ﬁ€€›€€€‹‹€≤ﬂ €€€  ﬁ€€ﬁ€€›  ﬁ€€›≤€€‹‹€€ﬂ
+            ::: ‹‹‹ ﬂ≤€‹‹€≤ﬂ ﬂ≤€‹‹‹‹  €≤€  ≤€€ ﬂ≤€‹‹€≤ﬂ ﬂ€€‹‹‹‹‹ ‹::‹
+-       - - -- ﬂ€€≤ﬂ -------+----------------------------------- -- - -       -
+           . . .  w e   s u c k   a n d   w e   k n o w   i t  . . .
+-    - - --- ----------------------------------------------------- --- - -    -
+

@@ -1,0 +1,11 @@
+	Solitary Confinement by Faemiyah
+
+Modelling and code by Elina & Vantte Kilappa (Ninave & Warma)
+
+Thanks to Tatu Kilappa (Trilkk) for the loader and GLSL lesson.
+
+NOTE: The entry is only guaranteed to work in it's pure 4096  byte form in
+      FreeBSD 7.2 with nVidia cards. To view the intro as intended on other
+      platforms, please compile and run it using Autotools.
+
+NOTE: Does not appear to work with ATi.

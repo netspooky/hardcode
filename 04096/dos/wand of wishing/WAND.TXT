@@ -1,0 +1,31 @@
+
+ A 4kb intro from Assembly 99
+  Wand of Wishing
+   by SounDemoN
+    Copyright(c) 1999 Otto J„rvinen
+
+You should have the blaster environment variable set in order to get sound.
+Otherwise the intro will assume it should use A220 I7 D1. Alternatively you
+can give the environment setting as command line input to the program. ("wand
+A220 I5 D1" for example) Note that the environment variable is always used if
+found, so see to it that it is correct or not specified at all.
+
+It might be that my Sound Blaster routines suck because I haven't been able
+to test them enough. They should work well with any DMA(8bit) and base 
+address but high IRQ:s may suck. You should avoid using high IRQ:s and a
+bad DMA or base address, the intro will tilt (it will not display an error
+message as it should). But if you are using a high IRQ and good base and
+DMA values the intro will wait and tilt in the end... (and I think you will
+hear sound during the intro =) )
+
+I think it was a very good idea to allow sound and music in the 4kb compo.
+Any demo or intro is very boring without sound, especially 4kb intros because
+they tend to be very boring anyway. The music in Wand of Wishing was software
+synthesized and therefore I managed to avoid those terrible adlib sounds.
+
+Oddly enough the size limit was not a problem for me this time! I thought it
+always would be when making 4kb intros, but this time it was different. Maybe
+it was because my "3d effect engine" takes less than 512 bytes(!). It works
+in a quite special way as you might imagine...
+
+        SounDemoN

@@ -1,0 +1,14 @@
+ind presents
+
+ .___ |^|_. ___.
+ / _ \| | // _ \
+( <_> )  \( <_> )
+ \___/|_|_|\___/
+
+OKO - Obydwaj Kodujemy Ostro
+(We Both Code Hard)
+128 bytes intro
+----------------------------
+coded by Pirx and Tigrou
+assembled with NASM 0.99.05
+October 2007

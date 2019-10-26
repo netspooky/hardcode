@@ -1,0 +1,8 @@
+Version Infortable
+
+       program     | released    |  size              |  status
+-------------------+-------------+--------------------+--------------
+ monitor.asm       | 5 june 2008 | 256b (special fit) | no compiled
+ monitor_blur.asm  | 6 june 2008 | 227b               | compiled
+ monitor_fast.asm  | 6 june 2008 | 220b               | compiled
+ monitor_min.asm   | 6 june 2008 | 205b               | compiled

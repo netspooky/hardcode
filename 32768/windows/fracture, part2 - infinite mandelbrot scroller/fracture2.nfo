@@ -1,0 +1,14 @@
+quite - fracture, part2: infinite mandelbrot scroller 
+
+authors
+	unc
+	ized
+	preston
+
+requires
+	a32b32g32r32f and vs&ps_2_0 (geforce 6 should be enough)
+
+uses
+	crinkler (thanks to mentor&blueberry)
+	kkrunchy (thanks to ryg)
+	v2 synth (thanks to kb)

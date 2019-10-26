@@ -1,0 +1,22 @@
+SEASHELL by TomCat/Abaddon
+256b intro for the RiverWash 2017 demo party
+
+this effect was first used in our 64k intro called Pied
+shown at ASM'95 in Helsinki...
+later it was coded as a 4k called Shells1
+and finally here is the 256b version!
+
+Cause of the 640x480 resolution truecolor video mode
+I recommend to run the intro under FreeDOS
+
+256b should be enough for everything :)
+
+- kapor@dit.hu
+
+
+With the help of Rufus: https://rufus.akeo.ie/
+it's very easy to make a bootable USB with FreeDOS.
+Then after restart press F12 for a DELL, F9 for a HP PC
+and just select the legacy USB drive from the boot menu!
+
+video: https://youtu.be/Y84dE6MOdhE

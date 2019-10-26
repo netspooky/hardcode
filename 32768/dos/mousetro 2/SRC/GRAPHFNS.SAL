@@ -1,0 +1,213 @@
+unit 286 GraphFns 
+.386
+
+assume ds:@code,cs:@code
+NoJumps 
+
+Extrn BufferPtr:DWord 
+
+Procedure Far Bar x, y, w, h, c 
+   mov  es,word ptr BufferPtr+2 
+   imul di,y,320 
+   add  di,x
+   cld 
+
+   mov  al,byte ptr c
+   mov  ah,al
+   push ax 
+   shl  eax,16
+   pop  ax 
+
+   mov  dx,w 
+   mov  bx,320
+   sub  bx,dx
+   mov  si,h
+
+   mov  bp,dx
+   shr  bp,2
+
+   $If =0
+      $Do
+         mov  cx,dx 
+         rep  stosb 
+   
+         add  di,bx 
+         dec  si 
+      $EndDo =0       
+   $Else 
+      $Do 
+         mov  cx,bp 
+         rep  stosd
+         test dl,10b
+         $If <>
+            stosw
+         $EndIf
+         test dl,1
+         $If <>
+            stosb
+         $EndIf    
+   
+         add  di,bx 
+         dec  si 
+      $EndDo =0
+   $EndIf   
+EndProc
+
+Procedure Far OutChar x, y, w, c, CharDataS, CharData 
+   Store ds 
+
+   mov  ds,word ptr BufferPtr+2 
+   imul si,y,320 
+   add  si,x
+   les  di,dword ptr CharData 
+
+   mov  dl,byte ptr c
+   mov  cx,w
+   $Do 
+      mov  al,es:[di]
+      inc  di
+      inc  si 
+      
+      test al,1
+      $If <>0
+         mov  [si],dl
+      $EndIf
+      test al,2 
+      $If <>0
+         mov  [si+320],dl
+      $EndIf
+      test al,4 
+      $If <>0
+         mov  [si+2*320],dl
+      $EndIf                
+      test al,8 
+      $If <>0
+         mov  [si+3*320],dl
+      $EndIf                
+      test al,10h 
+      $If <>0
+         mov  [si+4*320],dl
+      $EndIf                
+      test al,20h 
+      $If <>0
+         mov  [si+5*320],dl
+      $EndIf                
+   $EndDo Loop   
+   
+   Restore 
+EndProc 
+
+Procedure Far GetImage x, y, w, h, ImageS, Image
+   Store ds
+
+   mov  ds,word ptr BufferPtr+2 
+   imul si,y,320 
+   add  si,x
+   les  di,dword ptr Image 
+   cld
+
+   mov  ax,w
+   mov  dx,ax 
+   stosw
+   mov  ax,h
+   stosw 
+
+   mov  bx,dx
+   shr  bx,2 
+
+   mov  bp,320
+   sub  bp,dx 
+
+   $Do
+      mov  cx,bx 
+      rep  movsd
+      test dl,10b
+      $If <>0
+         movsw
+      $EndIf
+      test dl,1
+      $If <>0
+         movsb
+      $EndIf    
+      
+      add  si,bp 
+      dec  ax 
+   $EndDo =0
+
+   Restore 
+EndProc
+
+Procedure Far PutImage x, y, ImageS, Image
+   Store ds
+
+   mov  es,word ptr BufferPtr+2 
+   imul di,y,320 
+   add  di,x
+   lds  si,dword ptr Image 
+   cld
+
+   lodsw 
+   mov  dx,ax 
+   lodsw
+
+   mov  bx,dx
+   shr  bx,2 
+
+   mov  bp,320
+   sub  bp,dx 
+
+   $Do
+      mov  cx,bx 
+      rep  movsd
+      test dl,10b
+      $If <>0
+         movsw
+      $EndIf
+      test dl,1
+      $If <>0
+         movsb
+      $EndIf    
+      
+      add  di,bp 
+      dec  ax 
+   $EndDo =0
+
+   Restore 
+EndProc
+
+Procedure Far PutBlock x, y, ImageS, Image
+   Store ds
+
+   mov  es,word ptr BufferPtr+2 
+   imul di,y,320 
+   add  di,x
+   lds  si,dword ptr Image 
+   cld
+
+   lodsw 
+   mov  dx,ax 
+   lodsw
+   mov  bx,ax 
+
+   mov  bp,320
+   sub  bp,dx 
+
+   $Do
+      mov  cx,dx 
+      $Do
+         lodsb 
+         cmp  al,255 
+         $If  <>
+            stosb 
+            $Next Loop
+            $Leave
+         $EndIf
+         inc  di 
+      $EndDo Loop
+      
+      add  di,bp 
+      dec  bx 
+   $EndDo =0
+
+   Restore 
+EndProc

@@ -1,0 +1,9 @@
+FARNATOR
+a 256 byte "mini-intro"
+made in 6 man-hours
+
+original C code by biff <biff@kakiarts.de>
+assembly by KeyJ <keyj@kakiarts.de>
+
+our first attempt at 256 byte intros,
+so be prepared that it sucks.

@@ -1,0 +1,24 @@
+express.
+a simple non-accelerated intro for flag 2001
+by disaster area.
+
+requirements:
+    as many cpu cycles as you can get. (athlon 700 is ok, faster is better)
+    win9x/2000 with directx.
+    intro runs in 512x384x32bit graphics mode.
+	
+credits:
+    code:           (null)    void303@hotmail.com
+    code/gfx/sfx:   ript      davet@tekniche.com.au
+
+uses:
+    minifmod        www.fmod.org
+    UPX             upx.tsx.org
+
+greets:
+    dodgeyhack, the epilepsy robot, steve, jdigital, compagnie, sphlorb,
+    jackal, MZ, resistance, factory, gyr, zoon, euphoria, shock, raster,
+    zensunni, chimera, bud, spoonman, penfold, and anyone we forgot =)
+
+that's all.
+

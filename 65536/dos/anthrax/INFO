@@ -1,0 +1,81 @@
+
+  anthrax                  mango
+
+
+  this 64k intro participated at summer encounter 98 in denmark. enjoy.
+
+
+  credits
+
+    graphics     jan
+    code         scale
+    music        (unknown)
+    player       pascal (mxmplay)
+    pmodew       daredevil and tran
+    le-pack      scale
+    vesa kit     submassive/cubic team
+    beta-testing muad'dib/blasm, xi/qubix and qute/qubix
+
+
+  technical info
+
+    . the vesa routine halts if you select a non-existing color depth!
+    . scale's linear executable compressor (le-pack) is used for smaller size
+    . the particle object consists of 4481 particles of 8x8 pixels each
+    . no time for code optimization - sorry!
+    . the 32bpp zoomer used is a fixed point bilinear interpolated zoomer
+    . all the textures and sun-flares are generated
+    . the intro works well with matrox millenium i, matrox mystique and
+      tseng et6000 cards, but it doesn't work correctly with a matrox
+      millenium ii (at least not at the one tested!)
+    . if you have problems making the intro run or find any bugs, please
+      email scale right away!
+
+  requirements:
+    . approx. 8mb of free memory
+    . a fast pentium pc (intel perferred - we use the fpu a lot!)
+    . 32bpp or 24bpp gfx card (use univbe with matrox cards!)
+
+
+  contact us via email
+
+    scale@homemail.com
+    jan_mango@hotmail.com
+    mango.dk@writeme.com   (may not work any longer!)
+
+  or snail-mail jan for gfx-swapping
+
+    mango
+    kronens kvarter 2c
+    2620 albertslund
+    dk-denmark
+
+
+  check out our www site
+
+    http://mangoscene.home.ml.org
+
+
+  greetings
+
+    ravian/jello, jmagic/complex, echo/fudge, craft/fudge, solon/fudge
+    manchild/fudge, juggler/xtacy, django/xtacy, reptile/astroidea
+    melan/astroidea, mrz/astroidea, tsc/astroidea, nix/tbl, virne/coma
+    statix/psychic link, slyde/blasphemy, rbecue/purple, thorsten/purple
+    vipa/purple, frigo/ribbon, slide/polka brothers, merge/polka brothers
+    maf, unreal/pulse, pearl/passion, blackaxe/kolor, depth/sol, qute/qubix
+    xi/qubix, muad'dib/blasm, beeblebrox/blasm, funnel, sh0dan, adrian
+    curion, eckart, kalms, marie, lucas, julius, lasse, malcolm x, cobra
+    rezen, zeus, wreko, zteel, facet, made, jets, dreamer/sublogic&tpolm
+    frenzy, goblin, dfj, atx, monz, pupu/urinate, gaffer, cremax, motive
+    raven/tpolm, probe/tbl, sagacity/quad, samsam/quad, badpixel, highvolt
+    #demoscene, #dk-scene, #coders
+    pascal (mxmplay), tran & daredevil (pmodew).
+
+    thanks to:
+      the prone crew for giving scale some hints on the colors
+      qute/qubix for helping out with some bugs in the texture generator
+      xi/qubix for helping out making the intro work with a matrox mystique
+
+    Extra special greetings from Scale to Kir - you made it possible...
+                                                i love you!

@@ -1,0 +1,125 @@
+*\=-=-=-=-=-=-=-=-=-=-=/*
+
+ ВВВВВВ P I R I T     
+ ВВ     R И           П
+ ВВ     E Г   FINAL   Г
+ ВВВВВВ S Г    BOOM   Г
+     ВВ E Г OR , WHAT Г     
+     ВВ N Г YOU CAN DOГ
+     ВВ T Г WITH A    Г
+ ВВВВВВ S Р   TORUS   Х
+
+ RELEASED AT BIZARRE '95
+
+*/-=-=-=-=-=-=-=-=-==-=-\*
+      GREETINX GO TO
+  (IN DIABETICAL ORDER)
+
+          ACME
+         SUCCESS
+ FUTURE (?) CREW (YEAH RIGHT..)
+       LOGIC DESIGN
+    CRAPWARE (MOO! BOOM!)
+           VOID
+   IDG COMMUNICATIONS NL.
+       HCC LIMBURG
+         NOSTALGIA
+  CASCADA (THX FOR THE PLAYER)                лл  лл  лл  лл  лл  лл
+    BIZARRE ORGANISATION                        лл  лл  лл  лл  лл  лл
+      TAZMANIAN DEVIL                         лл  лл  лл  лл  лл  лл
+       LEGEND DESIGN                            лл HIT HERE TO  лл  лл
+    SURPRISE!PRODUCTIONS                      лл  лл  CONTINUE л  лл
+    JESKOLA!PRODUCTIONS                         лл  лл  лл  лл  лл  лл
+          TRITON                              лл  лл  лл  лл  лл  лл
+        HELLY COLA                              лл  лл  лл  лл  лл  лл
+          SMITHS                              лл  лл  лл  лл  лл  лл
+           PRIME                                лл  лл  лл  лл  лл  лл
+          COMPLEX
+          MASSIVE
+         ARMY BOOTZ
+
+  .. and special greets to our big friend ..
+
+    Tuukka Paavola -> Bloody/Spirit !!!
+
+          And 
+          to  
+       everybody 
+         else 
+          we
+         might 
+         have 
+        forgotten 
+        somewhere , 
+        some time , 
+        some place , 
+      we love ya all !!
+        
+        except ....
+
+   Red Scorpion -> FUCK YA! .. no .. KILL YA! >:-((
+
+
+## Our ANSI release for Bizarre 95 ..
+
+#13[$e13,whaddaya mean , cls 
+
+## Let's do some 68000 Motorola :-)><
+
+ Move.L D0,Complex
+ Mulu.L D0,Acme
+ Move.L Spirit,D0
+ RetF
+
+## Violent Unix
+
+ PS -UA
+ > RED SCORPION
+ KILL -9 RED SCORPION
+
+## Maniac Asm
+
+ Mov Ax,SEG Windows
+ Mov Es,Ax
+ Mov Di,Offset Windows
+ Mov Cx,65535
+ Xor EAx,EAx
+ Rep StosD
+
+
+We apologize for this beeing the longest FILE_ID 
+    you've probably ever SEEN !!
+__________________________________
+The end of this diz .. , 
+    We SWEAR this is the last line !! 
+    REALLY !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Got you .. !

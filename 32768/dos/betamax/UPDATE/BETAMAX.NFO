@@ -1,0 +1,54 @@
+
+----------------
+  Betamax v1.1
+----------------
+
+Hi Folks !
+
+This is the first update of BETAMAX.
+Only some new enemy-waves - nothing special or big.
+
+
+Here's some info about the game:
+
+It's written 100% in Assembler (Real Mode).
+The Music is composed with 'Surprise! Adlib Tracker V2.00'
+The program is meant to be run on a Pentium with PCI-VGA at 70 fps.
+All motion is _not_ timer-controlled - have fun on VLB-VGA -=|-]]
+For working sound try booting DOS-only !
+
+I only changed some minor bugs of the Party-version, so don't expect too much.
+(At least this version ends after the last enemy-wave ;) ). Maybe I'll also
+release a version with more enemies.
+
+
+The keys:  Cursor : Move ship
+---------  CTRL   : Fire
+           Alt    : Get extras
+           Space  : Pause, terminate 'Game Over' and 'Congratulations'-Screen
+           ESC    : Exit game
+
+The extras:  1.) Speed                  )
+-----------  2.) Fire-frequency         )  All extras have a time limit.
+             3.) Up/down/diagonal-fire  )  The better the weapon -
+             4.) Bomb                   )     the shorter the time
+             5.) Missile                )
+             6.) Shield                 )
+
+What to do:  Blast enemies, collect energypoints and exchange them for extras.
+-----------
+
+
+
+Greetings to Erik Pojar / S!P for the Adlib Player/Tracker,
+                                             ...and to all of you out there.
+
+If you have questions or problems playing 'Betamax' write me an email to:
+nemec@stud.uni-frankfurt.de
+
+Bye,    Han Solo/The CoExistence/simple    1997.04.13 - 23:07
+                                 update:   1999.05.11 - 03:12
+
+Visit us at          WWW.THE-COEXiSTENCE.DE
+(whenever it will be finished... ;) )
+

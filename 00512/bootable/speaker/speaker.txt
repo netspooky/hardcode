@@ -1,0 +1,56 @@
+WoZeR
+
+'AsmCompo8.exe
+It's an "image" of the floppy disk, Just insert a floppy and run.
+
+'Sector 0 of floppy disk
+EB3C904D53444F53352E30000201010002E000400BF009001200020000000000000000000000296CF0CEBE4E4F204E414D4520202020464154313220E461500C03E661B03CE642B9F40151B900D0E2FE59E2F72C0175EE5824FCE661000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+
+;Boot From Floppy and Play short burst of sound
+
+seg000:0000                 public start
+seg000:0000 start           proc near
+seg000:0000                 in      al, 61h         ; PC/XT PPI port B bits:
+seg000:0000                                         ; 0: Tmr 2 gate --- OR 03H=spkr ON
+seg000:0000                                         ; 1: Tmr 2 data -+  AND 0fcH=spkr OFF
+seg000:0000                                         ; 3: 1=read high switches
+seg000:0000                                         ; 4: 0=enable RAM parity checking
+seg000:0000                                         ; 5: 0=enable I/O channel check
+seg000:0000                                         ; 6: 0=hold keyboard clock low
+seg000:0000                                         ; 7: 0=enable kbrd
+seg000:0002                 push    ax
+seg000:0003                 or      al, 3
+seg000:0005                 out     61h, al         ; PC/XT PPI port B bits:
+seg000:0005                                         ; 0: Tmr 2 gate --- OR 03H=spkr ON
+seg000:0005                                         ; 1: Tmr 2 data -+  AND 0fcH=spkr OFF
+seg000:0005                                         ; 3: 1=read high switches
+seg000:0005                                         ; 4: 0=enable RAM parity checking
+seg000:0005                                         ; 5: 0=enable I/O channel check
+seg000:0005                                         ; 6: 0=hold keyboard clock low
+seg000:0005                                         ; 7: 0=enable kbrd
+seg000:0007                 mov     al, 3Ch ; '<'
+seg000:0009 
+seg000:0009 loc_10009:                              ; CODE XREF: start+19j
+seg000:0009                 out     42h, al         ; Timer 8253-5 (AT: 8254.2).
+seg000:000B                 mov     cx, 1F4h
+seg000:000E 
+seg000:000E loc_1000E:                              ; CODE XREF: start+15j
+seg000:000E                 push    cx
+seg000:000F                 mov     cx, 0D000h
+seg000:0012 
+seg000:0012 loc_10012:                              ; CODE XREF: start+12j
+seg000:0012                 loop    loc_10012
+seg000:0014                 pop     cx
+seg000:0015                 loop    loc_1000E
+seg000:0017                 sub     al, 1
+seg000:0019                 jnz     loc_10009
+seg000:001B                 pop     ax
+seg000:001C                 and     al, 0FCh
+seg000:001E                 out     61h, al         ; PC/XT PPI port B bits:
+seg000:001E                                         ; 0: Tmr 2 gate --- OR 03H=spkr ON
+seg000:001E                                         ; 1: Tmr 2 data -+  AND 0fcH=spkr OFF
+seg000:001E                                         ; 3: 1=read high switches
+seg000:001E                                         ; 4: 0=enable RAM parity checking
+seg000:001E                                         ; 5: 0=enable I/O channel check
+seg000:001E                                         ; 6: 0=hold keyboard clock low
+seg000:001E                                         ; 7: 0=enable kbrd

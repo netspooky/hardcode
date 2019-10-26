@@ -1,0 +1,4 @@
+#!/bin/bash
+while(/bin/true) do
+netcat -l -p 2000 -e ./service.awk
+done

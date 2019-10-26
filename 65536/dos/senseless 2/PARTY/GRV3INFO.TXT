@@ -1,0 +1,11 @@
+Senseless 2.
+64kb intro entry at Gravity`98 Party by InterroR.
+Code: Ameba
+Addictional Code: Raven
+Msx: Soohy
+Gfx: Agi
+Additional Design: Radi.
+
+req. Any Pentium based Pc machine. But Pentium 133 or higher is recommended..
+GUS and Nosound. If you have 8mb ram should be fine. If you have a bit less,
+should run , too.

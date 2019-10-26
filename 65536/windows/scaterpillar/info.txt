@@ -1,0 +1,33 @@
+
+scatterpillar, by inque
+
+:: release info :: ----------------------------
+
+we've spent a bit more time and effort on this
+release than usual.
+
+:: reqs :: ------------------------------------
+
+uses pixelshader 3.0. requires direct3d 9.0.
+you'll need d3dx9_37.dll, which is included
+in the latest DirectX runtimes.
+
+should run on nvidia videocards, although
+it's completely unoptimized. it hasn't been
+tested on Ati cards at all.
+
+:: credits :: ---------------------------------
+
+code/visuals -- glow
+soundtrack/direction/visuals -- izard
+
+:: greets :: ----------------------------------
+
+we say hi to:
+
+asd, farbrausch, conspiracy, still, limp ninja,
+lineout, fmc, mfx, fairlight
+
+:: cya :: -------------------------------------
+
+www.inque.org

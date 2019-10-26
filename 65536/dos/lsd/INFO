@@ -1,0 +1,71 @@
+
+
+                                   l s d .
+
+                   64k intro by the Code & Light Sorcerers
+                   presented at the scenest-rage'98 party
+
+
+        c r e d i t s .
+
+        code            gekko
+        music           beatmaster
+        graphics        inferno
+        modelling       wad
+        support         xtro . zooo . compman
+        
+        cubic v1.6 by pascal
+        pmode v2.51 by tran
+
+
+        h a r d w a r e .
+
+        pentium 100     pentium 200
+        16 MB RAM       16 MB RAM
+        VGA             VESA SVGA 3.0
+        no sound        GUS 512k
+
+
+        c o m m a n d l i n e .
+
+        /n              no sound
+        /2x0            manual GUS port selection
+
+
+        k e y s .
+
+        s               save .tga screenshot
+        esc             exit
+        >               step forward
+        <               step backwards
+
+
+        n o t e s .
+
+        The  intro  won't  run  under Windows due to the music system. For
+        best  video  performance  use  UNIVBE/SDD  6.0 or later. The video
+        engine  supports  the  VESA  3.0  standard.  The music system only
+        supports GUS. Due to the size of the module, 512k of GUS memory is
+        required.
+
+        Over  300k  of  instruments and over 2mb of textures are generated
+        during   the   precalculation.   There   are   secret  commandline
+        parameters  for  debugmode,  hidden part, and to save the textures
+        and the music. Find them...
+
+        By  the  way,  do  you  remember  our  intro  called  Sword?  Type
+        "sword.exe :-)" for the hidden part. Only for Hungarians...
+
+
+        l i c e n s e .
+
+        This  program  is freeware under the following conditions: you are
+        allowed  to  spread  it  without  restrictions,  but  only  in its
+        original form and for non-commercial use. You use this software at
+        your  own  risk, we can not be held liabile for anything. By using
+        this software you indicate that you have accepted this licence.
+
+
+        (C) CLS, 04.07.1998
+        Made in Hungary.
+

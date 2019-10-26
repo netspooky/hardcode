@@ -1,0 +1,17 @@
+  Yog-Sothoth
+
+Juho Heikkinen (Juppi): Music
+Vantte Kilappa (Warma): Background effect
+Tatu Kilappa (Trilkk):  All other code
+
+For Assembly 2013 4k intro compo. Compo release is for FreeBSD-ia32, but
+I think Linux-ia32 should be possible. We did not have such a machine
+available, if anyone wants to try, please go ahead.
+
+Thanks to Juho Vähä-Herttua for a pointer towards code by parcelshit and
+las / Mercury, that made the import-by-hash possible. Also obviously
+thanks to these persons for the code that was used as basis. More
+detailed information in the sources, read if interested.
+
+We forgot to actually write this README for the party release, but
+greets to everyone anyways.

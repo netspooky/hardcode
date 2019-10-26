@@ -1,0 +1,13 @@
+
+Dear members of the jury/compo crew,
+
+ASTRA was tested in the latest stable versions of Opera, Chrome & Firefox.
+
+Please use Opera or Chrome using the --allow-file-access-from-files command line flag to run the packed versions from file:\\
+Firefox suffers with the glow and paths
+
+
+Thanks!
+
+p01/ribbon
+

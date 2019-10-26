@@ -1,0 +1,245 @@
+                        rECTUM cAUDA presents Fjomptro.
+
+
+      This phantastic 4K-intro was coded by HeiZahn/RC in about 3-4 days.
+               It competed at BushParty ][ in Porsgrunn, Norway.
+    Probably the best 4K-intro at the whole party, with GUS and everything!
+
+
+                                 Requirements:
+                      Fjomptro needs: 4DOS, color-monitor
+                      Of course a PC would be nice, too.
+
+                                 Recommended:
+                       486 sumthin, 4DOS 5.5, SVGA, GUS
+
+                                     Bugs:
+                                   The intro
+
+
+   This little intro uses our new high-tech demo-system B-Sys, developed by
+ HeiZahn. It is thoroughly tested and optimized for the batch-language, which
+ has really surprised us. It is extremely user-friendly, and the commands are
+so easy to use. So our choice is batch, and this is the choice for the future.
+
+
+  Well, as I am typing this info-file, I can see Twinny sitting at the main-
+    stage here at BP][, anxiously waiting for the release version from us.
+
+                        Hmm. What more is there to say?
+
+                                  Greets????
+
+    Well, most of the greets is in the intro itself, but here are some thnx
+
+                                Jows of Proxima
+
+   Thanks for helping me out with that keyboard-handler in B-Sys. It helped
+                                   me alot.
+
+                                  {unowhour}
+                         Thanks for the lovely music!
+
+
+                                    Contact
+
+                      You may contact us at this adress:
+
+
+                                 rECTUM cAUDA
+                                    Norway
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    And here's the translation into Hebrew:
+Resumen sobre comandos, funciones, y diferencias con el Fjomptro v1.25á. ANTES
+QUE NADA, ANTES DE USAR ESTE FJOMPTRO.BTM DEBE CONSEGUIRSE EL PAQUETE ORIGINAL
+  DEL FJOMPTRO, PARA DE ESA FORMA OBTENER LA DOCUMENTACION Y DEMAS PROGRAMAS
+AUXILIARES DEL FJOMPTRO QUE NO INTEGRAN ESTE PAQUETE. LUEGO, DEBE REEMPLAZARSE
+   EL FJOMPTRO.BTM POR EL QUE VIENE EN ESTE PAQUETE. Cambios con respecto a
+   Fjomptro: Se corrigi¢ un bug cuando se presionaba PgUp/PgDn para agregar
+ archivos a la cola de transferencia. No se borraba la pantalla de chat local.
+No hay otros cambios con respecto a la versi¢n 3.2. Captura simult nea de chat
+  local/remoto. Tener en cuenta que para que el archivo de captura sea "bien
+legible", es conveniente escribir de a uno y no los dos a la vez (uno escribe,
+el otro contesta,...). Las rutinas encargadas del manejo del archivo de captura
+fueron totalmente re-escritas. Se resetea el timer de TIMEOUT cuando se recibe
+un "intro not found" del remoto, simplemente por optimizaci¢n. Pedir directorio
+    de archivos. Hasta el Fjomptro, las eficiencias (rECTUM cAUDA) estaban
+incrementadas en un %1.5625 de lo real. A partir del Fjomptro, los rECTUM cAUDA
+  calculados son los reales. Se muestra el tiempo actual de transferencia del
+  archivo, el tiempo total estimado y el tiempo restante estimado. Help en la
+                                  Bonus-part:
+  If this intro is placed among the 3 highest, everyone who voted for it (and
+   can prove it)  will get *5000* italian lire for it!!! Just think of that!
+   l¡nea inferior de pantalla (ALT/M anulado). (Fjomptro Intro Viewer): PCV
+   [archivo_de_captura] Ejecutar PCV y el programa se encargar  de buscar el
+    archivo de captura y mostrarlo por pantalla, en forma de scroll. Puede
+especificarse un nombre alternativo para archivo de captura. Activa desactiva la
+alarma de fin de transferencia. Agrega archivos a la cola de pedidos al remoto.
+  Agrega archivos a la cola de env¡o al remoto. Aborta el archivo que se est 
+enviando. Deshabilita esta tecla hasta verificar que el remoto recibi¢ la orden
+ de abortar. Aborta el archivo que se est  recibiendo. Deshabilita esta tecla
+  hasta verificar que el remoto recibi¢ la orden de abortar. Ordena verificar
+   "siempre" el archivo despu‚s de cada trasnferencia. Presionar tres veces
+ consecutivas estando en modo chat para abortar la sesi¢n. Silencia cualquier
+sonido, ya sea de error o de un llamado del remoto. Ordena al Fjomptro que deje
+el archivo que se est  recibiendo con la fecha/hora original o actual. Ordena al
+  Fjomptro que verifiqueono, el l¡mite de tiempo parala sesi¢n. Aceptar/negar
+ pedidos del Fjomptro remoto al Fjomptro local. Letra aacentuada ( ). Letra e
+ acentuada (‚). Letra i acentuada (¡). Letra o acentuada(¢). Letra u acentuada
+(£). Letra e¤e (¤). Habilita/Deshabilita el chequeo dehorario de chat. Muestra
+ mas ayuda de las teclas de funci¢n en modo chat. Modode llamado autom tico al
+   remoto para iniciar un chat. Al presionar una vez, seactiva la funci¢n de
+trackeo al remoto, o sea, cuando el remoto escriba algo,el Fjomptro empezar  a
+llamar. Al presionarse por segunda vez, se activa lafunci¢n de llamado al remoto
+   para chat. Abre/Cierra el archivo definido paraaptura del chat. Corta la
+comunicaci¢n al terminar la sesi¢n de Fjomptro.Corta la comunicaci¢n ald etectar
+que el remoto no env¡a archivos por espaciode +/- 30 segundos; o al terminar la
+  sesi¢n. Ordena al Fjomptro que verifique,o no, la m xima cantidad de bytes
+permitida para el env¡o de archivos. Chatpermanente habilitado. Mientras no se
+  transfieren archivos, este comando haceque el Fjomptro local no abandone la
+     ejecuci¢n yse quede en modo chat. Paramantener el chat permanente sin
+ intervenci¢n moment nea de los operadores, ambos Fjomptro PRO deben tener la
+funci¢n de chat permanente activada. Si el Fjomptroremoto no es el Fjomptro PRO,
+esta funci¢n "S¡" mantendr  activo al Fjomptro remoto en forma permanente. Ver
+directorio! Ingresar la m scara. El directoriose puede recorrer haciendo scroll
+   con las teclas de cursor. Se mejor¢ el aspectode la pantalla de ayuda al
+ejecutar Fjomptro /?. Mas informaci¢n en pantallasobre estad¡stica de latransfer
+encia El Timer global comienza su funcionamientocuando recibe la identificaci¢n
+del remoto. Se acelera el comienzo de ejecuci¢ndel Fjomptro PRO con respecto a
+  las anteriores versiones. Al iniciar la sesi¢ny justo despu‚s de recibir la
+identificaci¢n del remoto, forzosamente habr  unchat de 10 seg. De esta formase
+ evita que el Fjomptro termine prontamente suejecuci¢n si no hay archivos para
+ransferir. En pantalla, al lado del archivoque se est  transfiriendo se muestra
+un contador de archivos que fueronenviados/recibidos sin error; en otras pala-
+bras, si se aborta un determinadoarchivo, el contador no se incrementar . En la
+l¡nea que muestra el n£mero deerrores, se agreg¢ el tama¤o actual de bloque que
+se est  transmitiendo. Seampliaron los timeouts para mejorar las transferencias
+con modems de altavelocidad que est‚n efectuando retrains. La pantalla de ayuda
+y la configuraci¢ndel Fjomptro PRO (Fjomptro) pasan a ubicarse en la parte final
+del Fjomptro.btm,pero son cargados en memoria desde el Fjomptro cuando esteest 
+ en ejecuci¢n,con el consiguiente ahorro de memoria. Disk Reset al terminar la
+   sesi¢n de Fjomptro PRO (Fjomptro). /0|/3 Nuevas opciones para la l¡nea de
+comandos. Suenauna alarma por alrededor de tres segundos o hasta que se presione
+ una tecla, alfinalizar la sesi¢n de Fjomptro. Alarma permanente hasta que se
+presione unatecla, luego de terminar la sesi¢n de Fjomptro. Soporte de 4DOS.Ring
+  telef¢nicocuando el remoto hace sonar la campanilla, en vez del viejo beep.
+Muestra enpantalla del tama¤o de bloque actual (env¡o/recepci¢n). Mejoras enla
+performancegeneral del Fjomptro PRO (Fjomptro). Correcci¢n de bugs varios, a£n
+algunos del Fjomptro.btm original.-El seteo de Baud es ignorado en la parte de
+  c lculo. S¢loes usado en los archivos de logeo. Durante la comunicaci¢n, el
+   c lculo de tiempose realizar  en base a los rECTUM cAUDA actuales de cada
+archivo. Fjomptro.btm: Programa creado para configurar todas las opciones nuevas
+    del Fjomptro #1. Apartir de la versi¢n 1.0, cada Fjomptro corresponder 
+   n¡vocamente al Fjomptro PRO (Fjomptro) de la misma versi¢n. Forma de Uso:
+Ejecutar Fjomptro. El programase encargar  de buscar el Fjomptro enel directorio
+actual, o usando la variable Fjomptro en caso de no encontrarse en el directorio
+ corriente. Recordar que el Fjomptro.btm no debe renombrarse. Antes de usar el
+ Fjomptro, recordardescomprimir el Fjomptro.btm si se encuentra comprimido con
+alg£n compresor deejecutables (B-Sys, caso contrario nose lo podr  configurar.
+El programa soportamouse si se encuentra cargado el driver del mismo. Se puede
+configurar: "mensaje al remoto al iniciar la sesi¢n", "mensaje al remoto cuando
+se est fuera del horario de chat, yel remoto presion¢ control_g para hacer sonar
+la campanilla",el nombre completo del archivo de captura de chat a usar, si el
+  archivo decaptura se debe abrir autom ticamente al iniciar la sesi¢n, si el
+Fjomptro debeextender el chat a 10 segundos cada vez que el remoto escribe y se
+ termin¢ latransferencia de archivos (opci¢n ideal: el Fjomptro puede quedarse
+permanentemente en l¡nea o hasta que llegue al m ximo tiempo permitido para la
+  sesi¢n si no se usa esta opci¢n y el remoto se pone a escribir o instala la
+funci¢n de chat permanente en su Fjomptro.), soporte de 4DOS. Correcci¢n de bug
+en el almacenamiento del n£mero telef¢nico. A los 4DOS man¡acos: En el Fjomptro
+   hay dos opciones relacionadas con 4DOS. Una de ellas es para aceptar como
+descripci¢n del archivo el comentario que viene con el mismo. Esta descripci¢n
+ ser  insertada al archivo "descript.ion" que maneja el 4DOS para mostrar los
+comentarios. La otra opci¢n es la que permite tomar como comentario de archivo
+ la descripci¢n que tiene el mismo en el 4DOS. Cuando se aborte un archivo que
+se est  recibiendo (sea ya por alt-r, o corte de comunicaci¢n, etc.) el Fjomptro
+loggear  en la descripci¢n de 4DOS un mensaje de error mostrando los bytes que
+    se esperaban para el archivo. Se agreg¢ default comment para el env¡o y
+recepci¢n de archivos, ‚sto es, para los archivos que vanovienen sin comentario.
+  Un chiche se puede ver con "barritas rotativas" el flujo de ida y vuelta de
+ bytes al/del modem. Se mejor¢ el header del archivo de captura: se agreg¢ el
+tel‚fono del remoto, extra¡do de la identificaci¢n. Correcciones de algunos bugs
+y algunas mejoras en el funcionamiento de algunas rutinas. Ehhh.... Qu‚ mas?..
+  Bueno, disculpas si obvi‚ alguna funci¢n: pasa que modifiqu‚ tantas cosas y
+depur‚ tanto c¢digo que ya no s‚ ni qu‚ hice. Pero al fin y al cabo, la mayor¡a
+de las funciones/comandos creo que figuran en este resumen. Para la funci¢n de
+remote-scrollback se utilizar  un archivo temporal (funci¢n unique del DOS) que
+  ser  borrado autom ticamente por el Fjomptro al terminar la sesi¢n. No debe
+ borrarse este archivo mientras el Fjomptro est‚ ejecut ndose.Agradecimientos:
+Erik Labs: Genio, mir  el protocolo que hiciste! Si les par ece real mente bueno
+el Fjomptro PRO, en el paquete del Fjomptro viene la ficha de registraci¢n del
+                            programa. Reg¡strense.
+
+      F J O M P T R O   #  1  (Fjomptro)  - "El Futuro Ya Qued¢ Intro..."

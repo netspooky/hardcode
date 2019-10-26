@@ -1,0 +1,21 @@
+CC = gcc
+CFLAGS = -Os -ffast-math
+OBJS = intro.o synth.o main_win32.o
+LIBS = -nostartfiles -lm -lopengl32 -lglu32 -lgdi32 -lwinmm -lkernel32 -luser32
+
+all: intro.exe
+
+intro.exe: $(OBJS)
+	$(CC) $^ -o $@ $(LIBS)
+	del intro.com
+
+$(OBJS): main.h
+
+intro.com: intro.exe fakecom.com
+	strip --strip-all intro.exe
+	copy /b fakecom.com+intro.exe intro.com
+	apack intro.com intro2.com
+#	upx --best intro.com
+
+clean:
+	del intro intro.exe intro.com intro.o 

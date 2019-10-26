@@ -1,0 +1,61 @@
+Breakout4k
+==========
+
+A 4k Javascript Breakout clone
+written in 2007 by mihi <schierlm@gmx.de>
+
+This is my first "demo", so thumb me down if you don't like it.
+
+System requirements
+~~~~~~~~~~~~~~~~~~~
+
+- Tested on: Firefox 2, Opera 9, Internet Explorer 7
+- JavaScript must be enabled
+- Music output may not work depending on a plugin
+- SFX output currently works only in Firefox, and only
+  if music is disabled.
+- A mouse is required, speakers or headphones are recommended
+
+Controls
+~~~~~~~~
+
+Click to start a ball or to pause/unpause game. Click the 
+Music/SFX/Off link to switch sound output. Try to remove all
+blocks from the screen and collect powerups.
+
+- blue powerup: extra ball
+- gray powerup: racket widener
+- red "powerup": racket shrinker
+
+You have 5 balls. Every block hit gives you 10 points, or
+20 points if the block has been removed completely.
+
+Options
+~~~~~~~
+
+You can start the game with options:
+
+index.html      - normal mode
+index.html?m    - muted mode
+index.html?s    - simple mode (no copper bar or starfield)
+index.html?ms   - simple and muted
+
+Try the simple mode if your browser cannot handle all those
+1px divs from the starfield or if it the game is awfully 
+slow. The mute mode is - obviously - for situations where
+you may not make any noise.
+
+Respects/Greetings to
+~~~~~~~~~~~~~~~~~~~~~
+
+- ryg/farbrausch, for his seminar on sizecoding (watched it on video
+  and liked it very much)
+- bombe/farbrausch, for a nice non-demo related irc chat session a 
+  few years ago
+- all other farbrausch members for their great demos
+  (although i have to wait years after the release until my cheap 
+   PC and onboard graphics can run them)
+- gasman, for the redbug javascript demo
+- the authors of "PC Underground" (ISBN 3-8158-1185-6) who gave me a first
+  introduction into the demoscene, about 10 years ago
+- all the others I forgot

@@ -1,0 +1,100 @@
+;#########################################################################
+.386
+.model tiny
+locals
+jumps
+;#########################################################################
+CODESEG
+.Startup
+	; switch to graphics mode
+	mov	al, 013h
+	int	10h
+
+	push	0A000h
+	; initialize the palette
+	;mov	dx, 3C8h
+	;out	dx, al
+	;inc	dx
+@@spal:	;out	dx, al
+	;out	dx, al
+	;out	dx, al
+	;inc	al
+	;jnz	short @@spal
+
+	; initialize the array
+	mov	si, OFFSET snow+4
+	dec	cx
+	cld
+@@mksn:	lodsw
+	cmp	al, 255
+	jb	short @@1
+	and	al, 255
+	mov	word ptr [si], ax
+@@1:	add	si, 4
+	loop	short @@mksn
+
+	pop	es
+@@main:	; wait for vertical sync
+	mov	dx, 3DAh
+@@vs:	in	al, dx
+	test	al, 8
+	jz	short @@vs
+@@vsa:	;in	al, dx
+	;test	al, 8
+	;jnz	short @@vsa
+
+	; clear the display
+	xor	di, di
+	xor	ax, ax
+	mov	cx, 64000 shr 1
+	rep	stosw
+
+	; update position
+	mov	si, OFFSET snow
+	push	si
+	mov	cl, 255
+@@upd:	inc	byte ptr [si]
+ 	cmp	byte ptr [si], 200
+	jb	short @@nost
+	mov	byte ptr [si], al
+@@nost:	fild	word ptr [si]
+	fdiv	[amp]
+	fsin
+	fmul	[amp]
+	fild	word ptr [si+4]
+	fadd
+	;fabs
+	fistp	word ptr [si+2]
+	add	si, 6
+	loop	short @@upd
+
+	pop	si
+	; draw snow
+	mov	cl, 255
+@@draw:	lodsw
+	mov	di, ax
+	shl	ax, 8
+	shl	di, 6
+	add	di, ax
+	add	di, [si]
+	mov	al, 31
+	stosb
+
+	add	si, 4
+	loop	short @@draw
+
+	; check for key press
+	mov	ah, 001h
+	int	16h
+	jz	short @@main
+
+	; restore text mode
+	mov	al, 003h
+	int	10h
+	ret
+;#########################################################################
+	amp	real4	05.0
+	snow	db	255*6 dup (?)
+;#########################################################################
+;#########################################################################
+end

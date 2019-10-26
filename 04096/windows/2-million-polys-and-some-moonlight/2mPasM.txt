@@ -1,0 +1,27 @@
+ 2-million-Polys-and-some-Moonlight
+
+ released at Buenzli 14 / 4k+30seconds picture compo..
+
+ no DirectX.. no OpenGL.. no external files.. no nothing..
+ just 100% pure Software-Rendering..
+       _________ ___ ________ ___________
+      /   _     >   >        \           >
+     /   /_|   |   |    __    |    _____/
+    <    __    |   |   |  |   |   |______
+    |   |  |   |   |   |  |   |          \
+----|    > |____>___>   > |____>__________>
+====|   /==========|   /===========> (c)2k5
+    |  /           |  /
+    | /            | /     back in the hood
+ code: toxie       |/ to fill your screens!
+       catalytic
+
+ thanx to: frenetic for optimizing our basic 4k-framework!
+           gem and his Dropper2.0!
+           muhmac for the great 20to4-tool!
+
+ greetz to: all friends and fans of the apocalypse!
+
+
+
+ l8r

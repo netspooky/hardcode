@@ -1,0 +1,67 @@
+; Ich war mal wieder betrunken. Naja, und dann war ich auf dem Klo, und da 
+; ist mir dieser Code aus dem Klo entgegengeflossen. Dann habe ich das mit
+; einer Glasscherbe auf meinen Bauch eingeritzt, und hab ihn dann ab-
+; geschrieben. Und jetzt tut datt !
+;					verschdl (ich)
+;					^neVer 
+;
+;					powered by eXit BBS !
+;					& kosmos (newsserver @verschdl.de)
+;
+; ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+;  l4bels are        this is                    this is additional docu
+;   here           the code                       (if u like more than codE)
+
+		   NoP                           ; 1Niti4liZati0N
+                   XoR  cX,Cx                    ; W N33d @leaSt CL @ 0
+                   MOv  aH,0X8                   ; M0Vin Spe^2D / BaR
+
+BiGB4Ck:                                         ; kiCKin d4 MAiN l00p
+                   aDD  Bl,Ah                    ; A)) SPe^2D GNRL. offSEt
+                   jNZ  SKiPonE                  ; S\x/iTch moViN dIr
+                   NeG  aH                       ; \x/H3n 0 ReaCHeD
+		   aDD  Bl,aH
+         SKiPonE:  
+
+	           moV  dX,0X3Da                 ; ReG AT(
+         bCkSkiP1: iN   Al,dX                    ; iS staTUs REgiSTeR
+                   test aL,0x8                   ; MaSK vReTRace (1|0)
+                   jZ   bCkSkiP1                 ; + WAit4iT
+
+                   MoV  CL,bl                    ; thiZ loadZ bAR offSET
+                   iNc  cX                       ; 0 'd Be nEAR deATh
+         bkSkiPII: CAlL gREEt2MAT                ; caLL liNE WaiTEr
+                   loop bkSkiPII                 ; tiLL offSEt h4S pasSeD
+
+                   MOv  CL,0X7f                  ; ld BAr h3igHt
+                   CLi                           ; KILL THESE BASTARDS!
+
+    Cbck4U:
+                   cAlL  gREEt2MAT               ; aS u ALReaDY kNOW
+
+                   XoR   AL,al                   ; SElECt ColoR 0
+                   MOV   dL,0XC8                 ; (eQUALs coloR seleCT @3d8)
+                   OUt   dX,Al                   ; 0x3oo iS AlreADy iN dH
+
+                   iNC   dX                      ; swITCh2col0r WRiTe
+                   oUT   dX,Al                   ; NOBODY NEEDS RED!
+                   moV   Al,cL                   ; sET GB tO oFFseT
+                   OuT   dX,Al                   ; 4 gR33n
+                   OUt   dX,Al                   ; + blUE
+                   lOOP  Cbck4U                  ; looP 4 h3iGht
+
+                   jMP   BiGB4Ck                 ; nXtScr33n4eTERniTy
+
+                                                 ; l0vlY sUB 4 hBAcKTRacE
+                                                 ; GREETS FLY OUT TO MAT/OZONE
+    gREEt2MAT:                                   ; BECAUSE NEVER DOES NEVER
+						 ; GET THE SPELING RIGHT.
+						 ;  -SORRY MAT-
+                   MOv   Dl,0XdA                 ; ATcREg, uKnoW d4 0x3 thiNg
+          smlBcK:  iN    Al,dX 
+                   TesT  AL,0X1                  ; W4iT 4 inDisPLAy 
+                   jNe   smlBcK
+          IIsmlBk: iN    al,DX
+                   tESt  al,0x01                 ; W4iT 4 inDisPLAy ST0P
+                   jE    IIsmlBk
+                   ReTN                          ; EverYTHinG d0nE

@@ -1,0 +1,40 @@
+
+yes.  this is a 64k intro.  the algebric proof follows:
+
+
+used files are
+
+	intro.exe	27.356 bytes	code and built-in packed data
+	intro#1b.mod	34.806 bytes	six channels music module
+
+	the other files are informations files
+
+
+maximum intro size is 64 kb
+
+	64kb = 64*1024 = 65536 bytes or 65536*8 = 524288 binary digits
+				     or	65536*4 = 262144 nibbles
+
+	64kb occupies about 128 sectors in a 512k/blk MS-DOS FAT16 file
+	system.
+
+
+now let's compute the total size of this intro
+
+		 11 1	
+		 27356
+	       + 34806
+	       -------
+                 62162 
+
+according to the relation "<" in the totally (linear) ordered set "N" of the
+natural numbers (aka positive integers), we know that 62162 is smaller than
+the magic number 65536.
+
+ok?
+
+hey, don't let maths rule the scene! ;)
+
+brioche/aspirine
+
+		

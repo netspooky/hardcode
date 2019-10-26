@@ -1,0 +1,42 @@
+.feeling 42.
+
+.by nightsky.
+
+
+.credits 42.
+
+code:
+  "plasma" torus - bellezza (3D routines by shamaan)
+  color tube & "plasma" torus - bellezza (3D routines by shamaan)
+  logo screen - bellezza
+  plasma tube - shamaan
+  fake colors - bellezza
+  compiling - bellezza
+music: deepcore
+graphics: bellezza
+music player: midas 0.40a by Sahara Surfers
+
+.required hardware 42.
+
+386 compatible computer
+vga compatible display card
+592kb conventional memory (might work with less, but 592kb is tested!)
+
+.recommended hardware 42.
+
+486DX2 or DX4
+vlb or pci card
+gus
+
+.contact 42.
+
+http://stekt.oulu.fi/~bellezza/nightsky/
+bellezza@stekt.oulu.fi
+
+.greetz 42.
+
+amorphous, deck blasters, mindprobe, seikkailup„hkin„.
+
+burger, curl, droid, duna, mayday, miki, opa, syso*, the d.a.
+
+.feeling 42.

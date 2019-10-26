@@ -1,0 +1,39 @@
+
+  .                       .    .    .         .   °         (
+.  °       . °  )  .    °                       .         .  ) °   .  ° )
+  )      .     (      .     .               °         ° .   .    .  .  (   
+ (               .  (              .  °   .   )          °    .             
+         °        °  )              .        (              . .           ( 
+   .                         °     .|    °     .         .   .|  °      °  )
+(       .  .                  _____||___________   .        _||_         / 
+ ).  . .|           !     ____|_   - _____)    /_______    )    |____ _//_
+   ____||__________/ \_ _(_____/      _/      /    /___)___|___      \_  /_
+   )    __________) -  )      /____|  )___________/   / ______(_|_____( __/_
+ _/    _______)_____| /_______\    )_____(     /______\ \      /!  /   /   /
+ )_  _(             )_____(                       )______|    /   /__ ____/
+   ``--------{ when dreams come true }-------------------|___(     -//!ne7--
+                                                         |         /   
+                                                         !
+
+
+  glitterati 
+  by fairlight
+
+  pc 4k at assembly 2006 
+
+
+  code, design, music by smash
+  musical notes by reed
+
+  contact: smaash@yahoo.com (yes, that is the correct address)
+
+  uses crinkler.  
+
+  requires ps2.0, and d3dx_24.dll (for some font-mesh generation and math functions). 
+  needs a radeon 9700 or a geforce 6600 or better to run well.
+  note, the precalc time is quite long (for the music).
+
+
+  features realtime ambient occlusion. 
+  greets to fuzzion, who did an ambient occlusion-based 4k 2 weeks before we released
+  this and totally stole our thunder. =) but hey, we do it realtime.

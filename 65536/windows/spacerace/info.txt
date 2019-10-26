@@ -1,0 +1,24 @@
+spacerace
+a 64 kb game by jsmith [NML]
+
+ingame controls:
+
+UP ARROW - accelerate
+DOWN ARROW - brake
+LEFT ARROW - turn left
+RIGHT ARROW - turn right
+
+SPACEBAR - press and hold for nitro boost (works for 15 seconds)
+
+1 - default camera
+2 \
+3 -- other cameras
+4 /
+5 - bumper camera
+
+P - take a screenshot
+
+ESCAPE - ingame menu
+
+
+p.s.: spacerace level editor requires microsoft .net framework 3.5 

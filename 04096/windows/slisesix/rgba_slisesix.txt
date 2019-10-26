@@ -1,0 +1,103 @@
+
+              _._________ .______    .________  .______/\_
+               |    ____/_|  ___/____|  _____/__|   ___  /_
+               |   __    /|  \      /_   ___   /_    _    /
+               |   \   .:\|   \__  .:/   \_   .:/    |  .:\
+               |____\     \_________/__________/_____|_____\
+               -//---\_____\------------------------lm!--//-->
+
+
+                                  slisesix
+
+
+             executable 3k9 graphics by rgba [www.rgba.org] 2008
+
+
+                                for euskal 16
+
+
+
+ .blahblahing.
+
+   time goes fast, now is my 10th demoscener anniversary. much has changed
+   in these ten years. that small scener party i attended back then became
+   a big meeting of four thousand people today where i feel i don't really
+   feet. however euskal means something special and i will be there with a
+   new release exacly ten years later. at euskal 6 with that my first prod
+   i had that strange mix of satisfaction for releasing and unsatisfaction
+   because i knew i could do better. it seems some things haven't changed,
+   i release this procedural graphics by knowing, once again, i could have
+   done better. technically i wish i could have achieved the photo realism
+   i wanted. artistically, well, so much still to learn. i also wish i had
+   more time to add some details and improved things. but i'm happy too, i
+   managed to release once again something that i like.
+
+   the name of the gfx comes from this presentation for inspire 2008 about
+   procedural graphics, where i showed a preview of it in the slide number
+   76. [ http://www.rgba.org/iq/divulgation/inspire2008/inspire2008.htm ].
+   that's the reason for the name of the production.
+
+
+
+ .the.real.deal.
+
+   this is some cpu raymarching on a big 3d scalar field. no rasterization
+   nor primitive intersections are used. there is a big math function that
+   tells the distance to the closest surface at any 3d point in space. you
+   can then evaluate the function to guess how much you can safely advance
+   before eventually hitting any surface and so take the step. i call this
+   "rendering with distance field", i wonder what is the official techical
+   name for it.
+
+   the interesting part is that since you can evaluate the distance to the
+   surface at any point you actually have some non local information about
+   the geometry, without casting any secondary rays. or in other words you
+   can do non local lighting effects like softshadows or ambient occlusion
+   without the cost of resorting to additional rays. and that's sweet.
+
+   for the rest, shaders are pretty basic. the marble is particularly dull
+   for example. lighting could be improved but the image renders so slowly
+   even if it's all multithreaded that adjusting parameters takes ages, so
+   this is what i could manage to get in a reasonable amount of time (note
+   "reasonable" might not mean the same for all of us...)
+
+   the image is rendered with (up to 2x2) supersampling (it's adaptive) in
+   roughtly fourty seconds on a desktop dualcore machine. i have tried too
+   to port the complete thing to both glsl and hlsl and then the rendering
+   reaches around two frames per second in my geforce 8600. the problem is
+   the driver needs twenty seconds to compile the shader. precompiling the
+   shader is neither a good idea cause the binary shader expands into nine
+   thousand instructions (and i have to time for trying stream reordering)
+   what obviously makes the exe larger than 4k.
+
+
+
+ .extras.
+
+   twelve creation steps
+   [ http://www.rgba.org/prods/rgba_slisesix_steps.zip ]
+
+   somehow inspired by the mines of Moria
+   [ http://forum.valinor.com.br/attachment.php?attachmentid=11845 ]
+
+
+ .greetings.
+
+   asd   auld  bixo  calodox   collapse  conspiracy  [d]vision  farbrausch
+   fairlight   fuzzion   kakiarts  loonies  necrostudio  nocturns  plastic
+   rebels  skim   software failure   speckdrumm   spontz  stravaganza  tbc
+   tbl    timescratchers   traction   xplsv    zona neutra    and forgoten
+
+
+
+ .credits.
+
+   codepainting ::       iq         :: [ www.rgba.org/iq  ]
+   crinklering  :: mentor+blueberry :: [ www.crinkler.net ]
+
+
+
+ 
+
+
+

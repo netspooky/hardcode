@@ -1,0 +1,26 @@
+                           NUCLEAR WINTER PRESENTS                             
+   
+   лллллл лл  лл мллллл    мллллл лл  лл мллллм мллллл лллллм мллллм лл  лл
+     лл   лл  лл лл        лл     лл  лл лл  лл лл     лл  лл лл  лл лл  лл
+     лл   лллллл ллллл     пллллм лллллл лл  лл ллллл  ллллл  лл  лл  лллл
+     лл   лл  лл лл            лл лл  лл лл  лл лл     лл  лл лл  лл лл  лл
+     лл   лл  лл лллллл    лллллл лл  лл лллллл лллллл лллллл лллллл лл  лл
+     лл   лл  лл пллллл    лллллп лл  лл пллллп пллллл лллллп пллллп лл  лл
+                            
+                                INTRO NUMBER 2
+
+(C)1994 Christian Nentwich aka Brain Dr. / Nuclear Winter
+
+You're allowed to copy this file, as long as you make no commercial use of it
+and charge no money for it.
+
+Coded at 21.12.1994 in a big hurry. Reebok was drilling me, so this
+is not optimized and it got no effects. Nevertheless it's not so bad for
+the short time it was created in.
+It could be smaller, would fit into 7000 bytes, but who cares?!? It's under
+10k. That's the aim.
+
+Btw.: Doesn't sound well with GUS adlib emulation.
+
+That's all, See ya. (For more Info read the .NFO file).
+

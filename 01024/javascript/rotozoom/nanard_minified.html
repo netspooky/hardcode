@@ -1,0 +1,7 @@
+<html><body>
+<canvas id="m" width="800" height="450"></canvas>
+<script type="text/javascript">
+function draw(){var e=document.getElementById("m");var n=e.getContext("2d");var r=e.width;var i=e.height;n.save();n.clearRect(0,0,e.width,e.height);n.translate(e.width/2,e.height/2);n.rotate(angle*Math.PI/180);n.scale(zoom,zoom);for(var s=-r/32;s<r/32;s++){for(var o=-r/32;o<r/32;o++){n.fillStyle=(s+o)%2==0?"rgb(128,64,192)":"rgb(192,64,128)";n.fillRect(32*s,32*o,32,32)}}n.restore();n.font="20px Courier";n.strokeStyle="#402080";var u=r-t*2%(text.length*15);n.strokeText(text,u,e.height-16);n.restore()}function an(){zoom=1+(Math.exp(2*Math.sin(angle*Math.PI/180))-.8);draw();angle=(angle+1)%360;t++;requestAnimationFrame(an)}var text="- = Hello #demojs guys !  This is my first js intro. 100% Canvas................... code: nanard..... bye bye ! = - ";var t=0;var angle=0;var zoom=1;an()
+</script>
+<p>nanard 2013 #demojs <a href="https://twitter.com/tbernard1979">@tbernard1979</a></p>
+</body></html>

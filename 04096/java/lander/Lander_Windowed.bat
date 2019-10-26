@@ -1,0 +1,1 @@
+java -jar lander.jar 0

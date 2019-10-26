@@ -1,0 +1,31 @@
+
+             F A I T H F U L                (C) 1999 AgraVeDict
+                - final -                  www.agravedict.art.pl
+
+
+                     CrEdiTs
+                     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                     music .................. Norm
+                     graphics .............. Still
+                     design .............. Neuroup
+                     code ................. Bayger
+                     .............................
+                     player ...... FreddyV/Useless
+                     extender ............ Eclipse
+
+
+                         ReQuiReMeNTs
+                         ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                         cpu ............. Pentium MMX
+                         gfx .... VESA compatible SVGA
+                         vmode .. True/HiColor 320x200
+                         msx .......... GUS/SB/NoSound
+                         mem .......... free about 8MB
+
+
+                             pLuS
+                             ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                             best video mode autodetection
+                             sub-accuracy  flare  routines
+                             smaller intro executable size
+                             fixed vesa support on riva128

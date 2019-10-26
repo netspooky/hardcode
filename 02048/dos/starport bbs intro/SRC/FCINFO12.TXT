@@ -1,0 +1,1244 @@
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                                                                             ³
+³                <<<  THE FUTURE CREW INFORMATION PACKAGE  >>>                ³
+³                                                                             ³
+³                                Version 1.2                                  ³
+³                                                                             ³
+³                                02-DEC-1993                                  ³
+³                                                                             ³
+³                                                                             ³
+³            This file contains general information about the Future          ³
+³            Crew and our demos. It also includes frequently asked            ³
+³            questions we often receive by mail and instructions on           ³
+³            how to contact us best.                                          ³
+³                                                                             ³
+³            We will update this file as things change, and if the            ³
+³            above date is rather old, you can get the most recent            ³
+³            version of this file either by E-Mail from Internet or           ³
+³            from our distribution sites.                                     ³
+³                                                                             ³
+³                                                                             ³
+³                                                                             ³
+³                                                                             ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                                 CONTENTS                                    ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+         1: Opening words
+         2: Demos for Commercial Purposes
+         3: The Distribution and Use of Our Demos
+         4: The Current Memberstatus
+         5: International Demo Competitions
+         6: Official Assembly'93 Competition Results
+         7: Quick Information on The Party 3
+         8: How to Contact Future Crew
+         9: Frequently Asked Questions
+        10: Creativity Demo Net Information
+        11: Official Distribution Site BBS List
+        12: How to Become a Distribution Site
+        13: The Brief History of The Future Crew
+        14: Answers to rumors
+        15: Sonic Dreams is NOT a Future Crew demo
+        16: Final Words
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³1:                            OPENING WORDS                                  ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        Welcome to the FCINFO.TXT file version 1.2 !
+
+	This textfile is a update to FCINFO10.TXT (version 1.0). The updated
+        parts are section 13 and the release list. In addition, voting form
+        has been removed.
+
+        This textfile was written to tell you about Future Crew, to
+        give you answers to most of the things you would probably like
+        to ask us, and to tell you how to get more demos.
+
+        If you are interested in us making a demo for you, please,
+        start reading from the next paragraph in this file.
+
+        The things discussed in this textfile are mainly aimed to
+        those people who have not seen much demos before, but are very
+        interested in learning more about them and about the whole
+        demo scene (=demo world) in general. In the future versions
+        there will be changes and additions taking into account what
+        has happened since the last information package.
+
+        Signed,         GORE
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³2:                     DEMOS FOR COMMERCIAL PURPOSES                         ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        If you find our demos interesting and would like us to make
+        you one for commercial purposes, do not hesitate to contact us.
+
+        When contacting us, please, include a short explanation of
+        what kind of a demo you are interested in. That would greatly
+        help us in evaluating the size of the project.
+        Kindly include, for example, these kinds of information:
+
+        - What kinds of demo effects would you be interested in
+        - Should there be any colorful still-pictures (logos, etc.)
+        - If the demo should have sound, which sound cards would you like
+          to be supported, what type of music should be played, etc.
+        - How big the demo could be in kilobytes and for how long
+          should the demo run in minutes approximately.
+        - Where would the demo be used and how soon would you like the
+          demo to be finished.
+
+        We would like you to understand that our demos are not animations.
+        This means that nearly everything you see on the screen is being
+        real-time calculated. The speed of the movement is usually
+        dependant to the speed of the VGA card and the speed of the
+        processor.
+
+        When contacting us, you should realise that we are all rather
+        young and thus still studying in various schools. This is why
+        our time is usually quite limited. And it is very likely that
+        we might already be involved in another project.
+
+        You should also know that we do not make demos for Microsoft
+        Windows due to its limitations from an assembly language
+        programming point of view.
+
+        Since normal mail is quite a slow way to communicate, we would
+        prefer the communication be made through e-mail or fax.
+
+        You can find our contact information from this file.
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³3:                THE DISTRIBUTION AND USE OF OUR DEMOS                      ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        All our demos, except the ones which we have created for different
+        companies, are freeware.
+
+        This means that you can copy and distribute them freely as long
+        as you make no modifications to them. Also, no money can be 
+        charged for copying them.
+        
+        If you are a PD distributor, please contact us before including
+        our products in your collection.
+
+        In general, all commercial utilization of our demos without our
+        permission is forbidden. This includes selling disks containing
+        our demos.
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³4:                         THE CURRENT MEMBERSTATUS                          ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        Alias:          Real name:         Age:   Main responsibility:
+        --------------------------------------------------------------
+        GORE            Samuli Syvahuoko    20    Organizer
+        Psi             Sami Tammilehto     20    Coder
+        Trug            Mika Tuomi          21    Coder
+        Wildfire        Arto Vuori          18    Coder
+        Purple Motion   Jonne Valtonen      17    Musician
+        Skaven          Peter Hajba         18    Musician
+        Marvel          Aki Maatta          18    Graphics Artist
+        Pixel           Mikko Iho           18    Graphics Artist
+        Abyss           Jussi Laakkonen     18    BBS Coordinator
+
+        FC Internet Division:
+        Henchman        Markus Maki      - Thanks for helping with the e-mail
+        Jake            Jarkko Heinonen  - Thanks for providing the e-mail
+                                           address
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³5:                     INTERNATIONAL DEMO COMPETITIONS                       ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        For those who have no idea what the above are, I will explain.
+        Demo competitions (= parties) are international events where
+        the demo scene people go to meet each other and to compete in
+        the many competitions that are being held. These competitions
+        (= compos) are the demo, intro (= a demo sized under 100kb), 
+        music and graphics. There are often different compos for different 
+        machines (PC, Amiga, Atari ST and C-64). There are also prizes in
+        each compo (cash or computer hardware & software). The cash prizes
+        are usually the money people pay as the entrance fee (usually 
+        about $20 US) and the possible computer hardware & software has
+        usually been sponsored by various computer companies. All 
+        contributions are being experienced on a big screen (many meters
+        wide) and with the aid of a powerful audio system. After this all
+        the people or a selected jury vote and decide which contributions
+        are the best. After this the prizes are being given out and the 
+        party is over. In the process people of course get to know each
+        other better and exchange a lot of new ideas.
+
+        All contributions are usually being released at the party itself,
+        but sometimes the PC demos are not. This is very unfortunate,
+        and will probably change in the future. The reason why this is
+        allowed to happen is becouse most demos haven't been beta-tested
+        well enough before the party and might not work on most machines.
+        So, the groups are being allowed to finish their demos after the
+        party and then release them when they so see fit.
+
+        Parties usually last for three days (a weekend) and are usually
+        organized by bigger demo groups.
+
+        There are a few big demo parties being held annually.
+        These include the following: The Party in Denmark at Christmas-
+        time, The Gathering in Norway around Easter, The Computer
+        Crossroad in Sweden before the summer and Assembly in Finland
+        in the end of Summer. The biggest of these is The Party, which
+        is being held for the third time this Christmas. And the most
+        recent party was Assembly'93, which was held for the second time.
+
+        A few months before the party, the organizing demo groups usually
+        release special invitation demos to advertise their parties.
+
+        At Assembly'93 there were a total of 1500 attenders from which
+        550 were PC people. About half of them had come from outside
+        Finland (Germany, Belgium, Holland, Sweden, Norway, USA, Israel,
+        Canada, Denmark, Switzerland, Spain, etc...). Only PC people were
+        allowed to vote on PC compos.
+
+        The overall quality of the contributions exceeded all expectations.
+        It was very cool to see how much the PC scene had developed since
+        last year. The party itself went quite smoothly, except for a
+        few bumps, but what would a demo party be without them... :-)
+        Also the prizes were very good in all PC compos. The total value
+        of all the prizes on the PC was about $7800 US.
+
+        Next we would like to thank all the companies which sponsored
+        most of the PC side prizes at Assembly'93:
+
+                Advanced Gravis, Canada
+
+                Epic MegaGames, USA
+
+                The Waite Group Press, USA
+
+                Terton, Finland
+
+                HiCompu, Finland
+
+                Toptronics, Finland
+
+                Pro Component, Finland
+
+                Lan Vision, Finland
+
+                Data Fellows, Finland
+
+
+        The thanks to all the sponsoring companies are also in the end
+        scroller of the demo. We hope to see you also next year!
+
+        And to all you people out there:
+
+        Don't forget to attend Assembly'94 next summer !
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³6:               OFFICIAL ASSEMBLY'93 COMPETITION RESULTS                    ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        Here we have the final and true results of the PC compos at
+        Assembly'93. Ignore all the anonymous 'result' files circulating
+        lately around BBS'es.
+
+        Assembly'93 party results for PC. Votes were calculated by giving five
+        points for the first place, four for the second place and so on. Up to
+        five contributions could be voted for. A total of 130 votes were cast.
+
+                                PC Demos Top Ten
+        -----------------------------------------------------------------
+        Place:  Votes:  #:  Group:                      Demo:
+        1.      472     10. Future Crew                 Second Reality
+        2.      403     9.  Silents                     Optic Nerve
+        3.      242     3.  Xography                    Elements
+        4.      126     2.  Dust                        Saga
+        5.      78      6.  Extreme                     Extermination
+        6.      51      5.  Virtual Visions             Fruits of Indolence
+        7.      31      7.  Paranoids                   Wasted Time
+        8.      26      4.  Alphaforce                  Phenomenon
+        9.      17      8.  Black Rain                  Obsession
+
+                                PC Intros Top Ten
+        -----------------------------------------------------------------
+        Place:  Votes:  #:  Group:                      Intro:
+        1.      378     8.  EMF                         Eclipse
+        2.      196     5.  Epical                      Tangle
+        3.      165     9.  Darkzone                    Debut
+        4.      163     7.  Onyx                        Locomotion
+        5.      125     10. Avalanche                   Motion
+        6.      115     15. Sonic-PC                    Plan-B
+        7.      106     6.  Doomsday prod.              Vanity & Apathy
+        8.      48      4.  Jeskola prod.               Dieetti-Intro
+        9.      43      3.  Surprise! prod.             Stardream
+        10.     12      1.  RatCompany                  Fraust
+
+                         PC Multichannel Music Top Ten
+        -----------------------------------------------------------------
+        Place:  Votes:  #:  Composer:                   Tune:
+        1.      219     7.  Skaven / Future Crew        Ice Frontier
+        2.      178     4.  Marvel / Future Crew        Can't remember you
+        3.      164     1.  Purple Motion / Future Crew Starshine
+        4.      153     5.  Leinad / Avalanche          Atomic II
+        5.      147     6.  Silent Mode / Pentagon      Inferno
+        6.      86      2.  Tonedeaf / Extreme          Heartbeat
+        7.      69      10. Prism / Wish                Time running out
+        8.      59      3.  Mikki / Epical              Opossumi
+        9.      56      9.  Funk't'ion / Paranoids      Deepness
+        10.     29      8.  Bloodsoaker / Wapy          Shout
+        
+                          PC 4-channel Music Top Ten
+        -----------------------------------------------------------------
+        Place:  Votes:  #:  Composer:                   Tune:
+        1.      133     19. Purple Motion / Future Crew Sundance
+        2.      98      13. Leinad / Avalanche          Teaspoon
+        3.      90      6.  Cybelius / Sonic-PC         Schwinging the Swing
+        4.      60      9.  Tonedeaf / Extreme          Sounds of War
+        5.      59      8.  Executioner                 Pork Chop
+        6.      53      17. Blizzard / Epical           Hidden Shadows
+        7.      51      21. JayJay / Progress           Phantoms
+        8.      47      5.  Mellow-D / Sonic-PC         Fast Changer II
+        9.      45      10. Gibson / Extreme            Blackbird
+        10.     43      16. Mistake / Darkzone          Michael Jackson sez hi!
+
+                               PC Graphics Top Ten
+        -----------------------------------------------------------------
+        Place:  Votes:  #:  Artist:                     Picture:
+        1.      176     8.  Marvel / Future Crew        Ice Kingdom
+        2.      144     2.  Delsion / Cascada           Eevi
+        3.      106     9.  Zenjuga / Black Mind        A3
+        4.      88      10. Pixel / Future Crew         Troll
+        5.      44      11. Giems / Dark Zone           Escaping from the Raytracer
+        6.      42      14. Ranx / Sonic-PC             Invintro
+        7.      29      13. PCA / Painkiller            W2
+        8.      22      7.  Kapsu / Epical              Assyroad
+                22      15. Mahlzahn / Pentagon         Dungeon
+        10.     19      12. Leinad / Avalanche          Korvmack
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³7:                  QUICK INFORMATION ON THE PARTY 3                         ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        As said before, The Party 3 will be the next big party.
+        And as usual, it will be held in Denmark. But this time it
+        will be held in Herning, the biggest exhibition centre in
+        scandinavia. There will of course be competitions for Amiga,
+        PC and C-64. The PC side is organized by ACCESS DENIED.
+        For more information, get your hands on the official PC scene
+        invitation intro (by Access Denied). The filename is ADPARTY.ZIP.
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³8:                 HOW TO CONTACT THE FUTURE CREW                            ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        Note that our mailing address has changed!
+
+        The new one is:                      Our home BBS is:
+
+        Abyss / Future Crew                  StarPort - FC WHQ BBS
+        (c/o Jussi Laakkonen)                +358-0-804 4626, 14.4k
+        Sepetlahdentie 2 E 36                +358-0-804 1133, 14.4k
+        02230  Espoo                         SysOp: Abyss
+        FINLAND
+
+        PLEASE NOTE THAT THE STARPORT'S #2 NODE NUMBER WAS _INCORRECT_
+        IN FCINFO10.TXT !! DO NOT CALL THAT NUMBER ANYMORE !!
+
+        You can also e-mail us or send a fax:
+
+        Internet:       jtheinon@kruuna.helsinki.fi  (GORE & Jake)
+
+        Fax:            +358-0-420 8620  (at GORE's place)
+
+        We receive a lot of mail and simply can't answer all of it.
+        Comments and opinions are always appreciated, but if you
+        also have questions, consider first if you might find the
+        answers elsewhere, for example from the Frequently Asked
+        Questions section inside this file. However, if you include
+        questions in your mail, please enclose a return envelope ready
+        with your address and an international mail coupon.
+        This would help us a lot.
+
+        The best and the fastest way to contact us is through e-mail.
+        So, if you really want to chat with us alot, you should find
+        a way to use e-mail. From internet you can also find lots of
+        demos and be able to e-mail other demo groups as well.
+        We get a LOT of e-mail so you may have to wait for our reply
+        for a while. We TRY to answer every e-mail we get but please,
+        write your e-mail address into your message.
+        
+        A very good anonymous ftp site where you can find lots of
+        demos is ftp.uwp.edu. Our demos can be found in the directory:
+        pub/msdos/demos/groups/future.crew.
+
+        You can also call our many BBSes around the world. You can
+        find the list of these BBSes in this textfile.
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³9:            FREQUENTLY ASKED QUESTIONS ABOUT THE FUTURE CREW               ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        Here we have compiled a list of questions along with the
+        answers (in random order) which are being asked in about
+        95% of all the letters we receive. Hopefully you will find
+        the answers to your questions from here and save us and
+        yourself from some unneeded paperwork.
+
+Q: Where can I get your and other groups' demos?
+A: There are several ways to get demos.
+   The best way (if you have a modem) is to call an FC distribution site
+   near you. They have all of our productions online and you can download
+   them freely. Also many normal BBSes carry our productions and other
+   groups' demos. If you don't have a modem, then getting our demos is a
+   lot harder. We don't have a mailswapping system. So, if you have a friend
+   who has a modem, why not try to get him to call one of our distribution
+   sites. Another VERY good way to get demos is from the INTERNET. A very
+   good demo site is ftp.uwp.edu which carries probably the best demo
+   collection on internet.
+
+Q: When is the musicdisk coming out ?
+A: We will probably release a sort of musicdisk at TheParty '93. It will
+   feature a long-awaited MOD/S3M-player for GUS/SB/SBPro and a nice pile of
+   Skaven's and Purple Motion's best S3M songs.
+
+Q: When is Scream Tracker 3.0 going to be out?
+A: Scream Tracker 3.0 is a product which might or might not ever be out.
+   This is very ambiguous, but the problem is that ST3 is not a high
+   priority project. The coder, Psi, is studying at a university, coding
+   demos, doing commercial software and trying to spend some freetime.
+   So at the moment there is no time to finish ST3 and no set release date.
+
+Q: When is Worldcharts issue #2 coming out?
+A: Since there are a lot of other groups publishing all kinds of magazines
+   today and our main directive is to make demos, and that Worldcharts #1
+   wasn't as good a success as we wanted it to be, we see no real sense in
+   in continuing to publish it anymore. Also as you might have guessed our
+   time has become too limited for these kinds of projects. In a nutshell,
+   at this time there is no real reason for you to send in your votes or
+   articles. If we change our minds about this, you can be sure that we'll
+   let you know. Thanks to everyone who supported us by sending us votes
+   and articles.
+
+Q: What programming books would you recommend to learn assembler and VGA?
+A: This is a hard question, and a general answer is, that any book will do.
+   You can get the basics from a book and books are a great reference,
+   but when it comes to creating something new, you can't just read it
+   from a book. We have all learned to code the hard way (a lot of
+   miscellaneous books and a lot of experimenting). Anyway, here are 
+   some of the books we often find handy (there are undoutedly newer 
+   prints, so check them out):
+
+        Mastering Turbo Assembler, Tom Swan
+                Hayden Books 1989, ISBN 0-672-48435-8
+        PC System Programming, Michael Tischer
+                Abacus 1990, ISBN 1-55755-036-0
+        The Programmers PC Sourcebook, Thom Hogan
+                Microsoft Press 1988, ISBN 1-55615-118-7
+        Programming the 80386, John H. Crawford and Patrick P. Gelsinger
+                Sybex 1987, ISBN 0-89588-381-3
+        Programmers guide to EGA and VGA cards, Richard F. Ferraro
+                Addison Wesley 1989, ISBN 0-201-12692-3
+
+   Also, most up to date are many software 'books', such as interrupt 
+   lists from bbs'es and such. We have also found a lot of valuable
+   information in articles and such. In short, there is no magic
+   way of learning to code, it really does take hard work.
+
+Q: Are you going to make games in the future ?
+A: Why not. It all depends if we have the time. We have a few game
+   ideas cooking, but they are far from being completed. But we will
+   let you all know when we have a game coming, don't you worry!
+
+Q: What do the members of Future Crew do besides computers ?
+A: Most of us study in various schools; universities, high schools and
+   colleges. In real life most of us are quite normal(?) human beings.
+   Our hobbies are for example, sci-fi, movies, weight-lifting, techno,
+   hi-fi, etc, etc. And most of us have or has had a girlfriend.
+
+Q: What sound cards will you support?
+A: At the moment our productions support the following sound cards:
+
+        Gravis UltraSound   - for it's programming advantages
+        Sound Blaster Pro   - for being a standard
+        Sound Blaster       - same here
+
+   Support to other sound cards is always possible, but right now we
+   don't see enough demand to support any other cards.
+
+Q: Why do your demos require a 386 or higher to run?
+A: There are several reasons for the requirement; For example, 386 has many
+   new assembler commands, 32bit registers, and of course more processing
+   power. There isn't simply enough processing power in 286 to run a full
+   ledged demo. And besides, 286-based machines are a dying breed.
+   
+Q: How did you learn to code as you do now?
+A: Learning to code demos is a long and very very difficult process. It takes
+   years to learn to code demos very well. A good way to start is some high
+   level language like Pascal or C and then started to experiment with 
+   assembler. It takes a lot of time and experimenting to get better, and
+   there are no shortcuts (for book recommendations, see a question before
+   this). The main thing is trying to understand what you do, then trying
+   to change the program to see what you get, and gain wisdom in what's
+   the best way of doing things. Learning to code well requires a lot of
+   patience, a lot of enthusiasm and a lot of time. It is not easy.
+
+Q: What programs do you use to do your demos?
+A: We use the following programs to do our demos; For code we use 
+   Borland C++, Microsoft C, Borland Pascal and of course TASM (Turbo
+   Assembler). For graphics we use Deluxe Paint 2 Enchanded (and 3D Studio
+   2.0). For making the music we use Scream Tracker 3.0 beta, and for 
+   digitizing the samples for our songs we use Advanced DigiPlayer 2.5
+   beta. Scream Tracker 3.0 and Advanced DigiPlayer are our own programs
+   made by Psi, and they are not available to the public at this time.
+   In addition to all these, we of course have a big collection of 
+   utilities we have crafted to our need during the years.
+   
+Q: I'm a beginner programmer. I wonder if you could help me learn demo coding?
+A: To help beginners learn the secrets of democoding we have released the
+   full source of our Mental Surgery demo. This source code is spread along
+   with our STMIK (Scream Tracker Music Interface Kit), which is a 4 channel
+   music player, which you can link into your own programs. You can find these
+   from our distribution sites, under the name STMIK020.ZIP (be sure to grab
+   STMIKFIX.ZIP too, which fixes one nasty bug). Do not try to ask us send
+   you some of our unreleased source code.
+   If you are reading this file, you probably know already that we have
+   released a new source code pack which includes the full, documented
+   ASM source code of our new StarPort intro II.
+   There's always the possibility that we will release some other source code
+   in the future as well, but at this time there are no immediate plans for
+   such an event.
+
+Q: What is the complete list of your released productions with release dates?
+A: To date, we have released the following productions:
+
+   Filename        Size   Released   A Short Description
+   --------        ----   --------   -------------------
+   YO!.ZIP         32 kb   2-24-89   YO! intro, VGA textmode/PC-speaker
+   GR8.ZIP         31 kb   7-12-89   GR8 intro, EGA/No sound
+   FC-SLIDE.ZIP   350 kb   7-23-90   Slideshow I, a graphics collection, SB
+   ST224.ZIP      130 kb   2-22-91   Scream Tracker 2.24 shareware version, SB
+   MENTAL.ZIP      90 kb   7-02-91   Mental Surgery demo, SB/Covox/PC-speaker
+   STMIK020.ZIP   170 kb   8-10-91   Scream Tracker Music Interface Kit 0.20
+   FISHTRO.ZIP    230 kb   4-08-92   Assembly'92 invitation intro, SB
+   STMIKFIX.ZIP    10 kb   7-14-92   A Bugfix to STMIK
+   UNREAL.ZIP    1350 kb   8-06-92   Unreal megademo, SB/SBp
+   STARPRT2.EXE     6 kb   9-13-92   StarPort BBS intro, VGA/AdLib
+   THEPARTY.ZIP   165 kb  10-02-92   The Party II invitation intro, SB/SBp
+   PANIC.ZIP      950 kb   2-04-93   Panic trackdemo, SB/SBp
+   ASM-93.ZIP     400 kb   6-15-93   Assembly'93 invitation intro, SB/SBp/GUS
+   WCHARTS.ZIP    680 kb   6-26-93   Worldcharts magazine issue #1, SB/SBp/GUS
+   SOULOMAT.ZIP   100 kb   7-10-93   A song by Purple Motion
+   ICEKNGDM.LBM    65 kb   8-01-93   Winner of PC graphics compo at Asm'93
+   ICEFRONT.ZIP   180 kb   8-01-93   The winner of PC multichnl compo at Asm'93
+   CAN'T.ZIP      125 kb   8-01-93   The second in PC multichnl compo at Asm'93
+   STRSHINE.ZIP   225 kb   8-01-93   The third in PC multichnl compo at Asm'93
+   TROLL.LBM       85 kb   8-01-93   The fourth in PC graphics compo at Asm'93
+   SUNDANCE.ZIP   235 kb   8-10-93   The winner of PC 4chnl compo at Asm'93
+   2NDREAL1.ZIP  1250 kb  10-07-93   Second Reality, Asm'93 winner, SB/SBp/GUS
+   2NDREAL2.ZIP   790 kb  10-07-93   Second part of the Second Reality demo
+   2NDR_MS.ZIP    280 kb  11-01-93   Skaven's songs from Second Reality
+   SYMPHONY.ZIP   260 kb  11-01-93   Symphony by Skaven 
+   PMFRACT.ZIP    210 kb  11-05-93   The winner of Megaleif ST/PC music compo
+   BUSMATKA.ZIP    75 kb  11-09-93   Finnish invitation to Party3 bussymatka
+   STARPORT.ZIP  4522 byt 11-21-93   StarPort BBS intro II, VGA/Adlib
+   SP2SRC.ZIP      30 kb  12-02-93   StarPort BBS intro II sources
+
+   You SHOULD be able to find all of the above from our Distribution Sites.
+
+Q: Exactly where do FC members study and what?
+A: Many of us study in high school or in university. Here is the complete list:
+
+        Psi             - Turku university, major informatics
+	Trug    	- finished his studies
+	WildFire 	- last year in high school
+	Purple Motion	- second year in high school
+	Skaven		- not studying at the moment
+	Pixel		- last year in high school
+	Marvel		- last year in high school
+	Abyss		- last year in high school
+        GORE            - studying in business school
+
+Q: How long does it take to make a demo like Second Reality?	
+A: The complete time that it takes to make such demo can't really be counted.
+   Most of our knowledge is based on years of hard work and on our previous
+   works. All of us do little experiments on their freetime and when a 
+   "critical mass" is achieved the making of a demo begins more seriously.
+   From this point to a final demo (in the case of a major production like
+   Second Reality) it takes around three to six months.
+   
+   
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³10:                  CREATIVITY DEMO NET (CDN) INFORMATION                   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+  Creativity Demo Net or shortly CDN is nowadays quite a common sight
+among BBS'es that are oriented towards demos. But what exactly is CDN?
+
+  The idea behind The Creativity Demo Net(work) is now about 2 years
+old. I had been dreaming about having a way to communicate electronically
+between different demogroups. When we (Future Crew) attended Megaleif
+Easter Party'92 last year in Uppsala, Sweden, I was positively surprised
+when I found out that Mirage / Cascada had also been thinking about the
+same thing. We both thought that it was a good idea and began developing it.
+
+  But it didn't work out as we intended. There were a lot of difficulties,
+in Sweden and here in Finland. At first we tried to spread the net via FidoNet,
+but soon it came clear to us that demogroups needed their own net. The
+same time I had been also talking with Trojaner (SysOp of Skull's Southern
+Germany HQ) and he was also inspired by this idea. We decided that Skull
+and Future Crew wouldn't be enough to start a new net with, so I contacted
+Arjan Pool (who had relations with DCE) and he also thought that the idea
+was just great. And we got underway.
+
+  At first the net was called just plainly DemoNet, but it was almost 
+immediately changed to Creativity Demo Net. Anyway, at first it was planned
+that StarPort would become the World HQ, but as Arjan wanted to take the job
+and all the big responsibilities, Arco BBS became the WHQ (and still is). Much
+of the coming success of CDN was based on Arjan's continuing hard work for CDN.
+
+  The net started working in August 1992, four months after the first idea
+about a demonet had come to me. And after that the net has spread like a
+wildfire! At first CDN spanned only 3 countries (Finland, Holland and Germany)
+but soon Sweden joined in, and then country after country and bbs after bbs
+joined in. To this date CDN spans the following countries: Finland, Holland,
+Germany, Switzerland, Spain, Denmark, Sweden, England, Italy, Turkey, Belgium,
+Canada, USA, France, Hungary, Brazil, Austria and Australia. THAT'S 18 
+COUNTRIES! And there are about 140 nodes in CDN, all BBS's that are demogroup's
+BBS'es. Considering the small amount of demogroup BBS'es, I would estimate
+that about 75% of all demogroup BBSes are connected to CDN and all of the
+biggest groups like FC, Triton, Renaissance, Cascada, etc... are connected
+to the net.
+
+  So what kind of echoes does CDN carry? Well here is the complete list of
+echomail areas:
+  
+*    1. CDN.4ALL
+        The area for everyone in CDN
+*    2. CDN.ANNOUNCE
+        Made a new demo ? announce it overhere.
+*    3. CDN.DISKMAG
+        All information about diskmagazines
+%    4. CDN.CHAT
+        All chatting with other members
+%    5. CDN.PROGRAMMING
+        For help with programming problems
+%    6. CDN.GFX
+        For all graphics makers
+%    7. CDN.MUSIC
+        MIDI/MOD/MUSIC help and questions
+S    8. CDN.TEST
+        Test area
+!    9. CDN.INTERGROUP
+        For selected groups within CDN
+S   10. CDN.SYSOP
+        Sysops CDN only
+H   11. CDN.HQ_HOST
+        For mail between HOSTS versus HQ
+
+* - for everyone who gets
+    connected to a BBS
+% - for registered persons
+    (demogroup members)
+S - only for CDN sysops
+H - only hosts and HQ
+! - for special selected groups
+
+  CDN has areas for relaxed talk between people (and it gets QUITE
+relaxed sometimes, and QUITE weird =), but it's just fun!), and for
+serious purposes such as programming.
+
+  And what does CDN require from a BBS? Well, the first and MOST
+important requirement is that the BBS is some demogroups (preferably an
+active one) BBS. That is rule that there are only few exceptions from.
+But otherwise, you just have to:
+
+ - place the completed files of the CDN on his/her BBS that everyone
+   can download them
+ - use the CDN nodelist and it's updates
+ - connect to every area available to them
+
+  Not too many rules... And that is because we want CDN to be fun,
+not some playground for idiots with a lawbook for brains.  
+Also, there are ABSOLUTELY no charges in CDN, so the only costs you have to 
+pay are your own phonebills.
+
+  You can FREQ more info about from for example the WHQ under the magic name
+CDNINFO. So, get more info now if you are interested in joining in!
+
+                            =ABYSS- / Future Crew
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³11:              OFFICIAL FUTURE CREW DISTRIBUTION SITES                     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ÚÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³Country   ³BBS name              ³BBS number(s)           ³SysOp / Other info³
+ÃÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³Finland   ³StarPort - FC WHQ     ³+358-0-804-4626 HST/V32b³=ABYSS- / FC      ³
+³          ³                      ³+358-0-804-1133 V32bis  ³                  ³
+³          ³                      ³                        ³                  ³
+³Australia ³Tequila Sunrise       ³+61-7-801-4446  V32bis  ³Bartender         ³
+³          ³                      ³                        ³                  ³
+³Austria   ³Polymorph LIGHTS      ³+43-1-596-9026  V32b&HST³Gery              ³
+³          ³                      ³                        ³                  ³
+³Belgium   ³Genesis               ³+32-2-2453498   16.8k   ³McGarret&MadFlight³
+³          ³                      ³                        ³                  ³
+³Belgium   ³Point Break           ³+32-11436925    16.8k   ³Lord Cyrix &      ³
+³          ³Access Denied WHQ     ³                        ³Jumping Jack Flash³
+³          ³                      ³                        ³                  ³
+³Brazil    ³Warmboot BBS          ³+55-19426-5112  V32b    ³Carlos Cantu      ³
+³          ³                      ³                        ³                  ³
+³Canada    ³Spasm-o-Tron          ³+1-514-744-5718 V32bis  ³Snibble / HiTS    ³
+³          ³                      ³                        ³                  ³
+³Canada    ³The Basement Breweries³+1-905-527-3469 V32bis  ³Wizard            ³
+³          ³                      ³                        ³                  ³
+³Denmark   ³Crack Central BBS     ³+45-981.10096   19.2k   ³Executioner       ³
+³          ³                      ³                        ³                  ³
+³England   ³Sound & Vision BBS    ³+44-932-252323  V32bis  ³Rob Barth         ³
+³          ³                      ³                        ³                  ³
+³Germany   ³The BitBlasters BBS   ³+49-851-83994   16.8k   ³BitBlaster        ³
+³          ³                      ³                        ³                  ³
+³Germany   ³The Continental BBS   ³+49-711-548501  16.8k   ³Trojaner          ³
+³          ³                      ³                        ³                  ³
+³Holland   ³The Consultation BBS  ³+31-1170-54987  V32bis  ³Preceptor         ³
+³          ³                      ³                        ³                  ³
+³Hungary   ³Dune II               ³+36-62-342-793  V32bis  ³TSC / Phantom     ³
+³          ³                      ³open: workdays 14-07 CET³weekends: 24h     ³
+³          ³                      ³                        ³                  ³
+³Iceland   ³Mori BBS              ³+354-1-677020   V32bis  ³Arni Eggertsson   ³
+³          ³                      ³                        ³                  ³
+³Israel    ³The Bureaucratic BBS  ³+972-9-984173   V32bis  ³Shachar Cafri     ³
+³          ³                      ³+92-9-426657    V22bis  ³                  ³
+³          ³                      ³                        ³                  ³
+³Norway    ³Romeo November        ³+47-4-536698    V32bis  ³Stinger           ³
+³          ³                      ³+47-4-536797    19.2k   ³                  ³
+³          ³                      ³                        ³                  ³
+³Singapore ³MultiMedia GS         ³+65-252-1220    V32b    ³WildCat           ³
+³          ³                      ³                        ³                  ³
+³Spain     ³Dracker BBS           ³+34-3-385-3393  16.8k   ³Gvyt / ENiAC      ³
+³          ³                      ³                        ³                  ³
+³Sweden    ³Illusion              ³+46-18-260565   V32bis  ³ZED / FAiC        ³
+³          ³                      ³                        ³                  ³
+³Switzerlan³Wonderland            ³+41-64-47-3046  16.8k   ³PfUsuUS           ³
+³          ³                      ³                        ³                  ³
+³USA, NY   ³The Sound Barrier     ³+1-718-979-6629 HST V32b³Daredevil / REN   ³
+³          ³Renaissance WHQ       ³+1-718-979-9406 V22bis  ³Charles Scheffold ³
+³          ³                      ³                        ³                  ³
+³USA, ND   ³Quantum Accelerator   ³+1-701-258-0319 V32bis  ³Chris Zimman      ³
+³          ³                      ³                        ³                  ³
+³USA, TX   ³Programmer's Oasis    ³+1-214-328-6142 V32bis  ³Daniel Potter /   ³
+³          ³                      ³                        ³Digital Infinity  ³
+³          ³                      ³                        ³                  ³
+³USA, SC   ³The End of Time       ³+1-803-855-0783 V32bis  ³Holy Water and    ³
+³          ³                      ³                        ³The Hit Man       ³
+³          ³                      ³                        ³                  ³
+³USA, KY   ³Eleutheria            ³+1-606-223 1853 V32bis  ³Soul Rebel /      ³
+³          ³                      ³                        ³Avalanche         ³
+³          ³                      ³                        ³                  ³
+³USA, MO   ³Red Sector            ³+1-816-792 3821 16.8k   ³Lion Heart        ³
+³          ³                      ³+1-816-792 2029 HST     ³                  ³
+³          ³                      ³                        ³                  ³
+³USA, D.C. ³Data Connection BBS   ³+1-703-506 8598 16.8kHST³Ryan / Renaissance³
+³          ³                      ³                        ³                  ³
+³USA, FL   ³The Power Grid        ³+1-813-481-6539 16.8k   ³Grid Runner &     ³
+³          ³HQ for many groups    ³                        ³Syntax Error / iCE³
+ÀÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        In addition, you can get our demos from internet where
+        a very good anonymous ftp demo site is ftp.uwp.edu. Our demos
+        can be found in the directory: /pub/msdos/demos/groups/future.crew.
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³12:              HOW TO BECOME A FUTURE CREW DISTRIBUTION SITE               ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+         We are looking for distribution sites around the world.
+         We are looking for demo-oriented BBS'es that are interested
+         in becoming part of FC's growing number of BBS'es.
+
+         So, what does it take to become an FC distsite?
+         In fact, it's not easy, we require a lot, but before
+         giving up, take a look at the following list:
+         
+                 - Your BBS MUST have every single one production
+                  FC or any member of FC has ever RELEASED
+                
+                - Your BBS has to call StarPort (FC WHQ) at least
+                  twice a month, and keep in contact with the FC
+                  
+                - Your BBS also has to be a voting place for our possibly
+                  continuing Worldcharts diskmag (voting door)
+                  
+                - Your BBS has to be absolutely DEMO-ORIENTED, NOT
+                  some gigantic all-around BBS. YOU yourself have
+                  to be very interested about demos and the PC demo
+                  scene in general
+                  
+                - Your BBS should join the Creativity Demo Net, if
+                  by any means possible
+                  
+                - Your BBS would also be a Future Crew information
+                  forum. You would have to answer questions concerning
+                  FC and our production, and help people who have
+                  problems with our software
+                  
+                - Your BBS should be operated on a PC compatible,
+                  with at least a 14400 BPS modem and 300 megabytes
+                  of diskspace for demos, and the BBS should be open
+                  24 hours a day, and 365 days / year
+
+        So what do you get in exchange? Well, these things we can
+        guarantee:
+        
+                - Your BBS will be mentioned in every FC production
+                  in the distsite BBS list
+                - You have a chance to get all FC's future productions
+                  first hand
+                - You will get some FC inner circle information
+                
+        What we can't guarantee, but what is likely to happen, is that
+        your BBS will become more and more popular and it's quality
+        will improve dramatically. 
+        
+        Remember that we already have BBSes in most of the european
+        countries (check out the BBS list), but there are still some
+        gaps left which we'd like to fill out. In the USA and Canada,
+        we are accepting one BBS per state.
+
+        Please read the above rules carefully and think twice before
+        sending in the application below:
+
+-----8<------8<------8<------8<---cut-here------8<------8<------8<------8<-----
+
+
+        THE FUTURE CREW DISTRIBUTION SITE APPLICATION FORM
+        ==================================================
+
+        Copy this application to it's own file, fill it out and give the
+        file the name of your BBS. Then send it to StarPort or e-mail it.
+        Do NOT fax it or send it by normal mail!
+
+        BBS name                 :______________________________________
+         
+        BBS phonumber(s)         :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+        
+        BBS modem(s)             :______________________________________
+                                 :______________________________________
+                
+        Modem speeds supported   : [ ] 1200  [ ] 2400  [ ] 9600 (V32)
+        (place X on appropriate  : [ ] 14.4k (V32bis)  [ ] 16.8k
+        box)                         : [ ] MNP   [ ] V42bis
+
+        BBS net address(es)      :______________________________________
+        
+        List networks you are in :______________________________________
+                                 :______________________________________
+
+        Would you be willing to join the Creativity Demo Net if you aren't
+        yet in?                  : (Yes / No)
+        
+        If necessary would you be willing to become a Host / Hub for The
+        Creativity Demo Net?     : (Yes / No)
+        
+        BBS software             :______________________________________
+        
+        Mailer software          :______________________________________
+        
+        Is your board any other group's distsite or member board: (Yes/No)
+        If yes, please list them :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+
+        How many lines/nodes does your system have :____________
+        
+        How many users does your system have :__________________
+        
+        How large (in MB's) is your system   :__________________
+        
+        Is your BBS very demo-oriented : (Yes / No)
+                                 
+        In what country do you live :___________________________________
+        
+        SysOp alias / group      :______________________________________
+        
+        SysOp real name          :______________________________________
+        
+        SysOp voice phone number :______________________________________ 
+        
+        SysOp e-mail address     :______________________________________
+
+        SysOp age                :___        
+
+        SysOp full mail address  :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+                                 :______________________________________
+                                 
+
+        Anything special we should be aware of?:
+        _________________________________________________________________
+        _________________________________________________________________
+        _________________________________________________________________
+        _________________________________________________________________
+        _________________________________________________________________
+        
+        
+-----8<------8<------8<------8<---cut-here------8<------8<------8<------8<-----
+
+        P.S. Filling up this form doesn't mean that you will automatically
+        become an FC distribution site! We'll check the form and get back
+        to you!
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³13:               THE BRIEF HISTORY OF THE FUTURE CREW                       ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+		 
+   		     by Abyss and Gore / Future Crew
+
+ - 1986-1987 -
+  Future Crew (FC) was founded in the year 1986 on the C-64. And only one
+ member has been in the group for the whole time - Psi. FC did two
+ demos on the C-64 before changing into the PC scene in the year 1988.
+
+ - 1988 -
+  FC's first PC demo was a CGA sinus -scroller called GR8. At that time
+ the members were HAL, JPM, SS (Psi) and SIDDER. And DARK POWER
+ was FC's BBS.
+
+ - 1989 -
+  Then there came YO! which was quite popular for a while. It used one of
+ the VGA's textmodes and included 'nice' PC-speaker music. It had
+ many scrollers, a sinusing YO!-logo, a little bouncing ball and
+ a 2D-starfield. At this time ICE joined and so FC
+ had another BBS - SILICON DRAGON.
+
+ - 1990 -
+  In the year 1990 there was only one demo release from us, the Slideshow I.
+ It was the first PC demo which included 4 voice SoundBlaster music.
+ It didn't include any other special code for it was a VGA picture
+ slideshow. And at this time there were a lot of members in FC:
+ Psi, ICE, HAL, JPM, SID, BIG, DAC, MAC and SEBU.
+
+ - 1990 -
+  And only shortly after Slideshow I, Psi released his ScreamTracker 2.0 -
+ a 4 voice music editing program inspired by the Amiga SoundTracker.
+ ST 2.0 was a real success. But of course, it didn't take much time
+ when a pirated version was on the move. This was in the year 1990.
+
+ - 1991 -
+  In summer 1991, FC released a demo called Mental Surgery. It had
+ a big scroller on the top of the screen, 3D-starfield, a nice writer,
+ music scopes and of course 4 voice SoundBlaster music.
+ This was the last FC demo that worked on a 286 machine. At this
+ time the members were: Psi, ICE, Dr.Venkman and Purple
+ Motion. And only a while after this I (GORE) joined FC and ICE lost
+ the interest to demos and left FC along with his BBS. And
+ Dr.Venkman went crazy by selling his computer and retired for a while.
+
+ - 1992 -
+  So, FC lived quietly for about half a year. But when the year
+ 1992 came Trug, Pixel, Skaven and Abyss joined FC. And as Abyss
+ joined, FC had a BBS again, namely StarPort. So, in the
+ beginning of the year 1992 FC had the following members:
+
+ 1. Psi --- Main coder
+ 2. Trug --- Asst. coder
+ 3. GORE --- Organizer/asst. GFX-man
+ 4. Pixel --- Main GFX-man
+ 5. Abyss --- BBS support/utilities
+ 6. Skaven --- Musician/asst. GFX-man
+ 7. Purple Motion --- Musician
+
+  It was at this time that we had begun making UNREAL. Our first
+ plan was to release it at MEGA-Leif Convention - An Atari ST/PC party
+ held in Uppsala, Sweden. But about a month before MEGA-Leif,
+ MeeGosh/Rebels (Amiga) called me and told me about ASSEMBLY'92
+ and that it would be cool to have also the PC scene there. So, he
+ asked us to do an invitation intro for the PC scene about this
+ mega-event. We agreed and so, UNREAL was put to rest as Psi got
+ the idea of making something different - namely the Fishtro.
+ It took us about two weeks to create Fishtro from nothing, but
+ when we went to MEGA-Leif Convention, we still had little bugs in it and
+ therefore we couldn't release it until a week after MEGA-Leif. 
+ We also competed with Fishtro in the MEGA-Leif PC demo compo, but
+ we were never told who came second. As the people who were at MEGA-Leif
+ remember, the belgian Raiders Brothers won the demo compo, but
+ they have not released their winning demo to this date (13.7.92).
+ After we came back from MEGA-Leif, we started on making UNREAL again.
+ And Dr.Venkman came back from his retirement.
+
+ - 1992 -
+   Then Unreal was released. Unreal was the first really big megademo for PC and
+ it hit the top of the charts immediately.
+ 
+ - 1992 -
+   Then we were contacted by the organizers of a BIG Amiga/C64/PC party, called
+ The Party 1992. They asked us to organize the PC demo compo there and make
+ again an Invitation Intro for it's PC side. So The Party 1992 Invitation Intro
+ was made. At that time we had the following members:
+ 
+ Psi            - Code
+ Trug		- Code
+ WildFire	- Code
+ Pixel		- GFX
+ Purple Motion	- Music
+ Skaven		- Music & GFX
+ GORE           - Organizer
+ Abyss		- BBS support
+ 
+  The Party 1992 Inv. Intro was mostly coded by Psi and WildFire. WildFire was
+ our new coder who joined us in autumn 1992. He had before been active on the
+ Atari ST scene.
+ 
+ - 1992 -
+   Then it was the time for another big demo. The making of Panic! began.
+ It was the normal process of making demos with blood and sweat and annoying
+ deadlines. WildFire was the one to assemble the demo together, but lots of
+ code was also done by Psi and Trug.
+ 
+  Then it was the time for The Party 1992. As we thought that it would really 
+ nice to get as many people as possible to The Party as cheaply as possible,
+ we decided to organize a bus trip there with the amiga people. So we managed
+ to load two buses full of computer freaks and take our leave towards The
+ Party. At that time The Party 1992 was the biggest computer party ever.
+ There were about 2500 computer freaks of which around 400 were PC dudes.
+ 
+  There we entered the demo compo with Panic, and to our surprise we came
+ second. Witans Facts of Life had won the demo compo. We were quite 
+ disappointed by this, because there was absolutely no voting. The voting 
+ system on Amiga just didn't work. And then some organizer just asked the last
+ remaining PC organizer "What do you think were the best demos" without telling
+ him that these were going to be the official results. And without thinking he
+ just said "Witans, FCs and Sonics". 
+ 
+  Anyway, The Party 1992 was a big success.
+ 
+ - 1993 -
+   After The Party 1992 we lived quietly for awhile. The only big change was
+ that Marvel (formerly from Sonic-PC) joined us. So we now have two gfx 
+ artists. Then we began thinking of making a diskmag. At first nobody really
+ wanted to code it, so we thought that we would make it as a co-operation 
+ with Stone (a finnish demogroup). But after some co-operation troubles we
+ began making it 100% by ourselves. We tried to make it the best diskmag
+ on the PC and according to many opinions, we succeeded quite well. What
+ we tried to do, was to set an example on how well you can do diskmags if
+ you really try. The diskmag was coded by Psi and the GFX were done by
+ Pixel and the musics by Purple Motion and C.C.Catch from Renaissance.
+ 
+ - 1993 -
+   Then it was the time for Assembly'93. Once again we were the PC organizers
+ and we made an invitation intro for it. It's name is quite easy to guess,
+ it's Assembly'93 Invitation Intro (hard one! =)). It was coded by Trug,
+ the GFX were done by Marvel and the musics by Purple Motion. It fulfilled
+ its purpose (to get as many people as possible to Asm'93) very well.
+ 
+  Assembly'93 was the biggest ever summer demo party. There were about 1300
+ people on the party place of which around 450 were PC demo freaks. Asm'93
+ was also a big advancement on the PC side. For the first time we also had
+ a intro, music (4 channel and multichannel) and graphic compos. 
+ 
+  Our biggest production yet, the Second Reality won the PC demo competition.
+  You have most probably also seen it, so I won't (again) go into detail in
+  trying to describe its effects.
+  
+  At the moment we are looking ahead to The Party III: The Ultimate. We are
+again organizing a bustrip to Herning (were the party is to take place). We
+really recommend this party because we feel that The Party III is going to
+be the biggest and coolest demo party for PC ever. So be there or be square!
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³14:                       ANSWERS TO RUMORS                                  ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+	Rumors:   - The computer was changed to a faster one to run Second
+		    Reality.
+		  - An additional GUS was added to machine.
+		  - The VGA card was changed to a faster one.
+		  - Marvel scanned his picture (Ice Kingdom)
+		  - Marvel didn't compose his tune "Can't remember you"
+		  - FC did something to the tunes, because they sounded so
+		    weird.		    
+		  - FC used dirty tricks in the The Party II
+		  - FC skipped some parts of other groups demos to hurt their
+		    score
+		  - FC conducted a ballot-stuffing (fake voting)
+
+        Question 1) Was the computer changed?
+        Answer   1) No. All the competitions (music,gfx,intro and demo) were
+                    run on the same 486/33mhz 64kb cache GUS 1mb and ET4000
+                    1mb machine with 4mb of RAM. This machine belongs to me
+                    (Abyss) and is the very same machine (except for the GUS)
+                    which was used to display the demos at The Party II.
+
+
+        Question 2) Did you change the VGA card?
+        Answer   2) No we didn't. The same ET4000 1MB VGA card was used all
+                    the time.
+
+
+        Question 3) Was a second GUS card added to the machine?
+        Answer   3) At first few months before the Asm'93 we thought that
+                    Dolby Surround Pro Logic was only possible to make
+                    if you had 2 GUSes. Then we found out that it is very
+                    easy and possible to do with only one GUS card. So no
+                    second GUS card was added.
+
+
+        Question 4) Why is Marvels Ice Kingdom so like BEAR1.GIF?
+        Answer   4) Let me explain at first about the background. Most of
+                    you arent familiar with the Amiga scene. On the amiga
+                    scene it is forbidden to scan a picture, but it is
+                    ok to use a existing picture as a model from which to
+                    draw. What this means is that many of pictures made
+                    are not ORIGINALLY created by the author (for example,
+                    EEVI which came second at Asm'93 is originally by H.
+                    Giger (the guy who did the gfx for Alien (I-III) for
+                    example)).
+                    What Marvel did was, that he draw the outlines from the
+                    BEAR1.GIF and the proceeded on his own with the most
+                    difficult task. If you compare BEAR1.GIF and ICEKNGDM.LBM
+                    1) they are in different resolutions
+                    2) there is no wall in the ICEKNGDM.LBM
+                    3) if you zoom in the picture you will see that the
+                       colouring (dithering) of the picture is completely
+                       different than in Marvels picture.
+                    4) BEAR1.GIF looks scanned, it looks helluva good and
+                       it looks very different than Marvels picture.
+
+
+	Question 6) Did Marvel compose the tune "Can't remember you"
+	Answer   6) Yes, he did. Among his other talents, Marvel is a quite 
+	            good composer. He has made around 5-6 tunes during his
+                    amiga career (though not too famous songs). He composed
+                    the "Can't remember you" using ST ]I[ beta.
+		    
+
+	Question 7) Did you refuse to use any other player than ST3?
+	Answer   7) No we didn't. Most of the songs were supplied to us as
+		    plain MOD files. No player was included with them. Only
+		    one song had it's own player, and that player was used
+		    to play it. In the Assembly'93 text file there was a 
+		    notion:"Bring your own player" (about the PC multichannel
+		    competition). Because no player was supplied with most of
+		    the MODs/multichannel files, we used the best player
+		    we know of, the ST3 beta.
+		    It is also claimed by people who have never used nor
+		    seen ST3 that ST3 has still serious bugs in its .MOD
+		    capabilities. This can't be more wrong as ST3 is one of
+                    the very few composers that really play all Amiga commands
+		    really correctly, not like many PC composers. So it's more
+		    likely that composer used to create the tune wasn't enough
+                    Amiga MOD compatible than ST3 to have bugs in it's MOD
+		    playing module.
+	
+
+	Question 8) Did you do something to the tunes to make them sound so
+	            weird?
+	Answer   8) No, we didn't. The PA system broke down. The left speaker
+	            broke and didn't play most of the middle-sounds. We are
+		    very sorry for this, but it's very rare that this kind of
+		    things happen.
+		    
+		    
+	Question 9) Did you use dirty little tricks in The Party II?
+	Answer   9) Rick Dangerous / S!P has claimed that we used the 
+		    following dirty trick in The Party II:
+		    	 ù First telling everyone there'll be no demo from them
+			 ù then, all of a sudden, at the END of the compo Gore 
+			   shouted (you know in this certain style) And Now! 
+			   The new demo by the Future Crew.... (all other things 
+			   were anounced like uhh.. hmm yes.. copper? by humm...  
+			   surbrisse..?...)
+			 ù and finally they turned the volume up to give the 
+			   sound a special boost...
+		    
+		    1) We telled nobody of our demo (Panic) because we feared
+		       that it would scare off people. The almightyFC is gonna
+		       do a new demo, we can't win, so why compete? We thought
+		       we could this way get a lot better compo. 
+		    
+		    2) Gore shouted? In fact the man who announced ALL the
+                       competitions (Amiga, PC and C64) was some of the Amiga-
+		       organizers. We didn't even know him. In fact Gore was
+		       nowhere near the compo room, only I and Wildfire were
+		       (of FC) at the compo room.
+		    
+		    3) We couldn't have boosted the volume because PA system
+		       was operated by two other guys. They controlled the 
+		       volume during all the compos. Not us.
+		       
+		       
+	Question 10) Did FC skip parts of other groups demos?
+	Answer   10) Yes. Some parts were skipped because the demo run just for
+	             too long displaying the same effects all over again. 
+                     If the audience began almost to die of borement because
+		     of looking at the same boring screen for 3-4 minutes it
+		     was the time to skip to next part. This could have not
+		     hurted the group, because people already were bored with
+		     the screen. Boring them more would affected the groups
+		     score even more.
+
+		     
+	Question 11) Did FC conduct a fake voting?
+	Answer   11) The counting of votes was an open happening. Anybody could
+	 	     have joined us to help with the counting. We invited 
+		     everybody to join us. We made every attempt to make the
+		     voting as reliable as possible and it's our opinion that
+		     the votes were counted as correctly as possible.
+		     What comes to faking votes, it is a complete lie. No votes
+		     were forged. The results of the music competitions might
+		     have been surprises, but for those surprises only the
+		     voters can be blamed.
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³15:                          SONIC DREAMS                                    ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+	
+	Two files which have claimed to be a demo from us under the
+	name of Sonic Dreams have been circulating boards around 
+	Europe.
+	
+	  These files: FCSONIC1.ZIP and FCSONIC2.ZIP
+	  
+	  		A*R*E  F*A*K*E*S*!
+			
+	We don't know the maker of these files nor the purpose of them.
+	Under our tests we have not found any viruses nor troijans in those
+	files. Those files are composed of PCX pictures with some simple
+	C source code. Please delete the files when encountered. We 
+        (the Future Crew) are not the makers of these files.
+	
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³16:                          FINAL WORDS                                     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+	This is the second revision of this file. In the first version
+        there was a a little "bug". The number to StarPorts' second node
+	was incorrect. Please, don't call that number! The number goes
+	to some Finnish home.
+	
+	Thank you for reading this file.
+	
+	
+                Signed, Abyss, GORE & Henchman / Future Crew

@@ -1,0 +1,54 @@
+cashcow runs under windows only, and there will never be a dos
+version, since dos belongs in a museum ;)
+
+i have absolutely no clue how much mem it needs, but i think
+32megs should be more than enough.
+this thing was coded on a p2-450 with 128 megs and a tnt2, and
+it runs fine on that (doh),  it also ran smooth at a p2-400 with
+a tnt, and i haven't been able to test it on anything slower,
+except for a p90 with 96megs and a dx2/75 laptop with 16megs and
+a 640x480x256 res, and yes, it actually worked on those two ;)
+i think it should run pretty well on anything above 300mhz. 
+this slowness is of course not my own fault,  but windows' =)
+oh, it probably won't run under NT.. sorry for that, but i dont
+have an NT machine available, i will install it soon tho, and if
+enough people (1 or more hehe) ask for an NT version, i will
+fire up the debugger and find the fuckin bug!
+
+okay, some useful things:
+- put a star (*) somewhere in your commandline, and the textures
+  that are generated will be saved to disk. if the textures are
+  already present, they will be loaded, so they dont have to be 
+  calculated again and again..
+- put a "w" in the commandline to run the intro in a window.
+  you can switch fullscreen/windowed during the intro by pressing
+  alt+enter. if you don't have a 512x384 fullscreen mode, you
+  will be windowed, and of course this alt+enter shortkey wont
+  work :)
+- press esc or alt+f4 at any time to quit the intro right away
+- press alt for pause ;)
+- press alt-prntscrn for a screenshot
+
+some personals by snq:
+- the other dutch aardbeien: boe!
+- ile & rob: special tnx for atg and 3d!
+- nix: special tnx for your ixa lib!
+- freddyv: also tnx for usmplay (but improve it pleeeeease)
+- oyise & jacmet & otis: tnx for testing
+- you must be wondering if i did anything myself on this one
+  by now :) i can tell you that i spent more time on it than
+  i have spent on any other demo/intro so far...
+- inopia: i should really call you, but i keep forgetting :(
+  thanks for existing ;)
+- sceneorg ppl: we are never greeted, well this one will start 
+  the revolution, from now everyone will want to greet us :)
+- shortcut ppl: tnx for liking the colors =)
+- ruud: heeje heh, das potverdikkie me maatje!
+okay enough of that.
+
+if for some reason, the intro won't run.. feel free to tell me
+about it, so we can release a fix for that, and also have your
+problem fixed in future productions. any comments are welcome
+at snq@scene.org or visit http://aardbei.scene.org
+
+

@@ -1,0 +1,8 @@
+                    Hellcore distribution sites (7-02-97)
+
+  country          name               number           class    sysop
+  ‹‹‹‹‹‹‹‹‹‹‹‹‹‹   ‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹‹   ‹‹‹‹‹‹‹‹‹‹‹‹‹‹   ‹‹‹‹‹‹   ‹‹‹‹‹‹‹‹‹‹‹‹
+  Norway           Countzero          +47 5512 2962      HQ     Yitzhaq
+  ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ   ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ   ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ   ﬂﬂﬂﬂﬂﬂ   ﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂﬂ
+
+              If you wanna be our distro site or HQ, contact us.

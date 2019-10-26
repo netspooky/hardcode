@@ -1,0 +1,15 @@
+
+ =\=\=\ Tetris By Alchemic \=\=\=\=\=\ 2004.02.24
+ e-mail: alchemic_soft@o2.pl
+ =-=-=-=-=-=-=-=-=-=-=-=-=-=- Keys -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+ Cursor (Left,Right,Down) - Move
+ Cursor (Up)              - Rotate
+ ESC                      - Quit
+ N/n                      - New Game
+
+ -=-=-=-=-=-=-=-=-=-=-=-=-==- Score -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+ Each Full Line, Score Is Increased 2 Times
+ If Score Mod 80 = 0 then Speed Is Incerased And Score = Score + 10
+ If Score Is More Than Word (65535) then Score = 0

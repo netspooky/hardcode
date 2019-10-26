@@ -1,0 +1,18 @@
+
+                          Digital Element
+                                by
+                          Zien / Nocturnal
+                   
+                    released at The Gathering 98
+               **************************************
+
+
+Requirements
+************
+fpu and vga requered. Use pentium for maximum pleasure.
+If it don't run, you need more base mem.
+
+
+----------------------------------------
+e-mail:        tomrb@sofus.hiof.no
+home page:     http://www.hiof.no/~tomrb

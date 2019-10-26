@@ -1,0 +1,68 @@
+=======
+T 3 2 k - Created for the 32k Game Competition Mekka Symposium 2000
+=======
+
+Credits:
+========
+
+  GAME ENGINE 		   :    Myth
+  TITLE SCREEN		   :	TmbINC
+  C64 SID EMULATION + MUSIC:	KB
+  GRAFIX (remade)	   :    Arthus
+  DESIGN		   :    Arthus & Kojote
+  TEXTURE GENERATOR        :	Ryg
+  GAME OVER MUSIC
+  (not included here)      :    Welli/Anubis/Rebirth/Voodoo
+
+System Requirements:
+====================
+
+* Pentium II 300 MHz (engine is slow due to size improvements)
+* W9x & w2k Direct X5+ (sorry, not on nt4)
+* 75kb of Diskspace (decompresses to t.exe in c:\)
+
+Features:
+=========
+
+- DirectX support
+- Complete c64 6510 and 6581 SID emulation (with filter support)
+- 6.8kb packed graphics
+- ca. 21 screens level (2.9kb packed data)
+- 5.7kb c64 code and music data (DMC4.0)
+- SMP Support (puts the c64 emulation on the second processor if available)
+
+
+Control:
+========
+
+CURSUR UP	: Jump
+CURSOR LEFT     : Walk to the left
+CURSOR RIGHT    : Walk to the right
+RIGHT CTRL/STRG : Fire
+
+Your Mission:
+=============
+
+We guess you all know what to do ;)
+
+Btw: The "R"-Pill is the "R"estart Pill, it allows you to restart there
+after dying.
+
+
+FAQ
+===
+
+Q: Why not a cool gameover sound or at least more levels?
+A: We decided to invest all bytes into one big turrican style level.
+   Expect more (and larger) levels soon (maybe at the party).
+
+Q: The game doesn't run smooth on my machine
+A: You should have at least 300 Mhz and a nice MMX capable processor
+   The game runs much faster in the optimized version, but size improvements
+   forced us to remove certain hash-tables and sorting algorithms to gain
+   some bytes
+
+
+
+
+Special thanx to factor 5 for the turrican amiga game

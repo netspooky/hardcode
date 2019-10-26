@@ -1,0 +1,46 @@
+..............................................................................
+*************************  crayzee's tinystub v1.10  *************************
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+===History====================================================================
+
+version	release date	  new features
+------------------------------------------------------------------------------
+ 1.00	07/28/1999	- first release ever
+ 1.10	08/17/1999	- a really small stub (12 bytes) developed
+			- added a switch to force the smallest stub
+
+===Known bugs=================================================================
+
+* fails if it is ran using a path with spaces
+
+===Info=======================================================================
+
+This tiny utility is for replacing the PE file's dos stub. It doesn't really
+make the file smaller, but after aligning it with my wipe.reloc its size can
+be slightly decreased.
+
+There are 2 stubs you can choose:
+ - smallest possible stub (-s switch)
+	It is 12 bytes long, but does not work in dos - it should reject it
+	stating "Cannot execute". It is immediately followed by the PE header,
+	overlapping a dword at file offset 3ch, which is the (usually unused)
+	BaseOfData member of the PE header. 
+	This should work but hasn't been tested yet.
+ - default stub (without any switch)
+	It is 64 bytes long, in dos it displays a "Win32 reqd." message.
+	It does not overlap the PE header.
+
+The tinystub also sets the correct PE checksum and recovers the previous
+times of the file.
+
+I want to thank B. Luevelsmeyer for writing about the PE file format and
+hayras for putting that doc into his spec package;).
+
+* get the newest version and other utilities at 
+  http://crayzee.cjb.net or http://crayzee1.cjb.net
+* write any comments, suggestions and bug reports to crayzee@mailbox.sk
+
+..............................................................................
+*Please spread this program only in its original archive with all other files*
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

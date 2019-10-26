@@ -1,0 +1,26 @@
+
+     pragma  -  prologue
+     at  breakpoint 2003
+
+
+
+command line parameters:
+ -window
+ -gamma [x]
+
+you can also set gamma during the intro with the keypad + and - keys.
+
+
+don't even try to run this one on anything less than an athlon 1.3ghz
+and a gf4ti4200. it won't run. probably.
+
+we'll release a new version if we can find out what slows it down. no
+time for that now, sorry.
+
+
+
+update 1:
+fixed something.
+
+update 2 - final version:
+fixed synth. now it's fast(er).

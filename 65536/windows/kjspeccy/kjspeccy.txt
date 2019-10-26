@@ -1,0 +1,36 @@
+KeyJ of Kakiarts presents: "kjspeccy", a very compact (and unfinished)
+ZX Spectrum 48k emulator for Win32.
+
+Features:
+ - only 33k, *including* the ROM
+ - emulates pure, unmodified ZX Spectrum 48k *only* (no IF 1/2, no Joysticks)
+ - speedloads .tap and .tzx images
+ - loads and saves .z80 snapshots
+ - loads and saves .scr screendumps
+ - sound emulation
+ - built-in keyboard help screen
+
+Shortcomings:
+ - no AY-3-8910 support (yet; I'm working on it, but it's incredibly buggy)
+   (any help here is appreciated in this respect -- if you know a thing or two
+   about the AY, please contact me if you're willing to help)
+ - no memory contention emulation
+ - no ULA slow effects, no multicolor stuff
+ - no support for flashloading or normal speed loading
+ - no support for saving tapes
+ - no DirectDraw support, scaling the display may be quite slow on some drivers
+   (nVidia, anyone?)
+ - might have some bugs :)
+
+kjspeccy uses the Z80 emulation core by Marat Fayzullin and the kkrunchy
+executable packer by ryg/farbrausch, everything else is written by me.
+
+References:
+ - my site:   http://keyj.s2000.ws/
+ - Kakiarts:  http://www.kakiarts.de/
+ - Z80 core:  http://fms.komkon.org/EMUL8/
+
+Have fun ... and celebrate the Speccy's 25th birthday!
+
+-- KeyJ / kakiarts
+<keyj@kakiarts.de> or <martin.fiedler@gmx.net>

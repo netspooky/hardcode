@@ -1,0 +1,82 @@
+OO   OO OOOOOO OOOOOO OOOOOO OO  OO    OOOOOO  OOOOOO  OOOO  OOOOOO OO  OO
+OO  OO    OO     OO     OO   OO  OO    OO   OO OO     OO  OO   OO   OO  OO
+OO OO     OO     OO     OO   OO  OO    OO   OO OO     OO  OO   OO   OO  OO
+OOOO      OO     OO     OO    OOOO  of OO   OO OOOO   OOOOOO   OO   OOOOOO
+OO OO     OO     OO     OO     OO      OO   OO OO     OO  OO   OO   OO  OO
+OO  OO    OO     OO     OO     OO      OO   OO OO     OO  OO   OO   OO  OO
+OO   OO OOOOOO   OO     OO     OO      OOOOOO  OOOOOO OO  OO   OO   OO  OO 
+
+by John Isidoro
+jisidoro@acs.bu.edu
+
+Premise:
+--------
+    Hello gamer, welcome to Kitty of Death.  Kitty of Death is a furious 
+kitty chase game with remote control missiles.  However it takes less than
+or equal to 256 bytes of hard drive space!  Enjoy!!!!! 
+
+Story:
+------
+    Evil Kitty has been eating your shrubs for a very long time.  You're 
+_really_ piqued off about this and decide to kick his ass once and for all. 
+However, you are no match for Evil Kitty in hand to hand combat, so you 
+decide to take him down with a handy dandy remote control missile.    
+But be careful you don't blow yourself up! 
+
+Object:
+_______
+    The object of the game is to hit kitty 9 times (he has 9 lives) with 
+your remote control missile.  
+
+*You are the orange ê.  
+  -you can run:
+    up    (8 on numeric keypad)
+    down  (2 on numeric keypad)  
+    left  (4 on numeric keypad)  
+    right (6 on numeric keypad)
+  -you can hold the key down for maximum speed.  Keys are immediate response.
+  -note you can wrap around the left and right, and the top and the 
+     bottom of the screen (good to fake out kitty)
+  -also note that you can use the arrow keys also, but they can cause your 
+     guy to stall a bit  (screwy scan code stuff) 
+   
+*Kitty is the green ã.  
+  -Kitty likes to chase you. If he catches you "Game Over, Man!!",  he's 
+     fast and likes to kick your ass so watch out!!! 
+
+*Your remote control missile is the yellow þ.  
+  -Your missile always follows your running direction unless either you 
+     are stopped, or it has bounced off a shrub.
+  -If the missile hits kitty, he loses a life.  When he has lost 9 lives you 
+     have won the game and have saved your shrubbery!!!  Yay!
+  -If the missile hits you, you are dead. (humans only have one life :^) )
+
+*Gray ± are shrubs
+  -Kitty can eat your shrubs to pass through them.   
+  -You can not pass through the shrubs. 
+  -Your missle bounces off of the shrubs.
+
+*The cyan number in the upper left corner is kittys lives left.
+  -Kitty starts with 9 lives.
+  -Kitty loses a life everytime you hit him with a missile.
+  -Once this number hits 0 you have won the game.
+
+*When the game ends, 
+  -The number in the upper left hand corner is your score, 9 being the 
+        worst and 0 meaning you have won the game!!
+
+Additional Hints:
+-----------------
+  -Immediately when the game starts find your guy quickly and move up 
+     or down to wrap around the screen to stall kitty.
+  -Hold the keys down for maximum speed!  
+  -Kitty isn't terribly smart, keep going up and down, wrapping around the       
+     top and bottom of the screen, to keep kitty in the same column. 
+  -Gradually move your missle over to that column, and then zonk him!   
+  -If kitty is really hot on your trail going from left or right, moving 
+     up or down a block can get him to reverse direction!
+  -This game is _really_ hard, although with enough practice, you can beat 
+     it _almost_ every time.  At least I can!.  ;^)
+
+Enough chit-chat,  GO WASTE KITTY!!!!!
+

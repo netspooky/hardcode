@@ -1,0 +1,17 @@
+THIS STUFF didn't fit into 2kB ... :))) do it by yourself, if you wish.
+ - sandbag collision (not needed anymore, sandbag has been disabled due to size reasons)
+ - WaitForRetrace do from ports - size again... I may just hope, that everyone
+   has compatible BIOS with way I'm doing it...
+ - better background
+ - better graphics (airplanes are kinda small, but doesn't really affect gameplay)
+ - badabooms
+ - hide airplane after half second of badaboom
+ - alternative timing (with timer, not screen refresh)
+ - HiRes modes
+ - draw name of game, scoring with numbers as in original game, etc...
+ 
+ O  - = HEY MAN, DO YOUR WORK OR DIE !
+<|>
+'|`
+{^}
+< >

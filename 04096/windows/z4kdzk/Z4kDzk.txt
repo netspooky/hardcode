@@ -1,0 +1,26 @@
+Z4kDzk
+   Unknown Artists
+
+A 4k musicdisk with 3 tracks.
+
+ESC quits, any other key changes tracks.
+
+mp3 versions:
+
+  http://ua.untergrund.net/Z4kDzk/
+
+Credits:
+
+  synth,code,music: prophecy
+
+  Big thanks to auld for his Flow2 shader, which
+  helped me create the visuals for this.
+
+  packed with crinkler v1.1
+
+
+Contact:
+
+  uademo@gmail.com
+  http://ua.untergrund.net/
+

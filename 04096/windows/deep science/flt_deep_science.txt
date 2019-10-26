@@ -1,0 +1,23 @@
+deep science 
+by fairlight
+
+pc 4k at assembly 2008
+code, visuals and music by smash.
+contact: smaash@yahoo.com
+
+vs3.0, ps3.0 and d3dx9_31.dll is required.
+
+requires a high end graphics card due to the heavy post processing and sacrificing speed for size.
+you're advised to run the lower resolution version because it doesnt make much difference to the quality,
+but it does make it a lot faster.
+
+this is doing deferred lighting and realtime ambient occlusion in screen space.
+thanks to iq for doing something similar and releasing it before i did. damnit. :)
+also thanks to blueberry and mentor for crinkler.
+
+several versions are supplied:
+flt_deep_science_1280x720.exe - compo version - fullscreen, widescreen 1280x720.
+flt_deep_science_640x480.exe - fullscreen 640x480 - slightly larger because of the screen borders.
+flt_deep_science_1280x720_faster.exe - compo version - fullscreen, widescreen 1280x720 with a reduced post process. looks a bit worse, but it's faster.
+flt_deep_science_640x480_faster.exe - fullscreen 640x480 with a reduced post process - slightly larger because of the screen borders. this will run the fastest, if you're really struggling.
+flt_deep_science_640x360_windowed.exe - windowed 640x360, if you really must run windowed.

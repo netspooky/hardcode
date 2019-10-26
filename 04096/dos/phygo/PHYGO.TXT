@@ -1,0 +1,30 @@
+phygo by viznut, asm '99
+
+I HOPE YOUR SOUND CARD IS ADLIB COMPATIBLE!
+(those new sb's are, aren't they?)
+
+vheikkil@hytti.uku.fi
+http://www.hytti.uku.fi/~vheikkil/pwp/
+http://pelulamu.cjb.net
+
+Everything (speech synth, cool 3d engine etc) was half-finished.
+So this is mainly a remix of my old code :) (Design 100% done
+on the partyplace with cute quake kids enhancing the scene
+athmosphere)
+
+Source code is included. Enjoy.
+
+compo.com is the compo version. It is exactly the same file
+as the final release version but rules are rules, aren't they? :)
+
+Btw I also have a half-finished linux 4k stub. Perhaps I'll
+port some of my 4k's to linux some day.
+
+All good things are half-finished :)
+
+Btw, the music player + data is about 330 bytes and it is not even
+used in its full potential. With digital sb those bytes would have
+gone to all the dma/irq crap etc.
+
+Blah. Still 50 minutes to deadline.
+

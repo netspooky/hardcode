@@ -1,0 +1,13 @@
+Minas^cdx presents
+2k procedural graphics for a change
+------------------------------------
+Black lines
+------------------------------------
+Press shift while starting the
+program for a screen dump in PNG
+format.
+Requires DirectX 9, PS 2 or better.
+------------------------------------
+Many thanks to NCT for brainstorming
+and additional tool code, although I
+did not get to use it for this prod.

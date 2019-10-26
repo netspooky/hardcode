@@ -1,0 +1,229 @@
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+;
+;     TITLE: Star field
+;WRITTEN BY: DRAEDEN
+;      DATE: 03/15/93
+;
+;     NOTES: 
+;
+;ASSOCIATED FILES:
+;
+;       STARGEN.BAS =>  Basic program that generates a set of 'randomized'
+;                       numbers.  Creates STARRND.DW
+;
+;       STARS.ASM   =>  The asm file.
+;
+;       STARRND.DW  =>  File that contains a set of shuffled numbers order.
+;                       Used to create 'random' star field.
+;
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+    A star field is just a series of 3d point plotted onto a 2d plane (your
+screen).  The movement effect is achieved by simply decreasing the Z
+cordinate and redisplaying the results.  The formula for the 3d to 2d
+conversion is:
+
+컴컴컴컴컴컴컴컴 
+    ScreenX = ScreenDist * Xpos / Zpos
+    ScreenY = ScreenDist * Ypos / Zpos
+컴컴컴컴컴컴컴컴 
+
+    This should make perfect sense.  As the object gets futher away, (X,Y)
+cordinates converge to (0,0).  The screen dist is how far away the 'eye' is
+from the screen, or, as I like to think of it, the window.  Naturally, as you
+get closer to the window, your field of view is greatly enhanced (you can see
+more).  But, because we can't make the monitor bigger, we have to shrink the
+data that is being displayed.  And when we have a large screen distance, we
+should see less of the virtual world, and the objects should appear bigger.
+When this formula is translated into assembler, you would immediatly decide
+that 256 is the best screen distance.  Why?  Multiplying by 256 on the 386 is
+as simple as this:
+
+컴컴컴컴컴컴컴컴 
+;we want to multiply ax by 256 and put it into dx:ax to set up for division
+
+    movsx   dx,ah   ;3 cycles
+    shl     ax,8    ;3 cycles -- total 6
+
+;or we could do it the 'normal way'...
+
+    mov     dx,256  ;2 cycles, but we can have any screen distance
+    imul    dx      ;9-22 cycles on a 386, 13-26 on a 486
+                    ;a total of 11-28 cycles!
+컴컴컴컴컴컴컴컴 
+
+    If you'll take note, the 6 cycle trick is AT LEAST 5 cycles faster than
+the imul.  Anyway... I bet you really don't care about a few cycles at this
+point, so I won't spend much more time on it... 
+    So, as you can see, the math part of it is easy..  the hard part is the
+what's left.  You need a routine that creates a star, presumably random, and
+another routine that displays all the stars and advances them.  Well, that's
+how I broke it into subroutines...
+
+    For the routine that creates the star you need it to:
+
+    1)  See if we already have enough stars going (is NUMSTARS > MAXSTARS ?)
+    2)  If there's room, scan for the first open slot... 
+    3)  Now that we've found where to put it, create a star by getting a set
+        of random numbers for the (X,Y) and setting the Z to the maximum.
+        Also select a color for the star.
+
+    The display routine would need to:
+
+    1)  Erase the old star.
+    2)  Calculate the screen X & Y positions for the new position.  Are they 
+        inside the screen boundries?  If not, 'kill' the star, otherwise 
+        display it.  The shade of the color to use must be calculated by 
+        using the Z cordinate. Color = BaseColor + Zpos / 256
+    3)  Decrease the Zpos.
+
+    And the main routine would:
+
+    1)  Call MakeStars
+    2)  Wait for verticle retrace
+    3)  Call DisplayStars
+    4)  Check for keypress, if there is one, handle it, if its not one we're
+        looking for then exit program.
+    5)  Loop to step 1
+
+    To impliment this, we need to create an array of records which has enough
+room for MAXSTARS.  The record would contain the (X,Y,Z) cordinates, the
+OldDi and the base color for the star.  To create a star, it first checks to
+see if there is room.  If there is, then we scan through the array
+looking%wor an open slot.  If we don't find an empty space, then we don't
+create a star.  We create the star by grabbing a pair of (X,Y) cordinates
+from the list of 'random' numbers and set the Z to MAXZPOS.  Then, increase
+NUMSTARS and return.
+
+    In displaying the star, we would like to only have to calculate DI once.
+So we save off a copy of DI in an array after we calculate it for the drawing
+so that erasing the dot is really quick.  Next we calculate the new DI for
+the dot.  This is done by using the formula mentioned above and this one: 
+
+컴컴컴컴컴컴컴컴 
+
+    DI = ScreenY * ScreenWidth + ScreenX
+
+컴컴컴컴컴컴컴컴 
+
+    When doing the math, care must be taken to make sure that:
+
+        a) the Zpos is not zero and X*256/ZPOS is not greater than 32767.
+            will cause a DIVIDE BY ZERO or a DIVIDE OVERFLOW
+
+        b) SY and SX do not go outside the border of the screen.
+
+    If either of these conditions are broken, the star must be terminated and
+calculations for that star must be aborted.  Actually, Zpos = 0 is used to
+signify a nonactive star.  To terminate the star, you'd simply change its
+zpos to 0 and decrease NUMSTARS.
+
+    To create the different shades, I used:
+
+컴컴컴컴컴컴컴컴
+
+  Color = BaseColor + Zpos/256
+
+컴컴컴컴컴컴컴컴
+
+    I used 256 as the number to divide by because that enables me to do no
+dividing at all- I just use AH, because AH = AX / 256 (AH is the upper 8 bits
+of AX). This relation suggests that the MAXZPOS shoul be 16*256 for 16
+shades.  So, the MAXZPOS = 4096.  The palette will have to be set up so that
+the shades go from light to black (lower # is lighter).  Simple enough. (I
+hope.)
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴 
+        RANDOM NUMBERS
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴 
+
+    Well, not truly random numbers, but random enough for a starfield.
+
+    The problem:
+        There is no way on a PC to create truly random numbers with 
+        great speed.
+
+    Solution:
+        Don't use truly random numbers.  Use a chart of non-repeating,
+        shuffled numbers that fall within your desired range.  That way
+        the stars will be evenly spread out and the creation of a new star
+        is incredably fast. ( A few MOV instructions) All you have to is grab
+        the number and increase the NEXTRANDOM pointer.  I chose to fill in
+        the array half with positive numbers, half with negative with a
+        minimum distance of 10 from 0.  I did this so that no stars will
+        'hit' the screen and just vanish.  That doesn't look too good.
+
+    Here's the BASIC file that made my numbers for me...
+
+컴컴컴컴컴컴컴컴 
+
+
+    NumStars = 400
+    dim     RndArray(NumStars)
+    randomize (timer)
+
+    'fill the array with numbers from -Numstars/2 to -10
+    'and from 10 to Numstars/2
+
+    i=10
+    for r = 0 to NumStars/2
+        RndArray(r)=i
+        i=i+1
+    next
+
+    i=-10
+    for r = NumStars/2 to NumStars
+        RndArray(r)=i
+        i=i-1
+    next
+
+    'randomly shuffle them..
+
+    print "Total numbers: ";NumStars
+    print "Shuffling - Please wait... "
+
+    for q = 1 to numstars/5
+        for r = 0 to NumStars
+            swnum1 = int(rnd*NumStars+.5)
+            swap RndArray(swnum1),RndArray(r)
+        next
+    next
+
+    'write the numbers neatly to a file
+
+    open "starrnd.dw" for output as 1
+    cc= 0          ' CC is my "Column Control"
+    print#1, "StarRnd dw ";:print#1, using"####";RndArray(0)
+    for r = 1 to NumStars
+
+        IF cc=0 THEN   ' is this the first one on the line?
+            print#1, "dw ";:print#1, using"####" ;RndArray(r);
+        ELSE 
+            print#1, ",";:print#1, using"####"; RndArray(r);
+        END IF
+
+        cc=cc+1:if cc= 10 then cc=0:print#1," "   'goto the next line
+    next
+    close #1
+
+컴컴컴컴컴컴컴컴 
+
+    This brings up another point.  Whenever you can write a program in a
+higher level language to create data for you, do it.  It sure beats typing
+then in by hand.  For instance, the palette was made using the REPT macro,
+the actual data is created by the compiler at compile time.  Doing it that 
+way happens to be a whole lot easier than typing in every byte.
+
+    Last minute note: I rigged the plus and minus keys up so that they
+control the 'Warpspeed' can be from 0 - MaxWarp, which I set to 90 or 
+something like that.
+   
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�
+
+   Well, that's it for now.  See INFO.VLA for information on contacting us.
+
+   I would like some suggestions on what to write code for.  What would you
+   like to see done?  What code would you like to get your hands on?
+
+   Send question, comments, suggestions to draeden@u.washington.edu or post
+    on Phantasm BBS.

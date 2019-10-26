@@ -1,0 +1,45 @@
+                                                                        _ _
+ ___       ___     _____               ___    .____.  _____   ___       _ /_____
+/  //_____/  //_ _\\_   \_ __ _____ _ /  (_ __|    |_\\_   \_/  /_____ _\//   _/
+\__      /    _/    /    / _//    / _/    /   |    |    /   / _//    /  \/    \
+ _/     /     \         /  \     /  \     \_  _    |       /  \     /   ||     \
+ \______\______\________\________\___\_____/__\____|_______\___\____\___||_____/
+--___ ------- ________--_____------___-----____------_____-----_-____-__------ -
+ /  //_______\\_     /_\\_   \____\\  \_ _\\_ /_____\\_   \_ _\//  _// //_______
+ \__      /    /    /    /    /     _  (_  _/    /    /    /  \/   \   _/      /
+  _/     /    /    /    /     \     \   /  \     \_       /   ||    \  \      /
+  \______\__    __/_____\______\________\___\_____/_______\___||____/___\_____\
+- -diP------\___\---------------------------------------------------------bM!- -
+
+
+
+
+                              P O I N T  B L A N K 
+
+                                       by
+
+                               STOCKHOLM SYNDROME
+
+                     (http://abductee.untergrund.net/ssy)
+
+
+
+.requirements:
+pIII 
+geforce1 (sorry, no supprt for ati)
+lots of ram
+
+
+.notes 
+do not try to mess with the bigthness/gamma too much,
+we havee 8 bit per color channel here, 
+some color range clipping might occur...
+
+respect to all we have forgotten.
+
+
+.final word
+once its all done, it seems have been way too easy,
+way to simple. but in our lifes, nothing is simple.
+
+/abdcutee

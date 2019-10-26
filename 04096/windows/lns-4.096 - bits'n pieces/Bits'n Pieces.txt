@@ -1,0 +1,35 @@
+
+
+                  lns-4.096: Bits'n Pieces
+              * * * * * * * * * * * * * * * * *
+
+                  4k intro by Loonies & TBC
+	
+                 Released at Breakpoint 2008
+
+
+
+
+	Credits
+	=======
+	Code....................................Maytz
+	Synth...................................Mentor / TBC
+	Music...................................Puryx / TBC
+	              
+	Compression.............................Crinkler 1.1
+	Inspiration.............................Debris/Farbrausch
+	
+	
+
+	
+	Requirements
+	============
+	PC, Windows, OpenGL 1.1, Humor?
+
+
+
+		
+	
+	Additional info
+	===============
+	http://www.loonies.dk 

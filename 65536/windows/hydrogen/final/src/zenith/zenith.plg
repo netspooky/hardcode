@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: zenith - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x419 /fo"Debug/zenith.res" /d "_DEBUG" "D:\Myprog\hg11z\zenith\zenith.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1390.TMP" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /FR"Debug/" /Fp"Debug/zenith.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Myprog\hg11z\addition.cpp"
+"D:\Myprog\hg11z\globals.cpp"
+"D:\Myprog\hg11z\video.cpp"
+"D:\Myprog\hg11z\z3d\z3d.cpp"
+"D:\Myprog\hg11z\zenith\zenith.cpp"
+]
+Creating command line "xicl6.exe @C:\WINDOWS\TEMP\RSP1390.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP1391.TMP" with contents
+[
+winmm.lib dxguid.lib ddraw.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/zenith.pdb" /debug /machine:I386 /out:"Debug/zenith.exe" /pdbtype:sept 
+.\Debug\addition.obj
+.\Debug\globals.obj
+.\Debug\video.obj
+.\Debug\z3d.obj
+.\Debug\zenith.obj
+.\Debug\zenith.res
+]
+Creating command line "xilink6.exe @C:\WINDOWS\TEMP\RSP1391.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+addition.cpp
+globals.cpp
+video.cpp
+z3d.cpp
+zenith.cpp
+Linking...
+xilink6: executing 'D:\!PRG-I!\vs\VC98\bin\link.exe'
+
+
+
+<h3>Results</h3>
+zenith.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,95 @@
+
+                                  VEX-Intro V1.1
+                   (c) '94+'95  Dirk Jagdmann / Niklas Beisert
+
+
+                        Information about the VEX-Intro
+                       ---------------------------------
+
+The VEX-Intro is a public piece of software. You can and shall spread it
+as much as you want and can, as long as you distribute the files
+     VEX.EXE    
+     VEX.NFO    
+     FILE_ID.DIZ
+together and make no (NONE AT ALL) changes to them.
+
+
+The VEX-Intro was designed to run perfectly on a 486dx2-66 with a
+fast VLB graphics adapter and a SoundBlaster (or compatible) soundcard.
+(this should have been the configuration of the Assembly '94 intro
+ compo computer :)
+
+The reason for this is that the spacecut calculations are quite slow,
+(in fact the calculations are fast, but they split up one plane into a
+large number of planes, and slow down the drawing process...)
+especially when you spacecut 4 cubes, or a transparent "ball" consisting
+of 26 planes to a textured octahedron.
+The end-part scroller sometimes does not work, simply because I was too
+lazy to make it work below 35 frames/sec... :>
+
+
+The intro was completely coded in Borland C++ 3.1 and TASM 3.1, the size of
+all the source-files is approximately 190k. The unpacked size of VEX is
+÷ 230k.
+The vector-part consists of 23 objects, 400 points and 230 planes.
+The plasma is a 80x50 octo-sine plasma. The endpart-scroller has some
+nice lissajous figures in the background and a boring text in front of them.
+And finally we made a short information file (yeah, guessed right, you are
+reading it right now) which tells you all the facts about this intro and is
+even more boring than the scroll text at the end of VEX...
+The time needed to code this Intro cannot really be measured, all the
+fragments of code were made in 1993 and 1994, but it took us some
+2 or 3 weeks to put all the code, graphics and music together.
+The vectorpart scenery was mainly worked out in 2 days. (nights! :)
+
+
+What is new in VEX V1.1 ??
+--------------------------
+
+The first and most important new feature is the GUS-Support. Herewith thanks
+to Sound Solutions Germany for donating a GUS.
+Secondly the Music Track was resampled and slightly changed and the colors of
+some objects were changed, as many people told us it didn't look very
+beautiful in the Assembly version.
+The title piccy was changed to a higher resolution, 'cause it looked ugly...
+All in all the size of the intro increased to more than 64k, but there is no
+limit on the CD... ;)
+
+ 
+hints/troubleshooting
+---------------------
+
+If the system hangs when you start VEX, turn the sound off, or set the
+sound settings manually.
+
+
+If the system hangs right in the middle of the action (so sorry...)
+or shows garbage, reboot without ANY drivers etc. and restart VEX. 
+This should help...
+
+
+If you have a SoundBlaster 16, but the 16-bit DMA-transfer does not work 
+with your motherboard, try the switch -8. This will make the sound player 
+play in 8-bit mode and speed up the DMA-transfer.
+
+
+If the intro is too slow, set the sampling rate down (-s1/-sm), or
+turn the sound off (-c0). You can also make a clean boot (F5 before DOS boots)
+without an expanded memory manager such as EMM386 or QEMM. (I have never 
+experienced a speedup by that... [maybe because I use Novell's EMM386?!?])
+
+
+If you have got a sb16 and a VLB or PCI graphics adapter you can set the
+sampling rate up to 33kHz or 44kHz (-s3/-s4)
+
+
+
+                                                   pascal
+
+Address
+-------
+
+Niklas Beisert (pascal)
+Oberstraáe 84          
+20149 Hamburg                
+Germany                    

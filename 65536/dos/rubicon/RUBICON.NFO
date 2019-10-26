@@ -1,0 +1,56 @@
+
+ {  r u b i c o n  }                                    hope has won. t.i.l.y.
+
+
+    crossbone  coded the raytracing engine.
+
+    the glide  coded image manipulation routines.
+
+    ambient move & velvet  wrote the soundtrack.
+
+ (-) crossbone@suburban.jena.thur.de
+ (-) luca.gerli@usa.net
+ (-) hstoeteler@aol.com & kperusic@aol.com
+
+ (*) http://www.dialogos.cc
+ (-) http://members.tripod.com/suburban_creations
+
+ we greet
+    amable  fudge  haujobb  matrix  numb  prone  purple  replay 
+    spinning kids  suspect records  the kool
+
+ suburban creations 1999
+
+
+ 
+ -------------------------------------------------
+ for those who care, here's some more information:
+
+ rubicon itself was planned since late 1998,
+ but its actual development was started one week
+ before takeover 99.
+
+ the raytracing engine was coded a while ago and 
+ contains a considerable amount of work.
+ if fact, it is pretty fast now, considering the 
+ complexity of the scenes and the resolution.
+
+ some features we show in rubicon:
+   > pointlights, spotlights, fog, shadows
+   > reflections, transparency,
+   > ambient, diffuse & specular shading
+   > texture- and bumpmapping
+   > antialiasing (in the high-quality version)
+
+ everything is true raytracing, no fake techniques 
+ like gridinterpolation  are used. 
+
+ this intro is intended to show that a lot of 
+ nice things can be done with raytracing, and it 
+ is also meant to make use of your fast processor.
+
+ as usual, internal rendering is done in 
+ truecolor, and you should really use a 24 or 
+ 32 bit mode to display the output.
+
+ more versions of rubicon will be released soon.

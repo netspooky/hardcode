@@ -1,0 +1,91 @@
+Here it is! 
+          
+  ÕÍÍÍÍ»             __
+  ³\ \/º \/ |> |\/| |_  |>
+  ³ \/ º /  |\ |  | |__ |\ 
+  ÀÄÄÄÄĞÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+The number one game of 1997! (NOT!)
+Made by Gnome for                  
+ÚÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+³T³he 256 Bytes Worm Game Competition
+ÀÄÙ                                  
+                                     
+ÚÄÂÄÄÄÄÄÄÄÄÄÄÄÄ
+³I³nstructions:            
+ÀÄÙ                        
+You are a worm, but not just the usual kind
+of worm. You seem to accelerate all the time,
+but by eating little green dots, you slow down!
+If you hit the borders or another worm, it's
+GAME OVER MAN! and the game quits! The winning
+worm's color will be displayed in upper left
+corner!                                    
+                                           
+ÚÄÂÄÄÄÄ                                    
+³K³eys:                                    
+ÀÄÙ                                        
+To move your worm, use the following keys:  
+Red worm:                                  
+  'A':Left     
+  'D':Right    
+  'W':Up       
+  'S':Down     
+               
+      NOTE! If you have a DVORAK or AZERTY keyboard,
+            these keys aren't right! for azerty, use
+            Q,D,Z and S. For DVORAK, I have no idea!
+            Try!
+               
+Blue worm:     
+  Use the arrows (Yes the up arrow moves up, etc.)
+               
+Escape at any time quits the game!
+      
+ÚÄÂÄÄÄÄÄÄÄÄÄÄ   
+³K³nown Bugs:   
+ÀÄÙ          
+- If both worms crash into eachother's heads,
+  it works ok: Noone wins! But if the worms 
+  simultaneously crash into eachother's bodies
+  or the borders, the red worm always wins!
+                                          
+- The time of day clock will be speeded up to
+  65536 times the usual speed, so you'll have
+  to set time, and often date, after playing!
+  sorry about that!
+    
+ÚÄÂÄÄÄÄÄÄÄÄ          
+³C³omments:          
+ÀÄÙ                  
+Comments can be sent to
+                     
+  Gnome1@geocities.com 
+or                   
+  3725@hogym.dk         (only until middle of june '97)
+                                         
+I had fun in this compo! If anyone else makes
+one likewise, I'd like to be informed! PLEASE!
+ş                               
+Û³ÛÛÛ ÛÛÛÛÛ
+Û³ßßß ßßßßß
+Û³ÛÛÛ ÛÛÛÛÛ Denmark rulez!
+Û³ßßß ßßßßß           
+Û³           
+Û³           
+Û³               
+Û³               
+Û³  
+Û³               
+Û³  
+Û³               
+Û³  
+Û³  
+Û\ 
+ÛÛİ 
+ÛÛİ 
+ÛÛİ 
+ÛÛİ 
+   
+MAY THE BEST WORM WIN
+

@@ -1,0 +1,71 @@
+proc info
+°±²ÛÛÝþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþÞÛÛ²±°                     
+                     
+                     ÞÛÝ     ÞÛ    ÞÛ ÞÛÝ     ÞÛÜÜÜÜÛÝ
+                      ÛÜÜÜÜ   ÛÝ   ÛÝ  ÛÜÜÜÜ   Û
+                      ÛßßßÛÝ  ÞÛ  ÞÛ   ÛßßßÛÝ  Û
+                      Û   ÞÛ   ÛÝ ÛÝ   Û   ÞÛ  Û
+                      ÛÜÜÜÛÝ   ÞÛÞÛ    ÛÜÜÜÛÝ  ÛÜÜÜÛÝ
+                      Ûßßß      ÛÛÝ    ÛßßÛÝ   ÛßßßÛÝ
+                      Û         ÞÛ     Û  ÞÛ   Û
+                     ÞÛÝ        ÛÛÝ   ÞÛÝ ÛÛÝ ÞÛßßßßÛÝ
+
+
+
+                              iNTRO caLlEd
+
+
+            ÛÝ       ÛÛÛÜÜ     ÛÛÛÜÜ     ÛÛÛÜÜ   ÞÛßßßÛÛßßßÛÝ  ÞÛ
+            ÛÜÜÜÜ   ÞÛ  ßßÛ   ÞÛ  ßßÛ   ÞÛ  ßßÛ       ÛÛ        ÛÝ
+            ÛßßßÛÝ  ÛÝ        ÛÝ        ÛÝ            ÛÛ        ÞÛ
+            Û   ÞÛ  ÞÛÜÜ      ÞÛÜÜ      ÞÛÜÜ          ÛÛ        ÞÛ
+            ÛÜÜÜÛÝ   ßßßÛÛÜ    ßßßÛÛÜ    ßßßÛÛÜ       ÛÛ        ÛÝ
+            Ûßßß       ÜÛÛß      ÜÛÛß      ÜÛÛß       ÛÛ       ÞÛ
+            Û      ÛÜÜÛÛß    ÛÜÜÛÛß    ÛÜÜÛÛß       Ü ÛÛ Ü     Ü
+            ÛÝ     ßßß       ßßß       ßßß          ÞÜÛÛÜÝ    ÞÛÝ
+                                                               ß
+
+°±²ÛÛÝþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþÞÛÛ²±°
+
+
+                                    Hia!
+        This is Pyre's first 64k intro. It took us 7 days to code, and it's
+ completely written in ASM (over 1100 lines of introcode+modplayer 3000 lines!)
+
+         The not-so-quick (global) creddyz:
+
+         Idea      by Raven
+         Coding    by Raven
+         Muzak     by T42(Tea For Two;))
+         GFX       by CyberNova & Raven
+         Design    There's no such thing
+         ModPlayer SoundSystem 3 by FrontMan / Crew242(SUX!)
+
+
+         Local credits:
+                                                        to be continued... ---->
+                  Pyre-logo:   Pssst!-logo:   TextureZoomer:  IzDosTimeJoke   TextWriter:    Smile!-Zoomer:   Smile!-Bounzer:   Smile!-Rnd-Blinker:   Starz:    ILikeThatClown:
+         code  :   Raven        Raven          Raven           Raven           Raven          Raven            Raven             Raven                 Raven     Raven              Too bad, that you don't have 222*25 screen!
+         gfx   :   Raven        CyberNova      Raven           ?               Raven (font)   CyberNova        CyberNova         CyberNova             ?         CyberNova          Well, we don't have it either.
+         muzak :   t42          t42            t42             -               t42            t42              t42               t42                   t42       t42                HehEe!
+                                                                           ---->
+
+         Greetz:
+         Poro prod.
+         C.O.M.A.(especially Duke Nemo & McGurk)
+         Flex/Ingrine
+         Brainlez Coders
+         Cool Productions
+         All doodz who were at Juhla '95 part 2 ja puel
+
+ ContaKtoi informoi:
+         Raven  (Swappin' demos intros sources)
+             ravenka@freenet.hut.fi
+         CyberNova
+             SnailMail: Suami/Finland
+         T42
+             t42pane@freenet.hut.fi
+
+	mov ax,4ch
+	int 21h
+info	endp

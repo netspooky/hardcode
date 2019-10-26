@@ -1,0 +1,31 @@
+"Tracking" 1k intro by Drift of Onslaught
+-----------------------------------------
+
+Evolution of my previous 1k "Molten Core"
+Released at TRSAC 2015.
+Made for Assembly 2015 but missed the deadline.
+
+-----------------------------------------
+Needs a reasonably fast gpu, slow fps will
+also screw up the music timing. Tested on
+Win7 64bit with nvidia. Thanks to Gargaj
+for ATI fix.
+
+------------------------------------------
+Using the latest Crinkler gave enough free
+space for me to add a basic music tracker.
+The data and code for the music routine is
+large but compresses very well due to much
+repetitiveness. Compared to more clever and
+advanced 1k music routines this is just
+brute force with big data tables.
+I will release the source code sometime.
+
+-----------------------------------------
+Special greetings to Mentor and Blueberry.
+Without Crinkler and your recent release
+of the 1k specific version I could never
+make an intro like this.
+
+Greetings to Yzi/FIT for help with design
+and music ideas.

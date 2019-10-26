@@ -1,0 +1,7 @@
+Breakthrough by lucid
+4k intro at Assembly 2016
+Code by ltipl (ltipl@IRCNet)
+Compressed with Crinkler and Shader Minifier
+Uses OpenGL (I think 2.0) and DirectX 9 (for d3dx math)
+d3dx9_43.dll is required (included for convenience)
+

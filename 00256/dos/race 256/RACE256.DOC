@@ -1,0 +1,77 @@
+
+
+                               . r . a . c . e .
+                               two . fifty . six
+
+                                a 256 byte game
+                                    coded by
+                             anixter / photovision
+
+.   Ä   ÄÄ  ÄÄÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+   Ä About the Game ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   race256 is a simple track or race style game for one player written in 256
+   bytes.  the game was designed for a small coding competition between
+   various people on the internet, to see who could code the funnest game in
+   only 256 or less bytes.  the game could possibly be described as a
+   spinoff of outrun, but much simpler as you can see.
+
+
+   Ä How to Play ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   the object of the game is to score as many points as possible.  you gain
+   points as you move along the track.  if your vehicle (marked by the single
+   pixel near the bottom) moves off the track, you die.
+
+   the controls are simple.  use your left and right arrow keys to move your
+   car, spacecraft, raft, or whatever you can imagine it is, left and right.
+   to quit the game, simply cause death by running off the track.
+
+   when you die, you will return to dos/textmode and your score will be
+   printed in the upper left corner.
+
+
+   Ä Notes on Design ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     ù code size is 239 bytes
+     ù the track data is thirteen bytes long, one byte per track section
+     ù the game seems to run flicker-free without any retrace waits
+     ù a 386 is required
+     ù a VGA is required
+     ù due to size limits the following are non-existent:
+        - 386 checking
+        - VGA checking
+        - Random track generator
+        - Ability to "jump" gaps in the track
+        - Color fading from front to back of the track
+        - Larger, more defined vehicle :)
+       I wanted to add all of these and more (of course) but this was simply
+       impossible due to the target size I needed.
+
+
+   Ä Future Plans ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   i plan to write a track/game editor to allow the player to make his/her
+   own tracks, and modify some of the game settings such as the speed, and
+   look of the track (depth,width,etc).  I may also create a new version of
+   the game (possibly in 512 bytes) that includes all of the non-EXISTENT
+   things mentioned above, and possibly a better scoring system.  then again,
+   i may never work on this silly thing again. :)
+
+
+   Ä Contest Notes ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   the contest was held between a small number of internet coders to see who
+   could write the funnest game in only 256 bytes.  the inspiration came from
+   Steve Wozniak, who wrote an entire machine language monitor in under 256
+   bytes on the apple.  Steve Havelka (shavelk@agora.rdrop.com) developed and
+   organized the idea, and also performed the judging.
+
+
+   Ä Contacting the Author ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   photovision or any of its members can be reached through my e-mail address
+
+                             anixter@evansville.net
+
+   I look forward to your comments on this or any other productions from us.
+
+
+

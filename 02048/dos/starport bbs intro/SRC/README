@@ -1,0 +1,9 @@
+
+-- Starport Intro II V1.0 -- Source -- Copyright (C) 1993 Future Crew --
+
+File:		Description;
+SP2.COM 	the second starport intro
+SP2.ASM 	the assembler source for it
+MAKE.BAT	batch file to compile the demo
+
+Read the beginning of SP3.ASM for more details about the intro.

@@ -1,0 +1,102 @@
+
+      ÜÜÜÛÛÛÛÜÜÜ                    ÜÜÜÛ
+   ÜÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÜÜÜ       ÜÜÜÜÛÛÛÛÛ
+  ÛÛÛÛÛßßßÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+ ÛÛÛß       ßßÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛß
+ ÛÛ      ÜÛÜ     ßßÛÛÛÛÛÛÛÛÛÛÛÛÛÛßß
+  Û       ßÛİ   ÜÛ    ßßßßßßßßß
+   ßÜÜ   ÜÛßÜÜÛÛÛ                 Ü          ÜÛ    Ü            ÜÛ         ÜÛ
+      ßßß    ÛÛÛÛ  ÜÜÜÜÜÜÜÛ     ÜÛÛ        ÜÛÛÛ  ÜÛÛ          ÜÛÛÛ       ÜÛÛÛ
+           ÜÜÛÛÛÛÜÛÛÛÛÛÛÛÛß       ß         ÛÛÛ    ß           ÛÛÛ     Ü  ÛÛÛ
+         ÜßßÛÛÛÛÛÛßßßßßßßÜÜ  Ü   ÜÛ   ÜÛ ÜÛÜßÛÛ   ÜÛ     ÜÜ  Ü ÛÛÛ  ÜÜ ÛÛÛÛÛÛÛÛÜ
+           ÜÜÛÛÛÛ     ÜÛß ßÛÜÛ ÜÛÛÛ ÜÛÛÛÛßßÛßÜÛ ÜÛÛÛ  ÜÛß ßÛÜÛ ÛÛÛÜÛßÛÛ ßßÛÛÛßßÛ
+         ÜßßÛÛÛÛÛ    ŞÛÛ   ÛÛÛ  ÛÛÛ  ÛÛÛ    ÛÛÛ  ÛÛÛ ŞÛÛ   ÛÛÛ ÛÛÛß  ÛÛ   ÛÛÛ
+             ÛÛÛÛ    ŞÛÛ   ÛÛÛ  ÛÛÛ  ÛÛÛ    ÛÛÛ  ÛÛÛ ŞÛÛ   ÛÛÛ ÛÛÛ   ÛÛ   ÛÛÛ
+           ÜÜÛÛÛÛ    ŞÛÛİ  ÛÛÛ ÜÛÛÛ  ÛÛÛ    ÛÛÛ  ÛÛÛ ŞÛÛİ  ÛÛÛ ÛÛÛ   ÛÛ   ÛÛÛ
+         ÜßßÛÛÛÛÛİ    ßÛÛÜÛßÛÛÛßÛÛÛ  ÛÛÛ    ÛÛÛ  ÛÛÛ  ßÛÛÜÛÛÛÛ ÛÛÛ   ÛÛ   ÛÛÛ
+             ÛÛÛÛÛÜ      ß   ß ßßßßßßßßßß  ßßßßßßßßßß    ß ÛÛÛßßßßß ßßßß ßßßßß
+  ÜÛÛÛÜ      ÛÛÛÛÛÛÛÛÜÜÜ                                  ŞÛÛİ  ANSiúJED<ACiD>
+ ŞÛßÛÛßÜ    ÜÛÛÛÛÛÛÛßß                                   ÜÛÛß
+  ßÛÜ    ÜÜÛÛÛÛßß                           ÜÜÛÛÛÜÜÜ   ÜÜßß
+    ßßÛÛßßß                                ßÛß Ûß   ßßß
+                                                ß
+
+          ÚÄÄÄÄ  In Their 16th Year Of Glory, FairLight Released  ÄÄÄÄ¿
+ ÚÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ÚÙ                                < In Space >                              ÚÙ
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙÙ
+ : Coded by: Smash                     : : Release Date: May 23 2003          :
+ ³ Music by: Reed                      ³ ³ Demo type: pc 64k intro	      ³
+ ³ 2D-gfx by:                          ³ ³ Party: breakpoint 2003             ³
+ ³ 3D-gfx by: Suicide, Aln, Willbe     ³ ³                                    ³
+ ³ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ³
+ ³ System Requirements: Windows 9X+, 128 MB, PixelShader 1.1, Direct-X 9.0    ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ 
+
+  Description :
+  ==================
+   
+  This is the final bugfixed version of in space, our 64k intro from breakpoint
+  2003. there were some problems with the party version. i used nvidia geforce's
+  hardware depth buffer shadowmapping originally. its really damn fast and gives
+  pretty good results, but meant that it was totally nvidia only (crashed on 
+  any other hw), and had a lot of problems with driver versions. on the party 
+  machine which had a gf4, during the compo it fucked up bigtime - displayed the
+  z buffer overlayed on some scenes. when we installed different drivers after the
+  compo it worked fine. first of all i decided to just disable the shadows if your
+  card doesnt support it, but that looked lame. so i wrote a little carmack's reverse
+  shadowvolumes implementation and replaced all the shadow stuff with that.
+
+  the result is, this should work on any gfx card with ps1.1 and vs1.1, and directx9.
+
+ 
+    
+  lemme just quickly tell the story of this intro. the system + tools code was done slowly 
+  over a couple of months. then a week before bp i tried to start putting it together.
+  unfortunately, i had very little  done before bp - just some 3d scenes and camera 
+  movements. so i had to take my pc   over on the plane from the uk to germany (hoping it 
+  didnt get fucked up.. i was   lucky), and finished it at the party place. had to borrow 
+  a monitor from first steffo/crs, then later nytrik+willbe. also at the party place willbe 
+  kindly stepped in and made the nice turntable model. 
+  6 hours before the deadline, it was well over size and very little design in place.. 
+  so took a lot of rushed drunken party coding to fix it. =) we made the deadline with
+  2 minutes to go. unfortunately it bugged on the big screen in some scenes due to driver
+  problems.
+
+  here's some thanks: 
+  - nytrik, steffo, willbe for monitor lending
+  - willbe for partyplace 3d
+  - shock + ript for help with getting this finished
+
+  
+  System requirements are:
+  - about 64mb ram
+  - directx 9
+  - a reasonably fast pc 
+  - graphics card supporting ps1.1, vs1.1. problems? consult your drivers
+   
+
+  A special greet to:
+  ==================
+  
+  Jbm, Strider, Vodka, Hollowman, Bacchus, Dogan, Basilisk, Stx, Archangel, 
+  Fore, BM, Morgar, Burner and Indy.
+
+
+  Get in touch with us by email, smash at fairlight.st
+  
+
+  ÄÄÄÄÄ-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-   
+  Greetings to our friends in groups such as:
+  --------------------------------------------
+
+  Triad, Noice, Virtual Dreams, Damage, Woorlic, T-Rex, Class, Sunflower, 
+  Aardbei, AMC, Orange Juice, Deviance, Koma, Replay, Patrik Morin, 
+  Crest, Ronnie Syrjalainen, Dennis Nicolaisen, THCISO, TPOLM, Razor 1911, 
+  Backlash, Haujobb, Yodel, TBL, Byterapers, Myth, Blasphemy, Oxyron, 
+  Spinning Kids, Excess, Kalisto, Smash Design, Madwizards, Orion.
+  
+ ÚÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ÚÙ                   +-+  QUALITY, TRADITION  AND PRIDE +-+                 ÚÙ
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙÙ

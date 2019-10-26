@@ -1,0 +1,43 @@
+
+     __._        _.____   _.____   _.____   _.__    ____._    ____._
+   _/  |/________\|_   \__\|_   \__\|_   \__\|__)__/  _ |/___/  __|/____
+  _)   _/      /   /    /   /    /   /    /      (_   __|  (_____      (_
+  \    \      /        /        /   /     \       /         /   /       /
+  /_____\_____\________\________\___\______\______\_________\___________\
+ - -diP--------------------------------------------------------------uP!- -
+
+                                 Nevada
+                        Released at Kindergarden 08
+                            4kb intro compo
+	
+Credits
+=======
+Visuals: Psycho
+Synth:   BlueBerry
+Music:   Farfar
+
+
+Compatibility
+=============
+OpenGL, long shader, should work on decent ps3.0 hardware with recent
+drivers, that is: Radeon HD X1x00+ or Geforce 7x00+ - but may require 
+dx10 level hardware, it's not fully tested yet.
+Tested working on Radeon 4850 and Geforce 8600/9800 so far, latest drivers.
+
+More version with different resolutions more suitable for faster/slower 
+GPUs will come.
+
+
+Info
+====
+Sphere Tracing / Ray Marching, Perlin noise volumes..
+The compo rules kinda suggested it would help naming the intro after an 
+american state ;)
+
+
+Additional info
+===============
+http://www.loonies.dk
+
+
+

@@ -1,0 +1,226 @@
+
+                         CC-Information V 1.6
+
+                            ( 01-MAY-1994 )
+
+         Some information about Capacala - The Hard Working All Stars
+                      (Written by Breeze/Capacala)
+
+  Version 1.0 written by Breeze/Capacala 10.10.1993
+  Version 1.1 written also by Breeze 14.11.1993
+  Version 1.2 written (surprisingly) by Breeze 1.12.1993
+  and so on...
+  Version 1.6 edited without permission by flap & Spay
+
+ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+³ Capacala members in the natural order:                                      ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  Real Name            Alias    Abbr.    CPU     What Does He Do In CC       ³
+³  ÄÄÄÄÄÄÄÄÄ            ÄÄÄÄÄ    ÄÄÄÄÄ    ÄÄÄ     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ       ³
+³ Heikki I. Ylinen      flap      FLP   486/50   Coder, Organizer, GFX Artist ³
+³ Tuomas Koskip„„       Spay      SPY   486/50   Composer, Coder              ³
+³ Tuomas J. Ranta       Passy     PSY   486/33   Coder                        ³
+³ Osmo J. O. Suvisaari  Axolotl   AXO   386/40   Party animal                 ³
+³ Samppa O. Leino       Breeze    BRZ 486SX/25   Composer, PR-Man (that's me) ³
+³ Mikko R. Huttunen     Trancer         486/33   BBS Coordinator              ³
+ÆÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍµ
+³ Capacala productions:                                                       ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³   L I N E R                                                                 ³
+³ Release Date: 21.1.1991                                                     ³
+³         Type: A simple two-player worm game                                 ³
+³         Code: flap and Spay                                                 ³
+³          GFX: flap and Spay                                                 ³
+³        Music: flap and Spay                                                 ³
+³       Status: Ready                                                         ³
+³     Supports: EGA/Beep                                                      ³
+³         Size: 88K                                                           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³   X - M A S - D E M O   1 9 9 3                                             ³
+³ Release Date: 8.1.1993                                                      ³
+³         Type: A multi-part demo with some truly amazing color-cycling fx ;) ³
+³         Code: flap and Spay                                                 ³
+³          GFX: flap and Spay                                                 ³
+³        Music: Red Five (resigned his duties a while ago...)                 ³
+³       Status: Ready                                                         ³
+³     Supports: VGA/AdLib                                                     ³
+³         Size: 260K                                                          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  D A R K   T O W E R   A D V E R T I S E M E N T                            ³
+³ Release Date: Hard to say... :)                                             ³
+³         Type: A BBSAd with a sine-scroller, a color-cycle and volume bars   ³
+³         Code: flap, Spay and Passy                                          ³
+³          GFX: flap                                                          ³
+³        Music: Red Five (see above)                                          ³
+³       Status: Ready, although there are a number of versions around...      ³
+³     Supports: VGA/AdLib                                                     ³
+³         Size: Originally 6399 bytes unpacked but later versions 6333 bytes  ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  F I D E L   C A S T R O                                    For Assembly'93 ³
+³ Release Date: Never made the deadline... that was 30.7.1993                 ³
+³         Type: A one-part intro with loads of stuff                          ³
+³         Code: flap, Spay and Passy                                          ³
+³          GFX: flap                                                          ³
+³        Music: Breeze                                                        ³
+³       Status: Didn't make the deadline, so...                               ³
+³     Supports: VGA/SB/PAS                                                    ³
+³         Size: ? (Anybody's guess...) :)                                     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  T H E   I C Y   C O N N E C T I O N   B B S   I N T R O                    ³
+³ Release Date: 19.10.1993                                                    ³
+³         Type: A two-part intro featuring a whole new way to write text      ³
+³         Code: flap                                                          ³
+³          GFX: flap                                                          ³
+³        Music: Breeze                                                        ³
+³       Status: Ready, also a newer version can be found...                   ³
+³     Supports: VGA/SB/PAS                                                    ³
+³         Size: 180K                                                          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  S Y M P T O M S   O F   C O M P U T I N G                                  ³
+³ Release Date: 14.11.1993                                                    ³
+³         Type: Enlightenment intro with nothing special except the message   ³
+³         Code: flap and Spay                                                 ³
+³          GFX: flap                                                          ³
+³        Music: Breeze                                                        ³
+³       Status: Ready                                                         ³
+³     Supports: VGA/SB/PAS                                                    ³
+³         Size: 110K                                                          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  B Y   T H E   W A Y                                                        ³
+³ Release Date: 17.12.1993                                                    ³
+³         Type: Love intro with a nice flame-effect and an optical delusion   ³
+³         Code: flap                                                          ³
+³          GFX: flap                                                          ³
+³        Music: Bit Arts                                                      ³
+³       Status: Ready                                                         ³
+³     Supports: VGA/GUS                                                       ³
+³         Size: 200K                                                          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  C A P A M O D                                                              ³
+³ Release Date: 16.2.1994 (the first version)                                 ³
+³         Type: The Ultimate .MOD player, plays all PT1.1b-fx right!          ³
+³         Code: flap                                                          ³
+³       Status: Ready                                                         ³
+³     Supports: VGA/GUS :)                                                    ³
+³         Size: 50K                                                           ³
+³       Latest: V 1.10b                                                       ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³  J U B I L E U M                                                            ³
+³ Release Date:  1. 5.1994                                                    ³
+³         Type: Protest intro with a 3d-dot-glenz-vector-conture              ³
+³         Code: flap                                                          ³
+³          GFX: flap                                                          ³
+³        Music: Spay                                                          ³
+³       Status: Ready                                                         ³
+³     Supports: VGA/GUS                                                       ³
+³         Size: 34K                                                           ³
+ÆÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍµ
+³ Capacala support sites:                                                     ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³                                                                             ³
+³   Finland                                                                   ³
+³                                                                             ³
+³ THE DARKS¡DE node 1  +358-(9)0 294 1594      WHQ       SysOp: Trancer       ³
+³              node 2  +358-(9)0 294 0467                                     ³
+³ 4th Dimension        +358-(9)14 754 265                SysOp: Merlin        ³
+³ Eagle's Nest         +358-(9)52 257 474                SysOp: Driffin/S-7   ³
+³                                                                             ³
+³   Germany                                                                   ³
+³                                                                             ³
+³ Undercover BBS       +49 -(0)232 345 0850              SysOp: CoSMiC        ³
+³                                                                             ³
+³   Denmark                                                                   ³
+³                                                                             ³
+³ Stairway to Heaven   +45 747-263-03                    SysOp: BiONiC        ³
+³                                                                             ³
+ÆÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍµ
+³ Capacala's party attendance beginning at 1.6.1993:                          ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³ 30. 7. -  1. 8. 1993   Assembly '93                                         ³
+³                          Attendance:                                        ³
+³                            flap, Spay, Passy, Breeze and Tristan <-- H-A-M  ³
+³                          Party location:                                    ³
+³                            Nikkarin Koulu, Kerava, Finland                  ³
+³                          PartyPC:                                           ³
+³                            Spay's 486/50                                    ³
+³                          Compoes:                                           ³
+³                            No attendance.                                   ³
+³                          Highlight:                                         ³
+³                            Second Reality <-- RULES!                        ³
+³                          Overall grade:                                     ³
+³                            Organization: ***                                ³
+³                            Compo quality: *****                             ³
+³                            People there: 1500-2000 (or something like that) ³
+³                            Personal feel: ****                              ³
+³                            SO: ****                                         ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³ 8.10. - 10.10. 1993    Aggressive Party                                     ³
+³                          Attendance:                                        ³
+³                            flap, Spay, Passy, Breeze, Axolotl               ³
+³                            Demilich and Shadow Lord (not members...)        ³
+³                          Party location:                                    ³
+³                            Planet FunFun, Savio, Finland                    ³
+³                          PartyPCs:                                          ³
+³                            flap's 486/50                                    ³
+³                              + Axolotl's amplifier with Breeze's speakers   ³
+³                                + flap's GUS added with Spay's memory (512k) ³
+³                            Spay's 486/50                                    ³
+³                              + Demilich's amplifier/double deck/speakers    ³
+³                                + Breeze's Sound Blaster 16 ASP              ³
+³                          Compoes:                                           ³
+³                            Music compo: Pax Tharkas (7. pos) by BRZ & SPY   ³
+³                          Highlight:                                         ³
+³                            Music compo                                      ³
+³                          Overall grade:                                     ³
+³                            Organization: ***                                ³
+³                            Compo quality: **                                ³
+³                            People there: 200                                ³
+³                            Personal feel: **                                ³
+³                            SO: **                                           ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³                          The grading system:                                ³
+³                            ***** Excellent                                  ³
+³                            ****  Good                                       ³
+³                            ***   Average                                    ³
+³                            **    Poor                                       ³
+³                            *     Nauseating                                 ³
+ÆÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍµ
+³ How to contact Capacala - The Hard Working All Stars                        ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³ Just write to us, either way, via snail-mail:                               ³
+³                                                                             ³
+³                flap/Capacala     or    Breeze/Capacala                      ³
+³               (Heikki Ylinen)          (Samppa Leino)                       ³
+³                 Oravatie 9b             Martintie 27                        ³
+³                 02270 Espoo              02270 Espoo                        ³
+³                   Finland                  Finland                          ³
+³                                                                             ³
+³ Or leave a message to flap in any of our support sites...                   ³
+³ Or leave a message to Breeze in THE DARKS¡DE.                               ³
+³                                                                             ³
+³ You could also try to contact Trancer at his internet-address:              ³
+³     trancer@mdata.fi                                                        ³
+³                                                                             ³
+ÆÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍµ
+³ Capacala greets the following groups:  ³ My personal greetings go to:       ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³ Future Crew            Extreme         ³ Demilich           Justice         ³
+³ Triton                 Surprise!Prod.  ³ Cybelius/Sonique   Weasel          ³
+³ Sonic PC               Obsession       ³ Tetsuo (rave on!)  Skaven/FC       ³
+³ Dust                   Stage-7         ³ Executioner        Zodiak/Cascada  ³
+³ Witan                  Jeskola!Prod.   ³ Purple Motion/FC   Dealer          ³
+³ The Codeblasters       lAmmAs          ³ Gibson/Extreme     Trug/FC         ³
+³ Cascada Demo Section   Symptom         ³ Softcat            B-Man/Dust      ³
+ÆÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍµ
+³ Closing words:                                                              ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³ If you have something to say about our productions, please don't hesitate   ³
+³ to contact us. In TIC-intro and Symptoms of Computing we have used DSMI by  ³
+³ Otto Chrons, but nowadays we think it is the time to move on, so now our    ³
+³ music routine is CapaPlay. It supports only GUS and being so, our demos and ³
+³ intros support only GUS from now on. Now something about this text. It will ³
+³ (in the future) feature many new things such as 'History of Capacala',      ³
+³ 'Capacala Quotes' and 'Heavy Words of Wisdom'. That concludes this session. ³
+³                                                                             ³
+³                                                 Signed, Breeze/Capacala     ³
+ÔÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¾

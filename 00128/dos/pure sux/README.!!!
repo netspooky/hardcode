@@ -1,0 +1,50 @@
+PURE SUX by CodeRipper /ROi
+---------------------------
+
+Coded for DEMO.DESIGN 128b intro compo. 128 bytes of _pure_ sux ;)
+
+[ESC]  - change effect
+[CTRL] - exit to DOS
+
+Tested on my 486DLC40/CL5422 and Slash's 486DX4-100/CL5430.
+
+Yes, I know it's possible to decrease size down to ~80-100 bytes. 
+
+e.g., change:
+
+mov ax,03 
+with 
+mov al,03. 
+
+replace 
+
+xor cl,cl
+label: 
+[..] 
+inc cl 
+cmp cl,3 
+jnz label
+
+with 
+
+mov cl,2
+label:
+[...]
+dec cl
+jnz label
+
+etc...
+
+But I'll better drink another one cup of tea (not beer!) 
+
+* Don't forget to attend ENLiGHT'96 demo party
+* (St.Petersburg, Russia, end of summer 1996..)
+* more info will be available later, wait for invitation intro!
+
+
+CodeRipper /ROi
+
+coderipper@auro.spb.su
+frog@gauss.pdmi.ras.ru
+2:5030/84@fidonet
+

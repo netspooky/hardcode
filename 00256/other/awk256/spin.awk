@@ -1,0 +1,1 @@
+awk 'BEGIN{L[1]=".";L[2]=",";L[3]="+";for(q=0;; q++){printf("\033[1;1H");for(y=0;y<24;y++){s="";for(x=0;x<80;x++){a=sin(y/(sin(q/5)*5)+x/(15+(q%3)+cos(q/5)*5)+cos(q)*4)*3;if (a<0) a=-a;s=s L[int(a+1)]}print s}fflush();for(m=0;m<y;m++);}}'

@@ -1,0 +1,2 @@
+main.exe - ptnz_compo.bat uncompressed
+main_low.exe - ptnz.bat uncompressed

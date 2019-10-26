@@ -1,0 +1,37 @@
+
+ melange, a sixtyfour kilobyte intro for distance 2k-1, by kibosh
+
+ here's a intro, like i promised. it isn't that good but that's because
+ i had to write a awfull lot of code within 20 hours. i hope everybody
+ likes it a bit tough.
+  
+ credits,
+
+ plek: programming, design
+ sweeper: graphics
+ seventwenty: graphics
+ forcer: graphics
+ distance: music
+
+ thanks to mrock / hellcore for the nice font
+
+ system requirements,
+
+ pentium 166 (pentium 200)
+ 16mb xms memory
+ vesa 2.0 compliant video hardware
+ a gravis ultrasound for music
+
+ note: this intro runs in a 512*384 mode, wich is supported by the most
+ popular video hardware out there. the highest possible colour depth is
+ automatically detected and initialized. the intro always renders in 32-bit
+ so a video mode with a lower colour depth requires conversion, wich ofcourse
+ takes time. certainly if you have a slower system like a pentium 166, make
+ sure to load the scitech display doctor so you are sure that your computer
+ supports a 32-bit mode, wich saves processor time for the intro and results
+ in smoother animation.
+
+ that's it.
+
+
+

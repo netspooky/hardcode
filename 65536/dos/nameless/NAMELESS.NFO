@@ -1,0 +1,179 @@
+ษอออออออออออออออออออออออออออออออออออออออออออออออออป
+บ ฒฒฒฒฒ ฒฒฒฒฒ ฒฒฒฒฒ ฒฒฒฒฒ ฒ     ฒฒฒฒฒ ฒฒฒฒฒ ฒฒฒฒฒ บ
+บ ฒ   ฒ ฒ   ฒ ฒ ฒ ฒ ฒ     ฒ     ฒ     ฒ     ฒ     บ
+บ ฒ   ฒ ฒฒฒฒฒ ฒ ฒ ฒ ฒฒฒ   ฒ     ฒฒฒ   ฒฒฒฒฒ ฒฒฒฒฒ บ
+บ ฒ   ฒ ฒ   ฒ ฒ   ฒ ฒ     ฒ     ฒ         ฒ     ฒ บ
+บ ฒ   ฒ ฒ   ฒ ฒ   ฒ ฒฒฒฒฒ ฒฒฒฒฒ ฒฒฒฒฒ ฒฒฒฒฒ ฒฒฒฒฒ บ
+บ                                                 บ
+ฬอออออออออออออออออออออออออออออออออออออออออออออออออน
+บ The third 'one man project' by LaSerDance 1995. บ
+ฬอออออออออออออออออออออออออออออออออออออออออออออออออน
+บ        NAMELESS came in ??? place at the        บ
+บ  'Somewhere In Holland' 64Kb intro competition  บ
+บ                                                 บ
+ศอออออออออออออออออออออออออออออออออออออออออออออออออผ
+
+It has been a long time since my last release (sorry about that) because I
+haven't had the time to assemble routines into an intro/demo and I missed
+some party's because of an assignment abroad. 
+Anyway ... I'm back and I hope you've enjoyed watching 'NAMELESS'.
+
+Info about 'NAMELESS'-the third one man project.
+ออออออออออออออออออออออออออออออออออออออออออออออออ
+
+'NAMELESS' is a 100% assembler program.
+It requires a 386+ processor and only about 370Kb of free base memory.
+If you have a soundcard that supports Adlib you should be able to listen to
+some tunes.
+'NAMELESS' doesn't like to be started from Norton Commander :(
+
+The name is ofcourse stupid and was meant as a test-name for the morf-routines
+since I didn't know an original name at the time. Later on I decided this was 
+an original name so I thought 'What the hell ...' and just left it that way.
+
+All tunes were composed using HSC-tracker (as usual) and replayed using the 
+HSC-player by Chicken and Zwerg Zwack. So thanks again guys ....
+
+tune1: This tune comes from T.H.Express and is called '(I'm) on your side' ... 
+       thanks to Farina/Crivellente for making great music !!
+
+tune2: A little of dr.Alban and a little of Brian Ice ...
+
+tune3: Finally one made totally out of my own imagination ...
+
+The different intro-parts are glued together using ResLib v3.0 (Resource
+Manager) by Phalanger/Agony. I don't think I could have done it without 
+ResLib so a million thanks fly out to you !!
+
+the parts:
+ออออออออออ
+
+Shaded 3D world - I created this 3D-shade engine just a few weeks before the
+                  competition so that's why the world you're flying trough is
+                  not so advanced (yet).
+
+Dot-O-mania     - As you might know the objects are imported straight from
+                  3D-studio, and even if these dot-routines are not so
+                  difficult to program I don't think I've ever seen this
+                  gouraud-use in any intro/demo yet (correct me if I'm wrong).
+
+Plasma          - Is it Lame to use a plasma in an intro ???
+                  If so I would have called the intro 'LAMENESS' :)
+                  But I think it's nice to morf plasma's .....
+
+Gouraud etc.    - I decided it was time to show some of the gouraud stuff I
+                  made a long time ago (even before everybody claimed to
+                  make it) because if you don't release some of your routines
+                  they always loose their originality. I think the translucent
+                  vectors are new though (right?).
+
+Blue-Rain       - This effect is taken from a Bizarre intro (by Supreme). Only
+                  this time I let the water drop off the screen at the start
+                  which was the most difficult part of the whole routine.
+                  Try it if you don't believe me ;)
+
+
+OK, that's about all the info on the intro .... now here come the greets ....
+
+greetings go to (in random order) :
+
+Laserdance          - Thanks for making the best synthesizer-music ever !!
+-*The Music Group*-   And of course thanks for the T-shirt .... I hope we
+                      can help eachother out in the near future !
+The REW / Nostalgia - Thanks for the mail in Denmark ... (NOT!)
+                      Now let's get drunk !!
+Aap / Acme          - Thanks for giving the REW my danish adres ... (NOT!)    
+SimStim / Acme      - You're vectors look great !
+                      Now let's get drunk !!
+Hammer / ?          - Such a shame .... it almost worked ....    
+Agony               - Good luck with the demo guys!     
+Lone Ranger / Acme  - Sorry .. the player still doesn't work on my GUS  :(
+Logic Design        - You're player seems to have the same problem as 
+                      Lone Ranger's Polyplayer  :(
+Nix / Massive       - Long time no hear .... 
+Aap / Acme          - Long time no hair ;)  [insiders joke]
+NutCracker / IS     - Have the guts to go nuts !!
+Dirty / Distorsion  - Maybe the party V ???
+Distorsion          - Hi guys .... see you at Wired .... (NOT!)
+Nostalgia           - Shall we merge ... or what ?? (and get drunk?)
+Diablo / Agony      - Great music, great BBS  :)
+Darkness / Imphobia - Where's the picture with the swimming-caps ??
+                      And why didn't you criticize Wired ?? You told us it
+                      sucked but you only wrote nice things in your report !!
+The Grundfos-guys   - It has been fun working with you !
+
+Everybody I've forgotten ... sorry ...
+
+
+Since Sledge Hammer BBS is down I don't have a dutch home-BBS at the moment.
+Most demo-boards however distribute the LaSerDance-intro's (I hope) or else
+you can find the intro's at ftp.eng.ufl.edu (Hornet).
+
+previous intro/demo's:
+ออออออออออออออออออออออ 
+
+FEAR     - The first one man project - 2nd at Bizarre'94 64Kb 
+(FEAR-LSD.ARJ/ZIP)                     intro-competition.
+
+DOA      - Death On Arrival - Demo with Acme
+(ACME-DOA.ZIP)
+
+CLAIR    - Clair Voyance - Music Intro with Acme
+(ACME-CLR.ZIP)
+
+ONCE     - The second one man project - 2nd at Wired'94 100Kb 
+(ONCE-LSD.ARJ/ZIP)                      intro competition.
+
+
+NAMELESS - The third one man project - ??? at Somewhere in Holland '95
+(NAMELESS.ARJ/ZIP                      64Kb intro competition.     
+
+Foreign distribution sites:
+
+ษออออออออออออออออออออออออออออออออออออออออออป
+บ        BBS Name:  Warp Speed BBS         บ
+บPhone: +1-708-677-6824   (28,800bps V.34I)บ 
+บ       Location: Chicago, IL., USA        บ
+บ BBS Network Adresses: FidoNet 1:2235/185 บ
+บ     other Nets 85:837/116, 86:8123/9     บ                                        บ
+บ          120:708/4, 181:294/106          บ                             
+ศออออออออออออออออออออออออออออออออออออออออออผ
+
+AAAaaaarrrhhhgggg ... the adres of my Australian distribution-site was
+missing during the creation of this info-file ... so hopefully I can update
+it soon .... sorry Egg !
+
+If you have questions, comments, suggestions or anything else you want to 
+contact me for ..... here are the adresses .....
+
+internet:  LASERDNC@DUTIWS.TWI.TUDELFT.NL or
+           S221276@DUTIWS.TWI.TUDELFT.NL  or
+           M.G.VANELK@TWI.TUDELFT.NL
+snailmail: MICHEL VAN ELK
+           HENDERSONSTRAAT 331
+           2286XB RIJSWIJK
+           HOLLAND
+BBS-mail:  Quazar        ++31-70-3912113
+           The Dark Side ++31-70-3668089
+
+For extreme hate-mail: TERHEIDE@SIMPLEX.NL
+
+Try to visit the official 'FC Den Haag'-homepage at :
+        
+        ษออออออออออออออออออออออออออออออป
+        บ  http://www.xs4all.nl/~yoast บ                             
+        ศออออออออออออออออออออออออออออออผ
+
+If you have received the party-package of 'NAMELESS' the ranking of the intro
+will (of course) not be filled in yet ..... At this moment (a few days before 
+the competition) I can only hope that at the party people won't just vote for 
+their friends but for quality. Afterall ... it's only painfull to loose if 
+the winner delivers a bad product (like at Wired'94).
+
+LaSerDance out .........
+
+
+
+
+
+

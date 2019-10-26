@@ -1,0 +1,60 @@
+
+---------------------------------------------------------------------------- 
+ creditz
+---------------------------------------------------------------------------- 
+ main code .......................................................... blala
+ additional code ...................................................robymus
+ pmode .............................................................robymus 
+ debugger for pmode ................................................. blala
+ player ............................................................robymus 
+ muzak .............................................. zts & megant/exbyteam
+ gfx(?) ............................................................. blala
+ font ............................................................ 3dstudio
+ dezign ................................................... blala & robymus
+
+---------------------------------------------------------------------------- 
+ hardware requirements                                          recommended
+---------------------------------------------------------------------------- 
+ 386 or better processor                                        pentium 133
+ 512k base memory                                                 513k base
+ about 4 megabytes of ems memory                                lotz of ems
+ standard vga or compatible                                fast (s)vga card
+ sb or gus for music                                      gravis ultrasound
+ monitor (projector)                                           projector(?)
+ 64k free (hard)disk space                                             hmmm
+
+---------------------------------------------------------------------------- 
+ troubleshooting
+---------------------------------------------------------------------------- 
+ if it doesn't work, try with emm386.
+ if it still doesn't work, try with an other machine.
+ try to set the environment variables (blaster/ultrasnd) correctly
+ try run from dos, and not from windows nor win'95 of course..
+ 
+---------------------------------------------------------------------------- 
+ commentz
+---------------------------------------------------------------------------- 
+ well.. it's a "bit" unfinished. i hope that we will a release a final
+ version (raw/xms/dpmi support too, endscroll, finished muzak and only a
+ few bugs..) soon. i finished the code at the partyplace, on a 386sx/20(!)
+ notebook with a monochrome display, so..
+
+---------------------------------------------------------------------------- 
+ copyright license
+---------------------------------------------------------------------------- 
+ this material is not freeware. you are allowed to copy it without 
+ restrictions for non-commercial use.
+ no payment of any kind may be charged for this product or any combination
+ of products or services including this product without our authorization
+ and official written license.
+ commercial use, especially the industrial manufacturing on any data
+ storage media and their distribution without the expressed permission of
+ the producer, is strictly prohibited.
+ this program or the data files contained therein may not be altered or
+ modified without the permission of the author.
+ you take full responsibility for the operation of this software and any
+ consequences thereof. we the creators can not accept liability for damages
+ or failures arising from the use of this software.  
+  			
+---------------------------------------------------------------------------- 
+

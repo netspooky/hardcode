@@ -1,0 +1,28 @@
+
+Zero polygons, one shader, two days of party scripting.
+
+Result: A 4k intro for TRSAC 2010 called Wishful Twinkling.
+
+Presented to you by Fnuque and Loonies.
+
+
+Credits:
+
+Music: Punqtured
+Code and modelling: Blueberry
+Direction and colors: Maytz
+
+
+Requires a Windows PC with:
+- Up-to-date DirectX runtime (d3dx9_42.dll)
+- Shader model 2.0 or better
+- Support for large point sprites
+  (Most NVIDIA cards should be fine. On ATI and Intel
+   cards, the background will look somewhat blotchy,
+   due to a maximum point size of 256 pixels.)
+
+
+Sorry for the slim choice of resolutions. We ought to make a
+selector and some letterboxing at some point...
+
+Greetings to all TRSAC visitors, and thank you for a great party!

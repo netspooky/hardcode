@@ -1,0 +1,5 @@
+X: add al,0x13
+int 0x10
+and cl,ch
+mov ah,0x0C
+loop X

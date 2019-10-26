@@ -1,0 +1,353 @@
+
+               ÜÜ                                        ÜÜ 
+              ÛÛÛ                                       ÛÛ 
+   ÞÛÛÛÛÛ     ÛÛÛ                                     ÜÛÛ 
+    ÛÛÛÛÛÛÝ    ÛÝ          ÛÛ                   ÞÛÛ   Ûß 
+    ÛÛÛßÛÛÛ               ÞÛÛ        ®jCl¯      ÛÛ 
+    ÛÛÛ  ÛÛÝ              ÞÛÛ     Ü            ÛÛÛ         ÜÜ     ÜÜ  Ü 
+    ÛÛÛ  ÛÛÛ  ÛÛÝ  ÛÛÛÛ  ÛÛÛÛÛ  ÛÛÛÛÛ   ÛÛÝÜÛ ÛÛÛÛÛ ÛÛÛ  ÜÛÛÛÛÝ   ÛÛÜÛÛÛ 
+    ÛÛÛ  ÞÛÛ  ÛÛÝ ÞÛÛ    ÛÛÛÛÛ ÞÛÛßÛÛÛ  ÛÛ ÛÛ ÛÛÛÛÝ ÛÛÝ  ÛÛÛÛÛÛ  ÞÛÛÛÛÛÛÝ
+    ÛÛÛ  ÞÛÛ  ÛÛÝ  ÛÛ     ÞÛÛ  ÛÛÛ  ÛÛ  ÛÛÛÝ   ÛÛÝ  ÞÛÛ ÞÛÛÝ ÛÛÛ  ÛÛÝ ÛÛÝ
+    ÛÛÛ  ÛÛÛ  ÛÛÝ  ÞÛÛÜ   ÞÛÛ  ÛÛÛ  ÛÛÝ ÞÛÛ    ÛÛÛ  ÞÛÛ  ÛÛÝ  ÛÛ  ÛÛÝ ÞÛÛ 
+    ÛÛÛ  ÛÛÝ  ÛÛÝ    ÛÛÛ  ÞÛÛ  ÞÛÛ  ÛÛÛ ÞÛÛ    ÞÛÛ   ÛÛÝ ÞÛÛ  ÛÛÛ ÞÛÛ  ÛÛÝ
+   ÞÛÛÛÜÛÛÛ  ÞÛÛÝ    ÞÛÛ  ÞÛÛ   ÛÛÝ ÛÛÛ  ÛÛÝ    ÛÛÝ  ÞÛÛ  ÛÛÜ  ÛÛÝ ÛÛÛ  ÛÛ 
+   ÛÛÛÛÛÛÛ   ÞÛÛ  ÞÛÜÛÛÛ  ÞÛÛ   ÛÛÛÜÛÛÛ  ÛÛÛ    ÞÛÛ   ÛÛÝ  ÛÛÜÜÛÛÛ  ÛÛÜ  ÛÛ 
+  ÞÛÛÛÛÛÛ    ÛÛÛ  ÛÛÛÛÛÝ  ÞÛÛ    ÛÛÛÛÛÛ  ÞÛÛ     ÛÛÝ  ÞÛÛ   ÞÛÛÛÛÛÝ  ÛÛ   ÛÛ 
+  ßßßßß      ßß    ÛÛÛß   ßßß     ÛÛÛÛ    ßß     ßßß   ßß     ßÛÛÛÝ   ÛÛ   ÛÛ 
+                                                                               
+                              a little 64Kb intro
+  ® Release Version ¯
+                                   ÚÄÄÄÒÄÄÄ¿
+                          ú ù -ÄÄÍÍµ B º Y ÆÍÍÄ-- ù ú
+                                   ÀÄÄÄÐÄÄÄÙ
+
+ ú ù ---ÄÄÄÄÄÄÂÄÄÄÄÂÄÄÂ¿ Û Þ ÝßÜ ÛÜß ÝßÜ ÝßÛ Ý Ý Ý ÝßÜ ÚÂÄÄÂÄÄÄÄÄÂÄÄÄ---- ù ú
+ ú ù ---ÄÄÄÄÄÄÁÄÄÄÄÁÄÄÁÙ ÛÜÜ Û Û Û Û Û Û ÛÜÜ ÛÜÛÜÛ Û Û ÀÁÄÄÁÄÄÄÄÄÁÄÄÄ---- ù ú
+
+
+                          ú U ú N ú K ú N ú O ú W ú N ú
+                                   PRODUCTIONS
+                                       NTM 
+                                (Not a TradeMark)
+
+
+        Yeeeeaaaahhh... Unknown strikes back with another production... This
+  time is a short intro for the Euskal V. A complete waste of bytes for your
+  sole enjoy!
+
+        In order to see this intro, you need:
+
+                - 386 or better
+                - A VGA card
+                - about 610Kb of free base RAM (I think)
+                - MS-DOS
+                - A PC with a keyboard and a monitor
+                - Some fingers, in order to type DISTORT at the DOS prompt!
+
+        In order to enjoy it, you should have:
+
+                - A Pentium-133 or better CPU
+                - A FAST VGA card (any S3 or Cirrus Logic will do)
+                - about 610Kb of free base RAM :)
+                - A soundcard (preferably a Gravis UltraSound =)
+
+        NOTE: Some P166 processors seem to run this intro slow as hell,
+              we don't have one of these and don't know why's that, but
+              on any P133 should run at the correct speed.
+
+        My programming machine (the only one I've tested it in) is:
+
+                - Pentium 133Mhz
+                - S3 Trio64 V+ 2Mb VRAM
+                - 32Mb EDO Ram
+                - 256Kb cache
+                - 2Gb HD
+                - SoundBlaster 16
+                - CD-Rom 8x
+                - QEMM 8.0 (629Kb free base-RAM)
+
+        You can use QEMM, HIMEM or whatever... I haven't tested it under
+  Windooze '95, but I think it will work (of course, don't try to run it
+  in a Window!!!!). It can not work because of the Midas Sound System,
+  but the demo in itself should work perfectly.
+
+        First of all, the legal stuff:
+
+        This product is distributed as public domain. That means, you can
+  (and should) copy it, spread it and show it, as long as no money is charged
+  for it. You can distribute it in CDs as long as no extra money is charged
+  for containing this intro, also you must send us a copy of the CD you are
+  going to put this intro in (just send it to me, I'll show it to the other
+  members, no need to send us a copy per member).
+        Neither me (Jcl) nor Unknown assume any responsibility for any damage
+  that can arise from the use (or misuse) of this software (should be no
+  risk at all, may I add, but.. who knows!).
+
+        The files that should be included in this package are:
+
+        DISTORT.EXE -> 57.613 bytes
+        DISTORT.TXT -> (I don't know, but this doesn't have a virus :)
+        FILE_ID.DIZ ->  1.217 bytes
+
+        Any other files are BBSads or some text information that shouldn't
+  hurt your computer (but you should read'em). If the size of the DISTORT.EXE
+  file is different that the specified above, someone has been playing with
+  it, and it may contain a virus.
+
+        This stuff is quite boring, but it has to be put.
+
+        Well, the fact is that this intro is slow on anything under a Pentium
+  133... (actually I have only tested in on a P133, so I'm not sure :)
+        I haven't included a timer for it, as my timer library is too big,
+  and I didn't want to cut it out, so, I don't know how it will work in a
+  computer different than a P133. I hope you'll have one like mine.
+        Anyway, I own a SoundBlaster (GUS soon!), and that slows the computer
+  like hell. Well, with the music playing at 44Khz, 16bit stereo, in my
+  computer, everything runs full framerate. The effects that take longer
+  are the wireframe donut and the rotozoomers (bcoz of the FULL 320x200
+  mode used). I think (I hope!) that, with a GUS and a 486DX4-100 (?) it will
+  run full framerate, but I don't know for sure, as I haven't been able to
+  compare between my computer and other "high-level" computers. I can tell
+  you NOT to run this in a 486DX-33 (like my old computer), because it will
+  run DAMN slow.
+
+        The reason for this high requirements are not the ones usually put
+  in some TXTs of several demos (very complex calculations or things like
+  that)... The main reason is because I (the coder) am totally lazy, and,
+  as I don't have a slow computer, I don't optimize my code... Anyway,
+  nowadays, everybody has a Pentium at home, so, I really don't care :)
+        In fact, the effects are very simple, but I just don't mind if it
+  runs slow in other's computer... (yeah! I'm a bastard... I know :)
+        
+        Now for some creditz:
+
+        - Code
+                Jcl
+
+        - Graphics
+                Jcl
+
+        - Music
+                Anonymous
+
+        - Player
+                Alfred & Guru / Sahara Surfers (Midas)
+
+        - That dude who is always complaining about the intro
+                Macl/Unknown :)
+
+        Yeahh! The music is stolen from other guy who didn't sign the song,
+  so I used it... Our musician can't handle those chips songs :), and I'm too
+  lazy to make one, so... well, you know. Anyhow, a BIG SORRY, and THANX to
+  the guy who wrote that song... If it is you, or you know who did the song
+  and know his address (snail or e-mail), write to us and we immediately
+  will send our apologizes to him. Btw. the music is called "CyberWorks", so
+  if you know who made this, let me know, ok?
+        I added the music a pair of patterns to make it longer, and I also
+  added one that stay quiet in the first pattern for some obscure reason
+  that I won't tell you here :)
+
+        Well, this intro is really a mixture of some (.C extension) effects
+  I had programmed in my computer... I mixed them in the way I could, I added
+  some five-minutes-graphics, a font I already had in my graphics directory,
+  and a stolen music... So this intro is not really a state-of-the-art piece,
+  but I think is nice to see.
+
+        90% of the code is of my own, I ripped the code for the shadebob
+  zoomer from the "Live" intro by Sahara Surfers, but I modified it a little,
+  in order to optimize it and make it more modifiable (also, I made it for
+  real-mode, as the "Live" intro was programmed in Watcom C (PM), and this
+  one is coded in Borland C 3.1 (RM)); I also made the code more stable, bcoz
+  if I changed anything in S2 code (ofcoz, knowing what I was doing), it
+  hung up my machine, so I took S2 code and rewrote it almost entirely so
+  I could made my own effects (like the four bobs travelling arround the
+  zoomer) :). I haven't touched the ASM code too much; just a pair of things
+  I needed to change for my effects.
+
+        I haven't cutted out the MIDAS library, in order to support the
+  SoundBlaster. I'm going to buy a GUS soon, so there would be no need for
+  me to use the SoundBlaster, but I have suffered what watching a demo
+  without sound is, so I won't make the same to you... (plz. feedback me
+  for this :). There are LOTS of people out there that just can't buy a GUS
+  or simply don't want to trash the SoundBlaster... ok, that people is mostly
+  out of the demoscene, but, if they don't hear any music in a demo, they
+  will NEVER like demos, and the demoscene will fall down and die way fast!
+        So, demosceners out there... Support the SoundBlaster! :)
+
+        Well, the effects this demo features are, in order:
+
+    þ Overlapped Sinus Circles (or the heck you want to call this :)
+        Really simple effect, but hard to figure out... Is just a trick...
+        The distortions later are again quite simple.
+        Btw. The logo gets from the bottom to the top, but you surely don't
+        see it because the screen is fading while doing this :(
+
+    þ TV Noise
+        ...must I explain you how to do this?
+
+    þ WireFrame 3D donut over the noise :)
+        Yeeeeah!!! Donuts rulezzz! but, again, the same as in all demos
+        (the noise 'blurring' is very easy).
+        NOTE: This routine is SLOW, because is an old one of mine, and
+              it uses floating (not fixed) point math. Also, the line
+              routine for going over the noise is coded 90% in C, so,
+              if you have less than a P133 don't complain! :)
+              I think any environmental filling routine in ASM is faster
+              than this simple wireframe routine in C 8-O, but I didn't
+              want to use complex shadings... I WANTED to make it wireframe
+              (you know... vectorz sucks!). The donut has just 392 faces,
+              but that's enough to make it slow down like hell with floating
+              point (except for Pentiums, that have optmized floating point
+              a lot and the difference is minimal).
+              Btw. The donut is not calculated at runtime... It was made
+              in 3DStudio :)
+
+    þ 2D Tunnel with fractal
+        The same as in every demo... Nothing really interesting :(
+        Well, I have never seen it with a texture other than the fractal
+        plasma or a bitmap (never a Julia), so, it might be a new effect :-?
+
+    þ Rotations, zoomings and skewings of a fractal (a.k.a. RotoZoomer)
+        Again, the same old effect seen in LOTS of demos (for those who
+        haven't realized, the first part of this effect is NOT a fractal
+        zoomer, but a bitmap zoomer :)
+
+    þ ShadeBob Zoomer
+        Another too-much-seen effect. Just 32 randomly placed bobs zooming.
+
+    þ ShadeBob Zoomer... part 2
+        ...again, again, again... :) This time is a controlled movement of
+        only four bobs.
+
+    þ Psychodelic ShadeBob RotoZoomer
+        Well... Quite a simple effect, but again, hard to figure out (I've
+        seen it in a lot of demos, but I haven't seen any source codes for
+        this effect, so I had to figure out how it was done... I don't think
+        people will make it like me, but I don't care anyway, as the effect
+        looks nice(?) :)
+        I think this is the most advanced effect this intro features, and is
+        not too advanced, so...
+        Well, as an interesting thing, I will tell that, after adding this
+        effect, the executable only grew up less than 500 bytes :) (If
+        I remember well, it grew up exactly 418 bytes).
+
+    þ The End
+        This is a really new effect... A demo that ends up without hanging!!!
+
+        No nice 3D shadings, no complex maths, no complex vectorz, no hidden
+  parts, no nothing!!! The old-style type of demos strikes back! (but without
+  that huge amount of texts old demos put :).
+        As you can see... thiz is a really simple intro X-DDD
+
+        The intro is coded in Borland C 3.1, with LOTS of inline 386 assembler
+  using TASM 4.0. About 80% of the code is ASM, while the rest is C. The
+  graphics were drawn in Corel Xara! and Animator Pro. The music was edited
+  with ScreamTracker 3.2 (I don't know where the music was done), and I used
+  Midas 0.40a for replaying.
+
+        Well, I have worked in this demo for about one month, but, in fact,
+  counting the FULL time I have worked in this demo, that would do about no
+  more than ten hours or so... but... ten hours and this shit? Yeah!, I was
+  just testing the reduced Midas version with the first effect in the intro,
+  and I had some problems in real mode... Later, as I saw that the executable
+  didn't get too big in C (lots of inline assembler, ofcoz!), I added a pair
+  of effects, removed pre-saved calculations (I calculate them at the
+  beggining of the intro), made sum fast graphics and this intro is the
+  result. The effects I made NEW (I mean I didn't had them before) during
+  the developing of this demo were the overlapped-sinus-circles in the
+  beggining and the psychodelic shadebob zoomer at the end.
+
+        The real size for the executable is 57Kb, but, for some obscure
+  reason, I had to include the math coprocessor emulation in some versions,
+  so it might be up to 64Kb in your version... Yeah! you know, floating
+  point maths rulezzz! No fixed point here (as I've told you, I had the
+  effects too long ago, and I didn't changed them to support fixed
+  point... the result of lazyness :) If you haven't a coprocessor and your
+  version is the 57Kb one, ask me for the coprocessor emulation one. The only
+  one effect that uses fixed point (bcoz else it would have been TOO slow...
+  and I don't know how to handle floating point in assembler :), is the
+  bitmap rotozoomer.
+
+        This is a one-man-project, as you could see in the credits, so,
+  to make it a REAL one man project, I will try to do a song for the intro
+  for a non-compo version (I really don't know how to make chip tunes... my
+  tunes are usually 100 to 400Kb).
+
+          I have some space free to fit the intro in 64Kb, so I think I will
+  add a graphic (for the compo version too), but I will have to draw it,
+  and I am in a total lazyness... I feel my fingers getting down while
+  writing this text... my mouth starts to booze... my eyes starts to close...
+  will it be the lazyness??? Oooops... 5:00 AM... time to going to sleep :)
+
+        Well, before going to sleep, I'll write you down here my address(es)
+  of contact, so you can contact me :)
+
+        via e-mail:
+                macl@mx3.redestb.es (Macl)
+                unknown@lobocom.es  (Jcl)
+
+        Unknown on the Web:
+                http://www.redestb.es/personal/macl/index.html
+                http://lobocom.es/unknown/index.html
+
+        via Snail-mail:
+
+                Javier Campos Laencina [Jcl/Unknown]
+                Miguel Angel Campos Laencina [Macl/Unknown]
+                c/Bolos, 1, 3-A
+                30005, Murcia
+                Spain
+
+        via telephone (only if U speak Spanish!):
+
+                +34-68-298639  (out of Spain)
+                (968) 29-86-39 (inside Spain)
+
+                        ask for Javi (preferably in the mornings)
+
+
+        May some greetings go to everybody that will attend the Euskal 5,
+  CU there!!!
+        Also to the kewl people I met at the Euskal 4, last summer... hope
+  to see you again next summer! (and I hope this time our demo will become
+  higher than 9th :) NO! I'm not one of those result-fanatic guyz, I just
+  do it for fun!, so... don't vote for us X-DDD)
+        Ok! Here comes a list (so you won't hit me when we meet again :)
+
+        - Iguana (Thanx for the optimizing 'night-lessons', Jcab!)
+        - TLOTB (Hi, Cranky... how'd ya going with the Z80s? X-DD)
+        - Requiem (BladeRunner is in your group now, isn't he?)
+        - Crystal Shade (I LOVE your music style, Smash!)
+        - Centolos Amiga (Is BladeRunner also in your group????)
+        - Difteria (Hi Sepia!)
+        - Nova Productions (hi Sergio! PETAS are kewwwwl! thanx for da song!)
+        - Monster (how'd ya going Awesome? PETAS rulezzz! :)
+        - Ozone Amiga (specially Mat... you're crazy, dude! X-D)
+        - Capsule Amiga (Still amazing me with your muzak, Evelred!)
+        - Iv n & Paco (I don't remember your group name, guys!)
+        - Blizzard (at least, one guy in Blizzard I don't remember his name :)
+        - Spanish Lords (Thanks for your help, Mitra!)
+
+        And the rest I can't remember now (it's too late, and I'm sleepy :(
+
+        PLEASE! Forgive me for not answering the e-mails, but I have had some
+  problems with it. I promise I will answer everybody when I solve these
+  problems.
+
+        I want to greet all Amiga dudes I met at the party. The Amiga scene
+  is really nice... now I will NEVER say that the Amiga is a bad computer! :)
+
+        Weeeeell, nothing else...
+
+        Remember to take a look at the files that I will add when I release
+  this crap, having the latest info about Unknown and the diskmag (UNKNFO.EXE,
+  I suppose).
+
+        Now, nothing else... catch ya later!
+
+ÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜßÜ
+
+ Signed...
+                                                              Javier Campos
+ Spain, 28-6-96, 5:07 AM                                 a.k.a. Jcl/Unknown
+

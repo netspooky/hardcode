@@ -1,0 +1,34 @@
+Prod:    Tides
+Type:    256 byte
+OS:      None / GRUB2 (if you want to consider that an OS)
+Author:  orbitaldecay/cronies
+Contact: orbitaldecay@gmail.com
+Date:    01/09/2016
+
+Hello all. What we have here is a 256 byte multiboot kernel for Synchrony 2016!
+You'll need a multiboot compatible bootloader to run it. GRUB2 will do nicely.
+To run it, save it to your harddrive (/boot is easiest if you're running Linux).
+Then reboot the machine. When the GRUB2 menu comes up, press C to enter command
+line mode. Then you'll need to boot the kernel manually. It usually goes
+something like
+
+    multiboot (hd0,msdos1)/path/to/tides.img
+    boot
+    
+If you put it in /boot, sometimes the boot directory has its own partition. In
+this case you'd just enter
+
+    multiboot (hd0,msdos1)/tides.img
+    boot
+    
+GRUB2 has tab completion, and you may need to use it in order to dig around for
+the proper partition and directory. It should also work if you save it to a NTFS
+partition, but I haven't tested this. Once you get it running, hit escape to
+reboot! If you have any trouble getting it running, just e-mail me and I'll help
+you sort it out :) If all else fails, watch the video at
+
+    https://youtu.be/Tx90kOeCQkc
+
+Special thanks go out to the Synchrony party organizers. You guys seriously
+rock. Greets to jmph, sensenstahl, YOLP, frag, and all the other cool kids. You
+know who you are...

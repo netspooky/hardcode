@@ -1,0 +1,32 @@
+
+antiphore, by inque >> party version
+
+:: release info :: ----------------------------
+
+made for (and at) Evoke 2007.
+
+:: reqs :: ------------------------------------
+
+uses pixelshader 2.0. requires direct3d 9.0.
+works fine on nvidia geforce 7900gs,
+and ati radeon x1400. not tested on other
+gfx cards, but should run fine. ohw and we
+didn't have time to optimize... since 80%
+of this thingy was made live at evoke'07. <g>
+
+:: credits :: ---------------------------------
+
+visuals/timing/soundtrack -- izard
+code/additional visuals -- glow
+
+:: greetz :: ----------------------------------
+
+we say hi to:
+
+303f aardbei asd conspiracy fairlight farbrausch
+fmc guideline limp ninja node3000 titan
+
+
+:: cya :: -------------------------------------
+
+www.inque.org

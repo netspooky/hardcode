@@ -1,0 +1,4 @@
+This is my first 32 byte release I've only been at
+assembler for about 6 months now so go easy on me.
+Keep it real, keep it tiny ...
+                                        Rain_Storm

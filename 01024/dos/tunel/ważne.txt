@@ -1,0 +1,3 @@
+Aby tunele by³y wy³o¿one teksturami musisz:
+- dla tunel32: stworzyæ teksturê w formacie TGA o rozmiarach 512 na 512 w 24 bitach o nazwie 'tekstura.tga'
+- dla tunel16: stworzyæ teksturê w formacie BMP (nieskompresowany) w 256 kolorach o rozmiarze 256 na 256 o nazwie 'tekstura.bmp'

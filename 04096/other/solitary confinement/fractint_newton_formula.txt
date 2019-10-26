@@ -1,0 +1,20 @@
+complexnewton {
+init:
+  z = pixel
+loop:
+  zold = z
+  z = ((p1 - 1) * z^p1 + @r) / (p1 * z ^ (p1 - 1))
+bailout:
+  |z - zold| >= 0.00001
+default:
+  title = "Newton (complex)"
+  maxiter = 149
+  param p1
+    caption = "Degree"
+    default = (3,0)
+  endparam
+  param r
+    caption = "Root"
+    default = (1,0)
+  endparam
+}

@@ -1,0 +1,11 @@
+256 arkanoid
+written by creed/ultimaa
+
+keys:
+left arrow - move left
+right arrow - move right
+escape - quit game
+
+features:
+
+ - randomly generated levels

@@ -1,0 +1,10 @@
+psychodots
+a 4 kb intro by the grid
+released at evoke 2005 
+at cologne/germany
+------------------------
+code..............rand.p
+------------------------
+grid.scene.pl
+nwa@easy.com
+------------------------

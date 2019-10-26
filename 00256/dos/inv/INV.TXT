@@ -1,0 +1,169 @@
+ 
+	 
+	 
+
+                     ====================================
+                     Inv  -  Space Invaders in 256 bytes.
+                     ====================================
+
+                                    by      
+
+
+                            James David Chapman.                  
+                                                           
+                            
+                     
+
+   Inv.  Even its name has been cut down.  Bloody hell, 256 bytes isn't very
+ much to work with.  I have had to cut out almost everything I wanted to
+ to put into the thing. 
+
+                                    
+   There are still savings to be made of course, the graphics, while only
+ text mode, are a bit OTT, but if you take *everything* nice out then you are
+ just left with uninspiring kloz, err rubbish, err, poor graphics.
+
+
+
+
+                     ====================================
+                          Inv  -  Playing the game.              
+                     ====================================
+
+
+
+     The program runs in dos, or a full screen dos box in windows.
+
+     The game is simple enough to control:
+
+     Use the left and right <SHIFT> buttons to move your space ship.
+
+     And either <ALT> button to fire.
+
+     To quit back to dos press one of the <CONTROL> buttons.
+
+
+  The aim of the game, is to shoot all the invaders down, however since
+ this is very difficult, they come back again to give you another try!
+
+   In fact, they keep on coming till you have shot them all down.  The object
+ of the game is to destroy all the invaders in the shortest number of 'waves'.
+
+
+  The level at which to play (really just the game speed), can be set from
+ the command line when you begin.  To set level 1 (the fastest) simply enter
+ "Inv".  To set speed level 2 enter "Inv ", for level 3, type "Inv  " ie the
+ speed is equal to the number of spaces you type after "Inv" command before
+ you press <Enter>.
+
+
+
+                     ====================================
+                            Inv  -  The Program.                
+                     ====================================
+
+
+   In terms of programming, there are a few tricks in the code, such as
+ reading the keyboard flags and self modifying code.
+
+
+   As well as these, the invaders control array is held in the command line,
+ using 7FH to flag a destroyed invader... this value is impossible to enter
+ from the keyboard, (even with ALT), so the array should not be affected by
+ a silly command line entered by the user.
+
+
+   Words are INCreased wherever possible, since these encode 1 byte shorter
+ than byte INCreases, and of course XOR is used to zero registers.
+
+
+   There are a few suspect bits of code still in there, and I expect that it
+is possible to stuff more into the game, but for now I simply do not have the
+time.
+
+
+   Not much else to say, other than I tried to concentrate on the look and
+ feel of the original rather than the functions, the coding of which, were
+ surprisingly byte-hungry and added little to the overall impression of the
+ game.  For example, there is no score function or 'invaded' check, but there
+ are pretty sprites and proper invader side to side movement.  A program which
+ uses single characters for sprites will undoubtedly be able to fit more
+ game functions in, but hopefully will not look as good.
+
+
+   Having said all that, the game *is* quite challenging, it is not easy to
+ complete... especially on the first (green) wave.
+
+
+                     ====================================                                                                                                                       
+                         Inv - Implemented Features.
+                     ====================================
+
+       Coloured sprites.
+       Keyboard input.
+       Variable level/speed setting (via command line).
+       Ufo.
+       Correctly advancing invaders,  (well, almost).
+       Space ship.
+       Fire function.
+       Invaders disappear when hit.
+       Ufo disappears when hit.      
+       Space ship flickers when earth 'invaded'.
+       Invaders come back around giving you another chance to zap them.
+       Invaders colours change.
+
+
+
+          ============================================================
+             Bits of code (which take up space but are not pretty)
+          ============================================================
+
+
+      + CLS function to tidy screen up a little, on start *and* end of game.
+      + Vertical retrace wait(s).
+      + Fire top of screen check.
+      + Fire only allows one bomb on screen at once... like the original.      
+      + Invaders off screen check.
+
+
+
+                       =================================
+                          Not enough space for...  :(
+                       =================================
+
+
+      x Animated sprites (a simple XOR of a memory location would have done).
+      x Increase number of lines of invaders in each new wave.
+      x Score.
+      x Screen beautification.
+
+
+
+                       =================================
+                                Disclaimer:
+                       =================================
+
+
+   I place this program into the public domain.  Anyone is free to use,
+  modify, rework, or re-release it, providing you credit me as the original
+  author, and make no financial profit from it.
+
+
+   In return, you must accept that I will accept no liability for
+  damage caused to you or your equipment by this program.
+
+
+
+
+
+
+   The 256 compo was a good idea, I'll be interested to see what the others
+ have come up with.  Take care.
+                                        
+                                        
+ James.           
+
+
+ [James David Chapman jchap@globalnet.co.uk
+ http://www.users.globalnet.co.uk/~jchap/]
+

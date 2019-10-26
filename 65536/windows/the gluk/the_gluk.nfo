@@ -1,0 +1,33 @@
+..The GLUK......................................
+.                                              .
+.   New Year - version 0.28                    .
+. 64k intro                                    .
+.                                              .
+. engine by Fox/unlimit                        .
+. music by Impulse/unlimit                     .
+. code by ON A!R/unlimit (my first into)       .
+.                                              .
+. system req.: pII+, win98+, directx7+, sound. .
+.              fulltime software render        .
+.                                              .
+.                                              .
+.......................Krasnoyarsk, 28.02.2004..
+
+................................................
+some techs:
+
+  no lighting 
+    - only fake shiness and 
+      shadows mix + textures, 
+      recalculated in realtime
+  no models
+    - all 3d is code-synthesed
+  no soundsynth
+    - 75k xm inside intro - 
+      chiptune:)
+
+intro uses minifmod by firelight multimedia
+
+intro packed (sorry, cracked) by ASPAck 2.12,
+the best packer - www.aspack.com
+................................................

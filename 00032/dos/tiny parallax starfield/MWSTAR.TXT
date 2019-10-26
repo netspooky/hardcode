@@ -1,0 +1,6 @@
+Matt Wilhelm's Tiny Starfield
+
+Substantial contribution by Adam Letts.
+
+A multilayer parallax starfield in...24 bytes!
+Source and length discussion of algorithm included.

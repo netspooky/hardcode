@@ -1,0 +1,99 @@
+                s s s s ssss sssssssss s s s  s  ssss  ss  ssssss
+                $  $$SSsss._                $$SSsss._           $
+                $  $$$$$$$³$$s._       sss  $$$$$$$³$$s._       $
+                $  $$$$;   '*$$³$b.    $$$  $$$$;   '*$$³$b.    $
+                $  $$$$       $$$$$b.  $$$  $$$$       $$$$$b.  $
+                $  $$$$,       `$$$$$  $$$  $$$$,       `$$$$$  $
+                $  `ý½*$S       l$$$$  $$$  `ý½*$S       )$$$$  $
+                $      $$       ;$$$$ss$$$      $$     ,d$$$$'  $
+                $ss  s $$                    s sSSsssS$$$$$Ù's  s        
+              
+
+                      n o r t h e r n   d r a g o n s   
+
+FILES
+=====
+ND_4K_Forests.COM	- 4096 bytes (build version 1.4)
+
+REQUIREMENTS
+============
+Open GL Accelerated Video Card 64 mb 
+Pentium 800+, 128 MB Memory.
+* FASTER IS BETTER = THIS TAKES FOREVER TO CALCULATE * :)
+
+HISTORY
+=======
+Forests is a 4kb implementation of the slicing and blending algorithm, from a 
+paper presented in Eurographics 2000 by Aleks Jakulin. 
+http://zeus.fri.uni-lj.si/~aleks/slicing-and-blending/
+
+
+ND_Forests is a Northern Dragons 4kb intro.
+Visit us at: http://www.northerndragons.ca
+
+CODE WRITTEN BY
+===============
+Polaris - Creator of the trees, scripting and 3d engine framework.
+Syntax 	- Author of the scoller engine, and master of linker options.
+
+
+VERY SPECIAL THANKS TO:
+=======================
+Syntax would like to thank Cheryl put putting up with his long nights in front of 
+the computer and not maiming him when she found out it was another demo with a tree in it.
+
+Polaris would like to thank his lovely wife Michelle for not kicking him
+out of the house during the month of August or threatening divorce while he
+spend hours glued to the computer screen.  Seriously however, this wouldn't
+be possible without her loving support.
+
+
+RESPECT & THANKS TO:
+====================
+All our friends at Pilgrimage!
+
+Elmindreda / Hypercube
+Frankie / Smash Designs
+Miss Saigon / Threesome
+Hopper / SquoQuo
+Adok / Hugi 
+
+Rest of the Northern Dragons team for making this possible!
+And anyone else we might have forgotten!
+
+
+GREETS FROM SYNTAX 
+==================
+Hello and welcome to the Forests 4k intro brought to you all the way from Canada 
+by the Northern Dragons. This demo should show you a forest of beautiful trees. 
+If it does'nt, consult your dealer :)
+
+Anyway, Greets go to: Aleks Jakulin for helping make such pretty trees, Adok@Hugi, 
+Miss Saigon, Trixter and the Hornet crew (R.I.P), All the guys at Assembly 2003, 
+Calodox, dEF-bASE @ The Havok, Emindreda & Hypercube, Makke, Farbraush, 
+and of course the Pilgrimage  Organizers for organizing this little
+get together...;)..............
+
+Anyway, I think its time to leave now, so remember to visit The Northern Dragons 
+website @ www.northerndragons.ca....or else we'll call you all wusses.....
+yes we will..................peace!
+
+Syntax@NorthernDragons  Polaris@NorthernDragons 
+
+
+EQUIPMENT USED 
+===============
+A. AMD 1300Ghz, 512 MB Memory, Windows 2000
+B. IBM TP T21 1.33 Ghz, 512 MB Memory, Windows 2000
+C. IBM PC Compatible,650Mhz Celeron, 320Mb RAM, Voodoo3 video Card,  Windows XP
+
+SOFTWARE USED
+==============
+A. VC++ 6.0 Professional 
+B. Northern Dragons Compression tool.
+
+FAMOUS QUOTE
+==============
+Next Year... Bushes! :)
+
+=== END OF FILE ===

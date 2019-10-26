@@ -1,0 +1,32 @@
+-The number of traced first-hit rays per one screenful of data is
+ 161*81=13041. On my 166mhz pentium it runs well over 50fps, so its speed
+ must be somewhere around 700000 rays per second.
+
+-The tracer can intersect 1-4th degree polynomial surfaces each clipped
+ with a number of 1-4th degree polynomial surfaces ... iow, just about
+ anything.
+
+-What it can't do is to have more than 32 lightsources.
+   Caustics are yet to be implemented too. and fog..(with shadows ofcoz).
+
+-Hi to technomancer/pulse! <grin>  Of course you know that this means war?
+
+-Ideas behind the raytracing engine are not ripped from the cool guys at
+ the raytracing scene but they're instead either my own or trivial:)
+
+-The weird wide screenmode is normal chained 13h with 240-line-y-tweak
+ but only lines 40-199 in use.
+
+-Greetings to everyone who still remember us. Others may fuck off.
+
+Credits:
+  maps: rainmaker
+  music: utuist
+  player: Cubic Team
+  dos extender: Charles Scheffold and Thomas Pytel
+  main code: 216
+  raytracer: 216
+  dezing: 216  uncle-x  rainmaker
+  additional help: uncle-x
+
+

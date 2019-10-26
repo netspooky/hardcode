@@ -1,0 +1,182 @@
+                                                        
+          /\\
+    //\  /  \\  /\\
+   // / /    \\ \ \\
+  // / /  /\  \\ \ \\
+  \\ \ \  \ \  \\ \ \\
+   \\ \ \  \/  // /  \\
+    \\ \ \    // / /\ \\
+     \\ \ \  // / // \ \\
+      \\ \ \// / //   \//
+       \\/    / // //\
+             / // //  \
+             \// //    \
+                //      \
+          //\  //        \
+         // / //    /\    \
+        // / //    / \\    \
+       // / //    /   \\    \
+      //  \ \\    \   //    /
+     // /\ \ \\    \ //    /
+    // / \\ \ \\    \/    /
+   // /   \\ \ \\        /
+   \\/ //\ \\ \ \\      /
+      //  \ \\ \ \\    /
+     // /\ \ \\/  \\  /
+    // / \\ \      \\/
+   // /___\\ \
+  // _______  \  ssss
+  \\/       \\/sssssssss  s
+             ssss    ssssss
+            ssss       ssss
+           sssss         ss
+           ssss           s
+            sssss
+            ssssss
+              sssss
+               ssssss
+                 sssssss
+                   sssssss
+                     sssssss
+                      sssssss
+          s           sssssss
+          ss         sssssss
+          ssss     ssssssss
+          sssssssssssssss
+          ssssssssssss
+          ss   sssss
+   _____________  
+  !_____   _____!
+        ! !
+        ! !  //\
+        ! !  \\ \
+        ! !   \\ \
+        ! !    \\ \
+        !_!     \\ \
+                 \\ \
+                  \\ \
+           QQQ     \\ \
+        QQQ   QQQ   \\/
+      QQQ       QQQ
+     QQQ         QQQ
+    QQQ           QQQ
+    QQQ     QQQ   QQQ
+     QQQ     QQQ QQQ
+      QQQ       QQQ
+        QQQ   QQQ QQQ
+           QQQ      QQQ
+                        QQ
+         uuuuu   uuuuu       Q
+          uuu     uuu 
+          uuu     uuu
+          uuu     uuu
+           uuuu uuuu
+             uuuuu
+          //\
+         // /
+        // /
+       // /  /\\
+      // /  / //
+      \\/  / //
+          / //  /\\
+         / //  / //
+         \//  / //
+             / //
+            / //
+            \//
+
+
+
+  - r o t o t a s t i q u e -
+____________________________________
+
+ thanks to sensenstahl for the nfo
+ (released as "rotastic" though ;)
+____________________________________
+
+Info:
+
+32 bytes tiny intro for MSDOS
+by HellMood / DESiRE
+shown at Outline 2017 / 128b compo
+please run on WinXp Dos / DosBox
+http://youtu.be/SlaLVU4YQLA
+____________________________________
+
+Background:
+
+after ryg and gargaj created 51b/49b
+rotozoomers for MSDOS back in 2002
+       ( area51 , 49broto )
+i asked myself, if doing this in 32b
+would be possible and well, it is =)
+____________________________________
+
+Code:
+
+org 100h
+dw -0x0140
+X: xor al,bh
+cwd
+or al,0x13
+int 10h
+mov ax,cx
+idiv word [si]
+mov bx,ax
+imul bx,bp
+add bh,dl
+imul dx,bp
+sub al,dh
+mov ah,0x0c
+loop X
+dec bp
+jmp short X
+____________________________________
+
+the chosen bios pixel set approach
+can be awkwardly slow on some GPUs
+so there is "rotosafe" (32b) which
+works safely on all platforms with
+the usual direct access, it zooms
+and rotates repeatedly by only 45°
+____________________________________
+
+org 100h
+	push 0xa000
+	pop es
+	mov al,0x13
+	int 0x10
+X:	db 0x0f
+	mov al,dl
+	mul byte [bx]
+
+	mov al,dh
+
+	sub dh,ah
+	
+	mul byte [bx]
+	add dl,ah
+	
+	xor dl,dh
+	xchg dx,ax
+	stosb
+	mov ax,0xcccd
+	mul di
+jmp short X-1
+____________________________________
+
+Greets:
+
+ sensenstahl, homecoded, rrrola, frag
+Optimus, Trixter, igor, gargaj, VileR
+Whizart,g0blinish,Rudi,ryg,Orby a.k.a.
+orbitaldecay,wysiwtf,Kuemmel,p01,Elias
+Oscar Toledo,Drift +all DESIRE members 
+____________________________________
+
+Contact:
+
+helmut.toedtmann@gmail.com
+____________________________________
+_________________________________eof
+ 

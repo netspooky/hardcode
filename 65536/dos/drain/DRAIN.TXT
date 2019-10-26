@@ -1,0 +1,24 @@
+
+      ."drain"
+      abduction '97 intro - vista
+
+      teo    -  code
+      exact  -  music
+      damaq  -  some gfx
+
+
+      should work fine with any msdos compatible system
+      with 580kb of free basemem. we recommend using gus
+      but you can of course test it with sb (at your own risk)
+
+      .needs
+      p60 (or 486/100), sb, vga
+
+      .wants
+      p133, gus max
+
+
+      .homepage
+      http://ksilta.edu.ouka.fi/~tkarras
+
+      end.

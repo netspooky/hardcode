@@ -1,0 +1,32 @@
+SiBack by Optimus/Nasty Bugs/Dirty Minds
+----------------------------------------
+
+Blobby mass upon plasma. I had the idea to make sphere mapping upon plasma
+by modifying my blob algorithm, but then something not intended happened 
+and I had some glow blobs (Well,. not the right term but that's how I call
+them, like a random pulsating light. Then, I decided to add it's colors
+with the plasma to see what I get and it was something not intended.
+
+I had the idea of the title siback long time ago, like "hello I am back and stuff"
+It just came. And now, after a long time where I wanted to code again but I
+only played Zdoom or studied, I got bored and said to myself "I want to do something
+on my PC again". Even if it wasn't much work, rather than getting to effects and
+connecting them together. But I just wanted to release something after long time
+(I was thinking about a compo, but then I decided to release as it is).
+
+And I do want to do something on my PC, but then again demoscene hit 2nd or 3rd priority.
+Nobody knows if I will release something bigger inside 2005 now (I had plans for CPC unfinished
+stuff, a new C64 demo and perhaps a secret project on PC). Too hard for me. But I will still be
+there watching your stuff and perhaps getting inspired to be stuck in the demoscene again.. ;)
+
+I really really don't know if my next release this year will be a bigger demo or another of those
+tiny don't have anything else to do this night. Nothing is planned..
+
+Expect anything.
+
+Optimus/Dirty Minds/Nasty Bugs
+Tuesday 18/01/2005
+
+p.s. You may also be able to find this file here too http://www.freewebs.com/optimus6128/
+Lately, demoscene.gr gets down, so I got a second webspace too. I didn't used Fortunecities because
+they told me it tries to install some spyware. I think I will unsigned from there..

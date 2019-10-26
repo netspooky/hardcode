@@ -1,0 +1,54 @@
+UNIT KeyBoard;
+INTERFACE
+USES Crt,Dos;
+CONST KeySaveL=20;
+VAR Key,KeyPre:ARRAY[0..127]OF Boolean;
+    KS,KeySave:ARRAY[1..KeySaveL]OF Byte;
+    OldInt:Pointer;
+    Keypressed_:Boolean;
+PROCEDURE InitKeyBoard;
+PROCEDURE DoneKeyBoard;
+FUNCTION KeyPr(B:LongInt):Boolean;
+IMPLEMENTATION
+PROCEDURE KeyInt;INTERRUPT;
+VAR Taste:Byte;
+    I:LongInt;
+BEGIN
+  Taste:=Port[$60];
+  IF Taste>127 THEN BEGIN
+    Key[Taste-128]:=False;
+  END ELSE BEGIN
+    IF (Taste<>42)AND(Key[Taste]=False)THEN BEGIN
+      FOR I:=KeySaveL DOWNTO 2 DO KeySave[I]:=KeySave[I-1];
+      KeySave[1]:=Taste;
+      KeyPressed_:=True;
+    END;
+    Key[Taste]:=True;
+    KeyPre[Taste]:=True;
+  END;
+  Port[$20]:=$20;
+END;
+PROCEDURE InitKeyBoard;
+BEGIN
+  FillChar(Key,SizeOf(KeY),False);
+  FillChar(KeyPre,SizeOf(KeY),False);
+  GetIntVec(09,OldInt);
+  SetIntVec(09,@KeyInt);
+END;
+PROCEDURE DoneKeyBoard;
+BEGIN
+  SetIntVec(09,OldInt);
+END;
+
+FUNCTION KeyPr(B:LongInt):Boolean;
+BEGIN
+  IF KeyPre[B] THEN BEGIN
+    KeyPr:=True;
+    KeyPre[B]:=False;
+  END ELSE KeyPr:=False;
+END;
+
+BEGIN
+  KeyPressed_:=False;
+  FillChar(KeySave,SizeOf(KeySave),0);
+END.

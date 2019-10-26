@@ -1,0 +1,49 @@
+<html>
+
+  <body>
+  <center>
+  <canvas id="can" width="512" height="512"
+style="border:1px solid #000000;">
+</canvas>
+</center>
+
+    <script>
+      var c = document.getElementById("can");
+      var ctx = c.getContext("2d");
+      var xmax = c.width;
+      var ymax = c.height;
+      var angle = 0;
+      var step = 512;
+      var fac = 1.1;
+      ctx.moveTo(0,0);
+      ctx.stroke();
+      
+      var xs = xmax/2;
+      var ys = ymax/2;
+      var nx = 0;
+      var ny = 0;
+      var k = -1;
+      var radius = 0;
+      
+      for(i = 0; i < step; i++){
+        ctx.beginPath();
+        ctx.moveTo(xs,ys);
+        nx = fac*radius*Math.cos(angle%360) +xmax/2;
+        ny = fac*radius*Math.sin(angle%360)+ymax/2;
+        if(k == -1){
+          ctx.lineWidth= angle%3+1;
+        }else{
+          ctx.lineWidth = 1; 
+        }
+        radius = (xmax/2)*i/step;
+        ctx.lineTo(nx,ny);
+        ctx.lineCap = 'butt';
+        ctx.stroke();
+        xs = nx;
+        ys = ny;
+        k = k * (-1);
+        angle++;
+      }
+    </script>
+  </body>
+</html>

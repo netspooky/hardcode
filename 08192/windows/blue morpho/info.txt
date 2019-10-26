@@ -1,0 +1,23 @@
+Blue Morpho
+by Eos
+
+released at TRSAC 2016, October
+
+graphics by fizzer
+music by SunSpire
+
+
+
+from  celestial dust
+over	intangible stretches
+under un-knowable depths
+with  esoteric motion
+one   glint
+of    life
+
+
+some technical points of interest:
+
+ * uses mipmapped 3D textures and selects a mipmap based on a distance along raymarching rays to create a fake depth-of-field effect.
+ * uses a gray-scott reaction-diffusion simulation to create a volumetric tree-like form.
+ * doesn't use framebuffer objects.

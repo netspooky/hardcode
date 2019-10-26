@@ -1,0 +1,35 @@
+Wormrace... my entry in the 256 byte game compo.
+--------
+
+Pretty simple really.  The idea came from a game that I used to play
+on the Commodore Pet called DRIVER.  Ah, the fond memories.  Basically
+just try to stay alive (inside the track, silly) as long as you can.  If
+you really want to get competetive, I suppose you could play with a stop-
+watch to see how long you last.  You get faster and faster (really a 
+nervous worm, you are) until you crash or you win (well, you really can't
+win, but you're a dumb worm and you don't know that).
+
+Controls:
+  4 (on the numeric keypad) - go left
+  6 (on the numeric keypad) - go right
+  ESC                       - quit
+
+Have fun (I hope)!
+ 
+ Jeremy Biddle
+ biddle@csa.bu.edu
+
+
+bugs and features -
+  o  386 specific... sorry, but I needed to use the extended registers
+  ÿ  for increasing the delay... probably could have done it another
+     way, but nothing came to me :)
+  o  if you go outside the bounds of the racetrack, you can just sit
+     there until the delay wraps around... then you'll have to reboot
+     or wait a long long time.
+  o  there's no way to actually win - i wanted to put some sort of
+     scorekeeping in, but that didn't happen. oh well.
+  o  just do a cls when the game ends.  You often can't see the prompt
+     'cause the colors are all weird.  It didn't crash.  You are in DOS.
+     Remain calm.  Clear the screen.
+

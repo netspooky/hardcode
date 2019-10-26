@@ -1,0 +1,20 @@
+VangeliSTeam/Iguana productions up to date:
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ vtexe12b.arj ³  167653 ³  3/93 ³ VangeliSTracker v1.2b                      ³
+³ vtsrc12b.arj ³  434973 ³  3/93 ³ VangeliSTracker v1.2b sources              ³
+³ firedemo.arj ³  129395 ³  5/93 ³ Fire demo by Iguana/VangeliSTeam + src     ³
+³ vtglobe.arj  ³   21891 ³  5/93 ³ Globe demo by Iguana/VangeliSTeam + src    ³
+³ vtiris.arj   ³    9772 ³  5/93 ³ Plasma demo by Iguana/VangeliSTeam + src   ³
+³ the_cop.arj  ³   49001 ³  5/93 ³ The Cop demo by Jare/Iguana + src          ³
+³ inconexi.arj ³  479791 ³  8/93 ³ Inconexia trackmo; now also with GUS!      ³
+³ retvec10.arj ³   17643 ³  8/93 ³ Retarded Vectors from Yann/Iguana + src    ³
+³ blasintr.arj ³   20122 ³  8/93 ³ Blastersound intro fr. Yann/Iguana + src   ³
+³ --------.--- ³  ------ ³  9/93 ³ MOD playing library for games. COMMERCIAL. ³
+³ inco_gus.arj ³   46150 ³ 10/93 ³ GUS patch for the old Inconexia release.   ³
+³ --------.--- ³  ------ ³ 11/93 ³ Screensavers. COMMERCIAL.                  ³
+³ demovt10.arj ³  107089 ³ 11/93 ³ DemoVT v1.0 by Iguana/VangeliSTeam.        ³
+³ vte139b.arj  ³  141449 ³  1/94 ³ Beta VangeliSTracker for GUS only.         ³
+³ vts139b.arj  ³  304402 ³  1/94 ³ Beta VangeliSTracker for GUS only. Sources.³
+³ blaster2.arj ³   30162 ³  2/94 ³ Second official Blastersound intro + src.  ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ

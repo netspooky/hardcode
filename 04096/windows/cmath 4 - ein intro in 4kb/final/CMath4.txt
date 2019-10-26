@@ -1,0 +1,23 @@
+#include <cmath>
+
+Das Jahr des Helden - http://tggc.funpic.de
+______________________________________________________________:-:
+
+
+  CMath 4       :-: Ein Intro in 4kb
+
+  Code          :-: TGGC
+
+  Packer        :-: Crinkler 0.4a (http://www.crinkler.net)
+
+  Grüsse 	:-: BlueCobold, mcdeck, matt|6s, pro, rapso, Sgt. Nukem, TomasRiker
+                    kolrabi, mit dem ich grad chatte, obwohl er hier irgendwo rumsitzt
+                    scalar, der
+                    die restlichen Leute aus #gamedev.ger und #cpp
+                    Maximus007 und Ifrit666
+
+  ausserdem     :-: alle die das hier besser können
+                    alle Programmierer
+                    und die ZFX-Member
+
+  Endlich eine Final!

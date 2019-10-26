@@ -1,0 +1,24 @@
+     ___       __    __   __     __
+      |  |__| |_    | _  |__| | |  |
+      |  |  | |__ . |__| |  | | |__|
+
+           64kb opengl intro by 
+           
+             lithe.lewd.leyman
+
+     released at Syndeecate Apocalypse 2002
+
+#System requirements :
+   - PII-400
+   - GeForce class video card
+   - any sound card
+
+#credits
+   - code, design, 
+     models, textures : spool (spool@post.cz)
+   - music : vilem (title@email.cz)
+   - textures : poet (pyzmon@centrum.cz)
+   - upx was used as exepacker
+   - minifmod by firelight multimedia for sound
+ 
+#eof

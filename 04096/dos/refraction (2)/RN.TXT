@@ -1,0 +1,65 @@
+ÚÄÄÄ ù ú                        ú ù ÄÄÄÄ ù ú                          ú ù ÄÄÄ¿
+³                                RefractioN                                  ³
+ÃÄÄÄ ù ú                        ú ù ÄÄÄÄ ù ú                          ú ù ÄÄÄ´
+ù                                                                            ù
+ú       A 4K intro by SG, released at Ragest '99 [theMiLLENiUMtension]       ú
+ù                                                                            ù
+³                                                                            ³
+ÃÄÄÄ ù ú                        ú ù ÄÄÄÄ ù ú                          ú ù ÄÄÄ´
+³  The Author                                                                ³
+ù  ----------                                                                ù
+ú                                                                            ú
+ù          All code by Gergely Szerovay alias SG.                            ù
+³                                                                            ³
+ÃÄÄÄ ù ú                        ú ù ÄÄÄÄ ù ú                          ú ù ÄÄÄ´
+ù  Hardware requirements                                                     ù
+ú  ---------------------                                                     ú
+
+           * A Fast! CPU (300MHZ+)
+ú          * 4MB of memory                                                   ú
+ù          * VBE 2.0 compatible VGA card with 2MB video memory               ù
+³                                                                            ³
+ÃÄÄÄ ù ú                        ú ù ÄÄÄÄ ù ú                          ú ù ÄÄÄ´
+ù  Software requirements                                                     ù
+ú  ---------------------                                                     ú
+
+           * DOS
+           * 2MB XMS memory (HIMEM.SYS)
+ú          * It doesn't run under DPMI or VCPI, so doesn't run it under      ú
+ù             Windows, EMM386, QEMM... The computer must be in real mode     ù
+³                                                                            ³
+ÃÄÄÄ ù ú                        ú ù ÄÄÄÄ ù ú                          ú ù ÄÄÄ´
+ù Technical informations                                                     ù
+ú ----------------------                                                     ú
+
+          * 32bit pmode code
+          * Compressed with my own packer/unpacker algorythm
+          * Uses VBE mode 4112h, 640x480, true color,
+            with linear framebuffer
+          * Animations are time synchronized and real-time calculated
+          * Objects: Sphere, 4-angle, box
+          * Lights: Spot, omnidirectional
+          * Run time is about 1 minute
+
+          The intro contains:
+
+          * 8 different materials (Glass, chrome, ...)
+          * 2 real-time animations (in 160*125 resolution)
+            with recursion-level 2)
+          * 2 pre-calculated pictures (in 640*480 resolution,
+            with recursion-level 5)
+ú         * 15 objects                                                       ú
+ù         * 4 lights                                                         ù
+³                                                                            ³
+ÃÄÄÄ ù ú                        ú ù ÄÄÄÄ ù ú                          ú ù ÄÄÄ´
+ù  Contact                                                                   ù
+ú  -------                                                                   ú
+
+           Szerovay Gergely
+           1024. Budapest Romer Floris u. 34.
+           Hungary
+           Phone : (+036)-20-9863943
+ú          E-Mail : artefact@mail.datanet.hu                                 ú
+ù          WWW :                                                             ù
+³                                                                            ³
+ÀÄÄÄ ù ú                        ú ù ÄÄÄÄ ù ú                          ú ù ÄÄÄÙ

@@ -1,0 +1,24 @@
+64 byte compo entry named
+
+ SMALLTRO
+|<--64-->|
+
+by
+ schnaader / avenger squad
+
+sorry - couldn't come to 0A000h personally
+	so I send my code
+
+greetings to
+ vhiula
+ infugax
+ and everyone on 0A000h
+
+source :)
+ B4 A0 8E C0 B8 13 00 CD 10 33 C9 51 8A D9 51 F7
+ E3 D1 C0 AA 59 E2 F7 33 DB 33 D2 B4 02 CD 10 B4
+ 09 BA 29 01 CD 21 59 E2 E2 73 63 68 6E 61 61 64
+ 65 72 20 36 34 62 20 73 6D 61 6C 6C 74 72 6F 24
+ (or look at smalltro.asm)
+
+http://schnaader.exists.de/

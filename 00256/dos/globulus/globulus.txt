@@ -1,0 +1,10 @@
+Globulus by Optimus
+-------------------
+
+So, this is another crappy one. Totally not what I had in mind. But here, take it! Try it at your own risk :)
+
+Haven't even tested it on real DOS machine. Needs some Pentium horsepower for crappy zooming blobs. I know I could have done this faster if given the size and not being lazy to finish this. Wannabe stripe background to avoid black screens.
+
+p.s. Screw you FPU, I am going Integers!
+p.p.s. Still X86 sucks ass :P
+p.p.p.s. Maybe I should try coding on my Archimedes now.ARM assembly could prove to be much better.

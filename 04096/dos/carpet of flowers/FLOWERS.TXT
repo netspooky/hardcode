@@ -1,0 +1,34 @@
+
+			    CARPET OF FLOWERS
+			    ~~~~~~~~~~~~~~~~~
+				by rodrigo
+
+
+			       DISTRIBUTION
+
+	Carpet of Flowers is my entry in the Scenest 4kb intro
+	competition. It was created during 2 days and nigths.
+	This demonstration is freeware. It can be freely distributed
+	without modifications. No money can be charged for it!
+
+
+			       REQUIREMENTS
+
+	ù a 386 or higher processor
+	ù VGA
+	ù 720kb of EMS and 150kb of base memory
+	ù 4kb disk space
+	ù enough time to wait for the start-up message to disappear
+
+
+
+				CONTACT ME
+
+	e-mail:
+			s5001pap@sun10.vsz.bme.hu
+
+	or write to:
+			     G bor Papp
+			     Margit u. 2/c
+			     H-1223, BUDAPEST
+			     Hungary

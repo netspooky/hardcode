@@ -1,0 +1,61 @@
+_______________________________________________________________________________
+                                                                           true
+haujobb :: funkkin   ( the - let's do something to ltp4 - intro )
+
+This time requiring some newschool computer with windows and directX3.
+
+_______________________________________________________________________________
+                                                                           true
+uses:
+
+  MXMPLAY/win by elitegroup 
+  UPX exepacker
+  DirectX
+
+  The few extra bytes in this "release" version, compared to this "compo"
+  version, are mainly just combatility stuff.. startup-dialog, different
+  screenmode supports, speed & loop optimisations instead of size.. and
+  yes, a bit less packed textures too.. 
+_______________________________________________________________________________
+                                                                           true
+made by:                                                             
+
+     Xhale     playing around with SOUNDs, making smallsize MUSIC out of them
+     Droid             creating REALTIME graphics SYNCHRONIZED into the music
+     Visu                                                most of the TEXTURES
+     Melwyn         designing some TEXTlayouts, first on paper then by CODING      
+
+  ++
+     1-2 textures:  Nytrik
+     Radial blur:   Sagacity
+     soundpacking:  Hellfire, Cynic
+
+
+  With this one we were mostly funkkin at fuzzel's roommates apartment in    
+  germany. Reason why we were there was that we need to crash somewhere 
+  between evoke in germany and ltp in France.. (oh, fuzzel's roommate
+  maybe doesn't even know that we crashed at his room, thank you very very
+  very very much. hmm.. Tobias Conzelmann. and thank you fuzzel too...
+  and thanks to xxx and hellfire too.. and to netpoet.)
+_______________________________________________________________________________
+                                                                           true
+contact (please):
+
+ http://www.haujobb.de         Haujobb site
+ http://haujobb.cjb.net        another, not that official Haujobb site
+ http://miasmah.cjb.net        Miasmah, design & music from xhale for ex..
+ http://www.slengpung.com      The biggest photo archive of the scene.
+
+ all@haujobb.de
+ droid@freenet.hut.fi
+ skodvin@online.no
+ mpalosuo@cs.helsinki.fi
+
+ #haujobb
+
+_______________________________________________________________________________
+                                                                           true
+      ººÛ³³³Û³º³³³ºº³Ûº³º³º³³ººÛ³ºÛ³³ºº
+      ººÛ³³³Û³º³³³ºº³Ûº³º³º³³ººÛ³ºÛ³³ºº
+      ººÛ³³³Û³º³³³ºº³Ûº³º³º³³ººÛ³ºÛ³³ºº
+    12º0002000 haujobbº02508   L T P 4º

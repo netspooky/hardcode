@@ -1,0 +1,174 @@
+
+    ÚÄÄ--      ÛÛÛ ÛÛ ÜÛÛßÛÜ ÜÛÛßÛÜ ÛÛÛ    ÜÛÛßÛÛ ÛÛÛßÛÜ ÜÛÛßÛÜ         -Ä¿
+    ³          ÛÛÛ ÛÛ ÛÛÛ ÛÛ ÛÛÛ ÛÛ ÛÛÛ ÛÛ ÛÛÛ    ÛÛÛ ÛÛ ÛÛÛ              ³
+    |          ÛÛÛßÛÛ ÛÛÛ ÛÛ ÛÛÛßÛÛ ÜÛÛßÛÜ ÛÛÛß   ÛÛÛßÛÜ  ßßßÛÜ           ³
+    :          ÛÛÛ ÛÛ ÛÛÛ ÛÛ ÛÛÛ ÛÛ ÛÛÛ ÛÛ ÛÛÛ    ÛÛÛ ÛÛ ÛÛÛ ÛÛ           ³
+    |          ÛÛÛ ÛÛ ßÛÛÜÛß ÛÛÛ ÛÛ ÛÛÛ ÛÛ ÛÛÛÜÛÛ ÛÛÛ ÛÛ ÛÛÛÜÛÛ           ³
+    ³          ÛÛÛ ÛÛ        ÛÛÛ ÛÛ ÛÛÛ ÛÛ        ßßß ÛÛ  ßßßß            ³
+    ³                                                                     |
+      Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---
+
+
+                                  Tjobing!
+
+                  And welcome to Chunky Salsa by Hoaxers.
+
+
+    This is our contribution to the 64kb intro compo at The Gathering 96,
+    actually its the README file, and not the intro though.. But I guess
+    you already had that figured out. (Demo freaks have a high IQ standard =)
+
+    First of all, If you have PROBLEMS then look at the end of the file,
+    and if it still wont work, try to do some of the things mentioned there.
+    If that doesnt help, you have discovered a new bug, and should call
+    someone.. NOT me though, coz I'm already tired of coding on it.
+
+
+
+    How about some info about "The Making of Chunky Salsa!"?
+
+    It was coded in about 3 weeks (2 days effective coding :) and the reason
+    it took me so long to make, is the fact that Im currently in the army,
+    and spent 10 of those days in the damn forrest. The other little thingy
+    that caused delay: I HAVE to be in bed by 24:00, otherwise some clown
+    officer wakes me up at 5:00 in the morning and I have to wash toilets
+    'til duty starts. (YES, I know that for a FACT :( )
+    [HEHE, an officer just entered the room and told me to go to bed, but he
+    wont be back to check on me for another half hour or so.] Okie, enough
+    crap about my lousy life (still have 105 days left) and more about the
+    intro. It's coded on a 486 Dx2/66 With a gravis soundcard, and is designed 
+    to run on a equal or faster system. Sure, It will work on a 386, but it 
+    will look even worse then.
+
+
+
+    Stuff that we used to make this demo:
+
+    Turbo assembler 
+    Turbo Pascal 
+    Deluxe Paint 
+    Protracker (YES, amiga module indeed.)
+    1000 cigarets.
+    765 gallons of coke.
+    And ofcourse a braincell or two.
+
+    As you understand by now, this is no big-budget, time-consuming, mega
+    project made to impress the world, but was made just for the fun of it.
+    (Although I got SOOOOOO tired of it, and had NO fun debugging it
+    yesterday..)
+
+
+
+
+    Maybe it's time to kick off with some greetings..
+
+    Amnesty
+    Genuine
+    Gollum
+    Inf
+    Infernal
+    Movement
+    Proxima
+    Sorrox
+    Trinity
+    Wild Light
+
+    Those are the only groups I really care to send my regards to,
+    ofcoz' If your not here, and I know you, then I've forgot to put
+    you here, and am sorry.
+
+    And some personal greets.
+
+    Thorin   /  Movement .. I'm Afraid I've lost your adress.. Write to me!
+    Caesar   /  Amnesty  .. Same goes for you :=)
+    Rommel               .. You too .. (Lost some papers I should'nt have.)
+    Thomas   /  S!P      .. YES, I've lost your adress aswell.. Go figure!
+    Skurk    /  Hoaxers  .. Hope that 40k of yours get ready in time, Coz
+                            my utillity is FAR more clueless then yours :=)
+    Shotgun  /  #Gifs    .. How's those tapes goin'? Filled more than 10 yet?
+    Galactus /  Syntax   .. See you at The Gathering.. GOD PERM!
+    Tommelom /  Hoaxers  .. Snart faar du de JAEVLA sokkene dine :)
+    Calvin   /  Proxima  .. Gitt opp Daskmig enna? Hvem vet, kanskje vi
+                            snakkes paa TG da vettu!
+    Trallalla/  Hoaxers  .. AA Skifte handle for aa faa plass til det paa en
+                            lapp .. DET er dumt det ;)
+    Skjelvik             .. Jupps.. Her er du.. helt nederst! Hehe.
+
+
+
+
+
+    Hmm.. Here is my adress, In case you want to swap or something.
+
+    Norsk / Hoaxers
+    Kim Robert Blix
+    Pi/StoeKp/Bn2/Brig N
+    9234 OEVERBYGD
+
+    !! NB !! No handles on the envelope, Im in the army, and I wont get it!
+
+
+
+
+        T   R   O   U   B   L   E         S   H   O   O   T   I   N   G
+
+
+    Yups, Its that Time of the day (Or that cluster of the disk, if you will)
+
+    First out is the NO SOUND! problem (wild applaud!)..
+    If you have a gus, and dont get any sound, then simply set the ULTRASND
+    enviroment..
+    If you DONT have a Gus, then you have to go through these simple steps
+    to run the Intro without sound, At the DOS prompt write the following:
+
+    C:\>SET ULTRASND= A,B,1,C,3
+
+    [A] is a free port.
+    [B] is a free DMA Channel
+    [C] is a free IRQ
+    Just leave the numbers as they are, its only SoundBlaster/MIDI Irq and
+    Dma.. It wont affect anything.
+
+    220,1,1,5,3 Usually works unless you have a soundcard or wierd mpeg
+                decoder or something installed.
+
+    Then run the demo, And it should work.. If I got too technical for you
+    just call your geek friend, and he'll fix it for you.
+
+
+
+    The other Problem is that this intro writes one tempfile to "C:\"..
+    And if you dont have a C: then things get kinda spooky.. (Drumfill)
+    (The reason I dont use current dir. for the file, is because it HAD to
+    be able to run from CD-ROM.. Yuck!)
+
+    You can fix this by writing this little line at the DOS prompt.
+
+    C:\>SUBST c: DRIVE:\PATH\IS\OPTIONAL
+
+    [DRIVE] is a drive where your have more then 25K of free disk space.
+
+
+    TO GET MAX PREFORMANCE, Remove Tsr's, QEMM .. stuff like that :)
+    It will run on ALMOST any config though.. Just one thing.. DONT
+    try to run this from a doswindow In WINDOWS.. coz something strange
+    is bound to happen :)..
+
+
+
+
+    Well, Thats it.. The official readme file.. IF you damage something by
+    using this program (Hardware, Sanity, Kids, whatever) Im not going to
+    give a shit. A political in-correct way of saying that you use this at
+    your own risk.
+
+
+    It's time to Light that last cig' and take a nap, Coz in 6 hours my
+    plane leaves, and I'll be home on leave.. Then in two days I'll be
+    on my way to The Gathering..See you there!
+
+
+
+    Signed Norsk / Hoaxers ..
+
+    Thou shalt NOT peel the skin of ducks.. Really!

@@ -1,0 +1,241 @@
+                
+You've been watching the first production from
+
+
+                ЬЫЫЫЬ ЯЯ ЫЬ     ЯЯ ЬЫЫЫЫЬ ЬЫЫЫЫЫЬ ЫЬ   ЬЫ   -
+                ЫЫ    ЫЬ ЫЫ     ЫЬ ЫЫЯ    ЫЫЯ ЯЫЫ ЫЫЫ  ЫЫ   +
+                ЫЫ    ЫЫ ЫЫ     ЫЫ ЫЫ     ЫЫ   ЫЫ ЫЫЫЫ ЫЫ   S
+                ЯЫЫЬ  ЫЫ ЫЫ     ЫЫ ЫЫ     ЫЫ   ЫЫ ЫЫЯЫЬЫЫ   C
+                  ЯЫЫ ЫЫ ЫЫ     ЫЫ ЫЫ     ЫЫ   ЫЫ ЫЫ ЯЫЫЫ   R
+                   ЫЫ ЫЫ ЫЫЬ    ЫЫ ЫЫЬ    ЫЫЬ ЬЫЫ ЫЫ  ЯЫЫ   +
+                ЯЫЫЫЯ ЫЫ ЯЫЫЫЫЬ ЫЫ ЯЫЫЫЫЯ ЯЫЫЫЫЫЯ ЫЯ   ЯЫ Ы -
+                       ъ-= FuTuRe iS ArTiFiCiAl =-ъ
+
+------------------------------------------------------------------------------ 
+         
+         Given by 
+                  ShoCkeR                   --- Code 
+                  Teo                       --- Gfx
+                  Tyby                      --- Objects(The star)
+                  MAf/sLc and Na$ty/pagan   --- Sfx
+
+------------------------------------------------------------------------------ 
+
+Computer requirements:
+
+            A PC 386 sx 25 VGA with a gravis ultrasound card
+            but a 486 dx 33 VLB is recommended.
+
+------------------------------------------------------------------------------ 
+
+Some words about this dentro,
+
+   This dentro has been made using three hours of work,we would like
+ to make a demo who takes less than 20 kbytes, therefore we had to reduce 
+ all gfx and samples to succeed. This dentro is not an hi-tech dentro,
+ we don't use any gouraud shading or phong methods,but we just want to make
+ a small funny dentro without special effects(maybe next time).
+   Notice that you can't hear the song without a Gravis ultrasound Card,  
+ we don't use any Sb or Roland routines because it tooks a lot of disk space
+ and we think that the gravis ultrasound is the only one sound card who
+ is able to reproduce sound like the Amiga.  
+ This music is seven kbytes long.We have used the robban from cascada gusplay
+ routine.
+ Here is the complete sizes of each exe's file:
+              MUSIC            3674 
+              DEMO             9247 includes graphics
+              GUS DRIVER       5404 
+              GUS KICK OUT      170 
+ For packing our dentro,we used cdrk/silicon exepacker.                              
+ 
+------------------------------------------------------------------------------ 
+
+ Silicon members are:
+         
+         Name     Function in the group     HardWare         
+
+        Cdrk    --  Coder,System coder   ----------- PC                
+        Ben     --  Coder,algorithmics   ----------- PC and CPC 6128   
+        Hml     --  Main coder           ----------- PC                
+        Spleen  --  Coder                ----------- PC                
+        ShoCkeR --  Coder,organizer      ----------- PC and Amiga 1200 
+        Dj      --  Swapping             ----------- PC                
+        Teo     --  Graphician,organizer ----------- Atari Ste       
+        Tyby    --  Raytracer            ----------- PC              
+        Raptor  --  Musician             ----------- Amiga 1200      
+        Zoom    --  Raytracer            ----------- PC             
+ Guests:        
+     MAf/SLc    --  Musician             ----------- Amiga 1200
+     Na$ty/Pagan -  Musician             ----------- Amiga
+
+------------------------------------------------------------------------------
+
+   Some Greetings,
+
+ Joh,Walken and Max/Impact Studios,Clawz/Bomb,Djamm/Eko,Barti/Nooon,
+ Less,Kristof,Deneb and Morgan/Fantasy,Dark angel and Maf/SLC,Na$ty/pagan,
+ Latyl/Arkham,Jgl/Ubi Soft,Jsg/Tlk Games,Et/Tlk games,Poi Poi/Ribbon.,
+ Kenet/Ribbon.,Moai/Ribbon.,Oxbow/Scoopex,Moog/infiny,Rogue/Logic Design...
+ and anybody who wants to be greet by us       
+
+------------------------------------------------------------------------------
+
+We shame,
+  
+  Telecarte (the lamer) on rtel for being a big stupid bastard!.
+  Bill gates for is ouindoz (Workbench is better than ouindoz).
+  Bill gates for being so rich.
+  The secretary for getting on my nerves.
+
+------------------------------------------------------------------------------
+  Some messages,
+
+Messages from ShoCkeR,
+   
+To Djamm/Eko,
+       I've seen Ru-xperienced on falcon,not too bad,I hope to see you
+  Soon my friend,for a future cooperation maybe!!!!.Good luck for your
+  exams,i hope you like this little dentro,my friend!!
+
+To Walken/Impact Studios,
+       Thanx for being the beta-tester of this dentro,i think you'll 
+  be surprised with our next production,i think you'll laught.I hope
+  to have a modem soon.I haven't got any answer for the T-Shirts.
+  Will you go to the saturne party held in france this year ?.
+  Don't forget to send me the next imphobia issue(10),I hope that
+  Impact Studios will be among the first groups in the PC scene.
+  Project Angel was really a great demo and i hope your next productions
+  will be as well as this one,hi to sigfrid(I don't know you but i've
+  heard a lot about you !!)
+
+To Maf/Silicon,
+       Thanx a lot for your funny tune,and for your productions on the
+  amiga,i'll love the aspartame demo,Zoon is really a talented graphician
+  and you're not too bad too,don't forget to greet silicon pc in your next 
+  productions.Well,I'm actually watching Motion from Bomb on my amiga,
+  Gengis is really a powerfull coder,i'm fascinated.
+
+To Na$ty/Pagan,
+       I'm sorry because i can't write a $ on your name in this intro,
+  shame on me,nice story about this little funny tune,it looks like
+  gandbox/Ngc tunes.I hope to see your team productions on my amiga soon.
+
+To Max/impact Studios,
+       Thanx for your disks,because i need the powerpacker decruncher
+  on PC,Viruses were not there this time,keep a eye on your disks,boy!
+  You're really lucky to become an impact studios member,it's really
+  a good team!
+
+To Hml/Silicon,
+       Good luck for the obez dentro,but I'm the best disk launcher in the
+  team(you're not too bad),i hope to see you soon(don't forget to give
+  me my Euroscene Cd-rom back,i'm still waiting !!!).I think you should
+  add gouraud shading in this demo,it would'nt be bad,contact me if
+  you want some ideas for the gouraud shading method.What sorts of bugs
+  were in the MiamMiam disk 2,The dentro didn't want to work quite good
+  enought,i'm sure that it isn't your fault!!!!
+
+To Spleen/Silicon,
+       You're so lucky to be on internet!!!!,when will you start to 
+  produce new effects?,Maybe for the magic demo!.What's up with your
+  new 3d engine?,did you succeed in making a gouraud shading routine?
+
+To Teo/Silicon,
+       You're not allowed to do anything and even if you're blonde with 
+  a big...(Tu ne te permet juste rien du tout.
+       et si tu es blonde a forte ...,viens.)
+  Don't you want our next production be named "Kryptonite or ZhOnK"
+  I have some ideas(tyby will have to work !),I hope to see you on 
+  holidays,good luck for the Final year exams(dj too)
+To tyby/Silicon,
+       mmmmmmmhhh,I've take a look at your objects,not too bad,
+  now you have to do some graphics picture for the magic demo,
+  thanx a lot for the Cdrom,see you soon.
+
+To Dj/Silicon,
+       Why don't you want to be the team cooker,is'nt it a good idea ?
+  I'm sorry if your pentium is a bugged one,but the morphing was not
+  so bad.Will you change your name (for bilbo)?
+
+To Gerard,
+       Thanx for all new demos on amiga,I haven't got one for a long
+  time!.
+
+To kenet/Ribbon.,
+       Yo la voie !!,Nice tune,Yo la voie !!,I'm fascinated,
+       Yo la voie !!,your obez soundtrack is really a good one.
+       Yo la voie !!
+To ben/Silicon.,
+       I really like your bezier algorithm,i think you have to continue
+  to learn this,i may be nice in our next production.
+
+To all my friends,
+       Keep an eye on me,i'm still there !!!.
+
+
+To my girl friend,
+       
+       at last but not least,I love you.
+
+Messages From teo,
+        No messy except hellos to all Kool Silicon members!!!
+
+------------------------------------------------------------------------------
+
+    W     W EEE   N  N EEE EEE DDD  SSSS   Y  Y OOOO U  U  !!
+    W     W E     NN N E   E   D  D S      Y  Y O  O U  U  !!
+    W  W  W EE    N NN EE  EE  D  D SSSS   YYYY O  O U  U  !!
+     W W W  E     N  N E   E   D  D    S      Y O  O U  U  !!
+      W W   EEE   N  N EEE EEE DDD  SSSS   YYY  OOOO UUUU  !!
+
+Advertising for a graphician:
+
+Note:
+       If you're a graphician and would like to join us,please send us
+ a disk with your productions on it,don't be frightened we don't do
+ swapping with your artwork.If you're good enought,you'll have the honor
+ of being a silicon member.(if you're as good as suny or zebig or Zoon,
+ you'll be immediately named as a silicon member).Perhaps,if you're using
+ digitized pictures,we never answer you(we're not future crew and 
+ we don't needs guys like marvel in our crew).We needs a good graphician 
+ before the saturne party because we have a joke to make.We needs a person 
+ who is able to reproduce a photo without using a scanner,send your disks to
+ ShoCkeR.
+
+------------------------------------------------------------------------------
+How to contact us,
+
+
+  Contact us at:
+        For coding and swapping:     For fun,surf and gfx :
+           ShoCkeR/Silicon             Teo/Silicon
+           Coolen Gregory              Desbonnet Stephane
+           3 rue du Chateau            143 rue Vulfran Warm‚ 
+           80680 Rumigny               80000 Amiens
+           France                      France
+           or on rtel bal Shocker
+
+        For coding:                  For musics:
+           Hml/Silicon                 Raptor/Silicon
+           BarrЉre Thibault            Brouet thierry
+           102 rue carnot              02 rue maurice ravel
+           60200 Compiegne             60600 Clermont
+           France                      France
+
+        For Swapping and mods:
+           Dj/Silicon
+           Delandre Jer“me
+           33 rue Jean-Jacques Rousseau
+           60140 Liancourt
+           France
+
+     I'm sorry for my pittyfull language,
+                  
+                          ShoCkeR signing off ...
+                          `Pot au feu' RuleZ
+
+
+
+
+
+                                       

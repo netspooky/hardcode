@@ -1,0 +1,26 @@
+
+ "Lord of the Dogs" 
+ 
+ == PARTY VERSION == 
+   
+  (c) 2002 Kaita
+   
+Credits:
+
+    Jari Saukkonen,   Weed / Coral,     jsaukkon@cs.helsinki.fi
+    Toni Aittoniemi,  Gimle / Symptom,  toni@taikatech.com
+    Jaakko Väyrynen,  hcjake / Inapt,   hcjake@inapt.net
+
+Requirements:
+
+  Linux, OpenGL support, preferably fast, even more preferably much more
+  faster. Tested on NVidia, but no exotic extensions are used.
+  
+Usage:
+
+  *NOTE*. If you don't have low-res modes (640x480) configured in your 
+  X server, the intro will default to current X mode. Running this production 
+  on a 1600x1200 _will_ kill the performance.
+
+  Set the env variable NOSOUND=1 for forced nosound, WINDOW=1 for 
+  windowed mode.

@@ -1,0 +1,23 @@
+   _______   __    _    _____
+  (__   __) |  \  | |  / ____)
+     | |    | \ \ | | | / ___  
+     | |    | |\ \| | | |(__ |
+     | |    | | \ \ | | \__/ |
+    (___)   |_|  \__|  \___/_|
+                          SOFT
+
+
+
+  CMath     :-: an intro in 4kb
+
+  Code      :-: TGGC
+
+  Greetings :-: JibZ (author of "apack")
+		neo (author of "upec")
+		nufan & pro (pointing out these tools)
+		Ishan, Hoff & DanYo
+		INF2k @ FH-Merseburg
+
+
+  Dieses Archiv enthält nun auch eine Windows XP Version, sowie eine 
+  Kompatibilitätsversion

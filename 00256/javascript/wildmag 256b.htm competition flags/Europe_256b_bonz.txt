@@ -1,0 +1,19 @@
+With everybody talking of flags on the one-liner :-) I decided
+to add another entry -- a flag, you got it. Impressed by the
+recent adoption of the euro as the only currency in Europe (and
+more importantly, because I wanted to do it without GIFs, and
+stars are easily done in Wingdings :-) I decided for a European
+flag.
+
+There's nothing really interesting in this little file, except that I
+used <style> so that, at once, I could set the background/foreground
+colors, enable absolute positioning for all <p> tags, and save a "style"
+attribute for the <p> tag enclosing the euro symbol.
+
+Now I'm quite puzzled at why CSS for 256b.htm work first time, and I never
+(I say never) get them right on both Netscape and IE at work...
+
+Of course, since I had a few spare bytes, the produced HTML can be
+validated as XHTML 1.0!
+
+Bonz

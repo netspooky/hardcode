@@ -1,0 +1,75 @@
+              - BANDWAGON -
+
+ Members:
+ --------
+  Gspot (Arttu Silvast)     -    music
+  Mermaid (John Utne)       - graphics
+  Neckfreak (Antti Silvast) -     code
+  Radiance (Kristian Ovaska)-     code
+  Scythe (Antti Ilvesm„ki)  - graphics
+  Xkr~47 (Jonas Berlin)     -  support
+
+ Available so far:
+ -----------------
+
+ Name           Date            Format
+ ----           ----            ------
+
+ PPOWTRIP.ZIP   01-02-96            PC
+  - Our first ever introduction.
+
+ BW-SLOW1.ZIP   21-11-96            PC
+  - Slowjam music disk vol. 1
+
+ BW-XMAS .ZIP   23-12-96            PC
+  - Xmas'96 demo.
+
+ BW-PROVE.ZIP   25-03-97            PC
+  - 7th at TG'97 64k intro
+    competition.
+
+ SGSINTRO       17-07-97            PC
+  - Commercial intro for Spider
+    Games.
+
+ BW-DISL .ZIP    08-08-97           PC
+  - 3rd at Asm'97 64k intro comp.
+
+ BW-RETR .ZIP    08-08-97           PC
+  - 6th at Asm'97 4k intro comp.
+
+ MAI2    .ZIP    29-02-98           PC
+  - A contribution for a commercial
+    for Die Vermittler.
+
+ BW-RAPPI.LZH   11-04-98          MSX1
+  - 4th at Alternative'98 demo
+    competition.
+
+ N/A            10-06-98            PC
+  - Commercial demo for Die
+    Vermittler.
+
+ BW-VAPAU.LZH   05-07-98          MSX1
+  - 3rd at Plutonium'98 demo
+    competition.
+
+ BW-FIST .ZIP   11-08-98            PC
+  - F.I.S.T 4k intro,
+    3rd at ASM'98 4k intro comp.
+
+ BW-CHANT.ZIP   11-08-98            PC
+  - Join in the chant,
+    4th at ASM'98 64k intro comp.
+
+ Contact:
+ --------
+ Mermaid   - lord_red@hotmail.com
+ Neckfreak - asilvast@cc.hut.fi
+ Radiance  - kristian.ovaska@mbnet.fi
+ Scythe    - antti.ilvesmaki@mbnet.fi
+ Xkr~47    - jberlin@cc.hut.fi
+
+ WWW : www.hut.fi/~asilvast/bw
+
+

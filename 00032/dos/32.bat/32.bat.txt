@@ -1,0 +1,5 @@
+achtung, das teil benötigt etwas vorbereitung :)
+echo ausschalten, sämtliche variablen clearen, cls
+und nach einigen sekunden stoppen, sonst produzierts fehlermeldungen
+
+Topy44

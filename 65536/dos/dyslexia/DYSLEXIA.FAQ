@@ -1,0 +1,73 @@
+ ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ ³                     DYSLEXIA/THREESOME INFO & FAQ FILE                     ³
+ ³         Dyslexia: The only demo screwy enough to require a FAQ.            ³
+ ³                        First presented at NAID 1996                        ³
+ ³                                                                            ³
+ ³Requirements:  486DX-33, 8MB RAM, 500k free base memory                     ³
+ ³Recommended:   486DX4-100, Gravis Ultrasound card, open alchohol containers ³
+ ³Sound support: Soundblaster, Gravis Ultrasound                              ³
+ ³                                                                            ³
+ ³rev 1.0                                                                     ³
+ ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+z/15/96:
+  MS: "So Bill, how is the demo coming along?"
+  MD: "I dunno, talk to Kneebiter about it."
+  MS: "I did, he said to talk to YOU."
+  MD: "Oh..."
+
+  Well, today is exactly two weeks from NAID, and I believe someone's
+signiature is on a document saying it has to be released today.  Well, it
+isn't done(sorry).  Well, not COMPLETE(some thing).  Yea, that's good.
+I just added soundblaster support today, and it is REALLY bad.  For it to
+work, you need a very fast machine - the player is insanely slow. Sorry
+again.  I still have to fix a few flickers, transitions, and minor bugs(you
+call that minor?), but it is good enough for a while.  I may release a
+version 1.1 or something, time permitting(yea, right).
+
+6/5/96:
+  Okay, this is Moby speaking.  I am writing this FAQ because every time I
+showed the demo, someone would ask me a question about one of the effects.
+So, for those of you non-veterans of the demoscene, this will explain why we
+did what we did:
+
+PART 8: Scroller
+  - Well, it's a scroller. And it is backwards. 10 points if you can read it.
+
+PART 7: Unmelt
+  - Ever see Heartquake^? Or about 1000 other demos with melting logos/title
+    screens?  Well, this is our rendition.
+
+PART 6: Backwards fire
+  - I know, I know - fire looks mostly the same backwards and forewards, but
+    the text "unburns."
+
+PART 5: Backwards shadebobs
+  - They look like classic shadebobs, but they erase themselves.
+
+PART 4: Reverse wormhole
+  - Ever watch Unreal^/FC?  The wormhole goes the other direction, and the
+    cell blocks are reversed.
+
+PART 3: Unbouncing lens
+  - Gravity reverses itself for Threesome^.  Note that the lens is concave, not
+    convex like in other demos.  The Mandlebrot was calculated in the
+    background while other effects ran(so was the wormhole).  Howcome no one
+    ever does fractals full screen?
+
+PART 2: Reverse starfield
+  - The clock is my own artwork - "MS: CODER-ART, CODER-ART!" - sorry.  The
+    clock is melting in case you couldn't tell.  Oh yea, that thing is supposed
+    to be a clock. The whole scene is a reference to Panic^, and the unflying
+    title letters.
+
+PART 1: Unbooting computer
+  - This is the cheapest yet most loved effect in the demo.  It is an exact
+    duplicate of my 486 AMI BIOS(old!).  Take note of the drive light flickering,
+    the clicking for the memory untesting, and the usual annoying BEEP at
+    boot-up.
+
+^ Panic and Unreal are unregistered trademarks of Future Crew productions :)
+^ Heartquake is an unregistered trademark of Iguana productions :-)
+^ Threesome is in no way related to the cult movie starring Josh Charles,
+  Lara Flynn Boyle, and Stephen Baldwin. ;-D

@@ -1,0 +1,26 @@
+	
+			-= Petit Plastiqe =-
+
+			    4k intro by
+				
+			      Plastic
+
+	          Released at Mainframe 2002-04-27
+
+
+Instructions & such
+===================
+Doubleclick the HTML-file "Petit Plastiqe By Plastic.html". 
+Your web-browser should then show you our latest refreshingly new 
+production. Sorry for the not at all existing music in this intro, 
+we promise more sound another day.
+
+You need to have JVM 1.2 or later installed on your machine to run it.
+
+
+
+		    .: plast makes you happy :.
+
+
+
+Copyright 2002, Plastic demosnugglers

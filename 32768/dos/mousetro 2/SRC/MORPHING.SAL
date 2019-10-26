@@ -1,0 +1,69 @@
+unit 286 Morphing
+.386
+
+assume ds:@code,cs:@code 
+NoJumps
+
+Extrn ShiftX:Byte, ShiftYOfs:Word 
+ 
+Procedure Far Morph x, y, ImageSeg, Image, Target 
+LocalVar sx, sy
+
+   push ds
+   pop  fs 
+   
+   Store ds 
+
+   mov  es,Target
+   imul di,y,320
+   add  di,x 
+
+   lds  si,dword ptr Image
+   cld
+   lodsw
+   mov  cx,ax
+   mov  sx,cx 
+
+   shr  ax,1
+   sub  di,ax
+
+   lodsw
+   mov  sy,ax
+
+   and  al,0FEh
+   imul ax,160 
+   sub  di,ax
+
+   $Do 
+      movzx ecx,sx
+
+      mov  bx,sy
+      movsx ax,byte ptr fs:ShiftX+bx
+      push di 
+      add  di,ax
+
+      $Do 
+         lodsb
+         cmp  al,255
+         $If <> 
+;           mov  bx,word ptr fs:ShiftYOfs+2*ecx
+            db   64h, 67h, 8Bh, 1Ch, 4Dh
+            dw   offset ShiftYOfs, 0
+   
+;           mov  ah,al          
+;           mov  es:[di+bx],ax -- can't be used if di+bx=0FFFFh 
+
+            mov  es:[di+bx],al
+            mov  es:[di+bx+1],al 
+         $EndIf   
+         inc  di
+      $EndDo Loop
+
+      pop  di 
+      add  di,320
+
+      dec  sy
+   $EndDo =0   
+
+   Restore
+EndProc 

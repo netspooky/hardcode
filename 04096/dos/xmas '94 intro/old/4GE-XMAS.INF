@@ -1,0 +1,102 @@
+
+Ş                      ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Ş  Ş
+ŞÜÜÜÜ                  °°      °°  ±±        ±±      ²²     ÛÛÛÛ
+   Ş  ßßßß               °°  °°    ±±±±    ±±±±     ²²²²   ÛÛ
+     Ş                     °°      ±± ±±  ±± ±±    ²²  ²²   ÛÛÛÛ
+     Ş   İ               °°  °°    ±±  ±±±±  ±±   ²²²²²²²²     ÛÛ
+     ŞÜÜÜ  ßßßß        °°      °°  ±±   ±±   ±±  ²²      ²² ÛÛÛÛ
+          Ş
+          Şßßßß                    
+          ŞÜÜÜÜ        ÄÄÄÄÄÄÄÍÍÍÍÍÍÍÛÛÛÛÛ 94 ÛÛÛÛÛÍÍÍÍÍÍÍÄÄÄÄÄÄÄ           
+          
+
+3Kb Intro by Sam/4ge.
+
+I won't be held responsible for any damage caused to your hardware or 
+software by this intro. (Please see the information section.) Run this intro
+at your own risk.
+
+ô °±²Û SYSTeM ReQuiReMeNTS Û²±°
+³ 
+³ ş Register-compatible VGA card
+³ ş 486 or above, the faster the better
+³ ş Exit Windows before you run this, to gain extra speed.
+³ ş About 200k free conventional memory is required (tough, huh)
+õ 
+
+ô °±²Û iNFoRMaTioN aBouT THe iNTRo Û²±°
+³ 
+³ ş It's less than 3k, so don't expect too much (eg, no music or drawn gfx)
+³ ş To control the demo's only effect (!) turn numlock on and use your 
+³   numeric pad. The blue box shows the direction you've chosen; every
+³   so often the computer (green box) will change direction to match the
+³   one you chose. If you're going straight on (5 on pad) this isn't shown
+³ ş This intro uses VGA-registers in a non-standard way. It's possible that
+³   non-standard register use can damage a monitor. If you'd rather not risk
+³   this, don't run the demo. However this is very unlikely to happen (it
+³   works fine on mine). If things look wrong while you are running the demo
+³   then turn off your monitor. (By the way, most demos mess with these
+³   registers, not just this one)
+õ 
+
+ô °±²Û WHY iT WaSN'T BeTTeR Û²±°
+³ 
+³ ş The time now is 21:59 on Christmas Eve. I am fed up with coding this.
+³ ş I wanted to include:
+³   a simple texture zoom and rotate (I've written it on paper but don't
+³     have time to enter and debug it or work out my sine table)
+³   a 4ge logo I did in Photoshop. I was intending to compress it (160k)
+³     to 2k using a slightly-clever technique and 3-bit colour. It turned
+³     out I was being optimistic in assuming 3-bit would be enough (5-bit
+³     would have been fine, but the intro wouldn't fit in the 4k ceiling 
+³     if I did that). Because of this my time writing a 3-bit uncompression
+³     routine was wasted. :-(
+³   some of those distortion effects where you squash a screen, etc, but
+³     with a slightly new `clever bit'.
+³ ş Sorry about:
+³   the lack of palette fades...
+³   the nasty screen flicker at one point - my flyback routine has stopped
+³     working and I can't be bothered to fix it.
+õ 
+
+ô °±²Û GReeTiNGZ Û²±°
+³ 
+³ Triton, Future Crew, and whoever did the `Giant' 4k intro for Asm '94.
+³ And all other demo crews (even if you're crap like me).
+õ 
+ 
+ô °±²Û HoW To CoNTaCT Me Û²±°
+³ 
+³ Email me at university during termtime or at home the rest of the time:
+³ 
+³ ş university: Samuel.Marshall@durham.ac.uk 
+³ ş home:       petermarshall@cix.compulink.co.uk
+³ 
+³ Snail mail:
+³ 
+³ Samuel Marshall, 4ge, 31 Budebury Rd, Staines, Middx, TW18 2AZ, England
+³ 
+³ Web page:
+³ 
+³ http://www.dur.ac.uk/~d405ua  (I think: if it doesn't work, email me)
+õ 
+ 
+ô °±²Û CHeCK ouT MY SHaReWaRe Û²±°
+³ 
+³ I write shareware under the `Software Forge' name. Check out:
+³ 
+³ NETRIS (netris11.zip) - the best tetris game for Windows 3.1
+³   supports 2 players on one computer, more on suitable net
+³   gfx, sounds, midi etc.
+³ 
+³ SYSEXMAN (sysexman.zip) - a sysex saving program for midi instruments
+³ 
+³ MATHS PACK (decision.zip) - some maths algorithms including a program
+³   for finding quickest routes across London by tube.
+³ 
+³ Hopefully available from CICA ftp sites. Definitely accessible in some
+³ way from my web page.
+õ
+
+L8r... Sam.

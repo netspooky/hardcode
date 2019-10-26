@@ -1,0 +1,168 @@
+; By denote, july 20th '04
+; www.denotesoftware.com
+; Compile with A86 v4.05
+
+jmp main
+
+; Variables
+
+z db 0
+
+c equ 084
+a equ 082
+break equ 083
+cfx equ 085
+filein equ 086
+fileout equ 088
+
+; Functions
+FileRead:
+	mov bx, [filein]
+	mov ah, 03F
+	mov cx, 1
+	int 021
+ret
+
+
+FileWrite:
+	mov bx, [fileout]
+	mov ah, 040
+	mov cx, 1
+	int 021
+ret
+
+; Main
+main:
+
+	; Init
+	mov byte [break], 0
+
+	; Open file a for reading
+	mov dx, a
+	mov ax, 03D00
+	xor cx, cx
+	int 021
+	mov [filein], ax
+
+	; Create File For Output
+	inc byte [a]
+	mov ah, 03C
+	int 021
+	mov [fileout], ax
+
+	; Choose com or decom
+	cmp byte [a], 'd'
+	jz compress
+	decompress:
+
+		; Decompression Main Loop
+		dmainloop:
+	
+			; Read byte
+			mov dx, c
+			call FileRead
+	
+			; Check EOF
+			cmp al, 0
+			jz dmainloopend
+	
+			; Check for cfx
+			cmp byte [c], '^'
+			jz cfxbeg
+				call FileWrite
+			jmp cfxend
+			cfxbeg:
+	
+				call FileRead
+				mov dx, a
+				call FileRead
+	
+				decomloop:
+					call FileWrite
+				cmp byte [c], 0
+				jz cfxend
+				dec byte [c]
+				jmp decomloop
+	
+			cfxend:
+	
+		jmp dmainloop
+		dmainloopend:
+
+	jmp finish
+	compress:
+
+		; Read First byte
+		mov dx, a
+		call FileRead
+	
+		; Compress Main loop
+		cmainloop:
+		cmp byte [break], 1
+		jz cmainloopend
+	
+			; Read byte
+			mov dx, c
+			call FileRead
+	
+			; Check EOF
+			cmp al, 0
+			jnz noteof
+				inc byte [break]
+				jmp print
+			noteof:
+	
+			; Compare byte
+			mov al, [c]
+			cmp al, [a]
+			jnz notequal
+				inc [z]
+				cmp [z], 0FF
+				jb cmainloop
+				dec [z]
+			notequal:
+	
+			; Print
+			print:
+	
+			cmp [z], 0
+			jnz znotzeroorcfx
+			cmp byte [a], '^'
+			jz znotzeroorcfx
+	
+				; Write compressed
+				mov dx, a
+				call FileWrite
+	
+			jmp printend
+			znotzeroorcfx:
+	
+				; Write compressed
+				mov byte [cfx], '^'
+				mov dx, cfx
+				call FileWrite
+				mov dx, offset z
+				call FileWrite
+				mov dx, a
+				call FileWrite
+	
+			printend:
+	
+			; Pass on
+			mov al, [c]
+			mov [a], al
+			mov [z], 0
+	
+		jmp cmainloop
+		cmainloopend:
+
+	; Close Files
+	mov ah, 03E
+	mov bx, [filein]
+	int 021
+	mov bx, [fileout]
+	int 021
+
+finish:
+mov ah, 04c
+int 021

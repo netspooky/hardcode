@@ -1,0 +1,35 @@
+                           ____
+                   \           \
+         ____       \____       \
+        /    \      /           /    \      /
+       /      \    /           /      \____/
+      \\      /    \                  /    \
+       \\____/      \                /      \
+             \       
+              \____ 
+
+  A Study on Photochemical Smog in Modern Urban Environments 
+     by
+ Limp Ninja
+
+
+words of warning:
+	the minified version is too slow for your computer
+	this is what them called "party version"
+
+
+useful tools:
+	soundbox	 bitsnbytes
+	closurecompiler	 googles
+	shaderminifier	 ctrl-alt-test
+	jsexe		 ctrl-alt-test
+	pnginator	 gasman
+
+special thanks:
+	additional music:	 james tonic
+	additional code:	 maxwell sosa
+	additional support:	 langford huxley
+
+--------------
+
+why did the copyleft

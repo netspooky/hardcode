@@ -1,0 +1,69 @@
+---------/\--------------------------------------------------- - - --
+        /  \ __/\____    __/\_____   ________  __/\_ __          
+       /    \)      (___/   /    ( _/  _    (_/     / (____      
+      /      \         /    ) /  /_)   )     /_  __/      /\       
+     /       /\       /__  /   _/ /    _____/  \/_/      /__       
+    /       /  \ \___/ _/  \  / _/   _    _/     )  \  _/ _/\      
+   /       /    \      )    \/  )    )    )     /    \/   ) /       
+  /       /      \____/________/_________/_____/_________/ /ne7   
+-/       /        \___\ _______\_________\_____\_________\/------ - -
+/_______/__________\--------------------------------  -- - ---- -- -
+-------------------- a t e  b i t  p r e s e n t s -------------- - -
+
+
+-=- Pimp My Spectrum -=-
+
+Something a little bit different from ate bit at Breakpoint 2008
+
+Hoping to put some fun and variety back in to the stale 64k scene..
+
+
+-=- Tech -=-
+
+Most of the code is actually written in Z80 and runs using a stripped 
+down Z80 emulator. All of the esoteric features of the chip have been 
+dropped - including annoying things like clock cycles and anything 
+but the most essential instructions
+
+The GPU (and other utility functions like maths and resource loading) 
+are implemented in C and called through rst instructions. The audio 
+comes courtesy of a version of VTXPlay, hacked to give six channels 
+of sound. The original tune was created in Vortex Tracker. The 
+graphics use a single OpenGL texture and are dumped there from the 
+emulator cores memory every frame. The screen in memory uses a 
+similar layout to that of a real Spectrum but without that bloody 
+annoying interleaving of pixel rows
+
+So this demo is a little bit unusual - it is essentially a tricked 
+out emulator with a demo, all in 64k. But where's the fun in doing 
+things the normal way?
+
+
+-=- Credits -=-
+Music: Mofobaru/ate bit
+Art: Andy Boyd/Denki
+     Andy Smith/Denki
+	 Diver/4D
+The rest: evilpaul/ate bit
+
+
+-=- Calling all artists! -=-
+
+Ate bit are currently on the lookout for artists. We are looking for 
+people who are outstanding and who have experience on any of the 
+platforms that we've released on - that's Spectrum, 8bit Commodores 
+and PC - as well as medium to high end PC platforms. Any other 
+platform experience would be good too - who knows what platform we 
+might release on next?
+
+If you're interested then drop me a line at evilpaul@evilpaul.org and 
+point me at some examples of your work. Or come find me on #ukscene 
+on ircnet
+
+
+Greetings to the usual suspects
+Massive thank you to Raceeend and his sleeping mate from HCBA for 
+letting me use their PC at the party place to build my final exe
+Check us out online at atebit.org
+
+-------------------------------------------------------------- - - --

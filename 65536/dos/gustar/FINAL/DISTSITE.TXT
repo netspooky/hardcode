@@ -1,0 +1,43 @@
+
+
+     C A M O R R A    D I S T R I B U T I O N    S I T E S
+     ÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜ
+
+
+     country      BBS                 telephone number   sysop
+     ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+     Australia    Mindflux            +61-2-416-2513     Ozone/Heretics
+     Belgium      Tetsuo              +32-(0)2-7725229   Pom/Trb
+                  Edge of the Light   +32-2-375-5651     Access/Antares
+     Brazil       AltConn             +55-11-816-2031    f0X/TheEnd
+     Canada       The Turrahan Relm   +1-604-477-0639    Jason
+     Finland      POP                 +358-60-366233     Sysostar/MP
+		  Triplex             +358-0-5062277     Royal/TET
+     France       Dune                +33-1-48790422     Gizmo, Bisounours
+                  ACE                 +33-1-45887548     Gandalf/Pulse
+     Germany      Hideout             +49-611-9545013    BaudBandit/KLF
+                                      +49-611-547324
+     Holland      THR                 +31-70-3401534     Raymond D.
+     Hungary      Da Lost Grid        +00-36-96-211737   Hanx, Atx, Sabe
+     Israel       Coders F/X          +972-(0)7-753224   Civax/MH
+     Norway       Optical Illusion    +47-55122892       ?/?
+                  Neural Network      +47-61193998       Megantereon/Tundra
+     Poland       DemoLand            +48-(0)22-188048   Lord Thedach
+                  No Mercy            +48-(0)2-6718157   Mc.Kriss/Exa
+                                      +48-(0)2-6716936
+     Spain        Blastersound        +34-58-293583      Mikel/Iguana
+     Sweden       Timedrome           +46-8-59071557     Insider/Candela
+                  Cryonics            +46-36-165110      Niro/Cryonics
+     Switzerland  The Lycaeum         +41-41-484-2989    Chicken
+                                      +41-41-484-3289
+                  The UnderWorld      +41-(0)22-9600621  Synoptik
+                                      +41-(0)22-9600622
+                                      +41-(0)22-9600623
+     Yugoslavia   Horrible Things     +381-(0)21-624067  Dusan
+                                      +381-(0)21-613848
+
+
+     Contact us if you're interested in becoming our distribution site.
+     Your BBS must be demo oriented and you must have an InterNet access.
+

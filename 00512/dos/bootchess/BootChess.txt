@@ -1,0 +1,1453 @@
+|=-----------------------------------------------------------------------=|
+|=----------------------------=[ BootChess ]=----------------------------=|
+|=-----------------------------------------------------------------------=|
+|=------------------------=[ by Baudsurfer/rsi ]=------------------------=|
+|=-----------------------------------------------------------------------=|
+
+  1 - Introduction  
+  1.1 - Why make tiny programs ?
+  1.2 - Proving know-how remains valued
+
+  2 - The 33 year-old record contender
+  2.1 - David Horne - the king
+  2.2 - False claims abound
+
+  3 - Understanding sizecoding hurdles
+  3.1 - The forbidden approximations 
+  3.2 - The initial environment
+  3.3 - Some ill-defined standards
+
+  4 - The heart of the difficulty 
+  4.1 - What is not difficult per se
+  4.2 - Sixteen different pawn moves ?
+  4.3 - What you get - what you don't
+
+  5 - The BootChess program dissected
+  5.1 - The TaxiMax ai used
+  5.2 - The data constants used
+  5.3 - The program flow explained
+  5.4 - Analysing a random snippet
+
+  6 - The Source code
+  6.1 - FAQ and remaining questions
+  6.2.a - BootChess.asm v 0.1 487b
+  6.2.b - BootChess.asm v 0.2 468b
+  6.3 - Encoded base64 floppy image
+
+  7 - Thanks/Greets
+  8 - References
+
+|=--[ 1 - Introduction ]=------------------------------------------------=|
+
+|=--[ 1.1 - Why make tiny programs ?
+
+ Last year in 2014, Red Sector Inc. released many sizetros in and out of
+ the demoscene demoparty loop. Red Sector Inc. is an old scene group from
+ 1985 founded by me and 4 other guys, celebrating their 30th anniversary
+ this year. Sizetros were also known as cracktros before because once you
+ cracked a game there usually was very little space left on the floppy 
+ disk to put something else and BBS WHQ sysops were always found of the 
+ smallest versions around to courrier when bandwith was still an issue. 
+ Nowadays and in the demoscene, these are known as sizetros (a contraction
+ of size and intro) : 64 bytes, 128 bytes, 256 bytes, 512 bytes. Above
+ 512 bytes it is usually admitted by oldskool standards that one has 
+ enough space to set up a software library based framework instead of pure
+ hardware (Directx, OpenGL, WebGL, SDL, shaders, OS files) and/or call
+ external professional packing programs (aPACK, UPX or GNUZip) or internal
+ OS packing libs (.png Deflate, .cab lzx dropping) : the final binary
+ footprint is hence misleading not lending itself to any fair comparisons.
+ So last year I presented 3 sizetros to 2 demoparty competitions : 2 of
+ them won respectively the Outline demoparty 128-byte competition in the
+ Netherlands and the Function demoparty 256-byte competition in Hungary.
+ The last one got only second place at the former demoparty but became a
+ phenomenon because some person called FinalPatch dissected its provided
+ and commented sourcecode for the Reddit website users who had trouble
+ understanding its innerworkings. His article was entitled "dissecting 
+ the 128 byte raycaster" and soon became referenced by the whole interweb
+ including but not limited to 4chan, hackernews, facebook etc. A friend
+ ascii artist Cleaner informed me of this and I proceeded to briefly read
+ most of the comments. Out of the 800 or so references to that article, one
+ of the comments thread from hackernews explains well the philosophy and
+ the mindset of sizecoding supporters. 
+
+|=--[ 1.2 - Proving know-how remains valued
+
+ >leorocky 206 days ago | link
+ These kinds of ray casters are really cool, but at this point in time I
+ don't care about how small the code base is, just make a really cool ray
+ caster in JavaScript and don't worry about how big the code is (within
+ reasonable limits)! I just want an awesome JavaScript ray caster library
+ to be honest. :)
+ ----
+ >dguaraglia 206 days ago | link
+ ... and that's exactly why you don't get why this guys are trying to
+ achieve. This guys are counter-culture. They are trying to write the
+ smallest functional ray caster/sound engine, you name it. They target
+ maximum functionality with minimal bloat. Coming to a post like this to
+ say you want a ray caster in JS 'no matter how big it is' is very
+ misguided; the equivalent of going to a Tesla dealership (assuming such a
+ thing existed) and telling the dealer 'well, this is all amazing 
+ technology and stuff, but what I really want is a Humvee with two 
+ cupholders on each seat, 5 TVs and a driver, I don't care if I need an
+ atomic power plant to keep it running'. It's all fine and dandy here, HN
+ is an open group after all. But don't go with that kind of comment to a
+ 'scene' forum or they'll chew your head off :)
+ ----
+ >jameshart 206 days ago | link
+ I'm not sure you appreciate quite how small 128 bytes is; for comparison,
+ your entire comment is 305 bytes. This one's just 128.
+ ---- 
+ >cpayne 206 days ago | link
+ I think that is the best argument you could make!
+ ----
+ >RBerenguel 206 days ago | link
+ There was one posted a few weeks ago. 128 bytes is incredibly impressive.
+ You may not care, the world may not care, but reducing code so much is a
+ work of art
+ ----
+ >jzzskijj 206 days ago | link
+ A interactive raycaster in 128 bytes and you "don't care". No matter what
+ year it is, it is a feat that really says "BEAT DIS".
+ ----
+ >na85 206 days ago | link
+ What a typical HN response. Do everything in JavaScript.
+ ----
+ >leorocky 206 days ago | link
+ Looks like this comment of mine was irrevocably wrong and completely 
+ irredeemable. No apology is possible and I'm sorry for my very existence.
+ Go social voting sites! Go internet culture! Yay.
+ -----
+ >bunderbunder 206 days ago | link
+ A harsh response, yes. But frankly, what you said was harsh. An
+ interactive raycaster in an executable an order of magnitude smaller than
+ most networks' minimum transmission unit is an incredible accomplishment,
+ and your response is to essentially drop trou and take a dump on it 
+ because teh w3b 4evaz.
+ -----
+ >leorocky 206 days ago | link
+ What I said wasn't harsh, it just wasn't apparently enough genuflection
+ and awe to appease the people that happened to be interested enough to 
+ check the  comments on this link. I care about as much as I did yesterday
+ which is not nothing. You and everyone else who demands more will just
+ have to deal with it.
+ -----
+ >fl0wenol 205 days ago | link
+ No; if you don't appreciate something because you suspect you don't 
+ understand or lack context (as you expressed), you should just keep your
+ mouth shut lest you sound like an idiot.
+ -----
+ fyolnish 206 days ago | link
+ To be perfectly honest, you should be sorry.
+ -----
+
+ Leorocky you are kindly forgiven but don't think your attitude has nothing
+ to do with Phrack's article "The Fall of Hacker Groups" [e] if you take 
+ care to read between the lines.  
+
+ But more to the point one comment on facebook really caught my attention :
+
+         "At last a contender for 1K ZX Chess".
+
+|=--[ 2 - The 33 year-old record contender ]=----------------------------=|
+
+|=--[ 2.1 - David Horne - the king
+
+ Wikipedia"s mildly error-prone entry for 1k ZX Chess [5] states simply :
+
+ "1K ZX Chess is a chess-playing computer program for the unexpanded 
+ Sinclair ZX81, created by programmer David Horne.[1] The game implements
+ most chess rules (castling, queening, and en passant capture are missing),
+ artificial intelligence, and a user interface. The code uses only 672 
+ bytes of RAM, making this the smallest computer implementation of chess 
+ on any platform." Along with the faulty release date of 1983 when it was
+ in fact first published in Your Computer magazine when Artic Computing 
+ started selling it in 1982 actually.
+
+|=--[ 2.2 - False claims abound
+
+ I also did some research and nobody had ever beat this small size despite
+ numerous false and misleading claims last years such as mistaking size of
+ memory environment used with the binary footprint, counting total number
+ of sourcecode C characters (Toledo nanochess 18th IOCCC) or interpreted 
+ javascript characters (Tiny Chess JS1k 2010), falsely entitling bigger 
+ sized programs "The world's smallest chess program" on the Google web,or
+ affirming senselessly the brainfart "int main(void){puts("I resign");} is
+ a "legal [playable ?] FIDE chess program" (sic). 
+
+ In fact some person even attempted [f] to convert David Horne's code from 
+ Zilog to x86 for Intel had supposedly published a backward compatibility
+ translator tool called conv86 [0] to no avail and ended coding a virtual
+ machine around original 33 year-old code. So despite 2 honorable mentions
+ for 2 other 1k chess games named Microchess [2] from Peter R. Jennings on
+ the 6502 microprocessor in 1976 and named Tiny Chess 86 [3] for the 80/86
+ from Jan Kuipers in 1981, nobody seems to have ever beaten David Horne's
+ tight 1 kilobyte code. In short, David Horne was already what one calls a
+ hacker in the original sense when he programmed 1K ZX Chess and if it was
+ that easy to beat his work somebody would have done it before, for real.
+
+ The plan was to take what has been referenced in the past and notably by 
+ kuro5hin as "the greatest program ever written" [c]... And half the size,
+ making it available to any IBM PC, knowing any porting attempt was doomed
+ to fail. BootChess took 3 months to write (1 to 3 hours per day at night). 
+ Since October 24th 2014, 239 intermediate different versions were saved.
+
+ Edit : shortly after releasing, the author of Toledo Nanochess, posted a
+ refactored (obfuscated through some inhouse assembler) source code of
+ BootChess claiming to have broken its record of 487 bytes. Despite the 
+ fact that the code is only the final result of the work/research done in
+ BootChess and despite the fact he simply removed the rank and file indexes
+ and not verifying legal moves, he reached 481 bytes. Because the license
+ labelled WTFPL is not exactly put your name on someone else's work, the
+ author did the same overnight and reached 468 bytes. It is a pity but also
+ a sign of the times. In the latest 468-byte version, one must type in the 
+ exact same coordinates as in the previous versions but without having the 
+ indexed row and columns printed out on the screen to help you. WTFPL !
+
+|=--[ 3 - Understanding sizecoding hurdles ]=----------------------------=|
+
+ While similarities between run-time graphical optimizations and BootChess
+ exercise were evoqued herabove, notable exceptions abound for formal rule
+ gameplay such as the game of chess governed by the FIDE organization [b].
+
+|=--[ 3.1 - The forbidden approximations 
+
+ In effect, foremost there exists a tacit rule in the demoscene stating a
+ minor visual discrepancy or code originated non-stylized "glitch" remains
+ acceptable whether present throughout whole presentation or brief moment,
+ particularly for sizeprods. For example, in standard VGA lowres mode 13h,
+ or 320x200 in 256 colors, there are 64000 bytes on the physical screen :
+ if a few of these byte-sized picture elements (pixels) flicker on the 
+ screen due to significantly size-reducing the code through some elaborate
+ or elegant runtime algorithm, the demoparty voting community will accept
+ to turn a blind eye to such practices - not so in a case-based game where
+ even if an algorithm works 95% of the time it must me discarded promptly.
+ The very smartest hacks are thus strictly forbidden. Any side-effect from
+ instruction A will thus break iso-functionality and be considered as game
+ code rule regression instead of arty path choice affecting instruction B.
+
+|=--[ 3.2 - The initial environment
+
+ Secondly there does not exist an official discrete starting assumed cpu 
+ context where the state of each register is properly defined. In graphic
+ sizetros and its prefered platform DOS the starting .com binary format
+ launching register assumptions remain precisely defined in xp sp3 [6] :
+ flags=3202h di=fffeh si=100h bp=091eh sp=fffeh bx=0 dx=6bch cx=0ffh ax=0
+ Hence, knowing that state lends itself to drastic optimizing such as seen
+ in all-time top5 [4] 64-byte textured raymarching intro named "Orbit" [7]
+
+         org 100h         ; COM after PSP original version for comparaison
+         mov al,93h       ; we know ah to be zero
+         int 10h
+         les bp,[bx]      ; we know bx to be zero
+ 
+ Where taking advantage of the assumed known nul bx value at start enables
+ after the last line es=9fffh so that assumed es:di represent the pointer
+ to the start vga video memory 0a000h:0000 when adding a paragraph offset.
+
+|=--[ 3.3 - Some ill-defined standards
+
+ In a bootloader or BIOS to MBR interface you can only count on cs:ip to
+ equal 0:7c00h (even there there are cases of wrong 7c0:000h) and the dl
+ value representing the boot unit (in our floppy/superfloppy case dl=0).
+ As OSDev states "the values in all the other registers, and in most of
+ memory, are undefined" [9] even if one expects the last call to be the
+ read sector(s) into memory function 2 from POST's interrupt 13h [8].
+
+         org 7c00h        ; BIN after POST yielding a 3-byte overhead  
+         mov aX,93h       ; +1 byte we don't know ah to be zero
+         int 10h
+         xor bx,bx        ; +2 bytes ...  
+         les bp,[bx]      ; ... we don't know bx to be zero
+
+ Also a VBR need not explicitely bear the aa55h magic number as defined by
+ legacy IBM PC/AT:
+
+         "[...] while for floppies and superfloppies it is enough to start
+         with a byte greater or equal to 06h and the first nine words not
+         to contain the same value, before the boot sector is accepted as
+         valid." [a]
+
+ But since not all bios makers have been known to be keen in enforcing the
+ retro-compatibility with original version of code one sadly cannot always
+ take advantage of this initial "conforming first 19 bytes" bootable VBR 
+ algorythm  as devised by IBM to gain 2 bytes extra.
+
+ For this reason, BootChess possesses two main precompiling switches. The
+ first switch named "x86" is to make a floppy boot binary image either for
+ a real PC machine or an emulator if set to "1". Setting the "x86" swich is
+ for whom are wanting to make a legacy Dos .com binary which will execute 
+ natively up to Windows7-32bit version (or DOSbox emulator). The second 
+ switch "saf"'s purpose is to circumvent the above mentionned discrepancies
+ on lesser-known exotic BIOS firmware (mainly enforce 0:7c00h startup and
+ still insert boot signature on vbr) when set to "1". When set to "0" the
+ size freed up by these fail-safe mechanisms enables extra implementation
+ of pawn promotion to queen.
+ 
+|=--[ 4 - The heart of the difficulty ]=---------------------------------=|
+
+|=--[ 4.1 - What is not difficult per se
+
+ It is not so difficult to logically program a chess game. The same could 
+ be said about system programming a boot sector or about programming a
+ demoscene sizetro. On the contrary it is a challenge to all 3 at once and
+ the result sourcecode won't do it justice - as a laborious trial-and-error
+ process it is neither pretty nor magic in any sense.
+   
+|=--[ 4.2 - Sixteen different pawn moves ?
+
+ In computer chess programming, the pawn movement is often referred to as
+ a "special case". This euphemism applies to what is considered the dullest
+ chess piece on the board to mediocre chess players like the author : pawns
+ are governed by no less than 16 different conditions (which of first 14 
+ are implemented in BootChess) :
+
+  1.simple square unidirection 1 legal non-capturing vertically ;
+  2.simple square unidirection 2 legal non-capturing vertically ;
+  3.simple square unidirection 1 illegal capturing vertically ;
+  4.simple square unidirection 2 illegal capturing vertically ;
+  5.double square unidirection 1 legal non-capturing vertically ;
+  6.double square unidirection 2 legal non-capturing vertically ;
+  7.double square unidirection 1 illegal capturing vertically ;
+  8.double square unidirection 2 illegal capturing vertically ;
+  9.simple square unidirection 1 legal capturing diagonally ;
+  10.simple square unidirection 2 legal capturing diagonally ;
+  11.simple square unidirection 1 illegal non-capturing diagonally ;
+  12.simple square unidirection 2 illegal non-capturing diagonally ;
+  13.unidirection extreme rank promotion 1 ;
+  14.unidirection extreme rank promotion 2 ;
+  15."en passant" unidirection capture 1 ;
+  16."en passant" unidirection capture 2 ;
+
+  nb : in chess the columns are named "files" and the rows called "ranks"
+
+ In light of what was written in 4.1, and because a common processing path
+ has to be devised for all chess pieces because of size constraints, which
+ includes the five others chess piece types, it is not feasible to simply
+ have a classic exhaustive swithcase scenario to manage the pawn movements.
+ Instead the pawn movements must integrate themselves seemingly within the
+ default case program flow applied to the other pieces however inelegantly.
+
+|=--[ 4.3 - What you get - what you don't
+
+  +you get a graphic text representation of chess board and use input ;
+  +you get a bootsector sized (512 bytes) with a playable chess game ;  
+  +you get a x86 bios hardware only bootstrap (no software dependancies) ;
+  +you get all main legal moves including douvle square pawn start ;
+  +you get pawn promotion to queen (contrary to 1k ZX Chess) ;
+  +you get some cpu ai called taxiMax > minMax half-ply ;
+  +you get a hardcoded Spanish white pieces opening ;
+  +you get a Linux, Windows, OSX, BSD386 machine compatible sourcecode ;
+  +you get the smallest computer chess game ever programmed yet.
+
+  -you don't get fancy graphics (a 16x16 binary sprite is 32 bytes) ;
+  -you don't get under-promotion ;
+  -you don't get "en passant" pawn capture ;
+  -you don't get castling (queen or king side) ;
+  -you don't get the 3-repetition rule ;
+  -you don't get the 50-moves draw rule ;
+  -you don't get opening and closing books ;
+  -you don't get one or more minMax/negaMax full plies for ai.
+
+ If you have read everything up to here, you will have realized we
+ have not taken into account any partition table - the reasons we would
+ rather have a floppy boot record rather than a hard disk boot record,
+ are :
+ +more people are willing to try-out inscribing a floppy then their hdd ;
+ +we get 16 more bytes free (or 64 bytes free in case of multiboot) ;
+ +whether it's BootChess or 1K ZX Chess, both are fun temporary gadgets.
+
+|=--[ 5 - The BootChess program dissected ]=----------------------------=|
+
+|=--[ 5.1 - The TaxiMax ai used
+
+ Usually the heart of any midly advanced computer chess games includes a
+ MinMax function (or its unique call merging sister function NegaMax) 
+ called recursively evaluating both sides' possible moves and trying to 
+ minimize loss whilst maximizing captures : each evaluation pair rundown
+ is called a "ply" in chess jargon. It can take Kasparov some 27 moves to
+ battle a 3-ply and the champion programs competing with grandmasters 
+ usually have at least 5-ply. In the case of BootChess there is alas not
+ enough space (512 bytes binary program size and 640 bytes RAM execution
+ environment) for such level of sophistication. It uses a variant : while
+ maximizing captures it tries to minimize the taxi/Manhattan distance to
+ the opponent's black king rank. This weaker ai element combination will
+ be named "TaxiMax" for the occasion and can be viewed as a half-ply plus.
+
+ Note this hal-ply thus cannot prevent the king to move in check position.
+
+|=--[ 5.2 - The data constants used
+
+ The fixed dataset or constants of BootChess are listed hereunder and 
+ explained thorougly. Even if passive data, they are an essential piece of
+ the code because only their proper required presentation to processing 
+ can allow significant size reduction.
+ The piece type move pointer array contains the differential indexed jumps
+ to the actual list of moves per piece nature. Notice a trick initially 
+ present in 1K ZX Chess : the move offset for the king pointer is the same
+ as the move offset for the queen pointer because only repetition actually
+ differenciates the two :
+ 
+          tab db p-tab,r-tab,n-tab,b-tab,q-tab,q-tab
+
+ Next is the last chessboard ranks common string FIDE representation in 
+ low-caps, followed by the individual equivalent piece value chosen
+ bitmasks : important pieces have high values and vice-versa. Lastly is
+ some fixed-size rle to fill in the pawn and middle ranks sequentially,
+ for the physical board (presentation) and identical-sized logical board 
+ (values) :
+
+          br0 db "rnbqkbnr"
+              db 8,16,32,64,128,32,16,8
+              db 'p',4,'.',0,'.',0,'.',0,'.',0,'P',4
+
+ There is indeed a pattern repeating 4 times in the last line (word 1eh)
+ but remember we are trying to maximize enthropy through the final
+ ratio : data/processing and a mov count/rep movsb "in situ" ontop
+ of the clever algorithms used is bound to > 6 bytes which would be bigger
+ than the 4x2 exploded pattern here - not mentionning having to store
+ at least once the original pattern in both cases.   
+
+ We can already envision from the two variables above how a piece's byte
+ bit position is really an index into the piece type move pointer array.
+ The same piece byte doubles as an easy bitmask lending itself to single
+ byte conditional statements once in the flags register of the x86/x64
+ architecture (?? means reserved below) :
+ 
+          m is movedb4 and cf bit#0 of flags as carry  state (implicit)
+          x is queened and ?? bit#1 of flags forced bitmask  (implicit) 
+          p is pawn    and pf bit#2 of flags as parity state (explicit)
+          r is rook    and ?? bit#3 of flags forced bitmask  (explicit)
+          n is knight  and af bit#4 of flags as adjust state (explicit)   
+          b is bishop  and ?? bit#5 of flags forced bitmask  (explicit)
+          q is queen   and zf bit#6 of flags as zero state   (explicit)
+          k is king    and sf bit#7 of flags as sign state   (explicit)  
+
+ The least significant bit is explicitely unused : BootChess uses it to
+ remember if a piece has already been moved once (for example the pawns
+ can only move 2 squares on their very first move and only horizontally).
+
+ An example of the advantage of this choice of bit encoding follows : 
+
+          and ah,11111101b ; put aside promoted piece
+          sahf ; 1 byte opcode (hi-byte accumulator in lo-byte flags) 
+          jc movedB4
+          jp isPawn
+          ja isKnight
+          jq isQueen
+          jk isKing
+          jmp isRookOrBishop
+
+ Knowing the rook and bishops are really not the most problematic cases 
+ hence not the most often condition-tested pieces in programming a chess
+ game.
+
+ The piece nature allowed legal moves are stored just behind and pointed to
+ by the individual tab pointers described earlier :     
+
+   bit#2 pf=04 with p[6]=r[0] overlay :
+          p db 2,3,-10h,-15,-17,10h,15
+   bit#3 ??=08 with r[5]=n[0] overlay :
+          r db 17,4,10h,-1h,-10h
+   bit#4 af=16 with n[9]=b[0] overlay :
+          n db 1,8,1fh,21h,12h,-0eh,-1fh,-21h,-12h
+   bit#5 ??=32 with b[5]=q[0] overlay
+          b db 0eh,4,-0fh,11h,-11h
+   bit#6 zf=64 k=q except k[0]=1 : 
+          q db 0fh,8,10h,11h,0fh,1h,-10h,-11h,-0fh,-1h 
+
+ This calls for several remarks. Firstly, the leading words represent 
+ respectively the number of repeats for every piece move listed followed
+ by total number of total moves, followed by the moves themselves. Each
+ move is encoded as a single byte linear index displacement (versus two
+ byte vectorized coordinates) and can only be applied to the first physical
+ board ; that is not a problem for we are using a so-called "0x88 board",
+ one of the 3 main techniques to encode a chess board state along with the
+ well-known "10x10 boards" and "bitboards" : 
+
+                    The "0x88 board"
+
+            physical board   logical board
+           - - - - - - - - - - - - - - - -  
+          |    8 bytes->  |    8 bytes->  |
+
+ With the 0x88 representation, several tricks can be used and exhaustively
+ evoking eaxh is beyond the scope of this article. The most interesting one
+ is simply it bears the ability to test in a single call if a piece tried
+ to move out of the bounds of the limits of the board :
+
+          test al,88h    ; if lo-accumulator=moveOld+moveNew*repeats
+          jnz outOfBoard ; pretty elegant 
+           
+ But why are the number of moves and repeat per moves numbers all wrong ?
+ It is because of the overlays used to gain extra bytes : the end byte of
+ one variable (last move value) doubles as the beginning byte of the next
+ variable (number of repeats). As long as that overlay value is superior
+ or equal to the legitimate number of repeats it will be stopped in the
+ adding loop by the outOfBoard test : hence the re-ordering of the moves
+ themselves per variable when the last value did not conform (the order
+ of the tested possible moves have no incidence on the outcome evaluation
+ results as there is no alpha-pruning) :
+         
+          p[6]=r[0] overlay : 17>7  => r[0]=7  0x88 test overriden  
+          r[5]=n[0] overlay : 1=1   => n[0]=1  implicit test uneeded
+          n[9]=b[0] overlay : Oeh>7 => b[0]=7  0x88 test overriden
+          b[5]=q[0] overlay : 0fh>7 => q[0]=7  0x88 test overriden
+          k=q except if SF=1 then   => k[0]=1  explicitely overidden
+
+ Surprisingly not encoding the symetric values in piece moves relying on
+ run-time code to apply symetry do not yield any satisfiable size code
+ reduction whilst maintaining processing simplicity of pawns' special case.
+
+ Next follows the "files" index coordinate static string (the right hand
+ side "ranks" vertical coordinate string is created at run-time) :
+
+          bf1 db "abcdefgh"
+ 
+ the Ruy Lopez/Spanish opening is hardcoded as if was initally typed by
+ the user (or the computer) for whites' first turn to play. It is simply
+ recognized by most as the statistically most effective opening to date :
+
+          num db "e2e4"
+
+ Since the legacy bios/efi x86/x64 can also be tested as a Dos 16-bit
+ .com file up to the 32-bit version of Win7 with a compatible shortcut :
+
+          if x86               ; if x86 boot context environment
+           sig db 55h,0aah     ; boot signature magic string
+          end if               ; end of conditional preprocessing
+
+|=--[ 5.3 - The program flow explained
+
+ The main code flow obliges us to think in terms of "thunking". It must be
+ simple in its devising and have main robust intersections. The main thunk
+ is hence the user keyboard input interface. Whatever the player turn is,
+ whatever routine is currently called it must always solely rely on generic 
+ apprehending of the last bottom line formatted as so :
+                         
+          frFR : old file/old rank/NEW FILE/NEW RANK (in low-caps)
+
+ The <frFR> string is used as a placeholder when the computer tests all
+ the different combinations possible, then a coordinates to linear index
+ routine is called for displacements and global verification is applied. 
+
+        1.if blacks then test keyboard input conforming
+          if whites then skip test
+
+        2.if blacks then skip possible move projection
+          if whites then do move possible projection
+
+        3.if whites' turn then evaluate (see below)
+
+        4.if blacks then verify move conforming
+          if whites then verify move conforming
+
+        5.if esc key or king is destination of legal move then exit
+          else player=player xor turn and goto 1 
+
+ Below is the pseudo-code explaining BootChess' main loop design :
+
+        for allPossiblemovesRanks
+         for allPossiblemovesFiles
+          possSrcIdx=getLinearIndex(possSrcMovesRank;PossSrcMovesFile)
+          possDstIdx=getLinearIndex(possDstMovesRank;PossDstMovesFile)
+          verify |possDstIdx-possSrcIdx| belongs to piece nature move array
+          if (possSrcIdx;possDstIdx) is valid legal move then
+           srcIdx=getLinearIndex (of first 2 bytes of keyboard input string)
+           dstIdx=getLinearIndex (of last 2 bytes of keyboard input string)
+           if srcIdx=possSrcIdx && dstIdx=possDstIdx then goto found 
+            found:goto evaluate (see 3. below)
+           else skip found 
+         next allPossiblemovesFiles
+        next allPossiblemovesRanks
+        goto notfound
+
+ Once a piece is found :
+    
+        3.if whites' turn then evaluate as followed :
+
+          if pieceValue>best then best=pieceValue
+           dword of internal input str=dword of keyboard input str 
+          else if found=true and dword of keyboard input str="????" then
+           if rank(dst of keyboard input)>rank(dst of internal input)  
+            dword of internal input str=dword of keyboard input str 
+       
+
+ Lastly after this exhaustive state search :
+          overwrite keyb input str dword with internal input str dword
+          goto switch move
+          if king is dst index then checkmate
+
+|=--[ 5.4 - Analysing random snippet
+
+ The ai strategy as the pseudo-code program-flow have been covered. Lastly
+ and before giving BootChess' full commented listing hereunder, we analyse
+ a mildly complex random snippet for the sole purpose of presenting some 
+ specific programming practices exclusively governed by the need to reduce
+ its final binary footprint. 
+
+ We will examin the program's foremost innerloop, executed 4096 times per
+ player turn (rankSrc*fileSrc*rankDst*fileDst) to test whether the computer
+ move is not only legal chess-wise but also and if it's the best possible :
+
+                for(rankSrc=0 to 7)
+                 for(fileSrc=0 to 7) innerloop1
+                  for(rankDst=0 to 7) innerloop2
+                   for(fileDst=0 to 7) innerloop3
+                    snippet    /*<-------- i.e this part */
+                   next fileDst
+                  next rankDst
+                 next fileSrc
+                next rankSrc
+
+ Remember x86 registers are scarse but it is also best to avoid using more
+ than single byte stack calls : pushxx/popxx or pusha/popa if number of 
+ registers to restore is 2 or above (if feasible). Also remember stack 
+ addressing is not necessarily smaller method of accessing range of data 
+ when out of registers and it monopolyses base pointer BP which BootChess
+ monopolyzes to:
+                1) keep mutex of player turn (0=whites 3=blacks) ;
+                2) as zero assign for smaller reg,reg than reg,imm ;
+                3) as pawn movement unidirectional delta displacement.
+
+ Starting memory state : 509 510 511 512 513 514  org 7c00h
+                .___.___.___.___.___.___.___.___.
+                |   |   |   |   |   |   |   |   |  
+ num=0:7dfb     |'e'|'2'|'e'|'4'|55h|aah| ? | ? | Spanish opening + bootsig 
+                |___|___|___|___|___|___|___|___|
+                |   |   |   |   |   |   |   |   |  
+ brd=0:7c00h+515|'r'|'n'|'b'|'q'|'k'|'b'|'n'|'r'|  
+                |___|___|___|___|___|___|___|___| rank 8 ascii physical
+                |   |   |   |   |   |   |   |   |  
+ brd+8          |08h|10h|20h|40h|80h|20h|10h|08h|  
+                |___|___|___|___|___|___|___|___| rank 8 "0x88" logical
+
+ Runtime memory state at player keyboard input time :
+
+                 507 508 509 510 511 512 513 514  org 7c00h
+                .___.___.___.___.___.___.___.___.
+                |   |   |   |   |   |   |   |   |  
+ num=0:7dfb     |'?'|'?'|'?'|'?'|'?'|'?'|'?'|'?'| "????????" prompt string 
+                |___|___|___|___|___|___|___|___|
+                |   |   |   |   |   |   |   |   |  
+ brd=0:7c00h+515|'r'|'n'|'b'|'q'|'k'|'b'|'n'|'r'|  
+                |___|___|___|___|___|___|___|___| rank 8 ascii physical
+                |   |   |   |   |   |   |   |   |  
+ brd+8          |08h|10h|20h|40h|80h|20h|10h|08h|  
+                |___|___|___|___|___|___|___|___| rank 8 "0x88" logical
+
+ Runtime memory state in snippet loop time when no legal chess move found :
+
+                 507 508 509 510 511 512 513 514  org 7c00h
+                .___.___.___.___.___.___.___.___.
+                |idx|idx|idx|idx|   |   |   |   |  
+                |fil|rnk|fil|rnk|'?'|'?'|'?'|'?'| innerloops idx / residue
+ num=0:7dfb     |src|src|dst|dst|   |   |   |   |  
+                |___|___|___|___|___|___|___|___|
+                |   |   |   |   |   |   |   |   |  
+ brd=0:7c00h+515|'r'|'n'|'b'|'q'|'k'|'b'|'n'|'r'|  
+                |___|___|___|___|___|___|___|___| rank 8 ascii physical
+                |   |   |   |   |   |   |   |   |  
+ brd+8          |08h|10h|20h|40h|80h|20h|10h|08h|  
+                |___|___|___|___|___|___|___|___| rank 8 "0x88" logical
+
+ Runtime memory state in snippet loop time when legal chess move found :
+
+                 507 508 509 510 511 512 513 514  org 7c00h
+                .___.___.___.___.___.___.___.___.
+                |idx|idx|idx|idx|bst|bst|bst|bst| 
+                |fil|rnk|fil|rnk|fil|rnk|fil|fil| innerloops idx / best idx
+ num=0:7dfb     |src|src|dst|dst|src|src|dst|dst|  
+                |___|___|___|___|___|___|___|___|
+                |   |   |   |   |   |   |   |   |  
+ brd=0:7c00h+515|'r'|'n'|'b'|'q'|'k'|'b'|'n'|'r'|  
+                |___|___|___|___|___|___|___|___| rank 8 ascii physical
+                |   |   |   |   |   |   |   |   |  
+ brd+8          |08h|10h|20h|40h|80h|20h|10h|08h|  
+                |___|___|___|___|___|___|___|___| rank 8 "0x88" logical
+
+ Entering snippet : si=num and di=brd=num+8 
+
+       snippet: call idx        ; passive chess coords to linear indexes
+                jbe  mis        ; white move src color not conforming
+                push bx         ; save white move dst idx
+                call ver        ; white move legal chess ?
+                pop bx          ; restore white move dst idx
+                jc mis          ; white move not legal chess
+                mov di,num+3    ; compare move destination rank in 7dfeh 
+                inc si          ; with move source rank in 7dfch 
+                cmpsb           ; is taxi distance to topmost bettered ? 
+                jnc wor         ; else not getting closer to black king
+                cmp _b [di],'?' ; does any fallback move exist yet ?
+                jz lkj          ; no, then last valid move good enough
+       wor:     mov aL,_b[si+bx+brd-num-'a'+6]; prevs valid exists
+                dec aL          ; only override if it's a capture 
+                js mis          ; no, don't want worse taxi distance  
+                mov bx,fs       ; it's a capture with piece value=al
+                cmp bL,aL       ; but hightest capture value yet ?
+                jnc mis         ; no, less important opponent piece 
+      max:      mov fs,bx       ; fs=best move yet in taxi half-ply
+      lkj:      dec si          ; realign source index 
+                dec si          ; to copy dword bst=dword idx 
+                movsd           ; after 4096 tries : move=dword bst
+
+ Runtime memory state after snippet loop time when legal chess move chosen:
+
+                 507 508 509 510 511 512 513 514  org 7c00h
+                .___.___.___.___.___.___.___.___.
+                |bst|bst|bst|bst|bst|bst|bst|bst| 
+                |fil|rnk|fil|rnk|fil|rnk|fil|fil| best idx / best idx
+ num=0:7dfb     |src|src|dst|dst|src|src|dst|dst|  
+                |___|___|___|___|___|___|___|___|
+                |   |   |   |   |   |   |   |   |  
+ brd=0:7c00h+515|'r'|'n'|'b'|'q'|'k'|'b'|'n'|'r'|  
+                |___|___|___|___|___|___|___|___| rank 8 ascii physical
+                |   |   |   |   |   |   |   |   |  
+ brd+8          |08h|10h|20h|40h|80h|20h|10h|08h|  
+                |___|___|___|___|___|___|___|___| rank 8 "0x88" logical
+
+ TaxiMax :
+ A valid non-capture move cannot override any capture-move because of encoding
+ for max vertical taxi distance is always inferior to min capture piece value
+
+                max vertical taxi distance = 7...
+                ...min piece capture value = 8
+
+ Except for pawns whose 4 value (or 5 if moved once) prevents pawn bait-traps
+ to a certain point.
+
+|=--[ 6 - The source code ]=------------------------------------------------=|
+
+|=--[ 6.1 - FAQ and remaining questions
+
+ Q : How to assemble and test BootChess on real hardware ?
+ A : download program "fasm" flat assembler 16-bit version
+     1)assemble with "fasm BootChess.asm"
+       make sure preprocessor flag "x86 equ 1" in BootChess.asm
+     2)write physical floppy boot sector as above
+       on Linux type "dd if=BootChess.bin /dev/fd0 bs=512 count=1"
+       on Windows type "partcopy BootChess.bin 0 200 -f0"
+       or type "dd.exe if=BootChess.bin of=\\.\a: bs=512 count=1"
+     3)set BIOS boot order 1st Boot Device to "Floppy" and reboot
+     BootChess launches...
+
+ Q : How to assemble and test BootChess on PC emulator Bochs 2.6 ?
+ A : download program "Bochs 2.6 for x86" for windows
+     1)assemble with "fasm BootChess.asm"
+       make sure preprocessor flag "x86 equ 1" in BootChess.asm
+     2)write physical floppy boot sector as above
+       "dd if=/dev/zero of=floppy.img bs=512 count=2880"
+       "dd if=c:\chess\BootChess.bin of=floppy.img bs=512 count=1"
+     3)launch Bochs 2.6
+        when "Bochs Start Menu" window appears 
+         select "Disk & Boot" in "Edit Options"
+         click on "Edit" button in "Configuration" 
+         when "Bochs Disk Options" window appears,
+         in "First Floppy Drive" :
+         in "Type of floppy drive" select "3.5" 1.44M"
+         in "First floppy image/device" 
+         click "Browse" button : "floppy.img"
+         check "Inserted" checkbox
+         click "OK" button
+         back to "Bochs Start Menu" window, 
+         in "Simulation" click "Start" button
+     BootChess launchs...
+
+ Q : How to assemble and test BootChess on dos/xps3/win7-32b ?
+     1)assemble with "fasm BootChess.asm"
+       make sure preprocessor flag "x86 equ 0" in BootChess.asm
+     2)click on BootChess.com or type "BootChess.com" in pure dos
+        nb : under win7v32 you will need to create a prior shortcut and 
+        set xp backward compatibility and allow full-screen explictely
+     BootChess launches...
+
+ Q : How to assemble and test BootChess on DOSBox 0.74 ?
+     +on DOSBox 0.74 :
+       1)assemble with "fasm BootChess.asm"
+         make sure preprocessor flag "x86 equ 0" in BootChess.asm
+       2)launch DOSBox 0.74 and type "mount a: c:\chess" in console
+         "Drive A is mounted as local directory c:\chess\"
+       3)in DOSBox 0.74 console type "Z:\>a:"
+         "A:\>"
+       4)in DOSBox 0.74 console type "BootChess.com"  
+       BootChess launchs...  
+
+ Q : Can one compress BootChess with a XT compatible packer such as aPACK?
+ A : No, despite what Wikipedia claims, packers can never beat the humain
+     brain, even the best 16-bit packer for years :
+     C:\chess>apack -v -x BootChess.com
+       - Code size    : 508 bytes
+     ? Packing code                 -> 521 bytes
+     ? Code mover added             -> 20 bytes
+     ? Depacker added               -> 99 bytes
+     Done ... compression ratio: -25% (508 bytes -> 640 bytes)
+
+|=--[ 6.2.a - BootChess.asm v 0.1 487b
+
+;----------RED-SECTOR-INC.-proudly-presents-a-33-year-old-record-:----------
+;                   ___ _
+;                  /     /         _____ _ _      _____ _ _        ___ _
+;     .::.        /     /         /     /  /     /     /  /       /     /
+;     ::::       /     / ____  .-/   _ ___/-. .-/   _ ___/-.     /     /__
+;      ::       /            \ |    |  .    | |    |  .    |    /        /
+;      ::            __ _     \     l  |    | |    l  |    |   /     ___/
+;     .::.    /     /   /     /     |  l    |_|    l  |    |__/     / ____
+;    .::::.        / __/            `--'           `--'            /      |
+;   ::::::::                /                               /             |
+;                    ___ __    Cl!   ___ ___ /      ___ _ _             __|
+;        ___ _ _    /   __/_ __  _ _/      _/_   _ /_  /  /        ___ /__
+;     /_/   /  / / /   / /            _____/ /  / /    __/      _ /   /  /
+;  .-/     ___/   /     /______         /      ___\    \___    / /    __/
+;  |      /      /     /       |     __/ ___  |    \       |  ___\    \___
+;  |     /  ____               |    /       | |   _/       | |    \       |
+;  |    /--/    |     ___/     |            | |            | |   _/       |
+;  |            |    /  /  ::  | ____/  ::  | |  ::  \_____| |            |
+;  |_____/  ::  | __/  /_______|    /_______| |_______\      |  ::  \_____|
+;       /_______|     /___ _       /___ _         _ ___\     |_______\
+;      /___ _                                                    _ ___\
+; BootChess is the smallest computer implementation of chess on any platform
+; Chess in a 512-byte x86 boot sector for Windows / Linux / OS X / DOS / BSD
+; Coded by Olivier "Baudsurfer/RSi" Poudade with extra help of Peter "QKumba"
+; Ferrie. Logo by Frederic "Cleaner/Break" Cambus. (c)2015 WTFPL v2 license. 
+; "Fasm BootChess.asm" + "partcopy BootChess.bin 0 200 -f0" = PC floppy boot 
+;-BootChess.asm-------------------;-----------------------------------------
+x86 equ 1                         ; x86=1 PC/emu vs. win32b/(DOS)Box
+saf equ 0                         ; saf=0 +queening -exotic failsafe 
+_b equ byte                       ; DEFAULT SETTINGS ABOVE ARE FOR A
+_w equ word                       ; STANDARD PC BOOTSECTOR +QUEENING 
+_d equ dword                      ; x86=1 saf=0 512b  inc.  queening
+_s equ short                      ; x86=1 saf=1 500b+ excl. queening  
+_n equ near                       ; x86=0 saf=1 506b  inc.  queening
+_f equ far                        ; x86=0 saf=0 487b  excl. queening
+    if x86                        ; beg of boot vs .com preprocessing
+    org 7c00h                     ; std start of bootsector after post
+    if saf                        ; beg clear any start ambiguous segment
+    jmp _f 0:fix                  ; 7c0:0000 vs. 0:7c000 cs para fix-up
+    end if                        ; end clear any start ambiguous segment  
+fix:push cs                       ; if post int 19h isr bootsrap loader 
+    pop ds                        ; left any bda or shadow segment values 
+    push cs                       ; then enforce ds=cs=0  
+    pop es                        ; then enforce es=ds=cs=0
+    mov aX,13h                    ; function set vga mode 320x200x256
+    else                          ; else if 16-bit binary assume ah=0
+    org 100h                      ; start of com binary program ip
+    mov aL,13h                    ; function set vga mode 320x200x256
+    end if                        ; end of boot vs .com preprocessing
+    int 10h                       ; standard bios video api
+    brd equ bf1+16                ; chess board at end of sector
+    mov di,brd                    ; set physical board index
+    mov bp,12                     ; set 6x8+8 empty sqr mid board lines
+    call in2                      ; pass#1 black "rnbqkbnr" low-caps
+    push word opn                 ; pass#2 hi-caps whites & fall-through
+rle:lodsb                         ; al='.'/al=null (fixed length rle)
+    mov cl,8                      ; empty sqr mid board line length
+    rep stosb                     ; set one empty sqr mid board line
+    dec bp                        ; all empty sqr mid brd lines inited ?
+    jnz rle                       ; if not repeat init else bp=0 assumed
+    mov ah,'A'-'a'                ; fall-through pass#2 white hi-caps
+in2:mov si,br0                    ; si points to endrank "rnbqkbnr" str
+    if x86=0                      ; if .com binary environment ch=0
+    mov cL,8                      ; "rnbqkbnr" endrank str length
+    else                          ; assume nothing although tempting 
+    mov cX,8                      ; "rnbqkbnr" endrank str length
+    end if                        ; end of register ch startup value
+in3:lodsb                         ; read physical board str car
+    add al,ah                     ; hi-caps rank 1 / low-caps rank 8
+    stosb                         ; write physical board str car
+    loop in3                      ; all "rnbqkbnr" str car written ?
+    mov cl,8                      ; si-;equiv piece vals di-;0x88 brd
+    rep movsb                     ; write logical 0x88 board str vals
+    retn                          ; return to callers
+ge0:mov bx,di                     ; physical board idx (bx=brd)
+    mov dh,'1'                    ; beg white move src rank
+ge1:mov dl,'h'                    ; beg white move src file
+ge2:mov [si],dx                   ; beg white move src str
+    mov ch,'1'                    ; beg white move dst rank
+ge3:mov cl,'h'                    ; beg white move dst file
+ge4:mov [si+2],cx                 ; beg white move dst str
+    pusha                         ; save all values
+    call idx                      ; passive chess coords to linear indexes
+    jbe  mis                      ; white move src color not conforming
+    push bx                       ; save white move dst idx
+    call ver                      ; white move legal chess ?
+    pop bx                        ; restore white move dst idx
+    jc mis                        ; white move not legal chess
+    mov di,num+3                  ; compare move destination rank in 7dfeh 
+    inc si                        ; with move source rank in 7dfch 
+    cmpsb                         ; is taxi distance to topmost bettered ? 
+    jnc wor                       ; else not getting closer to black king
+    cmp _b [di],'?'               ; does any fallback move exist yet ?
+    jz lkj                        ; no, then last valid move good enough
+wor:mov aL,_b[si+bx+brd-num-'a'+6]; yes, previous valid legal exist so 
+    dec aL                        ; only override if it's a capture 
+    js mis                        ; no, don't want worse taxi distance  
+    mov bx,fs                     ; it's a capture with piece value=al
+    cmp bL,aL                     ; but hightest capture value yet ?
+    jnc mis                       ; no, less important opponent piece 
+max:mov fs,bx                     ; fs=best move yet in taxi half-ply
+lkj:dec si                        ; realign source index 
+    dec si                        ; to copy dword bst=dword idx 
+    movsd                         ; after 4096 tries : move=dword bst
+mis:popa                          ; restore all values
+    cmp cl,'a'                    ; end white move dst file ?
+    loopnz ge4                    ; dec white move else next dst file
+    inc ch                        ; inc white move dst rank
+    cmp ch,'9'                    ; end white move dst rank ?
+    jnz ge3                       ; else next move dst rank
+cpx:inc bx                        ; inc physical board index
+    dec dx                        ; dec white move src file
+    cmp dl,'`'                    ; end white move src file ?
+    jnz ge2                       ; else next move src file
+    inc dh                        ; inc white move src rank
+    cmp dh,ch                     ; end white move src rank ? ch=9
+    jnz ge1                       ; else next move src rank
+    push _d [si+4]                ; get best white move found
+    pop _d [si]                   ; set it as final white move
+val:mov cl,'.'                    ; valid : empty sqr replaces src piece
+    call act                      ; active chess coords to linear indexes
+    xor bp,3                      ; player turn and pawn unidir. delta
+    jz ge0                        ; white turn to play (case best=0)
+bla:mov al,'?'                    ; input str clear pattern
+    mov di,si                     ; input str clear pattern (di=num)
+    mov cx,8                      ; input str clear pattern
+    rep stosb                     ; input str clear pattern (di=brd)
+    call key                      ; get user keyboard input
+    jbe bla                       ; black move src color not conforming
+opn:call ver                      ; di=brd, black move legal chess ?
+    jc bla                        ; white move not legal chess
+    jmp _s  val                   ; validate black move
+ver:call idx                      ; get lin indexes /w implicit passive
+    xchg bx,dx                    ; switch bx=dst idx dx=src idx
+    mov ah,[si+bx+brd-num-'a'+8]  ; get piece logical 0x88 brd val...
+    mov dh,bl                     ; dh=src idx dl=dst idx
+    sub dx,"aa"                   ; get move file zero-based indexes
+    bsr bx,ax                     ; scan for 1st bit set (si=idx+10)
+    movsx bx,[si+bx-10-num+tab]   ; bl=moved piece type idx (bh=0)
+    mov cx,_w [si+bx-num+tab]     ; piece type deltas cl=repeats ch=num
+    sahf                          ; set piece logical 0x88 brd val  
+    jnp sp1                       ; branch if piece not pawn (bit#4!=1)
+    jc sp2                        ; branch if pawn prev moved (bit#0=1)
+sp1:jns sp3                       ; branch if piece not king (bit#7!=1)
+sp2:mov cl,1                      ; override repeat if piece pawn or king
+sp3:jnp sp4                       ; branch if piece not pawn (bit#4!=1)
+    add bx,bp                     ; pawn player turn unidirection mutex
+sp4:inc bx                        ; advance piece type struct field ptr
+    and ah,11111100b              ; isolate piece bitmask only 
+vl1:push cx                       ; save piece type deltas
+    mov al,dh                     ; load start dst idx val
+    inc bx                        ; advance piece type struct field ptr
+vl2:add al,[si+bx-num+tab]        ; add this piece delta to dst idx val
+    xchg aL,bL                    ; base reg=dst idx val and preserved
+    mov ch,[si+bx+brd-num+8]      ; read projected dst square val
+    xchg aL,bL                    ; base reg=piece type struct field ptr
+    cmp al,dl                     ; wanted move found (src+delta(s)=dst) ?
+    jnz dif                       ; different than requested move
+sam:sahf                          ; get piece logical 0x88 brd val in flgs
+    jnp yes                       ; branch if piece is not pawn (bit#2=0)
+    test [si+bx-num+tab],1        ; pawn piece delta parity=diag vs. vert
+    jz ord                        ; branch if pawn piece moving vert
+    test ch,ch                    ; pawn piece vert move=;eating ?
+    jnz yes                       ; capturing verify dst sqr not empty
+    jmp _s bad                    ; else illegal chess move is a miss
+ord:test ch,ch                    ; pawn piece vert move=;no eating ?
+    jz yes                        ; no eating=;empty dst sqr else illegal
+dif:sahf                          ; store piece nature in flags register
+    jnp skp                       ; not pawn piece so skip direction test
+    test [si+bx-num+tab],1        ; pawn piece delta parity=diag vs. vert
+    jnz bad                       ; diagonal pawn move is illegal
+skp:test ch,ch                    ; else skipping over dst square val ?
+    jnz bad                       ; projected dst sqr val is not empty
+    sahf                          ; get piece logical 0x88 brd val in flgs
+    jz x88                        ; branch if piece is queen (bit#6=1)
+    jna bad                       ; branch if piece is not knight(bit#4=0)
+x88:test al,88h                   ; ch=0 dst out of physical board limits?
+    loopz vl2                     ; else cont if delta repeats remain
+bad:pop cx                        ; restore piece type deltas
+    dec ch                        ; all possible delta nums verified ?
+    jnz vl1                       ; if not then cont next delta type
+nok:stc                           ; else return /w no match flg set
+    retn                          ; return to caller
+yes:pop cx                        ; correct entry sp and disregard count
+    retn                          ; return to caller(s)
+key:call prt                      ; refresh screen to account input echo
+    xor bx,bx                     ; bx=str idx=odd/even/alpha/num mutex
+kbd:cbw                           ; fun blocking wait for keystroke (ah=0)
+    int 16h                       ; std bios keybd api (ah=scan al=ascii)
+esc:dec ah                        ; was esc key pressed to quit ?
+    jnz car                       ; else default process key input
+xit:if x86                        ; if x86 boot context environment
+    int 19h                       ; exit through bootstrap to reboot cpu
+    else                          ; else if .com 16-bit binary
+    int 20h                       ; dos 1+ - terminate program
+    end if                        ; end of exit methods (os load or shell)
+car:mov [bx+si],al                ; sav ascii val to move string (si=num)
+prt:pusha                         ; save game state snapshot
+    cwd                           ; curs location dx=(0,0)=(row,column)
+    mov ax,1301h                  ; function ega write str write mode 1
+    mov bl,7                      ; page 0 grey car attrib matching tty
+    mov cl,8                      ; src str lngth (curs updated horiz)
+    mov bp,bf1                    ; es:bp is "abcdefgh" ptr
+lns:int 10h                       ; standard bios video api
+    add bp,16                     ; bp=para step siz separating strings
+    push ax                       ; save old bios video api func params
+    mov ax,0e39h                  ; function teletype outp car=rank '9'
+    sub al,dh                     ; decrement right handside rank value
+    int 10h                       ; standard bios video api
+    pop ax                        ; restore old bios video api fx params
+    cmp dh,cl                     ; src str total (curs updated vert)
+    inc dh                        ; preemptive off-by-one allows 9 verts
+    jc lns                        ; all 9 brd gui row strings printed ?
+    mov bp,si                     ; 10th row tail bp=move coords, cl=8
+    int 10h                       ; standard bios video api
+    popa                          ; restore game state snapshot
+    inc bx                        ; test if any more keys ?
+    cmp bl,4                      ; frFR format input string
+    jc kbd                        ; else continue input 
+idx:loop idx                      ; ch=0 passive call load src/dst lin idx
+act:mov si,num                    ; reinit si to point to coord input str.
+    mov bx,[si]                   ; bx=src coord (pass#1)
+    cbw                           ; empty sqr val in logical 0x88 board
+    call put                      ; place param passed as fun pass#1
+    mov dx,[si+2]                 ; bx=dst idx dx=src idx
+    xchg bx,dx                    ; fall-through for second pass
+    push word mat                 ; test for checkmate and conforming
+put:xchg ax,bx                    ; bx|dx=[num+di]+16*((8-'0')-[num+di+1])
+    aad -10h                      ; shl ah,4/sub al,ah/xor ah,ah
+    add al,80h                    ; bx|dx=al-640%256-16*ah
+    xchg ax,bx                    ; bx|dx=al+128-16*ah
+    jcxz sim                      ; active call request or simulation ?
+    if saf=0                      ; standard non-failsafe queening
+    cmp _b [si+3],'8'             ; validated dst rank is top-most ?    
+    jz qq                         ; if so then promote pawn to queen
+    cmp _b [si+3],'1'             ; validated dst rank is bottom-most ?
+    jnz prm                       ; if not no pawn queening promotion
+qq: sahf                          ; store piece nature in flag register
+    jnp prm                       ; no pawn queening promotion  
+    xor ah,01000110b              ; transform p to promoted queen
+    inc cx                        ; queen promotion p2q or P2Q
+    end if                        ; end of conditional queening
+prm:xchg ah,[si+bx+brd-num-'a'+8] ; update piece logical 0x88 board val
+    xchg cl,[si+bx+brd-num-'a']   ; update piece physical board ascii val
+    or ah,1                       ; update piece moved once (bit#0)
+sim:retn                          ; return to caller(s)
+mat:sahf                          ; catured piece king and mate ?
+    js xit                        ; if piece is king then game is over
+    call chk                      ; move src color conforming ?
+    jnz nok                       ; move src color not conforming
+chk:xchg bx,dx                    ; src idx <- dst idx
+    mov al,[si+bx+brd-num-'a']    ; pass#1:src idx pass#2:dst idx di=brd
+    xor _b [si+len-num],8         ; self-modif 8/26 val=[1;8]/[a(A);z(Z)]
+    mov cl,-'a'                   ; assert black piece car interval
+    test bp,bp                    ; test whose turn it is to play
+    jnz lim                       ; assert white piece car interval
+    mov cl,-'A'                   ; al=ascii value cl=-(lower boundery)
+lim:xadd al,cl                    ; tmp=al+cl cl=al al=tmp +fall-trough
+    db 0d4h                       ; aam <self-modified value>
+len:db 12h                        ; ah=al/8 al%=8
+    mov al,cl                     ; al=restored ascii value
+    test ah,ah                    ; set/clear zf=0 success zf=1 failure
+    retn                          ; return to caller(s) nb: destroys ah
+tab db p-tab,r-tab,n-tab,b-tab    ; piece type mov offset array
+    db q-tab,q-tab                ; note original 1K ZX Chess q=k trick
+br0 db "rnbqkbnr",8,16,32,64,128  ; end rank pattern + beg piece values
+    db 32,16,8,'p',4,'.',0,'.',0  ; end piece values + beg mid board reps
+    db '.',0,'.',0,'P',4          ; ... end mid board reps
+p   db 2,3,-10h,-15,-17,10h,15    ; bit#2 pf=04 p[6]=r[0] overlay
+r   db 17,4,10h,-1h,-10h          ; bit#3 ??=08 r[5]=n[0] overlay
+n   db 1,8,1fh,21h,12h,-0eh,-1fh  ; bit#4 af=16 n[9]=b[0] overlay
+    db -21h,-12h                  ; ... end of knight moves list
+b   db 0eh,4,-0fh,11h,-11h        ; bit#5 ??=32 b[5]=q[0] overlay
+q   db 0fh,8,10h,11h,0fh,1h,-10h  ; bit#6 zf=64 k=q except k[0]=1
+    db -11h,-0fh,-1h              ; ... end of queen/king moves list
+bf1 db "abcdefgh"                 ; gui file index string
+num db "e2e4"                     ; hardcoded Ruy Lopez opening
+    if saf and x86                ; x86 failsafe exotic boot environment
+    times 510-($-$$) db 0         ; nul padding if necessary
+    org 7df0h                     ; boot signature vbr/mbr standard offset
+    sig db 55h,0aah               ; magic number no-endian boot signature
+    end if                        ; end of conditional failsafe signature
+
+|=--[ 6.2.b - BootChess.asm v 0.2 468b
+
+;----------RED-SECTOR-INC.-proudly-presents-a-33-year-old-record-:----------
+; 468-byte footprint___ _       "...The original chess game in a bootsector"
+;                  /     /         _____ _ _      _____ _ _        ___ _
+;     .::.        /     /         /     /  /     /     /  /       /     /
+;     ::::       /     / ____  .-/   _ ___/-. .-/   _ ___/-.     /     /__
+;      ::       /            \ |    |  .    | |    |  .    |    /        /
+;      ::            __ _     \     l  |    | |    l  |    |   /     ___/
+;     .::.    /     /   /     /     |  l    |_|    l  |    |__/     / ____
+;    .::::.        / __/            `--'           `--'            /      |
+;   ::::::::                /                               /             |
+;                    ___ __    Cl!   ___ ___ /      ___ _ _             __|
+;        ___ _ _    /   __/_ __  _ _/      _/_   _ /_  /  /        ___ /__
+;     /_/   /  / / /   / /            _____/ /  / /    __/      _ /   /  /
+;  .-/     ___/   /     /______         /      ___\    \___    / /    __/
+;  |      /      /     /       |     __/ ___  |    \       |  ___\    \___
+;  |     /  ____               |    /       | |   _/       | |    \       |
+;  |    /--/    |     ___/     |            | |            | |   _/       |
+;  |            |    /  /  ::  | ____/  ::  | |  ::  \_____| |            |
+;  |_____/  ::  | __/  /_______|    /_______| |_______\      |  ::  \_____|
+;       /_______|     /___ _       /___ _         _ ___\     |_______\
+;      /___ _                                                    _ ___\ v.02
+; BootChess is the smallest computer implementation of chess on any platform
+; Chess in a 512-byte x86 boot sector for Windows / Linux / OS X / DOS / BSD
+; Coded by Olivier "Baudsurfer/RSi" Poudade with extra help of Peter "QKumba"
+; Ferrie. Logo by Frederic "Cleaner/Break" Cambus. (c)2015 WTFPL v2 license. 
+; ****************** To Mr. Oscar Toledo and others : **********************
+; YOU MAY REFACTOR THE RESULT OF OUR WORK (THIS FILE) BUT PLEASE CREDIT US !
+; **************************************************************************
+; "Fasm BootChess.asm" + "partcopy BootChess.bin 0 200 -f0" = PC floppy boot 
+;-BootChess.asm-------------------;-----------------------------------------
+; gui=0=>no board indexes, x86=1=>boot vs. dos,  p2q=1=>queening vs failsafe
+gui equ 0           ; gui=1 x86=1 p2q=1 510b+ OK pad OK gui OK vbr- OK queen
+x86 equ 0           ; gui=1 x86=1 p2q=0 498b+ OK pad OK gui OK vbr+ NO queen
+p2q equ 0           ; gui=1 x86=0 p2q=1 504b  NO pad OK gui NO vbr- OK queen
+_b  equ byte        ; gui=1 x86=0 p2q=0 485b  NO pad OK gui NO vbr+ NO queen
+_w  equ word        ; gui=0 x86=1 p2q=1 479b+ OK pad NO gui OK vbr- OK queen
+_d  equ dword       ; gui=0 x86=1 p2q=0 481b+ OK pad NO gui OK vbr+ NO queen
+_s  equ short       ; gui=0 x86=0 p2q=1 487b  NO pad NO gui NO vbr- OK queen
+_f  equ far         ; gui=0 x86=0 p2q=0 468b  NO pad NO gui NO vbr+ NO queen  
+    if x86=1                      ; beg of boot vs .com preprocessing
+    org 7c00h                     ; std start of bootsector after post
+    if p2q=0                      ; beg clear any start ambiguous segment
+    jmp _f 0:fix                  ; 7c0:0000 vs. 0:7c000 cs para fix-up
+    end if                        ; end clear any start ambiguous segment  
+fix:push cs                       ; if post int 19h isr bootsrap loader 
+    pop ds                        ; left any bda or shadow segment values 
+    push cs                       ; then enforce ds=cs=0  
+    pop es                        ; then enforce es=ds=cs=0
+    mov aX,13h                    ; function set vga mode 320x200x256
+    else                          ; else if 16-bit binary assume ah=0
+    org 100h                      ; start of com binary program ip
+    mov aL,13h                    ; function set vga mode 320x200x256
+    end if                        ; end of boot vs .com preprocessing
+    int 10h                       ; standard bios video api
+    if gui=1                      ; guiimalist no coordinate indexes ?
+    bf1 equ bf3                   ; chess board at end of sector
+    else                          ; else show coordinate indexes
+    bf1 equ bf2                   ; chess board at end of sector 
+    end if                        ; end conditional precompile 
+    brd equ bf1+16                ; chess board at end of sector
+    mov di,brd                    ; set physical board index
+    mov bp,12                     ; set 6x8+8 empty sqr mid board lines
+    call in2                      ; pass#1 black "rnbqkbnr" low-caps
+    push word opn                 ; pass#2 hi-caps whites & fall-through
+rle:lodsb                         ; al='.'/al=null (fixed length rle)
+    mov cl,8                      ; empty sqr mid board line length
+    rep stosb                     ; set one empty sqr mid board line
+    dec bp                        ; all empty sqr mid brd lines inited ?
+    jnz rle                       ; if not repeat init else bp=0 assumed
+    mov ah,'A'-'a'                ; fall-through pass#2 white hi-caps
+in2:mov si,br0                    ; si points to endrank "rnbqkbnr" str
+    if x86=0                      ; if .com binary environment ch=0
+    mov cL,8                      ; "rnbqkbnr" endrank str length
+    else                          ; assume nothing although tempting 
+    mov cX,8                      ; "rnbqkbnr" endrank str length
+    end if                        ; end of register ch startup value
+in3:lodsb                         ; read physical board str car
+    add al,ah                     ; hi-caps rank 1 / low-caps rank 8
+    stosb                         ; write physical board str car
+    loop in3                      ; all "rnbqkbnr" str car written ?
+    mov cl,8                      ; si-;equiv piece vals di-;0x88 brd
+    rep movsb                     ; write logical 0x88 board str vals
+    retn                          ; return to callers
+ge0:mov bx,di                     ; physical board idx (bx=brd)
+    mov dh,'1'                    ; beg white move src rank
+ge1:mov dl,'h'                    ; beg white move src file
+ge2:mov [si],dx                   ; beg white move src str
+    mov ch,'1'                    ; beg white move dst rank
+ge3:mov cl,'h'                    ; beg white move dst file
+ge4:mov [si+2],cx                 ; beg white move dst str
+    pusha                         ; save all values
+    call idx                      ; passive chess coords to linear indexes
+    jbe  mis                      ; white move src color not conforguig
+    push bx                       ; save white move dst idx
+    call ver                      ; white move legal chess ?
+    pop bx                        ; restore white move dst idx
+    jc mis                        ; white move not legal chess
+    mov di,num+3                  ; compare move destination rank in 7dfeh 
+    inc si                        ; with move source rank in 7dfch 
+    cmpsb                         ; is taxi distance to topmost bettered ? 
+    jnc wor                       ; else not getting closer to black king
+    cmp _b [di],'?'               ; does any fallback move exist yet ?
+    jz lkj                        ; no, then last valid move good enough
+wor:mov aL,_b[si+bx+brd-num-'a'+6]; yes, previous valid legal exist so 
+    dec aL                        ; only override if it's a capture 
+    js mis                        ; no, don't want worse taxi distance  
+    mov bx,fs                     ; it's a capture with piece value=al
+    cmp bL,aL                     ; but hightest capture value yet ?
+    jnc mis                       ; no, less important opponent piece 
+max:mov fs,bx                     ; fs=best move yet in taxi half-ply
+lkj:dec si                        ; realign source index 
+    dec si                        ; to copy dword bst=dword idx 
+    movsd                         ; after 4096 tries : move=dword bst
+mis:popa                          ; restore all values
+    cmp cl,'a'                    ; end white move dst file ?
+    loopnz ge4                    ; dec white move else next dst file
+    inc ch                        ; inc white move dst rank
+    cmp ch,'9'                    ; end white move dst rank ?
+    jnz ge3                       ; else next move dst rank
+cpx:inc bx                        ; inc physical board index
+    dec dx                        ; dec white move src file
+    cmp dl,'`'                    ; end white move src file ?
+    jnz ge2                       ; else next move src file
+    inc dh                        ; inc white move src rank
+    cmp dh,ch                     ; end white move src rank ? ch=9
+    jnz ge1                       ; else next move src rank
+    push _d [si+4]                ; get best white move found
+    pop _d [si]                   ; set it as final white move
+val:mov cl,'.'                    ; valid : empty sqr replaces src piece
+    call act                      ; active chess coords to linear indexes
+    xor bp,3                      ; player turn and pawn unidir. delta
+    jz ge0                        ; white turn to play (case best=0)
+bla:mov al,'?'                    ; input str clear pattern
+    mov di,si                     ; input str clear pattern (di=num)
+    mov cx,8                      ; input str clear pattern
+    rep stosb                     ; input str clear pattern (di=brd)
+    call key                      ; get user keyboard input
+    jbe bla                       ; black move src color not conforguig
+opn:call ver                      ; di=brd, black move legal chess ?
+    jc bla                        ; white move not legal chess
+    jmp _s  val                   ; validate black move
+ver:call idx                      ; get lin indexes /w implicit passive
+    xchg bx,dx                    ; switch bx=dst idx dx=src idx
+    mov ah,[si+bx+brd-num-'a'+8]  ; get piece logical 0x88 brd val...
+    mov dh,bl                     ; dh=src idx dl=dst idx
+    sub dx,"aa"                   ; get move file zero-based indexes
+    bsr bx,ax                     ; scan for 1st bit set (si=idx+10)
+    movsx bx,[si+bx-10-num+tab]   ; bl=moved piece type idx (bh=0)
+    mov cx,_w [si+bx-num+tab]     ; piece type deltas cl=repeats ch=num
+    sahf                          ; set piece logical 0x88 brd val  
+    jnp sp1                       ; branch if piece not pawn (bit#4!=1)
+    jc sp2                        ; branch if pawn prev moved (bit#0=1)
+sp1:jns sp3                       ; branch if piece not king (bit#7!=1)
+sp2:mov cl,1                      ; override repeat if piece pawn or king
+sp3:jnp sp4                       ; branch if piece not pawn (bit#4!=1)
+    add bx,bp                     ; pawn player turn unidirection mutex
+sp4:inc bx                        ; advance piece type struct field ptr
+    and ah,11111100b              ; isolate piece bitmask only 
+vl1:push cx                       ; save piece type deltas
+    mov al,dh                     ; load start dst idx val
+    inc bx                        ; advance piece type struct field ptr
+vl2:add al,[si+bx-num+tab]        ; add this piece delta to dst idx val
+    xchg aL,bL                    ; base reg=dst idx val and preserved
+    mov ch,[si+bx+brd-num+8]      ; read projected dst square val
+    xchg aL,bL                    ; base reg=piece type struct field ptr
+    cmp al,dl                     ; wanted move found (src+delta(s)=dst) ?
+    jnz dif                       ; different than requested move
+sam:sahf                          ; get piece logical 0x88 brd val in flgs
+    jnp yes                       ; branch if piece is not pawn (bit#2=0)
+    test [si+bx-num+tab],1        ; pawn piece delta parity=diag vs. vert
+    jz ord                        ; branch if pawn piece moving vert
+    test ch,ch                    ; pawn piece vert move=;eating ?
+    jz _s bad                     ; illegal chess move is a miss
+yes:pop cx                        ; correct entry sp and disregard count
+    retn                          ; return to caller(s)
+ord:test ch,ch                    ; pawn piece vert move=;no eating ?
+    jz yes                        ; no eating=;empty dst sqr else illegal
+dif:sahf                          ; store piece nature in flags register
+    jnp skp                       ; not pawn piece so skip direction test
+    test [si+bx-num+tab],1        ; pawn piece delta parity=diag vs. vert
+    jnz bad                       ; diagonal pawn move is illegal
+skp:test ch,ch                    ; else skipping over dst square val ?
+    jnz bad                       ; projected dst sqr val is not empty
+    sahf                          ; get piece logical 0x88 brd val in flgs
+    jz x88                        ; branch if piece is queen (bit#6=1)
+    jna bad                       ; branch if piece is not knight(bit#4=0)
+x88:test al,88h                   ; ch=0 dst out of physical board limits?
+    loopz vl2                     ; else cont if delta repeats remain
+bad:pop cx                        ; restore piece type deltas
+    dec ch                        ; all possible delta nums verified ?
+    jnz vl1                       ; if not then cont next delta type
+nok:stc                           ; else return /w no match flg set
+    retn                          ; return to caller
+key:call prt                      ; refresh screen to account input echo
+    xor bx,bx                     ; bx=str idx=odd/even/alpha/num mutex
+kbd:cbw                           ; fun blocking wait for keystroke (ah=0)
+    int 16h                       ; std bios keybd api (ah=scan al=ascii)
+esc:dec ah                        ; was esc key pressed to quit ?
+    jnz car                       ; else default process key input
+xit:if x86=1                      ; if x86 boot context environment
+    int 19h                       ; exit through bootstrap to reboot cpu
+    else                          ; else if .com 16-bit binary
+    int 20h                       ; dos 1+ - terguiate program
+    end if                        ; end of exit methods (os load or shell)
+car:mov [bx+si],al                ; sav ascii val to move string (si=num)
+prt:pusha                         ; save game state snapshot
+    cwd                           ; curs location dx=(0,0)=(row,column)
+    mov ax,1301h                  ; function ega write str write mode 1
+    mov bl,7                      ; page 0 grey car attrib matching tty
+    mov cl,8                      ; src str lngth (curs updated horiz)
+    if gui=1                      ; minimalist no coordinate indexes ?
+    mov bp,bf1                    ; es:bp is "abcdefgh" ptr
+    else                          ; else show coordinate indexes                     
+    mov bp,bf1+16                 ; es:bp is dontcare ptr
+    end if                        ; end of conditional precompile
+lns:int 10h                       ; standard bios video api
+    add bp,16                     ; bp=para step siz separating strings
+    if gui=1                      ; minimalist no coordinate indexes ?  
+    push ax                       ; save old bios video api func params
+    mov ax,0e39h                  ; function teletype outp car=rank '9'
+    sub al,dh                     ; decrement right handside rank value
+    int 10h                       ; standard bios video api
+    pop ax                        ; restore old bios video api fx params
+    end if                        ; end of conditional precompile
+    if gui=1                      ; minimalist no coordinate indexes ?
+    cmp dh,cl                     ; src str total (curs updated vert)
+    inc dh                        ; preemptive off-by-one allows 9 verts
+    else                          ; else show coordinate indexes  
+    inc dh                        ; non-preemptive off-by-one for 8 verts
+    cmp dh,cl                     ; src str total (curs updated vert)
+    end if                        ; end of conditional precompile 
+    jc lns                        ; all 9 brd gui row strings printed ?
+    mov bp,si                     ; 10th row tail bp=move coords, cl=8
+    int 10h                       ; standard bios video api
+    popa                          ; restore game state snapshot
+    inc bx                        ; test if any more keys ?
+    cmp bl,4                      ; frFR format input string
+    jc kbd                        ; else continue input 
+idx:loop idx                      ; ch=0 passive call load src/dst lin idx
+act:mov si,num                    ; reinit si to point to coord input str.
+    mov bx,[si]                   ; bx=src coord (pass#1)
+    cbw                           ; empty sqr val in logical 0x88 board
+    call put                      ; place param passed as fun pass#1
+    mov dx,[si+2]                 ; bx=dst idx dx=src idx
+    xchg bx,dx                    ; fall-through for second pass
+    push word mat                 ; test for checkmate and conforguig
+put:xchg ax,bx                    ; bx|dx=[num+di]+16*((8-'0')-[num+di+1])
+    aad -10h                      ; shl ah,4/sub al,ah/xor ah,ah
+    add al,80h                    ; bx|dx=al-640%256-16*ah
+    xchg ax,bx                    ; bx|dx=al+128-16*ah
+    jcxz sim                      ; active call request or simulation ?
+    if p2q=1                      ; standard non-failsafe queening
+    cmp _b [si+3],'8'             ; validated dst rank is top-most ?    
+    jz qq                         ; if so then promote pawn to queen
+    cmp _b [si+3],'1'             ; validated dst rank is bottom-most ?
+    jnz prm                       ; if not no pawn queening promotion
+qq: sahf                          ; store piece nature in flag register
+    jnp prm                       ; no pawn queening promotion  
+    xor ah,01000110b              ; transform p to promoted queen
+    inc cx                        ; queen promotion p2q or P2Q
+    end if                        ; end of conditional queening
+prm:xchg ah,[si+bx+brd-num-'a'+8] ; update piece logical 0x88 board val
+    xchg cl,[si+bx+brd-num-'a']   ; update piece physical board ascii val
+    or ah,1                       ; update piece moved once (bit#0)
+sim:retn                          ; return to caller(s)
+mat:sahf                          ; catured piece king and mate ?
+    js xit                        ; if piece is king then game is over
+    call chk                      ; move src color conforguig ?
+    jnz nok                       ; move src color not conforguig
+chk:xchg bx,dx                    ; src idx <- dst idx
+    mov al,[si+bx+brd-num-'a']    ; pass#1:src idx pass#2:dst idx di=brd
+    xor _b [si+len-num],8         ; self-modif 8/26 val=[1;8]/[a(A);z(Z)]
+    mov cl,-'a'                   ; assert black piece car interval
+    test bp,bp                    ; test whose turn it is to play
+    jnz lim                       ; assert white piece car interval
+    mov cl,-'A'                   ; al=ascii value cl=-(lower boundery)
+lim:xadd al,cl                    ; tmp=al+cl cl=al al=tmp +fall-trough
+    db 0d4h                       ; aam <self-modified value>
+len:db 12h                        ; ah=al/8 al%=8
+    mov al,cl                     ; al=restored ascii value
+    test ah,ah                    ; set/clear zf=0 success zf=1 failure
+    retn                          ; return to caller(s) nb: destroys ah
+tab db p-tab,r-tab,n-tab,b-tab    ; piece type mov offset array
+    db q-tab,q-tab                ; note original 1K ZX Chess q=k trick
+br0 db "rnbqkbnr",8,16,32,64,128  ; end rank pattern + beg piece values
+    db 32,16,8,'p',4,'.',0,'.',0  ; end piece values + beg mid board reps
+    db '.',0,'.',0,'P',4          ; ... end mid board reps
+p   db 2,3,-10h,-15,-17,10h,15    ; bit#2 pf=04 p[6]=r[0] overlay
+r   db 17,4,10h,-1h,-10h          ; bit#3 ??=08 r[5]=n[0] overlay
+n   db 1,8,1fh,21h,12h,-0eh,-1fh  ; bit#4 af=16 n[9]=b[0] overlay
+    db -21h,-12h                  ; ... end of knight moves list
+b   db 0eh,4,-0fh,11h,-11h        ; bit#5 ??=32 b[5]=q[0] overlay
+q   db 0fh,8                      ; bit#6 zf=64 k=q except k[0]=1
+bf2 db 10h,11h,0fh,1h,-10h        ; queen/king moves list and gui base
+    db -11h,-0fh,-1h              ; ... end of queen/king moves list
+    if gui=1                      ; minimalist no coordinate indexes ?  
+bf3 db "abcdefgh"                 ; gui file index string
+    end if                        ; end of conditional queening
+num db "e2e4"                     ; hardcoded Ruy Lopez opening
+    if x86=1                      ; if x86 boot environment
+    if p2q=0                      ; if vbr signature failsafe 
+    times 510-($-$$) db 0         ; nul padding if necessary
+    org 7df0h                     ; boot signature vbr/mbr standard offset
+    sig db 55h,0aah               ; magic number no-endian boot signature
+    else                          ; no vbr signature failsafe
+    times 512-($-$$) db 0         ; nul padding if necessary
+    end if                        ; end of conditional padding
+    end if                        ; end of conditional failsafe signature
+
+|=--[ 6.3 - Encoded base64 floppy image 
+
+This is BootChess_500b_v01_noQueening.img.7z.uue for Bochs v2.6 :
+
+begin 644 FLOPPY.7Z
+M-WJ\KR<<``/$P0TX"0,```````!=`````````):A<QL`=0%+!`O%F,\C).-Z
+M;$=*5]JZ\`-6,?XTW!KSPJ'1-6G$ARFF9!HS3,#)')1N7*D;8SS;"#0\60AE
+M-[CNTB+D/0Z9#=:_9P2KN#\MYXCNQEJ4BH1SX>/1=Y.`CHNM%WS\8U`$`F]A
+ME2F#R_9K`29FA1V18\#-B:U'D*!T7:#C@1E\F9V(:ADLP`IM:_8Y*V'DZ8&R
+M^3E%4FY*)6'@1\[,#&`C8,]([!@(HMOQ"W\G<F[88BP>-@<]WC*%UH*N^X%-
+M[WY$$I9OUY2)N@1,XML;SK@NNA3&38?K<%CX1W4"L5!5W2S395P18V+\0=V"
+MJWNAR%@(*3_.:<P-:G1ZO[%@A5**6J&Y3)!<5HFF0B,HLD,J\S:U./[EM:-X
+MYP8KC)<=B(;IT":8((FP%_*K904!T?\7\4K,+.C04OHG9SC[O["\!W"M%_L^
+M?%$0.4L.X3.G&\+FC?Y;9(`J+U".:ZCS>H,6O^&21__MUPNQBLD&>EBP2%S<
+M%:(#KYU5?5E?R;S>).`S)AMFCK^>;$X&3\C4H)>2V_I+I3G29!?CM^@P'A1\
+M;>P"I59*Q3Y71<^834CZT/<14KJ.U*`42>PDP%N^.":ED\/)96K[*YB5#=NW
+M;.JWHJ'C-GI!UCI1&7"#DB;Z4VE'/$W7/X^=$<H_+>Z1MR9-NU":DB8Q:5=>
+M1\VA)\TS&7OZZ:IKAN+KC:P=4?76V>:H:24^AT4S;JOY)@JWNMC>`AUI-K)+
+M,Y2F890+C'`)T1$B258[[S\F6D>&=F>2@"56SM+N&<\B+\Z_G-H`/JTFP$``
+MC[496E4YX;VB/E9E?DCTT'16@YP$;LR]V>B*K9<M_R[KFAVZSK$G&%Q9ANEF
+M4EB^Z7:L6>3E6P4(^<?:K?S[4BMTS1Y;($+YW5,]^"ED"3N`RRILW[4[\,2]
+M+E^J#SY+9D*0$P[_$)/X<7A9^`O-_Y4H1@^I_'S>^YHP+E;`CX7S@X'`9<0E
+M4_CUD38Q!:6P[F_!<$U'#-&1$:JM8!VZSK$G&%Q9ANEF4EB^Z7:L*"W<Q``!
+M!`8``0F#"0`'"P$``2,#`0$%70``&``,U@"```@*`3?;3$L```4!$1T`0@!O
+M`&\`=`!#`&@`90!S`',`+@!I`&T`9P```!0*`0!.7V=GM#G0`14&`0`@(```
+"````
+`
+end
+
+|=--[ 7 - Thanks/Greets ]=----------------------------------------------=|
+
+ Thanks to Peter "QKumba" Ferrie for accepting to peer-review my code.
+ Thanks to The Phrack Staff for the final proofreading of the article.
+ Thanks to Frederic "Cleaner/Bloctronics^Break" Cambus for ascii logo.
+
+ Greets to Abrasax/Quartex, Alk/Titan, Alpha Flight, Astrofra/Mandarine,
+ Carbon/Atari Active, Calsoft/Psycho Hacking Force, CiH/Alive Team, Codex,
+ Cronos/Amazing Cracking Conspiracy, Cyg/BlaBla, D-Bug,Dbug/Defence Force,
+ Dma-Sc/M4nkind, Defjam/Checkpoint, Den/Top Right Bottom Left,Felice/Alive
+ Team, Feust/Red Sector Inc., Floyd/Surprise productions, Flure/Popsy Team
+ FroST/Red Sector Inc., Gengis/Bomb, GGN/KUA Soft, Grazey/Psycho Hacking 
+ Force, Havoc/LineOut, HellMood/Desire, Hitch Hikr/Skidrow, Hotshot/Dark
+ Bit Factory, Imerso/Red Sector Inc., Irokos/Titan, KiNG1/Red Sector Inc.,
+ Kirl/Dark Bit Factory, Leon Bli/Red Sector Inc., Lexomil/Red Sector Inc.,
+ Lotek Style/tSCc, Made/Bomb, MMyErs/Red Sector Inc., Okkie/Accession, P01
+ /Ribbon, P0ky/Flush, Pasy/Rebels, Photon/Scoopex, Principal/American 
+ Cracking Association, Ramon B5/Desire, Raizor/fnuque, Rez/Razor 1911, 
+ RiOT, Sam/Debian, ShockWave/Dark Bit factory, Sim/Resistance, Skamp
+ /Vacuum, Skeleton/The Pirate Ship, Skywalker/Paradox, SnC/Red Sector Inc.
+ Stingray/Scoopex, Thorin/Melon Dezign., Tinker/LineOut, TomoAlien/Bon 
+ Squared, t0my/Live!, Troy/Sensensthal, Ttemper/Red Sector Inc., UkkO
+ /Live!, Val/@party, Wullon/adinpsz, Wietze/#atariscne, Xeu/EXA, XiA
+ /Checkpoint, XXX/Haujobb, Zerkman/Sector One
+
+|=--[ 8 - References ]=-------------------------------------------------=|
+
+[0] https://github.com/bloovis/isis/blob/master/intel/utils/conv86
+[1] http://goo.gl/UnXUMX "1K javascript madness"
+[2] http://www.benlo.com/microchess/index.html
+[3] http://goo.gl/TLJJHq http://home.kpn.nl/a.dikker1/museum/databus.html
+[4] http://www.pouet.net/prodlist.php?type[0]=64b&order=thumbup
+[5] http://en.wikipedia.org/wiki/1K_ZX_Chess
+[6] https://code.google.com/p/corkami/wiki/InitialValues
+[7] http://www.pouet.net/which=62445 http://youtu.be/ygtuB-L88rQ
+[8] http://bochs.sourceforge.net/cgi-bin/lxr/source/bios/rombios.c
+[9] http://wiki.osdev.org/MBR_x86) "Initial Environment"
+[a] http://en.wikipedia.org/wiki/Volume_boot_record#SIG
+[b] http://www.fide.com/fide/handbook.html?id=171&view=article "Chess Laws"
+[c] http://www.kuro5hin.org/story/2001/8/10/12620/2164
+[d] http://goo.gl/Tn203B "Full ZX-81 CHESS in 1K"
+[e] http://www.phrack.org/papers/fall_of_groups.html
+[f] http://goo.gl/7md7YJ "Where can I find 8080 to x86 assembler conv..."
+
+|=[ EOF ]=---------------------------------------------------------------=|

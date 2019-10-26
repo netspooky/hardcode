@@ -1,0 +1,12 @@
+electro shade bob
+--------
+
+#7
+
+A 128b prod by lord Kelvin.
+
+Realisation of very-very old effect.
+
+Compiled with FASM.
+
+Great hello from Russia.=)

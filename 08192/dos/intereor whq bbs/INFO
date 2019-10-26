@@ -1,0 +1,54 @@
+  ÖÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ--- -  -   ú
+  º PRoJECT: iNTEREOR WHQ BBSTRO                         BY: CyPoxl/iNTEREOR
+    SPECiAL: SoURCE iNCLUDED !                      E-MAiL => eLDAM@iMAGE.DK º
+					      ú   -  - --ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ½
+Hi ther...
+
+My 1st release, so don't expect to much.
+
+I borrowed the plasma effect from Vulture/OT (with his permission), but the
+rest is done all by me, except the font which is by Sector/Intereor.
+This will run on all computers (I hope :), only thing needed is a (fast) vga
+card.
+You'll probably find that it isn't optimized very much for size, but (as I
+like to think) a bit for speed.
+On some newer Pentiums (+133) I have discovered that the soft scroll in the
+end flashes :( I tried to run other softscroll programs aswell and they
+flashed too.
+The pentiums I tried it on all had a 3d accelerator card in common...
+Please mail me if you find the same problems or if you know why.
+
+I have also included crypt [everyone has one :) ] so lamers can't change any
+txt in the proggy... Cool people could ofcause break the lousy antidebugging,
+and change it, but they wouldn't... Thatz the hole idea :)
+
+Files in this archive [- bbsadds and other shit]
+ NaME:        | SiZE: | DeSC:
+ ANSI.INC     |       | ANSi for Intereor bbstro
+ COSINE.DAT   |       | Cosine values for ^^^^^^
+ CRYPT.COM    |   666 | A little proccy (by me :) that encrypts .com files
+ FILE_ID.DIZ  |       | [...]
+ INFO         |       | 
+ INTEREOR.ASM |       | Source for intereor bbs intro
+ INTEREOR.COM |  5033 | Executable bbs intro
+ IT-FONT.INC  |       | Intereor font by sector for Intereor bbstro
+ LOGO.INC     |       | Intereor 3d logo by me (CyPoxl) and my raytracer :)
+ LOGO.PAL     |       | Palette file for 3d logo
+ MAKE.BAT     |       | Makefile for those without make.exe (me! :)
+
+PeRSONAL GReeTS:
+	Vulture/Outlaw Triad    Thanks for helping me out :)
+	Motive/Intereor
+	Sector/Intereor         Nice font..
+	Narcoid/SMERSH          Aview comming up :)
+	Hitech/Renegades
+	Darkman/VLAD
+	Denthor/ASPHYXIA        Kewl trainers!
+
+GRouP GReeTS:
+	Outlaw Triad
+	Renegades
+	ASPHYXIA
+	Oxygene                 I love your Contrast demo 8)
+	ACiD                    Aciddraw/view Rox (except ALT+F3Õ¸Ô¾  ÏÑ :(
+	And all the people/groups that I like...

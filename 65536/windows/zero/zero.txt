@@ -1,0 +1,45 @@
+
+
+ ZERO by DILEMMA                                                  2001.07.07.
+ OpenGL 64k intro to Flag 2001                                Made in Hungary
+
+
+.INFORMATIONS:
+
+ Work of 2 days. (again) Sorry.
+
+.CREDITS:
+
+ PROGRAMMING
+ Peter 'Nap' Nagy
+
+ SOUNDTRACK
+ Sandor 'Sed' Navratil
+
+ DILEMMA LOGO:
+ Tamas 'Rascy' Schalk
+
+.REQUIREMENTS:
+
+ Fast Processor (Celeron 366 at least)
+ Windows 95/98/ME/2000
+ Fast 3D Card with OpenGL support (nVidia card recommended)
+ DirectSound compatible Soundcard
+ 32bit color recommended
+
+.SPECIAL THANKS TO:
+
+ Elitegroup for mxm player
+ Microsoft for Visual C
+ Authors of LCC linker
+ UPX Team for UPX packer
+
+.CONTACTS:
+
+ Nap   - nap@dilemma.hu
+ Sed   - sed@dilemma.hu
+ Rascy - rascy@dilemma.hu
+
+.END
+
+ We will return. (maybe)

@@ -1,0 +1,41 @@
+prod:    mb.ps
+type:    256 byte PostScript intro
+author:  frag
+date:    04-02-2012
+
+Stack-based languages are fun!
+Hardware this prod is supposed to run
+is a PostScript-capable printer.
+As well you can generate image by
+GhostScript (http://pages.cs.wisc.edu/~ghost/)
+or Adobe Acrobat Distiller.
+
+There are some PostScript Mandelbrot realizations,
+the smallest i can find is 289 bytes:
+http://www.iwriteiam.nl/SigProgPS.html
+
+My version is 250 bytes.
+Enjoy!
+
+upd. 11-02-2012
+Tested on real printer.
+Your printer must be able to process PS.
+There are several ways to run it on printer,
+e.g. (Windows)
+1. Share you printer
+2. Map it to the port lpt1:
+net use lpt1: \\your_ip_or_127.0.0.1\printer_name
+3. Send .ps to the lpt1:
+copy /b mb.ps lpt1
+4. Wait.
+In contrast to GhostScript or Adobe distiller
+'showpage' must be terminated with 
+Space (20h), Carriage Return (0Dh) or \0 (or something else?).
+CR terminated mbt.ps was added.
+Or you can send non-terminated version and after
+send another document to print.
+
+Tested on HP LaserJet 2200, processing time - 5:22
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

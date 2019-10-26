@@ -1,0 +1,16 @@
++------------------------+
+|    squarelight     _  /___________ 
+|    b y p a s s                 _ /____________________
+|    2  o   o  1                                      _/__________ _              _
+|___ dec e m ber       main code and idea : rasmus     
+ _ /_____________ _    music and crash    : teis
+                /__________________________  thanks : sascha, markus, stellan and daniel.
+                                        _ /_________________________ _  _                   _
+                                                                    /_ you will need winxp(2000) to run this intro
+                                                                       further more we have experienced performance
+                                                                       issues on anything else than nvidia cards 
+                                                                       (eg. use tnt2 or better).
+                                                                                                                        _
+                                                                       ________________________________________________/
+
+

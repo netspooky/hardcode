@@ -1,0 +1,18 @@
+pOetry by 0x7a69.au (work it out)
+
+code -> sh0ck, 
+        ript, 
+        null, 
+        gyr
+
+music -> black fox
+
+theory -> just a conglomeration of .au sceners getting together to write something
+          that might make a small impact, somewhere.
+
+          run it a few times and tell us what you notice, anyway hope you enjoy,
+          likes working on some beefy hardware, 1ghz and up processors, will run
+          on anything provided you have some hardware open gl device. oh, and a
+          sound card ... it wont run without one of those.
+
+          written for the Assembly 2002 64k intro competition with about 33k to spare.

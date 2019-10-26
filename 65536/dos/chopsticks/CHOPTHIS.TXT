@@ -1,0 +1,158 @@
+		  
+
+		   chopsticks ['tschopsticks] n.pl pair of 
+		   sticks  ( wood, ivory,  etc )  used  by 
+		   Chinese   and  Japanese  to  lift  food
+		   to  the  mouth.
+
+
+			     -[ Information ]-
+
+   This is a three weeks project which competed in the REMEDY'96 intro 
+   compo. We decided to make an intro for a change and this time with NO 
+   vector effects ( we saved them for our forthcoming demo )! It's meant to 
+   be run on a 486/66 and most of the effects run in full framerate or at 
+   least in half ( no pentium intro here ). A gus is required to hear the 
+   music but you can run the intro with no sound. 2 MB of XMS is required 
+   and about 500 KB convential memory.
+			
+			    -[ Credits (A-Z) ]-
+
+		  Code: 
+				Alter Ego
+				Orc
+				Outrage!
+				Wizard
+
+		  Gfx:  
+				Blackcross
+
+		  Music:
+				Outrage! with some help from Orc and        
+				Cubic One.
+
+                        -[ Chopsticks goes to (A-Z) ]-
+
+   Candela, Cascada, Complex, Dead beef, Daskmig, Dlc, Elfsong, Gash
+   Goto 10, Insane, Mistery, Noice, Phenomena, Phoenix, Proxima, Razor
+   TBL, Tpolm, Trimate, Triton, Velvet Development, Yodel, Xenophobe
+   and X-trade...
+
+   @, Camorra, Cubic Team, Dubius, EMF, Fascination, Halcyon, Iguana, 
+   Impact Studio, Imphobia, Jamm, Live!, NoooN, Orange, Oxygen, Plant, 
+   Sorrox, Surprise!, Valhalla and all attending Remedy'96...
+
+   If we forgot somebody, it's because we are in a hurry...( as always )
+
+			    -[ Cascada gossip ]-
+
+   "Nobody but someone in CDA knows how this last paragraph (7) really
+    got in here or why, if you know please contact your local authorities 
+    and let them know. There goes a romour that this someone might have a 
+    handle that starts with an 'H' and continues with 'ellie' ..."
+ 
+    Do you remember this one? From the MindBodySoul infofile? We have now 
+    managed to decrypt the last sentence, and have come to the conclusion 
+    that it must have been Roberto Chaves aka Hellraiser aka Hellie, who 
+    wrote it.
+ 
+    We have also found out that our friend Hellie often takes a bath with 
+    his clothes on... Weird, isn't it?
+ 
+    And that is not the whole story I'm afraid. We have been told that our 
+    friend Erik Stridell aka Zodiak, buys a brand new Pentium 133, just to 
+    flush it down the toilet... Either he must have a lot of money, or he 
+    must get real kick out of it, or whatewer... 
+ 
+    We can't forget our friend Johan Thorgren aka Zed. How's the new Robyn 
+    album? 
+ 
+    Thats about all our Omicron gossip section (C) found out...
+ 
+    BTW, We really like Cascada VR section's attempt to make 5 flat shaded 
+    polys in 160x100x16, but it really needs some more coding to be really 
+    cutting edge. With some more time infront of the vectorsystem, it'll be
+    ok, I'm sure. ;)
+ 
+			    -[ Disclaimer etc ]-
+   
+   This software MAY NOT BE SOLD, put on a CD-ROM or similar distribution  
+   without the prior written consent from an Omicron member. It would be 
+   nice if you also could give us a copy of the CD-ROM. This software
+   MAY be distributed via BBS networks, the Internet, and by any similar
+   way, such as giving it physically to other people. You MAY NOT alter
+   any of the files included, but you MAY include BBS advertisements,
+   if the size is reasonable, and if it looks good.
+
+This software is provided "AS IS" and without warranty of any kind.
+Omicron EXPRESSLY DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING,
+BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OR MERCHANTABILITY AND FITNESS
+FOR A PARTICULAR PURPOSE. AND BE SURE TO REMEMBER THIS OR OTHERWISE WE'LL
+DO NASTY THINGS WITH OUR CHOPSTICKS ON YOU!
+
+			      -[ Contact us ]-
+
+
+Look at our cyber chopsticks page:
+	
+	http://www.abc.se/~magnus/omicron
+	
+	It's totally redone and now really worth the visit...
+	Big thanx to Zed/Cascada for making it.
+
+Send your computerised chopsticks to:
+
+	"alias"@omicron.ct.se        e.g     outrage@omicron.ct.se
+
+Send some snail chopsticks to:
+
+	OMICRON
+	c/o Hasselrot
+	Riddarv. 23 
+	S-181 32 Liding”
+	SWEDEN
+
+Call our chopsticks boards:
+
+       Board                    Country             Number                        
+    ---------------------------------------------------------------------
+       Mostly Harmless          Sweden              +46-8-6369011            
+						    +46-8-7673586            
+	       
+       The Portal               Sweden              +46-26-196363 
+       Cryonics BBS             Sweden              +46-36-165110            
+       Surfers Dream            Sweden              +46-300-21883            
+
+       SpaceBar                 Norway              +47-64933499             
+       CountZero                Norway              +47-55122962                  
+
+       Psychotron               Finland             +358-0-2922995           
+
+       A.C.E                    France              +33-1-45887548 
+
+       Primal Disorder          United Kingdom      +44-1628-74179           
+						    +44-1628-543904          
+ 
+       Mortal Dystrophy         Germany             +49-7940-59414 
+
+       Point Break              Belgium             +32-11-436925 
+       The Velvet Demosite      Belgium             +32-3-3851594            
+       Tetsou                   Belgium             +32-2-7725229            
+								  
+       OverFlow                 The Netherlands     +31-15-2566101 
+       SL1210                   The Netherlands     +31-43-3638243           
+       Roofs of Fear            The Netherlands     +31-113-250655           
+
+       Edge of Insanity         USA                 +1-8045832565            
+       Wasted Image             USA                 +1-409-8331391           
+       Throwing Copper          USA                 +1-708-5532829           
+
+       Rendering In Progress    Spain               +34-3-4902471            
+
+       AltCon BBS               Brazil              +55-11-816-2031 
+     -----------------------------------------------------------------------
+	  We are truly sorry if we have forgotten any of our distsites
+	  or HQ. Mail us if you are left out...
+     -----------------------------------------------------------------------                                
+
+			[May the chopsticks be with you]

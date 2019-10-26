@@ -1,0 +1,17 @@
+
+       RAX.EXE 3 Dimensional EGA Demonstration (128K EGA required)
+
+This program demonstrates both 3 dimensional rotation and dithering of 4096
+colors for the Enhanced Graphics adaptor.  Press SPACE BAR for successive
+windows, ESC to exit.
+
+This program was written in Microsoft C 4.0 on a Compaq 386 and does not use
+any floating point arithmetic.  xxx87 processors will have no effect on
+execution speed.  Slower than mollasses on an 8088, bearable on an AT,
+impressive on a 12Mhz AT, but amazing on a 386.  If you can get this program
+to a fast machine, try it...you'll like it.
+
+                           Raxsoft Development
+                           3259 Marlene Drive
+                           Lafayette, CA 94549
+

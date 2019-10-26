@@ -1,0 +1,24 @@
+
+Undercut, by inque 
+
+:: release info :: ----------------------------
+
+a 64k demo released at Evoke 2012.
+
+less polished than we wanted. as usual we
+did a lot of work at the party.
+
+this needs a heavy graphics card. it's NOT
+optimized. confirmed to run fine on a geforce
+560 and 670.
+
+ohw and requires DirectX 10
+
+:: credits :: ---------------------------------
+
+code/visuals -- glow
+soundtrack/direction/visuals -- izard
+
+:: cya :: -------------------------------------
+
+www.inque.org

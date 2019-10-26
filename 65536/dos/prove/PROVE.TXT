@@ -1,0 +1,56 @@
+
+                                 P R O V E                                   ù
+                                                                             :
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+³                                                                            ù
+³         An Exact production for the Party'97 64k intro competition.        :
+³                                                                            ³
+³ System Requirements:                                                       ³
+³                                                                            ³
+³   386 processor.                                                           ³
+³   387 cooprocessor.                                                        ³
+³   VGA compatible videocard.                                                ³
+³   8mb memory.                                                              ³
+³                                                                            ³
+³ Recommended Stuffs:                                                        ³
+³                                                                            ³
+³   Pentium 133+                                                             ³
+³   Fast hicolor videocard.                                                  ³
+:   Gravis Ultrasound.                                                       ³
+ù                                                                            ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+³                                                                            ù
+³ Hardworkers:                                                               :
+³                                                                            ³
+³   Murphy.code                                                              ³
+³   Trueman.code                                                             ³
+³   Rendall.gfx                                                              ³
+³   Generic.msx                                                              ³
+³                                                                            ³
+³ Featuring:                                                                 ³
+³                                                                            ³
+³   Adam Seyschell.DOS32 V3.3 pmode extender                                 ³
+³   Pascal.mxm player                                                        ³
+³   Mrz [Astroidea].cooprocessor hints                                       ³
+:   Blacky.Help in Spline coding                                             ³
+ù                                                                            ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+³                                                                            ù
+³ Archive package:                                                           :
+³   The files included in XCTPROVE.ZIP.                                      ³
+³   PROVE.EXE      65536 bytes  the demo       (If the length is different,  ³
+³   FILE_ID.DIZ      359 bytes  bbs trash       you probably have a virus,   ³
+³   PROVE.TXT       3809 bytes  this info file  or we again forget, to       ³
+:   EXACT.NFO      23079 bytes  info from us    write this)                  ³
+ù                                                                            ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+³                                                                            ù
+³ Legal stuff:                                                               :
+³                                                                            ³
+³  This production is freeware. It can be freely distributed as long as the  ³
+³  files or the  contents of  the archive are not  modified in any way.  No  ³
+:  money can be charged for this production.                                 ³
+ù                                                                            ³
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+:
+ù                                  Exact '97

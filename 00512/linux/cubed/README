@@ -1,0 +1,46 @@
+
+                                                                       ####:    
+                                                                       #;;##    
+                                                                          ##    
+                                                                        ###     
+                              ###                                 ###    i##    
+                              ###                                 ###     ##    
+                              ###                                 ###  #####    
+       #####K    ###     ###  ###:#####t       #####       E#####,###  ####     
+      ########   ###     ###  ##########t    ########K    W##########           
+     ####:t####  ###     ###  ####W  W###   ####L f###E  j###G  #####           
+    ###     ###. ###     ###  ###.    .###  ###     ###  ###     ,###           
+    ###          ###     ###  ###      ###  ##       ##  ##W      ###           
+    ##.          ###     ###  ###      ### L###########  ##       ###           
+    ##L          ###:    ###  ###      ### j###########  ##E      ###           
+    ###          D##W    ###  ###      ###  ###          ###      ###           
+    W###   f###   ###   ####  ####    ###i  ####   W###  ####   :####           
+     #########;   ##########  ###########    #########    ###########           
+      #######i     #########  ##E#######      #######      #######E##           
+        ,WD          WE            f#L          f#E          f#j                
+                                                                                
+                                                             prod: cubed
+                                                         platform: linux i386
+                                                             size: 512b
+                                                           author: orbitaldecay
+                                                             date: 02/11/2012
+
+    A software voxel renderer implemented using (mostly) integer arithmetic.  A
+few good ideas were divined from "Fast Voxel Traversal" by ... et al., which
+describes a similar algorithm using floating point arithmetic.
+
+    Requires Python 2.5 or later (for ctypes).  Uses Python to load the SDL lib,
+set-up an SDL window, mmap itself into memory, then call itself.  This little
+trick uses 190 bytes, which I think is smaller than an equivalent binary could
+be (though I'd love for someone to prove me wrong).
+
+    Python is an essential component of every Linux distro that I know of, and
+pretty much every distro released in the last 4 years ships with version 2.5
+or greater.  In short, this should run on any updated Linux system with SDL
+libs installed.  I was debating releasing this as a 256b DOS intro, as I know
+it would receive more attention as such, but there aren't enough intros for
+Linux ;)
+
+    Greets go out to frag, w23, DOS coders everywhere, and my cat Artemis who
+joined the great hunt in the sky last week.  Keep it real hommies.
+

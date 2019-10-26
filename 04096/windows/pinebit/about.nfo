@@ -1,0 +1,19 @@
+***  4k intro : pinebit  ***
+
+This is my very first demo.
+Written in pure C, with GL
+and Win32 API support.
+No 3rd Party code there.
+
+Idea, Code, Music:
+ everything is done by me.
+
+Tested on XP, Vista & Seven.
+AMD Athlon, Intel Core2 Duo.
+nVidia, ATI, Intel GMA.
+
+Known bugs:
+ - Not clean exit on Vista.
+
+
+*** Made in Russia, 2010 ***

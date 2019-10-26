@@ -1,0 +1,19 @@
+CONSPIRACY - BEYOND
+
+Disk-writer for the 64k's soundtrack
+
+All code by Gargaj
+Musical content by Innocent and Vincenzo
+
+
+Take note that the rendering process is slow, it should take
+around a minute and a half on a 1200MHz machine.
+The final wave-file (44khz 16bit Stereo PCM WAV) should be
+43.008.044 bytes long, be prepared to have enough disk
+space for it.
+If you want to recompress the sound, we recommend you
+to use OGG Vorbis, at least with 96kbps.
+
+Have fun!
+
+The CNS crew (c) 2004

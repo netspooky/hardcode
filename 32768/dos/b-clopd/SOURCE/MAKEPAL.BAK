@@ -1,0 +1,7 @@
+USES Crt,Dos,ModiGraf,PCXVModi;
+VAR Buf:^tScreen;
+    Pal:PAL_ARRAY;
+    I,K,M:LongInt;
+BEGIN
+
+END.

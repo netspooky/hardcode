@@ -1,0 +1,2 @@
+crtfix *.exe
+crtfix *.com

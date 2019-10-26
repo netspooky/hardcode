@@ -1,0 +1,40 @@
+ Nexus - for #asm 128 byte intro-compo - spASM '2000
+
+     Req:386,Fpu,64k,vga. Rec:p166. Esc to quit
+                                                      
+This is a souped-up version of the old interference
+effect (like in State of the Art/Spaceballs), which
+are two rings of circles overlapping and xor'ing each
+other to produce a confusing effect.
+
+With this version though, colours are used instead of
+alternating black/white, and as the circles are
+generated real time, they also change size.
+
+Hrm, I had a few good versions of this at around 141
+bytes where I got a bit stuck... It seems a lot of
+bytes are wasted just lining up the circles and moving
+them around in a way to make it look nice, so I had to
+sacrifice these bytes, and ended up with 123 bytes :/
+(Well, 125 as a certain variable has to be set at 0
+if run from windows - see source for more info)
+So I guess ive wasted 5 bytes, not much I can do with
+them though.
+
+PS: The patterns will gradually change due to the
+    changing circle sizes.
+
+Later,
+ spASM
+
+Greets EFNet #asm, #coders & these guys; wbear,mortiis
+auroran,mcarp,vulture,razzi,kreeme,iretd,sm1th,snowman
+ff,m3ltman,mcd,fredsan,khaladan,ax0n,matja,kalms,ethry
+kimmah,nandy,ticker,devious,heatseeka,whizzter,printf1
+asty,2ezy,as,dinarchus,flipgirl,peter,gump,sulphur,doz
+frenzy,dood,makke... & _everyone_ else.          
+                                                      
+tomr@europe.com    &        http://www.dataflare.co.uk
+#asm page:        --> http://www.tomsoft.clara.net/asm
+#asm compo page:  -->          http://asmcompo.cjb.net
+              

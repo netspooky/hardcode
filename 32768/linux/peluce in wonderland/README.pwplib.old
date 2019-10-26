@@ -1,0 +1,135 @@
+for those in hurry: type make. if not using linux, see Makefile
+
+-------------.
+             |
+PWP for UNiX `----------------------------------------------------
+
+This package contains demo-related mainline pwp stuff for various
+*nix platforms.
+
+The pwpunix projects include:
+
+  1. Porting our old msdos demos to unix.
+
+  2. Developing a text-based multimedia library (PWPlib). AAlib is not
+     suitable for our purposes.
+
+  3. Programming demos and games for PWPlib.
+
+  4. Introducing the PWP Video Phormat.
+
+  5. Creating our own minidistribution (bootdisk/umsdos) intended for
+     viewing PWP demos.
+
+------------------------.
+                        |
+stuff included in v0.89 `-----------------------------------------
+
+fisi: Final Isi (the demo)
+
+  Code, music and graphics by Viznut (1998)
+  1st at Abduction'98 pc introcompo
+
+  The latest pwp mainline demo and the first one to be ported to
+  pwplib/unix. The end part is missing (I only have the pre-party
+  source code).
+
+  See fisi --help for all kinds of fancy stuff.
+
+  Use the command line option 'english' if you can't read Finnish.
+
+zaxplay: A tiny tool I quickly wrote for playing some music from the
+         old sourcecode. Also attempted to do some player engine
+         optimizations but the 'clever' loops are still buggy.
+         (depends on OSS and Linux headers)
+
+Final Isi is currently the only demo we've ported to pwplib.
+
+-------.
+       |
+PWPlib `----------------------------------------------------------
+
+Compatibility:
+
+  Compiled and tested on Linux/i386 and Solaris/SPARC.
+
+  Some problems have occurred with Final Isi due to some classic bugs.
+  Trying to work them out.
+
+Terminal compatibility:
+
+  We now support a tolerable variety of display targets, including
+  the following:
+  
+    - Coloured IBM-charset in 80x50 or 80x25, with 8 or 16 background
+      colors (preferably 16).
+
+    - Coloured ASCII with constant black background (80x50 only)
+
+    - Monochrome ASCII in 80x50 or 80x25.
+
+  In addition to ANSI display codes, the library knows how to use
+  the Linux text console device (/dev/vcsa)
+
+  It is also possible to create ascii/ansi animations like this:
+
+     fisi tty ascii half bps 56000 2> fisi-ascii-8025.vt
+
+  See pwplib/pwplib.todo for a listing of some potential future
+  targets.
+
+-----------------.
+                 |
+Current projects `-----------------------------------------------
+
+
+Other pwp demos:
+
+  We're going to port them as well - at least those we still have
+  source code for.
+  
+  The rest of them will probably be available as PVP movies.
+
+PVP:
+
+  The new digital age of the new millennium!!!11
+
+  PVP (PWP Video Phormat) will be a purely textcell-based format for
+  movies. It'll probably use gsm audio codec (along with the
+  PWPbeep(tm) system used for PWP demo music)
+
+  Some goals:
+
+    - The viewer must run smoothly on a FPUless 386 machine.
+
+    - Any movie should fit in a 40MB hard disk.
+
+    - All of our old demos should be available in PVP format, perhaps
+      even in a web-viewable form (maybe using a
+      java(tm)(r)(shit)-based viewer)
+
+  Current status:
+
+    - PWPlib knows how to rasterdump in "uncompressed" PVP stream.
+      Sound/config/ansi frames have not been implemented yet.
+
+    - A simple PVP player has been integrated in the pwpunix/fisi code.
+      We'll put it in a separate proggie some day.
+      
+    - Ask Viznut if you want some PVP test videos (including a
+      Babylon 5 intro converted from MPEG-1)
+
+---------------.
+               |
+The license    `-------------------------------------------------
+
+GPL. See 'COPYING'.
+
+
+-----------------------------------------------------------------
+
+
+viznut
+
+vheikkil@hytti.uku.fi
+http://www.hytti.uku.fi/~vheikkil/pwp/

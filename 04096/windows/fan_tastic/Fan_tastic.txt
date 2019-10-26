@@ -1,0 +1,12 @@
+Name:        Fan_tastic
+Compo:       4K intro
+Music by:    pOWL/Alcatraz
+Code by:     Stan/Rebels
+Released at: Breakpoint 2010
+Packed by:   Crinkler
+
+Rendered using distance fields with DirectX 9 (d3dx9_32.dll is required).
+Big thanks for Gopher/Alcatraz for his "Rudebox" rendering technology and
+for help with Windows 7.
+
+Stan

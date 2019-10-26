@@ -1,0 +1,16 @@
+;plankton
+;128 byte MS-DOS intro
+;for Outline 2014
+;by fsqrt
+;http://fsqrt.blogspot.com/
+;pzagrebin@gmail.com
+;31-05-2014
+
+Ok, speedcoding once again.
+As usual, use DOSBox with core=dynamic, cycles=max.
+Runs infinitely, press esc to exit.
+
+Greetings to all sizecoders!
+Have a nice party!
+
+frag_

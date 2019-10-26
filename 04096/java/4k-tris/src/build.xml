@@ -1,0 +1,70 @@
+<project name="4ktris" default="dist" basedir=".">
+	<description>
+		A build file for 4k-tris - a tetris that fits in 4k.
+	</description>
+	<!-- set global properties for this build -->
+	<property name="src" location="src"/>
+	<property name="doc" location="doc"/>
+	<property name="build" location="build"/>
+	<property name="dist"  location="dist"/>
+
+	<path id="compile.class.path">
+	</path>
+
+	<path id="run.class.path">
+		<path refid="compile.class.path"/>
+		<pathelement location="${build}"/>
+	</path>
+
+	<target name="init">
+		<!-- Create the time stamp -->
+		<tstamp/>
+		<!-- Create the build directory structure used by compile -->
+		<mkdir dir="${build}"/>
+		<mkdir dir="${dist}"/>
+	</target>
+
+	<target name="compile" depends="init" description="compile the source and prepare intermediate files" >
+		<!-- Compile the java code from ${src} into ${build} -->
+		<javac srcdir="${src}" destdir="${build}" debug="off">
+			<classpath refid="compile.class.path"/>
+		</javac>
+
+		<java classname="Data" dir="${build}" fork="true">
+			<classpath refid="run.class.path"/>
+		</java>
+		<copy todir="${build}/META-INF">
+			<fileset dir="${src}" includes="MANIFEST.MF"/>
+		</copy>
+	</target>
+
+	<target name="dist" depends="compile" description="generate the distribution" >
+		
+		<exec dir="${build}" executable="zip">
+			<arg line="-X -D -9 ${dist}/4ktris-1.0.jar T.class o META-INF/MANIFEST.MF"/> 
+		</exec>
+
+		<jar jarfile="${dist}/4ktris-FPS-1.0.jar" compress="true">
+			<fileset dir="${build}" includes="TFps.class"/>
+			<fileset dir="${build}" includes="o"/>
+			<manifest>
+				<attribute name="Main-Class" value="TFps"/>
+			</manifest>
+		</jar>
+		<!--signjar jar="${dist}/4ktris-FPS-1.0.jar" alias="XXX" storepass="XXX" keypass="XXX" keystore="XXX"/ -->
+	</target>
+
+	<target name="clean" description="clean up">
+		<!-- Delete the ${build} and ${dist} directory trees -->
+		<delete dir="${build}"/>
+		<delete dir="${dist}"/>
+	</target>
+
+	<target name="run" depends="compile">
+		<java classname="T" fork="yes">
+			<classpath refid="run.class.path"/>
+		</java>
+	</target>
+
+</project>
+

@@ -1,0 +1,120 @@
+=============================================================================
+                    
+                    Ü  M  L  A  Ü  T     D  E  S  I  G  N
+
+                                 strikes again
+                               with a 64k intro
+                                 at AntIQ 2002
+                                     called
+
+                                     $    $
+                     $$$$$ $$        $$$$$$   $$$$$$$  $$    $$
+                   $$      $$       $$    $$ $$        $$    $$
+                  $$       $$       $$    $$ $$        $$    $$
+                  $$$$$$$$ $$       $$$$$$$$  $$$$$$$  $$$$$$$$
+                  $$       $$       $$    $$        $$ $$    $$
+                  $$        $$$$$$$ $$    $$  $$$$$$$  $$    $$
+                  
+                                (final version)
+
+-----------------------------------------------------------------------------
+
+The staff:
+  Basic concept
+  Main system + effect code
+  Modelling + textures + 'design'
+  Music....................................Gargaj
+
+  Texture-generator + interface
+  Modelling................................Vercy
+
+  Some code................................Procyon
+
+  Debugging help + testing.................Remage/Fresh!Mindworkz
+                                           Fox/Starlight
+                                           Robotriot
+                                           cD_/Dawning
+                                           Mnemonix/Kaleido
+                                           
+
+-----------------------------------------------------------------------------
+
+The stuff used:
+  FMOD sound system (www.fmod.org)
+  UPX exepacker (upx.sourceforge.net)
+  Microsoft Visual C++ (www.microsoft.com)
+The stuff used, but not directly:
+  Netwide Assembler (www.web-sites.co.uk/nasm)
+  Free Pascal for additional messup (www.freepascal.org)
+  InQ 3DS loader (scenergy.dfmk.hu/inqcoders)
+  APack for data compression testing (apack.cjb.net)
+    
+-----------------------------------------------------------------------------
+
+Minimum reqs for the intro:
+  Pentium II class PC, runs fine on my 333 Celeron.
+  Much RAM, no idea about the exact amount, 64MB probably does the trick.
+  OpenGL compatible videocard. TNT2 should be quite enough.
+  Some Windows. The final version should work on XP and 2000 too.
+  Any soundcard that FMOD finds useful.
+  
+-----------------------------------------------------------------------------
+(ORIGINAL INFO FOLLOWS:)
+
+About the intro:
+  This is our first contribution in the intro-category. (Thanx to BoyC/DD
+  for amping us up enough to make this >:) Hope you like it. (We do. Yes.)
+
+About the intro-system:
+  The intro features our newest intro-system called "k(Ü)ty(Ü)". The system
+  itself consists of a texture-generator (no, not ATG, although it's based
+  on it), and a 3D Studio MAX exporter, which recalculates the basic data
+  needed for object regeneration and camera keyframing. Still, we had to
+  kinda strip it down to boxes and cylinders :) The intro uses OpenGL,
+  (megathx 2 Paradox/Vivid 4 doxx) although we'll probably change that to
+  D3D8 later.
+
+About the music:
+  Music may sound weird (clicks, pops, squeels) because we used a stripped
+  down version of both the music and MiniFMOD. A nice, HQ version of the
+  music will be released someday. Yes, we do need a synth, but I had no
+  time+documentation to write one now.
+
+About the textures+models:
+  We wrote this intro 90% from scratch (music was the only thing ready) in
+  about a month. (We started working on it after FLaG 2002.) Both textures
+  and models may look weird and/or butt-ugly. We're sorry about that, but
+  we ran out of ideas, and had very little amount of time. (I still will
+  have an exam on Aug 23, which is also the first day of AntIQ.) And we
+  have no real designers/graphicians in the team. Consider this as _our_
+  version of TestRun >:)
+
+About the Hidden Part:
+  Exists. Dedicated to one of my favorite demos. Not command-line.
+  If you find it: http://umlaut.intro.hu/hidden.php3
+
+-----------------------------------------------------------------------------
+
+About the final version:
+  As we promised, we managed to fix all(?) the bugs that made the intro
+  crash, megathx to Remage/Fresh!Mindworkz, Fox/Starlight, Robotriot,
+  cD_/Dawning and Mnemonix/Kaleido for hunting and testing.
+  
+  We also replaced the buggy FMOD with a full one. Which is 2k smaller.
+  Oh well :))
+
+  Hidden part is also fixed, now you can see the whole message :)
+  
+  Textures are fixed up a bit. Still much space to improve, but hey, we're
+  coders. (Coder Colors(tm) is a trademark of the Pouet.net Collective)
+  
+-----------------------------------------------------------------------------
+
+Contact us:
+  Gargaj - gargaj@freemail.hu / http://umlaut.intro.hu/~gargaj
+  Vercy - megavercy@freemail.hu
+  Procyon - procyon@mailbox.hu
+
+-----------------------------------------------------------------------------
+ üd-01: .the .pertõ       http://umlaut.intro.hu      2002 (c) Ümlaüt Design
+=============================================================================

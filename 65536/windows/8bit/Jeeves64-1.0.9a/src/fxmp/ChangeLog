@@ -1,0 +1,66 @@
+for more changes check the ../../ChangeLog for Jeeves64.
+
+0.0.20-64k-v1     -- Kuno Woudt <warp-tmt@dds.nl>
+ - replaced load_xm.c with a slightly altered version `decode_xm.c'
+   to load xm's from memory.
+
+0.0.20-win32-v5   -- Kuno Woudt <warp-tmt@dds.nl>
+ - introduced win32 waveOut support in the DSP driver.
+   (to get fxmp-0.0.20 running in windows without `segfaulting' I 
+    replaced all mallocs with calloc - so I guess there are some 
+    memset's missing in the fxmp-0.0.20 release :)
+
+0.0.20
+ - fixed another volume bug :)
+ - added fxmp_poll which just polls ticker();
+
+0.0.19.5
+ - fixed a volume bug
+
+0.0.19
+ - ok ok, key off bug is REALLY fixed now ;)
+ - clean ups
+
+0.0.18
+ - a lot of optimizations, almost complete rewrite of drv_dsp.c
+ - key off bugs fixed
+ - no more needs nasm
+
+<blala I forgot what I did from 0.0.13 to 0.0.18>
+
+0.0.13
+ - volume bug is fixed
+ - pan fixes
+
+0.0.12
+ - fixed several bugs (including instno=0 bug)
+ - added fx: (0x09) Sample Offset
+ - optimized drv_dsp->ticker() function *EXPERIMENTAL*
+   details: ticker() now outputs exactly NOS*4 bytes
+            (instead of SOUNDBUFSIZE bytes)
+   warning: using a small SOUNDBUFSIZE may cause crashes
+ - removed the old buggy method for finding last fx parameter
+ - added several bugs
+ - 18-19% cpu usage decrease
+
+0.0.11
+
+ - driver structure is ready
+ - divided funcs into smaller parts and moved them to driver structure
+ - removed channel[j] lookups from seq driver
+ - api is changed too
+ - there're still a lot to do with driver structure etc
+ - envelope sustain bug is fixed
+
+0.0.10.5
+
+ - fixed porta to note again..
+ - some pattern jump bug is fixed (maybe?) :D
+
+0.0.10
+
+ - KeyOff bug is fixed :P
+ - Porta to Note is also fixed, but i don't know if the speed is correct.
+ - ticker() is divided into two parts, one for tickbased stuff, one for
+   rowbased stuff
+ - replaced all crappy lookups, now using pointers

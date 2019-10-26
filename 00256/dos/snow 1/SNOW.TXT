@@ -1,0 +1,73 @@
+Snow 1 Demo
+==============
+by cptkirkjamest (Martin Lester)
+
+Minimum requirements
+--------------------
+
+- IBM PC or 100% compatible
+- VGA Video card with 256K RAM and monitor
+- At least 253 bytes of free memory
+- 486DX2\66 recommended
+
+License and disclaimer
+----------------------
+
+This is my second entry into the Christmas 1998 256 bytes gaming competition.
+You may distribute this demo as much as you like as long as you charge no
+more than a small distribution fee.  The demo must also be distributed in an
+archive containing these files:
+
+- snow1.asm (NASM source code)
+- snow1.com (executable file)
+- snow1.txt (this file)
+
+It is, in effect, freeware.  I accept no responsibility for damage, mental,
+physical, financial, spiritual or otherwise, arising either directly or
+indirectly from the use of this demo.  By running or using any of the files
+distributed with the demo, including the demo itself, you accept these terms.
+
+Description
+-----------
+
+Alright, now that I have finished with the legal stuff, I can explain what
+happens in this demo.  This the Snow 1 demo, so there may be more in the
+future.  I only wrote it because you have to enter the competition twice.
+What it does it does not do very well, and it probably contains a bug of
+some description, but I thought it would be appropriate because this is a
+Christmas competition.  All it does is put a few shapes on the screen of
+different colours and make them flicker while the palette changes a bit.  I
+was going to include proper snow (like interference on the television), but
+in the end I settled for palette fuzz.
+
+About the demo
+--------------
+
+This demo was written using NASM.  You can leave the demo by pressing any
+key.  The flicker effect was achieved using chain-4.  The code is by no means
+optimised and probably contains a bug.
+
+Greetings
+---------
+
+Many thanks go to the following:
+
+- Everyone who contributed to the PC-GPE.
+- Draeden of VLA for his assembler tutorials.
+- Denthor of Asphyxia for his VGA tutorials.
+- Intel for providing excellent support for developers.
+- The whole NASM team for their excellent assembler.
+- The organiser of this competition.
+- Gene Rodenberry for creating Star Trek.
+- Linus Torvalds for Linux.
+- Microsoft for creating MS-DOS.
+
+No thanks go to Bill Gates for his slow, unstable waste of resources that he
+calls an operating system.
+
+Good luck to everyone who entered!
+
+Contact
+-------
+
+You can contact me at cptkirkjamest@geocities.com .

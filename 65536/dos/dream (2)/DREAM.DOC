@@ -1,0 +1,112 @@
+..๚๚๙๙๙-----ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤออออออออออออออออออออฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ------๙๙๙๚๚..
+
+                              ๎psilon presents
+                                   ๙      .               ๙
+                 .      ๙    ๚               ๚
+              ๚  ÛÛÛÛÛÜ   ÛÛÛÛÛÜ ๚ ÛÛÛÛÛÛ   ÜÛÛÛÜ   ÛÜ ๚ ÜÛ ๙
+        ๙  .     ฒÛ   ÛÛ  ฒÛ   ÛÛ  ฒÛÜÜ  ๙ ฒÛ   ÛÛ  ฒÛÛÜÛÛÛ     ๙
+             ๙   ฑฒ ๚ ÛÛ  ฑฒÛÛÛ฿   ฑฒ฿฿    ฑฒÛÛÛÛÛ ๙ฑฒ ฿ ÛÛ    ๚
+          ๚      ฐฑฒÛÛ฿๙  ฐฑ  ฿ÛÜ  ฐฑฒÛÛÛ ๙ฐฑ   ÛÛ  ฐฑ ๙ ÛÛ       ๙
+                     ๚     .    ๙                .          ๚
+                                          ๚
+þอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออฤฤฤฤ
+บ
+บ     Since we are new and unknown, we had to get fame
+บ     So, here is DREAM, our contribution to ASS'95 introcompo
+บ
+บ     Please don't take it too seriously : everything have been done in
+บ     a hurry. The vector world has been finished the day we finished the
+บ     intro itself !! And all the Gouraud related stuff are only some
+บ     very young trials put there to have some consistant parts...
+บ
+บ     Moreover, we have absolutely no EXE packer ready, and we had no time
+บ     to pack our different parts together in a single EXE
+บ
+บ     So, please forgive us, and we promise that our next productions will
+บ     be better
+บ
+þอออฤฤฤฤ
+บ
+บ     The rules of ASS'95 obliged us to use two different mod players in
+บ     the intro... so, we had problem with the different ways to handle
+บ     the timer, and we decided that the intro wouldn't be synchronised !!
+บ     Yes, it's lame
+บ     So, if you want to enjoy the thing at the original speed, try it on
+บ     a 486 DX2/66... and neither less nor more powerfull computer.
+บ
+บ     You will need :
+บ       þ a 386... and a 486 DX2/66 for experiencing the real thing
+บ       þ HIMEM, EMM, QEMM... whatever you want since we use only less
+บ         than 500 Ko of low memory
+บ       þ plus the other habitual stuff (keyboard, screen, brain...)
+บ
+บ     How to run the...
+บ       þ Competition version
+บ         just type DREAM [x] where x is the optional 2x0h specification
+บ         of your GUS baseport
+บ       þ CD version
+บ         if DREAM alone doesn't work, try to set the Midas parameters :
+บ         -sx     Force Sound Device x (1 = GUS, 2 = PAS, 3 = WSS, 4 = SB,
+บ                 5 = No Sound)
+บ         -pxxx   Force I/O port xxx (hex) for Sound Device
+บ         -ix     Force IRQ x for Sound Device
+บ         -dx     Force DMA channel x for Sound Device
+บ         -mxxxx  Set mixing rate to xxxx Hz
+บ         -oxxx   Force output mode (8 = 8-bit, 1 = 16-bit, s = stereo,
+บ                 m = mono)
+บ
+þอออฤฤฤฤ
+บ
+บ     Two versions of the intro exist :
+บ
+บ      þ The competition version is the TRUE thing in our point of view :
+บ        its size is under 64Ko, it supports only GUS, and is 100%ASM
+บ      þ The "CD version" has been made only to comply with the strange
+บ        rules of ASS'95. It has a lot of disadvantages : its size is far
+บ        greater than 64Ko, it supports GUS and SB, it uses the Pascal
+บ        version of Midas (because very very very little time to do it)
+บ
+บ     So, since it most unlikely that we will do a "final" version, for we
+บ     prefer to spend our time on further projects, be sure to get the
+บ     competition version.
+บ
+þอออฤฤฤฤ
+บ
+บ     Aaaargh !!
+บ     We planned to release this intro with a cool chiptune from bopy...
+บ     But we (Kortal & Fanor) had a MEGABIGPROBLEM during the linking :
+บ     the module had a bug and didn't work well with Gusplay or Midas...
+บ     So we had to take another one...
+บ     But you will hear this tune in a further production !!
+บ     Sorry bopy !
+บ
+บ     The credits :
+บ
+บ        Gouraud stuff, Julia Stuff........................Fanor
+บ        Unreal's Landscape................................Kortal
+บ        Music.................................................?? (*)
+บ        Smokin' girl.........................................Fub
+บ
+บ        (*) if the author read this, please contact us
+บ
+บ     ModPlayers :
+บ
+บ        Competition version...........GusPlay / Robban / Cascada
+บ        CD version........................Midas / Sahara Surfers
+บ
+þอออฤฤฤฤ
+บ
+บ     Fanor thanks his little brother a.k.a. Benot Dumas a.k.a.
+บ     Da-Thing-Out-Of-The-Space, for lending him his computer while
+บ     Kortal was at home
+บ
+บ     Fanor also thanks Garfield... without him, Da-Thing-Etc would not
+บ     have lend him his computer. Well... it's quite complicated, but you
+บ     are not supposed to understand. Thanks Garfield !!!
+บ
+บ     Kortal wants to be sorry, but at the origin there have to be a
+บ     VectorWorld on the intro instead of the Landscape but as there were
+บ     a lot of bugs... and lack of time... I decide to put my landscape
+บ     wich was coded a long time ago, and wich I appreciate a lot !
+บ
+þอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออฤฤฤฤ  F

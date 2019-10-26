@@ -1,0 +1,40 @@
+                             - DREAMWAVE -
+       PARTYVERSION!
+
+          Okey.. After a couple of days coding from scratch and
+fooling around with design etc , plus fighting with
+                     players and optimizing we bring you dreamwave.
+ Its a coop between Pragma and Deus Ex Machina
+                                 and made in a big hurry (didnt i just say?;)
+
+ okey.. how to use use:
+                             dreamwave.exe
+  results in fullscreen
+                                           dreamwave.exe -w 
+                               results in windowed, DARA!
+
+                     it uses 640x480x32 and is badly speed optimized
+
+       It Requires Directx7 or newer..... PLUS
+                        it wont run under NT systems, includes win2000 ;(
+                                             (final will)
+
+                          Ehrm... Shall we talk some AI stuff in it?
+           Okey...
+                             Sometimes it comes sounds that might sound like
+                                                mariobrothers samples.. its not.. its just a 
+           funny joke frome Firelight multimedia ;P
+ 
+                               so... who did this shit, honestly?
+ coding was done by lator/dxm and he also used some
+                                    pretty old code from carrion/dxm (buu)
+                                              and graphics + texgenfilters was made by mind/dxm
+       and the truddelutt (song) was made by andyk/pragma
+
+                                   contact dxm by browsing in www.dxmachina.org
+ and pragma by saying hello on irc ;)
+
+                                          PARTYVERSION!
+                        pampers - DREAMWAVE - pampers
+                                               LIBERO..
+                                                        DET KÄNNS TRYGGT!

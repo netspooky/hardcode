@@ -1,0 +1,46 @@
+                             T H R E A D
+
+___________________________________/\//_
+
+                            p01 / ribbon
+
+                    MSDOS 15 bytes intro
+                      December 19th 2013
+
+_____________________________________8<_
+
+  15 bytes implementation of the famous
+ C64 BASIC one-liner program:
+
+ 10 PRINT CHR$(205.5+RND(1)); : GOTO 10
+
+ My implementation is trivial.
+ There must be a few bytes to gain.
+ Come on!
+
+ THREAD OVER reached 12 bytes on C64
+ 
+_____________________________________01_
+
+thread: ;/\/\\\//\/\//\//////\//\/\\//\/
+mov dl,'/' ;\/\/\\//\//\///\/////\\///\\
+in al,41h ;//\\\\///\///\\//\\\/\/\\\///
+aaa ;\\\/\//\\/\\\/\\////////\\//\//\/\\
+jp print ;\//\///\//\\/\////\\\//\//\\\/
+mov dl,'\' ;\\\//\//\/\\//\////\\\\///\\
+print: ;/\/\\\\//\\///\\//\\///\//\/\/\\
+mov ah,02h ;\//\////\//\\////\////\/\/\/
+int 21h ;/\/\///\\\\\//\//\\\\/\////\///
+jmp thread ;\///\/\\///\\/\///\\//\\\\//
+
+_____________________________________##_
+
+ 4mat, Wisdom, Skate, Frag, HellMood and
+everyone pushing the limits with style!
+
+_____________________________________<3_
+
+  Joy & Vida
+
+
+

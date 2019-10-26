@@ -1,0 +1,24 @@
+
+                               farbrausch
+
+                           fr-083: What is timr
+
+                                  by
+
+                                 BeRo
+
+This 64k intro is designed for 720p for high-end GPUs (Geforce GTX970 and 
+up), so if your PC, primarily your graphic card, is too slow, this 64k
+intro will not only run at low framerates, it will break apart terribly.
+
+introlow.exe = 640x360 virtual render canvas
+intromedium.exe = 905x509 virtual render canvas
+introhigh.exe = 1280x720 virtual render canvas
+introparty.exe = intromedium.exe which should play on the compo machine
+
+
+
+
+
+
+

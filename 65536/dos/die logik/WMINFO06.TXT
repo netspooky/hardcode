@@ -1,0 +1,354 @@
+            ÜÛÛÜ   ÜÛÛÜ ÜÛÛÛÛÛÛÛÛÛÜ  ÜÛÜ  ÜÛÛÛÛÛÛÛÛÜ  ÜÛÛÛÛÛÛÛÛÜ
+            ÛÛÛÛ   ÛÛÛÛ ÛÛÛÛ    ßßß ÛÛÛÛÛ ÛÛÛß   ßÛÛÛ ÛÛÛÛ   ßÛÛÛ
+            ÛÛÛÛ   ÛÛÛÛ ÛÛÛÛÜÜÜÜÜ   ÛÛÛÛÛ ÛÛÛÜ   ÜÛÛÛ ÛÛÛÛ    ÛÛÛ
+            ÛÛÛÛÜÛÜÛÛÛÛ ÛÛÛÛßßßßß   ÛÛÛÛÛ ÛÛÛÛÛÛÛÛÛß  ÛÛÛÛ    ÛÛÛ
+            ÛÛÛÛÛÛÛÛÛÛÛ ÛÛÛÛ    ÜÜÜ ÛÛÛÛÛ ÛÛÛÛ ßÛÛÛÛÜ ÛÛÛÛÜÜÜÛÛÛß
+             ßÛÛß ßÛÛß  ßÛÛÛÛÛÛÛÛÛß  ßÛß  ßÛÛß   ßÛÛß ßÛÛÛÛÛÛÛß
+               ß   Û      ßÛß  ßÛ     Û    Ûß     Ûß   Ûß   Û
+
+            ÜÛÛÜ   ÜÛÛÜ  ÜÛÛÛÛÛÛÛÜ   ÜÛÛÛÛÛÛÛÛÜ  ÜÛÜ   ÜÛÛÛÛÛÛÛÜ
+            ÛÛÛÛÛÜÛÛÛÛÛ ÛÛÛÛßßßÛÛÛÛ ÛÛÛÛß   ßßß ÛÛÛÛÛ ÛÛÛÛß  ßÛÛÛ
+            ÛÛÛÛÛÛÛÛÛÛÛ ÛÛÛÛÜÜÜÛÛÛÛ ÛÛÛÛ  ÜÜÜÜ  ÛÛÛÛÛ ÛÛÛÛ
+            ÛÛÛÛ ß ÛÛÛÛ ÛÛÛÛÛÛÛÛÛÛÛ ÛÛÛÛ  ßßÛÛÛ ÛÛÛÛÛ ÛÛÛÛ
+            ÛÛÛÛ   ÛÛÛÛ ÛÛÛÛ   ÛÛÛÛ ÛÛÛÛÛÜÜÜÛÛÛ ÛÛÛÛÛ ÛÛÛÛÜ  ÜÛÛÛ
+            ßÛÛß   ßÛÛß ßÛÛß   ßÛÛß  ßÛÛÛÛÛÛÛÛß  ßÛß   ßÛÛÛÛÛÛÛß
+             Ûß     ßÛ   Ûß     Ûß    Ûß  ßÛß     Û     Ûß  Ûß
+                         ß            ß           ß                 Face
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+                              New in this issue
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+
+>Release of 'Die Logik'
+>Handle change from Guybrush into Seppe
+
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+                       Official Weird Magic Info File
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+
+Weird Magic was founded somewhere in the dark ages, back in the old
+days on MSX-2. Since 1991 'active' on PC, and since 1994 'active' in
+the demo scene. Until 1994 I (Mr.Logic) was alone, and did not much
+more than calling boards and be bored by it, a total lack of inspiration.
+But then, on a bright day, MiG announced that he was searching for a
+demo-group to join, because Bananacrap! Inc. died. I saw a great
+oppertunity, and grabbed it with both hands. I called MiG and so it
+happened that MiG became a member. A couple of friends I knew were
+kind of artistic too, but not really on PC, or on any computer at all.
+I decided that they could join too. Later on, The RamCrammer (TRC)
+from Bananacrap! Inc. was back again, he was responsible for the death
+of Bananacrap! Inc. but he got kinda homesick to the coding of demo
+stuff :)  so he decided to join Weird Magic. We're all very happy with
+it though! The next school year, I met 2 great guys who were kinda
+freaky with PC's too. First Science joined as a coder, I was very happy
+with it, 'cause I don't really have the time to do all the stuff alone.
+Especially 'cause I was coding a music-system, which I haven't finished
+even today! and 'cause TRC was/is coding special projects which involve
+a great deal of science and stuff. Great for use in demo's or scene utils.
+So Science was the first in Weird Magic who actually begon with vga
+routines, and we were all happy again :)
+Later Face joined as a graphician, he made a very cool logo for us,
+which we will use forever :)
+Oh yeah....And a lame dude called Guybrush payed me 100 bucks to join us
+so he did ;). Someday there was a success meeting, which sucked in some ways,
+but on the way back home, Nothingface wanted to join us, and after a long
+discussion (0.1623 seconds) we agreed :))
+Later Guybrush changed his handle to Seppe (wich even sucked more !)
+
+
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+ Current MemberStatus:
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+
+
+ Handle       Real Name             Born          Main task
+ ÄÄÄÄÄ-       ÄÄÄÄ-ÄÄÄÄ             -ÄÄÄ          ÄÄÄÄ-ÄÄÄÄ
+ Coolness     Job Wiegant           June-75       Coder/Partydude
+ Face         Rhett van der Voort   April-77      Graphics/Coder
+ MiG          Michiel Helsloot      March-73      Musician/pr
+ Mr.Logic     Jeffrey Exterkate     June-76       Coder/Organizer/pr/Founder
+ Nothingface  Robert Plass          August-72     Coder/Design/Gfx/pr
+ Optica       Remko Waanders        June-75       Graphics
+ Science      Niek Bergboer         May-77        Coder
+ Seppe        Tjerk Hofmeijer       April-77      Coder/Musician
+ TRC          Niels Moseley         December-73   Coder/Graphics
+
+
+WM Sonic Devision:
+
+ MiG          Tracker and composer, and user of our utils :)
+ Mr.Logic     Coding player/tracker/sample-editor ..
+ Seppe        Coding adlib player ..
+ TRC          Coding special sound effects, like vocoder/filters ..
+
+
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+ Releases:
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+
+
+ Gus2smp.zip    Gus patch to S3M-sample convertor by Mr.Logic
+ Charella.s3m   "Charella" by MiG .. 10th place at The Party 4
+ Dromen.xm      "Dromen zijn bedrog" by Mr.Logic ..
+ Beat.s3m       "Beat this Beat" by MiG .. 3rd place at X'95 Holland
+ MigProg.s3m    "M­G-wise progression" by MiG .. 8th place at SiH'95 Holland
+ FartOut.s3m    "Far(t) Out" by MiG .. 2nd place at Bizarre '95 Holland
+ TheNet.zip     Information about this movie with Sandra Bullock as a hacker
+ Nwo8Vote.zip   Voting form for New World Order Issue #8
+ Nwo#8.zip      New World Order issue #8
+ Wm-FcTwn.zip   "FC Twente" .. 3rd place at X'96 demo compo
+ DesRoad.s3m    "Desolation Road" .. 4th in X'96 music compo.
+ Wm-Fctrk.zip   "FC Twente" .. Soundtracks "Solar Flare" and "Demo-endtune-
+                 thingy-stuph" (yeah, TWO soundtracks ;).
+ Wm-logik.zip   "Die Logik" .. 64kb intro for Bizarre'96
+
+
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+ Soon to come:
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+
+
+ New World Order 9 voteform / questionnaire form
+ New World Order 9 with a special commercialism sux corner (The Party 5!)
+ Music Disk
+ Playmate32 player for famous formats on Gravis / Soundblaster cards
+ Demo/Intro/4Kb/Music/Gfx for autumn Parties (maybe even multiple demos/intros)
+
+
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+ PAAAARTYYYY!!!
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+
+
+Dates are in Europian/Dutch style : DD/MM/YY
+
+
+7-5 to 8-5 1994 : Bizarre '94
+                  Present: Mr.Logic
+                  Location: Kolpinghuis, Nijmegen, Nederland
+                  Releases: geen
+                  Comments: HOT!, Small room
+
+27-12 to 30-12 1994 : The Party '94 - Don't Try This At Home!
+                      Present: Mr.Logic, MiG, Science
+                      Location: Herning Messecenter, Herning, Denmark
+                      Releases : Charella (multichnl compo) 10th place
+                                  Dromen zijn Bedrog (aarghh)
+                      Comments: big screen/sound system poor
+                                only one bigscreen
+
+?-1 to ?+1-1 1995 : The Morning after (tp4) party
+                    Present : Mr.Logic, MiG
+                    Location: Norg, Groningen
+                    Releases: none
+                    Comments: saw lots of movies :)
+
+22-4 to 23-4 1995 : X '95
+                    Present: Mr.Logic, MiG
+                    Location: Buurthuis Einstein, Utrecht, Nederland
+                    Releases : Beat this Beat (music compo) 3rd place
+                    Comments : too short? ;))
+
+6-5 to 7-5 1995 : Somewhere In Hengelo - We Tried It At Home!
+                  Own (small) party, organised by MiG.
+                  Present: Mr.Logic, MiG, TRC / Weird Magic
+                           Valos, ?? / SMA Posse / Maniax Dream
+                           Rtf, Anarky / The Kip Brigade
+                  Activity: Boozing, movie watching
+                  Special: Virtual, variable fireplace, coded by TRC :))
+                  Location: MiG's place, Hengelo (Ov), Nederland
+                  Releases: none
+                  Comments: great movies!
+
+8-7 to 10-7 1995 : Somewhere In Holland '95
+                   Present: Mr.Logic, MiG
+                   Special: World Premiere of 'FASHION 8' with lasershow
+                   Location: SportCentrum LeysDream, Roosendaal, Nederland
+                   Releases: M­Gwise Progression (multichnl compo) 8th place
+                   Comments: big screen was set too dark (perfect&sharp though)
+                             sound system was poor in high tone area :(
+
+9-9 to 10-9 1995 : Bizarre '95
+                   Present: Mr.Logic, MiG, TRC, Face, Guybrush
+                   Special: Live performance of some dude from Inertia ;)
+                   Location: De Nobelear, Etten Leur, Nederland
+                   Releases: Far(t) Out (music compo) by MiG, 2nd place!
+                   Comments: SoundSystem & Big Screen in the mainhall were
+                             crap!  The other BigScreen was not that big,
+                             and very unsharp, and this soundsystem was just
+                             totally standard, they should have had a
+                             professional sound-mixer who took care of the
+                             sound.
+
+23-9 to 24-9 1995 : Sharp '95
+                    Present : Mr.Logic / Weird Magic
+                              TcM / Ground Zero
+                              The KIP Brigade & Sharps sister
+                              Valos, Mr.Fanatic / SMA Posse
+                    Activity: boozing, watching movies & TKB routines
+                    Special : Drunk girls!
+                    Location: Sharp's Place, Lisse, The Netherlands
+                    Releases: ??
+                    Comments: waaauuuuwww!
+
+3-11 to 5-11 1995  : Wired '95
+                     Present  : Mr.Logic
+                     Location : Mons (Bergen), Belgi‰
+                     Releases : none
+                     Comments : Organising ruled! Nice theatre!
+
+26-12 to 29-12 1995 : The Party 5
+                      Present : Mr.Logic, MiG, Science, Face,
+                                TRC, Guybrush
+                      Location: Dronning margrette hallen, Fredericia, Denmark
+                      Releases: Rendered picture of a gun by Face
+                      Comments: The organising SUCKED!
+
+11-2 1995 : Success meeting,  TP5 release party
+            Present : Mr.Logic, MiG, TRC, Guybrush, Optica!, Nothingface
+            Location: Buurthuis Einstein, Utrecht, Nederland
+            Releases: none?
+            Comments: kippe zuigeh ;)
+
+6-4 to 7-4 1996 : X '96
+                  Present : Mr.Logic, MiG, TRC, Guybrush, Nothingface,
+                            Science, Face, Jip
+                  Location: Buurthuis Einstein, Utrecht, Nederland
+                  Releases: Fc Twente (demo) Desolation road (music)
+                  Comments: hmm.. commercial.. no own brought food
+                            allowed.. but nice anyways..
+
+
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+ How to get our prods.
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+
+
+Headquarters:
+-ÄÄÄÄÄ-ÄÄÄÄÄ-
+
+Name of Board     Status         Sysop(s)          Phone Number(s)
+-ÄÄÄÄÄ-ÄÄÄÄÄ-     -ÄÄÄÄÄ         ÄÄÄ-ÄÄÄÄ          ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄ
+The Real World    World HQ       Da Chief [TFA]    +31-53-4330190
+Bad News BBS      Dutch HQ       RtF               +31-35-6837350
+                                                   +31-35-6421455
+Velvet demosite   Belgian HQ     Sleeping Dog      +32-3-3851594
+ACE BBS           French HQ      Gandalf           +33-1-45887548 4 lines
+                                                   +33-1-45888809 VIP line
+                                                   +33-1-45887799 2 VIP lines
+
+Sites:
+-ÄÄÄÄÄ
+
+Name of Board     Status         Sysop(s)          Phone Number(s)
+-ÄÄÄÄÄ-ÄÄÄÄÄ-     -ÄÄÄÄÄ         ÄÄÄ-ÄÄÄÄ          ÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ
+Neo Tokyo         Belgian Site   Tasmaniac         +32-50-620112
+
+
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+ How to contact us:
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+
+
+You can always contact us through our HQ's with our Echomail network.
+Most of us are on the Dutch Scene Connection, DemoGroups Interchange
+and on the Internet too.
+
+Mr.Logic       : mrlogic@dds.nl
+MiG            : m.a.helsloot@student.utwente.nl
+The RamCrammer : n.a.moseley@student.utwente.nl
+Science        : n.b.bergboer@student.utwente.nl
+Face           : r.vandervoort@student.utwente.nl
+Coolness       : j.wiegant@hio.hen.nl
+Seppe          : seppe@dds.nl
+Nothingface    : r.plass@a1.nl
+
+Or send messages to Mr.Logic on The Real World (+31)-53-330190
+
+Or try IRC  #coders or  #nlcoders or #alanis (mralanis)
+
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+ Greetinx:
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+
+
+Weird Magic Greetz:
+-ÄÄÄÄÄ-ÄÄÄÄÄ-ÄÄÄÄÄ-
+
+Acme
+Amnesia
+Analogue
+Blank
+Capacala
+Capricio
+Cascada
+Crapware
+Cheese Team
+Complex
+Cubic Team
+Cybernetic Dreams
+DCE
+Destiny
+Diffusion PC
+Distorsion
+Dust
+Enigma
+Epical
+Extreme
+Five Musicians
+Flatline Productions
+Future Crew
+Gentle
+Ghoul
+Grey Species
+Goto 10
+Hema!
+Image!
+Impact Studios
+Imphobia
+Inertia
+Infiny
+Jello!
+Jomanda
+Joyce
+Lithium
+Legend Design
+Logic Design
+Majestic 12
+Massive
+Metal
+M'n Moeder
+MOOnPEOPLE
+Myth
+N-factor
+Nailbomb
+New Order
+No Logic
+Nostalgia
+ooST17
+Orange
+Progress
+Prologue
+Pulse
+Rasta Rostelli
+SMA Posse
+Spirit
+Spoon
+Subway Imperium
+Success
+Surprise Productions
+Surellix
+Thaumaturge
+TFA
+The Clan
+(Reserved)
+The Raven
+The Natives
+Ultraforce
+Valhalla
+Versatile
+Virtual Visions
+Void
+Witan
+Xtacy
+Xtatic
+

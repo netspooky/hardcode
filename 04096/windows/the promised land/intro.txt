@@ -1,0 +1,14 @@
+ The Promised Land
+  - Asm'06 4k entry
+
+ --
+ code, "design", "sound" - Preacher/Traction
+
+ It is random - all the political interpretations are purely in your head.
+
+ Uses apack by Jibz.
+ 
+ 
+ --
+  syksyisin@gmail.com
+ --

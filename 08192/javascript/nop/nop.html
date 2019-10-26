@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<style type="text/css">
+body {
+margin: 0px;
+overflow: hidden;
+}
+</style>
+<title>rm</title>
+</head>
+<body>
+<div id="s"></div>
+<script id="v" type="x-shader/x-fragment">
+attribute vec3 p;
+void main() {
+gl_Position=vec4(p,1.);
+}
+</script>
+<script id="rm2" type="x-shader/x-fragment">
+void main() {
+	gl_FragColor = vec4(1., 0., 0., 1.);
+}
+</script>
+<script id="rm" type="x-shader/x-fragment">
+#pragma optimize(off)
+
+#ifdef GL_ES
+precision highp float;
+#endif
+
+uniform float t;
+uniform vec2 wh;
+
+#define pi 3.14159265
+#define hsv(h,s,v) mix(vec3(1.), clamp((abs(fract(h+vec3(3., 2., 1.)/3.)*6.-3.)-1.), 0., 1.), s)*v
+#define csb(f,c,s,b) mix(vec3(.5), mix(vec3(dot(vec3(.2125, .7154, .0721), f*b)), f*b, s), c)
+#define R(p, a) p=cos(a)*p+sin(a)*vec2(p.y, -p.x)
+
+vec3 n1 = vec3(1.000,0.000,0.000);
+vec3 n2 = vec3(0.000,1.000,0.000);
+vec3 n3 = vec3(0.000,0.000,1.000);
+vec3 n4 = vec3(0.577,0.577,0.577);
+vec3 n5 = vec3(-0.577,0.577,0.577);
+vec3 n6 = vec3(0.577,-0.577,0.577);
+vec3 n7 = vec3(0.577,0.577,-0.577);
+vec3 n8 = vec3(0.000,0.357,0.934);
+vec3 n9 = vec3(0.000,-0.357,0.934);
+vec3 n10 = vec3(0.934,0.000,0.357);
+vec3 n11 = vec3(-0.934,0.000,0.357);
+vec3 n12 = vec3(0.357,0.934,0.000);
+vec3 n13 = vec3(-0.357,0.934,0.000);
+vec3 n14 = vec3(0.000,0.851,0.526);
+vec3 n15 = vec3(0.000,-0.851,0.526);
+vec3 n16 = vec3(0.526,0.000,0.851);
+vec3 n17 = vec3(-0.526,0.000,0.851);
+vec3 n18 = vec3(0.851,0.526,0.000);
+vec3 n19 = vec3(-0.851,0.526,0.000);
+
+float spikeball(vec3 p) {
+	vec3 q=p;
+	p = normalize(p);
+	vec4 b = max(max(max(
+		abs(vec4(dot(p,n16), dot(p,n17),dot(p, n18), dot(p,n19))),
+		abs(vec4(dot(p,n12), dot(p,n13), dot(p, n14), dot(p,n15)))),
+		abs(vec4(dot(p,n8), dot(p,n9), dot(p, n10), dot(p,n11)))),
+		abs(vec4(dot(p,n4), dot(p,n5), dot(p, n6), dot(p,n7))));
+	b.xy = max(b.xy, b.zw);
+	b.x = pow(max(b.x, b.y), 140.);
+	return length(q)-2.5*pow(1.3,b.x*(1.-mix(.3, 1., sin(t*2.)*.5+.5)*b.x));
+}
+
+float sn(in vec3 p) {
+	const vec4 v = vec4(17.*17.,34.,1.,7.);
+	const vec2 c = vec2(1./6.,1./3.);
+	const vec4 d = vec4(0.,.5,1.,2.);
+	const float n = 1./v.w;
+
+	vec3 i = floor(p + dot(p, c.yyy));
+	vec3 x0 = p - i + dot(i, c.xxx);
+
+	vec3 l = step(x0.xyz, x0.yzx);
+	vec3 g = 1.-l;
+
+	vec3 i1 = g.xyz * l.zxy;
+	vec3 i2 = max(g.xyz, l.zxy);
+
+	vec4 r = i.z + vec4(0., i1.z, i2.z, 1.);
+	r = mod((r*v.y+v.z)*r, v.x);
+	r += i.y + vec4(0., i1.y, i2.y, 1.);
+	r = mod((r*v.y+v.z)*r, v.x);
+	r += i.x + vec4(0., i1.x, i2.x, 1.);
+	r = mod((r*v.y+v.z)*r, v.x);
+	r = floor(r);
+
+	vec3 x1 = x0 - i1 + 1. * c.x;
+	vec3 x2 = x0 - i2 + 2. * c.x;
+	vec3 x3 = x0 - 1. + 3.  * c.x;
+
+	vec3 ns = n * d.wyz - d.xzx;
+	r -= v.w*v.w*floor(r*ns.z*ns.z);
+	vec4 a = floor(r*ns.z);
+	vec4 b = floor(r - v.w*a);
+
+	vec4 x = a*ns.x + ns.y;
+	vec4 y = b*ns.x + ns.y;
+	vec4 h = 1. - abs(x) - abs(y);
+
+	vec4 b0 = vec4(x.xy, y.xy);
+	vec4 b1 = vec4(x.zw, y.zw);
+
+	vec4 s0 = floor(b0)*2.+1.;
+	vec4 s1 = floor(b1)*2.+1.;
+	vec4 sh = floor(h);
+
+	vec4 a0 = b0.xzyw + s0.xzyw*sh.xxyy;
+	vec4 a1 = b1.xzyw + s1.xzyw*sh.zzww;
+
+	vec4 t = vec4(
+				dot(vec3(a0.xy, h.x), x0),
+				dot(vec3(a0.zw, h.y), x1),
+				dot(vec3(a1.xy, h.z), x2),
+				dot(vec3(a1.zw, h.w), x3)
+			);
+
+	vec4 s = vec4(
+				dot(x0, x0),
+				dot(x1, x1),
+				dot(x2, x2),
+				dot(x3, x3)
+			);
+
+	s = max(.6 - s, 0.);
+	s *= s;
+	s *= s;
+
+	return 48. * dot(s, t);
+}
+
+float pn(vec3 p) {
+	vec3 i = floor(p);
+	vec4 a = dot(i, vec3(1., 57., 21.)) + vec4(0., 57., 21., 78.);
+	vec3 f = cos((p-i)*pi)*(-.5)+.5;
+	a = mix(sin(cos(a)*a),sin(cos(1.+a)*(1.+a)), f.x);
+	a.xy = mix(a.xz, a.yw, f.y);
+	return mix(a.x, a.y, f.z);
+}
+
+float fpn(vec3 p) {
+	return pn(p*.06125)*.5 + pn(p*.125)*.25 + pn(p*.25)*.125;
+}
+
+float fsn(vec3 p) {
+	return sn(p*.06125)*.5 + sn(p*.125)*.25 + sn(p*.25)*.125;
+}
+
+float m;
+float f(vec3 p) {
+	m = 0.;
+	R(p.yz, pi/6.);
+	//p.y+=3.9;
+	vec3 q=p;
+	R(p.xz, t);
+	R(p.yz, .5*t);
+	//float d = spikeball(p)+sn(p*10.0)*0.01;
+	float d = spikeball(p)+fsn(p*100.0)*0.01;
+	//float d = spikeball(p)+fpn(p*200.0)*0.0125;
+	//float d = spikeball(p)+pn(p*30.0)*0.0025;
+	float nd = dot(q+vec3(0.,3., 0.), vec3(0., 1.,0.));
+	m = step(nd, d);
+	return min(d,nd);
+}
+
+vec3 g(vec3 p) {
+	vec2 e = vec2(.0001, .0);
+	return normalize(vec3(f(p+e.xyy) - f(p-e.xyy),f(p+e.yxy) - f(p-e.yxy),f(p+e.yyx) - f(p-e.yyx)));
+}
+
+float ao(vec3 p, vec3 n, float d) {
+	float s = sign(d);
+	float o = s*.5+.5;
+	for (float i = 6.0; i > 0.; --i) {
+		o -= (i*d - f(p+n*i*d*s)) / exp2(i);
+	}
+	return o;
+}
+
+void main() {
+	vec3 p = vec3(0.,0.,2.);
+	vec3 d = vec3((gl_FragCoord.xy/(0.5*wh)-1.)*vec2(wh.x/wh.y,1.0), 0.)-p;
+
+	d = normalize(d);
+	p.z += 6.0 + sin(t);
+
+	float b=0.,r=0.,l=0.,a,s;
+
+	int j;
+	for (int i = 0; i <= 63; ++i) {
+		l = f(p)*0.9;
+		r += l;
+		p += l*d;
+		l = abs(l);
+		if (l<0.005*r) break;
+		j = i;
+	}
+
+	if (j == 63) {
+		gl_FragColor = vec4(1.0);
+		return;
+	}
+
+	float m = m;
+
+	vec3 n = g(p);
+	float e = 1.+dot(n,d);
+
+	vec3 lp = normalize(vec3(sin(t)*10.0, 1.0+abs(sin(t*0.5))*20.0, 10.0*cos(t))-p);
+	float x = pow(max(dot(reflect(lp, n), d), 0.0), 16.0);
+
+	d = refract(d, n, 0.7);
+	a = ao(p, n, 0.3);
+	s = ao(p, d, -0.5);
+
+	s = 1.-clamp(s+0.0,0.,1.);
+	s*=s;
+	float c = s*a+0.4;
+	vec3 cA = c*c*mix(hsv(0.1,1.,1.), hsv(0.,1.,1.), e)*clamp(max(dot(n,lp),0.),0.9,1.0) +vec3(x*a);
+	vec3 cB = vec3(a);
+	gl_FragColor.xyz = clamp(csb(mix(cA, cB, m), 1.2, 1.0, 1.0).xyz, 0., 1.);
+	gl_FragColor.w = 1.;
+}
+</script>
+
+<script type="text/javascript">
+	var gl,b,c,w,h,p,st;
+
+	window.onload = init();
+
+	function init() {
+		window.requestAnimFrame = (function() {
+			return window.requestAnimationFrame ||
+			window.webkitRequestAnimationFrame ||
+			window.mozRequestAnimationFrame ||
+			window.oRequestAnimationFrame ||
+			window.msRequestAnimationFrame ||
+			function(callback, element) {
+				window.setTimeout(callback, 16);
+			}
+		})();
+
+		c = document.createElement("canvas");
+		document.getElementById("s").appendChild(c);
+
+		try {
+			gl = c.getContext("experimental-webgl");
+		} catch (e) {}
+		if (!gl) {
+			alert("No WebGL");
+		}
+		b = gl.createBuffer();
+		gl.bindBuffer(gl.ARRAY_BUFFER, b);
+		gl.bufferData(gl.ARRAY_BUFFER, new Float32Array([-1.,-1.,-1.,1.,1.,-1.,1.,1.]), gl.STATIC_DRAW);
+		p = gl.createProgram();
+
+		var vs = gl.createShader(gl.VERTEX_SHADER);
+		gl.shaderSource(vs, document.getElementById("v").textContent, gl.VERTEX_SHADER);
+		gl.compileShader(vs);
+		if (!gl.getShaderParameter(vs, gl.COMPILE_STATUS)) {
+			alert(gl.getShaderInfoLog(vs));
+			p = null;
+			return;
+		}
+
+		var fs = gl.createShader(gl.FRAGMENT_SHADER);
+		gl.shaderSource(fs, document.getElementById("rm").textContent, gl.FRAGMENT_SHADER);
+		gl.compileShader(fs);
+		if (!gl.getShaderParameter(fs, gl.COMPILE_STATUS)) {
+			alert(gl.getShaderInfoLog(fs));
+			p = null;
+			return;
+		}
+
+		gl.attachShader(p, vs);
+		gl.attachShader(p, fs);
+		gl.linkProgram(p);
+
+		if (!gl.getProgramParameter(p, gl.LINK_STATUS)) {
+			alert(gl.getProgramInfoLog(p));
+			p = null;
+			return;
+		}
+
+		window.addEventListener("resize", resize, false);
+		resize();
+		st = new Date().getTime();
+		mainloop();
+	}
+
+	function resize(event) {
+		c.width = window.innerWidth;
+		c.height = window.innerHeight;
+		w = c.width;
+		h = c.height;
+		gl.viewport(0, 0, c.width, c.height);
+	}
+
+	function mainloop() {
+		if (!p) return;
+		window.requestAnimFrame(mainloop, c);
+
+		gl.clearColor(1.,0.,0.,1.);
+		gl.clear( gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT );
+		gl.useProgram(p);
+		gl.uniform1f(gl.getUniformLocation(p, "t"), (new Date().getTime()-st)/1000);
+		gl.uniform2f(gl.getUniformLocation(p, "wh"), w, h);
+
+		gl.bindBuffer(gl.ARRAY_BUFFER, b);
+		var vp = gl.getAttribLocation(p, "p");
+		gl.vertexAttribPointer(vp, 2, gl.FLOAT, false, 0, 0);
+		gl.enableVertexAttribArray(vp);
+		gl.drawArrays(gl.TRIANGLE_STRIP, 0, 4);
+		gl.disableVertexAttribArray(vp);
+	}
+
+
+</script>
+
+</body>
+</html>

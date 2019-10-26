@@ -1,0 +1,76 @@
+            //==                        //=\\
+            \\\   //=\\  ||  ||  //\\  ||   || ||  ||  //\\
+              || ||   || ||  || ||  || ||  \|| ||  || ||  ||
+           ==//   \\==||  \\//   \\//   \\=//\\ \\//   \\//
+                      ||                presenz
+                         _     _     _    _
+                      -= Meine Eiche gl„nzt =-
+
+Well well .... Nobody expected it .... Nobody waited 4 it
+......... but here it is - the first major release by SquoQuo !!
+
+Reqz: 10meg, 256k lomem, VGA, GUS for sound (min.768k), monitor, this intro...
+      We checked tha speed on P-133, it worked alright, it should run even on
+      486-100 (or 66?), but that's not checked...
+      Do NOT use any EMM or similar crap! (HIMEM may run)
+
+Tech-Nical-Info:
+      We use a MPEG-like packer, but key frames are using self-referencing
+      blocks (saves a lotta mem!). The frames are 160x96x4 with 5fps, the
+      program interpolates one frame each. Whole video part takes 24 secs.
+      All is synchronised on the vertical retrace, i.e. if your compie's
+      too slow, the whole thing will run at half speed (sorry for that).
+      The instruments are generated using different parts like FM- and
+      lowpass filter, square generator and others...
+
+Sum general Info bout the intro:
+      Main idea came from an incredible encoding technique, called Wavelet.
+      Although we do not use this, the idea of an video-based intro remained.
+      (Maybe, you've seen a Coldcut-video?)
+
+Legal shit:
+      Copyright is ours
+      Flat real mode stuff by Stone/Dust
+      May be distributed freely if nuffin's changed
+      EMail us, if putting on any commercial CD-ROM
+      EMail us, if you like this piece
+      EMail us, if having probs
+      EMail us, just for fun...
+
+The History of SquoQuo:
+      Long time ago in the year of the lord 1992 there were two weird dudes
+      thinking bout doing some demo related stuff. At that time the coder of
+      that group (Hopper) didn't possess a PC but an Acorn(tm) Archimedes,
+      so we started doing our stuff on that machine (which by the way really
+      kicked ass (in relation to a normal PC at that time (386-25)))
+      After releasing 2 Megademos, 1 Demo and 2 X-Mas demos (and in 1997 a
+      preview to a never 2 B-released demo) we started entering the PC-World
+      (cauz Hopper now wuz e-quipped with a Penz-200).
+      Žh ja usw.
+
+Respects (that means Ur products kick ass!) must fly to following groups:
+      Coma
+      Orange
+      TBL
+      Complex
+      Halcyon
+      Tpolm
+      Rage
+      Cubic team & $een
+      ACME
+      Aegis
+      K”rbla
+
+Personal greetz ride to:
+      Hopper:
+        Bugger
+        QArc
+      Bugger:
+        Hopper
+      And nobody else, cause everybody suxxx hard time!!
+
+Hope U had sum fun! See ya
+
+AND DON'T FORGET:
+VISIT OUR INTERNET SITE (http://www.uni-ulm.de/~s_cballh/squoquo.html)
+AND LEAVE US AN E-MAIL !!!

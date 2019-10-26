@@ -1,0 +1,11 @@
+I like my crow soft!
+
+    Das 4k-Intro "I like my crow soft!" von MadMan/real.fake
+als Beitrag zur Dialogos 2000 wurde mit Turbo Pascal 7.0 mit
+dem integriertem Assembler geschrieben. Ich möchte auch noch
+darauf hinweisen, dass ich auf Komprimatoren wie z.B. pkLite
+oder UPX verzichtet habe. Das Programm spiegelt also die Phi-
+losophie von real.fake wieder, denn ist es real oder nur ein
+fake?
+                                            MadMan/real.fake
+                                       auf der Dialogos 2000

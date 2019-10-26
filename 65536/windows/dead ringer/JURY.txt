@@ -1,0 +1,12 @@
+
+dear asm jury,
+
+please run our 64k called "dead ringer" on the nvidia hardware. 
+it'll work just fine on both configs, but our shadows look much 
+cooler on the nvidia card.
+
+the executable you should run for the compo is flt_deadringer_800_4aa.exe.
+the others are supplied for running on other people's slow machines only. 
+
+lots of love, 
+fairlight. 

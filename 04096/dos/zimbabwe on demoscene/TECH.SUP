@@ -1,0 +1,15 @@
+For russian letters:
+
+keyrus /ALL
+
+or
+
+add to autoexec.bat:
+
+mode.COM con codepage prepare=((866) C:\WINDOWS\COMMAND\ega3.cpi)
+mode.COM con codepage select=866
+
+add to config.sys:
+
+devicehigh=C:\WINDOWS\COMMAND\display.sys con=(ega,,1)
+Country=007,866,C:\WINDOWS\COMMAND\country.sys

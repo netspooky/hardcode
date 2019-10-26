@@ -1,0 +1,71 @@
+      ._______                 ____
+ _____|       |____ _______.__\\_ /________
+_)    |       |   _/       |   _/         /
+\     _       |   \        |   \          \_
+/_____\_______|____\_______|____\__________/
+.-diP-----------------------------------bM-.
+
+                B  L  O  O  M
+
+                     by
+
+          headcrash and addict labs
+
+                  64k intro
+                at evoke 2oo5
+
+  -> FINAL VERSION - BUGFIXED & SMALLER <-
+
+
+  finally I got my ass up this summer to
+  make an intro for the nice track traymuss
+  gave me some time ago (thx!).
+  I think I planned this since before...
+  evoke 2oo4.
+
+  this intro needs an opengl 1.5 (or higher)
+  compliant video card supporting GLSL.
+  in directx terms you can read this as
+  something like pixel and vertex shaders 2.0
+  note: the opengl 1.5 fallback still needs
+  full GLSL capabilities, it just doesn't use
+  the opengl 2.0 function entry points. only
+  use this, when you encounter problems with
+  the autodetection.
+
+
+  credits:
+    styx/headcrash              code.graphics
+    traymuss/addict                     music
+
+
+  additional credits n' hugs to:
+    firelight multimedia             minifmod
+    farbrausch              executable packer
+
+
+  contact:
+
+    styx_hcr@gmx.de
+    www.head-crash.de
+
+    traymuss@wp.pl
+    www.addict-labs.org
+
+
+  full greets & love:
+
+    haujobb.black maiden.conspiracy.unik.0ok
+    freestyle.salva   mea.tomkh.vacuum.never
+    bypass.ananasmurska.lkcc.portal  process
+    squoquo.yodel.ainc.aardbei.brain control
+    kolor.assembly organizing.bytegeiz.5711.
+    and of course all our fellow groupmates.
+
+
+  signed,
+
+    styx.august 2oo5
+
+
+  beware of the elk.

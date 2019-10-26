@@ -1,0 +1,22 @@
+
+JBounce
+
+My little 256-byte effort.  When I started, it was at least going to
+have some nice features but your nasty 256-byte limit has turned it into
+something almost entirely pointless.  The source wasn't designed for
+anyone else to read (I've just knocked it up in, let's see, 5 hours, most
+of which was looking for bytes to strip out) but if they want it they
+can have it.
+
+The "game":
+  ...needs a mouse driver installed (otherwise it will probably crash).
+Keep the little ball from going off the bottom of the screen - it will
+fall throught your bat if it goes too slow, so you've got to keep it up
+in the air by whacking it from the side (ie. have the bat moving when you
+hit it).  There's no scoring, unless you want to use a stopwatch.
+
+--
+Jay Foad <jmf22@cam.ac.uk>
+Trinity College, Cambridge
+16th March 1995
+

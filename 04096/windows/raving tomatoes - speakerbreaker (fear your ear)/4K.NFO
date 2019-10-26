@@ -1,0 +1,22 @@
+Raving Tomatoes - Speakerbreaker (fear your ear)
+A 4k intro for Breakpoint 2004 coded by T$
+
+Requires DirectDraw + Soundcard
+Initialization can take some time on slower CPUs
+Faaaaast machines are recommended for raytracing anyway...
+
+Files included:
+
+TS4kBP04_320x200.com
+TS4kBP04_320x240.com
+TS4kBP04_400x300.com
+TS4kBP04_512x384.com
+TS4kBP04_640x480.com
+TS4kBP04_800x600.com
+TS4kBP04_1280x1024.com
+TS4kBP04_320x240_bright.com
+TS4kBP04_400x300_bright.com
+TS4kBP04_512x384_bright.com
+
+All versions use 32bit RGBA mode
+"bright" versions are intended for dark monitors only

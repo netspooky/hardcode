@@ -1,0 +1,57 @@
+                                                                        _ _
+ ___       ___     _____               ___    .____.  _____   ___       _ /_____
+/  //_____/  //_ _\\_   \_ __ _____ _ /  (_ __|    |_\\_   \_/  /_____ _\//   _/
+\__      /    _/    /    / _//    / _/    /   |    |    /   / _//    /  \/    \
+ _/     /     \         /  \     /  \     \_  _    |       /  \     /   ||     \
+ \______\______\________\________\___\_____/__\____|_______\___\____\___||_____/
+--___ ------- ________--_____------___-----____------_____-----_-____-__------ -
+ /  //_______\\_     /_\\_   \____\\  \_ _\\_ /_____\\_   \_ _\//  _// //_______
+ \__      /    /    /    /    /     _  (_  _/    /    /    /  \/   \   _/      /
+  _/     /    /    /    /     \     \   /  \     \_       /   ||    \  \      /
+  \______\__    __/_____\______\________\___\_____/_______\___||____/___\_____\
+- -diP------\___\---------------------------------------------------------bM!- -
+
+
+
+
+                              P O I N T  B L A N K 
+                                    ( final )
+                                       by
+
+                               STOCKHOLM SYNDROME
+
+                     (http://abductee.untergrund.net/ssy)
+
+
+::files 
+point_blank_NVDA.exe  (nVIDIA Geforce1 and above)
+point_blank__ATi.exe  (ATi Radeon 9500 and above)
+
+::rants:
+ making an ATi final version is not as creative and easy as one might think.
+ OpenGL wich is a standard is taken as "results may vary",
+ differences occur (glPoint look/size,Texture-clamping...)
+ oh and yes, before we forget:
+ Thanks to the ati-driver-manufactures:
+ having to install SP4 for win2k to actually be able to install teh drivers
+                             SUXX BIG TIME.
+
+::look
+ aick is looking for a freelance job in the computer graphics industry.
+ abductee, too.
+ contact us via the contact section of http://abductee.untergrund.net/ssy
+
+::thanx
+ for the ATi card:
+  revell 
+ for testing:
+  2funky
+  melwyn
+  EvilOne
+  Oberfoerster
+  Sabbarosch2000
+  AliBi
+  naitandu
+
+::bye
+ signed abductee/aick

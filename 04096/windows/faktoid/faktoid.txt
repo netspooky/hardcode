@@ -1,0 +1,17 @@
+faktoid
+4k Intro by T$
+german version released at TUM2002
+
+This intro contains a large amount of 
+fake-2D-splinevectorgraphic and nearly no
+code at all. Blame cable TV, not me.
+
+Requirements:
+-Windows (Win95 requires IE4+ or similar installed
+due to missing fonts in Win95)
+-DirectDraw (640x480x16)
+-DirectSound
+
+Note: After some time the warning screen should be
+replaced by a world map and some noise. It may look 
+ugly, but should work fine anyway.

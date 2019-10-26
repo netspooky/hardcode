@@ -1,0 +1,75 @@
+                      G I A N T - the Ultimate 4KB-Intro!
+                      ===================================
+
+              written by ä, STP (Sigma of Star Team Productions)
+
+  This Little 4kb Intro was released in Assembly '94. The party was held in
+  Helsinki, the Capital of Finland, 5th - 7th August 1994. This little intro
+  took part part in the 4KB-Intro Compo.
+
+  This Intro is released as Free Ware. You can spread it as much as you want
+  but all these files must be kept together:
+
+        README.DOC      - this file
+        GIANT.COM       - released PD version
+        GIANTSHW.COM    - Assembly '94 Compo version
+                          (Does not have my Name or Group Name)
+        RUNHELP.BAT     - for solving some problems
+        FILE_ID.DIZ     - File info
+
+  You can also modify this intro if you want BUT DO NOT SPREAD IT unless it is
+  modified enough! And remember also to put YOUR OWN NAME in your Intro.
+
+  To run this intro the minimum possible composition is
+
+                - a 386 or better
+                - a math coprocessor (or emulator = slow intro!)
+                - VGA card (100% VGA Compatible on register level)
+                - 320 kb free memory
+                  (the file is compressed and has some Large memory tables!)
+                - DOS v. 3.0 or better
+
+  but my suggestion is
+
+                - at least a 486DX2/66
+                - A FAST Local Bus VGA Card
+                  (100% VGA Compatible on register level)
+
+  On a FAST 486DX2/66 the approximate running time is 2'45.
+
+  This Intro is also a preview for all you who are interested in file
+  compressing. These COM-files are compressed with my own XPACK-method that
+  makes files much tighter than PKLITE or LZEXE etc. Compressing is faster, too!
+  A small decompressing routine is at the beginning of these COM-files and that
+  routine is about 100 bytes long. I'm going to release this Executable File
+  Compressor some day in the future.
+
+  I would like to thank following persons that have made all this possible and
+  given me great hints for programming this intro:
+        Tim Clarke,     for Martian terrain renderer
+                        (especially marsinfo.txt) which can be found at
+                        garbo.uwasa.fi:/pc/demo/mars10.zip.
+
+        Paul H. Kahler, for rotates/pans/scales a 256x256 bitmap.
+
+        NutCracker of the Immortal Syndicate, for help in programming Shadebobs.
+
+  My Greetings go to:
+                        All members in STP (Star Team Productions)
+                        Otto Chrons
+                        Future Crew
+
+  And all coders in PC world, keep up the good work!
+
+
+  If you want to contact me then write to the (snail-mail) address:
+
+                                Jari Kyt”joki
+                                Puolukkakatu 5
+                                44200 Suolahti
+                                FINLAND
+
+  Thank you for the Interest uploading this program.
+
+  I'm sorry you can't reach me by E-mail yet. I'll start my studies in this
+  Autumn and probably I'll get an address to Internet.

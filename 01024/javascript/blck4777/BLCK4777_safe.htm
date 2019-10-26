@@ -1,0 +1,65 @@
+<style>
+
+body {
+  font:normal normal 1em/1.5 sans-serif;
+  color: #eee;
+  background: #111;
+  text-align: center;
+}
+p {
+  white-space: pre-line;
+}
+span {
+  color: #666;
+  font-size: .7em;
+}
+a {
+  color: #6cf;
+  text-decoration: none;
+}
+button {
+  padding: 1em 2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+</style>
+<h1>BLCK4777* by <a href="http://www.p01.org/">p01/ribbon</a></h1>
+<p>1kb intro released at Assembly 2015
+
+<button>START</button>
+<span>May take a few seconds to generate the ~2min music</span>
+
+
+Thanks to Adinpsz @kaneel @frksr TBC Loonies and
+ everyone pushing the limits with style!
+
+ <span>* unpacked version</span></p>
+
+<canvas id='b'></canvas><script>
+/* safe/uncompressed version of BLCK4777 by p01/ribbon
+ * 1kb intro released at Assembly 2015
+ * http://www.p01.org
+ */
+
+// Variables available from the bootstrap
+c = b.getContext('2d');
+T = String.fromCharCode;
+p = 0;
+
+// Uncompressed payload using requestAnimationFrame
+function u() {
+  requestAnimationFrame(u);
+
+  for(g=p?B.currentTime*60:(B='RIFFdataWAVEfmt '+atob('EAAAAAEAAQAAeAAAAHgAAAEACAA')+'data',b.style.background='radial-gradient(circle,#345,#000)',b.style.position='fixed',b.style.height=b.style.width='100%',b.height=720,h=b.style.left=b.style.top=A=f=C=0,6177);g>f;h*=f%1?1:.995)for(s=Math.pow(Math.min(f/5457,1),87)+Math.pow(1-Math.min(f/5457,1),8),f==[b.width=1280,1599,2175,2469,2777,3183,3369,3995,4199,4470,4777,5120][C]&&(C++,h=640),f+=p?(c.translate(640,360+h/45*Math.random()),c.rotate(A/5457-h/5457),c.scale(1+s*8,1+s*8),1):(B+=T((1+s*8)*Math.random()+(1-s)*(h/45*(f*(2+C/3%1)&1)+(C>3)*8*(f*(2+(f/8&3))%1))|1),1/512),i=p.length;i;)y=p[i-=7],x=p[i^=1],r=p[i+4],l=p[i+6],s=2*Math.random()+1,t=s*4,a=122,640>r?(640>Math.abs(p[i^=1]+=p[i+2])||(p[i+2]*=-1),640>Math.abs(p[i^=1]+=p[i+2])||(p[i+2]*=-1),t=Math.random()>p[i+7]||p[i+7]=='22312131212313'[C]&h==640,w=x-A,p[i+2]||r*r/3>w*w&&(t=s*(r-Math.abs(w))/45+2,a=2*Math.random()+5,p.push(A,0,s*Math.sin(a+=599),s*Math.sin(a-11),s*t,C+s,640,.995),s=2*Math.random()+1,a=2*Math.random()+5,p.push(A,0,s*Math.sin(a+=599),s*Math.sin(a-11),s*t,C+s,640,.995),s=2*Math.random()+1,a=2*Math.random()+2,p.push(A,0,s*Math.sin(a+=599),s*Math.sin(a-11),s*t,C+s,640,.995)),a=p[i+2]*y/45,l=p[i+6]=t?640:.9*l,t=r):A=p[i]++,g>f||(s=r,c.beginPath(),c.lineTo(x+s*Math.sin(a+=599),y-s*Math.sin(a-11)),s=t,c.lineTo(x+s*Math.sin(a+=599),y-s*Math.sin(a-11)),c.lineTo(x+s*Math.sin(a+=599),y-s*Math.sin(a-11)),c.shadowBlur=r,s=l,x=s*2,a=p[i+5],c.shadowColor=c.fillStyle='rgb('+[x+s*Math.sin(a+=599)|1,x+s*Math.sin(a+=599)|1,x+s*Math.sin(a+=599)|1]+')',c.fill());p?c.fillText('BLCK4777',90,99):(B=new Audio('data:Audio/WAV;base64,'+btoa(B))).play(p=[f=C=0,0,0,0,180,2,0,1,-360,0,0,0,99,1,0,2,360,0,0,0,99,1,0,3,-2880,0,0,0,1280,0,1280,0])
+
+};
+
+// Start button
+document.querySelector('button').onclick = function() {
+  this.textContent = 'Starting...';
+  this.disabled = true;
+  setTimeout(u,1);
+};
+
+</script>

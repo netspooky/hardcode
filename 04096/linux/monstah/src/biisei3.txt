@@ -1,0 +1,110 @@
+/
+tempo 500
+
+pattern 0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+  mo  C0  0
+end
+
+
+pattern 1
+  si  C3  50
+  si  C3  50
+  si  C3  50
+  si  C3  50
+  si  C3  50
+  si  C3  50
+  si  C3  50
+  si  C3  50
+end
+
+pattern 2
+  si  E3  50
+  si  E3  50
+  si  E3  50
+  si  E3  50
+  si  E3  50
+  si  E3  50
+  si  E3  50
+  si  E3  50
+end
+
+pattern 3
+  si  A3  50
+  si  A3  50
+  si  A3  50
+  si  A3  50
+  si  A3  50
+  si  A3  50
+  si  A3  50
+  si  A3  50
+end
+
+pattern 4
+  si  G3  50
+  si  G3  50
+  si  G3  50
+  si  G3  50
+  si  G3  50
+  si  G3  50
+  si  G3  50
+  si  G3  50
+end
+
+pattern 5
+  si  c4  50
+  si  E4  50
+  si  C4  30
+  si  E4  30
+  si  C4  10
+  si  E4  10
+  si  C4  05
+  si  E4  05
+end
+
+pattern 6
+  si  G4  50
+  si  B4  50
+  si  G4  30
+  si  B4  30
+  si  G4  10
+  si  B4  10
+  si  G4  05
+  si  B4  05
+end
+
+pattern 7
+  si  A4  50
+  si  C5  50
+  si  A4  30
+  si  C5  30
+  si  A4  10
+  si  C5  10
+  si  A4  05
+  si  C5  05
+end
+
+
+
+playlist
+
+  1 0 0
+  2 0 0
+  3 0 0
+  4 0 0
+  1 2 5
+  2 3 6
+  3 1 5
+  4 2 6 
+  1 2 7
+  2 3 6
+  3 1 5
+  4 2 5 
+
+end 

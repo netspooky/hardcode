@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg id="Svg" onload="Demo1.Init()" width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<script type="text/javascript"><![CDATA[
+    var SvgElement;
+
+    function Twister()
+    {
+      this.HeightInPixel=320;
+      this.VoxelSize=4; // may be 1, 2, 4, 8, 16
+      this.Height=this.HeightInPixel/this.VoxelSize;
+      this.ColorR=new Array(this.Height);
+      this.Rect=new Array(2*this.Height);
+      for (var i=0;i<this.Height;i++) this.ColorR[i]=110 + Math.round(Math.random()*50);
+      var SvgRenderBuffer=document.getElementById("RenderBuffer");
+      for (var i=0;i<2*this.Height;i++)
+      {
+          var R=document.createElementNS("http://www.w3.org/2000/svg", "rect");
+          R.setAttributeNS(null,"height",this.VoxelSize);
+          SvgRenderBuffer.appendChild(R);
+          this.Rect[i]=R;
+      }
+    }
+
+    Twister.prototype.Draw=function(t)
+    {
+      var ad=Math.PI/this.Height;
+      for (var i=0;i<this.Height;i++)
+      {
+        var fi=i/(this.Height-1);
+        var a=ad*i-.6*t-0.2*Math.sin(10*t+Math.sin(2*Math.PI*fi));
+        var D=10+200*Math.sin(t*.4+fi*8)*Math.sin(t*.4+fi*8);
+        var sa=D*Math.sin(a);
+        var ca=D*Math.cos(a);
+        // 3d
+        var AX=sa;
+        var AZ=-ca;
+        var BX=ca;
+        var BZ=sa;
+        var CX=-sa;
+        var CZ=ca;
+        var DX=-ca;
+        var DZ=-sa;
+        var OZ=500+100*Math.cos(a);
+        var OX=100*Math.sin(a);
+        // 2d
+        var xc=320;
+        var xw=120;
+        var y=11+i*this.VoxelSize;
+        var Ax=Math.floor(xc+xw*(OX+AX)/(AZ+OZ));
+        var Bx=Math.floor(xc+xw*(OX+BX)/(BZ+OZ));
+        var Cx=Math.floor(xc+xw*(OX+CX)/(CZ+OZ));
+        var Dx=Math.floor(xc+xw*(OX+DX)/(DZ+OZ));
+        var cr=this.ColorR[i];
+        var RL=this.Rect[2*i];
+        var RR=this.Rect[2*i+1];
+        var R=RL;
+        var n=0;
+        if (Ax<Bx)
+        {
+          var ca=(BX-AX)/Math.sqrt((BX-AX)*(BX-AX)+(BZ-AZ)*(BZ-AZ));
+          var cx=100+cr*ca-(BZ+AZ)*.25;
+          var c="rgb("+Math.floor(.2*cx)+", " + Math.floor(.6*cx) + ","+Math.floor(cx)+")";
+          R.setAttributeNS(null,"fill", c);
+          R.setAttributeNS(null,"transform", "translate(" + Ax + "," + y + ")");
+          R.setAttributeNS(null,"width", Bx-Ax);
+          R=RR; n++;
+        }
+        if (Bx<Cx)
+        {
+          var ca=(CX-BX)/Math.sqrt((CX-BX)*(CX-BX)+(CZ-BZ)*(CZ-BZ));
+          var cx=cr*ca-(CZ+BZ)*.25;
+          var c="rgb("+Math.floor(.2*cx)+", " + Math.floor(.6*cx) + ","+Math.floor(cx)+")";
+          R.setAttributeNS(null,"fill", c);
+          R.setAttributeNS(null,"transform", "translate(" + Bx + "," + y + ")");
+          R.setAttributeNS(null,"width", Cx-Bx);
+          R=RR; n++;
+        }
+        if (Cx<Dx)
+        {
+          var ca=(DX-CX)/Math.sqrt((DX-CX)*(DX-CX)+(DZ-CZ)*(DZ-CZ));
+          var cx=100+cr*ca-(DZ+CZ)*.25;
+          var c="rgb("+Math.floor(.2*cx)+", " + Math.floor(.6*cx) + ","+Math.floor(cx)+")";
+          R.setAttributeNS(null,"fill", c);
+          R.setAttributeNS(null,"transform", "translate(" + Cx + "," + y + ")");
+          R.setAttributeNS(null,"width", Dx-Cx);
+          R=RR; n++;
+        }
+        if (Dx<Ax)
+        {
+          var ca=(AX-DX)/Math.sqrt((AX-DX)*(AX-DX)+(AZ-DZ)*(AZ-DZ));
+          var cx=cr*ca-(AZ+DZ)*.25;
+          var c="rgb("+Math.floor(.2*cx)+", " + Math.floor(.6*cx) + ","+Math.floor(cx)+")";
+          R.setAttributeNS(null,"fill", c);
+          R.setAttributeNS(null,"transform", "translate(" + Dx + "," + y + ")");
+          R.setAttributeNS(null,"width", Ax-Dx);
+          R=RR; n++;
+        }
+        if (n==0) RL.setAttributeNS(null, "width", 0);
+        if (n<2) RR.setAttributeNS(null, "width", 0);
+        
+      }
+    }
+
+    var Demo=function()
+    {
+      this.t0=0;
+      this.tc=0;
+      this.Object1=null;
+      this.IsStopped=false;
+    }
+
+    Demo.prototype.Update=function()
+    {
+      if (this.IsStopped) return;
+      this.tc=(new Date().getTime())-this.t0;
+      var t=this.tc*0.001;
+      SvgElement.suspendRedraw(1000);
+      this.Object1.Draw(t);
+      SvgElement.unsuspendRedrawAll();
+      SvgElement.forceRedraw();
+    }
+
+    Demo.prototype.CreateTimer=function(Demo_i)
+    {
+      var Timer=function()
+      {
+        if (Demo_i.IsStopped) return;
+        Demo_i.Update();
+        setTimeout(Timer,10);
+      }
+      Timer();
+    }
+
+    Demo.prototype.Init=function()
+    {
+      SvgElement=document.getElementById("Svg");
+
+      this.Object1=new Twister();
+      this.t0=new Date().getTime();
+      this.CreateTimer(this);
+    }
+
+    Demo.prototype.Play=function()
+    {
+      if (!this.IsStopped) return;
+      this.IsStopped=false;
+      var t1=new Date().getTime();
+      this.t0=t1-this.tc;
+      this.CreateTimer(this);
+    }
+
+    Demo.prototype.Stop=function()
+    {
+      this.IsStopped=true;
+    }
+
+    var Demo1=new Demo();
+
+  ]]></script>
+	<rect x="10" y="10" width="620" height="360" fill="#0f2f4f" rx="20" ry="20" stroke="#000" stroke-width="2" />
+	<g id="RenderBuffer" />
+
+	<rect x="10" y="330" width="620" height="40" rx="20" ry="20" stroke="#000" stroke-width="2" fill="#fff" />
+	<rect x="10" y="330" width="620" height="2" stroke="#000" stroke-width="2" />
+	<rect x="11" y="332" width="618" height="18" fill="#fff" />
+	<text x="40" y="355" font-family="Georgia; Times New Roman; serif" font-size="18px" fill="#5b5b5b">twister :: Ger (x) 2008</text>
+	<text x="560" y="355" onclick="Demo1.Play()" font-family="Georgia; Times New Roman; serif" font-size="18px" fill="#222" text-anchor="end">Play</text>
+	<text x="600" y="355" onclick="Demo1.Stop()" font-family="Georgia; Times New Roman; serif" font-size="18px" fill="#e22" text-anchor="end">Stop</text>
+</svg>

@@ -1,0 +1,48 @@
+
+ "Snailmail"
+ A 4k invtro for NVision 2008 by T$ ^ Scoopex & Alcatraz (ts @ deinmeister.de)
+ 
+ Requires DirectX9c (including the D3DX library from the February 2005
+ SDK update, stored on disk as d3dx9_24.dll),
+ a 3D graphic accelerator featuring VS 2.0, PS 2.0a and a soundcard.
+ Initialization can take some time on slower CPUs.
+
+ Running time: 3:04
+
+ Files included:
+
+ The following versions use 32bit color depth and a 24bit z-buffer with 8 stencil bits in 16:9 format:
+ * ts4knv08_1920x1080_fullscreen.cmd
+ * ts4knv08_1920x1080_windowed.cmd
+ * ts4knv08_960x540_windowed.cmd
+
+ The following versions use 32bit color depth and a 24bit z-buffer with 8 stencil bits in 16:10 format:
+ * ts4knv08_1280x800_fullscreen.cmd
+ * ts4knv08_960x600_fullscreen.cmd
+
+ The following versions use 32bit color depth and a 24bit z-buffer with 8 stencil bits in 4:3 format:
+ * ts4knv08_1280x1024_fullscreen.cmd
+ * ts4knv08_1024x768_fullscreen.cmd
+ * ts4knv08_800x600_fullscreen.cmd
+ * ts4knv08_640x480_fullscreen.cmd
+
+
+ Color modes used:
+ Display format : X8R8G8B8
+ Z-/Stencilbuffer format: D24S8
+
+------------------------- Upcoming party information: --------------------------------
+-
+-  Back in 2008!
+-
+-  05. - 07. Dec
+-  Again in Spiegelberg-Jux (Location)
+-
+-  Size optimizing mekka in the middle of nowhere
+-  (even the village is size optimized, with approx. 600p living there ;)
+-
+-  The cozy scene party with yummy catering and delicious competitions
+-
+-  Watch out for more information at: www.0a000h.de
+-
+--------------------------------------------------------------------------------------

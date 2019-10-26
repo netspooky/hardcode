@@ -1,0 +1,82 @@
+
+            мллм   мллм млллллллллм  млм  мллллллллм  мллллллллм
+            лллл   лллл лллл    ппп ллллл лллп   пллл лллл   пллл
+            лллл   лллл ллллммммм   ллллл лллм   мллл лллл    ллл
+            ллллмлмлллл ллллппппп   ллллл лллллллллп  лллл    ллл
+            ллллллллллл лллл    ммм ллллл лллл пллллм ллллмммлллп
+             пллп пллп  плллллллллп  плп  пллп   пллп плллллллп
+               п   л      плп  пл     л    лп     лп   лп   л
+
+            мллм   мллм  млллллллм   мллллллллм  млм   млллллллм
+            лллллмллллл ллллппплллл ллллп   ппп ллллл ллллп  пллл
+            ллллллллллл ллллмммлллл лллл  мммм  ллллл лллл
+            лллл п лллл ллллллллллл лллл  ппллл ллллл лллл
+            лллл   лллл лллл   лллл лллллмммллл ллллл ллллм  мллл
+            пллп   пллп пллп   пллп  пллллллллп  плп   плллллллп
+             лп     пл   лп     лп    лп  плп     л     лп  лп
+                         п            п           п                 Face
+
+                                 presents
+
+                             -=ў Die Logik ў=-
+
+                               Alles is prut
+
+
+Everything is shitty dirt.. Weird Magic releases an intro for Bizarre 96...
+Nothing special.
+
+This thingy was coded in the begining of june 1996 for special reasons..
+It is released mainly to announce a possible major production at SIH or
+Wired at the end of oktober 1996..
+
+Not everybody that is greeted in the info file is greeted in the intro. Due to
+technical reasons I had room for 32 groups to greet and 3 of those group spaces
+are filled with the words "Greeting go to"...
+I have made a selection... It is not that I dislike the groups that are not
+mentioned but most of them I don't even know since I'm no PR man...hehe
+Anyway don't feel less...
+
+Some credz:
+
+Code
+        Seppe
+
+Music
+        MiG
+
+Gfx
+        Face
+        Seppe
+
+Other
+        Tran&Daredevil - PmodeW
+        MrLogic - Player
+        NothingFace - Vtimer
+
+SYSTEM REQUIREMENTS:
+
+386DX or better
+Standard VGA 100% compatible (No 50Hz mode used just plain mode 13h)
+2MB RAM (That should be more than enough...)
+Gravis Ultrasound with 256Kb memory (optional and only 30k or so is used )
+
+To hear the music, please set your ULTRASND environment string, if you
+don't want to hear music, turn off your speakers...euh yeah no sound is not
+supported (yet)..
+When you don't have an Gravis Ultrasound..just set the ULTRSND enviroment string
+and the player will think you own a GUS (Wich you have not...LAMER :))) )
+Example : SET ULTRASND=220,5,5,5,5
+
+RIPPING:
+
+Since there is no unpacker for pwmlite yet, you can't rip the music the easy
+way...(Like you can do it the hard way :))....
+Therefore use the m parameter..
+
+type :  wm-logik m
+and the song will be saved into tune.s3m..
+
+DISCLAIMER:
+
+WE DISCLAIM EVERYTHING THAT CAN PUT US IN DEEP SHIT !

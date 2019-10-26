@@ -1,0 +1,16 @@
+LANDER 2k game compo  efnet #asm
+by mcarp
+
+kill as many aliens as you can.
+land anywhere after shooting at least one alien to refuel.
+higher landing spots give more fuel.
+landing too hard will cost you a ship.
+running out of fuel = bad, but maybe you can shoot an alien.
+
+controls:
+
+thrust up left right:  ARROWS
+thrust down: mean old mr gravity
+fire:  F & D
+exit:  ESC
+regen landscape:  ENTER (iffy, may crash)

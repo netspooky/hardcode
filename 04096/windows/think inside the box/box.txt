@@ -1,0 +1,18 @@
+KeyJ of Kakiarts presents
+with artistic support from SubC and dq
+a 2.5k procedural graphics entry:
+
+  "Think inside the box"
+
+Completely made during TUM 2007, using
+Crinkler technology by Mentor&Blueberry.
+
+Lacks antialiasing because I suck.
+
+On some systems, you will get continuous
+preview, on others, there will be a few
+steps visible only.
+Did I mention that I suck? :)
+
+Any key quits, but the [S] key
+additionally writes a .bmp file to disk.

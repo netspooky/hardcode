@@ -1,0 +1,21 @@
+Shepiax - a 32-byte DOS intro from the Puppy Farm
+
+Source:
+
+
+00000000 B013             mov	al,13h
+00000002 CD10             int	10h
+00000004 C537             lds	si,[bx]
+00000006 89F8             mov	ax,di
+00000008 3101             xor	[bx+di],ax
+0000000A 0940C7           or	[bx+si-39h],ax
+0000000D 00B95701         add	[bx+di+0157h],bh
+00000011 4B               dec	bx
+00000012 04F4             add	al,0F4h
+00000014 EF               out	dx,ax
+00000015 40               inc	ax
+00000016 3F               aas	
+00000017 306BDB           xor	[bp+di-25h],ch
+0000001A 35EA48           xor	ax,48EAh
+0000001D EB90             jmp	0FFFFFFAFh
+0000001F 90               nop	

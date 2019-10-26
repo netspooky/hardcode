@@ -1,0 +1,23 @@
+   컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+        COB                                a NOOON/ORANGE Production
+
+        BARTi/NOOON : code & music
+        ZEB/ORANGE  : bitmap and objects
+
+        november 5th 1996
+
+        it's a two days of quick slow coding intro.
+
+        it requires near 600k of base memory and near 2M of XMS.
+        no need of EMM managers like QEMM or EMM386.
+
+        trying to make an intro.
+
+        near 10000 polys in the world of blobs.
+        near 16000 polys in the glenz synapses.
+
+        just some huge vectors, you are used to.
+        pentium only.
+
+        you love us.
+   컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴

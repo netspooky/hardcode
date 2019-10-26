@@ -1,0 +1,12 @@
+Note:
+
+Author: code: Fidel gfx: Sewer
+
+Group: Butchers
+
+Info: I made it for Analogue99 party but did not receive invitation. 
+Next, I was trying to show it on Delirium 2k1 and after 15  years at Riverwash2015 
+and each time something goes wrong :) It name should be "Bad luck 4k" :) Enjoy.
+My first 4k with ray tracing, dithering, motion blur and coder's colors :)
+
+Platform: PC, run on DosBox with core=normal and cputype = pentium_slow set in configuration

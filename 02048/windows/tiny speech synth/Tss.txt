@@ -1,0 +1,27 @@
+Type:                 C++ subroutine
+Created by:           Stepanov Andrey, 2008 ( ICQ: 129179794, e-mail: andrewstepanov@mail.ru )
+
+
+Description
+===========
+This is a simple speech synth subroutine, based on formant synthesis theory. 
+Speech is synthesized by passing source excitation signal through set of formant one-pole filters.
+Excitation signal is a sawtooth or noise (depending on sound type), although you can try other signals.
+
+
+Some explanation on design
+==========================
+It was surprisingly hard to find any information on formant synthesis. Of course, there is a lot of
+information on the Internet, but the biggest part of it is just a general words of theory, 
+nothing practically usable. The biggest problem was to find concrete formant frequencies.
+After reading a lot of articles I found that I knew nothing new, compared to my knowledge before reading...
+So I did frequency analysis by myself. I recorded my own voice and analyzed it's FFT. Analysis is VERY
+approximate and incomplete, so it causes bad speech quality.
+
+
+Terms of use
+============
+This program is free for use, and you can use it for any purposes you want, as long as you specify
+my name in you program source code and description.
+
+

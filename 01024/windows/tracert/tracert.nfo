@@ -1,0 +1,15 @@
+What is this?
+A native PE 1k windows intro.
+
+What does it need?
+A graphics card supporting pixelshader 3.0
+A fairly recent directx (february 2005 or newer, needed for d3dx9_24.dll)
+http://www.microsoft.com/windows/directx/
+
+When was it done?
+Febuary 25. 2007
+
+What tools were used?
+Nasm, Rendermonkey & a bastard version of Crinkler.
+
+mentor/TBC

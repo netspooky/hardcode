@@ -1,0 +1,15 @@
+eXORceMe
+
+Another 512 byte intro for windows.
+Compiled with yasm, compressed and linked with crinkler. 
+
+Based on DrainBamage by rudi 
+	http://www.pouet.net/prod.php?which=61828
+Better visuals, and featuring: 
+	GetAsyncKeyState(VK_ESCAPE) and ExitProcess(0)
+Linked with:
+	/CRINKLER /COMPMODE:SLOW /ORDERTRIES:20 
+	/HASHTRIES:300 /HASHSIZE:50 /UNSAFEIMPORT
+
+I challenge you to do better 512 byte intros using crinkler :)
+- xTr1m

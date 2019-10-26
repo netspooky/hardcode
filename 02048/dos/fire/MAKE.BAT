@@ -1,0 +1,2 @@
+tasm fire
+tlink fire

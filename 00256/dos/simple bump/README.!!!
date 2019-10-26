@@ -1,0 +1,8 @@
+what u need: - mouse driver loaded
+known bugs:  - the first frame is bad, but when u move the mouse, everything
+               goes ok
+features:    - u can move the light by the mouse
+             - with the left button u can shrink the light radius
+             - with the right button u can enlarge the light radius
+             - press ESC to exit
+             

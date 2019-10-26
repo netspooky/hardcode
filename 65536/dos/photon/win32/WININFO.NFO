@@ -1,0 +1,27 @@
+requirements:
+Win95/NT with DirectX.
+some megabytes of ram.
+P187 or better recommended.
+
+This demo will run on following displays:
+Fullscreen:
+320x200x15, 16, 24 and 32bits.
+640x480x15 and 16 bits.
+
+Windowed:
+Any 15, 16, 24 or 32bits screens.
+
+If supported, it will use hardware scaling.
+
+F12 switches between Windowed and Fullscreen display.
+
+
+intro-credits:
+code vipa.
+textures vipa.
+gfx thorsten.
+music thorsten.
+
+Windows-conversion by rbecue. (hkt@ruc.dk)
+
+Music system is Midas.

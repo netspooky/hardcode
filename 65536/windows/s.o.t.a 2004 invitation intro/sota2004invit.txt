@@ -1,0 +1,54 @@
+
+          S.O.T.A 2004 invitation intro 
+
+                  by Equinox 
+
+ --------------------------------------------
+
+  Credits:
+
+   Code, design, 3D :  Keops
+        2D Graphics :  Nova 
+              Music :  Reed/Fairlight 
+
+   3D fonts inspired by old 2D fonts made by
+   Krazy Rex
+
+ --------------------------------------------
+
+  Requirements:
+ 
+  * 3d card with OpenGL support
+  * runs at full speed on GeForce 2MX
+
+ --------------------------------------------
+
+  Thanks to Rez, Mazy, Stv and Psc80 for
+     their support/criticism/advices
+
+ --------------------------------------------
+
+  Greetings:
+
+   Mandarine - Nomad - Bomb - Synrj - Popsy
+    Pouet - Orange juice - Orion - Komplex
+   Farb-rausch -  Speckdrumm - Ks - Nooon
+   Tpolm - Digital Murder - Taat - Dwihno
+                  Bravestar
+
+
+  Atari Greetings:
+
+   The Union - TLB - The Black Cats - Omega
+   Sync - ST Connexion - Dune - Sector One
+   Cream - Checkpoint - DHS - Oxygene - Mjj
+   Inner Circle - St Knights - Eko - Mcoder
+   Reservoir Gods - Tscc - ACF - Phf - ULM
+   Animal Mine - Synergy - Defense Force
+                  Fun - Yc   
+
+ --------------------------------------------
+
+        http://equinox.planet-d.net/
+        
+ --------------------------------------------

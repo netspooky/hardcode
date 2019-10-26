@@ -1,0 +1,74 @@
+
+
+                                 Visions
+                                   by
+                                 Sorrox
+--------------------------------------------------------------------------------
+
+
+         This is Sorrox's contribution to the BushParty II held
+         in Porsgrunn, Norway.
+
+                 System requirements :
+
+                       - 386sx (486 recommended)
+                       - a Gravis UltraSound if you want music
+                       - VGA compatible
+                       - approx. 400kb of free HardDisk space
+                       - approx. 570 of free base memory
+
+                 Troubleshooting :
+                       
+                       If the intro hangs or it wont start, check the system
+                       requirements and be sure that you have all that.
+                       There is no error checking in this intro due to
+                       lack of time
+
+                 Creditz for Visions :
+
+                       Code     :      RanXeroX
+                                       GoldBug
+
+                       Tune     :      Zilva
+
+                       Gfx      :      GoldBug
+
+                       Player   :      Cascada (pascal version, we have our
+                                                own, but it's not finished)
+
+                 Members of Sorrox :
+
+                       RanXeroX...........Name :  Anders Theodorsen
+                                          Task :  Code
+                                          Age  :  16
+
+                       GoldBug............Name :  B†rd Farstad
+                                          Task :  Code/Gfx
+                                          Age  :  17
+
+                       Steff..............Name :  Steffen Thorkildsen
+                                          Task :  Code/Gfx
+                                          Age  :  17
+
+                       Ghz................Name :  Lasse V†gs‘ther Karlsen
+                                          Task :  Code
+                                          Age  :  23
+
+                       Gizmo..............Name :  Stian Krogstad
+                                          Task :  Music
+                                          Age  :  16
+
+                       Kaiowa.............Name :  Per Anders Remme
+                                          Task :  Music
+                                          Age  :  18
+
+                       Zilva..............Name :  Dyre Meen
+                                          Task :  Music/Code/Gfx
+                                          Age  :  16
+
+                       Bart...............Name :  Clas Barth
+                                          Task :  Music
+                                          Age  :  19
+
+
+           If you want to contact us call SideWalk Cafe - +47-35512227

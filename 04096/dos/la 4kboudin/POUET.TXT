@@ -1,0 +1,51 @@
+Code : Froggy
+GFX  : Isobel
+ZIK  : ???? (Very sorry for Him but i Didn't have time to make one chip)
+
+Injection Produces for you its 4K-boudin (sorry for english people ... private
+french joke (zanks to alexkidd for the name ... :) )) 
+
+and KNOW ... only french ...
+
+Bon deja la demo a ete code pour une bonnne parti a la LTP3 en live ... en e
+coutant shoboto ... les personnes concernees ce reconnaitront :D
+
+de plus comme souvent on se demande comment faire quoi ... et que l asm est pas
+toujours facil je file les sources de la demo avec le package mais n oubliez pas
+que le rip ne sert a rien ...
+
+La demo tourne sous tout coonfiguration x86 a partir du 386 ... sa doit tourner
+sous un petit 486 mais pas sur.
+
+Les sources sont releases ... pas le temps de verifier ... par contre pour etre
+accepter jai platement ripper un .rad fournit avec le package du player :(
+
+En cas de plantage des le depart (retour au system) libere de la memoire et
+essayer ensuite.
+
+Bon et maintenant ce que tout le monde attends : LES GREETZ 
+
+bon deja un greetz special a zE kiLlEr qui a 2h de la deadline de base
+a bien voulut s occuper du player musical ... 
+pas de cance suite a kelke incidient technique il a fallut se rabattre vers ce
+meme player ... :/
+
+un autre greetz a tout ceux qui m ont aider sur IRC 
+
+au chan #codefr (allez y) (une fois)
+
+Et puis dans le bordel :
+
+Morticia, Burlok, Flod, Kluster, Guimili, Chimistor, Serb, Smurfie, Marblemad
+   Shoopoo, Asphyx, Tuo, Jylam, Cyg, Shodan, Spider, DataHck, Lea, Froggy_
+  Mrs Froggy, Thorin, UkkO, GarField, Deepmind, Deepos, WillBe, MadMan, NTSC
+Djamm, Pliscann, skYfIrE, Mephisto, Chojin, Demnia, Exolon, Sigma9o9, Arrakis
+ StarMan, Blupingu, CalimEro, Dlyr, Danube, Kandjar, Med, Nox-D, DivBy0, EmmE
+  Vinz, Lemmings, Chandra, Hulud, Jaylee, Made, Traven, Frigo, Lluvia, Dc Yes
+ UnderKing, Zen, Taggy, Eller, Kenet, Sed, Ace, Gedeon, Niakool, PHISO, VIA.
+                       (isobel : et ma) MARMOTINE !!!
+			And All People We Forgot ...
+                                        
+Et pour les groups :
+DnS, MDR, SkyTech, Particle System, PopsyTeam, ArfStudios ...et les autres...
+

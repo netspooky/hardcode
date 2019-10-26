@@ -1,0 +1,20 @@
+ - To be (dis)continued - 
+Released at The Gathering 2011
+
+
+Code By: Tore & Zerd (Panda Prowess)
+Music By: 8< / Mr. Cheng
+
+
+
+
+Extreme amounts of greets to:
+ - Ferris
+ - Duckers
+ - Decipher aka magic hands
+ - iquilezles
+
+
+Made using OpenGL shaders, iq's 4k framework, raymarched distance fields, and the Sonant soft synth.
+
+

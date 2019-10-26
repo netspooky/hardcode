@@ -1,0 +1,21 @@
+              Quick infomation about this source code
+              ---------------------------------------
+
+  This intro have been coded with Borland C++ 3.1 and TASM 3.2. Same
+version should be used to compile these files 'cause they may not work
+on earlier version of Turbo/Borland C++ (reason unknown).
+  You can freely use routines in your own productions if you find
+anything interesting (probably not). Remember: This code worked for us,
+if it won't work on you, blame yourself!
+  If you have anything to ask about this piece of code or anything else,
+look at PARANOID.NFO file for contact information.
+
+If your Borland C++ is in another directory than C:\BORLANDC, correct
+path in MAKEFILE to fit your directory structure.
+
+Thank you for patience!
+
+Dr.Doom/Paranoids
+
+
+NO CARRIER

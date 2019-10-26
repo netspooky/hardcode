@@ -1,0 +1,14 @@
+V1.0 - Initial internal only test release
+V2.0 - Changes:
+	Music tweaks
+	"Dood" Model Changed
+	Text is now animated, and fades
+	Win98 version asks for windowed / un windowed.
+	Windowed mode no longer "on top" all the time.
+V3.0 - Changes:
+	Lots of	music tweaks and re-sync
+	Text tweaks
+	Removed inlined FPU code, for normal fpu code
+	Better use of conditional compilation for builds
+	Packaged as zip rather than rar.
+	Tweaks to evo.nfo file

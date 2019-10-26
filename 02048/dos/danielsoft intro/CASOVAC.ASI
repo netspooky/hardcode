@@ -1,0 +1,62 @@
+
+casovac_cteni MACRO
+mov al,10000000b
+out 43h,al
+in al,42h
+mov dl,al
+in al,42h
+mov dh,al
+ENDM
+
+casovac_zapis MACRO hodnota
+mov al,10110000b
+out 43h,al
+mov ax,hodnota
+out 42h,al
+xchg al,ah
+out 42h,al
+in al,61h
+or al,1
+out 61h,al
+ENDM
+
+casovac_dobehl MACRO
+xor ah,ah
+in al,61h
+and ax,00100000b
+ENDM
+
+pockej MACRO kolik
+local lbl
+casovac_zapis kolik
+lbl:
+casovac_dobehl
+je lbl
+ENDM
+
+casovac_loop_begin MACRO kol,sy 
+local dal
+jmp short dal
+casovac_loop_cntr&sy dw ?
+dal:
+mov cs:[casovac_loop_cntr&sy],kol
+casovac_zapis 0ffffh
+casovac_loop_lbl&sy:
+ENDM
+
+casovac_loop_end MACRO sy
+;;pridano - konec dema klavesou
+in al,60h
+and al,80h
+jnz $+12
+mov ax,3
+int 10h
+mov ax,4c00h
+int 21h
+;;end pridano
+casovac_dobehl
+je casovac_loop_lbl&sy
+casovac_zapis 0ffffh
+dec cs:[casovac_loop_cntr&sy]
+jnz casovac_loop_lbl&sy
+ENDM

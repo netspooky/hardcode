@@ -1,0 +1,39 @@
+|-                                                                           -|
+__________ ________  ____  ___________ __________          ________    _____
+\______   \\_____  \ \   \/  /\_____  \\______   \         \_____  \  /  _  \
+ |       _/ /   |   \ \     /  /   |   \|       _/  ______  /  ____/ /  /_\  \
+ |    |   \/    |    \/     \ /    |    \    |   \ /_____/ /       \/    |    \
+ |____|_  /\_______  /___/\  \\_______  /____|_  /         \_______ \____|__  /
+        \/         \/      \_/        \/       \/                  \/       \/
+|-                                                                           -|
+|-----------------------------------------------------------------------------|
+| 68EE004000B800000000FFD031FF57B800000000FFD09631DB6681FFB80B742089F831D850  |
+| 575356B800000000FFD0436681FBA00F75E947EBDD6764693332005653B800000000FFD0C3  |
+|-----------------------------------------------------------------------------|
+|                                                                             |
+| ROXOR-2A [<256 bytes Win32 (except Windows 2000) .exe intro]                |
+|                                                                             |
+| Copyright 25/05/08 by zerofun                                               |
+|                                                                             |
+| .code ---> 74 bytes                                                         |
+| .shit ---> 180 bytes                                                        |
+| .exe ----> 254 bytes                                                        |
+|                                                                             |
+| You MUST execute SETUP.exe BEFORE you execute ROXOR-2A.exe. SETUP.exe will  |
+| retrieve the correct API addresses of your Windows version and write them   |
+| to ROXOR-2A.exe. ROXOR-2A.exe should work on any Win32 system except        |
+| Windows 2000. Tested on Windows XP SP3 and Windows Vista SP1 (the XOR       |
+| Texture Effect may become a bit weird). Have Fun! (^_^)                     |
+|                                                                             |
+| Contact me at borncannibal AT hotmail DOT com                               |
+|                                                                             |
+| Use MASM to assemble SETUP:                                                 |
+|                                                                             |
+|    ml /c /coff /nologo SETUP.asm                                            |
+|    link /NOLOGO /SUBSYSTEM:WINDOWS SETUP.obj                                |
+|                                                                             |
+| Use NASM to assemble ROXOR-2A:                                              |
+|                                                                             |
+|    nasm -f bin -o ROXOR-2A.exe ROXOR-2A.asm                                 |
+|                                                                             |
+|-----------------------------------------------------------------------------|

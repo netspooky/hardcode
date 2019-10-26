@@ -1,0 +1,32 @@
+-- soundless
+-- by Arthur McBain / AMcBain, from://kennewick.
+
+  A proof-of-concept demo. If CSS could talk, it would tell me to make a better
+  demo. In all, less than 4k.
+
+Running notes:
+  Firefox is the only browser at time of writing that supports animation of 3D
+  transform values of the CSS transform property completely and the value
+  preserve-3d for for CSS transform-style property.
+  
+  As support materializes, though, it should work in more browsers. 
+
+Blame:
+  It's a one-man show, and that man takes full credit for this crummy demo.
+  
+  The lowercase letter 'x' variable. Firefox somehow defaulted it to the value
+  zero and wouldn't let the value be changed. The code had to be fixed to avoid
+  use of that variable.
+
+Licenses:
+  Anyone is free to use, borrow, modify, redistribute, etc., this demo's code.
+
+  The modified images in this demo are originally from the Fugue icon set:
+    http://p.yusukekamiyamane.com/
+
+    I've actually purchased a license prior, but I can't see any reason not to
+    give the guy credit for his good work even though the license says I'm no
+    longer required to do so.
+
+    However, please see the website for further [licensing] information if you
+    intend to use the images contained in this demo for your own project[s].

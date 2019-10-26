@@ -1,0 +1,39 @@
+4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k
+
+      [][]     []                []
+    []  []   [][]   [][] [][]  [][][]
+    [][][] []  [] []  [] []  []  []
+   []   []   [][]   [][] [][]     []-m
+                         []
+                    []
+              []    [] []
+4k4k4k4k4k4k4k[]4[]k[][]4k4k4k4k4k4k4k4k
+             [][][] []  []
+                 []
+
+  [][] []  [][]   []  []   [][]  [][][]
+ []    [] []  [] [][][][] []  [] []   []
+   []  [] []     [] [] [] []     []   []
+[][]   []  [][]  []    []  [][]  []   []
+
+4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k4k
+    code:deepr,synth&music:basscadet
+            4069 bytes intro
+             at stream 2008
+
+
+Uses glsl, crinkler and PlaySound.
+Requires a quite new gfx card with dynamic
+branching support, meaning geforce 7000
+series or greater. The party version is in
+siemen.exe, and is only tested with nvidia,
+but might work with newer ati cards too.
+
+Seems that the party version don't work
+with any ATI cards. So here is included a
+siemenFixed.exe, that is tested with ATI
+HD4870, X1400 and X1600, and working on
+with two first. Regards for testing to
+ssmo, gr and shadez.
+
+Respect to all who have their siemen inside.

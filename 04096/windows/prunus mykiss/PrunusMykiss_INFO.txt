@@ -1,0 +1,11 @@
+
+Prunus Mykiss
+
+Copyright 2013 Rustbloom
+
+Code:   tonic           http://jet.ro
+Design: stRana          http://iki.fi/ase/
+Music:  John Peeba      http://peeba.gfxile.net
+
+
+Uses Crinkler & Clinkster. Thanks!

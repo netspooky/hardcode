@@ -1,0 +1,77 @@
+# ============================================================================
+#  Makefile for Linux version of MiniFMOD
+# ============================================================================
+
+# = LIBRARY DEFINITIONS ======================================================
+
+LIBPATH  = ../lib/win32
+LIBGCC   = $(LIBPATH)/libminifmod.a
+LIBMC    = $(LIBPATH)/minifmod.lib
+OBJS	 = fmusic.o \
+           fsound.o \
+           system_file.o \
+           mixer_fpu_ramp.o \
+           mixer_fpu_ramp_asm.o \
+           mixer_clipcopy.o \
+           music_formatxm.o 
+ 
+# = TEST DEFINITIONS =========================================================
+
+TESTPATH = ..
+TESTNAME = test.exe
+TEST	 = $(TESTPATH)/$(TESTNAME)
+
+# = CORE DEFINITIONS =========================================================
+
+CFLAGS	 = -s -Os -c -D__WIN32__ -D__COMPILE_MINIFMOD__ -Wall 
+NFLAGS	 = -f win32 -D__WIN32__ 
+LFLAGS	 = -s -L$(LIBPATH) -lminifmod -lwinmm  
+AFLAGS	 = -rcvs
+
+# = MAKEFILE =================================================================
+
+all : $(LIBGCC) $(LIBMC)
+
+# build library using Microsoft LIB
+$(LIBMC) : $(OBJS)
+	echo $(OBJS) >files.lnk
+	lib -out:$(subst /,\,$@) -nologo @files.lnk
+
+# build library using GNU AR
+$(LIBGCC) : $(OBJS)
+	ar $(AFLAGS) $@ $(OBJS)
+
+test : $(LIB) main.o
+	gcc main.o $(LFLAGS) -o $(TEST)
+
+%.o : %.cpp
+	gcc $(CFLAGS) $<
+
+fmusic.o : fmusic.c
+	gcc $(CFLAGS) $<
+        
+fsound.o : fsound.c
+	gcc $(CFLAGS) $<
+        
+system_file.o : system_file.c
+	gcc $(CFLAGS) $<
+        
+mixer_fpu_ramp.o : mixer_fpu_ramp.c
+	gcc $(CFLAGS) $<
+        
+mixer_clipcopy.o : mixer_clipcopy.c
+	gcc $(CFLAGS) $<
+        
+music_formatxm.o : music_formatxm.c
+	gcc $(CFLAGS) $<
+
+mixer_fpu_ramp_asm.o : mixer_fpu_ramp_asm.asm mixer_fpu_ramp_asm.inc
+	nasm $(NFLAGS) $< -o mixer_fpu_ramp_asm.o
+
+mixer_fpu_ramp_asm.inc : genasminc.exe
+	genasminc.exe >mixer_fpu_ramp_asm.inc
+	
+genasminc.exe : genasminc.c
+	gcc $(CFLAGS) -s -O3 genasminc.c -o genasminc.o
+	gcc -s genasminc.o -o genasminc.exe
+	

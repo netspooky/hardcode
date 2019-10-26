@@ -1,0 +1,18 @@
+
+        First entry is STATIC.COM
+
+        It contains:
+                - Static screen
+                - Funky rain (aka crap that happened when my original
+                                  routine didn't work :) )
+
+        
+        Most of this crap was written at very short notice...
+
+        Run the .COM files included and enjoy.. if you can...
+
+        Anis Ahmad
+        bq689@freenet.carleton.ca
+        (If anybody wants a Basic/Pascal/C/C++/_ASM_/Java coder for their
+         group, PLEASE contact me).
+

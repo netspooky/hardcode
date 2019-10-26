@@ -1,0 +1,12 @@
+"Langton's Virtual Ant" by nowak
+http://mikenowak.ca
+
+To read about Langton's Ant, go to:
+http://mathworld.wolfram.com/LangtonsAnt.html
+Requirements: Flash 6 Player (simply because of MX's built in
+compression... the file can be Flash 4 compatible without it.)
+Recommendations: if it seems really small, try to scale the
+flash file up. If it seems blurry, right click and set the
+quality to "low."
+Notes: it takes a while before the pattern shows up, so be
+patient.

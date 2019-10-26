@@ -1,0 +1,100 @@
+Magnetism Demo
+==============
+by cptkirkjamest (Martin Lester)
+
+Minimum requirements
+--------------------
+
+- IBM PC or 100% compatible
+- Video card and monitor capable of 320x200x256 (MCGA)
+- At least 256 bytes of free memory
+- P200 or faster recommended (this demo is pretty CPU intensive)
+
+License and disclaimer
+----------------------
+
+This is my first entry into the Christmas 1998 256 bytes gaming competition.  You may distribute this demo as much as you like as long as you charge no more than a small distribution fee.  The demo must also be distributed in an archive containing these files:
+
+- magnet.asm (NASM source code)
+- magnet.com (executable file)
+- magnet.txt (this file)
+
+It is, in effect, freeware.  I accept no responsibility for damage, mental,
+physical, financial, spiritual or otherwise, arising either directly or
+indirectly from the use of this demo.  By running or using any of the files
+distributed with the demo, including the demo itself, you accept these terms.
+
+Description
+-----------
+
+Alright, now that I have finished with the legal stuff, I can explain what
+happens in this demo.  Basically, 3 invisible "magnets" are placed on the
+screen.  The directions they are travelling in are stored in 6 bits in a byte
+at the end of the file.  This is called the direction byte.  Whenever one of
+the magnets is at the edge of the screen, the direction byte is changed.
+Every time the magnets move, the colour of every pixel is calculated.  This
+is done by finding the difference between each pixel's x and y co-ordinates
+and those of every magnet.  This is then divided to give a palette number
+between 0 and 63, 0 being the darkest and 63 the lightest.  In effect,
+the magnets attract light.
+
+Also, every time the magnets move, the red, green and blue values of all
+palette colours in the range 0-63 are changed.  Each value can be changed in
+up to 2 of 3 ways:
+
+- The value can be increased to a maximum of about twice its index number.
+- The value can be decreased to a minimum of about half its index number.
+- The value can be brought closer to its index number.
+
+Which of the above happens depends upon the value of the direction byte.
+
+Summary
+-------
+
+1.  There are 3 magnets.
+2.  The magnets attract light.
+3.  The magnets move.
+4.  When any magnet is at the screen's edge, any magnet's directions may
+    change.
+5.  The colours change and fade in and out, depending on the directions of
+    the magnets.
+
+About the demo
+--------------
+
+This demo was written using NASM.  You can leave the demo by pressing any
+key.  Several features were cut from the demo because of space limitations,
+although I expect it is possible to optimise the code further and fit them
+in.  These cut items include the palette initialisation routine, the
+anti-flicker loop and an instruction to make the movement of the magnets more
+interesting.  All of these features are present in the source code, but have
+been commented out.  WARNING:  Running Luminous straight after this demo or
+any other program that changes the palette may not be a good idea.  It will
+still appear to run correctly, unless you have seen it properly before, so
+please give Luminous the credit it deserves and make sure that the word
+"LUMINOUS" is illuminated.  It really is an excellent demo.
+
+Greetings
+---------
+
+Many thanks go to the following:
+
+- Everyone who contributed to the PC-GPE.
+- Draeden of VLA for his assembler tutorials.
+- Denthor of Asphyxia for his VGA tutorials.
+- Intel for providing excellent support for developers.
+- The whole NASM team for their excellent assembler.
+- The organiser of this competition.
+- Gene Rodenberry for creating Star Trek.
+- Linus Torvalds for Linux.
+- Microsoft for creating MS-DOS.
+
+No thanks go to Bill Gates for his slow, unstable waste of resources that he
+calls an operating system.
+
+Good luck to everyone who entered!
+
+Contact
+-------
+
+You can contact me at cptkirkjamest@geocities.com .

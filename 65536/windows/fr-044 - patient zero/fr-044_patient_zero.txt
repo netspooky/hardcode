@@ -1,0 +1,22 @@
+
+         farbrausch motion pictures presents
+               fr-044: patient zero
+              a demo in 64 kilobytes
+     first presented at simulaatio 3d demoparty
+         in varkaus, finland, 10.-12.6.2005
+  
+  best experienced with a pair of anaglyphic 3d glasses, 
+  even if also normal rendering can be selected the demo
+  is not intended to be viewed as such.
+  
+  visualice             direction and 3d motion graphics
+  ryg           anaglyphic 3d magic and tool development
+  chaos                  mastermind behind the werkkzeug
+  melwyn                        origin of the aural flow
+  kb                                   v2 sound engineer
+  little bitchard / kewlers              audio producing
+   
+  special thanks go to fiver2's cats :)
+  
+  http://www.farb-rausch.com/
+  http://www.simulaatio.org/

@@ -1,0 +1,28 @@
+
+ "Oh No! More Raving Tomatoes!"
+ A 4k intro for Breakpoint 2005 by T$
+                    (ts @ deinmeister.de)
+ 
+ Requires DirectX8, 3D graphic accelerator + Soundcard.
+ Initialization can take some time on slower CPUs.
+
+ Running time: 3:05
+
+ Files included:
+
+ The following versions use 32bit color depth and 24bit z-buffer:
+ * Ts4kbp05_640x480x32.bat
+ * Ts4kbp05_800x600x32.bat
+ * Ts4kbp05_1024x768x32.bat
+ * Ts4kbp05_1280x1024x32.bat
+
+ The following versions use 32bit color depth and 16bit z-buffer:
+ * Ts4kbp05_640x480x32D16.bat
+ * Ts4kbp05_800x600x32D16.bat 
+
+ The following version uses 16bit color depth and 16bit z-buffer:
+ * Ts4kbp05_640x480x16.bat
+
+ The following color modes are used:
+ Display format : X8R8G8B8 or R5G6B5
+ Z-buffer format: D24S8 or D16

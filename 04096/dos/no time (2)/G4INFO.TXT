@@ -1,0 +1,7 @@
+pc 4kb intro competition
+
+title  : No TiMe
+author : JaM/KRz!
+contact: jam_krz@poczta.onet.pl
+note   : only himem + 2mb xms ! no emm386 or similar progz! no win9x !
+         need adlib for sound ! minimum requirements: 386+fpu

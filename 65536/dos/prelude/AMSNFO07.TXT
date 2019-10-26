@@ -1,0 +1,79 @@
+
+                          ‹‹‹‹‹‹
+                        ∞€  ‹  ∞€
+                       ∞€  €    ∞€
+                        ﬂ€ ﬂ‹‹‹ﬂ                   ‹
+                         ∞€   ‹   ‹‹  ‹    ‹  ‹  ‹‹€  ‹‹
+                        ∞€  ∞€ ﬂ∞€˛ ∞€   ∞€ ∞€ ∞€∞€ ∞€˛
+                        ﬂ   ﬂ    ﬂﬂ ﬂﬂﬂﬂ ﬂﬂﬂﬂ  ﬂﬂﬂ   ﬂﬂ
+
+   -------------------------------------------------------------------------
+         Code & Texts & GFX ..... Mayday          Music ..... Starsoul
+   -------------------------------------------------------------------------
+
+   Requirements
+   - - - - - - -
+
+   Prelude needs at least 550kb of conventional memory and approximately
+   4mb of EMS is recommended. And sure, GUS or SB compatible soundcard is
+   demanded for music. Nosound option is also included. Highly recommended
+   at least Pentium90 with Diamond Stealth. If the 50hz-mode is not working,
+   you should use parameter -N which will run the whole demo in the normal
+   MCGA screenmode.
+
+
+   Distribution
+   - - - - - - -
+
+   You are allowed to copy Prelude without restrictions for non-commercial
+   use. No payment of any kind may be charged for Prelude. Just take a look
+   at LEGAL.TXT and find more about rights. If you want to spread Prelude
+   on any CD, contact us!
+
+   The distribution on Assembly'96 CD-Rom is granted.
+
+ -----------------------------------------------------------------------------
+ Country   Site  Name of site           Number(s)             Sysop's name
+ -----------------------------------------------------------------------------
+ Finland   whq  Amorphous bbs         +358-60-344014          Mayday/Amorphous
+ Germany   ghq  The Sound Solutions   +49-XXXXXXXXXXXXX       Marc Moore
+ Belgium   bhq  Thev Velvet Demosite  +32-3-3851594           The Sleeping Dog
+ Norway    nhq  Count Zero            +47-55-122 962          Yitzhaq/PRX&AMS
+ Switzer.  shq  Touchforce bbs        +41-(0)61-8111442       Invi/Touchforce
+ Australia ahq  Dollar Drinks bbs     +612-808-2740           Budd/Xtatic
+ Netherl.  dhq  Quazar                +31-703912113           Diablo/Witan
+ Brazil    bhq  Altconn bbs           +55-11-816-2031         Starfox/Theend
+ Finland   d.s  Astral Plane          +358-73-733148          Sentinel/NV
+ Finland   d.s  Atlantis              +358-81-8177311         Draft/XES
+ Finland   d.s  Cloud City            +358-0-3403721          Distance/Orange
+ Netherl.  d.s  Digital Violence      +31-384214996           Bolle Bas
+ Finland   d.s  Hangar bbs            +358-51-3117053/758236  Juha Niemi
+ Finland   d.s  Mindwarp bbs          +358-21-2437818/518     Wayfarer/Drastic
+ Germany   d.s  Orkland bbs           +49-30-6079973/4/5/6    Benjamin Krause
+ Finland   d.s  Putrefaction of perf. +358-60-366233          Syso*/Mindprobe
+ -----------------------------------------------------------------------------
+
+
+   Contact Amorphous
+   - - - - - - - - -
+
+   All contacts are very welcome and if there is a special reason why
+   would you like to contact us, send some E-Mail to:
+
+                Mayday:         VILLE-V.HELPPI@MBNET.FI
+
+   Thanks
+   - - - -
+
+   First hellos to Janne Halttu for letting me to do on his computer, and
+   then I'd like to thank all Amorphous members for supporting to create
+   this intro but the special thanks to Mercury for optimizing some slow
+   routines and to Kissarobotti for that old-monster-head-picture! Also
+   I'd like to greet our friends at scene and at our local town, Rovaniemi.
+   "The new Amorphous, just a prelude..."
+
+
+                                        Signed,
+                                                Mayday
+
+

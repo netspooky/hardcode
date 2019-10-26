@@ -1,0 +1,21 @@
+                    A nice raster plasma with 165 bytes
+                       Coding by Project/Fobia Design
+                Uses a 256-byte sintable which is calculated
+                          during the program run.
+
+        An attempt to get this plasma shown at the Assembly '95 4kb
+                            introcompo was made.
+
+                         This program is fobiaware.
+                 You can rip off any piece of it you like,
+                 but if you decide to use it in one of your
+                own products, please consult the maker first
+                  and ATLEAST give him the credits for it!
+
+              The routine that counts the sintable is 47 bytes
+            long and you can store the sinetable in any location
+         you want inside your data-segment. The source IS included
+       within this package and it works with ALL 8086-based machines.
+    You have to do the plasma yourself or atleast try to disassemble it.
+
+                        -*[Project / Fobia Design]*-

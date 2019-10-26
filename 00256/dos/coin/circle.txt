@@ -1,0 +1,111 @@
+org 100h                   
+mov al,13h
+int 10h
+loopage:
+inc word [angle]
+fld dword [pie]
+fimul word [angle]
+fsincos
+fimul word [xradius]
+fistp word [x]
+fimul word [yradius]
+fistp word [y]
+
+mov ax,3
+int 33h
+cmp bl,0
+jne near endage
+mov ax,dx
+mov bx,cx
+
+push ax
+push bx
+
+fld dword [pie]
+fimul word [angle]
+fsincos
+fimul word [xradius]
+fistp word [x]
+fimul word [yradius]
+fistp word [y]
+
+
+mov dx,[y]
+add dx,ax
+mov cx,[x]
+add cx,bx
+mov ah,0Ch
+xor bx,bx
+int 10h
+
+pop bx
+pop ax
+
+mov dx,[x]
+add dx,ax
+mov cx,[y]
+add cx,bx
+mov ah,0Ch
+xor bx,bx
+int 10h
+
+cmp word [angle],360
+jb loopage
+
+mov word [y],0
+mov word [x],0
+mov word [angle],0
+
+mov ax,word [xradius]
+add ax,word [a]
+mov word [xradius],ax
+
+mov ah,1 
+xor cx,cx
+xor dx,dx
+int 1Ah
+waitage:
+xor ah,ah 
+int 1Ah 
+cmp dl,1
+jb waitage
+
+push 0a000h
+pop es
+xor ax,ax
+mov cx,32000
+rep stosw
+
+cmp word [xradius],1
+je change
+
+cmp word [xradius],50
+je change
+
+keyp: 
+xor ah,ah   
+in al,60h
+
+dec ax
+jnz loopage
+
+endage:
+mov ax,3h
+int 10h
+mov ah,9
+mov dx,exit_msg
+int 21h
+int 20h
+
+change:
+neg word [a]
+jmp keyp
+
+y dw 0
+x dw 0
+angle dw 0
+a dw -1
+exit_msg db "LOOK AT MY HAT$"
+pie dd 0.01756
+yradius dw 50
+xradius dw 50

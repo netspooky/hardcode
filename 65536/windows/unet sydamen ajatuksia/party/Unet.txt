@@ -1,0 +1,36 @@
+
+Unet sydämen ajatuksia
+  Dreams - Thoughts of the Heart
+    Drømmer - hjertets tanker
+
+Sometimes  the things  we want  to say are  hard to express.  So although  the
+poetry is gathered  from the ancient wisdom from  the far east they are really
+also the thoughts of our hearts.
+
+The people who contributed their thoughts to the intro:
+
+     T i m o   H a r j u                                               visuals
+     M i k a   S c h u l m a n                               even more visuals
+     M a r k u s   P a s u l a                                     programming
+     M a t t i   P a l o s u o                        musics, add. programming
+
+     N i k o   P e l t o n e n                           translation (English)
+     N i c o l a a s   E.   G r o e n e b o o m            translation (Norsk)
+
+The  intro works at  the moment only  in 640x480x32bpp DDraw mode.  The player
+used is  MXMplay for Windows by Elitegroup.  If you encounter  any problems in
+running the intro  please email us and we'll  see if there's anything we could
+do to fix that problem. The only way final.exe differs from  compo.exe only is
+that it has also Finnish (original) and Norwegian (translated) texts.
+
+We'd like to send friendly hugs to everyone  who we know (and to those we even
+don't know).  And especially warm hugs to all you  nice people who made  it to
+the Trax00 party.
+
+Contact information:
+
+mpalosuo@cs.helsinki.fi (just for anything and "you ripped bstates" hatemail)
+droid@freenet.hut.fi (bug reports :)
+timo.harju@pp6.inet.fi (about the art)
+mika.schulman@sonera.fi (more of the art)
+

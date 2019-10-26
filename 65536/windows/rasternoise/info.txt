@@ -1,0 +1,13 @@
+who? The Swedes and the American.
+where? Trsac 05
+what? PC 64k
+
+Needed?
+
+Machine able to run DirectX 9 with 1.1 Shaders and SSE. Fast CPU
+and fast gfxcard is what this unoptimized intro likes.
+
+Coded in one week just for fun.
+
+Greets to everyone we know. Might come a final version, dont count
+on it though,

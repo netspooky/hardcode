@@ -1,0 +1,38 @@
+=========================================================
+                    BACK TO THE ROOTS
+                            by
+                         PARAGUAY
+                            at
+                    DEADLINE Berlin 2017
+=========================================================      
+                     type: 4k intro
+                 platform: Windows PC
+=========================================================
+                        CREDITS
+            rimina : visuals, design, music
+               noby : musical instruments
+=========================================================
+                        TOOLS
+                Synth :
+                    Oidos by Blueberry
+                Instruments :
+                    noby's great Oidos instruments
+                Minifier :
+                    Crinkler by Blueberry & Mentor,
+                    Shader Minifier by LBB
+                Framework :
+                    Leviathan 2.0 by noby
+                Other :
+                    HG sdf library
+=========================================================
+                    THANK YOU
+    fizzer for helping me to achieve the right look.
+
+Osyn for bearing me for the last days(nights) when I was
+                finishing the intro :D
+
+      noby, fizzer, cce, visy, branch, and others
+            for peer pressure and support.
+=========================================================
+        Greetings to everyone. Especially to you.
+=========================================================

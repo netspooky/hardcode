@@ -1,0 +1,91 @@
+
+				DREAMSCAPE
+
+				 by Seven
+
+-======-
+ Intro:
+-======-
+   This 4K competed at Bizarre'99. Almost it didn't. After a week of coding, I
+  uploaded it 1 minute before the deadline, and the system gave a confirmation
+  message. However, the orgos did NOT get it, so it wasn't shown with the rest
+  of the 4Ks. Big thanks to the organizers for helping so quickly and showing
+  it between the 64Ks. The music didn't work, but nevertheless, I was happy it
+  was shown. We'll see at the prize-ceremony how it did.
+
+-=========-
+ Features:
+-=========-
+  - Fractal landscape in a 512*512 map (Pmode rules!), with 4 degrees of
+    freedom.
+  - 32-bit colormap with height-related colors, and shades depending on the
+    slope of the hills, giving a nice shadow-effect.
+  - 2 different kinds of fractal 3D-trees.
+  - Sky with clouds
+  - Fog at the horizon, to prevent the objects from appearing suddenly.
+  - Lakes with a nice blue filter if you walk in them.
+  - Canyons, roads and a mysterious building. 
+
+-========-
+ Credits:
+-========-
+   First big thanks goes to Jibz, whose excelent Apack compressed the 4871
+  bytes large original file down to 4096. The Adlib music system is written
+  by Psi/FC, and adapted by The Watcher/TUHB. Franky & Shiva/Kolor released
+  the stub of Void 3, which helped me greatly initializing Pmode and getting
+  VESA to work. All other code, and the crappy tune were written by me (Seven).
+  Thanks to Copplan/Immortal Coil and Syturvy for trying to help me with the
+  music, but a mailbox-crash at university messed things up, so I had to do
+  it myself.
+
+-========-
+ The Idea
+-========-
+   Ever seen Mars.exe? A 5K-big file with a martian landscape. It was the first
+  of that kind that I saw, and I was stunned. In my first 4k, Fractal Life, the
+  end was supposed to be a landscape with trees in it, but I ended up with a
+  flat floor with Conways game of Life on it. Now, more than a year and 2
+  intros later, I finally managed to do it. Another nice 4K with a similar
+  idea is Orinocco/Digimind, 2nd place at ASM'99.
+
+-=============-
+ Requirements:
+-=============-
+  I've made this on a PII 350, and the compo-machine was a PII 400. It was
+ very hard to make it run as fast as it does now, and I've speed-optimized as
+ much as possible in 4k, but even here it runs at only 10 FPS. The intro is
+ timed with this speed in mind, as I had no place to add speed-detecting code.
+ You can skip the main part with escape if it's too slow, the intro & outro
+ should run at full framerate everywhere, so no skipping there.
+
+ So: - PII 250 (preferably)
+     - 16 MB RAM with DPMI manager (use a dos-box if you don't have one)
+     - An adlib-compatible soundcard for the low-fi music.
+       You can turn the music off by adding any command-line parameter.
+     - A VESA2-compatible videocard, capable of using 320*240*32 with LFB.
+
+-=====================-
+ Problems & Solutions:
+-=====================-
+  P: I get a DPMI? error message
+  S: You don't have a DPMI manager installed, or you have but it is a 16-bit
+ version (don't try to run this on a 286!!), a Win9x dos-box should work OK.
+
+  P: I get a VESA? error message
+  S: You don't have a VESA2 compliant videocard, or it does not support
+ 320*240*32 bit with a Linear Frame Buffer. Some cards, like the Matrox, is
+ only Vesa-compatible: it does support lots of modes, but does not tell that
+ to the program. Bad bad videocard, go stand in the corner. Univbe can solve
+ lots (but not all) problems, try it.
+
+  P: It crashed!
+  S: Try without any other program loaded. Sorry, no space for any error-
+ checking. All you can do is pray :( 
+ 
+-=============-
+ Contact info:
+-=============-
+  If you want to cantact me, you can E-mail me at:
+    Stefaan.VanNieuwenhuyze@rug.ac.be.
+  This address will be valid until September 2000.
+

@@ -1,0 +1,21 @@
+Redemption
+by the HullkortMasters
+
+Code: Danner
+SFX: Kabbefett
+Stuff: Eplebit
+
+Size is 4094 packed bytes, plus two bytes of vanity.
+Released at The Gathering 2004
+
+Greets to everyone. Why be selective.
+Extra thanks to Spookysys for special drunken debugging,
+Kusma for saving the day, and alge for assembly input.
+
+As expected, the 4K compo at TG04 went awol,
+and thus we released this intro in the 64K
+compo instead. It propbably would've been a
+lot more pretty as a 4K. :)
+
+
+

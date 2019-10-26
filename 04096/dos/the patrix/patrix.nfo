@@ -1,0 +1,56 @@
+Eus   #!"#@|#~@#!2~![!·"!]@"!   Eus
+kal   $%$· · · · · · · · ·"|5   kal
+      /&[·               ·[{ç  
+ Pa   /%@·  The  Patrix  ·#|@    Pa
+rty   |@#·               ·=?+   rty
+ 8    &·#· · ·       · · ·"@|    8
+      \|@#|#ª·   b   ·~#Ç~&~? 
+Par   ""##@||·   y   ·"/&/)!=   Par
+ ty   \\|· · ·       · · ·Ç¨*    ty  
+      !"%·               ·+[]
+Ver   ·$"·  GOdS'  MAZE  ·@#~   Ver
+si    !"$·               ·$·%   si
+on    ^*=· · · · · · · · ·!=?   on
+      º"$@"$"@@###~)=)")!=){o   
+    
+       Source code included
+
+
+     ___________________________
+    %code		       %
+    %  Aj0  <ajo@linuxfan.com> % 
+    %  Neco <neco@vnet.es>     %
+    %__________________________%
+    %vector-gfx                %
+    %                   Neco   %
+    %--------------------------%
+    %tiny Vesa                 %
+    %tiny DPMI           Aj0   %
+    %--------------------------%
+    %        24/07/2000        %
+    %___________EP8____________%
+     	
+God's Maze: AlO, Aj0, Ddrey, Neco
+
+greets: Spock / WildBits
+	Real Ice / Elerium Core
+	Tolemac / Elerium Core
+	Peer_gynt / Elerium Core
+	Snaked / Elerium Core
+	Rapid / Critical Concept
+	all #demoscene + Everybody
+	* / ASPL
+
+Xuxo -> incredible betatesting! Thanks!	
+Dr_LaLaLa -> your TNT2 Ultra card rocks!
+Lidia -> Thank u for the "bocatas" ;)
+Ana -> Hello!!!!! (Aj0) X-DDD ;-P
+
+
+error codes:   ;-)
+
+E1 -> No DPMI (use CWSDPMI.EXE or Windows '9x)
+E2 -> No VESA 2.0 (try univbe)
+E3 -> No Video Mode Available (needs 320x240x32bpp)
+
+

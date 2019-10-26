@@ -1,0 +1,51 @@
+; Evilc, the IdeaFix contribution to the Campus P@rty'97 (Mollina, MA, Spain)
+; Won 1st prize, the 2nd prize and 3rd prize :) ... perhaps because there
+; was the only intro in the Campus scene X-DDDDDDD
+; That's our very first work in the scene, coded in a short week
+; Sorry, we had more important things to do, so we only worked that week ;-)
+; There were more intersting effects to put, but... that was a _4Kb compo_
+; First of all, some credits...
+
+the_cast    db "Code: McLeod & ErConde",0
+            db "GFX: McLeod",0
+            db "RST #10 emulator: ErConde",0
+            db "Font: Sir Clive Sinclair",0
+            db "Muzik: KraZy GoOse...",0
+            db "Ooops... No Music, sorry ;-)",0
+            db "Moral support: Eternal, neU",0
+            db "& Sun :)",0
+
+; And now, some greetin'
+
+greetz      db "From McLeod to Sun: There can be only one... You!",0
+            db "From ErConde to Shister et col: It's made for you!",0
+            db "From ErConde to Cranky/TLOTB: Your emulator is cooool!",0
+
+; And finaly, some addresses:
+
+adresses db "IdeaFix people are, in absolutely amazing alphabetical order (tm):",0
+
+  db " SySop        Alberto       milla@mx3.redestb.es     (2:345/425)",0
+  db " Z80 Coder    ErConde       Andres.Garcia@cs.us.es   (2:345/425.89)",0
+  db " Musician     KraZy GoOse   Javier.Prieto@cs.us.es   (2:345/425.69)",0
+  db " Linux Coder  marqueze      marqueze@zoom.es         (2:345/425.49)",0
+  db " x86 Coder    McLeod        rodriguj@drago.fie.us.es (2:345/425.227)",0
+  db " Security     neutrino      joseange@zoom.es         (2:345/425.???)",0
+
+; We apologise for the falut in the credits.
+; Those responsible has been sacked. (tm)
+
+comment #
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¸
+º                 ß                       Û            ß                 ³
+º      Ûßßßßßßßßß Û ÛßßßßßßßßÛ Ûßßßßßßßßß Û ßßßßßßßßßÛ Û Ûßßßßßßßßß///// ³
+º      ßßßßßßßßßÛ Û Û        Û Û          Û ÛßßßßßßßßÛ Û Û       /////   ³
+º      ßßßßßßßßßß ß ß        ß ßßßßßßßßßß ß ßßßßßßßßßß ß ß     /////     ³
+º  Club de Spectrum de la Fac. Informatica y Estadistica - U. de Sevilla.³
+º                     E-mail: spectrum@bitsmart.com                      ³
+ÓÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+                EVILC is the official intro of the SpClub
+#
+; Credits version 0.1234
+; Last Updated: 11.09.97

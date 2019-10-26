@@ -1,0 +1,12 @@
+prod:    diffract
+type:    16 byte intro
+author:  frag
+date:    07-10-2011
+
+Simple 2D diffraction picture
+color = (x^2 + y^2)
+with collapsing circle effect.
+diff2.com - color = (x^2 - y^2)
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

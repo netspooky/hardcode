@@ -1,0 +1,10 @@
+Joo t‰m‰ on GURBITSA-demo kilpailuun kkompo '04
+T‰m‰ on tietysti paskin kaikista demoista, mutta l‰het‰n t‰n nyt kuitenkin.
+Olisin voinut s‰‰t‰‰ t‰h‰n jotain hienompaakin, mutta en jaksanut/ehtinyt/osannut.
+T‰t‰ on testattu 600MHz-koneella. Toimii.
+Koodista ei kannata ottaa mallia, ja kirjoitin sen varmuuden vuoksi niin ep‰selv‰sti
+kuin suinkin osasin. Ainut jotenkuten selke‰ osa on VMS eli musiikkisysteemi (VMS-aluiset
+aliohjelmat), jota ei ole tarkoituksella tehty ep‰selv‰ksi.
+
+TEHNYT VOHVELI
+VALMISTUNUT 30.11.2004

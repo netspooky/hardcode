@@ -1,0 +1,11 @@
+the replay persons had once again engaged themself to make the life for
+ordinary persons a little easier, and coded an intro with the typical size of
+64k. it was as always nothing special but a little something for their own
+pleasure.
+the ones who did it this time were whisker and distance. distance did the
+music, and whisker the rest of it.
+the archive in which they placed the contribution contained two exefiles.
+one was called CLEAN.EXE and was supposed to be disposed for the audience at
+dreamhack. it was a version in which the resulotion were 320x240.
+the other file, CLEAN_HI.EXE, and was made for those people with really fast
+computers. it had a resulotion of 640x480.

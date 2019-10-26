@@ -1,0 +1,47 @@
+
+                            (._(._)                              
+                            _|___|_                              
+                   ________/__...__\_______                      
+        _________((________________________)___________          
+  _____(_______________________________________________)________ 
+ (                                                              )
+ ;                                                              ;
+ :         T$ presents a 4kb intro at 0a000h:                   :
+ :   _________   ____   _____   _____   ____   _                :
+ :  (  _   _  ) (  _ ) (  _  ) (;)   ) ( __ ) ( ) 0_a_0_0_0_h   :
+ :  (_( ) ( )_) ( |  ) ( ( ) ) (_)   ) ( || ) ( )____________   :
+ :  (_( )_( )_) (_( ;) ( ( ) ) (.)___) ( ''_) (_____________;)  :
+ :                                                              :
+ ,                  l o a d i n g . . .                         ;
+ (______________________________________________________________)
+       (______________________________________________;)         
+                (_____________...____________))                  
+                              '''tom/tap"
+
+Mandal0a000h
+A 4k intro for 0a000h 2004 coded by T$
+
+Requires DirectX8, 3D graphic accelerator + Soundcard
+Initialization can take some time on slower CPUs
+
+Files included:
+
+The following versions use 32bit color depth and 24bit z-buffer:
+Ts4k0a04_640x480x32.com
+Ts4k0a04_800x600x32.com
+Ts4k0a04_1024x768x32.com
+Ts4k0a04_1280x1024x32.com
+
+The following versions use 32bit color depth and 16bit z-buffer:
+Ts4k0a04_640x480x32D16.com
+Ts4k0a04_800x600x32D16.com
+
+The following version uses 16bit color depth and 16bit z-buffer:
+Ts4k0a04_640x480x16.com
+
+The following version uses 15bit color depth and 16bit z-buffer:
+Ts4k0a04_640x480x15.com
+
+The following color modes are used:
+Display format : X8R8G8B8, R5G6B5 or X1R5G5B5
+Z-buffer format: D24S8 or D16

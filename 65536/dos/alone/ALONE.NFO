@@ -1,0 +1,20 @@
+Requs:
+
+Real mode needed! (no any pmode)
+16M of XMS
+500K of base
+VESA 2.0 recommanded
+386+
+387+
+GUS/AWE32/SB16
+[GUS requires 512K of on-board RAM]
+[AWE requires 1M of on-board RAM]
+
+Switches:
+
+-nosound ()
+-8bpp (MCGA)
+-16bpp (skip true color if found)
+-m22 (SB mixing in 22050 Hz)
+-m11 (SB mixing in 11025 Hz)
+-sb16 (skip AWE if found)

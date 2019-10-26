@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>DemoJS submission template</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <script>
+var a = document.body;
+var b = document.getElementsByTagName('canvas')[0];
+
+function getContext(s) {
+  try {
+
+    return b.getContext(s); 
+
+  } catch(e) {
+
+    return null;
+
+  }
+}
+
+
+function c() {
+  return getContext('2d');
+}
+
+function d() {
+  return getContext('webgl') || getContext('experimental-webgl') || getContext('webkit-3d') || getContext('moz-webgl');
+}
+
+document.body.clientWidth; // fix bug in webkit: http://qfox.nl/weblog/218
+    
+	
+document.body.clientWidth;
+</script>
+
+<script>b.width=800;b.height=600;S=b.style;S.width=S.height="100%";S.position="absolute";S.top=S.left="0px";C=c();M=[];L=[];D=0;R=Math.random;N=[277.18,311.13,370,415.3,466.16,138.59,155.56,185,207.65,233.08];for(i=0;i<120;)M[i]={x:0|R()*800,y:0|R()*600,z:0|R()*10},L[i++]={x:0|R()*800,y:0|R()*600,z:0|R()*10};function p(){D++%15||(P(N[0|R()*5]),P(N[0|R()*5+5]));C.fillStyle="rgba(0,0,0,0.3)";C.fillRect(0,0,800,600);for(i=0;i<M.length;)C.fillStyle="rgba(200,200,200,0.6)",m=M[i],C.fillRect(m.x,m.y,m.z,m.z),m.x-=m.z,m.x<0&&(m.x+=810),C.fillStyle="rgba(80,80,200,0.3)",m=L[i++],C.fillRect(m.x,m.y,m.z,m.z),m.x+=m.z,m.x>800&&(m.x=-10);setTimeout(p,33)}p();function P(e){d=[];for(a=8E3;a;)A=a--/8E3/(0.5/e),d.push(0|510*Math.abs(A-(0|A+0.5)));i="data:audio/wav;base64,UklGRmQfAABXQVZFZm10IBAAAAABAAEAQB8AAEAfAAABAAgAZGF0YUAfAAAA";for(g="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/".split("");a<d.length;){m=0;for(l=d[a++]<<16|d[a++]<<8|d[a++];m<4;)i+=g[(l&16515072>>m*6)>>(3-m++)*6]}(new Audio(i)).play()};</script>
+
+  </body>
+
+</html>

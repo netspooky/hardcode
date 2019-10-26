@@ -1,0 +1,15 @@
+
+ "Oh No! More Raving Tomatoes! (Aliens ate my BlitzBasic Remix)"
+ A 96k game-intro for Breakpoint 2005 by T$
+                    (ts @ deinmeister.de)
+ 
+ Requires DirectX8, 3D graphic accelerator + Soundcard.
+ Initialization can take some time on slower CPUs.
+ 
+ Instructions:
+ Use the right mouse button to toggle between digger, grabber,
+ builder, parachute, stopper and exploder mode.
+ Use the left mouse button to assign the selected tool to a tomato.
+ The number of tools is unlimited, and you only need one tomato
+ reaching the destination area in order to successfully solve a level.
+ 

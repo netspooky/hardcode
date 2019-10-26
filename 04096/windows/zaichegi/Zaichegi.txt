@@ -1,0 +1,10 @@
+Title:                Zaichegi
+Created by:           Stepanov Andrey, 2007
+3D Graphics software: DirectX 8.0
+Packed by:            Crinkler 1.0a (Jan  7 2007) (c) 2005-2007 Aske Simon Christensen & Rune Stubbe
+Tested on:            Windows 2000, Windows XP, seems not to work on Windows Vista
+
+
+This is my second attempt to create 4K demo. Again, music is crappy :) But it was too interesting 
+and funny to make dancing creatures, so I decided to leave good synthesizer/music to my next demo
+and focused on animation.

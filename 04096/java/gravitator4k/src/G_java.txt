@@ -1,0 +1,345 @@
+import java.awt.BasicStroke;
+import java.awt.Color;
+import java.awt.Event;
+import java.awt.Frame;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.image.BufferedImage;
+
+/**
+ * Gravitator4K Game - classfile is bigger than 4K, but using proguard/jarg/kzip, can get jar file below 4K.
+ * <P>
+ * Original 1.0.0 version entered into Java 4K 2006 Contest at http://javaunlimited.net/contests/java4k.php
+ * <P>
+ * Copyright (c) 2006 David Levine. This code is released under
+ * the <a href=http://www.gnu.org/copyleft/gpl.html>GNU General Public License</a> (GPL).<p>
+ *
+ * @author David Levine (david@curiouskangaroo.com)
+ * @version 1.0.0
+ */
+public class G extends Frame {
+	boolean needSetup;
+	boolean gameOver;
+	int[] massX;
+	int[] massY;
+	int[] massM;
+	int masses;
+	int[] goalX;
+	int[] goalY;
+	int[] goalR;
+	int[] goalCount;
+	int goalsAndFountains;
+	int score;
+	int level;
+	int maxmasses;
+	
+	public static void main(String[] args) {
+		G f = new G();
+	}
+	
+	public G() {
+		super("Gravitator4K");
+		BufferedImage offscreenImage;
+		setSize(600, 600);
+		setVisible(true);
+		setResizable(false);
+		offscreenImage = new BufferedImage(600, 600, BufferedImage.TYPE_INT_RGB);
+		Graphics2D offG = (Graphics2D)offscreenImage.getGraphics();
+		Graphics g = getGraphics();
+		needSetup = true;
+		gameOver = true;
+		goalX = new int[5];
+		goalY = new int[5];
+		goalR = new int[5];
+		goalCount = new int[5];
+		goalsAndFountains = 0;
+		int[] fountainX = new int[5];
+		int[] fountainY = new int[5];
+		int[] fountainXD = new int[5];
+		int[] fountainYD = new int[5];
+		float[] particleX = new float[512];
+		float[] particleY = new float[512];
+		float[] particleXV = new float[512];
+		float[] particleYV = new float[512];
+		int[] particleFountain = new int[512];
+		boolean[] particle = new boolean[512];
+		massX = new int[50];
+		massY = new int[50];
+		massM = new int[50];
+		int addParticleIndex = 0;
+		long lastTime = System.currentTimeMillis();
+		long elapsed = 0L;
+		long lastFired = 0L;
+		boolean subpulse = true;
+		int pulse = 5;
+		long start = lastTime;
+		long limit = 60000L;
+		score = 0;
+		level = 0;
+		BasicStroke thick = new BasicStroke(3);
+		BasicStroke thin = new BasicStroke(1);
+		maxmasses = 10;
+		while (true) {
+			if (needSetup) {
+				start = System.currentTimeMillis();
+				maxmasses = level * 10;
+				if (maxmasses > 50) maxmasses = 50;
+				addParticleIndex = 0;
+				for (int i = 0; i < 512; i++) {
+					particleX[i] = 0;
+					particleY[i] = 0;
+					particleXV[i] = 0;
+					particleYV[i] = 0;
+					particleFountain[i] = 0;
+					particle[i] = false;
+				}
+				for (int i = 0; i < 50; i++) {
+					massX[i] = 0;
+					massY[i] = 0;
+					massM[i] = 0;
+				}
+				masses = 0;
+				goalsAndFountains = level;
+				if (goalsAndFountains > 5) goalsAndFountains = 5;
+				for (int m = 0; m < goalsAndFountains; m++) {
+					if (level <= 5) {
+						goalCount[m] = 100 / level;
+					} else {
+						goalCount[m] = 20;
+					}
+					while (true) {
+						goalX[m] = (int)(Math.random() * 480.0) + 60;
+						goalY[m] = (int)(Math.random() * 480.0) + 60;
+						if (m == 0) break;
+						boolean bad = false;
+						for (int n = 0; n < m; n++) {
+							int dx = goalX[m] - goalX[n];
+							int dy = goalY[m] - goalY[n];
+							if (((dx * dx) + (dy * dy)) < 2500) {
+								bad = true;
+								break;
+							}
+							dx = goalX[m] - fountainX[n];
+							dy = goalY[m] - fountainX[n];
+							if (((dx * dx) + (dy * dy)) < 2500) {
+								bad = true;
+								break;
+							}
+						}
+						if (!bad) break;
+					}
+					while (true) {
+						boolean bad = false;
+						fountainX[m] = (int)(Math.random() * 520.0) + 40;
+						fountainY[m] = (int)(Math.random() * 520.0) + 40;
+						if (m == 0) {
+							int dx = goalX[0] - fountainX[0];
+							int dy = goalY[0] - fountainY[0];
+							if (((dx * dx) + (dy * dy)) < 2500) {
+								bad = true;
+								break;
+							}
+						} else {
+							for (int n = 0; n < m; n++) {
+								int dx = fountainX[m] - fountainX[n];
+								int dy = fountainY[m] - fountainY[n];
+								if (((dx * dx) + (dy * dy)) < 2500) {
+									bad = true;
+									break;
+								}
+								dx = fountainX[m] - goalX[n];
+								dy = fountainY[m] - goalX[n];
+								if (((dx * dx) + (dy * dy)) < 2500) {
+									bad = true;
+									break;
+								}
+							}
+						}
+						if (!bad) break;
+					}
+					double angle = Math.atan2(300 - fountainY[m], 300 - fountainX[m]);
+					fountainXD[m] = (int)(Math.cos(angle) * 30.0);
+					fountainYD[m] = (int)(Math.sin(angle) * 30.0);
+					if (level > 10) {
+						goalR[m] = 5;
+					} else if (level > 5) {
+						goalR[m] = 10;
+					} else {
+						goalR[m] = 15;
+					}
+				}
+				limit = 50000L + (50000L * level);
+				if (level > 15) {
+					limit = 800000L;
+				}
+				needSetup = false;
+			}
+			offG.setColor(Color.BLACK);
+			offG.fillRect(0, 0, 600, 600);
+			offG.setColor(Color.WHITE);
+			if (gameOver) {
+				offG.drawString("GAME OVER", 100, 100);
+				offG.drawString("Max Level: " + level, 100, 120);
+				offG.drawString("Score: " + score, 100, 140);
+				offG.drawString("CLICK TO PLAY AGAIN", 100, 200);
+			} else {
+				long now = System.currentTimeMillis();
+				if (now - lastFired > 250L) {
+					particleFountain[addParticleIndex] = (int)(Math.random() * level) + 1;
+					if (particleFountain[addParticleIndex] > 5) particleFountain[addParticleIndex] = 5;
+					particleXV[addParticleIndex] = fountainXD[particleFountain[addParticleIndex] - 1];
+					particleYV[addParticleIndex] = fountainYD[particleFountain[addParticleIndex] - 1];
+					particleX[addParticleIndex] = fountainX[particleFountain[addParticleIndex] - 1];
+					particleY[addParticleIndex] = fountainY[particleFountain[addParticleIndex] - 1];
+					particle[addParticleIndex] = true;
+					addParticleIndex++;
+					if (addParticleIndex == 512) addParticleIndex = 0;
+					lastFired = now;
+				}
+				for (int i = 0; i < 512; i++) {
+					if (!particle[i]) continue;
+					switch (particleFountain[i]) {
+						case 1:
+							offG.setColor(Color.WHITE);
+							break;
+						case 2:
+							offG.setColor(Color.BLUE);
+							break;
+						case 3:
+							offG.setColor(Color.YELLOW);
+							break;
+						case 4:
+							offG.setColor(Color.ORANGE.darker());
+							break;
+						case 5:
+							offG.setColor(Color.PINK);
+							break;
+						default:
+							break;
+					}
+					offG.fillRect((int)particleX[i] - 1, (int)particleY[i] - 1, 3, 3);
+					for (int j = 0; j < masses; j++) {
+						float dx = (float)massX[j] - particleX[i];
+						float dy = (float)massY[j] - particleY[i];
+						float dd = (dx * dx) + (dy * dy);
+						float a1 = (float)massM[j] / dd;
+						double theta = Math.atan2(dy, dx);
+						double xv1 = a1 * Math.cos(theta);
+						double yv1 = a1 * Math.sin(theta);
+						particleXV[i] += (float)xv1;
+						particleYV[i] += (float)yv1;
+					}
+					// TODO - place a limit on XV and YV ?
+					particleX[i] += (particleXV[i] * (float)elapsed) / 1000.0f;
+					particleY[i] += (particleYV[i] * (float)elapsed) / 1000.0f;
+					for (int m = 0; m < goalsAndFountains; m++) {
+						if (particleFountain[i] == (m + 1)) {
+							float dx = (float)goalX[m] - particleX[i];
+							float dy = (float)goalY[m] - particleY[i];
+							if (((dx * dx) + (dy * dy)) <= (goalR[m] * goalR[m])) {
+								goalCount[m]--;
+								if (goalCount[m] < 0) goalCount[m] = 0;
+								particle[i] = false;
+								score++;
+								int remain = 0;
+								for (int n = 0; n < goalsAndFountains; n++) remain += goalCount[n];
+								if (remain <= 0) {
+									needSetup = true;
+									score += (limit - (System.currentTimeMillis() - start));
+									level++;
+								}
+							}
+						}
+					}
+				}
+				for (int k = 0; k < masses; k++) {
+					offG.setColor(massM[k] < 0 ? Color.GREEN : Color.RED);
+					offG.fillOval(massX[k] - 5, massY[k] - 5, 10, 10);
+				}
+				for (int m = 0; m < goalsAndFountains; m++) {
+					switch (m + 1) {
+						case 1:
+							offG.setColor(Color.WHITE);
+							break;
+						case 2:
+							offG.setColor(Color.BLUE);
+							break;
+						case 3:
+							offG.setColor(Color.YELLOW);
+							break;
+						case 4:
+							offG.setColor(Color.ORANGE.darker());
+							break;
+						case 5:
+							offG.setColor(Color.PINK);
+							break;
+						default:
+							break;
+					}
+					offG.fillOval(fountainX[m] - 2, fountainY[m] - 2, 4, 4);
+					offG.fillOval(goalX[m] - goalR[m], goalY[m] - goalR[m], goalR[m] * 2, goalR[m] * 2);
+					if (subpulse) {
+						for (int p = 0; p < pulse; p++) offG.setColor(offG.getColor().brighter());
+					}
+					for (int p = 0; p < pulse; p++) offG.setColor(offG.getColor().darker());
+					offG.setStroke(thick);
+					offG.drawOval(goalX[m] - goalR[m], goalY[m] - goalR[m], goalR[m] * 2, goalR[m] * 2);
+					offG.setStroke(thin);
+					offG.setColor(Color.BLACK);
+					offG.drawString("" + goalCount[m], goalX[m] - 10, goalY[m] + 5);
+				}
+				pulse--;
+				if (pulse < 1) { pulse = 5; subpulse = !subpulse; }
+				offG.setColor(Color.YELLOW);
+				offG.drawString("Level: " + level, 275, 500);
+				offG.drawString("Score: " + score, 275, 520);
+				offG.drawString("Masses: " + (maxmasses - masses), 275, 540);
+				offG.drawString("Time: " + (limit - (System.currentTimeMillis() - start)) + " ms", 275, 560);
+				if ((limit - (System.currentTimeMillis() - start)) <= 0) {
+					gameOver = true;
+				}
+			}
+			g.drawImage(offscreenImage, 0, 0, this);
+			long now = System.currentTimeMillis();
+			elapsed = now - lastTime;
+			lastTime = now;
+			Thread.yield();
+		}
+	}
+	
+	public boolean handleEvent(Event evt) {
+		if (evt.target == this) {
+			if (evt.id == Event.MOUSE_UP) {
+				if (gameOver) {
+					score = 0;
+					level = 1;
+					needSetup = true;
+					gameOver = false;
+				} else {
+					int mass = 100;
+					int x = evt.x;
+					int y = evt.y;
+					for (int m = 0; m < goalsAndFountains; m++) {
+						int dx = goalX[m] - x;
+						int dy = goalY[m] - y;
+						if (((dx * dx) + (dy * dy)) <= (goalR[m] * goalR[m])) {
+							return false;
+						}
+					}
+					if ((evt.modifiers & Event.META_MASK) == Event.META_MASK) {
+						mass = -100;
+					}
+					if (masses < maxmasses) {
+						massX[masses] = x;
+						massY[masses] = y;
+						massM[masses] = mass;
+						masses++;
+					}
+				}
+			} else if (evt.id == Event.WINDOW_DESTROY) {
+				System.exit(0);
+			}
+		}
+		return false;
+	}
+}

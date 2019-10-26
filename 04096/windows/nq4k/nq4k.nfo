@@ -1,0 +1,70 @@
+----------------------------------------
+   .-----.       .-----.         .----. 
+   | .-. |  .-----.--. |    .---.| .--' 
+   | '-' |---..---'--' |-. .-.   \ '--. 
+   | ,-, |.--''---.  .-' | | ||\  |.--' 
+   | | | |'--.--. ||\ \| | | || | |'--. 
+   '-' '-'.--'--' |' '-' | | |'-' |---' 
+        | '--.----'    | '-' |----'     
+        '----'         '-----'          
+----------------------------------------
+                N  Q  4  K
+----------------------------------------
+
+A bad naming choice made at 7 am after a
+long night now haunts me.
+
+Welcome to NQ4K by your friendly
+neighborhood one man army Nightlord of
+Aesrude. This is my first attempt at
+making a 4K PC intro. I have been
+wanting to do this for quite a while
+now. Having done one crappy 64K before,
+trying a 4K felt like the natural next
+step. This one is not entirely rocket
+science either but it turned out quite
+OK for my liking.
+
+I attempted to do this thing in the span
+of about 11 hours and failed to get it
+under 12K. At that fateful moment I
+called it "Not Quite 4K".  Well now it
+really is 4K (and does a zillion more
+things than the 12K version) and the
+name doesn't fit. Oh well.
+
+Of course I had to learn shit load of
+things in the process (which is
+good). Learned vc++ options more deeply
+than before, learned to use Crinkler and
+learned a lot about how the compiler
+generates asm code.  I studied the
+example frameworks that iq put out, but
+I went for writing my own framework from
+scratch (after all the goal is to
+learn). Since I am quite allergic to
+opengl and dx9 from an API standpoint, I
+used d3d10 (this proved to be a wrong
+choice for 4K, next time I think I will
+use opengl). I also wrote my own soft
+synth. Also I am equally allergic to
+d3dx and therefore I use my own math
+classes. So cut me some slack.
+
+it's funny to note that I think my soft
+synth here is way better than my soft
+synth in my 64K demo :) you make... you
+learn...
+
+Special thanks to iq for all the info on
+his webpage, Mentor and Blueberry for
+Crinkler.
+
+Greets fly out to 7dx organisers,
+Glance, Crescent, Bronx, Return, Zomco,
+Resident, Infect, Demodojo, Goblins,
+Ret, ASD, RGBA, TBC, Booze Design,
+Fairlight, Triad, Resource, Oxyron,
+Camelot, Chorus, and others I may have
+forgotten.
+

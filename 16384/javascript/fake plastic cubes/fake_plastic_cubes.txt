@@ -1,0 +1,30 @@
+fake plastic cubes
+a random compo-filling 9K intro in Javascript by Gasman
+
+Instructions:
+Run index.html in a browser that isn't Internet Explorer.
+
+You might need to run it via an actual HTTP web server, rather than
+just opening the file though...
+I'll stick it up at http://fakeplasticcubes.demozoo.org/ at some point.
+
+
+Thanks to:
+
+Ben Firshman for the dynamicaudio js/swf wrapper
+(which I merrily hacked around with):
+http://github.com/bfirsh/dynamicaudio.js
+
+Nihilogic and Alex Le for the PNG compression hack:
+http://blog.nihilogic.dk/2008/05/compression-using-canvas-and-png.html
+http://alexle.net/archives/306
+
+Fairlight
+for the ribbons
+
+p01 and trace
+for being generally excellent Javascript demoscene co-conspirators
+
+
+- gasman
+budleigh salterton, 2010-09-04

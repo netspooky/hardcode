@@ -1,0 +1,81 @@
+
+                                     ÜoÜ
+                                    ÜÛÛÛÜ
+                                   ²²²²²²²
+                               N O P±T±I±M U M
+                                   ±±±±±±±
+                                    °°°°°
+
+                                production of
+                               FUTURE  HACKERS
+                                   in 1996
+
+                                  coded  by
+                          VLADIMIR "DR.BUG" MEDEIKO
+
+                                   for  the
+                            D.D. 128b INTRO COMPO
+
+
+There is well-known idea - nothing is optimal, NOthing is OPTIMUM.  So, this
+small proggy is not the best too.  But anyway, I hope it is nice enough...
+Moreover, I suppose it is able to make those who says that coding is not
+the art and that there is no beautiful programs exist to become silent.
+It is attempt to put some 3d effect in 128 bytes.  Yeah, I know, I have
+too great imagination to see grove of cacti or mountain scape in this strange
+set of pixels...  Alas!  128b is not enough for everything...  But try to see
+these objects too.  At first, distance between you and monitor of your computer
+should be about 2 meters.  Further, try to adjust brightness of the monitor.
+The images are depend of it.  In dark palette you can see strange tubes,
+then cacti and mountains when lighting the palette.
+Now, something about this program.  Repating, it is too far to optimal,
+but anyway, I suppose if sWINe'95 had written in the same manner it have been
+smaller in size and...
+Further, it took 3 days from me (I said "days"?  I should say "nights".  At
+least two nights and one morning, when I was late to the University for
+1h45m) and this time was a very funny one!
+
+Execution:
+Normal period of demonstartion is 10 seconds and this time does not depend
+of computer CPU power, excluding the case of too low one.  If you want intro
+to be looped, either replace "jne @WRITE_TEXT" with "jmp short @WRITE_TEXT" or
+just run NOPTIMUM.BAT - when the intro is being executed once more, it starts
+from the phase at which it was stopped.
+
+This program requires:
+þ A viewer (at least one)
+þ 80x86 compatible CPU (note, 80386+ is not necessary)
+þ VGA compatible card (no gonzo programming.  I said NO gonzo code?  Hm.)
+þ Pure MS DOS 5.0, 6.20 or 6.22 (other versions are not tested)
+þ No residents in RAM at 80000h to 90000h
+þ At least 64kb kf memory below 80000h
+
+License:
+The object code, source code, JCL file, description file and this document
+may be distributed free, moreover, it may be changed or used in your
+production with the only limitation.  Its name is CONSCIENCE.  I.e. you can do
+anything with this thing, including coomercial use, but you should pay credits
+to me (no dirty money :) and don't ask for this program (probably included in
+collection of similar intros or demos) cost larger than reasonable sum of
+expense of media storage and concernong operations.
+
+Greetings:
+JMP SHORT Cascada, DDT Ent., Electromotive Force, Friends Software, Future Crew,
+Realms Of Illusion, Sorcerers, Triton, Queue Members Group.
+
+Ad:
+If you a FIDOnetter, try to use Future Hackers Mail System, titled
+"FHMail".  That is an FTN mailer.  (BS/AMA, ZModem/Hydra/Janus, DOS/OS2)
+For more information, contact its main and almost the only author:
+Michael "Serina" Gusak, 2:5030/287,
+or freq "FHM" at 23:00 - 16:00MSK (excluding ZMH) from
+Future Hackers BBS, 2:5030/287,
+or contact me:
+Vladimir "Dr.Bug" Medeiko, 2:5030/437.
+
+
+Thank you for reading this text and viewing the intro.
+
+Good byte!
+199603063E0FH          / Û Vladimir "Dr.Bug" Medeiko // Future Hackers
+

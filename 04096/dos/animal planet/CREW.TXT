@@ -1,0 +1,2 @@
+this intro uses Adlib / Sound Blaster
+for music so please make sure it runs with sound

@@ -1,0 +1,7 @@
+FENIKS - Fale Estrogenu Na Intymnym Kobiecym Spojrzeniu
+(The Waves Of Estrogen In Intimate Womanly Gaze)
+32 bytes intro
+-------------------------------------------------------
+coded by Pirx
+assembled with TASM 4.1
+October 2004, Czestochowa - Poland

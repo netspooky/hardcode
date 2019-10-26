@@ -1,0 +1,10 @@
+Gingerbread Man 2!
+--------
+
+A 64b prod by lord Kelvin.
+
+My third release... Midsommer wasn't useless, I rearranged bytes in 128b g/b man and now he's two times smaller. But without cool palette. But with Esc button, that was really interesting!
+
+Compiled with FASM.
+
+Great hello from Russia.=)

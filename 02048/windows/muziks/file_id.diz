@@ -1,0 +1,28 @@
+ _____ _____ _____    _____ _____ _____ _____ _____ 
+|  _  |   __|     |  |   __|     | __  |     |   __|
+|     |__   | | | |  |   __|  |  |    -|   --|   __|
+|__|__|_____|_|_|_|  |__|  |_____|__|__|_____|_____|
+
+                      presents:
+
+                       muziks
+        small and ugly midi playback library
+
+                   code: unic0rn
+       idea and testing: Misioslaw
+
+
+       Greets: bonzaj, Pirx, Preacher, Rrrola,
+             wie8, gamedev.pl, pouet.net
+            and everyone reading this ;))
+
+
+- both MIDI-0 and MIDI-1 files are supported
+  (just give muziks a pointer to a .mid file)
+- it's written entirely in asm, but it is NOT
+  heavily optimized. if you need something a bit
+  smaller - go ahead, code it
+- example source code should be self-explanatory
+- example is packed with MEW - you should get much
+  smaller file with crinkler
+- there are no bugs, only features ;)

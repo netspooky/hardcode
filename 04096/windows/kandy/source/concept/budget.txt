@@ -1,0 +1,20 @@
+Code size budget and final costs for the Kandy 4K intro:
+
+Opening + Fire totals:
+Texture generation:		173 bytes
+Texture activation:		31  bytes
+Background rendering:		157 bytes
+
+Opening:
+Background:	100 bytes	90 bytes
+Textures:	100 bytes	113 bytes
+Animation:	200 bytes	
+Camera:		100 bytes	
+
+Fire:
+Background:	100 bytes	67 bytes
+Textures:	100 bytes	91 bytes
+Animation:	200 bytes	128 bytes + 118 bytes ?
+Particle sys:	100 bytes	118 bytes
+
+End:

@@ -1,0 +1,54 @@
+
+  FALLBACK PLAN   by   ÜMLAÜT DESIGN
+
+  a 256b intro at RÝVERWASCZ 2009
+
+
+  
+
+  [1:38:15] Gargaj: ja igen ezt akartam mondani. ha be tudom
+      rakni a voxel landscapet 256b-ba, akkor nem adom ki a zenet
+  [1:38:22] Gargaj: ha nem, akkor beadom compora
+  [1:38:51] Gargaj: ph33r :)
+  [1:38:55] zoom: hadde ne adjad mar be, megcsinalom mainra
+  [1:39:14] Gargaj: a deja vu hiba a matrixban
+  [1:39:19] zoom: tudom :)
+  [1:39:31] zoom: de egyszercsak bejon :)
+
+
+  
+  the intro itself is a ridiculously trivial implementation of a voxel
+  landscape with a XOR-texture (which turns out to be called munching squares
+  in countries where they can't remember the word "XOR" or something).
+  
+  i admit i really wanted to write a voxel landscape plotter since i
+  was 16 or so but couldn't, and now in 2009, ten years later i
+  whacked it together in like 15 minutes after work hours.
+  
+  life's not fair.
+  
+
+  
+  source is included; the .pde file is the processing version which
+  was used to plan out the effect and optimize it before the actual
+  code.
+  the original (unoptimized) version can be seen at
+    http://gargaj.umlaut.hu/temp/processing/sketch_aug26a/applet/
+  
+  speaking of which: i can really recommend processing for prototyping
+  tiny effects for intros, it really is fun, in a way.
+
+
+
+  anyway. time to wrap up and hand the entry in.
+  
+  
+  come to function -> www.function.hu
+  
+  
+  
+  we <3 u all.
+  
+  
+  
+  www.umlaut.hu @ 2009

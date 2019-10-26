@@ -1,0 +1,9 @@
+"Galaxies" by Delax
+http://www.sundancerinc.de
+
+Delax/ Sundancer Inc.
+delax@sundancerinc.de
+For use with Internet Explorer 5+
+One formula, but multiple views. To in- or decrease the time
+between "scenes", change the factor at column 217 (c>t*15) to
+something higher/lower.

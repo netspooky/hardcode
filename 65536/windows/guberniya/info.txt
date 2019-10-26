@@ -1,0 +1,46 @@
+G U B E R N I Y A 
+   by Macau Exports
+   
+   for Revision 2017
+
+This is the Special Edition (aka "final") version
+with some changes and fixes compared to the party
+release.
+
+The wire simulation is still broken on AMD, though.
+1280x720 resolution recommended.
+
+
+credits:
+
+cce         code, direction, music
+varko       code, simulations
+noby        direction, design, shader magic
+branch      SDF consultancy
+msqrt       heightmap mangling
+goatman     man and goat animations
+
+thanks:
+ - Mercury for hg_sdf and their Eurographics paper.
+ - mudlord for FXAA
+ - iq for his endless graphics tricks
+ - ryg for kkrunchy
+ - TLM for Ground Control
+ - Mike_V and Matt Pietrek for tlibc
+
+greetings:
+ - Approximate
+ - Conspiracy
+ - Logicoma
+ - Mercury
+ - rtificial
+ - Atomim (Archytas 2!?)
+ - Makesmi
+ - Trilobit
+
+contact via twitter:
+
+https://twitter.com/seecce/
+https://twitter.com/martin_b_radev
+https://twitter.com/nnnnoby
+https://twitter.com/nicebranch

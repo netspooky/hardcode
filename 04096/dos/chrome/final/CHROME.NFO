@@ -1,0 +1,89 @@
+
+  ±±±±±± ∞∞∞   ∞∞∞±±±±±±±    ∞∞∞∞∞∞  ±±      ±±∞∞∞∞∞∞∞∞∞
+ ±±±  ±±±∞∞∞   ∞∞∞±±±  ±±±  ∞∞∞  ∞∞∞ ±±±    ±±±∞∞∞
+±±±      ∞∞∞   ∞∞∞±±±   ±±±∞∞∞    ∞∞∞±±±±  ±±±±∞∞∞
+±±±      ∞∞∞   ∞∞∞±±±   ±±±∞∞∞    ∞∞∞±±±±±±±±±±∞∞∞
+±±±      ∞∞∞   ∞∞∞±±±  ±±± ∞∞∞    ∞∞∞±±± ±± ±±±∞∞∞
+±±±      ∞∞∞∞∞∞∞∞∞±±±±±±±  ∞∞∞    ∞∞∞±±±    ±±±∞∞∞∞∞∞∞∞
+±±±      ∞∞∞   ∞∞∞±±±±±±   ∞∞∞    ∞∞∞±±±    ±±±∞∞∞
+±±±      ∞∞∞   ∞∞∞±±± ±±±  ∞∞∞    ∞∞∞±±±    ±±±∞∞∞
+±±±      ∞∞∞   ∞∞∞±±±  ±±± ∞∞∞    ∞∞∞±±±    ±±±∞∞∞
+ ±±±  ±±±∞∞∞   ∞∞∞±±±   ±±± ∞∞∞  ∞∞∞ ±±±    ±±±∞∞∞
+  ±±±±±± ∞∞∞   ∞∞∞±±±   ±±±  ∞∞∞∞∞∞  ±±±    ±±±∞∞∞∞∞∞∞∞∞  by
+                    .          _                              _   
+          ˘         |         | |_  ___  _ _   __   ___  __ _| |_ 
+      ˘--ƒ≈ƒƒƒƒƒƒƒƒƒ≈ƒƒ--˘    | __|/ _ \| '_`-'_ \ / __|/ _` | __|
+          ≥ The 4th ≥         | |_| (_) | | | | | | (__| (_| | |_ 
+          ≥         ≥          \__|\___/|_| |_| |_|\___|\__,_|\__|  of
+          ≥4kb intro≥                    _               _     _ 
+          ≥         ≥               __ _| |_    __ _  __| | __| | ___  _ __ 
+          ≥at ASM'95≥              / _` | '_ \ / _` |/ _` |/ _` |/ _ \| '_ \
+     ˘--ƒƒ≈ƒƒƒƒƒƒƒƒƒ≈ƒ--˘         | (_| | |_) | (_| | (_| | (_| | (_) | | | |
+          |         ˘              \__,_|_.__/ \__,_|\__,_|\__,_|\___/|_| |_|
+          ˘          
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                                   BUGFIX
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+   Now CHROME works well on 32-bitperpixel VGA cards.  The length of the final
+version is 4091 bytes.
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                                  SHOWTIME
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+   This intro was the only one, which was shown just one time. At rerun CHROME
+didn't work.  I couldn't imagine what happened. Because the same routnies were
+working in our 64k intro. I wanted to debug what was wrong, but the organizers
+didn't help me. Well despite this problem, CHROME became the 4th...
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                                  TECHINFO
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+   CHROME runs in TrueColor.  It should  work  on every  TrueColor  VGA  card.
+Despite this,  if you had a VGA card, on which CHROME don't work  then contact
+me.  In the future  your VGA card  will also be supported.  'The code is fully
+Pentium  optimized' means  CHROME use  FPU instructions (include FXCH)  in the
+right order. The code was written in 100% Assembly...
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                                    PLANS 
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+   More and more ray-tracing stuff.  I'm also thinking about  releasing a 256-
+colored-version CHROME. Is anybody interested in ?
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                                  THANKS TO
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+               Bedî Norbert (alias TÅske) for the CHROME logo.
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                              SPECIAL GREETS TO
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+                             Alexander R. Enzmann
+                             Christopher G. Mann
+                            Eduardo Bustillo Iceta
+                                  Eric Haines
+                                 Tom Verbeure
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                                  CONTACTS
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+                        EMAIL: tomcat@master.fok.hu
+                               ervin@sch.bme.hu
+                        SMAIL: NÇmeth Andr†s (Bandee)
+                               Gyîr£jbar†t
+                               Veres P.u.23.
+                               H-9081, HUNGARY
+                               Kaproncai Tam†s (TomCat)
+                               Bocskai u.6.
+                               Gyîr
+                               H-9024, HUNGARY
+
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+                                    SIGN  
+'''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+        SEE YOU AT NEXT RELEASE !                                 wWw
+                                             Kaproncai Tam†s     (o o)
+                                          --------------------ooO-(_)-Ooo---
+

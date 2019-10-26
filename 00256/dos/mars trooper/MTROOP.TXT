@@ -1,0 +1,102 @@
+			 ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+			 ³*-*-* MARS TROOPER *-*-*³
+			 ÀÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÙ
+			      ³ Version 1.3  ³
+			      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+			       - DISCLAIMER -
+
+	The author, Misha Koshelev, and any other persons referred to in this
+documentation or in the computer program MTROOP (Mars Trooper) accept no
+responsibility for any loss of time, money or productivity, or damage to any
+person(s) or computer hardware or software, as a result of using the program
+MTROOP (Mars Trooper), even if the above mentioned had knowledge or had been
+notified of the possibilities of such events.
+
+				  - STORY -
+
+In the future, terrorists have taken over the world. They control everything
+from a deep underground base on Mars. You have been sent to stop them.  First,
+however, you have to drop down all of the way to the very core of Mars. At
+first, your jet parachute doesn't open, but luckily for you it opens soon
+enough. However, unluckily for you, you have a bad memory, and forgot to fill
+up your oxygen tank. There is a little oxygen in some rocks on Mars that look
+like this: . However, they are rare and are dispersed throughout the ground.
+You must keep yourself alive by having oxygen, but you cannot have too much
+(two rows of the screen is the maximum amount) because your emergency oxygen
+tank will burst. Also, you cannot bump into walls because they have
+electricity running through them.
+
+				- CONTROLS -
+
+RIGHT SHIFT  -  Moves your character to the right
+LEFT SHIFT   -  Moves your character to the left
+
+				 - SCREEN -
+
+At the top of the screen you will find the following:
+
+                                        A
+     /-\                                               /-\
+      |                                                 |
+This is the amount of oxygen                        How deep you are
+   you have left.                                   (A-z). This letter is
+						    shown when you die.
+						    This is your "score".
+
+			       - NOTES/HINTS -
+
+   o  To make things more difficult as you go farther downward, your
+      character is moved farther downward on the screen, and thus you have
+      less time to notice a wall, heart, etc.
+
+   o  This game is different each time you play it (i.e. everything
+      changes places and the landscape changes)
+
+   o  This game only takes 253 bytes of uncompressed machine code (including
+      6 bytes of data).
+
+			    - UPDATES/BUG FIXES -
+
+May 08, 1995 - Made an optimization so that instead of:
+			       mov ax, 0b800h
+			       mov es, ax
+	       the program now uses:
+			       push word ptr 0b800h
+			       pop es
+	       which saves one byte.
+
+May 07, 1995 - Fixed the game so there would not be oxygen rocks () in
+     walls. Changed the color of the "score". Version 1.2 released.
+
+May 06, 1995 - In the previous version, the random number generator simply
+     looked through memory and took each sequential byte as a random number.
+     This caused a problem because numbers in memory were not really
+     random. In this version, the problem is fixed, and the random number
+     generator is truly random.
+
+May 01, 1995 - First version (1.0) released.
+
+				 - AUTHOR -
+
+Name: Misha Koshelev
+E-Mail: mkosh@cs.utep.edu (preferable) or ac654@rgfn.epcc.edu
+WWW Home Page: http://cs.utep.edu/schools/mkosh.html
+
+Source code is included in this ZIP file. Please note that you may
+NOT sell this source code without my permission.
+
+				ÚÄÄÄÄÄÄÄÄÄÄÄ¿
+				³Have Fun!!!³
+				ÀÄÄÄÄÄÄÄÄÄÄÄÙ
+
+/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/
+ P.S. Be sure to look at my Earthquake Simulator in C/C++ with FULL SOURCE.
+       file://x2ftp.oulu.fi/pub/msdos/programming/gamesrc/earthqua.zip
+
+ Also, look at my program called Ultra TwinSock, a pseudo-SLIP host
+ and terminal program based on TwinSock, with scripting, VT100 emulation
+ with the ability to turn off and on emulation of certain commands,
+ and a nicer interface.
+       ftp://oak.oakland.edu/win3/winsock/ultrts02.zip
+\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/-\

@@ -1,0 +1,129 @@
+
+                             From the Computer of
+
+                                   Null Set
+
+
+                          Saturday, October 6th, 1990
+
+
+
+Greetings one and all!  Sitting before you now is my latest and greatest
+programming project, INCLogo.  There are several aspects of INCLogo I would
+like to share with you, so let me get right to it!
+
+
+HISTORY:
+
+As long as I can remember, cracking groups have always competed in every aspect
+of the business.  From the quickest releases to the best docs to the biggest
+home board to the coolest logos and slogans, someone is always coming out with
+something just a little bit better than the competition.  This is the very
+spirit that has pushed our country to be number one in the world.  However, in
+some cases, the ultimate purpose of the group is put aside in order to gain
+this edge over the competitors.  Case in point:
+
+Not too long ago, a sysop friend of mine got a large WORM drive.  He quickly
+began putting all of his software onto optical disks creating a permanent
+archive library.  Midway through the process, he discovered that a particular
+cracking group had placed a logo of theirs in EVERY zip of certain games that
+they had released (and it wasn't a particularly good logo, either).  The logo
+was approximately 60k (in various files) unzipped, and a "mere" 30k when
+zipped.  Thus for every 12 files, a whole 360k (a single floppy disk) was lost.
+The sysop, needless to say, was infuriated at the group when he had realized
+what had happened.  Since he was using a WORM, he could not remove the
+offending files from the zips.  This group was deliberatly abusing the sysop's
+resources (and optical disks aren't cheap).  Not only was their logo rather
+large, but placing it in EVERY zip file of a release is simply overkill!
+
+The moral of this story:  the group choose to advertise first and think about
+their users second.  This is exactly backwards!  All cracking groups exist, in
+whole or in part, to serve their users.  Cracking groups should never abuse
+their position by creating overly large, slow, or otherwise cumbersome logos.
+They should be simple, small, and easily bypassed, but still good.
+
+Being a rather dormant in the business of INC lately, I decided that I should
+figure out a way to write a good logo.  Being an amateur assembler programmer,
+I feilded a few ideas and then finally saw what I wanted.  Someone in IBM had
+created an excellent IBM logo using VGA/MCGA graphics.  It was written in Turbo
+Pascal and compiled to about 16k.  That was nice, but still too big for what I
+wanted.  So I undertook a huge task:  convert the pascal to assembler and add
+several few improvements.
+
+Initial attempts at doing this weren't too successful.  I could get the outside
+framework of the program down, but I was having trouble with the meat of the
+program, ie; the drawing and the palette cycling (version 1.0 was basically a
+bomb).  At this point, I went on vacation and didn't really touch it again
+until recently.  One night, with the help of Bit-Manipulator, my brain just
+kicked into high gear and we did almost all of the program:  version 2.0 was
+born.  Over the next few days I refined it and brought it to it's current size
+of under 1024 bytes.
+
+It was soon found that version 2.0 produced snow on 386 machines.  I think this
+was largely due to the instruction caching that produced odd effects on the
+palette cycling.  I rewrote the entire palette cycling procedure and changed
+the dependence on "fast" or "slow" cycling to only "medium" cycling.  I prefer
+fast cycling, but I will sacrifice it to reduce the chance of a user getting
+some snow.  Version 2.1 now stands at 986 bytes.
+
+
+PURPOSE:
+
+The purpose is two-fold.  First I wanted to do something for the group to which
+I am a part (I have been fairly dormant for quite some time now).  Second, I
+wanted to explore several aspects of assembler programming, especially high
+resolution graphics.  Both were achieved.
+
+It is my hope that not only will this zip file be distributed around the globe,
+but that my fellow INC brothers will use this in their new releases to come.
+
+
+ABOUT THE PROGRAM ITSELF:
+
+INCLogo is small (less than 1k) and only requires about 4k of memory to run.
+It will only work on a MCGA or VGA system becuase of it's intense graphics and
+palette cycling.  If INCLogo cannot find MCGA/VGA graphics or cannot allocate
+enough memory to run itself, it will tell you so and gracefully exit.
+
+Once running, INCLogo will continue to run until a key is pressed (any key that
+will unpause your computer will terminate INCLogo).  Upon termination, all
+previous video status will be restored (unlike a recent logo by anoTHer Group)
+and you will be returned to DOS.  Since INCLogo was written 100% in assembler,
+it is lightning fast to load, run, and termiante.
+
+
+PROBLEMS WITH INCLOGO:
+
+I have had some problems with computers getting snow due to the palette
+cycling.  I think I have eliminated this, but please inform me if you do
+experience any snow (please include type and speed of computer, operating
+system, type of VGA, and what kind of snow was experienced (and where)).
+
+I don't know of any bugs or other problems with INCLogo.  If you do find any,
+please try and contact me about them.  I am willing to support this program
+within reason.
+
+Since my HST got fried by lightning, the best way to contact me is through
+Bit-Manipulator or Jenetic Bytemare.  Just tell them you want to get in touch
+with me and they can find me.  (I may also be on some boards from time to
+time, if you can find a board that I'm on!).
+
+
+CREDIT WHERE CREDIT IS DUE:
+
+David A. Kerr wrote the original IBMLogo program for the 8514/A display in C.
+Adapted to VGA / MCGA and to Turbo Pascal 4.0 by Christian Michel.
+Palette cycling routines provided by Daniel Butterfield (author of DAZZLE).
+
+Painstakingly converted to 100% Turbo Assembler v2.0 by Null Set.
+
+I must also acknowledge the help of Bit-Manipulator.  He helped me form ideas
+and generally debug INCLogo.  (Someday he'll REALLY learn assembler!)
+
+
+
+Thanks for your attention!  See you soon in my next INC release!
+
+Null Set
+{}
+

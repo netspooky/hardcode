@@ -1,0 +1,114 @@
+
+      ÕÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+      ³ş                                                            ş º
+      ³                                                               º
+      ³  ÛÛÛÛÛÛÛÛÛ°                   ÛÛ°                             º
+      ³  ÛÛ°    ÛÛ° ÛÛ°   ÛÛ° ÛÛÛÛÛÛ° ÛÛ°     ÛÛÛÛÛÛÛÛ° ÛÛ°     ÛÛ°   º
+      ³  ÛÛ°    ÛÛ° ÛÛ°   ÛÛ°   ÛÛ°   ÛÛ°     ÛÛ°   ÛÛ° ÛÛ°     ÛÛ°   º
+      ³  ÛÛ°    ÛÛ° ÛÛ°   ÛÛ°   ÛÛ°   ÛÛ°     ÛÛÛÛÛÛÛÛ° ÛÛ°     ÛÛ°   º
+      ³  ÛÛ°    ÛÛ° ÛÛ°   ÛÛ°   ÛÛ°   ÛÛ°     ÛÛ°   ÛÛ° ÛÛ° ÛÛ° ÛÛ°   º
+      ³  ÛÛÛÛÛÛÛÛÛ° ÛÛÛÛÛÛÛÛ°   ÛÛ°   ÛÛÛÛÛÛ° ÛÛ°   ÛÛ°  ÛÛÛ° ÛÛÛ°    º
+      ³                                                               º
+      ³                        T ù R ù I ù A ù D                      º
+      ³ş                                                            ş º
+      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ½
+                               ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+                               º ù PRESENTS ù º
+                               ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+                        Little VGA intro-source code.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ Created By   : Vulture                  Total Files  : 7
+ File Type    : VGA-intro source         Release Date : 17th of June 1995
+ Difficulty   : Beginners level          Filename     : VGA-VUL1.ZIP
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ Well, here's another contribution to the large number of source-codes
+ available. It's a very simple little VGA intro including a 3D starfield,
+ a horizontal scroller and a palette fading. Enough for the beginning demo
+ coder to get started... (worked for me:))
+
+ The files included should be:
+
+     - boardz.exe     =>     The executable
+     - boardz.asm     =>     The full source
+     - numbers.dat    =>     Data for starfield
+     - font.dat       =>     Data for font
+     - make.bat       =>     Makes the .exe
+     - vulture.txt    =>     This text (wow:))
+     - file_id.diz    =>     File description
+
+ Ok, there will probably be some other bbs-intros in this package too but
+ that's not a problem, I think. H‚, you downloaded thiz file so you are
+ obviously interested in demos anyway... :)
+
+ Right, on with the real stuff. The code is fully documented. And I mean
+ fully. Just check it out. I have described nearly everything there was to
+ describe in the .asm file. The mean reason I did this is because when I did
+ this simple thing, I had only just begun coding asm. And besides, I think
+ it's a good idea to comment this kinda stuff. It's hard enough as it is...:)
+
+ Well, since the code is documented, I will not explain things here. If you
+ have just a little experience coding asm, it won't be too hard to understand.
+ Only thing that might need some extra explanation is the font data. It's
+ acctualy very simple. Imagine having a font drawn on top of the screen.
+ What you have to do is save every pixel(color)value on the screen to a file.
+ Here is it in plain pascal. You should have a GetPixel function available.
+
+ For Y := 0 to 9 do             { Save 10 lines of data }
+ Begin
+   For X := 0 to 319 do         { Get the entire line }
+   Begin
+     Color := GetPixel(X,Y);    { Get the color value }
+     Write(FileName,Color);     { Write to file }
+   End;
+ End;
+
+ As you can see it's very simple indeed. Just play a little with it to get
+ it to work the way you want. You can use the same technique for entire
+ pictures. I've made a small Pascal program which does do this. Saves to a
+ pascal constant or assembly datafile. Might release it someday too...
+
+ The code concerning the 3D-starfield was originally from an example coded by
+ a guy named Draeden. A welknown American dude in the demo-scene. Only thing
+ I did was optimize a little, add a few things and comment the stuff. I don't
+ see any reason to do the whole starfield on my own when there are examples
+ available. Besides, if I code it myself, it would probably look a lot like
+ the examples anyway. Happened before... I know what I'm talking about... :))
+
+ Hmm, Outlaw is looking for a good gfx artist. If yar interested in creating
+ cewl things on the PC contact us at our distros. Or email: comma400@tem.nhl.nl
+ Don't hesitate to contact us, coz we like to chat with otha scene people... :)
+
+ Ok, that's all I have to say for now. Check out the .asm file and learn from
+ it. Don't just rip the code. That would be lame. But then again, if there
+ weren't any lamerz, cewl people wouldn't have anyone to loose their frusta-
+ tions on... hehe :)
+
+
+ Be seeing ya...
+
+           Signed:    Vulture / Outlaw Triad
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ Outlaw Triad Distros :  ³  Greetz from Outlaw:  ³  Releases sofar:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                         ³                       ³
+ ş    Blue Thunder   ş   ³   - DemoLisher        ³   ş MESSAGE  (dosscroller)
+ ş +31 (0)36-5346967 ş   ³   - ThunderHawk       ³
+                         ³   - Ash               ³   ş VGA-VUL1 (sources)
+                         ³   - The Machine       ³
+ ş     FireHouse     ş   ³   - XùNùTRiC          ³   ş CHAINDOC (textfile)
+ ş +31 (0)58-2661590 ş   ³   - Utter Chaos       ³
+                         ³   - Crusher           ³   ş VGA-VUL2 (sources)
+                         ³                       ³
+                         ³   - Critical          ³   ş BASICDOC (textfile)
+     Open for more!      ³   - Da Frisian Force  ³
+                         ³   - Tribal            ³   + various bbs-intros
+                         ³                       ³
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                   ş (C) 1995  OùUùTùLùAùW   TùRùIùAùD ş
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ

@@ -1,0 +1,27 @@
+
+                        MYSTICAL
+
+
+This was my contribution to the 4kb compo, my first production ever.
+
+It was built from different code pieces i wrote in tasm for fun.
+I simply glued the best pieces of code together in a hurry and mystical
+indeed was the result. After all, it takes only 2.5 kb _uncompressed_.
+
+I'm not too proud of the result (and the voters seemed to agree,
+but maybe my  next produ will be better (when I learn to code :-) ). 
+Fractal stuff is pentium optimized and you should have 256kb ram free 
+You DO have to have it , believe me... :)
+
+
+Neurochip - nowhere yet   A.K.A Riku Voipio
+
+contact:
+
+e-mail:  riku.voipio@sci.fi  / voipio@sci.fi
+
+snail-mail:     Riku Voipio
+                Pohjolankatu 20 A 12
+                50120 Mikkeli
+                Finland
+

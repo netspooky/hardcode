@@ -1,0 +1,43 @@
+Voxel bukkake source code - Linux version
+
+** Bad english version (spanish version of this README below)
+
+Hi, Here you have the complete source code for this intro.  If you want to get
+an exe < 4Kb you'll need sstrip, a program made by Brian Raiter and available
+from http://www.muppetlabs.com/~breadbox/software/elfkickers.html. Just drop
+the sstrip binary in the sources directory and do a "make clean all".
+
+The code has (a few) comments in Spanish, and the names of variables and
+functions are in a funny Spanglish. I don't have the time now to comment the
+code properly, but I hope it's understandable as it is. Feel free to contact me
+at slack (at) codemaniacs.com if you have any comments. You can also find me
+in #demoscene at irc.irc-hispano.org and #demoscene at irc.freenode.net
+
+Thanks to:
+	- shash^collapse for the win32 port
+	- KILE^stravaganza for additional testing of the win32 port :)
+	- Brian Raiter for sstrip
+	- The GCC team
+	- All the people at BCN'101 for all the fun \o/
+
+** spanish version here
+
+Hola a todos. Aqui estan los fuentes de la intro. El Makefile utiliza
+sstrip, de Brian Raiter, para eliminar cosas innecesarias de la cabecera ELF
+y dejar el binario comprimido en menos de 4Kb. Con dejar el ejecutable en el
+directorio de los fuentes basta. Si no, funcionara correctamente pero el tamaño final será más grande.
+
+El código esta en spanglish con comentarios en castellano. Molaría mejorar los
+comentarios pero no tengo tiempo. Espero que el codigo se entienda bien. Si
+alguien tiene algo que comentarme sobre cualquier cosa puede contactar conmigo
+en slack (at) codemaniacs.com, en #demoscene en irc.irc-hispano.org o en
+#demoscene en irc.freenode.net.
+
+Gracias a:
+	- shash^collapse por el port a win32
+	- KILE^stravaganza por testear el port :)
+	- Brian Raiter por sstrip
+	- El equipo de GCC
+	- Toda la gente que estuvo en la BCN'101 por el fiestón que se montó ;)
+
+

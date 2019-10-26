@@ -1,0 +1,104 @@
+			       X-SYSTEM V2.0+
+			    (c)TLOTB 1996,97,98
+
+-Legal Stuff.
+
+Xsystem is property of TLOTB, TLOTB means The Lords of the bits.
+All trademarks are copyright by their own respective owners.
+We don't get any responsability for the use or missuse of this code,
+damages, system failures,Fat disasters,etc... but if you get one prize
+with the lotery... sure this is for our code.
+
+	       All the code is written by:
+Astharoth Aka: Victor Jurado and Cranky Aka: Pedro Gimeno.
+
+
+-What is XSYSTEM?
+
+Xsystem is a powerful programming library to get all the power of the machine
+without more complexity. All are coded in 100% fast 32bits assembly code for
+speed and size, and have new technologies over other DOS based libraries.
+
+-Why i have a file called XSYSTEM.CFG?
+
+The Xsystem isn't only a collection of routines, Xsystem have a library
+initializer , when you run one program coded using Xsystem, the Xsystem
+will identificate each Hardware needed on you PC and try to do all the things
+in the best way (the faster). In some cases the system will not get the best
+results, in that case i encourage you to use the XSYSTEM.EXE program to get
+more speed or simply to correct some possible incompatibility with your
+hardware (EX: some svga's Cirrus Logic doesn't support linear frame buffer,
+and is possible what Xsystem try to do it).
+
+-Using the XSYSTEM.EXE tool:
+
+Well, this is a brief description to every option included in this tool... is
+possible what you don't understand all as well, but i don't want tell you a
+programming class ;)
+
+VGS options: This is related to the Video Graphics System built in the Xsystem.
+
+*Wait for vertical Blanking: when this option is set to yes, the VGS get the
+ syncro with the monitor (you gets animations more smooth) but try it only
+ if you have a faster PC or you have any problem or interference in the
+ screen during the application.
+
+*Use Linear Frame Buffer: when this option is yes, the VGS try to initialize
+ the graphics mode as linear buffer (not a window), in that case the system
+ will get access to all the video memory for use (and increase the speed of
+ the graphics output).
+ Some video cards such as some models of Cirrus Logic, can't enable Linear
+ Frame Buffer if the PC have more of 14Mb of RAM memory installed.
+ This is the reason i gave you this option, if the aplication doesn't run
+ try do set this to NO.
+
+*Use Video Memory: if yes, the system try to use the video memory to store
+ the virtual screen. The default is yes, but if you have a graphics card
+ without any type of Hardware Acceleration, is more possible what turn this
+ to no,you'll get more speed on graphics.
+
+AGD options: this is related to Advanced Graphical Device built in on VGS.
+
+*Use Hardware Acceleration: the default is yes, only change this if you
+ encounter any problem in the application (the image appears buggy,etc)
+ This is supported because some cards doesn't support Hardware BITBLT or
+ Start Address, Hardware Clipping,etc in some modes.
+ Ex: my ViRGE /DX doesn't support Hardware BITBLT in 320x??? modes with 256
+ colours as well (the colour palette is bugged).
+ That's is a big problem, cos the manufacturers doesn't publish any
+ information about their graphics chips. In the case of S3 Incorporated, this
+ is a terrible way.
+ All the cards supported by me, are supported before mostly hours
+ doing experiments with some video cards.
+ If your card doesn't support this, don't blame me! just give me your card
+ and if possible to do, in the new version sure i support it.
+
+*Support Low resolution modes: in many cases the cards doesn't support
+ modes such as 320x240, 320x400,etc.. we have implemented it inside the
+ system with other new modes developed by us, like a Amiga resolution
+ clone 320x256 ;) but, is possible what this modes can't run in some cards.
+ If you set this to no, the system deactive this modes, and will try to use
+ some standart mode for graphics output.
+
+
+VSO options: this is relate to Virtual Sound System.
+
+*Use SB instead AWE device: the default is NO, but the AWE player (in native
+ mode using the EMU8000 chip) is under development, if you have an AWE32 or 64
+ and the music or fx sounds crappy or doesn't sound, set this to YES, and the
+ VSO will use a SB16 compatible player for your AWE card (minus quality but
+ sounds). Other reason for set this to YES, is if you AWE doesn't have any
+ RAM to store the samples.
+
+*Disable Sound: this is the last chance to run a program coded using Xsystem
+ if your sound card isn't compatible with Sound Blaster or Gravis Ultrasound
+ Set this to YES clears any sound produced by the program (you don't get any
+ music or fx, but you can see the program).
+
+
+
+!!!!!NOT FINISHED, DEVELOPMENT STOPPED, MOVED TO WINDOWS ARGH!!!!!!!!!!!!
+
+
+
+

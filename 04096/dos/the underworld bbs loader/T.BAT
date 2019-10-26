@@ -1,0 +1,1 @@
+tasm /ml /m2 /zi %1

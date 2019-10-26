@@ -1,0 +1,7 @@
+KOBRA - Koderski Obraz Bezustannie Rozjuszonej Anakondy
+(Coders' Imagination Of Incessantly Furious Anaconda)
+256 bytes intro
+-------------------------------------------------------
+coded by Tigrou and Pirx
+assembled with NASM 0.98.39
+February 2007

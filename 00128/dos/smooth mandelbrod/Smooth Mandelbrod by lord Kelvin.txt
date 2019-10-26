@@ -1,0 +1,10 @@
+Smooth Mandelbrod
+--------
+
+A 128b static by lord Kelvin.
+
+It's not actually Mandelbrod's set, but picture is rather near. The idea was to to put a fractal in 64b, but I still don't have enough skill for it, so I extended it to 128b and added simple smooth. It's my first release...
+
+Compiled with FASM.
+
+Hello from Russia.=)

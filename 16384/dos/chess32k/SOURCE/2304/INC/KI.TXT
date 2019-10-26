@@ -1,0 +1,18 @@
+Computer_ziehen >>> Der Computer macht einen Zug
+Deckungsliste_auswerten >>> Erstellt Liste mit allen ungedeckten Figuren
+Koordinaten_m”glich >>> Prft ob Koordinaten auf dem Schachbrett liegen
+M”gliche_Zge_Bauers >>> Erstellt eine Liste aller m”glichen Zge der schwarzen Bauern
+M”gliche_Zge_Dames >>> Erstellt eine Liste aller m”glichen Zge der schwarzen Dame
+M”gliche_Zge_Ecksprung >>> Erstellt Liste aller Ecksprungzge einer Figur
+M”gliche_Zge_Feld_weiter >>> Erstellt Liste aller Zge auf die benachbarten Felder einer Figur
+M”gliche_Zge_gerade >>> Erstellt Liste aller geraden Zge einer Figur
+M”gliche_Zge_K”nigs >>> Erstellt eine Liste aller m”glichen Zge des schwarzen K”nigs
+M”gliche_Zge_L„ufers >>> Erstellt eine Liste aller m”glichen Zge der schwarzen L„ufer
+M”gliche_Zge_schr„g >>> Erstellt Liste aller schr„gen Zge einer Figur
+M”gliche_Zge_Turms >>> Erstellt eine Liste aller m”glichen Zge der schwarzen Trme
+Schlagliste_Bauern >>> Erstellt Schlagliste aller Bauern
+Schlagliste_beste_M”glichkeit >>> Sucht aus der Schlagliste den gnstigsten von Punktwerten her heraus
+Schlagliste_erweitern >>> Fgt der Schlagliste oder Deckungsliste eine weitere M”glichkeit hinzu
+Stellungsbewertung >>> Bewertet eine Stellung
+Zugliste_erstellen >>> Erstellt eine Liste aller m”glichen Zge
+

@@ -1,0 +1,9 @@
+CC=	i586-mingw32msvc-gcc
+
+LIBS=	-L/opt/SDL-1.2.13/lib/ -I/opt/SDL-1.2.13/include/ -lmingw32 -lSDLmain -lSDL
+
+FLAGS=	-mwindows -DXCOMPILE -Wall -ansi -pedantic -Os -s
+
+all:
+	$(CC) *.c $(LIBS) $(FLAGS) -o main.exe
+

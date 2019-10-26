@@ -1,0 +1,2 @@
+compo.exe has no sb/awe support, and needs dos4gw.exe
+that's how it differs from fukjobb.exe.

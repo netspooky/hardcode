@@ -1,0 +1,83 @@
+
+                    "Frameskool"
+            BREAKPOINT 2007 64k invitation
+
+                     by Equinox 
+
+      (Released at Numerica Party - March 2007)
+
+ --------------------------------------------------- 
+
+                      4 - M A T
+
+                        Music
+
+
+                      K E O P S
+
+   Code, design, direction, additional 2D graphics
+
+
+                       N O V A
+
+           2D graphics, additional design
+
+ --------------------------------------------------- 
+ 
+  Requirements:
+ 
+    This 64k intro uses OpenGL 1.1 and requires  
+   neither vertex nor pixel shaders. It should run
+   properly on low end hardware.
+
+   We noticed framerate issues in dualscreen mode.
+
+   Not tested with Windows Vista. Might not run
+    properly.
+
+   PLEASE MAKE SURE OPENGL VSYNC IS ENABLED
+
+ --------------------------------------------------- 
+
+  A few words about this 64k invitation:
+ 
+    Once again, no so called "intro-tools" were
+   used, everything was hardcoded from scratch,
+   including events handling and music-sync.
+
+    We tried to make a fair blend of oldskool and
+   newskool, trying to keep in mind the theme of
+   Breakpoint 2007.
+ 
+ --------------------------------------------------- 
+
+   Special thanks to C-rem, Rez and Stingray for
+  their feedback and criticism during the making of
+  this 64k intro.
+
+ --------------------------------------------------- 
+
+                     Greetings:
+
+    Adam Blair - Andromeda - Black Maiden - Bomb
+    Brainstorm - Conspiracy - Checkpoint - Cream
+   DHS - Dune - Fairlight - Farbrausch -  Kewlers
+   Komplex - Mandarine -  MFX - MJJ - Limp Ninja
+    Orion - Oxygene - Paradise - Paradize - Rez
+   Scarab - Sector One - Speckdrumm - Stravaganza
+    SynRJ - tAAt - TBL - Titan - Tpolm  - TSCC
+                    demoscene.tv
+
+
+            Personal greetings from 4-Mat:
+ 
+         8bitpeoples - Aleksi Eeben - Evilpaul
+                Korruptor, TMR/Cosine
+
+ --------------------------------------------------- 
+  
+           http://equinox.planet-d.net/
+           http://keops.equinox.free.fr/
+ 
+      keops_equinox [ at ] hotmail [ dot ] com
+         equinox [ at ] planet-d [ dot] net

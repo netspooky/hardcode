@@ -1,0 +1,127 @@
+  ________________________________________________________________________
+ /                        _________________________                       \
+|                         |Faith Official TXT File|                        |
+|                         ~~~~~~~~~~~~~~~~~~~~~~~~~                        |
+ \________________________________________________________________________/
+
+
+
+INTRO:
+~~~~~
+ Hmmm, as I sit here writing this,    |   want  to  make one  up =). Although
+ I cant really think of putting       |   I do think it would be worth for me
+ much here. Faith has no Official     |   to  explain a few Things  about  It.
+ story behind it, and I really don't  |
+
+FEATURES:
+~~~~~~~~
+                          ___________________
+                         /        .          \                                     
+                       /          í            \                                   
+                     /          FAITH            \
+                   /           Supports            \
+                 /          5 Video Modes            \
+               /       (320*240)&(640*480)32bit        \
+             /      320*480*24bit and 320*240*24bit      \
+           /    And of course Good old trusty mode 13h.    \ 
+         /It tries video Modes progressively untill one works\
+         \___________________________________________________/
+          | The demo in itself is not timed, this is because|
+          | Most effects are recursively dependant, like the|
+            \  Water. Also, if you find this intro kinda  /
+              \  Messes up at startup. It may be because/
+                \ you have UniVBE lesser than 5.2. Get/
+                  \   make shure to get The latest  /
+                    \   version at their webpage  /
+                      \   WWW.SCITECHSOFT.COM   /
+                        \_____________________/
+           
+
+PMODE:
+~~~~~             .
+                  í
+                FAITH
+ Is the first in what I hope becomes
+  a long list of Pmode 4K Intros. The
+    possibilities are much Greater, and
+       I think Pmode could be allowed Free
+            of charge in all compos.IE: you can
+                  Include DOS4GW in you 64K intros if
+                       you want. Dont Blame us  for a  bad
+                           OS Messup. If anyone disagrees that
+                              The 4K is not really a 4K, You  can
+                                think that I also could have made a
+                                 WIN32 Tasm file...But then Wouldn't
+                                 The  actual OS  behind it be  Extra
+                                Size?  Since  it  would  have to be
+                              around to run the 4K. If  we  would
+                           want a real 4K intro, it would need
+                       its own Bootloader, and Not be able
+                  to use Such niceties as INT 21h. So
+            This Intro is Placed Under for  the
+       Demoscene  alltogether to  consider
+    if it want another leap Forward in
+  the standard, and allow Extenders
+ to be not be included in the size
+ count. If not, wouldnt UniVBE also
+      have to be included?
+            TEN Fê
+               í
+               .
+
+VERTIGO:
+~~~~~~~
+  _______________________________________________________________________
+ /                               VERTIGO                                 \
+| We thought that maybe it was about  time that the demoscene  experience |
+| a change in pace. We decided to release a 4K intro that did not compete |
+| in any party, so that other productions like it shall. We are going  to |
+| see if we can convince party officials to allow Dos extenders to not be |
+| included ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ in size. |
+| overall | http://www.geocities.com/SiliconValley/Heights/3678 | we want |
+| current  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~     demo |
+| Productions to raise in Quality. And many of the 4K ones could  benefit |
+| tenfold by this change. Also, 64K intros could  benefit from  using all |
+| 64k instead of robbing around 5-13k (?)  From them.  Anyways, visit our |
+| web Page and Email us! You will find more info on  VERTIGO there. Ciao! |
+ \_______________________________________________________________________/
+
+GREETS:
+~~~~~~                         
+          _____________________________________________________                       
+         |Adam Seychell And Thomas Pytel|  Necros  , Trixter,  |
+         |______________________________|  Snowman ,    Jare,  |
+         |   Crow   | Vastator and LuvK |  Darkness,   Pulse.  |
+         |   TimJ   |___________________|______________________|
+         | Acoustic | Brazil,  Phred, MrData, Qporcupine, God, |
+         | Lightman | The_Ghost, CD, bolt, leviathan, zillion, |
+         |__________| Grimace,  GooRoo,  Onyx,  Pulse,  Hasty. |
+         |  FataR,  |__________________________________________|
+         | Onlyme, Scorpio, EdmZ, Sexton, KillGates, Madhatter |
+         | SneezBake,  Scener,  havik,  Psycho,  Ender, Emperr |
+         | DukeOfUrl, Med, Mr. Khan, Struk, Everyone at NAID96 |
+         | IncaMasters, MuffinGroup,  Clueless, InspiredChaos, |
+         | Beyond,  Craw Productions,  T#C,  All my NAID room. |
+         | LuvrsCRS, __________________________________________|
+         |   Curion, | Hornet,  DCB,  Imphobia, NoooN, Iguana, |
+         |  Fidgety, | CNCD , OTM, Dubius, Future Crew, Triton |
+         |   Barog.  | Psychic Link (Paper is Cool!), Camorra. |
+         |___________|_________________________________________|
+         | If you think you deserve to go here,you probably do,|
+         | Check up on our web page greets list , It should be |
+          \    Kept more up to Date. We love you Demoscene!   /
+            \  ( Now, someone Greeting us  would be nice ;) /
+              \___________________________________________/
+                                      í
+==========
+   __    |   Cia All! 
+ /    \  |   Email me:
+|  O   | |   cowan@infovia.com.gt
+ \ __ /  |   
+  /\|/\  |   or if that doesnt work, just go to our web page and
+    |    |   find a newer address there ;). If that doesnt work,
+   /|\   |   wait till our next production.
+==========
+
+Released Midnight Central Time. November 18th, 1996. Another Midnight Madness?
+

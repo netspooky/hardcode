@@ -1,0 +1,72 @@
+
+ //////////////////////////////////
+ //                              //
+ //     DBF-GVY ADVERTRO         //
+ //                              //
+ //     CODED BY : rain_storm    //
+ //                              //
+ //     RELEASED : June 2008     //
+ //                              //
+ //     FILESIZE : 256 Bytes     //
+ //                              //
+ //////////////////////////////////
+
+ dbfinteractive.com is a programming
+ forum that caters to democoders of
+ all levels of experience. It is a
+ place where people can turn to when
+ they need an explanation of how a
+ certain effect can be achieved. It
+ is also a place where your experience
+ is valued and your input is very much
+ appreciated.
+
+ The toughest part of the demoscene is
+ getting started. with so many options
+ available to you it is easy to get a
+ little overwhelmed for choice. At DBF
+ we are not tied down to a single category,
+ platform or programming language. We
+ deal with tiny code (4kb / 1kb / 256b)
+ larger code (64kb / 64kb+) we deal with
+ DOS / Win32 / Linux, as well as GBA /
+ ZX Spectrum / Commodore 64 / and more.
+ So long as it is Demoscene related its
+ welcome at dbfinteractive.com.
+
+ If you like the sound of that then come
+ on over and have a look for yourself.
+
+ http://dbfinteractive.com/
+
+ ---------------------------------------
+
+ This intro was written to run on the DOS
+ platform with a VGA adapter and Sounblaster
+ card present. It will also run on XP if you
+ have a VGA adapter and a soundblaster
+ compatible soundcard (just worry about the
+ VGA adapter). If you cannot run this intro
+ for some reason you can also run this in a
+ DOS emulator, such as DosBox, which you can
+ get at http://www.dosbox.com/
+
+ If you still cannot run the intro you may be
+ happy to know that an AVI file is also available
+ please contact org_100h@yahoo.com to obtain a
+ copy. I don't usually include video capture but
+ this time I have made an exception, due to the
+ fact that many people use Windows Vista and may
+ not want to install DosBox just to run one little
+ intro.
+
+ Once you have the file running sit back and
+ enjoy the show. Press any key to exit at any
+ time. Please take the time to visit our forums
+ we are always interested in new faces and thank
+ you for taking an interest in this advertro.
+
+                                Peace out :D
+
+                                      rain_storm
+

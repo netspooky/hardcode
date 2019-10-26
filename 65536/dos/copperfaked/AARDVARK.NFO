@@ -1,0 +1,95 @@
+
+
+      ÜÜ
+    ÜÛÛÛÛÛÜÜ
+    ßÛÛÛÛÛÛÛÛÛÜ  ßßÛÜ   ßÛÛÛÛÛÜÜ  ßÛÛÛÜÜ ßÛÜ   ßÛÜ ßßÛÜ ßÛÛÛÛÛÜÜ  ßÛÜ        ÜÛ
+       ßÛÛÛÛÛÛÛÛÜ   ßÛÛÜ  ßÛÛÜ ßÛÛÜ ßÛÛÛÛÜ ßÛ    ßÛÛÜ ßÛÜ ßÛÛÜ ßÛÛÜ ßÛÜ    ÜÛß
+   ÜÛÛÜ  ßÛÛÛÛÛÛÛÛÜ   ßÛÛÛÜÜ ßÛÜ ßÛÛÜ ßÛÛÛÛ ßÛÜ    ÛÛÛ  ßÛÜ  ßÛÜ ßÛÛÜ ÛÜ ÜÛÛ
+   ÛÛÛÛÛÜ  ßÛÛÛÛÛÛÛÛÜ   ßÛÛÛÛ  ÛÛÛÛÛÛß ÛßÛÛÛ  ÛÜ    ÛÛ²  ßÛÛÜ  ÛÛÛÛÛÛ ŞÛÛÛÛ
+   ÛÛÛÛÛÛÛ   ßÛÛÛÛÛÛÛÛ   ßÛÛÛ²  ÛÛÛß  ÛÛ  ÛÛ²  ÛÜ   Û²±   ßÛÛ²  ÛÛÛß  ÛÛÛÛİ
+  ÛÛÛÛÛÛÛÛÛ    ßÛÛÛÛÛÛÛ ßÜ Û²²² ßÛÛ²  ÛÛÛÜÛ²²±  ÛÜ Û²±  ÛÜ Û²²± ßÛÛ² ßÛÛÛ²²
+  ÛÛÛÛÛÛÛÛÛ      ÛÛÛÛÛÛÛ ß² ²±±± ß²²±  ÛÛÛ²²±°  Û²²±°   ß²  ²±±  ß²²±  ß²²²²
+  ÛÛÛÛÛÛÛÛÛ  ÜÜ   ÛÛÛÛÛ²²    ±±±° ²±±±  Û²²±°  ²²±±°        ±±±°  ²±±±   ²²±±
+ ²²²ÛÛÛÛÛÛß ±²ÛÛÜ  ÛÛ²²²±±    ±°°  ±±°°  ²±°  ²±±°°          ±°°   ±±°°   ±±±±
+ ±²²²²ÛÛÛÛ   ±±²Û  Û²²±±±°°   °°    °°°  °°  ±°°°            °°     °°°     ±°°
+ ±±±²²²²ÛÛ ²  °±²   ²±±°°°°   °      °  °°  °°°              °       °      °°
+°±±±±±²²²  ²²        ±°°°°                                             úiNFú
+°°±±±±±±  ²²²²        °°°
+°°°±±±±  ±±²²
+ °°°°±  ±±±±   úúú  THE úúú            ú Don't know AARDVARK? ú
+  °°°  °°±±
+      °°°°    úúú  DEMO  úúú            ú  Just NOSE around  ú
+   °°°°°°
+    °°°°     úúú  SECTION úúú                ÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+Well, this i just a little compilation of Copper routines I made in time ...
+I didn't really plan to do something REAL with it, until I realized that we
+couldn't finish our demo, as planned, for The Party III :(
+So I got some pictures/fonts together and assembled this piece of art.
+I'm sorry for there's no music, but I was first thinking of using our
+SB Player, and realized too late, that NO soundblaster routine can be as
+fast to compete up with fullscreen copper effects. Then I made a simple fast
+Adlib player at the first day of the party; which didn't sound very well
+altogether. With only few hours away from the deadline I was forced to
+release it without sound, since the alternative would have been BAD sound,
+letting people grip to the Reset keys ;)
+
+Some word about the routines used in this intro:
+
+Every thing's a Copper Effect, either thru palette or other registers.
+Every thing's also SUPPOSED to run on a 386SX-16 ( so they told me ),
+but you know what a slow VGA can be to this :(
+3 different graphics modes are used in there, and none of them is standard.
+The 3D scroller function in the end is a nondocumented function of
+standard-VGAs :)
+
+Anyway, this is now out. And I have to say a final word about some of the
+routines:
+
+The two ball-filled screen zoomers and the overlaying checker boards were
+not original by me; but I got the inspiration from some preview routines of
+S!P's demo ( which will be out the same time ). As I said, I didn't really
+think of releasing them when I coded it; but somehow it went this way ...
+
+I'll type no longer, I'm really dried out since I'm without sleep since 2
+days ... So, enjoy!
+
+And, if you want the source code, send me $30 and you'll get it right away.
+
+
+Current Distro sites of AARDVARK are:
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³   Name of BBS    ³ Loc/Phone # of BBS ³    SysOp     ³ Speed  Meggage  Nodes ³
+ÆÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍØÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍµ
+³úúSpasm-0-tronúúúú³ QUEB./CAN 744-5718 ³   Snibble    ³                       ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³úLamer'súCemeteryú³ IL  +972-4-376-775 ³    ViniT     ³ 14.4k   850   2 Nodes ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³úúúFuzzyúLogicúúúú³ NL  +31-2521-21926 ³ Mr. Fanatic  ³                       ³
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+³úúTheúPowerGridúúú³ US  1-813-481-6539 ³ Syntax Error ³ 16.8k   500+          ³
+³úúúEleutheriaúúúúú³ US  606-223-1853   ³  Soul Rebel  ³ 14.4k   340           ³
+³úúTheúArmageddonúú³ US  215-469-9499   ³ L. God Xerobe³ 14.4k   420           ³
+³úúúúBadúExampleúúú³ US  402-291-9038   ³   Tonyhawk   ³ 14.4k   120           ³
+³úúúDemon'súLairúúú³ US  604-822-5566   ³   Big Hurt   ³ 14.4k   300           ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+If you want to apply for an AARDVARK distro site, contact me in IRC or e-mail
+me at faker@wildsau.idv.uni-linz.ac.at and give the stats of your board.
+
+- You will have to get all our releases from the Internet or thru other
+  AARDVARK distros.
+
+- You will be noted in this NFO-files and your board will get many more
+  callers ( probably ;)
+
+- You can get access to AARDVARK inside information & pre-releases
+
+*NOTE* for our current Distro SysOps:
+
+Since UWP is full, our new releases will be uploaded to WASP.
+Full address: wasp.eng.ufl.edu /pub/msdos/demos/incoming
+Thanks for your cooperation!

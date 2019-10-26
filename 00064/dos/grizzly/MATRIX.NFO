@@ -1,0 +1,145 @@
+                                     ÜÜÜÜÜÜ
+                                 Ûßßßß    ßßßßÛ      
+        ÜÜÛßßßßßßßßßßßßßßÛÛßßßßßßßßßßÛ    ÛßßßßßßßßßÛÛßßßÛÛßßßßÛÛßßßßÛÜ
+        ÛÜ    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    ÜÛ
+         Û    ÛÛ    ÛÛ    Ûßßßßßß    Û    Û    ßß   ÜÛ    ÛÛ   ßß   Ûß
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Ûß   ÛÛ   ßÛ
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    Û
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    Û
+         Û°   ÛÛ    ÛÛ    Û°   ÛÛ    Û°   Û    ÛÛ    Û°   Û°   ÛÛ    Û
+         Û±   ÛÛ    ÛÛ    Û±   ÛÛ    Û±   Û    ÛÛ    Û±   Û±   ÛÛ    Û
+         Û²   ÛÛÜÜÜÜÛÛ    Û²   ÛÛÜÜÜÜÛ²   ÛÜÜÜÜÛÛ    Û²   Û²   ÛÛÜÜÜÜÛ
+         ßÛÜÜ ÜÜÜÜÜÜÛÛÜÜÜÜÛÛÜÜÜÜÜÜÜÜÜÛßÛÜ ÜÜÜÜÜÛÛÜÜÜÜÛßÛÜ ÛÛÜÜ ÜÜÜÜÜÜÛ
+            Û±Û                         Û±Û             Û±Û  Û±ÛIC<MTX>
+            Û²Û                         Û²Û             Û²Û  Û²Û
+            ßßß                         ßßß             ßßß  ßßß
+
+
+ Úùú   úùùú
+ : Introduction
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :
+ : Christmas, the season for families to spend time together, celebrate     :
+   and to give presents. Outside; the snow falling down, and inside; the
+   warmth and togetherness. "This is the season to be merry!" some say,
+ ù but not everywhere is peace and quiet. In some parts of the world there  !
+   are wars going on, disputes, and inside my head, everything is spinning
+   around and I've got an excessive amount of typing-energy!
+   So what is better than sitting down over the keyboard, "The White Album"
+   playing in the background, and rattle down a program?                    ù
+
+ ! -Probably a whole bunch of things, but never mind :)                     :
+
+
+                                                      Insomniac(26/12/97)
+
+
+ Úùú   úùùú
+ : Demo-info
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+ : The demo is a 64 byte 3D-engine that supports phong/svga/3dfx-cards and
+   more!
+   No, serious, it just a simple/silly demo I wrote whilst combusting the   :
+   the massive amount of delicious Christmas-food I ate on Christmas Eve.
+ ù
+   It's kind of obvious where the limit of a "good-demo" goes. And it's WAY ù
+   over 64 bytes, let me tell you that. After setting up the vga,keyb-check,
+   back to DOS etc, all you have left for the demo are 45 stinking bytes!
+
+ . So what I basically had room for was a cheap plasma, and not even a sine-
+   one! No. And it's actually just an improved version of my demo "Prawn".
+
+ ù                                                                          :
+   THE DEMO ITSELF
+   Just run it (or DO it ;), and when sadness takes over, press '2' to exit.
+ ! It is very important that you press the '2'-key, and *NO* other key.
+ ù The demo wont exit on any other key. (I saved 2 bytes using this method)
+
+ : THE NAME                                                                 ù
+   The name "Grizzly" came to me on a biology-class, when my biology-teacher
+   told us about his time in the Canadian-wilderness. And when he had a
+   close encounting with a grizzly bear. (He survived ofcourse...)
+
+ . DICKCLAIMER                                                              .
+ ù (It's always room for this one!)
+   I quote: Should this program be fatal in any way, the author leaves all
+            the responsibility to the user him/herself.
+
+       and: If you find any interesting in the code, such as good routines
+ :          etc. then feel free to use them in your own productions, but    :
+            greetings to me is a must. Lamer!
+ ù
+
+
+ Úùú   úùùú
+ : Credits
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+
+ ù I believe I made it all! (Ok, so I had some help)
+                                                                            :
+   code : Insomniac & Santa                                                 ù
+ :
+
+
+ Úùú   úùùú
+ : News
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+   Santa never did show up at my house. He probably had a very busy day..   ù
+ : 
+                                                                            ù
+
+ Úùú   úùùú
+ : Members
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+ :        Handle             Profession             Realname
+ Ãùú   úùùú          úùÂùú                 úùÂùú
+ : Insomniac           : Coder               : Justin Walemark              :
+ : Io                  ù Coder               . Niklas Andersson
+   Soulariuz             Graphician            Johan Agur‚n                 .
+ . Blue                  Graphician            G”ran Sundblad
+   Cyclops             ! Graphician/Musician : Andreas Chrysovitsanos       :
+ : Wrong                 Graphician/Musician   Fredrik Larsson
+ ù
+
+                                                                            ­
+ Úùú   úùùú
+ : Greetings
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+   I'll just greet all the people who were involved in the 256b-compo.      ù
+ :
+   Ethry,Parody,HackMaster,Myrlochar,Estrato,Spoook,Codey,Vulture,Gosub
+   Dabat,JakDaw,Gyr,Mithris,Zoon,Io,Doj,Tektite,Schepe,ILE,Allergy,XeF4     ù
+   Martin,Tryx and Spyko.
+ .
+   'Glad you could join in!                                                 !
+ :
+
+
+ Úùú   úùùú
+ : Contact info
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+ : You can contact us, for information etc.                                 :
+
+   OBSERVE: Some of us are not reachable 24 hours a day. That is because
+            the e-mail database might be located in a school.               :
+ :
+                                                                            :
+   Insomniac          insomniac@goplay.com
+   Io                 io@mypad.com
+ ù Soulariuz          soulariuz@geocities.com                               ù
+ : Blue               blue@schoolemail.com
+   Cyclops            NONE VALID
+ : Wrong              96frlars@mediagymn.se
+
+   Also try find us on the IRC (mostly EFNet or IRCNet):                    !
+
+ ù #ASM,#CODERS,#GRAPHICS
+
+
+                            úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú
+                               NKOTB - forever!

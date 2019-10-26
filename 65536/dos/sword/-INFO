@@ -1,0 +1,19 @@
+
+  sword by CLS     a 64k intro presented at Jumper'97
+
+  credits          code  ú gekko
+                   trace ú wad
+                   music ú beatmaster
+
+  other credits    DOS32 ú Adam Seychell
+                   Cubic ú Niklas Beisert
+
+  this is our first intro. it is designed for dos and probaly hangs under
+  windows'95. its requirments: pentium100/vga/8mb ram and gus for sound.
+  it will probably run with a 486 as well but don't try it...
+  run it with /n parameter for nosound.
+  keys:            gray +  to step forward
+                   pause   to stop and space to start again
+                   esc     to exit
+  the first two keys only work with nosound.
+  try to find the hidden part!

@@ -1,0 +1,94 @@
+
+
+from dust till dawn
+
+by fairlight
+
+at remedy 2004
+
+
+
+this is very much a compo version.
+as it's gone 5am now before the deadline, 
+and we are very tired. we will fix it next week when we have had some sleep.
+
+in fact, we're so tired we cant even find the offical flt nfo file to fill in.
+
+why did we do this intro? we wanted to take a break from hard work on more serious productions,
+and release something fun. (and, not uncoincidentally, something short.) and test our tools. (yes,
+"tool test" is a catch-all excuse here, too)
+
+
+
+you get a dialog when you start up. it has some options for mesh detail and texture detail.
+picking those lower than high detail gives you lower poly meshes and smaller textures. means it
+runs faster and also generates a lot faster, but looks worse (and is potentially buggy, especially
+for meshes.. might get things popping through the camera or something). 
+it's helpful though, because our first 3d scene sends 150,000 polys. twice. a frame. and then
+other stuff on top. and quite a few mb of textures too. 
+
+
+
+
+requirements:
+- a gfx card supporting ps1.1 and vs1.1. but for speed you'll want something better. and you had
+also better have a lot of vram, unless you enjoy texture swapping. 
+- a decent cpu, like over 2ghz. (that this means better than the remedy compo machine is not lost on
+us). cpu is rather important here.
+- a lot of ram.
+- windows 2k or xp.
+
+
+we actually tested this reasonably well. works fine on radeon (9000+) or geforce (ti4200+). 
+that's a lie actually. we tested the intro player well, we didnt test the intro itself hardly at all :)
+
+
+
+
+credits:
+
+smash  		- mesh tool, texture tool, softsynth, engine, fx, intro tool, design, coderart
+pantaloon 	- main code on intro tool, fx
+reed		- music 
+maali		- 3d graphics, scenes, design
+aln		- 2d graphics, textures, design
+buzzie		- extra helping hand with scenes/design/fx
+
+
+much thanks to ryg/farb-rausch for kkrunchy, without which we would never even have got near 64k.
+
+
+
+
+
+
+
+
+known "issues"
+- dont run it along with any other directsound-using program running. causes the music
+to screw up. thats the worst bug there.
+- it eats gpu, cpu and ram. 
+- it doesnt like slower cpus (like probably the remedy compo machine), because it hogs cpu. and with slow cpus things can skip a bit.
+- did i mention it needs a fast cpu?
+- some rendering glitches.
+- there are little timing bugs here and there.
+- the precalc bar lies. so if you think "its taking ages right at the end of the bar, it must have
+crashed", dont believe it.
+- lower than full detail on meshes and textures are subject to little (or big) bugs, especially meshes. 
+it's mainly for lazy people who dont want to wait for a long precalc, and we'd hope that nobody
+would show it on less than high detail in a compo. unless the compo machine was really shit.
+- it doesnt exit bang on time. when it goes black at the end, it's finished. 
+- it's not very long. that's partly because it's not very long, and partly because we dont like
+long boring intros. =)
+- we like spikeballs.
+
+please do mail bug reports, to smash@fairlight.st. we want a solid intro engine. 
+
+
+
+
+
+
+
+
+see you at assembly.

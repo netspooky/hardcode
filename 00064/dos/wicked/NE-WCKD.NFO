@@ -1,0 +1,39 @@
+
+    w i c k e d
+
+    a 45b demo by insomniacúneon
+
+
+    i n f o .
+
+    wicked  was made  for the  64b demo compo at  the 0a000h  party in 2002.
+    the only reason that the demo is 19 bytes smaller than the limit is that
+    I  (insomniac) couldn't  be bothered  coming up  with something.  a svga
+    version was made  (66 bytes big) but it only made  everything too small.
+
+
+    t e c h s .
+
+    texture-generator: 20 bytes
+    palette-rotator:   17 bytes
+
+    both the palette  and the  texture  work  by  the  recursive  principle.
+
+
+    r e q u i r e m e n t e s .
+
+    just  about  any computer  will make this work.  except  mac's ofcourse.
+
+
+    d i s c l a i m e r .
+
+    this product is pure  neon,  and has therefor  been tested from the root
+    to the fruit  by the technicians in our lab.  but should it  nevetheless
+    turn out to be harmfull in any way;  neon  wont take any responsibility.
+
+    the source is NOT allwed to be used withough permission from the author.
+
+
+    c r e d i t s .
+
+    insomniac@256b.com .                           all programming - design

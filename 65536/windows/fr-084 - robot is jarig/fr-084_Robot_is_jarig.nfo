@@ -1,0 +1,37 @@
+
+                               farbrausch
+
+                         fr-084: Robot is jarig
+
+                                  by
+
+                                 BeRo
+
+This 64k intro is designed for 720p for high-end GPUs (Geforce GTX970 and 
+up), so if your PC, primarily your graphic card, is too slow, this 64k
+intro will not only run at low framerates, it will break apart terribly.
+
+Information for the quality levels:
+
+Ugly @ 720p     = Factor sqrt(1.0 / (1 << 4)) =   320x180 frame buffer object render targets
+Low @ 720p      = Factor sqrt(1.0 / (1 << 3)) =   452x254 frame buffer object render targets
+Medium @ 720p   = Factor sqrt(1.0 / (1 << 2)) =   640x360 frame buffer object render targets
+High @ 720p     = Factor sqrt(1.0 / (1 << 1)) =   905x509 frame buffer object render targets
+Ultra @ 720p    = Factor 1.0                  =  1280x720 frame buffer object render targets (1:1 ratio)
+Ultra+ @ 720p   = Factor sqrt(1 << 1)         = 1810x1018 frame buffer object render targets (pratically supersampling!)
+Ultra++ @ 720p  = Factor sqrt(1 << 2)         = 2560x1440 frame buffer object render targets (pratically supersampling!)
+Ultra+++ @ 720p = Factor sqrt(1 << 3)         = 3620x2036 frame buffer object render targets (pratically supersampling!)
+Overkill @ 720p = Factor sqrt(1 << 4)         = 5120x2880 frame buffer object render targets (pratically supersampling!)
+
+Ultra @ 720p is the for-it-designed quality level and screen resolution, 
+otherwise the energy conservating HDR pipeline will have energy conservating
+problems due to then mismatched mipmap-chains. 
+
+
+
+
+
+
+
+
+

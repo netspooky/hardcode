@@ -1,0 +1,35 @@
+                       ╔═════════════════════════╗
+                       ║ T r a n s M i s s i o n ║
+                       ║  - - - - - - - - - - -  ║
+                       ║   Creative DemoGroup    ║
+                       ║        * 1999 *         ║
+                       ╚═════════════════════════╝
+
+                             !  S T O R M  !
+                       256 byte demo for PARADOX'99
+    VGA,GeneralMidi: GUS + megaem (recomendet) / AWE32 or high + Win95
+
+                        Graphics code by Encryptor
+                 Sound code by TotalEггoг AKA [Krematory]
+
+                           Addr for contact:
+          FidoNet -> 2:5062/1.40 [Krematory] - Sergey Stepanov
+       InterNet -> maxim@volgodonsk.cityline.ru - Maxim Zhurovich
+
+------------------------------------------------------------------------------
+
+                     Push PgDown for search russian ;)
+
+
+А теперь по-русски.
+Для того, чтобы увидеть дему, надо просто ее запустить Ж8*)_)
+Для того, чтобы услышать звук, надо иметь GM карточку с WaweTable, причем
+MIDI-порт должен быть настроен как 330h.
+Параметры звука подобраны для Гуся, запущенного с megaem, где миди-девайсом
+является GUS Synt. Сэмплы - стандартные, прошитые в ROM. Если вы будете
+запускать дему на других карточках, под виндой, за звук я не отвечаю Ж;*)
+Например, на Авехе под 95-й звук будет, но шум моря _СОВСЕМ_ не такой,
+как на Гусе.
+
+                                                           Желаю удачи!
+                                                           Сергей Степанов.

@@ -1,0 +1,24 @@
+Pittsburgh Stallers vs Loonies
+
+present
+
+a 4k intro for Assembly Summer 2007
+
+"Candystall"
+
+Credits:
+
+Packman: Object generator, postprocessing, synth
+The Danish Musician: Music
+Blueberry: Tool, rendering
+Lemmus: Modelling, design
+
+Requirements: PS/VS 2.0, DirectX end-user runtime April 2007 or newer (d3dx9_33.dll).
+
+We have provided the intro in two resolutions. One is the 1280x720 resolution
+recommended in the Assembly compo rules. If you try to run this version on a
+machine that is not able to display it (such as the machine used for the Assembly
+jury showing) the intro might crash or it might appear stretched and/or off-center.
+If so, run the 1024x768 version.
+
+This is a party version. A fine-tuned version will probably appear before long.

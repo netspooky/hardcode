@@ -1,0 +1,87 @@
+
+        - - -     
+    - - - A - - -              
+        / | \                             -=|*>  P R E S E N T S
+ OO   /   |   \   OO    OO  
+  O /     |     \ O     O               -=|*>  a new Ray Tracing intro
+  OoOo. .oOoO .oOoO .oOoO .oOOo.OoOOo. 
+  O   O O   O O   O O   O O    O O   O        -=|*>  by TomCat @szif.hu
+ oOOoO' `OoOOo`OoOOo`OoOOo`OooO'oOo oOo
+                                                            CALLED ...
+
+         ²±±±±° ²±°   ²±°²±±±±±°    ²±±±±°  ²±      ±°²±±±±±±±°  ²±±±±°
+        ²±°  ²±°²±°   ²±°²±°  ²±°  ²±°  ²±° ²±±    ±±°²±°       ²±°  ²±°
+       ²±°      ²±°   ²±°²±°   ²±°²±°    ²±°²±±±  ±±±°²±°      ²±°    ²±°
+       ²±°      ²±°   ²±°²±°   ²±°²±°    ²±°²±°±±±±²±°²±°            ²±°
+       ²±°      ²±°   ²±°²±°  ²±° ²±°    ²±°²±° ±± ²±°²±°           ²±° 
+       ²±°      ²±±±±±±±°²±±±±±°  ²±°    ²±°²±°    ²±°²±±±±±±°     ²±°
+       ²±°      ²±°   ²±°²±±±±°   ²±°    ²±°²±°    ²±°²±°         ²±°
+       ²±°      ²±°   ²±°²±° ²±°  ²±°    ²±°²±°    ²±°²±°        ²±°
+       ²±°      ²±°   ²±°²±°  ²±° ²±°    ²±°²±°    ²±°²±°       ²±°
+        ²±°  ²±°²±°   ²±°²±°   ²±° ²±°  ²±° ²±°    ²±°²±°      ²±°    ²±°
+         ²±±±±° ²±°   ²±°²±°   ²±°  ²±±±±°  ²±°    ²±°²±±±±±±±°²±±±±±±±±°
+
+
+  /=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/
+ /=/=/=/  C R E D I T S  /=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/
+/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/
+
+  All code by Tamas Kaproncai alias TomCat/Abaddon. Charset by David Taletovics
+alias G.O.D./Abaddon. The original design of the motion came from my girlfriend
+Izabella Levai. She is not satisfied the results, but you know the rules of the
+4kb intro competition (4k size & 550k mem). CHROME2 use ideas from cool guys at
+the raytracing scene, best regards to: Paul Heckbert, Malcolm Taylor, Andrew S.
+Glassner, Eric Haines, Stephen B.Coy, Christopher D.Watkins and Norbert Dombi.
+
+  /=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/
+ /=/=/=/=/=/=/=/=/=/  T E C H - I N F O R M A T I O N S  /=/=/=/=/=/=/=/=/=/=/
+/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/
+
+  The CHROME2 use the VESA 112H video mode and the number of horizontal lines
+reduced by the 3d4H/9 register. In this case you got 16 million colors.
+  The CHROME2 also works on non-true-color VGA cards. In this case the mode is
+tweaked video mode with 320*480 resolution. Every color got three pixels one
+for the red, one for the green and one for the blue components. Every component
+has 64 different intensities. So your eye can see 262144 different colors.
+  You can switch off the true color mode by the parameter: !
+
+The number of traced rays...
+- at the title screen: 640*240
+- at the precalculated part: 288*102
+- at the realtime part: 144*102
+
+The maximum recursion level is 3. The number of the precalculated frames is 6.
+
+New features done sine CHROME (the 4th 4kb intro at ASM'95):
+- true color emulation
+- cone object
+- shadow cache
+- shooting table
+- 3D checker texture
+
+  The code of CHROME2 was optimized for the FPU of the Intel Pentium. It meens
+the code uses the FXCH instruction intensivly. So you shouldn't try to run it
+nor with an FPU emulator, neither on an i387 compatible coprocessor.
+
+  /=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/
+ /=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/  G R E E T I N G S  /=/=/=/
+/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/=/
+
+    Absolute!           AstroideA           Acme
+    Bacteria            Biohazard           Capacala
+    ByTeam              CaPaN¥a             C.O.M.A.
+    Controlled Dreams   Criminal Gang       Complex
+    Enlightenment       Emperor             Halcyon
+    Eternal Project     Exhumers            Iguana
+    Faculty             FiRg                Imphobia
+    Frame 18            gRiF                Legend Design
+    Hydrogen            Majic 12            Nooon
+    Mandula             PROFIK              Oxygene
+    Promise!            Remal               Plant/EMF
+    Renegades           Shock!              Psyhic Link
+    Therapy             TNG                 Pulse
+    TSi                 Unicorn             Rage PC
+    Unique PC           Urinate             Valhalla
+                                                                  wWw
+                                             Kaproncai Tam s     (o o)
+                                          --------------------ooO-(_)-Ooo---

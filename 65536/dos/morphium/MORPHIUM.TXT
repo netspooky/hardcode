@@ -1,0 +1,85 @@
+
+
+--  -	  -                                                       morphium.
+
+                                        presented to you by anarchy buthaz.
+ 
+credits.
+
+  galet     -    code
+  mallory   -    design
+  atx       -    music
+  kci       -    modelling
+  dr.astic  -    modelling
+
+requirements.
+
+ the intro requires 600k free base memory and a p100 is recommended to run.
+ a fast pci-based vgacard is also preffered. you can check it  on a  slower
+ machine  also,  but  the result  will  be disappointing.  don't  blame us!
+
+greets.
+
+  Melan
+  St Stofi
+  Tarby
+  Ball
+  (tr)
+  Rival
+  John Zero
+  Infrared
+  Erob
+  Borg
+  Hajni
+  Ildik¢	(Tavaszi virgonc)
+  Siz
+  Mike
+  Dominator
+  Alvarez
+  .oO HOAX Oo.  (Bugy bugy)
+  Red
+  Somac
+  Dr.Victor
+  Dindi
+  Ashpool
+  Sterby
+  Netie
+  (‚s a r‚gi csaja :-) )
+  žer
+  Toci
+  Toci csaja
+  Rampage
+  Mondhur
+  Zsolty
+  Karter
+  NB.Killer 	(Gandi)
+  Cyfh
+  Cyd
+  Genius
+  Ken		(TraschKen)
+  Mash
+  Bali
+  Blala
+  Robymus
+  Hanx
+  Mr.Tom
+  Minstrel
+  Warter
+  Raveman
+  S'yara	(J0 csaja)
+  Anik¢		
+  Peti 		(Anik¢ ”ccse)
+  Mariann	(Mallory csaja)
+  Hitman
+
+  
+contact.
+
+	galet - galet@ibm.net
+	  atx - atx@freeside.elte.hu
+      mallory - Not yet
+          kci - kci@sparta.banki.hu
+     Dr.astic - drastic@?
+
+WWW: 	http://www.geocities.com/SiliconValley/Heights/3596/index.html
+	(Anarchy Buthas oficial Home Page)

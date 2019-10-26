@@ -1,0 +1,24 @@
+- info
+    pahorek by clrsrc
+    64k intro for breakpoint 07
+    april 2007
+    http://clrsrc.scene.cz/
+
+- credits
+    code/3d             : shakul
+    visuals/colors/etc. : raist
+    soundtrack          : insider tradings
+    help and support    : nooly
+  
+- tools used
+    n2 demotool         : shakul
+    kkrunchy            : ryg of farbrausch
+    minifmod            : firelight technologies
+
+- requirements
+    graphic card with direct3d 9.0 and pixel shader 2.0 support
+
+- contacts
+    reach shakul at http://nuane.com/ or raist at http://www.raist.cz/
+
+- end of file

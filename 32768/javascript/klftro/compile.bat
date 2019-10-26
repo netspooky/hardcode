@@ -1,0 +1,1 @@
+java -jar closure-compiler-v20161201.jar --compilation_level ADVANCED_OPTIMIZATIONS --js jetski.js --externs closure_audiocontext.js --js_output_file=jetski_closure.js

@@ -1,0 +1,49 @@
+Eraserhead by Prismbeings
+
+Filesize: 1023 bytes
+Release party: Assembly 2016
+
+NOTE: This current version only
+works on AMD. Safe version will
+be provided after the party.
+
+The following tools were used:
+Crinkler 2.0 by Loonies and TBC
+Shader Minifier by LLB
+
+Made with the Prismbeings
+Leviathan framework
+
+Code, visuals and arrangement by:
+Alan Smithee of Prismbeings
+
+Special thanks to drift/onslaught
+for a few pointers regarding 
+compression
+
+SALUTATIONS to
+
+ adapt
+ adinpsz
+ alcatraz
+ aspekt
+ conspiracy
+ dead roman
+ ekspert
+ faemiyah
+ fit
+ gluster
+ hackers
+ kimi kandler
+ loonies
+ mercury
+ oo
+ paraguay
+ peisik
+ pixtur
+ psonice
+ tbc
+ tda
+ traction
+ trbl
+ trilobit

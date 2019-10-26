@@ -1,0 +1,8 @@
+Read first: 
+
+ FIST_SCR.COM is the screen version. It doesn't work under WIN95 and 
+ doesn't contain the name of the author.
+
+ FIST_WIN.COM is the release version. It works under WIN95 and contains
+ the name of the author.
+

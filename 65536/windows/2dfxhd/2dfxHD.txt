@@ -1,0 +1,22 @@
+Abyss presents 2dfxHD - FullHD 64KB intro remix of my MS98 demo 2dfx,
+proud to use software rendering and AHX in 2016 ;-)
+
+Credits:
+Code & Design & Composition by RufUsul
+Chip-Tune produced by Meo
+AHX player by Bartman
+Crinkler by Loonies & TBC
+
+Comments:
+Finally this thing fits inside 64KB and uses AHX player as it should have
+been in '98 and instead of 320x200 it now renders in 1920x1080 ;-)
+
+Found some nasty behaviour of OpenMP in VS2013 during development,
+so run 2dfx_powersaving.bat as a workaround.
+JSYK: "_putenv_s("OMP_WAIT_POLICY", "PASSIVE");" is too late :-(
+
+You want to contact me?
+Use this: mail@rufusul.de
+
+2dfx Homepage:
+http://rufusul.de

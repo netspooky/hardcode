@@ -1,0 +1,13 @@
+dA rEVENGE oF dA fLYING pIGz
+code             - grisfisk
+graphics         - grisfisk
+music            - grisfisk
+sfx              - grisfisk
+pig algorithm    - grisfisk
+operating system - Bill Gejts
+special thanx to
+grisfisk, deZ, Kung Karl, Csaba Rosza
+
+distribute freely in unchanged format.
+
+by Andreas "grisfisk" Weiland anwe97b@ddagy.danderyd.se

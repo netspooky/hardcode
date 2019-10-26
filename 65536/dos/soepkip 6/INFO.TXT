@@ -1,0 +1,32 @@
+
+                 KONTVLOKKEN POSSE MULTIMEDIA INDUSTRIES (tm)
+
+                             in cooperation with
+
+                      AARDBEI GRAPHICS SYNTHESYS INC.
+
+                                  present
+
+                         SOEPKIP 6 : RANDOM BAGGER
+             (he! we hebben nog ruimte voor een extra sample!)
+
+  Disclaimer: This demonstration requires a VGA-COMPATIBLE CARD!! We are very
+    sorry for those who still own EGA boards, but it seems like more and more
+     people are using the new VGA standard, and we have to go along with this
+                            trend. Please don't call us lame because of this.
+
+                                                                   the heroes:
+
+                                          sneaqo/aardbei        : programming
+                                          inopia/quad           : programming
+                                          deadline/superstition :       music
+
+Everything runs smooth on a 286 with a vga compatible card and adlib installed.
+ (in fact, that's a lie, but who is going to try anyway?). However, we suggest
+                  something like a p133+ with a GUS and 64k of free disk space.
+                                                   A funny hat is not required.
+
+                  for the sb version, any soundcard supported by midas will do.
+
+
+

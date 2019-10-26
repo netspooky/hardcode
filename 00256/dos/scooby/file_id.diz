@@ -1,0 +1,11 @@
+Title:    Scooby
+Category: 256 byte intro
+Author:   Chut
+Event:    Function'05
+
+Description:
+This intro shows the face of Scooby.
+
+Technique:
+Arc-drawing algorithm with a special
+data extractor.

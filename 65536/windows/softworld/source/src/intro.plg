@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: intro - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2CE.tmp" with contents
+[
+/nologo /MDd /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"intro___Win32_Release/" /Fd"intro___Win32_Release/" /FD /c 
+"F:\jff-softworld-src\intro.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2CE.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2CF.tmp" with contents
+[
+opengl32.lib glu32.lib glaux.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"intro___Win32_Release/intro.pdb" /machine:I386 /nodefaultlib:"libcmt.lib" /nodefaultlib:"libcd.lib" /nodefaultlib:"libcmtd.lib" /nodefaultlib:"msvcrtd.lib" /out:"intro___Win32_Release/intro.exe" 
+".\intro___Win32_Release\BitStream.obj"
+".\intro___Win32_Release\GifDecoder.obj"
+".\intro___Win32_Release\3d_intro.obj"
+".\intro___Win32_Release\intro.obj"
+".\intro___Win32_Release\metalib.obj"
+".\intro___Win32_Release\normal.obj"
+".\minifmod.lib"
+".\lib\Winmm.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2CF.tmp"
+<h3>Output Window</h3>
+Compiling...
+intro.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+intro.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

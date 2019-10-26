@@ -1,0 +1,20 @@
+re(s)tro by astroidea - released at Function'15
+
+specs:
+- requires DX9, Shader Model 3
+- (ab)using D3DX, sorry :)
+- 1280x720
+- 44khz, float, stereo (precalc may take a while)
+
+used tools:
+- crinkler 4k compressor by Rune L. H. Stubbe (Mentor/TBC) and Aske Simon Christensen (Blueberry/Loonies)
+- 4klang softsynth by Gopher/Alcatraz and Powl/Alcatraz
+- shader minifier by Ctrl-Alt-Test
+
+notes:
+- the original 64k intro "astro" was released 20 years ago!
+- the safe version was crinkler'd without /TINYIMPORT
+- the party version does not work on most Intel GPUs
+
+reptile/astroidea
+vrbalazs@gmail.com

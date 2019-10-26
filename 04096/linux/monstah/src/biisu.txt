@@ -1,0 +1,239 @@
+/
+
+tempo 150
+
+pattern 0
+  mo C0 0
+  mo C0 0
+  mo C0 0
+  mo C0 0
+  mo C0 0
+  mo C0 0
+  mo C0 0
+  mo C0 0
+end
+
+pattern 31 
+  si  F4  80
+  si  G4  80
+  si  C4  80
+  mo  C4  0
+  si  D4  80
+  mo  D4  0 
+  si  C4  80
+  mo  C4  0
+end
+
+pattern 1
+  sq  F3  80
+  sq  G3  80
+  sq  G4  80
+  mo  G4  0
+  sq  F3  80
+  sq  G3  80
+  sq  C3  80
+  mo  C3  0
+end
+pattern 21
+  mo  C4  0
+  si  C4  80
+  mo  C4  0
+  mo  C4  0
+  mo  C4  0
+  si  C4  80
+  mo  C4  0
+  mo  C4  0
+end
+
+pattern 2
+  si  F4  80
+  si  C4  80
+  si  F4  80
+  mo  F4  0
+  si  D4  80
+  mo  D4  0 
+  si  C4  80
+  mo  C4  0
+end
+
+pattern 5
+  si  F4  80
+  mo  F4  0 
+  si  C4  80
+  mo  C4  0
+  si  D4  80
+  mo  D4  0 
+  si  C4  80
+  mo  C4  0
+end
+
+pattern 3
+  si  F4  80
+  si  G4  80
+  si  C4  80
+  mo  C4  0
+  mo  C4  0
+  mo  C4  0
+  mo  C4  0
+  mo  C4  0
+end
+
+pattern 4
+  si  F5  80
+  si  F4  80
+  si  F4  80
+  si  F4  80
+  si  F4  80
+  si  F4  80
+  si  F4  80
+  si  F4  80
+end
+
+/ Ryme
+
+pattern 40
+  no  C1  80
+  no  C0   0
+  no  C4  60
+  no  C0   0
+  no  C1  60
+  no  C0   0
+  no  C3  60
+  no  C0   0
+end
+
+pattern 41
+  no  C1  80
+  no  C2  40
+  no  C3  60
+  no  C4  40
+  no  C1  80
+  no  C2  40
+  no  C3  60
+  no  C4  40
+end
+
+pattern 42
+  si  C2  120
+  mo  C0  120
+  si  C2  00
+  mo  C0  00
+  si  C2  00
+  mo  C0  00
+  si  C2  120
+  mo  C0  120
+end
+
+pattern 43
+  no  C1  40
+  no  C1  40
+  no  C1  40
+  no  C1  40
+  no  C1  40
+  no  C1  40
+  no  C1  40
+  no  C1  40
+end
+
+/ Jytä
+pattern 44
+  no  C1  100
+  si  C2  100
+  si  C2  100
+  si  C2  100
+  no  C1  100
+  si  C2  100
+  si  C2  100
+  si  C2  100
+end
+
+pattern 45
+  si  C4  40
+  mo  C4  0
+  si  E4  40
+  mo  E4  0
+  si  C4  40
+  mo  C4  0
+  si  F4  40
+  mo  F4  0
+end
+
+pattern 46
+  sq  C2  40
+  sq  C2  40
+  sq  C2  40
+  mo  C0  40
+  sq  C3  40
+  mo  C0  40
+  sq  C3  40
+  mo  C0  40
+end
+
+pattern 47
+  no  C2  80
+  mo  C0  80
+  no  C2  80
+  no  C2  80
+  no  C3  80
+  no  C0  80
+  no  C3  80
+  no  C3  80
+end
+
+pattern 48
+  si  C2  80
+  mo  C0  90
+  si  C2  80
+  mo  C0  90
+  mo C0 0
+  mo C0 0
+  mo C0 0
+  mo C0 0
+end
+
+pattern 49
+  si  C2  80
+  mo  C0  90
+  mo  C0 0
+  mo  C0 0
+  si  C2  80
+  mo  C0  90
+  mo  C0 0
+  mo  C0 0
+end
+
+pattern 50
+  si  G1  80
+  mo  C0  80
+  si  G1  80
+  mo  C0  80
+  si  G1  80
+  mo  C0  80
+  si  G1  80
+  mo  C0  80
+end
+
+playlist
+	0	0	0
+	0	41	0
+	0	41	0
+	0	41	0
+	0	41	0
+	0	41	2
+	0	41	5
+	0	41	2
+	50	41	5
+	50	41	0
+	50	41	0
+	50	41	0
+	50	41	0
+	50	41	2
+	50	41	5
+	43	41	2
+	43	41	2
+	43	41	2
+	43	41	2
+	0	0	2
+	0	0	2
+	0	0	0
+end

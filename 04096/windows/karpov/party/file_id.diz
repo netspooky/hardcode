@@ -1,0 +1,6 @@
+mov esi, offset [ oCCult ]
+mov edi, offset [ Mekka/Symposium20001 ]
+mov eax,Karpov
+stosd
+
+fortheaskingeyes:ms2k14k-karpovbyoCCult

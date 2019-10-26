@@ -1,0 +1,1 @@
+upx --best -k  --compress-icons=1 .\release\one-s.exe

@@ -1,0 +1,49 @@
+  RIP VAN VEGAS
+       by
+    FINALITY
+-------------------------
+ code:  white shadow
+ music: william hooligan
+
+ thanks:
+   kb for libv2,
+   ryg for .kkrunchy
+-------------------------
+
+
+
+Requires Shader Model 2.0 and the more VRAM the better.
+
+
+
+To be honest, I'm pretty disappointed in this. Every demo I make is a
+massive learning process and here I realised that having good ideas is
+fine, but (a) they've got to look good (b) you have to fit them together.
+Hence the rather bitty nature and overuse of some effects. Still, I
+really like the volumetric light shafts, and I have lots of affection
+for the first and last scenes.
+
+Oh, and why Finality? Most likely because it's the final (and only) release
+we'll do under this name. I think I'm bored of working on the code base
+alone, anyone want to form a group?
+
+Greets to all the UK sceners, everybody who I met at Breakpoint last year
+(TFT, Mostly Harmless and other random sceners), and special thanks to smash
+and parapete. Hopefully see UKScene 64k domination!
+
+And extra greets to all the people I'll meet at Breakpoint this year when
+I get on the plane (12 hours from now!).
+
+white shadow
+14th April 2006
+
+
+
+Contact us, especially if you're a graphics artist:
+ white shadow - steve.mcauley@gmail.com
+ william hooligan - g.gardiner42@ntlworld.com
+
+
+
+
+P.S. 34.5kb... maybe should have spent the time to make it a 32k :)

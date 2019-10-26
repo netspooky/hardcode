@@ -1,0 +1,473 @@
+0 18
+  1 ultimate.dat
+    0 disable
+    172 enable
+    172 setcut 0
+    10000
+    172 pos 0 9 8
+    172 move 0 0 -10
+    173 move 0 0 0
+    175 aaccel 30 40 10
+    176 aaccel 0 0 0
+    176 accel 0 0 5
+    177 smove 2  0 4 0  0 0 0
+    179 move 0 0 0
+    10000
+
+  1 octa01.dat
+    0 disable
+    152 enable
+    152 setcut 0
+    167 disable
+    10000
+    152 pos 10 6 0
+    152 move -10 0 0
+    152 rot 90 -70 20
+    152 smove 1.5  0 6 0  10 0 0
+    153.5 smove 1.5  0 6 0  0 0 0
+    155 smove 1  0 4 0  0 0 0
+    156 move 0 0 0
+    10000
+  1 balltrns.dat
+    0 disable
+    147 enable
+    152 setcut 1
+    167 disable
+    10000
+    147 pos 0 6 5
+    147 move 0 0 -30
+    147 smove 1  0 3 0  0 0 0
+    147 rot 30 40 50
+    148 move 0 0 0
+    151 smove 1  0 6 0  0 -5 0
+    152 smove 1  0 6 0  0 0 0
+    153 move 0 0 0
+    155 smove 1  0 4 0   0 0 0
+    156 move 0 0 0
+    10000
+  0 2
+    1 mocta.dat
+      0 disable
+      80 enable
+      112 disable
+      10000
+      80 rot 33 23 30
+      80 pos -2 0 0
+      110 accel -1.5 0 0
+      10000
+    1 mocta.dat
+      0 disable
+      80 enable
+      112 disable
+      10000
+      80 rot 42 31 40
+      80 pos 2 0 0
+      110 accel 1.5 0 0
+      10000
+    80 rot 0 20 0
+    80 pos 0 7 0
+    93 aaccel 0 10 0
+    95 aaccel 0 50 0
+    98 aaccel 0 200 0
+    100 aaccel 0 360 0
+    10000
+  1 cube08.dat
+    0 disable
+    70 enable
+    113.8 disable
+    10000
+    70 rot -34 -62 -43
+    70 pos 0 5 0
+    10000
+  1 ballrund.dat
+    0 disable
+    30 enable
+    33 disable
+    46 enable
+    51 disable
+    53 enable
+    68 disable
+    112 enable
+    116 disable
+    129 enable
+    129 setcut 1
+    132.5 setcut -1
+    134 disable
+    167 enable
+    172 setcut 1
+    10000
+    0 rot -150 -58 48
+
+    30 pos 9 15 2
+    30 move -6 0 0
+    30 accel 0 0 -8
+    31 move -6 0 8
+    31 accel 0 0 -8
+
+    46 pos -5 8 2
+    46 move 2 0 0
+    46 accel 0 0 -8
+    47 move 2 0 8
+    47 accel 0 0 -8
+    49 move 2 0 8
+    49 accel 0 0 -8
+
+    63 pos 5 7 2
+    63 move -2 0 0
+    63 accel 0 0 -8
+    64 move -2 0 8
+    64 accel 0 0 -8
+    66 move -2 0 8
+    66 accel 0 0 -8
+
+    112 pos -5 7 2
+    112 move 2 0 0
+    112 accel 0 0 -8
+    113 move 2 0 8
+    113 accel 0 0 -8
+
+    129 pos -1 10 1.5
+    129 move 1 -1 0
+    129.5 accel 0 0 -8
+    130.5 move 1 -1 8
+    130.5 accel 0 0 -8
+    132.5 move 1 -1 8
+    132.5 accel 0 0 -8
+
+    167 pos 17 26 -2
+    167 move -4 -4 32
+    167 accel 0 0 -32
+    169 move -4 -4 16
+    169 accel 0 0 -32
+    170 move -4 -4 8
+    170 accel 0 0 -32
+    170.5 move -4 -4 4
+    170.5 accel 0 0 -32
+    170.75 move -4 -4 2
+    170.75 accel 0 0 -32
+    170.875 move -4 -4 1
+    170.875 accel 0 0 -32
+    170.9375 move -4 -4 0
+    171 smove 0.5 0 9 -2  0 0 0
+    171.5 move 0 0 0
+    176 accel 0 0 5
+    177 smove 2  0 4 0  0 0 0
+    179 move 0 0 0
+    10000
+  1 cube06.dat
+    0 disable
+    53 enable
+    56 setcut 0
+    66.5 disable
+    10000
+    53 pos 0 4 -4
+    53 move 0 0 4
+    53 accel 0 0 -2
+    53 rot -74 80 -103
+    55 move 0 0 0
+    65 accel 0 0 -8
+    10000
+  1 cube07.dat
+    0 disable
+    56 enable
+    56 setcut 0
+    66 disable
+    10000
+    56 pos 0.1 4.1 -4.1
+    56 move 0 0 4
+    56 accel 0 0 -2
+    56 rot -56 123 -33
+    58 move 0 0 0
+    65 accel 0 0 -8
+    10000
+  1 cube04.dat
+    0 disable
+    30 enable
+    32 setcut 0
+    47.5 disable
+    10000
+    30 pos -1.5 5 1.5
+    30 rot 120 30 63
+    32 move 0 0 -1
+    33.4 move 0 0 0
+    35 move 1 0 0
+    36.4 move 0 0 0
+    46.5 accel 0 0 -8
+    10000
+  1 cube05.dat
+    0 disable
+    30 enable
+    32 setcut 4
+    35 setcut 0
+    48 disable
+    10000
+    30 rot 23 33 -223
+    30 pos 1.5 5 -1.5
+    32 move 0 0 1
+    33.4 move 0 0 0
+    35 move -1 0 0
+    36.4 move 0 0 0
+    47 accel 0 0 -8
+    10000
+  1 cube02.dat
+    0 disable
+    25 enable
+    27 setcut 0
+    30 setcut -1
+    32 setcut 0
+    48.5 disable
+    10000
+    25 pos 1.5 5 1.5
+    25 rot 90 20 60
+    27 smove 3 -1.5 5 -1.5 0 0 0
+    30 move 0 0 0
+    32 move 0 0 1
+    33.4 move 0 0 0
+    35 move 1 0 0
+    36.4 move 0 0 0
+    47.5 accel 0 0 -8
+    10000
+  1 cube03.dat
+    0 disable
+    25 enable
+    27 setcut 0
+    30 setcut -1
+    32 setcut 4
+    35 setcut 0
+    49 disable
+    10000
+    25 rot 120 30 -123
+    25 pos -1.5 5 -1.5
+    27 smove 3 1.5 5 1.5 0 0 0
+    30 move 0 0 0
+    32 move 0 0 -1
+    33.4 move 0 0 0
+    35 move -1 0 0
+    36.4 move 0 0 0
+    48 accel 0 0 -8
+    10000
+  0 1
+    1 disk.dat
+      0 disable
+      7.7 enable
+      17 setcut 1
+      18 disable
+      140 enable
+      144 disable
+      10000
+      0 angle -90 0 0
+      0 pos 0 1.5 -0.4
+      7.7 aaccel 90 120 70
+      7.7 smove 2  0 4.5 0  0 0 0
+      8.7 aaccel 0 0 0
+      9.7 move 0 0 0
+      12.7 aaccel -90 -120 -70
+      13.7 rot 0 0 0
+      14 rot -5 60 -75
+      15 smove 3  6 26.5 -4.5  0 0 0
+      16 rot 0 0 0
+      140 pos 0 0 -2
+      140 move 0 0 2
+      140 angle 0 0 0
+      140 rot 0 20 480
+      140 aaccel 0 -5 0
+      10000
+    140 pos -6 1 -3
+    140 move 7 12 4
+    140 accel 1 0 -2
+    10000
+  1 disklabl.dat
+    7.7 disable
+    10000
+    0 angle -90 0 0
+    0 pos 0 1.5 -0.4
+    10000
+  1 cube01.dat
+    0 disable
+    2.8 enable
+    2.8 setcut 1
+    4.8 disable
+    10000
+    2.8 rot 60 70 80
+    2.8 pos -1 1 0
+    2.8 move 1 0 0
+    10000
+  1 tetra01.dat
+    0 disable
+    2.8 enable
+    2.8 setcut 0
+    4.8 disable
+    10000
+    2.8 rot 70 100 -140
+    2.8 pos 0 1 1
+    2.8 move 0 0 -1
+    10000
+  0 5
+    1 compi.dat
+      0 disable
+      10 enable
+      22 disable
+      129 enable
+      135 disable
+      10000
+      10000
+    1 comscr1.dat
+      0 disable
+      10 enable
+      18 disable
+      10000
+      10000
+    1 comscr2.dat
+      0 disable
+      18 enable
+      23 disable
+      10000
+      10000
+    1 comscr3.dat
+      0 disable
+      116 enable
+      116 setcut 0
+      135 disable
+      10000
+      10000
+    1 comfront.dat
+      0 disable
+      10 enable
+      15 setcut 0
+      18 setcut -1
+      22 disable
+      129 enable
+      135 disable
+      10000
+      10000
+    10 pos 4 30 20
+    10 angle 0 0 -165
+    10 rot 0 0 180
+    10 aaccel 0 0 -90
+    10 smove 2  4 30 0  0 0 0
+    12 aaccel 0 0 0
+    12 move 0 0 0
+    19 rot 1 0 -125
+    19 smove 3  0 11 -3.05  0 0 0
+    22 move 0 0 0
+    22 rot 0 0 0
+    129 rot 0 0 -11.25
+    129 smove 4  -3 40 -4  0 0 -9
+    133 move 0 0 -9
+    133 accel 0 0 -7
+    133 rot 5 5 -10
+    10000
+  2
+    0 pos 0 0 3
+    140 pos 0 7 4
+    144 pos 0 0 3
+    10000
+  10000
+
+15
+  0 vex.tga
+  0 hd.tga
+  0 pfeil.tga
+  0 pasdoj.tga
+  1  5 0 0 5 100 2349384
+  1  5 0 0 5 200 2234938
+  1  5 0 0 5 150 3234384
+  2  32 32 15  2  0 10 500 0 45  80 20 230 80 20
+  2  32 32 15  2  123 40 243 23 15  0 17 100 4560 -10
+  2  32 32 15  2  43 20 123 476 27  270 10 320 4560 -90
+  2  80 50 192  4  43 7 -180 0 27  270 3.4 34 0 27  414 -2.4 180 16 18  70 3.76 -43 4560 53
+  1  6 0 0 4 300 234943
+  2  32 32 192  4  43 10 -144 0 27    234 7 3 124 21  414 -2.4 180 16 18  70 3.76 -43 4560 53
+  2  32 32 192  4  435 32 -280 74 43  123 33 123 1234 22  414 -2.4 180 16 18  70 3.76 -43 4560 53
+  2  32 32 192  4  453 21 -141 3 12   254 4 200 123 23  414 -2.4 180 16 18  70 3.76 -43 4560 53
+
+23 enable
+23 setspeed 0.5
+23 setmaxcol 64
+115.5 disable
+125 enable
+125 setspeed 0.25
+147 disable
+10000
+23 pos  0 0 0.13
+23 rot  32 41 13
+125 angle  0 0 0
+125 rot  21 10 9
+145 accel 0 -1 0
+10000
+
+0 setpali     0   256  255 255 255   255 255 255
+0 setpali    192 64    0 0 0    0 0 255
+0 setpali      128 16   0 0 0    50 180 20
+0 setpali      144 16   0 0 0    180 20 90
+0 fadepali 0.5 0   64   0 0 0    255 255 255
+0 fadepali 0.5 64  15   0 0 0    0 0 0
+0 fadepali 0.5 79  16   0 0 0    255 255 255
+18 setpali     64  16   0 0 0    0 0 0
+18 fadepali 1 65  15    255 0 0    0 0 0
+22 fadepali 1 65  15    0 0 0    0 0 0
+23 setpali    0 64     0 0 0   0 0 0
+23 fadepali 2  0 64     0 0 0   255 255 255
+25 setpali   64 128     0 0 0   0 0 0
+25 fadepali 1  64 32     0 0 0   255 140 60
+25 fadepali 1  96 32     0 0 0   70 128 255
+30 fadepali 1  128 32     0 0 0   90 255 130
+30 fadepali 1  160 32     0 0 0   255 90 180
+50 setpali   64 16    0 0 0 0 0 0
+50 setpali   80 48    0 0 0 70 255 200
+50 setpali   128 16    0 0 0 0 0 0
+50 setpali   144 48    0 0 0 255 70 220
+70 setpali   64 144     0 0 0 0 0 0
+70 fadepali 3 64 16     0 0 0 255 180 50
+70 fadepali 3 80 16     0 0 0 40 230 255
+70 fadepali 3 96 16    0 0 0 200 9 255
+75 fadepali 2 64 16     0 0 0 0 0 255
+75 fadepali 2 80 16     0 0 0 255 0 0
+75 fadepali 2 96 16    0 0 0 0 255 0
+80 fadepali 3 112 16    85 85 85  85 85 255
+80 fadepali 3 128 16    85 85 85  255 85 85
+80 fadepali 3 144 16    85 85 85  85 255 85
+83 fadepali 3 160 16    128 128 128  128 128 255
+83 fadepali 3 176 16    128 128 128  255 128 128
+83 fadepali 3 192 16    128 128 128  128 255 128
+113.3 fadepali 0.5 64 48   0 0 0 0 0 0
+115 fadepali 0.5  0 64   0 0 0 0 0 0
+116 setpali 0 64  0 0 0   255 255 255
+116 setpali 64 192  0 0 0  0 0 0
+116 fadepali 2 64 32  0 0 0  0 0 128
+116 fadepali 2 96 32  0 0 128  0 128 255
+116 fadepali 2 128 32  0 128 255  255 255 255
+116 fadepali 2 160 32  255 255 255  0 255 255
+116 fadepali 2 192 32  0 255 255  0 0 255
+116 fadepali 2 224 32  0 0 255  0 0 0
+129 fadepali 8 64 192  0 0 0  0 0 0
+140 setpali   64  15    0 0 0    0 0 0
+140 setpali   79  16    0 0 0    255 255 255
+140 setpali  192 64    0 0 0    0 0 255
+147 setpali   1 17  128 128 128  128 128 128
+0 setpali   33 16 224 32 32  224 32 32
+0 setpali   61 1  255 0 0  255 0 0
+0 setpali   62 1  192 64 0  192 64 0
+0 setpali   63 1  192 0 64  192 0 64
+0 setpali   65 16 32 224 32   32 224 32
+0 setpali   93 1  64 192 0  64 192 0
+0 setpali   94 1  0 255 0  0 255 0
+0 setpali   95 1  0 192 64  0 192 64
+0 setpali  129 16 32 32 224  32 32 224
+0 setpali  157 1  64 0 192  64 0 192
+0 setpali  158 1  0 64 192  0 64 192
+0 setpali  159 1  0 0 255  0 0 255
+158 fadepali 3  1 16  0 0 0   255 255 255
+0 fadepali 3   33 16 192 0 0  255 64 64
+0 fadepali 3   65 16 0 192 0   64 255 64
+0 fadepali 3   129 16 0 0 192  64 64 255
+165 fadepali 2  0 256  0 0 0 0 0 0
+167 setpali   0 64  0 0 0  255 255 255
+167 setpali   64 64  0 0 128  255 128 0
+167 setpali   128 128  255 128 0  255 255 0
+186.5 fadepali 1 0 256   255 128 0 255 128 0
+
+10000
+
+188
+

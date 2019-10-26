@@ -1,0 +1,55 @@
+/*
+	4k Procedual Gfx template code.
+	based on "chocolux" codes by alud.
+*/
+
+#include <windows.h>
+#include <GL/gl.h>
+#include <GL/glext.h>
+
+static const char *vsh =
+"[[VS_CODE]]"
+;
+static const char *fsh =
+"[[FS_CODE]]"
+;
+
+#define	SCREEN_WIDTH	1024
+#define	SCREEN_HEIGHT	768
+
+static const PIXELFORMATDESCRIPTOR pfd =
+{
+	0,1,PFD_SUPPORT_OPENGL|PFD_DOUBLEBUFFER, 32, 0, 0, 0,
+	0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 0, 0, 0, 0, 0, 0, 0
+};
+static DEVMODE dmScreenSettings =
+{
+	"",0,0,sizeof(dmScreenSettings),0,DM_PELSWIDTH|DM_PELSHEIGHT,
+	0,0,0,0,0,0,0,0,0,0,0,0,0,"",0,0,SCREEN_WIDTH,SCREEN_HEIGHT,0,0,0,0,0,0,0,0,0,0
+};
+
+void entrypoint()
+{
+	ChangeDisplaySettings(&dmScreenSettings, CDS_FULLSCREEN); 
+	HDC hDC = GetDC( CreateWindow("edit", 0, WS_POPUP|WS_VISIBLE|WS_MAXIMIZE, 0, 0, 0, 0, 0, 0, 0, 0) );
+	SetPixelFormat(hDC, ChoosePixelFormat(hDC, &pfd) , &pfd);
+	wglMakeCurrent(hDC, wglCreateContext(hDC));
+	ShowCursor(0);
+	const GLuint p = ((PFNGLCREATEPROGRAMPROC)wglGetProcAddress("glCreateProgram"))();
+	GLuint s = ((PFNGLCREATESHADERPROC)(wglGetProcAddress("glCreateShader")))(GL_VERTEX_SHADER);
+	((PFNGLSHADERSOURCEPROC)wglGetProcAddress("glShaderSource"))(s,1, &vsh,0);
+	((PFNGLCOMPILESHADERPROC)wglGetProcAddress("glCompileShader"))(s);
+	((PFNGLATTACHSHADERPROC)wglGetProcAddress("glAttachShader"))(p,s);
+	s = ((PFNGLCREATESHADERPROC)wglGetProcAddress("glCreateShader"))(GL_FRAGMENT_SHADER);
+	((PFNGLSHADERSOURCEPROC)wglGetProcAddress("glShaderSource"))(s,1, &fsh,0);
+	((PFNGLCOMPILESHADERPROC)wglGetProcAddress("glCompileShader"))(s);
+	((PFNGLATTACHSHADERPROC)wglGetProcAddress("glAttachShader"))(p,s);
+	((PFNGLLINKPROGRAMPROC)wglGetProcAddress("glLinkProgram"))(p);
+	((PFNGLUSEPROGRAMPROC)wglGetProcAddress("glUseProgram"))(p);
+loop:
+	glRecti(1,1,-1,-1);
+	SwapBuffers(hDC);
+	if (GetAsyncKeyState(VK_ESCAPE))
+		ExitProcess(0);
+	goto loop;
+}

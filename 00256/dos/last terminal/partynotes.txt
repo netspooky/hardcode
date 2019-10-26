@@ -1,0 +1,50 @@
+
+-----------------------------------------
+"Last Terminal" - 256 byte MsDos Demo
+by HellMood ^ DESiRE, for Riverwash 2016
+-----------------------------------------
+
+
+This intro plays MIDI music, please
+use with an appropriate configured
+system. Tested on DosBox, WinXP and
+FreeDos. Not yet tested with a real
+MIDI capable soundcard, but should
+work as well when configured to use
+MIDI on ports 0x330 and 0x331. If
+the sound is too quiet, feel free to
+turn up the volume :)
+
+Running Time : About one minute, or
+longer if people are not too bored ;)
+
+Quit the demo : with hitting "ESC"
+Please leave the final screen *after*
+hitting "ESC", for some seconds, it
+adds to the intended effect =)
+
+Colors: The dark setup and the
+changing brightness are intended, it
+is the "last terminal" after all and
+slowly fading away ;) Only brighten
+it up if it's really too hard to see
+anything.
+
+Pouet : i will upload this intro
+myself after the party, with source
+and nfo file =)
+
+For evaluating how it should look
+like, a youtube link:
+
+https://www.youtube.com/watch?v=ElLlv18ETYA
+
+For the emergency, there is a capture
+hosted on google drive:
+
+https://drive.google.com/open?id=0BwHoYivk_PQfbl9SRDI1bk5jV2M
+
+Thanks for allowing remotes and happy
+partying \o/ 
+
+Greetings, HellMood

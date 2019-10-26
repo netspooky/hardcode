@@ -1,0 +1,17 @@
+This is the winning entry to the OZ'96 4kb Intro Competition
+ (the finished version, the one shown there was incomplete)
+
+Hope ya like it!
+
+A HUGE thanks to all those at OZ'96 who let me use their computer
+for a while to code this Intro.
+
+And a special thanks to SomaKing for actually informing me of
+OZ'96 (be it a few days beforehand).
+
+	Quark/Entropy (aka Daniel Greenfield)
+      Contact me: daniel@stark.phys.unsw.edu.au
+
+
+SomaKing: OK - so I got rid of the fire... I'll make something
+          better l8r!

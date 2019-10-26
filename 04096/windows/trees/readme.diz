@@ -1,0 +1,128 @@
+        s s s s ssss sssssssss s s s  s  ssss  ss  ssssss
+        $  $$SSsss._                $$SSsss._           $
+        $  $$$$$$$³$$s._       sss  $$$$$$$³$$s._       $
+        $  $$$$;   '*$$³$b.    $$$  $$$$;   '*$$³$b.    $
+        $  $$$$       $$$$$b.  $$$  $$$$       $$$$$b.  $
+        $  $$$$,       `$$$$$  $$$  $$$$,       `$$$$$  $
+        $  `ý½*$S       l$$$$  $$$  `ý½*$S       )$$$$  $
+        $      $$       ;$$$$ss$$$      $$     ,d$$$$'  $
+        $ss  s $$                    s sSSsssS$$$$$Ù's  s
+              
+              n o r t h e r n   d r a g o n s   
+
+
+FILES
+=====
+nd_trees_compo.exe 	- Compo Version (640x480)
+nd_trees_lres.exe 	- 640x480 version
+nd_trees_hres.exe 	- 800x600 version
+nd_trees_debug.exe 	- Debug version (640x480)
+
+PROLOGUE
+==========
+
+I think that I shall never see
+A poem lovely as a tree.
+…….
+Poems are made by fools like me,
+But only God can make a tree.
+
+- Joyce Kilmer, Trees
+
+ND_TREES is a Northern Dragons 4kb intro.
+Visit us at: http://www.northerndragons.ca
+
+CODE WRITTEN BY
+===============
+Syntax – Author of the Northern Dragons 4kb intro framework, 
+master of linker options and optimizations.
+
+Polaris – Creator of trees, and lighting effects.  
+GPUs fear him.
+
+SPECIAL THANKS TO
+=================
+Dairos / Unique 
+For submitting our production to Assembly 2002.  We attended
+Assembly 2001 but couldn't afford to go this year.  Hope to 
+see everyone next year!
+
+VERY SPECIAL THANKS TO:
+=======================
+Polaris would especially like to thank Michelle and send his 
+love.  Without her this wouldn’t have been possible.
+Syntax would especially like to send Love and Thanks to Cheryl.
+
+RESPECT & THANKS TO:
+====================
+Elmindreda / Hypercube
+Frankie / Smash Designs
+Miss Saigon / Threesome
+Hopper / SquoQuo
+Adok / Hugi 
+Peter Lerup – For creating Print File
+Hutch / Movsd.com  - For his great masm32 distribution!
+Iczelion – For his tutorials on Win 32 Assembly.
+Neon Helium – for open gl content at nehe.gamedev.net
+Rest of the Northern Dragons team for making this possible!
+And anyone else we might have forgotten!
+
+FACTS
+======
+No Trees were harmed in the making of this production!
+Each tree is individually unique, using an integrative function 
+to determine branch angles.
+Each tree has 5460 branches.
+Yes, the production is a fully functional open gl accelerated 
+application in 4kb. 
+If you liked this, you should see what we are planning for 64kb 
+next year! :)
+Watch for sources & tutorials on how this was done to be submitted 
+to Hugi for publication. (Provided they accept it of course).  
+Regardless - watch the Northern Dragons website as well post the 
+source code there shortly (after it's cleaned up).
+
+
+MEMBERS
+=======
+Check out our website http://www.northerndragons.ca for a current 
+member roster. Please note, some members will not appear since 
+they have not filled out their online profile (darn these 
+Northern Dragons lurkers!).  Short roster: (Alphabetic)
+
+Darnoth
+Dfallan
+Joe
+MoonRunner
+Nelson
+Soulis
+Lann
+Polaris
+Rdogg
+Dasme
+Riley
+Syntax
+Hawke
+
+
+EQUIPMENT USED 
+===============
+A. AMD 1300Ghz, 512 MB Memory, Windows 98
+B. IBM TP T23 1.33 Ghz, 512 MB Memory, Windows 2000
+C. Toshiba Laptop, 400 Mhz, 64 MB Memory, Windows 98 Se
+D. IBM TP 390E, 300 Mhz, 96 MB Memory, Windows 98
+
+SOFTWARE USED
+==============
+A. MASM32 Distribution from http://www.movsd.com
+
+
+FAMOUS QUOTE
+==============
+Friends don’t let friends do 4kb open gl in masm!
+
+MORE FAMOUS QUOTE
+===================
+Friends don’t let friends to readme.diz files!!!
+
+=== END OF FILE ===

@@ -1,0 +1,76 @@
+Fiat Homo - A Traction experience in 64k for Assembly'05
+
+Intro credits:
+--------------
+  -Code, Concept, Design   - Martti "Preacher" Nurmikari
+  -Music                   - Jukka "Grip" Älli
+  -Bitmaps                 - Erkka "Kofeiini" Pynnönen
+  -Additional code tidbits - Mikko "Vulture" Leppänen
+
+  and with a little help from
+  
+  -tinyfmod sound system      - Brett "Firelight" Paterson
+  -kkrunchy executable packer - Fabian "Ryg" Giesen
+  -Le Portse(Linux and OS X)  - waffle/ExHouse (so blame me because of a bad port :))
+  
+  Big thanks to you, this intro wouldn't exist without you.
+
+Intro requirements:
+-------------------
+  Linux, OpenGL&SDL.
+
+  Should run on just about anything. It does consume fillrate
+  though, I decided not to limit myself by keeping the amount
+  of rendered things in check (ie. I was too lazy to optimize ;))
+  Runs flawlessy on my amd64 3000+/x600... 
+
+  It looks a bit different on different resolutions, due to
+  OpenGL's way of handling point and line sizes and my inherent
+  laziness. I made it in 1024x768.
+
+  Also, organizers, please do not use the spooky mode ;)
+
+The greetings:
+--------------
+  For the second time in recorded Traction history, they're in 
+  the actual production! Watch it =)
+
+Flames and fan mail:
+--------------------
+  Preacher - mnurmika@cc.hut.fi
+  Kofeiini - erkka.pynnonen@gmail.com
+  Grip     - grip@jippii.fi
+
+  #traction @ IRCNet
+ 
+Babble:
+-------
+  So, here it is. My first ever 64k intro.. but definitely not
+  the last. Of all the demoscene related projects I've ever done, 
+  this has definitely been one of my favourites. No engine, no API,
+  just a sandbox of code to play around in. And hey, I got to make
+  my first ever Windows dialog :)
+  
+  Conceptually it is very close to what I imagined when I first got
+  the inspiration for it, only one fundamental thing has been changed. 
+  Originally it was supposed to be, aside from being a nice show, a 
+  comment towards a political movement called Intelligent Design which 
+  seeks to replace the teaching of Darwin's Theory of Evolution in schools 
+  with a theistic view that "someone" has designed us. But unfortunately 
+  the 2001 nspired monolith fit the intro so well (in my opinion) that 
+  what started as a joke, was left in the intro and thus defeats the
+  pro-science point I wanted to make. But oh well.. at least the idea
+  of a manifestation of cosmic consciousness helping us to evolve into 
+  next level is amusing in the science fiction-sense. 
+  
+  Expect a "making of"-article in the next issue of Pain, complete 
+  with the full source code.
+  
+  Hope you like it.
+    
+  	-Preacher
+	
+  P.S. I know the name will probably cause amusement among the less
+  literate party visitors, but for the Latin challenged, it translates into
+  "let there be man", in the biblical sense, and has nothing to do with people 
+  who like to tune their cars ;)

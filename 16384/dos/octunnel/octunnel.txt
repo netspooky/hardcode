@@ -1,0 +1,25 @@
+OCTUNNEL
+========
+
+Octagonal flatshaded tunnel effect
+(c)2003 Peter Gordon (pete@shagged.org)
+
+I was bored, I was away from my Amiga (damn it), and I felt like a programming
+challenge, so I loaded up Borland Turbo PASCAL 7 on my parents PC (Pentium II
+333Mhz, crappy £8 graphics card), and tried to make a nice tunnel effect.
+
+1 evening of coding later, and here is the result:
+
+
+ OCTUNNEL.EXE - Just your basic flatshaded 3D tunnel
+ OCTUNNL2.EXE - As above, but with glowing sparks travelling with you
+ OCTUNNL3.EXE - Two tunnels, inner one with windows so you can see through
+ OCTUNNL4.EXE - As above, but with the glowing sparks again
+
+If you compile these yourself in Borland Turbo PASCAL, and you get a Runtime
+error from your exe's, you need the "fast computer" CRT.TPU patch. You'll have
+to google for that.
+
+Cheery bye,
+Pete
+

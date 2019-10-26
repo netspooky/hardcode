@@ -1,0 +1,51 @@
+"android" pc-64k intro by fresh!mindworkz, released at marast'05, czech republic
+
+Technical Info:
+
+  Known bugs:
+
+  - Win95/98/ME not supported, so maybe it works, maybe not.
+  - This intro is a fast "afterwork" production, don't expect to much
+  - Sorry for the long precalc time, we had no time to speedoptimize
+
+  Windows:
+
+  Needs an OpenGL 1.2 compatible videocard (with 64mb of ram) and a standard 
+  dsound soundcard. Should run without hardware t&l also... 
+  Windows bugreports: pasy@freshmindworkz.hu
+
+  Linux:
+
+  The linux version is bigger than 64k, because it must emulate the
+  fontsystem of windows, and we must static link a library to be compatible
+  with debain
+
+  More info later, in final version...
+
+  Linux bugreports: pontscho@makacs.poliod.hu
+
+  This demonstration made with GPL or freeware modules/compilers.
+
+  If this version crashes, please report (it should work fine with nVidia
+  GeForce or Ati Radeon cards).
+
+  Tested with: 
+		P4/2.8/x600XT (WinXP SP2)
+		XP2000+/FX5600 (WinXP SP1)
+		XP2000+/GeForce3 Ti200 (Slackware)
+
+Credits:
+
+  code: pasy,pontscho,remage
+  music: just
+  3D: csirke,mike
+  gfx: toky,pasy
+  musicplayer: firelight technologies
+
+Contact:
+
+  E-mail: info@freshmindworkz.hu
+  Homepage: http://www.freshmindworkz.hu/demoscene
+
+  2005/04/09
+

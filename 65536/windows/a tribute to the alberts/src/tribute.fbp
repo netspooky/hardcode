@@ -1,0 +1,39 @@
+[Project]
+Version=3
+Description=tribute
+Api=fb (FreeBASIC)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=1
+ResExport=
+CompileIfNewer=0
+IncVersion=0
+RunCmd=0
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=1
+1=Windows GUI,fbc -s gui -a ufmod.o
+Output=
+Run=
+Delete=
+[TabOrder]
+TabOrder=1,2,3,4,5
+[File]
+1=tribute.bas
+2=ufmod.bi
+3=data.bi
+4=starfield.bas
+5=screen.bi
+[BreakPoint]
+1=
+2=
+3=
+4=
+5=
+[FileInfo]
+2=0,166,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+1=0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+4=0,63,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+5=0,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

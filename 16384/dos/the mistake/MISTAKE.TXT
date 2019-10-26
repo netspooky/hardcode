@@ -1,0 +1,41 @@
+                                     
+                                     The
+                     ÚÄ¿ÚÄ¿ o ÚÄÄ¿ ÚÄÂÄ¿ ÚÄÄÄ¿ ¸ Ú   ÚÄÄ¿
+                     ³ Ô¾ ³ ³ ÀÄÄ¿   ³   ÃÄÄÄ´ ÃÄ´   ÃÄ
+                     ³    ³ ³    ³   ³   ³   ³ ³ À¿  ³
+                     Ô    ¾   ÀÄÄÙ   Á   Ô   ¾ ¾  Ô  ÀÄÄÙ
+
+                 - by Clueless/Nuclear Meltdown Productions -
+
+                   - a Best New Effect entry at NAiD '96 -
+                                - ?th place -
+
+Info
+ÄÄÄÄ
+This effect is (obviously) a derivation of the common fire effect.  It
+got its name because I wasn't planning on making it.  =)  I made a little
+boo boo during the development of my own fire routines and this is what
+came out.  Even though it's kinda slow on my DX2/66 I think it looks
+pretty cool.  Oh well...my final fire routines are faster, don't worry.
+
+The initialization and some other little parts are in C, but the main
+fire part is in ASM.  If I remember correctly this 'fire' averages from
+all eight pixels around one, and then shifts it up one pixel.  The
+mistake part is when the color gets down below zero (gets to 1 and then
+subtracts 2).  Oh well.  Looks cool.  Gotta run.  Hope you like it.
+
+Contact Info
+ÄÄÄÄÄÄÄÄÄÄÄÄ
+To drop me some mail see the enclosed NMINFO13.TXT.
+
+Greets
+ÄÄÄÄÄÄ
+- Joe Snow/NM
+- All NAiD people (Atomic Dreamer, Kain, Vector, Sketch, the Snuh)
+- All NAiD organizers/helpers
+- Wally/TLOTB
+- TRIAL
+
+cya l8r
+
+                                                - Clueless '96

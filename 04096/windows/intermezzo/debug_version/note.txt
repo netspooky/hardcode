@@ -1,0 +1,6 @@
+debug/out.exe
+
+there's a bug with gluCylinder that crashes the
+intro in some systems. run this version if nothing
+else works.
+

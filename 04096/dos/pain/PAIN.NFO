@@ -1,0 +1,43 @@
+This archive contains following files:
+
+ pain.nfo     - this file
+ pain.exe     - executable file of
+                intro
+ file_id.diz  - id file
+
+
+                 Hardware requirements of pain.exe
+               ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ Program requires a 386 ( or better ) processor and near 210 kB free low memory.
+
+                          PAIN credits
+                        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+  -=code=-: CHesteR
+
+                            About  PAIN
+                        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+File pain.exe (4090 Bytes) contains:
+ - sinus table              = 90 bytes
+ - plasma table             = 50 bytes
+ - Fire code                = 1289 bytes 
+ - Escape to Another World
+     code                   = 957 bytes
+ - Another World code       = 835 bytes
+ - RotoZoom with motion
+     blur code              = 518 bytes
+ - Plasma with greetings
+     code                   = 351 bytes
+
+
+		          Ctx. address :
+                        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+            CHesteR/Amnesty    or       BrAcH/Amnesty
+	    Arkadiusz Janik		Zbyszek Cholewa
+	    ul.H.Sawickiej 7	        ul.Nowa 5/14
+	    32-332 Bukowno		32-332 Bukowno
+	    Poland			Poland
+
+End of file :-)

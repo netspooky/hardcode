@@ -1,0 +1,18 @@
+                            himalaya
+
+        A native 1k windows intro released at icons 2008.
+
+In order to comply with the rules of the icons 1k competition, the
+intro is provided in both a 1k version and a larger, but hopefully
+safer, version.
+
+Requirements:
+- Any version of windows xp or vista.
+- A fast graphics card supporting shader model 3.0.
+- A fairly recent directx (needed for d3dx9_33.dll).
+  http://www.microsoft.com/windows/directx/
+
+Credits:
+- code, cruncher: mentor/TBC
+
+Thanks to Puryx for shelter and moral support.

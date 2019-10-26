@@ -1,0 +1,39 @@
+    ___.    .____.  __.            ___.         ___.        _.        .___
+ ._(   |/___|    |_(  |/_____.  ._(  _|/_____._(_  |/____._(_|/_.____\|   )_.
+ |      _/  |    |    _/     |  |    \_      | _/        |      |      _    |
+ |_     |   _    |    \     _|  |_    /      | \         |      |      \   _|
+_ /_____|___\____|_____\____\    /___________|__\________|______|__________\ _
+\/+-diP----------------------\  /--------------------------------------aSL-+\/
+                              \/
+                                   M A K K E
+
+                      a the grid intro for breakpoint 2005
+                            bingen am rhein/germany
++----------------------------------------------------------------------------+
+                         credits for this openGL crap:
+
+                 flow.....................code,gfx & design(?)
+                 traymuss................................music
+
+                              uses: minifmod, upx
++----------------------------------------------------------------------------+
+                     few fancy textures, particles, quads,
+                             cubes and some code...
+
+                           depacking takes some time,
+                                so be patient...
+
+                              it's very boring...
++----------------------------------------------------------------------------+
+                         big thanks to: rusty/the grid,
+                                bojkar/moonflow
++----------------------------------------------------------------------------+
+                    i'm (flow) looking for a group to join.
+                       if you are interested, contact me:
+                                 flowgrid@op.pl
++----------------------------------------------------------------------------+
+                              http://grid.scene.pl
+                              http://www.scene.pl
+                              http://www.pouet.net
++----------------------------------------------------------------------------+
+                         logo by dipswitch/blackmaiden

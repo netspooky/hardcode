@@ -1,0 +1,194 @@
+ ÜÜÜÜÜÜ                         ÜÜÜÜÜÜÜ
+ßÛÛÜÜÜ  ÛÛÛßÛÛÜ ÛÛÛ ÛÛÛßÛÛÜ ÛÛÛ   ÛÛÛ
+ÜÜÜ ÛÛÛ ÛÛÛÜÛÛß ÛÛÛ ÛÛÛÜÛÛß ÛÛÛ   ÛÛÛ   PSYCHIC FLIGHT v1.1
+ßÛÛÜÛÛß ÛÛÛ     ÛÛÛ ÛÛÛ ÛÛÜ ÛÛÛ   ÛÛÛ   written by ZEST/SPIRIT 14 october '94
+
+ÚÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄ¿
+³ 0 ³                             CONTENTS                                ³ 0 ³
+ÀÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÙ
+
+        0: Contents
+        1: Opening words
+        2: Files included
+        3: Machine requirements
+        4: Technical stuff
+        5: Credits
+        6: Greetings
+        7: Disclaimer of our products
+        8: How to contact us
+        9: Some final words
+
+ÚÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄ¿
+³ 1 ³                          OPENING WORDS                              ³ 1 ³
+ÀÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÙ
+
+        This is version 1.1 of PSYCHIC FLIGHT. PSYCHIC FLIGHT was the first
+        competition intro we have ever made for a party. This intro was
+        released at ASSEMBLY '94, and PSYCHIC FLIGHT won the 5th place.
+
+        This is a minor bugfix/update version. There are still some bugs in
+        this intro but they will never be fixed. This is because we're busy
+        making some new INTRO's and DEMO at the moment.
+
+        This version of PSYCHIC FLIGHT is released because of some people were
+        asking for SB(pro) support with our intro. (LISEN/BRC!!)
+
+        Fixed are  : - GUS detection crashed if there wasn't any GUS installed
+                     - (minor) optimizations in several intro-parts
+
+        New options: - Added command line options
+                     - 386, EMS driver and memory detection
+                     - Added an external sound-driver (our own music-system)
+                       which supports:
+                                        GUS
+                                        SOUNDBLASTER
+                                        SOUNDBLASTER 2.0
+                                        SOUNDBLASTER PRO
+                                        ADLIB
+                                        DAC
+                                        STEREO-DACS
+                                        STEREO-IN-ONE
+                                        PC SPEAKER
+
+        Without the driver SPMUS.EXE, only GUS is supported.
+        GUS users can delete SPMUS.EXE if they want to, but the external driver
+        sounds better (less GUS clicks).
+
+ÚÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄ¿
+³ 2 ³                           FILES INCLUDED                            ³ 2 ³
+ÀÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÙ
+
+        After unpacking the archive, you should have the following files:
+
+        FLIGHT11.EXE   67341 bytes - PSYCHIC FLIGHT v1.1
+        SPMUS   .EXE   13378 bytes - SPIRIT MUSIC system
+        FLIGHT11.NFO    9419 bytes - PSYCHIC FLIGHT information file
+        SPIRIT  .NFO    7290 bytes - SPIRIT information file v1.0
+        RUNLOOP .BAT      68 bytes - file for looping the intro.
+        FILE_ID .DIZ     776 bytes - BBS file description
+
+ÚÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄ¿
+³ 3 ³                            MACHINE REQUIREMENTS                     ³ 3 ³
+ÀÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÙ
+
+        To run this demo, you need a machine with at least:
+        - a 386 CPU, 486 recommended
+        - VGA card , fast (VLB/PCI) video card recommended
+        - 500Kb of free conventional memory
+
+        optional:
+        + A soundcard ,GUS recommended
+
+ÚÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄ¿
+³ 4 ³                         TECHNICAL STUFF                             ³ 4 ³
+ÀÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÙ
+
+        At the party there were some problems with displaying our tunnels.
+        The problems were caused by our X-mode library. We used a wrong way of
+        PEL panning , the VGA-card used at ASM'94 (ET4000 VLB) for example
+        didn't work properly.
+
+        So there are still some problems, but in our future products we try to
+        make our productions more compatible with all machines.
+
+ÚÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄ¿
+³ 5 ³                    CREDITS FOR PSYCHIC FLIGHT                       ³ 5 ³
+ÀÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÙ
+
+        Frank van Dijk       FRANKIED      Coding,Gfx
+        Frank Fleuren        ZEST          Mus-x,Gfx
+        Hugo Habets          COUNSELLOR    Coding
+        Jan Oonk             TRAX          Coding
+        Allie Polder         SYNTHFREAK    Mus-x
+        Richard Spijkers     RICO          Coding,Mus-x system
+        Xander Koninkx       MAGIC BOY     Coding,Gfx
+
+ÚÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄ¿
+³ 6 ³                           GREETINGS                                 ³ 6 ³
+ÀÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÙ
+
+        Without the help of some people this intro wouldn't be finished in time
+        So BEYOND REALITY CREW, thanks very very VERY (!!) much for letting use
+        your 486DX2/66 on the boat from Stockholm to Helsinki and at the party
+        place.
+        LISEN (female coder), MARX, ADDeR, P$y›h0!, Tiphareth, UNIBITS,LENIN:
+        YOU'RE GREAT FRIENDS !!!!
+
+        Also special thanks to DEAD BIRD for lending his
+        computer and thanks to BLOODY for helping us at the party.
+
+        This file wouldn't be complete without the names of the
+        people who travelled all the way from the NETHERLANDS to
+        HELSINKI, FINLAND with us. So here they come :
+
+        - Arjen Groot Roessink             -  Bertram Scheltema
+        - Roland van Oorschot              -  Herman Dullink
+        - Michel Selten                    -  Alexander Klomp
+
+        The greetings go to :
+
+        SUCCESS               NOICE      (ZEST will contact you soon)
+        INERTIA               TRITON     (Lizard King; thanks for the music)
+        LOGIC-DESIGN          RAZOR 1911                 KLF
+        ACME                  HYPNOSIS                   SMA posse
+        VOID                  MOTIVE
+        WITAN                 MIRAGE
+        TRAIL                 FUTURE CREW
+        SONIC PC              CASCADA
+        DIFFUSION             DUST
+        TRINET                TSD
+        MADSTER/CODEBLASTERS  EMF
+        DCC                   SURPRISE PRODUCTIONS
+
+ÚÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄ¿
+³ 7 ³                    DISCLAIMER OF OUR PRODUCTS                       ³ 7 ³
+ÀÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÙ
+
+        All our productions, except the ones which we have made for different
+        persons/companies, are freeware. This means that you can copy and
+        distribute our productions free of charge as long as no changes are
+        made to the distribution-package.
+        No money can be charged for copying and distributing them.
+
+        If you are an PD/SHAREWARE/FREEWARE distributor, please contact us
+        BEFORE including our products in your collection.
+        (see chapter 8 for adresses)
+
+        All rights of SPIRIT productions are reserved to their respective
+        owners: the SPIRIT crew.
+
+        All commercial use of our productions without our permission is
+        strictly forbidden. This includes selling disks (or any other media)
+        containing our demos.
+
+        Questions about the distribution can always be send to our contact-
+        adress. We are always interrested in any kind of offers you make.
+
+ÚÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄ¿
+³ 8 ³                      HOW TO CONTACT SPIRIT                          ³ 8 ³
+ÀÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÙ
+
+        There are 2 ways to contact us:
+
+        The fastest way : INTERNET
+                          SPIRIT@STACK.URC.TUE.NL
+
+        The other way :   BY MAIL
+
+                          COUNSELLOR                 ZEST
+                          Esdonk 44                  Herenthalslaan 8
+                          5421 PZ                    5737 ED
+                          Gemert / the Netherlands   Lieshout / the Netherlands
+
+ÚÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄ¿
+³ 9 ³                        SOME FINAL WORDS                             ³ 9 ³
+ÀÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÙ
+
+        Well this is the end of the SPIRIT information file.
+        This file is going to be upgraded every time something changes,
+        so watch out for the new SPIRIT information file !!!
+
+        Thank you very much for reading this file, and we hope to hear (see)
+        something from you soon.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ

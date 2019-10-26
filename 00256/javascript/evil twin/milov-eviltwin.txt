@@ -1,0 +1,16 @@
+
+
+      evil twin
+
+      186 bytes
+
+
+  by milov, 2002-02-28
+  milo@milov.nl
+  http://milov.nl/
+  
+  tested in IE6, probably also works in IE5.5/IE5.0/IE4
+  
+
+  description:
+  try to stop your evil twin: he will dodge your movements!

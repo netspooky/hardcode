@@ -1,0 +1,13 @@
+Oil trader's nightmare by kraviz/abhorus
+
+Uses Crinkler by Mentor and Blueberry
+
+Thanks to iq and auld for their public contributions
+
+Should render in less than 30 seconds on a multi-core machine.
+
+Needs d3dx9_35.dll
+
+deniskravtsoff ( you know what ) mail.ru
+
+PS Unfinished. Someone here is too sleepy. Tested on ATI only.

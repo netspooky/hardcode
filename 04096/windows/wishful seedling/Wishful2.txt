@@ -1,0 +1,30 @@
+
+Wishful Seedling by Fnuque and Loonies
+
+A Windows 4k intro for the Kindergarden 2011 intro competition
+
+
+Second in a trilogy. Same engine, new code. Go figure.
+
+
+Credits:
+
+Music: Punqtured
+Code and modelling: Blueberry
+
+Thanks to Mentor, Maytz, Farfar and Quisten for suggestions,
+optimizations and other supportive actions.
+
+Thanks to Psycho for AMD compatibility testing.
+
+Special thanks to Loaderror for letting us use his machine
+during most of the party for finishing the intro.
+
+
+Requires a Windows PC with:
+- Up-to-date DirectX runtime (d3dx9_42.dll)
+- Shader model 2.0 or better
+- Decent fill rate (lots of alpha blending going on)
+
+
+Greeting to all 4k makers out there!

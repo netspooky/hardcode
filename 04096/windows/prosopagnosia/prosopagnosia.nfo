@@ -1,0 +1,15 @@
+Prosopagnosia by MooZ / BlockoS
+
+It's a catchier name than "Failed attempt to
+implement Jonathan McCabe's Cyclic Symmetric 
+Multi-Scale Turing Patterns in 1KB using OpenGL.
+
+The whole thing was started in late January 2011.
+But I never managed to get it below 2218 bytes.
+   
+Messy source code included. 
+The "Debug" and "Release" configurations needs glfw3. 
+The "Publish" configurations require Crinkler.
+The shader was first compressed with Shader Minifier
+
+Enjoy!

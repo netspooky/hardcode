@@ -1,0 +1,14 @@
+ind presents
+
+                                 .128 bytes intro
+. Magia Asemblera ___.        ,_._ ___  _._ .___
+|\  /|  /Generuje \   >  |.  || `   :  | ` ||   ;
+||\/ | /__Nadmiar  \     |\  ||_._  :  |_*_||__/
+||   |/    Estetyki w \\\| \ || `   :  | ` || \.
+||   ||     Totalnie \___|  \||_._  : .|.  ||  \.
+             Absurdalnym Rozmiarze `
+                                        .MAGNETAR
+-------------------------------------------------
+coded by Pirx
+assembled with NASM 2.02
+April 2008

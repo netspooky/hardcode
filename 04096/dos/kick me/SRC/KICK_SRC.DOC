@@ -1,0 +1,108 @@
+Alain BROBECKER                                   Dracula / Positivity. (STe)
+rte de Dardagny                                   baah / Arm's Tech. (Archie)
+ 01630 CHALLEX                                                      baah (PC)
+    FRANCE
+
+This archive normally contains...
+
+  KICK_SRC.DOC   Well, guess what.
+  ASM_ME  .BAT   A simple batch file to show the way all must be assembled.
+  BAAH    .XXX   The binary datas used in the 4kb demo.   
+  BALL    .XXX
+  BALL    .PAL
+  GEN_SPR .INC   The include files.
+  INITMODX.INC
+  MEMLIB  .INC
+  PUT_PAL .INC
+  MODE0LIB.INC
+  KICK_ME .S     The main source.
+
+  RINCBIN .INC   The utility which allows to use binaries includes. 
+  RINCBIN .COM   (By Philippe Rhode)
+
+  Here comes a small explanation about the most interesting things (the less
+unintersting ones I mean) that can be found in this small demo, so you
+won' t need to go deep in the code if you' re interested.
+
+  Oh, by the way, this is my first ever demo on the PC, so no wonder if
+loads of things are not fully optimised. Also consider it was made on a
+386sx (a monomedia one, arf!) and so, nothing is optimised for cache...
+Also, some others things are not optimised and I know how to improve them,
+but well, we must stop somewhere! (I especially think to the sprite
+clearing routine!) Some people would also say I should have done vram to
+vram copy in the sprite routine. True, but I didn' t want a routine which
+is usable only in demos.
+
+  The first interesting thing is the sprite code generating routine.
+Well, you must consider that in a sprite, there are many blank pixels,
+and generally you go through the whole sprite (a square), test the pixel
+to see if it must be drawn, and eventually draw it if need be. The aim
+of generating a sprite routine is to avoid the tests. I go through the
+sprite, and for each non null pixel I generate a 
+            'mov ds:[bx+offset_16bits],pixel_8bits'
+Where ds:bx points on the position of sprite. (y*80 + x-xmod(4)) 
+If the pixel is null, I only affects the offset for the next pixel. 
+  Well, since we are working in ModeX, I also generate a small part of
+code before each plane process which will rotate the map mask register
+and affects the original offset given to the generated routine (in bx)
+if we have passed from plane 3 to plane 0.
+  Humm, I have to say that I also generate a word move instead of two
+byte moves if possible. (It proves a bit faster, and takes less memory, so..) 
+I tried to do it with longwords, but it does not work. (If the long is
+not accessed on a multiple of 4, it slows things down. At least on my
+computer!)
+
+  The second thing is the way the Julia fractal is calculated. I got the
+trick from Sam Laur's MINIFRAC. (A good miniprog... Strongly recommended) 
+Generally, you need to calculate for each iteration...
+            x'=x*x-y*y+juliax
+            y'=2*x*y+juliay
+            norm=x*x+y*y
+  The last formula is used to test the divergence of the serie. Well, quite
+simply, make the same test with x*x-y*y, you will have less calculations,
+and the result is nicer. (That' s my point of view!)
+
+  The last interesting thing is the simulation of collisions between balls!  
+The result may look ok, but in fact there are some cheats. Normally,
+to test if 2 balls are colliding together, you must see if there is
+a time when the distance between their centers is exactly r1+r2. (Where 
+r1 and r2 are the radius of balls.) This is quite easy if you consider
+that the movements of both balls are linear. Then, you place the balls
+at the position they have at the intersection time, and you change the
+velocities acoording to the collision.
+  The problem may look quite simple, but with you must consider that we
+want an animation, and movements are not linear. (gravity...) In fact, you
+consider the movements are linear during a small amount of time (for example 
+one VBl). You calculate the intersection time. Let' s say it is t=0.5
+(t=0 -> beginning of vbl t=1 -> end of vbl), so you place the balls
+at t=0.5, you change the velocities, and then you can know the position
+at t=1. (It' s again a linear movement with modified velocities)
+  BUT, the problem proves harder if you have more than two balls colliding
+during the same VBl. Suppose ball1 will collide with ball2 at t=0.5,
+and then ball3 will collide with ball2 at t=0.75. Hey, is it colliding
+with the ball2 possessing velocitie before or after collision with ball1?..
+Well, quite a big mess! You must test collision for each couple of balls,
+then put all balls at the psition they will have at the time of the first
+collision, and begin all collisions test anew with the new velocities for 
+the time which is left...
+  It' s despairing to find something like this when you are lazy. So I 
+decided that to test balls collision I won' t use the physical method,
+but just see if at t=1 the two balls are intersecting. When a ball
+collides another one (or a wall), it will be locked for the whole vbl.
+This mean in fact that it won' t move during the vbl of the collision,
+I just change the velocity of it.
+  Well, it proves much easier... I bet there are other methods, so if you
+know one, (better than mine, for speed or realism) write it down to me!
+
+  Oh, by the way, changements of the velocities is made the following way.
+I suppose o1 and o2 are the center of spheres, v1 and v2 their velocities.
+When there is a collision I quite simply exchange the compound of v1 and v2
+along the o1o2 axis. (So, you will ahve scalar products and you must know
+the norm of o1o2 (one sqrt))
+
+  Hope this small text has proved usefull to you.. Else, it' s sad but I just
+spent half an hour (or something like that) doing something useless.
+It seems you have read everything up to here, well it would be nice to send
+me a small postcard, so that I would see if this has proved usefull or not!
+
+                                                baah. 

@@ -1,0 +1,15 @@
+prod:    hertz
+type:    64 byte intro
+author:  frag
+date:    02-11-2011
+
+Mmm... soft and warm beating heart.
+Frequency is around 1 Hz and
+is independent of machine speed.
+Requires 32-bit system.
+hertz_c.com is compatibility version
+with non-constant beating speed,
+but must work on 16-bit systems. 
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

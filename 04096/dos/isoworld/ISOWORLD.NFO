@@ -1,0 +1,129 @@
+
+
+
+
+
+ Ä ÄÄ ÄÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄ Ä
+
+
+				i s o w o r l d
+
+		a 4k intro coded for bytefall'99 by shodan//tcp
+
+    Ä ÄÄ ÄÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄ Ä
+
+      this file will hopefully give you some information about that intro
+      and related stuff that is probably interesting or maybe even useful
+
+    Ä ÄÄ ÄÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄ Ä
+
+
+
+    Ä ÄÄ ÄÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄ Ä
+
+                                            _,ooo,_
+	                                 ,o$$$$$$$$$$$o,
+	          _,ooo,_            ,T$$$$$$$$$$$$$$$T,
+	       ,o$$$$$$$$$$$o,        .d$$$$$$$$$$$$$$$$$b.
+	     ,T$$$$$$$$$$$$$$$T,      d$$$$$$@@ÊÊÊ@@$$$$$$b
+	    .d$$$$$$$$$$$$$$$$$b.     $$$Tü _,ooo,_ üT$$$
+	    d$$$$$$$$$$$$$$$$$$$b     TP`,o$T¼ü`^`üÈT$o, PTl
+	    $$$$$$$$$$$$$$$$$$$$$     ø,dTü$,       ,$üTL,øb
+	    T$$$$$$$$$$$$$$$$$$$$b,__,.d;$$$$,     ,$$$$;b.`b
+	    øZ$$$$$$$$$$$$$$$$$$$$$$l dl$$$$$$,   ,$$$$$$lb l$o,
+	     `L$$$$$$$$$$$$$$$T$$$$$; $lüüüüüüü(*)üüüüüüül$ ;$$$T,
+	       `ÈL$$$$$$$$$$$T$$$$$$l Tl      ,$$$,      lT l$$$$b.
+	          `øøüüüøø`  `$$$$$$L øZ;    ,$$$$$,    ;bø d$$$$$b
+	                      $$$$$$$L `Lb_ ,$$$$$$$, _dT' d$$$$$$$
+	                      T$$$$$$$$, `ÈLoùÈÊ¼ùoT¼` ,$$$$$$$$T
+	                      øZ$$$$$$$$$b,_`øøüüüøø`_,d$$$$$$$$$bø
+	                       `L$$$$$$$$$$$$$@@o@@$$$$$$$$$$$$$T'
+	                         `ÈL$$$$$$$$$T¼` `ÈL$$$$$$$$$T¼`
+	                            `øøüüüøø`       `øøüüüøø`
+
+ Ä ÄÄ ÄÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄ Ä
+
+		  ÚÄÄÄÄÄÄÄÄ r e q u i r e m e n t s ÄÄÄÄÄÄÄ¿
+		  ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+    this intro requires:
+        * fast pentium or compatible processor
+        * vga
+        * 400k of base memory
+	* pure dos to run party version (NO windows'95!)
+
+    the party version will only run in pure dos, no windows'95. win'95 does
+    mess around with timer, and my sync blows out. release version contains
+    win'95-compatible sync code. that's the only difference.
+
+    in fact this intro was made on a k5-133 in windows'95 dos box, and thus
+    it seems to be fairly stable. even windows could not crash it, though i
+    discover some mystical bugs from time to time which disappear after one
+    good old reboot or even dos box restart. and the most annoying thing is
+    that i'm unable to force those bugs to appear under debugger, oh well..
+
+    fast machine is surely *much* better, that's due to the fact everything
+    is optimized for size, not speed. and yesss, if anything goes wrong and
+    crashes, try doing a clean boot. sometimes it really helps.
+
+		      ÚÄÄÄÄÄÄÄÄ f e a t u r e s ÄÄÄÄÄÄÄ¿
+		      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+    as of the time of writing, this piece of assembly does feature:
+	* antialiased italic text writer (oh wow)
+	* 2D metaballs (aka blobs)
+	* metatunnel
+	* some twisted object generation
+	* simple texturemap and envmap generation
+        * texture and environment mapping (used for phong shading)
+        * realtime 3D isosurface generation
+	* water
+
+    this of course is not too much but heya.. that cute marching cubes algo
+    is something not that hard, but fairly space-expensive, and by the way,
+    it does require 4608 bytes worth of tables - and i still wonder whether
+    these tables might be generated, not just simply stored. and yes, heavy
+    fpu usage also does things to code size. and the object generation..
+
+    there's no design. sorry, no bytes left for it. well, at least it is no
+    boring engine show with a few textures done with the same routine. huh,
+    it surely is a dumb effect show mainly aimed at coders. but that's what
+    4k's mostly are anyway.
+
+    well anyway this is first ever (i guess) 4k intro featuring isosurfaces
+    and first ever (as i guess, too) production from russia featuring those
+    damn isosurfaces, so that's just enough to be happy with it.
+
+		    ÚÄÄÄÄÄÄÄÄ g r o u p   i n f o ÄÄÄÄÄÄÄ¿
+		    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+    i'm releasing this intro under that funny "tcp" label. tcp is, err, uh,
+    current version of a title for a demogroup that i am trying to form. as
+    of time of this writing, i'm the only one who is in the group for sure.
+
+    as this is the very first release of mine and is the very first release
+    from tcp too, no huge release list or member list or something, sorry.
+
+		   ÚÄÄÄÄÄÄÄÄ o t h e r   s t u f f ÄÄÄÄÄÄÄ¿
+		   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+    some source may eventually leak. i'm not going to release anything now,
+    though. just try to convince me that i'm really ought to release source
+    if you feel it's worth the try.
+
+		     ÚÄÄÄÄÄÄÄÄ g r e e t i n g s ÄÄÄÄÄÄÄ¿
+		     ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+      astroidea. doomsday. dubius. exact. gmf. pulse. psychic link. quad.
+	      rage. rhyme. sanction. statix. tbl. trauma. xevius.
+
+	  i heavily respect you and admire you for what you've done,
+		  and must thank you for all the inspiration.
+
+		       ÚÄÄÄÄÄÄÄÄ c o n t a c t ÄÄÄÄÄÄÄ¿
+		       ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+			    e-mail: shodan@chat.ru
+			     fidonet: 2:5036/5.47
+
+ Ä ÄÄ ÄÄÄÄ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄ Ä

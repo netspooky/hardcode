@@ -1,0 +1,12 @@
+
+Simple missile command clone in 96k for linux/win/mac
+
+No music, sorry - plenty of space but no talent.
+
+Requires videocard with GLSL support, tested on GeForce FX5200, Radeon X1300 and Apple's software renderer.
+The windows binary may need some MSVC* libraries, if it doesn't work use the static version instead.
+
+Using GLFW and math3d++, font is from http://apostrophiclab.pedroreina.net/.
+
+7/1/2010, snoutmate@gmail.com
+

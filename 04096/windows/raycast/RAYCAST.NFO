@@ -1,0 +1,78 @@
+RayCast for Win32 with source
+Coded by Tbyte
+
+The original version of RayCast was written in C++, because
+coding in C++ is easier, but it was too big to fit in 4k, so
+I rewrote it in assebly. However, I put the C++ source in the
+package, because it is much clearer. I know that this code is
+far from optimal, but I think an unoptimized source is more
+understandable. Althought I forgot to write comments.
+Ehh, poor explanation.
+
+Requirements:
+ - Windows 95 or better
+ - DirectX 7.0
+ - your system must support the 320x240 16bpp video mode
+
+To rebuild the assembly sources, you will need the following things:
+
+ - MASM32 package.
+     You can download from http://win32asm.cjb.net
+     or http://masm32.cjb.net.
+ - DDRAW.LIB
+     It is a part of the Microsoft Platform SDK. You can download from
+     http://msdn.microsoft.com/developer/sdk/platform.htm.
+     The whole SDK is rather big. You'll only need the following file:
+     ftp://ftp.microsoft.com/developr/PlatformSDK/July2000/psdk-x86.11.cab.
+     It contains the ddraw.lib.
+ - UPX (The Ultimate Packer for eXecutables)
+     You can download from http://upx.tsx.org,
+     or if you have the full versoin of Free Pascal 1.00,
+     you'll find it in the \pp\bin\go32v2 directory.
+
+FAQ
+
+Q: I always get this message:
+   The RAYCAST.EXE file is linked to missing export
+   DDRAW.DLL:DirectDrawCreateEx
+A: Your DirectX 7.0 is not correctly installed on your system.
+
+Tbyte greets these guys:
+
+Abcug / Gonosz
+Biodread
+Bishop
+Charlie / Inquisition
+Corn / Black Rainbow
+Dirkchen / L106
+d-lee / Exceed^...
+Dragonlord (Mr.Dragon)
+dR / Crematorium
+DV
+EG
+Fatso
+Gabs / L105
+Géza / Pathos
+Grooms
+Human / Fûnyírók
+Leaderc
+Luc / Crematorium
+LOC
+mrc! / Inquisition
+Magnetic / Inquisition^...
+Nobo / Chrysalis
+Pepe / Chrysalis
+Picard / Exceed
+Pohár
+Pontscho
+Pota / FX
+Rico / Section
+Rod / Mandula
+Szöcske / L105
+Wizard (Tevemadár)
+
+And everyone at #coders.hu
+
+E-mail: s8149kez@hszk.bme.hu
+        tbyte@freemail.hu
+        tbyte@zerg.com

@@ -1,0 +1,5 @@
+<body bgcolor=111111 text=88888><center>by shybyte<br><canvas id=c width=32 height=64 style="width:256px;height:512px">
+<script>for(var g=0,h,i,j,k=32,l=64,m=new Array(k*l),n=20,o=new Array(n),p=Math.random,q=Math.sin,r=Math.abs,s=0;s<n;s++)o[s]={x:p()*k,y:l,a:p()*0.2-0.1,b:-p()*0.2,d:p()+0.8,c:p()+0.8};
+function t(){var c,a;for(c=0;c<n;c++){a=o[c];a.x+=a.a;a.y+=a.b;if(a.x>k&&a.a>0||a.x<0&&a.a<0)a.a=-a.a;if(a.y>l&&a.b>0||a.y<0&&a.b<0)a.b=-a.b}var b=c=0,f=0,d,e;a=r(q(g/313));b=r(Math.cos(g/213));f=q(g/87+a*b*10);d=q(g/100);a=(f*a+d*b+1)*200;for(y=0;y<l;y++)for(x=0;x<k;x++){for(b=f=0;b<n;b++){e=o[b];d=(e.x-x)/e.d;e=(e.y-y)/e.c;f+=0.01/(d*d+e*e)}f=1/f;b=f<1E3?f<a?1:1-(f-a)/(1E3-a):0;m[c++]=b*255}c=k*4+4;a=k+1;f=k-1;for(y=1;y<l;y++){for(x=1;x<f;x++){b=m[a];d=b-m[a-1];e=b-m[a-k];d+=128;e+=128;d=b*(d*d+
+e*e)/5E4;d=d>255?255:d;j[c]=d;c+=2;j[c]=b;c++;j[c++]=255;a++}c+=8;a+=2}g++;h.putImageData(i,0,0);setTimeout(t,20)}h=document.getElementById("c").getContext("2d");i=h.getImageData(0,0,k,l);j=i.data;t();
+</script>

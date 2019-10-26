@@ -1,0 +1,88 @@
+
+                                HalooGen 64k
+                                   intro
+
+                                    for
+
+                                 ICING '96
+
+
+
+
+                                     by
+
+
+                                  SUBLOGIC
+
+
+
+                                (Oce, Credex)
+
+
+
+
+
+
+
+Music by Oce. All code except Module-player and 50hz mode
+by Credex. NoSound is not timed at all. NoSound sucks! 50hz mode by
+Liket!
+
+Code:    Credex (+3d objs+font)
+
+         Coded on a 486-66Mhz, and should run perfectly fine
+         on one! Soundcard almost required!
+
+Music:   Oce (50k Module)
+
+Mod-Player:
+
+                     Bells, Whistles, and Sound Boards
+        Copyright (c) 1993-95, Edward Schlunder. All Rights Reserved.
+
+
+
+
+
+
+
+Greetings:
+                INF
+                INF FALCON
+                TPOLM
+                PROXIMA
+                XENON
+                CANDELA
+                NYBAKAT
+
+
+Mail bombs'n'stuff can be sent to us via:
+
+ - Genious Pig BBS (Sublogic WHQ) +47 66 77 94 64!
+
+Other prods:
+
+ - Natural Born Demomakers (demo)               hehe...        3.  Odyssey95
+ - Blur                                         yikes!         23. The Party 
+ - Fake (64k)                                   hmmm..         2.  Online96
+ - Moisture (demo)                              !              1.  Online96
+ - Let there be light (demo)                    umm.....       6.  Gathering96
+ - Winnie the Pooh goes to Mexico               Wow!           TPOLM+SUBLOGIC
+
+Q&A:
+
+Q: Why did you spell Halogen wrong??
+A: Because "HalooGen" looks much nicer!
+
+Q: Is it true that you ripped your 3d-engine??
+A: Hahahahahahahaha... Are you kidding? Of course not!
+
+Q: Can I copy your 3D-engine??
+A: Nop.
+
+Q: These routines look kinda familiar!
+A: Yepp.
+
+                NB! NB! NB! -Disclaimer- NB! NB! NB!
+    Run this Intro at your own risk! We take no responsobility
+                            whatsoever!

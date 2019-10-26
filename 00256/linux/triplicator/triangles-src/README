@@ -1,0 +1,10 @@
+triplicator by piter
+a 256b intro for 64 bit Linux
+
+Released at Edison 2014, this is my first production!
+
+To compile simply use make. You need to have Nasm and GNU Make installed.
+There is also 80 column version - see Makefile.
+
+The intro requires 64-bit linux to run.
+

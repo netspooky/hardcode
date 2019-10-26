@@ -1,0 +1,43 @@
+hip hip! hooray!
+
+it's "the little green frog" by disasterarea in the year 2003ad.
+
+made for the mfx/kewlers birthday party.
+
+apparently making this was more fun than giving away a six-pack!
+
+thank goodness for that.
+
+hip hip! hooray!
+
+some credits:
+------------
+code/etc: ript.
+ideas: anji
+
+some requirements:
+-----------------
+
+to run this you need windows + opengl + soundcard.
+hopefully you can manage that.
+
+some useless info:
+-----------------
+no we're not trying to be fuzzion. they would've done it in 4k,
+anyway.
+
+i would just like to say that no modelling/animation programs
+were used in the creation of this intro.
+
+what a pain in the arse that turned out to be!
+
+the robot's legs get into some interesting positions.
+excusable, though, since he's not only insane, but drunk too.
+
+see you at boozembly,
+
+ript. 
+
+(ript@disasterarea.net)
+http://www.disasterarea.net/
+

@@ -1,0 +1,54 @@
+
+      Welcome to yet another free chunk o' code brought to you by VLA...
+
+
+    This is just a small routine that plots a text ball at a specific (x,y)
+position.  Nothing more.  It's going to be used in a PONG type game that
+our dear friend Desolation is going to be working on in C... (All to improve 
+those skills of his...)  Anyways, if and when he gets it completed, the
+code to that will be released...  Happy happy joy joy!
+                                            ş Draeden /VLA
+
+
+                           kInDa TecHnikaL PaRt
+                           ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+AKA:    Oh, wow!  How'd you do that? (in plain English...)
+
+
+    In short, I used 4 characters to put the ball on the screen.  I rewrite
+those 4 characters every time I move the ball.  The ball has 8 positions
+in both the verticle direction and the horizontal direction...
+The character cell (x,y) position is found by taking the Xpos and Ypos
+and dividing both by 8 (8x8 character set) and then figuring the offset like:
+
+Offset = ((Ypos/8)*80 + Xpos/8) * 2
+
+    The 80 is because of the screen width, the *2 is because every other
+byte (the odd ones) is an attribute byte.
+
+    So I take that offset and place 4 characters there like this:
+
+    12  
+    34
+
+    Then I write new characters to the VGA card, rotating the Xpos and 
+adding to the source offset for the Ypos- only using the lowest 3 bits.
+
+    When I go to write a new ball, I erase the old one.  Pretty simple, eh?
+I'd explain more, but I think you'd be better off taking a look at the code.
+Anyways...  May not be too useful, but it's kinda cute. =)
+
+Until next time...
+
+    ş Draeden
+
+ÄÄÄ
+
+Famous Quotes:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄ
+              Do you want to change your name to Homer Junior?
+                       The kids can call you HoJu.
+                               
+                            ş Homer Simpson ş

@@ -1,0 +1,16 @@
+> omena --- code by tmb
+> a 256b intro for www.256b.com xmas compo 2001!
+
+coded in 3 hours, was ~240 bytes, added palette, 254 bytes,
+enchanged palette rout, 258 bytes, optimized main rout + sine
+table gen (leaves fpu unclean...), 254 bytes, added some more
+palette stuff, 258 bytes, made the sine gen get the scale value
+from an "add bp,100h"... 256 bytes. pretty cool for the time
+and effort I think. notice the cool antialias. ;)
+
+no source this time, anybody should be clever enough to disasm
+256 bytes of code, at least if you can do some 256b stuff ;)
+
+- tmb@floodfill.net aka. kometbomb on ircnet
+
+

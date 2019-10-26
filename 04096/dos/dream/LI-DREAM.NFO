@@ -1,0 +1,26 @@
+Dream by lisc.
+
+Yeah well here is my 4k intro for Coven 98. It was placed 3rd.
+Probably cause it kept crashing until they ran the pmode/w version.
+
+There are two versions, a pmode/w that works and a tinydpmi version which
+works under Win95 with no emm386. A clean config.sys file is a must for
+the tinydpmi one. It will most probably crash otherwise.
+
+- wc-dream.exe is the final release with a few post party greets and fixes.
+- li-dream.exe was the party version.
+
+Tinydpmi is by Maxwell Sayles of Xi. Definately cool stuff as long as you
+don't use dpmi memory alloc functions. I reduced it a few bytes too :-)
+
+If you don't believe me the larger file is still a 4k,..
+
+wc-dream.exe = 15,752k
+pmodew.exe   = 11,484k
+               -------
+                4,268k of intro.
+
+The li-dream.exe was packed with wwpack so it is smaller.
+
+You can contact me for business or pleasure at lisc@mindless.com.
+lisc

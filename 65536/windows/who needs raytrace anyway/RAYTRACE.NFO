@@ -1,0 +1,187 @@
+      ,
+    .$'           $
+    $'            $
+    $   .$$. .$$. $$m. $  $ .m$$
+  ,x$s' $  $ $  $ $  $ $  $ $  $
+    $   $  $ $  $ $  $ $  $ $  $
+   .$   '$$` '$$` $$$' '$$$ $$$$  
+  .$'                          $
+  '                         , .$
+                            'm$'
+
+    Who needs raytrace anyway?
+
+----------------------------------
+
+ a 64k intro for assembly 2k - updated version
+
+ requirements:  windows 98
+
+   for sounds:  a soundcard with (working) directsound drivers
+
+
+   ONLY 32-BIT FULLSCREEN MODES TESTED!
+   YOUR DISPLAY SHOULD SUPPORT 320x240x32BIT MODES IF YOU WANT TO
+   RUN THE INTRO IN FULLSCREEN!
+
+   voodoo 5 (or something) didn't seem to work too well in fullscreen.
+   it sucked.
+
+
+
+ others have kewl 3d-engines - we have kewl effects
+
+
+ (and kewl 2-pole filters, haha :)
+
+
+
+
+  TO RUN THE INTRO IN A WINDOW, USE:
+
+  raytrace /w
+
+  (note: small 'w')
+
+
+  added a check for mmx, if it says you don't have mmx but you really
+  do, just run it like:
+
+  raytrace /m
+
+  (note: small 'm')
+
+
+  -- using MXMPlay/Win32 v0.9.1 by elitegroup, hacked by DaRiuS/RASH --
+
+
+coder's notes:
+
+ my first released demo/intro, "This is how we party" got second at
+ asm'98 windemocompo. this is a LOT better than it.
+
+ the intro was coded during the nights of about two weeks, and finished
+ at the party place. some problems arose:
+
+Q: How The Hell Is Someone Supposed To Render Antialiased Windows Fonts
+   Into A Background Buffer?
+
+A: i don't know.
+
+
+ creating a dc with CreateCompatibleDC() works fine, but the text just
+ isn't antialiased. don't know why. so i did it this way:
+
+
+   void RenderFont(void *buf, int w, int h, char *str, int strlen, int size,
+                                                               char *fontname)
+   {
+      HDC hdc=GetDC(our_window_handle);
+      HDC hdcCompat=CreateCompatibleDC(hdc);
+   
+      HBITMAP hb;
+      HGDIOBJ hbold;
+   
+      BITMAPINFO bmi;
+      int *bmdata;
+   
+      bmi.bmiHeader.biSize=sizeof(bmi.bmiHeader);
+      bmi.bmiHeader.biWidth=w;
+      bmi.bmiHeader.biHeight=-h;
+      bmi.bmiHeader.biPlanes=1;
+      bmi.bmiHeader.biBitCount=24;
+      bmi.bmiHeader.biCompression=BI_RGB;
+      bmi.bmiHeader.biSizeImage=0;
+      bmi.bmiHeader.biClrUsed=0;
+      bmi.bmiHeader.biClrImportant=0;
+   
+      hb=CreateDIBSection(hdcCompat, &bmi, DIB_RGB_COLORS,
+                         (void**)&bmdata, NULL, 0);
+   
+      hbold=SelectObject(hdcCompat, hb);
+   
+      RECT r;
+      r.top=0;
+      r.left=0;
+      r.right=w;
+      r.bottom=h;
+   
+      FillRect(hdc, &r, (HBRUSH)GetStockObject(BLACK_BRUSH));
+   
+      HFONT hf=CreateFont(size, 0, 0, 0, FW_NORMAL, FALSE, FALSE, FALSE,
+                          ANSI_CHARSET,
+                          OUT_DEFAULT_PRECIS,
+                          CLIP_DEFAULT_PRECIS,
+                          ANTIALIASED_QUALITY,
+                          DEFAULT_PITCH,
+                          fontname);
+   
+      SelectObject(hdc, hf);
+      
+      SetBkMode(hdc, TRANSPARENT);
+      SetTextColor(hdc, 0xFFFFFF);
+      TextOut(hdc, 0, 0, str, strlen);
+   
+      BitBlt(hdcCompat, 0, 0, w, h, hdc, 0, 0, SRCCOPY);
+   
+   // To clear the hdc afterwards
+   //   FillRect(hdc, &r, (HBRUSH)GetStockObject(BLACK_BRUSH));
+   
+      GdiFlush();
+   
+      unsigned char *colorbuf=(unsigned char*)bmdata;
+      for(int i=0;i<w*h;i++) {
+         ((int*)buf)[i]=colorbuf[i*3]+colorbuf[i*3+1]*256+
+                        colorbuf[i*3+2]*256*256;
+      }
+   
+      SelectObject(hdcCompat, hbold);
+   
+      DeleteObject(hf);
+      DeleteObject(hb);
+      ReleaseDC(winhandle, hdcCompat);
+      ReleaseDC(winhandle, hdc);
+   }
+
+ 
+ so it draws the text into the main window and then copies it into my
+ own dib and then copies the pixels from the dib into memory.
+
+ if you know how to do this more "cleanly", please mail me,
+ ld0d@saunalahti.fi
+
+
+ everything is rendered in 32-bit, and dithered to 256 color if required,
+ at least in a window.
+ 
+ and yes, i'm using 2-pole filters, originally from my softsynth :)
+ they look quite nice.
+
+ tired of those "yes, now you can watch the same effect for two minutes
+ and get a cup of coffee while waiting for the next one"-intros, our
+ intro includes at least 9 different effects, and if you count all the
+ different blendings and other little things, the count is over 14 :)
+
+ mmx enhanced, of course.
+ not too well optimized, but .. enough.
+
+ all textures generated. more or less.
+
+
+ sources are 185k in size, not counting MXM sources (only the intro),
+ executable compressed with UPX by Markus F.X.J. Oberhumer & Laszlo Molnar.
+
+ - ld0d @ asm2k - 8/4/0 5:06
+
+
+ ja kyll„, kyll„ ne tekstit rimmaa.
+
+
+ ld0d@saunalahti.fi
+ rjv@pp.inet.fi
+
+
+
+
+
+ ascii by DiamonDie & ld0d

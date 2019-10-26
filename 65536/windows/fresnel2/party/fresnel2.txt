@@ -1,0 +1,71 @@
+                                           __    ____    __       ____     ____
+                                       __ / (_ _\\_  \_ / /____ _\\_  \_ _\\_ /__
+                                      _)_/   /    /   //_//   /    /   /   _/   /
+                                      \ \    \_      /  \    /        /    \    \_
+                                      /__\____/______\ __\___\ _______\ ____\____/
+                                      - -diP--------------------------------dTR- -
+                                               fresnel2 by kolor ( party )
+                                                    the party 2000
+                                          p3 600 & geforce 2 & dsound & opengl     
+
+
+
+important
+
+	this is the party version of the intro. this means, due to severe size 
+	limit troubles we had to throw out quite a lot of gadget code.
+	please get the final if anyhow possible. 
+	it will then probably run on your system, too
+
+
+system requirements
+
+	- intel sse 1 instructions are required (meaning pentium 3 or above, amd
+		processors will not work!)
+	- we highly recommend at least 600mhz bus and a fast graphics card,
+	  but it will run on anything with isse and opengl with a few nvidia 
+	  extensions. be sure to have the nvidia drivers installed.          
+	- some wavemapper supported soundcard
+	- we recommned win2k, but any win* will do
+
+
+about
+
+	- this intro is pure raytracing
+	- we shoot about 10k primary rays per frame
+	- opengl is used only to rasterize the quadtree (about 30k polygons)
+	- a 3dsmax export/import combo is used to create scenes
+	- the textures are all painted and compressed with our wavelet codec
+	- the samples are synthetisized or packed with our softsynth
+	- released at tp2k
+
+
+credits
+
+	- code : noize, shiva, fontex
+	- music : storm, kritix
+	- graphics/3d/design : noize
+
+	- help with cylinders : quartz 
+	- our man at tp : poti
+
+	- upx/farbrausch mod : exe packer
+
+
+respects
+	
+	amable, black maiden, cocoon, coma, doomsday, exceed, freestyle, fridge,
+ 	haujobb, matrix, mfx, nomad, suburban, sunflower, tbl, tokyo dawn records, 
+	tpolm
+   
+
+contact
+
+	www.kaoz.org/kolor
+
+	
+
+
+	  
+	
+

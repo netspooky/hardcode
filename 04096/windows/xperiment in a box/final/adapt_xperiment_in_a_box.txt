@@ -1,0 +1,34 @@
+ADAPT @ ASM 2012
+
+xPeriment in a Box
+
+4K
+
+Code and random midi music sequencer: deepr
+Rocketing for the effects & music: deepr, mistral & legend
+Original concept: legend
+Original storyboard: vainamoin3n
+
+.-
+Party final version with two monitor setup fix on win7/vista.
+Tools used:
+-crinkler by mentor & blueberry, a big thanks for you guys!
+-shader minifier tool from ctrl+alt+del used too, so thanks!
+-GNU Rocket by kusma and skrebbel, cheers for it!
+
+Greeting to all cool demogroups except the uncool out there.
+
+GPU particle systems implemented with DX9 HLSL effects,
+music played by modulo random seed midi music sequencer.
+
+The end result varies a lot from the original concept
+(which was made for our asm 2011 64k intro),
+and the story of the getting the size down to 4096
+included pretty dramatic party coding to be applied.
+
+During the last night before the 4k compo, 
+the size was still dropped down from about 4700 bytes
+to the limit (this process included a full blown
+rewrite of the rocket data player). Without this,
+the whole intro would of course be not out as 4k.
+-.

@@ -1,0 +1,137 @@
+                                     ÜÜÜÜÜÜ
+                                 Ûßßßß    ßßßßÛ                    
+        ÜÜÛßßßßßßßßßßßßßßÛÛßßßßßßßßßßÛ    ÛßßßßßßßßßÛÛßßßÛÛßßßßÛÛßßßßÛÜ
+        ÛÜ    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    ÜÛ
+         Û    ÛÛ    ÛÛ    Ûßßßßßß    Û    Û    ßß   ÜÛ    ÛÛ   ßß   Ûß
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Ûß   ÛÛ   ßÛ
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    Û
+         Û    ÛÛ    ÛÛ    Û    ÛÛ    Û    Û    ÛÛ    Û    Û    ÛÛ    Û
+         Û°   ÛÛ    ÛÛ    Û°   ÛÛ    Û°   Û    ÛÛ    Û°   Û°   ÛÛ    Û
+         Û±   ÛÛ    ÛÛ    Û±   ÛÛ    Û±   Û    ÛÛ    Û±   Û±   ÛÛ    Û
+         Û²   ÛÛÜÜÜÜÛÛ    Û²   ÛÛÜÜÜÜÛ²   ÛÜÜÜÜÛÛ    Û²   Û²   ÛÛÜÜÜÜÛ
+         ßÛÜÜ ÜÜÜÜÜÜÛÛÜÜÜÜßÛÜÜÜÜÜÜÜÜÜÛßÛÜ ÜÜÜÜÜÛÛÜÜÜÜÛßÛÜ ÛÛÜÜ ÜÜÜÜÜÜÛ
+            Û±Û                         Û±Û             Û±Û  Û±ÛIC<MTX>       
+            Û²Û                         Û²Û             Û²Û  Û²Û
+            ßßß                         ßßß             ßßß  ßßß
+
+
+ Úùú   úùùú
+ : Introduction
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :
+ : What can I say. I woke up and felt my head aching and full of snot.      :
+   And when I looked outside to face the glourious day I was hit by the
+   Dull and greyness outside. The fog laid like a thick porridge along the
+ ù landscape and you could se the cars trying to cut through it.            !
+   So, what else is there to do? My homework? Well, except that. CODING!
+   Since I've already made a bunch of 256/512/1k demos, why not make one of
+ : Those tiny 128 byte ones?                                                ù
+
+   Since I have as a speciality to name my productions names that resemble
+   to the effect(s) I decided to name this one: ARGON.
+
+   Quote from my chemistry book:
+   Inert-gases are gases at room-temperature. They are very stabil and
+   therefor rarely react with other matters. There molecules consist of
+   only one atom compared from the 'halogenes' whom has 2 atoms.
+   Argon which is the most common is used in regulars light-bulbs and when
+   during welding. Oxygen consist of merely 1% argon.
+
+                                                      Insomniac (11/11-97)
+
+
+ Úùú   úùùú
+ : Demo-info
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ : And I found XXXXXXXX's source to a 165 byte plasma, so all I did was to  :
+ : optimize it down, and add a few adjustments to it and DADAM!
+   I had something that could enter some competition. But since I can't say :
+   that I made made it myself I wont use it for my own favours but instead
+   through out the source to the public.
+
+
+   REQUIREMENTS
+   You'll need a 386 to run ARGON since I use ONE 386-instrucion: REP OUTSB.
+
+   I haven't tested it under Win'95, and I doubt it should fuck up on it    !
+ . but don't take word for it.                 
+
+   DISCLAIMER
+ ù Though I'm very sure that this program isn't hazardous in any way I
+   cannot assure you that it's not fatal. (ie. Run at your own risk.)
+                                                                            :
+                                                                Insomniac
+
+
+ Úùú   úùùú
+ : Credits
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :
+ ù The credits for this goes to the following:                              
+                                                                            :
+   Coding : Insomniac                                                       ù
+
+ 
+
+ Úùú   úùùú
+ : News
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ : I (Insomniac) is going to organize a 256Byte-X-Mas-Compo on either   :
+   #CODERS, or #ASM (EfNet or IRCNet).                                      ù
+ :                
+                                                                            ù
+
+ Úùú   úùùú
+ : Members
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+ :        Handle             Profession             Realname
+ Ãùú   úùùú          úùÂùú                 úùÂùú       
+ : Insomniac           : Coder               : Justin Walemark              :
+ : Cyclops               Graphician/Musician   Andreas Chrysovitsanos
+   Wrong               ! Graphician/Musician : Fredrik Larsson              :
+ : Coffein               Graphician            G”ran Sundblad
+ ù
+ 
+   Hmm.. I could definetely need some more coders..                         ­
+   Feel like joining as a coder? Contact Insomniac.
+
+
+ Úùú   úùùú
+ : Greetings
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+   Since everybody else greet the big-demo groups I'll only greet the ones  ù
+ : who's really supported me in some way.
+
+   Hook,Baphomet,Zendel,Speedo,Zycho,Mithris,Wrong                          ù
+
+
+ Úùú   úùùú
+ : Contact info
+ Àùú   úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú                                             úù¿
+ :                                                                          :
+ : You can contact us, for information etc.                                 :
+
+   OBSERVE: Some of are not reachable 24 hours a day. That is because
+            the e-mail database might be located in a school.               :
+ :
+                                                                            :
+   Insomniac          insomniac@goplay.com
+   Cyclops            NONE AT THE MOMENT    
+ ù Wrong              96frlars@mediagymn.se                                 ù
+ : Coffein            goran@stones.com
+ :                                                                          
+
+   Also try find us at IRC:
+                                                                            !
+ ù #ASM,#CODERS,#GFX
+
+
+                            úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú  
+               -Wow wasn't that a very flashy outline?
+               -Yes very.
+               -Well.. It's the 80's so...
+               -90's.
+               -Ohh... the 90's (?). Did I miss anyting?
+                            úùÄùÄÄÄÄÄÄÄÄÄÄÄÄÄùÄùú  

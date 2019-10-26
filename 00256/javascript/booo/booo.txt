@@ -1,0 +1,8 @@
+this is just a lame test entry for the 256b.htm competition.
+the idea is to put a countdown in a mini gif file. at the end it
+shows a little monster, looking very angry at you. ;)
+
+idea and first version by tomaes, colour-version by mados.
+
+
+www.tap-home.de

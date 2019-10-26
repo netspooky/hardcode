@@ -1,0 +1,40 @@
+Blin Elfom
+	by
+Ye Olde Laptops Posse
+
+A quickly hacked-together 256 bytes intro for Linux.
+With sound.
+In 197 bytes.
+
+For Alternative Party, 21-23.10.2011, Helsinki, Finland
+
+code, "music": w23 (me@w23.ru)
+additional code: korvin
+
+All the remained empty 59 bytes are sad and waiting for their chance to be 
+filled with something more interesting.
+
+Requirements:
+ - /dev/fb0 (framebuffer) running @ supported resolution and color depth
+ - /dev/dsp (OSS device)
+
+How to run:
+1) Switch to console (Ctrl+Alt+F1; return to X: Ctrl+Alt+F7/F8{usually})
+2) Check that the required device files above are present and writable by you.
+3) Use the `fbset' (install it from your distro package system) utility to get 
+your current framebuffer video mode and color depth.
+4) Run the appropriate binary of this intro.
+5) Vote on pouet!
+
+If you don't have these fancy /dev/{fb0,dsp} devices, please consult you distro
+docs on the matter of how to setup them.
+If you're unlucky enough to run Ubuntu and therefore lack the /dev/dsp device,
+there's one solution that seems to work: http://osspd.sourceforge.net/
+
+Greets go to:
+	T-Rex
+	Throb
+	Titan
+	Quite
+	Youth Uprising
+	Everyone on "Experimental music from very short C programs" thread, вы лапочки!

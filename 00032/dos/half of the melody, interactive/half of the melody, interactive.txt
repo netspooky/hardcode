@@ -1,0 +1,11 @@
+half of the melody, interactive
+--------
+
+A 32b prod by lord Kelvin.
+
+It`s melody intro shortened to 32 bytes. Erotic codeing, I presume.
+Idea by Pirx.
+
+Compiled with FASM.
+
+Hello from Russia.=)

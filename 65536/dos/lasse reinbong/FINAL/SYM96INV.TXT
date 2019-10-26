@@ -1,0 +1,239 @@
+
+
+
+
+                                Symposium '96
+
+
+                          -------------------------
+                           The Official Invitation
+                          -------------------------
+
+
+
+
+1.> WHAT
+
+   This  file  wants  to  tell  you  that  there  will be a quite delicious
+   computer  demo festival this year, involving all the platforms which are
+   important  in  the  guild  of  the  demomakers,  namely Amiga, PC, C-64,
+   Archimedes and the Atari ST/Falcon.  Think twice before missing it!
+
+                     **\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/**
+
+2.> WHO
+
+   This  event  is  held  by  three of the most experienced party-organizer
+   teams  in  Germany:   the people behind the 680XX-Convention (1993), the
+   Black  Box  Symposium (1995) and the Fried Bits.  For the Symposium '96,
+   which  we plan to become the best German party so far, these three teams
+   fusioned  for  not  standing  in  competition  to each other but joining
+   forces and making everything better than ever!
+
+   The  groups  involved  are:   Polka  Brothers,  Lego Club, Phantasm (for
+   Amiga), Avena, Absence (for Atari) and Oxyron (for C-64).
+
+                     **\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/**
+
+3.> WHY
+
+   We, the organizers, observed that the amount of poorly organized and too
+   commercial  parties  increased  during  the  last years, even outside of
+   Germany.   Our  country  has  always  been  well  known for low-standard
+   parties, but 1995 has been the most disappointing year.
+
+   We (and probably the rest of the scene, too) felt that it was time for a
+   party  where  you  could  have  fun  again,  a  party that would be well
+   organized,  and  NOT  a  party  at  which  you feel that not you is what
+   counts, but the money.
+
+   We don't want to rent huge congress centres, we don't want to organize a
+   party  with hundreds of super-duper hyper interactive virtual multimedia
+   features,  we  don't want to make money - we all just want a party where
+   you  are  welcome to have a nice time; which is, after all, what a party
+   is ought to be.
+
+                     **\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/**
+
+4.> WHEN
+
+   Eastern 1996.  Four days of fun and experience:
+
+   START  5th April, 1200 CET
+   END    8th April, 1200 CET
+
+   The  entrace  fee  will  amount  to  35DM.   We  will not accept foreign
+   currencies.
+
+                     **\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/**
+
+5.> WHERE
+
+   A  nice  convention center called "Veranstaltungszentrum Burg Seevetal",
+   which  is located in the very near south of Hamburg, Germany.  It offers
+   place for about 1000 people including computers, a really big screen and
+   surround  sound.   You  don't  have  to  be afraid of 24h of loud music,
+   though...
+
+   You  can reach it via everything.  If you're going to come by train, you
+   first  have to reach Hamburg Hauptbahnhof (main station) and take the S3
+   or  S31 (on Gleis 4, HVV price 4DM) to "Harburg", where we will pick you
+   up  with  the  Symposium shuttle service.  Alternatively, you can use of
+   the hourly public busses to "Seevetal".
+
+   Coming  by  plane,  you  will use the bus shuttle service to the station
+   "Ohlsdorf", wait for the U1, get out at Hamburg Hauptbahnhof and, again,
+   take the S3/S31 to reach "Harburg".
+
+   If   you   arrive   by  ship,  then  you'll  have  to  take  the  U3  at
+   "Landungsbrcken" to reach the Hauptbahnhof.
+
+   If  you  come by spaceship, there is a big area on the other side of the
+   Symposium  convention center; please try to land it there (parking is of
+   course free).
+
+   For  the  case that you own a car, you have two possibilities to arrive:
+   The  A1  ("Autobahn  1") and the A7.  Coming from the north or south via
+   A7/B4,  you  have  to  leave at Abfahrt "Fleestedt".  Then roll down the
+   "Hittfelder  Landstraáe" (part of the B4) southwards and follow the sign
+   "Veranstaltungszentrum".   Coming  from  east  or  west via A1, take the
+   Abfahrt "Hittfeld" and follow the signs.
+
+                     **\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/**
+
+6.> COMPETITIONS
+
+   Yes,  a  lot!  Not only demo and intro competitions for all the computer
+   systems  and  the  usual  module,  multichannel  and graphics compos are
+   included.   There  will  also be compos for video demos, a wild compo, a
+   coding   compo   (4K-intro)   etc.    We   will   even   hold  an  Acorn
+   Archimedes/RISC-PC competition, if there will be enough entries present.
+   Or  a  Silicon  Graphics democompo, if more than one entry exists...  No
+   limits!
+
+   ** CONDITIONS FOR COMPETITION ENTRIES (brief overview)
+
+      PREFACE:
+         ANONYMOUS  means  that  the entries may not give a hint to who the
+         author  is.   You  may of course deliver a version with name tags,
+         which will be the spread one.
+
+      Graphics: max. 640x512 24bit, 1.4MB. IFF(-24), PNG or JPEG.
+        (ANONYMOUS!)
+
+      ProTracker Module: We will show 3 minutes, max. 1MB unpacked.
+        (ANONYMOUS!)
+
+      Music: max. 1.4MB executable. We will show 3 minutes.
+        (ANONYMOUS!)
+
+      Coding: No music, one effect, 4KB max., We will show 2 minutes.
+        (ANONYMOUS!)
+
+      Intro: 40K Amiga, 64K PC, 96K Falcon. We will show 5 minutes.
+
+      Demo: 4MB, no Assigns or similar installation. We will show
+         15minutes max.
+
+      Video: VHS or S-VHS cassette in PAL format. 10 minutes max.
+
+      Wild: No rules! ;-)
+
+   ** CONFIGURATIONS
+
+      Amiga: must run on AGA, 020, 2+4MB. Will be shown on a 030/50MHz.
+
+      PC: must run on a '486 8MB. Will be shown on a P75.
+
+      Archimedes: RISC PC 600.
+
+      C64/Falcon: Standard configuration.
+
+
+   The  prizes will entirely consist of sponsored stuff, as was the case at
+   the  former  Symposiums.   For  more  detailed  info  concerning them or
+   the competition rules, see MORE INFO...
+
+                     **\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/**
+
+7.> PLUS
+
+   A  number  of  surprises  like prominent guests from software houses and
+   computer companies, Internet connection, quiz games, nude girls and much
+   more attractions ;-)
+
+                     **\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/**
+
+8.> MORE INFO
+
+   ** in upcoming invitation intros, at least for the Amiga system,
+
+   ** on our extensive World Wide Web page,
+
+      http://193.59.3.15/~rawstyle/Sym96/
+
+   ** directly from the organizers,
+
+      gandalf@blackbox.shnet.org         (Gandalf/Phantasm)
+      rawstyle@online.fire.dbn.dinet.com (Raw Style/Lego)
+      chaos@blackbox.shnet.org           (Chaos)
+      crashpolka@aol.com                 (Crash/Polka Brothers)
+      decca@people-x.people.de           (Decca/Lego)
+
+   ** on the Black Box BBS,
+
+      +49 4105 84619  (v34)
+      +49 4105 669011 (ISDN)
+
+   ** or snail-mail Gandalf at
+
+      Frank Schliefer - Am Musterplatz 27 - 21220 Seevetal, GERMANY
+
+                     **\-/-\-/-\-/-\-/-\-/-\-/-\-/-\-/**
+
+
+---------------------------------------------------------------------------
+                            Sire * Raw Style
+                              Le Lego Club
+---------------------------------------------------------------------------
+@BEGIN_FILE_ID.DIZ
+ 
+               SYMPOSIUM '96
+ 
+          The Official Invitation
+ 
+        ---------------------------
+ 
+      Polka Brothers * Lego * Phantasm
+              Avena * Absence
+                   Oxyron
+ 
+@END_FILE_ID.DIZ
+                       ___aµµæm**@@@@@@@***æmµw___
+                  __µæ#@°"USRv.34:+410-584-619¯"°¶@*mµ__
+              _aæ@°"      ZyX19.2:+410-584-914       ¯°¶Ñm__
+           _æ#P¯  USR:+410-566-901-2 iSDN1:+410-566-901-1 "¶æw_
+         aØ°¯  __         _æ#m_      _µ_             _æ_     ¬Øæ_
+       æ*"   ,ÆØ#Ñw_      Ø@¯5#     æØ@#m _µæÆØØØØØMwØ@¶# __æØØm@#_
+     µ@" 100%¬¶_ ¬¶ÑÑm_   ØÞ Í#   ¸Æ#  ¬ØwØ@°¯¯¯¯¯¯¬¶F JØÑØ@° _Ø° ¬#_
+   _d" LEGAL__Æ#  __¬°#ÑmJØ  ÆQµ_µØP ,  #P ,µ*@@@@*ÑØ  Æ@" _æÆ°     ¶µ
+  _P      æØ@#ØÞ JØ#æ_ ¬°#Ø  ØØMÑØ" µØ  0  ØF    _æØF  __æ*"oTHER nET¬ð
+ _P       ¬g__¬  *P°"¯___æ#  ØMw_  ¢ÑØÞ l  0E    ØM¯  æ@" &fULL aMInET¬ð
+ Æ        æØ°"   _  *ÆØØZØF JØØP _µ__¬´ JK ¬#K   ¬#   #W_     mIRROR   ¬K
+J´ 4nODES  ¬qæ  J#æµ_ ¬°ÑØÞ ÍØK µ@_¬¶qç  Øm ¬#m_ JØ  _ °#m_             ¶
+Ø  sYSTEM  _áØ  ØØ#P°  __Æ  ÆL_dØØØ#mJ#  Ø@#_ ¶ÑwØF JØ*_ °#m_ oNLINE     L
+#        _ÆØÑ²   __µµæ@"""  ¯¯¯¯ ___ÆP#_ 2Q_¬q_¬¶Ø  ÆF ¬*_ °#m_ sINCE`88 1
+Q        ¶E___µm@P"¯æØØMÑæ_æ@@@@@¶¶P _æ#MØØÑ#mÆÑ##mæ"_æØm_*_ ã#          F
+¶         ¬¶°¯     ¬¶L ¬¶#ØQ_     _æÆØP"¯___ °#  0E_æØ° 2@ ¬¶"          JF
+¬L lOcal rAtes    __JØ  _ ¬¶ÑÑm__æØP"__æ*M°ØL JL JØØ° aÆ"               Ø
+ ¶_fRom hAmburg aÆÑØØ#  Ø#m_ ¬°#ØP ,øP¯   _ØÞ J&  P _Æ" a3ooo/1.5giga  J´
+  #_            ¬#_ ¬´ J#P°" __aK µ#     _Ø@ _ØØ   Æ"   mULTIFACECARD ,K
+   ¶_            Æ@°      +æMØØ#  ØÞ   _æØF _ØP _  0K    IsdN-mASTER µF
+    ¶m_          ¬*µr  #m__ ¬¶Ñ#  0#__æØ@´_dP _ø#L J#              _ø´
+     ¬¶w_         _ØÞ áØØ#P^  _Øh_ ¶#Ø° _æ@"_ø° J&  0K           _æP
+       ¬¶w_    _æØØÑ  " __µµ*@°  ¬q_ _aæ#__ø°    ¶L J#         _øP
+         ¬¶æw_ ¶#¯___µm@P"¯        ¬¶P"  ¬°       ¬¶"       _æ#°
+            ¬¶æw2¶M°¯lINK tO tHE oNLY lIVING wITNESS!   __µÆ°¯
+               ¬°¶æw______________________________ __µæ#P"
+                    ¬°¶Ñæmµ  F-E-A-R  E-H-Q  µµæ*@¶°¯  [/]CliTroMax D-SigN
+                        ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯

@@ -1,0 +1,12 @@
+Autor (Autorzy): mancer/cryogen    = code
+                 motzel/cryogen    = code
+                 johnko/cryogen    = msx
+                 scyzoryk/cryogen  = gfx
+
+CTX:             mmancer@friko3.onet.pl
+                 motzel@panda.bg.univ.gda.pl
+
+Tytul Pracy:     "Come On"
+Rodzaj compo:    intro64k
+System:          DOS_himem/DOS_raw/DOS_DPMI/Win32
+Video:           320x200x16/15b !!!!!LFB!!!!!

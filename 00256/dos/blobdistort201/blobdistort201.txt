@@ -1,0 +1,10 @@
+Blobdistort201
+--------------
+
+An almost 256b intro by Optimus/Dirty Minds^Nasty Bugs
+
+Blobs distorting a XOR background. It's only 201 bytes. I wanted to fill the remaining bytes with something more but I had no mood to do it at the partyplace.
+
+Compiled with FASM.
+
+optimus6128@yahoo.gr

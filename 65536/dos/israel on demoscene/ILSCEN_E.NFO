@@ -1,0 +1,137 @@
+                      --  ANDESA Soft International  --    [English Edition]
+                                   PRESENTS
+                 ÚÄÄÄ¿ ÚÄÄÄÄÄ¿ ÚÄÄÄÄÄÄ¿ ÚÄÄÄÄÄÄ¿ ÚÄÄÄÄÄ¿ ÚÄ¿
+                 À¿ ÚÙ ³ ÚÄÄÄÙ ³ ÚÄÄ¿ ³ ³ ÚÄÄ¿ ³ ³ ÚÄÄÄÙ ³ ³
+                  ³ ³  ³ ÀÄÄÄ¿ ³ ÀÄÄÙ ³ ³ ÀÄÄÙ ³ ³ ÀÄ¿   ³ ³
+                  ³ ³  ÀÄÄÄ¿ ³ ³ ÚÄ¿ ÚÙ ³ ÚÄÄ¿ ³ ³ ÚÄÙ   ³ ³
+                 ÚÙ À¿ ÚÄÄÄÙ ³ ³ ³ ³ À¿ ³ ³  ³ ³ ³ ÀÄÄÄ¿ ³ ÀÄÄ¿
+                 ÀÄÄÄÙ ÀÄÄÄÄÄÙ ÀÄÙ ÀÄÄÙ ÀÄÙ  ÀÄÙ ÀÄÄÄÄÄÙ ÀÄÄÄÄÙ
+                                 ON DEMO SCENE
+
+                     64Kb Demo For Paradox'2000 Demo Party!
+_______________________Party Place Rostov-on-Don, Russia.____________________
+
+                                  Credits:
+                ÖÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄ·
+                º   Real Name     ³ Occupation  ³   Age   º 
+                ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄÄÄÄÄÅÄÄÄÄÄÄÄÄÄ¶
+                º Denis Astahov   ³ Programmer  ³    19   º
+                º Vallyer Astakhov³ Musician    ³    21   º
+                ÓÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄÄÄÄÄÁÄÄÄÄÄÄÄÄÄ½
+
+Minimal Configuration:
+~~~~~~~~~~~~~~~~~~~~~~
+80386 Processor   CPU û
+80387 CoProcessor FPU û
+256k Video Memory VGA û
+500k Base Mamory      û
+
+On Start, Demo Check:
+1. Operating System: DOS or WINDOWS.
+2. Type of Processor, if less than 80386, Exit with Error!
+3. Detection Sound Blaster.
+4. Start with Music or without.
+
+For Start without Music please add parametr /nosound or /NOSOUND
+In command line it will be  'israelsc.com /nosound' or
+                            'israelsc.com /NOSOUND'
+
+This Demo consist 50 Effects!
+
+On 386DX-40 Demo will Run very Slowly in some palces.
+On 486DX2-66 too. I wrote Demo on my computer and I made it for
+my CPU (CELERON-400Mhz).
+On my Copmuter I don't have any Slow Places! :)
+
+
+History of Creation:
+~~~~~~~~~~~~~~~~~~~~
+When I made somethink New and Cool on SPHINX C--, I complit Intro
+for needed size 256, 512 bytes and New Intro for Demo Party was Maded!
+Never I don't have patience for Made somethink BIG, many effects in one File.
+But Now I Made it, And you see it...
+In time of creation Demo, I haved 8-th examinations in Tel-Aviv University!
+I worked only at Night, becouse at Day I don't have time...
+
+
+Demo Fully wroted on SPHINX C--.
+This is My First Big Work and First Work with Music!
+
+
+In Demo there are words: Israeli Demo Scene not Dead!
+And Demo Called: Israel On Demo Scene!
+Now many of Israeli Demo Groups is Dead, but some Groups still alive.
+Israeli Demo Party (MOVEMENT'xxxx) last time was in 1998 year,
+and in this year Party not will be.
+Israeli Demo Scene Dead, but in this Demo I want to show, that
+Israeli Demo Scene not Dead, she slipping...  :)
+
+                                            I'em very hope...
+All about Israeli Demo Scene you may read in file 'ilscene.txt'
+Just run Demo with parametr /ilscene or /ILSCENE
+Only on Russian Laguage,... Sorry! :)
+
+Music only for Sound Blaster Compatible Devide.
+If Demo Run without Music and you have Sound Blaster,
+Try Unload Some drivers and Run Demo Again.
+Demo will start without Music if you Run it under Windows NT or Windows'2000.
+
+Demo was Tested of The following Operating Systems:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. MS-DOS 6.22       All Ok!
+2. Windows 3.11      All Ok!
+3. Windows 95        All Ok!
+4. Windows 98        All Ok!
+5. Windows NT 4.0    All Ok! But without Music. :)
+6. Windows 2000      All Ok! But without Music. :)
+
+
+In creation this Demo, nexts Software was used:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. SPHINX  C-- Compiler   Version 0.228
+2. Volkov Commander       Version 4.03
+3. Reality Adlib Tracker  Version 1.1a
+4. TheDraw                Version 4.60
+
+
+
+                      We want to Send Greetings:
+
+                              Groups:
+
+                           Future Crew
+                           Majic12
+                           ESTEEM
+                           Moon Hunters
+                           Immortals
+                           Embryo
+                           Y. O. E.
+                           Centari
+                           FALCOR
+                           SYNC
+                           ORANGE
+                           T-Rex
+                           ByteFall
+                           Terminal Studio
+                           Proxium
+                           Together Crew
+                           The SandS
+                           Storm Studios
+                           SUNRISE Soft
+                           AVA Soft
+                           MAD Gophers
+                           Excess
+                           Russian Kullubussian
+
+
+If you want to Contact with me, Please write:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+FidoNet   - 2:403/400.0
+E-Mail    - andesasoft@usa.com
+ICQ#      - 61035400
+Home Page - http://andesa.da.ru/
+CellPhone - +972-5-3941763
+                                                       Israel, Petah-Tikva.
+_____________________________________________________________________________
+--          Copyright (c) 1995-2000 by ANDESA Soft International         --
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ

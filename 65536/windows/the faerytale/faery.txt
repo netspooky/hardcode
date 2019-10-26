@@ -1,0 +1,15 @@
+The Faerytale
+
+64k intro for Assembly 2001
+Made by SBI
+Sebbi - Design, Programming, Graphics
+Mystique - Model of the lady
+BuG - Vectorballs flag
+DJartz - "Live" music
+
+This intro needs a 3d-card with 32bit colors and 1024x1024
+texture support. Hardware T&L highly recommended!
+Tested with Geforce 2 GTS & AIW Radeon (DDR).
+
+SB Live or better soundcard recommended for best midi quality.
+

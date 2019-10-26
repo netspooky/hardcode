@@ -1,0 +1,18 @@
+Kakiarts: "Applied Mediocrity"
+a 64k intro for Evoke 2009
+
+code&gfx: KeyJ
+music:    Tristan
+
+This small collection of effects requires a Shader Model 4.0 capable graphics
+card, due to some Vertex Texture Fetch abuse. It has been developed and tested
+mainly on nVidia hardware, but it should work on ATI as well.
+If there are framerate stuttering issues on nVidia cards, try to disable
+"multithreaded optimizations" in the driver.
+For ATI, Catalyst 9.5 or newer is required.
+
+Uses the good old V2 synthesizer system by Farbrausch.
+
+
+PS: This might be our last bigger PC intro/demo for a long time -- but never
+    say never ... ;)

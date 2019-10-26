@@ -1,0 +1,6 @@
+Dear Jury,
+
+Please run this intro on a computer with an NVidia graphics adapter.
+The executable to be run is "academic-1280x720.exe".
+
+Makegho / Blobtrox

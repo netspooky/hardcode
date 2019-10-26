@@ -1,0 +1,29 @@
+#> Intro
+			__________
+                       / FASM-ART X            
+....................../-----------|            
+~ ___ . -=\_/=-/~|~||\/|  _       >             
+~  / / /\/ |   \_|_||  | / |/\/   >               
+~~~~~~~~~~~~~~~~~~~~|~~  ``` ~~~~~~              
+ .[32/64/128/256b]. `- pouet.net ->              
+
+#> Description
+
+So, this demo includes:
+
+ - a rotor (with gradinent center)
+ - nice sky (line skygen)
+ - 2 palettes (gray & sky)
+ - gradient background
+ - circle of gray-focus (4)
+ - glass rotor! i love it, this is art of programming!
+ - static MIDI-pattern (0x330p)  
+
+ TOTAL: 7 Features in 256b!
+
+#> Additionals_emotions
+
+ =^_^=
+ YEAH! It's first demo i wrote such cool!
+ P.S. it's my mind only...
+ P.P.S. FASM rulez forever!

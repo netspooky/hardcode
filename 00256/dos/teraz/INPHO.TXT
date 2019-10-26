@@ -1,0 +1,4 @@
+Compo:        256B COMPO
+Tytul:        Teraz...
+Plik:         TERAZ.COM
+Autor:        Dzozef/Altair

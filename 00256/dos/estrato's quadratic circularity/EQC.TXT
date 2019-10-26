@@ -1,0 +1,23 @@
+
+                            Quadratic Circularity
+
+			 256-bytes intro by Estrato
+
+
+	In order to be able to run this intro you must have a PC
+	with 80386 processor on board and an FPU. However, you'd
+	better run it on a fast 486(with an FPU) or anything better.
+	You should also have more then 65536 bytes of free memory.
+
+	If you are to distribute the intro, include this info file
+	in the same package as the intro and the source. All other files 
+	may be removed. You know the rules.
+	
+	I do not take any responsibility for anything this intro causes 
+	to anything. Anyway, the worst thing that can happen is that you
+	computer restart, so don't worry =)
+        
+	If you want to contact me, e-mail. The address: estrato@hotmail.com
+	Eventually, you'll get an answer ;)
+        
+	Estrato, late 1997.

@@ -1,0 +1,81 @@
+                          ÚÄÄÄÄĞÄÄÄÄÄÄÄÄÜÒÜÜÜÜÜÜÜÜÜÜÜÜ¿
+                          ³     é     ÜÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ³
+                          ³       .  ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ³
+                          :           ßßßßßßßßßÛÛßßßßß:
+  ÜÛÛÛÛÛÛÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛÛÛÛÛÛÜ ÜÛÛÛÛÛÛÛÛÛÛÛÛÛ ÜÛÛÛÛÛÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÜ
+  ÛÛÛÜÜÜÜÜÜÜÜÜÜÜ  ÛÛÛÜÜÜÜÜÜÜÜÛÛÛ ÛÛÛÜÜÜÜÜÜÜÜÜÜÜ ÛÛÛÜÜÜÜÜÜÜÜÜÜÜ ÛÛÛ         ÛÛÛ
+   ßßßßßßßßßßßÛÛÛ ÛÛÛßßßßßßßßßß  ÛÛÛßßßßßßßßßßß ÛÛÛßßßßßßßßßßß ÛÛÛ         ÛÛÛ
+  ÛÛÛÛÛÛÛÛÛÛÛÛÛÛß ÛÛÛ     :      ßÛÛÛÛÛÛÛÛÛÛÛÛÛ ßÛÛÛÛÛÛÛÛÛÛÛÛÛ ÛÛÛÛÛÛÛÛÛÛÛÛÛÛß
+                          ³   ú                ÛÛÜÜÜÜÜ:
+                          ³                  ÜÛÛÛÛÛÛÛÛ³
+                          Ø     ú   ş     ÜÜÛÛÛÛÛÛÛÛÛÛÅ
+                          ÀÄÄÄÄÄÄÄÄÄÄÄÄßßßßßßßßßßßßßßßÙ
+
+                         ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+                         Ø    ® VIRTUAL PARADIZE ¯     Ø
+                         ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+  úù-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ×ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+
+        ... This time for a short B.B.S. intro that will celebrate the birth
+    of a new group: S P E E D. of course made by the infernal original duo,
+    Performer and Zebig during Paris' hottest days in July'94. Old chiptune 
+    composed by Paso. As always, Mat routine's supports G.U.S. and S.B...
+                                                             
+  úù-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ×ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+
+    Tech Notes : 
+                                                                              
+    - The music does not start ?                                              
+    
+    You may have forgotten to set your 'BLASTER' environment parameter.       
+    To fix the problem, add this line in your AUTOEXEC.BAT file:              
+        SET BLASTER=A220 I7 D1                                                
+    (If your card has the following setup: Address 220h, IRQ 7, DMA 1)        
+                                                                              
+    You may have a wrong 'ULTRASND' environment parameter.       
+    To fix the problem, be sure to have this line in your AUTOEXEC.BAT file:              
+        SET ULTRASND=220,1,1,11,7                                                
+    (Best seller DOOM requests an IRQ=7 parameter which craches the replay.)        
+    
+    You may have music problems with QEMM or similar memory manager.          
+    
+    You may encounter card conflicts, check your configuration and restart    
+    the intro.                                                                
+                                                                              
+    - You encountered flicking problems ?                                     
+    
+    We did not test the demo with all kind of configurations, but you need a  
+    'good' PC, I mean no ISA, and no slow card in DOS mode (like P9000)       
+    Their is no slowing down on my 486DX vesa, even without the turbo mode.   
+                                                                              
+  
+  úù-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ×ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+
+    We are :   Performer, coder - Zebig, artist   (founders)
+               Exel, sysop - T.M.A, coder
+  
+  úù-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ×ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+
+    Reach us on :   Virtual Paradize * 2 Nodes * (+33) 1.43.44.50.31 D.S.
+                                                 (+33) 1.43.44.50.13 V32b
+  
+  úù-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ×ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+
+    News :   13'07'94.
+             Well, we're now out of Razor 1911 for a while, the group is
+             actually dying or so, the master members left. So did the best
+             members of the demo section.
+             We are now beginning the Speed experience. Products to come, as
+             always inovatives and originals: Soon "GREEN", part II of our 
+             trilogy.
+
+                                   ÚÄÄÄÄÄÜÜÜ
+                                   ³  ÜÛÛÛÛÛ
+  úù-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´   ßßÛÛÛÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ùú
+                                   ³     ÜÛÛ
+                                   ÀÄÄÄßßßßß
+
+                           .’ Spîîë PâíDæ›Â­0ü ø1994
+

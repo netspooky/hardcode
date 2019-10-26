@@ -1,0 +1,6 @@
+This 4K-Intro (tgl95drg.com) was coded by Tobias Glasmachers in 1995.
+You are allowed to copy it freely.
+You are *NOT* allowed to do any changes to this Intro (code, data, filename,
+etc.).
+Assembly'95 organizers are allowed to publish this intro on the
+ASSEMBLY-CDROM.

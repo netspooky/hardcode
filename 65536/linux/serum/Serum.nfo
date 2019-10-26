@@ -1,0 +1,33 @@
+_  p e r p l e x i t y 2OO1              _|_
+(________________________________________)|
+
+"--per·plex´i·ty  n. Bewilder, confuse, puzzle."
+
+Serum,
+A short rubbish intro, made for fun.
+Very bad code.
+No sync.
+No design.
+There.
+
+
+Requirements:
+300+ MHz (I dunno really, just tested on a 750).
+Some RAM.
+A relaxed and friendly attitude. (;
+Soundcard and libmikmod for music.
+(if you don't have libmikmod installed, get Serum_staticmikmod)
+
+For nosound just pass any argument to the executable, like so:
+% ./Serum2 foo
+
+The music is a fairly old mod from ecco (but nevertheless a good one!)
+which i had to compress a bit..doesn't sound properly in mikmod.
+Anyway, thanks ecco :)
+
+
+Extra greets:
+pokerface prods, #demoscene@opn,
+Fluxgen, wbs, ecco, feriet.
+
+EOF.

@@ -1,0 +1,11 @@
+
+ T O R E N 3 2 K
+ critical002mass
+ _ _ _ _ _ _ _ _
+ win32    opengl
+
+ code and music: Phantom Lord
+ upx : Markus Oberhumer & Laszlo Molnar 
+ fmod : Firelight Multimedia
+
+ Assembly 2--2

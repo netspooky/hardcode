@@ -1,0 +1,15 @@
+
+
+L-Spline Abstrakt by lucid
+Assembly 2013
+
+Crinkler, 4klang
+OpenGL 2, Direct3D 9
+
+code: ltipl
+music: Tripper
+
+> use a large resolution
+> source code included in src/
+
+

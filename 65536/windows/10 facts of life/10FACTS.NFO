@@ -1,0 +1,24 @@
+* 10 facts of life by Skraappa ! Skruuppi *
+
+We made this production for the 10th anniversary of Assembly meeting.
+The base idea was to find out one useless fact for every year.
+
+Code + design	-	Kurkku
+Music + GFX	-	HEXAGON
+3D-Object	-	qavu
+GFX		-	Kimmo
+Ideas		-	JAM + Hellu
+
+Directx 7.0 or newer needed
+
+If intro is not working with your machine, try these on the command line:
+
+-w = windowmode
+-n = nosound
+-e = windowmode and nosound
+
+F6 = switch windowmode<>fullscreen 
+
+I hope you enjoy this. 	-hex
+
+Special Greets to Weed of Coral for additional bug fixing.

@@ -1,0 +1,8 @@
+Entry name: 80's Character Editer.
+Written: Takuji Miyamoto (Team VORC from Japan)
+Handle: XORN
+E-mail: xorn@vorc.org
+URL: http://www.vorc.org
+commnet:
+16x16 monochrome pattern editor. Click to set dots, doubleclick to clear dots.
+It doesn't allow to save the pattern :-P

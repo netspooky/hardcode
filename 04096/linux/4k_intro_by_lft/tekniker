@@ -1,0 +1,13 @@
+Kort beskrivning:
+=================
+
+OpenGL via SDL, skrivet i C och x86-asm. Verktyg: gcc, nasm, vim,
+objdump mm. Handgjord ELF-fil.
+
+
+Lång beskrivning:
+=================
+
+Introt är skrivet i C och x86-assembler, och utnyttjar OpenGL via
+SDL. Verktyg som använts: gcc, nasm, vim, objdump mm. ELF-filen
+är hemmagjord för att minimera filstorleken.

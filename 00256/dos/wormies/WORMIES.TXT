@@ -1,0 +1,11 @@
+Player 1
+    W  up
+    A  left
+    S  right
+    Z  down
+
+
+Player 2
+    uses arrow keys
+
+ESC to end game

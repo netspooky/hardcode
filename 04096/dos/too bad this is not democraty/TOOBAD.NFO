@@ -1,0 +1,51 @@
+
+            ІЫ±                                        ±Ы±
+            ЫЫЫ          ±Ы±                           ЫЫЫ
+       ±Ы±  ±Ы±          ЫЫЫ                           ±Ы±
+       ЫЫЫ               ЫЫЫ
+      ±ЫЫЫ              ±ЫЫЫ±
+   ±ЫЫЫЫЫЫ  ±Ы±   ІЫ±±  ±ЫЫЫЫ±  ±±Ы±±   ±Ы±±І±  ±ЫІ±   ±Ы±   ±±Ы±±   ±Ы±±°І±
+  ЫЫЫЫЫЫЫЫ  ЫЫЫ  ЫЫЫЫЫІ ЫЫЫЫЫ± ±ЫЫЫЫЫ±  ЫЫЫЫЫЫ±ЫЫЫЫЫІ  ЫЫЫ  ±ЫЫЫЫЫ±  ЫЫЫЫЫЫЫІ
+ ±ЫЫ± ±ЫЫЫ  ЫЫЫ ±ЫЫ±±±Ы±±ЫЫЫ± ±ЫЫ± °ЫЫ± ЫЫЫЫЫЫЫЫЫ±±±Ы± ЫЫЫ ±ЫЫ° ±ЫЫ± ЫЫЫ±±ЫЫЫ
+ ЫЫЫ   ЫЫЫ  ЫЫЫ ±ЫЫЫ±    ЫЫЫ  ±ЫЫ   ЫЫІ ЫЫЫ± °ЫЫЫЫ±    ЫЫЫ ±ЫЫ   ЫЫІ ЫЫЫ  ЫЫЫ
+ ЫЫЫ   ЫЫЫ  ЫЫЫ  ЫЫЫЫ±±  ЫЫЫ  ЫЫЫ   ЫЫЫ ЫЫЫ    ЫЫЫЫ±±  ЫЫЫ ЫЫЫ   ЫЫЫ ЫЫЫ  ЫЫЫ
+ ЫЫЫ   ЫЫЫ  ЫЫЫ   ±ЫЫЫЫ± ЫЫЫ  ЫЫЫ   ЫЫЫ ЫЫЫ     ІЫЫЫЫ± ЫЫЫ ЫЫЫ   ЫЫЫ ЫЫЫ  ЫЫЫ
+ ЫЫЫ   ЫЫЫ  ЫЫЫ    ±ЫЫЫЫ ЫЫЫ± ЫЫЫ   ЫЫ± ЫЫЫ      ±ЫЫЫЫ ЫЫЫ ±ЫЫ   ЫЫІ ЫЫЫ  ЫЫЫ
+ ±ЫЫ± ±ЫЫЫ  ЫЫЫ ±Ы±±±ЫЫ± ЫЫЫЫЫ±ЫЫ± ±ЫЫ± ЫЫЫ   ±Ы±±±ЫЫ± ЫЫЫ ±ЫЫ± ±ЫЫ° ЫЫЫ  ЫЫЫ
+  ЫЫЫЫЫЫЫЫ  ЫЫЫ ІЫЫЫЫЫЫ  ±ЫЫЫЫ ІЫЫЫЫЫ±  ЫЫЫ   ±ЫЫЫЫЫЫ  ЫЫЫ  ІЫЫЫЫЫ±  ЫЫЫ  ЫЫЫ
+   ±ЫЫЫЫЫ±  ±Ы±  ±±ЫЫІ    ±ЫЫ±  ІЫЫЫ±   ±Ы±    ±±ЫЫІ   ±Ы±   ±ЫЫЫІ   ±Ы±  ±Ы±
+
+                HERE IS OUR 4KB INTRO FIRST PRESENTED AT ASM-94:
+
+        " ЪВїЪїЪї ВїВїВї  ЪВїїВ.Ъї .Ъї ЪїЪїЪВї ВїВїЪВїЪїВїВї ВїВїВ В "
+           і іііі ГґГґіі   і ГґіАї іАї іііі і  ііГ і іііі ГБїГґі АВЩ
+           Б АЩАЩ БЩБіБЩ,  Б БіБАЩ БАЩ БіАЩ Б  БЩБЩА іАЩБЩЩ ББіБЩ Б
+
+This is not exactly the same intro we showed at ASM, some code was added...
+It was designed to run on the DX2-66 wich was used at ASM-94 to show demos.
+On slow computers, it's not really smooth (let's admit not at all!), but we
+coded it to be less than 4 Kilobytes, not to run perfectly on a 286-16 ISA...
+
+For those who don't know it : a Kb is 1024 bytes, so 4Kb is 4096 bytes.
+That's why this intro is really a 4Kb intro, 'coz it's 4094 bytes long!
+
+I guess you would prefer a well coded intro, but hey! this is not democracy!
+
+
+
+Some credits :
+--------------
+
+           Main code (Wolfenstein-like part)........Paranoia
+           Additional code (+Design)................Dirty
+           Font.....................................Made
+
+If you enjoyed this production (if you were smiling when watching it... :-)
+then please send a postcard to DIRTY:
+
+                              St‚phane Sikora
+                             1 bis rue Cast‚ja
+                              92100 Boulogne
+                                  FRANCE
+
+You'll find more info in DST!.NFO and DISTSITE.NFO files!

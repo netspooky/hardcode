@@ -1,0 +1,88 @@
+--------------------------------------------------------------------------------
+                                                                    ___
+  ________                            ____        .       __       /  /
+  \       \        _______            \   \  ____.%. __  /  \ /\  /  /_  _____
+  _\       \ _____/  __   \____   _____\   \/   /__ /  \/    \  \/  __/ / __  \
+ /  \___   / __   \  \/    \   \ /  __  \      /   |         /  /  /   \  \___/
+/     \/  /  \/    \ /_____/___//_  \/  /      \   |__\  /__/   \_______\ __/___
+\_____/\_/   /      \__\|   \/    \    /___/\___\  |   \/ /        \ /_________/
+        /   /_______/   |   /\     \____/      |___|     /          \
+       /        \  _____|__/_ \_____\___.__'%'_ ________/____________\
+      /__________\/          \ \         \  '  \\          \
+                  \     _____/__\______   \     \\_______   \
+                   \    \_      \    \/    \     \/    \/    \
+                    \     \      \     /    \     \      /    \
+  _____  ____ _______\___________/____/\_____\_'%'_\____/\_____\ ___________
+ /     \/    \\          \/         \   \     \ '   \     \     \\          \
+/       \     \\_______   \    _____/__  \     \     \     \     \\_______   \
+\     __  __   \/    \/    \   \/      \        \     \     \/    \/    \/    \
+ \    \/  \/    \      /    \          /   \     \     \   /\      \      /    \
+  \____\___\____/\____/\_____\________/_____\_____\_____\____\_____/\____/\____/
+                                                                            !NE7
+
+
+     A  P  P  R  O  X  I  M  A  T  E   -   G  A  I  A    M  A  C  H  I  N  A
+                             
+                             F I N A L  V E R S I O N
+
+                                 F O R  G I L E S
+
+                             6 Dec 1976 - 3 Oct 2012
+
+
+--------------------------------------------------------------------------------
+http://approximate.se/
+
+Final Notes:
+
+We started working on a final version straight after Revision 2012 and we had
+planned to release it much sooner. However, the unexpected and tragic passing 
+of our good friend and third member, Giles "meaty" Constant, the coder of
+our synth Mapprox, naturally got in the way of things.
+We are back now however so expect to see more of us soon!
+Scenes have been changed and things optimized. Music has been left untouched.
+
+This one is for you Giles, we miss you! 
+
+
+
+
+Texture quality setting:
+
+Use low if the intro crashes during startup in order to decrease memory
+usage. Use high if you experience any graphical glitches. There
+have been reports of block distortions on some hardware. In particular on
+text and the strawberry glow effect.
+
+
+
+
+
+
+Original Notes:
+
+Cryptic: 
+One hour of sleep so far at Revision. Deadline approaching rapidly.
+Some performance issues remain and the intro has not been tested on AMD for
+a couple of days so there might be some shader issues remaining. 
+Expect a final soon. As usual, bad anti virus software might wrongfully flag
+anything touched by the kkrunchy packer as a virus. This is a
+false positive. Just ignore it. Hope you enjoy!
+
+Giles: Hurrah!  First outing for the new synth in the first intro from
+approximate for nearly 3 years!  Engine rewrites are now usable, so expect
+more from this space..  see you all at assembly..   word!  ~meaty
+
+Velo: Yes yes yall. Rockin revision like one should. Made the music, got drunk,
+made some more, woke up, removed some. Right now cryptic is stressed. Meaty is
+on irc and im boozing. I love not being a coder.
+
+
+Greetings to:
+
+#ukscene allstars, Fairlight, EDiS, Tulou, Ate bit, Scullar, Triad,  DCS,
+Nature, flowersFX, Outbreak, Conspiracy, cellfish, Ctrl-Alt-Test, Razor1911,
+Traktor, Whazzah, SystemK, Farbrausch, The Gang, rgba and thanks to xwize 
+for coming up with the name.
+
+Packed using kkrunchy by ryg^farbrausch

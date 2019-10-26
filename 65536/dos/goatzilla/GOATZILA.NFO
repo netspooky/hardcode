@@ -1,0 +1,90 @@
+
+                       -ş- Goatzilla by Noice -ş-
+
+         - A computer demonstration released at Dreamhack 1998 -
+
+
+                          [compo version]
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Legal Notice:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+This intro is free to spread and copy as much as you want.
+If you put this on a CD availible the public in any way, please
+send one copy to us.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+System requirements:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ş Pentium 166 (or better), 16 Mb of RAM, 2 Mb of HD.
+ş Vesa 2.0+ (use ScitechDisplayDoctor (www.scitechsoftware.com))
+ş A gravis ultrasoundcard is very nice...
+
+The intro is best seen in 320x240 16/15 bits truecolor videomode.
+
+You must runt this version of goatzilla in plain DOS with himem.sys ONLY.
+In the package you will find CWSDPMI.EXE which can be used to gain DPMI
+under EMM386.EXE and others..
+
+DONT run this version under Windows, the player will not work!!!!!!!!!
+
+If you dont have a gravisultrasound, please wait for final release.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Main Credits:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Coding.....: Gnilk
+Music......: Andromeda
+Graphics...: Flood
+3D logos...: Rico
+
+Additional Credits:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Krikkit....: Fractal zooming algo (the realtime worked pretty fine.. =)
+
+Additional Credits:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Musicsystem: MXMplay by Pascal / Cubic Team
+Extender...: Wext by Whizzter / Woorlic
+Cwsdpmi....: Charles W Sandmann
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Worthless knowing & tech info.
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+The demo works with 32 bit RGBA internally regardless of the videomode.
+If you run it with 15 bits resolution everything is still processed with
+32 bits RGBA internally then converted to 15 bits for each pixel.
+
+This is the first "real" intro released by Noice. It might work pretty
+shitty on slower machines.. When making this intro I thought there would
+be no space for pre-made stuff (vector objects and such) therefore
+everything is realtime calculated..    For exemple there are NO stored
+sine-tables for the matrix operations..  and such...
+This was a mistake from my point of view...
+There was quite a bit of space left..  It was used for the 3 intro 3d-logos..
+And the 3 pictures drawn by flood.
+
+
+ş The fractalzoomer is (obvious) in realtime. Since it depends on previous
+  drawn frames I didnt feel like putting it on the IRQ timer..
+  On my computer (PII 400) it runs approx with 30 fps.
+  The only limit in the zoomer is the FPU (i.e. calculates until reaching the
+  limit of the fpu).
+
+ş The polygon filler(s) are probably the worst fillers ever made...
+  Although they use Z-buffering and such...   (wow!)
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+Greetings:
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ ş Cryonics ş Limited Edition ş Outbreak ş
+ ş TBL ş Triad ş Woorlic ş Kosmic ş Rage ş TPOLM ş
+
+
+
+    For futher information and more detailed credits visit our web-site.
+
+
+                www.noice.org - the center of goatology
+

@@ -1,0 +1,134 @@
+   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+   ³ 1. ABOUT...                           ³
+   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³
+   ³  ş Intro requirements
+   :
+   ú    The intro requires..
+
+           ş 386+
+           ş VGA combatible video card
+           ş 600kB free conventionel memory
+
+         Optional..
+
+           ş GUS with 20kB ram :) /SB or nosound also available
+           ş P6 or Cray II (recomended)
+           ş Fast CGA card (Bratislava's LOCAL BUS traffic)
+
+           ş The intro is able to run in MiST Ultrasupermode(TM) :)
+
+
+
+      Disclaimer:
+      You are using this on your own risk!
+      (We will be very happy, if any damage occurs,
+       like harddisk crashes, monitor blanking, eye or ear damages,
+       your dog dies, etc.)
+
+   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+   ³ 2. The story of MiST...               ³
+   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³
+   ³  MiST is a BEST slovak :) demogroup founded in 1994.
+   :
+   ú  The current members of MiST are:
+
+
+   ³ real name     ³ handle        ³ job in group       ³ age
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÀÄÄÄÄ---úúúúú
+   ³ J. Duris      ³ HeadbangeR    ³ Main coder         ³ 16
+   ³ I. Klimo      ³ Voomie        ³ Coder/3d gfx       ³ 16
+   ³ M. Gallo      ³ Mirage        ³ Graphician         ³ 16
+   ³ A. Hrnciar    ³ Gurun         ³ Musician/alcoholic ³ 16
+   ³ V. Pozgay     ³ ViC           ³ Saboteur/coder     ³ 16
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÀÄÄÄÄ---úúúúú
+
+   For joining, friendship, questions etc. write to:
+
+   ³HeadbangeR      ³Voomie          ³Mirage          ³Gurun
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÀÄÄÄÄÄÄÄÄÄÄÄÄ---úúúúú
+   ³J. Duris        ³I. Klimo        ³M. Gallo        ³A. Hrnciar
+   ³H. Melickovej 9 ³Kosicka 50      ³Viglasska 11    ³
+   ³84105 Bratislava³82108 Bratislava³85106 Bratislava³
+   ³Slovakia        ³Slovakia        ³Slovakia        ³Slovakia
+   ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÀÄÄÄÄÄÄÄÄÄÄÄÄ---úúúúú
+
+   We're searching for a good musician.
+   (Death-metal fans/composers are welcome)
+
+      MiST releases so far are:
+
+        ş Name          Type              Note
+     úúú-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úúúúú
+        ş ZOANTROPHY    DEMO              Winner of DemoBit `95
+        ş ALCHYMIA      64K-INTRO         ?st place on Ass-embly `95
+
+        All products were released in 1995
+
+   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+   ³ 3. Distribution...                    ³
+   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³
+   ³  This material is not freeware. You are allowed to copy it without
+   :  restrictions for non-commercial use.
+   ú  No payment of any kind may be charged for this product or any
+      combination of products or services including this product without
+      our authorization and official written license.
+      Commercial use, especially the industrial manufacturing on any
+      data storage media and their distribution without the expressed
+      permission of the producer, is strictly prohibited.
+      This program or the data files contained herein may not be altered
+      or modified without the permission of the author.
+      You take full responsibility for the operation of this software
+      and any conssequences thereof. We the creators cannot accept
+      liability for damages or failures arising from the use of this
+      software.
+
+   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+   ³ 4. Creditz...                         ³
+   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³
+   ³  HeadbangeR...GUS/SB replay and all code  
+   ú  Voomie.......All object handmaded/generated, animations, code ideas for    
+                   bump and shadow
+      Mirage.......Alchymia logo, background and font
+      Gurun........All, what you hear, except bugs from our player :)
+
+   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+   ³ 5. Comments...                        ³
+   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³
+   ³  All code is done by us, no ripped routines, no TD use.
+   :  All objects are handmade or generated, no 3ds CD-ROM stuff.
+   ú  All gfx is handpainted, textures are realtime generated.
+
+      Most of the code is slow 'cos : "640 kB should be enough for everyone."
+      (Neither for me..)
+      I hate EMM386, (see Assembly `95 info...) - real memory mode rulez!
+
+      This intro is done in month(I don't say that my harddisk crash :)),
+      even GUS/SB replay, which is coded in one week, then don't blame our
+      musician, if you think that muzak suck. And other thing to muzak...
+      My ears are "damaged" from my favourite "computer muzak", like
+      Napalm Death, Cannibal Corpse, Morbid Angel, etc.. I don't hear any
+      diference in my player and others, except very sucked vibrato and
+      "pukking"... Volume ramping rulez, but only if you can code
+      it into 50 bytes, which are still free... :)
+
+      And remeber: This is not demo, this is only AWESOME 64k-intro!
+
+   ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+   ³ 6. Greetings....                      ³
+   ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+   ³
+   ³  Greetings fall on:
+   :
+   ú    ş Xtacy (Why? What do you think...;-)
+
+        ş Access Denied ş Acme ş Admire ş Capacala ş Cascada ş Complex ş
+        ş Dust ş EMF ş FM (Five Musicians) ş Future crew ş Iguana ş
+        ş Impact Studios ş ImphobiaCascada ş Inertia ş Infiny ş Legend Design ş
+        ş Nooon ş ????? ş Tran ş Triton ş Valhalla ş VLA ş Xography ş
+
+

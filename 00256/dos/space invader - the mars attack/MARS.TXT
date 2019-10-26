@@ -1,0 +1,74 @@
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*;
+; Title    : Space Invader - The Mars Attack                            ;
+; Date     : 28 February 1998                                           ;
+; Author   : Ang Chin Keong, 16+ years old student, from Malaysia.      ;
+; E-mail   : chinkeog@tm.net.my                                         ;
+; Homepage : http://www.geocities.com/SiliconValley/Haven/1234/         ;
+; Purpose  : Written for The 256 bytes Space Invaders Competition       ;
+;            http://www.daimi.aau.dk/~u972780/                          ;
+; Compile  : Type "TASM MARS" and "TLINK /t MARS"                       ;
+; Note     : This is my first game written in Assembly Language.        ;
+;          : I wrote it on my 486DX2-66 using TASM 2.0 + TLINK 3.0      ;
+;            It is the hardest program i ever write in ASM language     ;
+;            and i learned a lot while writing this game.               ;
+; Special thanks to Kaare Fiedler Christiansen                          ;
+;*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*;
+
+Requirements
+------------
+A human but not alien :)
+IBM or 100% Compatible PC with
+* 386+ Processor
+* Colour monitor
+* RAM <= 1K free space
+* 1 cluster free disk space.
+* Keyboard with cursor keys and right shift key.
+* MS-DOS or compatible operating system.
+
+Recommended
+-----------
+Play it under DOS full screen.
+
+Story
+-----
+   There are some aliens living on Mars and nobody ever discover them.
+They looked like crabs and they walk like crabs too ( horizontal ).
+   One day they decided to invade earth, because all earth's citizen had
+goto vacation on moon and other planets except you. You are alone on
+earth now, playing computer game call Space Invader VIII. Then suddenly
+you saw a lot of aliens on the sky flying horizontally surrounding earth
+while trying to land on earth. Fortunately they forgot to bring weapons
+because of their stupid commander thought that there is nobody on earth.
+So you quickly jump into your jet and ......
+
+How to Play
+-----------
+
+The enemies is moving from west to east (left to right) sorrounding the earth
+when they reappear on west (left) they are 500km (1 line) nearer. You will
+have to kill them all before they kill you, although they don't have weapons
+they still can kill you by knocking you down when they get near you. They
+will get more angry each time you kill their friends so they will move faster
+and faster. You can only move like them,if want to move nearer to the enemies
+then you move left or you want to get away then move right. You will crush
+on earth if you keep on moving to the right, because your jet cann't fly
+under ground. Some stronger enemies have more than one hitspoint, so you
+have to shoot them a few times. When you are chasing by the enemies and
+if you think you have courage then move toward them and if you are lucky
+enough you may survive.
+
+Summary:
+
+Kill them before they kill you.
+You win if all enemies die and you loose if you disappear from the screen.
+
+Keys:
+
+Press ESC to quit game.
+Press RIGHT SHIFT to fire.
+Press LELT ARROW KEY or RIGHT ARROW KEY to move.
+Press PAUSE to pause and any other key to continue.
+
+That's all folks!
+-----------------
+By Ang Chin Keong

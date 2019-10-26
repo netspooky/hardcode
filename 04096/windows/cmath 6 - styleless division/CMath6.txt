@@ -1,0 +1,26 @@
+#include <cmath>
+
+\-/ returns ! - http://www.games-net.de/hosted/tggc
+___________________________________________________
+
+
+  CMath 6       :-: Styleless Division
+
+  Code          :-: TGGC
+
+  Packer        :-: Crinkler 0.4a (http://www.crinkler.net)
+
+  running time  :-: 1m 54s
+
+
+  greets        :-: Bauknecht, Calodox, Exceed, Fairlight, Farbrausch, Fuzzion
+                    Haujobb, Kolor, Metalvotze, Nuance, Speckdrumm, Titan
+                    atla, BlueCobold, mcdeck, matt|6s, pro, rapso,
+                    rip, Sgt. Nukem, TomasRiker, Volkard
+                    anyone else from #gamedev.ger und #cpp
+
+  add. greets   :-: everyone
+                    and ZFX members
+
+
+  Tested and running on Win2k and WinXP. Should work on any Geforce or Radeon.

@@ -1,0 +1,38 @@
+
+Loonies present
+
+Quietschi Bunti - the (misheard?) lyrics
+
+A 4k parody of "Quietschi Bunti" by Nuance
+
+for the 4k intro competition at Kindergarden 2012
+
+
+Credits:
+
+Sound: Chock / Nuance
+Reverse engineering, lyrics interpretation, visuals: Blueberry
+
+
+Background:
+
+"Quietschi Bunti", a 4k intro released at Demodays 2012,
+featured a synthetic singing voice, but due lack of on-screen
+lyrics, it was a bit hard to hear what exactly it was singing.
+This intro seeks to rectify that. :)
+
+
+Legal note:
+
+The original intro was released under the Creative Commons
+by-nc-nd 3.0 license, which prohibits derivative works. It
+specifically prohibits using a thus licensed sound work from
+being used as soundtrack for another visual work. Excepted
+from this prohibition are instances of "fair use", of which
+one example is a parody, i.e. a work which includes a
+(possibly substantial) part of the original work in order to
+comment on the original work. It is my firm belief that this
+intro qualifies as a parody by this definition and thus can
+be considered a fair use of the original material.
+
+Apologies anyway. ;)

@@ -1,0 +1,3 @@
+"Scrolling of feathery string" by Mips
+
+test: IE5.0, Win98SE

@@ -1,0 +1,19 @@
+        |----\   /---\   |     | |\    |  /---\  |-----    |
+        |     | |     |  |     | | \   | |     | |         |
+        |____/  |     |  |     | | |   | |       |         |
+        |     \ |     |  |     | |  \  | |       |----     |
+        |     | |     |  |     | |   \ | |       |         |
+        |     | |     |  |     | |   | | |     | |
+        |____/   \___/    \___/  |    \|  \___/  |_____    O
+
+
+Copyright 1995 Steve Metke
+
+
+This is my entry into the under 256 byte game contest!
+Instructions:
+
+Numpad 4 for left
+Numpad 6 for right
+
+Thats it! Have fun!

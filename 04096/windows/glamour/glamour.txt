@@ -1,0 +1,40 @@
+
+
+	GLamour
+	by Nap/Dilemma
+	an OpenGL 4k intro                                           2000.04.20
+	to Mekka & Symposium 2000                               Made in Hungary
+
+-------------------------------------------------------------------------------
+
+	requirements
+
+	- windows 95/98
+	- 3d card with OpenGL support
+	- some RAM
+
+	facts
+
+	- flying and blended polygons (16k faces)
+	- textured torus
+	- blended torus
+	- chesstable in fog
+
+	notes
+
+	- about 64 hours coding from absolute nothing
+	- this is the first OpenGL 4k in the world?
+
+	thanks
+
+	- Brix/Dilemma (a bit of help in glFrustum)
+	- Jibz (apack)
+	- Laszlo Molnar & Markus Oberhumer (upx)
+
+	greetings
+
+	- you know
+
+	contact
+
+	- nap/dilemma (nap@scene-hu.com)

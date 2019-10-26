@@ -1,0 +1,22 @@
+Insa - a 32-byte DOS intro from the Puppy Farm
+
+Source:
+
+
+00000000 B013             mov	al,13h
+00000002 CD10             int	10h
+00000004 C537             lds	si,[bx]
+00000006 1E               push	ds
+00000007 07               pop	es
+00000008 97               xchg	di,ax
+00000009 19BB40C7         sbb	[bp+di+0C740h],di
+0000000D 00B95701         add	[bx+di+0157h],bh
+00000011 4B               dec	bx
+00000012 04F4             add	al,0F4h
+00000014 EF               out	dx,ax
+00000015 F6DF             neg	bh
+00000017 B90547           mov	cx,4705h
+0000001A 75EA             jnz	000000006h
+0000001C 41               inc	cx
+0000001D 75EB             jnz	00000000Ah
+0000001F E7               db	0E7h

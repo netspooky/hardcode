@@ -1,0 +1,61 @@
+This intro was first presented at the PCintro compo at Icing 97.
+It was coded in Watcom C++, using Pmodew by Thomas Pytel and Charles Scheffold.
+The musicsystem was done by Pascal. We also used Pascals fmath library.
+The intro has several names. Choose name by hitting spacebar in the beginning
+of the intro. Requires GUS for sound.
+
+credits
+Coding: Anvil, Ally
+Music: Evade
+
+Personal greetings:
+Breakin /Outbreak
+Reanimator /Obscure
+Ob1 /Obscure
+Sharq /Getinge
+Moonchild /Primary
+
+Calle,Patrik,Enes,Kamis,H-Can,Anton och alla andra skummisar i N1D
+Hela klass N3E som tog studenten p† Kattegattgymnasiet sommaren 97.
+All in #coders, #swedescene, #scene.se
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Allting har ett slut, „ven denna filen, s†vida man inte „r troende hinduist,
+ty dessa har en cyclisk kronologi och tror att allting b”rjar om p† nytt,
+till skillnad fr†n den tradionella kristna tron som har en helt linj„r
+tidsuppfattning, med en best„mmd b”rjan och ett best„mmt slut.
+V„rldens sourcecode borde allts† se utt n†tt p† f”ljande vis.
+
+If(religion==hindu)
+        {
+        while(1)
+                liv();
+        }
+else
+        {
+        liv();
+        exit(0);
+        }
+Fast gud kodade f”rst†ss assembler

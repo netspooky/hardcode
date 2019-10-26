@@ -1,0 +1,33 @@
+512b.domination.bat - released at NVScene 2008, San Jose.
+
+Technical notes from Polaris / Northern Dragons
+-----------------------------------------------
+This production is a unique " experiment in the "fringes" 
+of intro development.  It uses the cab dropping technique
+to drop two files locally that are used during the 
+production.
+
+x 	- x is a Microsoft cursor file, used to hide the
+	  cursor when the production is running.  
+x.hta	- x.hta - Is a "Html for applications" program.
+	  it is responsible for the setup of the screen
+	  playback of music, and display of the graphics 
+	  that are displayed. As a Microsoft HTA, it is 
+	  using windows gdi for graphics and is largely
+	  driven by Javascript.
+
+Once the hta is finished executing, the program deletes
+the temporary files and returns the user to the OS.
+
+I release  this at NVscene, in the hopes that the technique
+capture  peoples imagination - and to show that there are
+still pages to be turned in terms of "using" or "exploiting"
+the local OS for intro development and fun.  I believe this
+is the first “HTA Dropping intro” released in the world.  
+
+Have a look at \source\ - which includes make.bat, and 
+the source bits.  If you re-cycle this technique – please
+greet me!
+
+Polaris / Northern Dragons
+[polaris@northerndragons.ca]/08-26-2008

@@ -1,0 +1,10 @@
+xorgenscroll
+------------
+
+A 32b intro by Optimus/Dirty Minds^Nasty Bugs
+
+This is just a scrolling XOR texture. I didn't enjoyed coding it because it was too easy and I really couldn't think what else can I do in such a tiny space. Has to be run for about 1+ minute in order to show some nicer patterns. Still,. I think it's buggy. I also implemented Vsync even if it kills me 10 bytes. Because I really don't know how fast this would go in the compo machine without it! The thing that I don't like in the very tiny intros is the fact that you better have to not use escape key, not return back to textmode, not use Vsync. I like clean things. But anyways, they are fun. Let's see what is possible in 32b at 0A000h. I am wondering..
+
+Compiled with FASM.
+
+optimus6128@yahoo.gr

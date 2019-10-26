@@ -1,0 +1,13 @@
+Party Eye
+--------
+
+A 256b prod by lord Kelvin.
+
+Drugs suck. Just so you know.
+In this intro you can see an eye of someone, who used mdma or speed. Don`t try this at home.;)
+
+Greatings to Rudik, for help in design!
+
+Compiled with FASM.
+
+Great hello from Russia.=)

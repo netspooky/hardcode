@@ -1,0 +1,148 @@
+
+usage: ../peluce/peluce [options] where options include:
+
+  help       this text
+  shutup     be quiet - only output the essentials
+
+  x          video to X11 window (bitmapped)
+  tty        video to terminal at stdout
+  vcsa       video to linux console (/dev/vcsa*)
+
+  ascii      only use ascii characters
+  ibm        use ibm/vga character set
+  color      use color (16x8 with ibm, 8x1 with ascii)
+  mono       don't use color or attributes
+
+  lang s     set locale/language to s (e.g. en, fi)
+
+  nosound    no sound
+  novideo    no video output
+
+  volume v   set soft volume to v (numeric, default 32)
+
+advanced options:
+
+  term s     set terminal type to s (e.g. xterm-color, vt100, ansi)
+  height x   set buffer height (default = fullwindow)
+  width x    set buffer width (default = fullwindow)
+
+  colcfg x   color configuration: 0=16x16, 1=8fg 2=8bg, 3=8x8
+             8=monochrome, 9=vtattributes
+  trans n    charset: 1=ibm, 2=ascii, 3=ascii-pure
+  rastcfg n  raster rendering mode: 0==fg+bg 1=fgonly 2=mono
+  nohalve    always use one character cell to represent a pixel
+
+  fbytes n   bytes/frame threshold (optimize frame if exceeded)
+  fdelay n   delay after each frame (milliseconds)
+
+  bps n      non-rt: fix to n bits per second, no delay
+  fps n      non-rt: fix to n frames per second, no delay
+
+  pvp        output in pwp video phormat (stdout)
+
+------------
+
+  ibm=176,177,178,219,220,223
+
+  definitions for compilation
+     LEGACY        support ansi art etc stuff in <=1998 demos
+     BELLWHISTLED  support weirdo targets etc
+
+-----------------------------------------------------------------------------------
+
+
+
+main targets
+
+	X11
+		* bitmap (mainly 8/16/24/32 bpp, also 1 and 4?)
+		  use lookuptables; variable pixel size
+
+	Terminals
+		* ansi    (-ibm -color)
+		* colorvt (-ascii -color)
+		* vt100   (-ascii -mono)
+
+	VCSA
+		if -ibm or -ascii not specified: check font, select ibm or ascii
+
+sound targets
+
+	OSS
+	ESD
+	ALSA
+	/dev/audio
+
+	Linux beeps
+	X11 beeps
+
+special targets
+
+	X11-font
+
+	vt220
+		- char redef
+
+	termcap/terminfo
+		- 
+	
+
+	internal Xlib (raw socket access)
+
+	telnet
+	
+	web (html/changing_gif/multihtml)
+
+	non-realtime video: terminal-fixedcps / avi_or_something (fixed fps)
+	non-realtime sound: raw or pwpsound
+
+===================
+
+easy options
+	-ascii		ascii graphic
+	-ibm		ibm graphic
+	-color		16x8 for ibm,  8x1 for ascii
+	-color16	16x1 for ascii?
+	-mono		no color codes or attributes
+
+	-x/-tty/-vcsa		video
+	-oss/-esd/-alsa/-au	digital audio
+	-Xbeep/-linuxbeep/...	beep audio
+
+	try to fix charlookup prevention
+
+-------------------------------------------------------------
+
+	X11
+	   -font			use a font
+	   -color
+	   -ibm				
+	Terminals
+	   -ascii			assume ascii charset
+	   -ibm				assume ibm charset
+
+	   -color			8x16 
+	   -mono
+	
+	   -ansi			-color -ibm
+	   -ibm				no fontcheck, assume ibm
+	   -ascii			no fontcheck, assume ascii
+
+	   -color	-nocolor	
+	   -raster	-noraster	use 
+	   -ibm				ibm rasterchars
+	   -termcap			use termcap instead of vt100
+	VCSA (check font, select output)
+	   -vcsa [-color] [-raster]
+
+	then use either ascii8x1 or raster16x8 - optional raster16x16)
+
+	simplify the interface
+
+=======================================================================
+=======================================================================
+
+	- generic terminal output (termcap/terminfo)
+	- lossy filtering to speed up remote transfers
+	- finish pvp support
+

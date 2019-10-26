@@ -1,0 +1,25 @@
+static const char *g_shader_header = ""
+#if defined(USE_LD)
+"header.glsl"
+#else
+"#version 430 compatibility\n"
+"layout(location=0)uniform ivec3[6] t;"
+"layout(location=8)uniform sampler3D n;"
+"vec2 m(vec2 e)"
+"{"
+"return vec2(e.r,abs(e.g));"
+"}"
+"vec2 s(vec2 e)"
+"{"
+"return vec2(log(length(e)),atan(e.g,e.r));"
+"}"
+"float f(vec3 t)"
+"{"
+"mat3 e=mat3(-.99,-.16,.02,.14,-.77,.63,-.08,.62,.78);"
+"vec3 c=e*t,o=e*c*3;"
+"return texture(n,c).r*.6+texture(n,o).r*.3+texture(n,e*o*3).r*.1;"
+"}"
+"float l=float(t[5].r)/t[5].g,b=mix(float(t[4].r),float(t[4].g),l);"
+"vec3 i=mix(vec3(t[0]),vec3(t[1]),l);"
+#endif
+"";

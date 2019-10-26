@@ -1,0 +1,70 @@
+
+ [  genia  ]
+
+
+
+ [  welcome  ]
+    [  finally it is here...  ]
+
+ [  copyrights, disclaimer of warranty  ]
+    [  this  production is freeware and can be freely distributed as long
+       as  no files  in the archive  are modified,  added or deleted.  no
+       money can be charged for the distribution of this production  ]
+    [  by  reading  and  understanding this paragraph, you agree that we,
+       remal,  cannot  be held liable for any software or hardware damage
+       arising from the use or misuse of this software  ]
+
+ [  system requirements  ]
+    [  i80386 compatible cpu, 4m memory
+       vga
+       gravis ultrasound with 512k onboard memory  ]
+    [  ultrasnd, ultradir environment variables set correctly
+       ultrasound patch files installed in the midi directory  ]
+
+ [  credits  ]
+    [  code by sb, music by illegal, design by remal  ]
+    [  some objects and some pictures are from various cds  ]
+
+ [  keys, command line parameters, troubleshouting  ]
+    [  the demo is looped, so is suitable to run at exhibitions and likes  ]
+    [  you can  quit  immediatelly  by pressing esc,  ctrl-esc  skips the
+       actual part and jumps to the next
+       keychecking is disabled during the "wait!"-s  ]
+    [  if  your monitor flickers  during the intro,  you can run it  with
+       the /S switch. note, that /s -S -s don't work  ]
+
+ [  thanks and greetings from sb  ]
+    [  thanks  to  the  organizers  of  scenest 96 for allowing the party
+       version to compete in the introcompo (they know why)
+       also  thanks  to  the  advanced  gravis  company  for the hardware
+       support and tran for pmode  ]
+    [  kind  regards  to  banaùremal,  netronùremal,  m„rque,  almaùgrif,
+       melanùastroidea,    dabùpromise,    maxwoodùmajic12,    rattùgrif,
+       dotùunicorn  (thanks for the packer, which i didn't manage to use,
+       although),    reidùunicorn    (what    is    the    password   for
+       notsoft.rar???),  pragerùfascination,  hanxùurinate, figaroùshock,
+       atxùshock,      cyberdancerùshock,     gregùshock,     rianùshock,
+       bisounoursùtt,    mafùcamorra,   smurfùhypervibe,   thorùcreation,
+       cameronùresolution, ervinùabaddon and cryptodancer ]
+
+ [  greetings and messages from illegal  ]
+    [  greetings  to  zedùremal,  eptonùremal, netronùremal, m„rque, trs,
+       atxùshock,  rianùshock,  tntùbhz,  bepe,  dlux,  johnnyùcg and all
+       illegal fans...  ]
+    [  sorry for the boring music, i had to make it during the party  ]
+
+ [  contact information  ]
+    [ sbùremal's mail: Somogyi Bal zs
+                       9028 Gy”r
+                       Sz‚na u. 13.
+                       Hungary
+                 e-mail: somogyib@rs3.szif.hu
+                 telephone: +36-96-433981  ]
+    [ illegal's mail: Fodor M riusz
+                      2890 Tata
+                      Veres P‚ter u. 34.
+                      Hungary  ]
+
+
+
+ [  signed by zed  ]

@@ -1,0 +1,28 @@
+
+ visit berlin
+   by Peisik
+
+   a 4k intro for Deadline 2017
+
+
+code & music by cce
+
+Thanks:
+  Blueberry & Mentor for Crinkler
+  gopher for 4klang
+  LLB for Shader Minifier
+  Mercury (i stole some stuff off hg_sdf)
+  las, nystep, iq for tricks
+  noby for intro framework code
+
+Oldschool greetingz:
+  Faemiyah, Logicoma, Conspiracy, Collapse,
+  Poo-Brain, Dither, Tomohiro, 0x4015,
+  visy, LJ, rimina, noby, fizzer, osyn,
+  varko, supramaterial, sooda, cyndis,
+  umbrian chilimasters, Virgill,
+  #korpo, flamero, tsurbf, make, msqrt
+
+Tested with NVIDIA Only™.
+Might contain traces of Huoratron.
+

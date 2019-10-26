@@ -1,0 +1,194 @@
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+
+                        GENESiS : Christmas Intro'99
+                          (in glorious 13h mode)
+                          
+                   http://www.biosys.net/genesis_demogroup
+
+-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+
+        ! Con nuevos y alucinantes chistes en la secci¢n "humor" !
+
+> Index:
+    > 1: Credits
+    > 2: Complete Requirements
+    > 3: Technical Facts
+    > 4: iq tecleando   (maaqulei@bicc00.bi.ehu.es )
+    > 5: murci so¤ando  (asier@urnieta.net)
+    > 6: Greetings, Respects, Salutations & More
+    > 7: Legal Stuff
+    > 8: Humor
+
+> 1: Credits
+
+    Code:      iq  &  murci
+    Art 2d:    Mc_Tr & Reality3D
+    Art 3d:    iq
+    Music:     Deep Noise
+    Design:    uhmm...nobody
+    Ascii art: Mc_Tr
+    Pmodew:    Charles & Thomas
+    Player:    FreddyV/Useless
+
+
+> 2: Complete Requirements
+
+    Processor: P166 (it should work in a 386 with fpu)
+    Sound:     Any sound card (USM player)
+    Memory:    ?? MB 
+    Graphics:  A simple VGA!
+    Os:        Pure DOS (not tested under Win9x)
+
+
+
+> 3: Technical Facts
+    
+    todo::lo que aparece en la intro esta  generado, excepto  el  m¢dulo,
+    las fuentes y el gr fico del t¡tulo pero todo se andar ...
+
+    Ui! esto es de la Rare... sorry, jejeje
+
+    Bueno, poco que comentar. Esta intro, igual que la fake, es un cut&paste
+    de la Rare.  Esta vez lo £nico que es fractal es el suelo  de nieve.  El
+    resto de las mallas 3D por supuesto tambi‚n son generadas (¨no pensar‚is
+    que  estamos  tan  locos  de  meter  objetos  3D  as¡  a lo  loco, no ?)
+
+    Esta vez los graficos no son generados,  pero supongo que  de no ser que
+    est‚is  tan borrachos como  nosotros mientras program bamos  la intro os
+    abr‚is dado cuenta de ello :-)
+
+    El m¢dulo ocuba apenas 13Kb  y es obra de Deep, un maestro incluso de la
+    musica chip como ha demostrado esta vez (deepnoise@mixmail.com)
+
+> 4: iq al tecleando
+
+    Bueno, una vez m s escribiendo el nfo de una intro, que al final es lo
+    m s divertido. Menos mal que ahora no tengo whisky al lado del teclado
+    que si no no acabo esto nunca.
+
+    Pues s¡,  en vez de  utilizar  el tiempo  para seguir programando cosas
+    serias (la nueva intro) perdemos el tiempo con estas cosillas. Pero as¡
+    al menos saludamos  a la  pe¤a de la scene y lo que es m s importante::
+    olvidamos nuestros problemas.
+
+    Receta para las vainas:
+
+    0) Quitar los bordes a las vainas y partirlas en 2 o 3 pedazos (en
+       sentido transversal)
+    1) Pelar y partir tres patatas
+    2) Poner en un puchero las vainas y las patatas con agua suficiente
+       y un poco de aceite y sal. Tened cuidado de que nadie os eche
+       tequila en vez de agua (te voy a matar, Rufus)
+    3) Dejar haciendo hasta que la oya(YA) eche vapor. Entonces esperad
+       3 o 4 minutos m s y despu‚s apagad el fuego y dejad que se sigan
+       haciendo con el calor remanente. Cuando se enfrien, a comer.
+
+    ¨f cil eh? (feliz d¡a de gases intestinales)
+
+
+    * Tema filos¢fico::
+    ¨ Alguien sabe porqu‚ 2+3=3+2 ?
+
+
+    * Tema sentimental::
+
+    Te quiero Maribel, no consigo curarme, te quiero demasiado. Por favor,
+    que acabe esto ya. No aguanto querer irme contigo agarrados de la mano
+    hasta el final del mundo y tan s¢lo tener que conformarte con una mera
+    amistad. Si alg£n d¡a me escuchases con atenci¢n oir¡as los latidos de
+    mi coraz¢n, fuertes, apasionados, ... olvidados.
+
+    Te regalo un poemilla (aunque ya lo has le¡do)
+
+    " Porque el amor es como un juego bromista,
+      como un juego es la vida misma,
+      en el que unos aman pero pierden
+      y otros aman y adem s a ellos tambi‚n les quieren.
+
+      Y si t£ supieses lo mucho que te amo,
+      o tuvieses mi coraz¢n en mi mano,
+      ver¡as que me tienes totalmente loco,
+      que como las monta¤as a la luna te adoro,
+      y sabr¡as cu nto ans¡o tu compa¤¡a
+      aunque no te lo haya dicho todav¡a.
+
+      Porque te terrible miedo tengo de perder la partida
+      y conocer lo cruel que es entonces la vida. "
+      
+
+> 5: murci so¤ando
+
+    Ok, no more stupid info from here. Just take a look at me and realize
+    that i'm your saviour. Smoke, alcohol, loud music, light rays and
+    girls, and me standing right here waiting for my hour to come. This is
+    not the way it was meant to be, but it's the way it is. All spins
+    around my head and thousands of those nasty little green mem sing a
+    song of grieving exploding my ears...
+    (esto es efecto de los antibioticos y las aspirinas)
+
+    Otra producci¢n m s! Aqu¡ estamos de nuevo para felicitaros las fiestas
+    del  modo m s scener posible  (sin incluir alcohol). Esperamos que este
+    nuevo a¤o el despegue de  la scena espa¤ola sea importante y consigamos
+    hacernos  oir  por  ah¡  fuera...fuera...fuera... ( es  que  todos  mis
+    pensamientos retunban en mi cabeza).  Que santa klauz,  papa n”el,  los
+    reyes, el olentzero o la bruja piruja  os traigan todo lo que le pid is
+    (si hab‚is sido buenos chicos por supuesto)  y  que  las navidades sean
+    en  truecolor para todos  (as¡ tendremos m s  tonos de  blanco, incluso
+    blanco con matices crom ticos), y que a iq le traigan un teclado nuevo,
+    con letras en las teclas y que no huela  a ron  con cocacola... (iq::yo
+    preferir¡a otro regalo...s¡, s¡ Enlar, ESE )
+
+    Bufff, vaya mono de party  llevo encima! necesito  una party!  necesito
+    codear,  necesito deadlines,  necesito beethoven's,  necesito  horas de
+    sue¤o, necesito una chica...
+
+
+> 6: Greetings, Respects, Salutations & More
+
+    We greet: centosis  savage/mcd  dsk! virutateam  wildbits    capsule
+              purplestudios    elite    k5    network        v.fantasies
+              wavemasters     anaconda     senco     rgb       cucmakers   
+
+    We adore: theblacklotus    matrix    halcyon    byterapers     fudge
+              purple  blasphemy  acme  sunflower/pulse
+
+    iq    loves: maribel (pero me estoy curando)
+    murci loves: clara (y yo quiero curarmeee!!!!)
+
+    Additional greets:  DJ:            por ser tan paciente y ser el
+                                       culpable de la secci¢n "humor".
+                        RufusMalignus: por darnos de beber mientras
+                                       program bamos
+                        Josdino:       proveedor oficial de alcohol
+
+                        Kaiser:        ­tienes que curarte!
+                        ElMamonDelHermanoDeMurci
+                        LasChicasDeLaResi: hello!
+
+
+> 8: Legal stuff
+
+    We are not resposible for any damage caused by this software on your
+    computer  system...we  are not  responsible  for  anything anyway...
+
+> 9: Humor
+
+    N£mero 2 de las saga de chistes (N§1 en RARE.NFO).
+
+    Okis, aqu¡ lanzamos la £ltima hornada de chistes para sceners:
+        
+    * "Trident", la tarjeta que recomiendan 9 de cada 10 coders.
+
+    * Las t¡as son como el TASM, le dan varias pasadas a cada frase
+      (para sacarle todos los sentidos posibles)
+
+    * La CYSP es una demo tem tica: Cagando Y Sin Papel, tazas de bater
+      volando, un cuarto de ba¤o, rollos de papel higi‚nico, y adem s la
+      demo es una mierda!
+    
+    * Est is muy equivocados, los aviones de la Paper no son aviones, sino
+      un banco de anchoas.
+
+
+
+FIN, por fin

@@ -1,0 +1,10 @@
+RGB Cube
+--------
+
+A 64b by lord Kelvin.
+
+Static RGB cube in so tiny space.
+
+Compiled with FASM.
+
+Hello from Russia.=)

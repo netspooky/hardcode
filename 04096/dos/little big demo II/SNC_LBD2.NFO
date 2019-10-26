@@ -1,0 +1,92 @@
+
+                      -=> LBD2 Information file <=-
+
+                                
+General
+-------
+
+   Little Big Demo II was done by Pinker of SANCTION for the Wired '96.
+   It place first out of 12.
+   
+   Special thanks in alphabetical order :
+
+       Andreas Mautsch     (beta testing)
+       Christian Cohnen    (blob algorithm, additional coding)                      
+       Christian Rattat    (LZSS77 packing algorithm)      
+       Christoph Brandtner (source support)                  
+       Stephanie Schepers  (moral and food support ;-)  )     
+                                               
+       and all other SANCTION dudes for supporting this product !                               
+
+
+Demo controls
+-------------
+
+   <Esc> stops the intro.
+   <Tab> jumps to the next part :-)
+
+
+Specials
+--------
+
+   - Every part fades in and out.
+   - No pure red, green or blue color palettes are used.
+   - Most of the parts are interrupt timed.
+   - The unpacked size of the intro is only 4636, because the source is
+     highly optimized for size (and unfortunately not for speed ;-)). 
+   - The unpack header is 250 bytes. We use a dynamic LZSS77_ari packing 
+     algorithm using 8 bit fixed pointers.
+   
+
+System requirements
+-------------------
+
+   WARNING ! LBD2 uses an extremly aggressive memory management, so give
+   approx. 400 Kb of free and fresh conventional memory to it !
+   There should be no probs running it with Win95, though :-)
+   Your computer needs at least 100Mhz pentium horse power. 
+   You can use it with any soundcard but You wouldn't hear any
+   kind of music :-(
+
+
+Technical stuff
+---------------
+   
+Part 1
+   Simple zoomer & smoother, random placed dots and a system-font logo on
+   a sine-curve.
+
+Part 2
+   REAL phongshading with one moving lightsource and an illuminated
+   bumped background.
+   The logo consists of 1920 triangular faces and is calculated with a
+   3D-Blob-Mesh algorithm. The systemfont was not used to avoid distorted
+   characters on alien fonts.
+
+Part 3
+   Another 3D-Blob-Mesh logo.
+   The logo is smoothed.
+   LBD2 means Little Big Demo 2.
+
+Part 4
+   2D-Blob routine with 8 negative and 8 positive moving blobs.
+
+Part 5
+   Well :-)
+   Guess, how it is done.
+   Hint: it is a highly mathematical thing called 'texture fractal'.
+
+Part 6
+   Simple tunnel with colors instead of a texture.
+
+Part 7
+   Environment shading with a great particle fire,
+   first coded by flap of capacala.
+
+
+Greetz
+------
+
+#include <include/greets.lst>
+  
+   

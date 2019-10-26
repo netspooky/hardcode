@@ -1,0 +1,31 @@
+
+	          Terminal Fuckup
+	* * * * * * * * * * * * * * * * *
+
+	         4k intro by Loonies
+	
+	   Released at Breakpoint 2010
+
+
+	Credits
+	=====
+	Code & Music...................Maytz
+	Synth........................Blueberry
+		
+
+	Requirements
+	=========
+	PC, Windows XP/Vista/Win7, OpenGL 1.1, Blah?
+
+
+	Compatibility
+	========
+	Somehow the 1280x960 (4:3) resolution isn't a
+	standard resolution on some gfx cards/drivers?!
+	So, if everything fails, go make a demo about it
+	or try 1024x768 :)
+
+	
+	Additional info
+	==========
+	http://www.loonies.dk 

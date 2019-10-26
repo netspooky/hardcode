@@ -1,0 +1,4619 @@
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 1
+stub.asm
+
+
+
+      1
+      2					 ; ƒƒƒ void three extender ƒƒƒ (c) 2k-1	by franky@scene.at ƒƒƒ
+      3
+      4						 .586p
+      5						 .SEQ
+      6
+      7		  =01000000			 MEM_POOL  =	 16 SHL	20	 ;16 MB	memory pool
+      8
+      9						 ASSUME		 CS:HYBRID, DS:HYBRID
+     10						 HYBRID	 GROUP	 CODE_16, CODE_32, DATA, ZDATA
+     11
+     12	    0000				 CODE_16	 SEGMENT BYTE USE16
+     13	    0000				 CODE_16	 ENDS
+     14
+     15	00000000				 CODE_32	 SEGMENT BYTE USE32
+     16	00000000				 CODE_32	 ENDS
+     17
+     18	    0000				 DATA		 SEGMENT BYTE USE16
+     19	    0000				 DATA		 ENDS
+     20
+     21	    0000				 ZDATA		 SEGMENT DWORD USE16
+     22	    0000				 ZDATA		 ENDS
+     23
+     24	00000000				 SCREEN		 SEGMENT AT 0a000h
+     25	00000000				 SCREEN		 ENDS
+     26
+     27					 ;   ∞∞∞±±±±±±≤≤≤≤≤≤≤≤≤≤≤≤€€€€€€€€€€€€€€€€€€€€€€€€€€
+     28
+     29	    0000				 CODE_16	 SEGMENT
+     30
+     31						 ORG	 100h			 ;˛˛˛˛˛	program	entry ˛˛˛˛˛
+     32
+     33	    0100			 rm_main:
+     34	    0100  BF 0000r			 lea	 di, ZERO_START		 ;ƒƒƒ clear zero data ƒƒƒ
+     35	    0103  B5 D6				 mov	 ch, 55000 SHR 8
+     36	    0105  F3> AA			 rep	 stosb
+     37
+     38	    0107  B8 1687			 mov	 ax, 1687h		 ;ƒƒƒ DPMI installed? ƒƒƒ
+     39	    010A  CD 2F				 int	 2fh
+     40	    010C  40				 inc	 ax
+     41	    010D  23 D8				 and	 bx, ax			 ;32-bit host ?
+     42	    010F  75 3C				 jnz	 @@dpmi
+     43
+     44	    0111  BA 0119r			 lea	 dx, no_dpmi		 ;error, exit
+     45	    0114  B4 09				 mov	 ah, 9h
+     46	    0116  CD 21				 int	 21h
+     47	    0118  C3				 ret
+     48
+     49	    0119  6E 6F	20 44 50 4D 49+	 no_dpmi db	 "no DPMI host found! please start in w95/w98 dosbox!$"
+     50		  20 68	6F 73 74 20 66+
+     51		  6F 75	6E 64 21 20 70+
+     52		  6C 65	61 73 65 20 73+
+     53		  74 61	72 74 20 69 6E+
+     54		  20 77	39 35 2F 77 39+
+     55		  38 20	64 6F 73 62 6F+
+     56		  78 21	24
+     57
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 2
+stub.asm
+
+
+
+     58	    014D			 @@dpmi:
+     59	    014D  06 57				 push	 es di
+     60
+     61	    014F  8C C8				 mov	 ax, cs			 ;ƒƒƒ get linear address ƒƒƒ
+     62	    0151  66| 6B C0 F0			 imul	 eax, -16
+     63	    0155  66| 50			 push	 eax
+     64
+     65	    0157				 CODE_16	 ENDS
+     66
+     67					 include franky.rm			 ;franky: RM code
+1    68
+1    69					 ; ƒƒƒ copyright (c) 2k-1 by frank baumgartner (franky@scene.at) ƒƒƒ
+1    70
+1    71					 ;
+1    72					 ; SB DMA output :	 ca. 200 bytes	 (original RM version: 169 bytes)
+1    73					 ;
+1    74
+1    75		  =AC44			 SAMP_RATE	 =	 44100		 ;Hz
+1    76		  =1000			 DMA_BUFSIZE	 =	 4096		 ;bytes
+1    77
+1    78		  =D000			 DMA_BUFOFF	 =	 ( 65536 - 2*4096 - DMA_BUFSIZE	)
+1    79
+1    80		  =0020			 SPEED		 =	 32		 ;ƒƒƒ sequencer	ƒƒƒ
+1    81		  =0300			 BPM		 =	 768
+1    82		  =0133			 TIMER_FREQ	 =	 ( BPM*2/5 )
+1    83
+1    84		  =0006			 _DSP_RESET	 =	 06h		 ;ƒƒƒ DSP ports	ƒƒƒ
+1    85		  =000A			 _DSP_READ	 =	 0ah
+1    86		  =000C			 _DSP_WRITE	 =	 0ch
+1    87		  =000E			 _DSP_STATUS	 =	 0eh
+1    88
+1    89		  =0040			 DC_TIMECONST	 =	 40h		 ;ƒƒƒ DSP commands ƒƒƒ
+1    90		  =0048			 DC_DMASIZE	 =	 48h
+1    91		  =0090			 DC_AUTO8BIT	 =	 90h		 ;(high	speed)
+1    92		  =00D1			 DC_SPKR_ON	 =	 0d1h
+1    93
+1    94		  = byte ptr		 bptr	 EQU	 byte ptr
+1    95		  = word ptr		 wptr	 EQU	 word ptr
+1    96		  = dword ptr		 dptr	 EQU	 dword ptr
+1    97
+1    98
+1    99					 font_decode	 MACRO
+1   100
+1   101						 ; ƒƒƒ get & decode bios font ƒƒƒ
+1   102
+1   103						 mov	 ax, 1130h		 ;get 8x8 bios-font ...
+1   104						 mov	 bh, 3
+1   105						 int	 10h			 ;font -> ES:BP
+1   106						 mov bx, -8*256
+1   107						 @copyloop:
+1   108						     mov al, es:[bp]
+1   109						     mov font_buf[bx+8*256], al
+1   110						     inc bp
+1   111						 inc bx
+1   112						 jnz @copyloop
+1   113					 ENDM
+1   114
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 3
+stub.asm
+
+
+
+1   115	    0157				 CODE_16	 SEGMENT
+1   116
+1   117	    0157			 rm_entry:				 ;˛˛˛ RM init code ˛˛˛
+1   118
+1   119						 font_decode			 ;ƒƒƒ decode bios font ƒƒƒ
+2   120	    0157  B8 1130			 mov	 ax, 1130h		 ;get 8x8 bios-font ...
+2   121	    015A  B7 03				 mov	 bh, 3
+2   122	    015C  CD 10				 int	 10h			 ;font -> ES:BP
+2   123	    015E  BB F800			 mov bx, -8*256
+2   124	    0161				 @copyloop:
+2   125	    0161  26: 8A 46 00			     mov al, es:[bp]
+2   126	    0165  88 87	0E85r			     mov font_buf[bx+8*256], al
+2   127	    0169  45				     inc bp
+2   128	    016A  43				 inc bx
+2   129	    016B  75 F4				 jnz @copyloop
+1   130
+1   131	    016D  68 01FBr			 push	 OFFSET	sound_start
+1   132
+1   133	    0170			 sound_ask:				 ;ƒƒƒ SB quiz ƒƒƒ
+1   134
+1   135	    0170  BA 019Cr			 lea	 dx, msg_base		 ;get SB base
+1   136	    0173  E8 000B			 call	 @@ask
+1   137	    0176  C0 E0	04			 shl	 al, 4
+1   138	    0179  B4 02				 mov	 ah, 02h
+1   139	    017B  A3 0017r			 mov	 intro_zero.sb_base, ax
+1   140
+1   141
+1   142
+1   143	    017E  BA 01D4r			 lea	 dx, msg_dma		 ;get SB dma
+1   144	    0181			 @@ask:
+1   145	    0181  B4 09				 mov	 ah, 09h
+1   146	    0183  CD 21				 int	 21h
+1   147	    0185  33 C0				 xor	 ax, ax
+1   148	    0187  CD 16				 int	 16h
+1   149	    0189  37				 aaa
+1   150	    018A  A2 0015r			 mov	 bptr intro_zero.sb_dma, al
+1   151
+1   152	    018D  C3				 ret
+1   153
+1   154	    018E			 dsp_reset:				 ;ƒƒƒ DSP reset	ƒƒƒ
+1   155
+1   156	    018E  33 C0				 xor	 ax, ax
+1   157	    0190  40				 inc	 ax
+1   158	    0191  80 C2	06			 add	 dl, _DSP_RESET
+1   159
+1   160	    0194  B5 10				 mov	 ch, 10h		 ;DSP reset
+1   161	    0196  EE			 @@r:	 out	 dx, al
+1   162	    0197  E2 FD				 loop	 @@r
+1   163
+1   164	    0199  48				 dec	 ax			 ;DSP reset end
+1   165	    019A  EE				 out	 dx, al
+1   166	    019B  C3				 ret
+1   167
+1   168	    019C			 sound_data:				 ;ƒƒƒ constant SB data ƒƒƒ
+1   169
+1   170	    019C  53 6F	75 6E 64 42 6C+		 msg_base	 db	 "SoundBlaster base address ? (	1 = 210h, 2 = 220h, ...	)", +
+    171		  61 73	74 65 72 20 62+	 24h
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 4
+stub.asm
+
+
+
+    172		  61 73	65 20 61 64 64+
+    173		  72 65	73 73 20 3F 20+
+    174		  28 20	31 20 3D 20 32+
+    175		  31 30	68 2C 20 32 20+
+    176		  3D 20	32 32 30 68 2C+
+    177		  20 2E	2E 2E 20 29 24
+1   178	    01D4  0D 0A	64 6D 61 20 3F+		 msg_dma	 db	 13, 10, "dma ?	( 0, 1 or 3 )",	24h
+    179		  20 28	20 30 2C 20 31+
+    180		  20 6F	72 20 33 20 29+
+    181		  24
+1   182
+1   183	    01EA  87 83	81 82			 dma_page	 db	 87h, 83h, 81h,	82h
+1   184
+1   185	    01EE  40				 dsp_init_tab	 db	 DC_TIMECONST
+1   186	    01EF  E9						 db	 NOT (1000000 /	SAMP_RATE)
+1   187	    01F0  48						 db	 DC_DMASIZE
+1   188	    01F1  07FF						 dw	 (DMA_BUFSIZE +	1)/2 - 1
+1   189	    01F3  D1						 db	 DC_SPKR_ON
+1   190	    01F4  90						 db	 DC_AUTO8BIT
+1   191
+1   192	    01F5  0FFF				 dma_init_tab	 dw	 DMA_BUFSIZE - 1
+1   193	    01F7  58						 db	 58h
+1   194
+1   195	    01F8  36				 timer_frq	 db	 36h
+1   196	    01F9  0F2E						 dw	 1193180 / TIMER_FREQ
+1   197
+1   198
+1   199	    01FB			 sound_start:				 ;ƒƒƒ start DMA	output ƒƒƒ
+1   200
+1   201	    01FB  BE 01EEr			 lea	 si, dsp_init_tab
+1   202
+1   203					 ; ƒƒƒ DSP setup ƒƒƒ
+1   204
+1   205	    01FE  8B 16	0017r			 mov	 dx, intro_zero.sb_base
+1   206	    0202  E8 FF89			 call	 dsp_reset		 ;reset	DSP
+1   207
+1   208	    0205  80 C2	06			 add	 dl, _DSP_WRITE	- _DSP_RESET
+1   209
+1   210	    0208  B1 07				 mov	 cl, 7
+1   211	    020A			 @@init:
+1   212	    020A  EC				 in	 al, dx			 ;wait for DSP
+1   213	    020B  84 C0				 test	 al, al
+1   214	    020D  78 FB				 js	 @@init
+1   215	    020F  AC				 lodsb				 ;write	to DSP
+1   216	    0210  EE				 out	 dx, al			 ; (outsb doesn't work on PCI emu's)
+1   217	    0211  E2 F7				 loop	 @@init
+1   218
+1   219					 ; ƒƒƒ DMA controller setup ƒƒƒ
+1   220
+1   221	    0213  8C D8				 mov	 ax, ds			 ;calculate DMA	mem address
+1   222	    0215  05 0D00			 add	 ax, DMA_BUFOFF	SHR 4
+1   223	    0218  32 C0				 xor	 al, al
+1   224	    021A  A3 0019r			 mov	 intro_zero.sb_dmaseg, ax
+1   225	    021D  E6 0D				 out	 0dh, al		 ;reset	DMA controller
+1   226	    021F  E6 0C				 out	 0ch, al
+1   227
+1   228	    0221  8B 1E	0015r			 mov	 bx, intro_zero.sb_dma
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 5
+stub.asm
+
+
+
+1   229	    0225  6B D3	02			 imul	 dx, bx, 2		 ;write	DMA mem	address
+1   230	    0228  EE				 out	 dx, al
+1   231	    0229  C1 E8	04			 shr	 ax, 4
+1   232	    022C  EE				 out	 dx, al
+1   233
+1   234	    022D  42				 inc	 dx			 ;write	DMA block length
+1   235	    022E  6E				 outsb
+1   236	    022F  6E				 outsb
+1   237
+1   238	    0230  8A 97	01EAr			 mov	 dl, dma_page[ bx ]	 ;write	DMA page
+1   239	    0234  86 C4				 xchg	 al, ah
+1   240	    0236  EE				 out	 dx, al
+1   241
+1   242	    0237  AC				 lodsb				 ;write	DMA transfer mode
+1   243	    0238  02 C3				 add	 al, bl
+1   244	    023A  E6 0B				 out	 0bh, al
+1   245
+1   246	    023C  93				 xchg	 ax, bx			 ;mask DMA channel
+1   247	    023D  E6 0A				 out	 0ah, al
+1   248
+1   249					 ; ƒƒƒ RTC setup ƒƒƒ
+1   250
+1   251	    023F  B2 43				 mov	 dl, 43h		 ;set RTC frequency ...
+1   252	    0241  6E				 outsb
+1   253	    0242  B2 40				 mov	 dl, 40h
+1   254	    0244  6E				 outsb
+1   255	    0245  6E				 outsb
+1   256
+1   257	    0246				 CODE_16	 ENDS
+1   258
+1   259
+1   260					 ; ƒƒƒ PM stuff	ƒƒƒ PM stuff ƒƒƒ PM stuff ƒƒƒ PM stuff ƒƒƒ PM stuff ƒƒƒ
+1   261
+1   262					 sb_dma_pos	 MACRO			 ;returns: esi = current DMA position
+1   263										 ;	   es  = DMA buffer selector
+1   264						 xor	 eax, eax
+1   265						 out	 0ch, al		 ;clear	DMA addr. flipflop
+1   266
+1   267										 ;get port nr.
+1   268						 imul	 edx, dptr [ebx].sb_dma, 2
+1   269						 inc	 edx
+1   270
+1   271						 mov	 al, 02h		 ;get DMA buffer selector
+1   272						 mov	 ebx, dptr [ebx].sb_dmaseg
+1   273						 int	 31h
+1   274						 mov	 sb_dmasel, ax
+1   275						 mov	 es, eax
+1   276
+1   277						 mov	 bx, DMA_BUFSIZE - 1
+1   278						 in	 al, dx			 ;get DMA buffer position
+1   279						 sub	 bl, al
+1   280						 in	 al, dx
+1   281						 sbb	 bh, al
+1   282						 movzx	 esi, bx
+1   283
+1   284					 ENDM
+1   285
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 6
+stub.asm
+
+
+
+1   286					 debug_save	 MACRO	 name, ptr, len	 ;ƒƒƒ debug: file save ƒƒƒ
+1   287
+1   288						 mov	 ah, 3ch		 ;open file
+1   289						 xor	 cx, cx
+1   290						 lea	 edx, dbg_name
+1   291						 int	 21h
+1   292						 xchg	 bx, ax
+1   293
+1   294						 mov	 ah, 40h		 ;write	data
+1   295						 lea	 edx, ptr
+1   296						 mov	 ecx, len
+1   297						 int	 21h
+1   298
+1   299						 mov	 ah, 3eh		 ;close	file
+1   300						 int	 21h
+1   301						 jmp	 @@dbg_done
+1   302
+1   303					 dbg_name	 db	 name, 0
+1   304
+1   305					 @@dbg_done:
+1   306
+1   307					 ENDM
+1   308
+1   309
+1   310
+    311					 include shiva.rm			 ;shiva	: RM code
+1   312
+1   313	    0246			 CODE_16	 SEGMENT
+1   314
+1   315	    0246  1E				 push	 ds
+1   316	    0247  07				 pop	 es
+1   317
+1   318	    0248  BA 02A9r			 lea dx, [video_ask]
+1   319	    024B  B4 09				 mov	 ah, 09
+1   320	    024D  CD 21				 int	 21h
+1   321	    024F  33 C0				 xor	 ax, ax
+1   322	    0251  CD 16				 int	 16h
+1   323						 ;al=mode select number
+1   324	    0253  2C 30				 sub al, '0'
+1   325	    0255  3C 02				 cmp al, 2
+1   326	    0257  77 36				 ja @stupiduser
+1   327	    0259  A2 3C55r			 mov vmode, al
+1   328	    025C  75 1F				 jnz @setvesa
+1   329	    025E  B8 0013			     mov ax, 013h
+1   330	    0261  CD 10				     int 010h
+1   331	    0263  BA 03C8			     mov dx, 03c8h
+1   332	    0266  32 C0				     xor al, al
+1   333	    0268  EE				     out dx, al
+1   334	    0269  42				     inc dx
+1   335	    026A  B9 00FF			     mov cx, 255
+1   336	    026D				     @grayloop:
+1   337	    026D  8A C1					 mov al, cl
+1   338	    026F  F6 D0					 not al
+1   339	    0271  C0 E8	02				 shr al, 2
+1   340	    0274  EE					 out dx, al
+1   341	    0275  EE					 out dx, al
+1   342	    0276  EE					 out dx, al
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 7
+stub.asm
+
+
+
+1   343	    0277  49				     dec cx
+1   344	    0278  79 F3				     jns @grayloop
+1   345	    027A  E9 00A5			 jmp @modesetanddone
+1   346	    027D				 @setvesa:
+1   347
+1   348						 ;set vesa mode
+1   349						 ;get a	buffer... i just hope that there is free space after 4f00h
+1   350
+1   351	    027D  B8 4F00			 mov	 ax, 04f00h	 ;Super	VGA information	block to es:di
+1   352	    0280  8B F8				 mov	 di, ax		 ;just use buffer es:04f00h
+1   353	    0282  CD 10				 int	 10h
+1   354
+1   355	    0284  3C 4F				 cmp	 al, 04fh
+1   356	    0286  74 59				 je	 @vesaok
+1   357
+1   358	    0288			 @vesaerror:
+1   359	    0288  BA 0293r			 lea	 dx, vbe_err
+1   360	    028B  B4 09				 mov	 ah, 09
+1   361	    028D  CD 21				 int	 21h
+1   362	    028F			 @stupiduser:
+1   363						.exit
+2   364	    028F  B4 4C				 MOV	 AH,4Ch
+2   365	    0291  CD 21				 INT	 21h
+1   366
+1   367	    0293  00 65	72 72 6F 72 3A+	 vbe_err   db	   0, "error: vesa failure.$"
+    368		  20 76	65 73 61 20 66+
+    369		  61 69	6C 75 72 65 2E+
+    370		  24
+1   371	    02A9  0D 0A	56 69 64 65 6F+	 video_ask db	   13,10,"Video? [0=320x240x32b, 1=640x480x32b,	2=320x200xMono]$"
+    372		  3F 20	5B 30 3D 33 32+
+    373		  30 78	32 34 30 78 33+
+    374		  32 62	2C 20 31 3D 36+
+    375		  34 30	78 34 38 30 78+
+    376		  33 32	62 2C 20 32 3D+
+    377		  33 32	30 78 32 30 30+
+    378		  78 4D	6F 6E 6F 5D 24
+1   379
+1   380	    02E1			 @vesaok:
+1   381	    02E1  8B 75	0E			 mov	 si, [di+14]	 ;pointer to vesa modes	list
+1   382	    02E4  8E 65	10			 mov	 fs, [di+16]
+1   383	    02E7  81 C7	0100			 add	 di, 256
+1   384	    02EB			 @nextmode:
+1   385	    02EB  64: 8B 0C			 mov	 cx, fs:[si]
+1   386	    02EE  AD				 lodsw
+1   387	    02EF  41				 inc	 cx
+1   388	    02F0  74 96				 jz	 @vesaerror	 ;end of mode list
+1   389	    02F2  49				 dec	 cx
+1   390
+1   391						 ;set mode cx, and check wether	it is 320*240*32bit
+1   392
+1   393	    02F3  B8 4F01			 mov	 ax, 4f01h	 ;es:di	still points to	our buffer
+1   394	    02F6  CD 10				 int	 10h
+1   395
+1   396	    02F8  80 3E	3C55r 01		 cmp vmode, 1
+1   397	    02FD  74 0C				 je @hires1
+1   398	    02FF  66| 81 7D 12	      +		 cmp	 dword ptr [di+18], 00f00140h
+    399		  00F00140
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 8
+stub.asm
+
+
+
+1   400	    0307  75 E2				 jne	 @nextmode
+1   401	    0309  EB 0A				 jmp @getdepth
+1   402
+1   403	    030B				 @hires1:
+1   404	    030B  66| 81 7D 12	      +		 cmp	 dword ptr [di+18], 01e00280h
+    405		  01E00280
+1   406	    0313  75 D6				 jne	 @nextmode
+1   407
+1   408	    0315				 @getdepth:
+1   409	    0315  80 7D	19 20			 cmp	 byte ptr [di+25], 32
+1   410	    0319  75 D0				 jne	 @nextmode
+1   411
+1   412						 ;found	our mode! cool!	let's set it.
+1   413	    031B  B8 4F02			 mov	 ax, 04f02h
+1   414	    031E  87 D9				 xchg	 bx, cx
+1   415	    0320  CD 10				 int	 10h
+1   416
+1   417	    0322				 @modesetanddone:
+1   418
+1   419						 ;mode set & done
+1   420
+1   421	    0322			 CODE_16	 ENDS
+1   422
+1   423
+1   424
+    425
+    426	    0322				 CODE_16	 SEGMENT
+    427
+    428	    0322  66| 5D			 pop	 ebp			 ;ebp =	linear address
+    429
+    430	    0324  8C DB				 mov	 bx, ds			 ;ƒƒƒ 16-bit PM	switch ƒƒƒ
+    431	    0326  80 C7	10			 add	 bh, 10h
+    432	    0329  8E C3				 mov	 es, bx
+    433	    032B  33 C0				 xor	 ax, ax
+    434	    032D  40				 inc	 ax
+    435	    032E  67| FF 1C 24			 call	 dword ptr [ esp ]
+    436	    0332			 pm_16:
+    437	    0332  B0 0A				 mov	 al, 0ah		 ;ƒƒƒ get alias	ƒƒƒ
+    438	    0334  8C CB				 mov	 bx, cs
+    439	    0336  CD 31				 int	 31h
+    440	    0338  93				 xchg	 bx, ax
+    441
+    442	    0339  B0 08				 mov	 al, 08h		 ;ƒƒƒ set limit	ƒƒƒ
+    443	    033B  F9				 stc
+    444	    033C  1B C9				 sbb	 cx, cx
+    445	    033E  1B D2				 sbb	 dx, dx
+    446	    0340  CD 31				 int	 31h
+    447
+    448	    0342  40				 inc	 ax			 ;ƒƒƒ set rights ƒƒƒ
+    449	    0343  B9 DFFB			 mov	 cx, 1101111111111011b
+    450	    0346  CD 31				 int	 31h
+    451
+    452	    0348  53				 push	 bx			 ;ƒƒƒ 32-bit PM	switch ƒƒƒ
+    453	    0349  68 034Dr			 push	 OFFSET	pm_32
+    454	    034C  CB				 retf
+    455	    034D			 pm_32:
+    456	    034D				 CODE_16	 ENDS
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 9
+stub.asm
+
+
+
+    457
+    458	00000000				 CODE_32	 SEGMENT
+    459										 ;ƒƒƒ 32-bit PM	entry ƒƒƒ
+    460	00000000  40				 inc	 eax
+    461	00000001  CD 31				 int	 31h
+    462	00000003  50				 push	 eax
+    463	00000004  1F				 pop	 ds			 ;set up DS, ES, SS
+    464	00000005  50				 push	 eax
+    465	00000006  07				 pop	 es
+    466	00000007  50				 push	 eax
+    467	00000008  17				 pop	 ss
+    468
+    469	00000009  66| B8 0501			 mov	 ax, 0501h		 ;ƒƒƒ create memory pool ƒƒƒ
+    470	0000000D  33 C9				 xor	 ecx, ecx
+    471	0000000F  66| BB 0100			 mov	 bx, MEM_POOL SHR 16
+    472	00000013  CD 31				 int	 31h
+    473	00000015  C1 E3	10			 shl	 ebx, 16
+    474	00000018  03 EB				 add	 ebp, ebx
+    475	0000001A  03 E9				 add	 ebp, ecx		 ;[ebp]	-> memory pool
+    476
+    477	0000001C  33 C0				 xor	 eax, eax
+    478	0000001E  B9 00FFFFFF			 mov	 ecx, MEM_POOL - 1	 ;ƒƒƒ clear mem-pool ƒƒƒ
+    479	00000023  8B FD				 mov	 edi, ebp
+    480	00000025  F3> AA			 rep	 stosb
+    481
+    482	00000027				 CODE_32	 ENDS
+    483
+    484					 include shiva.mac
+1   485					 prepareblitter	MACRO
+1   486					      xor eax, eax
+1   487					      mov al, vmode
+1   488					      mov ebx, [eax*4+flipfunctions]
+1   489					      mov flipfunction,	ebx
+1   490					 endm
+1   491
+1   492					 initfont MACRO
+1   493
+1   494					      mov dl, 255
+1   495					 ;     xor ecx,	ecx
+1   496					      lea esi, [font_buf]
+1   497					      lea edi, [softfont]
+1   498					      push edi
+1   499					      @letterloop:
+1   500						   mov cl, 32
+1   501						   @yfloop:
+1   502						       test cl,	011b
+1   503						       jnz @noload
+1   504						       lodsb
+1   505						       @noload:
+1   506						       push eax
+1   507						       mov ch, 8
+1   508						       @xfloop:
+1   509							  add al, al
+1   510							  jnc @nopixel
+1   511							      ;dec dword ptr [edi]
+1   512							      mov dword	ptr [edi], 03f3f3f3fh
+1   513							  @nopixel:
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 10
+stub.asm
+
+
+
+1   514							  add edi, 4
+1   515						       dec ch
+1   516						       jnz @xfloop
+1   517						       pop eax
+1   518						       add edi,	32
+1   519						   loop	@yfloop
+1   520						   add edi, 32*64
+1   521					      dec dl
+1   522					      jnz @letterloop
+1   523					      pop edi
+1   524
+1   525					      mov cl, 8
+1   526					      @blurallloop:
+1   527						   push	edi
+1   528						   mov ebx, 32*32*256*2
+1   529						   @blurloop:
+1   530							mov al,	[edi-64]
+1   531							add al,	[edi-1]
+1   532							add al,	[edi+1]
+1   533							add al,	[edi+64]
+1   534							shr al,	2
+1   535							stosb
+1   536						   dec ebx
+1   537						   jnz @blurloop
+1   538						   pop edi
+1   539					      loop @blurallloop
+1   540					 ENDM
+1   541
+1   542					 ;al = letter, edi = dest
+1   543					 writeletter MACRO
+1   544					      movzx eax, al
+1   545					      shl eax, 12
+1   546					      lea esi, [softfont+eax-4-32*8]
+1   547					      mov bl, 32+16
+1   548					      @ywlloop:
+1   549						  mov ecx, 32+8
+1   550						  @copyloopwl:
+1   551						       lodsb
+1   552						       shl al, 2
+1   553						       mov bh, 4
+1   554						       @comploop:
+1   555							  push eax
+1   556							  mov ah, [edi]
+1   557							  sub ah, al
+1   558							  ;sub ah, [edi]
+1   559							  db 0d6h
+1   560							  not al
+1   561							  and al, ah
+1   562							  stosb
+1   563							  pop eax
+1   564						       dec bh
+1   565						       jnz @comploop
+1   566						  loop @copyloopwl
+1   567						  add esi, 32-8
+1   568						  add edi, (320-(32+8))*4
+1   569					      dec bl
+1   570					      jnz @ywlloop
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 11
+stub.asm
+
+
+
+1   571					 ENDM
+1   572
+1   573					 writestring MACRO
+1   574					      db 0beh
+1   575					      textline:
+1   576					      dd offset	@nullstring
+1   577
+1   578					      xor edx, edx
+1   579					      lodsb
+1   580					      mov ecx, eax
+1   581					     imul eax, -30*2
+1   582					      lea edi, [ebp+(320*(120-24))*4+160*4+eax]
+1   583					      @letterloop2:
+1   584						  inc edx
+1   585						  lodsb
+1   586
+1   587						  pushad
+1   588						  add edx, globalt
+1   589						  movzx	ebx, byte ptr [noisemap+edx*2]
+1   590						  and bl, 01111b
+1   591						  add edi, ebx
+1   592
+1   593						  movzx	ebx, byte ptr [noisemap+edx*2+1]
+1   594						  and bl, 0111b
+1   595
+1   596						 imul ebx, 320*4
+1   597						  add edi, ebx
+1   598						   writeletter
+1   599						  popad
+1   600						  add edi, 30*4
+1   601					      dec cl
+1   602					      jnz @letterloop2
+1   603					 ENDM
+1   604
+1   605					 runscript MACRO
+1   606						 mov esi, scriptptr
+1   607						 @runagain:
+1   608						 mov ebx, nextt
+1   609						 cmp globalt, ebx
+1   610						 jna @norun
+1   611						    xor	eax, eax
+1   612						    lodsb
+1   613						    cmp	al, 255
+1   614						    jz	@exit
+1   615						    add	ebx, eax
+1   616						    mov	nextt, ebx
+1   617						    cmp	al, 254
+1   618						    jz @norun
+1   619					 ;	     xor eax, eax
+1   620						    lodsw
+1   621						    mov	bl, ah
+1   622						    and	ah, 00111111b
+1   623						    lea	edi, [eax+baseoffset]
+1   624						    xor	eax, eax
+1   625						    test bl,  010000000b
+1   626						    jz @no_rel
+1   627							 lodsw
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 12
+stub.asm
+
+
+
+1   628							 lea eax, [eax+baseoffset]
+1   629							 stosd
+1   630							 jmp @runagain
+1   631						    @no_rel:
+1   632						    test bl, 001000000b
+1   633						    jz @no_byte
+1   634							 lodsb
+1   635							 stosd
+1   636							 jmp @runagain
+1   637						    @no_byte:
+1   638							 lodsb
+1   639							 shl eax, 18
+1   640							 lea eax, [eax+texturebase]
+1   641							 stosd
+1   642							 jmp @runagain
+1   643						 @norun:
+1   644						 mov scriptptr,	esi
+1   645					 ENDM
+1   646
+1   647					 makeshademap MACRO
+1   648						 lea edi, [shademap]
+1   649					 ;	  mov ecx, 0ffffh
+1   650						 dec cx
+1   651						 @loopme:
+1   652						      mov al, cl
+1   653						      not al
+1   654						      sub al, ch
+1   655						      jnc @noclamplo
+1   656							  xor al, al
+1   657						      @noclamplo:
+1   658						      stosb
+1   659						 loop @loopme
+1   660					 ENDM
+1   661
+1   662					 ;esi =	source1	edi = source2&dest eax = weight
+1   663					 xfade MACRO
+1   664					      shl eax, 8
+1   665					      mov ebx, eax
+1   666					      not bh
+1   667					      mov ecx, 320*240*4
+1   668					      lea edx, [shademap]
+1   669					      @xfadeloop:
+1   670						   mov bl, [edi]
+1   671						   ;lodsb
+1   672						   mov al, bl
+1   673						   not al
+1   674
+1   675						   mov al, [edx+eax]
+1   676						   add al, [edx+ebx]
+1   677						   mov [edi], al
+1   678						   inc edi
+1   679					      dec ecx
+1   680					      jnz @xfadeloop
+1   681					 ENDM
+1   682
+1   683					 makematrix MACRO
+1   684					      ;shift the buffer	forward
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 13
+stub.asm
+
+
+
+1   685					      lea esi, [matrixbuffer+(127*3*3*8-4)]
+1   686					      lea edi, [esi+3*3*8]
+1   687					      mov ecx, 127*3*3*2
+1   688					      std
+1   689					      rep movsd
+1   690					      cld
+1   691					      ;copy old	matrix to buffer
+1   692					      lea esi, [matrix]
+1   693					      push esi
+1   694					      lea edi, [esi+3*3*8]
+1   695					      mov cl, 3*3*2
+1   696					      rep movsd
+1   697					      pop edi
+1   698					      ;generate	matrix
+1   699					      ;mov esi,	0
+1   700					      db 0beh
+1   701					      rotspeed:
+1   702					      dd 0
+1   703					      makerotmat
+1   704					 ENDM
+1   705
+1   706					 makealltextures MACRO
+1   707					 ;	  mov ecx, nr_textures
+1   708						 mov cl, nr_textures
+1   709						 lea edi, [textures]
+1   710						 lea esi, [testtextdesc]
+1   711					 ;	  mov ebx, ebp
+1   712						 @nexttexture:
+1   713						 call precalc_dot
+1   714						 pushad
+1   715						 call synthtexture
+1   716						 popad
+1   717						 xor eax, eax
+1   718						 lodsb
+1   719						imul eax, 9
+1   720						 add esi, eax
+1   721						 lodsw
+1   722						 add edi, 256*256*4
+1   723						 loop @nexttexture
+1   724					 ENDM
+1   725
+1   726					 ;edi =	dest, ebx=grid function
+1   727					 rendergrid MACRO
+1   728					      ;clear top
+1   729					      mov ecx, 320*30
+1   730					      xor eax, eax
+1   731					      rep stosd
+1   732
+1   733					      lea esi, [grid]
+1   734					      pushad
+1   735					      mov cl, (180/8)+1
+1   736					      @ygridloop:
+1   737						  mov ch, (320/8)+1
+1   738						  @xgridloop:
+1   739						      call ebx
+1   740						      mov al, 3
+1   741						      @shiftmedumb:
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 14
+stub.asm
+
+
+
+1   742							   shl dword ptr [esi],	2
+1   743							   add esi, 4
+1   744						      dec al
+1   745						      jnz @shiftmedumb
+1   746						  dec ch
+1   747						  jnz @xgridloop
+1   748					      loop @ygridloop
+1   749					      popad
+1   750
+1   751					      mov cl, (180/8)
+1   752					      @ygridloopdraw:
+1   753						  mov ch, (320/8)
+1   754						  @xgridloopdraw:
+1   755						      push edi
+1   756						      call drawblock
+1   757						      pop edi
+1   758						      add edi, 8*4
+1   759						      add esi, 12
+1   760						  dec ch
+1   761						  jnz @xgridloopdraw
+1   762						  add esi, 12
+1   763						  add edi, 320*4*7
+1   764					      loop @ygridloopdraw
+1   765
+1   766					      mov ecx, 34*320
+1   767					      xor eax, eax
+1   768					      rep stosd
+1   769					 ENDM
+1   770
+1   771					 ;edi=target esi=(value!) rotation speed
+1   772					 makerotmat MACRO
+1   773					     mov al, 2
+1   774					     @preploop:
+1   775						fild globalt
+1   776						push esi
+1   777						fimul dword ptr	[esp]
+1   778						pop esi
+1   779						fidiv i_255
+1   780						fsincos
+1   781						 fxch st(1)
+1   782					     dec al
+1   783					     jnz @preploop
+1   784
+1   785					     ;sy cy sx cx
+1   786					     fldz
+1   787					     fstp qword	ptr [edi+8*1]
+1   788					     fst qword ptr [edi+8*2]
+1   789					     fxch st(1)
+1   790					     ;cy sy sx cx
+1   791					     fst qword ptr [edi+8*0] ;first row
+1   792
+1   793					     fxch st(3)
+1   794					     ;cx sy sx cy
+1   795					     fst qword ptr [edi+8*4]
+1   796					     fxch st(2)
+1   797					     ;sx sy cx cy
+1   798					     fst qword ptr [edi+8*7]
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 15
+stub.asm
+
+
+
+1   799					     fld st(0)
+1   800					     ;sx sx sy cx cy
+1   801					     fmul st(0), st(2)
+1   802					     fstp qword	ptr [edi+8*3]
+1   803					     fld st(2)
+1   804					     ;cx sx sy cx cy
+1   805					     fmul st(0), st(4)
+1   806					     fstp qword	ptr [edi+8*8]
+1   807					     ;sx sy cx cy
+1   808					     fchs
+1   809					     fmulp st(3), st(0)
+1   810					     ;sy cx cy*sx
+1   811					     fchs
+1   812					     fmulp st(1), st(0)
+1   813					     fstp qword	ptr [edi+8*6]
+1   814					     fstp qword	ptr [edi+8*5]
+1   815
+1   816					 ENDM
+1   817
+1   818					 makenoise MACRO
+1   819						 mov eax, 01234h
+1   820						 mov ecx, 1024*1024
+1   821						 lea edi, [noisemap]
+1   822						 @bigloop:
+1   823							 mov dl, 4
+1   824							 @randloop:
+1   825								 mov ebx, eax
+1   826								 shr ebx, 3
+1   827								 xor ebx, eax
+1   828								 shr ebx, 1
+1   829								 rcr eax, 1
+1   830							 dec dl
+1   831							 jnz @randloop
+1   832							 stosb
+1   833						 loop @bigloop
+1   834					 ENDM
+1   835
+1   836					 initfastperlin	MACRO
+1   837					 ;     xor ecx,	ecx
+1   838					      lea esi, [@nrbase1]
+1   839					      @initloop:
+1   840						  push ecx
+1   841						  fild dword ptr [esp]
+1   842						  pop ecx
+1   843						  fidiv	word ptr [esi]
+1   844						  fldpi
+1   845						  fmulp	st(1), st(0)
+1   846						  fcos
+1   847						  fild word ptr	[esi+2]
+1   848						  fmul st(1), st(0)
+1   849						  fxch st(1)
+1   850						  fsubp	st(1), st(0)
+1   851						  fistp	dword ptr costab[ecx*4]
+1   852					      inc cl
+1   853					      jnz @initloop
+1   854					 ENDM
+1   855
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 16
+stub.asm
+
+
+
+1   856
+1   857
+    858					 include franky.pm
+1   859
+1   860					 ; ƒƒƒ copyright (c) 2k-1 by frank baumgartner (franky@scene.at) ƒƒƒ
+1   861
+1   862					 ; ow, ow! shiva did all the gfx, so why has only franky such a	cool
+1   863					 ; headline in this source file? Just because he wrote it? Bad franky!
+1   864
+1   865					 ;
+1   866					 ; ƒƒƒ special thanks to: ƒƒƒ
+1   867					 ;
+1   868					 ;  - Masamichi	Kirikae	... designer of	voice spectra vocoder,
+1   869					 ;			    gave me cool tips &	techical info!
+1   870					 ;  - Acoustical Society
+1   871					 ;    of America	... for	sending	me a copy of
+1   872					 ;			    Dennis H. Klatt's article about
+1   873					 ;			    speech analysis & synthesis
+1   874					 ;  - Danko,
+1   875					 ;    Magic^Singularity
+1   876					 ;    Wilfried Welti	... for	more general tips
+1   877					 ;
+1   878
+1   879					 ;DEBUG		 =	 1
+1   880
+1   881		  =1324			 DELAY_LEN	 =	 ( SAMP_RATE / 9 )
+1   882
+1   883		  =00400000		 DELAY_OFF	 =	 ( 4 SHL 20 )	 ;ƒƒƒ mem-pool ƒƒƒ
+1   884		  =00410000		 VOCODER_OFF	 =	 DELAY_OFF + 10000h
+1   885
+1   886		  =006E			 VC_SPF		 =	 110
+1   887
+1   888	00000000			 T_INTRO_ZERO	 STRUC			 ;ƒƒƒ zero data	ƒƒƒ
+1   889
+1   890	00000000  01*(????????)			 timer		 dd	 ?	 ;ƒƒƒ intro timer ƒƒƒ
+1   891	00000004  01*(????)			 timer_ctrl	 dw	 ?
+1   892	00000006  01*(????????)			 timer_ctrl_pos	 dd	 ?
+1   893	0000000A  01*(??)			 timer_flags	 db	 ?
+1   894	0000000B  01*(????????)			 sq_pos		 dd	 ?
+1   895	0000000F  01*(????????)			 pm_mpool	 dd	 ?
+1   896	00000013  01*(????)			 pm_ds		 dw	 ?
+1   897
+1   898	00000015  01*(????)			 sb_dma		 dw	 ?	 ;ƒƒƒ SB DMA output ƒƒƒ
+1   899	00000017  01*(????)			 sb_base	 dw	 ?
+1   900	00000019  01*(????)			 sb_dmaseg	 dw	 ?
+1   901	0000001B  01*(????????)			 sb_mixpos	 dd	 ?
+1   902
+1   903	0000001F  01*(????????)			 vc_pos		 dd	 ?
+1   904
+1   905	00000023  01*(????????)			 tb_il		 dd	 ?	 ;ƒƒƒ tb 303 ƒƒƒ
+1   906	00000027  01*(????????)			 tb_uc		 dd	 ?
+1   907	0000002B  01*(????????)			 tb_saw		 dd	 ?
+1   908	0000002F  01*(????????)			 tb_env		 dd	 ?
+1   909	00000033  01*(????????)			 tb_reso	 dd	 ?
+1   910	00000037  01*(????????)			 tb_len		 dd	 ?
+1   911	0000003B  01*(????????)			 tb_sqpos	 dd	 ?
+1   912
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 17
+stub.asm
+
+
+
+1   913	0000003F  01*(????????)			 ch_i1		 dd	 ?	 ;ƒƒƒ closed hihat ƒƒƒ
+1   914	00000043  01*(????????)			 ch_i2		 dd	 ?
+1   915	00000047  01*(????????)			 ch_env		 dd	 ?
+1   916
+1   917	0000004B  01*(????????)			 sn_uc		 dd	 ?	 ;ƒƒƒ u96 sonar	ƒƒƒ
+1   918	0000004F  01*(????????)			 sn_il		 dd	 ?
+1   919	00000053  01*(????????)			 sn_env		 dd	 ?
+1   920
+1   921	00000057  01*(????????)			 bd_il		 dd	 ?	 ;ƒƒƒ bass drum	ƒƒƒ
+1   922	0000005B  01*(????????)			 bd_uc		 dd	 ?
+1   923	0000005F  01*(????????)			 bd_env		 dd	 ?
+1   924
+1   925	00000063  01*(????????)			 dl_pos		 dd	 ?	 ;ƒƒƒ delay, flanger ƒƒƒ
+1   926	00000067  01*(????????)			 fl_pos		 dd	 ?
+1   927	0000006B  01*(????????)			 fl_lfo		 dd	 ?
+1   928
+1   929	0000006F  01*(20*(????????))		 fpu_save	 dd	 32 dup	( ? )
+1   930
+1   931	000000EF			 ENDS
+1   932
+1   933	00000000			 T_INTRO_INIT	 STRUC			 ;ƒƒƒ initialized ƒƒƒ
+1   934
+1   935										 ;ƒƒƒ closed hihat ƒƒƒ
+1   936	00000000  01*(2EA4ED3F)			 ch_gain	 dd	 0.000000000075
+1   937	00000004  01*(3F7FBE77)			 ch_env_mul	 dd	 0.999
+1   938	00000008  01*(01 01 06 01)		 ch_seq		 db	 1, 1, 6, 1
+1   939
+1   940	0000000C  01*(3AB78034)			 tb_saw_inc	 dd	 0.0014	 ;ƒƒƒ tb 303 ƒƒƒ
+1   941	00000010  01*(3C23D70A)			 tb_cut		 dd	 0.01	 ;.01
+1   942	00000014  01*(3E19999A)			 tb_reso_init	 dd	 0.15	 ;.15
+1   943	00000018  01*(3DCCCCCD)			 tb_env_init	 dd	 0.1	 ;.1
+1   944	0000001C  01*(3F7FE5C9)			 tb_env_mul	 dd	 0.9996	 ;.9996
+1   945	00000020  01*(3F80068E)			 tb_reso_mul	 dd	 1.0002
+1   946	00000024  01*(01 00 01 01 00)		 tb_seq		 db	 1, 0, 1, 1, 0
+1   947	00000029  01*(0005)			 tb_mul		 dw	 5
+1   948
+1   949	0000002B  01*(3D99999A)			 sn_cut		 dd	 0.075	 ;ƒƒƒ u96 sonar	ƒƒƒ
+1   950	0000002F  01*(3F7FFE5D)			 sn_env_mul	 dd	 0.999975
+1   951	00000033  01*(3F7FBE77)			 sn_reso	 dd	 0.999
+1   952		  =0000				 sn_gain	 =	 ch_gain
+1   953
+1   954	00000037  01*(3CCCCCCD)			 bd_cut		 dd	 0.025	 ;ƒƒƒ bass drum	ƒƒƒ
+1   955	0000003B  01*(3F7FEF9E)			 bd_env_mul	 dd	 0.99975
+1   956
+1   957	0000003F  01*(3E4CCCCD)			 dl_feedback	 dd	 0.2	 ;ƒƒƒ delay, flanger ƒƒƒ
+1   958	00000043  01*(3A1A2403)			 fl_lfo_frq	 dd	 0.000588
+1   959	00000047  01*(015E)			 fl_max		 dw	 350
+1   960
+1   961	00000049  01*(3A449BA6)			 vc_f0		 dd	 0.00075 ;ƒƒƒ vocoder ƒƒƒ
+1   962	0000004D  01*(3B03126F)			 vc_speed	 dd	 0.002
+1   963	00000051  01*(3B449BA6)			 vc_gain	 dd	 0.003
+1   964	00000055  01*(2B8CBCCC)			 vc_asp_gain	 dd	 0.000000000001
+1   965
+1   966	00000059  01*(000E)			 snd_gain	 dw	 14
+1   967
+1   968	0000005B			 ENDS
+1   969
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 18
+stub.asm
+
+
+
+1   970					 tb_hit	 MACRO				 ;ƒƒƒ tb 303 note hit ƒƒƒ
+1   971
+1   972						 xor	 eax, eax
+1   973						 mov	 [ebx].tb_saw, eax
+1   974
+1   975						 mov	 eax, [edx].tb_env_init
+1   976						 mov	 [ebx].tb_env, eax
+1   977
+1   978					 ENDM
+1   979
+1   980					 tb_wav	 MACRO				 ;ƒƒƒ tb wave function ƒƒƒ
+1   981
+1   982						 fld	 [edx].tb_env_mul	 ;ƒƒƒ filter env. ƒƒƒ
+1   983						 fmul	 [ebx].tb_env
+1   984						 fst	 [ebx].tb_env
+1   985						 fadd	 [edx].tb_cut
+1   986
+1   987						 fld	 [ebx].tb_saw		 ;ƒƒƒ saw-tooth	ƒƒƒ
+1   988						 frndint
+1   989						 fsubr	 [ebx].tb_saw
+1   990						 dec	 [ebx].tb_len		 ;end of note ?
+1   991						 js	 @@tb_done
+1   992						 fadd	 [edx].tb_saw_inc
+1   993					 @@tb_done:
+1   994						 fst	 [ebx].tb_saw
+1   995
+1   996						 fsub	 [ebx].tb_uc		 ;ƒƒƒ IIR low-pass ƒƒƒ
+1   997						 fld	 [ebx].tb_il
+1   998						 fld	 [edx].tb_reso_mul
+1   999						 fmul	 [ebx].tb_reso		 ;reso env.
+1  1000						 fst	 [ebx].tb_reso
+1  1001						 fmulp	 st(1)
+1  1002						 fsubp	 st(1)
+1  1003						 fmul	 st(0),	st(1)
+1  1004						 fadd	 [ebx].tb_il
+1  1005						 fst	 [ebx].tb_il
+1  1006						 fmulp	 st(1)
+1  1007						 fadd	 [ebx].tb_uc
+1  1008						 fst	 [ebx].tb_uc
+1  1009
+1  1010						 fldpi				 ;ƒƒƒ distortion ƒƒƒ
+1  1011						 fmulp	 st(1)
+1  1012						 fld1
+1  1013						 fpatan
+1  1014
+1  1015					 ENDM
+1  1016
+1  1017					 ch_wav	 MACRO				 ;ƒƒƒ closed hihat wave	ƒƒƒ
+1  1018
+1  1019						 fld	 [edx].ch_env_mul	 ;ƒƒƒ envelope ƒƒƒ
+1  1020						 fmul	 [ebx].ch_env
+1  1021						 fst	 [ebx].ch_env
+1  1022						 fimul	 dptr [esp]		 ;random
+1  1023
+1  1024						 fld	 st(0)
+1  1025						 fsub	 [ebx].ch_i2		 ;ƒƒƒ IIR high-pass ƒƒƒ
+1  1026						 fld	 [ebx].ch_i1
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 19
+stub.asm
+
+
+
+1  1027						 fstp	 [ebx].ch_i2
+1  1028						 fxch	 st(1)
+1  1029						 fstp	 [ebx].ch_i1
+1  1030
+1  1031					 ENDM
+1  1032
+1  1033					 sn_wav	 MACRO				 ;ƒƒƒ u96 sonar	wave ƒƒƒ
+1  1034
+1  1035						 fld	 [edx].sn_env_mul	 ;ƒƒƒ envelope ƒƒƒ
+1  1036						 fmul	 [ebx].sn_env
+1  1037						 fst	 [ebx].sn_env
+1  1038						 fimul	 dptr [esp]		 ;random
+1  1039
+1  1040						 fld	 [ebx].sn_uc		 ;ƒƒƒ IIR band-pass ƒƒƒ
+1  1041						 fmul	 [edx].sn_cut
+1  1042						 fadd	 [ebx].sn_il
+1  1043						 fmul	 [edx].sn_reso
+1  1044						 faddp	 st(1)
+1  1045						 fst	 [ebx].sn_il
+1  1046
+1  1047						 fmul	 [edx].sn_cut
+1  1048						 fsubr	 [ebx].sn_uc
+1  1049						 fst	 [ebx].sn_uc
+1  1050
+1  1051					 ENDM
+1  1052
+1  1053					 bd_wav	 MACRO				 ;ƒƒƒ bass drum	ƒƒƒ
+1  1054
+1  1055						 fld	 [edx].bd_env_mul	 ;ƒƒƒ envelope ƒƒƒ
+1  1056						 fmul	 [ebx].bd_env
+1  1057						 fst	 [ebx].bd_env
+1  1058
+1  1059						 fld	 [ebx].bd_uc		 ;ƒƒƒ oscillator ƒƒƒ
+1  1060						 fmul	 st(0),	st(1)
+1  1061						 fsubr	 [ebx].bd_il
+1  1062						 fst	 [ebx].bd_il
+1  1063
+1  1064						 fmulp	 st(1)
+1  1065						 fadd	 [ebx].bd_uc
+1  1066						 fmul	 [edx].bd_env_mul
+1  1067						 fst	 [ebx].bd_uc
+1  1068
+1  1069						 fldlg2				 ;ƒƒƒ distortion ƒƒƒ
+1  1070						 fpatan
+1  1071
+1  1072					 ENDM
+1  1073
+1  1074					 fx_delay	 MACRO			 ;ƒƒƒ delay ƒƒƒ
+1  1075
+1  1076						 mov	 eax, [ebx].dl_pos
+1  1077						 dec	 eax
+1  1078						 jns	 @@dl_ok
+1  1079						 mov	 eax, DELAY_LEN	- 1
+1  1080					 @@dl_ok:
+1  1081						 mov	 [ebx].dl_pos, eax
+1  1082						 mov	 ecx, [ebx].pm_mpool
+1  1083						 lea	 ecx, [ecx].DELAY_OFF
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 20
+stub.asm
+
+
+
+1  1084
+1  1085						 fld	 dptr [ecx + 4*eax]	 ;delay	w/ feedback
+1  1086						 fmul	 [edx].dl_feedback
+1  1087						 faddp	 st(1)
+1  1088						 fst	 dptr [ecx + 4*eax]
+1  1089
+1  1090					 ENDM
+1  1091
+1  1092	00000000			 T_BIQUAD	 STRUC			 ;ƒƒƒ biquad IIR filter	ƒƒƒ
+1  1093
+1  1094	00000000  01*(????????)			 i1		 dd	 ?	 ;delay	line (input)
+1  1095	00000004  01*(????????)			 i2		 dd	 ?
+1  1096	00000008  01*(????????)			 z1		 dd	 ?	 ;delay	line (output)
+1  1097	0000000C  01*(????????)			 z2		 dd	 ?
+1  1098
+1  1099	00000010			 ENDS
+1  1100
+1  1101	00000000			 T_BAND		 STRUC			 ;ƒƒƒ vocoder band ƒƒƒ
+1  1102
+1  1103	00000000  01*(????????)			 b		 dd	 ?	 ;IIR coeff's
+1  1104	00000004  01*(????????)			 c		 dd	 ?
+1  1105	00000008  01*(????????)			 a		 dd	 ?
+1  1106
+1  1107	0000000C  01*(????????)			 vc_amp		 dd	 ?	 ;band modulation
+1  1108	00000010  01*(????????)			 vc_newamp	 dd	 ?
+1  1109
+1  1110	00000014			 ENDS
+1  1111
+1  1112	00000000			 T_VC_ZERO	 STRUC			 ;ƒƒƒ vocoder ƒƒƒ
+1  1113
+1  1114	00000000  01*(????????)					 dd	 ?
+1  1115	00000004  01*(04*(????????))		 vc_dirac	 dd	 4 dup ( ? )
+1  1116
+1  1117	00000014  01*(????????)			 vc_timer	 dd	 ?
+1  1118	00000018  01*(????????)			 vc_sptr	 dd	 ?
+1  1119	0000001C  01*(????????)			 vc_asp		 dd	 ?	 ;aspiration noise
+1  1120	00000020  01*(????????)			 vc_newasp	 dd	 ?
+1  1121
+1  1122	00000024  01*(0C*(14*(??)))		 vc_band T_BAND	  12   dup ( )	 ;vocoder band
+1  1123	00000114  01*(48*(10*(??)))		 vc_iir	 T_BIQUAD 12*6 dup ( )	 ;IIR biquads (12 dB)
+1  1124
+1  1125	00000594			 ENDS
+1  1126
+1  1127					 bq_init MACRO				 ;ƒƒƒ init IIR biquad ƒƒƒ
+1  1128
+1  1129						 lea	 ebx, bq_bands
+1  1130						 lea	 edi, intro_vocoder.vc_band
+1  1131
+1  1132						 mov	 cl, 12
+1  1133					 @@bq_init:
+1  1134						 fild	 wptr [ebx + 2]
+1  1135						 fisub	 wptr [ebx]
+1  1136						 fmul	 mpi_ln2		 ;r = e^( -pi*Ta*bw )
+1  1137						 f2xm1
+1  1138						 fld1
+1  1139						 faddp	 st(1)
+1  1140
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 21
+stub.asm
+
+
+
+1  1141						 fild	 wptr [ebx]		 ;b = 2	* r * cos( 2*pi*Ta*f )
+1  1142						 inc	 ebx
+1  1143						 inc	 ebx
+1  1144						 fiadd	 wptr [ebx]
+1  1145						 fmul	 pi_Ta
+1  1146						 fcos
+1  1147						 fadd	 st(0),	st(0)
+1  1148						 fmul	 st(0),	st(1)
+1  1149						 fstp	 dptr [edi].b
+1  1150
+1  1151						 fmul	 st(0),	st(0)		 ;c = r^2
+1  1152						 fst	 dptr [edi].c
+1  1153
+1  1154						 fld1				 ;a = 1.0 - r^2
+1  1155						 fsubrp	 st(1)
+1  1156						 fstp	 dptr [edi].a		 ;( normally: 1.0 - 2.0*r + r^2	)
+1  1157
+1  1158						 lea	 edi, [edi].SIZE T_BAND
+1  1159						 loop	 @@bq_init
+1  1160
+1  1161					 ENDM
+1  1162
+1  1163					 bq_wav	 MACRO				 ;ƒƒƒ biquad IIR filter	ƒƒƒ
+1  1164
+1  1165						 ; [eax] -> T_BIQUAD
+1  1166						 ; [ebx] -> T_BAND
+1  1167						 ; st(0) = input/output
+1  1168
+1  1169						 fld	 st(0)
+1  1170						 fsub	 [eax].i2		 ;y = a*(in - i2) + b*z1 - c*z2
+1  1171						 fld	 [eax].z2
+1  1172						 fmul	 [ebx].c
+1  1173						 fxch	 st(1)
+1  1174						 fmul	 [ebx].a
+1  1175						 fsubrp	 st(1)
+1  1176						 fld	 [eax].z1
+1  1177						 fst	 [eax].z2
+1  1178						 fmul	 [ebx].b
+1  1179						 faddp	 st(1)
+1  1180						 fld	 [eax].i1
+1  1181						 fstp	 [eax].i2
+1  1182						 fst	 [eax].z1
+1  1183						 fxch	 st(1)
+1  1184						 fstp	 [eax].i1
+1  1185
+1  1186					 ENDM
+1  1187
+1  1188					 vc_wav	 MACRO				 ;ƒƒƒ vocoder wave ƒƒƒ
+1  1189
+1  1190						 push	 ebx
+1  1191						 lea	 ebx, intro_vocoder
+1  1192
+1  1193						 fldz
+1  1194
+1  1195						 mov	 eax, [ebx].vc_timer
+1  1196						 test	 eax, eax		 ;activated ?
+1  1197						 js	 @@vc_done
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 22
+stub.asm
+
+
+
+1  1198
+1  1199						 xor	 ecx, ecx
+1  1200						 push	 ecx
+1  1201						 mov	 cl, 4
+1  1202					 @@s_dirac:				 ;ƒƒƒ super-dirac ƒƒƒ
+1  1203						 fadd	 [edx].vc_f0
+1  1204						 fld	 dptr [ebx + 4*ecx]
+1  1205
+1  1206						 fld	 st(0)			 ;saw
+1  1207						 frndint
+1  1208						 fsubr	 st(0),	st(1)
+1  1209						 fadd	 st(0),	st(2)
+1  1210						 fst	 dptr [ebx + 4*ecx]
+1  1211
+1  1212						 fsubp	 st(1)			 ;f' ->	dirac
+1  1213						 fadd	 dptr [esp]
+1  1214						 fstp	 dptr [esp]
+1  1215
+1  1216						 loop	 @@s_dirac
+1  1217						 ffree	 st(0)
+1  1218						 fld	 dptr [esp]
+1  1219						 pop	 ecx
+1  1220
+1  1221						 fld	 [ebx].vc_newasp	 ;ƒƒƒ aspiration noise ƒƒƒ
+1  1222						 fsub	 [ebx].vc_asp
+1  1223						 fmul	 [edx].vc_speed
+1  1224						 fadd	 [ebx].vc_asp
+1  1225						 fst	 [ebx].vc_asp
+1  1226						 fimul	 dptr [esp + 4]		 ;random
+1  1227						 fmul	 [edx].vc_asp_gain
+1  1228						 faddp	 st(1)
+1  1229
+1  1230						 fldz
+1  1231						 lea	 eax, [ebx].vc_iir
+1  1232						 lea	 ebx, [ebx].vc_band
+1  1233
+1  1234						 mov	 ch, 12			 ;ƒƒƒ filter bank ƒƒƒ
+1  1235					 @@bank:
+1  1236
+1  1237						 fld	 [ebx].vc_newamp	 ;env. follower
+1  1238						 fsub	 [ebx].vc_amp
+1  1239						 fmul	 [edx].vc_speed
+1  1240						 fadd	 [ebx].vc_amp
+1  1241						 fst	 [ebx].vc_amp
+1  1242						 fmul	 st(0),	st(2)		 ;modulator
+1  1243
+1  1244						 mov	 cl, 6
+1  1245					 @@bq:					 ;6 x 12 dB
+1  1246						 bq_wav
+1  1247						 lea	 eax, [eax].SIZE T_BIQUAD
+1  1248						 dec	 cl
+1  1249						 jnz	 @@bq
+1  1250
+1  1251						 faddp	 st(1)
+1  1252						 lea	 ebx, [ebx].SIZE T_BAND
+1  1253						 dec	 ch
+1  1254						 jnz	 @@bank
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 23
+stub.asm
+
+
+
+1  1255						 ffree	 st(1)
+1  1256
+1  1257						 fmul	 [edx].vc_gain
+1  1258
+1  1259					 @@vc_done:
+1  1260						 pop	 ebx
+1  1261
+1  1262					 ENDM
+1  1263
+1  1264					 vc_ctrl MACRO				 ;ƒƒƒ vocoder control ƒƒƒ
+1  1265
+1  1266						 pushad
+1  1267						 lea	 ebx, intro_vocoder
+1  1268
+1  1269						 dec	 [ebx].vc_timer
+1  1270						 jns	 @@vcc_done
+1  1271
+1  1272					 @@vcc:					 ;ƒƒƒ new frame	ƒƒƒ
+1  1273						 mov	 eax, [ebx].vc_sptr
+1  1274						 inc	 [ebx].vc_sptr
+1  1275						 lea	 esi, vc_speech[ 2*eax ]
+1  1276						 lodsb				 ;get timing, phoneme
+1  1277						 movzx	 ecx, al
+1  1278						 mov	 [ebx].vc_timer, ecx
+1  1279						 lodsb
+1  1280						 imul	 eax, 13
+1  1281
+1  1282						 lea	 esi, vc_franky[ eax ]
+1  1283						 xor	 eax, eax
+1  1284
+1  1285						 lodsb				 ;ƒƒƒ new aspiration ƒƒƒ
+1  1286						 push	 eax
+1  1287						 fild	 dptr [esp]
+1  1288						 pop	 eax
+1  1289						 fstp	 [ebx].vc_newasp
+1  1290
+1  1291						 xor	 ecx, ecx
+1  1292						 mov	 cl, 12
+1  1293					 @@bloop:				 ;ƒƒƒ new bq-target ƒƒƒ
+1  1294						 lodsb
+1  1295						 push	 eax
+1  1296						 fild	 dptr [esp]
+1  1297						 pop	 eax
+1  1298						 fstp	 [ebx].vc_band[0].vc_newamp
+1  1299						 lea	 ebx, [ebx].SIZE T_BAND
+1  1300						 loop	 @@bloop
+1  1301
+1  1302					 @@vcc_done:
+1  1303						 popad
+1  1304
+1  1305					 ENDM
+1  1306
+1  1307					 vc_precalc	 MACRO			 ;ƒƒƒ precalculator ƒƒƒ
+1  1308
+1  1309						 bq_init
+1  1310						 lea	 ebx, intro_zero
+1  1311						 lea	 edx, intro_init
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 24
+stub.asm
+
+
+
+1  1312
+1  1313						 mov	 edi, [ebx].pm_mpool
+1  1314						 lea	 edi, [edi].VOCODER_OFF
+1  1315						 mov	 [ebx].vc_pos, edi
+1  1316
+1  1317						 mov	 cx, 300 * 14
+1  1318					 @@vc_fl:
+1  1319						 push	 ecx
+1  1320
+1  1321						 vc_ctrl			 ;ƒƒƒ vocoder control ƒƒƒ
+1  1322						 add	 [ebx].fl_lfo, 4
+1  1323
+1  1324						 mov	 esi, VC_SPF
+1  1325					 @@vc_l:
+1  1326						 call	 rand
+1  1327						 push	 eax
+1  1328						 vc_wav
+1  1329						 pop	 eax
+1  1330						 call	 fx_flanger
+1  1331						 fstp	 dptr [edi]
+1  1332						 lea	 edi, [edi].4
+1  1333						 dec	 esi
+1  1334						 jnz	 @@vc_l
+1  1335
+1  1336						 pop	 ecx
+1  1337						 cmp cl, 0
+1  1338						 jnz @nodot
+1  1339						 call precalc_dot
+1  1340						 @nodot:
+1  1341						 dec	 ecx
+1  1342						 jnz	 @@vc_fl
+1  1343
+1  1344						 mov	 [ebx].fl_lfo, ecx
+1  1345
+1  1346					 ENDM
+1  1347
+1  1348	00000027				 CODE_32	 SEGMENT
+1  1349	00000027			 baseoffset:
+1  1350
+1  1351	00000027			 rnd_seed	 LABEL	 DWORD
+1  1352
+1  1353	00000027			 pm_entry:				 ;˛˛˛˛ CS, DS =	ES = SS	˛˛˛˛
+1  1354						 prepareblitter
+2  1355	00000027  33 C0			      xor eax, eax
+2  1356	00000029  67| A0 3C55r		      mov al, vmode
+2  1357	0000002D  8B 1C	85 0000025Er	      mov ebx, [eax*4+flipfunctions]
+2  1358	00000034  67| 89 1E 3C5Ar	      mov flipfunction,	ebx
+1  1359						 initfastperlin
+2  1360	00000039  67| 8D 36 0238r	      lea esi, [@nrbase1]
+2  1361	0000003E			      @initloop:
+2  1362	0000003E  51				  push ecx
+2  1363	0000003F  DB 04	24			  fild dword ptr [esp]
+2  1364	00000042  59				  pop ecx
+2  1365	00000043  DE 36				  fidiv	word ptr [esi]
+2  1366	00000045  D9 EB				  fldpi
+2  1367	00000047  DE C9				  fmulp	st(1), st(0)
+2  1368	00000049  D9 FF				  fcos
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 25
+stub.asm
+
+
+
+2  1369	0000004B  DF 46	02			  fild word ptr	[esi+2]
+2  1370	0000004E  DC C9				  fmul st(1), st(0)
+2  1371	00000050  D9 C9				  fxch st(1)
+2  1372	00000052  DE E9				  fsubp	st(1), st(0)
+2  1373	00000054  DB 1C	8D 00000FEDr		  fistp	dword ptr costab[ecx*4]
+2  1374	0000005B  FE C1			      inc cl
+2  1375	0000005D  75 DF			      jnz @initloop
+1  1376						 makenoise ;once at init.. one mb of pure random noise
+2  1377	0000005F  B8 00001234			 mov eax, 01234h
+2  1378	00000064  B9 00100000			 mov ecx, 1024*1024
+2  1379	00000069  8D BD	00050000		 lea edi, [noisemap]
+2  1380	0000006F				 @bigloop:
+2  1381	0000006F  B2 04					 mov dl, 4
+2  1382	00000071					 @randloop:
+2  1383	00000071  8B D8						 mov ebx, eax
+2  1384	00000073  C1 EB	03					 shr ebx, 3
+2  1385	00000076  33 D8						 xor ebx, eax
+2  1386	00000078  D1 EB						 shr ebx, 1
+2  1387	0000007A  D1 D8						 rcr eax, 1
+2  1388	0000007C  FE CA					 dec dl
+2  1389	0000007E  75 F1					 jnz @randloop
+2  1390	00000080  AA					 stosb
+2  1391	00000081  E2 EC				 loop @bigloop
+1  1392						 makealltextures
+2  1393	00000083  B1 06				 mov cl, nr_textures
+2  1394	00000085  8D BD	00150000		 lea edi, [textures]
+2  1395	0000008B  BE 00000F2Br			 lea esi, [testtextdesc]
+2  1396	00000090				 @nexttexture:
+2  1397	00000090  E8 000006EF			 call precalc_dot
+2  1398	00000095  60				 pushad
+2  1399	00000096  E8 00000D52			 call synthtexture
+2  1400	0000009B  61				 popad
+2  1401	0000009C  33 C0				 xor eax, eax
+2  1402	0000009E  AC				 lodsb
+2  1403	0000009F  6B C0	09			imul eax, 9
+2  1404	000000A2  03 F0				 add esi, eax
+2  1405	000000A4  66| AD			 lodsw
+2  1406	000000A6  81 C7	00040000		 add edi, 256*256*4
+2  1407	000000AC  E2 E2				 loop @nexttexture
+1  1408						 makeshademap
+2  1409	000000AE  8D BD	002D4F70		 lea edi, [shademap]
+2  1410	000000B4  66| 49			 dec cx
+2  1411	000000B6				 @loopme:
+2  1412	000000B6  8A C1				      mov al, cl
+2  1413	000000B8  F6 D0				      not al
+2  1414	000000BA  2A C5				      sub al, ch
+2  1415	000000BC  73 02				      jnc @noclamplo
+2  1416	000000BE  32 C0					  xor al, al
+2  1417	000000C0				      @noclamplo:
+2  1418	000000C0  AA				      stosb
+2  1419	000000C1  E2 F3				 loop @loopme
+1  1420						 initfont
+2  1421	000000C3  B2 FF			      mov dl, 255
+2  1422	000000C5  67| 8D 36 0685r	      lea esi, [font_buf]
+2  1423	000000CA  8D BD	00334F70	      lea edi, [softfont]
+2  1424	000000D0  57			      push edi
+2  1425	000000D1			      @letterloop:
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 26
+stub.asm
+
+
+
+2  1426	000000D1  B1 20				   mov cl, 32
+2  1427	000000D3				   @yfloop:
+2  1428	000000D3  F6 C1	03			       test cl,	011b
+2  1429	000000D6  75 01				       jnz @noload
+2  1430	000000D8  AC				       lodsb
+2  1431	000000D9				       @noload:
+2  1432	000000D9  50				       push eax
+2  1433	000000DA  B5 08				       mov ch, 8
+2  1434	000000DC				       @xfloop:
+2  1435	000000DC  02 C0					  add al, al
+2  1436	000000DE  73 06					  jnc @nopixel
+2  1437	000000E0  C7 07	3F3F3F3F			      mov dword	ptr [edi], 03f3f3f3fh
+2  1438	000000E6					  @nopixel:
+2  1439	000000E6  83 C7	04				  add edi, 4
+2  1440	000000E9  FE CD				       dec ch
+2  1441	000000EB  75 EF				       jnz @xfloop
+2  1442	000000ED  58				       pop eax
+2  1443	000000EE  83 C7	20			       add edi,	32
+2  1444	000000F1  E2 E0				   loop	@yfloop
+2  1445	000000F3  81 C7	00000800		   add edi, 32*64
+2  1446	000000F9  FE CA			      dec dl
+2  1447	000000FB  75 D4			      jnz @letterloop
+2  1448	000000FD  5F			      pop edi
+2  1449	000000FE  B1 08			      mov cl, 8
+2  1450	00000100			      @blurallloop:
+2  1451	00000100  57				   push	edi
+2  1452	00000101  BB 00080000			   mov ebx, 32*32*256*2
+2  1453	00000106				   @blurloop:
+2  1454	00000106  8A 47	C0				mov al,	[edi-64]
+2  1455	00000109  02 47	FF				add al,	[edi-1]
+2  1456	0000010C  02 47	01				add al,	[edi+1]
+2  1457	0000010F  02 47	40				add al,	[edi+64]
+2  1458	00000112  C0 E8	02				shr al,	2
+2  1459	00000115  AA					stosb
+2  1460	00000116  4B				   dec ebx
+2  1461	00000117  75 ED				   jnz @blurloop
+2  1462	00000119  5F				   pop edi
+2  1463	0000011A  E2 E4			      loop @blurallloop
+1  1464
+1  1465	0000011C  67| 8C 1E 0013r		 mov	 intro_zero.pm_ds, ds
+1  1466	00000121  67| 89 2E 000Fr		 mov	 intro_zero.pm_mpool, ebp
+1  1467
+1  1468						 vc_precalc			 ;ƒƒƒ vocoder precalc ƒƒƒ
+2  1469						 bq_init
+3  1470	00000126  67| 8D 1E 005Br		 lea	 ebx, bq_bands
+3  1471	0000012B  67| 8D 3E 0113r		 lea	 edi, intro_vocoder.vc_band
+3  1472	00000130  B1 0C				 mov	 cl, 12
+3  1473	00000132			 @@bq_init:
+3  1474	00000132  DF 43	02			 fild	 wptr [ebx + 2]
+3  1475	00000135  DE 23				 fisub	 wptr [ebx]
+3  1476	00000137  67| D8 0E 0075r		 fmul	 mpi_ln2		 ;r = e^( -pi*Ta*bw )
+3  1477	0000013C  D9 F0				 f2xm1
+3  1478	0000013E  D9 E8				 fld1
+3  1479	00000140  DE C1				 faddp	 st(1)
+3  1480	00000142  DF 03				 fild	 wptr [ebx]		 ;b = 2	* r * cos( 2*pi*Ta*f )
+3  1481	00000144  43				 inc	 ebx
+3  1482	00000145  43				 inc	 ebx
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 27
+stub.asm
+
+
+
+3  1483	00000146  DE 03				 fiadd	 wptr [ebx]
+3  1484	00000148  67| D8 0E 0079r		 fmul	 pi_Ta
+3  1485	0000014D  D9 FF				 fcos
+3  1486	0000014F  D8 C0				 fadd	 st(0),	st(0)
+3  1487	00000151  D8 C9				 fmul	 st(0),	st(1)
+3  1488	00000153  D9 1F				 fstp	 dptr [edi].b
+3  1489	00000155  D8 C8				 fmul	 st(0),	st(0)		 ;c = r^2
+3  1490	00000157  D9 57	04			 fst	 dptr [edi].c
+3  1491	0000015A  D9 E8				 fld1				 ;a = 1.0 - r^2
+3  1492	0000015C  DE E1				 fsubrp	 st(1)
+3  1493	0000015E  D9 5F	08			 fstp	 dptr [edi].a		 ;( normally: 1.0 - 2.0*r + r^2	)
+3  1494	00000161  8D 7F	14			 lea	 edi, [edi].SIZE T_BAND
+3  1495	00000164  E2 CC				 loop	 @@bq_init
+2  1496	00000166  67| 8D 1E 0000r		 lea	 ebx, intro_zero
+2  1497	0000016B  67| 8D 16 0000r		 lea	 edx, intro_init
+2  1498	00000170  8B 7B	0F			 mov	 edi, [ebx].pm_mpool
+2  1499	00000173  8D BF	00410000		 lea	 edi, [edi].VOCODER_OFF
+2  1500	00000179  89 7B	1F			 mov	 [ebx].vc_pos, edi
+2  1501	0000017C  66| B9 1068			 mov	 cx, 300 * 14
+2  1502	00000180			 @@vc_fl:
+2  1503	00000180  51				 push	 ecx
+2  1504						 vc_ctrl			 ;ƒƒƒ vocoder control ƒƒƒ
+3  1505	00000181  60				 pushad
+3  1506	00000182  67| 8D 1E 00EFr		 lea	 ebx, intro_vocoder
+3  1507	00000187  FF 4B	14			 dec	 [ebx].vc_timer
+3  1508	0000018A  79 3B				 jns	 @@vcc_done
+3  1509	0000018C			 @@vcc:					 ;ƒƒƒ new frame	ƒƒƒ
+3  1510	0000018C  8B 43	18			 mov	 eax, [ebx].vc_sptr
+3  1511	0000018F  FF 43	18			 inc	 [ebx].vc_sptr
+3  1512	00000192  8D 34	45 0000015Ar		 lea	 esi, vc_speech[ 2*eax ]
+3  1513	00000199  AC				 lodsb				 ;get timing, phoneme
+3  1514	0000019A  0F B6	C8			 movzx	 ecx, al
+3  1515	0000019D  89 4B	14			 mov	 [ebx].vc_timer, ecx
+3  1516	000001A0  AC				 lodsb
+3  1517	000001A1  6B C0	0D			 imul	 eax, 13
+3  1518	000001A4  8D B0	0000007Dr		 lea	 esi, vc_franky[ eax ]
+3  1519	000001AA  33 C0				 xor	 eax, eax
+3  1520	000001AC  AC				 lodsb				 ;ƒƒƒ new aspiration ƒƒƒ
+3  1521	000001AD  50				 push	 eax
+3  1522	000001AE  DB 04	24			 fild	 dptr [esp]
+3  1523	000001B1  58				 pop	 eax
+3  1524	000001B2  D9 5B	20			 fstp	 [ebx].vc_newasp
+3  1525	000001B5  33 C9				 xor	 ecx, ecx
+3  1526	000001B7  B1 0C				 mov	 cl, 12
+3  1527	000001B9			 @@bloop:				 ;ƒƒƒ new bq-target ƒƒƒ
+3  1528	000001B9  AC				 lodsb
+3  1529	000001BA  50				 push	 eax
+3  1530	000001BB  DB 04	24			 fild	 dptr [esp]
+3  1531	000001BE  58				 pop	 eax
+3  1532	000001BF  D9 5B	34			 fstp	 [ebx].vc_band[0].vc_newamp
+3  1533	000001C2  8D 5B	14			 lea	 ebx, [ebx].SIZE T_BAND
+3  1534	000001C5  E2 F2				 loop	 @@bloop
+3  1535	000001C7			 @@vcc_done:
+3  1536	000001C7  61				 popad
+2  1537	000001C8  83 43	6B 04			 add	 [ebx].fl_lfo, 4
+2  1538	000001CC  BE 0000006E			 mov	 esi, VC_SPF
+2  1539	000001D1			 @@vc_l:
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 28
+stub.asm
+
+
+
+2  1540	000001D1  E8 00000569			 call	 rand
+2  1541	000001D6  50				 push	 eax
+2  1542						 vc_wav
+3  1543	000001D7  53				 push	 ebx
+3  1544	000001D8  67| 8D 1E 00EFr		 lea	 ebx, intro_vocoder
+3  1545	000001DD  D9 EE				 fldz
+3  1546	000001DF  8B 43	14			 mov	 eax, [ebx].vc_timer
+3  1547	000001E2  85 C0				 test	 eax, eax		 ;activated ?
+3  1548	000001E4  0F 88	0000009B		 js	 @@vc_done
+3  1549	000001EA  33 C9				 xor	 ecx, ecx
+3  1550	000001EC  51				 push	 ecx
+3  1551	000001ED  B1 04				 mov	 cl, 4
+3  1552	000001EF			 @@s_dirac:				 ;ƒƒƒ super-dirac ƒƒƒ
+3  1553	000001EF  D8 42	49			 fadd	 [edx].vc_f0
+3  1554	000001F2  D9 04	8B			 fld	 dptr [ebx + 4*ecx]
+3  1555	000001F5  D9 C0				 fld	 st(0)			 ;saw
+3  1556	000001F7  D9 FC				 frndint
+3  1557	000001F9  D8 E9				 fsubr	 st(0),	st(1)
+3  1558	000001FB  D8 C2				 fadd	 st(0),	st(2)
+3  1559	000001FD  D9 14	8B			 fst	 dptr [ebx + 4*ecx]
+3  1560	00000200  DE E9				 fsubp	 st(1)			 ;f' ->	dirac
+3  1561	00000202  D8 04	24			 fadd	 dptr [esp]
+3  1562	00000205  D9 1C	24			 fstp	 dptr [esp]
+3  1563	00000208  E2 E5				 loop	 @@s_dirac
+3  1564	0000020A  DD C0				 ffree	 st(0)
+3  1565	0000020C  D9 04	24			 fld	 dptr [esp]
+3  1566	0000020F  59				 pop	 ecx
+3  1567	00000210  D9 43	20			 fld	 [ebx].vc_newasp	 ;ƒƒƒ aspiration noise ƒƒƒ
+3  1568	00000213  D8 63	1C			 fsub	 [ebx].vc_asp
+3  1569	00000216  D8 4A	4D			 fmul	 [edx].vc_speed
+3  1570	00000219  D8 43	1C			 fadd	 [ebx].vc_asp
+3  1571	0000021C  D9 53	1C			 fst	 [ebx].vc_asp
+3  1572	0000021F  DA 4C	24 04			 fimul	 dptr [esp + 4]		 ;random
+3  1573	00000223  D8 4A	55			 fmul	 [edx].vc_asp_gain
+3  1574	00000226  DE C1				 faddp	 st(1)
+3  1575	00000228  D9 EE				 fldz
+3  1576	0000022A  8D 83	00000114		 lea	 eax, [ebx].vc_iir
+3  1577	00000230  8D 5B	24			 lea	 ebx, [ebx].vc_band
+3  1578	00000233  B5 0C				 mov	 ch, 12			 ;ƒƒƒ filter bank ƒƒƒ
+3  1579	00000235			 @@bank:
+3  1580	00000235  D9 43	10			 fld	 [ebx].vc_newamp	 ;env. follower
+3  1581	00000238  D8 63	0C			 fsub	 [ebx].vc_amp
+3  1582	0000023B  D8 4A	4D			 fmul	 [edx].vc_speed
+3  1583	0000023E  D8 43	0C			 fadd	 [ebx].vc_amp
+3  1584	00000241  D9 53	0C			 fst	 [ebx].vc_amp
+3  1585	00000244  D8 CA				 fmul	 st(0),	st(2)		 ;modulator
+3  1586	00000246  B1 06				 mov	 cl, 6
+3  1587	00000248			 @@bq:					 ;6 x 12 dB
+3  1588						 bq_wav
+4  1589	00000248  D9 C0				 fld	 st(0)
+4  1590	0000024A  D8 60	04			 fsub	 [eax].i2		 ;y = a*(in - i2) + b*z1 - c*z2
+4  1591	0000024D  D9 40	0C			 fld	 [eax].z2
+4  1592	00000250  D8 4B	04			 fmul	 [ebx].c
+4  1593	00000253  D9 C9				 fxch	 st(1)
+4  1594	00000255  D8 4B	08			 fmul	 [ebx].a
+4  1595	00000258  DE E1				 fsubrp	 st(1)
+4  1596	0000025A  D9 40	08			 fld	 [eax].z1
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 29
+stub.asm
+
+
+
+4  1597	0000025D  D9 50	0C			 fst	 [eax].z2
+4  1598	00000260  D8 0B				 fmul	 [ebx].b
+4  1599	00000262  DE C1				 faddp	 st(1)
+4  1600	00000264  D9 00				 fld	 [eax].i1
+4  1601	00000266  D9 58	04			 fstp	 [eax].i2
+4  1602	00000269  D9 50	08			 fst	 [eax].z1
+4  1603	0000026C  D9 C9				 fxch	 st(1)
+4  1604	0000026E  D9 18				 fstp	 [eax].i1
+3  1605	00000270  8D 40	10			 lea	 eax, [eax].SIZE T_BIQUAD
+3  1606	00000273  FE C9				 dec	 cl
+3  1607	00000275  75 D1				 jnz	 @@bq
+3  1608	00000277  DE C1				 faddp	 st(1)
+3  1609	00000279  8D 5B	14			 lea	 ebx, [ebx].SIZE T_BAND
+3  1610	0000027C  FE CD				 dec	 ch
+3  1611	0000027E  75 B5				 jnz	 @@bank
+3  1612	00000280  DD C1				 ffree	 st(1)
+3  1613	00000282  D8 4A	51			 fmul	 [edx].vc_gain
+3  1614	00000285			 @@vc_done:
+3  1615	00000285  5B				 pop	 ebx
+2  1616	00000286  58				 pop	 eax
+2  1617	00000287  E8 000004C9			 call	 fx_flanger
+2  1618	0000028C  D9 1F				 fstp	 dptr [edi]
+2  1619	0000028E  8D 7F	04			 lea	 edi, [edi].4
+2  1620	00000291  4E				 dec	 esi
+2  1621	00000292  0F 85	FFFFFF39		 jnz	 @@vc_l
+2  1622	00000298  59				 pop	 ecx
+2  1623	00000299  80 F9	00			 cmp cl, 0
+2  1624	0000029C  75 05				 jnz @nodot
+2  1625	0000029E  E8 000004E1			 call precalc_dot
+2  1626	000002A3				 @nodot:
+2  1627	000002A3  49				 dec	 ecx
+2  1628	000002A4  0F 85	FFFFFED6		 jnz	 @@vc_fl
+2  1629	000002AA  89 4B	6B			 mov	 [ebx].fl_lfo, ecx
+1  1630	000002AD  51				 push	 ecx
+1  1631
+1  1632	000002AE  66| B8 0204			 mov	 ax, 0204h		 ;ƒƒƒ get RTC int ƒƒƒ
+1  1633	000002B2  B3 08				 mov	 bl, 08h
+1  1634	000002B4  CD 31				 int	 31h
+1  1635
+1  1636	000002B6  40				 inc	 eax			 ;ƒƒƒ set RTC int ƒƒƒ
+1  1637	000002B7  60				 pushad
+1  1638	000002B8  66| 8C C9			 mov	 cx, cs
+1  1639	000002BB  BA 00000514r			 lea	 edx, pm_timer
+1  1640	000002C0  CD 31				 int	 31h
+1  1641
+1  1642	000002C2			 pm_main:
+1  1643
+1  1644	000002C2				 @loopy:
+1  1645
+1  1646	000002C2  67| A1 0000r			     mov eax, intro_zero.timer
+1  1647	000002C6  C1 E8	03			     shr eax, 3
+1  1648	000002C9  67| A3 3C45r			     mov globalt, eax
+1  1649
+1  1650						     makematrix
+2  1651	000002CD  67| 8D 36 3BF5r	      lea esi, [matrixbuffer+(127*3*3*8-4)]
+2  1652	000002D2  8D 7E	48		      lea edi, [esi+3*3*8]
+2  1653	000002D5  B9 000008EE		      mov ecx, 127*3*3*2
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 30
+stub.asm
+
+
+
+2  1654	000002DA  FD			      std
+2  1655	000002DB  F3> A5		      rep movsd
+2  1656	000002DD  FC			      cld
+2  1657	000002DE  67| 8D 36 17F9r	      lea esi, [matrix]
+2  1658	000002E3  56			      push esi
+2  1659	000002E4  8D 7E	48		      lea edi, [esi+3*3*8]
+2  1660	000002E7  B1 12			      mov cl, 3*3*2
+2  1661	000002E9  F3> A5		      rep movsd
+2  1662	000002EB  5F			      pop edi
+2  1663	000002EC  BE			      db 0beh
+2  1664	000002ED			      rotspeed:
+2  1665	000002ED  00000000		      dd 0
+2  1666					      makerotmat
+3  1667	000002F1  B0 02			     mov al, 2
+3  1668	000002F3			     @preploop:
+3  1669	000002F3  67| DB 06 3C45r		fild globalt
+3  1670	000002F8  56				push esi
+3  1671	000002F9  DA 0C	24			fimul dword ptr	[esp]
+3  1672	000002FC  5E				pop esi
+3  1673	000002FD  67| DE 36 0238r		fidiv i_255
+3  1674	00000302  D9 FB				fsincos
+3  1675	00000304  D9 C9				 fxch st(1)
+3  1676	00000306  FE C8			     dec al
+3  1677	00000308  75 E9			     jnz @preploop
+3  1678	0000030A  D9 EE			     fldz
+3  1679	0000030C  DD 5F	08		     fstp qword	ptr [edi+8*1]
+3  1680	0000030F  DD 57	10		     fst qword ptr [edi+8*2]
+3  1681	00000312  D9 C9			     fxch st(1)
+3  1682	00000314  DD 17			     fst qword ptr [edi+8*0] ;first row
+3  1683	00000316  D9 CB			     fxch st(3)
+3  1684	00000318  DD 57	20		     fst qword ptr [edi+8*4]
+3  1685	0000031B  D9 CA			     fxch st(2)
+3  1686	0000031D  DD 57	38		     fst qword ptr [edi+8*7]
+3  1687	00000320  D9 C0			     fld st(0)
+3  1688	00000322  D8 CA			     fmul st(0), st(2)
+3  1689	00000324  DD 5F	18		     fstp qword	ptr [edi+8*3]
+3  1690	00000327  D9 C2			     fld st(2)
+3  1691	00000329  D8 CC			     fmul st(0), st(4)
+3  1692	0000032B  DD 5F	40		     fstp qword	ptr [edi+8*8]
+3  1693	0000032E  D9 E0			     fchs
+3  1694	00000330  DE CB			     fmulp st(3), st(0)
+3  1695	00000332  D9 E0			     fchs
+3  1696	00000334  DE C9			     fmulp st(1), st(0)
+3  1697	00000336  DD 5F	30		     fstp qword	ptr [edi+8*6]
+3  1698	00000339  DD 5F	28		     fstp qword	ptr [edi+8*5]
+1  1699						     runscript
+2  1700	0000033C  67| 8B 36 025Ar		 mov esi, scriptptr
+2  1701	00000341				 @runagain:
+2  1702	00000341  67| 8B 1E 0256r		 mov ebx, nextt
+2  1703	00000346  67| 39 1E 3C45r		 cmp globalt, ebx
+2  1704	0000034B  76 4B				 jna @norun
+2  1705	0000034D  33 C0				    xor	eax, eax
+2  1706	0000034F  AC				    lodsb
+2  1707	00000350  3C FF				    cmp	al, 255
+2  1708	00000352  0F 84	000001A6		    jz	@exit
+2  1709	00000358  03 D8				    add	ebx, eax
+2  1710	0000035A  67| 89 1E 0256r		    mov	nextt, ebx
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 31
+stub.asm
+
+
+
+2  1711	0000035F  3C FE				    cmp	al, 254
+2  1712	00000361  74 35				    jz @norun
+2  1713	00000363  66| AD			    lodsw
+2  1714	00000365  8A DC				    mov	bl, ah
+2  1715	00000367  80 E4	3F			    and	ah, 00111111b
+2  1716	0000036A  8D B8	00000027r		    lea	edi, [eax+baseoffset]
+2  1717	00000370  33 C0				    xor	eax, eax
+2  1718	00000372  F6 C3	80			    test bl,  010000000b
+2  1719	00000375  74 0B				    jz @no_rel
+2  1720	00000377  66| AD				 lodsw
+2  1721	00000379  8D 80	00000027r			 lea eax, [eax+baseoffset]
+2  1722	0000037F  AB					 stosd
+2  1723	00000380  EB BF					 jmp @runagain
+2  1724	00000382				    @no_rel:
+2  1725	00000382  F6 C3	40			    test bl, 001000000b
+2  1726	00000385  74 04				    jz @no_byte
+2  1727	00000387  AC					 lodsb
+2  1728	00000388  AB					 stosd
+2  1729	00000389  EB B6					 jmp @runagain
+2  1730	0000038B				    @no_byte:
+2  1731	0000038B  AC					 lodsb
+2  1732	0000038C  C1 E0	12				 shl eax, 18
+2  1733	0000038F  8D 80	00150000			 lea eax, [eax+texturebase]
+2  1734	00000395  AB					 stosd
+2  1735	00000396  EB A9					 jmp @runagain
+2  1736	00000398				 @norun:
+2  1737	00000398  67| 89 36 025Ar		 mov scriptptr,	esi
+1  1738						     ;first back fx
+1  1739	0000039D  8B FD				     mov edi, ebp
+1  1740	0000039F  BB				     db	0bbh
+1  1741	000003A0				     backfx1:
+1  1742	000003A0  00000890r			     dd	offset grid_putlinear
+1  1743						     rendergrid
+2  1744	000003A4  B9 00002580		      mov ecx, 320*30
+2  1745	000003A9  33 C0			      xor eax, eax
+2  1746	000003AB  F3> AB		      rep stosd
+2  1747	000003AD  8D B5	002D0000	      lea esi, [grid]
+2  1748	000003B3  60			      pushad
+2  1749	000003B4  B1 17			      mov cl, (180/8)+1
+2  1750	000003B6			      @ygridloop:
+2  1751	000003B6  B5 29				  mov ch, (320/8)+1
+2  1752	000003B8				  @xgridloop:
+2  1753	000003B8  FF D3				      call ebx
+2  1754	000003BA  B0 03				      mov al, 3
+2  1755	000003BC				      @shiftmedumb:
+2  1756	000003BC  C1 26	02				   shl dword ptr [esi],	2
+2  1757	000003BF  83 C6	04				   add esi, 4
+2  1758	000003C2  FE C8				      dec al
+2  1759	000003C4  75 F6				      jnz @shiftmedumb
+2  1760	000003C6  FE CD				  dec ch
+2  1761	000003C8  75 EE				  jnz @xgridloop
+2  1762	000003CA  E2 EA			      loop @ygridloop
+2  1763	000003CC  61			      popad
+2  1764	000003CD  B1 16			      mov cl, (180/8)
+2  1765	000003CF			      @ygridloopdraw:
+2  1766	000003CF  B5 28				  mov ch, (320/8)
+2  1767	000003D1				  @xgridloopdraw:
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 32
+stub.asm
+
+
+
+2  1768	000003D1  57				      push edi
+2  1769	000003D2  E8 00000569			      call drawblock
+2  1770	000003D7  5F				      pop edi
+2  1771	000003D8  83 C7	20			      add edi, 8*4
+2  1772	000003DB  83 C6	0C			      add esi, 12
+2  1773	000003DE  FE CD				  dec ch
+2  1774	000003E0  75 EF				  jnz @xgridloopdraw
+2  1775	000003E2  83 C6	0C			  add esi, 12
+2  1776	000003E5  81 C7	00002300		  add edi, 320*4*7
+2  1777	000003EB  E2 E2			      loop @ygridloopdraw
+2  1778	000003ED  B9 00002A80		      mov ecx, 34*320
+2  1779	000003F2  33 C0			      xor eax, eax
+2  1780	000003F4  F3> AB		      rep stosd
+1  1781
+1  1782	000003F6  BB 00000E9Fr			     lea ebx, [bigflag]
+1  1783						     ;postfx for screen1
+1  1784	000003FB  F6 03	01			     test byte ptr[ebx], 01b
+1  1785	000003FE  74 07				     jz	@noinvert1
+1  1786	00000400  8B FD				     mov edi, ebp
+1  1787	00000402  E8 0000045B			     call invert
+1  1788	00000407				     @noinvert1:
+1  1789
+1  1790						     ;xfade the	two
+1  1791	00000407  F6 03	04			     test byte ptr[ebx], 0100b
+1  1792	0000040A  74 3E				     jz	@noxfade
+1  1793	0000040C  8B FD				     mov edi, ebp
+1  1794	0000040E  67| DB 06 3C45r		     fild globalt
+1  1795	00000413  67| DE 36 0248r		     fidiv i_32
+1  1796	00000418  D9 FE				     fsin
+1  1797	0000041A  D9 E1				     fabs
+1  1798	0000041C  67| DE 0E 0238r		     fimul i_255
+1  1799	00000421  50				     push eax
+1  1800	00000422  DB 1C	24			     fistp dword ptr [esp]
+1  1801	00000425  58				     pop eax
+1  1802						      xfade
+2  1803	00000426  C1 E0	08		      shl eax, 8
+2  1804	00000429  8B D8			      mov ebx, eax
+2  1805	0000042B  F6 D7			      not bh
+2  1806	0000042D  B9 0004B000		      mov ecx, 320*240*4
+2  1807	00000432  8D 95	002D4F70	      lea edx, [shademap]
+2  1808	00000438			      @xfadeloop:
+2  1809	00000438  8A 1F				   mov bl, [edi]
+2  1810	0000043A  8A C3				   mov al, bl
+2  1811	0000043C  F6 D0				   not al
+2  1812	0000043E  8A 04	02			   mov al, [edx+eax]
+2  1813	00000441  02 04	1A			   add al, [edx+ebx]
+2  1814	00000444  88 07				   mov [edi], al
+2  1815	00000446  47				   inc edi
+2  1816	00000447  49			      dec ecx
+2  1817	00000448  75 EE			      jnz @xfadeloop
+1  1818	0000044A				     @noxfade:
+1  1819
+1  1820						     ;render first particels
+1  1821	0000044A  8B FD				     mov edi, ebp
+1  1822	0000044C  BB				     db	0bbh ;mov ebx
+1  1823	0000044D				     particelfunc1:
+1  1824	0000044D  00000B5Cr			     dd	offset particel_starfield
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 33
+stub.asm
+
+
+
+1  1825	00000451  E8 0000082A			     call renderparticels
+1  1826
+1  1827	00000456  F6 05	00000E9Fr 08		     test byte ptr bigflag, 01000b
+1  1828	0000045D  74 13				     jz	@nofatfx
+1  1829	0000045F  8B FD				     mov edi, ebp
+1  1830	00000461  E8 000003FC			     call invert
+1  1831						     ;render second particels
+1  1832	00000466  8B FD				     mov edi, ebp
+1  1833	00000468  BB 00000C1Er			     lea ebx, [particel_star]
+1  1834	0000046D  E8 0000080E			     call renderparticels
+1  1835	00000472				     @nofatfx:
+1  1836
+1  1837						     writestring
+2  1838	00000472  BE			      db 0beh
+2  1839	00000473			      textline:
+2  1840	00000473  00000EA3r		      dd offset	@nullstring
+2  1841	00000477  33 D2			      xor edx, edx
+2  1842	00000479  AC			      lodsb
+2  1843	0000047A  8B C8			      mov ecx, eax
+2  1844	0000047C  6B C0	C4		     imul eax, -30*2
+2  1845	0000047F  8D BC	05 0001E280	      lea edi, [ebp+(320*(120-24))*4+160*4+eax]
+2  1846	00000486			      @letterloop2:
+2  1847	00000486  42				  inc edx
+2  1848	00000487  AC				  lodsb
+2  1849	00000488  60				  pushad
+2  1850	00000489  67| 03 16 3C45r		  add edx, globalt
+2  1851	0000048E  0F B6	9C 55 00050000		  movzx	ebx, byte ptr [noisemap+edx*2]
+2  1852	00000496  80 E3	0F			  and bl, 01111b
+2  1853	00000499  03 FB				  add edi, ebx
+2  1854	0000049B  0F B6	9C 55 00050001		  movzx	ebx, byte ptr [noisemap+edx*2+1]
+2  1855	000004A3  80 E3	07			  and bl, 0111b
+2  1856	000004A6  69 DB	00000500		 imul ebx, 320*4
+2  1857	000004AC  03 FB				  add edi, ebx
+2  1858						   writeletter
+3  1859	000004AE  0F B6	C0		      movzx eax, al
+3  1860	000004B1  C1 E0	0C		      shl eax, 12
+3  1861	000004B4  8D B4	05 00334E6C	      lea esi, [softfont+eax-4-32*8]
+3  1862	000004BB  B3 30			      mov bl, 32+16
+3  1863	000004BD			      @ywlloop:
+3  1864	000004BD  B9 00000028			  mov ecx, 32+8
+3  1865	000004C2				  @copyloopwl:
+3  1866	000004C2  AC				       lodsb
+3  1867	000004C3  C0 E0	02			       shl al, 2
+3  1868	000004C6  B7 04				       mov bh, 4
+3  1869	000004C8				       @comploop:
+3  1870	000004C8  50					  push eax
+3  1871	000004C9  8A 27					  mov ah, [edi]
+3  1872	000004CB  2A E0					  sub ah, al
+3  1873	000004CD  D6					  db 0d6h
+3  1874	000004CE  F6 D0					  not al
+3  1875	000004D0  22 C4					  and al, ah
+3  1876	000004D2  AA					  stosb
+3  1877	000004D3  58					  pop eax
+3  1878	000004D4  FE CF				       dec bh
+3  1879	000004D6  75 F0				       jnz @comploop
+3  1880	000004D8  E2 E8				  loop @copyloopwl
+3  1881	000004DA  83 C6	18			  add esi, 32-8
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 34
+stub.asm
+
+
+
+3  1882	000004DD  81 C7	00000460		  add edi, (320-(32+8))*4
+3  1883	000004E3  FE CB			      dec bl
+3  1884	000004E5  75 D6			      jnz @ywlloop
+2  1885	000004E7  61				  popad
+2  1886	000004E8  83 C7	78			  add edi, 30*4
+2  1887	000004EB  FE C9			      dec cl
+2  1888	000004ED  75 97			      jnz @letterloop2
+1  1889
+1  1890	000004EF  67| FF 16 3C5Ar		     call flipfunction
+1  1891	000004F4  E4 60				 in al,	60h
+1  1892	000004F6  FE C8				 dec al
+1  1893	000004F8  0F 85	FFFFFDC4		 jnz @loopy
+1  1894
+1  1895	000004FE			 @exit:
+1  1896	000004FE			 pm_exit:
+1  1897
+1  1898	000004FE  61				 popad				 ;ƒƒƒ reset RTC	int ƒƒƒ
+1  1899	000004FF  CD 31				 int	 31h
+1  1900
+1  1901					 ;	 mov	 al, 36h		 ;ƒƒƒ reset RTC	freq. ƒƒƒ
+1  1902					 ;	 out	 43h, al
+1  1903					 ;	 xor	 eax, eax
+1  1904					 ;	 out	 40h, al
+1  1905					 ;	 out	 40h, al
+1  1906										 ;ƒƒƒ stop DMA output ƒƒƒ
+1  1907					 ;	 push	 eax
+1  1908	00000501  67| 8B 16 0017r		 mov	 edx, dptr intro_zero.sb_base
+1  1909	00000506  66| E8 018Er			 call	 dsp_reset
+1  1910
+1  1911
+1  1912	0000050A  66| B8 0003			 mov	 ax, 03h		 ;textmode
+1  1913	0000050E  CD 10				 int	 10h
+1  1914
+1  1915						 .exit				 ;(ret/cd20h don't work!)
+2  1916	00000510  B4 4C				 MOV	 AH,4Ch
+2  1917	00000512  CD 21				 INT	 21h
+1  1918
+1  1919	00000514			 pm_timer	 PROC			 ;ƒƒƒ RTC timer	ƒƒƒ
+1  1920	00000514  FC				 cld
+1  1921	00000515  60				 pushad
+1  1922	00000516  1E 06				 push	 ds es
+1  1923	00000518  67| 8D 1E 0000r		 lea	 ebx, intro_zero
+1  1924	0000051D  2E: 8E 5B 13			 mov	 ds, cs:[ebx].pm_ds
+1  1925	00000521  FF 03				 inc	 [ebx].timer
+1  1926	00000523  DD 73	6F			 fnsave	 [ebx].fpu_save
+1  1927	00000526  DB E3				 fninit
+1  1928
+1  1929	00000528  8B 53	17			 mov	 edx, dptr [ebx].sb_base ;ƒƒƒ SB IRQ ACK ƒƒƒ
+1  1930	0000052B  80 C2	0E			 add	 dl, _DSP_STATUS
+1  1931	0000052E  EC				 in	 al, dx
+1  1932
+1  1933	0000052F  67| 8D 16 0000r		 lea	 edx, intro_init
+1  1934
+1  1935	00000534  66| FF 4B 04			 dec	 [ebx].timer_ctrl	 ;ƒƒƒ control script ƒƒƒ
+1  1936	00000538  79 18				 jns	 @@no_ctrl
+1  1937
+1  1938	0000053A  8B 73	06			 mov	 esi, [ebx].timer_ctrl_pos
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 35
+stub.asm
+
+
+
+1  1939	0000053D  8D B6	00000208r		 lea	 esi, [esi].intro_script
+1  1940	00000543  66| AD			 lodsw
+1  1941	00000545  66| 89 43 04			 mov	 [ebx].timer_ctrl, ax
+1  1942	00000549  AC				 lodsb
+1  1943	0000054A  88 43	0A			 mov	 [ebx].timer_flags, al
+1  1944	0000054D  66| 83 43 06 03		 add	 wptr [ebx].timer_ctrl_pos, 3
+1  1945	00000552			 @@no_ctrl:
+1  1946
+1  1947	00000552  F6 43	0A 02			 test	 [ebx].timer_flags, 2	 ;ƒƒƒ flanger control ƒƒƒ
+1  1948	00000556  74 03				 jz	 @@no_fl
+1  1949	00000558  FF 43	6B			 inc	 [ebx].fl_lfo
+1  1950	0000055B			 @@no_fl:
+1  1951
+1  1952	0000055B  8B 03				 mov	 eax, [ebx].timer	 ;ƒƒƒ sequencer	ƒƒƒ
+1  1953	0000055D  A8 1F				 test	 al, SPEED - 1
+1  1954	0000055F  0F 85	00000097		 jnz	 @@no_seq
+1  1955
+1  1956	00000565  F6 43	0A 04			 test	 [ebx].timer_flags, 4
+1  1957	00000569  74 27				 jz	 @@no_tb2
+1  1958
+1  1959	0000056B  8B 4B	3B			 mov	 ecx, [ebx].tb_sqpos	 ;ƒƒƒ tb 303 ƒƒƒ
+1  1960	0000056E  F6 44	0A 24 FF		 test	 [edx].tb_seq[ ecx ], -1
+1  1961	00000573  74 12				 jz	 @@no_tb
+1  1962						 tb_hit
+2  1963	00000575  33 C0				 xor	 eax, eax
+2  1964	00000577  89 43	2B			 mov	 [ebx].tb_saw, eax
+2  1965	0000057A  8B 42	18			 mov	 eax, [edx].tb_env_init
+2  1966	0000057D  89 43	2F			 mov	 [ebx].tb_env, eax
+1  1967	00000580  C7 43	37 00002000		 mov	 [ebx].tb_len, 8192
+1  1968	00000587			 @@no_tb:
+1  1969	00000587  41				 inc	 ecx
+1  1970	00000588  80 F9	04			 cmp	 cl, 4
+1  1971	0000058B  76 02				 jna	 @@tb_wrap
+1  1972	0000058D  33 C9				 xor	 ecx, ecx
+1  1973	0000058F			 @@tb_wrap:
+1  1974	0000058F  89 4B	3B			 mov	 [ebx].tb_sqpos, ecx
+1  1975	00000592			 @@no_tb2:
+1  1976	00000592  8B 42	14			 mov	 eax, [edx].tb_reso_init
+1  1977	00000595  89 43	33			 mov	 [ebx].tb_reso,	eax
+1  1978
+1  1979	00000598  0F B6	43 0B			 movzx	 eax, bptr [ebx].sq_pos
+1  1980	0000059C  FF 43	0B			 inc	 [ebx].sq_pos
+1  1981	0000059F  24 1F				 and	 al, 31
+1  1982
+1  1983	000005A1  F6 43	0A 40			 test	 [ebx].timer_flags, 64	 ;ƒƒƒ tb 303 env. mod ƒƒƒ
+1  1984	000005A5  74 15				 jz	 @@no_tbe
+1  1985	000005A7  3C 14				 cmp	 al, 20
+1  1986	000005A9  75 11				 jne	 @@no_tbe
+1  1987	000005AB  D9 42	18			 fld	 [edx].tb_env_init	 ;env. trigger
+1  1988	000005AE  DE 4A	29			 fimul	 [edx].tb_mul
+1  1989	000005B1  D9 5B	2F			 fstp	 [ebx].tb_env
+1  1990	000005B4  D9 EC				 fldlg2
+1  1991	000005B6  D8 4A	14			 fmul	 [edx].tb_reso_init	 ;increase reso
+1  1992	000005B9  D9 5B	33			 fstp	 [ebx].tb_reso
+1  1993	000005BC			 @@no_tbe:
+1  1994
+1  1995	000005BC  F6 43	0A 20			 test	 [ebx].timer_flags, 32
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 36
+stub.asm
+
+
+
+1  1996	000005C0  74 0B				 jz	 @@no_sn
+1  1997	000005C2  3C 14				 cmp	 al, 20			 ;ƒƒƒ u96 sonar	ƒƒƒ
+1  1998	000005C4  75 07				 jne	 @@no_sn
+1  1999	000005C6  D9 02				 fld	 [edx].sn_gain
+1  2000	000005C8  D8 C0				 fadd	 st(0),	st(0)
+1  2001	000005CA  D9 5B	53			 fstp	 [ebx].sn_env
+1  2002	000005CD			 @@no_sn:
+1  2003
+1  2004	000005CD  F6 43	0A 08			 test	 [ebx].timer_flags, 8
+1  2005	000005D1  74 13				 jz	 @@no_bd
+1  2006	000005D3  3C 13				 cmp	 al, 31	- 12		 ;ƒƒƒ bass drum	ƒƒƒ
+1  2007	000005D5  74 04				 je	 @@bd_btw
+1  2008	000005D7  24 03				 and	 al, 3
+1  2009	000005D9  75 0B				 jnz	 @@no_bd
+1  2010	000005DB			 @@bd_btw:
+1  2011	000005DB  D9 E8				 fld1
+1  2012	000005DD  D9 5B	57			 fstp	 [ebx].bd_il
+1  2013	000005E0  8B 4A	37			 mov	 ecx, [edx].bd_cut
+1  2014	000005E3  89 4B	5F			 mov	 [ebx].bd_env, ecx
+1  2015	000005E6			 @@no_bd:
+1  2016
+1  2017	000005E6  F6 43	0A 10			 test	 [ebx].timer_flags, 16
+1  2018	000005EA  74 10				 jz	 @@no_ch
+1  2019	000005EC  24 03				 and	 al, 3
+1  2020	000005EE  8A 44	02 08			 mov	 al, [edx].ch_seq[eax]	 ;ƒƒƒ closed hihat ƒƒƒ
+1  2021	000005F2  50				 push	 eax
+1  2022	000005F3  DB 04	24			 fild	 dptr [esp]
+1  2023	000005F6  58				 pop	 eax
+1  2024	000005F7  D8 0A				 fmul	 [edx].ch_gain
+1  2025	000005F9  D9 5B	47			 fstp	 [ebx].ch_env
+1  2026	000005FC			 @@no_ch:
+1  2027
+1  2028	000005FC			 @@no_seq:
+1  2029
+1  2030	000005FC  53 52				 push	 ebx edx
+1  2031						 sb_dma_pos			 ;ƒƒƒ get DMA pos ƒƒƒ
+2  2032	000005FE  33 C0				 xor	 eax, eax
+2  2033	00000600  E6 0C				 out	 0ch, al		 ;clear	DMA addr. flipflop
+2  2034	00000602  6B 53	15 02			 imul	 edx, dptr [ebx].sb_dma, 2
+2  2035	00000606  42				 inc	 edx
+2  2036	00000607  B0 02				 mov	 al, 02h		 ;get DMA buffer selector
+2  2037	00000609  8B 5B	19			 mov	 ebx, dptr [ebx].sb_dmaseg
+2  2038	0000060C  CD 31				 int	 31h
+2  2039	0000060E  66| 67| A3 0683r		 mov	 sb_dmasel, ax
+2  2040	00000613  8E C0				 mov	 es, eax
+2  2041	00000615  66| BB 0FFF			 mov	 bx, DMA_BUFSIZE - 1
+2  2042	00000619  EC				 in	 al, dx			 ;get DMA buffer position
+2  2043	0000061A  2A D8				 sub	 bl, al
+2  2044	0000061C  EC				 in	 al, dx
+2  2045	0000061D  1A F8				 sbb	 bh, al
+2  2046	0000061F  0F B7	F3			 movzx	 esi, bx
+1  2047	00000622  5A 5B				 pop	 edx ebx
+1  2048	00000624  8B 7B	1B			 mov	 edi, [ebx].sb_mixpos
+1  2049	00000627  89 73	1B			 mov	 [ebx].sb_mixpos, esi
+1  2050
+1  2051	0000062A			 @@sb_mixloop:				 ;ƒƒƒ synthesizer wave-loop ƒƒƒ
+1  2052
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 37
+stub.asm
+
+
+
+1  2053	0000062A  E8 00000110			 call	 rand
+1  2054	0000062F  50				 push	 eax			 ;random -> [esp]
+1  2055
+1  2056						 tb_wav
+2  2057	00000630  D9 42	1C			 fld	 [edx].tb_env_mul	 ;ƒƒƒ filter env. ƒƒƒ
+2  2058	00000633  D8 4B	2F			 fmul	 [ebx].tb_env
+2  2059	00000636  D9 53	2F			 fst	 [ebx].tb_env
+2  2060	00000639  D8 42	10			 fadd	 [edx].tb_cut
+2  2061	0000063C  D9 43	2B			 fld	 [ebx].tb_saw		 ;ƒƒƒ saw-tooth	ƒƒƒ
+2  2062	0000063F  D9 FC				 frndint
+2  2063	00000641  D8 6B	2B			 fsubr	 [ebx].tb_saw
+2  2064	00000644  FF 4B	37			 dec	 [ebx].tb_len		 ;end of note ?
+2  2065	00000647  78 03				 js	 @@tb_done
+2  2066	00000649  D8 42	0C			 fadd	 [edx].tb_saw_inc
+2  2067	0000064C			 @@tb_done:
+2  2068	0000064C  D9 53	2B			 fst	 [ebx].tb_saw
+2  2069	0000064F  D8 63	27			 fsub	 [ebx].tb_uc		 ;ƒƒƒ IIR low-pass ƒƒƒ
+2  2070	00000652  D9 43	23			 fld	 [ebx].tb_il
+2  2071	00000655  D9 42	20			 fld	 [edx].tb_reso_mul
+2  2072	00000658  D8 4B	33			 fmul	 [ebx].tb_reso		 ;reso env.
+2  2073	0000065B  D9 53	33			 fst	 [ebx].tb_reso
+2  2074	0000065E  DE C9				 fmulp	 st(1)
+2  2075	00000660  DE E9				 fsubp	 st(1)
+2  2076	00000662  D8 C9				 fmul	 st(0),	st(1)
+2  2077	00000664  D8 43	23			 fadd	 [ebx].tb_il
+2  2078	00000667  D9 53	23			 fst	 [ebx].tb_il
+2  2079	0000066A  DE C9				 fmulp	 st(1)
+2  2080	0000066C  D8 43	27			 fadd	 [ebx].tb_uc
+2  2081	0000066F  D9 53	27			 fst	 [ebx].tb_uc
+2  2082	00000672  D9 EB				 fldpi				 ;ƒƒƒ distortion ƒƒƒ
+2  2083	00000674  DE C9				 fmulp	 st(1)
+2  2084	00000676  D9 E8				 fld1
+2  2085	00000678  D9 F3				 fpatan
+1  2086
+1  2087	0000067A  F6 43	0A 01			 test	 [ebx].timer_flags, 1	 ;vc
+1  2088	0000067E  74 0B				 jz	 @@no_vc_w
+1  2089	00000680  8B 43	1F			 mov	 eax, [ebx].vc_pos
+1  2090	00000683  D8 00				 fadd	 dptr [eax]
+1  2091	00000685  8D 40	04			 lea	 eax, [eax].4
+1  2092	00000688  89 43	1F			 mov	 [ebx].vc_pos, eax
+1  2093	0000068B			 @@no_vc_w:
+1  2094						 sn_wav
+2  2095	0000068B  D9 42	2F			 fld	 [edx].sn_env_mul	 ;ƒƒƒ envelope ƒƒƒ
+2  2096	0000068E  D8 4B	53			 fmul	 [ebx].sn_env
+2  2097	00000691  D9 53	53			 fst	 [ebx].sn_env
+2  2098	00000694  DA 0C	24			 fimul	 dptr [esp]		 ;random
+2  2099	00000697  D9 43	4B			 fld	 [ebx].sn_uc		 ;ƒƒƒ IIR band-pass ƒƒƒ
+2  2100	0000069A  D8 4A	2B			 fmul	 [edx].sn_cut
+2  2101	0000069D  D8 43	4F			 fadd	 [ebx].sn_il
+2  2102	000006A0  D8 4A	33			 fmul	 [edx].sn_reso
+2  2103	000006A3  DE C1				 faddp	 st(1)
+2  2104	000006A5  D9 53	4F			 fst	 [ebx].sn_il
+2  2105	000006A8  D8 4A	2B			 fmul	 [edx].sn_cut
+2  2106	000006AB  D8 6B	4B			 fsubr	 [ebx].sn_uc
+2  2107	000006AE  D9 53	4B			 fst	 [ebx].sn_uc
+1  2108	000006B1  DE C1				 faddp	 st(1)
+1  2109						 fx_delay
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 38
+stub.asm
+
+
+
+2  2110	000006B3  8B 43	63			 mov	 eax, [ebx].dl_pos
+2  2111	000006B6  48				 dec	 eax
+2  2112	000006B7  79 05				 jns	 @@dl_ok
+2  2113	000006B9  B8 00001323			 mov	 eax, DELAY_LEN	- 1
+2  2114	000006BE			 @@dl_ok:
+2  2115	000006BE  89 43	63			 mov	 [ebx].dl_pos, eax
+2  2116	000006C1  8B 4B	0F			 mov	 ecx, [ebx].pm_mpool
+2  2117	000006C4  8D 89	00400000		 lea	 ecx, [ecx].DELAY_OFF
+2  2118	000006CA  D9 04	81			 fld	 dptr [ecx + 4*eax]	 ;delay	w/ feedback
+2  2119	000006CD  D8 4A	3F			 fmul	 [edx].dl_feedback
+2  2120	000006D0  DE C1				 faddp	 st(1)
+2  2121	000006D2  D9 14	81			 fst	 dptr [ecx + 4*eax]
+1  2122						 bd_wav
+2  2123	000006D5  D9 42	3B			 fld	 [edx].bd_env_mul	 ;ƒƒƒ envelope ƒƒƒ
+2  2124	000006D8  D8 4B	5F			 fmul	 [ebx].bd_env
+2  2125	000006DB  D9 53	5F			 fst	 [ebx].bd_env
+2  2126	000006DE  D9 43	5B			 fld	 [ebx].bd_uc		 ;ƒƒƒ oscillator ƒƒƒ
+2  2127	000006E1  D8 C9				 fmul	 st(0),	st(1)
+2  2128	000006E3  D8 6B	57			 fsubr	 [ebx].bd_il
+2  2129	000006E6  D9 53	57			 fst	 [ebx].bd_il
+2  2130	000006E9  DE C9				 fmulp	 st(1)
+2  2131	000006EB  D8 43	5B			 fadd	 [ebx].bd_uc
+2  2132	000006EE  D8 4A	3B			 fmul	 [edx].bd_env_mul
+2  2133	000006F1  D9 53	5B			 fst	 [ebx].bd_uc
+2  2134	000006F4  D9 EC				 fldlg2				 ;ƒƒƒ distortion ƒƒƒ
+2  2135	000006F6  D9 F3				 fpatan
+1  2136	000006F8  DE C1				 faddp	 st(1)
+1  2137						 ch_wav
+2  2138	000006FA  D9 42	04			 fld	 [edx].ch_env_mul	 ;ƒƒƒ envelope ƒƒƒ
+2  2139	000006FD  D8 4B	47			 fmul	 [ebx].ch_env
+2  2140	00000700  D9 53	47			 fst	 [ebx].ch_env
+2  2141	00000703  DA 0C	24			 fimul	 dptr [esp]		 ;random
+2  2142	00000706  D9 C0				 fld	 st(0)
+2  2143	00000708  D8 63	43			 fsub	 [ebx].ch_i2		 ;ƒƒƒ IIR high-pass ƒƒƒ
+2  2144	0000070B  D9 43	3F			 fld	 [ebx].ch_i1
+2  2145	0000070E  D9 5B	43			 fstp	 [ebx].ch_i2
+2  2146	00000711  D9 C9				 fxch	 st(1)
+2  2147	00000713  D9 5B	3F			 fstp	 [ebx].ch_i1
+1  2148	00000716  DE C1				 faddp	 st(1)
+1  2149	00000718  E8 00000038			 call	 fx_flanger
+1  2150
+1  2151	0000071D  DE 4A	59			 fimul	 [edx].snd_gain		 ;amplify, convert ...
+1  2152	00000720  DB 1C	24			 fistp	 dptr [esp]
+1  2153	00000723  58				 pop	 eax
+1  2154	00000724  34 80				 xor	 al, 80h
+1  2155	00000726  AA				 stosb
+1  2156	00000727  66| 81 E7 0FFF		 and	 di, DMA_BUFSIZE - 1
+1  2157	0000072C  3B FE				 cmp	 edi, esi		 ;do another sample ?
+1  2158	0000072E  0F 85	FFFFFEF6		 jne	 @@sb_mixloop
+1  2159
+1  2160	00000734  B0 20				 mov	 al, 20h		 ;EOI
+1  2161	00000736  E6 20				 out	 20h, al
+1  2162	00000738  DD 63	6F			 fnrstor [ebx].fpu_save
+1  2163	0000073B  07 1F				 pop	 es ds
+1  2164	0000073D  61				 popad
+1  2165	0000073E  CF				 iretd
+1  2166	0000073F			 pm_timer	 ENDP
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 39
+stub.asm
+
+
+
+1  2167
+1  2168	0000073F			 rand	 PROC				 ;ƒƒƒ permutational random ƒƒƒ
+1  2169
+1  2170	0000073F  A1 00000027r			 mov	 eax, rnd_seed
+1  2171	00000744  8B C8				 mov	 ecx, eax
+1  2172	00000746  C1 E9	03			 shr	 ecx, 3
+1  2173	00000749  33 C8				 xor	 ecx, eax
+1  2174	0000074B  D1 E9				 shr	 ecx, 1
+1  2175	0000074D  D1 D8				 rcr	 eax, 1
+1  2176	0000074F  A3 00000027r			 mov	 rnd_seed, eax
+1  2177
+1  2178	00000754  C3				 ret
+1  2179	00000755			 rand	 ENDP
+1  2180
+1  2181	00000755			 fx_flanger	 PROC			 ;ƒƒƒ flanger ƒƒƒ
+1  2182
+1  2183	00000755  67| 8D 0E 0E85r		 lea	 ecx, flange_buf
+1  2184
+1  2185	0000075A  8B 43	67			 mov	 eax, [ebx].fl_pos
+1  2186	0000075D  40				 inc	 eax
+1  2187	0000075E  80 E4	01			 and	 ah, 1
+1  2188	00000761  89 43	67			 mov	 [ebx].fl_pos, eax
+1  2189
+1  2190	00000764  D9 14	81			 fst	 dptr [ecx + 4*eax]
+1  2191
+1  2192	00000767  DB 43	6B			 fild	 [ebx].fl_lfo		 ;LFO
+1  2193	0000076A  D8 4A	43			 fmul	 [edx].fl_lfo_frq
+1  2194	0000076D  D9 FE				 fsin
+1  2195	0000076F  D9 E1				 fabs
+1  2196	00000771  DE 4A	47			 fimul	 [edx].fl_max
+1  2197	00000774  50				 push	 eax
+1  2198	00000775  DB 1C	24			 fistp	 dptr [esp]
+1  2199	00000778  66| 2B 04 24			 sub	 ax, [esp]
+1  2200	0000077C  80 E4	01			 and	 ah, 1
+1  2201	0000077F  D8 04	81			 fadd	 dptr [ecx + 4*eax]
+1  2202	00000782  58				 pop	 eax
+1  2203	00000783			 @nullfunc:
+1  2204	00000783  C3				 ret
+1  2205	00000784			 fx_flanger	 ENDP
+1  2206
+1  2207	00000784				 CODE_32	 ENDS
+1  2208
+1  2209	    0000				 DATA		 SEGMENT	 ;ƒƒƒ initialized data ƒƒƒ
+1  2210
+1  2211	    0000  2EA4ED3F 3F7FBE77 01+	 intro_init	 T_INTRO_INIT	 { }	 ;ƒƒƒ initialized ƒƒƒ
+   2212		  01 06	01 3AB78034   +
+   2213		  3C23D70A 3E19999A   +
+   2214		  3DCCCCCD 3F7FE5C9   +
+   2215		  3F80068E 01 00 01 01+
+   2216		  00 0005 3D99999A    +
+   2217		  3F7FFE5D 3F7FBE77   +
+   2218		  3CCCCCCD 3F7FEF9E   +
+   2219		  3E4CCCCD 3A1A2403   +
+   2220		  015E 3A449BA6	      +
+   2221		  3B03126F 3B449BA6   +
+   2222		  2B8CBCCC 000E
+1  2223
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 40
+stub.asm
+
+
+
+1  2224	    005B			 bq_bands	 LABEL	 WORD		 ;ƒƒƒ IIR bands	ƒƒƒ
+1  2225
+1  2226	    005B  005A 0082 00BE 0118 +		 dw	 90, 130, 190, 280, 410, 610, 900
+   2227		  019A 0262 0384
+1  2228	    0069  053C 079E 0AF0 1004 +		 dw	 1340, 1950, 2800, 4100, 6070, 15000
+   2229		  17B6 3A98
+1  2230
+1  2231	    0075  B892CCF7		 mpi_ln2	 dd	-0.00007
+1  2232							 ;-0.000102775	   ; - pi * (ln(2)*44100)^-1
+1  2233	    0079  3895659C		 pi_Ta		 dd	 0.000071238	 ;   pi	* 44100^-1
+1  2234
+1  2235	    007D			 vc_franky	 LABEL	 BYTE		 ;ƒƒƒ dictionary ƒƒƒ
+1  2236						 ;
+1  2237						 ;ƒƒƒƒƒƒƒ ASP ƒƒƒƒƒ//ƒƒƒƒƒ- EQ setup ƒƒƒƒƒƒƒ//ƒƒƒƒƒƒƒƒ-
+1  2238						 ;
+1  2239	    007D  00 00	00 00 00 00 00+		 db	   0,	 0,   0,   0,	0,   0,	  0,   0,   0,	 0,   0,   0,	0
+   2240		  00 00	00 00 00 00
+1  2241	    008A  00 80	80 00 00 00 FF+		 db	   0,  128, 128,   0,	0,   0,	255, 255, 128,	32,  16,   0,	0	 ;a
+   2242		  FF 80	20 10 00 00
+1  2243	    0097  00 80	80 FF FF 80 00+		 db	   0,  128, 128, 255, 255, 128,	  0,   0,   0, 128,  64,   0,	0	 ;e
+   2244		  00 00	80 40 00 00
+1  2245	    00A4  00 80	80 00 00 00 00+		 db	   0,  128, 128,   0,	0,   0,	  0,   0,   0,	32,  64,  64,	4	 ;i
+   2246		  00 00	20 40 40 04
+1  2247	    00B1  00 80	80 00 FF FF 00+		 db	   0,  128, 128,   0, 255, 255,	  0,   0,   0,	 0,   0,   0,	0	 ;o
+   2248		  00 00	00 00 00 00
+1  2249	    00BE  00 FF	FF FF 00 00 00+		 db	   0,  255, 255, 255,	0,   0,	  0,   0,   0,	 0,   0,   0,	0	 ;u
+   2250		  00 00	00 00 00 00
+1  2251	    00CB  FF 04	04 04 04 04 04+		 db	 255,	 4,   4,   4,	4,   4,	  4,   8,   8,	 8,   8,   4,	4	 ;f
+   2252		  08 08	08 08 04 04
+1  2253	    00D8  00 FF	FF FF 00 00 00+		 db	   0,  255, 255, 255, 0, 0, 0, 255, 255, 255,	0,   0,	  0		 ;k
+   2254		  FF FF	FF 00 00 00
+1  2255	    00E5  00 FF	FF FF 00 00 00+		 db	   0,  255, 255, 255,	0,   0,	  0,   0,   0,	 0,   0,   0,	0	 ;m
+   2256		  00 00	00 00 00 00
+1  2257	    00F2  00 FF	FF 00 40 20 10+		 db	   0,  255, 255,   0,  64,  32,	 16,  32,  16,	 0,   0,   0,	0	 ;n
+   2258		  20 10	00 00 00 00
+1  2259	    00FF  00 40	40 40 40 40 40+		 db	   0,  64, 64, 64, 64, 64, 64,	32,  16,  8,   4,   0,	 0		 ;r
+   2260		  20 10	08 04 00 00
+1  2261	    010C  C8 00	00 00 00 00 00+		 db	 200,	0,  0,	 0,   0,   0,	0,  0,	0,  0,	0,  0,	6		 ;s
+   2262		  00 00	00 00 00 06
+1  2263	    0119  FF 00	00 00 00 00 00+		 db	 255,	 0,   0,   0,	0,   0,	  0,  0,  0,  24,  16, 16,   0		 ;sch
+   2264		  00 00	18 10 10 00
+1  2265	    0126  FF 00	00 00 00 00 00+		 db	 255,	 0,   0,   0,	0,   0,	  0,  64, 128, 255, 255, 255,	0	 ;t
+   2266		  40 80	FF FF FF 00
+1  2267	    0133  FF 00	00 00 00 00 00+		 db	 255,	 0,   0,   0,	0,   0,	  0,   0,   0,	 0,  64,  64,  24	 ;d
+   2268		  00 00	00 40 40 18
+1  2269	    0140  00 FF	FF FF 00 00 00+		 db	   0,  255, 255, 255,	0,   0,	  0,  32,  128,	 128,  32,   0,	  0	 ;Å
+   2270		  20 80	80 20 00 00
+1  2271	    014D  FF FF	00 FF FF FF FF+		 db	 255,  255,   0, 255, 255, 255,	255,   0,   0,	 0,   0,   0,	0	 ;p
+   2272		  00 00	00 00 00 00
+1  2273						 ;
+1  2274						 ;ƒƒƒƒƒ//ƒƒƒƒƒ-	index  ƒƒƒƒƒƒƒ//ƒƒƒƒƒƒƒ
+1  2275						 ;
+1  2276		  =0000				 _vPause =	 0
+1  2277		  =0001				 _vA	 =	 1
+1  2278		  =0002				 _vE	 =	 2
+1  2279		  =0003				 _vI	 =	 3
+1  2280		  =0004				 _vO	 =	 4
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 41
+stub.asm
+
+
+
+1  2281		  =0005				 _vU	 =	 5
+1  2282		  =  40, 0,  0,14,    +		 _uD	 equ	 < 40, 0,  0,14,  10, 0	>
+   2283		  10, 0
+1  2284		  =0006				 _vF	 =	 6
+1  2285		  =  20, 0,  0,	7,    +		 _uK	 equ	 < 20, 0,  0, 7,  20, 0	>
+   2286		  20, 0
+1  2287		  =0008				 _vM	 =	 8
+1  2288		  =0009				 _vN	 =	 9
+1  2289		  =  20, 10			 _uR2	 equ	 < 20, 10 >
+1  2290		  =000B				 _vS	 =	 11
+1  2291		  =000C				 _vSCH	 =	 12
+1  2292		  =  40, 0,  0,	13		 _uT	 equ	 < 40, 0,  0, 13 >
+1  2293		  =  40, 0,  0,	13,   +		 _uT2	 equ	 < 40, 0,  0, 13,  20, 0 >
+   2294		  20, 0
+1  2295		  =000F				 _vö	 =	 15
+1  2296		  =  10, 16, 10, 0		 _uP	 equ	 < 10, 16, 10, 0 >
+1  2297
+1  2298		  =  15, _vA,  40,    +		 _vAND	 equ	 < 15, _vA,  40, _vE,  70, _vN,	 _uD >
+   2299		  _vE,	70, _vN,  _uD
+1  2300		  =  40, _vA,  _uR		 _vARE	 equ	 < 40, _vA,  _uR >
+1  2301
+1  2302	    015A			 vc_speech	 LABEL	 BYTE		 ;ƒƒƒ vocoder script ƒƒƒ
+1  2303
+1  2304	    015A  FF 00				 db	 255, 0
+1  2305
+1  2306	    015C  28 00	00 0D 14 00 1E+		 db	 _uT2,	30, _vE		 ;the future is	now
+   2307		  02
+1  2308	    0164  50 00				 db	 80, 0
+1  2309	    0166  14 06	04 03 3C 05 28+		 db	 20, _vF, 4, _vI,  60, _vU,  _uT,  30, _vSCH,  30, _vA
+   2310		  00 00	0D 1E 0C 1E 01
+1  2311	    0174  C8 00				 db	 200, 0
+1  2312	    0176  1E 03	14 0B			 db	 30, _vI,  20, _vS
+1  2313	    017A  20 00				 db	 32, 0
+1  2314	    017C  14 09	32 01 28 04		 db	 20, _vN, 50, _vA, 40, _vO
+1  2315
+1  2316					 REPT	 2
+1  2317						 db	 255, 0
+1  2318					 ENDM
+2  2319	    0182  FF 00				 db	 255, 0
+2  2320	    0184  FF 00				 db	 255, 0
+1  2321										 ;shiva
+1  2322	    0186  14 0C	28 03 1E 06 28+		 db	 20, _vSCH,  40, _vI,  30, _vF,	 40, _vA
+   2323		  01
+1  2324	    018E  80 00				 db	 128, 0
+1  2325
+1  2326	    0190  0F 01	28 02 46 09 28+		 db	 _vAND			 ; &
+   2327		  00 00	0E 0A 00
+1  2328	    019C  80 00				 db	 128, 0
+1  2329
+1  2330										 ;franky
+1  2331	    019E  28 06	14 0A 00 01 23+		 db	 40, _vF,  _uR2,  0, _vA, 35, _vE,  50,	_vN,  _uK,  40,	_vI
+   2332		  02 32	09 14 00 00 07+
+   2333		  14 00	28 03
+1  2334
+1  2335					 REPT 2
+1  2336						 db	 255, 0
+1  2337					 ENDM
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 42
+stub.asm
+
+
+
+2  2338	    01B0  FF 00				 db	 255, 0
+2  2339	    01B2  FF 00				 db	 255, 0
+1  2340
+1  2341	    01B4  14 01	1E 02 28 00 00+		 db	 20, _vA,  30, _vE,  _uT ;at symposium
+   2342		  0D
+1  2343	    01BC  80 00				 db	 128, 0
+1  2344	    01BE  32 0B	32 0F 32 08 0A+		 db	 50, _vS,  50, _vö,  50, _vM,  _uP,  60, _vO,  50, _vS,	 50, _vI,  50, _vU, +
+   2345		  10 0A	00 3C 04 32 0B+	 50, _vM
+   2346		  32 03	32 05 32 08
+1  2347
+1  2348	    01D2  30 00				 db	 48, 0
+1  2349
+1  2350										 ;1999
+1  2351	    01D4  14 09	0A 01 1E 03 14+		 db	 20, _vN,  10, _vA,  30, _vI,  20, _vN,	 _uT2,	40, _vI,  30, _vN,  40,	0
+   2352		  09 28	00 00 0D 14 00+
+   2353		  28 03	1E 09 28 00
+1  2354	    01E8  14 09	0A 01 1E 03 14+		 db	 20, _vN,  10, _vA,  30, _vI,  20, _vN,	 _uT2,	40, _vI,  40, 0
+   2355		  09 28	00 00 0D 14 00+
+   2356		  28 03	28 00
+1  2357	    01FA  14 09	0A 01 28 03 46+		 db	 20, _vN,  10, _vA,  40, _vI,  70, _vN
+   2358		  09
+1  2359
+1  2360					 REPT 3
+1  2361						 db	 255, 0
+1  2362					 ENDM
+2  2363	    0202  FF 00				 db	 255, 0
+2  2364	    0204  FF 00				 db	 255, 0
+2  2365	    0206  FF 00				 db	 255, 0
+1  2366
+1  2367	    0208			 intro_script	 LABEL WORD		 ;ƒƒƒ intro script ƒƒƒ
+1  2368
+1  2369						 ;1 = vc, 2 = flanger, 4 = tb, 8 = bd, 16 = ch,	32 = u96, 64 = tb-env
+1  2370
+1  2371						 ;ticks: 0
+1  2372	    0208  0E64				 dw	 TIMER_FREQ * 12
+1  2373	    020A  20				 db	 32
+1  2374						 ;ticks: 460
+1  2375	    020B  0432				 dw	 TIMER_FREQ * 3	+ TIMER_FREQ / 2
+1  2376	    020D  01				 db	 1
+1  2377						 ;ticks: 134
+1  2378	    020E  0732				 dw	 TIMER_FREQ * 6
+1  2379	    0210  08				 db	 8
+1  2380						 ;ticks: 230
+1  2381	    0211  08B1				 dw	 TIMER_FREQ * 7	+ TIMER_FREQ / 4
+1  2382	    0213  18				 db	 16 + 8
+1  2383						 ;ticks: 278
+1  2384	    0214  0DCA				 dw	 TIMER_FREQ * 11 + TIMER_FREQ /	2
+1  2385	    0216  1C				 db	 16 + 8	+ 4
+1  2386						 ;ticks: 441
+1  2387	    0217  11FD				 dw	 TIMER_FREQ * 15
+1  2388	    0219  7C				 db	 64 + 32 + 16 +	8 + 4
+1  2389						 ;ticks: 576
+1  2390	    021A  04CC				 dw	 TIMER_FREQ * 4
+1  2391	    021C  30				 db	 32 + 16
+1  2392						 ;ticks: 154
+1  2393	    021D  0432				 dw	 TIMER_FREQ * 3	+ TIMER_FREQ / 2
+1  2394	    021F  31				 db	 32 + 16 + 1
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 43
+stub.asm
+
+
+
+1  2395						 ;ticks: 134
+1  2396	    0220  06E5				 dw	 TIMER_FREQ * 5	+ TIMER_FREQ * 3 / 4
+1  2397	    0222  30				 db	 32 + 16
+1  2398						 ;ticks: 221
+1  2399	    0223  1596				 dw	 TIMER_FREQ * 18
+1  2400	    0225  3E				 db	 32 + 16 + 8 + 4 + 2
+1  2401						 ;ticks: 691
+1  2402	    0226  01CC				 dw	 TIMER_FREQ * 1	+ TIMER_FREQ / 2
+1  2403	    0228  3C				 db	 32 + 16 + 8 + 4
+1  2404						 ;ticks: 57
+1  2405	    0229  0732				 dw	 TIMER_FREQ * 6
+1  2406	    022B  3E				 db	 32 + 16 + 8 + 4 + 2
+1  2407						 ;ticks: 230
+1  2408	    022C  04CC				 dw	 TIMER_FREQ * 4
+1  2409	    022E  30				 db	 32 + 16
+1  2410						 ;ticks: 154
+1  2411	    022F  05FF				 dw	 TIMER_FREQ * 5
+1  2412	    0231  31				 db	 32 + 16 + 1
+1  2413						 ;ticks: 192
+1  2414	    0232  0133				 dw	 TIMER_FREQ * 1
+1  2415	    0234  30				 db	 32 + 16
+1  2416						 ;ticks: 38
+1  2417	    0235  0998				 dw	 TIMER_FREQ * 8
+1  2418	    0237  20				 db	 32
+1  2419						 ;ticks: 154
+1  2420
+1  2421	    0238				 DATA	 ENDS
+1  2422
+1  2423	    0000				 ZDATA	 SEGMENT		 ;ƒƒƒ zero data	ƒƒƒ
+1  2424	    0000			 ZERO_START:
+1  2425
+1  2426	    0000  EF*(??)		 intro_zero	 T_INTRO_ZERO	 { }
+1  2427	    00EF  0594*(??)		 intro_vocoder	 T_VC_ZERO	 { }
+1  2428
+1  2429	    0683  ????			 sb_dmasel	 dw	 ?
+1  2430
+1  2431	    0685  0800*(??)		 font_buf	 db 8*256 dup (	? )
+1  2432	    0E85  0168*(??)		 flange_buf	 db 360	dup ( ?	)
+1  2433
+1  2434	    0FED				 ZDATA		 ENDS
+1  2435
+1  2436
+   2437					 include shiva.pm
+1  2438	00000784			 CODE_32 SEGMENT
+1  2439
+1  2440					 ;makes	teh next precalc dot
+1  2441	00000784			 precalc_dot proc
+1  2442	00000784  60				 pushad
+1  2443	00000785  67| 83 06 0252r 08		 add precalcpos, 8
+1  2444	0000078B  8D BD	00007800		 lea edi, [ebp+(320*24)*4]
+1  2445	00000791  67| 03 3E 0252r		 add edi, precalcpos
+1  2446	00000796  FF 0F				 dec dword ptr [edi]
+1  2447	00000798  67| FF 16 3C5Ar		 call flipfunction
+1  2448	0000079D  61				 popad
+1  2449	0000079E  C3			 ret
+1  2450	0000079F			 precalc_dot endp
+1  2451
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 44
+stub.asm
+
+
+
+1  2452					 ;sets display bank edx
+1  2453	0000079F			 setbank proc
+1  2454	0000079F  60				 pushad
+1  2455	000007A0  66| B8 4F05			 mov ax, 04f05h
+1  2456	000007A4  33 DB				 xor ebx, ebx
+1  2457	000007A6  CD 10				 int 10h
+1  2458	000007A8  61				 popad
+1  2459	000007A9  C3			 ret
+1  2460	000007AA			 setbank endp
+1  2461
+1  2462	000007AA			 getgrafaddr proc
+1  2463	000007AA  55				 push ebp
+1  2464	000007AB  66| B8 0002			 mov ax, 02h
+1  2465	000007AF  66| BB A000			 mov bx, 0a000h
+1  2466	000007B3  CD 31				 int 31h
+1  2467	000007B5  5D				 pop ebp
+1  2468	000007B6  8E C0				 mov es, ax
+1  2469	000007B8  C3			 ret
+1  2470	000007B9			 getgrafaddr endp
+1  2471
+1  2472					 ;some 256-grayscales blitter
+1  2473	000007B9			 flipgray proc
+1  2474	000007B9  60				 pushad
+1  2475	000007BA  06				 push es
+1  2476	000007BB  E8 FFFFFFEA			 call getgrafaddr
+1  2477	000007C0  8D B5	00006401		 lea esi, [ebp+(320*20)*4+1] ;screen is	always ebp
+1  2478	000007C6  33 FF				 xor edi, edi
+1  2479	000007C8  B9 00003E80			 mov ecx, 320*200/4
+1  2480	000007CD				 @blitloop1:
+1  2481	000007CD  8A 06				     mov al, [esi]
+1  2482	000007CF  8A 66	04			     mov ah, [esi+4]
+1  2483	000007D2  C1 E0	10			     shl eax, 16
+1  2484	000007D5  8A 46	08			     mov al, [esi+8]
+1  2485	000007D8  8A 66	0C			     mov ah, [esi+12]
+1  2486	000007DB  C1 C8	10			     ror eax, 16
+1  2487	000007DE  26: 89 07			     mov es:[edi], eax
+1  2488	000007E1  83 C6	10			     add esi, 16
+1  2489	000007E4  83 C7	04			     add edi, 4
+1  2490	000007E7  49				 dec ecx
+1  2491	000007E8  75 E3				 jnz @blitloop1
+1  2492	000007EA  07				 pop es
+1  2493	000007EB  61				 popad
+1  2494	000007EC  C3			 ret
+1  2495	000007ED			 flipgray endp
+1  2496
+1  2497	000007ED			 fliphi	proc
+1  2498	000007ED  60				 pushad
+1  2499	000007EE  06				 push es
+1  2500	000007EF  E8 FFFFFFB6			 call getgrafaddr
+1  2501	000007F4  8B F5				 mov esi, ebp ;screen is always	ebp
+1  2502
+1  2503	000007F6  33 C9				 xor ecx, ecx
+1  2504	000007F8				 @linesloop:
+1  2505	000007F8  51				 push ecx
+1  2506						     ;set target bank
+1  2507	000007F9  8B D1				     mov edx, ecx
+1  2508
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 45
+stub.asm
+
+
+
+1  2509	000007FB  69 D2	00001400		    imul edx, 640*2*4
+1  2510
+1  2511	00000801  33 FF				     xor edi, edi ;offset in segment
+1  2512	00000803  66| 8B FA			     mov di, dx
+1  2513	00000806  C1 EA	10			     shr edx, 16  ;bank	number (64k banks)
+1  2514
+1  2515	00000809  E8 FFFFFF91			     call setbank
+1  2516
+1  2517	0000080E  B9 00000140			     mov ecx, 320
+1  2518	00000813				     @xcopyhi:
+1  2519	00000813  8B 06					 mov eax, [esi]
+1  2520	00000815  26: 89 07				 mov es:[edi], eax
+1  2521	00000818  26: 89 47 04				 mov es:[edi+4], eax
+1  2522	0000081C  83 C6	04				 add esi, 4
+1  2523	0000081F  66| 83 C7 08				 add di, 8
+1  2524	00000823  72 10					 jc @bankagain
+1  2525	00000825					 @backtocopy:
+1  2526	00000825  49				     dec ecx
+1  2527	00000826  75 EB				     jnz @xcopyhi
+1  2528
+1  2529	00000828  59				 pop ecx
+1  2530	00000829  41				 inc ecx
+1  2531	0000082A  81 F9	000000F0		 cmp ecx, 240
+1  2532	00000830  75 C6				 jne @linesloop
+1  2533
+1  2534	00000832  07				 pop es
+1  2535	00000833  61				 popad
+1  2536	00000834  C3			 ret
+1  2537	00000835				 @bankagain:
+1  2538	00000835  42				 inc edx ;set next bank
+1  2539	00000836  E8 FFFFFF64			 call setbank
+1  2540	0000083B  33 FF				 xor edi, edi
+1  2541	0000083D  EB E6				 jmp @backtocopy
+1  2542	0000083F			 fliphi	endp
+1  2543
+1  2544					 ;low res (best) blitter, like in party	version
+1  2545	0000083F			 fliplo	proc ;this code	just "assumes" 64k bank	size and 0 pitch
+1  2546	0000083F  60				 pushad
+1  2547	00000840  06				 push es
+1  2548	00000841  E8 FFFFFF64			 call getgrafaddr
+1  2549	00000846  8B F5				 mov esi, ebp ;screen is always	ebp
+1  2550	00000848  B0 05				 mov al, 5 ;copy full 5	segments
+1  2551	0000084A  33 D2				 xor edx, edx ;bank 0
+1  2552	0000084C				 @bankloop:
+1  2553	0000084C  E8 FFFFFF4E			     call setbank
+1  2554	00000851  33 FF				     xor edi, edi
+1  2555	00000853  B9 00004000			     mov ecx, 010000h shr 2
+1  2556	00000858  F3> A5			     rep movsd
+1  2557	0000085A  42				     inc edx
+1  2558	0000085B  FE C8				 dec al
+1  2559	0000085D  75 ED				 jnz @bankloop
+1  2560	0000085F  07				 pop es
+1  2561	00000860  61				 popad
+1  2562	00000861  C3			 ret
+1  2563	00000862			 fliplo	endp
+1  2564
+1  2565					 ;edi =	dest
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 46
+stub.asm
+
+
+
+1  2566	00000862			 invert	proc
+1  2567	00000862  B9 00009600		      mov ecx, (320*240)/2
+1  2568	00000867			      @invloop:
+1  2569	00000867  83 37	FF			  xor dword ptr	[edi], 0ffffffffh
+1  2570	0000086A  83 77	04 FF			  xor dword ptr	[edi+4], 0ffffffffh
+1  2571	0000086E  83 C7	08			  add edi, 8
+1  2572	00000871  49			      dec ecx
+1  2573	00000872  75 F3			      jnz @invloop
+1  2574	00000874  C3			 ret
+1  2575	00000875			 invert	endp
+1  2576
+1  2577					 ;background renderer
+1  2578
+1  2579					 ;same as grid.	return st(0), st(1) scaled & centerd x/y
+1  2580	00000875			 getrealxy proc
+1  2581	00000875  51			      push ecx
+1  2582	00000876  80 E9	0B		      sub cl, 11
+1  2583	00000879  80 ED	14		      sub ch, 20
+1  2584	0000087C  B2 02			      mov dl, 2
+1  2585	0000087E			      @getrealloop:
+1  2586	0000087E  0F BE	C5			  movsx	eax, ch
+1  2587	00000881  C1 E0	03			  shl eax, 3
+1  2588	00000884  89 06				  mov [esi], eax
+1  2589	00000886  DB 06				  fild dword ptr [esi]
+1  2590	00000888  8A E9				  mov ch, cl
+1  2591	0000088A  FE CA			      dec dl
+1  2592	0000088C  75 F0			      jnz @getrealloop
+1  2593	0000088E  59			      pop ecx
+1  2594	0000088F  C3			 ret
+1  2595	00000890			 getrealxy endp
+1  2596
+1  2597					 ;cl=x,	ch=y, esi=dest (x,y,s)
+1  2598					 ;esi, ebx, ecx: keep em save
+1  2599	00000890			 grid_putlinear	proc
+1  2600	00000890  0F B6	C1		      movzx eax, cl
+1  2601	00000893  C1 E0	03		      shl eax, 3
+1  2602	00000896  89 06			      mov [esi], eax
+1  2603	00000898  0F B6	C5		      movzx eax, ch
+1  2604	0000089B  C1 E0	03		      shl eax, 3
+1  2605	0000089E  67| 03 06 3C45r	      add eax, globalt
+1  2606	000008A3  89 46	04		      mov [esi+4], eax
+1  2607	000008A6  C7 46	08 000000FF	      mov dword	ptr [esi+8], 0ffh
+1  2608	000008AD  C3			 ret
+1  2609	000008AE			 grid_putlinear	endp
+1  2610
+1  2611					 ;esi, ebx, ecx: keep em save
+1  2612					 ;cl/ch	: x/y esi: dest
+1  2613	000008AE			 grid_waves proc
+1  2614	000008AE  E8 FFFFFFC2		      call getrealxy
+1  2615	000008B3  D9 C1			      fld st(1)
+1  2616	000008B5  D9 C1			      fld st(1)
+1  2617
+1  2618	000008B7  B0 02			      mov al, 2
+1  2619	000008B9			      @twiceloop:
+1  2620	000008B9  67| DA 06 3C45r		 fiadd globalt
+1  2621	000008BE  67| DE 36 0248r		 fidiv i_32
+1  2622	000008C3  D9 FE				 fsin
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 47
+stub.asm
+
+
+
+1  2623	000008C5  67| DE 0E 023Ar		 fimul i_127
+1  2624	000008CA  D9 C9				 fxch st(1)
+1  2625	000008CC  FE C8			      dec al
+1  2626	000008CE  75 E9			      jnz @twiceloop
+1  2627
+1  2628	000008D0  DE C3			      faddp st(3), st(0)
+1  2629	000008D2  DE C1			      faddp st(1), st(0)
+1  2630	000008D4  DB 1E			      fistp dword ptr [esi]
+1  2631	000008D6  DB 5E	04		      fistp dword ptr [esi+4]
+1  2632
+1  2633	000008D9  C7 46	08 000000FE	      mov dword	ptr [esi+8], 0feh
+1  2634	000008E0  C3			 ret
+1  2635	000008E1			 grid_waves endp
+1  2636
+1  2637					 ;cl=x,	ch=y, esi=dest (x,y,s)
+1  2638					 ;esi, ebx, ecx: keep em save
+1  2639	000008E1			 grid_traceplanes proc
+1  2640	000008E1  E8 FFFFFF8F		      call getrealxy
+1  2641					      ;compute the stupid direction vector
+1  2642	000008E6  60			      pushad
+1  2643	000008E7  67| 8D 36 17F9r	      lea esi, [matrix]
+1  2644	000008EC  8D 7C	24 82		      lea edi, [esp-126] ;[tempmem]
+1  2645	000008F0  8D 5F	0C		      lea ebx, [edi+12]
+1  2646	000008F3  D9 1F			      fstp dword ptr [edi]
+1  2647	000008F5  D9 5F	04		      fstp dword ptr [edi+4]
+1  2648	000008F8  C7 47	08 437F0000	      mov dword	ptr [edi+8], 0437f0000h	;=255.0
+1  2649	000008FF  E8 000003ED		      call mattrans
+1  2650					      ;[edi+12]	= direction, origin is zero ;)
+1  2651	00000904  D9 47	0C		      fld dword	ptr [edi+12]
+1  2652	00000907  D9 47	10		      fld dword	ptr [edi+16]
+1  2653	0000090A  D9 47	14		      fld dword	ptr [edi+20]
+1  2654	0000090D  61			      popad
+1  2655
+1  2656	0000090E  67| DF 06 0238r	     fild i_255
+1  2657	00000913  D8 F1			     fdiv st(0), st(1)
+1  2658	00000915  D9 C3			     fld st(3)
+1  2659	00000917  D8 C9			     fmul st(0), st(1)
+1  2660	00000919  D9 E1			     fabs
+1  2661	0000091B  DB 1E			     fistp dword ptr [esi]
+1  2662
+1  2663	0000091D  D9 C2			     fld st(2)
+1  2664	0000091F  D8 C9			     fmul st(0), st(1)
+1  2665	00000921  D9 E1			     fabs
+1  2666	00000923  DB 5E	04		     fistp dword ptr [esi+4]
+1  2667
+1  2668	00000926  D9 E1			     fabs
+1  2669	00000928  D9 E0			     fchs
+1  2670					     ;fimul i_16
+1  2671	0000092A  DB 5E	08		     fistp dword ptr [esi+8]
+1  2672	0000092D  C1 66	08 03		     shl dword ptr [esi+8], 3
+1  2673	00000931  80 7E	09 FF		     cmp byte ptr [esi+9], 255
+1  2674	00000935  74 06			     jz	@noclamp
+1  2675	00000937  66| C7 46 08 FF01		 mov word ptr [esi+8], -255
+1  2676	0000093D			     @noclamp:
+1  2677
+1  2678	0000093D  DB E3			     fninit
+1  2679	0000093F  C3			 ret
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 48
+stub.asm
+
+
+
+1  2680	00000940			 grid_traceplanes endp
+1  2681
+1  2682
+1  2683					 ;esi =	first grid entry, edi =	dest
+1  2684	00000940			 drawblock proc
+1  2685	00000940  51			      push ecx
+1  2686	00000941  8D 5C	24 82		      lea ebx, [esp-126] ;tempmem
+1  2687	00000945  BA 00000014		      mov edx, 20
+1  2688	0000094A			      @computeloop1:
+1  2689	0000094A  8B 04	16			  mov eax, [esi+edx]
+1  2690	0000094D  C1 E0	03			  shl eax, 3
+1  2691	00000950  89 04	53			  mov [ebx+edx*2], eax
+1  2692	00000953  8B 84	16 000001EC		  mov eax, [esi+edx+(((320/8)+1)*12)]
+1  2693	0000095A  2B 04	16			  sub eax, [esi+edx]
+1  2694	0000095D  89 44	53 04			  mov [ebx+edx*2+4], eax
+1  2695	00000961  83 EA	04		      sub edx, 4
+1  2696	00000964  79 E4			      jns @computeloop1
+1  2697
+1  2698	00000966  B1 08			      mov cl, 8
+1  2699	00000968			      @yblockloop:
+1  2700	00000968  BA 00000010			  mov edx, 16
+1  2701	0000096D				  @computeloop2:
+1  2702						      ;compute horizontal deltas
+1  2703	0000096D  8B 04	13			      mov eax, [ebx+edx]
+1  2704	00000970  C1 E0	03			      shl eax, 3
+1  2705	00000973  89 44	13 30			      mov [ebx+edx+48],	eax
+1  2706	00000977  8B 44	13 18			      mov eax, [ebx+edx+24]
+1  2707	0000097B  2B 04	13			      sub eax, [ebx+edx]
+1  2708	0000097E  89 44	13 34			      mov [ebx+edx+4+48], eax
+1  2709						      ;add vertival deltas
+1  2710	00000982  8B 44	13 04			      mov eax, [ebx+edx+4]
+1  2711	00000986  01 04	13			      add [ebx+edx], eax
+1  2712	00000989  8B 44	13 1C			      mov eax, [ebx+edx+4+24]
+1  2713	0000098D  01 44	13 18			      add [ebx+edx+24],	eax
+1  2714	00000991  83 EA	08			  sub edx, 8
+1  2715	00000994  79 D7				  jns @computeloop2
+1  2716	00000996  B5 08				  mov ch, 8
+1  2717	00000998				  @xblockloop:
+1  2718	00000998  51				      push ecx
+1  2719	00000999  33 C0				      xor eax, eax
+1  2720	0000099B  66| 8B 43 30			      mov ax, [ebx+48]
+1  2721	0000099F  8A 43	39			      mov al, [ebx+57]
+1  2722	000009A2  8D 94	85			      db 08dh, 094h, 085h  ;lea	edx, [eax*4+ ]
+1  2723	000009A5				      texturemapptr:
+1  2724	000009A5  00150000			      dd texturebase
+1  2725
+1  2726	000009A9  33 C0				      xor eax, eax
+1  2727	000009AB  8A 63	41			      mov ah, [ebx+65]
+1  2728
+1  2729						      ;very slow, but size _does_ matter ;)
+1  2730						      ;mov cl, 4
+1  2731						      ;@fuckyloop:
+1  2732						      ;	 mov al, [edx]
+1  2733						      ;	 mov ch, [shademap+eax]
+1  2734						      ;	 mov [edi], ch
+1  2735						      ;	 inc edx
+1  2736						      ;	 inc edi
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 49
+stub.asm
+
+
+
+1  2737						      ;	 dec cl
+1  2738						      ;jnz @fuckyloop
+1  2739
+1  2740						      rept 3
+1  2741						      mov al, [edx]
+1  2742						      mov cl, [shademap+eax]
+1  2743						      mov [edi], cl
+1  2744						      inc edx
+1  2745						      inc edi
+1  2746						      endm
+2  2747	000009AE  8A 02				      mov al, [edx]
+2  2748	000009B0  8A 8C	05 002D4F70		      mov cl, [shademap+eax]
+2  2749	000009B7  88 0F				      mov [edi], cl
+2  2750	000009B9  42				      inc edx
+2  2751	000009BA  47				      inc edi
+2  2752	000009BB  8A 02				      mov al, [edx]
+2  2753	000009BD  8A 8C	05 002D4F70		      mov cl, [shademap+eax]
+2  2754	000009C4  88 0F				      mov [edi], cl
+2  2755	000009C6  42				      inc edx
+2  2756	000009C7  47				      inc edi
+2  2757	000009C8  8A 02				      mov al, [edx]
+2  2758	000009CA  8A 8C	05 002D4F70		      mov cl, [shademap+eax]
+2  2759	000009D1  88 0F				      mov [edi], cl
+2  2760	000009D3  42				      inc edx
+2  2761	000009D4  47				      inc edi
+1  2762
+1  2763						      ;add horizontal deltas (same size	as in loop!)
+1  2764						      ;wow! even slightly pairing optimized ;)
+1  2765	000009D5  8B 43	34			      mov eax, [ebx+52]
+1  2766	000009D8  8B 4B	3C			      mov ecx, [ebx+60]
+1  2767	000009DB  8B 53	44			      mov edx, [ebx+68]
+1  2768	000009DE  01 43	30			      add [ebx+48], eax
+1  2769	000009E1  01 4B	38			      add [ebx+56], ecx
+1  2770	000009E4  01 53	40			      add [ebx+64], edx
+1  2771
+1  2772	000009E7  47				      inc edi
+1  2773
+1  2774	000009E8  59				      pop ecx
+1  2775	000009E9  FE CD				  dec ch
+1  2776	000009EB  75 AB				  jnz @xblockloop
+1  2777	000009ED  81 C7	000004E0		  add edi, (320-8)*4
+1  2778	000009F3  49			      dec ecx
+1  2779	000009F4  0F 85	FFFFFF6E	      jnz @yblockloop
+1  2780
+1  2781	000009FA  59			      pop ecx
+1  2782	000009FB  C3			 ret
+1  2783	000009FC			 drawblock endp
+1  2784
+1  2785					 ;sprite drawer
+1  2786					 ;esi =	sprite descriptor, ebx = cliptop, 0=clipbot, edx=offset
+1  2787					 ;al = 0: completly out	al=1: drawit
+1  2788	000009FC			 clipme	proc
+1  2789	000009FC  33 C9			      xor ecx, ecx
+1  2790	000009FE  56			      push esi
+1  2791	000009FF  03 F2			      add esi, edx
+1  2792					      ;clip it!
+1  2793	00000A01  8B 46	10		      mov eax, [esi+16]
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 50
+stub.asm
+
+
+
+1  2794	00000A04  3B C3			      cmp eax, ebx
+1  2795	00000A06  7D 32			      jge @clipped
+1  2796	00000A08  03 46	08		      add eax, [esi+8]
+1  2797	00000A0B  3B C3			      cmp eax, ebx
+1  2798	00000A0D  7E 07			      jng @noclip1
+1  2799	00000A0F  93				  xchg eax, ebx
+1  2800	00000A10  2B 46	10			  sub eax, [esi+16]
+1  2801	00000A13  89 46	08			  mov [esi+8], eax
+1  2802	00000A16			      @noclip1:
+1  2803
+1  2804	00000A16  8B 46	10		      mov eax, [esi+16]
+1  2805	00000A19  3B C1			      cmp eax, ecx
+1  2806	00000A1B  7D 19			      jge @noclip2
+1  2807	00000A1D  03 46	08			  add eax, [esi+8]
+1  2808	00000A20  3B C1				  cmp eax, ecx
+1  2809	00000A22  7E 16				  jle @clipped
+1  2810	00000A24  89 46	08			  mov [esi+8], eax
+1  2811	00000A27  8B 46	10			  mov eax, [esi+16]
+1  2812	00000A2A  F7 D8				  neg eax
+1  2813	00000A2C  0F AF	46 1C			 imul eax, [esi+28]
+1  2814	00000A30  89 46	2C			  mov [esi+44],	eax
+1  2815	00000A33  89 4E	10			  mov dword ptr	[esi+16], ecx
+1  2816	00000A36			      @noclip2:
+1  2817
+1  2818	00000A36  B0 01			      mov al, 1
+1  2819	00000A38  5E			      pop esi
+1  2820	00000A39  C3			 ret
+1  2821	00000A3A			      @clipped:
+1  2822	00000A3A  33 C0			      xor eax, eax
+1  2823	00000A3C  5E			      pop esi
+1  2824	00000A3D  C3			 ret
+1  2825	00000A3E			 clipme	endp
+1  2826
+1  2827					 ;esi =	sprite descriptor, edi = dest
+1  2828	00000A3E			 putsprite proc
+1  2829					      ;basic setup
+1  2830
+1  2831	00000A3E  B8 00010000		      mov eax, 10000h
+1  2832	00000A43  99			      cdq
+1  2833	00000A44  F7 7E	F0		     idiv dword	ptr [esi-16]
+1  2834	00000A47  89 46	18		      mov [esi+24], eax
+1  2835	00000A4A  89 46	1C		      mov [esi+28], eax
+1  2836
+1  2837	00000A4D  D9 EE			      fldz
+1  2838	00000A4F  DD 5E	28		      fstp qword ptr [esi+40]
+1  2839
+1  2840	00000A52  33 D2			      xor edx, edx
+1  2841	00000A54  BB 000000F0		      mov ebx, CLIPTOP
+1  2842	00000A59  E8 FFFFFF9E		      call clipme
+1  2843	00000A5E  3C 00			      cmp al, 0
+1  2844	00000A60  0F 84	0000007E	      jz @completlyout
+1  2845
+1  2846	00000A66  BA FFFFFFFC		      mov edx, -4
+1  2847	00000A6B  BB 00000140		      mov ebx, CLIPRIGHT
+1  2848	00000A70  E8 FFFFFF87		      call clipme
+1  2849	00000A75  3C 00			      cmp al, 0
+1  2850	00000A77  74 6B			      jz @completlyout
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 51
+stub.asm
+
+
+
+1  2851
+1  2852	00000A79  8B 46	2C		      mov eax, [esi+44]
+1  2853	00000A7C  89 46	24		      mov [esi+36], eax
+1  2854
+1  2855	00000A7F  8B 4E	10		      mov ecx, [esi+16]
+1  2856	00000A82  69 C9	00000140	     imul ecx, 320
+1  2857	00000A88  03 4E	0C		      add ecx, [esi+12]
+1  2858	00000A8B  8D 3C	8F		      lea edi, [edi + ecx*4]
+1  2859
+1  2860	00000A8E  8B 4E	08		      mov ecx, [esi+8]
+1  2861
+1  2862	00000A91			      @yspriteloop:
+1  2863	00000A91  51 57				   push	ecx edi
+1  2864	00000A93  8B 4E	04			   mov ecx, [esi+4]
+1  2865	00000A96  8B 46	28			   mov eax, [esi+40]
+1  2866	00000A99  89 46	20			   mov [esi+32], eax
+1  2867	00000A9C				   @xspriteloop:
+1  2868	00000A9C  33 DB				       xor ebx,	ebx
+1  2869	00000A9E  8A 5E	21			       mov bl, [esi+32+1]
+1  2870	00000AA1  8A 7E	25			       mov bh, [esi+36+1]
+1  2871	00000AA4  C1 E3	02			       shl ebx,	2
+1  2872	00000AA7  03 1E				       add ebx,	[esi]
+1  2873						       ;ebx = source, edi = dest
+1  2874						       rept 3
+1  2875						       mov ah, [edi]
+1  2876						       add ah, [ebx]
+1  2877						       db 0d6h
+1  2878						       or al, ah
+1  2879						       mov [edi], al
+1  2880						       inc ebx
+1  2881						       inc edi
+1  2882						       endm
+2  2883	00000AA9  8A 27				       mov ah, [edi]
+2  2884	00000AAB  02 23				       add ah, [ebx]
+2  2885	00000AAD  D6				       db 0d6h
+2  2886	00000AAE  0A C4				       or al, ah
+2  2887	00000AB0  88 07				       mov [edi], al
+2  2888	00000AB2  43				       inc ebx
+2  2889	00000AB3  47				       inc edi
+2  2890	00000AB4  8A 27				       mov ah, [edi]
+2  2891	00000AB6  02 23				       add ah, [ebx]
+2  2892	00000AB8  D6				       db 0d6h
+2  2893	00000AB9  0A C4				       or al, ah
+2  2894	00000ABB  88 07				       mov [edi], al
+2  2895	00000ABD  43				       inc ebx
+2  2896	00000ABE  47				       inc edi
+2  2897	00000ABF  8A 27				       mov ah, [edi]
+2  2898	00000AC1  02 23				       add ah, [ebx]
+2  2899	00000AC3  D6				       db 0d6h
+2  2900	00000AC4  0A C4				       or al, ah
+2  2901	00000AC6  88 07				       mov [edi], al
+2  2902	00000AC8  43				       inc ebx
+2  2903	00000AC9  47				       inc edi
+1  2904
+1  2905	00000ACA  8B 46	18			       mov eax,	[esi+24]
+1  2906	00000ACD  47				       inc edi
+1  2907	00000ACE  01 46	20			       add [esi+32], eax
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 52
+stub.asm
+
+
+
+1  2908	00000AD1  49				   dec ecx
+1  2909	00000AD2  75 C8				   jnz @xspriteloop
+1  2910	00000AD4  5F 59				   pop edi ecx
+1  2911	00000AD6  81 C7	00000500		   add edi, 320*4
+1  2912	00000ADC  8B 46	1C			   mov eax, [esi+28]
+1  2913	00000ADF  01 46	24			   add [esi+36], eax
+1  2914	00000AE2  E2 AD			      loop @yspriteloop
+1  2915	00000AE4			      @completlyout:
+1  2916	00000AE4  C3			 ret
+1  2917	00000AE5			 putsprite endp
+1  2918
+1  2919					 ;particel system
+1  2920
+1  2921					 ;esi =	particel data, ecx = number, globalt set.
+1  2922					 ;return = eax number of total particels for fx
+1  2923					 ;has to write (esi relativ):
+1  2924					 ;0	 x,y,z
+1  2925					 ;12	 basesize
+1  2926					 ;0+28	 source	image
+1  2927					 ;20+28	 alpha value
+1  2928	00000AE5			 particel_spiral proc
+1  2929	00000AE5  89 0E				mov [esi], ecx
+1  2930	00000AE7  DB 06				fild dword ptr [esi]
+1  2931	00000AE9  D9 C0				fld st(0)
+1  2932	00000AEB  67| DA 26 3C45r		fisub globalt
+1  2933	00000AF0  67| DE 36 024Er		fidiv i_16
+1  2934	00000AF5  D9 FB				fsincos
+1  2935	00000AF7  D8 CA				fmul st(0), st(2)
+1  2936	00000AF9  D9 1E				fstp dword ptr [esi]
+1  2937	00000AFB  D8 C9				fmul st(0), st(1)
+1  2938	00000AFD  D9 5E	04			fstp dword ptr [esi+4]
+1  2939	00000B00  DD C0				ffree st(0)
+1  2940	00000B02  33 C0				xor eax, eax
+1  2941	00000B04  89 46	08			mov [esi+8], eax
+1  2942
+1  2943	00000B07  8B C1				mov eax, ecx
+1  2944	00000B09  D1 E8				shr eax, 1
+1  2945	00000B0B  83 C0	04			add eax, 4
+1  2946	00000B0E  83 F9	01			cmp ecx, 1
+1  2947	00000B11  75 37				jnz @noz
+1  2948	00000B13  B8 00000080			     mov eax, 128
+1  2949
+1  2950	00000B18  50				     push eax
+1  2951	00000B19  67| A1 3C45r			     mov eax, globalt
+1  2952	00000B1D  F6 05	00000E9Fr 80		     test byte ptr [bigflag], 010000000b
+1  2953	00000B24  74 0E				     jz	@noflash
+1  2954	00000B26  80 25	00000E9Fr 7F			  and byte ptr [bigflag], 01111111b
+1  2955	00000B2D  83 C0	20				  add eax, 32
+1  2956	00000B30  67| A3 3C41r				  mov endt, eax
+1  2957	00000B34				     @noflash:
+1  2958
+1  2959	00000B34  67| A1 3C41r			     mov eax, endt
+1  2960	00000B38  67| 2B 06 3C45r		     sub eax, globalt
+1  2961	00000B3D  78 0A				     js	@nof
+1  2962	00000B3F  5B					pop ebx
+1  2963	00000B40  C1 E0	05				shl eax, 5
+1  2964	00000B43  05 00000080				add eax, 128
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 53
+stub.asm
+
+
+
+1  2965	00000B48  50					push eax
+1  2966	00000B49				     @nof:
+1  2967
+1  2968	00000B49  58				     pop eax
+1  2969
+1  2970	00000B4A				@noz:
+1  2971	00000B4A  89 46	0C			mov [esi+12], eax
+1  2972	00000B4D  8D 85	00290000		lea eax, [textures+256*256*4*5]
+1  2973	00000B53  89 46	1C			mov [esi+0+28],	eax
+1  2974					       ; mov eax, 0ffh
+1  2975					       ; mov [esi+20+28], eax
+1  2976	00000B56  B8 00000080			mov eax, 128
+1  2977	00000B5B  C3			 ret
+1  2978	00000B5C			 particel_spiral endp
+1  2979
+1  2980					 ;esi =	particel data, ecx = number, globalt set.
+1  2981					 ;has to write (esi relativ):
+1  2982					 ;0	 x,y,z
+1  2983					 ;12	 basesize
+1  2984					 ;0+28	 source	image
+1  2985					 ;20+28	 alpha value
+1  2986	00000B5C			 particel_starfield proc
+1  2987	00000B5C  BA 00000008			mov edx, 8
+1  2988	00000B61				@loadrandom:
+1  2989	00000B61  51				   push	ecx
+1  2990	00000B62  03 CA				   add ecx, edx
+1  2991	00000B64  0F BE	84 4D 00050000		   movsx eax, byte ptr [ecx*2+noisemap]
+1  2992	00000B6C  50				   push	eax
+1  2993	00000B6D  DB 04	24			   fild	dword ptr [esp]
+1  2994	00000B70  58				   pop eax
+1  2995	00000B71  D9 1C	16			   fstp	dword ptr [esi+edx]
+1  2996	00000B74  59				   pop ecx
+1  2997	00000B75  83 EA	04			sub edx, 4
+1  2998	00000B78  79 E7				jns @loadrandom
+1  2999
+1  3000	00000B7A  D9 06				fld dword ptr [esi]
+1  3001	00000B7C  67| DE 26 023Ar		fisub i_127
+1  3002	00000B81  67| DE 0E 024Er		fimul i_16
+1  3003	00000B86  67| DA 06 3C45r		fiadd globalt
+1  3004	00000B8B  D9 1E				fstp dword ptr [esi]
+1  3005
+1  3006	00000B8D  D9 46	08			fld dword ptr [esi+8]
+1  3007	00000B90  D9 E1				fabs
+1  3008	00000B92  67| DE 36 024Er		fidiv i_16
+1  3009	00000B97  DB 5E	0C			fistp dword ptr	[esi+12]
+1  3010	00000B9A  83 46	0C 02			add dword ptr [esi+12],	2
+1  3011	00000B9E  8D 85	00250000		lea eax, [textures+(256*256*4)*4]
+1  3012	00000BA4  89 46	1C			mov [esi+0+28],	eax
+1  3013					       ; mov eax, 0ffh
+1  3014					       ; mov [esi+20+28], eax
+1  3015
+1  3016	00000BA7  83 F9	01			cmp ecx, 1
+1  3017	00000BAA  75 21				jnz @nofirst
+1  3018	00000BAC  D9 EE				    fldz
+1  3019	00000BAE  DD 16				    fst	qword ptr [esi]
+1  3020	00000BB0  D9 5E	08			    fstp dword ptr [esi+8]
+1  3021	00000BB3  67| DB 06 3C45r		    fild globalt
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 54
+stub.asm
+
+
+
+1  3022	00000BB8  67| DE 36 0250r		    fidiv i_64
+1  3023	00000BBD  D9 FE				    fsin
+1  3024	00000BBF  D9 E1				    fabs
+1  3025	00000BC1  D9 E8				    fld1
+1  3026	00000BC3  DE C1				    faddp st(1), st(0)
+1  3027	00000BC5  67| DE 0E 0238r		    fimul i_255
+1  3028	00000BCA  DB 5E	0C			    fistp dword	ptr [esi+12]
+1  3029	00000BCD				@nofirst:
+1  3030	00000BCD  B8 00000400			mov eax, 1024
+1  3031	00000BD2  C3			 ret
+1  3032	00000BD3			 particel_starfield endp
+1  3033
+1  3034					 ;esi =	particel data, ecx = number, globalt set.
+1  3035					 ;has to write (esi relativ):
+1  3036					 ;0	 x,y,z
+1  3037					 ;12	 basesize
+1  3038					 ;0+28	 source	image
+1  3039					 ;20+28	 alpha value
+1  3040	00000BD3			 particel_osci proc
+1  3041	00000BD3  06				 push es
+1  3042	00000BD4  67| 8E 06 0683r		 mov es, sb_dmasel
+1  3043	00000BD9  89 0E				     mov [esi],	ecx
+1  3044	00000BDB  DB 06				     fild dword	ptr [esi]
+1  3045	00000BDD  67| DE 36 0250r		     fidiv i_64
+1  3046	00000BE2  D9 FB				     fsincos
+1  3047	00000BE4  26: 8A 04 CD	      +		     mov  al, byte ptr es:[ecx*8]
+   3048		  00000000
+1  3049	00000BEC  34 80				     xor al, 80h
+1  3050	00000BEE  0F BE	C0			     movsx eax,	al
+1  3051	00000BF1  79 02				     jns @@nos
+1  3052	00000BF3  F7 D8				     neg eax
+1  3053	00000BF5				     @@nos:
+1  3054	00000BF5  03 C0				     add eax, eax
+1  3055	00000BF7  89 06				     mov [esi],	eax
+1  3056	00000BF9  DA 0E				     fimul dword ptr [esi]
+1  3057	00000BFB  D9 5E	04			     fstp dword	ptr [esi+4]
+1  3058	00000BFE  DA 0E				     fimul dword ptr [esi]
+1  3059	00000C00  D9 1E				     fstp dword	ptr [esi]
+1  3060	00000C02  07				 pop es
+1  3061	00000C03  D9 EE				 fldz
+1  3062	00000C05  D9 5E	08			 fstp dword ptr	[esi+8]
+1  3063	00000C08  8D 85	00210000		 lea eax, [textures+256*256*4*3]
+1  3064	00000C0E  89 46	1C			 mov [esi+0+28], eax
+1  3065	00000C11  C7 46	0C 0000000A		 mov dword ptr [esi+12], 10
+1  3066	00000C18  B8 000000FF			 mov eax, 255
+1  3067	00000C1D  C3			 ret
+1  3068	00000C1E			 particel_osci endp
+1  3069
+1  3070
+1  3071					 ;esi =	particel data, ecx = number, globalt set.
+1  3072					 ;has to write (esi relativ):
+1  3073					 ;0	 x,y,z
+1  3074					 ;12	 basesize
+1  3075					 ;0+28	 source	image
+1  3076					 ;20+28	 alpha value
+1  3077	00000C1E			 particel_star proc
+1  3078	00000C1E  67| 8D 3E 3C49r		lea edi, [tempvector]
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 55
+stub.asm
+
+
+
+1  3079	00000C23  51				push ecx
+1  3080	00000C24  81 E9	00000100		sub ecx, 256
+1  3081	00000C2A  51				push ecx
+1  3082	00000C2B  DB 04	24			fild dword ptr [esp]
+1  3083	00000C2E  59				pop ecx
+1  3084	00000C2F  59				pop ecx
+1  3085	00000C30  8B C1				mov eax, ecx
+1  3086	00000C32  33 D2				xor edx, edx
+1  3087	00000C34  BB 00000003			mov ebx, 3
+1  3088	00000C39  F7 FB			       idiv ebx
+1  3089	00000C3B  FE C2				inc dl
+1  3090	00000C3D  B6 03				mov dh,	3
+1  3091	00000C3F  57				push edi
+1  3092	00000C40				@setloop:
+1  3093	00000C40  33 C0				    xor	eax, eax
+1  3094	00000C42  AB				    stosd
+1  3095	00000C43  3A F2				    cmp	dh, dl
+1  3096	00000C45  75 03				    jnz	@novalue
+1  3097	00000C47  D9 57	FC				fst dword ptr [edi-4]
+1  3098	00000C4A				    @novalue:
+1  3099	00000C4A  FE CE				dec dh
+1  3100	00000C4C  75 F2				jnz @setloop
+1  3101	00000C4E  DD D8				fstp st(0)
+1  3102	00000C50  5F				pop edi
+1  3103
+1  3104	00000C51  8B DE				mov ebx, esi
+1  3105	00000C53  56 51				push esi ecx
+1  3106	00000C55  67| 8D 36 1841r		lea esi, [matrixbuffer]
+1  3107	00000C5A  C1 E9	02			shr ecx, 2
+1  3108	00000C5D  6B C9	48		       imul ecx, 3*3*8
+1  3109	00000C60  03 F1				add esi, ecx
+1  3110	00000C62  E8 0000008A			call mattrans
+1  3111	00000C67  59 5E				pop ecx	esi
+1  3112
+1  3113	00000C69  B8 00000010			mov eax, 16
+1  3114	00000C6E  89 46	0C			mov [esi+12], eax
+1  3115	00000C71  8D 85	00210000		lea eax, [textures+256*256*4*3]
+1  3116	00000C77  89 46	1C			mov [esi+0+28],	eax
+1  3117						;mov eax, 0ffh
+1  3118						;mov [esi+20+28], eax
+1  3119	00000C7A  B8 00000200			mov eax, 512
+1  3120	00000C7F  C3			 ret
+1  3121	00000C80			 particel_star endp
+1  3122
+1  3123					 ;ebx =	particel movement function, edi	= dest
+1  3124	00000C80			 renderparticels proc
+1  3125	00000C80  33 C9			      xor ecx, ecx
+1  3126	00000C82			      @particelsloop:
+1  3127	00000C82  8D 74	24 82			    lea	esi, [esp-126] ;[particelbuffer]
+1  3128	00000C86  60				    pushad
+1  3129	00000C87  FF D3				    call ebx ;get the actual poition
+1  3130	00000C89  3B C1				    cmp	eax, ecx
+1  3131	00000C8B  76 60				    jbe	@retnow
+1  3132	00000C8D  61				    popad
+1  3133						    ;and now rotate & perspective transform the	bitch
+1  3134
+1  3135	00000C8E  60				    pushad
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 56
+stub.asm
+
+
+
+1  3136	00000C8F  8B FE				    mov	edi, esi
+1  3137	00000C91  8D 5E	10			    lea	ebx, [esi+16]
+1  3138	00000C94  67| 8D 36 17F9r		    lea	esi, [matrix]
+1  3139	00000C99  E8 00000053			    call mattrans
+1  3140	00000C9E  61				    popad
+1  3141
+1  3142						    ;but perspective, we do
+1  3143	00000C9F  D9 46	18			    fld	dword ptr [esi+24]
+1  3144	00000CA2  67| DA 06 024Ar		    fiadd i_zoff
+1  3145	00000CA7  D9 E4				    ftst
+1  3146	00000CA9  DF E0				    fnstsw ax ;hope that is safe here
+1  3147	00000CAB  9E				    sahf
+1  3148	00000CAC  73 3A				    jae	@zclipped
+1  3149	00000CAE  67| DF 06 0238r		    fild i_255
+1  3150	00000CB3  DE F1				    fdivrp st(1), st(0)
+1  3151	00000CB5  D9 C0				    fld	st(0)
+1  3152	00000CB7  D8 4E	14			    fmul dword ptr[esi+20]
+1  3153	00000CBA  DB 5E	2C			    fistp dword	ptr [esi+16+28]
+1  3154						    ;add dword ptr [esi+16+28],	120
+1  3155	00000CBD  D8 4E	10			    fmul dword ptr[esi+16]
+1  3156	00000CC0  DB 5E	28			    fistp dword	ptr [esi+12+28]
+1  3157						    ;add dword ptr [esi+12+28],	160
+1  3158						    ;compute width/height - now, just set it
+1  3159	00000CC3  8B 46	0C			    mov	eax, [esi+12]
+1  3160	00000CC6  89 46	20			    mov	[esi+4+28], eax
+1  3161	00000CC9  89 46	24			    mov	[esi+8+28], eax
+1  3162						    ;fixup position (without real w/h!!)
+1  3163	00000CCC  D1 E8				    shr	eax, 1
+1  3164	00000CCE  50				    push eax
+1  3165	00000CCF  2D 000000A0			    sub	eax, 160
+1  3166	00000CD4  29 46	28			    sub	[esi+12+28], eax
+1  3167	00000CD7  58				    pop	eax
+1  3168	00000CD8  83 E8	78			    sub	eax, 120
+1  3169	00000CDB  29 46	2C			    sub	[esi+16+28], eax
+1  3170						    ;draw her
+1  3171	00000CDE  83 C6	1C			    add	esi, 28
+1  3172	00000CE1  60				    pushad
+1  3173	00000CE2  E8 FFFFFD57			    call putsprite
+1  3174	00000CE7  61				    popad
+1  3175	00000CE8				    @zclipped:
+1  3176	00000CE8  DB E3				    fninit
+1  3177	00000CEA  41				    inc	ecx
+1  3178	00000CEB  EB 95			      jmp @particelsloop
+1  3179	00000CED			      @retnow:
+1  3180	00000CED  61			      popad
+1  3181	00000CEE  DB E3			      fninit
+1  3182	00000CF0  C3			 ret
+1  3183	00000CF1			 renderparticels endp
+1  3184
+1  3185					 ;included files
+1  3186
+1  3187					 include matrix.inc
+2  3188					 ;esi=3x3matrix	 edi=vector  ebx=target
+2  3189	00000CF1			 mattrans proc
+2  3190	00000CF1  60			     pushad
+2  3191	00000CF2  B0 03			     mov al, 3
+2  3192	00000CF4			     @transloop:
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 57
+stub.asm
+
+
+
+2  3193	00000CF4  D9 07				 fld dword ptr [edi]
+2  3194	00000CF6  DC 0E				 fmul qword ptr	[esi]
+2  3195	00000CF8  D9 47	04			 fld dword ptr [edi+4]
+2  3196	00000CFB  DC 4E	18			 fmul qword ptr	[esi+24]
+2  3197	00000CFE  D9 47	08			 fld dword ptr [edi+8]
+2  3198	00000D01  DC 4E	30			 fmul qword ptr	[esi+48]
+2  3199	00000D04  DE C1				 faddp st(1), st(0)
+2  3200	00000D06  DE C1				 faddp st(1), st(0)
+2  3201	00000D08  D9 1B				 fstp dword ptr	[ebx]
+2  3202	00000D0A  83 C6	08			 add esi, 8
+2  3203	00000D0D  83 C3	04			 add ebx, 4
+2  3204	00000D10  FE C8			     dec al
+2  3205	00000D12  75 E0			     jnz @transloop
+2  3206	00000D14  61			     popad
+2  3207	00000D15  C3			 ret
+2  3208	00000D16			 mattrans endp
+2  3209
+2  3210
+1  3211					 include texture.inc
+2  3212
+2  3213					 ;dl = mask, ebx=x(8:8), ecx=y(8:8), esi=noisemap base out:eax=noise (8:16)
+2  3214					 ;fastnoise proc
+2  3215					 fastnoise macro
+2  3216						 lea edi, [costab]
+2  3217						 xor eax, eax
+2  3218						 mov al, cl
+2  3219						 push dword ptr	[edi+eax*4]
+2  3220						 xor al, 0ffh
+2  3221						 push dword ptr	[edi+eax*4]
+2  3222						 mov al, bl
+2  3223						 push dword ptr	[edi+eax*4]
+2  3224						 xor al, 0ffh
+2  3225						 push dword ptr	[edi+eax*4] ;stack: !fx	fx !fy fy
+2  3226						 mov cl, bh
+2  3227						 mov dh, dl
+2  3228						 and ecx, edx
+2  3229						 xor ebx, ebx
+2  3230						 mov al, [esi+ecx] ;n1
+2  3231						 inc cl
+2  3232						 and ecx, edx
+2  3233						 mov bl, [esi+ecx] ;n2
+2  3234						 mov edi, eax
+2  3235						 mov ebp, esp
+2  3236						imul edi, dword	ptr [ebp]
+2  3237						imul ebx, dword	ptr [ebp+4]
+2  3238						 add edi, ebx ;i1
+2  3239						 inc ch
+2  3240						 and ecx, edx
+2  3241						 mov al, [esi+ecx] ;n4
+2  3242						 xor ebx, ebx
+2  3243						 dec cl
+2  3244						 and ecx, edx
+2  3245						 mov bl, [esi+ecx] ;n3
+2  3246						imul ebx, dword	ptr [ebp]
+2  3247						imul eax, dword	ptr [ebp+4]
+2  3248						 add eax, ebx ;i2
+2  3249						imul edi, dword	ptr [ebp+8]
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 58
+stub.asm
+
+
+
+2  3250						imul eax, dword	ptr [ebp+12]
+2  3251						 add eax, edi
+2  3252						 add esp, 16
+2  3253					 endm
+2  3254
+2  3255					 ;ebx=x, ecx=y,	esi=noisemap base  out:edx=noise
+2  3256	00000D16			 fastperlinnoise proc
+2  3257	00000D16  55				 push ebp
+2  3258	00000D17  8B E9				 mov ebp, ecx
+2  3259	00000D19  BF 0000007F			 mov edi, 127 ;factor
+2  3260	00000D1E  B1 01				 mov cl, 1 ;shifter
+2  3261	00000D20  8A D1				 mov dl, cl ;mask
+2  3262	00000D22  33 C0				 xor eax, eax
+2  3263	00000D24				 @sumloop:
+2  3264	00000D24  60				     pushad
+2  3265	00000D25  D3 E5				     shl ebp, cl
+2  3266	00000D27  D3 E3				     shl ebx, cl
+2  3267	00000D29  8B CD				     mov ecx, ebp
+2  3268	00000D2B  57				     push edi
+2  3269						     fastnoise
+3  3270	00000D2C  67| 8D 3E 0FEDr		 lea edi, [costab]
+3  3271	00000D31  33 C0				 xor eax, eax
+3  3272	00000D33  8A C1				 mov al, cl
+3  3273	00000D35  FF 34	87			 push dword ptr	[edi+eax*4]
+3  3274	00000D38  34 FF				 xor al, 0ffh
+3  3275	00000D3A  FF 34	87			 push dword ptr	[edi+eax*4]
+3  3276	00000D3D  8A C3				 mov al, bl
+3  3277	00000D3F  FF 34	87			 push dword ptr	[edi+eax*4]
+3  3278	00000D42  34 FF				 xor al, 0ffh
+3  3279	00000D44  FF 34	87			 push dword ptr	[edi+eax*4] ;stack: !fx	fx !fy fy
+3  3280	00000D47  8A CF				 mov cl, bh
+3  3281	00000D49  8A F2				 mov dh, dl
+3  3282	00000D4B  23 CA				 and ecx, edx
+3  3283	00000D4D  33 DB				 xor ebx, ebx
+3  3284	00000D4F  8A 04	0E			 mov al, [esi+ecx] ;n1
+3  3285	00000D52  FE C1				 inc cl
+3  3286	00000D54  23 CA				 and ecx, edx
+3  3287	00000D56  8A 1C	0E			 mov bl, [esi+ecx] ;n2
+3  3288	00000D59  8B F8				 mov edi, eax
+3  3289	00000D5B  8B EC				 mov ebp, esp
+3  3290	00000D5D  0F AF	7D 00			imul edi, dword	ptr [ebp]
+3  3291	00000D61  0F AF	5D 04			imul ebx, dword	ptr [ebp+4]
+3  3292	00000D65  03 FB				 add edi, ebx ;i1
+3  3293	00000D67  FE C5				 inc ch
+3  3294	00000D69  23 CA				 and ecx, edx
+3  3295	00000D6B  8A 04	0E			 mov al, [esi+ecx] ;n4
+3  3296	00000D6E  33 DB				 xor ebx, ebx
+3  3297	00000D70  FE C9				 dec cl
+3  3298	00000D72  23 CA				 and ecx, edx
+3  3299	00000D74  8A 1C	0E			 mov bl, [esi+ecx] ;n3
+3  3300	00000D77  0F AF	5D 00			imul ebx, dword	ptr [ebp]
+3  3301	00000D7B  0F AF	45 04			imul eax, dword	ptr [ebp+4]
+3  3302	00000D7F  03 C3				 add eax, ebx ;i2
+3  3303	00000D81  0F AF	7D 08			imul edi, dword	ptr [ebp+8]
+3  3304	00000D85  0F AF	45 0C			imul eax, dword	ptr [ebp+12]
+3  3305	00000D89  03 C7				 add eax, edi
+3  3306	00000D8B  83 C4	10			 add esp, 16
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 59
+stub.asm
+
+
+
+2  3307	00000D8E  5F				     pop edi
+2  3308	00000D8F  0F AF	C7			    imul eax, edi
+2  3309	00000D92  C1 F8	07			     sar eax, 7
+2  3310	00000D95  01 44	24 1C			     add [esp+01ch], eax ;eax on stack
+2  3311	00000D99  61				     popad
+2  3312	00000D9A  FE C1				     inc cl
+2  3313	00000D9C  02 D2				     add dl, dl
+2  3314	00000D9E  FE C2				     inc dl
+2  3315	00000DA0  D1 EF				     shr edi, 1
+2  3316	00000DA2  80 F9	07			 cmp cl, 7
+2  3317	00000DA5  0F 82	FFFFFF79		 jb @sumloop
+2  3318	00000DAB  C1 F8	11			 sar eax, 17
+2  3319	00000DAE  8B D0				 mov edx, eax
+2  3320	00000DB0  5D				 pop ebp
+2  3321	00000DB1  C3			 ret
+2  3322	00000DB2			 fastperlinnoise endp
+2  3323
+2  3324					 ;eax=source/dest, edx=underlying
+2  3325	00000DB2			 mixadd	proc
+2  3326	00000DB2  02 C2			      add al, dl
+2  3327	00000DB4  73 02			      jnc @nooverflow
+2  3328	00000DB6  B0 FF				  mov al, 0ffh
+2  3329	00000DB8			      @nooverflow:
+2  3330	00000DB8  C3			 ret
+2  3331	00000DB9			 mixadd	endp
+2  3332
+2  3333					 ;eax=source/dest, edx=underlying
+2  3334	00000DB9			 mixxor	proc
+2  3335	00000DB9  34 FF			      xor al, 0ffh
+2  3336	00000DBB  80 F2	FF		      xor dl, 0ffh
+2  3337	00000DBE  0F AF	C2		     imul eax, edx
+2  3338	00000DC1  C1 F8	08		      sar eax, 8
+2  3339	00000DC4  C3			 ret
+2  3340	00000DC5			 mixxor	endp
+2  3341
+2  3342					 ;eax=source/dest, edx=underlying
+2  3343	00000DC5			 mixmul	proc
+2  3344	00000DC5  34 FF			      xor al, 0ffh
+2  3345	00000DC7  0F AF	C2		     imul eax, edx
+2  3346	00000DCA  C1 F8	08		      sar eax, 8
+2  3347	00000DCD  C3			 ret
+2  3348	00000DCE			 mixmul	endp
+2  3349
+2  3350					 ;ebx=mixer function, [esi]=color component mul, [edi]=dest, edx=base
+2  3351					 mixdown macro
+2  3352					      push edx
+2  3353					      xor eax, eax
+2  3354					      lodsb
+2  3355					     imul eax, edx
+2  3356					      sar eax, 6
+2  3357					      ;xor edx,	edx
+2  3358					      mov dl, [edi]
+2  3359					      ;clamp eax!
+2  3360					      cmp ah, 0	;cmp eax, 255
+2  3361					      jz @noclampeaxup
+2  3362						  xor eax, eax
+2  3363						  dec al
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 60
+stub.asm
+
+
+
+2  3364					      @noclampeaxup:
+2  3365					      call ebx
+2  3366					      stosb
+2  3367					      pop edx
+2  3368					 endm
+2  3369
+2  3370					 ;[esi]	control	data (s8.0, u4:4), edx = pixel
+2  3371	00000DCE			 bcadjust proc
+2  3372	00000DCE  AC			       lodsb
+2  3373	00000DCF  66| 98		       cbw
+2  3374	00000DD1  98			       cwde
+2  3375	00000DD2  03 D0			       add edx,	eax
+2  3376	00000DD4  33 C0			       xor eax,	eax
+2  3377	00000DD6  AC			       lodsb
+2  3378	00000DD7  0F AF	D0		       imul edx, eax
+2  3379	00000DDA  C1 FA	04		       sar edx,	4
+2  3380					       ;clamp
+2  3381	00000DDD  85 D2			       test edx, edx
+2  3382	00000DDF  79 02			       jns @nolow
+2  3383	00000DE1  33 D2				  xor edx, edx
+2  3384	00000DE3			       @nolow:
+2  3385	00000DE3  80 FE	00		       cmp dh, 0
+2  3386	00000DE6  74 04			       jz @nohigh
+2  3387	00000DE8  33 D2				  xor edx, edx
+2  3388	00000DEA  FE CA				  dec dl
+2  3389	00000DEC			       @nohigh:
+2  3390	00000DEC  C3			 ret
+2  3391	00000DED			 bcadjust endp
+2  3392
+2  3393					 ;esi=texture descriptor, edi=dest
+2  3394	00000DED			 synthtexture proc
+2  3395	00000DED  33 C9			    xor	ecx, ecx
+2  3396	00000DEF			    @texs_y:
+2  3397	00000DEF  33 DB			       xor ebx,	ebx
+2  3398	00000DF1			       @texs_x:
+2  3399	00000DF1  56				  push esi
+2  3400	00000DF2  AC				  lodsb
+2  3401	00000DF3				  @layerloop:
+2  3402	00000DF3  60				     pushad
+2  3403	00000DF4  33 C0				     xor eax, eax
+2  3404	00000DF6  AC				     lodsb
+2  3405	00000DF7  3C 00				     cmp al, 0
+2  3406	00000DF9  74 28				     jz	@doperlin
+2  3407
+2  3408						     ;flare
+2  3409	00000DFB  51				     push ecx
+2  3410	00000DFC  AC				     lodsb
+2  3411	00000DFD  2B D8				     sub ebx, eax
+2  3412	00000DFF  AC				     lodsb
+2  3413	00000E00  2B C8				     sub ecx, eax
+2  3414	00000E02  53				     push ebx
+2  3415	00000E03  DB 04	24			     fild dword	ptr [esp]
+2  3416	00000E06  D8 C8				     fmul st(0), st(0)
+2  3417	00000E08  5B				     pop ebx
+2  3418	00000E09  51				     push ecx
+2  3419	00000E0A  DB 04	24			     fild dword	ptr [esp]
+2  3420	00000E0D  D8 C8				     fmul st(0), st(0)
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 61
+stub.asm
+
+
+
+2  3421	00000E0F  59				     pop ecx
+2  3422	00000E10  DE C1				     faddp st(1), st(0)
+2  3423	00000E12  D9 FA				     fsqrt
+2  3424	00000E14  D9 E0				     fchs
+2  3425	00000E16  67| DE 06 023Ar		     fiadd i_127
+2  3426	00000E1B  52				     push edx
+2  3427	00000E1C  DB 1C	24			     fistp dword ptr [esp]
+2  3428	00000E1F  5A				     pop edx
+2  3429	00000E20  59				     pop ecx
+2  3430	00000E21  EB 12				     jmp @doneplasma
+2  3431
+2  3432	00000E23				     @doperlin:
+2  3433						     ;perlin noise
+2  3434	00000E23  66| AD			     lodsw
+2  3435	00000E25  57 56				     push edi esi
+2  3436	00000E27  8D B4	C5 00050000		     lea esi, [noisemap+eax*8]
+2  3437	00000E2E  E8 FFFFFEE3			     call fastperlinnoise ;destroys nearly everything
+2  3438	00000E33  5E 5F				     pop esi edi
+2  3439
+2  3440	00000E35				     @doneplasma:
+2  3441						     ;edx = our	plasma value
+2  3442	00000E35  E8 FFFFFF94			     call bcadjust
+2  3443						     ;load color mixing	function
+2  3444	00000E3A  AC				     lodsb
+2  3445	00000E3B  8A C8				     mov cl, al
+2  3446	00000E3D  24 07				     and al, 0111b
+2  3447	00000E3F  8B 1C	85 0000023Cr		     mov ebx, colormixers[eax*4]
+2  3448						     ;solarize it
+2  3449	00000E46  22 CA				     and cl, dl
+2  3450	00000E48  84 C9				     test cl, cl
+2  3451	00000E4A  79 03				     jns @nosol
+2  3452	00000E4C  80 F2	FF				 xor dl, 0ffh
+2  3453	00000E4F				     @nosol:
+2  3454						     ;color compose with values	at esi,	and mix	down to	edi
+2  3455	00000E4F  B1 03				     mov cl, 3
+2  3456	00000E51				     @mixdownloop:
+2  3457						     mixdown
+3  3458	00000E51  52			      push edx
+3  3459	00000E52  33 C0			      xor eax, eax
+3  3460	00000E54  AC			      lodsb
+3  3461	00000E55  0F AF	C2		     imul eax, edx
+3  3462	00000E58  C1 F8	06		      sar eax, 6
+3  3463	00000E5B  8A 17			      mov dl, [edi]
+3  3464	00000E5D  80 FC	00		      cmp ah, 0	;cmp eax, 255
+3  3465	00000E60  74 04			      jz @noclampeaxup
+3  3466	00000E62  33 C0				  xor eax, eax
+3  3467	00000E64  FE C8				  dec al
+3  3468	00000E66			      @noclampeaxup:
+3  3469	00000E66  FF D3			      call ebx
+3  3470	00000E68  AA			      stosb
+3  3471	00000E69  5A			      pop edx
+2  3472	00000E6A  E2 E5				     loop @mixdownloop
+2  3473	00000E6C  61				     popad
+2  3474	00000E6D  83 C6	09			     add esi, 9
+2  3475	00000E70  FE C8				  dec al
+2  3476	00000E72  0F 85	FFFFFF7B		  jnz @layerloop
+2  3477						  ;do final b/c	fixup
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 62
+stub.asm
+
+
+
+2  3478	00000E78  33 D2				  xor edx, edx
+2  3479	00000E7A  51				  push ecx
+2  3480	00000E7B  B1 03				  mov cl, 3
+2  3481	00000E7D				  @bcadjustloop:
+2  3482	00000E7D  56				  push esi
+2  3483	00000E7E  8A 17				  mov dl, [edi]
+2  3484	00000E80  E8 FFFFFF49			  call bcadjust
+2  3485	00000E85  88 17				  mov [edi], dl
+2  3486	00000E87  47				  inc edi
+2  3487	00000E88  5E				  pop esi
+2  3488	00000E89  E2 F2				  loop @bcadjustloop
+2  3489	00000E8B  59				  pop ecx
+2  3490	00000E8C  47				  inc edi
+2  3491	00000E8D  5E				  pop esi
+2  3492	00000E8E  FE C3			       inc bl
+2  3493	00000E90  0F 85	FFFFFF5B	       jnz @texs_x
+2  3494	00000E96  FE C1			    inc	cl
+2  3495	00000E98  0F 85	FFFFFF51	    jnz	@texs_y
+2  3496	00000E9E  C3			    ret
+2  3497	00000E9F			 synthtexture endp
+2  3498
+1  3499
+1  3500					 ;documentation
+1  3501
+1  3502					 ;particel descriptor
+1  3503					 ;0	 xpos, ypos, zpos
+1  3504					 ;12	 base size
+1  3505					 ;16	 xrot, yrot, zrot
+1  3506					 ;28	 sprite	descriptor
+1  3507
+1  3508					 ;sprite descriptor (width/height always 256)
+1  3509					 ;0	 source	pointer
+1  3510					 ;4	 dest width
+1  3511					 ;8	 dest height
+1  3512					 ;12	 dest x
+1  3513					 ;16	 dest y
+1  3514					 ;20	 alpha
+1  3515					 ;24	 dxs
+1  3516					 ;28	 dys
+1  3517					 ;32	 xs
+1  3518					 ;36	 ys
+1  3519					 ;40	 xs0
+1  3520					 ;44	 ys0
+1  3521					 ;48
+1  3522
+1  3523
+1  3524	00000E9F			 @bigflag:
+1  3525	00000E9F  00000000		 bigflag		 dd 0
+1  3526
+1  3527	00000EA3			 @nullstring:
+1  3528	00000EA3  01 20			 nullstring db 1," "
+1  3529
+1  3530					 ;text
+1  3531	00000EA5			 str1:
+1  3532	00000EA5  0A 74	68 65 20 66 75+	 db 10,"the future"
+   3533		  74 75	72 65
+1  3534	00000EB0			 str2:
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 63
+stub.asm
+
+
+
+1  3535	00000EB0  06 69	73 20 6E 6F 77	 db 6,"is now"
+1  3536
+1  3537	00000EB7			 script:
+1  3538
+1  3539					 ;cases: byte, relative	offset,	texture	index
+1  3540		  =8000			 flag_rel  equ 01000000000000000b
+1  3541		  =4000			 flag_byte equ 00100000000000000b
+1  3542		  =0000			 flag_tex  equ 0
+1  3543
+1  3544	00000EB7  64			 db 100
+1  3545	00000EB8  844C			    dw (offset textline	- offset baseoffset) + flag_rel
+1  3546	00000EBA  0E7E			    dw (offset str1 - offset baseoffset)
+1  3547	00000EBC  86			 db 134
+1  3548	00000EBD  844C			    dw (offset textline	- offset baseoffset) + flag_rel
+1  3549	00000EBF  0E89			    dw (offset str2 - offset baseoffset)
+1  3550	00000EC1  00			 db 0
+1  3551	00000EC2  844C			    dw (offset textline	- offset baseoffset) + flag_rel
+1  3552	00000EC4  0E7C			    dw (offset @nullstring - offset baseoffset)
+1  3553	00000EC6  00			 db 0
+1  3554	00000EC7  8379			    dw (offset backfx1 - offset	baseoffset) + flag_rel
+1  3555	00000EC9  0887			    dw (offset grid_waves - offset baseoffset)
+1  3556	00000ECB  00			 db 0
+1  3557	00000ECC  8426			    dw (offset particelfunc1 - offset baseoffset) + flag_rel
+1  3558	00000ECE  0ABE			    dw offset particel_spiral -	offset baseoffset
+1  3559	00000ED0  E6			 db 230
+1  3560	00000ED1  097E			    dw (offset texturemapptr - offset baseoffset) + flag_tex
+1  3561	00000ED3  01			    db 1
+1  3562	00000ED4  18			 db 24
+1  3563	00000ED5  42C6			    dw (offset rotspeed	- offset baseoffset) + flag_byte
+1  3564	00000ED7  08			    db 8
+1  3565	00000ED8  FE			 db 254
+1  3566	00000ED9  00			 db 0
+1  3567	00000EDA  097E			    dw (offset texturemapptr - offset baseoffset) + flag_tex
+1  3568	00000EDC  02			    db 2
+1  3569	00000EDD  FD			 db 253
+1  3570	00000EDE  4E78			    dw (offset @bigflag	- offset baseoffset) + flag_byte
+1  3571	00000EE0  05			    db 0101b
+1  3572	00000EE1  FE			 db 254
+1  3573	00000EE2  7D			 db 125
+1  3574	00000EE3  4E78			    dw (offset @bigflag	- offset baseoffset) + flag_byte
+1  3575	00000EE5  85			    db 010000101b
+1  3576	00000EE6  82			 db 130
+1  3577	00000EE7  4E78			    dw (offset @bigflag	- offset baseoffset) + flag_byte
+1  3578	00000EE9  85			    db 010000101b
+1  3579	00000EEA  82			 db 130
+1  3580	00000EEB  4E78			    dw (offset @bigflag	- offset baseoffset) + flag_byte
+1  3581	00000EED  85			    db 010000101b
+1  3582	00000EEE  99			 db 153
+1  3583	00000EEF  4E78			    dw (offset @bigflag	- offset baseoffset) + flag_byte
+1  3584	00000EF1  85			    db 010000101b
+1  3585
+1  3586	00000EF2  00			 db 0
+1  3587	00000EF3  42C6			    dw (offset rotspeed	- offset baseoffset) + flag_byte
+1  3588	00000EF5  04			    db 4
+1  3589	00000EF6  00			 db 0
+1  3590	00000EF7  097E			    dw (offset texturemapptr - offset baseoffset) + flag_tex
+1  3591	00000EF9  01			    db 1
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 64
+stub.asm
+
+
+
+1  3592	00000EFA  00			 db 0
+1  3593	00000EFB  8379			    dw (offset backfx1 - offset	baseoffset) + flag_rel
+1  3594	00000EFD  0887			    dw (offset grid_waves - offset baseoffset)
+1  3595	00000EFF  E6			 db 230
+1  3596	00000F00  4E78			    dw (offset @bigflag	- offset baseoffset) + flag_byte
+1  3597	00000F02  89			    db 010001001b
+1  3598	00000F03  FE			 db 254
+1  3599
+1  3600	00000F04  00			 db 0
+1  3601	00000F05  097E			    dw (offset texturemapptr - offset baseoffset) + flag_tex
+1  3602	00000F07  02			    db 2
+1  3603	00000F08  00			 db 0
+1  3604	00000F09  4E78			    dw (offset @bigflag	- offset baseoffset) + flag_byte
+1  3605	00000F0B  00			    db 0
+1  3606	00000F0C  00			 db 0
+1  3607	00000F0D  8426			    dw (offset particelfunc1 - offset baseoffset) + flag_rel
+1  3608	00000F0F  0BF7			    dw (offset particel_star - offset baseoffset)
+1  3609	00000F11  FD			 db 253
+1  3610	00000F12  8379			    dw (offset backfx1 - offset	baseoffset) + flag_rel
+1  3611	00000F14  08BA			    dw (offset grid_traceplanes	- offset baseoffset)
+1  3612	00000F16  FE			 db 254
+1  3613	00000F17  FE			 db 254
+1  3614
+1  3615	00000F18  00			 db 0
+1  3616	00000F19  8426			    dw (offset particelfunc1 - offset baseoffset) + flag_rel
+1  3617	00000F1B  0BAC			    dw offset particel_osci - offset baseoffset
+1  3618	00000F1D  00			 db 0
+1  3619	00000F1E  8379			    dw (offset backfx1 - offset	baseoffset) + flag_rel
+1  3620	00000F20  0887			    dw (offset grid_waves - offset baseoffset)
+1  3621	00000F22  00			 db 0
+1  3622	00000F23  097E			    dw (offset texturemapptr - offset baseoffset) + flag_tex
+1  3623	00000F25  01			    db 1
+1  3624
+1  3625	00000F26  FE			 db 254
+1  3626	00000F27  FE			 db 254
+1  3627	00000F28  FE			 db 254
+1  3628
+1  3629	00000F29  FF			 db 255
+1  3630	00000F2A  00			 db 0
+1  3631
+1  3632		  =0140			 CLIPRIGHT		 equ 320
+1  3633		  =00F0			 CLIPTOP		 equ 240
+1  3634
+1  3635					 ;texture descriptors (3+n*8 bytes)
+1  3636		  =0006			 nr_textures equ 6
+1  3637	00000F2B			 testtextdesc:
+1  3638					 include textures\space.kts
+2  3639					 ;Kolor	Texture	Descriptor Version 1.2
+2  3640					 ;This is a generated file. Please do not edit.
+2  3641	00000F2B  03			 db 3 ;(visible) 3 (total) layers
+2  3642	00000F2C  00			   db 0	;base map algorithm (0=perlin, 1=radial)
+2  3643	00000F2D  7292			   dw 29330 ;random seed
+2  3644	00000F2F  DB 2F			   db -37, 47 ;brightness/contrast
+2  3645	00000F31  00			   db 0	;mixing	function
+2  3646	00000F32  4C 34	40		   db 76, 52, 64 ;bgr fixup
+2  3647	00000F35  00			   db 0	;base map algorithm (0=perlin, 1=radial)
+2  3648	00000F36  ACA1			   dw 44193 ;random seed
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 65
+stub.asm
+
+
+
+2  3649	00000F38  C7 10			   db -57, 16 ;brightness/contrast
+2  3650	00000F3A  00			   db 0	;mixing	function
+2  3651	00000F3B  64 10	64		   db 100, 16, 100 ;bgr	fixup
+2  3652	00000F3E  00			   db 0	;base map algorithm (0=perlin, 1=radial)
+2  3653	00000F3F  3352			   dw 13138 ;random seed
+2  3654	00000F41  81 10			   db -127, 16 ;brightness/contrast
+2  3655	00000F43  00			   db 0	;mixing	function
+2  3656	00000F44  58 1C	1C		   db 88, 28, 28 ;bgr fixup
+2  3657	00000F47  F1 0F			 db -15, 15 ;final brightness/contrast
+2  3658
+1  3659					 include textures\gold.kts
+2  3660					 ;Kolor	Texture	Descriptor Version 1.2
+2  3661					 ;This is a generated file. Please do not edit.
+2  3662	00000F49  04			 db 4 ;(visible) 4 (total) layers
+2  3663	00000F4A  00			   db 0	;base map algorithm (0=perlin, 1=radial)
+2  3664	00000F4B  8C66			   dw 35942 ;random seed
+2  3665	00000F4D  AE 19			   db -82, 25 ;brightness/contrast
+2  3666	00000F4F  00			   db 0	;mixing	function
+2  3667	00000F50  10 34	4C		   db 16, 52, 76 ;bgr fixup
+2  3668	00000F53  00			   db 0	;base map algorithm (0=perlin, 1=radial)
+2  3669	00000F54  0000			   dw 0	;random	seed
+2  3670	00000F56  00 10			   db 0, 16 ;brightness/contrast
+2  3671	00000F58  80			   db 128 ;mixing function
+2  3672	00000F59  40 28	58		   db 64, 40, 88 ;bgr fixup
+2  3673	00000F5C  00			   db 0	;base map algorithm (0=perlin, 1=radial)
+2  3674	00000F5D  0000			   dw 0	;random	seed
+2  3675	00000F5F  F2 43			   db -14, 67 ;brightness/contrast
+2  3676	00000F61  80			   db 128 ;mixing function
+2  3677	00000F62  4C 4C	4C		   db 76, 76, 76 ;bgr fixup
+2  3678	00000F65  01			   db 1	;base map algorithm (0=perlin, 1=radial)
+2  3679	00000F66  5C9F			   dw 23711 ;random seed
+2  3680	00000F68  CF 32			   db -49, 50 ;brightness/contrast
+2  3681	00000F6A  00			   db 0	;mixing	function
+2  3682	00000F6B  40 40	40		   db 64, 64, 64 ;bgr fixup
+2  3683	00000F6E  F1 10			 db -15, 16 ;final brightness/contrast
+2  3684
+1  3685					 include textures\copper.kts
+2  3686					 ;Kolor	Texture	Descriptor Version 1.2
+2  3687					 ;This is a generated file. Please do not edit.
+2  3688	00000F70  04			 db 4 ;(visible) 4 (total) layers
+2  3689	00000F71  00			   db 0	;base map algorithm (0=perlin, 1=radial)
+2  3690	00000F72  528F			   dw 21135 ;random seed
+2  3691	00000F74  C5 16			   db -59, 22 ;brightness/contrast
+2  3692	00000F76  80			   db 128 ;mixing function
+2  3693	00000F77  4C 40	34		   db 76, 64, 52 ;bgr fixup
+2  3694	00000F7A  00			   db 0	;base map algorithm (0=perlin, 1=radial)
+2  3695	00000F7B  0000			   dw 0	;random	seed
+2  3696	00000F7D  00 10			   db 0, 16 ;brightness/contrast
+2  3697	00000F7F  80			   db 128 ;mixing function
+2  3698	00000F80  40 40	40		   db 64, 64, 64 ;bgr fixup
+2  3699	00000F83  00			   db 0	;base map algorithm (0=perlin, 1=radial)
+2  3700	00000F84  24B9			   dw 9401 ;random seed
+2  3701	00000F86  0B AD			   db 11, 173 ;brightness/contrast
+2  3702	00000F88  81			   db 129 ;mixing function
+2  3703	00000F89  00 38	8C		   db 0, 56, 140 ;bgr fixup
+2  3704	00000F8C  01			   db 1	;base map algorithm (0=perlin, 1=radial)
+2  3705	00000F8D  8978			   dw 35192 ;random seed
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 66
+stub.asm
+
+
+
+2  3706	00000F8F  00 10			   db 0, 16 ;brightness/contrast
+2  3707	00000F91  80			   db 128 ;mixing function
+2  3708	00000F92  34 40	4C		   db 52, 64, 76 ;bgr fixup
+2  3709	00000F95  D2 1B			 db -46, 27 ;final brightness/contrast
+2  3710
+1  3711					 include textures\blueflar.kts
+2  3712					 ;Kolor	Texture	Descriptor Version 1.2
+2  3713					 ;This is a generated file. Please do not edit.
+2  3714	00000F97  01			 db 1 ;(visible) 1 (total) layers
+2  3715	00000F98  01			   db 1	;base map algorithm (0=perlin, 1=radial)
+2  3716	00000F99  8483			   dw 33923 ;random seed
+2  3717	00000F9B  01 1E			   db 1, 30 ;brightness/contrast
+2  3718	00000F9D  80			   db 128 ;mixing function
+2  3719	00000F9E  68 44	14		   db 104, 68, 20 ;bgr fixup
+2  3720	00000FA1  F1 10			 db -15, 16 ;final brightness/contrast
+2  3721
+1  3722					 include textures\star.kts
+2  3723					 ;Kolor	Texture	Descriptor Version 1.2
+2  3724					 ;This is a generated file. Please do not edit.
+2  3725	00000FA3  01			 db 1 ;(visible) 2 (total) layers
+2  3726	00000FA4  01			   db 1	;base map algorithm (0=perlin, 1=radial)
+2  3727	00000FA5  7D79			   dw 32121 ;random seed
+2  3728	00000FA7  FF 19			   db -1, 25 ;brightness/contrast
+2  3729	00000FA9  00			   db 0	;mixing	function
+2  3730	00000FAA  40 40	40		   db 64, 64, 64 ;bgr fixup
+2  3731					 ;  db 1 ;base map algorithm (0=perlin,	1=radial)
+2  3732					 ;  dw 33403 ;random seed
+2  3733					 ;  db -12, 85 ;brightness/contrast
+2  3734					 ;  db 128 ;mixing function
+2  3735					 ;  db 64, 64, 64 ;bgr fixup
+2  3736	00000FAD  00 10			 db 0, 16 ;final brightness/contrast
+2  3737
+1  3738					 include textures\redflare.kts
+2  3739					 ;Kolor	Texture	Descriptor Version 1.2
+2  3740					 ;This is a generated file. Please do not edit.
+2  3741	00000FAF  01			 db 1 ;(visible) 1 (total) layers
+2  3742	00000FB0  01			   db 1	;base map algorithm (0=perlin, 1=radial)
+2  3743	00000FB1  767E			   dw 30334 ;random seed
+2  3744	00000FB3  F0 19			   db -16, 25 ;brightness/contrast
+2  3745	00000FB5  80			   db 128 ;mixing function
+2  3746	00000FB6  00 4C	B8		   db 0, 76, 184 ;bgr fixup
+2  3747	00000FB9  00 10			 db 0, 16 ;final brightness/contrast
+2  3748
+1  3749
+1  3750	00000FBB			 CODE_32 ENDS
+1  3751
+1  3752	    0238			 DATA	 SEGMENT
+1  3753					 ;data
+1  3754	    0238			 @nrbase1:
+1  3755	    0238  00FF			 i_255			 dw 255
+1  3756	    023A  007F			 i_127			 dw 127
+1  3757	    023C  00000DB2r		 colormixers		 dd offset mixadd
+1  3758	    0240  00000DB9r					 dd offset mixxor
+1  3759	    0244  00000DC5r					 dd offset mixmul
+1  3760	    0248  0020			 i_32			 dw 32
+1  3761	    024A			 @zoff:
+1  3762	    024A  FFFFFF38		 i_zoff			 dd -200
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 67
+stub.asm
+
+
+
+1  3763	    024E  0008			 i_16			 dw 8
+1  3764	    0250  0023			 i_64 dw 35
+1  3765
+1  3766	    0252  00000000		 precalcpos		 dd 0
+1  3767	    0256  00000168		 nextt			 dd 360
+1  3768	    025A  00000EB7r		 scriptptr		 dd offset script
+1  3769
+1  3770	    025E  0000083Fr		 flipfunctions		 dd offset fliplo
+1  3771	    0262  000007EDr					 dd offset fliphi
+1  3772	    0266  000007B9r					 dd offset flipgray
+1  3773
+1  3774	    026A			 DATA	 ENDS
+1  3775
+1  3776	    0FED			 ZDATA	 SEGMENT
+1  3777
+1  3778					 ;zero data
+1  3779	    0FED			 tempmem:
+1  3780	    0FED  0100*(????????)	 costab			 dd 256	dup (?)
+1  3781	    13ED  0100*(????????)	 particelbuffer		 dd 256	dup (?)
+1  3782	    17ED  03*(????????)		 angles			 dd 3 dup (?)
+1  3783	    17F9  09*		      +	 matrix			 dq 3*3	dup (?)
+   3784		  (????????????????)
+1  3785	    1841  0480*		      +	 matrixbuffer		 dq 3*3*128 dup	(?)
+   3786		  (????????????????)
+1  3787	    3C41  ????????		 endt			 dd ?
+1  3788	    3C45  ????????		 globalt		 dd ?
+1  3789	    3C49  03*(????????)		 tempvector		 dd 3 dup (?)
+1  3790	    3C55  ??			 vmode			 db ?
+1  3791	    3C56  ????????		 lfbaddr		 dd ?
+1  3792	    3C5A  ????????		 flipfunction		 dd ?
+1  3793
+1  3794					 ;ebp relative constants
+1  3795					 vscreen		 equ ebp
+1  3796		  = ebp+320*4*30	 vscreensmall		 equ ebp+320*4*30
+1  3797		  = vscreen+256*256*5	 noisemap		 equ vscreen+256*256*5
+1  3798		  = vscreen+256*256*5 +	 textures		 equ noisemap+1024*1024
+   3799		  +1024*1024
+1  3800		  = vscreen+256*256*5 +	 grid			 equ textures+nr_textures*256*256*4
+   3801		  +1024*1024	      +
+   3802		  +nr_textures*256*256*
+   3803		  4
+1  3804		  = vscreen+256*256*5 +	 shademap		 equ grid+((320/8+1)*(240/8+1))*16
+   3805		  +1024*1024	      +
+   3806		  +nr_textures*256*256*
+   3807		  4+((320/8+1)*(240/8 +
+   3808		  +1))*16
+1  3809		  = vscreen+256*256*5 +	 vscreen2		 equ shademap +	010000h
+   3810		  +1024*1024	      +
+   3811		  +nr_textures*256*256*
+   3812		  4+((320/8+1)*(240/8 +
+   3813		  +1))*16 + 010000h
+1  3814		  = vscreen+256*256*5 +	 softfont		 equ vscreen2 +	256*256*5
+   3815		  +1024*1024	      +
+   3816		  +nr_textures*256*256*
+   3817		  4+((320/8+1)*(240/8 +
+   3818		  +1))*16 + 010000h + +
+   3819		  256*256*5
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 68
+stub.asm
+
+
+
+1  3820
+1  3821		  =00150000		 texturebase		 equ 1376256
+1  3822
+1  3823	    3C5E			 ZDATA ENDS
+1  3824
+   3825
+   3826						 END	 rm_main
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 69
+Symbol Table
+
+
+
+
+Symbol Name			  Type	 Value
+
+??DATE				  Text	 "04/18/00"
+??FILENAME			  Text	 "stub	  "
+??TIME				  Text	 "15:43:11"
+??VERSION			  Number 040A
+@@ASK				  Near	 CODE_16:0181
+@@BANK				  Near	 CODE_32:0235
+@@BD_BTW			  Near	 CODE_32:05DB
+@@BLOOP				  Near	 CODE_32:01B9
+@@BQ				  Near	 CODE_32:0248
+@@BQ_INIT			  Near	 CODE_32:0132
+@@DL_OK				  Near	 CODE_32:06BE
+@@DPMI				  Near	 CODE_16:014D
+@@INIT				  Near	 CODE_16:020A
+@@NOS				  Near	 CODE_32:0BF5
+@@NO_BD				  Near	 CODE_32:05E6
+@@NO_CH				  Near	 CODE_32:05FC
+@@NO_CTRL			  Near	 CODE_32:0552
+@@NO_FL				  Near	 CODE_32:055B
+@@NO_SEQ			  Near	 CODE_32:05FC
+@@NO_SN				  Near	 CODE_32:05CD
+@@NO_TB				  Near	 CODE_32:0587
+@@NO_TB2			  Near	 CODE_32:0592
+@@NO_TBE			  Near	 CODE_32:05BC
+@@NO_VC_W			  Near	 CODE_32:068B
+@@R				  Near	 CODE_16:0196
+@@SB_MIXLOOP			  Near	 CODE_32:062A
+@@S_DIRAC			  Near	 CODE_32:01EF
+@@TB_DONE			  Near	 CODE_32:064C
+@@TB_WRAP			  Near	 CODE_32:058F
+@@VCC				  Near	 CODE_32:018C
+@@VCC_DONE			  Near	 CODE_32:01C7
+@@VC_DONE			  Near	 CODE_32:0285
+@@VC_FL				  Near	 CODE_32:0180
+@@VC_L				  Near	 CODE_32:01D1
+@BACKTOCOPY			  Near	 CODE_32:0825
+@BANKAGAIN			  Near	 CODE_32:0835
+@BANKLOOP			  Near	 CODE_32:084C
+@BCADJUSTLOOP			  Near	 CODE_32:0E7D
+@BIGFLAG			  Near	 CODE_32:0E9F
+@BIGLOOP			  Near	 CODE_32:006F
+@BLITLOOP1			  Near	 CODE_32:07CD
+@BLURALLLOOP			  Near	 CODE_32:0100
+@BLURLOOP			  Near	 CODE_32:0106
+@CLIPPED			  Near	 CODE_32:0A3A
+@COMPLETLYOUT			  Near	 CODE_32:0AE4
+@COMPLOOP			  Near	 CODE_32:04C8
+@COMPUTELOOP1			  Near	 CODE_32:094A
+@COMPUTELOOP2			  Near	 CODE_32:096D
+@COPYLOOP			  Near	 CODE_16:0161
+@COPYLOOPWL			  Near	 CODE_32:04C2
+@CPU				  Text	 5250H
+@CURSEG				  Text	 ZDATA
+@DONEPLASMA			  Near	 CODE_32:0E35
+@DOPERLIN			  Near	 CODE_32:0E23
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 70
+Symbol Table
+
+
+
+@EXIT				  Near	 CODE_32:04FE
+@FILENAME			  Text	 STUB
+@GETDEPTH			  Near	 CODE_16:0315
+@GETREALLOOP			  Near	 CODE_32:087E
+@GRAYLOOP			  Near	 CODE_16:026D
+@HIRES1				  Near	 CODE_16:030B
+@INITLOOP			  Near	 CODE_32:003E
+@INVLOOP			  Near	 CODE_32:0867
+@LAYERLOOP			  Near	 CODE_32:0DF3
+@LETTERLOOP			  Near	 CODE_32:00D1
+@LETTERLOOP2			  Near	 CODE_32:0486
+@LINESLOOP			  Near	 CODE_32:07F8
+@LOADRANDOM			  Near	 CODE_32:0B61
+@LOOPME				  Near	 CODE_32:00B6
+@LOOPY				  Near	 CODE_32:02C2
+@MIXDOWNLOOP			  Near	 CODE_32:0E51
+@MODESETANDDONE			  Near	 CODE_16:0322
+@NEXTMODE			  Near	 CODE_16:02EB
+@NEXTTEXTURE			  Near	 CODE_32:0090
+@NOCLAMP			  Near	 CODE_32:093D
+@NOCLAMPEAXUP			  Near	 CODE_32:0E66
+@NOCLAMPLO			  Near	 CODE_32:00C0
+@NOCLIP1			  Near	 CODE_32:0A16
+@NOCLIP2			  Near	 CODE_32:0A36
+@NODOT				  Near	 CODE_32:02A3
+@NOF				  Near	 CODE_32:0B49
+@NOFATFX			  Near	 CODE_32:0472
+@NOFIRST			  Near	 CODE_32:0BCD
+@NOFLASH			  Near	 CODE_32:0B34
+@NOHIGH				  Near	 CODE_32:0DEC
+@NOINVERT1			  Near	 CODE_32:0407
+@NOLOAD				  Near	 CODE_32:00D9
+@NOLOW				  Near	 CODE_32:0DE3
+@NOOVERFLOW			  Near	 CODE_32:0DB8
+@NOPIXEL			  Near	 CODE_32:00E6
+@NORUN				  Near	 CODE_32:0398
+@NOSOL				  Near	 CODE_32:0E4F
+@NOVALUE			  Near	 CODE_32:0C4A
+@NOXFADE			  Near	 CODE_32:044A
+@NOZ				  Near	 CODE_32:0B4A
+@NO_BYTE			  Near	 CODE_32:038B
+@NO_REL				  Near	 CODE_32:0382
+@NRBASE1			  Near	 DATA:0238
+@NULLFUNC			  Near	 CODE_32:0783
+@NULLSTRING			  Near	 CODE_32:0EA3
+@PARTICELSLOOP			  Near	 CODE_32:0C82
+@PREPLOOP			  Near	 CODE_32:02F3
+@RANDLOOP			  Near	 CODE_32:0071
+@RETNOW				  Near	 CODE_32:0CED
+@RUNAGAIN			  Near	 CODE_32:0341
+@SETLOOP			  Near	 CODE_32:0C40
+@SETVESA			  Near	 CODE_16:027D
+@SHIFTMEDUMB			  Near	 CODE_32:03BC
+@STUPIDUSER			  Near	 CODE_16:028F
+@SUMLOOP			  Near	 CODE_32:0D24
+@TEXS_X				  Near	 CODE_32:0DF1
+@TEXS_Y				  Near	 CODE_32:0DEF
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 71
+Symbol Table
+
+
+
+@TRANSLOOP			  Near	 CODE_32:0CF4
+@TWICELOOP			  Near	 CODE_32:08B9
+@VESAERROR			  Near	 CODE_16:0288
+@VESAOK				  Near	 CODE_16:02E1
+@WORDSIZE			  Text	 2
+@XBLOCKLOOP			  Near	 CODE_32:0998
+@XCOPYHI			  Near	 CODE_32:0813
+@XFADELOOP			  Near	 CODE_32:0438
+@XFLOOP				  Near	 CODE_32:00DC
+@XGRIDLOOP			  Near	 CODE_32:03B8
+@XGRIDLOOPDRAW			  Near	 CODE_32:03D1
+@XSPRITELOOP			  Near	 CODE_32:0A9C
+@YBLOCKLOOP			  Near	 CODE_32:0968
+@YFLOOP				  Near	 CODE_32:00D3
+@YGRIDLOOP			  Near	 CODE_32:03B6
+@YGRIDLOOPDRAW			  Near	 CODE_32:03CF
+@YSPRITELOOP			  Near	 CODE_32:0A91
+@YWLLOOP			  Near	 CODE_32:04BD
+@ZCLIPPED			  Near	 CODE_32:0CE8
+@ZOFF				  Near	 DATA:024A
+ANGLES				  Dword	 ZDATA:17ED
+BACKFX1				  Near	 CODE_32:03A0
+BASEOFFSET			  Near	 CODE_32:0027
+BCADJUST			  Near	 CODE_32:0DCE
+BIGFLAG				  Dword	 CODE_32:0E9F
+BPM				  Number 0300
+BPTR				  Text	 byte ptr
+BQ_BANDS			  Word	 DATA:005B
+CLIPME				  Near	 CODE_32:09FC
+CLIPRIGHT			  Number 0140
+CLIPTOP				  Number 00F0
+COLORMIXERS			  Dword	 DATA:023C
+COSTAB				  Dword	 ZDATA:0FED
+DC_AUTO8BIT			  Number 0090
+DC_DMASIZE			  Number 0048
+DC_SPKR_ON			  Number 00D1
+DC_TIMECONST			  Number 0040
+DELAY_LEN			  Number 1324
+DELAY_OFF			  Number 00400000
+DMA_BUFOFF			  Number D000
+DMA_BUFSIZE			  Number 1000
+DMA_INIT_TAB			  Word	 CODE_16:01F5
+DMA_PAGE			  Byte	 CODE_16:01EA
+DPTR				  Text	 dword ptr
+DRAWBLOCK			  Near	 CODE_32:0940
+DSP_INIT_TAB			  Byte	 CODE_16:01EE
+DSP_RESET			  Near	 CODE_16:018E
+ENDT				  Dword	 ZDATA:3C41
+FASTPERLINNOISE			  Near	 CODE_32:0D16
+FLAG_BYTE			  Number 4000
+FLAG_REL			  Number 8000
+FLAG_TEX			  Number 0000
+FLANGE_BUF			  Byte	 ZDATA:0E85
+FLIPFUNCTION			  Dword	 ZDATA:3C5A
+FLIPFUNCTIONS			  Dword	 DATA:025E
+FLIPGRAY			  Near	 CODE_32:07B9
+FLIPHI				  Near	 CODE_32:07ED
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 72
+Symbol Table
+
+
+
+FLIPLO				  Near	 CODE_32:083F
+FONT_BUF			  Byte	 ZDATA:0685
+FX_FLANGER			  Near	 CODE_32:0755
+GETGRAFADDR			  Near	 CODE_32:07AA
+GETREALXY			  Near	 CODE_32:0875
+GLOBALT				  Dword	 ZDATA:3C45
+GRID				  Text	 vscreen+256*256*5+1024*1024+nr_textures*256*256*4
+GRID_PUTLINEAR			  Near	 CODE_32:0890
+GRID_TRACEPLANES		  Near	 CODE_32:08E1
+GRID_WAVES			  Near	 CODE_32:08AE
+INTRO_INIT			  Struct DATA:0000 T_INTRO_INIT
+INTRO_SCRIPT			  Word	 DATA:0208
+INTRO_VOCODER			  Struct ZDATA:00EF T_VC_ZERO
+INTRO_ZERO			  Struct ZDATA:0000 T_INTRO_ZERO
+INVERT				  Near	 CODE_32:0862
+I_127				  Word	 DATA:023A
+I_16				  Word	 DATA:024E
+I_255				  Word	 DATA:0238
+I_32				  Word	 DATA:0248
+I_64				  Word	 DATA:0250
+I_ZOFF				  Dword	 DATA:024A
+LFBADDR				  Dword	 ZDATA:3C56
+MATRIX				  Qword	 ZDATA:17F9
+MATRIXBUFFER			  Qword	 ZDATA:1841
+MATTRANS			  Near	 CODE_32:0CF1
+MEM_POOL			  Number 01000000
+MIXADD				  Near	 CODE_32:0DB2
+MIXMUL				  Near	 CODE_32:0DC5
+MIXXOR				  Near	 CODE_32:0DB9
+MPI_LN2				  Dword	 DATA:0075
+MSG_BASE			  Byte	 CODE_16:019C
+MSG_DMA				  Byte	 CODE_16:01D4
+NEXTT				  Dword	 DATA:0256
+NOISEMAP			  Text	 vscreen+256*256*5
+NO_DPMI				  Byte	 CODE_16:0119
+NR_TEXTURES			  Number 0006
+NULLSTRING			  Byte	 CODE_32:0EA3
+PARTICELBUFFER			  Dword	 ZDATA:13ED
+PARTICELFUNC1			  Near	 CODE_32:044D
+PARTICEL_OSCI			  Near	 CODE_32:0BD3
+PARTICEL_SPIRAL			  Near	 CODE_32:0AE5
+PARTICEL_STAR			  Near	 CODE_32:0C1E
+PARTICEL_STARFIELD		  Near	 CODE_32:0B5C
+PI_TA				  Dword	 DATA:0079
+PM_16				  Near	 CODE_16:0332
+PM_32				  Near	 CODE_16:034D
+PM_ENTRY			  Near	 CODE_32:0027
+PM_EXIT				  Near	 CODE_32:04FE
+PM_MAIN				  Near	 CODE_32:02C2
+PM_TIMER			  Near	 CODE_32:0514
+PRECALCPOS			  Dword	 DATA:0252
+PRECALC_DOT			  Near	 CODE_32:0784
+PUTSPRITE			  Near	 CODE_32:0A3E
+RAND				  Near	 CODE_32:073F
+RENDERPARTICELS			  Near	 CODE_32:0C80
+RM_ENTRY			  Near	 CODE_16:0157
+RM_MAIN				  Near	 CODE_16:0100
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 73
+Symbol Table
+
+
+
+RND_SEED			  Dword	 CODE_32:0027
+ROTSPEED			  Near	 CODE_32:02ED
+SAMP_RATE			  Number AC44
+SB_DMASEL			  Word	 ZDATA:0683
+SCRIPT				  Near	 CODE_32:0EB7
+SCRIPTPTR			  Dword	 DATA:025A
+SETBANK				  Near	 CODE_32:079F
+SHADEMAP			  Text	 vscreen+256*256*5+1024*1024+nr_textures*256*256*4+((320/8+1)*(240/8+1))*16
+SN_GAIN				  Number 0000
+SOFTFONT			  Text	 vscreen+256*256*5+1024*1024+nr_textures*256*256*4+((320/8+1)*(240/8+1))*16 + 010000h +	 +
+				  256*256*5
+SOUND_ASK			  Near	 CODE_16:0170
+SOUND_DATA			  Near	 CODE_16:019C
+SOUND_START			  Near	 CODE_16:01FB
+SPEED				  Number 0020
+STR1				  Near	 CODE_32:0EA5
+STR2				  Near	 CODE_32:0EB0
+SYNTHTEXTURE			  Near	 CODE_32:0DED
+TEMPMEM				  Near	 ZDATA:0FED
+TEMPVECTOR			  Dword	 ZDATA:3C49
+TESTTEXTDESC			  Near	 CODE_32:0F2B
+TEXTLINE			  Near	 CODE_32:0473
+TEXTUREBASE			  Number 00150000
+TEXTUREMAPPTR			  Near	 CODE_32:09A5
+TEXTURES			  Text	 vscreen+256*256*5+1024*1024
+TIMER_FREQ			  Number 0133
+TIMER_FRQ			  Byte	 CODE_16:01F8
+VBE_ERR				  Byte	 CODE_16:0293
+VC_FRANKY			  Byte	 DATA:007D
+VC_SPEECH			  Byte	 DATA:015A
+VC_SPF				  Number 006E
+VIDEO_ASK			  Byte	 CODE_16:02A9
+VMODE				  Byte	 ZDATA:3C55
+VOCODER_OFF			  Number 00410000
+VSCREEN				  Alias	 EBP
+VSCREEN2			  Text	 vscreen+256*256*5+1024*1024+nr_textures*256*256*4+((320/8+1)*(240/8+1))*16 + 010000h
+VSCREENSMALL			  Text	 ebp+320*4*30
+WPTR				  Text	 word ptr
+ZERO_START			  Near	 ZDATA:0000
+_DSP_READ			  Number 000A
+_DSP_RESET			  Number 0006
+_DSP_STATUS			  Number 000E
+_DSP_WRITE			  Number 000C
+_UD				  Text	  40, 0,  0,14,	 10, 0
+_UK				  Text	  20, 0,  0, 7,	 20, 0
+_UP				  Text	  10, 16, 10, 0
+_UR2				  Text	  20, 10
+_UT				  Text	  40, 0,  0, 13
+_UT2				  Text	  40, 0,  0, 13,  20, 0
+_VA				  Number 0001
+_VAND				  Text	  15, _vA,  40,	_vE,  70, _vN,	_uD
+_VARE				  Text	  40, _vA,  _uR
+_VE				  Number 0002
+_VF				  Number 0006
+_VI				  Number 0003
+_VM				  Number 0008
+_VN				  Number 0009
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 74
+Symbol Table
+
+
+
+_VO				  Number 0004
+_VPAUSE				  Number 0000
+_VS				  Number 000B
+_VSCH				  Number 000C
+_VU				  Number 0005
+_Vö				  Number 000F
+
+Macro Name
+
+BD_WAV
+BQ_INIT
+BQ_WAV
+CH_WAV
+DEBUG_SAVE
+FASTNOISE
+FONT_DECODE
+FX_DELAY
+INITFASTPERLIN
+INITFONT
+MAKEALLTEXTURES
+MAKEMATRIX
+MAKENOISE
+MAKEROTMAT
+MAKESHADEMAP
+MIXDOWN
+PREPAREBLITTER
+RENDERGRID
+RUNSCRIPT
+SB_DMA_POS
+SN_WAV
+TB_HIT
+TB_WAV
+VC_CTRL
+VC_PRECALC
+VC_WAV
+WRITELETTER
+WRITESTRING
+XFADE
+
+Structure Name			  Type	Offset
+
+T_BAND
+ B				  Dword	 0000
+ C				  Dword	 0004
+ A				  Dword	 0008
+ VC_AMP				  Dword	 000C
+ VC_NEWAMP			  Dword	 0010
+T_BIQUAD
+ I1				  Dword	 0000
+ I2				  Dword	 0004
+ Z1				  Dword	 0008
+ Z2				  Dword	 000C
+T_INTRO_INIT
+ CH_GAIN			  Dword	 0000
+ CH_ENV_MUL			  Dword	 0004
+ CH_SEQ				  Byte	 0008
+ TB_SAW_INC			  Dword	 000C
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 75
+Symbol Table
+
+
+
+ TB_CUT				  Dword	 0010
+ TB_RESO_INIT			  Dword	 0014
+ TB_ENV_INIT			  Dword	 0018
+ TB_ENV_MUL			  Dword	 001C
+ TB_RESO_MUL			  Dword	 0020
+ TB_SEQ				  Byte	 0024
+ TB_MUL				  Word	 0029
+ SN_CUT				  Dword	 002B
+ SN_ENV_MUL			  Dword	 002F
+ SN_RESO			  Dword	 0033
+ BD_CUT				  Dword	 0037
+ BD_ENV_MUL			  Dword	 003B
+ DL_FEEDBACK			  Dword	 003F
+ FL_LFO_FRQ			  Dword	 0043
+ FL_MAX				  Word	 0047
+ VC_F0				  Dword	 0049
+ VC_SPEED			  Dword	 004D
+ VC_GAIN			  Dword	 0051
+ VC_ASP_GAIN			  Dword	 0055
+ SND_GAIN			  Word	 0059
+T_INTRO_ZERO
+ TIMER				  Dword	 0000
+ TIMER_CTRL			  Word	 0004
+ TIMER_CTRL_POS			  Dword	 0006
+ TIMER_FLAGS			  Byte	 000A
+ SQ_POS				  Dword	 000B
+ PM_MPOOL			  Dword	 000F
+ PM_DS				  Word	 0013
+ SB_DMA				  Word	 0015
+ SB_BASE			  Word	 0017
+ SB_DMASEG			  Word	 0019
+ SB_MIXPOS			  Dword	 001B
+ VC_POS				  Dword	 001F
+ TB_IL				  Dword	 0023
+ TB_UC				  Dword	 0027
+ TB_SAW				  Dword	 002B
+ TB_ENV				  Dword	 002F
+ TB_RESO			  Dword	 0033
+ TB_LEN				  Dword	 0037
+ TB_SQPOS			  Dword	 003B
+ CH_I1				  Dword	 003F
+ CH_I2				  Dword	 0043
+ CH_ENV				  Dword	 0047
+ SN_UC				  Dword	 004B
+ SN_IL				  Dword	 004F
+ SN_ENV				  Dword	 0053
+ BD_IL				  Dword	 0057
+ BD_UC				  Dword	 005B
+ BD_ENV				  Dword	 005F
+ DL_POS				  Dword	 0063
+ FL_POS				  Dword	 0067
+ FL_LFO				  Dword	 006B
+ FPU_SAVE			  Dword	 006F
+T_VC_ZERO
+ VC_DIRAC			  Dword	 0004
+ VC_TIMER			  Dword	 0014
+ VC_SPTR			  Dword	 0018
+Turbo Assembler	 Version 4.1	    04/18/00 15:43:11	    Page 76
+Symbol Table
+
+
+
+ VC_ASP				  Dword	 001C
+ VC_NEWASP			  Dword	 0020
+ VC_BAND			  Struct 0024 T_BAND
+ VC_IIR				  Struct 0114 T_BIQUAD
+
+Groups & Segments		  Bit Size Align  Combine Class
+
+HYBRID				  Group
+  CODE_16			  16  034D Byte	  none
+  CODE_32			  32  0FBB Byte	  none
+  DATA				  16  026A Byte	  none
+  ZDATA				  16  3C5E Dword  none
+SCREEN				  32  0000  AT A000
+

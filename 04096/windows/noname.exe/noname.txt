@@ -1,0 +1,43 @@
+
+  -----------------------------------------
+
+  noname.exe
+
+  by bca / karva
+
+  4kb intro for the Assembly 2003, Finland.
+
+  -----------------------------------------
+  
+  - some requirements -
+
+   Windows 98/2000/XP
+   some memory.
+
+   + OpenGL compatible video card for people with hearing problems.
+   + and a sound card for the blind people.
+
+
+   - some information -
+
+   noname.exe is my second 4k intro, the previous intro was called "the box"
+   and released at Assembly 1998. This time intro is made for windows and uses
+   OpenGL for rendering. Also i decided to choose no name for this intro. This
+   is mainly because i was too lazy to optimize my code so font/text code didnt
+   fit to this size.
+
+   Anyway all this crap was mainly coded in pure C, compiled and linked with VC6.
+   converted with upec and packed with apack.
+
+   Anyway, see you next year at Assembly.
+
+                                                                - bca / karva
+
+   - contact -
+
+   email: jens.vihavainen@kolumbus.fi
+
+    - note -
+
+    Small footprint OpenGL init code made by Rasmus Christian Kaae (kaae@daimi.au.dk)
+

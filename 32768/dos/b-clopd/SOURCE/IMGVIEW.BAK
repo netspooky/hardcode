@@ -1,0 +1,54 @@
+{$A+,B-,D-,E-,F+,G+,I-,L-,N-,O-,P-,Q-,R-,S-,T-,V+,X+,Y-}
+{$M 16384,0,655360}
+USES Crt,Dos,ModiGraf,DataFile;
+TYPE tVersion=ARRAY[1..4]OF Char;
+CONST AktVersion:tVersion='IMG2';
+TYPE tHeader=RECORD
+              Version:tVersion;
+              XSize,YSize:LongInt;
+            END;
+VAR Screen:^tScreen;
+    Pal:PAL_ARRAY;
+    I,K,M:LongInt;
+    SR:SearchRec;
+    Header:tHeader;
+
+PROCEDURE DisPlay(ST:STRING);
+VAR I,K,M:LongInt;
+    F:FILE;
+BEGIN
+  Assign(F,ST);
+  ReSet(F,1);
+  BlockRead(F,Header,SizeOf(Theader));
+  FillChar(Screen^,64000,0);
+  FillChar(Screen^[0],Header.XSize+2,15);
+  FillChar(Screen^[(Header.YSize+1)*320],Header.XSize+2,15);
+  FOR K:=0 TO Header.YSize-1 DO BEGIN
+    Screen^[(K+1)*320]:=15;
+    FOR I:=0 TO Header.XSize-1 DO BEGIN
+      BlockReaD(F,Screen^[(K+1)*320+I+1],1);
+    END;
+    Screen^[(K+1)*320+I+1]:=15;
+  END;
+  Close(F);
+  IF ReadKey=#13 THEN BEGIN
+    TextMode(3);
+    WriteLn(St);
+    ReadKey;
+    Init(19);
+    SetPalette(PAL);
+  END;
+END;
+
+BEGIN
+  Screen:=PTR($A000,0);
+  Init(19);
+  Move(@PaletteDAT^,Pal,768);
+  SetPalette(Pal);
+  FindFirst('*.img',AnyFile,SR);
+  WHILE DosError=0 DO BEGIN
+    DisPlay(SR.Name);
+    FindNext(SR);
+  END;
+  TextMode(3);
+END.

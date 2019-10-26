@@ -1,0 +1,23 @@
+
+Astral Flux, by Inque 
+
+:: release info :: ----------------------------
+
+a 64k demo released at Outline 2013.
+
+we've put a bit more work in this than usual.
+
+this should work fine on "modern" gfx cards.
+but we only were able to test it on the compo
+machine's 580. 
+
+
+:: credits :: ---------------------------------
+
+code/visuals -- glow
+soundtrack/direction/visuals -- izard
+additional direction/support -- cyrex, cosmiq, nunki
+
+:: cya :: -------------------------------------
+
+www.inque.org

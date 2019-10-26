@@ -1,0 +1,46 @@
+[desc]
+	menger search patrol
+	4k procedural image for Alternative Party 2011
+	(actually the size is ~2.5k)
+	
+	http://firebug.kapsi.fi/demo/menger_search_patrol/
+ 
+[credits]
+	code, graphics: firebug (@IRCNet or http://twitter.com/#!/firebug__)
+
+[contents]
+	Contains three versions:
+		* menger_search_patrol_720p_party.exe
+ 			^ party version, renders at 720p
+		* menger_search_patrol_selector.exe
+			^ includes resolution selector
+		* menger_search_patrol_sdebug.exe:
+			^ contains shader debug (see notes)
+
+	Check the url in desc-section for rendered versions.
+
+[notes]
+	It is a quickly made production (~3 evenings and one 
+	frustrating morning). In that time you really can't make 
+	a decent 4k intro (or at least I can't), but you can 
+	probably finish one frame :)
+
+	The last bits of code were written right before deadline, so
+	it's not a super polished prod. Doesn't work on NVIDIA as 
+	far as I know. Tested on two different ones. I have no 
+	interest to debug this any further; try the debug version if 
+	you want to help me (I don't have NVIDIA to test on :<).
+	
+	It's a long time since I coded something like this so the code
+	is completely unoptimized and partly horrible, which may have 
+	something to do with the prod not working on Nvidia.. :)
+
+	There is a lot of space left (for 4k). The current executable 
+	could be propably crunched down under 2kB boundary by rewriting 
+	"some" of the code.
+
+[thanks]
+	auld, iq, mentor & blueberry, ctrl+alt+test for helpful tools
+	and articles!
+
+

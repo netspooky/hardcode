@@ -1,0 +1,25 @@
+   +
+   |
++--+---------------------------+---+ MOOTTORI:
+   |                           |
+   |                           |
+ O-o-O O---o o---O o   o O   o O o---O o---o o     o---o O---o
+   |   |     |     |   | |\  | | |     |   | |     |   | |   |
+   |   o-O   |     O---O | \ | | |     |   | |     |   | o-O-o
+   |   |     |     |   | |  \| | |     |   | |     |   | |  \
+   O   O---o o---O o   o o   O O o---O o---o O---O o---o o   O
+   |                           |
+   |                           |
+   +---+ 64 KB +---+ Asm98 +---+
+   |
+ +-+-+
+FINGERS +-+ Code
+JADEX +--+ Music
+ +-+-+
+     |
+     +---+ You might have to use
+     |   | -nosound under win95
+     |   | and NT. You can also
+     +---+ use -stereo for.. uh.
+     |
+     +-------------------------+

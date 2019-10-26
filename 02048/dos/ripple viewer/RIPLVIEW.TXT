@@ -1,0 +1,129 @@
+         Ü²²²²²Ü              ÜÜ    ÜÜ
+        Ü²²²²²²²            ²²²²  ²²²²
+        ²²²²²²²²            ²²²²  ²²²²
+       Ş²²ß ßß²²            ²²²İ  ²²²
+       ²²İ     ßß    Ü      ²²²   ²²²     ÜÜ                   ÜÜ   Ü
+       ²²           Ü²²²²²  ²²²   ²²²   Ü²²²²²    ²²²²²ß  Ü²²²²²²  Û²²²²Ü
+       ±² Ü²²²²ÜÜ  Ş²²²²²²İ ²²±   ²²²  Ş²²²²²²²  ²²²²²²²  ²²²²²²²Ü²²²²²²²
+      Ş±±±²²²²²²²² ²²± ±±±İ ²±±   ²²²  ²²²²²²²² ±²² ß²²²² ²²²²²²²²²²²ß²²²
+      ±±±±±±±±±²²² ±±± ±±± Ş±±±  Ş±²²  ²²±±ßß   ±±±  ±²²² ²²²² ß ±±±± ±²²
+    Ü±±±ßß ßß±±±±± ±±±±±±ß Ş±±±  Ş±±²  ±±±±    ±±±±  ±±²² ±±±±   ±±±±±±±ß
+   Ü±±±°     Ş±±±± ±±±±  Ü Ş±±±Ü Ş±±±Ü ±±±±Ü  Ş±±±±Ü ±±±± ±±±±İ  ±±±±Ü  Ü
+   °°°°İ      ß°°± °°°°°°°  °°°°İ °°±±İŞ°°±±±±  °°±±±±±±  ±±°°°  Ş°°±±±±
+  Ş°°°°        °°° Ş°°°°°   °°°°  °°°°  °°°°°ß  ß°°°°°°   Ş±°°°   °°°°°ß
+   ß°°ß Ü      °°İ  ßßßß    ß°°ß  ß°°ß   ßßß      ßßßß      ßßß    ßßß
+        °°Ü    °°
+        °°°°ÜÜÜ°ß
+        °°°°°°°°               p r e s e n t s
+         ß°°°°ß
+            ßß      an interactive customizable mini intro
+ÚÄÄÄÄ-----ÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-----ÄÄÄÄÄÄÄÄ--- ------ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                               Ripple Viewer                               ³
+³                                   v1.01                                   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ----------       ----ÄÄÄ---- -ÄÄÄÄ---- --ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+ÚÂÄÄÄÄÄÄÂ¿
+³³files:³³
+ÀÁÄÄÄÄÄÄÁÙ
+
+ Files in archive:
+
+ EXAMPLE.BAT  -batch file with some examples
+ RIPLVIEW.EXE -main executable
+ EXAMPLE.BMP  -example bitmap file (used by EXAMPLE.BAT)
+ FILE_ID.DIZ  -BBS file description
+ RIPLVIEW.TXT -this info file
+
+ÚÂÄÄÄÄÄÄÂ¿
+³³usage:³³
+ÀÁÄÄÄÄÄÄÁÙ
+
+RIPLVIEW.EXE [filename.bmp] [b] [f] [t]
+
+[filename.bmp] = Name (with extension) of BMP (windoz BitMaP) file to rippling.
+                 Picture has to be 320x200, 256 grayscale.
+                 Palette can be i.e: Black-To-Green, or whatever...
+
+           NOTE: If you don't specify bitmap to rippling, program will
+                 generate some strange pattern and ripple it.
+                 You can't change rippling parameters in this case.
+
+[b]            = Blur strength (default=4)
+                 0..8
+                 (0=no bluring, 8=...check out :-)
+                 optimal values: 3-5
+
+[f]            = Rippling Frequency (default=2)
+                 0..8
+                 (0=lowest frequency, 7,8=NO RIPPLING!)
+                 optimal values: 0-4
+
+[t]            = Distance table type (default=0)
+                 0..3
+                 (Check out differences between them)
+
+
+WARNING: options have to be in this specified order. It means that if you
+         want put your favourite rippling frequency, you must type blur
+         strength first, and if you want change any ripple parameter at all,
+         you must specify input bitmap file!
+         Look at the examples before you start experiences!
+
+
+ÚÂÄÄÄÄÄÂ¿
+³³keys:³³
+ÀÁÄÄÄÄÄÁÙ
+
+The magic key available at the whole presentation:
+
+ esc       really???
+
+
+Keys available after the end of sinetablefading:
+
+ gray +    increase sine table amplitude
+ gray -    decrease sine table amplitude
+ arrows    change directions of rippling (horiz. and vert.)
+
+ÚÂÄÄÄÄÄÄÄÄÄÂ¿
+³³examples:³³
+ÀÁÄÄÄÄÄÄÄÄÄÁÙ
+
+riplview.exe example.bmp 4 2 0
+ (this is default, so no effects :-)
+
+riplview.exe example.bmp 5 0 2
+
+riplview.exe example.bmp 0 8
+ (just viewing picture, no rippling, no fun!)
+
+riplview.exe example.bmp 8
+ (blur of the blurs, unreadable picture, but may be used for generating
+  unreadable pictures...)
+
+Wanna see other examples? Run EXAMPLE.BAT
+
+
+ÚÂÄÄÄÄÄÄÄÄÄÂ¿
+³³warnings:³³
+ÀÁÄÄÄÄÄÄÄÄÄÁÙ
+
+ !!! There is no error checking at all !!!
+ That means:
+ -You can specify any file as the input file, but if it isn't BMP, you will
+ see only one big shit.
+ -You can type also whatever you want as the options, but you will notice
+ the effects.
+
+
+ÚÂÄÄÄÄÄÄÄÄÂ¿
+³³credits:³³
+ÀÁÄÄÄÄÄÄÄÄÁÙ
+
+  main program : Mrock                  mrock@tl.krakow.pl
+  some additional code : Rage           outman@tl.krakow.pl
+
+  idea : something sick idea from:      subject@tl.krakow.pl
+
+------------------------------------------------------------------------------

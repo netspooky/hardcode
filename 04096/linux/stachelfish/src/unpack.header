@@ -1,0 +1,2 @@
+#! /bin/sh
+a=/tmp/I;tail -n+3 $0|zcat>$a;chmod +x $a;$a;rm $a;exit

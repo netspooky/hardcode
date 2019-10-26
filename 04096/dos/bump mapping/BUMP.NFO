@@ -1,0 +1,68 @@
+
+ ////////////////////////////////////////////////////////////////////////////
+ /            ˛ ˛                       ˛ ˛                                 /
+ /     €€€   €   € €€€€  €€€€€   ±±±±  ±±±±± ±±±±± ±±±±± ± ±±±±  ±±±±±      /
+ /     €  €  €   € € € € €   €   ± ± ± ±   ± ±   ± ±   ± ± ±   ± ±          /
+ /     €€€€€ €   € € € € €€€€€   ± ± ± ±±±±± ±±±±± ±±±±± ± ±   ± ± ±±±      /
+ /     €   € €   € €   € €       ±   ± ±   ± ±     ±     ± ±   ± ±   ±      /
+ /     €€€€€ €€€€€ €   € €       ±   ± ±   ± ±     ±     ± ±   ± ±±±±±      /
+ /                                                                          /
+ ////////////////////////////////////////////////////////////////////////////
+
+                     4K lameness by Gargaj/ömlaÅt Design
+
+ Contents
+ ~~~~~~~~
+ I. Story
+ II. Greets and other stuff
+
+ I. Story
+ ~~~~~~~~
+ Well, since you know the group's story very well (you read our website,
+ didn't you?), I'll tell you about the story of this...well, bad thing.
+ First off, it all started, when I downloaded Freestyle 8., the AI diskmag,
+ and in the coder section, I read a pretty self-explaining bump routine by
+ Murphy/Exact. I especially liked bump mapping, since I think bump is one of
+ the most useable routines, and it can be done easily. Well, when D-lee of
+ Exceed told me, that without a team, I should do 4K or 64K intros, I started
+ thinking about a 4K. Firstly, I saw clearly that 3D is outta sight for me,
+ since my old, soggy brain couldn't understand that damned 3D math routines.
+ So much for 3D. I recently talked about it to Procyon and D'Soft, and D'Soft
+ clearly stated that he won't take part in it. Procyon was happy to join the
+ work, and I wanted to make him do the harder part, the bump :). But after
+ many months of waiting and no code, I sat down, and started coding. I hadn't
+ discovered ASM fully yet (Old, soggy brain (OSB) sucks), so I made a plan:
+ First, I make a spine in TP, and then I translate it into ASM. Later the ASM
+ fell out, when I saw E2K by Digital Dynamite on FLaG 2000 (full Pascal
+ demo). I thought that nobody made any TP 4K-s yet, so why not? If it sucks,
+ the prejury will filter it, am I right? So I sat down (usually, that's the
+ way I code: I persuade myself to sit down, and away it goes.), and started
+ coding. After a nice, but very lame attempt I recoded most of the source,
+ and told Procyon to code a routine, that retrieves the system font. Same
+ effect, nothing for weeks. Later I talked to Procyon, he said his family
+ didn't let him code, and I found out that he was actually learning for his
+ state exam in German. Poor dude. Viel glÅck. Well, it seemed to me, that I'm
+ the only one staniding. All right, let's rock the boat a little. I coded,
+ and coded, and coded, until one day, the pre-bump spotlight routine vanished
+ and a bump took his place. The problem was the size. It was well over 4K
+ (10K to be precise). But when I compiled it with TPC, It became 4,5K!!!
+ Well, I thought, that's nice, guess I have to compress it. Later, on IRC,
+ Ebola said, that the spotlight's boring, how about changing colors. OK, I
+ said, and off it went. Then I received a heart attack: It became 6K. I
+ rewrote the routine, so it became slower, but smaller (And my brain started
+ to get dry :) ). With WWP compression, it became less than 4K. What does
+ the C7007 partypeople think about it? That depends on the future. Hope they
+ appreciate it. Well, we WILL see...
+ Oh yeah, and the source is included. This also means no hidden parts. Sorry.
+
+ II. Greets 'n' stuff
+ ~~~~~~~~~~~~~~~~~~~~
+ Greets and thanks go to...
+ ... Bas van Gaalen. Pascal Rules.
+ ... Exceed. A huge thanks for keeping the feeling alive. Miskolc r00lz.
+ ... the rest of ömlaÅt Design. Shame you didn't join the coding.
+ ... the d00dz at irc.hu #demoscene. See ya beetween 3pm-5pm CET on Sat-Sun.
+ ... The DD guys, BoyC'n'TrX. Me bump better than you flame. Me win!
+
+ To find out group info, check UMLAUT.NFO. If it's not in the ZIP, then
+ say a big hiho to the C7007 organizers.

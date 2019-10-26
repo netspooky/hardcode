@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Memory by Sector One</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <canvas width="640" height="480" id="c" ></canvas>
+    <script>
+var a = document.body;
+var b = document.getElementsByTagName('canvas')[0];
+
+function getContext(s) {
+  try {
+    return b.getContext(s); 
+  } catch(e) {
+    return null;
+  }
+}
+
+function c() {
+  return getContext('2d');
+}
+
+function d() {
+  return getContext('webgl') || getContext('experimental-webgl') || getContext('webkit-3d') || getContext('moz-webgl');
+}
+
+document.body.clientWidth; // fix bug in webkit: http://qfox.nl/weblog/218
+    </script>
+
+    <script>
+    // insert your entry here
+
+    // RULES (thx to @kuvos for inspiration)
+    //  1. Submissions may be up to 1k (1024 bytes). Fill those damn bytes.
+    //  2. Submissions must consist of only js.
+    //  3. Any and all externals are strictly forbidden.
+    //  4. Must work on the last version of Mozilla Firefox and Google Chrome (more support appreciated of course :)
+    //  5. It should look roughly similar under both browsers.
+    //  6. As you might have seen, you get canvas object and context creation for FREE!
+    //  7. Your demo must work in this shim, tell us if there are problems with context creation.
+    //  8. GO MAD, audio, eval and WebGL allowed!
+
+var a=c(),f=[];function g(){return{x:Math.random()*480-250,y:Math.random()*480-50}}for(i=0;i<480;)f.push(g()),i++;var h=0,j=0; setInterval(function(){a.fillRect(0,0,640,480);a.strokeStyle="#276081";for(i=0;i<50;){var b=Math.sin((h+i*3.6)/50*Math.PI),d=Math.sin((h+i*3.8)/200*Math.PI);a.moveTo(300+b,170+b*90);a.lineTo(300+d*90,170+d);i++}a.stroke();a.font="bold 40px Arial";a.fillStyle="#f3d00a";a.fillText("D e m o J S",170+Math.sin(h/50*Math.PI)*170,40);grd=a.createLinearGradient(0,100,640,480);grd.addColorStop(0,"#FF0000");grd.addColorStop(1,"rgba(0,255,0,0.5)");a.font="bold 30px Arial";a.fillStyle=grd;for(b=0;b<81;)d=640- j*4+b*38,a.fillText("Realized at DemoJS by Hello / Sector One - Greetz scener ATARI and the others... ".charAt(b),d,350+Math.sin((h+b)/50*Math.PI)*30),b==80&&d<0&&(j=0),b++;j++;a.fillStyle="rgb(0,0,0)";var e=0;for(a.beginPath();e<480;){f[e].x+=f[e].x/16;f[e].y+=f[e].y/30;b=f[e].x+340;d=f[e].y+90;a.moveTo(b,d+2);a.lineTo(b+3,d);if(b<0||b>640||d<0||d>480)f[e]=g();e++}a.stroke();h++},40);
+
+
+    </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,132 @@
+
+   ÛÛÛÛÛÛÛÛÛÛÛÛÛÜ ß ßß ßßß ßßßß ßßßßß ßßßßßß ßßßßßßßßßßß ßßÜ  Release no. 0003
+   ÛÛ          ÛÛ                                        Üß
+   ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÜ ÜÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÜ ÜÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÜ ßßß ßßßß ßßßß ßßß ßß ß
+   ÛÛ             ÛÛ ÛÛ             ÛÛ ÛÛ             ÛÛ
+   ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛß ßÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛß ÛÛ             ÛÛ   Sweet Tooth Owners
+
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+
+    ÚÄÄ´what file to runÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³ For compatibility's sake, we included 3 versions of this demo.
+    ³ For the most part they're identical. Each version is just tweaked so
+    ³ that you don't have to look at a horribly stretched screen.
+    ³
+    ³ anamorphic16x9 - The 64k version for Widescreen monitors.
+    ³ Werkkzeug has the problem that the 64k files it  generates only support
+    ³ 4:3 resolutions and this one fixes the problem by having an image that
+    ³ displays a correct aspect ratio when stretched to 16:9.
+    ³
+    ³ letterbox4x3 - The 64k version for 4:3 monitors.
+    ³ Simply put, the widescreen image is shrunk to fit on a 4:3 screen.
+    ³
+    ³ safe - A version that's not 64k, but should work on all computers.
+    ³ Also, you can choose any aspect ratio and resolution in this one.
+    ³ It's significantly bigger, but it ensures that you'll be able to
+    ³ view this demo, since 64k doesn't work with all computers.
+    ³ Besides that, it's the same demo.
+ÄÄÄÄÙ
+    ÚÄÄ´prefaceÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³ (TomoAlien Speaking)
+    ³ Let me tell you... It was TOUGH for many reasons, but it still was fun.
+    ³ Personal problems, exported demo being bugged for cryptic reasons and
+    ³ of course... Lack of energy and/or motivation some days.
+    ³
+    ³ Tho yes... WE DID IT! Seriously, if it wasn't for ZanaGB's encouragement
+    ³ I'd probably give up after seeing how an effect I worked on for like 2
+    ³ or 3 hours straight breaking all sweats (I'm that kind of a person)
+    ³ and seriously... export for test... BLANK SCREEN. I debugged it with
+    ³ use of DirectX Explorer (gotta thank Matt Stentiford for this program!)
+    ³ and Trial'n'Error with operators. Well, was worth it in the end!
+    ³
+    ³ There's a bug that only appears in the 64k versions but... I don't know
+    ³ how to fix it and well... It still looks good enough for me soo.. :)
+    ³
+    ³ I hope you like this rather... different take. Yes, we know not everyone
+    ³ will like it, but it ain't about pleasing everyone, because that's just
+    ³ impossible, but it's about pleasing people with something nice to
+    ³ watch, at least in this case. So, enjoy the show! :)
+ÄÄÄÄÙ
+    ÚÄÄ´metadataÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³   Demogroup: bonı (Bon^2 on Pouet and anywhere else without unicode)
+    ³   Prod name: MAR
+    ³   Prod type: 64k Demo
+    ³     Runtime: 3 minutes 15 seconds
+    ³        Date: August 2014
+    ³       Party: DemoDays 2014
+    ³    Demotool: Werkkzeug 1.2 by Farbrausch
+    ³      Design: TomoAlien
+    ³    Graphics: TomoAlien
+    ³       Music: TomoAlien
+    ³        Help: ZanaGB
+    ³     Testing: ZanaGB
+    ³     Support: ZanaGB
+ÄÄÄÄÙ
+    ÚÄÄ´greetingsÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³ Gargaj, sigflup, Forcer, TRSI, Planet Earth, ASD, Quite, Haujobb,
+    ³ Booze Design, Hokuto Force, Fairlight, Crest, Titan, Trilobit, Triad,
+    ³ PWP, Reality, Paradise, g0blinish (), Spaceballs,
+    ³ Farbrausch, Still, Bittin, AMcBain, Baudsurfer and others we forgot
+ÄÄÄÄÙ
+    ÚÄÄ´membersÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³ TomoAlien, ZanaGB
+ÄÄÄÄÙ
+    ÚÄÄ´linksÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³ bonı on Pouet.net:
+    ³ http://www.pouet.net/groups.php?which=12302
+    ³
+    ³ bonı on demozoo.org:
+    ³ http://demozoo.org/groups/50138/
+ÄÄÄÄÙ
+    ÚÄÄ´something seriousÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ ÄÄÄÄ ÄÄÄ ÄÄ Ä
+    ³ (TomoAlien Speaking)
+    ³ This demo wouldn't be possible without ZanaGB's help. In fact, a lot of
+    ³ things I started working on and FINISHING (I often lost motivation) are
+    ³ thanks to her. She helps me get over my anxiety and gets me to actually
+    ³ do things. I can't say how grateful I am for that. I also do my best to
+    ³ morally support her, even though it's really hard. Too bad I don't have
+    ³ a job yet (I'm still studying) and therefore can't affort to support
+    ³ her financially, since she's being restricted from even getting a job
+    ³ by her abusive parents. So now... I'd be really, REALLY appreciative if
+    ³ you did what I wanted to do to her, and that is giving her some money
+    ³ so she'll be able to actually run away from the "home" she's in and
+    ³ get to live in an environment that's not hostile and dangerous.
+    ³ How dangerous is her environment? Well, for starters... being set on
+    ³ fire by her classmates during a school trip to Rome (saved herself
+    ³ by jumping into a nearby pool) and being harassed on a daily basis.
+    ³ And yes, those are two of less horrible things she endured through
+    ³ her lifetime. I know... You might be thinking I'm making this up...
+    ³ I wish I was making it up, since nobody should go through such things
+    ³ in their life. The worst part is that she is being terrorized by others
+    ³ with threat of everything being taken away from her if she does actually
+    ³ report this to authorities. Basically, she'd be left without any kind
+    ³ of shelter, contact, clothing and medication.
+    ³ Her parents are threatening to cut off her supplies if she doesn't
+    ³ do what they want her to do. For now... I can only think of donating
+    ³ money to her so she can get a shelter and such quite easily after
+    ³ things get really bad for her. Of course, legal advice and active forms
+    ³ of actually aiding her are also appreciated.
+    ³
+    ³ Thanks in advance, I appreciate that you read through this and took
+    ³ your time to read it. I'd be really glad if you could chip in for this
+    ³ cause, and I'm pretty sure she'd appreciate that too.
+    ³
+    ³ So... here's her PayPal address:
+    ³ tailsko-anita(at)SPAMSUCKSoutlook.com
+    ³
+    ³ Of course replace (at) with @, and remove SPAMSUCKS from the address.
+    ³ If you decided to donate, then I'm really appreciative, and a greeting
+    ³ will be assured for your support (unless you wanna be anonymous!).
+    ³ Of course, if you don't have money or just don't wanna donate, it would
+    ³ be welcome to support her in other ways since every good deed counts.
+    ³ For example legal advice, motivation, etc. to keep her emotionally
+    ³ afloat in this harsh environment, give her some moral support and
+    ³ say some advice regarding the matters described.
+    ³
+    ³ Thanks for attention and bothering to read this. :) I'm happy that
+    ³ you've cared enough to read through this! And well, see you and
+    ³ have a nice day, night or whatever time it is at where you at! Peace :)
+ÄÄÄÄÙ
+
+ßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßßß
+                                                              nfo by TomoAlien

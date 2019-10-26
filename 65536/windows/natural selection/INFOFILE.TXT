@@ -1,0 +1,220 @@
+hello there, you are now reading the infofile for...
+
+Natural Selection by Disaster Area.
+
+a non-accelerated production for the 64k intro competition at Mekka Symposium 2002.
+
+(null)		code				(void303@hotmail.com - he never ever checks it tho ;)
+ript.		code, music, graphics		(davet@tekniche.com.au)
+
+the intro uses direct draw in 512x384x32bit mode. There's an option for windowed mode, but you must
+have your desktop set to 32bit colour (it's a bit of a hack).
+
+THERE ARE NO EXCUSES
+
+It liked a 700mhz cpu last time I checked, but it probably likes more now. It hasn't been optimized
+much at all. The poly drawer is slow as bog (can't be arsed fixing it right now).
+
+THERE ARE NO EXCUSES
+
+There's some weird sync bugs that turn up every 10th run or so. Dunno why.
+
+THERE ARE NO EXCUSES
+
+I'm pretty tired of the code now, and probably won't bother releasing a fixed (and optimized) version
+unless people ask for it. Besides, I want to socialize rather than 'party code'.
+
+THERE ARE NO EXCUSES
+
+contact us if you feel like it ----> davet@tekniche.com.au (ript).
+
+THERE ARE NO EXCUSES
+
+this intro uses two very useful thingies: minifmod (www.fmod.org), and UPX (upx.tsx.org)
+
+THERE ARE NO EXCUSES
+
+If you are an australian who is interested in the demoscene you should subscribe to the australian
+scene mailing list. here's how : send an email to majordomo@blerk.org with "subscribe scene" (without
+quotation marks) on a single line in the BODY of the message.
+
+To send mail to everyone on the list, send it to scene@blerk.org.
+
+To remove yourself from the list follow the instructions for subscribing, but put "unsubscribe scene"
+on a single line in the BODY of the message.
+
+THERE ARE NO EXCUSES
+
+And now some greets :
+
+we greet everyone because it's easier that way =)
+
+TEN COMMANDMENTS
+
+1) thou shalt not kill
+
+2) thou shalt not deliberately piss other people off, or something
+
+3) thou shalt understand that this software is provided "as is", and the authors make no warranty,
+either express or implied, with respect to this software.
+
+4) thou shalt drink lots
+
+5) thou shalt understand that IN NO EVENT SHALL THE AUTHORS BE HELD LIABLE FOR ANY DAMAGES RESULTING
+FROM THE USE OF THIS SOFTWARE.
+
+6) THERE ARE NO EXCUSES
+
+7) thou shalt NOT distribute this software on a CD rom or any other physical media without permission
+from one of the authors.
+
+8) thy use of this software indicates that thou hast read and agreed to the rules set out in these
+TEN COMMANDMENTS.
+
+9) thou shalt drink lots
+
+10) goto 9
+
+THERE ARE NO EXCUSES
+
+*hic*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*hic*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*hic*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*burp*
+
+excuse me

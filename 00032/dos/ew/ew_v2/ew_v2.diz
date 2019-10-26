@@ -1,0 +1,16 @@
+EW
+
+32 Byte intro for 0a000h 2003
+Ctulhu/Headcrash
+
+First 32 Byte intro with sound
+
+Greez: noy, muhmac, styx
+
+----
+v2
+by lord Kelvin
+08.01.07
+
+this intro needed initialization ( out 0x61,3 ) to have sound.
+Now it has. On my computer.

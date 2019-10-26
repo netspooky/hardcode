@@ -1,0 +1,68 @@
+
+ีอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออธ
+ณ 256bytes for the #coders 256b compo                         ณ
+ณ crystal.com                                                 ณ
+ณ done by tryx/Xography in 1997                               ณ
+ิอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออพ
+
+  General:      
+  ~~~~~~~~
+  I heard of this compo 3 days ago, so i started to code something
+  and manually compress it into 256bytes ;) nowadays there are so much
+  programmers, most of them saying, 'asm is dead' or  'why using asm if
+  you have c++'. I love C++, too, but asm I like even more (maybe because
+  of some childhood-experiences on the Amiga ;)). And it still takes
+  a real coder to put cute effects into 256bytes, that's why a compo
+  like this great. I'm looking forward to the results.
+
+  tested
+  ~~~~~~
+
+  the intro runs with 486, but on pentium with optimal speed
+  tested under plain dos and win95. 
+  
+  technical specs:
+  ~~~~~~~~~~~~~~~~
+ - sine-generator (using fpu)
+
+ - fractal generator
+   a julia-set is calculated here. The algorithm
+   is slightly modified to create a symmetrical fractal.
+
+ - the intro uses his own calculated palette (some kind
+   of weird xor-stuff) and is synced to the v-retrace.
+
+ - the main routine is a zoom-rotator. The rotation&zoom-
+   is periodic and almost 60secs long ! You can leave the
+   program with any key.
+
+  contact:
+  ~~~~~~~~
+  email: Christian.Schlange@tu-clausthal
+  irc:   tryx on #coders/#coders.ger
+
+  greetings:
+  ~~~~~~~~~~
+  all on #coders/#coders.ger
+  purge
+  masque
+  xevius
+  complex - you rule forever, 'wego' is the best 64k out there
+
+  personal (iao)
+  bitblazer
+  crazyman
+  crosby
+  fuzzel
+  gi-joe
+  hoodoo
+  hotblack
+  metal
+  MoM
+  yaka
+  stone
+
+  Happy XMAS,
+  CU
+
+

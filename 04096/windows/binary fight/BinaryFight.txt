@@ -1,0 +1,19 @@
+#include <cmath>
+
+Das Jahr des Helden - http://tggc.funpic.de
+___________________________________________
+
+
+  Binary Fight  :-: Ein Spiel in 3kb
+
+  Code          :-: TGGC
+
+  Packer        :-: Crinkler 0.4a (http://www.crinkler.net)
+
+
+	
+  Aim with the mouse and fire with one of the three buttons for
+  left, middle and right cannon or use "A" "S" "D". Your score a
+  point for every destroyed red attacker. Your ammunition is
+  refilled if you scored 8 points. If an attacker hits the ground,
+  one point gets substracted.

@@ -1,0 +1,6 @@
+nasm inconsistency.asm
+gzip inconsistency -f -9 -n
+cat stub inconsistency.gz > inconsistency
+chmod +x inconsistency
+ls -l inconsistency
+./inconsistency

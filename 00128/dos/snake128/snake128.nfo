@@ -1,0 +1,7 @@
+Snake128
+
+A game of snake in 128 bytes.
+Use the arrow keys to change the direction the snake is heading.
+Eat the red fruit to grow and score points, but don't run into
+your tail or the walls!
+The score is kept on the right side in binary numbers.

@@ -1,0 +1,84 @@
+
+         ____ ___ ___ ___ ___ ___ ___ ___ ___
+       .|                                   
+ ---===||  R   T   I   F   I   C   I   A   L  ||===---
+          ___ ___ ___ ___ ___ ___ ___ ___ ____|'
+
+                    @ REVISION 2014
+
+               ---     presents:     ---
+ 
+                 rot!  ist meine kugel
+
+               ---  a  PC 64k intro  ---
+
+
+        __
+      .|
+ ---==||  A B O U T
+       |
+       |   my first linux demo
+       |
+       '   about  one year ago we watched the
+           revision  live stream  and decided
+           we wanted to make a demo ourselves
+
+           our  goal  was  to  release  it at
+           revision  2014.  so we sat  around
+           and  did nothing for three months.
+           then we  started working  on tools
+           but almost freaked out three weeks
+           before  revision as we had no con-
+           tent.  we got  ourselves  together
+           and  hacked   something  together,
+           proudly  finishing  it  the  night
+           before.
+
+           this  is the  first demo  we  ever
+           wrote so please adjust your expec-
+           tatotions.
+
+           also: "rot! ist meine kugel (rmk)"
+           is not  to be confused with "green
+           is my pepper (rms)"!
+                                               |
+           [https://i.imgur.com/eeq6han.png]   ||==---
+                                            ___|'
+
+        __
+      .|
+ ---==||  T H I S   V E R S I O N
+       |
+       |   this  version  contains a  windows
+       '   port, which  was not optimized for
+           size and  uses external dlls, just
+           because   we  are  lazy.  it  also 
+           contains  some fixes for the linux
+           version. enjoy :)                   ||==---
+                                            ___|'
+
+        __
+      .|
+ ---==||  C R E D I T S
+       |
+       |   code:
+       '          _vincent
+                  ro0mquy
+                  Ps0ke
+           music:                              |
+                  Dr. B                        ||==---
+                                            ___|'
+                 
+        __
+      .|
+ --~==||  R E Q U R I M E N T S
+       | 
+       |   Ubuntu Linux 12.04 LTS
+       '   Windows
+           tested with Nvidia graphics card
+
+           might run anywhere with            |
+           libsdl 1.2.14                      ||==---
+                                           ___|'
+
+

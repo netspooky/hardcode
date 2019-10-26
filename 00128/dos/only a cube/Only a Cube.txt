@@ -1,0 +1,17 @@
+Only a Cube
+--------
+
+A 128b by lord Kelvin.
+
+This prod was a hard one to code.
+I was made to change algorithms thrice. And still it uses standard palette
+ and doesn`t exit, as if it was 64b.
+This intro is more for a coder, than for a viewer, `cos it has more
+ erotic codeing, than beauty. Much more.
+Finally it`s done and I`m happy.
+
+Oh! I just forgot to say - it`s also slow.:)
+
+Compiled with FASM.
+
+Hello from Russia.=)

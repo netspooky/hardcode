@@ -1,0 +1,56 @@
+
+     __._        _.____   _.____   _.____   _.__    ____._    ____._
+   _/  |/________\|_   \__\|_   \__\|_   \__\|__)__/  _ |/___/  __|/____
+  _)   _/      /   /    /   /    /   /    /      (_   __|  (_____      (_
+  \    \      /        /        /   /     \       /         /   /       /
+  /_____\_____\________\________\___\______\______\_________\___________\
+ - -diP--------------------------------------------------------------uP!- -
+
+ 
+                               Nexus 8
+                            Revision 2016
+                           8 kb intro compo
+													 		
+				  An 8 kb remake of Nexus 7 by Andromda (The Party 1994)
+
+Credits
+=======
+Synth, Data transforms, Font, .asm : Blueberry
+System, Visuals, .hlsl: Psycho
+Music: Punqtured / Fnuque
+Title picture shapes: Laika
+Motion Blur picture shapes: Farfar
+
+Crinkler for compression, Rocket as scripting tool and new "Oidos" synth for music.
+
+Thanks to Revival for giving us the idea for the synth and to the Andromeda team for the original classic.
+
+
+Compatibility
+=============
+DirectX 10 graphics card
+Windows 7+
+d3dcompile_47.dll  (included from windows 8.1, otherwise search your program files folder...)
+
+We had support for d3dcompile_43.dll (the one included in last dx9 runtime) too, but it turned out the main
+pixel shader takes 10 minutes to compile there, so no sense in supporting that. 
+(with _47 it takes a few seconds, much shorter than the music generation running in parallel)
+
+
+Technical
+=========
+-Quite minimal dx11 setup with one vertex/pixel shader pair, no vertex buffers, no post processing
+-Simple copying of screen for slow rendering of the pictures (and shade cluster base paths)
+-Vertex shader emitting particles (galaxy, shade cluster, tunnel) and a single fullscreen "particle" for the rest
+-Effects mostly a mixture of raymarching and 2d "background" effects
+-Pictures based on bezier shapes with custom shading
+-2d distance function font - either rendered directly or raymarched (with spatial optimizations) for scroller
+-Shader source obfuscated/minimized by custom tool (14.5kb -> 7.5 -> 2.6 compressed)
+-Very small rocket player code with aggressive quantization and transformations on data
+-New additive synth suitable for percussion and filter sweeps
+-Natural Motion animation data based on reverse engineered data from Nexus 7
+
+
+Additional info
+===============
+http://www.loonies.dk

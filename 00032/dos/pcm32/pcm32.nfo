@@ -1,0 +1,14 @@
+prod:    pcm32
+type:    32 byte intro
+author:  frag/fsqrt
+date:    17-01-2012
+
+
+;Inspired by viznut works.
+;Now pcm sound is possible under MS-DOS in 32 bytes!
+;You need covox emulation to listen it.
+;Enjoy!
+
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

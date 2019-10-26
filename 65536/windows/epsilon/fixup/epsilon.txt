@@ -1,0 +1,69 @@
+
+
+                   .-/-'  E P S I L O N  '-\-.
+                  (                           )
+                 -   :    - -  b y  - -    :   -
+                  (                           )
+                   '-\-.  m e r c u r y  .-/-' 
+		
+
+    -  las psykon manx abductee urs cupe jco red mouldycat  -   
+
+
+          Invitation for Revision 2012 - The Easterparty  
+
+
+  Revision 2012 - 6th to 9th April, E Werk Saarbrücken, Germany
+
+  Get the latest infos on http://www.revision-party.net !
+
+
+  based on an all new framework - complete with new rendering and 
+  cinema grade post-processing, synth des Todes and compressed 
+  using the mighty kkrunchy by ryg/farbrausch.
+
+  Hardware requirements are insane.
+    - Quadcore 2GHz recommended
+    - 1GB RAM required (2GB+ recommended)
+    - faaaaaaaaaaaaaaaast Graphics Card, GTS 450 minimum
+      (GTX 560 TI or faster recommended. No idea about AMD/ATI.)
+    - OpenGL 3.3 Driver support required
+ 
+
+  <3 <3 <3 Fixup-Version! <3 <3 <3
+  Now running on AMD/ATI and older Nvidia-Cards.
+  Our earlier statement that  it will never run was an 
+  unfortunate misjudgement.  All shader compilers suck.
+  Content identical to party version.
+
+  tested on:
+
+   30-60fps:
+    NV GTX 580 / driver 290.53 BETA
+    NV GTX 560 TI / driver 285.62
+
+   ~20fps:
+    NV GT 540 M / driver 267.21 / statistics-scene is too dark
+    NV GTS 450 / driver 285.62
+    NV GTS 450 / driver 280.26
+
+    ATI HD 6550D / driver version unknown
+    NV Quadro FX 5600 / driver 276.42
+
+   ~10fps:
+    NV Quadro FX 3800 M / driver 280.26
+    NV Quadro NVS 3100M / driver 275.33
+
+  Special thanks and greetings to:
+    angua (elite patient girlfriend <3)
+    XT95/frequency (elite flame raymarching)
+    prog/never (elite shader fixing)
+    verschdl/never (elite hosting)
+    dfox/tum (elite motivating)
+    kb/farbrausch (elite -
+                   for being the guy responsible in case we fail)
+
+  Aus Liebe zum Shader fixen.
+
+                               mercury / 2011
+

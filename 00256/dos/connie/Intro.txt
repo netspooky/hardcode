@@ -1,0 +1,26 @@
+                      Connie
+My first public release,as a ticket to enter the demoscene industry.
+Actually it run a little faster with my AMD 3000+,but I have to keep the code size
+.Finally I tweaked the size down to 256 bytes,but it seem that I cann't control 
+the running speed,so it may look better on a slower machine(Hope this don't scare you).
+
+PeonyGarden is a small DemoGroup in china.
+
+Greets to:
+    baze/3SC,Broncs,Rrrola   
+
+       mrTony / PeonyGarden 
+Email:  mr.Tony@163.com
+
+================================================================
+中文说明:
+
+这是PeonyGarden团队第一次公开发布的demo,也是作为进入DemoScene的入场券。
+写256b这样的程序，很大程度上都是基于试验并不断进行尝试的结果，
+这个所谓的"demo",因为要控制最终的容量，所以并不能在外部控制运行
+速度。有趣的事情是，如果你电脑的cpu比较慢的话，可能看起来会更好一些。
+
+PeonyGarden是在中国建立的DemoGroup, 于2006年末在北京成立。
+
+我的邮箱： mr.tony@163.com
+                                                       

@@ -1,0 +1,12 @@
+Loca - First Chinese 1KB Intro
+
+Full random dynamic fractal effect!
+Press ESC to exit! Enjoy!
+
+Note: loca.com is only for WinXP.
+Run loca_safe.exe if using other OS.
+
+    code : dwing
+ contact : dwing@163.com
+homepage : http://wex.cn/dwing
+           http://dwing.51.net

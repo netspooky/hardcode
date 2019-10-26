@@ -1,0 +1,18 @@
+ Tisztelt szervez“k!
+
+ Az intro a norm lis fut shoz VBE 2.0+-t ig‚nyel, a vide¢m¢d v laszt sa pedig
+parancssori kapcsol¢k alkalmaz s val lehets‚ges:
+
+ "exe_neve 0" : 320x400x12bit VGA m¢d           [alap‚rtelmezett]
+ "exe_neve 1" : 320x200x16bit+LFB VESA m¢d
+ "exe_neve 2" : 320x200x24bit+LFB VESA m¢d
+ "exe_neve 3" : 320x200x32bit+LFB VESA m¢d      [optim lis]
+
+ A 3 exe a raytracer felbont s ban (ezzel ”sszefgg‚sben sebess‚gben) t‚r el,
+legyetek sz¡vesek a "lojack.exe 3"-t ind¡tani (ha a vide¢k rtya tud 32bit-et)!
+ A zenei al festes term‚szetesen csak GUS-on ‚lvezhet“ (a party verzi¢ban
+legal bbis).
+ K”szi a figyelmet:
+
+ Aron / Contract  ---
+

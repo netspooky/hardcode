@@ -1,0 +1,68 @@
+
+Twaddler (Proxima/Inf) are proud to presents yet another (quality) production.
+It's called:
+                              "3k of innocense"
+
+
+³ About the code
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   The code is written using pure assembly for optimal speed and size. I
+original intended to implement some nice vector objects also, but alas, I
+ran out of time (as usual). You must have 192k RAM free in order to run this
+program without experiencing different not so interesting things. If you have
+a ADLIB compatible soundcard you will hear some really funky music. I  
+composed it in ScreamTracker 3, converted it using a selfmade converter and
+replayed it with the "Schmall adlib player" which is ofcourse made by me too.
+
+   The intro is designed and timed on a lousy 486DX'33, and some parts,
+especially the zoomer will run to fast on faster computers (and ofcourse too
+slow on slower computers). I think it will run fine on a 386, but I hadn't got 
+any time to test this. I have a bad feeling that it won't work on a 286, due
+to my excessive use of 32-bit 386 instructions.
+
+   Too bad I hadn't got enough time to finish my small assembly vector 
+routines....
+
+
+³ About the font
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   The font is a normal standard font, which is processed using a special
+display assembler routine.
+
+
+
+³ Disclaimer
+ÄÄÄÄÄÄÄÄÄÄÄÄ
+ This product is provided at an ASIS basis and the author are not responsible
+ for any kind of damage that the use of this piece of software may cause.
+ This includes but are not limited to: lose of profit,  lose of savings and
+ damaged hardware. When using this software, you agree with everything
+ written above.
+
+ What I really mean is that if the intro really fucks up your computer, make
+it explode or something, It is not my problem.
+
+
+
+³ License
+ÄÄÄÄÄÄÄÄÄÄÄÄ
+  This material is not freeware. You are allowed to copy it  without
+  restrictions for non-commercial use. No payment of any kind may be
+  charged  for  this  product  or  any  combination of  products  or
+  services including this product without our autorisation and offi-
+  cial written license.    Commercial use, especially the industrial
+  manufacturing on  any  data storage media  and  their distribution
+  without expressed  permission  from the author  (yvind Neuman) is
+  strictly  prohibited.  This program may not be altered or modified
+  without the authors permission.
+
+³ Contacting me
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+ If you by some weird reason want to get in touch with me, please try the
+ following snail-mail address:
+
+    Oyvind Neuman
+    Fagerbakken 10
+    5082 Eidsv†gneset
+    Norway
+

@@ -1,0 +1,3 @@
+@echo building CONDOM.COM ....
+@TASM /M2 CONDOM
+@TLINK CONDOM /TDC

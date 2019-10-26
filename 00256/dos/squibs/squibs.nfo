@@ -1,0 +1,13 @@
+Squibs 256b for MS-DOS
+October 2014
+
+So this is a little particle system with flares and trails. Not enough
+space for a full greyscale palette in this one, so had to make do with
+the default 16 grey colours.
+
+Greets go out to: Harekiet, matja, bart^xt, comrade, and vprolix
+
+Special thanks to HellMood for showing me some neat optimization tricks
+for my last demo, some of which found their way into this new one.
+
+dila / #asm / EFnet

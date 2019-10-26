@@ -1,0 +1,11 @@
+flopi at riverwash 2011
+
+code   maq   +crinkler+shaderminifier
+msx aceman   +4klang
+
+Thanx fly to iq/rgba for sharing soft 
+shadow + sponge tricks as well as  to 
+people   from   Pouet's   RayMarching 
+threads  where  many ideas I  learned.
+
+We didn't test on ATI (no card avail.)

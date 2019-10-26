@@ -1,0 +1,24 @@
+              Flight 666				
+            (party version)
+	
+	      By Loonies
+
+       Released at Assembly 2005
+
+
+Notes:
+
+- This is made and tested for the compo hardware (X800Pro/6800GT) and seems to work
+  fine on 9600/X700/X800/6600/6800. Does not work on less than R9500/GF5200. The R9600
+  has been showing some problems of clearing the base texture making everything look a bit too clean,
+  but it *seems* fixed/avoided in this version.
+
+- Latest graphics drivers are REQUIRED. That is Catalyst 5.7 and ForceWare 77.72
+
+- A more compatible version will come later. Check at www.loonies.dk
+
+- The name is in line with our The Party '95 amiga intro "Spor 2 Blaa Trappe" (track 2 blue stairway (on the ferry)), ie.
+  just an important point to remember on the way to the partyplace.
+
+
+

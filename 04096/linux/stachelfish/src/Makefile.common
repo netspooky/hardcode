@@ -1,0 +1,27 @@
+#! /usr/bin/make
+
+CC = gcc
+CFLAGS = -Os -fexpensive-optimizations -fpeephole2
+BOLD=./tools/bold-0.2.1/bold
+LIB = -lm
+
+EXEC = stachelfish
+
+.PHONY: all clean
+
+all: small
+
+start.o: start.asm
+	nasm -f elf64 start.asm
+
+opengl.o: opengl.c demo.vsh.h demo.fsh.h
+	$(CC) $(CFLAGS) -c opengl.c -o opengl.o
+
+demo.vsh.h: demo.vsh
+	./convert-shader.py
+
+demo.fsh.h: demo.fsh
+	./convert-shader.py
+
+clean:
+	rm -f *.o $(EXEC) $(EXEC).lzma

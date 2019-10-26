@@ -1,0 +1,11 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+if for some reason this entry is disqualified,
+we will not release it, and therefore you may
+not spread it.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+also, don't run this under windows!
+we'll come up with a windows-compatible version
+using our "big" demosystem soon though.

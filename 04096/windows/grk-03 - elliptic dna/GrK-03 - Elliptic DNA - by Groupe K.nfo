@@ -1,0 +1,49 @@
+Title:
+	GrK-03: Elliptic DNA
+
+Release:
+	Intro 4k presented to the Euskal 12 (2004)
+
+Author:
+	Team:	Groupe K	(>'')> www.groupe-k.org	<(''<)
+	Code:	SamFa		(>'')>  www.samfa.com	<(''<)
+	Zic:	E-Phase	(>'')> www.groupe-k.org	<(''<)
+
+Technical Note:
+	Need Windows XP
+	Need OpenGL (but it s work fine without any 3D card)
+	Need DirectX9 (i use DirectMusic8 for playing the music)
+	Need a LOT of time (if you don t press ESCAPE during the show)
+	I'm a begginner, and it was quite hard for me, to find some
+	  usefull help for making this small prod. So, if any one
+	  who never do anything like this want some help, be my guess!
+	  (i'm just able to give some small trick for beginning anyway)
+	I can provide the source if you ask for it.
+	I have some other version smaller, but the one provided
+	  do "4096o" exactly, so it s much more fun !
+
+Know Bug:
+	On a Radeo "top of the line" and a Plasma Screen, I have seen
+	  some small black artefact during the 3-4 first second. Even if
+	  it s no big deal, u can avaid this by enabling the VSync in the
+	  OpenGL setting of your driver.
+	You should also disable the Full Scene AntiAliasing (FSAA).
+
+Others Note:
+	Why "4 My 1st Time" ? Very simple indead:
+	It s the 1st time that i code an intro 4k!
+	It s the 1st time that i code for the scene!
+	It s the 1st time that i code OGL!
+	It s the 1st time that i code in Assembler!
+	Let's hope that it will be my 1st 1st place during the Contest :-D
+
+Grettings:
+	Special to Krabob(ManKind), enlar(rgba) and Olatz(orga Euskal 12)
+	  (who helped my team to be able to come to the Euskal),
+	Aprodisc, LuCis MaGia, Scarface, Ukonx, Wipe, WoodTowerS, Zoombie 33,
+	AND all the other Sceners...
+
+Last Words:
+	DON'T FORGET to come to the Slach Party 5
+	  near Bordeaux (FRANCE), during August 2004, from 5th to 8th.
+	  (>'')> www.Slach-Party.net <(''<)

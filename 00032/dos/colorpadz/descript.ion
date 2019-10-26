@@ -1,0 +1,14 @@
+32/40 byte colorpad
+by Matrix
+
+32 byte version:
+sets video mode 320x200x256
+displays palett
+exits
+
+40 byte version:
+sets video mode 320x200x256
+displays palett
+waits for a key
+sets video mode back
+exits

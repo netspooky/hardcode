@@ -1,0 +1,41 @@
+ Event horizon by netilium
+   64kB intro competition
+dreamhack 2000 Borlänge Sweden
+
+Our first 64k intro...
+
+Requirements for executability:
+
+ * Pentium processor
+ * Graphics card and drivers that can do 320x240 in 32 bit truecolor
+ * A sound card with working drivers
+
+Minimum system reqs:
+
+ * 400 MHz CPU with >= 256 kB cache
+ * 100 MHz Front side bus
+
+The story
+---------
+
+  About one month before dreamhack we decided that we wanted to make an
+  intro for the 64k compo. We had seen a lot of raytracing intros lately
+  and that's what we wanted to do too. With little or no knowledge of
+  vector math and no good books about raytracing we started. We began to
+  surf the net for docs and tutorials. After about one week of messing
+  with cross products and view planes we had a working chessboard FD-plane.
+  After that and a couple of rewrites things started to improve day by day
+  with shading, reflections etc..
+
+  The intro is written in 100% ANSI C, no time for assembler optimization.
+  (P3 SIMD optimization with 1x1 tracer in final version maybe ;)
+
+Tools & Libraries used
+----------------------
+
+ * Visual Studio 6.0(win32) / gcc(Linux)
+ * minifmod 1.4
+ * Compression by UPX
+
+
+w w w . n e t i l i u m . o r g

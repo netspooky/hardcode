@@ -1,0 +1,36 @@
+
+     __._        _.____   _.____   _.____   _.__    ____._    ____._
+   _/  |/________\|_   \__\|_   \__\|_   \__\|__)__/  _ |/___/  __|/____
+  _)   _/      /   /    /   /    /   /    /      (_   __|  (_____      (_
+  \    \      /        /        /   /     \       /         /   /       /
+  /_____\_____\________\________\___\______\______\_________\___________\
+ - -diP--------------------------------------------------------------uP!- -
+
+ 
+                     Vikanim - TRSAC 2016 invitation
+                         Winner at Solskogen 2016
+                              Intro compo
+													 		
+
+Credits
+=======
+Blueberry: synth, animations, font
+Punqtured: music
+Psycho: system, rendering, scripting
+ 
+Crinkler for compression
+Rocket for scripting
+Oidos synth for music.
+The original 2004 amiga ikanim editor
+
+
+Compatibility
+=============
+DirectX 11 graphics card
+d3dcompile_47.dll (part of windows 8.1+, otherwise bundled with eg IE)
+
+
+Additional info
+===============
+http://www.trsac.dk
+http://www.loonies.dk

@@ -1,0 +1,93 @@
+
+ --[ Unreal Voodoo presents: ]-----------------------------------------------
+
+              .nmmn..                     .            +
+   +        .MP%#%:. .         +                               .
+           .MP%#%:. . .
+           MP%#%":.  . .           .   .  _  .  .  .  _  _  . .  . _     .
+     .     MI%#%:. . . .           |   | (_) (\ | _| |_ |_) | (\ |(_|
+           MI%#%:. . . .     +     (_|_) | | | \)(_| |_ | \ | | \)._|
+           ML%#%": . . .                    _  ___  _   _
+    +      'ML%#%":  ..                    (_'  |  (_) |_)   +       .    +
+            'ML%#%":..                     ._)  |  | | | \
+             'ML#%":.                +
+               M#%".                                        +              +
+       +        ..        +    .
+               m#%"                               +              .
+   .           M#%"
+               Y#%"     .
+
+ --/ An entry for the /------------------------------------------------------
+
+	Assembly'03 4k intro competition.
+
+ --/ Featuring /-------------------------------------------------------------
+
+	Doo-Sabin subdivision and the "worst synthesizer ever".
+
+ --/ Coded by /--------------------------------------------------------------
+
+	hiteck / Unreal Voodoo <http://kempele.fi/~skyostil/uv>
+
+ --/ Special thanks to /-----------------------------------------------------
+
+	NinZa <http://kempele.fi/~ninza> for the spaceship model.
+
+	Cairbre <http://www.scenerychannel.com> for the tune.
+
+	Brian Raiter <breadbox@muppetlabs.com> for ELFkickers.
+
+	The GCC team for their excellent compiler.
+
+ --/ Requirements /----------------------------------------------------------
+
+	libSDL-1.2.
+
+	libGL, libGLU and libglut.
+
+	Hardware accelerated OpenGL with at least 24 bit z-buffer precision.
+
+	SDL-supported audio device (e.g. OSS, artsdsp under KDE, etc.)
+	Note that this is a must, since this intro uses audio for
+	synchronization.
+
+ --/ Trivia /----------------------------------------------------------------
+
+	This intro uses the Doo-Sabin subdivision algorithm for turning
+	simple polygonal manifolds into smooth surfaces. There are a grand
+	total of 3 objects with 24, 6 and 5 faces each. All in all, 67816
+	polygons are drawn each frame.
+
+ --/ For compiling /---------------------------------------------------------
+
+	First of all, you need the development versions of all the previously
+	mentioned libraries.
+
+	As for the compiler, I've found that gcc-3.2 gives the best results. If
+	you want to fit the executable in 4k, then it is the way to go (gcc-3.3
+	doesn't cut it). Otherwise, any gcc will do just fine.
+
+	Run "make intro" to compile the intro or "make final" to compile the final
+	compressed build.
+
+	The intro compiles fine with MS Visual C on Windows too, provided that
+	you point it at the SDL includes and link it with SDL.
+
+ --/ Copyright (C) 2003 Sami Kyöstilä <skyostil@kempele.fi> /----------------
+
+	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with this program; if not, write to the Free Software
+	Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+
+ --/ /------------------------------------------------------------------------
+.

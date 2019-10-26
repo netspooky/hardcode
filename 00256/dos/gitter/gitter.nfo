@@ -1,0 +1,24 @@
+gitter
+256b intro
+for Chaos Constructions 2012 Tiny Intro compo
+by fsqrt
+
+code / frag
+
+System requirements:
+Fast FPU, PPro+.
+Runs fast enough under Windows XP (or pure DOS).
+In case of DOSBox make sure that core=dynamic in .conf file.
+
+Runs infinitely, press esc to exit.
+For tech details see the source file.
+
+gitter.com - compo version.
+gitter_fast.com - two times faster, looks worse.
+gitter_dosbox.com - bigger and slower (DOSBox don't emulate fcomi, fcmov).
+
+Thanks to:
+iq, rrrola, Digimind, w23 and all sizecoders.
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

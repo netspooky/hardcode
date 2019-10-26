@@ -1,0 +1,19 @@
+##################################################
+
+OBJS=pwplib.o snd-w32.o win32con.o setup.o gb.o \
+     locale.o convert.o attrconv.o rastconv.o tty.o \
+     X11.o linuxcon.o snd-oss.o snd-hpux.o lossy.o pvp.o \
+     glyphgen.o colorterm.o decterm.o dumbterm.o
+
+all: ../pwplib.a
+
+### pwplib #######################################
+
+../pwplib.a: $(OBJS)
+	$(AR) r ../pwplib.a $(OBJS)
+
+### pwplib stuff #################################
+
+clean:
+	rm -f *.o *~ ../pwplib.a
+

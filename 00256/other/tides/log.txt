@@ -1,0 +1,189 @@
+Tides Development Log
+
+12/31/2015
+
+Well, it's New Years Eve here in Baltimore and I'm busy coding :) The deadline
+for Synchrony is in 9 days and, as usual, I'm just getting started. I was
+planning on doing a shiny Windows 4k, but I have decided against it for 3
+reasons:
+
+    1. I no longer have time to do this.
+    2. There is no 4k category at Synchrony.
+    3. It's been done to death.
+    
+What I do have time for is the nifty "nano" category ( <= 256 bytes ). I'm
+expecting to see a lot of DOS mode 13h stuff in this category, so my plan is
+to try to turn some heads by doing something different...
+
+I've experimented in the past with writting multiboot kernels. Multiboot is
+a bootloader specification that allows the kernel to forgo the headache of
+setting up protected mode. Conveniently, it also supports VESA. In short,
+this allows one to code in a 32 bit environment with a VESA buffer already
+configured all for the low, low cost of a 44 byte header.
+
+The only bootloader that supports multiboot that I know of is GRUB. As an
+added bonus, GRUB also supports compressed kernels :) I don't know how much
+use this will be in a 256 byter, but in theory...
+
+Since this kernel will be running directly on the metal (no DosBox or other
+emulation layer to slow things down) I'll be able to take advantage of the
+entirety of the (hopefully new and fast) compo machine CPU. This struck me as a
+good occasion to take advantage of the SSE 4.1 instruction set extension to
+write a nice highres raytracer. SSE 4.1 has the nifty DPPS instruction (aka dot
+product) which should be perfect for this endeavor.
+
+But, you say, SSE is huge! Most of the instructions are 3 or 4 bytes long! How
+on earth will you possibly do anything productive in 256 bytes? Maybe you're
+right, but I suspect the size of these instructions is worth it for something as
+parallel as a raytracer. For example, say we want to normalize a vector before
+we cast it out into oblivion. If we were using the regular FPU, at an absolute
+minimum we'd use 3 FMULs (2 bytes each) and 2 FADDs (2 bytes each) for the dot
+product, 1 FSQRT (2 bytes) and 3 FDIVs (2 bytes each). That comes out to 18
+bytes, not counting code to move values into and out of the FPU. To do the 
+equivalent using SSE instructions we have (assume x, y, and z are stored in
+the first 3 positions in xmm1):
+
+    movups      xmm2, xmm1          ; 3 bytes
+    dpps        xmm2, xmm2, 0x7F    ; 6 bytes
+    sqrtps      xmm2, xmm2          ; 3 bytes
+    divps       xmm1, xmm2          ; 3 bytes
+    
+which comes out to 15 bytes. As you can see, in this case it's probably faster
+and more space efficient to use SSE instructions. Whether or not this pays off
+in the big picture we are yet to see...
+
+So, my plan is to code up a simple reflective raytraced sphere in a box with
+a dynamic lightsource buzzing around. 1280x1024x32 might be too optimistic for
+a software raytracer, but time and testing will tell. I'm off for the next 3
+days to research SSE and will hopefully be getting the bulk of the work done.
+
+Wish me luck!
+
+1/1/2016
+
+Happy New Year! I was up till 4:30 a.m. last night writting a prototype in C.
+I'm pretty happy with the result. No SSE intrinsics or any optimization, it runs
+at about 2 - 3 FPS. My code must be terribly suboptimal because I'm only doing
+basic Lambert shading without any reflections of a sphere and a plane at 640
+by 480. I was expecting to do better. Looks like I'll have my work cut out for
+me.
+
+I've started writting the assembly code. The sphere intersection test alone is
+currently using a whopping 180 bytes. Of course it doesn't work at all, it just
+results in a triple fault. Fortunately, VirtualBox supports SSE 4.1 now and has
+a nifty built-in debugger that I'm currently learning to use :) In other good
+news, gzip manages to squeeze a few bytes out even at these tiny sizes, so the
+kernel compression feature of GRUB will come in handy after all.
+
+Apparently GRUB now has an aptly named "multiboot" command. If you enter the
+GRUB command line and type "multiboot /kernel.bin" it will boot kernel.bin
+provided it is in the /boot directory (under Ubuntu at least). Annoyingly, GRUB
+doesn't seem to recognize the latest versions of ext, so its neccesary to keep
+kernels on a seperate partition that gets mounted at /boot now. This all means
+that to boot the intro I'm working on, you'll have to copy it to /boot. I hate
+asking people to use root privledges just to run my code...
+
+I'm taking the rest of the night off to eat and relax with friends. Can't wait
+to show off screenshots of the prototype.
+
+1/2/2016
+
+Spent the day trying to set up a reasonable development environment. Started
+with VirtualBox. It is fast, and has a built-in debugger. But the built-in
+debugger doesn't have the ability to display the values in the SSE registers.
+Thanks a fucking ton Oracle. Moved on to Bochs. Waaaay too slow, but otherwise
+nice. Tried QEMU. Faster than Bochs, and has a GDB stub so I can use GDB to
+debug my code as it runs! My heart jumped! But alas, the GDB stub appears to be
+currently broken :( So back to Bochs for debugging. I'm actually doing
+development in VirtualBox, then loading the VirtualBox disk image in Bochs,
+booting from a GRUB2 ISO and loading kernel from the VirtualBox disk image to
+debug. Not the most efficient development setup, but it's the best I've managed
+to pull together.
+
+I also spent a lot of time trying to get GRUB to boot over TFTP, as Bochs
+has a built-in TFTP server that allows you to host files on the host machine,
+but this appears to be nearly impossiible to get working.
+
+Once I got my debugging environment sorted out I managed to track down my triple
+fault (had the CR0 and CR4 registers configured incorrectly) and got the code
+working well enough to render a sphere without any shading. It's currently
+sitting at a bloated 190 bytes. That only leaves 66 bytes for dynamic lighting
+and background... going to have to figure out some way to trim this down. Good
+thing tomorrow is Sunday and I still have a whole day to work on this before I
+return to "real life" on Monday.
+
+1/3/2016
+
+It was a good day. Finally made some progress on the code. I'm somewhat glad
+that I spent some time yesterday getting a debugging environment set up, but I
+barely used it. I had the good fortune to write mostly bug free code (that
+NEVER happens). The intro is basically finished! Now it's just down to size
+optimizing. It's currently at 328 bytes after a little bit of optimizing. So I
+72 bytes to lose and realistically 3 evenings to do it in. Ouch! It turns out
+that gzipping the intro is still relatively productive even at this tiny size.
+It's currently saving me about 30 bytes. I should play around with different
+versions of gzip and different compression algorithms to see what is most
+productive (note to self).
+
+I've been putting some thought into what I want to name this monster. The first
+thing that came to mind was "Celestial" since it looks slightly lunar (the light
+is rotating about the y-axis), but that's a little too boring. Metoikos is
+giving a talk at the party titled "What is a demoscene?" I thought it might be
+funny to call it "This is a demoscene"
+
+Time for chicken fingers and Trailer Park Boys. More updates tomorrow.
+
+1/4/2016
+
+After spending some timem trying to size optimize the 328 byte monstrosity down
+to something reasonably close to 256 bytes, I finally gave up. It turns out SSE
+instructions are just simply too big to be useful at this size :( It was worth
+a shot. On a positive note, I managed to rewrite the entire thing using the FPU
+in about 6 hours. It's currently sitting at 286 bytes. I feel fairly confident
+that I can shave off the last 30 bytes before the party deadline this Saturday
+(it's currently Monday).
+
+After rewriting it using the FPU I unfortunately encountered a nasty uneven
+gradient on my previously beautifully smooth shaded sphere. Adding a tiny amount
+of noise to the surface did the trick though, and it added an interesting grainy
+effect that I like.
+
+It's amazing how much difference color makes in a demo. The FPU rewrite is
+currently only using shades of blue and it looks like dogshit. Definitely need
+to add some color variation. In the previous incarnation I was multiplying the
+Lambertian by 255 for the blue value and multiplying the Lambertian squared by
+255 to get the green value. That really created some beautiful hues. Hopefully
+I can still fit that color scheme into the final release.
+
+I did find a better program to compress the code with. It's called Zopfli. It
+uses DEFLATE and produces gzip files, but the number of passes it uses is
+configurable whereas regular Gnu gzip uses 15 passes. It only saved me 2 or 3
+bytes, but every byte counts!
+
+Another name idea: "Real men don't use shaders"
+
+1/5/2016
+
+Down to 277 bytes. Now has more color. Need to figure out how to fake specular
+lighting in a tiny amount of space.
+
+1/9/2016
+
+I'm sitting at Synchrony waiting for the next talk. No updates in a few days, 
+but I managed to get it down to 256 bytes and added a blue wave-ish thing in the
+background. I decided on the name "Tides" because the sphere in the center looks
+vaguely like a moon and the blue in the background looks kind of like water
+moving (if you squint hard). Party started yesterday. There was much music and
+boozing last night. Having a great time so far :)
+
+Looking back on the development of this thing, I had a good time. It's not a
+compo winner, but I think it's an interesting idea that's worth sharing. It's
+too slow to run in anything higher than 640 x 480 because I ended up not using
+SSE instructions, but it looks good at that resolution. I'm excited to see what
+comes out of the compos.
+
+Well folks, time to wrap this up. Thanks for reading. I hope it offered some
+interesting insights, or at least was mildly entertaining. Peace, love, and
+demoscene.
+
+orbitaldecay 2016

@@ -1,0 +1,39 @@
+                              oooo o888                               oooo 
+oo ooo oooo oooo  oooo   ooooo888   888   ooooooo  oo oooooo     ooooo888  
+ 888 888 888 888   888 888    888   888 888     888 888    888 888    888  
+ 888 888 888 888   888 888    888   888 888     888 888        888    888  
+o888o888o888o 888o88 8o  88ooo888o o888o  88ooo88  o888o         88ooo888o 
+
+*******************************************************************************
+                                noise's corpse 
+*******************************************************************************
+-------------------------------------------------------------------------------
+                                 Release Notes
+-------------------------------------------------------------------------------
+A compofiller for Flashback 2012.
+
+Requires something like a 9800GT from my testing.
+My first intro, so meh to people for hating coder colors.
+
+Thanks to Sunspire for bugtesting on ATI drivers.
+
+-------------------------------------------------------------------------------
+                                 Credits/tools
+-------------------------------------------------------------------------------
+code/design: mudlord (http://mudlord.info)
+msx: kulor
+
+*uses OpenGL (http://www.opengl.org)
+*built with MSVC2010 (http://www.microsoft.com)
+*shaders built with RenderMonkey (http://www.amd.com)
+*uses uFMOD (http://ufmod.sf.net)
+*uses Shader Minifier by Ctrl-Alt-Test (http://ctrl-alt-test.fr/minifier/index)
+*uses kkrunchy by ryg (http://farbrausch.de)
+*uses a texgen by toxie/ainc (http://www.ainc.de/Texture.htm)
+*initial base code by iq/rgba (http://www.iquilezles.org/)
+
+
+--------------------------------------------------------------------------------
+                                 Greetz
+--------------------------------------------------------------------------------
+Gargaj, Rez, Knoeki, niels, people in #scenesat and #revision

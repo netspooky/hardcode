@@ -1,0 +1,223 @@
+ÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄ
+                              Û        ÜÜÜ         ÜÜÜÜ
+                       ÜßÜ    Û      Üß   Û       Û    Û
+                       Û  ßÜ  Û     Û     Û       Û  Üß       GUS
+                       Û    ßÜß     Û     Û       ÛÜß        compo 
+                       Û            ßÜÜÜÜß        Û         version
+ÄÄÄÄÄÄÄÄÄÄÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ NOP is a 64kb Intro made for the Saturne Party III hold in Chelles (France)
+the 26th, 27th, and 28th April 1996.
+
+                                  CREDITS (A-Z:-)
+
+                              Code: Pollux / Olympus
+                             Music: Toal Nkor / Real Tech
+                           Objects: Pollux & Toal Nkor
+
+             The Gus Player was written by FrontMan of Crew 242
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                            HARDWARE REQUIREMENTS
+
+80386 compatible processor or better. I (Pollux) probably won't support 386CPU
+      a next time. Even the 486 age is over, that's now P5 rules. I think
+      NOP won't me viewable on a 386.
+80387 NPX, or 486DX and P5 enclosed FPU. Sorry for those who haven't got
+      a numeric processor, you should run an emulator (NOP will take a lot
+      of time to initialize...).
+ 580kb of conventionnal memory.
+1136kb of XMS memory (because 640kb isn't enough for every one ;-). NOP can
+      run with or without EMS but for speed raison you should kill your EMM.
+Gravis UltraSound for the compo version. Watch out for a SB version soon.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                  APOLOGIES
+
+Sorry for the slow code used but I hadn't enough time to work a lot on it.
+And since I have a P5 I don't realy smell what is slow or what is fast.
+
+ToalNkor said "Chips are shits" and he marked his one 5.5/20.
+
+Some people think that intros musn't look like mini-demos as NOP do. I am in a
+full aggree with them. I love these one-effect-style intros like Bill G Force
+(Complex) or Magic Carpet (KLF). Unfortunatly I am coding in a learning aim,
+I prefer to make a lot of small effects than a big one for now. There is a lot
+of code methods I still didn't have, that's why I try to do various things.
+Contact me, I have a lot of questions for you, hehehe...
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                           TECHNICAL INFORMATIONS
+                            and SELF-CRITICS :-)
+
+All 3D objects of this intro was rendered with environnemental mapping rules.
+Except some of them wich were mapped in addition. I did not want to call it
+phong, Mythos/RealTime (hello) would have killed me.
+
+The idea of pixel mix used in the tunnel effects is taken from the demo
+Project XYZ (Orange).
+
+There are no credits for the font used because it comes from your Bios. Look,
+it not the same on each machines...
+
+Except the terribly slow julias wich are only 160x100 (16 colors), the whole
+demo run in 320x200.
+
+I apologie again for the slow julia, it's because my inner loop is (shame on
+me) a CALL et I used a too high precision MUL (this should have no effect on
+P5). Perhaps I should have done that in two colors, it would have been so
+fast...:-)
+
+3D objects aren't computed by NOP. I hadn't enough time and courage to do this.
+
+I use a simplified normal vectors computation so all the object do not look
+like they should. But who cares ?
+
+0 liter of Coca Cola were drinked during the making of NOP.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                           POLLUX'S MUM (SPECIMEN)
+
+PLX: You won't love the music, the size constrained the musician to use
+     very small samples.
+MUM: Small what ? The trumpet (?) melody is nice but why didn't he use some
+     real instruments for the backround ? The whole music sounds synthetic.
+
+MUM: Baaaaaa! This look like some rotten cellular virus.
+PLX: It's a julia !
+MUM: She isn't beatifull.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                  CONTACTS
+ToalNkor doesn't spread his adress for some personal reasons, but if you
+wanna contact him, you should contact Guen, the swapper and gfxman of
+Real Tech.
+
+Guen / Real Tech :  
+                   ³Romuald Genevois
+                   ³( Guen / Real Tech )
+                   ³3C Xavier Marmier
+                   ³25000 Besan‡on
+                   ³France
+                    
+Pollux / Olympus (I am looking for coder contacts, but not only for):
+                               ³Alexandre Duret-Lutz
+                               ³( Pollux / Olympus )
+                               ³9 Avenue du 29 Aout 1944
+                               ³51430 Tinqueux
+                               ³France
+
+Both of us can read 100Mo Zip disks and 3.5" floppy disks.
+Answers are guaranted.
+
+OLYMPUS HQ and REAL TECH HQ -> DUNE BBS : +33-1-48790422
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                  GREETINGS
+Respects (A-Z):
+     
+     Abaddon ú Acme ú Analogue ú Anarchy PC ú Arkham ú Believe ú Camora 
+    Cascada ú Capacala ú Coexistence ú Complex ú Core ú Cubic ú Darkzone
+     Dentifrice! ú Eclipse ú EMF ú Epical ú Epsilon ú Euphoria ú Gollum
+     GroundZero ú Hemoroids ú Iguana ú Impact Studios ú Imphobia ú Jamm
+      KLF ú Kloon ú Legend Design ú Lego System ú Logic Design ú Noice
+     NoooN ú Olympus ú Omicron ú Orange ú Plant ú Prime ú Psychic Link
+  Pulse ú Rage ú Real Tech ú Real Time ú S!P ú SRT ú The Clan ú TIC ú TNDC 
+   TNF úTran úTriton ú Valhalla ú Xography ú Wild Light ú Wisdom 
+                             Zuul Desing
+                
+                    and all other PC groups we forgot...
+             and all our firends in the amiga and falcon scene
+
+Personnals greets from Toal Nkor (A-Z):
+
+Acid pixHell/Aph.: The modules will come as soon as I get new
+                   disks. anyway continue coding (And not only
+                   endscrollers!) and making good demos
+Bill gates/$$$$ :  Have you heard that a guy has made a Windows 95
+                   emulator on C64 that runs faster than yours
+                   on a P90 ? Fucking learn to code !
+Cafard/Saturne :   Nice "Progressifs" ath the Volcanic, continue
+                   on this way (Why do you want to do only midi ?)
+Cash/Mentasm :     The disks will come soon. I had problems finding
+                   720Kb disks 4 U.
+Corinne :          A lovely brunette with wonderful green eyes !
+Hi$c@n/Aphelie :   As for AP, the modules will come soon. Continue
+                   making good XM's like Strike
+Lizardking/Triton: The lyrics I promised you will come soon. I'm
+                   looking forward 4 meeting you again (Maybe at the
+                   14th july Concert ?)
+Maf/Silicon :      Nice meeting you at home and nice modules you did,
+                   hope we will stay in contact after you will move.
+Muriel :           Watch the sooncoming slide-show by Muriel & ToalNkor
+                   It will be the first 100% photographic scan slide- 
+                   show. (DGM will kill me 4 this !)
+Pollux/Olympus :   It was gr8 working on NOP with you. You improved
+                   your code a lot since the wired. Looking 4ward
+                   4 making another prod with U :)
+Prise de tˆte :    You are a kool bunch of people. Continue making your
+                   mag ! (Issue #11 soon !)
+Tai-pan :          Thanks for writing that lovely virus that infected
+                   all my >64000 bytes files !
+ZAP :              Stop singing in the train and in the amphi and compose
+                   new modules ! Don't 4get that Guy b‚art has overtaken
+                   lightspeed aboard a playmobil submarine !
+
+Personnals greets from Pollux (A-Z):
+
+Bitline/Wisdom :   Can you send me you palette editor before the book you
+                   wrote ? Go on with your game, when will you send us a
+                   preview ?
+Dr Bios :          Ah, what's up with you ? Did you finish your progy ? 
+                   Does this intro suit you ? There is also bitmap effects.
+FireDragon/TNDC :  Silence from you. Did you get my answer ?
+JFSeb/SRT :        You will probably get this intro on a CD before I could
+                   send it to you (I mean: before you answer me of course ;-).
+MaxX :             You did not expect a messy from me here, did you ?
+                   Why did you stop POVing since you get a P5-90 ? Continue !
+                         "Le logarithme NOP-fait-rien. (MaxX)"
+Mythos/RealTime  ô:Good luck for this summer. I would have been happy to
+Scarfman/Realtimeõ see you at the Saturne party place...
+One/PC Addict :    I made you some advert in this file, look further.
+ToalNkor/RealTech: Congratulations for "Corinne Dreams II" and "Sundgau down".
+TNF :              I was said by JFS you should contact us. Well, waiting...
+Sherlock / Wisdom: My official algo teacher ?
+
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+      Sorry guys, next section isn't in english because it's an add for a
+                         french amator magazine.
+ÚÍ-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-Í-¿
+³Buvez PC ADDICT ! Eventuellement lisez-le avant. Pour recevoir ce g‚nial      ³
+³fanzine d'une quarantaine de pages et sa disquette ‚crivez …:                 ³
+³    ú PC Addict ú 274 rue des petits moulins ú 62215 Oye-Plage ú              ³
+³Joignez un chŠque de 30Frs … l'ordre de Chritsophe Dupas et indiquez au moins ³
+³votre adresse. Dans PC Addict vous trouverez des articles sur la programmation³
+³PC (ASM, C,...), des tests de jeux, des bidouilles diverses, etc... Vous avez ³
+³aussi le droit d'‚crire. Le num‚ro 4 (Mars 96) est disponible. Le num‚ro 5 est³
+³pr‚vu pour fin Juin 96. Redemandez confirmation des prix avant de commander   ³
+³quoi que ce soit d'autre.                                                     ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+ You like diskmags ? Then you will LOVE Defcon, the new international
+ multilingual diskmag. 1st issue out soon ! All topics ! You can write 
+ articles in French, English or Spanish. All articles will be translated
+ in the two other languages and you will be able to choose your language
+ by pressing F1-F3 ! You can contribute by sending Articles or modules
+ (200 Kb or less, S3M or MOD) to Guen's address (Specify for defcon)
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                                 CLOSING WORD
+                                                            
+                               \,__,/
+                               (o  ù)  
+                                (oo)   Moooooooo!
+                                                                   
+                  Soon a demo about the ESB contaminated cows ?
+                            Who want to make that ?
+                                                                   
+
+
+
+                                                 Pollux and ToalNkor.
+
+eof

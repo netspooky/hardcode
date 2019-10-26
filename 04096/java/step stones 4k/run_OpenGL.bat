@@ -1,0 +1,1 @@
+ java -Dsun.java2d.opengl=true -classpath a.zip A

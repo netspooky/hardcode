@@ -1,0 +1,5 @@
+for the orgas:
+
+if possible, run on a nvidia-card in 800x600 and 44100/16 bit sound :)
+
+thank you.

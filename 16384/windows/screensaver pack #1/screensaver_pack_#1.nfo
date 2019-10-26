@@ -1,0 +1,17 @@
+quite - screensaver pack #1 
+
+credits
+	unc
+	ized
+
+requires
+	d3dx9_37.dll
+	a16b16g16r16f
+	a32b32g32r32f
+	sm 3.0
+	
+remarks
+	use escape to exit
+
+using
+	upx

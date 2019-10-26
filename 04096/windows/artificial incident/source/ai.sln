@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ai", "ai.vcproj", "{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+		Unpacked = Unpacked
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Debug.ActiveCfg = Debug|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Debug.Build.0 = Debug|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Release.ActiveCfg = Release|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Release.Build.0 = Release|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Unpacked.ActiveCfg = Unpacked|Win32
+		{67DE73A3-58A3-4EF7-8E8F-C4784E221D8D}.Unpacked.Build.0 = Unpacked|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

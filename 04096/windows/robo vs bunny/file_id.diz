@@ -1,0 +1,14 @@
+Title:                Robo VS Bunny
+Created by:           Stepanov Andrey, 2008 ( ICQ: 129179794, e-mail: andrewstepanov@mail.ru )
+3D Graphics software: Open GL 1.1
+Packed by:            Crinkler 1.0a (Jan  7 2007) (c) 2005-2007 Aske Simon Christensen & Rune Stubbe.
+Tested on:            Windows 2000, Windows XP
+
+
+
+Instead of making "glowing-polygons" 4k demo I decided to do something else, based on following uncommon concepts:
+1) Animated movie. It is meaningless, but it is a movie - not just a set of effects.
+2) Skeletal animation. 
+3) Speech synth. Yes, robot SAYS something. Speech quality is really bad, I know. But what you've expected 
+   from 4k demo? :) Actualy the biggest problem is not in file size. I could not find any theory, explaining 
+   how to do good speech synth.

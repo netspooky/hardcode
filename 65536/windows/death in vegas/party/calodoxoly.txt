@@ -1,0 +1,126 @@
+    .___             __  .__      .__       
+  __| _/____ _____ _/  |_|  |__   |__| ____   ___  __ ____   _________    ______ 
+ / __ |/ __ \\__  \\   __\  |  \  |  |/    \  \  \/ // __ \ / ___\__  \  /  ___/ 
+/ /_/ \  ___/ / __ \|  | |   Y  \ |  |   |  \  \   /\  ___// /_/  > __ \_\___ \ 
+\____ |\___  >____  /__| |___|  / |__|___|  /   \_/  \___  >___  (____  /____  >
+     \/    \/     \/          \/          \/             \/_____/     \/     \/ 
+                                  
+                                                                    by calodox
+                                                dake & fred dancing with genox
+
+                                        a fucking subjective sixtyfour k intro
+windows&opengl        live at the mekka@symposium 2001, fallingbostel, germany
+------------------------------------------------------------------------------
+technical kuisine:
+   it worked on an ATI Rage 128 GL 
+                even on a NVIDIA GeForce 256 
+                  and a rumour says that it worked on a TNT2 
+                                                              isn't it magic?
+
+      (don't dream, we doubt that your voodoo card will eat it)
+
+and fuck the penguins.
+
+ www.calodox.org - demoo.calodox.org - cde.calodox.org - dream.calodox.org
+
+------------------------------- SPECIAL COLLECTOR PART- Only for the groopies
+
+yeah, yeah. we decided to stop the business, for many private reasons.
+ok. time, money & chicks. kinda standard excuse... but what do you want,
+we are all human beings. we must say that we really enjoyed our demoscene
+fix. and we decided to try to share some part of our best moments by
+explaining some secret stories around some productions. the fun in the
+scene is around that, meeting people, boozing with friends, and of course,
+doing demos. and that's certainly where we had the most fun. if you
+don't like our prod's and other work.. simply close this file, and delete
+it. and avoid showing it to your parents. are you 18, btw?
+
+                                                            dake & fred
+
+BRING IT BACK
+we did this intro for the arf!party in france, a party that was only held
+once.. with the only true arf!spirit. the intro itself was a hell to code
+for dake, and we really enjoyed watching him doing that.. so, we'll more
+concentrate on the party itself :)
+our second trip to france with the official calodox car aka "Choupette", leto's one.
+(know that we ran out of petrol the last time we went to a french party.
+the car is very tricky, it never really shows you when you have gas or not.
+it's a bugged car.. in a way :)) nice trip, nice adventure.. we arrived with
+several hours of delay.. as we somehow got lost in Lausanne's suburbs, trying
+to find a friend's house. (lausanne can really get big, sometimes).
+going home got even more tricky.. imagine yourself entering the car, turning
+it on.. and suddenly, you realize that the gas gauge was stuck.. and vlaam..
+it got down to "empty". "hum". yeah.. that's what we said. we had maybe some
+gas for few kilometers left. try to find a station in Lyon's suburb on
+sundays. cool trip. we asked some old guy that answered us "but it's sunday,
+kids". we still don't remember if we got angry because of the "kids" or his
+stupid statement. anyway, we finally found some gas station.. accepting,
+of course, only those stupid french credit cards. (europe.. hehe.. what a
+dream). so.. we waited until some nice woman came to get some gas, and, after
+some negociations, gave us her card. (note, we didn't racket her.. we paid
+for the gas.. no worry.. hehe. btw, thank you madame, if you happen to read
+that file). no gas problem.. this time. nice, isn't it? :)
+ah yeah.. special event, leto somehow followed the wrong lane at the customs
+when we left switzerland.. means we drove around the customs building.. and
+nobody halted us. seems to be a good way to smuggle stuff. (imagine 3 guys
+screaming to the driver: "DRIVE! DRIVE!")
+
+HIATUS
+we are still surprised, how a production can become something in few days.
+some notes about it... one week before the Lucky&Tigrou Party 3 (pronounce it
+LTP.. it's easier) the intro had no text.. and we still hadn't the idea to
+put a text. hehe, rather weird, no? as finally, the whole atmosphere is
+somehow created by the text itself. hiatus is certainly one of our biggest
+hack.. but I (fred) love it that much.. creating some atmosphere in a 64k..
+so cool. (fucking subjective). when we arrived at the LTP, leto and myself
+had only one thing.. a ZIP disk with.. the sourcecode of the intro, normal..
+it wasn't finished. there you can see the scene spirit, it's so fucking
+easy to find a computer (thank you lluvia) and some guy with a zipdrive
+(thank you that guy).. and some hours of code.. and the intro was finished.
+we'll always remember this compo, the prod's were so great. only 4 entries,
+but a fucking great level (and it's fucking subjective, again). IMHO, tpolm
+should have finished 2nd.. but well.. french and conceptual design.. :)
+(je sais flod, toi, t'adores! :) anyway.. getting off topic.
+some famous quote by krafton: "cool work guys, you even synced the background
+fx to the music.. amazing work.. great" ..we didn't have the courage to tell
+him that.. it was actually fucking slow and the weird syncro was more a
+framerate problem. hehe..
+and big thanks to the LTP for doing oldshool gfx competitions.. people miss
+that.
+
+I'M ABSTRACT
+we are insane. and we are very sorry about that. we ripped a mp3 of alec
+empire, and we don't care. we showed weird cannabis trip, and we don't care.
+it's more a wild demo than a demo. anyway. but this is the best example of
+what we meant, with "fun doing a demo". for the story... dake was about
+to leave for the army, 15 weeks of weird bullshit.. that's why he didn't show
+up at the VIP2. 2 days before the party, wednesday, in other words.. he came
+to my place to.. have some fun. :) (hey.. no sex, you wicked guys). and
+we decided to make a demo for the VIP2.. on friday :). some shooting, some
+funky layers.. and dake started the work on the evening.. it was a hell of
+work, i'm certain about that.. and don't hesitate to read the readme.txt with
+the demo to get the other story about it. so great show on the big screen,
+i really enjoyed it. and now to all the people who started some flame about
+the commercial mp3 music and so on.. you didn't get anything about the
+scene. a prod full of fun, and somehow a therapy to forget the army.. that's
+what i see in that demo. and alec let us use his music.. btw. but of course,
+nobody cared. hehe. 
+
+LISTEN TO THE PEAT
+the whole story started from this stupid Levis advertisement. Fred told me
+(dake) that we should somehow get that yellow puppet for the incoming
+Arf!Party, or something that would at least look like it. Fred said "a yellow
+sock", I answered I'd try to make one. As I'm a poor at needlework, I asked
+my loved slaves : dake mamma and dake sista. I quickly printed a picture of
+the Flat Eric and added "Try to get something looking like this thing" :) An
+old yellow shirt, a tortured cat's puppet eyes & nose, about 4 hours of
+intensive work (my sister gave up after 1 hour) and voila, Louis-Theodore
+Peuh was born, he had 2 arms but the bottom was missing :) Anyway, he was
+ready for partying and was quite a star there, hehe. Yes/OJ loved it at
+the first sight. "Let's shot some funny videos". Oh yes, that was funny
+for me to stay behind Yes, trying to keep the yellow pupp on his shoulder
+while not being on the video, had to nearly walk on knees at the partyplace :)
+It was in the box. A few weeks later, Yes proposed to make a demo out of these
+videos as he was going to Takeover and it had lot of success there...
+unfortunately, we hadn't attented that party and we always missed the
+wonderful applause that had been reported...

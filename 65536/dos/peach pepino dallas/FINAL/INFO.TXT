@@ -1,0 +1,23 @@
+"peach pepino dallas"
+(final version)
+sublogic and blocc at compusphere invite.
+
+done entirely after the compo deadline.
+
+raytracer done by flex.
+csg and general code done by kravitz.
+music done by jus and poison.
+picture and font from JoLLy ApoLLo done by tmk
+(who is currently chasing japanese girls in tokyo ;)).
+
+dallasw.exe = windows executable, req. dx3.
+dallasd.exe = dos executable, vbe2.0 + gus
+p2 with lots of mhz prefered, mmx is required.
+32mb ram seems to be enough.
+
+/bppXX sets prefered color depth for windows version,
+valid values are 32, 24 and 16.
+
+special thanks to the guy with the zip-drive, and
+dan and anton for lending us their machines for a
+few! hours.

@@ -1,0 +1,52 @@
+
+     __._        _.____   _.____   _.____   _.__    ____._    ____._
+   _/  |/________\|_   \__\|_   \__\|_   \__\|__)__/  _ |/___/  __|/____
+  _)   _/      /   /    /   /    /   /    /      (_   __|  (_____      (_
+  \    \      /        /        /   /     \       /         /   /       /
+  /_____\_____\________\________\___\______\______\_________\___________\
+ - -diP--------------------------------------------------------------uP!- -
+
+                                  Sult
+                         3rd at Break Point 2009
+                            4kb intro compo
+	
+Credits
+=======
+Code:      Psycho
+Direction: Maytz
+Synth:     Blueberry
+Music:     Booster
+
+Compatibility
+=============
+OpenGL, long shader. Don't know yet if this requres PS3.0 og PS4.0 hardware.
+Tested working on Geforce 8600 and Radeon 4850, XP/Vista.
+Be aware that the music will take 30-60 seconds to calculate.
+
+Info
+====
+Ray marching / Sphere Tracing used for all rendering. 
+Music done in our new FM synth. 
+
+Tools Used
+==========
+RenderMonkey
+MSVC8
+Nasm
+Renoise
+Crinkler
+(own GLSL compactor/obfuscator)
+
+Updates
+=======
+-Music was played without the echo/reverb filter, fixed.
+-Improved a few cameras
+-Swapped 2 parts
+-Changed the end part
+
+
+Additional info
+===============
+www.loonies.dk
+
+

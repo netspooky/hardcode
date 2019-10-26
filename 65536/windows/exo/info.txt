@@ -1,0 +1,33 @@
+
+Exo, by inque 
+(fixed version)
+
+:: release info :: ----------------------------
+
+a 64k demo released at Outline 2010.
+
+partially made live at the party place.
+
+note: this fixed version includes a fix for 
+a huge rendering issue and it also includes a
+proper config dialog box (and it still fits in
+64k).
+
+:: reqs :: ------------------------------------
+
+uses pixelshader 3.0. requires direct3d 9.0.
+
+if it complains about a missing d3dx9_42.dll, 
+you'll need to install the latest DirectX 
+runtime (from August 2009, or newer).
+
+note: we didn't have time or space to optimize.
+
+:: credits :: ---------------------------------
+
+code/visuals -- glow
+soundtrack/direction/visuals -- izard
+
+:: cya :: -------------------------------------
+
+www.inque.org

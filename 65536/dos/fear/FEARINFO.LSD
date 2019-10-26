@@ -1,0 +1,111 @@
+This document contains information about Fear (-a one man project-).
+Fear is shareware ... => means you're not to use it for commercial purpose
+without my approval.
+
+part1: The StarWars-scroller
+----------------------------
+
+Well, I took one of the fonts that came with the 'Demomaker v?'but it's a 
+shame there are 15 colors in the font so I couldn't fade out as smooth as 
+I would have liked to......
+Concept and (fast!) 386+ coding by LaserDance.
+
+part2: Plasma-breakout with magnifying glass
+--------------------------------------------
+
+I got a table out of a source (from pelusa's fake-intro) and rearranged it
+to make it a real fast code (again 386+ 32-bit code).
+Concept and coding (offcourse) by LaserDance.
+
+part3: Vectorball and box morfing and merging
+---------------------------------------------
+
+This one was (I think) a great concept !
+If you turn on you monitor's brightness you might see that BRRB gives a
+different color from BRRW (B[lue], R[ed], W[hite]).
+That means that you can see the blue part in the back of the scene trough
+the rest of the parts .... It gave me a lot of color-calculations and a
+minor headache but hey, It worked !
+And offcourse 386+ 32-bit code by LaserDance.
+
+part4: BallScroll
+-----------------
+
+The Future Crew once said that scroller suck (PANIC) but I think this one's
+real cute.
+I wrote a special routine so that the scroll can easily be changed by a table
+and you can get lots of different effects in your scroll (like the turned
+around parts and the ball-like shapes).I used the same routine for the text
+piece of the end-part.
+The code ..... (-guezz what and by who-).
+
+part5: Vectors trough a chessboard 
+----------------------------------
+
+After making part 3 this was real easy.
+And that's all there is to know about it .......
+except offcourse the coding ....... blah blah blah blah ......
+
+part6: Bitmap rotating (and magnifying glass)
+---------------------------------------------
+
+OK it's the same glass as in part2 but I liked to show that there isn't any
+need of switching graphic-modes between a glass routine and a bitmap-rotation
+routine (as in second reality).The reason I clipped it was because of all
+poor 386 owners out there that wouln't get it smooth otherwise.
+This time there was no need for 32-bit instructions (I believe) so I guess
+this is the only part that would run on a 286 but I can asure you it wouldn't
+for speed-problems.
+Concept and code by Laserdance.
+
+part7: Plasma-like lines 
+--------------------------
+
+This one I created a few days before the Bizarre party.
+There isn't much to say about it, except that all movements and
+color-refreshes are done random, so the real routine is infinite.
+
+part8: Virtual-reality Tunnel
+-----------------------------
+
+During my latest experiments on virtual-reality I programmed this tunnel-
+racing and I liked it so much that I decided to put it in the intro.
+I used a lot of 32-bit instructions in this baby and I guess I could have
+made it a lot easier (without all the virtual-reality formula's) but it
+workes and I think it runs smooth enough.
+
+part9: The end-part
+-------------------
+
+If you've read all about the previous parts you'll know by now which 
+routines form this scene so I won't bother you anymore with the info.
+Except the info about the concept and code (<=LaserDance?).
+
+Ok then there's allways the fabulous music.
+I really liked composing them on the HscTracker and I hope you enjoyed'em...
+The second song is covered from Bobby O.'s 1982 hit "She has a way".
+
+So 8 parts of code and 4 songs ... all in less than 64K !!!!!!!!!!!!!!
+
+I'd like to dedicate this intro to my friend + Michel Meurink +
+                                                 1972-1991
+
+If you'd like to contact me,
+If you'd like to join me,
+If you have any suggestions or remarks,
+Or if you'd like to write dirty to me,
+
+Contact me by E-mail at: LASERDNC@DUTIWS.TWI.TUDELFT.NL
+or write to my home-adress :
+LASERDANCE
+Hendersonstraat 331
+2286XB Rijswijk
+Holland
+
+you can also leave a message at my home-BBS:
+Sledge-Hammer BBS
+(++31-70-3681743) also a great BBS for programmers & demofreaks
+
+Well ... time to fall back into reality for me .....
+
+LaserDance out ...

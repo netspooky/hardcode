@@ -1,0 +1,40 @@
+BBBB   III  TTTTT PPPP   OOO  PPPP  L     EEEEE RRRR
+B   B   I     T   P   P O   O P   P L     E     R   R
+BBBB    I     T   PPPP  O   O PPPP  L     EEEE  RRRR
+B   B   I     T   P     O   O P     L     E     R   R
+BBBB   III    T   P      OOO  P     LLLLL EEEEE R   R
+
+wE ARE PROUD TO PRESENT OUR BRAND NEW 4K INTRO AT BP05
+
+BBBB  PPPP   OOO   SSSS BBBB  U   U N   N N   N Y   Y
+B   B P   P O   O S     B   B U   U NN  N NN  N  Y Y
+BBBB  PPPP  O   O  SSS  BBBB  U   U N N N N N N   Y
+B   B P     O   O     S B   B U   U N  NN N  NN   Y
+BBBB  P      OOO  SSSS  BBBB   UUU  N   N N   N   Y
+
+GRAPHICS: lunatic
+   MUSIC: ddeml
+
+BIG thanks to MUHMAC for helping us to wring out the
+last overhead bytes with a dedicated optimization of
+his 20to4 tool!
+
+HONESTLY we are NOT proud of this release. :-/
+
+LUNATIC designed a full featured raytracer using
+photon tracing and a space partition tree capable to
+perform real time lighting, shadow casting, reflection
+and refraction. Unfortunately the raytracer was too
+large...
+
+NEVERLESESS you see an easter bunny made out of
+142.000 (in words onehundredfourtytwothousand)
+spheres.
+
+THE MUSIC was originally planned as a remake of CLOSE
+TO ME from THE CURE which sounded pretty cool in the
+original draft. Unfortunately the music was too
+large...
+
+SO YOU SEE a mutilated raytracer with mutilated music.
+The good thing: It is easy for us to get better ;)

@@ -1,0 +1,71 @@
+harsh
+1k intro
+for Assembly 2012
+by fsqrt and Ye Olde Laptops Posse
+
+Idea, system code, synth -- w23/yolp
+3D, some optimization -- frag/fsqrt
+
+System requirements:
+  x86 linux
+  very fast quad-core cpu
+  /dev/dsp
+  /dev/fb0
+
+Tools:
+  nasm
+  gcc
+  coffee
+
+Notes:
+  The initial idea was to save space for the synth
+  by not using OpenGL/shaders and make small software sphere tracer.
+  And we have failed... or not?
+
+How to run:
+  0) Make sure you have writable /dev/dsp and /dev/fb0. See below for instructions
+  1) Switch to console (Ctrl+Alt+F1; return to X: Ctrl+Alt+F7/F8{usually})
+  2) Check that the required device files above are present and writable by you.
+  3) Use the `fbset' (install it from your distro package system) utility to get 
+     your current framebuffer video mode and color depth.
+  4) Change into a directory with right resolution.
+  5) Run any binary you like the most.
+  6) If you experience desync, try another one.
+
+  If you don't have these fancy /dev/{fb0,dsp} devices, please consult you distro
+  docs on the matter of how to set them up.
+
+  If you're unlucky enough to run Ubuntu and therefore lack the /dev/dsp device,
+  there's one solution that seems to work: http://osspd.sourceforge.net/
+  There's also ubuntu-setup.sh script that will do all the dirty work with dsp for you.
+  Don't forget to drop a humble tear for removed OSS support in Ubuntu.
+
+  As of framebuffer, sorry, you're on your own. Expect eerie conflicts with binary drivers.
+  (hint: uvesafb works best, but you'd need v86d for that even on 32bit linux)
+
+Thanks to:
+  Orbitaldecay
+  Digimind
+  Nonoil
+  Pirx
+  Quite
+  Rrrola
+  Systemk
+  T-rex
+  Throb
+  Titan
+  Tomohiro
+  T_s=rtx1911=
+  Youth uprising
+  Sensenstahl
+  Quasimodo
+  Lft
+  All sizecoders!
+
+And especially Assembly Summer 2012 organizers, you guys are awesome!
+
+http://yolp.omgwtf.ru/
+me@w23.ru
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

@@ -1,0 +1,33 @@
+-------------------------------   tAAt  2001   -------------------------------
+
+E K O T E K O                                              Copyright 2001 tAAt
+Contribution to Assembly'01 Intro Competition
+
+
+Intro crew: tArzAn, vEiVi, VAviSTUS, puOLIjOhdediodi,
+sydänlääke, paparazzi, RallivAIhDE, keLmUharppU
+
+
+1 GHz or faster computer with a decent graphics card and at least 128MB of
+memory recommended. Win9X and Win2K supported. Requires some recent enough
+version of DirectX.
+Get it from http://www.microsoft.com/directx/.
+
+Uses MiniFMOD and TinyPTC.
+
+
+http://tAAt.fi                                                  tAAt hallitsee
+
+------------------------------------------------------------------------------
+                         ,xxx,                    .xx,
+     .,.               .x««««««.                 ,«««««,             .,.
+    x«««;,            .«««P~%«««.               ,«««XX««,          ,::««,
+  .,««««;:,         ,;«««P' .%«««,             ,«««P;;X««p,     ..,:::«««,...
+.xxx««««XXXXXXXXXXXX«««««xxxxx««««XXXXXXXXXXXXX««««xxxx«««XXXXXXXXXXXX«««xxxx.
+  .x«««P::~~~~~~~~:X«««P;~~~""T««««""""""""""x««««~'`;;T««««P~~~~~~::;«««x.
+   ««««;:        .««««P;;      ;««««"       ,««««P   `::X««««,      ::;«««
+  :««««;::      ,««««P;;        ;««««.     .««««P     `::X««««,     ::;«««x
+    ~%«««;:.   :««««P;;          %««««.   .««««P       `::Xx«««;      :;lXXxX.
+        `"~     ~~~~''            `~"~     """"          ~~~~~~         `~~~`
+------------------------------------------------------------------------------
+Internet home: http://tAAt.fi  ---  E-mail: tAAt@mail.com  ---  IRCnet: #tAAt

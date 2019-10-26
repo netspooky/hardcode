@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lavos", "lavos.vcxproj", "{15F8BB47-EB91-4918-B9F1-FB4E1DDB7546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15F8BB47-EB91-4918-B9F1-FB4E1DDB7546}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15F8BB47-EB91-4918-B9F1-FB4E1DDB7546}.Debug|Win32.Build.0 = Debug|Win32
+		{15F8BB47-EB91-4918-B9F1-FB4E1DDB7546}.Release|Win32.ActiveCfg = Release|Win32
+		{15F8BB47-EB91-4918-B9F1-FB4E1DDB7546}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,61 @@
+      _____ _   M A T R I X
+_____ |    \__________________ ______:___)\
+\__ _\:/_   \___  __ ___ ___  \__)   |    /
+_/   \_/     \__  \_  |  _:/ _/  \__ __ _/
+\     |      /|/   /  |   |   \_  _  |/   \
+ \____|____/__:___/|__|___I_:__/_/   |_____\
+[==============================(_____|=[JIG]
+                  L U X O
+             g:cube:potpourri
+
+            1st at Dialogos 99
+        64K intro - final version
+    (PII, 12MB, VESA 2.0, GUS, SB/AWE)
+[==========================================]
+
+code:  digisnap
+gfx:   nero
+sound: muffler
+
+thanks to Markus Oberhumer and Laszlo Molnar for UPX (used in the party
+version) and Charles Scheffold and Thomas Pytel for pmode/w (used in the
+final version)
+
+our e-mail addresses:
+aurelius_mtx@hotmail.com (Aurelius)
+digisnap@cs.tu-berlin.de (Digisnap)
+nero@cs.tu-berlin.de     (Nero)
+spline@cs.tu-berlin.de   (Sharon)
+skyphos@mindless.com     (Skyphos)
+
+visit our homepages at
+www.cs.tu-berlin.de/~nero
+www.cs.tu-berlin.de/~digisnap
+
+greetings to:
+Abyss
+Amable
+Bion Fx
+Bomb
+CNCD
+Cubic & $een
+Darkage
+"Elitegroup"
+Elyssis
+Freestyle99
+Gods
+Haujobb
+Hirntod
+Hugi
+Kolor
+LKCC
+Never
+Nomad
+Nuance
+Numb
+Scoopex
+Smash Designs
+Suburban
+Sunflower
+The Black Lotus
+Tpolm

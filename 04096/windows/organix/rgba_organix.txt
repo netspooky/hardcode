@@ -1,0 +1,63 @@
+
+              _._________ .______    .________  .______/\_
+               |    ____/_|  ___/____|  _____/__|   ___  /_
+               |   __    /|  \      /_   ___   /_    _    /
+               |   \   .:\|   \__  .:/   \_   .:/    |  .:\
+               |____\     \_________/__________/_____|_____\
+               -//---\_____\------------------------lm!--//-->
+
+
+                                  organix
+
+                     landing.in.the.forests.of.ixaleno
+
+
+
+             executable 4k graphics by rgba [www.rgba.org] 2008
+
+                              for function 2008
+
+
+
+ .the.story.
+
+   this one was a non planned production. it started and nvscene as a very
+   quick gfx for the "organic" fast graphics competition, without any kind
+   of direction. two weeks later i decided to resume the work and see if i
+   could get anything interesting out of it without any ambient occlusion,
+   global illumination or shadow casting. my new games was to procedurally
+   draw the lighting, on top of the shapes and textures. and i gave myself
+   fourty hours, after which i was not that satisfied. well, at least i've
+   proved myself that i cannot get the images i look for without resorting
+   to gi techniques. drawing the ambient occlusion by hand is just not the
+   same.
+
+
+.the.code.
+
+   the image is again raymarching on a distance field, where this time the
+   function is full of perlin noises. that makes it so slow. the landscape
+   is infinite (as in ixaleno) - you can travel forever in the forest. the
+   problem is that even if every tree, stone and mushroom are different to
+   any other all the parameterss are homogeneously randomized so basically
+   it all looks the same. well, i guess so, cause actually i haven't moved
+   the camera yet to have a look arround. i will make a video of that.
+
+   the rendering is multithreaded so the more cores you have the faster it
+   will render. it's possible vista users experience a white screen during
+   rendering. don't worry, the image will appear as soon as it's computed,
+   and that's arround a minute for 1280x720 in my dual core laptop.
+
+
+.greets.fly.to.
+
+   asd   auld  bixo  calodox   collapse  conspiracy  [d]vision  farbrausch
+   fairlight  fuzzion   hornet   kakiarts   loonies  necrostudio  nocturns
+   northen dragons    plastic     rebels    software failure    speckdrumm
+   spontz   tbc    tbl   timescratchers    traction     trailer park demos
+   xplsv   zona neutra    and forgoten
+
+ .credits.are.
+
+   matheshaping, formucoloring and codepainting :: iq :: [www.rgba.org/iq]
+   bytemagic and codecrunching :: mentor + blueberry :: [www.crinkler.net]

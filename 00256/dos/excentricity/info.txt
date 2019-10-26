@@ -1,0 +1,31 @@
+Info file:
+----------
+
+CODER:
+------	
+	
+	Nick:	Assembler Bot
+	
+	Mail:	assembler_bot@yahoo.com
+	
+	WWW:	http://assemblerbot.host.sk
+	    	http://assemblerbot.wz.cz
+
+
+256b INTRO:
+-----------	
+		
+  \                
+   \ /             
+  e X centricity   
+   / \             
+      \            
+
+Times:
+ coding: 		05 hours
+ optimizing:	41 hours
+
+Minimal requirements: Athlon or Pentium Pro (processor must support "FCOMI" instruction)
+
+2004
+

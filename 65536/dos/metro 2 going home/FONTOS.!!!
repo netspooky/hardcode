@@ -1,0 +1,20 @@
+A program NEM hasznal felso memoriat.
+
+A program futtatasahoz eger nem szukseges.
+
+Joystick sem kell, de ha van, a program kihasznalja a hardware
+nyujtotta elonyoket.
+
+FIGYELEM!!!!!!!! Monitor elengedhetetlen, bar a program nem ellenorzi!
+
+GUS hangkartyara van szukseg, es MINDENKEPPEN legyen hangja az intronak.
+Ha veletlenul ugy jarnank, mint a SCeNeST#3-on, hogy a program elinditasakor
+NEM hallatszik semmi, keretik egy ULTRINIT utan azt ujrainditani!
+Kulonben a tobbi entry tisztessegtelen elonyhoz jut, es ez tisztessegtelen!
+
+Figyeljunk arra, hogy a font default bios font legyen (ne valami magyar
+kodkeszlet am!). Ha eszrevesszuk, hogy nem az, akkor lesz nemulass!
+
+				Megertesuket elore is koszonik:
+
+					 robymus es pit

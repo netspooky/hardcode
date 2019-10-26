@@ -1,0 +1,20 @@
+
+	DJ
+
+	a 4 KB intro
+	by tonic
+
+	for Assembly 2003.
+
+
+	Contact:
+		http://jet.ro
+
+
+	Big thanks go to Ector for helping out with the softsynth!
+
+
+	Usage License: You take the full responsibility for the
+	operation of this software and any consequences thereof.
+	The author can not accept liability for damages or
+	failures arising from the use of this software.

@@ -1,0 +1,61 @@
+ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÜÛÛ\ÛÜÄÄÄÄÛÛ\ÛÜÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                             ÜÛÛÛÛ ßÛÛÜ  ÛÛ ßßß\
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÜÛÛß ÛÛ |ÄÛÛÛ\ÛÛ |ÄßÛÛÜÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   albino                ÜÛÛß  /ÛÛ ÜÛÛß \ÛÛ |  \ßÛÛÜ              exosworm
+   crampus             ÜÛÛß  /  ÛÛÛÛß  / ÛÛÛÛÛÛÛ\\ßÛÛÜ            minstrel
+   daybreaker          \__\/    \___\/   \______\  \__\           ward
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+                          e n l i g h t e n m e n t
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+                               údúeúsúeúrútú
+
+  minimum required config: 386 with coprocessor
+                           VGA adapter
+                           about 320k free conventional memory
+
+  recommended config     : 486dx2
+                           fast VGA (VLB or PCI)
+                           GUS
+                           about 320k free conventional memory
+
+  running                : "desert 2x0",where 2x0 is the hexadecimal
+                           address of your GUS. If you don't have one,
+                           or just want the intro without sounds,specify
+                           a free port address.
+
+                           WARNING! If you don't specify anything,dependning
+                           on the last contents of the command line,the
+                           intro will do weird things.
+
+  about the intro        : Well,not too much to say. The code is not optimized
+                           enough, the "music" and the "gfx" are lame.
+                           Because it's not Ward's work.
+                           That's all what I could do this time.I hope you
+                           didn't vote for my intro,I don't deserve anything
+                           for it. (Are you crazy???  -WaRD- )
+
+
+  personal greetings
+  from exosworm          : Blade
+                           blala / - btm -
+                           Brian / AA
+                           CoolHand / AA
+                           Fat Poison / AA
+                           Hypnos / AA
+                           John Zer0 / NSS
+                           Kal / êi
+                           Mike
+                           megant / ex-btm
+                           Netie / LSD
+                           Reptile / êi
+                           Runcice / AA
+                           Stofi / KHQ
+                           Tarby / TCC
+                           That cool guy from Dinasty,who washed his teeth
+                                with Albino's majonese on flag'96 / DNY
+                           The Senator / eh?
+                           Toci
+
+                                                        18-08-96 12:53:20

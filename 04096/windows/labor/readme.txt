@@ -1,0 +1,1 @@
+needs a FAST computer & ps 2.0 & d3dx_30.dll

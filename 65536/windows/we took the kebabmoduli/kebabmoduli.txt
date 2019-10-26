@@ -1,0 +1,21 @@
+We took the kebabmoduli
+
+code
+	phaser
+
+music
+	phaser
+	
+additional code
+	tonic
+
+scene randomizing
+	phaser
+	random
+
+kebab information
+	crud
+
+
+	grin 2002
+

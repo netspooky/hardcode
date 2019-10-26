@@ -1,0 +1,6 @@
+Notes:
+
+Do not run the demos from inside the ZIP file. Unzip them and run instead because winzip somehow messes up the effect.
+
+
+Rel

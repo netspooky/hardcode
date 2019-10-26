@@ -1,0 +1,59 @@
+
+
+ ACCELERATOR by DILEMMA                                            2001.04.13.
+ OpenGL 64k intro to Mekka & Symposium 2001                   Made in Hungary
+
+
+.INFORMATIONS:
+
+ This is the last(?!) OpenGL 64k intro from us/me.
+ Try with /diag for fps.
+
+
+.CREDITS:
+
+ PROGRAMMING
+ Peter 'Nap' Nagy
+
+ MUSIC 
+ Sandor 'Sed' Navratil
+
+ PICTURE
+ Antal 'Ezah' Trautmann
+
+ ADDITIONAL PROGRAMMING
+ Peter 'Brix' Balazs
+
+ IDEAS & HELP
+ 'Ekaf Magia' & 'Gekko'
+
+ DEDICATED TO
+
+ Tamas 'Rascy' Schalk
+
+
+.REQUIREMENTS:
+
+ Fast Processor (Celeron 366 at least)
+ Windows 95/98/ME (maybe Windows 2000)
+ Fast 3D Card with OpenGL support (nVidia card recommended)
+ 32bit color depth (because of stencil buffer)
+ DirectSound compatible Soundcard
+
+
+.SPECIAL THANKS TO:
+
+ MadOnion.com for ideas
+ Elitegroup for mxm player
+ Microsoft for Visual C
+ Authors of LCC linker
+ UPX Team for UPX packer
+
+
+.CONTACT:
+
+ Nap - nap@demoscene.hu
+ Sed - nsa@dpg.hu
+
+
+.END

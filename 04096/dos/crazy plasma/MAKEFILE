@@ -1,0 +1,7 @@
+dummy: cb.com
+  if exist cb.com cb.com
+cb.com: cb.obj
+  tlink cb.obj /t/x
+  del cb.obj
+cb.obj: cb.asm
+  tasm /m4 cb.asm

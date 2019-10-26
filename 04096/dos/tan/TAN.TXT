@@ -1,0 +1,55 @@
+		______________________________ ________________
+		\			      \\	       \
+		 \_______     ______/	___    \\___	 ___	\
+		  \___/      / ____/   /__/    /\\_/	/ _/	/\
+		     /	    / /   /	      / / /    / //    / /
+		    /	   / /	 /     /     / / /    / //    / /
+		   /	  / /	/_____/     / / /____/ //    / /
+		  /____  / /	\____/	   / /	\_____//    / /
+		  \____\/ /	    /_____/ /	      /____/ /
+			\/	    \______/	      \_____/
+
+	  I'm a freelance coder who spent last four days before Assembly
+	with coding this intro for the 4kB-Intro-Competition. It's writ-
+	ten in pure 286-code and not packed with one of those .EXE-crun-
+	chers.
+
+	  It needs around 260kB free base memory and a vga-board to run.
+	Because of the	lack of time I was  only able to test this on my
+	own system, I didn't find any bugs...
+
+	  If you want to contact me, write to: Marlon Berlin
+					       Saturnring 15
+					       16321 Bernau
+					       Germany
+
+	  No bug-reports, please - my letterbox would explode ;-)
+
+	  Assembly '95 organizers  have the  exclusive CD-ROM rights for
+	this  intro. The  following stuff  is a modified  version of the
+	file `RIGHTS.TXT' by the assembly organizers.
+
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+	  This	material  is not  freeware. You  are allowed  to copy it
+	without restrictions for non-commercial use.
+
+	  No payment of any  kind may be charged for this product or any
+	combination of products or services including this product with-
+	out my authorization and official written license.
+
+	  Commercial use, especially the industrial manufacturing on any
+	data storage media and	their distribution without the expressed
+	permission of the producer, is strictly prohibited.
+
+	  This program	or the data files  contained  therein may not be
+	altered or modified without the permission of the author.
+
+	  You take full  responsibility for  the operation of this soft-
+	ware and any consequences thereof. The creator can't accept lia-
+	bility for  damages or	failures arising  from the  use of  this
+	software.
+						  ÅÂ¿ÚÅ³Ä¿ÚÄÄÄ¿
+  M¢WŠRúinúMVM. Allúrightsúreserved.		  ³ ÀÀÙÀÀÙÃÄ³ÚÙ
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÀÄÄÄÄÄÄÄÁÄ³ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+							    Ù

@@ -1,0 +1,15 @@
+This program is provided 'as is', without warranty of any kind, 
+express or implied. The author shall not be liable for any damages 
+caused by the use of or inability to use this program. This means 
+that the user must assume the entire risk of using this program. 
+
+Use of this program commercially without prior consent of the 
+author is prohibited. 
+
+This program may be freely distributed, but may not be sold. 
+
+Modification of this program or any of it's documentation is 
+prohibited. This program is freeware. 
+
+Use of this program indicates you understand and agree to the 
+conditions of this license agreement.

@@ -1,0 +1,27 @@
+SONIC.COM, The smallest demo ever released by Dî’ 
+2K exactly and still 70 frames/sec on a 386 !
+
+All Coding   (c) 1992 Mr. Bî’ï
+All Graphics (c) 1992 Soï­<
+
+The source is available from Dî’ for the low price of 100 Dollars Aust.
+Or we can customize it for you for the even lower price of 20 Dollars Aust.
+So you can have any colour over the background and 100+ balls on screen at once.
+If you didn't see any vector balls then you need to get a 386 and a VGA.
+This was done to show that Mr. Bî’ï can code pure ASM when he can be bothered.
+
+ ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+ º  ÛÜ       Üßßßßßß     ÜÛ  ÇÄ¿   Now A Message From Our Sponsors!
+ º  Û ßÜ   Üß          Üß Û  º ³   For All Your Computing Needs Try
+ º  Û   ßÜÛÜÜÜÜÜÜÜÜÜÜÜÛÜÜÜÛ  º ³      -=ð Oblong Resources ð=-
+ º  Û   ÜßÜ        Üß     Û  º ³   With the h0le in the wall BBS,
+ º  Û Üß   ßÜ    Üß       Û  º ³   1 Gig OnLine 24hrs Including
+ º  Ûß       ßÜÜß         Û  º ³   Tech Pacific Database, Updated 24 Hourly.
+ ÈÍÍÑÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼ ³   Call +61 02 48 1296  USR Dual.
+    ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+Dî’ FidoNet Address 3:670/216,
+Internet Address louis_rs@postoffice.utas.edu.au (Mr. Bî’ï)
+	- or -   kai_h@postoffice.utas.edu.au    (Soï­<)
+Text By Soï­<.
+
+Hi To RAT, 69!

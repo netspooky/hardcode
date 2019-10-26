@@ -1,0 +1,33 @@
+<html>
+<head><meta charset=gb2312>
+<title>Default ColorPad 50B By Liang Sheng Xun 默认颜色板_梁胜勋</title></head>
+<body bgcolor=336699 text=ffcc99>
+<table align=center width=700 border=5 bordercolorlight=224466 bordercolordark=224466>
+<td><b><font size=4>
+mov al,13<br>
+int 10(画面变成 320 X 200 模式)<br><br>
+mov ax,a000<br>
+mov es,ax<br>
+mov di,0500 (第一点的位置0500H = 320 X 4 = 1280)<br><br>
+<font color=ffffff>mov dh,0c</font> (一个层的厚度为0CH = 12个点)<br><br>
+<font color=00ff00>mov dl,10</font> (一个层的长度为10H = 16个方框)<br><br>
+<font color=ff0000>mov cx,14</font> (一个方框的长度为14H = 20个点)<br><br>
+rep<br>
+stosb (在一条横线上,画20个点)<br><br>
+inc al<br>
+dec dl<br>
+jnz {{---<font color=ff0000>mov cx,14</font>}}<br><br>
+sub al,10<br>
+dec dh<br>
+jnz {{---<font color=00ff00>mov dl,10</font>}}<br><br>
+add al,10<br>
+jnz {{---<font color=ffffff>mov dh,0c</font>}}<br><br>
+in al,60<br>
+dec al<br>
+jnz {{---in al,60}}<br>
+mov ax,0003<br>
+int 10<br>
+int 20<br>
+</td></table>
+</body>
+</html>

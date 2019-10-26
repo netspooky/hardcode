@@ -1,0 +1,18 @@
+Some words about Atsou...
+
+  Atsou is not a demo. I don't know if is even an intro. Optimus made some effects using DJGPP and he wanted to show these effects to the people at Digital Nexus. So we combined them (they were as separate programs) in one program and we named it 'Atsou' (which is a very silly name). When we asked under which name we had released it, i decided to say that we made it as "Nasty Bugs". So, Atsou
+was our first demo, or as it is called, our dentro. I must admit
+that i wanted a better production for our dentro, but anyway... 
+======= The windows port... =======
+
+Some months later, i decided to port Atsou to windows, for those who can't see it (...but i can't understand WHO cannot see a 13h mode-based nosound some-seconds-long intro...). After two days i finally ported (not 100% successfull... i know that there are many bugs flying around) the graphics library that i coded for Optimus in order to use the VGA 13h mode to Windows DirectDraw. I faced some bugs that were lying around and DJGPP wasn't noticed them (i don't know why), but Borland C/C++ Compiler didn't wanted to let them be unnoticed. I tried to fix them, but i'm not sure if i fixed them 100%, since Optimus's code isn't too clear (keep in mind that this code is Optimus's first C code...).
+
+Anyway, the intro works... and it's very small as you can see (smaller than the original DOS version, since i linked the BMP file in the ATSOU.EXE and then i compressed ATSOU.EXE with an executable compressor), so you can see it, even if your machine is so crap and cannot run DOS programs (hehehe, i always wanted to say that!  -btw, if this is true... try VDMSound which except of sound emulation under Win2K/XP to DOS programs, gives also some other things like VESA Support and CPU Speed decrease, here is the URL: http://vdmsound.cjb.net/ ).
+
+There are only two known bug until now: 1) if you close the window before the demo finishes, the last "frame" of the screen appears at the top left corner of the screen.... i can assume why that happens, but i'm too lazy to fix it (:-)) and 2) if while the demo is running you move another window over it, the contents of Atsou's window are drawed over the other window. I know why this happens (or i think that i know), but -as i said- i'm too lazy to fix it, and anyway, in both cases, WHY to want to close the window before the demo finishes or just move to another window??? I can't find any reason...
+
+Lastly, be sure that you run the demo under 16bit color depth, because i was too lazy (too) to write code for 24 and 32 bit color modes (and even if i wasn't... i couldn't write code for 32 bit color modes, just because my card doesn't support them).
+
+Anyway... cya.
+
+Bad Sector/Nasty Bugs

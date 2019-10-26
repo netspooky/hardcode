@@ -1,0 +1,18 @@
+
+These sources require Free Pascal Compiler 1.0.2 to compile.
+May not work with versions below 1.0.0 or versions above 1.0.5.
+Not work with versions 1.1.x, or above.
+
+Visit http://www.freepascal.org for details.
+Use ftp://ftp.freepascal.org for downloads.
+
+All sources included too, so you can rebuild the intro.
+It's not recommended though. ;)
+
+The sources of the intro placed into public domain.
+Use where you want. No credits necessary.
+This is _NOT_ belongs to the sources of the moduleplayer.
+(files ISS*.*) It still comes under the its own license.
+Also, only a limited version included here. To use it in
+your programs, download the full package from:
+http://scenergy.dfmk.hu/inqcoders/

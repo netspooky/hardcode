@@ -1,0 +1,6 @@
+"The Psycho Button" by midcoast
+http://www.midcoast.de/dailyshit/dailyshit.php
+
+My first try in creating something in HTML... Marquee rules,
+did some know the direction UP und DOWN ??? i know ;)
+(iex5)

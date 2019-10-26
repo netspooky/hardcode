@@ -1,0 +1,23 @@
+Thaes - a 32-byte DOS intro from the Puppy Farm
+
+Source:
+
+
+00000000 B013             mov	al,13h
+00000002 CD10             int	10h
+00000004 C537             lds	si,[bx]
+00000006 1E               push	ds
+00000007 07               pop	es
+00000008 97               xchg	di,ax
+00000009 D2AAADC7         shr	byte [bp+si+0C7ADh],cl
+0000000D 00B95701         add	[bx+di+0157h],bh
+00000011 4B               dec	bx
+00000012 BFFED0           mov	di,0D0FEh
+00000015 40               inc	ax
+00000016 AA               stosb	
+00000017 3005             xor	[di],al
+00000019 47               inc	di
+0000001A 75EA             jnz	000000006h
+0000001C 41               inc	cx
+0000001D EB90             jmp	0FFFFFFAFh
+0000001F 90               nop	

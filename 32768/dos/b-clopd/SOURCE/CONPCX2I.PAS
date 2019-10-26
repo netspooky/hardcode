@@ -1,0 +1,87 @@
+USES Crt,Dos,ModiGraf,PCXVModi,DataFile;
+TYPE tVersion=ARRAY[1..4]OF Char;
+CONST AktVersion:tVersion='IMG2';
+TYPE tHeader=RECORD
+              Version:tVersion;
+              XSize,YSize:LongInt;
+            END;
+VAR BuffeR:^tScreen;
+    Palette,Pal:PAL_ARRAY;
+    Header:tHeader;
+    F:FILE;
+    I,K,M:LongInt;
+    SR:SearchRec;
+    ST:STRING;
+    B:Byte;
+
+FUNCTION GetNearest(R,G,B:Byte):Byte;
+VAR I,K,M,Abw,MinA,MC:Word;
+BEGIN
+{  R:=R SHR 1;
+  G:=G SHR 1;
+  B:=B SHR 1;}
+  MinA:=768;
+  FOR I:=1 TO 254 DO BEGIN
+    Abw:=Abs(R-Palette[I][0])+Abs(G-Palette[I][1])+Abs(B-Palette[I][2]);
+    IF Abw<MinA THEN BEGIN
+      MC:=I;
+      MinA:=Abw;
+    END;
+  END;
+  GetNearest:=MC;
+END;
+
+PROCEDURE LoadOldIMG(St:STRING);
+VAR F:FILE;
+BEGIN
+  Assign(F,St);
+  ReSet(F,1);
+  BlockRead(F,Buffer^,400);
+  Close(F);
+  Header.XSize:=20;
+  Header.YSize:=20;
+END;
+
+PROCEDURE Convert(St:STRING);
+VAR F:FILE;
+    I,K,M:LongInt;
+BEGIN
+  LoadPCX(Buffer^,Pal,ST,0);
+  Header.Version:=AktVersion;
+  Header.XSize:=PHeader.XMax-PHeader.XMin+1;
+  Header.YSize:=PHeader.YMax-PHeader.YMin+1;
+
+  Assign(F,Copy(St,1,Length(St)-3)+'img');
+  ReWrite(F,1);
+  BlockWrite(F,Header,SizeOf(Header));
+{  Init(19);
+  SetPalette(Palette);}
+  WITH Header DO
+  FOR K:=0 TO YSize-1 DO FOR I:=0 TO XSize-1 DO BEGIN
+    M:=Buffer^[K*320+I];
+    IF Pal[M,0]+Pal[M,1]+Pal[M,2]=0 THEN B:=0
+                                    ELSE B:=GetNearest(Pal[M,0],Pal[M,1],Pal[M,2]);
+    BlockWrite(F,B,1);
+{    Mem[$A000:K*320+I]:=M;}
+  END;
+{  ReadKEy;}
+  Close(F);
+{  GFXClose;}
+END;
+
+BEGIN
+  Init(19);
+{  GetPalette(Palette);}
+  Move(@PaletteDAT^,Palette,768);
+  TextMode(3);
+  IF ParamCount>0 THEN ST:=ParamStr(1) ELSE St:='';
+  New(Buffer);
+  IF ST<>'' THEN Convert(ST) ELSE BEGIN
+    FindFirst('*.PCX',AnyFile,SR);
+    WHILE DosError=0 DO BEGIN
+      WriteLn('Check -> ',Sr.Name,' <-');
+      Convert(SR.Name);
+      FindNext(SR);
+    END;
+  END;
+END.

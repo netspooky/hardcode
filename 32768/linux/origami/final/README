@@ -1,0 +1,82 @@
+  Origami       -       Entry for 64k introcompo at Assembly 2005
+
+Graphics code and intro structure:      Trilkk (Tatu Kilappa) <trilkk@iki.fi>
+Software synthesizer and music:         Juippi (Juho Heikkinen)
+Folding effect, fractal code and misc:  Warma (Vantte Kilappa)
+
+Greets in the intro.
+
+Proved to work with a ~1500Mhz Athlon with a GeForce3. Your mileage may vary.
+If this package contained no source code, there should be another that does.
+Failing that, you can contact the authors.
+  The intro compiles on all major platforms including Windows, Linux and
+FreeBSD. There are some endianness bugs, that cause loss of sound and
+introduce some glitches on big-endian machines such as... anything besides x86
+and alpha.
+  The precalc time _is_ humongous. Please wait.
+
+Thank you.
+
+...
+
+Voi "&%#WY"%¤Y"W%¤W%¤5we4y kun meni taas tiukalle. 7min deadlineen (ja pitihän
+sitä paikata myöhemmin).
+
+-- Aftermath --
+
+I made a lot of fixes after the event. Now Origami actually works on multiple
+platforms. Since a few people complained about having to wait quite a while
+staring a black screen, I added a loader screen that shows the precalculation
+process.
+  Please note, that although the distribution package contains a whole lot of
+binaries, it does not contain the original party version (28646 bytes). That
+can be obtained by downloading the developement package and looking inside the
+src_compo.tar.bz2.
+  From all the Unix binaries included only the 'final' (29333 bytes) fits
+inside the 64k barrier. All the other files are speed-optimized for their
+respective architectures, probably imbued with front-ends. Thus, they might be
+of any size.
+  For some additional credits, the Windows front-end is done by vv, OSX
+front-end by TheFlash, GTK front-end is mine and the SDL front-end (that is
+not enabled in any of the binaries included here) is by Warma. Icons and
+banner are done by RmM.
+
+If this is a dev-package, the rel/ folder contains all the following files,
+otherwise they're in the same folder as this file:
+
+  README ................ This file.
+  msvcr71.dll ........... Dynamically linked library required for multi-
+                          threaded dll binaries, cannot be avoided with SDL.
+                          Thus, included here as everyone might not have it.
+  origami_16x16.png ..... Small icon.
+  origami_32x32.png ..... Larger icon.
+  origami_banner.png .... The banner displayed in the front-ends.
+  origami_final ......... (pentium3-linux) Bugfixed, packed & size-optimized
+                          Linux binary with a preloader screen (that was not
+                          in the original). Slightly larger than the compo
+                          version. All the binaries claim their size according
+                          to this file, sorry.
+  origami.dmg ........... (g4, g5) Disk image containing MacOS/X binaries,
+                          compiled by TheFlash.
+  origami.exe ........... (pentium3) UPX-packed Windows-binary, compiled by
+                          Warma.
+  origami-amd64-linux ... (k8) Compiled by Juippi.
+  origami-ia32-freebsd .. (pentiumpro)
+  origami-ia32-linux .... (pentium3)
+  origami-ppc32-linux ... (g4)
+  origami-ppc64-linux ... (g5)
+
+There's also some files you might want to take a look in the main folder
+(only included in the dev package).
+
+  src_compo.tar.bz2 ..... The binaries and sources for the original compo
+                          version.
+
+If you want to make an Origami just for your machine, it uses autoconf and
+should pose no problems.
+
+-- Addennum --
+
+Säädin jotaan enkä jaksa päivittää tätä enää.
+
+-Trilkk

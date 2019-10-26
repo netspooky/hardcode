@@ -1,0 +1,39 @@
+
+                           $$ $$$$$ $$    $$  $$  $$
+                           $$ $$    $$    $$   $$$$
+                           $$ $$$$  $$    $$    $$
+                        $$ $$ $$    $$    $$    $$
+                         $$$  $$$$$ $$$$$ $$$$$ $$
+
+
+ ----------------------------------- JELLY ---------------------------------
+
+                          4kb intro for Rush Hours II
+
+
+ ---------------------------------- CREDITS --------------------------------
+
+ Coded by Offender.
+ April 1998.
+
+ ----------------------------- SYSTEM REQUIREMENTS -------------------------
+
+ 486DX processor (fpu!),
+ about 400kb of conventional memory,
+ about 3600kb of xms memory,
+ svga card which support mode 320x200x65536 colors (vesa 1.2, mode 10eh),
+ dos.
+
+ Intro can't run if v86 mode is active. Disable emm386, 386max, etc.
+ Don't run under Windows!
+ You should boot your system with himem.sys only.
+
+ --------------------------------- CONTACT ---------------------------------
+
+ s-mail:
+ Dominik Szalkowski
+ Debowka 48A
+ 20-050 Lublin
+
+ e-mail:
+ dominisz@golem.umcs.lublin.pl

@@ -1,0 +1,14 @@
+ind presents
+_______                       __   __.
+\____  \  __ _______    _____/  |_|__| ____
+ / / \  \|  |  \__  \  /    \   __\  |/ ___\
+/  \_/.  \  |  // __ \|   |  \  | |  \  \___
+\____\ \_/____/(____  /___|  /__| |__|\___  >
+      \__>          \/     \/             \/
+
+QUANTIC - Quadratic Universe Accepts Noiselessly The Immaculate Chaos
+256 bytes intro
+---------------------------------------------------------------------
+coded by Pirx and Tigrou
+assembled with NASM 0.98.39
+March 2007

@@ -1,0 +1,59 @@
+  ----  Hirvi Hammas ---++---
+   This is woorlic's 1'st 64k, yeah it uses WEXT in the party version
+   that SUPERB,3kSMALL,NON-OVERLAYED dos-extender that whizzter made :)
+
+   started on the intro 2 days before the party and did nearly nothing before
+   most done at party, that is why it sucks so bad.
+
+  - Credits: -
+   Code  : whizzter
+   Gfx   : lenin
+           zeroic
+   Music : Nocarrier
+   Misc  : thing
+
+   wext386 v1.02 : Whizzter
+   dos32 v3.3    : Adam Seychell
+   USMP v1.1b    : FreddyV/Useless
+
+  - ReQ's -
+   General:
+    any 386+ with fpu, unknown amount of internal memory
+    Vga compitable graphics adapter for 8bpp or fake-12bpp
+
+   Prefered:
+    Pentium or higher class x86 compitable computer
+    Vesa 1.2 compitable graphics adapter with 320x200x16bpp for 16bpp
+
+   Party:
+    Soundcard: Gus or NoSound
+    Setup    : Raw(clean) or XMS(himem)
+
+   Final:
+    Soundcard: SB,GUS,IW or NoSound
+    Setup    : Raw(clean),XMS(himem),VCPI(Emm386) or DPMI(windows)
+
+  - Thanks to: -
+   FreddyV/Useless - usmp is the best, what else to say? :)
+                     usmp was used both in the final and party version
+                     of the intro.
+   Adam Seychell   - the final version of this intro uses dos32 to run under
+                     vcpi/dpmi.
+   Thomas Pytel    - i looked a bit in your pmode code, it was a good resource
+                     when writing wext
+   Till Gerken     - the tutor you had for getting into pmode is pretty good
+                     but for good's sake, update it. tasm 2.0 is VERY old :)
+   Sunset design   - Gfx2 is the best, simply
+   JASC Software   - hope you don't mind that i don't have money to register
+                     PSP, but i hope this makes up to you with commercial value
+
+  - Greets:(in no order as always) -
+   Statix(i'm waiting for that intro using wext),TBL(effects are ok, but make
+   it a bit funnier thnks :),Byterapers(Winning ABD'98-pcdemo?),
+   Droid/Haujobb(sell those guses :),rest of Haujob(use wext next time :),
+   Asteroida(i wanna see something from you guys),pWp(heyho),
+   TPOLM(style forever),Loonie,Cryonics,Orca,Orange,Blocc,Oblivion,Led,Noice,
+   all people on the IRCNet channels, #coders,#pixel,#swedescene,#asm and so on..
+   and YOU of course!!
+   
+                  / Jonas Lund aka whizzter of woorlic,leaves the keys

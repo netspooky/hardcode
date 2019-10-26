@@ -1,0 +1,8 @@
+
+ desolate 256byte intro by hager/profuse
+
+ nothing special, only a simple tunnel with some fadeing.
+ try to use the mousebuttons to control the rotation of the tunnel
+ (left=slow, right=fast, left+right=fastest). esc quits.
+
+

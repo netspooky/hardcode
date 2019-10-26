@@ -1,0 +1,8 @@
+ do {
+   { 
+     rubicon();
+   } 
+   suburban_creations++;
+   takeover+=1999;
+   //party version
+ } while (mhz<1000);

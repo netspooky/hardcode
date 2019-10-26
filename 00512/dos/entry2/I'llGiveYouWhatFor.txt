@@ -1,0 +1,34 @@
+For the EFNet #asm comp 10
+ by HeBD  HeBDis@gmail.com
+
+This is my first 'demo' so i hope i do well ;)
+
+The limitations:
+ * 512 bytes
+ * ONLY contain characters typable on a standard keyboard (no alt+codes, cr,
+    lf). characters.txt lists the opcodes availible.
+
+So i created a decoder to give full access to the full 386 instruction set.
+Basicaly 3 bytes are packed into 4:
+
+  xxxxxxxx
+  yyyyyyyy
+  zzzzzzzz
+
+packed to
+
+  00xxxxxx + 0x3F
+  00xxyyyy + 0x3F
+  00yyyyzz + 0x3F
+  00zzzzzz + 0x3F
+
+The decoder took 207 bytes leaving 305 encoded bytes == 228 bytes decoded
+
+So that taken care of i had 228 bytes to do my demo in..
+
+A simple plasma with a twist! The horizontal speed of one of the sines was
+propertional to the sine of one of the vertical phases.. all with integers
+so it tuned out a bit chunky :)
+
+I'm looking forwards to see what some of the elite have managed to do.....
+

@@ -1,0 +1,76 @@
+Here it is! 
+          
+INVADER!  (TaDaa.... I must win the "MOST UNORIGINAL NAME" compo)
+
+The number one game of 1998! (NOT!)
+Made by Gnome for                  
+ÚÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+³T³he 256 Bytes Space Invader Competition
+ÀÄÙ                                  
+                                     
+ÚÄÂÄÄÄÄÄÄÄÄÄÄÄÄ
+³I³nstructions:            
+ÀÄÙ                        
+You are a little space ship that unluckily has to defend
+earth from a lot of stupid little aliens. You have this
+teleportable missile that you may fire whenever you like,
+at the aliens.
+Since the missile can be only at one position, you will
+notice it disappear from it's original position to your
+new firing position as if by magic! (Um, ok lousy explantion).
+The aliens seem to have forgotten their ammo, no wait...
+You have jammed their weopons system (Yes that's better)
+With the newest technology... Um... Well... that's it!
+
+ÚÄÂÄÄÄÄ                                    
+³K³eys:                                    
+ÀÄÙ                                        
+To move your spaceship, use the following keys:  
+Left arrow:  Move Left
+Right arrow: Move Right
+Space:       Fire deadly teleporting missile!
+
+Escape at any time quits the game!
+      
+ÚÄÂÄÄÄÄÄÄÄÄÄÄ   
+³K³nown Bugs:   
+ÀÄÙ          
+
+- You have to extremely stupid to lose the game!
+- The game is unoptimized and stupid, hell, I forgot my OWN deadline *sigh*
+  This is just the prototype I wrote to see if it was at all possible!
+
+ÚÄÂÄÄÄÄÄÄÄÄ          
+³C³omments:          
+ÀÄÙ                  
+Comments can be sent to
+                     
+  Gnome@post1.com
+or                   
+  u972780@daimi.aau.dk         (only until middle of june '98)
+                                         
+I had fun in this compo! If anyone else makes
+one likewise, I'd like to be informed! PLEASE!
+ş                               
+Û³ÛÛÛ ÛÛÛÛÛ
+Û³ßßß ßßßßß
+Û³ÛÛÛ ÛÛÛÛÛ Denmark rulez!
+Û³ßßß ßßßßß           
+Û³           
+Û³           
+Û³               
+Û³               
+Û³  
+Û³               
+Û³  
+Û³               
+Û³  
+Û³  
+Û\ 
+ÛÛİ 
+ÛÛİ 
+ÛÛİ 
+ÛÛİ 
+   
+THIS GAME IS DEDICATED TO ALL THE PEOPLE IN THE WORLD
+WHO HAPPEN TO LIKE THE OLD C64!

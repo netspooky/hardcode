@@ -1,0 +1,7 @@
+decay
+a 4-kilobyte picture by fizzer
+eddbiddulph@gmail.com
+it uses opengl but does not use glsl
+tested on GTX 670, GTX 660M, HD 7790
+thanks to dstar for extra testing
+compressed with crinkler - http://www.crinkler.net

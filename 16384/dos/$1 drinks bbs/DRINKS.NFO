@@ -1,0 +1,59 @@
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+                1   D O L L A R   D R I N K S - The BBStro
+
+                Copyright (C) 1995 - xtatic productions'95
+                Released on the 3rd day of October in 1995
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+Credits for this intro:
+   Goblin/xtatic   � GFX & Code & design ;)
+   Silent Mode/S!P - Original music
+   Shayde/Reality  � Adlib replay code
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+Minimum Hardware Requirements:
+   386dx 33Mhz      (Dunno, it should be bareable on something like this)
+   VGA video card   (Need a decent VLB card, or it won't be good)
+   500kb base mem   (Well, really, less, but who doesn't have 500k, right?)
+   FM music card    (Like an Adlib, SB or something, GUS users - SBOS)
+
+Recommended Hardware:
+   486dx彙66Mhz
+   21 inch SVGA Monitor with Diamond Stealth VLB card
+   630kb base mem
+   GUS ACE 1M with SoundBlaster AWE32
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+Here is the BBSTRo for our soon-to-be World Head Quarters BBS - $1 Drinks.
+Unfortunately, at time of release, this board is not up, but will be soon.
+Our last BBSTRo, for Organized Kaos was received well, except by some who
+said it was slow on their 386sux-16Mhz machines... Our fault for not saying
+"This is for 486 machines ONLY!!! With VLB video cards", this one probably
+won't look good on a 386dx-33 Mhz either... :)
+And there's probably going to be those who think I ripped TJC's mars code
+directly, and just changed the resolution and some numbers. This is not the
+case, I got some old code, which didn't interpolate the colours at all,
+(and had some other small features missing/bugged), and unfortunately (yeah,
+so I like that word, and things in brackets :) ), due to my bad coding it
+still doesn't interpolate horizontally properly.
+
+BIG GREETS GO TO REALITY PC OF AUSTRALASIA ( Our _friendly_ rivals) - This
+BBSTRo is not meant to "take the piss out of you", remember, imitation is
+the sincerest form of flattery, I hope you can take it as it is, and not as
+some cheap crack at you.
+
+Last minute thoughts/Notes: The music we originally were going to use, was
+denied us, about 1/2 an hour before we were going to release... So, we had
+to look for an alternative, converting a tune of our own musician to RAD
+format, which sounded like utter crap :(, so we were forced to use this
+alternate RAD file by Silent Mode/S!P, I think it still fits the BBSTRo
+allright. Oh yeah, and this incident gave us some more time to fix it all
+up nicely, as we were forced to release later.
+
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+                                                  [Goblin&Random.xtatic'95]

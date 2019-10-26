@@ -1,0 +1,51 @@
+
+----------------------------
+beschreibung
+
+"dashoota 32k level2" ist der 2. teil der 
+32kb retroshooter triology
+
+aufgabe ist , heil ans levelende zu gelangen ;)
+und alles abzuschiessen, was einen in den weg kommt
+
+um sein schiff aufzubauen, bzw für die immer
+stärker werdenden gegner zu rüsten, muß
+man die kleinen blauen pillen einsammeln
+diese erscheinen wenn man einen gegnerschwarm
+eliminiert hat
+
+per zufall werden 1. und 2. bonuswaffe, der normale schuss
+die energie und die geschwindigkeit des schiffs aufgerüstet
+
+das spiel an sich ist "unendlich" lang..es werden immer wieder 
+neue level generiert, hierbei sind level 1-5 als eine art
+aufbauphase zu sehen.... ;)
+
+
+----------------------------
+steuerung
+
+ingame:
+cursor-tasten = schiff bewegen
+space         = schiessen
+esc           = zurück ins menü
+f12           = sofortiges beenden
+
+im menü:
+rauf/runter   = menüpunkt selektieren
+space         = aktivieren
+
+
+----------------------------
+systemvorraussetzungen
+
+ibm-compatible pc ;)
+
+500 mhz cpu
+  8 mb  3d-grafikkarte
+ 32 mb ram
+    direct x 8
+
+win95/win98/me/2k/2k3server/xp
+
+WinNT wird nicht unterstützt

@@ -1,0 +1,38 @@
+                                   In Tropic
+                               -----------------
+
+
+Tech info
+=========
+
+Because some parts of this intro are synchronized to the music, the
+player must be running, whether you have or haven't got a GUS. If you
+haven't got a GUS, you must select a free base address for the player.
+The ULTRASND environment variable must be set to make the autodetection
+routine work. (If autodetection somehow fails to detect the GUS, you
+can use "no GUS" method to force the player to use a certain base
+address.) It's recommend to run ULTRINIT before executing the intro. For
+example, STMIK totally screws up this player routine.. (If you get tired
+to the tune and want to make a new mix of it, just load ST3, play some
+module and start the intro..)
+Lack of memory shouldn't be a promblem with this intro. But if you have
+got hundreds of TSRs running in the background it can cause some strange
+errors.. At least with a clean boot (DOS 6.2) intro should work perfectly.
+In addition the intro needs 25000 bytes of free disk space for a
+temporary swap file. (If something weird happens when executing the
+intro, you may find file 'x.' form your hard drive.. Just delete it.)
+The intro hasn't been tested with harddisk doublers.
+
+
+Other stuff
+===========
+
+I would like to thank Feenix/Epical for his "easy 2 use" GUS-player
+routine (FPO-FeenixPlayer Object). Also thanks to Phantom/J!P and Feenix
+for their excellent help with my coding problems..
+To contact me, call to KOTELO +358-17-1684040 (Sysop: Kapsu / Epical)
+and leave a message to 'Mikki'
+
+Thanks for reading!
+
+Mikki...

@@ -1,0 +1,35 @@
+Raving Tomatoes - Biomutating Planet Acid
+
+A 4k intro for Mekka+Symposium 2002 coded by T$ (ts@deinmeister.de)
+
+Requires DirectX8, 3D graphic accelerator + Soundcard
+Initialization can take some time on slower CPUs
+
+Files included:
+
+The following versions use 32bit color depth, 24bit z-buffer and 16bit textures:
+ts4kms02_640x480x32.com
+ts4kms02_800x600x32.com
+ts4kms02_1024x768x32.com
+ts4kms02_1280x1024x32.com
+
+The following versions use 32bit color depth, 16bit z-buffer and 16bit textures:
+ts4kms02_640x480x32D16.com
+ts4kms02_800x600x32D16.com
+
+The following versions use 16bit color depth, 16bit z-buffer and 16bit textures:
+ts4kms02_640x480x16.com
+ts4kms02_800x600x16.com
+
+The following version uses 16bit color depth, 16bit z-buffer and 16bit textures
+and renders on the second display adapter:
+ts4kms02_640x480x16_2ndcard.com
+
+
+The following color modes are used:
+Display format : X8R8G8B8 or R5G6B5
+Z-buffer format: D24S8 or D16
+Texture format : R5G6B5
+
+Not that some cards use X1R5G5B5 rather than R5G6B5 for 16bit rendering.
+In this case, try using the 32bit version instead.

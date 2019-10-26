@@ -1,0 +1,104 @@
+                %%%%%%%%%%%%%%  .          % %%%%%%%%%%%%
+                %%%%%%%%%%%%%%             % %%%%%%%%%%%%
+.               %%%%      %%%%    %%%%    %%         %%%%
+                %%%%   .  %%%%    %%%%    %%    .    %%%%         .
+                %%%%      %%%%    %%%%   %%%         %%%%
+                %%%%%%%%%%%%%%    %%%%   %%% %%%%%%%%%%%%
+       .        %%%%%%%%%%%%%%    %%%%   %%% %%%%%%%%%%%%
+                %%%%              %%%%   %%% %%%            .
+                %%%%    %%%%%%    %%%%   %%% %%%
+         .      %%%%     %%%%%    %%%%   %%% %%%     .
+.               %%%%  .   %%%%%%%%%%%%%%%%%% %%                .
+                %%%%       %%%%%%%%%%%%%%%%% %%
+
+                              esitt„„
+
+                              . ' ` .
+
+     <             <     << tULEVAiSUUS >>      >             >
+
+                              ` . . '
+
+            - a 3583 bYte iNTRo WiTH m00Sik 'n' dESiGN -
+
+Laitteistovaatimukset:
+
+      IBM PC tai yhteensopiva mikrotietokone.
+
+      CGA, Hercules tai MDA tai yhteensopiva videosovitin ja sopiva
+      n„ytt”laite (mik„li haluat nauttia intron graafisesta voimasta).
+      Suositellaan EGA-yhteensopivaa korttia ja v„hint„„n 3-metrist„
+      valkokangasta, asiallista videotykki„ ja hyvin himme„„ tai t„ysin
+      valotonta valaistusta.
+
+      Adlib-yhteensopiva „„nisovitin sek„ siihen sopiva
+      kaiutinlaitteisto mahdollisine vahvistimineen.
+
+Yleisi„ faktoja teemasta "Tulevaisuus":
+
+T„m„ pienikokoinen intro on laadittu ja ty”stetty vuoden 1997 kunniaksi,
+onhan kuoleman ja pedon ja helvetin vuosi 1997 esiintynyt taajaan
+tuotostemme aihepiiriin keskeisesti liittyv„n„ taustatekij„n„. Mit„„n
+laajakantoisempia tarkoitusperi„ esim. multimediakilpailuun
+osallistumista silm„ll„pit„en ei pienikokoinen intromme kanna.
+
+Sensijaan voimme pit„„ introa pWp:n uutena merkkipaaluna monessakin
+suhteessa, sill„ se on mm.
+
+        - Ensimm„inen kuoleman ja pedon ja helvetin vuonna 1997
+          julkaistu tuotoksemme.
+
+        - Ensimm„inen tuotoksemme, joka on ohjelmoitu kokonaan
+          32-bittist„ teknologiaa hyv„ksik„ytt„v„ll„ tietokoneella
+          (386/33) poiketen edellisist„, jotka luotiin 8088-ty”asemia
+          hyv„ksik„ytt„en. Introsta puuttuu tuki ibm pc-yhteensopivien
+          sis„isille kaiuttimille, koska tuo entinen m”tikk„ ei oikein
+          k„y yksiin nykyisen emolevyn kanssa (hah mik„ tekosyy)
+
+        - Pienin koskaan valmistunut pWp-intro. 3583 tavua on
+          laajentamattoman Commodore Vic-20:n basic-ohjelmille vapaan
+          ram-muistin m„„r„, mik„ tila on introssamme saatu t„yteen
+          lis„„m„ll„ tyhm„nn„k”ist„ ja optimoimatonta koodia sek„
+          kalibroimalla lauseenlopettavien v„limerkkien lukum„„ri„.
+          Niiiin, ja tietysti j„tt„m„ll„ koko h”ss” pakkaamatta.
+          (toisinsanoen com2exe-konvertteri on h„vinny jonnekkin ja
+          com-pakkaajat on liian ep„lameja meille)
+
+        - Ensimm„inen assembler-k„„nt„j„„ hyv„ksik„ytt„en laadittu
+          intromme. Olemme toki julkaisseet assemblykielisi„
+          tietokoneohjelmia my”s aiemmin, mutta kuten „skeisess„
+          totesimme, on t„m„ tuotos ensimm„inen assembler-k„„nt„j„„
+          hyv„ksik„ytt„en laadittu intromme.
+
+        - Ensimm„inen v„rigraafinen tuotoksemme, jonka pit„isi toimia
+          my”s monotekstitilassa. Hercules- ja MDA-k„ytt„jilt„ on tullut
+          sen verran valituksia ylimielisest„ multimediatilojen
+          pakkosy”t”st„mme, ett„ voisimme t„ss„ vaiheessa l„hestulkoon
+          luvata, ett„ yksiv„rin„ytt”j„ tullaan tukemaan my”s vastedes.
+          Emme tosin voi testauksen puutteesta johtuen taata t„m„n
+          nimenomaisen intron toimivuutta liioin MDA:n kuin 8088:nkaan
+          kanssa.
+
+Viitteenomainen tapahtumakalenteri vuodelle 1997:
+
+        - Pelu-Petteri Lamuranta nousee kuolleista ja syntyy uudelleen
+          kolmantena p„„si„isp„iv„n„. (btw kristityt, onko tuo sen
+          p„iv„n oikea nimi?)
+
+        - Syttyy ydinsota, jossa l„hes koko maapallo tuhoutuu.
+          Microsoft Corporation s„ilytt„„ kaikesta huolimatta
+          yksinvaltiuden ihmiskunnan sieluihin, vaikka t„st„
+          suunnattomasta tuhosta ei j„„k„„n eloon kuin vain n. 8 rohkeaa
+          uuden ajan pioneeria sek„ noin 8 miljardia lameria.
+
+        - Huolimatta siit„, ett„ maapallo on l„hes tuhoutunut, ihmiset
+          n„kev„t n„lk„„, yhteiskunta on m„t„, eik„ kolmen edellisen
+          vuoden palkintorahoja ole maksettu, Helsingin messukeskuksessa
+          j„rjestet„„n jokavuotinen Mazzembly-party, johon kaikki
+          maailman ihmiset osallistuvat.
+
+        - Bill Gates painaa n„pp„int„ ja maapallo tuhoutuu 31.12.1997.
+          Mutta lamerit pelastetaan, ja he tulevat el„m„„n edelleen
+          vuodesta 1998 (3x666) eteenp„in. Heid„n johtajansa nimeen
+          vannovat vannovat Pelu-Petteri Lamurannan nimeen.
+

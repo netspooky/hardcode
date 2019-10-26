@@ -1,0 +1,30 @@
+----------------------------------------------------------
+DIATOM
+A 64k Intro for Breakpoint 2009
+by: andr00
+----------------------------------------------------------
+
+--- Credit
+code: andr00
+
+--- Note
+This is my first production of any type. It would not be
+possible without direct and elite advice from Preacher 
+and Chaos as well as many others who became a blur of 
+demoscene power in the haze of coding.
+
+--- Requires
+OpenGL
+Shader Model 3.0
+
+Possibly not such good compatibility with ATI :(
+
+It will just run at whatever screen mode it can find that
+looks a like the current screen mode as far as resolution.
+
+--- Tools used:
+packing: kkrunchy ryg^fr
+music system: v2 kb^fr
+
+
+contact: andr00@gmail.com

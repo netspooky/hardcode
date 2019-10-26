@@ -1,0 +1,24 @@
+
+ "Raving: The Tomatorial"
+ 
+ A 4k intro for Revision 2016 by T$
+ 
+ Requires DirectX9c (including the D3DX library from the August 2005
+ SDK update, stored on disk as d3dx9_41.dll) and
+ a 3D graphic accelerator featuring VS 2.0, PS 2.0
+
+ Running time: 2:06
+
+ Files included:
+
+* Ts4krv16_2560x1440.exe
+* Ts4krv16_1920x1080.exe (Compo)
+* Ts4krv16_1280x1024.exe
+* Ts4krv16_1280x960.exe
+* Ts4krv16_1024x768.exe
+* Ts4krv16_640x480.exe
+* Ts4krv16_1920x1080_windowed.exe
+
+ Color modes used:
+ Display format : X8R8G8B8
+ Z-/Stencilbuffer format: D24S8

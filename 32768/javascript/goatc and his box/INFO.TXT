@@ -1,0 +1,6 @@
+GoatC and his box
+By The Rapefruits
+-------------------
+Coders: Legogris & M4rcuzZz^
+
+Techniques: Just plain DHTML and Javascript

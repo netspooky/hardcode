@@ -1,0 +1,98 @@
+Smart info file
+_______________________________________________________________________________
+-------------------------------------------------------------------------------
+Code:
+	Dr. Pitch / savage
+	Blue Phantom / savage	(IRC nick: bp)
+	Adlib Player: CiMEDIA (a lot of optimizations where done)
+Music:
+	Smash / savage / inside
+
+Requirements:
+	Minimum		- 386+, 524k base, FPU, fast video card
+	Recomended	- P166, 524k base, FPU, fast video card
+	
+Tech notes:
+  About the 386:
+	we don't used any special 486 or pentium instruction, so, in a 386
+	with FPU will run... (don't try with FPU emulators...)
+
+  About the P166:
+	this intro uses a lot of FPU instructions. On pentiums, the FPU is 
+	very fast, but on older machines (like 486, 386..) the FPU is very
+	slooooow. (the intro runs ok with an AMD 5x85-133... hmmm...a P75 ok?)
+	(the intro doesn't check for FPU)
+
+  About the 524k:
+	the intro doesn't use any dos extender, its coded in 16bit real mode.
+	and we don't want to use XMS (or EMS) in 4k intros. the memory 
+	is managed without checking it.., and if you haven't the required mem... 
+	the intro will crash or, it will crash the system when it ends. 
+
+  About the fast video card:
+	at least a VLB or PCI card, as they can manage better 32 bit
+	video-access instructions
+
+  Pentium II warning:
+	this intro uses a lot of 16 bit code, and a lot of 8bit registers, so
+	don't expect a perfect performance... there will be a lot of cache 
+	misses and AGI delays. This will slowdown a the framerate a bit...
+	so, don't expect a frame rate of 200 fps.
+	
+	...but its better to watch it in a P-II than a 386...
+
+savage members:
+
+	Coders:
+                Dr. Pitch...................19..........e7634217@est.fib.upc.es
+		Blue Phantom................19..........bp@ati.es
+		CCM.........................18..........ccmm@abonados.cplus.es
+		Dr. Pain....................20..........mbarceloj@nexo.es
+	Musicians:
+		Smash!......................20..........smash_cs@hotmail.com
+		Wonder......................20..........wonder@axis.org
+	Gfxman:
+		MadKnight...................20..........madknight@hotmail.com
+		FloOd.......................19..........floood@hotmail.com
+
+greetings:
+
+	Dr. Pain, CCM, Madknight, FloOd, Wonder, Dr. Kami, Elric, Bpm,
+	Trace, Marathon Man, Chc, Firelord, VaW, Awesome, Wally, Astharoth,
+	Cranky, Falcon, Yakare, Sairf, Slavinsky, HanDe, Medea, Oscar, Sneaker,
+	SetBit, Skirep, Clod, Jcl, Kisher, Sierra, Danky, Klauz, Jare, JudaX,
+	Hologram, Ace, Hornet/Useless, Arrakis, Chandra, hC, Reboot, Incubus, 
+	Matrix, Geiger, rICE, Tanis, KH, Naif, Yuio, Tandeleu, Ent, all Ozone 
+ 	members (amiga rulez too... ;) CiMEDIA (4k forever ;)
+
+	and their respective groups.
+
+	... and of course.. everybody we forgot...
+
+some spanish words:
+
+	anda que no he hecho faltorras en ingles!!!!!
+	bien.. no era eso exactamente lo que queria decir...	
+	sino que...
+	
+	hmmm..........................
+
+	ya no me acuerdo...
+
+	hmmm....
+	....
+	emmmm....
+	pos....
+
+	bien...
+	
+        ...solo faltan 20h para la deadline.. sera mejor que empezemos
+	a hacer la maldita intro... ;)
+
+
+	CiMEDIA: que pedaso de pique en 4k, pero al final ganaste 
+		 cabroncete ;) anda!, a currar, a ver si el año 
+		 que viene hay otro pique ;)
+
+PD:	anda!!! los donuts... solo hemos puesto uno (2) en la intro verdad????
+.........................................................Blue Phantom / savage

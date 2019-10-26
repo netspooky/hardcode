@@ -1,0 +1,41 @@
+
+                               farbrausch
+
+                       fr-085: Let there be light 
+
+                                  by
+
+                                 BeRo
+
+It is a after-xmas-intro and a small techdemo at the same time, because the graphics side uses VXGI for Global Illumination, Moment Shadow Maps for long-distance shadows (where short-distance shadows are still signed-distance-field-based), physical-based shading, physical-based camera optics system, physical-based volumetric scattering, etc. And the soundtrack side uses physically modelled instruments, where are very computationally intensive, so in this 64k the CPU has also a lot of things to do, and not only the GPU. 
+ 
+This 64k intro is designed for 720p for high-end GPUs (Geforce GTX970 and up), so if your PC, primarily your graphic card, is too slow, this 64k intro will not only run at low framerates, it will break apart terribly. 
+
+Information for the quality levels:
+
+Ugly @ 720p     = Factor sqrt(1.0 / (1 << 4)) =   320x180 frame buffer object render targets
+Low @ 720p      = Factor sqrt(1.0 / (1 << 3)) =   452x254 frame buffer object render targets
+Medium @ 720p   = Factor sqrt(1.0 / (1 << 2)) =   640x360 frame buffer object render targets
+High @ 720p     = Factor sqrt(1.0 / (1 << 1)) =   905x509 frame buffer object render targets
+Ultra @ 720p    = Factor 1.0                  =  1280x720 frame buffer object render targets (1:1 ratio)
+Ultra+ @ 720p   = Factor sqrt(1 << 1)         = 1810x1018 frame buffer object render targets (pratically supersampling!)
+Ultra++ @ 720p  = Factor sqrt(1 << 2)         = 2560x1440 frame buffer object render targets (pratically supersampling!)
+Ultra+++ @ 720p = Factor sqrt(1 << 3)         = 3620x2036 frame buffer object render targets (pratically supersampling!)
+Overkill @ 720p = Factor sqrt(1 << 4)         = 5120x2880 frame buffer object render targets (pratically supersampling!)
+
+And you should do at least a real quadcore Intel i5/i7 CPU (from the SandyBridge generation and up), otherwise you can
+get sound buffer underruns, because the physically-modelled instruments in the soundtrack are, as already said, very computationally intensive, where per triggered note voice can be there from 3 as minimum and up to 12 as maximum active interconnected Digital-Waveguide instances.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

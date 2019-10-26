@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: minifmod - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP2155.TMP" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/minifmod.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\minifmod160\lib\Fmusic.c"
+"F:\minifmod160\lib\Fsound.c"
+"F:\minifmod160\lib\mixer_clipcopy.c"
+"F:\minifmod160\lib\mixer_fpu_ramp.c"
+"F:\minifmod160\lib\music_formatxm.c"
+"F:\minifmod160\lib\system_file.c"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP2155.TMP" 
+Creating command line "link.exe -lib /nologo /out:"minifmod.lib" /LINK50COMPAT  .\Release\Fmusic.obj .\Release\Fsound.obj .\Release\mixer_clipcopy.obj .\Release\mixer_fpu_ramp.obj .\Release\music_formatxm.obj .\Release\system_file.obj "
+<h3>Output Window</h3>
+Compiling...
+Fmusic.c
+Fsound.c
+mixer_clipcopy.c
+mixer_fpu_ramp.c
+music_formatxm.c
+system_file.c
+Creating library...
+<h3>
+--------------------Configuration: test - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\WINDOWS\TEMP\RSP21C4.TMP" with contents
+[
+/nologo /MD /W3 /GX /O1 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/test.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\minifmod160\Main.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP21C4.TMP" 
+Creating command line "link.exe /nologo /subsystem:console /incremental:no /pdb:"Release/test.pdb" /machine:I386 /out:"test.exe"  .\Release\Main.obj .\lib\Winmm.lib .\minifmod.lib "
+<h3>Output Window</h3>
+Compiling...
+Main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+test.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

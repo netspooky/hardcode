@@ -1,0 +1,20 @@
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+                                   SPIRAL
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+
+Another stupid pattern thingy based on my dopey Sierpins sort of random number
+generated gasket. May need to up the "Number_1 EQU..." and will look nice
+especially on a pentium 200 or greater. (Works fine as it is on my old '166).
+
+
+The beginning text screen scroll/dropper was first seen on a VZ computer
+back in 1986. Forget who originally wrote it... was in Z80 assembler... maybe
+in about 40 bytes. Was then seen by me on a RAZOR 1911 demo back in '92(?)
+and I tried to base a design on it. Took me a dang long time to work out how
+to do it. Started off with a working asm program of about 350 bytes!
+Finally after many hours (days (months [written: 2 years!])) got it down to
+the current 51 bytes. A far cry from the first asm version that I had.
+
+Bushy. 08-October-1998.
+

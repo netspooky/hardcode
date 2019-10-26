@@ -1,0 +1,17 @@
+
+Hej på er!
+
+När jag skulle bygga ett hype-invitro i java upptäckte jag att man
+slösar en enorm mängd bytes om man gör många klasser. Men inte kan väl
+jag som är en vän av ordning slänga in massa kod i samma klassfil? NÄ!
+Så jag började leka med att använda m4 som en preprocessor för
+java. Det var synd att jag aldrig fick tid att göra nått vettigt i
+mitt m4-makro-paket, som jag kallar blow-m4k eller bara m4k.
+
+Makropaketet får distribueras under GPL-licens, precis som resten av
+de här filerna som kan anses som exempel. Men eftersom m4k bara är ett
+verktyg borde det inte vara några problem att bygga closed-source
+(fy!) saker i det.
+
+Anders Gustafsson
+blow@hype.nu

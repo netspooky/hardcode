@@ -1,0 +1,4 @@
+name:		kadag
+format:		93 bytes intro for DOS
+by:		moonmasta
+date:		19-11-2014

@@ -1,0 +1,68 @@
+In Arbeit:
+-Einspielermodus (Stellungsbewertung)
+
+-----
+Bugz:
+-Vor dem Speichern der Optionen Laufwerkstatus prfen (Schreibschutz)
+-Wenn alle Figuren gedeckt sind k”nnte es Probleme geben?
+
+---------------
+Noch zu machen:
+-Pufferl”schenroutinen
+-Bei Zugliste Rochade
+-Verloren/Gewonnen Anzeige fr 2 Spieler
+-Stellungsbewertung fr unterschiedliche Farben
+-Zugfilter
+-Computer muss auch mit anderen Farben spielen k”nnen
+-Bei Rochade prfen, ob Feld dazwischen angegriffen oder von Gegner besetzt
+-"En passant"
+-Patt + Schach(matt)prfung
+-Unbegrenzte Zugzurcknahme?
+-weicher Textscroller /im Grafikspeicher rumschieben
+-Spiel speichern/laden?
+-Pause Taste?
+-Seite wechseln?
+-Tip?
+-Strg+C / Strg+Pause abfangen?
+-Option fr Figurfarben?
+-Mausuntersttzung?
+-Alle ”'s mssen weg!
+
+-----------------
+Fertige Features:
+-Ki
+ -Zugliste aller m”glichen Zge erstellen
+ -Liste der ungedeckten Figuren machen
+-Bemerkungsfenster
+-Endlogo
+-Ziehen des Computers
+-Icons
+-Men und Figursteuerung
+-Namenseingabe fr die Spieler
+-Seitenwahl bei einem Spieler
+-Optionen
+-Info
+-Anzeigen der Namen und den Spieler, der gerade an der Reihe ist
+-Geschlagene Figuren werden auf rechten Seite angezeigt
+-Lesen und Speichern der Optionen in einer Configdatei
+-Zugnotation
+-Schachuhr
+-Bauernumwandlung (neue Dame)
+-Rochade
+-Prfungen:
+  - ob versucht wird eigene Figur zu schlagen
+  - ob zwischen Punkt1 und Punkt2 eines Zuges eine Figur steht
+-Abwechselndes Ziehen im Zwei-Spielermodus
+-Bauer:
+  - 1 oder 2 Felder beim Start
+  - Schr„g schlagen
+-Turm:
+  - senkrecht/waagerecht ziehen und schlagen
+-Dame:
+  - senkrecht/waagerecht/schr„g ziehen und schlagen
+-L„ufer:
+  - schr„g ziehen und schlagen
+-K”nig:
+  - Ein Feld ziehen und schlagen
+-Springer:
+  - Ecksprung ziehen und schlagen

@@ -1,0 +1,36 @@
+souldrop
+
+by fairlight
+
+
+code+music by smash.
+
+mailto: smaash@yahoo.com
+
+
+needs a very manly ps2.0 card. thats cos everything gfx-wise is done in some large ps+vs shaders, and
+there wasnt much room for things that make it run faster. (it's a 4k, live with it). 
+gf6600 or ati x600 or better recommended, welcome to the future. 
+tested on a gf6600gt, radeon x800 (both worked perfectly), and a gf5700 (which ran it like shit, but it did work). 
+
+please wait for the precalc at the beginning, it's the usual music generation process.
+
+
+so. i felt like doing a little 4k - everyone else seems to, so why not join in the fun? =) 
+and of course, im too lazy to size optimise my code for hours, so the logical answer is - write as much as possible in shaders.
+so you have some 3d all generated in the shader, lighting and shadows, and depth of field postfx.
+then i hacked together a synth but i didnt bother making an editor for it, so i made the entire tune in code using tables. 
+that's quite a sick process, dont try it at home kids. 
+
+
+thanks to:
+kenet for colourscheme advice, the crinkler guys for their very good exepacker, dvs/dcs for delivery to tum 4k compo, 
+reed and pantaloon for beta testing.
+
+
+
+
+
+
+
+

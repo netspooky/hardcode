@@ -1,0 +1,201 @@
+
+        ÉÍÍÍÍÍ»  ÉÍÍÍÍÍÍ»          ÉÍÍËÍÍÍÍÍ  É»     ÉÍÍËÍÍÍÍÍÍÍÍËÍÍÍÍÍ
+        º     º  º      È»        É¼  º       ºÈ»    º  º        º
+        º     º  º       È»      É¼   º       º È»   º  º        º
+        ÌÍÍÍÍË¼  ÌÍÍÍÍ    È»    É¼    ÌÍÍÍÍ   º  È»  º  º  ÍÍÍ»  ÌÍÍÍÍ
+        º    º   º         È»  É¼     º       º   È» º  º     º  º
+        º    º   º          È»É¼      º       º    È»º  º     º  º
+        ¼    ÈÍÍÍÊÍÍÍÍÍ      È¼       ÈÍÍÍÍÍÍÍ¼     È¼  ÈÍÍÍÍÍ¼  ÈÍÍÍÍÍ
+
+                                     BY
+
+                                 REAL  TIME
+
+                               22 December 94
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 1.                             WHAT'S IN ?                                 ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        This file contains informations on how to run this intro, and other
+ less important subjects. So if you have any problem to make 'Revenge'
+ perfectly work on your computer (I hope this won't be the case !), refer to
+ the next paragraph to find the solution.
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 2.                            REQUIREMENTS                                 ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        Because of the continuous raising of computers' power, particularly
+ in the world of demos, you can't expect this intro (and other recent ones !)
+ to run in good conditions on a slow machine. To appreciate it fully, you
+ need more precisely :
+
+ - at least an i486DX processor; a 486DX2 is recommended.
+ - a local bus VGA graphic card.
+ - a numeric coprocessor (no problem if you've got a 486DX or better).
+ - approximately 550-570 Ko of low memory; I don't actually know the exact
+   size, but a test at the beginning of the program will tell you to try a
+   'cleaner' boot if there is not enough place.
+
+ - it's possible to run this intro with or without any memory manager, such
+   as EMM386; but don't forget that those programs slow your machine down.
+   So if you don't really need them, get rid of them.
+ - a sound card is not necessary to run 'Revenge', but strongly recommended !
+   At the present time, only GUS is supported, but a version including SB will
+   soon be available (in fact, it's already finished, but I'm not happy with
+   the sound's quality. Be patient !).
+   The card is detected thanks to the ULTRASND (BLASTER for SB) environment
+   variable; if it is not present in your AUTOEXEC.BAT file, it won't be
+   found ! (as a consequence, there won't be any sound).
+
+
+        'Revenge' has been successfully tested on two 486DX2-66 with SB and
+   a Pentium 90 with GUS max; notice though that you try it at your own risk,
+   and that we are not responsible for any damage which could happen.
+
+
+        We're fed up with all those demos where it's impossible to skip one
+ part when it bores without going back to DOS or even sometimes re-booting
+ the computer. So, you can press ENTER whenever you want to jump to the next
+ part (but don't use it the first time : the whole intro is only a bit more
+ than five minutes long !), or ESC to quit.
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 3.                              CREDITS                                    ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+ * Drop In The Ocean ('Goutte' in French)     : MYTHOS
+ * Land                                       : SCARFMAN
+ * Julia's Fractals                           : MYTHOS
+ * Toilet Flush ('Chiotte' plus po‚tiquement) : SCARFMAN
+ * World (code and objects !)                 : SCARFMAN
+ * Spheres' intersections                     : SCARFMAN
+ * Filtered Zoom (i.e. not pixelized)         : SCARFMAN
+ * End Part                                   : MYTHOS
+
+ * Music                                      : TOF
+ * Sound System                               : MYTHOS
+   - SB  : with the help of Tiny MOD Player v0.1b by Carlos Hasan
+   - GUS : based on Robert Adolfsson's / CASCADA v0.1b routine
+   many changes, mainly due to the S3M format (ST3 forever !)
+ * Additional Code                            : SCARFMAN
+ * Organizing                                 : MYTHOS
+
+ Total : approximately 15 000 lines of ASM source (not too much, in fact).
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 4.                              RELEASES                                   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        'Real Time' is a young group (with old guys though, 22-23 years old !)
+ with only two coders, and a musician for this last production (but we're
+ happy with that, don't change anything !). So, our 'pieces of art' are not
+ very numerous :
+
+ * Way To Finland (Demo - 1 812 Ko - 08/94) : made for ASM'94. SB only.
+                   recommended: 386DX40 or better. lasts 12'.
+
+ * Delay_Pt (4 Ko intro - 3 655 bytes - 08/94) : poor contribution from Mythos
+             to the 4Ko ASM'94 compo (in fact a modified part of Way To F.)
+
+ * Mountain (4 Ko intro - 2 915 bytes - 08/94) : Scarfman's contribution to
+             the same compo. Great, but doesn't work with all cards (get an
+             ET4000 !). NB: These two 4Ko intros are released with Way To F.
+
+ * Revenge (64 Ko intro - 12/94) : our contribution to The Party 4.
+            You haven't tried it yet ?!? What are you waiting for ?
+
+
+        If you are reading this file (sure you are !), you've already got
+ 'Revenge'; you can find 'Way To Finland' on DP-TOOL Club's CD ASC 18 (French
+ people will understand what I mean), or by calling :
+
+ A.C.E   (France)   :  +33-1-4588-7548
+                       +33-1-4588-8809
+
+        I've heard that our demo is available on others BBS I don't exactly
+ know; if you are one of them, or if you want to become one of them, don't
+ hesitate : contact us (see the last paragraph of this file), and we'll be
+ happy to send you the last versions of our programs.
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 5.                              GREETINGS                                  ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        Our greetings go to (in alphabetical order) :
+
+ * CASCADA
+ * DUST (we love your productions; by why not always in full-screen ?!)
+ * EMF
+ * FUTURE CREW (no more demos ? :-( soon, we hope)
+ * IGUANA (we agree with you about PC competitions at ASM94; we were quite
+           disappointed by the way the show went off.
+           By the way : I think the organizers of every party should give a
+           list of the pieces chosen after the 'selection', in the 'future'
+           order of appearance; this would allow unhappy people to ask
+           questions before the show and not after -that is to say too late-,
+           and help everybody to vote)
+ * PRIME
+ * TRAN
+ * TRITON
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ 6.                          PERSONAL GREETINGS                             ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        First of all, we want to thank TOF for the great job he did : such a
+ good music with so awful samples (because of size requirements), we can't
+ believe our ears !
+
+        We also want to say hullo ('coucou' in French) to :
+
+ - our sisters and brothers.
+ - The 'PŠre Denis', his girlfriend V‚ro (and Nathalie too).
+ - Seb, Karine, the 'PŠre Moulun', Samy, P.A., Bob, and ... the others !
+ - Oh putain l'Gli !
+ - Rachel, Reb, Morgan, and all pretty girls who help Real Time a lot by
+   letting the two coders alone in front of their computers; we know it's
+   hard for you, but it's hard for us too ! (joke)
+
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³                                  THE END                                   ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+        In case you want to contact us, for example to give us some money :-)
+ or some support :-( , the only way to do it is to write to :
+
+                        MY Fr‚d‚ric / VAGINAY Alexis
+                        572 chemin du Viget
+                        30100 ALES - FRANCE
+
+ tel: 66.78.94.22
+      66.86.21.39
+
+ but this address may change in March ! So, after this date, better use the
+ following ones:
+
+        MY Fr‚d‚ric (Mythos)                 VAGINAY Alexis (Scarfman)
+        Bd du Gravier A                      route de Lure
+        03300 CUSSET - FRANCE                70200 LYOFFANS - FRANCE
+
+
+                        We wish you a Merry Christmas
+                           and a Happy New Year !
+
+                                                           Mythos (writing)
+                                                           ScarfMan

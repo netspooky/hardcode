@@ -1,0 +1,20 @@
+   _____ _/\_______/\________________/\______ _ ___/\ _ __________________
+\\ \   _/   \ ___    \________/        )  __/____    \______   __________/ //
+   /  ______/  \      \      /  ______/   __     \     ____/_______      \
+  /   \_    \_  \      \    /   \_    \_   \      \    \      \    \  sns \
+ (______\    /___\______)__(______\    /____\______)___________)___________).  
+         \  /                      \  /                    :    knights!    :..
+          \/                        \/                     :................: :
+                                                             :................:
+                          S C H T R O U M P H  2.0
+			  
+         f*cked win32 version - SDL version - released in september 2004
+
+win32 version don't use SDL, but you need to be in 1024x768.
+SDL version is better, and will write some data for faster loading next time
+
+31 textures used: 26720Kb
+83 surfaces used: 131024Kb
+
+sources are included in the archive.
+

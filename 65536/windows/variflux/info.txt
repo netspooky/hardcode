@@ -1,0 +1,24 @@
+
+Variflux, by inque 
+
+:: release info :: ----------------------------
+
+a 64k demo released at Outline 2012.
+
+needs a bit more optimizations and polish.
+
+this needs a heavy graphics card. confirmed to 
+run fine on a geforce 560 and 670.
+
+ohw and requires DirectX 10
+
+:: credits :: ---------------------------------
+
+code/math/visuals -- glow
+soundtrack/direction/visuals -- izard
+quality management -- cyrex
+public relations -- cosmiq
+
+:: cya :: -------------------------------------
+
+www.inque.org

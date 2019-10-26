@@ -1,0 +1,31 @@
+
+4k. intro. jol. nemjol..
+
+save_the_bolbz :: title
+code / synth :: blala
+music :: slyspy
+breakpoint :: party'2oo4 (or 2o14?)
+packer :: customly modified apack (*)
+beer :: wine :: kalcium
+
+blala@cs.elte.hu
+bandi@mantraporno.hu
+
+www.mantraporno.hu
+
+we are lame - we ran out of spacetime >> partyversion as always - who carez
+
+the walking cube is our tribute to the legendary a500 demo 
+'technological death' by mad elks
+
+sysreq: opengl, soundcard, memory, pentium 3 class cpu, windoze (xp,2k,98?)
+it may be slow on your system, or even not run >> again, who carez?
+
+(*) notice that the apack v0.99b we used is a dos .com packer, 
+    while this is a native windows executable... :)
+    in fact we wrote our own packer but apack was better by about
+    150 bytes. 150 bytes difference is fucking important as you know...
+
+for the nontechnical people: 4k means that about 150000 such little 
+multimedia stuff like this could be stored (in theory) on a single 74min cd!!
+in theory since there hardly exist 150000 such...

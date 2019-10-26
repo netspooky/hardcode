@@ -1,0 +1,55 @@
+Cubes 50 kb :P
+--------------
+
+Content:
+========
+  1. How to play
+  2. Requirements
+  3. Parameters
+  4. Cheats
+  5. Greets
+
+
+1. How to play
+==============
+Try not to collide with the red cubes and collect the power-ups (blue thingies). By tapping left/right you can change your current position. Use space to jump. It's that easy :P 
+
+There are the following power-ups avaiable:
+ 1. Speed up
+ 2. Speed Down
+ 3. Jump Enabled
+ 4. Drunken Mode
+ 5. Invincible
+ 6. "Flashbang"
+ 7. No Cubes
+ 8. get a life 
+ 9. Megajump
+ 10.Powerup-Mania
+ 11.Random chaos
+
+
+2. Requirements
+===============
+fast pc, fast gfx-card, sound :p
+
+
+3. Parameters
+=============
+Here are some nice parameters you can use for your enjoyment:
+
+ "-gentex" : generates textures & saves them to disk. next time you start the game, those saved textures are used -> faster startup :D
+
+ "-qt"     : play windowed and in 400x300. whoa, what a feature!!1
+
+use only one parameter at a time.
+
+
+4. Cheats
+=========
+  Yes. there are some. they suck :P
+
+
+5. Greets
+=========
+read the nfo :P too lazy to copy the names :D 
+special thanks must go to delphigl.com and the beta-testers of the game :)

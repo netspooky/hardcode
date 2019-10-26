@@ -1,0 +1,73 @@
+
+                            ùÄÄÄ- MùIùSùSùIùOùN ÄÄÄÄÄù
+                       ÛÛÜÛÛ ÛßßÛ ÛÛßÛ ÛßßÛ Ûßß ÛÛÜÛÛ Ûßß 
+                       Û ß Û ÛÛ Û Ûßß  ÛßßÜ Ûß  Û ß Û Ûß
+                       ÛÛ ÛÛ ÛÛÛÛ ÛÛ   ÛÛ Û ÛÛÛ ÛÛ ÛÛ ÛÛÛ
+
+                          a 32kb game by crossbone/ TBH
+
+                        
+  TiNY VERSiON Ä [for the mekka&symposion '97] ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ [03-28-1997]
+
+      requirements
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Simply use a 486DX2/66-based or better machine and you will most likely
+   enjoy the game.  It should work on a 386 as well,  but don't bet on it.
+   In addition, you need an Adlib compatible soundcard to hear some music.
+   Basically, every SoundBlaster should do.
+ 
+       how to play
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   I guess I don't have to write that much...
+   Anyway,  move the  ship with  the  cursorkeys  and shoot your  selected
+   weapon with  CTRL or SPACE.  You can  switch between  two weapons using
+   the ALT key; there are the Mini Missiles and the Quadro Laser.
+   The  Mini Missiles are available in unlimited supply, while the  Quadro
+   Laser gets  empty when using it.  You can refresh its energy by picking
+   up the blue energy capsules. The grey power-ups increase your  shield's
+   energy, which is displayed in grey bars on the left side of the screen.
+   Simply pick up the power-ups by flying over them.
+   To exit the game,  press  ESC or  play until you reach  the end  of the 
+   level.  Try to stay alive by not bumping into other  ships and avoiding 
+   their shots.
+   And don't forget: to get the big points you need to kick some butt!
+
+              info
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   This  piece was  coded and designed by  crossbone of  The Black Hazard.
+   Of course,  size optimizations were the  main point.  I did not want to
+   miss much of what I have in the  big version of  Mission Mopreme (which 
+   is about 4MB), so I had to fight some time to get all the gfx, routines  
+   and the  adlib tune into  32kb. 
+   For example, I only saved  one half of the ships in the  linked bitmaps
+   and mirrored  them at runtime,  as well as  puzzling together the back-
+   ground elements... =)
+   The graphics were created  using Picture Publisher and  Paint Shop Pro,
+   and the adlib song was composed with Reality's adlib-tracker RAD.
+
+   Oh yes,  like I wrote,  a really entertaining  big version of this game
+   exists. Featuring many  different scenarios, cool  digital GUS/SB music 
+   and almost everything you might have missed in the 32kb version, namely 
+   menus, upgrading etc.
+   
+   That's it, 31359 bytes of fun. enjoy.
+
+
+  acknowledgements
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Thanks to  Shayde^Reality for  RAD-tracker & the adlib-player routines.
+   Also thanks to  Evan Salomon for  saving me time writing a TP interface 
+   for it.
+     
+
+           contact   
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+   Eberhard Grummt 
+   Saarbrcker Straáe 7, 
+   07749 Jena, Germany
+
+   email:  crossbone@tek.dontpanic.sub.org or  ; preferred
+           crossbone@comitek.sesom.de or       ; if the 1st doesn't work
+           eberhard.grummt@mega.jena.thur.de
+    fido:  2:248/3001
+   phone: +49-3641-360411

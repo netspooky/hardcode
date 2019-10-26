@@ -1,0 +1,53 @@
+
+   TP5 Intro! ;)
+
+
+   Intro finished in a hurry just before deadline on December 28th 1995
+   for TheParty 5 intro-compo.
+   Everything but shadows was done at the party place!
+
+   No time to do any furher (required) work. :(
+
+   Please note, there's a known IRQ bug making music to hang on some
+   computers sometimes.
+   Sadly, as mentioned, time is up so we'll have to live with it.
+
+
+   Anyhow, some credits:
+
+    code:	the edge
+    music:	zodiak (with great help from Necros/FM)
+    splinefont: madster
+    small logo: sunday/MiSTERY
+
+
+    * memory system based on PMode 3.07
+    * code has nothing to do with CDA VR section
+    * the music player was done in 1995! :) (i was THAT tired, yes!)
+    * thnx to sunday, jmagic and thefear for speedtesting..!
+
+
+
+  the edge's address:
+
+  email: f94-hwa@nada.kth.se
+
+  snail: H†kan Wallin
+	 Knektv„gen 10
+	 19630 Kungs„ngen
+
+  zodiak's email: stridell@arosnet.se
+
+  madster's email: pt95pjo@pt.hk-r.se
+
+  Quick handshakes - Omicron, Fairlight, Antic, CodeBlasters, Complex, Imphobia,
+		     Straylight, Orange, Live!, Nooon, Mistery, Noice, Triton,
+		     Impact Studios, Yodel, ex-Phenomena, @, S!P, PacMan Prod,
+		     Iguana, Legend Design, Paragon (c64), Amorphus----
+
+  Get your Cascada stuff at ftp.arosnet.se
+
+  (c) Cascada 1995
+
+
+

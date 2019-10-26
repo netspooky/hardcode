@@ -1,0 +1,17 @@
+  Lavos
+
+Matti Henttonen (collateralburger): Synth & music
+Vantte Kilappa (Warma):             'Lavos' shape code
+Tatu Kilappa (Trilkk):              All other code
+
+FreeBSD-ia32 16k intro for Tokyo Demo Fest 2014 combined intro compo. However,
+entered as wild since the TDF intro compo is Windows-only. Windows and Linux
+ports exist at the time of writing this README, but they do not quite fit into
+16k. Or any other size limit for that matter.
+
+The premise for this production was for collateralburger to try out programming
+a software synthesizer for the first time. Rest of the intro has been made to
+accomodate. 4k synth would have been quite unreasonable for a first entry into
+introcoding, so the 16k limit serves as a more lax restriction.
+
+Greets in the intro for once.

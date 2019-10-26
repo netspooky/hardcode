@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<title></title>
+<script type="text/javascript" src="document.js"></script>
+<script type="text/javascript" src="elementControl.js"></script>
+<script type="text/javascript" src="genericFactory.js"></script>
+<script type="text/javascript" src="Circle.js"></script>
+<script type="text/javascript" src="Point.js"></script>
+<script type="text/javascript" src="time.js"></script>
+<script type="text/javascript" src="encode.js"></script>
+<script type="text/javascript" src="math.js"></script>
+<script type="text/javascript" src="classes.js"></script>
+<script type="text/javascript" src="cube.js"></script>
+<script type="text/javascript" src="scrolltext.js"></script>
+<style type="text/css">
+body {overflow: hidden;}
+</style>
+
+<body bgcolor="black">
+
+</body>
+<script type="text/javascript">
+	var rings = new Array();
+	var center = new Point();
+	var closeness = new Array();
+	var count = 8;
+	var hideTwirl = 750;
+	for(var i=0; i<count; i++){
+		closeness[i] = i * 100 / count;
+		//rings[i].rotateRelative(closeness[i]*114);
+	}
+	changeDistance();
+
+	for(var i=0; i<count; i++){
+		rings[i] = new Circle(550,550,10 + (7* i) % 4, 100);
+		rings[i].setColor(255,255,255);
+	}
+
+	setTimeout('loop();', 10);
+
+	function updateTwirl(){
+			for(var i=0; i<count; i++){
+			if(time == 830)
+			try{
+				document.body.removeChild(rings[i].something);
+				}
+				catch(ex){}
+			else
+			{
+			var size = closeness[i] * 4 + 50;
+			if(hideTwirl < time){
+				if(size > (time - hideTwirl)*4){
+					rings[i].setSize(size);
+				}else{
+					rings[i].setSize(10000);
+				}
+			}
+			else{
+				if(time*9 + 50 < size){
+					rings[i].setSize(10000);
+				}else{
+					rings[i].setSize(size);
+				}
+			}
+				var col = parseInt(closeness[i]);
+				rings[i].setColor(col*2,col*2,col);
+				center.x = closeness[i] * Math.cos(time/30.0) * Math.sin(time/40.0+2)*2 + 400;
+				center.y = closeness[i] * Math.sin(time/20.0) * Math.cos(time/50.0+1)*2 + 340;
+				rings[i].setCenter(center.x , center.y );
+				rings[i].rotateRelative(closeness[i]/800);
+			}
+			}
+	}
+	var time;
+	function loop(){
+		time = incrementTime();
+		document.title = time;
+		if(time < 831)
+			updateTwirl();
+		if(time == 150){
+			scrollinit('Your momma\'s so poor, that for christmas she got a cardboard box, put an X on it, spinned that bitch and said "HERE\'S YA XBOX 360!"');
+		}
+		if(time == 890){
+			scrollinit('Coded under pressure by the Rapefruits. Shout-out to all sceners out there - keep it alive! And also kudos to anyone making that screaming airwolf-german unable to enter the stage again...');
+		}
+		if(time==630){
+			cubeinit(330,250,1, "#ed3", 0);
+		}
+		if(time==850)
+		{
+				cubeinit(1,0,1, "#3f3", 0.1);
+			cubeinit(140,-20,1.5, "#6633ff", 0.1);
+		}
+		if(time==870)
+		{
+			var cu = cubes[0];
+			cubes.splice(0, 1);
+			for(var i in cu.Els)
+			{
+				for(var p in cu.Els[i])
+				{
+					cu.Els[i][p].innerHTML = "";
+				}
+			}
+		}
+		if(time==980)
+		{
+			var cu = cubes[0];
+			cubes.splice(0, 1);
+			for(var i in cu.Els)
+			{
+				for(var p in cu.Els[i])
+				{
+					cu.Els[i][p].innerHTML = "";
+				}
+			}
+		}
+		if(time==1119)
+		{
+			var cu = cubes[0];
+			cubes.splice(0, 1);
+			for(var i in cu.Els)
+			{
+				for(var p in cu.Els[i])
+				{
+					cu.Els[i][p].innerHTML = "";
+				}
+			}
+		}
+		changeDistance();
+		setTimeout('loop();', 10);
+	}
+
+	function changeDistance(){
+		for(var i=0; i<count; i++){
+			closeness[i] = closeness[i] + 2;
+			if(hideTwirl > time){
+				closeness[i] = parseInt(closeness[i]) % 100;
+			}
+			
+		}
+	}
+		
+		//cubeinit(330,250,1, "#ed3");
+	
+</script>
+</html>

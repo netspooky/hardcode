@@ -1,0 +1,19 @@
+ _______	 _______ 
+|       |	|	|
+|    |__|_______|__     |
+|___	|	|  /    |
+|   |	|   O	|    /__|
+|_______|___	|_______|
+	    |	|leia
+	    |	|
+	    |___|
+		
+	 Presents
+
+Name: 	  Heart
+Author:   Alv, Leia
+Group:	  Squirrelz
+For:	  Rem2k Intro Compo
+
+Require: Windows 95+
+

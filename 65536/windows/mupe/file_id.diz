@@ -1,0 +1,23 @@
+Mupé
+By PlayPsyCo
+Released at The Gathering 2007
+
+the without whoom department:
+  datsua ^ code
+kaktusen ^ music
+stgenius ^ modelling
+
+the hardware needed:
+- a sound card
+- OpenGL v2.0
+- 1.6GHz CPU or better
+- A few megabytes of RAM
+
+
+-[fixes]-------------------------------------------------------------
+ * something is most probably broken :\
+
+-[special greetings]-------------------------------------------------
+ * Farbrauch for libv2 and kkrunchy
+ * Kusma for text rendering :)
+ * Loaderr0r for feedback/advice (please port your 4kb synth to windows :))

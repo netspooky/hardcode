@@ -1,0 +1,1 @@
+tail -n+2 $0|zcat>x.c;cc -O3 -lSDL -lGLU x.c -o y;./y>/dev/dsp

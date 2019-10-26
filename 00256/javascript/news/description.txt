@@ -1,0 +1,3 @@
+"News" by Mips
+
+test: IE5.0, Win98SE

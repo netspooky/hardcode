@@ -1,0 +1,53 @@
+  컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+                 MANSIKKA
+
+               a 64kB intro
+
+             from Assembly '95
+
+                  by Fit
+
+
+
+    About Hardware
+    컴컴컴컴컴컴컴
+    VGA+386 required.
+    GUS+SB optional. (SB w/noise)
+
+    -> Uses math co-processor.
+       Don't know, if it will work without one...
+
+
+
+    Config
+    컴컴컴
+    Memory managers are allowed. But don't blame
+    anyone, if your system crashes.
+
+
+    Other Stuff
+    컴컴컴컴컴�
+    This thingy was coded at the party place
+    between Thursday 11.00 a.m. and Friday
+    11.00 p.m. So pay some respect, and no
+    complaining about anything!
+
+
+    Kiire
+    컴컴�
+    We don't have much time now, and these files
+    have to be finished before the deadline...
+           and SORRY VERRY MUCCHHO, but
+    the SB player was the best we were able to
+    make in this short time!
+
+
+
+
+
+                                   Yzi/Fit
+
+  컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+

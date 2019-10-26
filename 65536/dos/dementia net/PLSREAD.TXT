@@ -1,0 +1,36 @@
+First, let me say thanx for taking the time to download this zip and read
+this file.  After working some time, Machine Head and I have fingered out
+how to code SVGA loaders.  Because each and every svga card chipset works
+differently, we had to write code to detect each type and then different
+code to set the 640X480X256 mode and also code to write the pixels to the
+screen for each type of card....so there was bound to be bugs.  We believe we
+now have the bugs out and this is the first public release of our first SVGA
+loader.  We currently support all 100% VESA SVGA, TSENG SVGA, PARADISE SVGA,
+AND TRIDENT SVGA cards.  If you have one of these cards you should see the
+loader, and we have tested it ourselves on these cards.  If you do not have
+one of these cards, you should see a message telling you that it requires one
+of these SVGA cards.  Or if the loader crashes, you might get nothing or a
+black screen, and you might get out of it by hitting escape.  I believe this
+should cover about 99% of all super VGA cards currently in use.  This will
+allow our artists to greatly expand their talents and will better display
+their high quality art.
+
+Disadvantages - some lamers don't have SVGA cards.  Some early model VESA
+(v. 1.0 or 1.1) cards might not work (get a free bios upgrade from the
+manufacturer).  Large areas of the screen cannot be animated without retrace
+hitting it, unlike mode X.  But remember, the purpose of SVGA is to display
+high caliber art, not do cool coding tricks.
+
+If you have problems with this file, please leave me feedback on Elusive, GOA
+or Unlawful.  Please explain in detail exactly how your system reacted to the
+loader and the name brand and chipset of your video card and how much memory
+your video card has one it.  I have only tested it on three plain vanilla
+VGA systems (a rarity nowadays) and it gave the appropriate message on
+them.  Your input will help us may bring Elite art up to Elite standards.
+If your SVGA card is not supported, let us know and we will try to fix that.
+Expect more and better SVGAs from ACiD in the future.
+
+GREETZ - Rad Man, Machine Head, Da Vinci, Shock Wave, The Toyman, Tazmaniac,
+Sharp, all other ACiD members, iCE, Major Theft, VLA, and my friend Empedocles.
+
+       Be seein ya!!  -= Rocket Scientist =-  <ACiD Productions>

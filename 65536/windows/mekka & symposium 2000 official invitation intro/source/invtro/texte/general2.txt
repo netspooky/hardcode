@@ -1,0 +1,512 @@
+^General Information
+
+~What is MS all about?
+
+The |mekka & symposium is a demo-scene party that is organized annually
+at Easter. Here, about 1000 young Multimedia artists gather for four
+days to meet similar-minded people, exchange ideas and participate in
+competitions in which individual people and groups show off their
+talent with regards to a traditional form of electronic art called
+|Demos.
+
+Although it might seem so art first glance, the |MS is no LAN party
+where network game playing would be the primary occupation. People
+playing Quake or Half-Life on our events are considered non-creative,
+if not destructive, by most of our "serious" visitors. If you "just"
+want to play games, think about going to our Planet Insomnia
+(www.planet-insomnia.de) parties instead, you'll have much more fun
+since you'll also be finding much more enemies to play against...
+
+~Location, Date, Entrance Fee
+
+The party place is located in Fallingbostel (www.fallingbostel.de).
+Situated between Hamburg and Hannover, this is the only town in
+Northern Germany that offers a hall suitable for at least 1000
+visitors, while not being too expensive. At this place the |MS
+parties have been taking place since 1997, so we really know its
+infrastructure and limits quite well, too. The party starts on |Good
+Friday (21st April, 2000) at 12:00 CET and ends on |Easter Monday
+(24th April, 2000) at 12:00 CET. The address is:
+
+Heidmarkhalle \
+An der Heidmarkhalle 1 \
+D-29683 Fallingbostel \
+GERMANY \
+
+The entrance fee amounts to |70 DM (35 Euro). We don't accept
+currencies other than DM. We don't have single-day visitor tickets.
+Girls and Mat/Ozone get in for free. There is no table reservation, and
+no possibility of paying in advance. Money which is left is spent on
+the repair of damages to the hall and on competition prizes (in this
+very order, so please behave :D). If you bring your own computer
+equipment (this does not cost extra, of course), bring your own power
+connectors!
+
+~Travel Information
+
+If you're going to come by car, you can reach Fallingbostel through
+the highway A7 - watch out for the "Fallingbostel" announcement. We
+have a map (in english or german, included in the .ZIP file) which
+guides you from the highway exit to the party place.
+
+When coming by train, you have to use some major train to either
+Hamburg or Hannover (whichever is nearer to you), and change for
+Fallingbostel there (train schedules are available from the Deutsche
+Bahn info page, bahn.hafas.de). Once you've arrived in Fallingbostel,
+you can make use of the free |24h bus shuttle service we will set up
+just like last year. But you |must contact us (see contacts section)
+in advance, so that you will be picked up (please tell about number of
+people and time of arrival). If you're coming without equipment, you
+can also take the walk (half an hour); watch out for the "Bahnhof" /
+"Railroad Station" in the center of our map.
+
+This year there are again some guys organizing bus trips from various
+countries to the |MS; some of them may have a free place left for you!
+If you are interested in information about those bus trips, please take
+a look at the MS2000 homepage (see Contacts section), we do not print it
+here because of likely updates.
+
+~Features
+
+|1. Lots of competitions for Amiga, PC and C64 - and some platform-independent
+ones such as a Graphics competition and various music competitions. We
+don't have competitions for Atari and Acorn systems; feel free to
+participate in the Wild compo with productions for these and even other
+machines.
+
+|2. Competitions presented on a big screen sized 6x4 sqm, including
+powerful sound equipment - yes, the sound will be loud if you are
+sitting in the first table row. No, we will not turn the volume down.
+Choose your fate in advance by sitting down at the front of the hall if
+you want loud sound (note that you don't need your own stereo to make even
+more noise), or by taking place at the remote side of the 
+hall if you are in need of a quiet place (note that some guy 
+next to you will be pissed if you turn up your own stereo 
+too much). Also, some wax to put into your ears when you 
+want to sleep will really come in handy.
+
+|3. Place for about 1200 visitors plus equipment; enough 
+power for everyone - but: please do not bring equipment 
+you don't really need. This has two advantages: You can't 
+lose it, and it can't bring the power down (see below for 
+more words on the subject of electricity)
+
+|4. A warm sleeping hall - Just like on |ms2k-1,
+comfortably small and warm. Of course you can sleep in the 
+main hall as well. If you want to, you can also stay at the 
+local youth hostel, which is located about half a kilometer 
+from the party place (note that you probably need a member 
+card):
+
+Jugendherberge Fallingbostel \
+DJH Landesverband Hannover e.V. \
+Liethweg 1 \
+29683 Fallingbostel \
+Phone: +49 5162 2274 \
+
+If you really can afford it: A listing of hotels is on the
+Fallingbostel homepage (www.fallingbostel.de). 
+
+|5. A stable party network! - the |MS2000 is a 
+|party, not an ISP :-) Some kind of Internet 
+connection will be there, but it is not our primary concern. 
+A local network will be setup with 100MBit switches on the 
+tables (Twisted Pair only). You will also be able to vote 
+and contribute via network (paper voting will still be 
+possible, of course). You can bring your own hub or switch 
+if you want to use your own hardware. Quake, Half-Life, 
+Unreal and other network game packets will be filtered by 
+the backbone hardware. For more questions, mail our network 
+master MoM (as usual, refer to the Contacts section).
+
+|6. Food supply - there's a city nearby, with shops 
+and bars; and we have inexpensive drinks and snacks 
+available on the party 24 hours a day. Of course you may and 
+should also bring your own food and drinks, as it will be 
+less expensive this way. A nice snack-bar providing fries, 
+hamburgers etc. will be situated next to the main hall 
+almost 24 hours a day.
+
+|7. Clean toilets and showers. Showers are not public,
+though. Instead, we will have designated shower hours a 
+couple of times.
+
+|And last not least... Live music performances, traditional entertainment
+provided by Steeler, cool party t-shirts... and the unique Mekka &
+Symposium party feeling!
+
+~Rules
+
+We are not responsible for stolen computer equipment or 
+other items you bring with you. We aren't responsible for 
+personal injuries either. Take care of yourself, your friends 
+and your luggage. We've never had much trouble with theft on 
+our parties, but it might be better to think twice about 
+taking a certain valuable thing with you onto the party.
+
+The use of alcohol is hereby explicitly forbidden. After 
+facing severe damages and personal attacks on previous parties 
+due to heavily drunken individuals, we chose to put up this 
+rule from 1998 on. Drunken guys won't be let inside, 
+disturbing guys (this also includes Quake players, by the way 
+:D) will be put outside. Don't consume Vodka in front of the 
+stage. Don't |vomit onto the floor.
+
+In case we discover that you are destroying things, either 
+intellectual property (hacking the network system), or 
+physically damaging the building or people, you can be sure 
+that we will take very special care of you.
+
+This year we will try again to supply you with enough
+electric power. We invest in new cables and fuse-racks, just 
+to serve your equipment more than well. To make this event as 
+pleasurable as possible and to avoid last year's power 
+failures, we would be pleased if you did |not bring all 
+that stuff like: toasters, fridges, heaters or cheap extension 
+sockets with you. These things were / are responsible for 
+those failures, because they violate the FI protection. We can 
+not remove this protection, because it's legally required, for 
+your safety. So please leave them at home (mummy and daddy 
+will keep an eye on them). Let's also stress that we are not 
+responsible for any damage of your equipment (of course we 
+won't refund half-written CD-Rs after a power failure), just 
+keep this in mind.
+
+Please respect German law. Illegal actions, especially
+regarding software piracy, can not be approved of. Dutch 
+visitors should be aware of the fact that weed consumption is 
+illegal over here.
+
+Last but not least, have fun! And if you have ideas of what
+might be fun on the party, don't hesitate to contact us, even 
+on the party. |You're part of the party.
+
+~Time Table
+
+The time table was not ready at the time of writing this invitro ;)
+
+^Competitions
+
+~Competitions on MS2000
+
+Competitions are the core feature of any decent scene 
+party. They are the ultimate tool to present one's work to a 
+large audience and compare one's creativity directly to that 
+of others. Consequently, in competitions on major parties, new 
+milestones are set for demo technology because people keep 
+constantly improving their skills in their quest for fame in 
+the scene.
+
+Each year again it's hard to determine which competitions 
+to hold. You hold too many, people get bored (and the time 
+table gets overflowed) -- you hold too few or too restrictive 
+ones, some people get upset because they feel that they can't 
+use their whole creativity. There's also always the aspect of 
+tradition. Many guys (including us, the organizers) have been 
+in the scene business for over ten years; sometimes it's not 
+easy to make major changes to rules which had been established 
+for a long time.
+
+We hope that this year's selection of competitions suits
+your taste. If not, you may of course contact the coordinator 
+of the respective competition by E-Mail for further 
+discussion.
+
+|Some more notes
+
+Everyone intending to participate in one of our 
+competitions has to be present at the party. We don't accept 
+contributions via mail. The sole exception to this rule are 
+the Demo competitions; here we welcome external entries as 
+well. Contact Raw Style for further discussion. (See contacts
+section...)
+
+|Cross-platform competitions
+
+~Alternative Music Competition \
+(including ambient, chillout, demostyle, etc.)
+
+-MT2, IT, XM, S3M, and MOD allowed
+
+-maximum filesize 1.8MB (no compressed files)
+
+-4 minutes playtime
+
+-all modules will be played with the latest versions of their
+respective trackers
+
+-max. one entry per competitor 
+
+-contact Sierra (->Contacts) if you want to use another format
+
+~Progressive Music Competition \
+(including d'n'b, house, trance, techno, etc.)
+
+-(see Alternative Music Competition)
+
+~MP3 Music Competition
+
+-enter your tracks as MP3 in 128kbps or higher or on Audio CD
+
+-4 minutes playtime
+
+-one entry per competitor
+
+~32k Game Competition \
+(for Amiga, PC and C-64)
+
+-Size of all files: 32K
+
+-Competition machines are the same as in the 
+  platform-specific competitions (see below)
+
+-The game will be played on the bigscreen by the coder.
+
+-If you are planning networked games, contact us in
+advance. We will do a quality preselection on this
+competition.
+
+-|For PC only: Mega-Em will be started to support 
+GUS Midi music. Game must be playable with keyboard only. 
+However if you have support for some special device 
+(joystick or whatever) be sure to bring it along.
+
+~Pixel Graphics Competition \
+(hand-pixelled images only)
+
+Maximum resolution is 800x600 in 24 Bits TrueColor.
+Raytraced pictures do not belong into this category, only 
+hand-pixelled graphics are to be handed in for this 
+competition. The entries must be handed in in IFF, PNG or TGA 
+format. All entries will be shown at least twice, at different 
+daytimes.
+
+~Alternative Graphics Competition \
+(ray-traced, composed etc.)
+
+Maximum resolution is 800x600 in 24 Bits TrueColor. The
+entries must be handed in in IFF, PNG or TGA format. All 
+entries will be shown at least twice, at different daytimes. 
+
+|C-64 platform competitions
+
+~C-64 Demo Competition
+
+-Maximum size is a standard 5.25" DD disk (both sides).
+
+-The demos may require user (keyboard/joystick) interaction.
+
+~C-64 4k Intro Competition
+
+-Maximum size is 4096 ($1000) bytes (=16.12 blocks).
+
+~C-64 Graphics Competition
+
+All formats/modes are allowed. The entry must be handed in 
+as an executable file or as Koala/Amica. Any sounds or extra 
+info-screens included in the file will not be shown/played. It 
+would be nice of you to forget about additional music or coded 
+effects and give us something serious for the show. The 
+inclusion of working stages of your picture is appreciated. 
+
+~SID Music Competition
+
+All formats allowed. The entry must be an executable file
+(if you need help with a program to play your tune, contact 
+any of the Padua-organizers). The C-64 screen will not be 
+shown during the competition. We will play up to 4:27 minutes 
+of each tune. You may choose between a C-64 with a new or with 
+an old SID-chip. There will be a preselection if too many 
+entries are handed in. Preselected tunes will be only played 
+for 30 seconds.
+
+The C-64 competition rules are maintained by Anonym,
+please mail him for further information or discussion.
+
+|Amiga Platform Competitions
+
+The competition machine, kindly provided by Infinity / 
+Creative Minds, is equipped as follows:
+
+-A4000, MC68060 @50MHz
+
+-PPC 604e @233MHz
+
+-64MB RAM (Your entry must work on 16MB machines as well)
+
+-Cybervision PPC
+
+-WarpOS & PowerUP
+
+Assigns and installation scripts are forbidden (this means that unpacking 
+the archive and running one program is all that is necessary 
+to start the demo). Custom libraries may be used, but not 
+installed outside of the contribution directory. 
+
+~Amiga Demo Competition
+
+-Maximum size is 6 MB uncompressed.
+
+~Amiga 40K Intro Competition
+
+-The intro size is 40KB at most. The intro is a single
+executable file.
+
+~Amiga 4K Intro Competition
+
+-Maximum size is 4096 bytes.
+
+-Booting AmigaOS without startup-sequence, running 
+SetPatch and then simply running the 4K executable from a 
+standard PAL screen must be everything that's necessary to 
+start the intro.
+
+The Amiga competition rules are maintained by Raw Style, please mail
+him for further information or discussion.
+
+|IBM PC Platform Competitions
+
+The competition machine is equipped as follows:
+
+-Intel Celeron or Pentium2 400MHz Processor
+
+-128MB RAM
+
+-Riva TNT 2
+
+-Creative Labs Sound Blaster 16 (ISA)
+
+-Gravis Ultrasound Classic 1MB (ISA)
+
+-Most recent DirectX, at least 7a
+
+-Latest Nvidia Detonator Drivers
+
+-Acceleration allowed in all PC competitions!
+
+-Operating Systems: Windows 98SE, SUSE Linux 6.x Full Install
+
+
+~PC Demo Competition
+
+-File Size 10MB
+
+~PC 64K Intro
+
+-File Size 64K
+
+~PC 4k Intro
+
+-File Size 4K
+
+-Mega-Em will be started to support GUS Midi music. 
+
+|Time Limit: We don't have a distinct time limit for
+the competitions. Just be creative and take the time you need. 
+However, if an entry gets too boring it will be skipped!
+
+|Usage: All DOS/Win entries will be started from the
+Windows 98SE command line. Demos requiring EMS memory or 
+special memory configurations will not be shown. We will not 
+change anything in config.sys or autoexec.bat! Pure Animations 
+are not accepted.
+
+Please read the following FMC (frequently mentioned
+complaints) before complaining about the rules: 
+
+-Accel, Non-Accel topic: Now you know the rules and are
+free to write an accelerated production, if you think that 
+this will give you an advantage. 
+
+-Windows productions: It is a fact that Windows demos are
+far more compatible and easier to handle than DOS based 
+productions. Anyway, in every compo you have the choice 
+between a DOS, Win or Linux entry. 
+
+-We suck, and don't know the roots of the scene: Actually
+most of us are part of the roots, but we realize that the 
+scene is changing every day! If we wouldn't accept that, we 
+would have the following compo machine: 386/33 with 4MB, 
+Trident 8900 and a SB1.
+
+The PC competition rules are maintained by Doj, please mail him for 
+further information or discussion.
+
+|Other Competitions
+
+~PlayStation Demo Competition
+
+-max. 1 audio track and 1 data track are allowed. 
+-the size of the data track must not exceed 6 MB.
+
+-the demo must be delivered on a SELF-BOOTING CDR (NO CDRWs).
+
+-before the demo starts there must be a possibility to 
+choose between PAL/NTSC or at least an auto detection.
+
+-the competition will be held on a SCPH-7002. (to avoid 
+probs like last year... hello Haujobb)
+
+-all demos will be spread.
+
+For updated information or any questions and comments about the PSX 
+competition write to Gott/Elitegroup or try the Elitegroup homepage.
+(www.elitegroup.demo.org)
+
+~Wild Competition
+
+Here you can deliver anything that doesn't fit into the
+other categories. We will not have separate Wild ("classic") 
+and Video competitions, as the number of entries in the former 
+would be too low. The most welcome contribution medium is a 
+VHS or S-VHS tape recorded in PAL; you can optionally hand in 
+a graphics file containing some information about the hardware 
+used to create your entry. If you can't tape the thing 
+yourself (if you are using really Wild hardware...) please 
+contact us in advance. 
+
+There aren't many restrictions on this competition. Your
+entry should be related to computers, though. People are not 
+interested in watching yet another skateboard video. Please 
+help keeping this competition interesting!
+
+^Contact Information
+
+~Main Organization
+
+These are the |ms2000 main organizers:
+
+-Hardball/Amable (hardball@ms.demo.org), General Organizing
+
+-Chaotic/Padua (chaotic@ms.demo.org), Staff, Beam, Misc
+
+-Raw Style/Lego (rawstyle@ms.demo.org), WWW, Scene PR, Compos
+
+-Gandalf/Phantasm (gandalf@ms.demo.org), Press, Sponsors, Power
+
+-Decca/Lego (decca@ms.demo.org), Power, Misc
+
+
+
+~Competition Organization
+
+General competition organization is done by Raw Style. These guys
+are responsible for some particular competitions:
+
+-Sierra/Destiny (sierra@ms.demo.org), Music Competitions
+
+-Doj/Cubic (doj@ms.demo.org), IBM PC Competitions
+
+-Anonym/Padua (anonym@ms.demo.org), C-64 Competitions
+
+-Gott/Elitegroup (gott@ms.demo.org), PSX Competition
+
+-Raw Style/Lego (rawstyle@ms.demo.org), Amiga Competitions
+
+-Gandalf/Phantasm (gandalf@ms.demo.org), Wild Competition
+
+
+|For updated information, have a look at the ms2000 Homepage,
+ms.demo.org/2000.
+
+|For the credits/greetings, just experiment a bit with your mouse...

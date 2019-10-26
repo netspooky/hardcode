@@ -1,0 +1,28 @@
+glBegin(GL_REMARK);
+
+ GENOME (ALIEN'S SORROW 2) 64K intro
+         accept<2009>corp
+       Assembly Summer 2009
+   ----------------------------
+ win                      opengl 3.1
+
+ 
+ coding,music,modeling: Dmitriy 'Phantom Lord' Selin
+ 
+ uses:
+ 
+ X-Wave v2.5 by me
+ X-Point v1.23 by me
+ fmod by Firelight Multimedia
+ kkrunchy by Farbrausch
+
+ Hello: Critical Mass, Mayhem, Sands, And, Quite, Placebo,
+        7dump, ASD, Farbrausch, Fairlight, Conspiracy...
+		
+ Special thanks for moral support: MOT/Accept Corp.
+                for testing: Tone/Sands, Manwe/Sands, Jocker/Critical Mass, Warhawk/Critical Mass
+ Mega special thank for presentation to the Assembly: Tone/Sands (my representative)
+ 
+ forgod@fromru.com
+
+glEnd( );  

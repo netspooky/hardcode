@@ -1,0 +1,20 @@
+1k demo by Scali, for #ASM 1k democompo, 5th of December, 2001.
+
+Well, I had a lot of plans for this 1k demo, coded quite a lot of routines
+already... But then my partition died... took a while to get it fixed
+(thanks comrade).
+Then I upgraded to an AMD Thunderbird 1400, which gave me lots of trouble with
+overheating, bad drivers, and generally lousy implementations of standards
+such as AGP4x.
+I managed to get the system reasonably stable, so I decided to try and piece
+something together from the stuff that I had written so far... (thanks to
+insomniac aswell, for helping me with the scroller).
+I'd like to enter anyway, even though I could not make a respectable entry.
+The more entries, the merrier :)
+It's not much, but I hope it will give you a bit of that oldskool Amiga
+feeling. Back in the day when everything was better, and when computers were
+still made of wood, blah etc.
+
+Well, enjoy, and prettige Sinterklaas.
+
+Scali

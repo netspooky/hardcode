@@ -1,0 +1,19 @@
+
+Find Love, 32 byte Pack A
+
+http://youtu.be/-vyD5H4dYSA
+
+Some searching in FASM with DOSBox 0.74 to find interesting displays. Not
+tested on real hardware. Possible emulation of undefined flags would alter
+results in some cases.
+
+Thanks To:
+
+http://flatassembler.net/
+http://www.dosbox.com/
+
+...and skurk/depth for the template code to get me started.
+
+
+Enjoy,
+bitRAKE

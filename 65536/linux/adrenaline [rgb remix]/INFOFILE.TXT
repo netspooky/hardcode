@@ -1,0 +1,20 @@
+Adrenaline [RGB remix] by PHn.
+
+Original version released at the Mekka & Symposium 2001. 64kB intro / Linux.
+Remix might have been shown at Escape 2001, held somewhere.
+
+Requires glibc2.2, XFree86 4.x, libSDL 1.2.x, hardware accelerated 
+OpenGL-libraries (libGL.so) and OSS. Tested with G400, TNT2 and Geforce2.
+
+- 32bpp.
+- no ESD or ALSA, just OSS.
+- 640x480.
+
+This version is not the final, but a remixed one.
+
+code:	nrg, akk, matvei
+music: 	jizz
+remix:	matvei
+
+fanmail@phn.joroinen.fi
+world.domination@phn.joroinen.fi

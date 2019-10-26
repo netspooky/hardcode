@@ -1,0 +1,17 @@
+kakiarts: vortex 2
+
+a crappy 64k intro for Evoke 2008
+made in a few days without any real concept
+
+100% hand-coded, no fancy tools 'n stuff used,
+except the V2 synthesizer system by kb/fr and
+the kkrunchy executable packer by ryg/fr
+
+requires a moderately fast graphics card with
+shader model 2.0;
+might have some display issues on ATI Radeon
+9x00 chips
+
+code, graphics: KeyJ
+music: tristan
+artistic support: SubC

@@ -1,0 +1,62 @@
+
+
+                           C H I C K E N  R A C E
+
+                    An action-filled virtual reality game
+                          (in less than 256 bytes)
+ 
+                Made by: Rolf Larsson - witchdoc@ludd.luth.se
+
+LEGALESE
+
+        LEGAL MUMBOJUMBO, CAPITAL LETTERS: IF YOU THINK THAT I, LUDD OR
+        ANYONE ELSE IN THIS INSANE WORLD WILL ASSUME RESPONSIBILITY IN
+        THE UNLIKELY EVENT THIS PROGRAM TRASHES YOUR COMPUTER, YOU'RE
+        WRONG. I HEREBY PLACE THIS PROGRAM, ITS SOURCE CODE AND THE SMALL
+        PEAUNUTS YOU GET WITH THE EXTENDED VERSION INTO PUBLIC DOMAIN, TO
+        BE USED AND ABUSED IN ANY WAY YOU LIKE. JUST DON'T COME TO ME AND
+        WHINE IF IT FUCKS UP, OK?
+
+INTRODUCTION
+
+        This is a game for two players. You play the roles of Bongo and
+        Murlock, two rivalling gang members. Both have the same interest:
+        Cars, Sports and Wendy. Wendy is your average blonde bimbo, who
+        only likes men who likes (you guessed it) Cars, Sports and Wendy.
+        Since both Bongo and Murlock are rather egoistic, they of course
+        want Wendy for themselves. They have decided to settle this matter
+        once and for all, with a CHICKEN RACE.
+
+OBJECT OF THE GAME
+
+        Here's where you, the players come into the action. The cars have
+        just started, heading towards the final meeting. This is a matter
+        of nerves; the coolest guy will be the winner. Bongo, who for the
+        occasion is clad in purple starts off the left side and controls
+        his car with the Z key. Murlock is dressed yellow and steers his
+        vehicle with the M. Only sissies use something else than capital
+        letters.
+
+        Good luck, commander. You'll need it.
+
+        PS: Bongo, Murlock and Wendy are all tapeworms, if you wonder.
+
+TECHNICAL NOTES
+
+        This program was compiled with tasm 2.5 and tlink 3.01 from
+        Borland International. In its initial form, it took up 179
+        bytes, but currently only takes up 159. If I have time, I will
+        add more features before the contest is over. I have included
+        a file called "compile.bat" which I use for compiling.
+
+BUGS                                                
+
+        * Wendy cannot be seen anywhere in the game.
+
+        * There are no airbag in Murlocks car (apart from Murlock).
+
+THANKS
+
+        The author would like to send some thanks to all the beta testers
+        around the globe.
+

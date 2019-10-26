@@ -1,0 +1,66 @@
+þþþþþþþþþþþþþþþึฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþ
+ึฤฤฤฤฤฤฤฤฤฤฤฤฤฤบ FROSTY 4k - AM DEMO GROUPณฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ
+บ              ศออออออออออออออออออออออออออพ                                  ณ
+บ                                                                            ณ
+บ Well it's that time of the year again, the end of it to be exact. :-) Mad  ณ
+บ shopping sprees, the burning of Xmas merchandise, drink driving await as   ณ
+บ well as the traditional end of the year release from AM!                   ณ
+บ                                                                            ณ
+บ This 4k was started by NOR at the Coven 98 blitz competition. It was monthsณ
+บ later that I was able to do more work on it. After watching a few 4k       ณ
+บ productions which featured music I decided to give Reality's AdLib tracker,ณ
+บ Rad, a go and to my surprise the music and the player still left me quite  ณ
+บ a lot of space to squeeze in a few effects. This is the result of about a  ณ
+บ month of on and off coding. The music is not much to listen to but it is   ณ
+บ the best I could do under the size restrictions. The 4k contains a         ณ
+บ significantly cut-down version of Reality's Rad player coded by            ณ
+บ Shayde/Reality while the rest of the code is by me.                        ณ
+บ                                                                            ณ
+บ The program should run under MS-DOS utilising anything with a co-prossesor ณ
+บ and a VGA gfx adapter but I do recommend a fast setup to really enjoy some ณ
+บ effects. Windows 95/NT/98 is not recommended. A sound card is also a good  ณ
+บ thing to have installed. Any old AdLib compatible should work. An AdLib    ณ
+บ emulator for Gravis, however, is not worth the bother.                     ณ
+บ                                                                            ณ
+บ I would like to thank, RubiXcom for his suggestions and some help on       ณ
+บ optimising the program.                                                    ณ
+บ                                                                            ณ
+บ                                                           -- Enjoy. NOR/AM ณ
+บ                                                                            ณ
+þออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออþ
+บ ึฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฟ                                                 ณ
+บ บ AM PRODUCTIONS SO FAR. ณ                                                 ณ
+บ ศออออออออออออออออออออออออพ                                                 ณ
+บ                                                                            ณ
+บ INFINITY.ZIP   -- (Sep,1996)  -- pure basic demo with lots of nice effects.ณ
+บ                                                                            ณ
+บ FUZZY.ZIP      -- (Dec,1997)  -- an ASM and C demo with more effects       ณ
+บ                                  plus a small pure Basic intro.            ณ
+บ                                                                            ณ
+บ WAVE.ZIP       -- (Jul,1998)  -- 4k, second at Coven '98 coded by NOR.     ณ
+บ                                                                            ณ
+บ AM_TRANS.ZIP   -- (Jul,1998)  -- Transmission a C demo third at Coven '98  ณ
+บ                                  coded by RubiXcom with music by NOR.      ณ
+บ                                                                            ณ
+þออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออþ
+บ ึฤฤฤฤฤฤฤฤฟ                                                                 ณ
+บ บ OTHER. ณ                                                                 ณ
+บ ศออออออออพ                                                                 ณ
+บ                                                                            ณ
+บ Our happy new year greetings go to: Phorte, Black Fox, Spoony, Raster,     ณ
+บ            Jestyr, Clef, Factory, Magnesium, Shock, Gyr, Dark Fiber, MZ,   ณ
+บ            Higher Being, Baldric and all other Oz sceners including the    ณ
+บ            once who's names escape us right now.                           ณ
+บ                                                                            ณ
+บ The AM web site is still up but it may be moving soon.                     ณ
+บ Try http://i.am/rbx/ if you can't find it at it's old location. Check the  ณ
+บ site for our upcomming releases as well as a musicdisk by NOR which should ณ
+บ be out hopefully very soon.                                                ณ
+บ                                                                            ณ
+บ Email RubiXcom (RubiXcom@mailexcite.com) with any bug reports and we may   ณ
+บ consider re-releasing the intro if some significant changes are made.      ณ
+บ                                                                            ณ
+บ                H A P P Y  N E W  Y E A R  E V E R Y O N E !                ณ
+บ                                                                            ณ
+ศอออออออออออออออออออออออออออออออออออออออ(23:55)อTueอ29thอDecemberอ1998อออออออพ
+þþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþþ

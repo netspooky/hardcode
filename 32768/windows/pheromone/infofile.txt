@@ -1,0 +1,33 @@
+Pheromone 
+    - a 32k intro by Peisik.
+
+A remote entry for Simulaatio 7.
+You need a fast GPU for this one!
+
+.Credits
+  Graphics:           msqrt
+  Synth & direction:  cce
+  Bitmap hackery:     Atomim
+
+.Rendering tech:
+  Standard unidirectional path tracing of 3 bounces with all kinds of 
+  MIS and a whopping 4 paths per pixel, aided by a semi-hacky bilateral 
+  filter. The scene is a few planes and an IFS with an implicit sphere 
+  BVH traversed with a local stack -- marching is for people who don't 
+  have enough rays to trace.
+
+.Synth
+  A custom brute force additive GPU synthesizer, everything is done in
+  a single pass. Super fast, precalculates the song in mere seconds.
+  
+  Anything is better than V2!
+  
+.Thanks & Greets
+  Thanks to Kusma for GNU Rocket 
+            TLM for Ground Control
+            ryg for kkrunchy
+  Greets to Conspiracy, Mercury, Prismbeings, rtificial and Ivory Labs. 
+  
+.Contact
+  http://peisik.untergrund.net/
+  https://www.instagram.com/peisikdemo/

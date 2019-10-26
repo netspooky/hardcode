@@ -1,0 +1,6 @@
+do NOT run from a dosbox
+
+the video mode is not restored and the keyboard port is borked if you run it a second time
+maybe it's my buggy macbook, but really, it's 128 bytes, don't expect a lot :)
+
+renhoek / guideline

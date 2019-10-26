@@ -1,0 +1,25 @@
+FLAMES-128
+----------
+
+Ok. This is a Flames Intro in 128 bytes size :)
+The rules that I setup for myself is:
+1. Generate good pallete. Not just a red flame.
+2. Wait retrace for screen sync.
+3. Draw flame in 2 directions: to top and to bottom.
+4. Normal exit when key pressed.
+5. Fit it into 128 bytes.
+So... I dit it ;) (I Hope)
+
+--
+Dmitriy
+
+P.S.
+  Files included:
+  flames.com - intro itself
+  flames.asm - source
+  makefl.bat - bat file for make it
+  flames128.txt - this text
+
+P.P.S.
+  You can write me a letter: adw@nm.ru
+  You can go to my home page: http://mytools.narod.ru/

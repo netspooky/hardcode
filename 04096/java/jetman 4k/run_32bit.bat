@@ -1,0 +1,1 @@
+java -cp .;jm4k.jar D

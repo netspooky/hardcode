@@ -1,0 +1,22 @@
+                 _               // kj-02: vortex
+__   _____  _ __| |_ _____  __
+\ \ / / _ \| '__| __/ _ \ \/ /   // a demo in 64 kb
+ \ V / (_) | |  | ||  __/>  <
+  \_/ \___/|_|   \__\___/_/\_\   // breakpoint 2005 version
+
+This is my second intro. I hope you enjoy it :)
+
+Some facts:
+ - 100% handwritten (well, almost ... I use minifmod :)
+   pure C (>8500 lines)
+ - compiled with lcc-win32, packed with UPX
+ - OpenGL 1.1 (yes, 1.>>1<< :)
+ - Don't try to read the scroller, it's too fast for you.
+   Instead, try to find the little bug I left behind in
+   the game scene ;)
+
+Greets go out to:
+ - the other members of kakiarts and deranged
+ - everyone who inspired or helped me (you know who you are)
+
+-- KeyJ^kat ~ http://www.kakiarts.de/

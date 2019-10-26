@@ -1,0 +1,11 @@
+Cheshire Cat
+--------
+
+A 128b prod by lord Kelvin.
+
+Intro coded to be an example for an article in incube4.
+Somehow, it doesn`t have one ear under DosBox.
+
+Compiled with FASM.
+
+Great hello from Russia.=)

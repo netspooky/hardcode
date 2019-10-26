@@ -1,0 +1,55 @@
+﻿aozil by 166
+4k intro for 2chparty summer 2007
+
+
+動作に必要なシステム
+
+    *   *   *   *   *   *   *   *   *   *   *   *   *
+
+        d3dx9_33.dll が必要です
+
+        無い場合は、最新の DirectX9
+        ランタイムをインストールしてください。
+
+    *   *   *   *   *   *   *   *   *   *   *   *   *
+
+
+    . Windows XP / たぶん Vista / たぶん 2000
+    . PixelShader2.0 に対応したグラフィクスカード
+    . 最新の DirectX9 ランタイム
+    . 精神と時間の余裕
+
+
+以下のコンテンツのコピペによって作られました
+
+    . Brazil / CORNELIUS (Point)
+      http://cornelius-sound.com/
+      http://www.amazon.com/Point-Cornelius/dp/B00005S6JT
+
+    . Wind Turbine / nob (No Control)
+      http://photosfromnob.blog22.fc2.com/blog-entry-91.html
+
+    . Cloud Cover / Hugo Elias
+      http://freespace.virgin.net/hugo.elias/models/m_clouds.htm
+
+    . Metalwork / Neural
+      http://pouet.net/prod.php?which=29823
+
+
+製作にあたり、以下のツールがとても有用でした
+
+    . crinkler / Blueberry & Mentor
+      http://www.crinkler.net/
+
+
+うまく動かないんだけど？
+
+    . 最新の DirectX9 ランタイムが必要かもしれません
+    . 64bit の Windows ではうまく動かないかもしれません
+    . DEP が有効な場合、うまく動作しないようです
+
+
+JASRAC のほうから来ました
+
+    . ごめんなさい
+

@@ -1,0 +1,38 @@
+
+ Traction :: It's Full of Stars
+    ~64 kilobytes at Ifparty'06
+ ------------------------------
+
+  One of these things again. The feeling I'm after is not quiet there yet, but I am
+  getting closer. 
+
+  Some technical info: The song was shrunk like hell, that's why it sounds so lo-fi.
+  I barely made the 65536 byte limit due to the samples used in the tune. If you can
+  call it a tune. The visuals were made in a week. The sync was never made at all. 
+  
+  The glow mode is mostly ugly and not for wussy machines. The reason it sucks is the 
+  fact that my code stinks. But hey, you got it for free! :P
+  
+ People
+ ------
+  ~Preacher  - visuals 
+  ~Grip      - audio
+  ~ryg/fr    - packer (kkrunchy)
+  ~FireLight - player (tinyfmod)
+  ~Napsa     - additional design
+  ~Waffle    - SDL port (thanks!)
+    
+  Thank you.
+  
+ Contact
+ -------
+  ~Preacher - syksyisin@gmail.com
+  ~Grip     - tr0nikk@yahoo.co.uk
+  
+ Love out to
+ -----------
+  ananasmurska asd boozoholics brain control brainstorm candela collapse
+  conspiracy cubicle demarche digital devotion division excess exhouse
+  faktory gluterol hedelmae jumalauta kosmoplovci LAG lobstarrs matt current
+  mfx neuro.concept numedia cyclops outbreak outracks promille dezign 
+  plastic rgba static stravaganza synesthetics ümlaüt design youth uprising

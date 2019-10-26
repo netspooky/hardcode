@@ -1,0 +1,55 @@
+
+  PWP: PELUCE IN WONDERLAND
+  
+  1st at Elevator 2000 introcompo
+
+  As the compo didn't have any surprisingly good entries, we had to win.
+  Simple as shit.
+
+  Peluce is our usual style except that it's resolution-independent and
+  doesn't have any ansi graphics.
+
+  Everything you see should be taken dead seriously, as usual.
+
+  The texts are still in Finnish only.
+
+The binaries
+
+  bin/peluce-unpacked	linux/i386, uncompressed, using glibc 2.0
+  bin/peluce-packed     linux/i386, compressed using gzexe (urgh)
+  bin/peluce-static	static binary for linux/i386
+
+  Other platforms: compile it yourself.
+  Try editing makefile and typing make.
+
+Running
+
+  It uses pure text output.
+
+  While coding this, PWPlib suddenly got some irritating bugs we
+  couldn't fix in time. So, for running:
+
+  - Use console, not xterm or anything.
+
+  - Have write access to /dev/vcsa* - to ensure this, run as root.
+
+  - Use a textmode that is bigger than 80x25. Ok, it works with 80x25
+    but it looks almost 3d-accelerated with modes such as 132x60 ;)
+
+  - Use an ibm font. SVGAtextmode uses latin fonts as default so you
+    have to set an ibm font with setfont or set an ibm font to
+    /etc/TextConfig (those cp850 fonts are just fine)
+
+  We'll release some kind of a 'final' in a couple of days (fix those
+  bugs + make it run cleanly from any tty, use those fonts available
+  in the terminal etc)
+
+  A version for MS-DOS, AmigaOS, ...? If you want one, then port one.
+  We aren't very interested until the PWPlib api gets frozen enough.
+
+To contact:
+
+  http://www.hytti.uku.fi/~vheikkil/pwp/
+
+  vheikkil@hytti.uku.fi  
+

@@ -1,0 +1,110 @@
+
+
+			   Kick Ass!  by  Lumental
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+				  Credits:
+
+		    hornet		       code & music
+		    annihilatus 	       graphics
+
+		    the humanoid	       pmode, support
+
+
+			      Technical Stuff:
+
+	      ù requires a 386+ with about 4MB of ram (I think)
+	      ù can use GUS or SB to play music
+	      ù is coded in 100% assembler
+	      ù preferrably ran from DOS... Winslows95 timings are weird
+	      ù to select your soundcard, run:	kickass n
+	      ù may not work with old SB 1.0 or 1.5
+	      ù won't work in VCPI (but EMS bites anyway)
+	      ù can be paused to take screen-captures (if you want)
+	      ù can mess up if paused  :)
+	      ù will always screw up your system clock.  Ha ha.
+
+ÄÄÄÄÄÄ
+
+Hornet's Excuse:
+
+Well this was really supposed to be released quite some time ago for a
+mini-competition with a group called "Cyanide" and some other guy called
+Blackwind.  However, this being my first production ever, (woohoo!) it turned
+out to be a LOT harder to make a finalized product than I had imagined.  So
+there you have it.  I'm a total asshole, I apologize to everyone who wanted
+me to release this on Feb 12, 1997...
+
+ÄÄÄÄÄÄ
+
+Bragging:
+
+The smoke, the "sky writing" and the "surreal ice mountain" are all based
+on an original effect which I call "directional blurring" (a great big clue
+as to how it's done right there....)  And have you ever seen such a water
+effect?  The waves seem to last forever!!!  WOw!!  (okay, enough bragging)
+
+ÄÄÄÄÄÄ
+
+Lumental is:
+
+
+	hornet		i.q.: 37	age: 16        coder / musician
+	annihilatus	i.q.: 39	age: 18        artist
+
+We are looking for more talented members from the Montreal, Canada region.
+
+You can contact us at:
+
+	hornet@openface.ca		( TheHornet when on irc )
+	slime@openface.ca		( [an] when on irc )
+
+You can mail us even if you don't have anything important to say.  We're
+generally some very bored people who would be so happy to hear from you.
+
+
+ÄÄÄÄÄÄ
+
+Special thanks to:
+
+everyone on #coders who would constantly answer my lame questions and to
+people like Lovex and Mr.Z who would actually send me stuff.
+
+And of course a lot of thanks to The Humanoid, who let us use his pmode
+header even though he's no longer in the group, and who taught me how to
+code all this stuff.  :)  And who helped clean the bugs, and a few other
+things...
+
+
+ÄÄÄÄÄÄ
+
+Why 2 files?
+
+Since this isn't a party-release, I figured I'd include one with the "full
+music" (mind you, the original s3m is over 110k, so some really cool
+compression was used..)  and I also included K64.EXE, a 64k version for all
+of you people who just can't compare intros unless they're all 64k.  So if
+you're comparing this intro to other intros, use K64.EXE, but if you just
+wanna run it use KICKASS.EXE .	The difference is that k64 has some even
+more lossy sample compression, and there is no SB support in k64.exe (but
+who cares.)
+
+ÄÄÄÄÄÄ
+
+"Hello"s to:
+
+Beyond, Cyanide, Da Cheez Brigade, Dungeon Dwellers Design, Hornet Team, iCE
+
+And to everyone else that we've continually and relentlessly annoyed over
+the years.  And of course, greetings / regards to all of the demoscene
+groups who are so amazing and popular that mentioning their name would be a
+complete waste of time.  You're all amazing.  You're all awe inspiring.
+(that's for whichever big popular amazing demogroups who actually wasted
+their time by watching this worthless tiny intro! )
+
+
+Let this intro encourage NON-PARTY releases!!  Yeah!!!	Woohoo!!
+
+						- hornet    March 19, 1997
+

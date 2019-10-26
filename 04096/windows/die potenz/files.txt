@@ -1,0 +1,2 @@
+ptnz.bat - works even on win2k
+ptnz_compo.bat - doesn't work on win2k, but it has smoother wireframes

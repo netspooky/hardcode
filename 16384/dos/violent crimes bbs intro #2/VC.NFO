@@ -1,0 +1,74 @@
+     _____
+     |    |_________________________    __________________________________
+     |    |    (_____)_____    \   _|___________   \______   \ __      __/
+ _ __|__  |    |     \_   |    |   \     /    /____/|    |    \_|      \_
+        \  ____|______/________|________/\__________|____|     /|_______/____ _
+         \/                                 _____        |____/
+      _ _________________________________  /    /_________   ____________ _
+        _ _____    \______    (_____)____\/____/_______   \_/   _____ _fK!
+         /    |____/|    |  __/     |    \/   \_/    /____/____   \_
+         \__________\____|    \_____|____|     /\_________    V    /
+                         |_____/         |____/           |_______/
+
+                         <<<<<======+++++++======>>>>>
+
+        Well, well, well .... looks like I have finially got off my bum to
+create a new piece of code.  Well it aint that new, you have probably seen
+scrollies and a plasma before rite?  Well the difference with this is that I
+wanted to try and save some space by evaluating all the data at runtime, and
+to accomplish this in a decent amount of time I have used the maths coprocessor.
+If you are unfortunate enough not to have one of these then I'm sorry, but tough
+luck!  I had no desire to perform all integer math here because it would have
+still been pretty slow (well maybe not but I am lazy).  Anyway, I hope you
+like this intro for Violent Crimes - I do :)
+
+        If there is any probs with this code, or you like it, or whatever then
+drop me a line. I can be found at the following places, and yeah if there is
+any groups on the internet that need a new coder then drop me a line too .....
+
+    Violent Crimes (obviously)              Mind Rape (I'm cosysop here too)
+         +61-3-562-1737                            +61-3-530-0414
+
+                Internet: kingtech@suburbia.apana.org.au
+                          aiy@mundil.cs.mu.OZ.AU (this account is better but
+                                                   I mite be losing it soon).
+
+Requirements:
+        A decent 486 or pentium - I think this would fly on a pentium.
+        A maths coprocessor - most 386's won't have this!
+        VGA graphics - who doesn't have this?
+        That's all - there is no sound.  I cannot find somebody to make me
+                a adlib tune - I have no desire to write a full mod
+                player or something like that.
+
+PS. Getting the closing ANSI screen only is not the fault of this code - it
+will only display the end screen if you don't have sufficient VGA capabilities,
+or you don't have a maths coprocessor.  I promise this will be the last time I
+use hardware that some ppl don't have - but I was under time constraints.
+
+Greetz:
+        Tran - pmode is so cool ... and I liked Ambience :)
+        Jeremy Longley - hmmm ..... jclplasm (you'll know what I mean, rite?)
+        Pelusa - It was good to see source with the fake demo.
+
+        David, Flick, Holsta and Predator - my partners in crime I guess.
+        Sorry Holsta for leaving you out of the last intro - how's the hand?    Have to get used to wanking with the other one for a while :) hahahaha
+        Panic (I want a Netcom m11f!!) - hey I'm saving ok?!
+        Nightfire (the only reason why pulse-net is so big ...)
+        Force Format (Just coz you live in Syndey and own a GUS doesn't mean
+                        shit to us Vic legends .... hehehe).
+        Headfuk (how's Psychic Harmony going?)
+        Zen Amako (you gonna ring me when you see this intro like last time? -
+                        I think you should, because I have called you tons and
+                        you were never home!)
+        Snowman - moderator of hornet .. the best ftp site on the internet.
+        Every other demo group in the world .... keep up the good work!
+
+        And to any coders whose source code I have seen .... it's fun to share
+info along the way.  You can see this source code if you ask nicely :) It aint
+that exciting, but you're welcome - if I get a few requests I'll post the source
+on the internet demo site hornet.eng.ufl.edu
+
+Thanks - look out for more of my code soon!
+        King Tech
+

@@ -1,0 +1,34 @@
+                   -256 BYTE TWO PLAYER-
+
+        ________     ________     _            ________
+       /       /    /       /    / |     /    /       /
+      /       /    /       /    /  |    /    /       /
+     /_______/    /       /    /   |   /    /   ____
+    /            /       /    /    |  /    /       /
+   /            /_______/    /     |_/    /_______/
+
+Here it is! Oh yes! Just what we've all been waiting for!
+Just look at these features:
+        -FLICKER-FREE 256-color graphics!
+        -SMOOTH 2-way paddle motion!
+        -AMAZING FOUR-WAY ball motion!
+        -INCREDIBLY easy to learn!
+
+Easy-to-follow directions:
+1. Run the program. Type PONG <ENTER>.
+2. Left player uses CAPS Lock to go up, CTRL to go down.
+3. Right player uses Right Shift to go up, Alt to go down.
+4. -OR- Your right hand can play against your left hand.
+5. DON'T press any other keys! It won't crash the computer,
+   but it might make the paddles go weird.
+6. The program will end when one of the players loses. When
+   it exits, your CAPS, SCR LCK, and NUM LCK lights might
+   not be the same as they were before. Tough. You're lucky
+   I put you back in text mode.
+7. Send me money.
+
+-Eagle Jones
+jone5541@tao.sosc.osshe.edu
+(OK, I admit: EagleJ@aol.com also)
+
+Game Copyright 1994 by Eagle Jones

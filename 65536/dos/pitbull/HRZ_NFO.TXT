@@ -1,0 +1,9 @@
+title: "pitbull"
+size: 65370
+code: tree
+music: szwagier
+gfx: mantra
+info: 320x240_32/24bpp + GUS
+(modes: 0134h/013eh)
+
+carry on!

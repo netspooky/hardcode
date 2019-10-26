@@ -1,0 +1,264 @@
+
+                                           ..
+ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ .^  ^.  s$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$
+$$ıı$$$ıı$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı  ^..^   $ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı
+   
+                           s$$$ıı$$$$$   s$$$$s
+                         ,$$$$$  $$$$$   $$$$$$         
+                        .$$$$$$  $$$$$   $$$$$$
+                        $$$$$$$  $$$$$   $$$$$$
+                        $$Artificial$$   $$$$$$
+                        $$$$$$$  $$$$$   $$$$$$
+                        `$$$$$$  $$$Interrupt$$
+                          $$$$$ss$$$$$   ı$$$$ı
+                                 ııııı
+
+$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss$$ss[CPN]$ss$$ss$$ss
+ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$ıı$$
+
+
+
+Introduction    : Leagal Stuff
+This relese     : Info on this relese, Trouble shooting, Releses, Software used
+Files           : Files in the Package
+Requirements    : System Requirements, System Recomendation
+AI              : This is the AI crew, Emails, www, FTP
+News            : News on AI           
+Extra           : Last minute notes, Extra stuff, Greetings
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+
+                               INTRODUCTION
+                               ^^^^^^^^^^^^
+
+        Leagal stuff
+        ------------
+  Artificial Interrupt and everyone who contributed for the
+ release will not, in any case, by any means, no matter what happens
+ or what damage should appear, be liable for it. This software is not
+ supposed to do anything else than what it does when you run it. Thus
+ it is not assumed to be suitable for any particular purpose; we will
+ not assume any responsibilities, expressed or implied, about it.
+
+  The package can be distributed freely without modification. No money
+ can be charged for it, other than standard fees for access to a BBS,
+ or the cost of the material the demonstration is recorded on. It can
+ not be used to add value to a commercial product; however, shareware
+ distributors can put it in their collections, be it CD-ROM or floppy
+ disks and similar computer media, as long as it's sold together with
+ other shareware of public domain programs in the same package; never
+ can this demonstration be alone in the sold package, or be the first
+ reason to give the customer in order to get him interested.
+
+                                                - Stolen from IGUANA :)
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+
+                                THIS RELESE
+                                ^^^^^^^^^^^
+
+        Tech Stuff
+        ----------
+
+Relese:  DOS Util [ ]   Demo     [ ]   Intro    [x]
+         Game     [ ]   Linux    [ ]
+
+Cards:   SB       [x]   Gus      [x]  Adlib       [ ] PcSpeaker  [ ] 
+
+Gfx:     Gfx mode [x]  Ansi/Ascii  [ ]
+
+
+        This prodution uses
+        -------------------
+        {                                                                   }
+        { wext1.10b      - Whizzter/Woorlic                                }
+        { usmp1.1ev      - freddyw/useless                                  }
+        { apack0.94b     - jibz                                             }
+        { Plasma theory  - Whizzter/Woorlic                                 }
+        { Polar coords   - pezac/Nature                                     }
+        {                                                                   }
+        {                                                                   }
+        {                                                                   } 
+        {                                                                   }
+        {                                                                   }    
+
+
+Misc data: Name [ Too Short            ]  Relese date [98.12.28]
+
+           Short info [ Intro relesed at The Party '98 in Denmark           ]
+                      [ Made a couple of days before the party              ]   
+                      [ Not as fast as I wanted. But I had little           ]
+                      [ time to optimize. Some design is also lacking :/    ]
+                      [                                                     ]
+
+           Version: [ Party       ]
+
+
+        Relese comments
+        ---------------
+
+    Credits:
+    --------
+     Code..........{ talos                    } Packing.........{ talos  }
+     Gfx...........{ edcom                    } Disterbuting....{ talos  }
+     Music.........{ sublime                  }
+
+    Parts in the demo:
+    ------------------
+    Everything was coded by: talos
+    The music was made by: sublime
+    and the gfx (font) was made by edcom :)
+
+
+    Comments from the group:
+    ------------------------
+talos          Says: I was finished with the intro 1 day before TP,
+                     as all you democoders know. It's tiering to code
+                     So I didn't care to optimize or anything :)
+                     I checked the intro on my 486 and it worked :)
+
+Conio          Says: Nothing
+
+Sublime        Says: Nothing
+
+Palmtrae       Says: Nothing        
+
+Edcom          Says: Nothing        
+
+
+        Trouble Shooing
+        ---------------
+
+                It won't start!
+                ---------------
+                o Make sure you have more then 470k conversional memory
+
+                Error messages
+                --------------
+                o Can't allocate DMA buffer = Less then 470k conversional memory
+                o Not enough RAM            = Not enough RAM :)
+
+                Sync problems
+                -------------
+                o Run in pure DOS (not MS-DOS prompt or Exit to DOS) Reboot!
+
+                Music initiation problems
+                -------------------------
+                o Make Sure you have the supported sound card.
+                o Make sure you have installed the DOS drivers and have all
+                  autoexec.bat and config.sys lines for your sound card
+                o Try manual configuration
+
+                The demo shuts down sometime in the demo
+                ----------------------------------------
+                o Probebly low RAM (This should never happen)
+
+                If this doesn't help
+                --------------------
+                o Contact someone that is more experienced and have more
+                  computer skills than you
+                o Contact AI (talos@algonet.se) and describe your problem
+                
+
+        Releses
+        -------
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+  DATE    |Type  | NAME           | First presented | File        |   Comment                                      |
+ÄÄÄÄÄÄÄÄÄÄ|ÄÄÄÄÄÄ|ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ|ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ|ÄÄÄÄÄÄÄÄÄÄÄÄÄ|ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+1997.04.04| Demo | Morph the fake | Hackernight     | ai_morph.zip| 1:st Place at HN9701                           |
+1997.10.10| Demo | Pentagoon      | Hackernight     | ai_pent.zip | 3:rd Place at HN9702                           |
+1998.03.20| Demo | EVE            | Hackernight     | ai_eve.zip  | 2:nd Place at HN9801                           |
+1998.05.15| Demo | The Lord       | Hackernight     | ai_tl.zip   | 1:st Place at HN9802, Hmmms... :)              |
+1998.06.15| 64k  | STD            | Remedy '98      | ai_std.zip  | 3:rd Place at Remedy '98                       |
+1998.09.25| Demo | Zerium         | Hackernight     | aint_zer.zip| 2:nd Palce at HN9803                           |
+1998.11.05| Demo | Theory         | Compusphere '98 | aint_the.zip| ??!? Place at Compusphere '98                  |
+1998.11.21| Demo | La Bosnia      | Hackernight     | labosnia.zip| 1:st Place at HN9804                           |
+1998.12.28| 64k  | Too Short      | The Party '98   | aint_ts.zip | ?!?! Place at The Party '98                    |
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+
+
+        Software used
+        -------------
+-------------------------------------------------------------
+ Software                 Description                Used by
+-------------------------------------------------------------
+Watcom 11.0             - C compiler                - talos
+Deluxe Paint 2 anim     - DP 2 animator             - talos
+Fasttracker 2.10        - XM music                  - sublime
+Photoshop               - Nice pictures :)          - edcom, talos
+apack                   - Making exe file small     - talos
+
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+
+                                  FILES
+                                  ^^^^^
+    This is all the files included
+    ------------------------------
+
+    tooshort.exe        - The executable
+    ai.nfo              - You'r reading it
+    file_id.diz         - The file id diz
+
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+
+                                REQUIREMENTS
+                                ^^^^^^^^^^^^
+
+    ş  CPU: 486 DX  
+    ş  RAM: 4  meg      
+    ş  HD:  1  meg       
+    ş  GFX: 64k  of video RAM :)
+    ş  RES: 320x200  256 color monitor
+
+                                 RECOMENDED
+                                 ^^^^^^^^^^
+    ş  CPU: Pentium 166
+    ş  RAM: 32 meg     
+    ş  HD:  1  meg                                                
+    ş  GFX: 64k  of video RAM :)
+    ş  RES: 320x200  256 color monitor
+
+
+
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+
+                            Artificial Interrupt
+                            ^^^^^^^^^^^^^^^^^^^^
+
+        This is the AI crew:
+        --------------------
+
+Coders:     talos, conio
+Gfx:        Sublime, Edcom, Palmtrae
+Music:      Sublime, Palmtrae
+
+
+talos     email... talos@algonet.se
+Conio     email... conio@swed.com
+Sublime   email... brandbil@swipnet.se
+Palmtrae  email... fredrik.mp98@vhojd.skovde.se
+Edcom     email... henrik_ln@yahoo.com
+
+        Homepage
+        --------
+        http://www.algonet.se/~talos 
+
+        FTP - Download
+        --------------
+        Soon
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+                                   NEWS
+                                   ^^^^
+
+ Sublime joins
+ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+                                   EXTRA
+                                   ^^^^^
+
+        Greetings 
+        ---------
+        Nature
+        Woorlic
+        abacus
+
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ-Ä----ú-úúú ú ú    ú ú úúú-ú----Ä-ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ

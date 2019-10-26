@@ -1,0 +1,29 @@
+
+ "Cardomania"
+ A 4k intro for 0a000h 2008 by Alcatraz
+ 
+ Visuals: T$
+ Music: p0wl
+ Synth: Gopher
+ 
+ Requires DirectX9c (including the D3DX library from the June 2006
+ SDK update, stored on disk as d3dx9_30.dll, cards.dll) and
+ a 3D graphic accelerator and a soundcard.
+ Initialization can take a lot of time on slower CPUs.
+
+ Running time: 2:24
+
+ Files included:
+
+ The following versions use 32bit color depth and a 24bit z-buffer:
+ * Ts4kbp06_640x480.bat
+ * Ts4kbp06_800x600.bat
+ * Ts4kbp06_1024x768.bat
+ * Ts4kbp06_1280x1024.bat
+
+ There is also a windowed version, screen size 640x480.
+
+
+ Color modes used:
+ Display format : X8R8G8B8
+ Z-/Stencilbuffer format: D24S8

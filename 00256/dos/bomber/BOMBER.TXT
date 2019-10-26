@@ -1,0 +1,13 @@
+===================
+System Requirements
+===================
+ * 386
+ * VGA
+
+===================
+ Keyboard Controls
+===================
+ <SPACE> - drop a bomb
+ <ESC>   - exit
+
+-Rodrigo (s5001pap@sun10.vsz.bme.hu)

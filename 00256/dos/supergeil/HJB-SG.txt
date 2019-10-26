@@ -1,0 +1,19 @@
+         (6S#BB@RG%/    %B@@@@@@        Haujobb proudly presents a 250b intro called
+       %#@@@@@@#R@@@Qt   /Q@@@@@
+    (@@@@@@@@G    %@@@@@%   C@@@                       - Supergeil -
+  ^R@GS@@@@@@G     3@@RB@@#~  3@
+  e@S  /C#@@@B/    %@@t /O@B/  e        It's the first released demoscene-code from
+ 3@(        ^7S%   OB@% e#@@@6          Optima (me). It's my first intro within the
+ Re/  ~@@@BS%/          (@@@@@G         256b limit and it's my first go at using the
+ @@B3 S@@@@@@@#6~       ^@@@@@B^        FPU through assembler. I'm sure that I've
+ B@@@@@@@@@@@@R@@Q    e@RR@@7^eK        wasted a byte now and then but the outcome
+ O@@@@@@@@@@@@~       /QR@@@%  6        is pretty much what I aimed for. I'm happy -
+  R@@@@@@R~e@@(                6        if you're not, tell it to your best friend.
+  3@@@@@@S  (R%  ^(/  /%(/^    3
+   K@@@@@~       ~@@@% C@@@@@@@%        Greetings to Corial/Focus Design, all the
+  e~ ~Q@K   /^   (@@@@/ O@@@@@7         Jobbers, and Gunnars Farvebio.
+ ^Q    7%   GBQ6(%@@@@Q6S@@@@e  	
+ K/         K@@@@@@@@@@@@@@R/           See you at www.haujobb.scene.org
+ /ORK%^     QSR@@@@@@@@@Q(     7
+    tSRe(  /C  /7CGGG6t/      (@
+         /OR~               6@@@                                         30 dec 2003

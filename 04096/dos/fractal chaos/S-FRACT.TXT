@@ -1,0 +1,44 @@
+
+                                Fractal Chaos
+                                -------------
+
+                       (c) 1994 Slender/Sonik Clique
+
+                           Released at Assembly'94
+
+
+
+NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!
+
+ This production is PD, so you can copy this as long as you don't ask ANY!
+ money for this. The packet must be in it's original form containing files
+ S-FRACT.EXE and S-FRACT.TXT.
+ Assembly'94 organizers have a right to spread this on their CD.
+
+NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!NOTE!
+
+
+ This  little piece of code  is  my first  production  on PC-machines.
+ All coding is made in one day (14 hours),  which explains the quality
+ of design. Everything is offcource 100% assembly  code.  At least 386
+ is needed  to run this  production,  because of  the 32-bit  register
+ usage and  32-bit memory addressing. A fast  VGA card is recommended.
+ I have had PC for about three months now and I have coded iNTEL about
+ one month, but the code is FAST! and tight.  The chaos doesn't have a
+ bug in bottom right  corner -  4k was  just too less for bigger chaos
+ area. Everything in this intro is realtime  calculated,  no animation
+ is used.
+
+   Greetings fly to:
+     Murk, Oxide, Dragzter, Deflector, Tomy and All other members of
+     The Infinite SONiC AMiGA,  Zei-El,  Monster,  Welmu,  Marthin.G
+     and to everyone I forgot.
+
+ The sourcecode of this intro is for sale for 50 FIM, which includes a disk.
+ I will not pay for mailing service.
+
+ To contact me write to:        Juha Pohto
+                                Haaparannantie 12
+                                61400 Ylistaro
+                                Finland
+

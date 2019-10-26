@@ -1,0 +1,88 @@
+                        ÚÄÄÄÄÄÂÄÄÄÄÂÄÄÄÄÂ¿ ÚÄ¿
+                        ³     ³ÚÄ¿ Ã¿ ÚÂÙ³ ³ ³ TLD's
+                        ³ ³ ³ ³ÀÄÙ ³³ ³³ ÀÄÙ ÃÄÄ¿ÄÄ¿
+                        ³ ÃÄ´ ³ÚÄ¿ ³³ ³³ ÚÄ¿ ³ÚÄÙÚ¿³
+                        ³ ³ ³ ³³ ³ ³³ ³³ ³ ³ ³³ ³ÀÙ³
+                        ÀÄÙ ÀÄÙÙ ÀÄÙÀÄÙÀÄÙ ÀÄÙÙ ÀÄÄÙ
+                 - First Classified at RINGNET COMPO '96 -
+
+Hi people! This is Technolord of the Chaotic Visions spreading out a
+new intro named (guess ;) MATHro
+
+GENERAL INFOS:
+  I coded it in a lot of days, mostly 'cos it's a "first experience intro"
+(all the effects inside have been coded by me here for the real first time)
+so I can't really get more out of it. I would really place somewhat more
+inside but time lacks and I must respect the deadline - today!
+Inside, in order, the following effects:
+  Mandelbrot set
+  Julia Set
+  Deformed (reflection) rotozoomer
+  Voxel (randomly generated)
+  (disturbed) Texture Mapping
+To end the demo press a key when it's in the Tmap session
+
+This should work on all computers having at least a 386sx, 256k of freemem
+and a VGA (sorry, no check for VGA nor CPU).
+It should word under OS/2 and W95 but do not bet on it :-)
+I truly recommend at least a 486sx (or a 386 if you love 1FPS :-)
+
+This intro can be freely distributed as long as it remains intact (no
+modifications to the code or somewhat else) and the package remains
+complete - FILE_ID.DIZ, MATHro.COM, MATHro.TXT, MATHro.ASM, MATHro.INC.
+
+It's much cutted-away, since it have been linked the same day the deadline
+was, so no credits, fancy effects or pre-compiled tables, sorry.
+
+Greets go to: (in a random order)
+  -=- Groups -=-
+    Bug2Fix
+    Charlie Brown Records
+    DeathStar
+    Degeneration
+    Fatal Rage
+    G&G Demoswarez
+    Japotek
+    Lustrones
+    Morbid Visions
+    NeMeSiS
+    Neural Activity
+    Officium
+    Skyjump Team
+    Soft One
+    Spinning Kids
+    Syntax Error
+    Ut0pia
+    Orange
+    Nooon
+    and all the other groups I can't remember
+    
+  .o. Some People .o.
+    Chi l'ha Fatto
+    Azim
+    THa HePoK
+    THE PUNiSHER
+    Dj Cerla
+    Lassi Nikko
+    Azim
+    Shadow Lady
+    Samantha
+    Riddler
+    Killer Loop
+    And all other people I can't remember
+
+  o0o Various o0o
+    RINGNET people
+    FIDONET people
+    INTERNET people
+    MAGIC players
+    ADA&D players
+    MERP players
+    DEMOCODERS
+    DEMOLOVERS :-)
+    GIRLS :-*
+
+  .oOo. And, of course, you reader of this text! .oOo.
+
+C'ya soon!
+                              Technolord / CV

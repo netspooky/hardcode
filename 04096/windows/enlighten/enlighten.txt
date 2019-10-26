@@ -1,0 +1,27 @@
+Blu-Flame :-: Enlighten
+
+
+  code    :-: TGGC & xTr1m
+
+  music   :-: xTr1m
+
+  gfx     :-: TGGC & GRAPHICNOISE
+
+  tools   :-: crinkler by Mentor/TBC and Blueberry/Loonies
+          :-: 4klang by Gopher & pOWL of Alcatraz.
+          :-: Shader Minifier by Ctrl-Alt-Test
+
+  thanks  :-: las of Mercury for his big debugging help and testing.
+          :-: Zavie of Ctrl-Alt-Test for building exclusive features into 
+              Shader Minifier upon request in no time.                        
+          
+  greets  :-: Approximate, ASD, Brainstorm, Calodox, CNCD, Ctrl+Alt+Test, 
+          Conspiracy, Fairlight, Farbrausch, FRequency, Fuzzion, Kakiarts,
+          Haujobb, Loonies, Mercury, Nuance, Panda Cube, Quite, RGBA, 
+          Speckdrumm, SQNY, Still, TBC, TBL, TRSi, Titan, Traction, UF&DD,
+          Youth Uprising
+          :-: atla, BlueCobold, jco, mcdeck, matt|6s, netpoet, pro, rapso, 
+          rip, TomasRiker, xardias, anyone else from #gamedev.ger, 
+          #sppro and #cpp
+
+

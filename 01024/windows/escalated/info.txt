@@ -1,0 +1,28 @@
+Escalated
+
+1k intro for TRSAC 2016
+
+//----------------------------------------//
+Code & Music rework by Drift
+Additional Music help by Noby
+Only made possible due to Crinkler by Blueberry and Mentor
+
+//----------------------------------------//
+Tribute to the 4k intro "Elevated"
+Original code by IQ and Mentor
+Original music by Puryx
+
+Inspirational intro by some of my demoscene idols.
+I hope this at least puts a smile on your faces.
+
+//----------------------------------------//
+Notes:
+Party release only.
+Uses native desktop resolution but effect is hardcoded for 1920x1080.
+Not optimised, couldn't be bothered this time so needs powerful gfx card.
+Tested on Win7 and Win10 with various nvidia cards.
+Tested one build on AMD card but some shader code was changed since.
+Original shader was a bit closer to the original with water and
+better terrain but had to get cut down to fit the music.
+May release multi-res/optimised version later... maybe.
+

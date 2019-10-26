@@ -1,0 +1,54 @@
+
+                                  P a R a D i S e
+                                  6 4 k i N t R o
+                             -------------------------
+
+
+
+ contributors
+ ---------------------------------------------------------------------------------------
+ .iq           : main idea, direction, design, main code, textures, 3d art
+ .r3d          : algorithmic ideas, design, textures, 3d art
+ .marius       : 3d models
+ .utopian      : max exporter, code supervisor and timing
+ .gargaj/cns   : synth code
+ .innocent/cns : music
+ .vincenzo/cns : music
+ 
+
+ requirements
+ ---------------------------------------------------------------------------------------
+ . ati 9600, NVidia FX 5900 or higher. Forget about something slower
+ . 2400 Mhz for smooth animation (sorry)
+
+
+ thanks to
+ ---------------------------------------------------------------------------------------
+ .Ryg/farbrausch : code compressor
+ .Perlin  	 : fbm algorithm
+ .Catmull 	 : surface subdivision, spline basis
+ .Pixar   	 : source of inspiration
+ .SGI	  	 : for creating OpenGL
+
+
+ personal thanks to
+ ---------------------------------------------------------------------------------------
+ .Judit : your patient and love was exactly what I needed to create this intro
+    
+
+ tools
+ ---------------------------------------------------------------------------------------
+
+ .watcom c  : texture creation, first experiments
+ .visual c  : main compilation
+ .nasm      : to avoid some libc funcs
+ .edit      : code editing
+ .photoshop : to experiment with textures
+ .3ds max   : 3d models creation, camera tracking
+ .lightwave : 3d models creation
+ .google    : lot of pictures, source of inspiration
+
+ .we are bussy people, we can not spend time doing tools, just intros.
+
+
+ signing iq, tired of modeling in hexadecimal, and tracking cameras by hand ;)

@@ -1,0 +1,111 @@
+              __,        .-------------------.                     __,
+    _ _.--'-n_/          |  Formula-1 TURBO  |           _ _.--'-n_/
+  -(_)------(_)=         `-------------------'         -(_)------(_)=
+
+
+Features
+--------
+
+  * Level of difficulty increases as time passes
+  * Full scoring capability, score always displayed
+  * Opponent cars controlled via True Artificial Intelligence(tm)
+  * Sound effects (sampled from my lawn mower)
+  * Quiet mode (No need to alert your boss!)
+  * Two different car graphics (hand scanned directly from a real formula 1)
+  * Feel the road with that famous Lotus(tm) suspension
+  * Smooth steering via the shift keys (No need to buy an expensive joystick)
+  * You are the only car on the track with a turbo charger!
+  * 20+ frames per second (on a 386-16 or better)
+  * Auto speed adjust for different CPUs (Makes 386 seem just as fast as 586)
+  * Very playable (Fun)
+  * Written in 100% assembly language (Commented source code available)
+  * Well behaved program with clean exit to DOS
+  * Entire game is only 256 bytes! (NASCAR-CD? Who needs it?)
+
+
+Introduction
+------------
+
+  F1-TURBO was developed for the 256 byte game challange posted to the
+  Internet in the rec.games.programmer group.  It was my intention to
+  develop a fun game to play, not simply a minimal "game" in 256 bytes.
+  For me, to be a game there must be a way to keep score and the game
+  must get harder as you continue to play.
+
+
+System Requirements
+-------------------
+
+  F1-TURBO requires an IBM PC (or compatible) running DOS and a EGA (or 
+  better) color screen.  It must be run in screen mode 3 (80 column color).
+  Before running F1-TURBO it may be necessary to type MODE CO80 at your 
+  DOS prompt.  You'll also need a keyboard to control your car and an 
+  internal speaker to hear the sound effects.
+
+
+Running F1-TURBO
+----------------
+
+  F1-TURBO has one optional command line parameter.  If you wish to run
+  with the full sound effects type:  F1-TURBO and press the enter key.
+  If you prefer to run without the sound effects, at the DOS prompt simply 
+  type:  F1-TURBO Q and press the enter key.  After pressing the enter key, 
+  you will be immediately be placed in control of your new formula one 
+  race car with turbo charger!
+
+
+Controlling F1-TURBO
+--------------------
+
+  F1-TURBO is controlled by use of the left and right shift keys.  The 
+  object of the game is to avoid opponent cars (blue) and keep your race 
+  car (red) on the track for as long as possible.
+
+
+Scoring
+-------
+
+  Your current score is always displayed in the lower right corner of your
+  screen.  At the beginning of the game your score is initialized to:  A 
+  and increases through the alphabet as the game continues.
+
+
+Ending the Game
+---------------
+
+  The game ends when the your race car collides with another car or the 
+  side of the race track.
+
+  When the game ends, your final score will still be displayed.
+
+
+Source Code
+-----------
+
+  Fully commented source code for F1-TURBO will be sent (via return 
+  e-mail) to anyone who e-mails me to tell me how great my game is!
+
+
+----------- cut here ------------------- f1-turbo.uue ---------------
+begin 644 f1-turbo.com
+MB^BT!NC= +HI%NCE + @4.9ALW"Q!<T0N H.S1!8S1"Q0([!)J 7 *@!= %"
+MJ )T 4J)%@@!4K@!!^BG +$HS1"+T8/"&K%0*\KHI0#-$+I.&.B= (O%L0?3
+M^ 5!#LT005KHC0!U5%* P@3HA !:=4I2Z$8 L0.ZV@/LJ AU^^1A @9= $CF
+M8>RH"'3RXNA%6HO%J/]U!/X.10&H"740J(!T!X &/@$"0D+^#CX!2K8 J ]U
+M ^@# .E,_U6]T@$#Z;@"$U"Q!1X'S1!8_L;-$%W#W'#><;H?W7'<<-YTND[=
+?=-QPMW SR;I/&,T0NP( ,]*T LT0M C-$#P@N-L)PW#>
+
+end
+----------- cut here ------------------- f1-turbo.uue ---------------
+
+The text file you are reading (F1-TURBO.TXT) and the attached 
+F1-TURBO.COM file are copyright 1995, 1996 by David S. Issel.  
+
+Formula-1 TURBO may be freely distributed as long as proper credit is 
+given.
+
+I hope that you have as much fun playing this as I had writing it!
+
+                                               ~Dave
+                                                (dissel@nunic.nu.edu)
+

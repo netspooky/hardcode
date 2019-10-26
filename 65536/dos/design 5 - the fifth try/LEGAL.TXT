@@ -1,0 +1,70 @@
+
+                     The disclaimer / Licence / Copyright
+                     ------------------------------------
+
+        Hello, this software is FREEWARE. All copyrights to this software
+        are exclusively owned by the author, BRAINLEZ CODERS!. All rights
+        not expressly granted here, are reserved by Brainlez Coders!
+
+        This software may be freely distributed, provided the distribution
+        package is not modified. No person or company may charge a fee for
+        the distribution of this production without written permission from
+        the copyright holder. This means practically every CD-ROM/disk
+        collections of software, too. If you want to include this software
+        into your commercially distributed collection/whatever, contact the
+        author first. (See the contacting chapter introduced in this file.)
+        EXCEPTION: If you are making a demoscene collection and will sell
+        it with low-prises (For example collections like ACE series) you
+        are allowed to include this software on it, but please, try to send
+        us a note if you're going to do that.
+
+        This software is distributed "AS IS". No warranty of any kind is
+        expressed or implied. YOU USE IT AT YOUR OWN RISK! The author will not
+        be liable for data loss, damages, loss of profits or any other kind
+        of loss while using or misusing this software. We test our softwares
+        in several computers before public distribution to make the software
+        more safe to use. Our softwares are also virus scanned, also with
+        heuretics flag, to make them absolutely clean and harmless before
+        public can reach them. Anyways, you must remember that we aren't
+        trained professionals and we can't make sure the production works
+        in the very same way in every system it is used. The author will
+        not be liable for anything this software causes. This software
+        may be very hardware sensible, so we can not guarentee that it will
+        work properly on your configuration.
+
+        ASSEMBLE ORGANIZING has full rights to include this piece of software
+        into their collections/whatever. You know what I mean :)
+
+        Using this software signifies acceptance of these terms and
+        conditions of this file. If you do not agree with the terms of
+        this file, you must remove the files of this software from your
+        storage devices and cease to use the product.
+
+         _
+        (C) Copyright 1997 Brainlez Coders!
+
+
+
+                        Contacting Brainlez Coders!
+                        ---------------------------
+
+        Internet E-Mail:        sliver@dystopia.fi
+                                sliveri@freenet.hut.fi
+
+        Internet WWW...:        http://www.dystopia.fi/~sliver
+
+        IRC............:        #BC!
+
+        Snailmail......:        Brainlez Coders!
+                                <member name, if necessary>
+                                c54a5
+                                FIN 00190 Helsinki 19
+                                Finland
+
+        BBS............:        The Temple    / +3589653580   / 24h / v34
+                                              / +35896223495  / 24h / v34
+                                (msg to Heap, Sliver, Humanoid,
+                                        whoever is a BC! member)
+
+        Brainlez Coders! (1993-1997)
+

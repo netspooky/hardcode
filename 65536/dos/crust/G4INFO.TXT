@@ -1,0 +1,4 @@
+"crust"
+64k intro by necromaniax
+code: choman
+msx,gfx: leviter

@@ -1,0 +1,25 @@
+                                tracie
+
+  A native 1k windows intro released for the 4k compo at function 2007.
+
+tracie.exe:
+- The real deal packed with my new experimental packer.
+  Yeah, some people write their own packers (hello hitch! :)).
+
+tracie_safe.exe:
+- The intro packed with what is most likely going to be Crinkler 1.1.
+  This version emits a warning, if directx is out of date,
+  and should work on win2k as well (not tested).
+
+Requirements:
+- Any version of windows xp or vista.
+- A graphics card supporting shader model 3.0.
+- A fairly recent directx (february 2005 or later, needed for d3dx9_24.dll).
+  http://www.microsoft.com/windows/directx/
+- Patience. The intro loops after two minuttes. Be sure to watch all of it.
+
+Thanks to:
+  Maytz/Loonies for helping out with the color scheme.
+  Puryx/TBC for composing the 'music'.
+
+- mentor/TBC

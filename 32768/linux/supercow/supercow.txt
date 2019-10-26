@@ -1,0 +1,29 @@
+
+supercow, a 32k game compo entry for mekka/symposium 2000
+
+supercow sucks
+
+visit the real kewl cows at www.buenz.li 9,
+august 11th - 13th in berne, switzerland
+
+big thanks to salt for the pcxloader fixing some bugs
+and another thank to arB_mind for fixing another bug.
+and to loom, hi to e605, tomcat^greenroom, all swissdudes, 
+all i missed and of course all mekka/sympo attenders
+
+tarzeau@space.ch
+
+/*
+the frame of this game was taken from
+mrcar.bas, original by DreamCinema_911@hotmail.com,
+http://user.tninet.se/~juq158c/games.htm
+
+i just
+- ported to linux (basic -> c/c++)
+- exchanged car with cow
+- added "moo"-sfx
+- done little intro
+tarzeau@space.ch
+
+greets to all the mekka/symposium attenders
+*/

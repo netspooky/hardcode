@@ -1,0 +1,1 @@
+magical 1680x 1050y -l -w

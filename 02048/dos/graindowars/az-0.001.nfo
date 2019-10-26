@@ -1,0 +1,33 @@
+                       __
+          ____   /\   ./_/.    ___   _/\
+         /    \  \ \  ______  / __) /.  \___
+         \__.  >__\ \/ /\ . \/ /_.\/ \__/   \
+         / _  / _.  / / // ./ / __/\__ \__  /
+         \___/\___/\\_>//\_  /| /  /  \.\/ /__
+                   / \/ \  \/ / \  \__  /   ./
+                   \_/\_/     \_/     \/\___/ --> adinpsz
+
+<(o)__,
+ (\__/  <----------. az-00.001 : Graindowars .---------->
+   !!
+
+A tiny game for the #demofr fast-game compo (11.05.09)
+by #ponce
+
+Probably requires Windows XP. Should also work on DOSBox.
+
+--
+
+The rules of the fast-compo was to create a < 16k game in 4 hours. 
+It turned to be a 5-hours 1.2k shmup ; and when it was over, 
+everybody was sleeping.
+
+Source included (assembly).
+
+Keys : SPACE for new game and shoot
+       ARROWS for moving
+
+--
+
+http://adinpsz.org
+contact@adinpsz.org

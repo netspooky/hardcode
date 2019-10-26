@@ -1,0 +1,8 @@
+dollmaker
+orbitaldecay@gmail.com
+01/26/2012
+
+Another 512 byte self-compiling prod on 32 bit Linux.  I've spent a little
+more time ensuring general compatibility on this one.  Only needs SDL libs
+installed (not the devel ones, just the regular ones) and GCC.  Needs nasm
+to build. 

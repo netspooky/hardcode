@@ -1,0 +1,80 @@
+fpu.txt
+
+A short document on FPU comparison operations.
+
+Author:
+	s_tec
+	
+--------------------------------------------------------------------------------
+1. Gereral facts
+--------------------------------------------------------------------------------
+
+All floating-point compare operations use st0 as the first parameter, even
+those that involve pops. This is unlike other FPU instructions, where st0 may
+be either the source or the destination and where the default assignment varies
+for the pop varieties.
+
+The FCOM* instructions set the C0, C2, and C3 flags in the FPU status register.
+To get these into the CPU flags, use the following code segment:
+
+	fstsw	ax
+	sahf
+
+Doing so gets the following mappings:
+	C0 -> CF
+	C2 -> PF
+	C3 -> ZF
+
+The FPU status register and flags register are shown below for reference:
+
+        15  14  13  12  11  10  9   8   7   6   5   4   3   2   1   0
+FPU:    |B  |C3 |    TOP    |C2 |C1 |C0 |ES |SP |PE |UE |OE |ZE |DE |IE |
+FLAGS:  |0  |NT | IOPL  |OF |DF |IE |TF |SF |ZF |0  |AF |0  |PF |1  |CF |
+
+The FCOMI* varieties write their results directly to the flags, so all this
+back-and-forth buisness isn't necessary.
+
+--------------------------------------------------------------------------------
+1. Comparison results
+--------------------------------------------------------------------------------
+
+All comparison operations generate the following results:
+
+		|ZF |PF |CF |
+st0 >  x	| 0 | 0 | 0 |
+st0 <  x	| 0 | 0 | 1 |
+st0 == x	| 1 | 0 | 0 |
+nan		| 1 | 1 | 1 |
+
+Use the following jump instructions to branch on specific conditions:
+
+st0 == x	jz
+st0 != x	jnz
+st0 <  x	jc
+st0 <= x	jbe
+st0 >  x	jnbe
+st0 >= x	jnc
+nan		jp
+real result	jnp
+
+Or, another way of looking at it:
+
+x <  st0	jnbe
+x <= st0	jnc
+x >  st0	jc
+x >= st0	jbe
+
+--------------------------------------------------------------------------------
+2. Instructions
+--------------------------------------------------------------------------------
+
+fcom    size[memory]
+fcom    st0, stX
+fcomi   st0, stX
+
+fcomp   size[memory]
+fcomp   st0, stX
+fcomip  st0, stX
+
+fcompp
+

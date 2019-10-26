@@ -1,0 +1,66 @@
+
+
+
+      $$$$$$.                   $$Ü  $$Ü            +                $$Ü
+      $$Ûßß$$Ü     ÄÅÄ     $$Ü  $$Û  $$Û  $$Ü                     $$$$$$Ü
+      $$Û  $$Û              ßß  $$Û  $$Û   ßß                      ß$$Ûßß
+      $$$$$$ß   $$Ü$$$$Ü   $$Ü  $$Û  $$Û  $$Ü   $$$Ü$$Ü  $$Ü$$$$Ü   $$Û
+      $$Ûßß$$    $$Ûßß`$Ü  $$Û  $$Û  $$Û  $$Û  $$Ûß^$$Û   $$Ûßß$$Ü  $$Û
+      $$Û   $$Ü  $$Û    ß  $$Û  $$Û  $$Û  $$Û  $$Û  $$Û   $$Û  $$Û  $$Û
+      $$Û  $$Û   $$Û       $$Û  $$Û  $$Û  $$Û  $$Û  $$Û   $$Û  $$Û  $$Û
+      $$$$$$Û    $$Û       $$Û  `$$Ü `$$Ü $$Û   $$$$ß$$Ü  $$Û  $$Û  $$Û
+       ßßßßß      ßß        ßß    ßß   ßß  ßß    ßßß  ßß   ßß   ßß   ßß
+
+        ³       &&&    &&&  &&&&&&&&&&  &&      &&  &&&&&&&&&&
+     ÄÄÄÅÄÄÄ    &&&&  &&&&  &&      &&  &&      &&  &&        +
+        ³       &&&&&&&&&&  &&      &&   &&    &&   &&&&&&
+                &&  &&  &&  &&      &&    &&  &&    &&
+                &&      &&  &&      &&     &&&&     &&             ÄÅÄ
+                &&      &&  &&&&&&&&&&      &&      &&&&&&&&&&
+
+
+
+This 8k intro is a production of Future Hackers.
+You are allowed to copy this intro free if it and following files (i.e.
+BRIMO.TXT) are not modifyed.  You may include this file into commercial
+packages, but you MUST copy it to any one who requests.
+It is being distributed 'AS IS'.  Authors are not liable for any damage,
+direct or indirect caused by this program.
+
+Designed specially for Enlight'96 demo party.
+Ranked 3rd at 8k intro compo.
+
+
+Hardware requirements:
+
+þ An VGA video card.  There's no gonzo programming, so almost any VGA card
+  suits.
+
+þ i80386 or compatible CPU.
+
+þ 512 (decimal) kilobytes of conventional RAM.
+
+If there's any problems during execution, try to run 'BRIMO -'.
+
+
+We planned to create more, but there were some problems.  For example,
+Dr Bug's VGA monotor became out of order a month before Enlight.  So the
+most part of code was written at HGC with 9inc BW monitor...  That was
+time of bad luck for Dr Bug:  his both HDD were spoiled too, so almost all
+programs that were written during this summer were lost...  (DB: no one here
+who wants to gift me a HDD? :-) ).
+But that's not all.  Our graphic artist were ill before the party...  :-(
+Hm...  Ok, so this intro was written in 3 days.
+
+You have a question about bugfix version?  Yeah, we hope it is really bugfix.
+There were some problems at the party:  part of intro containing fire didn't
+work at compo machine...  So it was removed.  But, it reality, this version is
+not just a bugfix:  some code is added.  But it was in mind BEFORE Enlight,
+but implemendet just today, when Dr Bug got his VGA monitor back...
+
+Compo version is called 'RENYXA'.  Just because if you read these latinic
+letters as cyrillic, it means 'nonsense'.
+
+
+Ad:  If you are real fidonetter, use Future Hackers Mail System.
+For extended info call 7-812-235-5928  Future Hackers BBS (2:5030/287@fidonet)

@@ -1,0 +1,27 @@
+
+Bubblez by rv6502 (Stephane Hockenhull)
+
+its a small (and extremely slow) software raytracer.
+
+An early prototype for the "4K Executable Graphics" competitions.
+The executable is 1616 bytes using UPX (2178 bytes uncompressed) 
+including automatic resolution selection, VESA RGB/BGR 24/32bit detection, 
+and VGA fallback.
+
+Was tested under Windows XP on a Core2 laptop and in dosbox, should work on 
+just about any PCs 386 (+387) with a VGA card able to run a 16bit 
+DOS executable ( 64bit windows users will need to use dosbox).
+
+bubblez_320x200.com will only try VESA 320x200 24/32bit mode then VGA mode 13h.
+bubblez_vga.com will only use VGA mode 13h.
+
+most 4K procedural graphics competitions have a 30 seconds limit so even 
+tho I still have a huge amount of space left (2480 compressed bytes is huge) 
+I'm already busting the ridiculously short calculation time.
+
+too bad, I guess I'm gonna have to write one of those incompatible "only runs 
+on the compo machine with GFX card brand Y, Model W, driver version X 
+and Windows version Z" entry instead.
+
+rv (a-t) rv6502.com
+

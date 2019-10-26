@@ -1,0 +1,92 @@
+STARS: Wonders of the 256, by PsychoMan / Craw Productions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Influx raves:           "Looks like crap."
+LakEEE exclaims:        "Is that all?"
+Matju e-mails:          "I have stuff much better than that."
+AliX says:              "That's nice, can I play Wacky Wheels?"
+
+Requirements:   - Computer with VGA (MCGA) card, monitor, and keyboard
+                - DOS 1.0 or higher (or Win95 DOS-box)
+                - One cluster of free disk space
+                - At least 256 bytes of free conventional memory
+
+Features:       - Full 3D space simulation engine
+                - Theoretically infinite number of stars
+                - Both solid AND flickering stars
+                - Stars elongate at high speeds
+                - Advanced pseudo-random number generator
+                - Full framerate (depending on speed)
+
+Credits:
+
+        Concept         - PsychoMan
+        Art/Design      - PsychoMan
+        Code            - PsychoMan
+
+Greets:
+
+        Matju           - For talking me into entering this contest
+        King Influx     - For letting me use my computer
+        LakEEE          - For not being impressed with this demo
+        AliX            - For leaving me in the dust in Wacky Wheels
+
+Disclaimer:
+
+        Run this demo at your own risk!  I will not be responsible for
+        any damage caused to your hardware or software as a result of
+        running this demo.
+
+        This demo may not be exchanged for money, goods, or services
+        without permission from the author.
+
+        This demo does not contain any animations.  All effects were
+        calculated in real time by your computer while you watched.
+
+About this demo:
+
+        I got the idea for the "infinite starfield" from a Win95 screen
+        saver which used a palette cycling method.  I had wanted to try
+        out my idea but didn't really have an excuse until Matju e-mailed
+        me the rules for this contest and asked me to enter.  I figured,
+        "Hey, I bet I can jam that infinite starfield into 256 bytes!"
+
+        My first attempt was 262 bytes, and that was before I added the
+        random number generator!  After converting my 3D system to 16-bit
+        instead of 32-bit (don't ask why it was 32-bit) and realizing that
+        I wasn't using any of the segment registers, I got it down to
+        238 bytes.  Then I went on an optimizing rampage and got it down
+        to 198 bytes.  It can probably get even smaller, but who cares.
+
+        Having so much space left, I decided to throw in some text at the
+        end.  All-in-all, I'm pretty happy with it.  I still claim it's an
+        "infinite" starfield, but because of the low resolution, you can only 
+        see a few hundred stars at a time and there is a lot of flickering.
+
+        If the stars go too slow (or too fast), you may want to try changing
+        the speed.  This can be done by changing the word at offset 39 in
+        stars.com.  I compiled with a speed of 400.  If the speed is less, 
+        the stars will go faster, and vice-versa.  If the maximum framerate 
+        is reached, then the speed will not change, but the rate at which 
+        new stars appear will be reduced.  That's just a side-effect...  :)
+
+About the author:
+
+        PsychoMan is a member of the super-duo known as Craw Productions.
+        This was my first attempt at a demo under 256 bytes.
+        Actually, it was my first attempt at a demo under 500k.  :)
+
+        If you want to give me feedback about this demo or just say hi, you
+        can contact me by e-mail to manttila@undergrad.math.uwaterloo.ca.
+
+        If you want to know more about my not-so-personal life and my other
+        interests (like I have any other interests), feel free to visit my
+        web page at http://www.undergrad.math.uwaterloo.ca/~manttila/
+
+About Craw Productions:
+
+        This is not an official Craw Productions release, merely one of
+        PsychoMan's many small side projects.
+
+        However, if you want to know more about Craw Productions, please
+        visit our newly-renovated web site at http://www.magi.com/~craw/
+        or e-mail to craw@magi.com.

@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RemembranceOfSummer", "RemembranceOfSummer.vcproj", "{3DE95F00-73CE-4980-9DB1-7A1FBCCA0176}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Final|Win32 = Final|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE95F00-73CE-4980-9DB1-7A1FBCCA0176}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3DE95F00-73CE-4980-9DB1-7A1FBCCA0176}.Debug|Win32.Build.0 = Debug|Win32
+		{3DE95F00-73CE-4980-9DB1-7A1FBCCA0176}.Final|Win32.ActiveCfg = Final|Win32
+		{3DE95F00-73CE-4980-9DB1-7A1FBCCA0176}.Final|Win32.Build.0 = Final|Win32
+		{3DE95F00-73CE-4980-9DB1-7A1FBCCA0176}.Release|Win32.ActiveCfg = Release|Win32
+		{3DE95F00-73CE-4980-9DB1-7A1FBCCA0176}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

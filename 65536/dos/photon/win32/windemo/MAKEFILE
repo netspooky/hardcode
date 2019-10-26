@@ -1,0 +1,28 @@
+# compiler options for code that has to run from an interrupt:
+
+Compiler_Options1       = wcc386 -zw -5r -fp5 -oneatx -s -d0
+#__WC32__
+#/oxrtl+
+#-fp5 -5r -5s
+Compiler_Options2       = wpp386 
+#/j -s
+
+# Compile using dos4g or pmodew
+#System                  = dos4g
+System                  = win32
+#System                 = pmodew
+
+Exe_file                = example.exe
+
+all :           example.exe
+
+example.exe :      windemo.obj example.obj D:\stuff\midas\lib\win32\wcretail\midas.lib D:\stuff\midas\lib\win32\wcretail\midasdll.lib
+#             $(LoaderObjs) $(DriverObjs)
+
+             *wlink system $(System) $(Linker_Options) name example &
+             file {$<} 
+.cpp.obj:
+        $(CCompiler) $(Compiler_Options2) $<
+
+.c.obj:
+        $(Compiler) $(Compiler_Options1) $<

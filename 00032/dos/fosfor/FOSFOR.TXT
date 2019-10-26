@@ -1,0 +1,14 @@
+ind presents
+,._________               _____
+    _/ ____\____  _______/ ____\___________
+    \   __\/  _ \/  ___/\   __\/  _ \_  __ \
+     |  | (  <_> )___ \  |  | (  <_> )  | \/
+     |__|  \____/______> |__|  \____/|__|_____.,
+
+FOSFOR - Filtracja Obrazu Satelitarnego Flory Obcoplanetarnej Rzeki
+(Filtering The Satellite Image Of Foreign-Planet River's Flora)
+32 bytes intro
+-------------------------------------------------------------------
+coded by Pirx
+assembled with NASM 0.98.39
+August 2007

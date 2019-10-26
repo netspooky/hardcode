@@ -1,0 +1,52 @@
+
+     __._        _.____   _.____   _.____   _.__    ____._    ____._
+   _/  |/________\|_   \__\|_   \__\|_   \__\|__)__/  _ |/___/  __|/____
+  _)   _/      /   /    /   /    /   /    /      (_   __|  (_____      (_
+  \    \      /        /        /   /     \       /         /   /       /
+  /_____\_____\________\________\___\______\______\_________\___________\
+ - -diP--------------------------------------------------------------uP!- -
+
+
+                   Fallty
+                         
+   A 4kb intro released at The Meltdown 2006
+
+
+Credits
+=======
+
+Code: Psycho
+Music: PuRyX
+Music Code: kklangzeug by Gargaj & tsw of ümlaüt design
+
+Crinkler 0.4a used for compression.
+
+
+Compatibility
+=============
+
+Recent OpenGL drivers and some fast pixelshader 3.0 capable hardware with fast 
+dynamic branching like Radeon X1600+. 
+
+Sorry, but no error messages yet if the main shaders falls back to software - 
+don't expect any frames in a reasonable amount of time - just kill it...
+
+Will try to free enough space in the final version for a faster version of the 
+main renderer.
+
+
+Slightly Updated 241006
+=======================
+-Lag at the beginning of each effect on GeForces fixed
+-OpenGL 2.0 required (smaller shader entry points..)
+-A "compatible" non-4k version included
+-Renamed the versions so the 640x480 is the default - From what I've seen I wouldn't
+recommend the 1024x768 version on less than X1800/GF7900.
+
+
+
+Additional info
+===============
+http://www.loonies.dk
+
+

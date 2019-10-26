@@ -1,0 +1,1 @@
+imagine 1920x 1200y -l -w

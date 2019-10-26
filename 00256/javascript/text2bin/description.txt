@@ -1,0 +1,10 @@
+"text2bin" by mados
+http://wildmag.de/mados
+
+This is a remake of two the5k.org entries,
+"text2binary converter"
+(check http://the5k.org/description.asp/entry_id=819)
+and "binary string encoder"
+(check http://the5k.org/description.asp/entry_id=1247)
+Both have very nice graphical user interfaces but no
+possibility to convert text both ways.

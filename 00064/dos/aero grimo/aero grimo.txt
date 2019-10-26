@@ -1,0 +1,13 @@
+aero grimo
+--------
+
+A 64b prod by lord Kelvin.
+
+It`s my first attempt to create demo with a nonsense name.
+The idea was to create shade bob in 64b.
+This is the result of "optimization with loss of quality".
+At least it doesn`t use coder`s colors. It uses coder`s palette.
+
+Compiled with FASM.
+
+Great hello from Russia.

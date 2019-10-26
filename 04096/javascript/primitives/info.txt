@@ -1,0 +1,29 @@
+============================
+        PRIMITIVES
+============================
+      WebGL 4k intro
+    by rimina / Paraguay
+============================
+ Run instructions & support
+============================
+* Tested with Chrome
+* Currently supports 720p resolution only
+* Does not go automatically to full screen
+* Starts immediately (after loading) when launched
+  * loading however takes a while and the browser can be unresponsive during that time. 
+* It will loop
+============================
+        TOOLS
+============================
+To make this demo several tools were used:
+Audio track is done using sonant-js live
+(Copyright (c) 2008-2009 Jake Taylor, Copyright (c) 2011 Marcus Geelnard )
+
+Packing the code is done using:
+Google closure compiler, http://closure-compiler.appspot.com/home
+RegPack, http://siorki.github.io/regPack.html (party version)
+JsExe, http://www.pouet.net/prod.php?which=59298 (final version)
+
+Special thanks to Iq for great ray marching articles!
+Also thanks for great people at the party place who supported me 
+and insisted me to get this into 4k. You are the best! <3

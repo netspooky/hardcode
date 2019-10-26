@@ -1,0 +1,24 @@
+
+
+  3
+
+  by
+  
+  cryo & twy
+
+  evokeZ003 4k
+
+
+  code      cryo & twy
+  music     N/A
+  models 	N/A
+  graphics  N/A
+  design    haha... :-)
+  
+  - no 3D hardware accelerator -
+     - no assembly language -
+        - just oldskool -
+        
+        
+cryo	-	me@em-motion.com
+twy		-	rob@superhelden.de

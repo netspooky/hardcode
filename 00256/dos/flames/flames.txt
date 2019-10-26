@@ -1,0 +1,17 @@
+FLAMES
+
+Flames demo. Only 175 bytes. Taken from my first demo
+(writen in far... 1995).
+
+Dmitriy
+
+P.S.
+  Files included:
+  flames.com - intro itself
+  flames.asm - source
+  makefl.bat - bat file for make it
+  flames.txt - this text
+
+P.P.S.
+  You can write me a letter: adw@nm.ru
+  You can go to my home page: http://mytools.narod.ru/

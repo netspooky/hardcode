@@ -1,0 +1,95 @@
+    /*******************************************************************\
+    *                       PùAùRùAùNùOùIùDùS                           *
+    *                       ~~~~~~~~~~~~~~~~~                           *
+    *                       proudly presents:                           *
+    *                                                                   *
+    *      Small intro for Assembly '94 4kb intro competition.          *
+    *      ---------------------------------------------------          *
+    *                      Code: Brainstrom                             *
+    *              Ideas/design: Dr.Doom and Brainstorm                 *
+    *                     Music: None ;-)                               *
+    \*******************************************************************/
+
+YO!!
+
+  This intro is our attempt to 'win' Assembly '94 4kb intro competition :-D.
+Our basic idea was, that landscape routine we released last year,
+took too much space and we simply tried to made it fit into 4096 bytes
+or less... Same time we did one nice Bezier-line draw & morphing routine
+to improve the result of final version. Screen resolution we used was
+320*240*256 so only 100% register compatible VGA-adapters will show the
+whole intro right.
+
+  Code is optimized by size (VERY MUCH) and speed (there was lot's of
+unnecessary stuff spending expensive CPU time...). Because lack of space
+given by party organizers we didn't have change to make it any longer
+it's now...  Try it and enjoy. Remember, 'cause lack of time, we
+couldn't make it any better....sorry for that...maybe next time..;-)
+
+Hardware requirements:
+
+         - 386SX/25 or above (DX33 or faster to move smoothly...)
+         - 75kb free memory (You should have that much anyway)
+         - Works fine with QEMM, EMM386 and other popular memory manager
+         - No sound from ANY known soundcard (Blame party organizers!!!)
+         - VGA adapter with 256kb memory on it!
+         - DOS 3.2 or above (4DOS works too, very well indeed...)
+         - That's all folks...
+
+  We really hope this intro didn't bore you too much. We have planned to
+release sources of this intro soon after the intro has been released.
+The Intro has been coded mostly with Borland C++ 3.1 and code edited
+with Qedit Advanced V3.0. The code has been optimized for Borland 3.1,
+so it might not work on anything else, or even with earlier versions of
+the compiler. Without fast food and Coca Cola, this production wouldn't
+have ever finished.
+
+If you want to contact us (for any reason), call to:
+
+Place of Pilgrimage:
+
+         Node #1: +358-18-7880 136 (USRobotics HST DS V32B V42B)
+         Node #2: +358-18-7880 982 (Zyxel 16.8K V32B V42B)
+
+Or write to us:
+
+         PARANOIDS
+         PL 75
+         FIN-15101 LAHTI
+         FINLAND
+
+Greetings/hellos goes out to:
+
+Mic Dair/Complex        (Still playing NHL hockey team??)
+Dr.Nesi/Simplex         (One more cookie, ok?)
+Dave/Simplex            (Having a job is wonderful, isn't it??)
+Gore/Future Crew        (I'll try to keep in touch little bit more in
+                        future...at least I hope so....)
+PSI/Future Crew         (Please, if you have no time to fix bugs
+                        of ST 3.01, give sources of it to someone who
+                        have!!)
+Abyss/Future Crew       (You really did surprise me with your BBS!)
+Snake Man/Rehab team    (Yes, Coca Cola IS for coders...)
+Sonic-PC                (Can't remember anything special...sorry guys!!)
+OC/Virtual Visions      (DSMI = Does So Much Interference...right? ;-)
+Codex/Extend            (Your 4Kb intro really has NOTHING in it!)
+
+  And very special thanks to all groups and peoples is scene who have
+remembered us so long time!!! We like to greet all of you but we simply
+can't remember all names we have been touch with...SORRY!!!!
+
+  P.S. We are still looking for talented coders (ASM and/or C(++)). If
+YOU think you may have something to offer to us and want to join, please
+don't hesitate to contact us! (To speed up process, send sample of your
+handwork to us so we know what we are working with...)
+Specially coders for commercial projects are wanted...and of course
+those commercial projects are welcome..;-D.
+
+Signing off,
+Dr.Doom/Paranoids
+
+ ****************************************************************************
+ ** THIS PRODUCT MAY BE DISTRIBUTED THROUGH CD-ROM W/O EXPLICIT PERMISSION **
+ ****************************************************************************
+
+-End Of Info File-

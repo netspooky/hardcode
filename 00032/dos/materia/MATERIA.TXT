@@ -1,0 +1,7 @@
+MATERIA - Magiczne Algorytmy To Efekty Relaksu I Alkoholu
+(Magical Algorithms Are Effects Of Relaxation And Alcohol)
+32 bytes intro
+----------------------------------------------------------
+coded by Pirx / ind
+assembled with TASM 5.0
+February 2007

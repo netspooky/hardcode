@@ -1,0 +1,187 @@
+
+I feel like I could (Spinning the Balls) - (C)1997 Spinning Kids, Italy
+-----------------------------------------------------------------------
+
+Infos:
+
+  Probable final version.
+
+  Supported video modes are 320x200 with 32, 24, 16, 15 bits (without
+  dithering) and 8 bits (with dithering). VESA 2.0 LFB required.
+
+  Only Gravis UltraSound supported.
+
+  WARNING: DON'T RUN UNDER WINDOWS 95, it won't work... don't know why (and i
+           i don't want to know, too).
+
+Additional greetings:
+
+  Pascal           - Used his TinyPlayer.
+  Tran & Daredevil - Used their PMODE/W.
+
+  Other groups:
+
+    Neural Activity
+    Ritual
+    Control Unit
+    The Bermuda Triangle
+
+Additional infos:
+
+  - Dynamic resolution channger, based on 80x50, till 320x200. Tries to render
+    (if possible) 12 fps on every machine, so, with about a P400, all the
+    intro will be rendered in FULL 320x200 at 12fps.
+
+  - REAL TRUE COLOR, rendered on a 32 bit frame buffer, and scaled to first
+    available 320x200 resolution. Dithered in 8 bit mode (13h).
+
+  - Texture and Bump mapping
+
+  - This intro uses only spheres and planes, but Duncan (the raytracing engine
+    used for this intro, written by PaN) can handle also quadric function and
+    complex function (such as blobs).
+    Soon fast and correct quartic functions will be available.
+    Ehr... and triangles, too =)
+
+Bench on CHANI (Intel P166, Matrox Millennium, UNIVBE 5.3, first two minutes):
+
+  frames per second  : 9.154926
+  rays per second    : 30250.094739
+  hits per second    : 18110.924023
+  hcks per second    : 33390.707592
+  % of hitting rays  : 59.870636
+  % of hitting checks: 110.283159
+  fault checks /sec  : 15279.783569
+  average resolution : 72x45
+  peak resolution    : 120x75
+
+  (SPOT! -> Compare your computer efficiency with your friend's one, using
+    IFLIC statistics!!!)
+
+  (?) This is not an intro, this is a benchmark! (?)
+
+How to find us:
+
+  Pan           Code                    pan@xt.net
+  Dixan         Music                   dixan@freenet.hut.fi
+  Rio           Font                    (ghgh... don't remember)
+  The Glide     Additional code and
+                        moral support   gerli@ipeca3.elet.polimi.it
+
+Next intro/demo greetings:
+
+  This intro is PizzaWare (for italians) and Cardware (for foreign people).
+  If you're not italian, and you like this intro, send us a PostCard.
+  If yoy're italian, offer us (me) a pizza (di persona, possibilmente!).
+  Next intro/demo will greet every PostCard and PIZZA.
+
+  Paying method for Italians is copyright (C) 1996 Paolo "Bussola" Marchiori
+  and Sergio "Omega" Brenna, used by written license.
+
+  DO NOT SEND PIZZAs BY SNAIL MAIL.
+
+  Write to:
+
+    Spinning Kids
+    c/o Marco *PaN!* Foco
+    Via C.Marx 345/C
+    20099 Sesto S.G. (MI)
+    ITALY
+
+(Pan) I'm a lazy bastard, but i know what "friendship" means. Think about it!
+
+---------8<-----------------8<-----------------8<-----------------8<---------
+
+Ed ora... qualcosa di completamente diverso!
+
+Paraparapa'! Paraparapa'! Parapparappappa'! L'infofile di PAN!
+
+Avete mai letto KOo's.nfo ? No ? Cazzi vostri =) Bene, questo e' qualcosa
+del genere... a dire la verita' non ricordo cosa ho scritto in koo's.nfo,
+e non posso neppure andare a guardare, perche' non so come leggere un
+fermacarte da 2.5gb.
+
+Ebbene si, infatti il bellissimo QUANTUM SIROCCO denominato NOE' (perche'
+quando lo stavo andando a prendere e' venuta giu' un acqua che neppure Dio
+nel diluvio universale ne aveva mai vista tanta), ha deciso, a due giorni
+dall'assembly, di lasciare questo mondo. E' finito per direttissima nel
+cimitero degli hard-disks "sacrificati per una giusta causa".
+
+Quindi, se avete KOo's, con sorgenti, ultima versione (la 167/176 dovrebbe
+essere, o la 166...) MANDATEMELO! (mandatemi anche altri sorgenti miei, se
+li avete in giro... o anche i vostri, tanto io mica mi offendo =)
+
+Allora... questa intro mi ha preso un periodo di DUE mesi di tempo, lavorando
+mediamente 1 ora al giorno. Si, perche' nel frattempo stavo preparando un
+paio di esamucoli semplici semplici (Analisi II, Statistica, Fisica II,
+Elettrotecnica): I primi sono andati discretamente, fisica II e' andato
+a fare in culo giusto l'altroieri, ed elettrotecnica ce l'ho il 9, e dovrei
+studiare ora invece di sparare le solite stronzate sul codice che ho scritto.
+
+PORKAPUZZOLA! Stavo per dimenticarmi degli Spyral nei greetings dentro la
+intro... azz... Kappa mi evirava... ke kulo... sono a solo 13 bytez dai 64k =)
+Senno' mi toccava andare a smazzare ancora roba inutile dalla libc =)
+
+Beh, ora vi saluto... e ricordatevi di succhiare il mio cazzo! (per chi non
+l'avesse capita, e' (C) Eddie Murphy in Raw - Nudo e crudo).
+
+---(qualche giorno piu' tardi...)---
+
+Ora spiego meglio la faccenda dei fuckings ai TbT nella versione della COMPO.
+Intanto erano, fino ad un certo punto, ironici. Erano troppo larghi, in
+realta' dovevano essere indirizzati solo a 3 membri del gruppo (Matley e
+FlagMan ed altri, forse, non c'entravano nulla...), e per motivi STRETTAMENTE
+personali...
+
+A Jova era per avermi, gentilmente, nukato il PC quand'ero all'assembly.
+
+A Spirit per aver tentato (come Chaotic Vision) di "spazzarci" un coder ed un
+engine 3d sotto il naso. A dir la verita' spero che sia stato tutto un
+malinteso, ma la cosa mi ha quantomeno infastidito.
+
+A Swan, perche'... non l'ho capito neppure io, ma mi aveva detto che gli stavo
+sulle balle, cosi' ho incluso pure lui.
+
+Oggi, parlando con Jova, mi si son chiarite alcune cose (prima, che forse e'
+un po' piu' simpatico di quanto mi era sembrato all'inizio, quand'ero ad
+asm97... a mia discolpa posso dire solo che ero a dir poco isterico, dopo
+aver codato per N giorni a M ore al giorno, con N, M >= 12). Per quanto
+riguarda Swan, boh... Jova m'ha detto che probabilmente scherzava, ed
+effettivamente, non capisco come avrei fatto a stargli sulle balle avendolo
+"visto" in IRC si e no due volte.
+Riguardo a Spirit, beh... si e' chiarito il tutto... comunque mi permetto di
+darvi un consiglio spassionato: andateci coi piedi di piombo con i join,
+soprattutto di persone che gia' hanno un gruppo... qualcuno potrebbe
+incazzarsi MOLTO piu' di me; ne conosco parecchi nella scena italiana che
+non ci avrebbero riso sopra una volta chiarito il malinteso.
+
+Ultima nota, per il computer di Xenon... ora vorrei che mi si spiegasse
+CHE CAZZO di scheda grafica, ma piu' in generale, che cazzo di computer e'.
+Una scheda grafica che a detta di Phoenix, non va in 320x200 a 32, 24, 16,
+15 bit in LFB con NESSUN UNIVBE dalla 5.1 alla 6.0, e questa e' la prima
+cosa che non mi quadra. La seconda e', come cavolo ha fatto ad andare FUORI
+sincronismo (aka, perdere pezzi) su un pentium 120, quando riesce
+tranquillamente a starci dietro su un 486 AMD 40Mhz overclockato a 50 ?!?
+L'unica cosa che mi viene in mente e' che sia andato in FULL resolution tutto
+il tempo, ma a quel punto la "colpa" sarebbe stata solo ed unicamente del
+clock del mxmplay di Pascal, dato che e' a lui che chiedo "a che frame rate
+sono andato", e regolo la risoluzione di conseguenza.
+
+A parte tutto, la intro e' questa. Divertitevi. Dovrebbe funzionare a 8-12
+fps su un p133, e a 12 fissi su un 166+ (a 32 bit... se foste a 24, 16 o 15,
+o addirittura a 8 ditherato, beh... 'zzi vostri =), in una risoluzione
+interpolata superiore o uguale ad 80x50. I miei calcoli dicono che su un
+P800 questa intro funzionera' in full frame 320x200 a 12fps... forse =)
+
+QUALCUNO ha "ipotizzato" che le riflessioni fossero tutte fatte ad enviroment.
+BALLE! Questo e' raytracing, non una stupida imitazione. Tutto quello che
+c'e', e' calcolato in maniera piu' realistica possibile.
+
+La "final release" e' piu' grande perche':
+  a) include le librerie complete (quelle "tagliate" da me, mi e' stato fatto
+     notare, omettevano parti importanti, legalmente necessarie =)
+  b) include il "benchmark", ovvero le statistiche della intro.
+
+Nel pacchetto, ovviamente, e' contenuta anche la versione <64k.
+
+---------8<-----------------8<-----------------8<-----------------8<---------

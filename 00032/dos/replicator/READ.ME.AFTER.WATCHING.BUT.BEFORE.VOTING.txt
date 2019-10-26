@@ -1,0 +1,5 @@
+Before you vote, please have a look at the code. As you may notice, it
+replicates to the video segment and continues replication there. So the pixels
+you watch on the screen are the actual code bytes being run by the CPU, as it
+spreads across the screen. This entry might not be the best graphics-wise, but
+it is imho the coolest one, with respect to the code and what it does.

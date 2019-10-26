@@ -1,0 +1,95 @@
+20             AND Eb, Gb
+21      !      AND Ev,Gv
+22      "      AND Gb, Eb
+23      #      AND Gv, Ev
+24      $      AND AL, Ib
+25      %      AND eAX, Iv
+26      &      ES:
+27      '      DAA
+28      (      SUB Eb, Gb
+29      )      SUB Ev, Gv
+2A      *      SUB Gb, Eb
+2B      +      SUB Gv, Ev
+2C      ,      SUB AL, Ib
+2D      -      SUB eAX, Iv
+2E      .      CS:
+2F      /      DAS
+30      0      XOR Eb, Gb
+31      1      XOR Ev, Gv
+32      2      XOR Gb, Eb
+33      3      XOR Gv, Ev
+34      4      XOR AL, Ib
+35      5      XOR eAX, Iv
+36      6      SS:
+37      7      AAA
+38      8      CMP Eb, Gb
+39      9      CMP Ev, Gv
+3A      :      CMP Gb, Eb
+3B      ;      CMP Gv, Ev
+3C      <      CMP AL, Ib
+3D      =      CMP eAX, Iv
+3E      >      DS:
+3F      ?      AAS
+40      @      INC eAX
+41      A      INC eCX
+42      B      INC eDX
+43      C      INC eBX
+44      D      INC eSP
+45      E      INC eBP
+46      F      INC eSI
+47      G      INC eDI
+48      H      DEC eAX
+49      I      DEC eCX
+4A      J      DEC eDX
+4B      K      DEC eBX
+4C      L      DEC eSP
+4D      M      DEC sBP
+4E      N      DEC eSI
+4F      O      DEC eDI
+50      P      PUSH eAX
+51      Q      PUSH eCX
+52      R      PUSH eDC
+53      S      PUSH eBX
+54      T      PUSH eSP
+55      U      PUSH eBP
+56      V      PUSH eSI
+57      W      PUSH eDI
+58      X      POP eAX
+59      Y      POP eCX
+5A      Z      POP eDX
+5B      [      POP eBX
+5C      \      POP eSP
+5D      ]      POP eBP
+5E      ^      POP eSI
+5F      _      POP eDI
+60      `      PUSHA
+61      a      POPA
+62      b      BOUND Gv, Ma
+63      c      ARPL Ew, Rw
+64      d      FS:
+65      e      GS:
+66      f      OPSIZE:
+67      g      ADSIZE:
+68      h      PUSH Iv
+69      i      IMUL Gv, Ev, Iv
+6A      j      PUSH Ib
+6B      k      IMUL Gv, Ev, Ib
+6C      l      INSB Yb, DX
+6D      m      INSW/D Yv, DX
+6E      n      OUTSB DX, Xb
+6F      o      OUTSW/D DX, Xb
+70      p      JO Jb
+71      q      JNO Jb
+72      r      JB Jb
+73      s      JNB Jb
+74      t      JZ Jb
+75      u      JNZ Jb
+76      v      JBE Jb
+77      w      JNBE Jb
+78      x      JS Jb
+79      y      JNS Jb
+7A      z      JP Jb
+7B      {      JNP Jb
+7C      |      JL Jb
+7D      }      JNL Jb
+7E      ~      JLE Jb

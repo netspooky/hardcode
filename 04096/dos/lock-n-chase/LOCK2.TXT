@@ -1,0 +1,10 @@
+This is just a little lock-n-chase clone I made one day cause I was bored.
+Press Space to start, the arrow keys control the movement.  Pressing the space
+bar during play will create a lock behind you, good for stopping the mean cops
+chasing you around.  The object is to get all the bars on the board, and escape.
+ the game is still kinda buggy, but it is playable.
+
+Dungeon Dwellers Design:
+http://onramp.uscom.com/~jpimble
+
+

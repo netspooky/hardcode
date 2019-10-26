@@ -1,0 +1,45 @@
+
+
+
+
+                     * B l u F l a m e *    ...........
+                                           :::::::: ::::       /\
+                       .___                :::::::: ::::      / \\
+________/\  _ __.  _ __|   \ _________ _.  :::::::: :::: __  /    \ ________
+\__.___  _)___  |_____ |   \\    ____/  |_____`::::.::::   \/      \    ___/
+   |  |       \ |     \      \ ___)     |     \`::::::::   \/       \  __)_____
+   |__________/_____ //______/_|   _ _______ //.::: :::: __||        \_ ____  /
+                .   \/                     .\/.:::: ::::    |_________/ yop \/
+                |                          :::::::: ::::    .
+              __|_                                  ::::   _|__
+         _ ___) .//________________________________ :::: _\\. (___ _
+                |                                   ::::    |
+                |    fractoblob - pure raytracing   ::::    |
+                |    on the gpu - requires shader   ::::    |
+                |    model 3 and a real fast gpu.   ::::    |
+                |    this is our first release at   .:::    |
+                |    evoke, and our second intro.    :::    |
+                |    we would like to thank: auld   .:::    |
+                |    and iq  for their great con-    :::    :
+                |    tribution for  the 4k scene,    :::    :
+                |    and mentor&blueberry for de-    :::    .
+                |    veloping crinckler.  we also    .::    .
+                |    thank las and manx for their     ::
+                |    help in reducing the size of    .::    .
+                |    our 4k.  greetings in alpha-     ::
+                |    betic  order:  asd,  bypass,     ::
+                |    farbrausch, kakiarts, kolor,     ::
+                |    jco,  mfx,   mercury,  rgba,     .:
+                |    smash designs, starly, still      :
+                |    and titan. we are xTr1m (co-     .:
+                |    de)  and  raYn (music). Pre-      :
+                |    sented scenes: [logo] inter-      :
+                |    val comparison, [wada_basin]      .
+                |    raytraced  spheres  with  24       
+                |    reflection   levels,   [meta      .
+                |    balls] newton's  method  for                            
+                :    zeroes approximation,  [man-     
+                :    delbrot] fractal with smooth
+                :    colors. http://blu-flame.org      
+          _ __  .  __________ ____ __ _ _              
+              )___\\                                   

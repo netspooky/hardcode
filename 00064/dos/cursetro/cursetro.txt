@@ -1,0 +1,15 @@
+CurseTro
+--------
+
+#9
+
+A 64b prod by lord Kelvin.
+
+Curse goes to those, who vote without watching.
+ And to selfvoters, thanx to Pirx.
+
+I belive, this prod is so tiny, that noone`ll see it`s ugliness.=)
+
+Compiled with FASM.
+
+Great hello from Russia.=)

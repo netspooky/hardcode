@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xnfo standard="1.1" version="1" mode="complete" author="sanx(at)fxteam(dot)net">
+<demo>
+	<name>4screen</name>
+	<authors>
+		<group>sector 1</group>
+	</authors>
+	<category type="intro;4k">Intro 4K</category>
+	<support>
+		<configuration>
+			<plateform type="win32">Flash</plateform>
+		</configuration>
+	</support>
+	<archive>
+		<file>4screen by sector1.zip</file>
+	</archive>
+	<runs>
+		<run>index.htm</run>
+	</runs>
+</demo>
+</xnfo>

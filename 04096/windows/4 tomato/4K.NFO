@@ -1,0 +1,27 @@
+
+ "4 Tomato"
+ (A disgusting tribute to a legendary demo)
+ 
+ A 4k intro for Revision 2011 by T$
+ 
+ Requires DirectX9c (including the D3DX library from the August 2005
+ SDK update, stored on disk as d3dx9_30.dll),
+ a 3D graphic accelerator featuring VS 2.0, PS 2.0 and a soundcard.
+ Initialization can take some time on slower CPUs.
+
+ Running time: 3:34
+
+ Files included:
+
+* Ts4k_rv11_1920x1080.exe
+* Ts4k_rv11_1280x1024.exe
+* Ts4k_rv11_1280x960.exe
+* Ts4k_rv11_1280x800.exe
+* Ts4k_rv11_1280x720.exe
+* Ts4k_rv11_1024x768.exe
+* Ts4k_rv11_640x480.exe
+* Ts4k_rv11_960x540_windowed.exe
+
+ Color modes used:
+ Display format : X8R8G8B8
+ Z-/Stencilbuffer format: D24S8

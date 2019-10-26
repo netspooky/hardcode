@@ -1,0 +1,30 @@
+Debuggerin turhuus - Vanity of Debugger
+
+tAAt 2007 contribution to Alternative Party 2007
+Esoteric programming competition
+
+Entry is created in Piet programming language.
+
+Code by:
+- keLmUharppU (the driving force)
+- tArzAn
+
+
+The entry itself is in the ALT.png file.
+(in original size - small, non-stretched)
+
+
+See more about Piet from:
+http://www.dangermouse.net/esoteric/piet.html
+
+
+Tested with npiet interpreter:
+http://www.bertnase.de/npiet/
+
+
+The PRES directory contains image slides used to
+present both the Piet language and the competition
+entry at the Alternative Party.
+
+
+http://tAAt.fi

@@ -1,0 +1,120 @@
+
+
+                         ˙  ˙   ˙  ˙   ˙      ˙ ˙         ˙
+                      ⁄ƒƒƒ∑⁄ƒƒƒ∑  ⁄ƒƒƒƒƒƒ∑˙  ˙ ⁄ƒƒƒƒƒƒ∑     ˙
+                     ˙≥ﬁ€›∫≥ﬁ€›∫˙ ≥ﬁ€›ﬁ€›∫ ˙ ˙ ≥ﬁ€≤±€›∫  ˙≥
+                      ≥ﬁ≤›∫≥ﬁ≤›∫  ≥ﬁ≤›ﬁ≤›∫˙    ≥ ﬂﬂﬁ±›∫   ≥
+                     ˙≥ﬁ±›∫≥ﬁ≤›∫ ˙≥ﬁ±›ﬁ€›”ƒƒ“ƒƒŸ ‹‹ﬁ≤›∫ ˙ ∫
+                      ≥ﬁ±›∫≥ﬁ±›∫˙ ≥ﬁ±≤€‹ ﬁ€›∫ﬁ€›ﬁ€±≤€›∫   ∫˙
+                      ≥ﬁ≤›”Ÿﬁ∞›”ƒƒŸﬁ±›ﬁ€›ﬁ≤›∫ﬁ≤›ﬁ≤›ﬂﬂ ”ƒÕÕŒÕƒƒ
+                     ˙≥ﬁ≤‹‹‹ﬁ±›‹‹‹‹ﬁ±›ﬁ≤›ﬁ±›∫ﬁ±›ﬁ±›   ‹‹‹‹∫ ˙Oracle
+                      ≥ﬁ€≤±∞∞≤›€≤±€ﬁ≤›ﬁ±›ﬁ∞›∫ﬁ∞›ﬁ∞›   €±≤€∫
+                      ¿øﬂﬂﬂﬂﬁ≤›ﬂﬂﬂ≤ﬁ≤›ﬁ≤›ﬁ±›∫ﬁ±›ﬁ±›   ﬂﬂﬂ≤∫˙
+                      ⁄Ÿ‹‹‹‹ﬁ€›‹‹‹±ﬁ≤›ﬁ≤›ﬁ≤› ﬁ≤›ﬁ≤›‹‹ ‹‹‹±∫
+                      ≥ﬁ€≤±±≤€›€  ≤ﬁ€›ﬁ€›ﬁ€≤±≤€›ﬁ€±≤€›€  ≤∫
+                      ¿øﬂﬂﬂﬂﬂﬂ ﬂﬂﬂﬂ ﬂ  ﬂ  ﬂﬂﬂﬂﬂ  ﬂﬂﬂﬂ ﬂﬂﬂﬂ∫
+                       ‘ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº
+
+                         .... another fine release ....
+
+
+€€€€€€€€€≤≤≤±±±∞∞∞          I  N  F  O  R  M  A  T  I  O  N
+€
+€  Yo guys ... diz is a new fine release of YAKUZA's member GEORGE STARK ..
+€
+€  Okay ... I thought about the intro coding problem and when I got the
+€  VESA.BGI for C I started coding some nice FX . The high res modes are
+≤  really cool for getting good looking intros .. so here it is ...
+≤  'cause I know that a lot of you have problems coding and adressing the
+±  Vesa modes (Vesa starts with 640x400.256) I released this little intro
+±  with the source code ... I guess it is well documented so you won't
+∞  have any problems understanding it .. you'll find color cycling, vector
+∞  rotating and this nice screen splitting effect you can find in a lot of
+   BBStros ... I have coded this intro on a 386DX40 and for that computer
+   and that GFX mode the intro is really fast ... so most important routine
+   is of course the PUTPIXEL routine .. check this intro with the putpixel
+   routine of the BIOS hehehe .. you will see the difference ...!!!!!!!!!!!
+
+   Okay ... that's it ... if you have got any questions .. call one of our  ∞
+   Boards to ask me or other members  .... bye bye and cu l8er ........     ∞
+                                                                            ±
+                                           GEORGE STARK/YAKUZA DS+HS        ±
+                                                                            ≤
+   PS: If you have learned something or you got any cool idea don't forget  ≤
+       to greet me and YAKUZA but DON'T USE THE CODE WITHOUT GREETING THE   ≤
+       CODER 'cause this will make you the BIGGEST LAMER ALL AROUND THE     €
+       WORLD ... the PUTPIXEL routine is usable for other modes as well     €
+       but check first the PAGE size of the other modes .....               €
+                                                                            €
+                                                           ∞∞∞±±±≤≤≤≤€€€€€€€€
+
+
+€€€€€€€€€≤≤≤±±±±∞∞∞∞      G R O U P   I N F O R M A T I O N
+€
+€
+€                                      CODER
+€                                   ƒÕÕÕÕÕÕÕÕÕƒ
+≤                          DELTA, BIKA, SCALE, GEORGE STARK
+≤
+±                                      GFXer
+±                                   ƒÕÕÕÕÕÕÕÕÕƒ
+∞                                      ORACLE
+∞
+                                      SOUNDER
+                                   ƒÕÕÕÕÕÕÕÕÕÕÕƒ
+                                TOXIC TRANCER/RR~SAC                        ∞
+                                       ORACLE                               ∞
+                                                                            ±
+                                       TRADER                               ±
+                                     ƒÕÕÕÕÕÕÕÕƒ                             ≤
+                                      TALAVAN                               ≤
+                                       SCALE                                €
+                                   TOXIC TRANCER                            €
+                                                                            €
+                                                                            €
+                                                            ∞∞∞±±±≤≤≤≤€€€€€€€
+
+
+
+€€€€€≤≤≤±±±∞∞∞            G R O U P   G R E E T I N G S
+€
+€
+€      NATIVE FORCE, TOXAEMIA, SAC, LKCC, RADICAL RHYTHMS, NEON, MISFITS
+≤
+±       PUBLIC NMI, PURGE, INFINITY, DYTEC, POLICE, PWA, DIESEL, LIQUID     ∞
+∞                                                                           ±
+              and a lot of personal greetings but the people we would       ≤
+                              greet know that heheh ....                    €
+                                                                            €
+                                                                  ∞∞±±≤≤€€€€€
+
+
+€€€€€€€€€≤≤≤±±±∞∞∞        B O A R D   I N F O R M A T I O N
+€
+€    COMITEK              LINE 1      DS-WHQ           +49-030-4721101
+€                         LINE 2                       +49-030-4797102
+≤
+≤    WORLD OF ILLUSION    LINE 1      DS-BHQ           +49-030-4785012
+±
+±    MYSTERIOUS WORLDZ    LINE 1      DS-GHQ           +49-030-8329130
+∞                                                                           ∞
+∞    BLUE BAY             LINE 1      DS-Distsite      +49-030-3340622      ∞
+                          LINE 2                       +49-030-3346399      ±
+                                                                            ±
+     KLH-BBS              LINE 1      DS-GeHQ          +49-0365-4203270     ≤
+                                                                            ≤
+     Name            Lines       Status   Sysop(s)     Numbas               €
+     EF              LINE 1      HS-WHQ   MAD DANGER   +49-030ASKELITE      €
+                     LINE 2                            +49-030-GOHOME!      €
+                                                                            €
+                                                              ∞∞∞±±±≤≤≤€€€€€€
+
+€€€€€€€≤≤±±∞∞             I N T E R N A L  P R O B L E M S
+€
+€    YAKUZA [DS/HS] is still looking for cool GFXers and Traders .....
+≤    but more important are cool BOARDS ... so, if you are an SYSop and     ∞
+±    you think your board is a board we could like .. contact us ...        ±
+∞                                                                           ≤
+     For questions call one of the boards .............................     €
+                                                                            €
+                                                                   ∞∞±±≤≤€€€€

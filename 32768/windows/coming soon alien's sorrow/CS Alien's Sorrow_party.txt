@@ -1,0 +1,16 @@
+glBegin(GL_REMARK);
+
+    f a s t  (wrk)  h a n d 
+         NIDUS single
+       critical<2004>mass
+ ----------------------------
+ win32                 opengl
+
+ min: tnt2,p2-233
+ good:gf2mx400, p3-1300
+
+ code,music,synth,modeling: Phantom Lord
+ 
+ forgod@fromru.com
+
+glEnd( );  

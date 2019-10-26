@@ -1,0 +1,113 @@
+³
+³ ReliQ source code
+³
+
+
+
+ø The Source Code
+
+You may do whatever you want with this source code. Take any part and use
+it in your production (though I doubt that you would want to do that). Or
+use it to learn something about coding. (You must be real beginner to learn
+anything from my code!) 
+I used tasm 3.1 and tlink 5.1 but any newer version should swallow my code.
+
+To make ReliQ run the following:
+  tasm reliq
+  tlink /t reliq
+  pklite reliq          ; so it'll be less than 4k!
+
+To debug ReliQ run the following:
+  tasm /m5 /v /dEXE reliq
+  tlink /zi reliq
+  td reliq
+
+You might run into memory problems when debugging. Just take out the line
+containing "call GenGNU" and the allocation of [gnuseg1] and [gnuseg2].
+You won't be able to debug the GnuFractal then, but it works anyway.
+Trust me.
+
+I put the instrument allocation in a seperate .INC file, so you can easily
+change the instruments used. I developed ReliQ using my 4MB Korg wavetable
+daughtercard (KORG4MB.INC). The sound totally sucked on my brother's
+512k GUS though, so I changed the instrument allocation (GUS512K.INC). I
+urge you to play around with the instrument allocation. Just include
+your .INC file in RELIQ.ASM under the comment stating "instrument data"
+and reassemble the intro. Please send me any .INC files you think I should
+have.
+
+You might also try to put in some of the code I commented out. This was done
+because of the 4k-limit of a 4k intro (hence the name). I don't know what
+effect that will have, since I commented out some parts quite early in the
+development. But play around, see what happens.
+
+If you happen to find a way to use the mnemonic 'or' to improve the code,
+please let me know. I did not use 'or' once in the whole source code. (Nor,
+for the sceptics among you, did I use a "db xx0Ah", "xx0B66h" or whatever
+directive.)
+
+
+
+ø Credits
+
+The essential production of ReliQ boils down to the following people
+
+  ù Music: Hilander/SLi
+  ù Code: MLF/SLi
+
+Special thanx must go to the following people for helping me during the
+development of ReliQ:
+
+  ù Eartoaster/ConSub aka Henning Glawe
+    for supplying me with sample code of whatever my heart desired
+  ù Tumblin/Bodies In Motion aka Terry Sznober
+    for making his BitmapScaler source available to the general public
+  ù Glenn Miyashiro, Jerzy Tarasiuk, Mika Rasanen, Todd Zimnoch and
+    Eric Nadeau 
+    for instantly replying to my plea for help concerning COM file segments
+  ù Ville Nummela and Francis Reynders
+    for helping me out with plasma routines, although, of course, I didn't
+    use them in the end
+
+
+
+ø Contacting SLi
+
+SLi is an acronym for Sentient Lifeforms. Currently, we only have two
+members:
+
+  ù Hilander aka Sven Flegel responsible for music
+  ù MLF aka Michael Flegel who should be doing the coding
+
+We are desperately seeking a graphician. If you happen to stumble across
+one, please drop us a line:
+
+  ù Snail Mail
+    Michael and Sven Flegel
+    Am Ehrenmal 2
+    21516 Schulendorf
+    Germany
+
+  ù email
+    flegel@physnet.uni-hamburg.de
+
+  ù internet
+    www.physnet.uni-hamburg.de/home/vms/flegel
+
+Please tell anybody who will listen about our website. It's been in existance
+for quite some time now, but I don't have the feeling that anybody ever
+visits it. So check it out and let me know what I can do to improve it.
+
+
+
+ø Disclaimer
+
+If this product f***s up your computer, don't come running to me.
+  
+
+hail, Hale-Bopp
+
+   MLF, March 28, 1997
+
+
+

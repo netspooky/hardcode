@@ -1,0 +1,1032 @@
+
+.486
+.MODEL FLAT, PROLOG
+IDEAL
+SMART
+JUMPS
+LOCALS
+%NOSYMS
+
+UDATASEG
+;ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+;º                                                                          º
+;º BSS:         0  total                                                    º
+;º                                                                          º
+;º CODE:     1131  _TEXT, MATRIX                                            º
+;º           1131  total                                                    º
+;º                                                                          º
+;º DATA:       64  _DATA, MATRIX                                            º
+;º             64  total                                                    º
+;º                                                                          º
+;ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+; ------------------------
+; Generic Vector Structure
+; ------------------------
+struc tvector
+      x dd ?
+      y dd ?
+      z dd ?
+ends  tvector
+
+; -----------------
+; Vertice Structure
+; -----------------
+struc vert3d
+      source    tvector <?>  	; position vector original position
+      dest      tvector <?>  	; position vector after transformation
+      normal	tvector <?>     ; vertex normal vector
+      next      dd       ?   	; points to next vertex in object's list
+      link      dd       ?      ; points to next vertex in Polygon list (zclip)
+      flags     dd       ?   	; Some generic flags
+      clipcode  dd       ?   	; Point Clip Code
+      u         dd       ?
+      v         dd       ?
+      r		dd       ?   	; fixed 16:16 Red Shade
+      g	        dd       ?   	; fixed 16:16 Green Shade
+      b         dd       ?   	; fixed 16:16 Blue Shade
+      c		dd       ?   	; fixed 16:16 Generic Light
+ends  vert3d
+
+; --------------
+; Face Structure
+; --------------
+struc face3d
+      normal    tvector   <?> 	; normal vector
+      rotnormal tvector   <?>   ; rotated normal vector
+      middle	tvector   <?>   ; middle of face
+      cullpnt   dd         ?  	; Face culling point
+      material  dd         ?  	; face material
+      next      dd         ?  	; ptr to next face structure in object-list
+      OrderLink dd	   ?  	; ptr to next entry in ordering table
+      verts     dd 3 dup  (?) 	; Ptr to the 3 vertices of Object
+      u         dd 3 dup  (?) 	; texture x coordinates
+      v         dd 3 dup  (?) 	; texture y coordinates
+      flatRed   dd         ?
+      flatGreen dd         ?
+      flatBlue  dd         ?
+      oemdata   dd         ?    ; your own data
+ends  face3d
+
+; ----------------
+; Object Structure
+; ----------------
+
+struc object3d
+      pos       tvector   <?> 	; Position of Object
+      rot       tvector   <?> 	; Rotation of Object
+      scale     tvector   <?> 	; Scaleing of Object
+      flags     dd         ?  	; Object Flags (to be defined...)
+      rotmat    dd 16 dup (?)   ; Rotation only
+      irotmat   dd 16 dup (?)	; inverse rotation matrix
+      matrix    dd 16 dup (?) 	; The Tranformation Matrix
+      imatrix   dd 16 dup (?) 	; The inverse Transformation Matrix
+      faces     dd         ?  	; Ptr to object's face-list
+      verts     dd         ?  	; Ptr to object's vertice list
+      next      dd         ?  	; Ptr to next Object in List
+      lights    dd         ?    ; Ptr to light-list
+      oemdata   dd         ?    ; your own data
+ends  object3d
+
+; ----------------
+; Camera Structure
+; ----------------
+struc camera3d
+      position  tvector   <?> 	; Position of Camera
+      target    tvector   <?> 	; Rotation of Target Point
+      roll      dd         ?  	; Roll-angle
+      persfak   dd         ?  	; Perspective Factor
+      matrix    dd 16 dup (?)
+      clipnear  dd         ?
+ends  camera3d
+
+; ------------------
+; color structure
+; ------------------
+struc tcolor
+      red	db	   ?
+      green	db	   ?
+      blue      db         ?
+      alpha     db         ?
+ends tcolor
+
+; ------------------
+; Material Structure
+; ------------------
+struc Material3d
+      MatType      dd      ?    ; Type of Material
+      Texture      dd 	   ?	; Texture Pointer
+      ColorTable   dd      ?    ; Pointer to optional color Table
+      red	   dd      ?    ; red IEEE float
+      green        dd      ?    ; grb IEEE float
+      blue         dd      ?    ; blu IEEE float
+ends  Material3d
+
+; -------------------
+; Light Structure
+; -------------------
+struc light3d
+       lighttype  dd       ?    ; Light-Type
+       position   tvector <?>   ; light position
+       ltable     dd       ?    ; Custom Data-Table
+       red	  dd       ?	; red   light (0..255, float)
+       green	  dd 	   ?    ; green light (0..255, float)
+       blue       dd       ?    ; blue  light (0..255, float)
+       next       dd       ?
+ends  light3d
+
+
+
+
+Global MakeRotationMatrix: near
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    EBX = Pointer to Rotation-Vector                        ³
+;³                  EDX = Pointer to Rotation-Matrix                        ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            This routine could be a little more efficient.          ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+
+Global MakeScaleMatrix   : near
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    EBX = Pointer to Scale-Vector                           ³
+;³                  EDX = Pointer to Scale-Matrix                           ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            ù/ù                                                     ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+
+Global MakeMoveMatrix	: near
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    EBX = Pointer to Translation-Vector                     ³
+;³                  EDX = Pointer to Translation-Matrix                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            ù/ù                                                     ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+Global MatrixMul	: near
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = Pointer to source Matrix A                        ³
+;³                  EDI = Pointer to source Matrix B                        ³
+;³                  EBX = Pointer to destination Matrix (C)                 ³
+;³                                                                          ³
+;³                  [EBX] = [ESI] * [EDI]                                   ³
+;³                                                                          ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       EBX != ESI | EDI                                        ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            ù/ù                                                     ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+
+Global InverseMatrix	: near
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    EBX = Pointer to source Matrix                          ³
+;³                  EDX = Pointer to destination Matrix                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       EBX != EBX                                              ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            This code is not a general purpose matrix inversion.    ³
+;³                  It's optimized for angle perserving matrices which      ³
+;³                  come from concatenation of rotation, translation and    ³
+;³                  scaling (!=0)                                           ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+Global TransposeMatrix   : near
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = Source Matrix                                     ³
+;³                  EDI = Target Matrix                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       EBX != EDX                                              ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            Transposes only upper 3x3 matrix                        ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+Global VTransform	: near
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = Source Vector                                     ³
+;³                  EBX = Target Vector                                     ³
+;³                  EDI = Transformation Matrix                             ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           jep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            This one is just a proc-variant of the transform macro  ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Global VNormal            : near
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    EAX = Source Vector                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            This one is just a proc-variant of the NormVector macro ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+
+Global MakeDirectionMatrix : near
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = Camera Structure                                  ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       target!=source                                          ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           likely                                                  ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            ù/ù                                                     ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Global VCrossProduct : near
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = 1st Source Vector                                 ³
+;³                  EDI = 2nd Source Vector                                 ³
+;³                  EBX = Dest Vector                                       ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:                                                                    ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Global VCrossProduct2 : near
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = 1st Source Vector                                 ³
+;³                  EDI = 2nd Source Vector                                 ³
+;³                  EBX = Dest Vector                                       ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:                                                                    ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+; --------------------------------------------------------------------------
+; Floatint Point Constants
+; --------------------------------------------------------------------------
+
+IEEE1		=   3f800000h
+IEEE0		=   00000000h
+
+; --------------------------------------------------------------------------
+; mostly optimized FPU Macros for Vector Math
+; --------------------------------------------------------------------------
+
+macro scalar3 reg_a,a1,a2,a3,reg_b,b1,b2,b3
+      fldz
+      fld    [dword ptr reg_a + (a1)*4]
+      fmul   [dword ptr reg_b + (b1)*4]
+      fld    [dword ptr reg_a + (a2)*4]
+      fmul   [dword ptr reg_b + (b2)*4]
+      fxch   st(1)
+      faddp  st(2), st
+      fld    [dword ptr reg_a + (a3)*4]
+      fmul   [dword ptr reg_b + (b3)*4]
+      fxch   st(1)
+      faddp  st(2), st
+      faddp  st(1), st
+endm  scalar3
+
+macro scalar4 reg_a,a1,a2,a3,a4,reg_b,b1,b2,b3,b4
+      fldz
+      fld    [dword ptr reg_a + (a1)*4]
+      fmul   [dword ptr reg_b + (b1)*4]
+      fld    [dword ptr reg_a + (a2)*4]
+      fmul   [dword ptr reg_b + (b2)*4]
+      fxch   st(1)
+      faddp  st(2), st
+      fld    [dword ptr reg_a + (a3)*4]
+      fmul   [dword ptr reg_b + (b3)*4]
+      fxch   st(1)
+      faddp  st(2), st
+      fld    [dword ptr reg_a + (a4)*4]
+      fmul   [dword ptr reg_b + (b4)*4]
+      fxch   st(1)
+      faddp  st(2), st
+      faddp  st(1), st
+endm  scalar4
+
+macro scalar reg_a,reg_b,
+      scalar3 reg_a, 0,1,2, reg_b, 0,1,2
+endm  scalar
+
+macro vectorlength reg_a
+      fld   [dword ptr (reg_a)+0]
+      fmul  st(0), st(0)
+      fld   [dword ptr (reg_a)+4]
+      fmul  st(0), st(0)
+      fld   [dword ptr (reg_a)+8]
+      fmul  st(0), st(0)
+      faddp st(2), st(0)
+      faddp st(1), st(0)
+      fsqrt
+endm  vectorlength
+
+macro NormVector reg_b, reg_a
+      fld    [dword ptr (reg_a)+0]
+      fld    st(0)
+      fmul   st(0), st(0)
+      fld    [dword ptr (reg_a)+4]
+      fld    st(0)
+      fmul   st(0), st(0)
+      fld    [dword ptr (reg_a)+8]
+      fld    st(0)
+      fmul   st(0), st(0)
+      faddp  st(2), st(0)
+      fxch   st(1)
+      faddp  st(3), st(0)
+      fxch   st(2)
+      fsqrt
+      fld1
+      fdivrp st(1), st
+      fmul   st(1), st(0)
+      fmul   st(2), st(0)
+      fmulp  st(3), st(0)
+      fstp   [dword ptr (reg_b)+4]
+      fstp   [dword ptr (reg_b)+8]
+      fstp   [dword ptr (reg_b)+0]
+endm  NormVector
+
+macro CrossProduct dest, first,second
+      fld    [dword ptr (first)+4]
+      fmul   [dword ptr (second)+8]
+      fld    [dword ptr (first)+8]
+      fmul   [dword ptr (second)+0]
+      fld    [dword ptr (first)+0]
+      fmul   [dword ptr (second)+4]
+      fld    [dword ptr (first)+8]
+      fmul   [dword ptr (second)+4]
+      fld    [dword ptr (first)+0]
+      fmul   [dword ptr (second)+8]
+      fld    [dword ptr (first)+4]
+      fmul   [dword ptr (second)+0]
+      fxch   st(2)
+      fsubrp st(5), st(0)
+      fsubrp st(3), st(0)
+      fsubrp st(1), st(0)
+      fxch   st(2)
+      fstp   [dword ptr (dest)+0]
+      fstp   [dword ptr (dest)+4]
+      fstp   [dword ptr (dest)+8]
+endm  CrossProduct
+
+macro transform dest,source,matrix
+      fld    [dword ptr (source)+0]
+      fmul   [dword ptr (matrix)+0]
+      fld    [dword ptr (source)+0]
+      fmul   [dword ptr (matrix)+16]
+      fld    [dword ptr (source)+0]
+      fmul   [dword ptr (matrix)+32]
+
+      fld    [dword ptr (source)+4]
+      fmul   [dword ptr (matrix)+4]
+      fld    [dword ptr (source)+4]
+      fmul   [dword ptr (matrix)+20]
+      fld    [dword ptr (source)+4]
+      fmul   [dword ptr (matrix)+36]
+
+      fxch   st(2)
+      faddp  st(5), st(0)
+      faddp  st(3), st(0)
+      faddp  st(1), st(0)
+
+      fld    [dword ptr (source)+8]
+      fmul   [dword ptr (matrix)+8]
+      fld    [dword ptr (source)+8]
+      fmul   [dword ptr (matrix)+24]
+      fld    [dword ptr (source)+8]
+      fmul   [dword ptr (matrix)+40]
+
+      fxch   st(2)
+      faddp  st(5), st(0)
+      faddp  st(3), st(0)
+      faddp  st(1), st(0)
+      fxch   st(2)
+
+      fadd  [dword ptr (matrix)+12]
+      fxch  st(1)
+      fadd  [dword ptr (matrix)+28]
+      fxch  st(2)
+      fadd  [dword ptr (matrix)+44]
+      fxch  st(1)
+      fstp  [dword ptr (dest)+0]
+      fstp  [dword ptr (dest)+8]
+      fstp  [dword ptr (dest)+4]
+endm  transform
+
+
+DATASEG
+
+
+; #############################################################################
+
+
+CODESEG
+
+
+; #############################################################################
+
+
+Proc  MakeRotationMatrix
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    EBX = Pointer to Rotation-Vector                        ³
+;³                  EDX = Pointer to Rotation-Matrix                        ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            This routine could be a little more efficient.          ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     local  sinx: dword, cosx: dword
+     local  siny: dword, cosy: dword
+     local  sinz: dword, cosz: dword
+
+     uses   eax,  ecx
+
+     xor    ecx,  ecx
+     xor    eax,  eax
+     mov    cl,   15
+     ; ------------------------------
+     ; Compute sine and cosine values
+     ; ------------------------------
+     fld    [ebx + tvector.z]  ; compute x rotation
+     fsincos
+     ; --------------------------------------------------------
+     ; Initialize matrix with zeros (fsincos takes enough time)
+     ; --------------------------------------------------------
+@@ClearNext:
+     mov    [edx+ecx*4], eax
+     dec    ecx
+     jns    @@ClearNext
+
+     fstp   [cosx]
+     fstp   [sinx]
+     fld    [ebx + tvector.y]  ; compute y rotation
+     fsincos
+     fstp   [cosy]
+     fstp   [siny]
+     fld    [ebx + tvector.x]  ; compute z rotation
+     fsincos
+     fstp   [cosz]
+     fstp   [sinz]
+     ; ----------------------------------------
+     ; m[0+4*0] = (cx*cy)-  (sx*sz)*sy;
+     ; ----------------------------------------
+     fld    [cosx]
+     fmul   [cosy]
+     fld    [sinx]
+     fmul   [sinz]
+     fmul   [siny]
+     fsubp  st(1)
+     fstp   [dword ptr edx + (0+4*0)*4]
+     ; ----------------------------------------
+     ; m[1+4*0] = ((-sx*cz));
+     ; ----------------------------------------
+     fld    [sinx]
+     fmul   [cosz]
+     fchs
+     fstp   [dword ptr edx + (1+4*0)*4]
+     ; ----------------------------------------
+     ; m[2+4*0] = (cx*sy)+((sx*sz)*cy);
+     ; m[2+4*0] = (cx*sy)+((-sx*-sz)*cy);
+     ; ----------------------------------------
+     fld    [cosy]
+     fmul   [sinz]
+     fmul   [sinx]
+     fld    [siny]
+     fmul   [cosx]
+     faddp  st(1)
+     fstp   [dword ptr edx + (2+4*0)*4]
+     ; ----------------------------------------
+     ; m[0+4*1] = (sx*cy)+((cx*sz)*sy);
+     ; ----------------------------------------
+     fld    [cosx]
+     fmul   [sinz]
+     fmul   [siny]
+     fld    [sinx]
+     fmul   [cosy]
+     faddp  st(1)
+     fstp   [dword ptr edx + (0+4*1)*4]
+     ; ----------------------------------------
+     ; m[1+4*1] = ((cx*cz));
+     ; ----------------------------------------
+     fld    [cosx]
+     fmul   [cosz]
+     fstp   [dword ptr edx + (1+4*1)*4]
+     ; ----------------------------------------
+     ; m[2+4*1] = (sx*sy)-((cx*sz)*cy);
+     ; ----------------------------------------
+     fld    [sinx]
+     fmul   [siny]
+     fld    [cosx]
+     fmul   [sinz]
+     fmul   [cosy]
+     fsubp  st(1)
+     fstp   [dword ptr edx + (2+4*1)*4]
+     ; ----------------------------------
+     ; m[0+4*2] = (cz*-sy);
+     ; ----------------------------------
+     fld    [cosz]
+     fmul   [siny]
+     fchs
+     fstp   [dword ptr edx + (0+4*2)*4]
+     ; ----------------------------------
+     ; m[1+4*2] = sz;
+     ; ----------------------------------
+     fld    [sinz]
+     fstp   [dword ptr edx + (1+4*2)*4]
+     ; ----------------------------------
+     ; m[2+4*2] = (cz*cy);
+     ; m[15]=1;
+     ; ----------------------------------
+     fld    [cosz]
+     fmul   [cosy]
+     mov    [dword ptr edx + (15)*4], IEEE1
+     fstp   [dword ptr edx + (2+4*2)*4]
+     ; ----------------------------------
+     ret
+endp MakeRotationMatrix
+
+
+; #############################################################################
+
+
+Proc MakeScaleMatrix
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    EBX = Pointer to Scale-Vector                           ³
+;³                  EDX = Pointer to Scale-Matrix                           ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            ù/ù                                                     ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     push   ecx
+     push   eax
+     xor    ecx, ecx
+     xor    eax, eax
+     mov    cl,  15
+@@ClearLoop:
+     mov    [edx + ecx*4], eax
+     dec    ecx
+     jns    @@ClearLoop
+     mov    eax, [ebx + tvector.x]
+     fld1
+     mov    ecx, [ebx + tvector.y]
+     fld    [ebx + tvector.z]
+     mov    [dword ptr edx + 0*4], eax
+     fstp   [dword ptr edx + 10*4]
+     mov    [dword ptr edx + 5*4], ecx
+     fstp   [dword ptr edx + 15*4]
+     pop    eax
+     pop    ecx
+     ret
+endp MakeScaleMatrix
+
+
+; #############################################################################
+
+
+Proc MakeMoveMatrix
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    EBX = Pointer to Translation-Vector                     ³
+;³                  EDX = Pointer to Translation-Matrix                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            ù/ù                                                     ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     uses   eax, ebx, ecx, edx, edi
+     xor    ecx, ecx
+     xor    eax, eax
+     mov    cl,  15
+@@ClearLoop:
+     mov    [edx + ecx*4], eax
+     dec    ecx
+     jns    @@ClearLoop
+
+     mov    eax, [ebx + tvector.x]
+     mov    ecx, [ebx + tvector.y]
+     mov    edi, [ebx + tvector.z]
+     mov    ebx, IEEE1
+     mov    [dword ptr edx +  3*4], eax     ; x
+     mov    [dword ptr edx +  0*4], ebx     ; 1
+     mov    [dword ptr edx +  7*4], ecx     ; y
+     mov    [dword ptr edx +  5*4], ebx     ; 1
+     mov    [dword ptr edx + 11*4], edi     ; z
+     mov    [dword ptr edx + 10*4], ebx     ; 1
+     mov    [dword ptr edx + 15*4], ebx     ; 1
+     ret
+endp MakeMoveMatrix
+
+
+; #############################################################################
+
+
+Proc MatrixMul
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = Pointer to source Matrix A                        ³
+;³                  EDI = Pointer to source Matrix B                        ³
+;³                  EBX = Pointer to destination Matrix (C)                 ³
+;³                                                                          ³
+;³                  [EBX] = [ESI] * [EDI]                                   ³
+;³                                                                          ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       EBX != ESI | EDI                                        ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            ù/ù                                                     ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     pushad
+     mov     ebp, 4
+     xor     eax, eax
+@@Loop1:
+     xor     ecx, ecx
+@@Loop2:
+     scalar4 (esi+ecx*4), 0,4,8,12, edi, 0,1,2,3
+     fstp    [dword ptr ebx]
+     inc     ecx
+     lea     ebx, [ebx+ebp]
+     cmp     ecx, ebp
+     jne     @@Loop2
+     inc     eax
+     lea     edi, [edi+ebp*4]
+     cmp     eax, ebp
+     jne     @@Loop1
+     popad
+     ret
+endp MatrixMul
+
+
+; #############################################################################
+
+
+Proc InverseMatrix
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    EBX = Pointer to source Matrix                          ³
+;³                  EDX = Pointer to destination Matrix                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       EBX != EBX                                              ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            This code is not a general purpose matrix inversion.    ³
+;³                  It's optimized for angle perserving matrices which      ³
+;³                  come from concatenation of rotation, translation and    ³
+;³                  scaling (!=0)                                           ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     ;------------------------------------------------------------
+     ; Calculate the inverse square of the isotropic scale factor
+     ;------------------------------------------------------------
+     ; scale = 1.0/(in[0*4+0] * in[0*4+0] +
+     ;              in[0*4+1] * in[0*4+1] +
+     ;              in[0*4+2] * in[0*4+2]);
+     ;------------------------------------------------------------
+     fld1
+     scalar  ebx, ebx
+     fdivp   st(1), st
+     ;-------------------------------------------------------------
+     ;  Transpose and scale the 3 by 3 upper-left submatrix
+     ;-------------------------------------------------------------
+     ;  out[0*4+0] = scale * in[0*4+0];
+     ;  out[1*4+0] = scale * in[0*4+1];
+     ;  out[2*4+0] = scale * in[0*4+2];
+     ;  out[0*4+1] = scale * in[1*4+0];
+     ;  out[1*4+1] = scale * in[1*4+1];
+     ;  out[2*4+1] = scale * in[1*4+2];
+     ;  out[0*4+2] = scale * in[2*4+0];
+     ;  out[1*4+2] = scale * in[2*4+1];
+     ;  out[2*4+2] = scale * in[2*4+2];
+     ;-------------------------------------------------------------
+     fld    [dword ptr ebx + (0*4+0)*4]
+     fmul   st, st(1)
+     fstp   [dword ptr edx + (0*4+0)*4]
+     fld    [dword ptr ebx + (0*4+1)*4]
+     fmul   st, st(1)
+     fstp   [dword ptr edx + (1*4+0)*4]
+     fld    [dword ptr ebx + (0*4+2)*4]
+     fmul   st, st(1)
+     fstp   [dword ptr edx + (2*4+0)*4]
+     fld    [dword ptr ebx + (1*4+0)*4]
+     fmul   st, st(1)
+     fstp   [dword ptr edx + (0*4+1)*4]
+     fld    [dword ptr ebx + (1*4+1)*4]
+     fmul   st, st(1)
+     fstp   [dword ptr edx + (1*4+1)*4]
+     fld    [dword ptr ebx + (1*4+2)*4]
+     fmul   st, st(1)
+     fstp   [dword ptr edx + (2*4+1)*4]
+     fld    [dword ptr ebx + (2*4+0)*4]
+     fmul   st, st(1)
+     fstp   [dword ptr edx + (0*4+2)*4]
+     fld    [dword ptr ebx + (2*4+1)*4]
+     fmul   st, st(1)
+     fstp   [dword ptr edx + (1*4+2)*4]
+     fld    [dword ptr ebx + (2*4+2)*4]
+     fmulp  st(1)
+     fstp   [dword ptr edx + (2*4+2)*4]
+     ;-------------------------------------------------------------
+     ;  Calculate -(transpose(A) / s*s) C
+     ;-------------------------------------------------------------
+     ;  out[0*4+3] = - ( out[0*4+0] * in[0*4+3] +
+     ;                   out[0*4+1] * in[1*4+3] +
+     ;                   out[0*4+2] * in[2*4+3] );
+     ;  out[1*4+3] = - ( out[1*4+0] * in[0*4+3] +
+     ;                   out[1*4+1] * in[1*4+3] +
+     ;                   out[1*4+2] * in[2*4+3] );
+     ;  out[2*4+3] = - ( out[2*4+0] * in[0*4+3] +
+     ;                   out[2*4+1] * in[1*4+3] +
+     ;                   out[2*4+2] * in[2*4+3] );
+     ;-------------------------------------------------------------
+     scalar3 edx, 0*4+0, 0*4+1, 0*4+2, ebx, 0*4+3, 1*4+3, 2*4+3
+     fchs
+     fstp    [dword ptr edx + (0*4+3)*4]
+     scalar3 edx, 1*4+0, 1*4+1, 1*4+2, ebx, 0*4+3, 1*4+3, 2*4+3
+     fchs
+     fstp    [dword ptr edx + (1*4+3)*4]
+     scalar3 edx, 2*4+0, 2*4+1, 2*4+2, ebx, 0*4+3, 1*4+3, 2*4+3
+     fchs
+     fstp    [dword ptr edx + (2*4+3)*4]
+     ;-------------------------------------------------------------
+     ;  Fill in last row
+     ;-------------------------------------------------------------
+     fld1
+     fldz
+     fst    [dword ptr edx + (3*4+0)*4]
+     fst    [dword ptr edx + (3*4+1)*4]
+     fstp   [dword ptr edx + (3*4+2)*4]
+     fstp   [dword ptr edx + (3*4+3)*4]
+     ret
+endp InverseMatrix
+
+
+; #############################################################################
+
+proc TransposeMatrix
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = Source Matrix                                     ³
+;³                  EDI = Target Matrix                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       EBX != EDX                                              ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            Transposes only upper 3x3 matrix                        ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     push eax ebx ecx
+     push esi edi
+
+     mov  ecx, 16
+     rep  movsd
+
+     pop  edi esi
+
+     mov  eax, [esi + 1*4]
+     mov  ebx, [esi + 4*4]
+     mov  [edi + 4*4], eax
+     mov  [edi + 1*4], ebx
+     mov  eax, [esi + 2*4]
+     mov  ebx, [esi + 8*4]
+     mov  [edi + 8*4], eax
+     mov  [edi + 2*4], ebx
+     mov  eax, [esi + 6*4]
+     mov  ebx, [esi + 9*4]
+     mov  [edi + 9*4], eax
+     mov  [edi + 6*4], ebx
+
+     pop ecx ebx eax
+     ret
+endp TransposeMatrix
+
+
+
+
+; #############################################################################
+
+proc VTransform
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = Source Vector                                     ³
+;³                  EBX = Target Vector                                     ³
+;³                  EDI = Transformation Matrix                             ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            This one is just a proc-variant of the transform macro  ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     transform ebx, esi, edi
+     ret
+endp VTransform
+
+
+; #############################################################################
+
+
+proc VNormal
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    EAX = Source Vector                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            This one is just a proc-variant of the NormVector macro ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     NormVector eax, eax
+     ret
+endp VNormal
+
+
+
+; #############################################################################
+
+
+
+
+proc MakeDirectionMatrix
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = Camera Structure                                  ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       target!=source                                          ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           likely                                                  ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:            ù/ù                                                     ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     local N  : tvector
+     local up : tvector
+     local U  : tvector
+     local V  : tvector
+     uses  eax, ebx, ecx, edi
+
+;     fld   [esi + camera3d.roll]
+;     fsincos
+
+     lea   edi, [esi + camera3d.matrix]
+     mov   ecx, 16
+     xor   eax, eax
+     rep   stosd
+     lea   edi, [esi + camera3d.matrix]
+     mov   eax, IEEE1
+     mov   [edi +15*4], eax
+
+;     fchs
+;     fstp  [up.y]
+;     fstp  [up.x]
+;     fldz
+;     fstp  [up.z]
+
+     fldz
+     fst  [up.x]
+     fstp [up.z]
+     fld1
+     fstp [up.y]
+
+     fld   [esi + camera3d.target.x]
+     fsub  [esi + camera3d.position.x]
+     fstp  [N.x]
+     fld   [esi + camera3d.target.y]
+     fsub  [esi + camera3d.position.y]
+     fstp  [N.y]
+     fld   [esi + camera3d.target.z]
+     fsub  [esi + camera3d.position.z]
+     fstp  [N.z]
+
+     NormVector    N, N
+     CrossProduct  U, N, Up
+     NormVector    U, U
+     CrossProduct  V, U, N
+     NormVector    V, V
+
+     mov  eax, [u.x]
+     mov  ebx, [u.y]
+     mov  ecx, [u.z]
+     mov  [edi+4*0], eax
+     mov  [edi+4*1], ebx
+     mov  [edi+4*2], ecx
+     mov  eax, [v.x]
+     mov  ebx, [v.y]
+     mov  ecx, [v.z]
+     mov  [edi+4*0+16], eax
+     mov  [edi+4*1+16], ebx
+     mov  [edi+4*2+16], ecx
+     mov  eax, [n.x]
+     mov  ebx, [n.y]
+     mov  ecx, [n.z]
+     mov  [edi+4*0+32], eax
+     mov  [edi+4*1+32], ebx
+     mov  [edi+4*2+32], ecx
+     ret
+endp MakeDirectionMatrix
+
+proc VCrossProduct
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = 1st Source Vector                                 ³
+;³                  EDI = 2nd Source Vector                                 ³
+;³                  EBX = Dest Vector                                       ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:                                                                    ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     crossproduct ebx, esi, edi
+     ret
+endp VCrossProduct
+
+proc VCrossProduct2
+;ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+;³Params passed:    ESI = 1st Source Vector                                 ³
+;³                  EDI = 2nd Source Vector                                 ³
+;³                  EBX = Dest Vector                                       ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Constrains:       ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Register usage:   ù/ù                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Tested:           yep                                                     ³
+;ÃÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ´
+;³Notes:                                                                    ³
+;ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+     crossproduct ebx, edi, esi
+     ret
+endp VCrossProduct2
+
+
+end
+

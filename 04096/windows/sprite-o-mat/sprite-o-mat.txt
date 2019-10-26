@@ -1,0 +1,23 @@
+sprite-o-mat
+
+a small 4kb intro for bp07
+
+requires: ps2.0
+
+code/music: gopher
+packer: crinkler 1.0a
+
+greets:	
+	Creative Minds, Fairlight, Farbrausch, Synesthetics, 
+	Bauknecht, Conspiracy, Bypass, Smash Designs, Kewlers, 
+	MFX, Metalvotze, Nuance, Speckdrumm, Surprise Productions, 
+	TBL, 0ok and all i forgot
+	
+special thanks: 
+	slider: for checking the intro on ati hardware
+	0ffh: for lending me his usb stick
+	tubo: for lending me his notebook with ati to fix some bugs with ati :)
+	
+eof	
+	
+                    

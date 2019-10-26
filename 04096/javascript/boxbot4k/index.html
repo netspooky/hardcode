@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Sokoban game in 4k">
+    <meta name="copyright" content="Copyright (c) 2014 Gabor Bata">
+    <title>BoxBot4k</title>
+    <style type="text/css">
+      body {
+        background-color: #000;
+        color: #444;
+        margin: 0;
+      }
+
+      #wrapper {
+        display: table;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+      }
+
+      #container {
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      #boxbot4k {
+        border: 4px solid #727392;
+        display: block;
+        height: 384px;
+        margin: 0 auto;
+        width: 448px;
+      }
+
+      #footer {
+         bottom: 0;
+         font-family: sans-serif;
+         font-size: 12px;
+         height: 30px;
+         left: 0;
+         position: fixed;
+         text-align: center;
+         width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="footer">
+      BoxBot4k | Sokoban game in 4k | &copy; 2014 Gabor Bata
+    </div>
+    <div id="wrapper">
+      <div id="container">
+        <canvas id="boxbot4k" width="448" height="384">
+          To play the game, your browser must support HTML5 Canvas.
+        </canvas>
+      </div>
+    </div>
+    <script src="boxbot4k.js"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+		.::  O Efeito Japonês  ::.
+
+	programmed by xernobyl, alien)(dream
+
+Presented at Inércia 2005!
+
+	A 4kb intro by alien)(dream. This is my first intro, and also alien)(dream's first production, or demo or whatsoever, also my first experience in IA-32 assembly programming. It features an inedit never seen before effect! The japanese effect! Bla bla bla... greetings to all.
+
+Greetings to all in the party.
+
+P.S.: This is also my first READ-ME.TXT.

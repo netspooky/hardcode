@@ -1,0 +1,62 @@
+
+           [-[-[-[     a D D I C T E d   t o   c O D e     ]-]-]-]
+		   4 kb intro by khamoon/nah-kolor ^ tube27
+			released at The Party'99 (????)
+
+  [[[[ MaiN ]]]]
+
+	Yeah, i know it looks exactly the same as my previos 4kb,
+	but just take it as my style, get used or get the f... out :)
+	And believe me, its far far more advanced then former ones.
+	It took me nearly two weeks to code (am i getting to old for
+	that ? ;), so maybe ones with some 4kb coding experience
+	will see the difference.
+	  It's 100% my work. My flat-mode extender, my xms routines,
+	my timer, my textures, my fonts and my compressor.
+	  Pharhaps its the last time i code anything in real-flat-mode,
+	whether we like it or not its protected(?) windoze time :-(((
+	So the intro is just for fun and to say goodbye to good old
+	times.
+
+  [[[[ tECHNICAl ]]]]
+
+	-himem.sys required.	
+	-intro uses real flat mode, so turn of windoze, emm386, etc.
+	-runs in 320x200x15bpp video mode, try univbe if doesnt work
+	 or (when desperate ;) try fake mode version (atc_fk.com).
+	 i have heard that on some gfx cards (i.e. riva tnt II) there
+	 are no 15bpp modes at all, so i made 16bpp version, just
+	 try (atc_16b.com).
+	-i am not sure, but probably about 3 megs of xms memory needed.
+
+  [[[[ GreetingS ]]]]
+
+	first see the intro. if you are not mentioned there, than
+	forgive me, i am sory, i just cant put 20kb of greeting
+	text into 4kb :-) 
+	of coz i greet all (pc and not) scene, all 4kb coders and
+	fans especially, all my friends and all ones who want to be
+	my friend.
+	to personal greetz (sorry, i didnt manage to fit
+	you in intro ;-( ) i add:
+		pet,alex,replay of bitbusters
+		all nah-kolor staff
+		all byteway staff
+		all hellcore staff		
+	special greetz to guru & tihocan for help & suggestions.
+
+  [[[[ cONTACt ]]]]
+	
+	if you really have nothing to do, anybody else to write to,
+	then you can mail me here:
+	
+		darek pryczek
+	email:  khamoon@polbox.com
+		dpryczek@elka.pw.edu.pl
+	mail:	motorowa 2/120
+		04-035 Warsaw
+		POLAND
+	phone:	(+48) (022) 673-65-29
+
+   [[[[ EOF ]]]]
+

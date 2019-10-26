@@ -1,0 +1,42 @@
+
+H a u m e a
+
+a 4k intro for Function 2008 in Budapest, Hungary
+
+by Loonies, TBC and Excess
+
+
+Credits
+
+Blueberry: Idea, effect code, tool
+Kusma:     Modelling, design
+Mentor:    Marching tetrahedra, synth
+Puryx:     Music
+
+
+Requirements
+
+- A Windows PC with a fast Shader Model 3.0 capable graphics card
+- DirectX 9 end-user runtime from August 2008 or newer (d3dx9_39.dll)
+
+There seems to be some problems with Radeon X1000 series cards. We
+will have a look at this when we get the chance.
+
+
+Some words about the code
+
+The objects are constructed by applying a marching tetrahedra
+algorithm to volumetric data produced by a texture shader.
+
+The shadows are formed using omnidirectional (cube texture) shadow
+maps. The volumetric light is rendred by tracing rays from the camera
+to the surface through these shadow maps, accumulating light
+intensities along the way.
+
+The noisy look of the rendering comes partly from position dithering
+in the tracing of the volumetric light, partly from jittering of the
+shadow map sampling on the object surfaces to reduce shadow mapping
+artifacts (more or less successfully).
+
+All animation and timeflow of the intro is constructed using a variant
+of the same intro tool we used for Candystall and Atrium.

@@ -1,0 +1,14 @@
+Petium
+------
+4k intro for Assembly 2k
+
+Requirements:
+Pentium
+8Mt RAM
+DOS
+
+May work in slower machines.
+
+Code: Dairos
+Greets: Teppo/Nano, Megamies/Nano, Azimi
+

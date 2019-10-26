@@ -1,0 +1,37 @@
+
+			COPYRIGHT LICENSE for NET
+			       (net.exe)
+   - Jisi & Le Fongus Jaune's Assembly 1995 64-Kb PC-intro compo contribution -
+
+
+  This material is not freeware. You are allowed to copy it without 
+  restrictions for non-commercial use. BBS sysops can spread freely
+  this intro.
+
+  No payment of any kind may be charged for this product or any combination
+  of products or services including this product without my authorization
+  and official written license.
+  
+  Commercial use, especially the industrial manufacturing on any data
+  storage media and their distribution without my expressed permission, 
+  is strictly prohibited.
+  
+  This program or the data files contained therein may not be altered or
+  modified without the permission of the author.
+
+  You take full responsibility for the operation of this software and any
+  consequences thereof. I cannot accept liability for damages
+  or failures arising from the use of this software.
+			
+  If you plan to put this on a disk that comes with a magazine (Such as
+  PC TEAM in France), I kindly ask you to send me the issue of this
+  mag in which my intro is. Send it to Stephane GROSJEAN, 68 Rue Escudier
+  92100 BOULOGNE (FRANCE) 
+
+  For other commercial uses of this intro, contact me at the internet address
+  grosje_s@epita.fr
+
+  An exception is made for Sound solutions who is allowed to put this
+  intro on their official Assembly 1995 CD-ROM but they will have to pay
+  the royalties as stated in the official Assembly 1995 rules.
+

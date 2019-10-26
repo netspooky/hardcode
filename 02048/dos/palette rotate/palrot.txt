@@ -1,0 +1,24 @@
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴�
+;
+;     TITLE: Palette rotate
+;WRITTEN BY: DRAEDEN /VLA
+;      DATE: 03/07/93
+;
+;     NOTES: None.
+;
+;ASSOCIATED FILES: 
+;
+;       PALROT.ASM  =>  Source file
+;
+컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+Well, here's a file that shows how a palette rotate could be done.  The 
+advantage of this way is that it's just as easy to rotate both directions,
+and it doesn't require any additional memory, like backup copies of the 
+palette or the such...
+
+  As for the snow... I don't get any when I'm running at 40mhz, but there is
+snow when I'm at 15mhz.  A good solution is to not have anything on the upper 
+part of the screen that has its colors cycling.
+
+Hitting the space bar will toggle the direction of the rotate.

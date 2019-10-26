@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <title>DemoJS submission template</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <canvas id="c"></canvas>
+    <script>
+var a = document.body;
+var b = document.getElementsByTagName('canvas')[0];
+
+function getContext(s) {
+  try {
+    return b.getContext(s); 
+  } catch(e) {
+    return null;
+  }
+}
+
+function c() {
+  return getContext('2d');
+}
+
+function d() {
+  return getContext('webgl') || getContext('experimental-webgl') || getContext('webkit-3d') || getContext('moz-webgl');
+}
+
+document.body.clientWidth; // fix bug in webkit: http://qfox.nl/weblog/218
+    </script>
+
+    <script>
+    // insert your entry here
+b.innerHTML='<style>*{width:100%;height:100%;margin:0;overflow:hidden}</style>';g=d();p=g.createProgram(W=35633);for(t=0;y=['attribute vec2 p;void main(){gl_Position=vec4(p,1,1);}','precision lowp float;uniform float t;void main(){vec3 i=vec3(0,0,-2),v=normalize(vec3(gl_FragCoord.xy/vec2(150,75)-1.,1));vec4 s=.8*vec4(sin(t),cos(t),sin(t*.9),0),w=v.y*.3+vec4(.4,.6,.7,9),f,d;for(int r=0;r<99;r++){d=vec4(i,(s.y+s.x)*.3);float y=1.,z,k=dot(d,d);for(int m=0;m<7;m++){y*=4.*k;f.x=d.x*d.x-dot(d.yzw,d.yzw);f.yzw=2.*d.x*d.yzw;d=f+s;k=dot(d,d);if(k>4.)break;}y=sqrt(k/y)*log(k)/4.;if(y<.001){w*=log(k);break;}z+=y;if(z>6.)break;i+=y*v;}gl_FragColor=w;}'][t++];)g.shaderSource(s=g.createShader(W--),y),g.compileShader(s),g.attachShader(p,s);g.linkProgram(p);g.useProgram(p);g.enableVertexAttribArray(0);u=g.getUniformLocation(p,'t');g.bindBuffer(a=34962,g.createBuffer());g.bufferData(a,new Float32Array([-1,1,-1,-1,1,1,1,-1]),a+82);g.vertexAttribPointer(0,2,5126,0,0,0);setInterval('g.drawArrays(5,g.uniform1f(u,t+=.01),4)',50)    
+    
+    // RULES (thx to @kuvos for inspiration)
+    //  1. Submissions may be up to 1k (1024 bytes). Fill those damn bytes.
+    //  2. Submissions must consist of only js.
+    //  3. Any and all externals are strictly forbidden.
+    //  4. Must work on the last version of Mozilla Firefox and Google Chrome (more support appreciated of course :)
+    //  5. It should look roughly similar under both browsers.
+    //  6. As you might have seen, you get canvas object and context creation for FREE!
+    //  7. Your demo must work in this shim, tell us if there are problems with context creation.
+    //  8. GO MAD, audio, eval and WebGL allowed!
+    </script>
+  </body>
+</html>

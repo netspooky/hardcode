@@ -1,0 +1,23 @@
+Derivations
+***********
+
+by zipola (Tuomo Sipola)
+
+* Linux
+* C code compiled with gcc
+* uses SDL and SDL_opengl
+* 4k
+
+Made for Instanssi I/2010
+
+COMPILE:
+
+Depends on SDL and OpenGL. Needs sstrip from ELFKickers and 
+7zip for compressing. 
+
+$ make
+
+RUN:
+
+$ ./derivations
+

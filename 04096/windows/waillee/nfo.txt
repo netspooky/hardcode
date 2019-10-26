@@ -1,0 +1,73 @@
+Waillee by Prismbeings
+
+Filesize: ca. 4096 bytes
+Release party: Deadline 2017
+
+Short film in 4 kilobytes
+
+This is a final version with
+bug and compatibility fixes
+as well as visual quality
+improvements. No content has
+been touched.
+
+The following tools were used:
+4klang 3.1.1 by Alcatraz
+Crinkler 2.0 by Loonies and TBC
+Shader Minifier by LLB
+
+Note: if your CPU isn't
+relatively powerful, the sound
+might cut out at some point
+because the music requires a
+lot from it.
+
+Code, visuals and music by:
+Adam's Angel of Prismbeings
+
+Instrument inspiration from
+Virgill of Alcatraz.
+
+Super special greetings to
+Fizzer
+
+Inspired by:
+  Godfrey Reggio
+  Ron Fricke
+  Philip Glass
+  Hiroshi Sugimoto
+  Ralph Steiner
+  Ansel Adams
+  Lars Von Trier
+  Dorothy Carter
+
+SALUTATIONS to
+
+ 0x4015
+ adapt
+ alcatraz
+ aspekt
+ calodox
+ collapse
+ conspiracy
+ dead roman
+ drift
+ ekspert
+ eos
+ faemiyah
+ fit
+ hackers
+ ivory
+ logicoma
+ mercury
+ oo
+ paraguay
+ peisik
+ quadtrip
+ still
+ supadupa
+ tda
+ traction
+ trilobit
+ trbl
+ vaahtera

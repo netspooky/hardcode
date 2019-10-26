@@ -1,0 +1,33 @@
+
+Leviathan Sun
+by minimalartifact
+
+A 4k intro for Payback demoparty
+February 2013
+
+coded by ps of TPOLM
+http://tpolm.org/~ps
+
+Recycle Bin Laden is a web art project that repurposes digital bits into online art pieces, the concept is to upload a file or dump a string into a webpage and have it's md5 checksum be used as seed value for generative web art.
+http://tpolm.org/~ps/recyclebinladen/
+
+Leviathan Sun is part of Recycle Bin Laden. It takes an md5 seed value and generates an audiovisual art piece out of it. The page that generates the audiovisual art piece is limited in filesize to 4k. It is a PNG self-extractable html page with javascript code that composes generative sound, creates the HTML5 Audio element to play it and the HTML5 canvas element to render generative visuals calculated realtime.
+
+The intro is generative, that means it will sound and look slightly different every time you run it. If no seed argument is being provided, a random one is calculated.
+You can define the seed value by passing the seed argument on the url (i.e. ?seed=value)
+
+Leviathan Sun was developed for latest stable versions of Google Chrome, Mozilla Firefox and Opera. It will not work on Internet Explorer. Might work on Safari. Might give problems on Firefox if you have below 2GB of RAM, their garbage collector appears to suck ass, doesn't like processing my high quality audio buffer very much. While loading the browser might give a warning that the script might have become unresponsive, this warning is normal since it takes a while to precalculate the audio, initialize the soundbuffer and setup the graphic elements. You should click these warnings away to proceed and wait a few more seconds. Or give up and use a more modern browser on a machine with more RAM.
+
+Additional credits:
+- Viznut, Bemmu et al for the originl bytesize music player
+- p01 for the 1k speechsynth
+- the guys behind UglifyJS for the minification
+- Gasman et al for the PNGinator Ruby script
+
+It could probably go down to 1k removing the speechsynth and doing manual optimization.
+
+Sourcecode available at github:
+http://github.com/psenough/leviathan_sun
+
+Latest version:
+http://tpolm.org/~ps/recyclebinladen/leviathan_sun

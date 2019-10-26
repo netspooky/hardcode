@@ -1,0 +1,182 @@
+                       TinyPTC/x11 0.4 Readme file
+
+This is the only documentation you can find in this package because the
+library is pretty straightforward to use. So, here it goes:
+
+* What is TinyPTC
+
+TinyPTC is a reduced subset of OpenPTC, made exclusively with size
+optimizations in mind. TinyPTC is a somehow "low-level" graphics library
+that runs on top of XLib, providing only a few functionalities you may
+need when working with framebuffer devices.
+
+* What TinyPTC has to offer
+
+TinyPTC will simplify your programs that are using XLib. It does all the
+grunt work for you, so your life will be easier :)
+
+Actually TinyPTC features:
+
+- Automatic display management
+  * XLib and Mit-Shm window management
+  * DGA support, including videomode switch and fullscreen emulation
+
+- Automatic color conversion
+  * Detects and converts the internal 32bpp ARGB buffer to 15, 16 and
+    24 bpp modes, both RGB and BGR.
+
+- Automatic event management
+  * It automatically quits when the ESC key is pressed or the window
+    is closed by the user.
+
+* How tiny is TinyPTC
+
+TinyPTC is rather small by itself, actually I can give you some
+information about the test program supplied with the library.
+
+(I'm talking about UNPACKED executables, once they've been stripped)
+
+XLib                                          5728 bytes
+XLib+Color conversion                         6528 bytes (*)
+Mit-Shm                                       6656 bytes
+Mit-Shm+Color conversion                      7360 bytes (*)
+DGA                                          20272 bytes (**)
+DGA+Color conversion                         20912 bytes (*) (**)
+DGA+Best videomode                           20528 bytes (**)
+DGA+Best videomode+Color conversion          21136 bytes (*) (**)
+
+The executables were stripped with:
+
+strip --strip-all ./executable
+strip --remove-section=".comment" ./executable
+strip --remove-section=".note" ./executable
+
+(*) The color conversion modules were included all at once, you will
+    get a smaller executable if you include only the ones you need.
+
+(**) The DGA executables are so big because the library that manages
+     DGA+Videomode switch extension is linked statically. If you look
+     at the object file you get from x11.c you'll notice the absence
+     of all those control strings like "Video memory protecting" and
+     such. I tried to link the library dynamically but the
+     executables were bigger due to the library loading code being
+     added.
+
+If you pack them with UPX 1.0 you'll get a 10%-50% size reduction,
+at least on my box... (I'm talking about the supplied example, of
+course).
+
+Please note that your mileage may vary, so don't blame me.
+
+* TinyPTC's usage
+
+TinyPTC exports just three functions you can use:
+
+  *   int ptc_open(char *title, int width, int height);
+  *   int ptc_update(void *buffer);
+  *   void ptc_close();
+
+ - ptc_open()
+
+   ptc_open() opens the window (or goes fullscreen) that your
+   application needs for blitting data on the screen. It accepts a
+   title for the window that will be created (that title will be
+   discarded for fullscreen mode) and the window size. For fullscreen
+   mode, TinyPTC will try to find a suitable videomode first, and
+   it will emulate a fullscreen mode if it didn't find any (you'll
+   see your application's output in the middle of the screen). If
+   you enabled best-videomode-choice at compile time, the library will
+   set the best videmode that fits the supplied window size. It will
+   return 0 if it fails, otherwise it will return 1.
+
+ - ptc_update()
+
+   ptc_update() does a mere blitting of your buffer onto the screen.
+   If automatic color conversion was enabled it will do the conversion
+   for you. It will return 1 if the buffer was blitted and nothing else
+   happened.
+
+ - ptc_close()
+
+   ptc_close() closes the window the library created. If it is in
+   fullscreen mode, it will switch back to normal videomode. ptc_close()
+   is called automatically when the user presses ESC or closes manually
+   the window.
+
+* How to compile TinyPTC
+
+TinyPTC's behaviour can be set with a few #define lines in the include
+files. Here's a list:
+
+ - Color conversion modules
+
+    __PTC_CONVERTER_32_TO_32_RGB888
+    __PTC_CONVERTER_32_TO_32_BGR888
+    __PTC_CONVERTER_32_TO_24_RGB888
+    __PTC_CONVERTER_32_TO_24_BGR888
+    __PTC_CONVERTER_32_TO_16_RGB565
+    __PTC_CONVERTER_32_TO_16_BGR565
+    __PTC_CONVERTER_32_TO_16_RGB555
+    __PTC_CONVERTER_32_TO_16_BGR555
+
+   Those #define lines, if added, enable the described color conversion
+   module.
+
+ - Output driver
+
+    __PTC_XSHM__
+
+   It enables Mit-Shm support if it is added. Please note that if you
+   add this line, __PTC_WINDOWED__ will be automatically defined.
+
+   __PTC_WINDOWED__
+
+   Sets a windowed mode as output driver. If you don't add both this
+   line and __PTC_XSHM__, TinyPTC will switch to fullscreen mode.
+
+ - Extra behaviour definitions
+
+   __PTC_ENABLE_CONVERSIONS__
+
+   If it's enabled, it activates the automatic color conversion. If you
+   will run an executable that doesn't have the conversions in on a
+   non-32bpp display, it will silently quit.
+
+   __PTC_BEST_VIDEOMODE__
+
+   Enables the best-fit videomode switching for the requested window
+   size. This works only for fullscreen executables.
+
+ - Endianness considerations
+
+   __PTC_LITTLE_ENDIAN__
+
+   Select the right converter for 24bpp conversion code. Pretty useless
+   if you don't plan to support such a videomode. It has not been tested
+   at all, so you're warned.
+
+* DGA considerations
+
+Although TinyPTC is fairly portable, the DGA mode is a XFree86-only
+extension to the X Windowing system. So if you try to compile the
+fullscreen support on a non-i386 machine it will complain. Anyway,
+Mit-Shm is portable as far as I know, so is common XLib mode. Please
+note that you will need to be root in order to run fullscreen-enabled
+applications, or the executable needs to be suid root. It's a DGA
+limitation, not my fault :). Please also note that I didn't compile
+TinyPTC on anything different than my two linux/i386 boxes, so please
+send me any incompatibility/compiling error reports.
+
+* How to contact the authors
+
+Glenn Fiedler (Gaffer) can be reached at ptc@gaffer.org
+Alessandro Gatti (Rigel) can be reached at a.gatti@tiscalinet.it
+
+Please send all bug-reports, ideas, fixes, additions, and so on. Don't
+be shy =).
+
+* Where the latest version can be found
+
+The latest version can be found at http://www.gaffer.org/tinyptc. Here
+you can also find all the previous versions (all my flawed versions,
+though =)) and the other ports for other platforms.

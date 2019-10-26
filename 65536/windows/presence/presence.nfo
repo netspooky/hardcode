@@ -1,0 +1,82 @@
+This is Presence. .sPOOn.'s first 64K PC intro. we think you'll like it .. really :)
+
+
+credits :
+code      : shayera/.sPOOn., Mr. Moriarty / .sPOOn.
+music     : Dreyer/.sPOOn.
+pixel gfx : PixArt / .sPOOn.
+
+
+routine details :
+
+TexturePlasmaDistort by shayera
+quite simple...
+take two plasmas, let each generate values between 0 and 255
+use these values for x and y offset into a texture...
+
+ImageWarp by shayera and Henrik B. Larsen
+Was supposed to be a FD tunnel originally...
+Something went wrong.. but it looked so cool that
+we decided to keep it around...
+Runs 2*2 since it has to run each frame also on my small pc..
+
+Swirler by shayera
+well what can I say about this that hasn't been said
+about this type of fx by someone already ??
+
+Texslime by shayera
+remake of the old SliQ effect by F. Becker
+recoded to 32bpp and all that by yours truly...
+that gave quite the speed boost
+
+some font stuff by Mr. Moriarty
+
+truecolor crossfader.. *sigh* wastes a LOT of cycles even after
+some kinky optimizations...
+
+some things probably forgotten...
+
+external stuff used :
+tinyPTC by Gaffer (www.gaffer.org) real real cool
+ATGLib by snq and ile of Aardbei trez cool
+miniFMod rocks
+
+
+This program was developed with :
+Microsnuff Visual C++ 6
+Windows Commander 4.03
+UltraEdit32 7.00a
+
+Developed on :
+machine 1 :
+ Intel Celeron 400@450
+ 128Mb SDRam
+ 3dFX Voodoo Banshee
+ SB Awe 64 value
+ Windows 98 (4.10.1998)
+ 
+machine 2 :
+ Intel Pentium III 866
+ 128 Mb SDRam
+ nVidia Geforce DDR
+ SB Live player 1024
+ Windows 98 ver. 2 (4.10.2222 A) 
+ Windows 2K prof
+ 
+Contact Information :
+if you want to get in touch with shayera for any reason :
+ John Hinge - shayera / .sPOOn.
+ Silkeborgvej 220 B
+ DK-8230 Aabyhoej
+ Denmark
+ shayera@cutey.com
+ tel : +45 4083 9699
+
+or Dreyer :
+ dr_dreyer@hotmail.com
+
+or try .sPOOn. on the web :
+ http://spoon.n3.net
+
+
+.sPOOn. : we suck.... harder..... 

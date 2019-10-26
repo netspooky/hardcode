@@ -1,0 +1,17 @@
+Y&D Productions at Grep Green 2008.
+
+Brutlash (64k PC intro)
+
+Coding: Yomat
+Music: D Vibe
+
+Needs DirectX 9.0c "March 2008" or later (d3dx9_37.dll).
+No shaders.
+
+Additional Credits:
+Pezac/Nature - Add. code and suggestions.
+minifmod - Firelight Technologies. Yep, no soundengine.
+kkrunchy - Ryg is the man.
+
+Fix:
+Integration code had a typo. Amazingly annoying.

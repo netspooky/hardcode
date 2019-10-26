@@ -1,0 +1,236 @@
+²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²
+
+     ÜÛÛ²±°
+   ÜÛÛß
+  Ü°ß  ±     °   ÜÛÜ  °±²ÛÛ Ü±°±Ü  Û ÛÛ          .T.H.E.
+  ±°   °     ±  ÜÛßÛÜ   ±   ±ß ßÛ  ²Ûß
+  ²    ±²   Ü²  Ûß ß²   °   °±²Ûß  ±           .F.I.R.S.T.
+  ±    ß²ÜÛÜÛß  ²±°±²   ±   ±      °
+  ßÛÜ   ßÛ Ûß   ²   ±   ²   ßÛÛÛÜ  ±         .E.L.E.M.E.N.T.
+   ßÛÛÜ
+     ßÛÛÜ           ÜÛ
+       ßÛÛÜ     ÜÛÛÛß
+          ß²±°±²ß
+
+²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²±°²
+
+
+                    a 64Kb intro by Spirit New Style
+
+     (some characters in this textfile may display differently under a
+      non-MSDOS environment like Windows. Win'95 might crash on this text)
+
+
+                         þÞ Introduction Ýþ
+
+     "Water" is a 64Kb intro. This means the size of the intro
+     must be 65536 bytes or less. There are two versions of this
+     intro. One is the 'compo' version, the other is the 'release'
+     version. Both versions should be with this text. The difference is
+     the compo version uses our own music player which only supports
+     GUS/Nosound, the release version uses a music player which supports
+     many soundcards, including SB. The compo version is less than 64Kb to
+     meet the rules, the release version is almost 200Kb. Love SB :-)
+
+     This intro was released at Assembly '96, the annual computer art
+     competition/party held in Helsinki, Finland.
+
+
+                         þÞ Requirements Ýþ
+
+         Minimum: 386 CPU, VGA, about 320Kb of free memory, MS-DOS, Monitor
+     Recommended: Pentium CPU, PCI VGA, MS-DOS, Monitor, GUS
+ Not Recommended: Windows 3.11
+                  Windows '95 (intro did work in a window!), OS 2 Warp
+                  A system that doesn't support Self Modifying Code.
+
+
+                          þÞ Disclaimer Ýþ
+
+     Running "Water" is at your own risk. We can not be held
+     responsable in any way for damages, loss of data or failures
+     caused by this intro.
+
+
+                          þÞ Copyrights Ýþ
+
+       The 64Kb intro "Water" is not freeware.
+       You may copy it under the following conditions:
+        þ No payment of any kind may be charged for this product or
+          any combination of products or services including this
+          product without our authorization and official written license.
+        þ Commercial use, including industrial manufacturing on any data
+          storage media and their distribution without our written
+          permission is strictly prohibited.
+        þ The program or this text file may not be altered or modified
+          without our written permission.
+        þ The intro and this text must always be in the same directory
+          or packed file. Spreading the intro or this text seperatly is
+          strictly prohibited without our written permission.
+        þ These rules go for any shape of this intro, including packed
+          files, video tape, screen grabs, ftp or any other medium.
+        þ Payment may or may not be asked for giving permission.
+
+       You may public show this intro under the following conditions:
+        þ No payment of any kind may be charged for the viewing of this
+          intro without our written permission.
+          Showing this intro at demo-parties however, is allowed.
+        þ Broadcasting is only allowed with our written permission.
+        þ We hold the right to change those rules on seperate occasions.
+        þ Payment may or may not be asked for giving permission.
+
+
+                            þÞ Credits Ýþ
+
+     Main Design, Main Coding, Backgrounds, Art Direction, Effects, GFX:
+                       Magic Boy aka Xander Koninkx
+
+    Design, 3D Engine/Objects, Backgrounds, GUS S3M player, Effects, GFX:
+                       The Counsellor aka Hugo Habets
+
+                                Music:
+                      Bloody aka Tuukka Paavola
+
+
+                  þÞ What's really in those 64Kb? Ýþ
+
+     When the intro is executed, first all kinds of precalculations are
+     beeing done. Almost everything in this intro is calculated in realtime,
+     but some backgrounds and objects are precalculated.
+
+     Then it starts:
+      1) A texture wave with glow and introduction texts
+      2) A texture wave with crossfade logo as title screen
+      3) Simple Object show (reflection mapping)
+      4) Transparent Reflection Mapping ("Water" logo)
+      5) Fluid simulation (big wave)
+      6) Fluid simulation (rain) with 3D morphing object reflecting in water
+      7) Sine effect with glow
+      8) Two objects mirror in 3D
+      9) Greetings..
+     10) Sine effect with crossfadig texts
+     11) Two objects mirror and morph in 3D
+     12) Closing words in Bump Mapping
+
+     Also, the 64Kb hold the music (originally a 68Kb S3M file) and the
+     player. The (compo version) music player was written by The Counsellor
+     and will probably be released soon to support other demo groups.
+
+     Big thanks to Tuukka Paavola (Bloody/Spirit New Style) for
+     helping us to release this intro.
+
+
+                       þÞ Spirit New Style? Ýþ
+
+     A demo group is a collection of people who share the need to create
+     nice pieces of computer art together. Nicknames are used because
+     of the demoscene's history, this is no sign of illegal actions.
+
+     Spirit was a demogroup formed by The Counsellor with a lot
+     of coders, but almost no graphicians and only a few musicians.
+
+     Spirit was 5th at the Assembly '94 64Kb intro compo, with
+     an intro called "Psychic Flight."  This intro was okay for that
+     time, but it isn't up to the standards of 1996 intros.
+     After having some bad experiences with demo competitions (like
+     the Party 4), Spirit slowly began to fell apart.
+
+     When the problems grew, Spirit lost it's core. That core formed
+     a new group called "Spirit New Style."  The new group was for
+     hard working members only.
+     Only a few weeks after this new group was formed, the first success
+     came in a 2nd place in the X'96 demo compo.
+
+     The current Spirit New Style group members are:
+
+      The Counsellor    °      Hugo Habets       Û   The Netherlands
+      Magic Boy         ±      Xander Koninkx    ²   The Netherlands
+      Bloody            ²      Tuukka Paavola    ±   Finland
+      Manar             Û      Mathijs de Jonge  °   The Netherlands
+
+     More graphicians and musicians are welcome. Please note that we
+     only accept new members who are extreemly active and who also
+     are willing to work on commercial game projects (contacting
+     information below).
+
+
+                 þÞ The Spirit New Style Fanclub :-) Ýþ
+
+     We want to know who's watching our intros/demos! If you like this
+     intro or other Spirit New Style products, please give us a
+     small (e-)mail saying something like "Hi! I'm ... and I like your
+     64kb intro 'Water' / your 4Kb intro / whatever we did. :)"
+     Please don't write any big messages, we already are low on
+     e-mail reading time. This way we know who likes our intro
+     and where our intro is viewed. We might send an anouncement
+     e-mails to the 'fanclub' when we release something new.
+     Contacting info below.
+
+
+         þÞ What else did Spirit New Style release at Asm'96? Ýþ
+
+ þ1þ  A 4Kb intro called "Pure Spirit" by Hugo Habets.
+      This intro was coded in 100% Assembler for the 4Kb compo.
+      Effects like Bump Mapping and lots of 3D stuff in only 4096 bytes.
+
+ þ2þ  A few weeks before Asm'96, we released an invitation demo for the
+      Bizarre '96 party (VESA 640x480x256).
+              Code: Magic Boy             Music: The Rew
+          Graphics: 1Voud / Magic Boy     Text: Dr. Badvibes
+         3D engine: The Counsellor
+
+      Visit our homepage for info about where to download the products
+      and more. The URL is at the bottom of this text.
+
+                       Check it Out!
+
+
+                            þÞ Greetings Ýþ
+                           (in random order)
+
+  þ Groups:  Logic Design, Success, Nooon, Halcyon, Complex, Psychic Link,
+             Acme, Fascination, Jeskola, Legend Design, Realtech, Hornet,
+             Rage PC, Noice, Void, Maroon, Surellix, Nostalgia, Dust,
+             Melon, Scoopex, Contrast, Xtacy, Orange, Razor 1911, Triton,
+             Bizarre Organizers, Assembly Organizers and the rest..
+  þ Persons: Manar, The Rew, Rico, Trax, El Greco, Aap, Freshman, Balance,
+             Rogue, Simm, Mitch, Harlequin, Trixter, Dr. Badvibes, Vic,
+             Laserdance, 1Voud, Danny, Abyss .. hmm.. names..
+             Tuukka, Ron, Rob, Geertje, Dries, Joris, Floris, Ruudjuuh,
+             Rudy, Michel, Martijn, Marnix, Joop, alle Jannen, Maurits,
+             John, Jeroen "sta ik er echt in" den Haan :), Barry, Rene,
+             Arjen, Richard, Teun, Mark, Sander Konings.. and everybody else!
+
+
+                  þÞ What are the future plans? Ýþ
+
+     We're going to create games, demos, intros, all that..
+     The agreement that lives in Spirit New Style is that Manar,
+     Bloody and me will concentrate on games, while Magic Boy will
+     concentrate on demos.
+
+     Companies interested in our games can e-mail to the address listed
+     below. We do have experience in creating games and we are very
+     interested in continueing this work.
+
+
+   Thanx for watching / downloading / uploading / voting for / debugging /
+   ftp-ing / attaching / dcc-ing / uuencoding / laughing at / stopping /
+   hacking / deleting / trusting / spreading / losing / hating / liking ..
+
+                       úùø The "Water" 64Kb intro øùú
+
+
+                    e-mail: hugo.habets@tip.nl (no files, text only please)
+             Spirit NS WWW: http://www.tip.nl/users/hugo.habets
+    Spirit NS Headquarters: Spirit New Style
+                            Drieschstraat 2
+                            6412 XX  Heerlen
+                            The Netherlands
+                            (will be valid until 1998!!)
+
+    Visit the Spirit New Style homepage to get information, see screenshots
+    and download our products. The homepage has a selectable language and
+    other cool options (like fast/slow downloading for screenshots).
+    The homepage will open shortly after the Assembly '96 party is over.
+                      http://www.tip.nl/users/hugo.habets

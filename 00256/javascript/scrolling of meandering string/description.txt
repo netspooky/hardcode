@@ -1,0 +1,3 @@
+"Scrolling of meandering string" by Mips
+
+test: IE5.0, Win98SE

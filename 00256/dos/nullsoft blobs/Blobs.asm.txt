@@ -1,0 +1,178 @@
+; nullsoft blobs
+; by justin frankel, 2002 (based on work done in 1995)
+; assemble with nasm.
+;
+; there are many things we can do to bring this down below 256
+; bytes (such as removing the useless credits string at the end)
+; but oh well.
+;
+
+[org 100h]
+[segment .text]
+
+NPOINTS EQU 4
+
+SEED EQU 4096
+TEMP EQU 4098
+TABST EQU 4100
+
+; mode13
+  mov al, 13h
+  int 10h
+  push word 0A000h
+  pop es
+
+; set up point values and velocities
+  mov cx, NPOINTS
+  mov si, TABST
+SLOOP
+  call RANDOM
+  mov word [si], ax
+  call RANDOM
+  mov word [byte si+4], ax
+  mov [byte si+2], cx
+  mov [byte si+6], cx
+  add si, 8
+  loop SLOOP
+
+
+; set up palette
+  xor ax,ax
+  mov dx, 3C8h
+  out dx,al
+  inc dx
+
+  inc ch ; 256 iterations
+PALLOOP
+  mov ax, cx
+  shr ax, 1
+
+  cmp al, 63
+  jl PALLOOP_CLIP1
+    mov al,63
+PALLOOP_CLIP1
+
+  out dx, al
+
+  mov bx, ax
+  shr bx,1
+  add ax, bx
+
+  cmp al, 63
+  jl PALLOOP_CLIP2
+    mov al,63
+PALLOOP_CLIP2
+  out dx, al
+
+  mov al, bl
+  out dx, al
+
+loop PALLOOP
+
+
+;  fninit
+
+FRAMELOOP
+  mov cl, NPOINTS*2
+  mov si, TABST
+PNTLOOP
+  mov bx, [byte si]
+  mov ax, [byte si+2]
+  inc ax
+
+  cmp bx, 0
+  jle NOTNEG2
+    dec ax
+    dec ax
+  NOTNEG2
+
+  mov [byte si+2],ax
+
+  mov bp, ax
+  call RANDOM
+  and ax, 1
+  jnz NOTNEG
+    dec ax
+  NOTNEG
+  add ax, bp
+
+  sar ax, 3
+
+  add [byte si], ax
+  add si, 4
+  loop PNTLOOP
+
+  xor di,di
+  mov bx, 200
+YLOOP
+
+  mov cx, 320
+XLOOP
+  mov si, TABST
+  mov al, NPOINTS
+  fldz
+
+PLOOP
+  mov dx, cx
+  sub dx, 160
+  sub dx, [byte si]
+  mov [TEMP], dx
+  fild word [TEMP]
+  fmul st0,st0
+
+  lea dx, [bx-100]
+  sub dx, [byte si+4]
+
+  mov [TEMP], dx
+  fild word [TEMP]
+  fmul st0,st0
+
+  faddp st1
+  fsqrt
+  faddp st1
+
+  add si, 8
+  dec al
+  jnz PLOOP
+
+  fistp word[TEMP]
+
+  mov ax, [TEMP]
+  test ah, ah
+  jz pixclip
+    mov al, 255
+  pixclip
+ 
+  stosb
+
+  loop XLOOP
+
+  dec bx
+  jnz YLOOP
+
+  mov ah, 1
+  int 16h
+  jz near FRAMELOOP
+
+  mov ax, 3h
+  int 10h
+
+RANDOM
+  mov bx, [SEED]
+  inc bx
+  mov al, 16
+RANDOM_LOOP
+  rol bx, 1
+  jnc RANDOM_SKIP
+  xor bl, 0ah
+RANDOM_SKIP
+  dec al
+  jne RANDOM_LOOP
+  mov ax, bx
+  mov [SEED], ax
+  and ax, 127
+  sub ax, 64
+ret
+
+; here for credits. heh.
+db 'Justin!'

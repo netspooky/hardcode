@@ -1,0 +1,5 @@
+Grail1k by taj
+
+Curved surface growing in 1k. 
+Multiple objects.
+OGL/C plus dabs of asm where needed.

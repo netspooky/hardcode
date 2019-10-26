@@ -1,0 +1,26 @@
+
+PONG - in 256 bytes.  Version 1.1.
+
+Required:
+   Mouse Driver
+   Computer (386+)
+
+Well, seeing as I only had 256 bytes, I had to keep it pretty simple.
+You have a paddle.  A ball bounces around, and you have to keep it on the
+left side of the screen.  If it does happen to get by you, it will reset
+to the left side of the screen, and you can keep playing!  That's JUST HOW
+MUCH FUN IT IS!  You can even try to have longer runs than your friends, but
+that'd be pretty pathetic. :)
+
+NEW! In version 1.1, you can now keep score!  Whenever the ball bounces off
+your paddle, it will change color.  If you miss, it will go back to it's
+starting color of blue.  So you can keep track of your highest color ever,
+and if you're really good, you can get it to wrap back around to blue!!
+
+If you want to contact me (if you're interested in the source, I suppose
+I'd be willing to part with it), go ahead and email me at:
+
+carollo@cis.ohio-state.edu
+
+-Chris Carollo
+

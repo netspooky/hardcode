@@ -1,0 +1,6 @@
+<svg viewBox="1 1 8 4">
+<path d="M.5 .5h9v5h-9v-5l9 5M1 5L9 1" stroke="white" fill="blue"/>
+<path d="M1 1L9 5M1 5L9 1" stroke-width=".3" stroke="red"/>
+<path d="M1 3h8M5 1v4" stroke-width="1.5" stroke="white"/>
+<path d="M1 3h8M5 1v4" stroke="red"/>
+</svg>

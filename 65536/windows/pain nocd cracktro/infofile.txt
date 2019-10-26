@@ -1,0 +1,104 @@
+.-----------------------------------.
+:                                   :
+:       !!! PAiN +<3 nocd !!!       :
+:                                   :
+:            a cracktro             :
+:          by disasterarea          :
+:                                   :
+:          in january 2008          :
+:                                   :
+:-----------------------------------:
+: Info :                            :
+:------'                            :
+:                                   :
+: This production was made for the  :
+: revised edition of PAiN 12/07...  :
+:                                   :
+: If you have this prod, but not    :
+: the mag itself, get it at:        :
+:                                   :
+:     http://pain.scene.org/        :
+:                                   :
+:-----------------------------------:
+: Credits :                         :
+:---------'                         :
+:                                   :
+: code/sound/etc                    :
+:                              ript :
+:                                   :
+: texture generator                 :
+:                        gyr/kaolin :
+:                                   :
+: minifmod                          :
+:          firelight (www.fmod.org) :
+:                                   :
+: UPX                               :
+:             (upx.sourceforge.net) :
+:                                   :
+: Markov source text                :
+:                            [null] :
+:                        dodgeyhack :
+:                              ript :
+:                                   :
+:-----------------------------------:
+: Rant :                            :
+:------'                            :
+:                                   :
+:         IT'S A MILESTONE!         :
+:                                   :
+: DISASTERAREA'S 20TH DEMO RELEASE! :
+:                                   :
+:             HUZZAH!               :
+:                                   :
+: We've never worked out what       :
+: percentage of those demos contain :
+: The Epilepsy Robot.               :
+:                                   :
+: Oh well, you know what they say.. :
+:                                   :
+:    Save the Planet!  Recycle!     :
+:                                   :
+: Blame waste management, not us.   :
+:                                   :
+: This cracktro was going to be all :
+: faked oldschool effects, but      :
+: somehow it just didn't work out   :
+: that way.                         :
+:                                   :
+: The music also borrows a lot from :
+: Beethoven.  As if you couldn't    :
+: tell.  I'm certain he's out of    :
+: copyright by now, though.         :
+:                                   :
+: This is a skinny infofile because :
+: apparently, thin is still in.     :
+:                                   :
+: The "models" on America's Next    :
+: Top Model say so.                 :
+:                                   :
+: You could snap one of them in     :
+: half in a multitude of humourous  :
+: ways - which brings me to the     :
+: topic of lemongrass beer.         :
+:                                   :
+: My batch turned out brilliant.    :
+:                                   :
+: Bet you didn't think that was     :
+: going to happen.                  :
+:                                   :
+: Anyway, if you're down this way,  :
+: come to Beach Party '08 and try   :
+: some ...                          :
+:                                   :
+: Otherwise, see you at Breakpoint! :
+:                                   :
+:-----------------------------------:
+: Thanks to :                       :
+:-----------'                       :
+:                                   :
+: Pain staff for creating a         :
+: wonderful diskmag to keep me      :
+: entertained on those long & dark  :
+: internetless nights at home.      :
+:                                   :
+`-----------------------------------'

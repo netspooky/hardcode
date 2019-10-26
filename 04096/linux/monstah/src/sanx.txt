@@ -1,0 +1,158 @@
+#
+
+tempo 100
+
+pattern 0
+  sq  C0  0
+  sq  C0  0
+  sq  C0  0
+  sq  C0  0
+  sq  C0  0
+  sq  C0  0
+  sq  C0  0
+  sq  C0  0
+end
+
+pattern 1
+  si  C2  80
+  mo  C0  80
+  si  C2  80
+  mo  C0  80
+  si  C2  80
+  mo  C0  80
+  si  C2  80
+  mo  C0  80
+end
+
+pattern 2
+  si  D2  80
+  mo  D0  80
+  si  D2  80
+  mo  D0  80
+  si  D2  80
+  mo  D0  80
+  si  D2  80
+  mo  D0  80
+end
+
+pattern 10
+  si  C4  80
+  mo  C4  80
+  mo  C4  80
+  mo  C4  80
+  mo  C4  80
+  mo  C4  80
+  mo  C4  80
+  mo  C4  80
+end
+
+pattern 11
+  si  E4  80
+  mo  E4  80
+  mo  E4  80
+  mo  E4  80
+  mo  E4  80
+  mo  E4  80
+  mo  E4  80
+  mo  E4  80
+end
+
+
+pattern 13
+  si  F4  80
+  mo  F4  80
+  mo  F4  80
+  mo  F4  80
+  mo  F4  80
+  mo  F4  80
+  mo  F4  80
+  mo  F4  80
+end
+
+pattern 12
+  si  D4  80
+  mo  D4  80
+  mo  D4  80
+  mo  D4  80
+  mo  D4  80
+  mo  D4  80
+  mo  D4  80
+  mo  D4  80
+end
+
+pattern 14
+  si  B3  80
+  mo  B3  80
+  mo  B3  80
+  mo  B3  80
+  mo  B3  80
+  mo  B3  80
+  mo  B3  80
+  mo  B3  80
+end
+
+pattern 15
+  si  E4  80
+  mo  F4  80
+  mo  G4  80
+  mo  A4  80
+  mo  B4  80
+  mo  A4  80
+  mo  G4  80
+  mo  F4  80
+end
+
+# Ryme
+
+pattern 40
+  no  C1   0
+  no  C0   0
+  no  C3   0
+  no  C3   0 
+  no  C3  80
+  no  C0   0
+  no  C3   0
+  no  C0   0
+end
+
+pattern 41
+  no  C1   0
+  no  C2   0
+  no  C3   0
+  no  C4   0
+  no  C3  80 
+  no  C2   0
+  no  C3   0
+  no  C3  80
+end
+
+playlist
+  11  10 40
+  11  10 40
+  11  10 40
+  11  10 41
+  12  10 40
+  12  10 40
+  12  10 40
+  12  10 41
+  11  10 40
+  11  10 40
+  11  10 40
+  11  10 41
+  12  10 40
+  12  10 40
+  12  10 40
+  12  10 41
+  11  14 40
+  11  14 40
+  11  14 40
+  11  14 41
+  13  14 40
+  13  14 40
+  13  14 40
+  13  14 41
+  11  10 15
+  11  10 15
+  11  10 15
+  11  10 15
+end

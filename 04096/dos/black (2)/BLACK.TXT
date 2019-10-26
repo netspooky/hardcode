@@ -1,0 +1,76 @@
+ллллллпп ллллллллллппплллм млпп лллллллллллллл ммллллллппллпп лллллллпппппп ппл
+       п ппппплп мммл  пппппппп  ммммм ппппВлл пппппппппппппп ппВллпппппппл ллл
+плллллп   ппммм    ллллллп  п ппллВлл  пллмм   мммлллппппплмлпп    ммммлл л ппп
+ м мллл      олллм плл пл       лм мл   олллл лллллл    ллллл    ллллллл  л ллл
+  ллллл АБВ   ллллн олллн  АБВ  ллллл  А ллллноллллнАБВ лллВлмм олллп   млл мм
+л ллллн      млллп  лпп         лпллпп   олллл лллл     ллп л  пп    пллллл лл
+м плпп  п ппппп  п пллллн  п мммм  олммммммллл ллпл     лллБл  ллмммм  полл ллл
+  млллл   ппллмлм   олллл     лллпл л   ллВллноллВл     лллВл   ллллллм  мл плл
+ оллВпн     лллллно  ллллн   оллллл л   лл пл ллллл  ўммллллл     плмБлн лллллн
+п ллллп  ммлллллп ол ппплл мллллпп мл    ллллммпплллммммммммлмм    ллВлн пплплн
+л лпппппппп     ммллм       пллн         пппп                  п  плллл  ллллл
+л ммммммлнл ллл лл лle ммм   плВм мў    млмммллм    лл   лл   лл лллл п  лллп
+
+                  BLaCK.
+                                 Wired 96' 4k by Shiva
+
+  Final Version
+
+    1. System Requirements П
+     РФФФФФФФФФФФФФФФФФФФФФй
+  Minimum: ў 486DX (Math Copro required)
+           ў VGA
+           ў 512k of free low memory
+  Recommended: ў Intel Pentium with 133Mhz
+               ў Fast PCI Bus
+               ў VESA 2.1 with 320x200x15bit Hicolor
+               ў VRAM Graphics Board
+
+    2. Shiva said...ФФФФФФФП
+     РФФФФФФФФФФФФФФФФФФФФФй
+    Well, about this final version: The Wired 3rd place did not have the
+    menu to select VGA. (I'm sure the organizers would have selected VGA,
+    so lucky me ;) The first time it displayed an VESA error anyway.)
+    I just put it in recently, because some non VESA guys wanted to watch
+    Black, too. I'm not too happy about it, because, compared to the Hicolor
+    version it really looks shit. The latest Univbe really should do the job
+    for most graphic boards. The Julia fractal looks completly fucked up
+    with only two shades of blue used in VGA mode.
+
+    3. Credits & Greetings П
+     РФФФФФФФФФФФФФФФФФФФФФй
+   Code, Design & Everything: ў Shiva
+   The cool guys: ў Black Maiden Art Productions
+     special thnx to coke for letting me code on his computer,
+        leonardo for the ascee and voice for a code night.
+   Personal Greets: ў Mustermann   ў Climax    ў Filis
+                    ў Siriuz       ў Mind      ў Internal
+                    ў Submissive   ў Force     ў Jey
+                    ў Chaos        ў Jumping   ў Mysterio
+   Group Greets: ў Cubic Team    ў Amable
+                 ў Acme          ў VX
+                 ў Abbandon      ў Exhumers
+                 ў OTM           ў Blue Pearl
+
+   4. Tech Stuff ФФФФФФФФФП
+    РФФФФФФФФФФФФФФФФФФФФФй
+   ў Polygons: 5400
+   ў Shading: Goraude
+   ў Illumination: Phong
+   ў Lightsources: 3, moveable
+   ў Rendering: 24bit Truecolor
+   ў Output: 15bit Highcolor or VGA 3:3:2
+   ў Animation: Angular
+   ў Tunnels: Lookup
+   ў 3d: Matrix Transforms
+   ў Optimization: Size
+   ў Julia: No precalculations! 32 Iterations
+   ў Packing: Pklite
+
+   5. Contact ФФФФФФФФФФФФП
+    РФФФФФФФФФФФФФФФФФФФФФй
+   Mail me anytime about anything.
+   ў SHIVA@lessons.sesom.nbg.de
+   Visit Black Maiden at:
+   ў ftp.cdrom.com/pub/artpacks
+   

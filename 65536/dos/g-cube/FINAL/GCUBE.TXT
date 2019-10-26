@@ -1,0 +1,56 @@
+      _____ _   M A T R I X
+_____ |    \__________________ ______:___)\
+\__ _\:/_   \___  __ ___ ___  \__)   |    /
+_/   \_/     \__  \_  |  _:/ _/  \__ __ _/
+\     |      /|/   /  |   |   \_  _  |/   \
+ \____|____/__:___/|__|___I_:__/_/   |_____\
+[==============================(_____|=[JIG]
+              G - C U B E
+
+       1st at Mekka/Symposium 2K-1
+        64K intro - final version
+    (PII, 12MB, VESA 2.0, GUS, SB/AWE)
+[==========================================]
+
+code:  digisnap
+sound: skyphos
+gfx:   nero
+
+thanks to Markus Oberhumer and Laszlo Molnar for UPX (used in the party
+version) and Charles Scheffold and Thomas Pytel for pmode/w (used in the
+final version)
+
+our e-mail addresses:
+aurelius_mtx@hotmail.com (Aurelius)
+digisnap@cs.tu-berlin.de (Digisnap)
+nero@cs.tu-berlin.de     (Nero)
+spline@cs.tu-berlin.de   (Sharon)
+skyphos@mindless.com     (Skyphos)
+
+visit our homepage at http://mtx.home.ml.org (www.cs.tu-berlin.de/~nero)
+also watch out for the linux version in some month at
+www.cs.tu-berlin.de/~digisnap
+
+see you at dialogos'99 (www.dialogos.cc)
+
+gretings to:
+Abyss
+Amable
+Bion Fx
+Bomb
+Cubic & $een
+Darkage
+Elyssis
+Gods
+Haujobb
+Hirntod
+Hugi
+Kolor
+LKCC
+Never
+Nuance
+Numb
+Scoopex
+Smash Designs
+Suburban
+The Black Lotus

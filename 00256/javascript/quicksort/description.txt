@@ -1,0 +1,8 @@
+"Quicksort" by mados
+http://wildmag.de/mados
+
+This is a remake of an old the5k.org entry
+(see http://www.the5k.org/description.asp/entry_id=239).
+Turn the numbers in the right order.
+Works in almost all browsers. Tested in IE 5.0, Mozilla 1.1
+and Opera 6.0.

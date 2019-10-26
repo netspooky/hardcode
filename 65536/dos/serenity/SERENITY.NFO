@@ -1,0 +1,95 @@
+           ÚÄÄÚÄÚÄ¿ÚÄÚ¿.ÂÄÚÚÄÄÄ
+           ÀÄ¿Ã ÃÂÙÃ ³³³³ À´
+        ÄÄÄÄÄÙÀÄ³À¿ÀÄ³ÄÁ³ÄÄÙ
+
+                The Credits
+                
+                        Title Screen  - Candle
+                        Plasma        - REALiTY
+                        Blurred Cubes - Candle
+                        Dots          - Candle
+                        Scroller      - Candle/Merman
+                        Music         - the Pope
+                        Music Player  - Lord Excess
+
+                                Information
+                                
+        This intro was written in ASM/C/C++.  We used Borland C++ 3.1, 4.0 and
+        Turbo Assembler.  It was coded on a 486/33 and a P100, both with GUSes.
+        Serenity is intended to be a quick preview of the Immortal Syndicate.
+        In case you're wondering, no, this intro does not run in PMODE.  We
+        would have liked to but we only got a copy of Tran's awesome PMODE
+        routines 2 days ago.
+
+        We know you might have seen most of these effects before, but this 
+        was not meant to be a ground-breaking demo, just a merry chistmas, 
+        have a happy new year, see you sometime in the future demo.  Hopefully 
+        our first mega-demo will be somewhat more technically impressive :)
+        Nevertheless, we hope you enjoy this Christmas intro.
+
+        You might be wondering why the .EXE and datafile (a .MOD of course!)
+        are separate.  As you may have noticed above, the player is courtesy
+        of Lord Excess and there was no easy way to link the two together. If
+        you are familiar with the player and know of a way to link the .MOD
+        and .EXE please let us know!  (Although we probably will not be using
+        this player in the future); we wanted to use Cascada's GUSPLAY, but we 
+        just ran out of time.
+
+        Please feel free to send us some feedback at:
+
+                Candle - Wyatt Cheng - wyattc@sfu.ca
+                REALiTY - George Vanous - vanous@sfu.ca
+                Merman - Yonas Jongkind - d3140025@bcit.bc.ca
+                the Pope - John Paul Fiket - d3140044@bcit.bc.ca
+
+        You also might be wondering, .ca, what is that, Canada?  And yes, it
+        is Canada, and no, Canada is not in Europe, but yes, this is a demo.
+        Canada for those who don't know, is the country with the Pacific on
+        the west side, the Atlantic on the east, Mexico and some other country
+        to the south and lots of cold up north.
+
+                                        Immortal Syndicate's Member List
+                                        
+        Looking at this member list most of you will be thinking "Gosh, they
+        sure do have a lot of musicians".  And yes, you would be right, we do.
+        Hopefully the next thing you say will be  "Gosh, they sure do need 
+        some artists", and again, you'd be right, we do.  And if you're really 
+        slick, next thing you'll say is "Hey, I'm an artist, I could do some 
+        pictures."  And if this is the case, then by all means, contact one of
+        us, maybe send us a sample or two, and we'll work something out.
+
+        Sysop      Moses Risin   Myke Smithman      Disk Jockey, Freelance
+        Coders     Candle        Wyatt Cheng      Student, SFU Engineering
+                   Merman        Yonas Jongkind    Student, BCIT MicroComp
+                   Mnemeneth     Terence Martin      Programmer, Freelance
+                   Raptor        Mike Bendner         Student, BCIT ExpSys
+                   Reality       George Vanous        Student, SFU CompSci
+        Musicians  Acidfrog      Cameron Goodman    Disk Jockey, Freelance
+                   E-Motion      Rick Almeida     Gun Tech, Panther P-Ball
+                   Shrike        Jason FarŠ              Contractor, Sales
+                   SynerG-E      Ross Ladd          Disk Jockey, Freelance
+                   The_Pope      John Paul Fiket   Student, BCIT MicroComp
+        Artists    Atlantis      Jason Card              Artist, Freelance
+                   Mavrik        Anonymous           Unemployed, Scene Guy
+
+                                The Greets
+                                
+        Greetings go out to the following groups and individuals:
+
+                Cascada,
+                EMF,
+                Future Crew,
+                Iguana,
+                Jare, 
+                JCAB,
+                MikMak,
+                Paul Kahler,
+                Psychic Link,
+                RealTech,
+                S!P,
+                Tran,
+                Thunder,
+            and Triton;
+
+        And to all a good night.......................................
+

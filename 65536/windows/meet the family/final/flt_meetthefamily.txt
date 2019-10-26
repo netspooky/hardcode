@@ -1,0 +1,66 @@
+
+meet the family 
+
+by fairlight
+
+
+performing for one time only, live at bp06
+
+the band:
+
+smash - lead guitar, code, tools, synth, design, gfx
+reed - drums, music
+kustaa - bass, character modelling
+oyiseer - keyboards, 2d gfx
+aln - making the garden grow, 3d gfx
+
+
+the backstage boys:
+
+pantaloon - help, support and beta testing 
+kenet - help on design and gfx ideas
+ryg/fr - kkrunchy, saving us many many bytes
+
+
+right of admission reserved.
+
+
+
+
+
+
+
+boring tech info follows.
+
+
+three performances on the bill:
+(setup dialogs are for lamers who dont fill their free space with nice 2d graphics)
+
+flt_meetthefamily_128.exe 
+- 800x600, 4xmultisample, 512x512 shadowmaps. use this version for all the shit cards out there, although i really hope nobody with a 
+geforce 5xxx series card tries to run it, it'll be a slideshow.
+also use it for nvidia 6xxx series - they support filtering fp16 textures, so the shadowmaps work fine at this res here. 
+
+flt_meetthefamily_256.exe 
+- same as above but 1024x1024 shadowmaps. use this for ATI cards, as they dont support fp16 texture filtering. (apparently ati dont
+consider it useful. maybe they want to try looking into variance shadowmaps :) )
+
+flt_meetthefamily_512.exe
+- 1024x768, double size rendertargets everywhere. god knows if there's a card that can run it like this, my 6600gt sure cant :)
+
+
+requires DirectX 9.0c, pixelshader+vertexshader 2.0, floating point rendertarget support
+
+
+
+tested on:
+- geforce 6600gt 128, p4 3.0, 1024mb, runs perfectly fine
+- geforce 5700 p4 3.2 2gb, it was a slideshow, dont bother
+- radeon x800, athlon 2500, runs perfectly fine
+- geforce 7900, p4 something stupid, 2gb, runs fine (no kidding)
+- radeon 9800 etc etc, works fine
+- ati firegl 3100 blah, fine but slow
+
+im sure ati tried to screw us at every turn here. first we find our cool shadow technique doesnt work properly, then we get driver bugs
+on dynamic vertexbuffers. it was quite a challenge getting it to look the same on the different hw, and we're actually quite used to this
+by now and werent doing anything strange or stupid. 

@@ -1,0 +1,389 @@
+
+                              genesis::r a r e
+
+                           -< live at euskal99 >-
+
+               starring::i q::m u r c i::n o r k::j h o n n i e
+
+
+
+
+               ok::this  is  one  of  those  long   and   funny
+               infofiles that you should read  when you've  got
+               no better things to do, so if you are busy,  cut
+               down this file  below the dotted line::enjoy it!
+
+
+               and try hidden params to watch a different rare!
+
+
+
+(cut here)
+-ú-8<ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú-ú
+
+
+               so you dare to read this...prepare yourself!
+
+index::01::complete credits
+     ::02::complete requirements
+     ::03::live at euskal99
+     ::04::technical facts
+     ::05::iq's crazy mind attacks
+     ::06::murci in love
+     ::07::greetings::respects::salutations
+     ::08::legal stuff
+     ::09::humor
+
+::01::complete credits
+
+         code::i q  &  m u r c i
+          gfx::j o h n n i e
+        music::n o r k/n e t w o r k
+             ::
+       pmodew::c h a r l e s  &  t h o m a s
+       player::n i k l a s
+
+
+::02::complete requirements
+
+    processor::3 8 6  w i t h  f p u
+             ::4 8 6  w i t h  f p u
+             ::p e n t i u m  o r  a b o v e
+        sound::g r a v i s  u l t r a s o u n d
+       memory::8 M B
+     graphics::v e s a 2 . 0
+             ::3 2 0 x 2 0 0 x 1 6
+             ::6 4 0 x 4 8 0 x 1 6
+           os::p u r e  d o s ( d o s   r u l e z !! )
+
+
+::03::live at euskal99
+::03.01::la noche de la proyecci¢n
+
+    vaya::acaba de proyectarse la  intro  y parece que ha molado.  eso s¡,
+    he estado todo el tiempo con los dedos cruzados para que no se colgase
+    como el a¤o pasado (la fchaos.exe).  no s‚ murci, pero yo no he podido
+    disfrutar vi‚ndola en pantalla gigante. una pena.
+
+    ok::i'm used to  suffer  at the party, but i wasn't so worried   about
+    the intro. perhaps cause the  intro  was running extremely smoothly in
+    the compomachine ( a celeron::333 )... coding using a pentium::133  is
+    very cool!!!
+
+
+::03.02::el d¡a anterior
+
+    el viernes::a la ma¤ana  no ten¡amos ning£n  m¢dulo  que ponerle a la
+    intro ya que el m£sico (_deepnoise_) estaba muy ocupado con el  de  la
+    demo  y  yo (_iq_) no  ten¡a niguno  preparado ( alg£n d¡a  rular‚ mis
+    m¢dulos pa que la pe¤a se parta un poco de risa).  cuando vino _casty_
+    para ver qu‚ tal iba la  intro  le contamos nuestro _PEQUE¥O_ problema
+    y nos coment¢ que a lo mejor tendr¡an alg£n  m¢dulo de _nork_ por ah¡.
+    hablamos con _ryan_ y nos prest¢  uno al que ten¡a mucho cari¤o y para
+    el cual ya ten¡a  pensada  una intro.  de todas formas nos  lo cedi¢ y
+    tras hablar con  _nork_  nos fuimos a mi (el de _iq_)  ordenador  para
+    montar la intro. queremos agradecer profundamente a _nork_ por cdernos
+    su m¢dulo y especialmente a _ryan_, a quien se lo ripeamos vilmente  a
+    pesar de  que era una  joya  que ten¡a  reservada para alguna  ocasi¢n
+    especial. sin ellos no habr¡a habido intro, de modo que un  mill¢n  de
+    gracias. esperamos que la intro est‚ a la altura del m¢dulo  y  _ryan_
+    no haya visto desperdiciado el m¢dulo que ten¡a reservado...
+
+    el m¢dulo::el .MOD  original de _nork_ era de 37K pero tras haber sido
+    retocado  por _ryan_ qued¢ en  un .XM  de  33K,  con  lo  cual entraba
+    perfectamente en  la  intro.  apenas  se tuvo que alargar  un  par  de
+    patrones  para que  encajase mejor  en la  intro, aunque  tuvimos  que
+    acortar la intro para no alargar en  exceso el m¢dulo y aburrir a todo
+    el mundo.
+
+    al final::ten¡amos una intro de 62k comprimida con el _pmwlite_ y esta
+    fue la partyversion::0::. al d¡a siguiente _epsilum_ nos dej¢ el _upx_
+    que nos dej¢  la intro en 54kb, pero ya era tarde.
+
+    anyway::ya  ten¡amos  m¢dulo,  un  pu¤ado  de  efectos  sueltos  y  un
+    ejecutable que los   lanzaba  uno detr s de  otro  sin  sincronizaci¢n
+    alguna pero  que no se colgaba::pod‚is  imaginar  el  resto::noche  de
+    insomnio  total, y eso  teniendo en cuenta  que el d¡a anterior  hab¡a
+    dormido  15 minutos (en toda la party dorm¡ 15+20+30 minutos...).  as¡
+    que enchuf‚ la h‚rcules y dale que te pego.
+
+    y hablando del otro tipo que andaba por all¡ (_murci_): pues eso, hace
+    tiempo que decidi¢ no agobiarse en las parties, y aunque _iq_ lo pinte
+    muy chungo no fue para tanto (bueno, lo del m¢dulo si). yo de mientras
+    pintaba fuentes, hacia  un  kbhit  para poder salir con  esc  y  hac¡a
+    scenas para la demo, pq no  paraban  de  darme  ca¤a desde la intro  y
+    la demo...
+
+
+::03.03::un par de meses m s tarde
+
+    bueno::hemos retomado el trabajo y me he puesto a mejorar el dise¤o  y
+    el c¢digo. hemos cambiado algunas  texturas y  hemos a¤adido  cosillas.
+    pero lo m s notable es que ahora la intro ocupa 46 Kbytes...y  de  paso
+    montamos la <publicidad gratuita>::fake::</publicidad> para la arrutada
+    (al final no sacamos esta finalversion::0::)
+
+
+::03.04::un mes mas tarde de los dos meses mas tarde de antes
+
+    como ya era hora de que  sac ramos una  versi¢n final de la ::rare nos
+    hemos puesto de nuevo a retocar algunas cosillas. la verdad  que  tras
+    ver que estabamos primeros en la ceibe nos sentimos como un  poco  mal
+    por tener en circulaci¢n un producto no acabado as¡ que a retocar, m s
+    que nada dise¤o, pero en fin, esto es algo en lo que todav¡a nos falta
+    mucho por aprender y asi vamos practicando. tambi‚n hemos sincronizado
+    los blurs horizontales y los tembleques de las fuentes ya que al verla
+    en un k7::550 se desfasaban.
+
+    esperamos que os guste tanto como nos gusta a nosotros!!!
+
+
+::04::technical facts
+    
+    todo::lo que aparece en la intro esta  generado, excepto  el  m¢dulo,
+    las fuentes y el gr fico del t¡tulo pero todo se andar ...
+
+    todas::las texturas son generadas,  las mallas 3D son generadas,  los
+    gr ficos (si, si, incluso el £ltimo), tb est n generados. las  tablas
+    de deformaci¢n est n tambi‚n generadas y lo mismo con  las  "paletas"
+    de los julias. tambi‚n los flares del motor 3D (a partir de ahora nos
+    referiremos a el como m3D, que viene de mini3D...vaya gilipollez) son
+    generados utilizando un distribuci¢n gaussiana a  partir  del  centro
+    para el halo y otra lineal para el brillo central. (y seguramente nos
+    quedan m s cosas generadas por comentar).
+
+    las texturas::fractales, as¡ como todos los  gr ficos.  tres  cuartos
+    de lo mismo ocurre con los  julias que se mueven  que  por definici¢n
+    tb son fractales. tambi‚n  nuestro generador  de  numeros  aleatorios
+    es un fractal (pa'los m s entendidillos dir‚ que el atractor  extra¤o
+    de la secuencia de n§s "ca¢ticos" es una curva de una sola  joroba...
+    m s pistas?, vale: se trata de la ecuaci¢n log¡stica para  k = 3.999.
+    supongo que hay  mejores maneras  de  hacer  un  rand, pero  que  sea
+    fractal queda m s ::rare)
+    <atenci¢n como se le va la cabeza a _iq_ cuando habla de fractales..>
+
+    por  supuesto todo esto nos da un margen que nos permite disfrutar de
+    la flexibilidad de programar en C (toma ya! _iq_... creo que  te  has
+    pasado un pel¡n; esto suena a propaganda barata).  tan  s¢lo  algunas
+    rutinillas de teclado y de matem ticas  (todo el algebra de vectores)
+    est n en ASM. <POLEMICA>creo  que  no merece la  pena  programar   un
+    trifiller en ASM: es perder el tiempo. los kas se ahorran usando  las
+    matem ticas, haciendo un c¢digo ordenado (esto  es  algo que  podemos
+    mejorar mucho todav¡a), estrujando bytes  poco a poco  en  el  c¢digo
+    C y ech ndole imaginaci¢n al asunto.</POLEMICA> hombre, un compressor
+    ayuda bastante, pero sin duda las primeras razones lo hacen casi todo.
+
+    plato fuerte::las escenas 3D (de hecho durante  bastante  tiempo  nos
+    centramos  s¢lo  en el motor, la generaci¢n de mallas y texturas y en
+    montar algunas escenillas, con lo  que  de  pronto  nos  dimos cuenta
+    que no ten¡amos nada de 2D...). el motor fue codeado en  un  97%  por
+    _murci_ y el 3% es para iq por la ayuda moral mientras lo  programaba
+    y unas treinta l¡neas para el env. mapping y el texturado). facts:
+        úmultiples camaras (aunque no lo usamos)
+        úclipping 3D
+        úbackface culling en coords de objeto
+        úiluminaci¢n din mica RGB
+        úsombreado gouraud RGB
+        útexturas (lineales...pity!)
+        úzbuffer de 32bit (8bit m s que la TNT2!!!!)
+
+    pero el m3d no ser¡a nada sin el colorido  que le  dan las texturas,
+    obra de iq y sus viajes alucin¢genos por el mundo de los  fractales.
+
+    tambi‚n hemos utilizado un generador de tablas  de deformaci¢n (o de
+    t£neles, como los llaman en centosis). en  principio  ten¡amos  casi
+    "infinitas" tablas diferentes  para  elegir pero  pronto empiezan  a
+    parecerse  en  exceso  (lo  siento _murci_, la pr¢xima  ser   mejor)
+    <PELOTEO>aprovecho para decir que  la mejor tabla que he visto nunca
+    es la  de _geiger_ en  la _overdose_ ,la que tiene  unas piedras  3D
+    dando vueltas por delante</PELOTEO>.
+
+    el "generador" de gr ficos fue un invento de £ltima hora y  por  eso
+    est  a medias y no es del todo un generador real, pero gracias a  ‚l
+    pudimos crear el gr fico £ltimo y el  que est  en  transparencia con
+    los  julias.   tambi‚n  podemos   generar   otros   pocos   gr ficos
+    interesantes, pero no nos quedaba sitio (en tiempo) en la intro para
+    ponerlos.
+
+
+::05::iq's crazy mind attacks
+
+    supongo que esta intro se parece m s a lo que estaba pensando cuando
+    hice la _fchaos_ que aquella. un a¤o de trabajo ha merecido la pena,
+    y seguro  que un a¤o m s de trabajo dar  buenos resultados, y espero
+    que alg£n d¡a hagamos una intro totalmente fractal. esta es una idea
+    loca (como lo era la _rare_),  pero  tengo  intenciones  de  generar
+    hasta el c¢digo... sin embargo unos primeros "estudios" que he hecho
+    no parecen desvelar ninguna pauta fractal en el c¢digo compilado, al
+    menos en una, dos  y tres dimensiones. quiz s m s all   s¡ lo tenga,
+    pero  en  fin, a lo  peor resulta  simplemente que  los fractales no
+    modelan demasiado bien este tipo de cosas... o que no estoy buscando
+    donde debo. ya veremos.
+
+    sin embargo lo que m s me gusta de la intro no son los fractales (de
+    hecho, excepto  el gr fico del final, me  parecen todos una mierda),
+    sino las escenas 3d, todas  ellas creadas en  noches de insomnio (de
+    esas que se te ocurre mirar por la ventana  y ves que ya  es  de d¡a
+    otra vez). la que m s me gusta es la del templo,  quiz s porque  fue
+    la primera en nacer y yo soy muy nost lgico. recuerdo una sesi¢n  de
+    22:00 a 07:00 ininterrumpida,  como la correspondiente a la creaci¢n
+    de las monta¤as. hey, en la _rare_ est  el c¢digo comentado pero  en
+    esta escena nieva  y se va acumulando nieve en las cimas. lo podemos
+    sacar en alguna felicitaci¢n-intro  en navidades... la £lima escenas
+    es una basurilla, pero no hab¡a nada mejor... claro, _murci_ se pasa
+    el d¡a programando el m3d y yo generando objetos 3d y fractales
+    y as¡ es que al final no hay escenas, ni 2d, ni n .
+
+    bueno no quiero enrollarme m s :: con la  de ideas  que surgen  y el
+    poco tiempo que  hay para programarlas no es plan ponerse a escribir
+    una biblia.
+
+    si quer‚is que hable de fractales pulsad 1. si quer‚is que hable  de
+    codigo pulsad 2. si quer‚is  que  hable de  mis penas  sentimentales
+    pulsad 3. si quer‚is que  me caye  de  una vez  pulsad 4. si quer‚is
+    novia no puls‚is nada que es in£til.
+
+    salir = 0;
+    while( !salir )
+    switch( m_getch() )
+        {
+        case 1:
+            m_print( "
+            miro mi planta y veo un fractal.
+            miro una grieta y veo un fractal.
+            miro al cielo y veo plasmas fractales.
+            miro a las monta¤as y veo formas fractales.
+            miro el desayuno y veo corn-flakes fractales.
+            voy a clase y empiezo a confundir a los profesores con fractales.
+            volviendo a casa me cruzo con un perro fractal.
+            conclusi¢n::ni puta idea.
+            " );
+            break;
+
+        case 2:
+            m_print( "No me apetece hablar de c¢digo...\n\r$" );
+            break;
+
+        case 3:
+            m_print( "
+
+            ahora un poemilla (no viene a cuento, ¨y? )
+
+            cuando voy a clase y t£ no apareces
+            me alegro de que no est‚s all¡ presente,
+            y no porque te desprecie, te odie o no te soporte,
+            sino todo lo contrario::
+            es que te amo demasiado para verte y darme cuenta
+            de que no est  a mi lado.
+
+            dedicado a Maribel
+
+            " );
+            break;
+
+        case 4:
+            salir = 1;
+            break;
+        }
+
+
+    123123123...  ::todo va bien
+    1231231234..  ::el caos se avecina
+    12312312347.  ::­empieza lo divertido!
+
+
+::06::murci in love
+
+    warning::este es el teclado de iq y  como ha  tapado las teclas  con
+    colorines estoy fallando 3 de cada 2 teclas que toco... esto  es  lo
+    que he escrito en realidad:
+
+    "warninf::este es el teclado de is y como ha tapadio las teclas cin+
+    xolodines estor fallando 3 de cafa 4 teclas wqu toco...bhudddddd"
+                               
+    a que se entiende todo muy bien...  _iq_ si te pillo te matooooooo!!
+
+    enamoramiento::un estado de continuo  atontamiento   durante el cual
+    eres  capaz de  realizar las  cosas  m s  est£pidas  sin  pararte  a
+    pensarlas   con   detenimiento  (pararte   con   detenimiento,  vaya
+    redundancia).  aunque este estado pueda parecerse al  modo normal de
+    actuar de  muchas  personas (porque tengo un espejo delante???),  el
+    amor presenta  una serie de efectos  secundarios muy  graves,  sobre
+    todo cuando no te hacen caso::borracheras continuas, poes¡as tristes
+    (ejem _iq_), noches de insomnio, y lo que es peor, me siento incapaz
+    de codear...pero  a£n  y  todo  hemos  logrado  reunir  las  fuerzas
+    suficientes para terminar esta  intro,  lo que adem s me ha  servido
+    como  v lvula de escape para toda la  tensi¢n que llevo acumulada...
+    dios que triste! (m s, y espero que mejor en la ceibe#3;-)
+    
+
+    mi noche, mi dia::mi muerte, mi vida::la musa de mi poes¡a::c l a r a
+
+
+::07::greetings::respects::salutations
+
+    we greet::centosis  savage/mcd  dsk! incognita  virutateam  wildbits
+              wavemasters    anaconda  senco     cucmakers   v.fantasies
+              purplestudios    elite    k5    network    rgb     capsule
+
+    we adore::theblacklotus    matrix    halcyon    byterapers     fudge
+              purple  blasphemy  acme  sunflower/pulse
+
+    iq    loves::maribel (demasiado)
+    murci loves::clara (but she doesn't know :-#
+
+    additional greets::dj rufus kaiser  elmamondelhermanodemurci  djkaos
+                       laschicasdelaresi laschicasdeclase todaslaschicas
+
+
+::08::legal stuff
+
+    we are not responsible of our own opinions...you know, they are
+    like assholes::everyone has one and they stink!
+
+    we are not responible for any damage caused by this software
+    either on your computer system or your physical body
+
+    _nork_ is a trademark of _network_
+    _ryan_ & _casty_ & _geiger_ are registered nicks of _centosis_
+    _epsilum_ is copyright of _senco_
+
+
+::09::humour
+
+    ok, aqu¡ va un chiste que surgi¢ un d¡a de borrachera,  creado entre
+    _murci_ e _iq_.  no recuerdo muy bien la semilla que utilizamos para
+    generar el chiste, pero era algo tal que as¡::
+
+        
+    *   eso que va un puntito felizmente andando por la pantalla
+        cuando llega a la columna 319 y dice::
+
+            "co¤o, que me voy a caer!! ah, no, menos mal que
+             la memoria es lineal!!"
+
+    bien, no nos veng is con que si estaba  en la fila 199  s¡ que pod¡a
+    realmente caerse y todo eso. tambi‚n  sabemos que el chiste es malo,
+    pero es que no ibamos demasiado bien, vale?
+
+    otra parida que  se le  ocurri¢  a un compa¤ero de  mi piso  y amigo
+    nuestro (hello dj!)::
+
+    *   "la tribes::la demo que  trata sobre un mono al que  le sali¢ un
+         ni¤o en los cojones"
+
+
+    lo siguiente  es lo que surgi¢  en una reuni¢n rutinaria de genesis,
+    de esas en las en las que se habla mucho pero no se dice nada::
+
+    *   m‚todo para buscar novia::
+
+        1) pulsar F3
+        2) teclear "novia"
+        3) pulsar enter y el edit har  el resto
+        
+    
+
+
+
+                              -<end::of::file>-

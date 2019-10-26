@@ -1,0 +1,39 @@
+ PaIntro by ElGado
+ 64kb intro
+ 
+ for Euskal Party 11 (2003)
+________________________________________
+
+ Its my first (and probably the last) attempt at demoscene
+
+ There is 10 kb left.. 
+
+ Needs ogl specular fog extension correctly implemented and a 3d card
+
+ with good fillrate like GeForce4 or more or Radeon 7500 or more.
+
+ 2 Ghz cpu and 128 MB ram will be nice too.
+
+
+ If some extensions are not supported, the demo will look VERY ugly
+
+ on some scenes, dont blame me in this case.
+
+
+ Yes, the 32 bits textures rlz
+
+ Yes, the music is weird
+
+ Yes, animations are silly
+
+ Yes, the design sucks.
+
+
+ Coded, tracked and designed by ElGado in Spain (c) 2003  
+ 
+ 
+ MUSIC: a remixed version of Dr.Who theme
+ SOUNDSYSTEM: minifmod
+ PACKER: upx
+
+ greetz to all good (and bad) obsceners.. eehem sceners ;P

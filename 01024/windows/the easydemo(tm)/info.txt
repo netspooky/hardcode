@@ -1,0 +1,7 @@
+The easyDemo(tm)
+----------------
+
+A touch of oldschool Amiga-styled copperbars running on shaders in 1015 bytes.
+Uninspiring, barely functional, but at least it's cheap. 
+
+-Sack (10/9/11)

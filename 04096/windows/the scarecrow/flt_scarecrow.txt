@@ -1,0 +1,41 @@
+
+  .                       .    .    .         .   °         (
+.  °       . °  )  .    °                       .         .  ) °   .  ° )
+  )      .     (      .     .               °         ° .   .    .  .  (   
+ (               .  (              .  °   .   )          °    .             
+         °        °  )              .        (              . .           ( 
+   .                         °     .|    °     .         .   .|  °      °  )
+(       .  .                  _____||___________   .        _||_         / 
+ ).  . .|           !     ____|_   - _____)    /_______    )    |____ _//_
+   ____||__________/ \_ _(_____/      _/      /    /___)___|___      \_  /_
+   )    __________) -  )      /____|  )___________/   / ______(_|_____( __/_
+ _/    _______)_____| /_______\    )_____(     /______\ \      /!  /   /   /
+ )_  _(             )_____(                       )______|    /   /__ ____/
+   ``--------{ when dreams come true }-------------------|___(     -//!ne7--
+                                                         |         /   
+                                                         !
+
+
+  the scarecrow
+  by fairlight
+
+  pc 4k at sundown 2006 
+
+
+  everything by smash
+  contact: smaash@yahoo.com (yes, that is the correct address)
+
+  uses crinkler.  
+
+  requires ps2.0, and d3dx_24.dll. 
+  run it on something decent, especially gpu-wise.
+  note, the precalc time is quite long (for the music).
+  thanks to reed and pantaloon for testing. 
+
+
+  done just because i wanted to do something (anything at all really) to 
+  support sundown,   and that was an excuse to do a little experimenting 
+  with a few things.
+
+
+  

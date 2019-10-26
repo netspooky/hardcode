@@ -1,0 +1,12 @@
+My very first 256 bytes FX, that was fun!
+
+- Simple ray vs plane algorithm
+- Each pixel is raytraced, a lot of data could be precalculated
+- The height of the plane is modulated on each pixel with the length of the vector from the eye to the plane
+- The plane's texture is generated with the classical X xor Y pattern
+
+The Slow FPU version features a X symetry, which involves no more X scolling
+
+
+Programmed by Frederic Condolo, ex- Soundy / NGC (Amiga) / MCS  (Atari ST)
+Contact: fcondolo@yahoo.com

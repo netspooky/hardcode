@@ -1,0 +1,35 @@
+-------------------------------   tAAt  2009   -------------------------------
+
+irrelephant - asiaankuulumaton norsu
+
+
+4 KB intro for Assembly'09
+
+
+Assembly PMS (party management system) didn't allow writing the
+full name of this entry to the entry name textfield. :/
+
+
+Code + music by tArzAn
+
+The song is a traditional song so it's free of copyrights.
+
+
+Big thanks to:
+- Gopher&pOWL/Alcatraz for 4klang (Alcatraz Software Synthesizer)
+- Mentor/TBC & Blueberry/Loonies for Crinkler
+- keLmUharppU/tAAt, Ernesto/tAAt, RallivAIhDE/tAAt
+
+------------------------------------------------------------------------------
+                         ,xxx,                    .xx,
+     .,.               .x½½½½½½.                 ,½½½½½,             .,.
+    x½½½;,            .½½½P~%½½½.               ,½½½XX½½,          ,::½½,
+  .,½½½½;:,         ,;½½½P' .%½½½,             ,½½½P;;X½½p,     ..,:::½½½,...
+.xxx½½½½XXXXXXXXXXXX½½½½½xxxxx½½½½XXXXXXXXXXXXX½½½½xxxx½½½XXXXXXXXXXXX½½½xxxx.
+  .x½½½P::~~~~~~~~:X½½½P;~~~""T½½½½""""""""""x½½½½~'`;;T½½½½P~~~~~~::;½½½x.
+   ½½½½;:        .½½½½P;;      ;½½½½"       ,½½½½P   `::X½½½½,      ::;½½½
+  :½½½½;::      ,½½½½P;;        ;½½½½.     .½½½½P     `::X½½½½,     ::;½½½x
+    ~%½½½;:.   :½½½½P;;          %½½½½.   .½½½½P       `::Xx½½½;      :;lXXxX.
+        `"~     ~~~~''            `~"~     """"          ~~~~~~         `~~~`
+------------------------------------------------------------------------------
+                     http://tAAt.fi   ---   IRCnet: #tAAt

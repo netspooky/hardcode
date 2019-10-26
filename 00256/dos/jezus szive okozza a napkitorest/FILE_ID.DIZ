@@ -1,0 +1,43 @@
+jszonk.com - Jezus Szive Okozza a Napkitorest
+(Jesus's Heart is that Causes Sun Eruptions!)
+-------------------------------------------->
+
+ide okozza <---------------------------------
+
+ alvaro acwellan  / molecoola okozta ezt meg
+
+ izeee... (mindig elfelejtem a nevet, na...)
+ szoval a function'o3 (amely szamolasodban a
+ 2003. legyen) partyra elotte nem sokkal ugy
+ se fer ki jol?, szoval ide elerhetoseget is
+ muszaj okoznom? hat jo, legyen:::::::::::::
+
+ alvaro84@netelek.hu
+
+ greetingz is van (meg szunyog is van......)
+ (metamorfozison ---> megy ---->> keresztul)
+
+ shr --> Neki koszonhetem sok 1eb mellett az
+ Apophysis nevu csiszolatlan gyeeemantra fol
+ is hivta az figyelmem nagy-nagy kigyelmeben
+ Mark Townsendnek is, aki elkovette eredeti-
+ leg, hisz en *neem* regtol fogva irom, csak
+ ujabban jol.
+ blala -> megint beleirkal a file_id.dizembe
+ igy van. ja, ove a file_id.diz theory theor
+
+
+           *         *         *
+
+
+technokrat part (hw requirements):
+
+-> in theory: 386+387, 512kB RAM (the intro itself barely uses more than
+ 64k, but the main data area is at 0x60000-0x6FFFF [384-448K] and any VGA.
+-> an alpha stage version was running quite well on a P166 (with a fearfully
+ slow ISA VGA!), this version is a bit slower (maybe 1.2-1.5 times, don't
+ really know). you can expect several fps ;)
+-> framerate maximizes at 70 (standard VGA refresh) somewhere around a CPU
+ speed reaching or exceeding a 'classic' Athlon 1.4GHz
+-> it was tested on two AthlonXPs (1.2->1.76HGz), a iCeleron (800MHz) and a
+ P166, under plain DOS, win98, win2k and winXP

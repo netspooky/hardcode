@@ -1,0 +1,25 @@
+           dla wszystkich swinek malych* i duzych.
+
+                           Piggy* 
+
+                  floppy at Revision 2012
+
+ .*.   code by maq                      
+
+ .*.   with dedication all daddy pigs
+       e.g. traymuss/implexy, maestro hard / coders,
+       chaser/elude and bonzaj/plastic. piggy boys :)
+
+ .*.   supported wirh polydraw, crinkler and 
+       iq's windows system.
+
+ .*.   technically speaking this pictures is nothing 
+       more than a two dimensional distance function
+       enclosed in a fragment shader enveloped in  a 
+       quad.
+
+       
+
+
+
+

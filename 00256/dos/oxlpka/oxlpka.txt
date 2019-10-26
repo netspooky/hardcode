@@ -1,0 +1,13 @@
+
+oxlpka by silique 
+256B intro for demobit01
+http://silique.webpark.sk
+artificial@post.sk
+
+a simple raytracing on sinus landscape -> physical shadows & ambient ligth distribution .. faked! :)
+
+386+
+dos/win
+
+PS: the code is a bit dirty - runs probably only under MS DOS/WIN,
+    no other dos (e.g. free dos...), sorry

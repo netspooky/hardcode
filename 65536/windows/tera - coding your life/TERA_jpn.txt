@@ -1,0 +1,67 @@
+!=======================================================!
+|                                                       |
+|               S  y  s  t  e  m    K                   |
+|                                                       |
+|                     T E R A                           |
+|               - coding your life. -                   |
+|           a  demo  in  less  than  64KB               |
+!=======================================================!
+京都と東京より
+
+初出 :
+  2chParty'06 : http://2chparty.net
+
+パーティーバージョン :
+ 公開： 平成１８年３月３１日
+
+----------
+システム要件 :
+- 1Ghz以上のクロックで動作する，Pentium互換CPU.
+- OpenGL 1.2.1 以降をサポートしたビデオカード.
+  (Radeon9000, GeForceFx5200 以降など)
+- 256MBのメインメモリ
+- 音が鳴るサウンドカード
+- Windows XP もしくは 2K
+
+推奨システム :
+- Windows XP
+- 3Ghz動作のPrescottコアPentium 4 もしくは AthlonXP2500+ 以降
+- 最新のドライバで動作するRadeon9600XT もしくは GeForceFX5600 以降のビデオカード.
+
+----------
+Greets:
+301
+Eldorado
+daisy/TAM
+ka-i
+miURA
+mocodeng
+n.h.k.
+S.o.k.A.
+TOBY/WAZA
+VIEP
+volvox
+JP-Sceneを盛り上げてくれているすべての人たち
+
+
+----------
+年度末ということで，kiokuやsinclの引越しがあったり，
+c.r.v.の就職活動があったりしまして，全員が忙しく，
+集まるのもままならないことが多々ありましたが，
+なんとか仕上げることができました。
+
+System Kとしては3作目，MOEで作られたものとしては2作目の64Kです。
+お楽しみください。
+
+2chPartyをきっかけに，JP-Sceneが今後も発展し続けることを願って
+                                                      System K
+##############################################################
+
+Created by System K :
+  kioku@Tokyo...gfx
+  sincl@Kyoto...music
+  c.r.v@Kyoto...code
+
+Contacts :
+  site : http://www.sys-k.net/
+  mail : kioku@sys-k.net

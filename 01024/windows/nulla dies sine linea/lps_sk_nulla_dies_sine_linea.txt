@@ -1,0 +1,11 @@
+|                                       |
+|              BUENZLI 19               |
+|            Winterthur, CH             |
+|           20-22 August 2010           |
+|                                       |
+|       "nulla dies sine linea"         |
+|                                       |
+|    original code : soolta/lapsen      |
+| stripped code : rmeht/lapsen, PaN/sK  |
+|      1k compressor : crinkler         |
+|                                       |

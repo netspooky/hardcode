@@ -1,0 +1,99 @@
+Do not read this textfile unless you are eager to know how the demo
+MOTION by ZEALOTS was made.
+  
+*******************************************************************
+*  T H E   M A K I N G   O F   M O T I O N   B Y   Z E A L O T S  *
+*******************************************************************
+
+1) Introduction
+
+The demo "MOTION" can easily be seen as a kind of "Recycling-Product",
+in other words, there is nothing really new in it.
+Nevertheless "MOTION" might interest you mainly because of the nice
+connective effects, which in my eyes make this demo different from
+others of a similar data-size. So if you have not seen the demo yet
+stop reading this boring text file and enjoy "MOTION".
+
+2) General information 
+
+"MOTION" has been coded in TP 7.0. 85 % of the code is pure Pascal.
+This might be the reason for the choice of effects, e.g. there are
+no vector graphics at all. Consequently we were forced to code
+in Pascal on a very high level in order to get satisfactory results.
+That is why we spent so much time optimizing effects and excluding 
+possible bugs. (Of course we are still not sure if there are any bugs
+left.) Finally the result is quite satisfying especially regarding
+the optimization. This demo requires only a 386DX for maximum speed.
+
+As far as I can remember, our demo belongs, if you just take the
+optimized speed into account, to a very few number of demos which
+have similar opportunities. The main reason for the speed arrangement
+was that I, SDM, have only got a 386DX40. VOXEL has got a 486DX33,
+so he had to adapt to my speed level.
+
+3) Additional information concerning the effects
+
+The following information is given mainly because of the efforts
+we made to create this "masterpiece".
+In fact the whole demo group consists of two people only, so do not
+focus on the columns 'Main Code' and 'Graphics' too much.
+
+Effect (in order)       Data                      Main Code  Graphics                                                      
+--------------------------------------------------------------------
+plasma picture          2.1 sec realtime calc.    VOXEL      -
+                        (64000 dots) on 486DX33           
+magnifying glass        3674 dots                 SDM        -
+'ZEALOTS' picture       -                         -          SDM
+'PRESENT' crossfade     -                         SDM        SDM
+'MOTION' wobble         18834 dots                VOXEL      SDM
+blue carpet             -                         SDM        -
+landscape               777 dots                  VOXEL      -
+'PART' pictures         -                         -          VOXEL
+starsky                 300 dots (Not our limit!) VOXEL      -
+chaos dots              2 x 300 dots              SDM        -
+rotating pixelball      2 x 300 dots              SDM/VOXEL  -
+tube                    1633 dots                 SDM        -
+'SPACE STATION' picture 320x400 resolution        -          SDM
+colour worm             -                         SDM        -
+shadebobs               800/392 dots per frame    SDM/VOXEL  -
+shadelines              -                         VOXEL      -
+shadechaos              3703 dots per frame       SDM        -
+plasma                  3600 dots                 SDM/VOXEL  -
+sinus fractal           4 x 15741 dots            SDM        -
+                        realtime background calc.
+                        6.8 sec 386DX40
+font double fade        -                         SDM        VOXEL 
+'THE END' picture       handwriting build up      SDM        SDM       
+           
+
+Is it not a boring list ? Please do not answer !
+As a professional demo coder you might think that all the listed
+data are no reason to show off. You are right, but consider that 
+most of the effects have been coded in pure Pascal ! 
+ 
+There is still another list to follow ;-):
+
+idea of 'MOTION'        VOXEL/SDM (What did you expect?)
+assembler code          VOXEL
+main data management    VOXEL
+final code decrease     SDM/VOXEL
+background song         SDM
+
+Finally we would like to thank the following people for their
+active or at least passive support:
+
+Bresenham, Zwerg Zwack, Chicken, Element, Ion
+
+        
+THIS IS THE VERY END OF THIS TEXTFILE ....
+
+                                                     signed, SDM          
+                                                                                 
+PS: Do not hesitate to watch the demo once more, because all the
+random effects will change their pattern (e.g. plasma picture, 
+chaos shades, landscape, starsky, chaos dots, pixelball, the sinus
+plasma fade out effect and even the colour worm palette). BTW, you
+have probably noticed that some effects jerk a bit. The sound might
+be the reason for this. So press 'N' for 'no sound' this time , you 
+will not miss anything special, anyway. Do not forget :
+By pressing the "SPACE" key you can easyly skip parts you do not like.

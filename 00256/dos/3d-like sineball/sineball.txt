@@ -1,0 +1,23 @@
+
+ 3d-like sineball                                      09 may 2003
+ =================================================================
+ by gump aka Ivar Refsdal                                         
+
+ Couldn't fit antialiasing in 256 bytes (looks a lot nicer with). 
+ The code could also be further size-optimized.                   
+
+ Thanks/Greetings:                                                
+ GUDrun, Aadland, Scali, Kalms, Animal, astrox, www.mathworld.com,
+ matja, alx, rudolf, trygvis, #asm, #asm.no, sat, aku2, guro,     
+ comrade, vulture, ksd, lkdn and everyone who has written texts or
+ done something creative. Wee.                                    
+
+ <sarcasm>                                                        
+ Oh.. And in the spirit of the norwegian youth, I would like to   
+ get some negative feedback about how much this sucked or why on  
+ earth I made it. Thanks in advance.                              
+ </sarcasm>                                                       
+
+ That's about it. Sorry for the bad grammar.                      
+
+ gump -- iretd@online.no, EFNet #asm                              

@@ -1,0 +1,13 @@
+prod:    cassini
+type:    64 byte intro
+author:  frag
+date:    30-10-2011
+
+Cassini curves.
+cassini.com uses FPU.
+Right colunm can be eliminated by the cost of 2 bytes.
+cass_int.com uses integers and division instead of square root.
+Smaller and faster but looks worse.
+
+http://fsqrt.blogspot.com/
+pzagrebin@gmail.com

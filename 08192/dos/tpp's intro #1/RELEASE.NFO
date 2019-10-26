@@ -1,0 +1,28 @@
+                                                          
+         Úִ--שת                    תשת                      תש-ִִ¿
+         |  T ש P ש P ש ' ש s    I ש N ש T ש R ש O    N ש # ש 1  |
+         ְִ--שת                    תשת                      תש-ִִÙ
+
+
+  Well ppl, here it is. This is not much of a sourcecode but an old unfinished
+proggy sleeping in my HD; then i decided to distribute it as a sourcecode, so
+begginers could make themselves idea of mode 13h programming. Do whatever
+you want with it except (of course) changing GFX and/or ripping. Now i see this
+stuff i could imagine a billon ways to speed it up, please don't take it that
+seriously.
+
+  I guess i should write some tech notes here... aw, well... let me see...
+haven't seen this almost half an year... Well, as you may see all the action
+is mode 13h, so a lot of optimizing was made for fiiting all that movement in
+the rastertime of my (ex)386DX. First of all, you could use .386 and take ad-
+ventage of 386 specific opcodes. The ball plotter uses bits for storing info
+(???), and that part is the real bottle-neck of the whole stuff. I could get
+'em onto separate variables for some boost, but i wanted less size, so speed
+came after, sorry (yes, 4 bytes, but whatahell :))).
+
+  There IS a major problem with the ball plotting routine itself: it doesn't
+skip background color correctly, so balls will cut themselves when aproaching.
+I discovered that little typo after spreading it... well, try to correct it
+if you want ;)))
+
+  For more info and contacting, there you have MISC.NFO. l8r.

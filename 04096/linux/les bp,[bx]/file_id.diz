@@ -1,0 +1,26 @@
+les bp,[bx]
+an invitation intro for the 0a000h demoparty
+
+released at tUm02 in mannheim-rheinau
+
+come to 0a000h in sulzbach/murr (south germany)
+from 24. - 26. 1.2003
+www.0a000h.de
+
+
+credits
+
+code              ctulhu/headcrash
+additional code   styx/headcrash
+sound system      n0y/never
+sound tracking    manx/never
+compo delay 25h   tum orgas
+
+
+technix
+
+requires:
+pc/linux with oss, glx/openGL and libSDL
+(pretty much every current distri should work)
+
+written with gcc 3.2.1 in gentoo linux

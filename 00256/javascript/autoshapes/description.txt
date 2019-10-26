@@ -1,0 +1,13 @@
+"AutoShapes" by FPS
+
+AutoShapes are built-in VML figures which defined by O:SPT
+attribute. This sample enumerates all possible values of O:SPT
+attribute to display different shapes onto screen. Click any
+shape and it will become transparent!
+Tested on IE 5/Win98SE, IE 5.5/WinME, IE 6/WinXP.
+About author...
+Name: Peter Feodoroff
+Nick: FPS
+Age: 24
+Location: Russia
+Contact: fps2000@mail.ru

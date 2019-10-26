@@ -1,0 +1,31 @@
+                                                        
+##### ##               #                             #  
+  #    #                                             #  
+  #    ####   ##      ##  ########  ####  ###   ### ### 
+  #    #  #  ####      #   #  #  #   #  # ###  #  #  #  
+  #    #  #  #         #   #  #  #   #  # # #  #     #  
+ ###  ######  ###     ### #########  ###  ## #  ###  ## 
+                                     #          
+.about
+
+I wanted to express the impact of TDF2011, and this is my debut prod.
+
+.note
+
+THIS BINARY IS NOT PARTY VERSION.
+
+Party version consist of two files, .exe and .fx.
+After party, I wanted to know shrinked size, using Crinkler and TinyHLSL(have many bugs.).
+After all, size of this demo under 2k!! WOW!!
+But compiled after party...
+So this is plane "Procedural GFX", not "4k procedural GFX".
+
+.tool
+
+-Crinkler http://www.crinkler.net/
+-TinyHLSL http://code.google.com/p/tiny-hlsl/
+
+.about me
+
+ http://twitter.com/qatnonoil
+

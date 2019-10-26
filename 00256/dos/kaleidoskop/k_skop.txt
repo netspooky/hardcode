@@ -1,0 +1,19 @@
+
+       KaleidoSkop for DEMOBIT '00   INTRO.256
+		by bEETLE.3sc
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Dokoncil bEETLE dna 23 marca roku pane 2000
+
+Mail : nemecekm@decef.elf.stuba.sk
+
+
+         P O Z O R ! ! !
+
+     compilujte IBA pod nasm !!! (www.web-sites.co.uk/nasm/)
+
+Srdecna vdaka :
+      BAZEmu za optimalizaciu
+      LovCovi za to iste
+
+

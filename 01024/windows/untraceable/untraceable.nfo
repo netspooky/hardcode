@@ -1,0 +1,19 @@
+                               untraceable
+
+A windows 1k intro by TBC released at the 4k competition of breakpoint 2009.
+
+A last minute test seems to indicate that the owners of AMD/ATI cards
+get to see a slightly remixed version of the intro, but we are enjoying
+the party waaay to much to care about this now :). A fixed version is
+likely to be released at some point once we have fully recovered from
+the party :).
+
+Requirements:
+- Any version of windows xp or vista.
+- A fast graphics card supporting shader model 3.0.
+- A fairly recent directx (needed for d3dx9_32.dll).
+  http://www.microsoft.com/windows/directx/
+
+Credits:
+- code, cruncher: mentor
+- music: Puryx

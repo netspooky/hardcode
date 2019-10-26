@@ -1,0 +1,24 @@
+   컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴
+
+        HEAVEN                                          NOOON Productions
+        code by BARTi
+        august 10th 1995
+
+        it's a one night of coding intro, be indulgent, the code is optimized
+        for the size and not for speed it's for that reason that the 3d engine
+        is slow. (i do spacecut all the time even when it isn't necessary)
+        you can copy it as long as the files included remain unchanged.
+        it requires near 450kb of low memory to run, no problem with TSRs.
+        it contains :
+          - a fractal cloud landscape of 32000 pixels
+          - a blue and yellow bounded torus with vertical rays of 19239 polys
+          - a Lebreton tunnel of 64000 pixels (not larusse)
+          - a pink and yellow torus of 31489 polys by M. Jujote
+          - textures drawn by me with R.T.A.S.M
+          - and a thanx to schwartz who first invented the fire purple
+            background and to karl for making it in 37 bytes
+          - can a Lebreton fractal cloud glenz tunnel lead us to the HEAVEN ?
+          - a realtime triple donnuts space cut
+          - but the question is : torus or donnuts ?
+
+   컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴컴

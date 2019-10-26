@@ -1,0 +1,19 @@
+
+There is already a Sokoban implementation at pouët, by Rebels, in 1k:
+http://www.pouet.net/prod.php?which=31727
+
+Why a 4k then?
+I wanted the full 50-level set and decent graphics based
+on the original game. It's not often that you see a 4k game
+with 50 levels ;)
+
+I ran out of space to implement auto-save though...
+
+Keys:
+
+ARROW KEYS - move
+N - next level
+P - previous level
+R - restart
+
+dwim

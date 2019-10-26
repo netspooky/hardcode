@@ -1,0 +1,21 @@
+
+TP7/P5+ fix, v1.0 freeware
+
+written by Marek Futrega / MAF
+marek.futrega@students.mimuw.edu.pl
+
+
+This is a fix for programs compiled with Turbo/Borland Pascal 7.0
+which give a 'run time error 200 at xxxx:xxxx' message on faster
+pentium and all pentium 2 processors. 
+
+It's a TSR - it doesn't make any changes in your .EXE files!
+Instead, you have to start it every time you start you computer.
+This gives you a chance to run old good Pascal programs without
+recompiling! (for an example of old good Pascal programs go to:
+http://rainbow.mimuw.edu.pl/~maf/stuff.html  - my demos/intros :)
+
+This program may be freely distributed without prior permission.
+I do not take any responsibilities for damages caused by it.
+
+If you have any comments or questions feel free to e-mail me.

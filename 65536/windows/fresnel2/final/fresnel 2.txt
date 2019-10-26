@@ -1,0 +1,43 @@
+                                           __    ____    __       ____     ____
+                                       __ / (_ _\\_  \_ / /____ _\\_  \_ _\\_ /__
+                                      _)_/   /    /   //_//   /    /   /   _/   /
+                                      \ \    \_      /  \    /        /    \    \_
+                                      /__\____/______\ __\___\ _______\ ____\____/
+                                      - -diP--------------------------------dTR- -
+                                               fresnel2 by kolor ( final )
+                                                    the party 2000
+                                            p3 500 & tnt 2 & dsound & opengl     
+
+
+
+important
+
+	this is the final version of the intro. we added support for several strange things,
+	that's why its bigger than 64k.
+	p3 and better will be able to run the isse-version for more speed.
+	if its not working properly try to disable the opengl extensions.
+
+about
+
+	- this intro is pure raytracing
+	- we shoot about 10k primary rays per frame
+	- opengl is used only to rasterize the quadtree (about 30k polygons)
+	- a 3dsmax export/import combo is used to create the scenes
+	- the textures are all painted by hand and than compressed with our wavelet codec
+	- the samples are synthesized or packed with our softsynth
+	- released at tp2k
+
+credits
+
+	- code: noize, shiva, fontex
+	- music: kritix, storm
+	- graphics/3d/design: noize
+	- help with cylinders and boxes: quartz 
+	- our man at tp: poti
+	- upx/farbrausch mod: exepacker
+	- minifmod by firelight multimedia
+	- testing: krizz, pigpen, yoda, diver, storm, lord chaos, trojan
+
+contact
+
+	www.kaoz.org/kolor ( RELAUNCHED !!!!!!!! )

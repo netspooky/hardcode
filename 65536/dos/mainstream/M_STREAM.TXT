@@ -1,0 +1,33 @@
+MAINSTREAM by MOOTTORI
+64k Intro for Assembly '97 intro compo.
+
+* Requirements
+
+Needs maybe 300k of base memory, and doesn't run under Windows. Uses EMS if
+Emm386 or Qemm is active.
+
+A Pentium 133MHz or faster is recommended. I don't like how it looks on 486.
+
+Asm '97 organizers! If the "big screen" is as dark as 1996, please use the
+-g parameter ("m_stream -g") to brighten up colours.
+
+* Supported sound cards
+
+Supports GUS, SB, PAS and WSS. If none of these are found, no music will
+be played. If the computer has GUS and other cards, GUS is used. Remember
+to set the needed environment variables. 
+
+* Credits
+
+Fingers:
+ - Code
+ - Gfx, Font, Models
+ - Music sync.
+
+Special Guest:
+ - Music
+
+* Contact
+
+Moottori:
+  moottori@koillismaa.fi

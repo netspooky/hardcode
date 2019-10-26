@@ -1,0 +1,29 @@
+taG presents }oli made for DemoJS 2013
+
+>>> Launch
+Open the html file directly in Firefox or Chrome.
+
+It has been tested successfully on Cr 27 and FF 21 to 23 (aurora at the time)
+
+>>> Some details
+Our first demo, hope you'll enjoy. 
+
+gfx by bobylito / music by MrSpeaker
+
+This demo is done using : 
+  - WebGl, specifically fragment shaders
+  - Audio API without oscilators because it is not supported in FF yet
+
+Timing is based on the very precise informations we get from the 
+audio context clock.
+
+By the way, we do not take advantage of the PNG trick and we haven't
+used any libraries.
+
+This demo ranked 3rd at DemoJS 2013 in Paris.
+
+Big thanks to the orga team and all the sceners at the event.
+
+>>> Source is here : 
+  - https://github.com/taG-demo/--oli
+  - https://bitbucket.org/tag-demo/oli 

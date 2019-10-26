@@ -1,0 +1,30 @@
+Merry X-Mess
+
+A 4k intro for tUM 2003 coded by T$ (ts@deinmeister.de)
+
+Requires DirectX8, 3D graphic accelerator + Soundcard
+Initialization can take some time on slower CPUs
+
+Files included:
+
+The following versions use 32bit color depth and 24bit z-buffer:
+Ts4ktum3_640x480x24.com
+Ts4ktum3_800x600x24.com
+Ts4ktum3_1024x768x24.com
+Ts4ktum3_1280x1024x24.com
+
+The following versions use 32bit color depth and 16bit z-buffer:
+Ts4ktum3_640x480x32D16.com
+Ts4ktum3_800x600x32D16.com
+
+The following version uses 16bit color depth and 16bit z-buffer:
+Ts4ktum3_640x480x16.com
+Ts4ktum3_800x600x16.com
+
+The following version uses 15bit color depth and 16bit z-buffer:
+Ts4ktum3_640x480x15.com
+
+
+The following color modes are used:
+Display format : X8R8G8B8, R5G6B5 or X1R5G5B5
+Z-buffer format: D24S8 or D16

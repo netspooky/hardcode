@@ -1,0 +1,18 @@
+Quick and dirty guide to make it:
+
+- Just type make and follow the instructions
+- Or just do make <your desired systype>
+
+The available systypes are: unix, linux, hpux, cygwin, win32
+
+The experience on previous versions of pwplib also suggests succesful
+compilation on the following platforms:
+   - Solaris/SPARC (without sound support; also with native compiler)
+   - AIX/PowerPC (without sound support; also with native compiler)
+
+We hope to support even more platforms (such as msdos, palmos,
+macos and msx) in the future.
+
+We will release a final version sometimes after the party (Proxy 2001),
+hopefully with tested+easier compilation.
+

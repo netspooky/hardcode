@@ -1,0 +1,250 @@
+
+
+
+                  Ü
+       ÜßßßßßßßÜ   ßÜ  Üßßßßßßßßßß
+       ßßßÛ ÛÜÜß ²ÜÜÜÛ ÛÜÜÜ ßßßß
+ Üßßßßßßßß  ß               ßßßßßßßßßßßßÛß ßßÛ ßßÛß ßÜ   ÜßßßßßÛ Üß
+Û                                     Üß  Ü  Û   Û Ü  ßÜ ßÜÜÜÜ ÛßÜ
+Û                                     ßßßßß        ßßßßß       ß  ßÜÜÜÜÜÜÜÜÜÜ
+Û                                                                            ßÜ
+Û                                                                             Û
+Û               a 4k intro contribution for                                   Û
+Û                                                                             Û
+Û                       ÄÄtheÄpartyÄ1997ÄÄ       (Aars, Denmark)              Û
+Û                                                                             Û
+Û               code,                                                         Û
+Û               music:          franky                                        Û
+Û               help:         nyl, zap                                        Û
+Û                                squat                                        Û
+Û                                                                             Û
+Û                                                                             Û
+Û                       ÄÄo p t i o n sÄÄ                                     Û
+Û                                                                             Û
+Û               /nosound .... skip GUS detection routine, force nosound       Û
+Û                                                                             Û
+Û                                                                             Û
+Û               note:   the ULTRASND environment variable is NOT needed,      Û
+Û               ÄÄÄÄÄ   since a real hardware GUS-detection is being used!    Û
+Û                                                                             Û
+Û                                                                             Û
+Û                                             Ä r e q u i r e m e n t s Ä     Û
+Û                                          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ     Û
+Û                                                                             Û
+Û               Ä p133 or higher (recommended: p166)                          Û
+Û                                                                             Û
+Û               Ä about 500 kb of base-memory                                 Û
+Û                                                                             Û
+Û               Ä VESA 1.2, and a FAST graphics card!                         Û
+Û                                                                             Û
+Û               Ä GUS for synthesizer sound, 256k of DRAM are enough          Û
+Û                                                                             Û
+Û                                                                             Û
+Û       Ä r i o t Ä h o m e p a g e Ä                                         Û
+Û       ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ                                        Û
+Û                                                                             Û
+Û               www.borg-graz.ac.at/~riot                                     Û
+Û                                                                             Û
+Û                       ÄÄ o r : ÄÄ                                           Û
+Û                                                                             Û
+Û               www.riot.org  (after jan'98)                                  Û
+Û                                                                             Û
+Û                                                                             Û
+Û                                                       Ä c o n t a c t Ä     Û
+Û                                          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ     Û
+Û                                                                             Û
+Û               E-mail: f.baumgartner@tirol.com                               Û
+Û                                                                             Û
+Û               My nick-name on IRC is "frank^rt" or "franky^rt". There       Û
+Û               you can also meet other riot-members on the channels          Û
+Û               #riot, #coder, #coders.ger and maybe #austria.                Û
+Û                                                                             Û
+Û               remember:       Ä no swapping                                 Û
+Û               ÄÄÄÄÄÄÄÄÄÄ      Ä no illegal stuff                            Û
+Û                               Ä no spamming/advertising                     Û
+Û                                                                             Û
+Û                               + job-offers                                  Û
+Û                               + sponsoring                                  Û
+Û                               + knowledge-exchange                          Û
+Û                                                                             Û
+Û                                                                             Û
+Û               ÄÄvisitÄusÄhereÄatÄtheÄpartyÄÄ                                Û
+Û                                                                             Û
+Û                       the riot-crew is somewhere in hall 3 ('freak          Û
+Û                       town'?), there it's more 'quiet' than in the          Û
+Û                       other two halls. - with some luck you'll be           Û 
+Û                       able to find our tables! ;-)                          Û
+Û                                                                             Û
+Û                                                                             Û
+Û       Ä c o p y r i g h t Ä e t c . Ä                                       Û
+Û       ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ                                        Û
+Û                                                                             Û
+Û               this peace of software is copyright (c) 1997 by               Û
+Û                                                                             Û
+Û                        ÄÄÄtheÄmembersÄofÄriotÄÄÄ                            Û
+Û                                                                             Û
+Û               we are in no way responsible for any damage caused            Û
+Û               by usage or misusage of this software!                        Û
+Û                                                                             Û
+Û               you are allowed to and should even spread this program        Û
+Û               on (non-)commercial CD-ROM's without our special commitment!  Û
+Û                                                                             Û
+Û               - of course it would be cool if you could sponsor us in some  Û
+Û               way, since YOU are making the money using OUR programs. ;-)   Û
+Û                                                                             Û
+Û               you are NOT allowed to change/add/remove anything of/to/of te Û
+Û               original release archive!!                                    Û
+Û                                                                             Û
+Û                                                                             Û
+Û                                         Ä t e c h n i c a l Ä i n f o Ä     Û
+Û                                          ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ     Û
+Û                                                                             Û
+Û               Ä 160 bytes com-unpacker                                      Û
+Û                                                                             Û
+Û                       also coded by frank, it's NOT ripped from             Û
+Û                       any program like lz-exe, pk-lite or whatever!         Û
+Û                                                                             Û
+Û                       unpacked program size:          4600 bytes            Û
+Û                                                                             Û
+Û                       i don't know if it's as fast as ARJ or whatever,      Û
+Û                       but i think that makes no sense anyway when           Û
+Û                       decoding just 4k... ;-)                               Û
+Û                                                                             Û
+Û                       the compression program has been written in           Û
+Û                       watcom c++                                            Û
+Û                                                                             Û
+Û               Ä fourier synthesizer                                         Û
+Û                                                                             Û
+Û                       basically 3o3 oriented, but without distortion        Û
+Û                                                                             Û
+Û                       the samples are precalculated at program startup      Û
+Û                       and are then copied into the GUS DRAM.                Û
+Û                                                                             Û
+Û                       the synthesizer itself is based on fourier            Û
+Û                       synthesis, signal type: saw-tooth.                    Û
+Û                                                                             Û
+Û               Ä sequencer                                                   Û
+Û                                                                             Û
+Û                       this is a real sequencer, no 'tracker', which         Û
+Û                       plays given variable-length sequences on up to        Û
+Û                       32 channels. each channel has its own arrangement     Û
+Û                       where the sequences or effects can be defined.        Û
+Û                       when playing a sequence on a specific output          Û
+Û                       channel, the following effects can be used:           Û
+Û                                                                             Û
+Û                               transpose, volume, phase-shifting,            Û
+Û                               set instrument, set instrument phaser,        Û
+Û                               panning, delay                                Û
+Û                                                                             Û
+Û               Ä music data                                                  Û
+Û                                                                             Û
+Û                       the music data has been defined directly within       Û
+Û                       the asm-source, using TASM-macros to calculate        Û
+Û                       frequency-tables, defining notes as constants         Û
+Û                       and then 'play' with these constants...               Û
+Û                                                                             Û
+Û               Ä particle system                                             Û
+Û                                                                             Û
+Û                       the particles are calculated new every frame,         Û
+Û                       created in orthogonal space, then converted           Û
+Û                       into 3d-vector data, finally rotated and              Û
+Û                       displayed.                                            Û
+Û                                                                             Û
+Û                       total number of particles: 8192                       Û
+Û                                                                             Û
+Û               Ä font engine                                                 Û
+Û                                                                             Û
+Û                       basically, the font is calculated from the            Û
+Û                       8x8 system bios font.                                 Û
+Û                                                                             Û
+Û                       the resulting 'soft-font' is even proportional,       Û
+Û                       which means the letters have variable width.          Û
+Û                                                                             Û
+Û                       warning: there is some serious math behind            Û
+Û                       ÄÄÄÄÄÄÄÄ the font calculation routine!                Û
+Û                                                                             Û
+Û                       before i've found the new 'magic' font code, i've     Û
+Û                       tried to use a discrete cosine transform (DCT)        Û
+Û                       to calculate a 2d-frequency spectrum (this is         Û
+Û                       also done by the JPEG picture compression algos)      Û
+Û                       and then use some kind of 2d-lowpass filter.          Û
+Û                                                                             Û
+Û                       unfortunately, this didn't look that good, but        Û
+Û                       i've found some slightly different way to get         Û
+Û                       very nice fonts, and it works wonderful hehe...       Û
+Û                                                                             Û
+Û               Ä writer                                                      Û
+Û                                                                             Û
+Û                       the writer has dynamic left/centering/right           Û
+Û                       routines, since there are different 8x8 bios          Û
+Û                       fonts out there, and the letter-widths may            Û
+Û                       change from system to system.                         Û
+Û                                                                             Û
+Û               Ä speed                                                       Û
+Û                                                                             Û
+Û                       this program has been designed to run perfectly       Û
+Û                       on a p166. in addition, it has been highly            Û
+Û                       optimized for size and not for speed!                 Û
+Û                                                                             Û
+Û                       you should als be just fine with a p133 and a         Û
+Û                       fast video-adapter, the whole intro has been          Û
+Û                       programmed on such a system.                          Û
+Û                                                                             Û
+Û                       the full-screen motion-blurring takes most of         Û
+Û                       the time!                                             Û
+Û                                                                             Û
+Û               Ä source                                                      Û
+Û                                                                             Û
+Û                       the complete, documented assembler source-code        Û
+Û                       of the whole project is almost exactly 100k.          Û
+Û                                                                             Û
+Û                                                                             Û
+Û       Ä g r e e t i n g s Ä                                                 Û
+Û       ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ                                        Û
+Û                                                                             Û
+Û               Ä adok^hugi.............bin schon gespannt auf hugi #9!! ;)   Û
+Û                                                                             Û
+Û               Ä brain.................wie geht's in UK ? :-)                Û
+Û                                                                             Û
+Û               Ä gnilk^noice...........hope to meet you here at TP '97!      Û
+Û                                                                             Û
+Û               Ä kb^tom^purge,                                               Û
+Û                 red-13................ich platze schon fast vor spannung    Û
+Û                                       wegen eurem 4k!!! ;-)                 Û
+Û                                                                             Û
+Û               Ä purge.................warum ausgerechnet finnisch ???       Û
+Û                                                                             Û
+Û               Ä Guido de Haan.........thanks for your help, buddie!         Û
+Û                                       unfortunately i couldn't finish       Û
+Û                                       the PM synthi until now, but          Û
+Û                                       there's always a next time! ;-)       Û
+Û                                                                             Û
+Û               Ä noize^k...............deinen 'humor' werde ich nie          Û
+Û                                       verstehen! :-)                        Û
+Û                                                                             Û
+Û               Ä neo software..........the austrian scene lives!             Û
+Û                                                                             Û
+Û               Ä d-lee^exceed..........surprised? ;-)                        Û
+Û                                                                             Û
+Û               Ä maz...................bis zur mekka '98!                    Û
+Û                                                                             Û
+Û               Ä nix,                                                        Û
+Û                 probe^tbl.............i love that mp4-story! hehe...        Û
+Û                                                                             Û
+Û               Ä all sysops of                                               Û
+Û                 our dist-sites........thanks for supporting us!             Û
+Û                                                                             Û
+Û               Ä the whole western                                           Û
+Û                 saloon-community......for discussing about almost           Û
+Û                                        everything :)                        Û
+Û                                                                             Û
+Û               Ä shiva^k                                                     Û
+Û                 siriuz^k..............thanks for helping carrying our       Û
+Û                                       bags!! :)                             Û
+Û                                                                             Û
+Û               Ä everybody i've forgotten here! O:-)                         Û
+Û                                                                             Û
+ ßÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜÜß
+
+
+

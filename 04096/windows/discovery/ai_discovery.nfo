@@ -1,0 +1,20 @@
+
+specs:
+- requires DX11, Shader Model 5, Win8 (or d3dcompiler_47.dll), an atomerõmû, and about 1.5 minutes of free time
+- 1280x720
+- 44khz, 16bit, stereo
+
+used tools:
+- crinkler 4k compressor by Rune L. H. Stubbe (Mentor/TBC) and Aske Simon Christensen (Blueberry/Loonies)
+- shader minifier by Ctrl-Alt-Test
+
+technology:
+- view dependent recursive icosahedron subdivision using geometry shaders & stream out (15 passes)
+- 10 octaves of 3d simplex noise for the terrain (and lots of small hacks for the lighting)
+- semi-deferred rendering enabling normal reconstruction without noise derivatives
+- 48 steps of ray marching for the atmospheric scattering algo including the clouds (<- slowness ensues)
+- filmic tonemapping (read: cheap)
+- pixel shader sound precalculation
+
+reptile/astroidea
+vrbalazs@gmail.com

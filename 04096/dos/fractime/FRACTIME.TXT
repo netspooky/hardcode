@@ -1,0 +1,8 @@
+
+  FracTime's Requrements:
+
+    þ 340 kByte DOS Memory
+    þ 486DX (A DX2/80 Is Enough!)
+    þ Fast! VGA Card (VLB or PCI Recommended)
+
+                                                  Stephen (TM)/Silicon BRAIN

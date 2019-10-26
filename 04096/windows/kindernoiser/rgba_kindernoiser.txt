@@ -1,0 +1,86 @@
+
+              _._________ .______    .________  .______/\_
+               |    ____/_|  ___/____|  _____/__|   ___  /_
+               |   __    /|  \      /_   ___   /_    _    /
+               |   \   .:\|   \__  .:/   \_   .:/    |  .:\
+               |____\     \_________/__________/_____|_____\
+               -//---\_____\------------------------lm!--//-->
+
+
+                               kindernoiser
+
+                another kinderintro by rgba [www.rgba.org]
+
+              presented at BCN Party 2007 [www.bcnparty.org]
+
+
+
+ .warning :: freak words.
+
+   i have being toying with fractals even before i made my first demoscener
+   prod, which not surprisingly was a  64 kb intro called  "fractal chaos".
+   as you probably know, dear fractal freak, there is nothing special about
+   rendering 3d julia sets for quadratic polynmials, and so the internet is
+   crowded with such images (quaternionic mostly), mines included
+
+   [publicity]
+   http://www.rgba.org/iq/fractals/f3d/f3d.htm
+   http://www.rgba.org/iq/fractals/videos/videos.htm#f3d
+   [/publicity]
+
+   but doing it on real time is another story. but only until you understand
+   what the Hubbard-Douady potential is and the doors of the famous distance
+   estimator formula open [hello UltraFractal users]. that tool in hand, one
+   can speed up the rendering [raymarching] up to 8 fps by using sse, in one
+   core cpu. since gpus are powerfull parallel machines, trying it there was
+   the obvious step.  so obvious that actually  Keenan Crane  tryed it three
+   months before me :(
+
+   http://graphics.cs.uiuc.edu/svn/kcrane/web/project_qjulia.html
+
+   both implementations are similar of course.  mine is slightly faster  and
+   features analytic normals based on the gradient of the H-D potential, but
+   it's a bit less accurate for high iteration counts.
+
+
+
+ .shading :: ssao.
+
+   the intro also features some kind of realtime ambient occlusion, based on
+   ideas published by crytek that works quite fast actually  [the bottleneck
+   is the raymarching].
+
+
+
+ .hd :: requirements.
+
+   you need a pretty powerful gfx card for this one,  it's all about shading
+   and bandwidth.  so you better try on an ati 2900 or nvidia 8800... i suck
+   and i don't care. it is also watchable on x1950 cards at 640x480.  forget 
+   about nv7800 and lower spec machines.  on non ps3.0 gfx cards, it goes to 
+   software rendering  [that's how i programmed it!]. this intro is meant to 
+   be watched in two years.  i wasted half kilobytes on a dialog [instead of
+   the music],  so all fractal freaks can watch the thing  at good framerate 
+   both today and tomorrow.
+
+
+ .greetings :: to our friends and/or heros.
+
+   asd    bixo   calodox    collapse    conspiracy    farbrausch    fairlight
+   fuzzion   kakiarts   loonies   necrostudios    nocturns   plastic   rebels
+   skim     software failure     speckdrumm     spontz    stravaganza     tbc
+   timescratchers    traction     xplsv     zona neutra
+
+   and also to some individuals
+
+   auld, gina, simon
+
+
+ .credits :: as usual.
+
+   coding, putting floors, drilling, milkynoising :: iq:: [www.rgba.org/iq]
+   crinklering :: mentor+blueberry :: [www.crinkler.net]
+
+
+
+

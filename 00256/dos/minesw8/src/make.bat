@@ -1,0 +1,1 @@
+FASM.EXE -m 1000 -p 10 minesw8.asm minesw8.com

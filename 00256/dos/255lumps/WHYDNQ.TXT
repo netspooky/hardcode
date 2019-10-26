@@ -1,0 +1,30 @@
+Purtroppo ci sono stati due casi di squalifica.  E' giusto che li motivi, in
+qualita' di organizzatore della IntroCompo.
+
+==============================================================================
+
+255LUMPS by Dr.Kappa/Spyral
+
+Questa intro, che avrebbe vinto di larga misura se non fosse stata
+squalificata, utlizza per generare la palette lo stesso codice di KOO's.COM di
+PaN/Spinning Kids.  Lo stesso autore lo ha ammesso, giustificando la cosa con
+il fatto che PaN avrebbe distribuito i sorgenti.  In tal caso non ci sarebbe
+stato, ovviamente, motivo di squalifica (non ritengo che sfruttare sorgenti
+pubblicamente diffusi sia plagio, anche se l'autore andrebbe citato, perche'
+se uno non desidera che il proprio codice sia noto semplicemente non mette in
+giro i sorgenti e stop).  Contattato telefonicamente, pero', PaN ha smentito
+di aver diffuso i sorgenti di KOO's.COM in modo volontario, e a fronte di
+questo restano l'appropriazione indebita o il reverse engineering.
+
+
+WinDevil95 by Dario Farinella (The Buccaneer)
+
+Penso sia evidente a tutti che il codice del fuoco in questa intro risulta
+rippato bellamente dalla intro vincitrice della 128b Compo russa, CROSS.
+Interpellato in merito in matrix, l'autore non ha nemmeno risposto.  
+Detto fuori dai denti, lo proporrei come Lamer dell'Anno :)
+
+==============================================================================
+
+
+Drift

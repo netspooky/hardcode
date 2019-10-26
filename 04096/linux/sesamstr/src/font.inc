@@ -1,0 +1,51 @@
+#  font.inc - some highly compressed font for 'sesamstr'
+#	      only 6 bytes a glyph, decompressed about 1.7mb
+#	
+#  Copyright (C) 1999 Jorik Blaas and Tijs van Bakel
+#  Jorik Blaas <jrk@vengeance.et.tudelft.nl> (avoozl)
+#  Tijs van Bakel <smoke@casema.net> (smoke)
+# 
+#  This file is part of sesamstr, a 4k linux intro
+#
+#  This program is free software; you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation; either version 2, or (at your option)
+#  any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; see the file COPYING.  If not, write to
+#  the Free Software Foundation, 675 Mass Ave, Cambridge, MA 02139, USA.
+
+font_codes:
+.word 0b001100000100000, 0b100101100101100, 0b100100100100010   # A
+.word 0b100100100100100, 0b100101101100101, 0b011100100010101   # B
+.word 0b001100100100000, 0b100101101101100, 0b100101101101100   # C
+.word 0b001100100000101, 0b100101101100101, 0b100100100100100   # D
+.word 0b001100100100000, 0b100101100101100, 0b011100011100010   # E
+.word 0b100100100100000, 0b101101100101100, 0b101101101101010   # F
+.word 0b001100001100000, 0b100101100101100, 0b011100100100010   # G
+.word 0b100100100100100, 0b101101101100101, 0b100100100010101   # H
+.word 0b101101101101101, 0b100100100101100, 0b101101101101101   # I
+.word 0b100101101101101, 0b011100100101100, 0b101101101101101   # J
+.word 0b100100100100100, 0b101101100101101, 0b100100011100101   # K
+.word 0b100101101101100, 0b100100100100100, 0b100101101101101   # L
+.word 0b100100100100010, 0b101101101100101, 0b100100100100000   # M
+.word 0b100100100100100, 0b101101101101100, 0b100100100100010   # N
+.word 0b001100100100000, 0b100101101101100, 0b011100100100010   # O
+.word 0b100100100100100, 0b101100101101100, 0b101011100100010   # P
+.word 0b101001100100000, 0b101100101101100, 0b100100100100010   # Q
+.word 0b100100100100100, 0b101101101101000, 0b101101101100010   # R
+.word 0b100101001100000, 0b100101100101100, 0b011100010101100   # S
+.word 0b001100100100100, 0b100101101100101, 0b100101101101101   # T
+.word 0b001100100100100, 0b100101101101101, 0b100100100100100   # U
+.word 0b001100100100100, 0b100101101101101, 0b011100100100100   # V
+.word 0b011100100100100, 0b101100101101101, 0b001100100100100   # W
+.word 0b100100000001100, 0b101101100100101, 0b100100010011100   # X
+.word 0b100101001100100, 0b100101100101101, 0b011100100100100   # Y
+.word 0b100100000101100, 0b100101100101100, 0b100101011100100   # Z
+.word 0b101101101101101, 0b101101101101101, 0b101101101101101   # space

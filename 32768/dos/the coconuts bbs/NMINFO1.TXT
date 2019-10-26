@@ -1,0 +1,154 @@
+		       N u c l e a r   M e l t d o w n
+ 
+		       ÛßßßßÜ  ÛßßßÛ ÛßßßßÜ     ÜßßßßÛ
+		       Û     ßÜÛ   Û Û     ßÜ Üß     Û
+		       Û       ß   Û Û       ß       Û
+		       Û   ÛÜ      Û Û   ÛÜ     ÜÛ   Û
+		       Û   Û ßÜ    Û Û   Û ßÜ Üß Û   Û
+		       ÛÜÜÜÛ   ÛÜÜÜÛ ÛÜÜÜÛ   ß   ÛÜÜÜÛ
+ 
+		       P  R  O  D  U  C  T  I  O  N  S
+
+			    - Group History 1.0 -
+
+
+Welcome to the official NM Prod. Group History info file!  Since I'm the
+official Gore-dude of the group I'll be leading you on this guided tour.
+
+Nuclear Meltdown Productions is a new group on the often made fun of
+American demo scene.  Our goal is simply to have fun and put out an
+occasional production.
+
+First, let's start with a current-up-to-date-awesome-member-list.
+Nuclear Meltdown Productions is:
+
+Handle              Position                            Age
+ÄÄÄÄÄÄ              ÄÄÄÄÄÄÄÄ                            ÄÄÄ
+Joe Snow            Main Coder                          16
+Clueless            Gore-dude and occasional coding     17
+Esteban             Graphics                            19
+
+We NEED a musician.  Keep reading for more info.
+
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+Now that you know who we are I'll tell you a bit about how we came about.
+The name Nuclear Meltdown came from a BBS that Joe Snow was a cosysop of
+a couple years back.  Thanks to some of Joe Snow's other productions many
+people were calling the board and it was getting rather large.
+Unfortunately problems developed and the original Nuclear Meltdown BBS had
+to be shut down.  Thus, Joe Snow's little BBS called Nuclear Meltdown Line 2
+effectively became line 1.  During this time there was no Nuclear Meltdown
+Productions and Joe Snow simply coded on his own, making many useful and fun
+programs (see Release List later in this file.)
+
+Joe Snow taught himself how to code in C when he was 10 years old, between
+fall and winter of that year, on a 286, with a CGA graphics card and
+monochrome monitor.  A vague understanding of assembly was somewhat aquired
+several years later although almost all coding is still done in C.
+
+Then, a year or two ago I (Clueless) got my hands on a modem and through it
+became good friends with Joe Snow.  At this time the only coding I had done
+was in BASIC and I knew nothing about the demo scene.  Joe Snow showed me
+some demos and I was hooked.  A short time later I taught myself how to code
+in C.  We then had the great idea to form a small demo group.  Now, as you
+can imagine we had quite a ways to go with one good coder and one beginner
+coder.
+
+Esteban started his art career at the tender age of 6 by watching the TV
+show starring Captain Bob.  When he was 16 his family got their first
+computer and a year later Esteban got the program Fauve Matisse for
+Christmas. Fauve is his favorite program and others he uses are
+PC Paintbrush and Freehand 4.0.  At college he is currently majoring
+in Graphic Art.  I'd been good friends with Esteban for a while and knew
+that he was a good artist and liked to draw things on his computer.
+We asked him if he'd like to join our little group and he accepted.
+
+ÚÄÄ
+³ Now all we need is a musician.  If you are a musician and would like to
+³ join Nuclear Meltdown Productions just let us know (see Contact Info).
+³ We'll listen to something you've made and most likely you'll be accepted.
+³ It would be preferable if you live somewhere in New England but if you
+³ have an Internet account it doesn't really matter where you live.
+ÀÄÄ
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ Quick Current Update and Fast Facts ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+Joe Snow is Phil Hassey, has yet to get his driver's permit, and will be a
+junior at Whitinsville Christian School this fall.  His current computer is a
+486DX2/66 w/24 meg RAM and a SB sound card.
+
+Clueless is Jason Maas, has his driver's license <g>, and will be a senior at
+the Mass Academy of Math and Science this fall.  His current computer is a
+486DX2/66 w/8 meg RAM and SBPro and GUS ACE sound cards.
+
+Esteban is Steve Ziegler, also has his driver's license, and will be a
+sophomore at Bellhaven College in Mississippi this fall.  His current
+computer is a 486SX/33 w/8 meg RAM and NO sound card.
+
+All of us reside in Whitinsville, Massachusetts, USA.  Also, all of us have
+at one time or another gone to Whitinsville Christian School.  If you're
+ever in the area look us up...
+
+
+			       ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+			       ³ Release List ³
+			       ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Program Name                            Author        Approx. Release Date
+ÄÄÄÄÄÄÄÄÄÄÄÄ                            ÄÄÄÄÄÄ        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+NM Intro 1 (BBS ad)                     Joe Snow      June '93
+Ultimuh (Ultima parody)                 Joe Snow      July '93
+Joe Snow 1-4 (action games)             Joe Snow      August '93
+Joe Snow Paint 1.01 (ANSi editor)       Joe Snow      December '93
+Doom the Cheat 1-3 (Doom cheat)         Joe Snow      January '94
+Demons Revenge BBS Ad                   Joe Snow      June '94
+Pong 1.0 (action game)                  Clueless      June '95
+NM2 (BBS ad)                            Joe Snow      July '95
+Soap (Dope parody)                      Joe Snow      August '95
+Coconuts BBS Ad                         NM Prod.      August '95
+Joe Snow Paint 4 (ANSi editor)          Joe Snow      August '95
+
+			      ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+			      ³ Future Releases ³
+			      ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+Program Name                            Author        Approx. Release Date
+ÄÄÄÄÄÄÄÄÄÄÄÄ                            ÄÄÄÄÄÄ        ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+The Lynch (demo)                        NM Prod.      summer or fall '95
+Galcon (strategy game)                  Joe Snow      2nd half of '95
+Rustic Classics (action game package)   Joe Snow      2nd half of '95
+VGA Beast (remake of the classic)       Clueless      summer or fall '95
+Pong 2.0 (bigger and better)            Clueless      who knows?         
+
+
+ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+³ Contact Info ³
+ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+Internet:  clueless@wpi.wpi.edu
+
+BBS:  Nuclear Meltdown BBS     (508) 234-2075
+      email Joe Snow or Clueless
+
+Regular Mail:
+
+Joe Snow:      Phil Hassey
+	       627 Carpenter Rd.
+	       Whitinsville, MA  01588
+	       USA
+
+Clueless:      Jason Maas
+	       14 Heritage Dr.
+	       Whitinsville, MA  01588
+	       USA
+
+Esteban:       Steve Ziegler
+	       166 Ivy Lane
+	       Whitinsville, MA  01588
+	       USA
+
+
+Well, that's about it.  I hope you feel that you know us better now...
+
+- Clueless '95

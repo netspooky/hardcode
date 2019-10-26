@@ -1,0 +1,28 @@
+This could have easily be done in vga mode 13, and that is how i origianlly
+had it but it didn't look right, in fact it looked pretty dumb..
+
+	Use the    ","   and   "."   to navigate left or right
+		    <           >
+Esc Quits.
+
+The number at the end is your score.. It's in Hex though.. It could be
+converted to decimal for an extra 20 - 30 bytes or so.. Anyhow I figure
+that we all should know our hex by now especially if you care enough to
+look at cheezy 256 byte games! ;)
+
+
+
+Code By Seks/DiViNE     seks403 on irc #coders     seks@bud.tic.ab.ca
+
+Many Thanks to Silent Avenger for his help, and bug sniffing.. | )
+Greets to :
+
+	Fysx, Micheal Abrash, Nitro, Pandaro, Pheobus, Silent Avenger,
+	Silver Conception, Tran.. + all other people i know.
+
+IRC people :
+
+	ae-, anixter, doom, godhead, hasty, kodiak_, lb, Mainframe, Martist,
+	metal, omni, snibble, volt.. + all others..
+
+Watch out for DiViNE at NAID'95.

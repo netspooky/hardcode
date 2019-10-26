@@ -1,0 +1,59 @@
+                        Money - makes the world go round
+                            (actually, inertia does)
+
+    (C)opyright 1994 Entropy
+
+
+   System requirements:
+
+      386 processor
+      VGA card
+      Adlib or compatible card for music
+      230Kb of conventional memory
+
+     Recommended:
+
+      486 processor
+      Local bus VGA card
+
+
+   Full credits:
+
+    Code (ASM) . . . Mandel-logo          - HB
+                     Zoom & rotate        - Quark
+                     Glenz vectors        - HB
+                     Falling Cash         - HB
+                     Bouncing Greetings   - HB
+
+                     Video kernel         - Quark
+                     Music routines       - HB
+
+    Graphics . . . . Arranged by          - Camel
+
+    Music  . . . . . Composed by          - Camel
+
+
+   Miscellaneous:
+
+      This demo arose when Quark and I (HB) began downloading demos from
+   Australian groups. They are absolutely pathetic. 90% of them are written
+   in C. So, we thought...we have a week until Christmas. Why not write
+   something nice over our holidays? And here it is...we know that it's not
+   quite as good as some 64k demos out there, but it's not intended to be
+   a masterpiece (not that it isn't). If it crashes on your computer , or
+   if you live somewhere in Sydney and think you are worthy of assisting
+   us, or even if you would just like to tell us something about it, just
+   fax me on +61 2 662 7330, or you can even try voice (the fax machine is 
+   next to my computer, so there's a good chance that I'll be there). Calls
+   between 12pm and 6am in the morning will not recieve a happy welcome, so
+   call at your own risk.
+
+
+   Disclaimer:
+
+      Quark would like to say that he disowns this demo, especially the
+   Adlib music. He thus has absolutely nothing to do with it, except for
+   not finishing the GUS driver on time. A GUS version of the demo will
+   hopefully be released soon.
+
+ P.S. The contents of this demo in no way reflect our financial status.

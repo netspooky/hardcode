@@ -1,0 +1,9 @@
+VAR I:LongInt;
+PROCEDURE Hallo;
+BEGIN
+  Inc(I);
+END;
+BEGIN
+  I:=$12345678;
+  Hallo;
+END.

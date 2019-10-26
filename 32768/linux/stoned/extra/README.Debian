@@ -1,0 +1,13 @@
+On most Debian and some other systems, only static versions of some libs are
+supplied. This would force us to link statically against them, which would be
+like linking DirectX in.
+You can fix your system by creating dynamic versions (shared objects) of the
+libs.
+Just do the following as root.
+
+cd /usr/X11R6/lib
+ld --whole-archive -shared -o libXxf86dga.so libXxf86dga.a 
+ld --whole-archive -shared -o libXxf86vm.so libXxf86vm.a 
+ld --whole-archive -shared -o libXv.so libXv.a 
+ldconfig
+

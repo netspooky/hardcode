@@ -1,0 +1,15 @@
+
+Into name:	Quantum Flame
+Group:		DMA (Digital Mafia)
+Genre:		4k (as if you didn't notice)
+Requirements:	Shader Model 3.0 and a lot of fill rate
+Code:		KK
+Gfx:		KK
+Msx:		KK
+Synth:		KK
+Compression:	Crinkler (respect to you, guys for this)
+
+
+
+Have fun,
+KK / DMA

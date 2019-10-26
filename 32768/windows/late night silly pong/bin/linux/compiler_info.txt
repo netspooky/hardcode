@@ -1,0 +1,1 @@
+Compiled with gcc version 3.3 (Debian) - SDL version 1.2

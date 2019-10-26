@@ -1,0 +1,85 @@
+
+; =========================================================
+
+; Define macros VAR, VAR_INITIALIZE AND VAR_DEALLOCATE
+
+; by Kim Holviala 11/1994
+
+
+; VAR variable_name, BYTE|WORD|DWORD [, value]
+;   Creates an variable with an optional value
+
+;   VAR x, DWORD, 160 
+;     Creates 3 variables:
+;       1) x      (DWORD, 160)
+;       2) WORD_x (Lenght override)
+;       3) BYTE_x (      -"-      )
+
+; VAR_INITIALIZE
+;   Allocates variables from the stack and sets up the BP-register
+
+; VAR_DEALLOCATE
+;   Releases stack space used by variables
+
+
+var_allocate = 0
+var_values EQU <>
+
+MACRO VAR var_name, var_type_lenght, var_value
+  
+  var_temp EQU var_type_lenght
+  
+  IFIDNI %var_temp, <BYTE>
+    var_name CATSTR <[BYTE BP+>, %var_allocate, <]>
+
+  ELSEIFIDNI %var_temp, <WORD>
+    var_name CATSTR <[WORD BP+>, %var_allocate, <]>
+;;    BYTE_&var_name CATSTR <[BYTE PTR BP+>, %var_allocate, <]>
+
+  ELSEIFIDNI %var_temp, <DWORD>
+    var_name CATSTR <[DWORD BP+>, %var_allocate, <]>
+;;    WORD_&var_name CATSTR <[WORD PTR BP+>, %var_allocate, <]>
+;;    BYTE_&var_name CATSTR <[BYTE PTR BP+>, %var_allocate, <]>
+
+  ENDIF
+
+  var_allocate = var_allocate + var_type_lenght
+
+  var_temp EQU var_value
+  
+  IFNB var_temp
+    var_values CATSTR %var_values, var_name, <,>, %var_temp, <@>
+  
+  ENDIF
+
+ENDM
+
+
+MACRO VAR_INITIALIZE
+
+  SUB SP,var_allocate
+  MOV BP,SP
+
+  var_start = 1
+  var_end = 1
+  var_val_size SIZESTR var_values
+  
+  WHILE var_end LT var_val_size   
+
+    var_end INSTR var_start, var_values, <@>
+    var_temp SUBSTR var_values, var_start, var_end - var_start
+    MOV var_temp
+    var_start = var_end + 1
+
+  ENDM
+
+ENDM
+
+
+MACRO VAR_DEALLOCATE 
+  
+  ADD SP,var_allocate
+
+ENDM
+
+; =========================================================

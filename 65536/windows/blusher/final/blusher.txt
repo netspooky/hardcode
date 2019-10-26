@@ -1,0 +1,99 @@
+                      __ _                          _ __
+                   _ _)//_)-- -  -          -  - --(_\\(_ _
+                     |                                  |
+                     |                                  |
+            ____     |   ______    ______  _____   ___  |   ___
+         _ /_  //_____ _\\_    \ _/     /_\\_   \_/  //____/  //____
+        _)   \_      /    /    / \     /    /    /__      /__      /
+        \     /     /    /    /   \___/    _    /  /     /  /     /
+        /___ /______\ _   ___/______\ _____\____\ _______\ _______\
+     - ------------diP-\__\---------------------------------------- -
+                                 B Y P A S S 
+     - ------------------------------------------------------------ -
+                     |                                  |
+                     |           A     N     D          |
+                     |                                  |
+                     |__ _.                    .__ _    |
+                  _ _:)                            (_   |
+                     |   [ B L A C K               _|_  |   ______
+       _____        _.              ___      ___  / _// |  /     /
+     _/ _  /_____/// |  ____ _______\_ \____/ _/  ______: /     /
+     |  /_           | /   /.)        _       |  /      |/     <
+     | . /          _|/             . /       | /       |\      \
+     |_|/      _._  \/     _._      |/   _._  |/        | \      \
+      /________\ /_________\ /___________\ /____________|  \      \_
+            __       .                              .`don   \______/ ._____
+       __  /_ \__    |  ___          _      ___________  ___         |    (.
+    ._/ _\//|   (_______\_ \_______(_//____/._ _      /_/ _/  _____  |     |
+    |   |\/ |             _                 |  /         _\._/    _\ |     |
+    |   |   |           . /                 | /     /    \ |      |\\|     |
+    |___|   |_          |/    _._           |     _/      \|      | \      |
+            :/________________\ /_________________\_______________|  \_____|
+                    _.                                  .
+         \\\\\\\\\\\\_         M  A  I  D  E  N ]       |
+                     |                                  |
+                     |                                  |
+                     |  P    R    E    S    E    N   T  |
+                     |  -    -    -    -    -    -   -  |
+ __                  |                                  |                   __
+_)//-----------------|- -  -                      -  - -|------------------\\(_
+
+
+	blusher -  a 64k intro for geekcamp 2002
+
+	won the geekcap intro/demo compo held on 18-20 october 2002
+	
+	final version release date: january 14th 2003
+
+
+ 	_credits
+	3d		pandur			tom at drastic . net
+	music		marek vs. kaneel	marek at nomorecubes . com
+						kaneelisdead at hotmail . com
+	exporter code	supah			supah at nomorecubes . com
+	intro code	warp			markus at unik . de
+	
+
+	_changes
+	+you can now enjoy the final version of blusher on ati cards :)
+	+fixed greetings and credits scenes.
+	+hq version
+	+a superelite textbox :)
+	
+	_notes
+	four different tunes were made for the intro. two by marek, another two
+	by dhg.. (changing the overall concept sucks:) the last made it into the
+	final release.
+	we compiled a special "high quality version" for you where music-quality 
+	and animations are much better. 
+	to some unknown reason, the intro runs slow in windowed mode with nv 41.09
+	drivers installed. so please try to enjoy in fullscreen!
+
+	_thanks
+	to all who helped while producing this. you know who you are!
+
+	_requirements
+	you should run the show on some decent machine with at least a geforce2 or
+	radeon8500 graphics card. we were reported that it even runs on tnt1 cards
+	(of course with some significant performance decrease).
+
+	_complete hugs
+	aardbei ainc alienprophets black maiden blasphemy calodox cncd cocoon cryonics
+	damage dcs digital underground dxm epidemic exceed excess fairlight farbrausch
+	freestyle frogwize fudge funktion fuzzion halcyon haujobb headcrash inf kolor
+	komplex loveboat lunix madwizards magic dreams mainloop mandarine mandula mass
+	matrix mfx mindforce moppi noice neurotica efs orion park potion prone purple
+	rebels replay scarab skp spinning kids science suburban sunflower suspend 
+	syndrome tbl tdr threepixels threestate tpb tpolm t-rex vantage 
+
+	_visit
+	bypass.scene.org
+	blackmaiden.de
+	or feel free to contact us by our email address!
+
+                                                                              .
+.                                                                             |
+|                                                                             |
+|_  _                                                                     _  _|
+:/-//---------------------------------------------------------------------\\-\:
+.                      ascii by don rapello & dipswitch                       .

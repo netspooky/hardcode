@@ -1,0 +1,34 @@
+About :
+
+This is  our  first intro.  It  looks
+worse  then some 4kb intros. I  wrote
+it in C and asm on p100 using Borland
+C++  4.0  (probably  the most  bugged 
+complier in  the world). I coded some
+old effect like raytraced tunnel with
+lightsourcing,  bilinear   filtering,
+particle system and of coz 3d engine.
+If you would like check speed of your
+machnie run  intro with  -fps switch.
+Some  time  i  kill  my  brother,  he
+deleted this  info and  some code and
+i must wrote it again.
+
+			Ufok/Flow
+
+Requirements :
+
+p100, 16 mb, sb or gus,
+vesa 2.0 (LFB, 320x200x32bpp),
+some free space on hard disk
+
+Credits :
+
+Crash ......................... music
+Tiyo .......................... ascii
+Ufok ........................... code
+
+Additional :
+
+Adam Seychell ................. dos32
+FreddyV ........ useless sound system

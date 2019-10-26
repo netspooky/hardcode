@@ -1,0 +1,37 @@
+			    195/95/256
+		(party version of a party version)
+
+	original demo by Plastic (http://www.plastic-demo.org)
+
+	   squezzed into 64 KB by rgba (http://www.rgba.org)
+
+		   1st place at Euskal Encounter 13
+
+Notes:
+
+- This version is QUITE BUGGY. Cross your fingers: if it works, ok,
+  if not, please wait for a bugfixed version :). We hope it doesn't crash 
+  on the compo machine.
+
+- Precalc is VERY slow, please be patient
+
+- We suck, we know.
+
+- Final and smaller version will come. This time, it will come ;) 
+
+.code
+
+	iq
+	gortu
+	enlar
+	utopian
+
+.3d
+	marius
+	r3d
+
+.music
+	jewoll
+
+.art
+	plastic

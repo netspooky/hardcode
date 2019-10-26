@@ -1,0 +1,27 @@
+-=[ Copyrights ]=-
+ Tinystub v.1.10 is copyrighted by Crazee (crazee.cjb.net)
+ Windows and Windows XP are the trademarks of Microsoft corporation
+ StubIt, DotIt, PeClear is copyrighted by Tyler Durden
+ Use it at your own risk
+-=[ Information ]=-
+ Stub.It it's a set of programs
+ that used to make a packable .com file
+ from your intro (.exe)
+-=[ Usage ]=-
+ You need to make a link to StubIt somewhere (e.g. on your Desktop)
+ Than just drug&drop your .exe over it
+-=[ Bugs ]=-
+ Stub.It currently tested only on Windows XP (build 2600) platform
+-=[ Feedback ]=-
+ website: http://www.tylerdurden.net.ru/
+ email: stubit@tylerdurden.net.ru
+-=[ PeClear ]=-
+ PeClear used to clear some unimportant
+ bytes in PE header
+ This may be not compatable with other Windows versions
+-=[ Dot.It ]=-
+ Dot.It used to put a dot (2eh) at third byte
+ of file to make it compatable with my stub program
+-=[ Stub ]=-
+ Stub it's just a com stub program
+ This may be not compatable with other Windows versions

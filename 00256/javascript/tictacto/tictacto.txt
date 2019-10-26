@@ -1,0 +1,6 @@
+entry name=TicTacTo.htm
+author handle=flec
+author name=Matt Weaver
+email=weaver@cs.ucf.edu
+comments=Simple Tic Tac To game.  No ai or rules, just basic functionality.
+         Works under IE5, did not try it on any other browsers.

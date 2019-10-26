@@ -1,0 +1,22 @@
+
+    Eidolon
+
+A 64k brought to you by Poo-Brain
+
+Andro           | Direction, shaders
+Tropical Trevor | Code, tools, shaders
+Wurstgetrank    | Shaders
+Glow            | 2D, font, shaders
+Roeltje         | Physics code
+
+Punqtured       | Music, sound design
+Virgill         | Music, sound design
+Gopher          | 64klang2, film grain, vignette
+
+Beftex          | Co-direction, Andro-nerve-controller
+Maikel          | Concept art
+
+Massive shoutouts to:
+Duckz0rz, for jumping in with animation polish, Lotje, bmod, peerke, the people that were there in the beginning to help inspire us!
+
+About 7 months in the making, by a team that had never done a 64k together before, we hope you enjoy it as much as we do!

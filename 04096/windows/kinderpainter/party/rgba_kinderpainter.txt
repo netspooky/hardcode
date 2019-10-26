@@ -1,0 +1,53 @@
+
+                                   kinderpainter
+
+                    a fast 4k intro by rgba (http://www.rgba.org)
+ 
+                             presented at bcn party 110
+
+                                        2006
+
+
+  classical bla bla bla::
+
+  yet another fucking brute force Whitted raytracing 4k intro??? yes. 
+
+  this is a quick experiment with pixel shaders 3.0. basically it's a  software rendering
+ intro where a single glRects() is called per frame  in the host machine (the pc) and the
+ image is then calculated by a shader in the gpu.  this means, problems problems and more
+ problems to watch it, especially with the crappy drivers of a graphics card manufacturer 
+ (and it's not ATI, so gess).and of course i tested the shader code against 3DLabs's glsl 
+ Syntax Validator and it passed the test. so, what else can I do?
+ 
+  if your graphics card is only shaders 2.0 capable,(like mine) the driver will switch to
+ software  rendering.  this could make you think the intro crashed.  but if you wait long
+ enought you will see a slideshow.  funny thing is that the intro is so short (64 second)
+ that it finalizes before the first image gets rendered. and yes,i removed the "software"
+ string interception code to save some bytes, so you are warned.
+ 
+  what else.  yeah, i once said i was not going to make 4k's any more, and here i am. may
+ be you are like me, and you think that the only reason to do fast-4k-intro coding is the
+ lack of time to make a 64k demo. well, this was the case indeed. let's hope i don't have
+ to do it again.
+
+  ah, sorry for the "music",tracking is not my strong point (this helped the compression)
+ and i just spent one our of milkytracking anyway.
+
+  i hope this intro is illegalized some day.
+
+
+ 
+  credits::
+
+  .iq                            ::   code + kind-of-mzk   ::  [http://www.rgba.org/iq] 
+
+  .Blueberry/Loonies, Mentor/TBC :: crinkler exe compressor::  [http://www.crinkler.net]
+
+  .
+
+
+
+
+  well, i have to paint the walls now. 
+
+

@@ -1,0 +1,42 @@
+;-----------------------------------------------------------------------------
+;-----------------------------------------------------------------------------
+; perln256,  a 256 bytetro.                                         July, 2003
+; size:  237 bytes.
+;
+;
+; Z-Rot-Zoomer
+; with procedural texture using Perlin-Noise
+;
+;
+; Written by Carsten Koeckritz <Defjam/Checkpoint>
+; http://checkpoint.atari.org
+; http://defjam.atari.org
+; defjam_cp@gmx.net
+;
+; 
+; tested & written on a PII/350MHz,
+; might run much too fast on higher configurations.
+; try a version from /speedequ/ then. 
+; (or replace the <fidiv word ptr[ds:n160]> by another pointer. ;)
+;
+;
+; Files:
+; 
+; DISCLAIMER       in case something went wrong
+; perln256.asm     sourcecode
+; perln256.com     executable com-file
+; perln256.png     screenshot
+; perln256.txt     this text
+; /speedequ/       2 bytes larger version, but with definable speed.
+;                  + sourcecode & some pre-assembled versions.
+;                  (for faster processors)
+;
+;
+; Sorry for the too much commented source.
+; Code could be even shorter, I know.
+; Thanks to Baze's 256bytetros for the inspiration making me start
+; coding this little thingie.
+;
+; Do you recognize the ATARI(tm) Fuji(tm) like sign in the texture?  :)
+;-----------------------------------------------------------------------------
+;-----------------------------------------------------------------------------

@@ -1,0 +1,60 @@
+
+  ???===---  ---===!!!
+   (   ObTain mag   )
+  !!!===---  ---===???
+
+   Feedback  Textfile
+
+-=> Articles <=-
+
+  You can use the following `mask' to write an article for the ObTain diskmag.
+The article must be 35 chars wide and 20 lines tall at maximum. Sorry for the
+limits, but this is a 4K diskmag ;-). Wanna write more? Write for Obscurum!
+
+Now let's go back to our page. You can use this mask as a guidance:
+
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    ___________________________________
+    You are: __________________________
+
+    Note that you must not use the ` character; it's used from the engine to
+highlight the text after it's presence.
+
+-=> Comments <=-
+
+  Write an one-line comment for ObTain #2. You can write everything you want.
+I'll try to put all of them in the next ObTain, but if they take too much space
+i'll select the best of them:
+
+    You are: ___________________________________
+    You say: ___________________________________
+    (you can mix the two abone by writing only your handle and putting text
+    in the first line too)
+
+-=> Submit <=-
+
+Send this text to:
+  michalopoylos@hotmail.com
+with subject:
+  "ObTain feedback"
+  (else i may delete it because i get a lot of spam)
+
+
+Bad Sector / Nasty Bugs / Obscurum

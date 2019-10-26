@@ -1,0 +1,87 @@
+TODO for bob.ms2001.32kgame.
+
+- a graphical glitch just popped up today (a white flash, or
+  green flash according to avoozl during gameplay), or maybe 
+  i've just noticed it for the first time while it has been there
+  all along -> investigate :)
+  
+- bring the readme up to date and expand it's contents regarding the
+  gameplay itself. Also update the credits and greetings in the game
+  itself.
+
+- sync
+  sync player screens so that each players is awarded exactly 
+  the same powerups and evil monsters + holes are at the same 
+  spot. So that there is no luck involved in winning.
+
+- there's still a very very small chance that the music thread
+  will crash (if the Sleep(1) fails to transfer control to the
+  music thread) -> this should be fixed, is easy to fix, but i'm
+  just too lazy :)
+
+- here's the old design doc with still some things todo:
+
+  2 player jawbreaker remix or somesuch design document.
+  Copyright 2001 Kuno Woudt <warp-tmt@dds.nl>
+
+  -----------------------------------------------------------------------
+  -	still to do.
+  +	done, but needs some cleaning up/optimizing/finishing touches :).
+  *	properly done.
+  -----------------------------------------------------------------------
+
+  TODO
+  * directdraw
+    * windowed support
+  * directinput
+  * font data + code
+  * menu
+  * timing
+  + the game itself :)
+    * screen layout
+    * game field + bars
+    * bob
+      + CPU / AI mode :)
+    * game logic
+    * dots -> score / other texts
+    * evil mutants
+    + game over
+    * championship
+    * items
+      * game_dot
+      * game_reverse
+      * game_bars
+      * game_food
+      * game_drug
+      * game_zoom
+      * game_gravity
+      * game_prison
+      * game_speedup
+    * visual fluff when an item is activated.
+    + visual fluff when a player wins or dies.
+  * music
+  - X port (and/or svgalib port)
+
+  start with a regular jaw breaker clone, but with a split screen
+  (similar to puzzle bobble).
+
+  e.g.
+
+   _______________________________
+  | . . . . . . . | . . . . . . . |
+  |=====  ========|===  ==========|
+  | . .   1     . | . . . . . . . |
+  |==  ===========|==========  ===|
+  | . . .       . | . . .     . . |
+  |==========  ===|======  =======|
+  | . . . . . . . | . .     2   . |
+  |====  =========|==  ===========|
+  | . . . . . . . | . . . . . . . |
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   where 1 and 2 are  players, and 
+   the dots are  the dots. missing 
+   from  this ascii rendition  are 
+   the evil mutants and  delicious
+   power-ups and similar items.
+
+

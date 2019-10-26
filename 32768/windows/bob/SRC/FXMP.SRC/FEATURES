@@ -1,0 +1,55 @@
+
+Effects:
+
+ +  0 Arpeggio
+ +  1 Porta up
+ +  2 Porta down
+ +  3 Porta to note
+ +  4 Vibrato
+ +  5 Porta to note + Volume slide
+ +  6 Vibrato + Volume slide
+ +  7 Tremolo
+ +  8 Set panning
+ +  9 Sample offset
+ +  A Volume slide
+ +  B Jump to pattern
+ +  C Set volume
+ +  D Pattern break
+ - E1 Fine porta up
+ - E2 Fine porta down
+ - E3 Glissando control
+ + E4 Set vibrato waveform
+ - E5 Set finetune
+ - E6 Pattern loop
+ + E7 Set tremolo waveform
+ - E9 Retrig note
+ + EA Fine volume slide up
+ + EB Fine volume slide down
+ + EC Cut note
+ - ED Note delay
+ - EE Pattern delay 
+ +  F Set speed
+ +  G Set global volume
+ +  H Global volume slide
+ -  K Key off
+ -  L Set envelope position
+ -  P Panning slide
+ -  R Multi retrig note
+ -  T Tremor
+ - X1 Extra fine porta up
+ - X2 Extra fine porta down
+
+Volume Effects:
+
+ + 0x10-0x50 Set volume
+ - 0x60-0x6F Volume slide down
+ - 0x70-0x7F Volume slide up
+ + 0x80-0x8F Fine volume slide down
+ + 0x90-0x9F Fine volume slide up
+ - 0xA0-0xAF Set vibrato speed
+ - 0xB0-0xBF Vibrato
+ + 0xC0-0xCF Set panning
+ + 0xD0-0xDF Panning slide left
+ + 0xE0-0xEF Panning slide right
+ - 0xF0-0xFF Porta to note
+

@@ -1,0 +1,8 @@
+Well...Another entry for the wildmag 256byte HTML compo.
+This is my contribution to keep the scene spirit alive.
+Try only with IE5+ and do not expect to much!
+HTML/JavaScript are not my favourites.
+Feel free to modify or use the code.
+For contact: ryuash@cs.tu-berlin.de
+
+ryu/ash

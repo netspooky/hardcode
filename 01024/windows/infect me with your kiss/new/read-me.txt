@@ -1,0 +1,60 @@
+[[ R:E:S:I:D:E:N:T ]]
+
+	[$prod]
+		name: Infect Me With Your Kiss
+		type: 1K [973 bytes]
+
+		In theory [!], with the latest ATI drivers this should work fine on ATI,
+		but we all know this is bullshit. So, ATI might not like this. Tested on
+		nVidia 8400 and 8800 [thanks Puryx!].
+
+		Oh, requires something like SM 3.0 or 4.0; whichever supported the
+		integer operations on the GPU first.
+
+		flavours: night-vision.exe
+
+	[$code]
+		Decipher
+
+	[$info]
+		I started the code for this intro as a simple experiment on procedural
+		textures around yesterday afternoon. Then I stopped working on it for a
+		few hours and finished it today [27.12.08]. I liked how the textures
+		came out, so I decided to put a blob and code an interesting enough
+		effect and release.
+
+		I was at one point thinking of releasing this at tUM, but apparently
+		they don't allow remote entries. And I don't wanna cheat by asking
+		someone else to release it for me [actually I tried, there was just no
+		one within my reach]. Thus, it ended up being a non-party release.
+
+		Finally, MSVC compiles the very same code, size-oriented enough to be
+		999 bytes, but then Crinkler doesn't like the object file...
+
+	[$greetings]
+		Andromeda Software Development
+		Ananasmurska
+		Bronx
+		Byterapers
+		Clash
+		Conspiracy
+		Crescent
+		Demodojo
+		Fairbrausch
+		Fairlight
+		Glance
+		Loonies
+		MFX
+		Plastic
+		RGBA
+		Traction
+		TBC                               [ An extra <thank you> for Crinkler! ]
+		Youth Uprising
+
+		and everyone I forgot...
+
+	[$note]
+		Yesterday was Ferris / Youth Uprising's birthday. This intro is
+		dedicated to him and his 17th year in this world!
+
+		Happy birthday, mate!

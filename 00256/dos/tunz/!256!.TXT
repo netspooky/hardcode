@@ -1,0 +1,30 @@
+
+ ---께께께께께께--- main info ---께께께께께께---
+
+   This is a tube27^byteway contribution to Xenium 256 intro compo.
+
+
+   What the f... is that ?
+
+   Eh , this 8 crappy 256 intros are in fact a preview part of our
+   unfinished intro collection (unnamed). Of course collection
+   will consist of a 'lil bit more than 1000b pieces of code.
+   Yet there're about 14 intros and we're still working on some next.
+   We have no idea when the collection will be released. You can
+   check how our work goes by mailing or sth.
+
+ ---께께께께께께--- hardware ---께께께께께께---
+
+   It should run on every pc. No 3dfx , no sound , no MMX.
+   But it definately SHOULDN'T be run under windoze !!!!!
+   hicolor part needs gfx card that can support 320x400 mode.
+  
+   If any problems , just reboot your maschine and try on
+   clean system. It always helps.
+   
+ ---께께께께께께--- contact ---께께께께께께---
+
+   Mail:  khamoon@polbox.com or pryku@hotmail.com
+   Snail: darek pryczek 
+           motorowa 2/120     04-035
+           (+22) 673-65-29

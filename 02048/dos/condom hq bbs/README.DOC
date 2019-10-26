@@ -1,0 +1,49 @@
+                          --------------------------
+                          Condom HQ BBS Intro source
+                          --------------------------
+
+
+Introduction:
+      Hello everyone, I release the source code of Condom HQ BBS Intro as
+      public domain, so everyone can access it. The purpose of this release
+      is to help those who wants to make intros or even demos (but I think
+      everything used in this source is well know by most of demo coders).
+      You are encouraged to use this source code or part of it in your demos
+      or intros. But if you just change some lines and say I've done that:
+      congratulation, you are the 10000th to enter the lamers world club,
+      and you can F~@^]#{[`C\`|K OFF !!!
+
+
+DISCLAIMER:
+      The author will not be responsible of any problems or damages
+      associated with the use of the Condom HQ Intro source, whether they
+      be physical, financial, psychological or theoretical.
+      So if you use this program, you use it at your own risk!
+
+
+What is Condom HQ ?
+      Condom HQ is a GENERALIST BBS, even if he's got a very funny name.
+      Call now at the (33-1) 46-70-75-62, we are at Ivry Sur Seine, France.
+      There's 340 megs on line, open 24h/24h, over 110 international
+      conferences. Soon, we will have 4 CDs in a juke box.
+      The SysOp is St‚phane Boullet.
+
+
+About this program:
+      Works with TASM (tested with TASM 2.5 and 3.2) and TLINK.
+      Please use the MAKE.BAT file.
+      Please report any bug to Condom HQ BBS.
+      Designed to works with at least a 386, the program run well on
+      a 386DX/25Mhz but has never been tested on a 386SX.
+
+Version Revision:
+      Version 1.00 (17/07/94) : original code
+      Version 1.01 (18/07/94) : idem, but comment in English
+      Version 1.11 (23/07/94) : final version, debugged, problem with
+                                too fast computer fixed
+
+The End.
+
+
+
+

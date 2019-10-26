@@ -1,0 +1,101 @@
+
+                                  l i f e        
+
+                                64 kb intro
+                     presented at BCN Party '01 (spain)
+                                                                                
+                                                                                
+                    ,g##Bp,      ggp                                            
+                   ,M#####Ba     Q#B                                            
+                   Q##" \M#"     Q#B     ,__ ,__,      _gg__                    
+                   ##@ _____     Q#B     l## ]##9     d#####a                   
+                   ##@ [###D     Q#B     l## ]##9    ;##"_M#@                   
+                   ##@ [###D     Q#B     l## ]##9    [######B                   
+                   Q##a__W#D     Q#B     l##,/##9    [##_ __                    
+                   `#######@     Q#B     !######9     ###d##@                   
+                    `4###*"      *#B      9##^##*     `@##@"                    
+ 
+
+
+
+
+
+ .requirements
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+ sound : sb, gus, speaker...
+ video : 640 x 480 x 16   vesa 2.0
+ ram   : 11 megabytes
+ os    : dos/windows
+
+
+
+
+ .thanks
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+ mxm player     : niklas beisert
+ usm player     : freddy vetele
+ fmod player    :
+ pmode          : charles scheffold & thomas pytel
+ upx            : markus oberhumer & laszlo molnar
+
+
+
+ .iq
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+ tralal , tralalito... hola people, aqu¡ estoy denuevo... ya echaba de menos
+ escribir un nfo. la verdad es que me encanta.
+
+ esta vez no tengo mucho que comentar, porque la intro la ha hecho pr ctica-
+ mente murci... excepto el ya tan conocido algoritmo "vida". ah!, bueno, que
+ se me olvidaba! la m£sica la he hecho yo! :) juas juas. es mi primer m¢dulo
+ que sale a la luz... y menos mal, porque... bueno, di que es el primero que
+ hago pensado para una intro (y espero que el £ltimo), y claro... yo en 27kb
+ no puedo hacer maravillas. lo m¡o son las pijadas de pianos, flautas, coros
+ y  eso, aunque nunca he hecho nada decente.  mas no me rindo! claro, que si
+ hubiera invertido todo ese tiempo en vez de en modulos en c¢digo... en fin.
+ y  por cierto,  ¨qu‚ co¤o hago yo contandoos estas cosas?  jo!  ¨por qu‚ me
+ dej is?
+
+ bueno.  m s cosillas. tambi‚n me las he visto y deseado para bajar la intro
+ de los 92 kbytes originales hasta los 64. los objetos 3d estaban guardado a
+ pelo!, y el floats! si es que este murci...  jeje. adem s, hemos comprobado
+ que no generar las cosas es mucho m s aburrido. hay! qu‚ tiempos...
+
+ pues nada.  s¢lo queda comentar que una de las cosas guays de esta intro es
+ que funciona tanto en dos (watcom) como en windows (vc). el port se hace en
+ 3 minutos como mucho. basta con un "make"!. di que es una tonter¡a, pero...
+ vaya,  dejadnos ser un poco felices...  la intro la hab¡a empezado a montar
+ murci en windows.  cuando estaba semi acabada decidimos que  la siguiese yo
+ para meterle la  m£sica y  ponerle la sincronizaci¢n.  ten¡amos un  sistema
+ de intros montado tal que se supon¡a que nos abstra¡a del so (video, sound,
+ memoria, teclado, salidas extra¤as...).  aun as¡ no  confi bamos demasiado,
+ no s‚ por qu‚.  sin embargo, y para mi sorpresa,  en apenas unos minutillos
+ la  intro funcionaba perfectamente en  dos  (tengo que decir que adem s iba
+ m s suave que en windows...).  ­milagro! est bamos m s  felices que un ni¤o
+ con un caramelo; o mejor dicho, que un coder con una intro nueva. ya ta.
+
+ todo eso. por lo dem s, hoy tengo poco que contar. no soltar‚ chapadas esta
+ vez.
+
+
+ .murci
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+ bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
+
+
+
+ .greets
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---úú
+
+ fuzzion, centosis, rgba, network, elerium core, niako, hansa, ozone, tlotb,
+ concept, solstice, anaconda, k5
+
+

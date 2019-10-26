@@ -1,0 +1,15 @@
+spodziewam sie ze puscicie to na czyms solidnym
+
+najlepiej 486dx2 66 lub 486dx2 80
+4 meg ram
+soundblaster
+dma channel 1 (wymagany !)
+port 220h, ale inne tez moga byc
+irq 7, ale inne tez przejda
+
+aha, nie spreadujcie tego chyba ze musicie, chcialbym to intro
+przetestowac na roznym sprzecie zeby bylo calkiem bugfree
+
+po party przysle wam wersje do spreadowania
+i wrzuce ja na ftp.cdrom.com //pub/demos/incoming
+

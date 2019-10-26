@@ -1,0 +1,84 @@
+                                   ßÜ      Û     Üß           in August '1997
+        ÜÜ                   ÜÜ      ß     ß    ß       ÜÜ
+       ÛÛÛÛ                    ßßÜÜ    ÜßßßßßßßÜ    ÜÜßß
+      ÛÛİŞÛÛ                       ßß Û         Û ßß
+     ÛÛÛ  ÛÛÛ                        Û           Û
+    ŞÛÛİ  ŞÛÛİ            ßßßßßßßßßß Û           Û ßßßßßßßßßß
+    ÛÛÛ    ÛÛÛ                     ÜÜ ßÜ  İ~Ş  Üß ÜÜ
+   ÛÛÛİ    ŞÛÛÛ                ÜÜßß     Û Ş İ Û     ßßÜÜ
+  ŞÛÛÛ      ÛÛÛİ             ßß          ÛŞ İÛ          ßß
+  ÛÛÛİ      ŞÛÛÛ  ÜÛÛÛ      ßßßßßßßÛÛÛÜ  ŞÛÛÛİ ßßßßßßßÛÛÛÜ    ÜÛÛÛßßßßßß
+  ÛÛÛŞÜÜÜÜÜÜ ÛÛÛ ŞÛÛÛ        ÛÛÛ    ÛÛÛİ  ßßß  ŞÛÛÛ    ŞÛÛİ  ŞÛÛÛ
+  ÛÛÛ ßßßßßßİÛÛÛ ÛÛÛİ        ÛÛÛ    ŞÛÛÛ  ÛÛÛ  ŞÛÛÛ     ÛÛÛ  ÛÛÛİ ßßßß
+  ŞÛÛİ      ŞÛÛİ ÛÛÛİ        ÛÛÛÜÜÜÜÛÛÛß  ÛÛÛ  ŞÛÛÛ     ÛÛÛ  ÛÛÛİ
+   ßÛÛÜ    ÜÛÛß  ßÛÛÛÜÜÜÜÜÜÜ ÛÛÛ          ÛÛÛ  ŞÛÛÛ    ŞÛÛİ  ßÛÛÛÜÜÜÜÜÜÜÜ
+                                                      ÜÛÛß
+                         presents ( not too proudly )
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+    NOTHING and MORE
+ ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ
+
+ş Introduction:ŞÃÄ¿
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+  Here it is. The first Alpine production: A 64k-Intro for Wired '97.
+  First of all, we're sorry for releasing such a low-quality-intro. We would
+  have liked to release a better one as our first, but we lacked extremely
+  of time. In fact the essence of an intro, i.e the effects, were just
+  thrown together in a few days.
+  Most of the time was spent on our 3D-Engine and our Music-system.
+  Unfortunately you can't see much of the power hidden in the
+  3D-Engine ( Just this gouraud-shaded Logo... )
+  As to the Player: It is a S3M-Player with real panning support ( which was
+  neither used in this intro ) It supports SB/SBPro/SB16-Cards ( AFAIK it was
+  the only intro using the SB16 of the competition-compi ) but unfortunately
+  no GUS ( as you might have noticed, but this will change soon... ;)
+
+ş Effects:ŞÃÄ¿
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+  Fire-Intro...: Some Sync with player, particle fire, twice blurred.
+  Sky-Generator: Filled Circles, 5 times wind, 5 times blurred.
+  Nothing-Logo.: gouroud-shading...
+                 The 3DEngine would have supported Env-Mapping, but it just
+                 looked ugly with the Sky-Texture...
+  Tunnel.......: Really nothing special: Cache-optimized, depth-shading...
+  Z-Bobs.......: rendered with POV-Ray ;) , Z-Buffering, 2 Rotations with
+                 varying radiuses...
+  Endscroller..: Just that.
+
+  All in all just old and not very interesting stuff... :(
+
+ş Greetings:ŞÃÄ¿
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+
+  Tran: Thanx for PMODE!
+  Jeffrey Lim: Thanx for your help on DMA-Routines !
+  Zed: Thanx for Zed3D and your eMails!
+  Firelight: Thanx for your DOC! ;)
+  Sanction: Thanx for your hint about textures
+            ( Omniscent will stay the best 4k-Intro for a while ;)
+  Liam the Lemming,
+  Purple Motion  : Thanx for your songs ( e.g. Pianography, World of Plastic )
+                   They made debugging a lot less boring ;)
+  Triton, FC, Cubic&Seen, Pulse, Sanction, Funk!:
+         Thanx for your excellent Demos. Its always a pleasure to watch them.
+  Radical Phorce: Thanx for the logo
+  Allergy/Donhave: Hope I spelled it right ;) Thanx for letting me debug this
+                   shit on your compi!
+
+  megathanx to an unknown dude who helped us getting our equipment from the
+  bus-stop to the party-place !!!!
+
+ş Contact us:ŞÃÄ¿
+ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+  Wanna inform us about something (un)important / send bug-reports ?
+
+  Contact us at:
+    eMail: groth@kulmbach.baynet.de    ( Ziron )
+    FIDO : Denis Kovacs @ 2:2480/816.4 ( Syrius )
+
+  If you are an musician or graphician willing to join Alpine, send us some
+  examples of your best work...
+
+Signing off,
+       Syrius & Ziron of Alpine...
+

@@ -1,0 +1,33 @@
+Deadend 
+
+Australian Drug foundation
+
+4 kilobyte intro
+
+
+
+ visual: rle
+  
+  audio: mice
+
+
+
+First 4k of ADF!!
+
+Tested on some machines, worked only on ones
+
+with new nvidia gfx cards with new drivers.
+
+Gfx card should have 32 bit depth and floating
+
+point depth textures, dunno if ati cards can 
+do 
+that.. Do not expect this to be fixed.
+
+
+Greetings to: 
+3LB, Adapt, Ananasmurska, Conspiracy, 
+FLO, 
+Jumalauta, Matt Current, MFX, Sqny, 
+Traction,
+etc.

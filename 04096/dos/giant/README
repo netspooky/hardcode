@@ -1,0 +1,15 @@
+** GIANT the Ultimate 4KB-Intro!                                **
+** Source ::: Copyright (C) 1995 Sigma of Star Team Productions **
+
+File:           Description:
+============================
+GIANT.COM     - the intro file
+GIANT.ASM     - the assembler source for it!
+GIANT.OBJ     - object file for it!
+GIANT.ZIP     - the original distribution file
+MAKE.BAT      - batch file to compile the demo
+README        - this file
+FILE_ID.DIZ   - file info
+
+Please, read the GIANT.ASM for more details.
+

@@ -1,0 +1,9 @@
+"Self-Dump" 256 byte HTML+JavaScript
+Internet Explorer 5.0 and Internet Explorer 6.0 tested
+
+693 byte: first version by mados
+http://www.tap-home.de
+
+240 byte: smallest version possible by Mr.Heat
+256 byte: filled remaining bytes by Mr.Heat
+http://www.kindertreter.de

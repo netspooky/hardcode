@@ -1,0 +1,52 @@
+............................
+    SUBOCEANIC 64K INTRO    
+            by              
+Tomasz Dobrowolski aka Tomkh
+           for              
+       ASSEMBLY 2005        
+WWW: http://ged.ax.pl/~tomkh
+............................
+First time at any demoscene 
+party!
+This is actually 50K intro,
+I ran out of time and 64K
+is just so much space!
+............................
+System requirements:
+   Pentium 3 800MHz
+   OpengGL 1.5+
+   Geforce 2 MX or better
+   800x600x32
+
+Run "sub64td.exe w" 
+for windowed mode.
+Create "texcache" dir
+to speed up precalculation
+next time.
+............................
+Credits:
+  Tomkh - everything
+ 
+  No 3rd party modelers,
+  trackers, libraries
+  My own custom tracker,
+  realtime synth and modeler
+  All objects made with
+  iterative rules
+  Realtime growing from 
+  single cell (last scene)
+  Procedural music
+  (patterns can be called
+   like procedures with
+   a little more parameters 
+   than just pitch/volum ;))
+  
+
+External tools:
+  Upack by Dwing
+  (exe compression)
+  Evaldraw by Ken Silverman
+  (prototyping equations)
+............................
+Greets for all!
+............................

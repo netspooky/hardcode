@@ -1,0 +1,138 @@
+
+  				TURN IT BACK
+			      <--------------<
+				  by Seven
+
+Introduction:
+-------------
+Ok, here it is. My third 4K-intro, this time with music, pmode & vesa, all
+  things I've never done before (not even in a non-4K). So if you think the
+  music sucks, the memory requirements are too high and low-res modes are
+  outdated, don't bother telling me. I know that already. Else you can send
+  me your comments at Stefaan.VanNieuwenhuze@rug.ac.be
+
+  Hope you enjoy it,
+  Seven
+
+Blame it on ...:
+----------------
+The reason I had to add so many new things is that other people keep setting
+  the standard higher, even in 4K-intros, and so I'm obliged to follow. Much
+  respect to Picard for showing with Mesha that protected mode is possible in
+  4K, and for Franky & Shiva for making adlib-music outdated by using voice-
+  synthesis in Void 3. The initialisation is 85% based on the stub from Void 3,
+  by the way. The music-system was originally from Psi/Future Crew and has been
+  adapted by The Watcher/TUHB, who was so kind to give my a copy that I could
+  mutilate. Thanks to Coplan/Immortal Coil for listing to the first versions of
+  my self-made tune and giving some constructive criticism. The file is
+  compressed by Jibz's Apack, and the rest of the code was 100% guessed by me.
+
+Requirements:
+-------------
+- 9 MB of RAM with a 32-bit DPMI-manager. (If you don't know what that is, you
+  might be a windows-user. Just run it in a dos-box and you'll be fine).
+  DOS4GW and CWSDPMI don't work, as they do not support COM-files :-(
+- A VESA2 compliant videocard with mode 320*200*32 with LFB (Lineair Frame
+  Buffer)
+
+If the above is missing, Turn It Back will confuse you with "DPMI?" or "VESA?".
+
+- a rather powerfull PC (made on a PII 350...)
+- An adlib-compatible sound-device. If you don't have it, the data send to the
+  hardware should cause no harm, but if it does (or you don't like the music,
+  shame on you!), enter anything on the command-line to silence it.
+
+Complaints & Answers:
+---------------------
+C) I CAN'T HEAR THE MUSIC!
+A) If you can't hear sound:
+  1) you might be deaf.
+  2) you should consider yourself lucky (it's not really a masterpiece).
+  3) your amplifier or boxes are not connected or have the volume at zero.
+  4) you have entered a command-line argument, which shuts the music down.
+  5) your soundcard does not support adlib. I took the following quote from the
+    info-file of Purple Dreams II/The Watcher. As I'm using the same music-
+    system, this also applies here.
+
+     "Special note: The music in this 4k intro is pure Adlib. Some cards,     
+      like the Sound Blaster AWE 64, don't fully support Adlib natively.      
+      In case of the AWE64, first "aweutil /s" needs to be executed before    
+      anything will be heared."
+
+C) IT HANGS UP MY COMPUTER!
+A) This can be due to a variety of reasons, such as your computer having not
+  enough free RAM (9 MB required), or me being a lousy coder (the most
+  probable). By adding a command-line argument, the timer-interrupt for the
+  music is not loaded, so you maybe you can avoid some problems that way. Else
+  you can try restarting, but remember to stop after a few days.
+
+C) IT IS SOOOO SLOOOOOW!
+A) Hey, it's optimized for size, not for speed. To make things worse, it was
+  made on a PII 350, and the compo-machine at Inscene will be equally power-
+  full, and I want to give the audience something worth watching (if it doesn't
+  crash, that is). There's no reason it should't run on a slower machine, but
+  it will take (much) longer. The nature of the effects makes it impossible to
+  skip frames, so you should wait a few years until you have a faster machine
+  :-(. If you are using Windoze9X, running other tasks in the background makes
+  it slower than a snail on a monday morning, but you knew that already, right?
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What do you mean this info-file is too large? It's only 4K!

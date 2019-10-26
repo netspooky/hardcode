@@ -1,0 +1,63 @@
+
+
+       TAKSI - 4KB INTRO BY SLIVER/BRAINLEZ CODERS! (Ismo Saarelainen)
+       ---------------------------------------------------------------
+
+           ( My Contribution To Assembly'95 4kb Intro Compo ;) )
+
+                
+INFORMATION ABOUT THE INTRO:
+----------------------------
+
+        The 13 frame animation to this intro was made in horry somewhere
+        in the time of 1995. All graphics is drawn in TheDraw 4.62, and
+        code is written in Borland Turbo Pascal 7.0, but it's mainly 
+        ASSEMBLER to get the smallest possible size. The EXEcutable file
+        is compiled with TPC.EXE which came with Turbo Pascal 7.0 and
+        packed with DIET 1.45f. Graphics were drawn by Sliver/Brainlez
+        Coders! and so is the code also written by Sliver/Brainlez Coders!
+        ANSI graphics were included to the code with TheDraw's "SAVE TO
+        PASCAL" option and Crunched with it. This info file is written
+        in Technical Editor 2.61 by Sliver/Brainlez Coders!
+        
+
+
+INFORMATION ABOUT THE LEGAL SHIT:
+---------------------------------
+        
+  This material is not freeware. You are allowed to copy it without         
+  restrictions for non-commercial use.                                      
+                                                                            
+  No payment of any kind may be charged for this product or any combination 
+  of products or services including this product without our authorization  
+  and official written license.                                             
+                                                                            
+  Commercial use, especially the industrial manufacturing on any data       
+  storage media and their distribution without the expressed permission of  
+  the producer, is strictly prohibited.                                     
+                                                                            
+  This program or the data files contained therein may not be altered or    
+  modified without the permission of the author.                            
+                                                                            
+  You take full responsibility for the operation of this software and any   
+  consequences thereof. We the creators can not accept liability for damages
+  or failures arising from the use of this software.                        
+
+
+INFORMATION ABOUT THE PROGRAMS USED WHEN MAKING THIS INTRO:
+-----------------------------------------------------------
+
+        * Turbo Pascal 7.0 - (c) 1983,92 Borland
+
+        * The Draw 4.62 - (c) 1986,93 TheSoft Programming Services and 
+                                      Ian E. Davis
+
+        * DIET 1.45f - (c) 1992 Teddy Matsumoto
+        
+        * Technical Edititor 2.61 - (c) 1988,91 Superior Soft
+
+        * Taksi 4kb Intro - (c) 1995 Sliver/Brainlez Coders!
+        
+ 
+
+

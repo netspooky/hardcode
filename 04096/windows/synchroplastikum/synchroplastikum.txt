@@ -1,0 +1,29 @@
+   _   _   _
+__/ \_/ \_/ \___[synchroplastikum]
+
+          ____________________________
+          Celebrating 20 years of code
+                  by Minas of Calodox!
+
+   ___________________________________        
+   Requires a better 3D card than mine
+       (PS2.0, and faster than a 9600)
+
+ _____________________________________
+ A standard version and a gamma-2 (for
+   beamers) version are provided. Uses
+  crinkler for compression (it rocks!)
+
+______________________________________
+    This final version includes faster
+      versions as well. These versions
+  produce a nearly-identical result to
+the original (a different pixel shader
+ is used for the reflections, they are
+   therefore not identical to what the
+  original showed). Some nVidia tweaks
+  are also included, although I cannot
+    guarantee that they are of any use 
+    since I do not own an nVidia card.
+        Hi-res and lo-res versions are 
+                             provided.
